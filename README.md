@@ -22,9 +22,16 @@ _Bude doplněno po inventarizaci pramenů._
 
 ## Stav projektu
 
-| Místo | Stav | Nejstarší doložená zmínka |
-|---|---|---:|
-| _Zatím bez záznamů_ |  |  |
+| Část práce | Stav |
+|---|---|
+| Inventář nahraných pramenů | dokončen: 209 dokumentů; doplněny 3 oficiální webové zdroje |
+| Základní katalog míst | dokončen první průchod: 61 míst |
+| Evidence tvrzení | založeno 61 souborů s ověřenými nebo výslovně označenými nejistými tvrzeními |
+| Výběr pilotního místa | navrženy tři možnosti, čeká se na potvrzení |
+| Rozpracované články | žádné |
+
+Katalog míst je veden v [`research/places.yml`](research/places.yml). Návrh pilotních míst je v
+[`research/notes/navrh-pilotnich-mist.md`](research/notes/navrh-pilotnich-mist.md).
 
 ## Struktura repozitáře
 

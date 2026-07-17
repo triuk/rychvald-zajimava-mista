@@ -1,0 +1,18 @@
+# Systémové soubory
+.DS_Store
+Thumbs.db
+
+# Dočasné soubory
+*.tmp
+*.bak
+~*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editory
+.vscode/
+.idea/

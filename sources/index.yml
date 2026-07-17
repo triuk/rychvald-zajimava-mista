@@ -7112,3 +7112,88 @@ sources:
     status: unclear
     note: Vydavatel je v tiráži nebo záhlaví uveden jako Město Rychvald; licence pro další zveřejnění nebyla ověřena.
   notes: []
+web_sources:
+- source_id: web-npu-rychvald-zamek
+  title: Zámek – kulturní památka, Rychvald
+  document_type: oficialni_online_registr_pamatek
+  institution: Národní památkový ústav
+  url: https://pamatkovykatalog.cz/pravni-ochrana/zamek-132144
+  accessed: '2026-07-17'
+  time_period:
+    from: null
+    to: '2026-07-17'
+  file: null
+  page_count: null
+  digital_format: HTML
+  readability:
+    status: good
+    note: Veřejně přístupný záznam Památkového katalogu.
+  visual_content:
+    photographs: present
+    maps: present
+    indexes: not_applicable
+    method: Záznam obsahuje zákres kulturní památky v katastrální mapě.
+  missing_pages:
+    status: not_applicable
+    note: Online databázový záznam nemá stránkování.
+  rights:
+    status: unclear
+    note: Podmínky dalšího užití textu, map a fotografií nebyly ověřeny.
+  notes:
+  - Použito pouze jako oficiální doklad identifikace a lokalizace památky.
+- source_id: web-npu-kostel-sv-anny-rychvald
+  title: Kostel sv. Anny, Rychvald
+  document_type: oficialni_online_registr_pamatek
+  institution: Národní památkový ústav
+  url: https://pamatkovykatalog.cz/kostel-sv-anny-12895366
+  accessed: '2026-07-17'
+  time_period:
+    from: null
+    to: '2026-07-17'
+  file: null
+  page_count: null
+  digital_format: HTML
+  readability:
+    status: good
+    note: Veřejně přístupný evidenční záznam Památkového katalogu.
+  visual_content:
+    photographs: present
+    maps: unknown
+    indexes: not_applicable
+    method: Záznam obsahuje evidenční materiály k památce.
+  missing_pages:
+    status: not_applicable
+    note: Online databázový záznam nemá stránkování.
+  rights:
+    status: unclear
+    note: Podmínky dalšího užití textu a fotografií nebyly ověřeny.
+  notes:
+  - Použito pouze jako oficiální doklad identifikace a lokalizace památky.
+- source_id: web-msk-pr-skucak
+  title: Skučák – maloplošné zvláště chráněné území
+  document_type: oficialni_web_ochrany_prirody
+  institution: Moravskoslezský kraj
+  url: https://www.msk.cz/cs/temata/zivotni_prostredi/skucak-3054/
+  accessed: '2026-07-17'
+  time_period:
+    from: null
+    to: '2026-07-17'
+  file: null
+  page_count: null
+  digital_format: HTML
+  readability:
+    status: good
+    note: Veřejně přístupná oficiální stránka Moravskoslezského kraje.
+  visual_content:
+    photographs: present
+    maps: unknown
+    indexes: not_applicable
+    method: Vizuální obsah nebyl určen k převzetí do projektu.
+  missing_pages:
+    status: not_applicable
+    note: Online stránka nemá stránkování.
+  rights:
+    status: unclear
+    note: Podmínky dalšího užití textu a fotografií nebyly ověřeny.
+  notes:
+  - Použito jako aktuální úřední doklad kategorie ochrany, katastrálního území a platného vyhlašovacího předpisu.

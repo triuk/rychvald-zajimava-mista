@@ -1,0 +1,13 @@
+place_id: novy-dvur
+claims:
+- claim_id: novy-dvur-001
+  place_id: novy-dvur
+  statement: Nový dvůr podle kroniky tvořily domy čp. 13 a 90 severně od zámku.
+  date_or_period: před 1928
+  source_id: kronika-ka631
+  locator: ř. 4586–4605
+  supporting_excerpt: „Nový dvůr“; tento poslední jsou 2 čísla domu (čp. 13 a 90)
+  verification_status: partially_verified
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.

@@ -1,0 +1,12 @@
+place_id: skola-u-smuku
+claims:
+- claim_id: skola-u-smuku-001
+  place_id: skola-u-smuku
+  statement: První česká škola moderní doby byla založena roku 1903 na dolním Podlesí U Šmuků.
+  date_or_period: '1903'
+  source_id: rz-2012-11
+  locator: s. 10
+  supporting_excerpt: V roce 1903 byla založena první česká škola moderní doby na dolním Podlesí (U Šmuků)
+  verification_status: verified
+  confidence: high
+  note: ''

@@ -1,0 +1,12 @@
+place_id: rybnik-cihelnik
+claims:
+- claim_id: rybnik-cihelnik-001
+  place_id: rybnik-cihelnik
+  statement: Zpravodaj roku 2011 uvádí možnost sportovního rybolovu na Velkém Cihelníku.
+  date_or_period: '2011'
+  source_id: rz-2011-04
+  locator: s. 9
+  supporting_excerpt: možnost lovu ryb na Velkém Cihelníku
+  verification_status: verified
+  confidence: high
+  note: Totožnost s historickým Cihelňákem je zatím jen pravděpodobná.

@@ -1,1 +1,1719 @@
-places: []
+catalog_status:
+  scope: základní systematický průchod všech 209 nahraných dokumentů
+  generated_from: ručně ověřené pasáže po celotextovém vyhledání; automatické shody nebyly samy o sobě použity jako
+    tvrzení
+  latest_mention_scope: Poslední ručně ověřená zmínka zapsaná v evidenci tvrzení; další automatické textové shody
+    mohou po kontrole časový rozsah rozšířit.
+  current_location_warning: Současná poloha a stav musí být před článkem ověřeny samostatným aktuálním zdrojem.
+places:
+- place_id: rychvaldsky-zamek
+  canonical_name: Rychvaldský zámek
+  alternative_and_historical_names:
+  - Zámek Rychvald
+  - zámek v Rychvaldě
+  place_type: zámek
+  earliest_documented_mention:
+    date_or_period: 1573 / 1595
+    status: conflicting
+    sources:
+    - source_id: rz-2011-04
+      locator: s. 3
+    - source_id: kronika-ka631
+      locator: ř. 4564–4575
+  main_sources:
+  - rz-2011-04
+  - kronika-ka631
+  - web-npu-rychvald-zamek
+  significance: Nejstarší dochovaná světská stavba uváděná v pramenech; zdroje se rozcházejí v dataci přestavby.
+  localization:
+    status: localized
+    precision: object
+    evidence: Památkový katalog uvádí čp. 1 a katastrální zákres (`web-npu-rychvald-zamek`, stav ověřen 2026-07-17).
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2011-04, s. 3 a 9
+  article_status: not_started
+  notes_and_uncertainties: Dataci 1573/1595 je nutné ověřit v odborném nebo památkovém prameni.
+  latest_documented_mention:
+    date_or_period: stav ověřen 2026-07-17
+    source_id: web-npu-rychvald-zamek
+    locator: záhlaví záznamu a část s katastrální mapou
+    verification_status: verified
+- place_id: kostel-svate-anny
+  canonical_name: Kostel svaté Anny
+  alternative_and_historical_names:
+  - římskokatolický kostel sv. Anny
+  - katolický kostel
+  place_type: kostel
+  earliest_documented_mention:
+    date_or_period: 1595–1596
+    status: verified
+    source_id: rz-2011-04
+    locator: s. 3
+  main_sources:
+  - rz-2011-04
+  - web-npu-kostel-sv-anny-rychvald
+  significance: Pozdně gotický kostel a kulturní památka.
+  localization:
+    status: localized
+    precision: object
+    evidence: Památkový katalog identifikuje objekt v Rychvaldu na parcele č. 305 (`web-npu-kostel-sv-anny-rychvald`, stav ověřen 2026-07-17).
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2011-04, s. 3
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: stav ověřen 2026-07-17
+    source_id: web-npu-kostel-sv-anny-rychvald
+    locator: záhlaví evidenčního záznamu
+    verification_status: verified
+- place_id: husuv-sbor
+  canonical_name: Husův sbor
+  alternative_and_historical_names:
+  - kostel Církve československé husitské
+  - husitský kostel
+  place_type: kostel
+  earliest_documented_mention:
+    date_or_period: '1925'
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 8
+  main_sources:
+  - kronika-1989-2000
+  significance: Druhý rychvaldský kostel, spojený se vznikem místní obce Církve československé.
+  localization:
+    status: localized
+    precision: object
+    evidence: '`kronika-1989-2000`, s. 8; přesnou současnou adresu je třeba ověřit.'
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2016-10, s. 13
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1925'
+    source_id: kronika-1989-2000
+    locator: s. 8
+    verification_status: verified
+- place_id: rybnik-skucak
+  canonical_name: Rybník Skučák
+  alternative_and_historical_names:
+  - Škuťák
+  - Škuták
+  place_type: rybník / přírodní rezervace
+  earliest_documented_mention:
+    date_or_period: před 1928
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 353–366
+  main_sources:
+  - rz-2011-04
+  - web-msk-pr-skucak
+  significance: Významný rybník a přírodní rezervace; prameny zachycují více pravopisných podob názvu.
+  localization:
+    status: localized
+    precision: area
+    evidence: Moravskoslezský kraj uvádí katastrální území Rychvald a výměru 30,08 ha (`web-msk-pr-skucak`, stav ověřen 2026-07-17).
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2011-04, s. 9
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: stav ověřen 2026-07-17
+    source_id: web-msk-pr-skucak
+    locator: část „Základní identifikační údaje“
+    verification_status: verified
+- place_id: rybnik-cihelnik
+  canonical_name: Rybník Cihelník
+  alternative_and_historical_names:
+  - Cihelňák
+  - Velký Cihelník
+  place_type: rybník
+  earliest_documented_mention:
+    date_or_period: před 1928
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 353–366
+  main_sources:
+  - rz-2011-04
+  significance: Jeden z historicky popsaných velkostatkových rybníků; novější pramen používá název Velký Cihelník.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: '`rz-2011-04`, s. 9; je třeba ověřit vztah názvů Cihelňák, Cihelník a Velký Cihelník.'
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: Sloučení historického a novějšího názvu vyžaduje mapové ověření.
+  latest_documented_mention:
+    date_or_period: '2011'
+    source_id: rz-2011-04
+    locator: s. 9
+    verification_status: verified
+- place_id: rybnik-novy-stav
+  canonical_name: Rybník Nový stav
+  alternative_and_historical_names:
+  - Nový stav
+  place_type: rybník
+  earliest_documented_mention:
+    date_or_period: před 1928
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 353–366
+  main_sources:
+  - kronika-1989-2000
+  significance: Historický velkostatkový rybník, v jehož okolí vznikla důlní a později průmyslová zařízení.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: '`kronika-1989-2000`, s. 9 a 12.'
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 50. léta 20. století
+    source_id: kronika-1989-2000
+    locator: s. 12
+    verification_status: verified
+- place_id: rybnik-podkostelnak
+  canonical_name: Rybník Podkostelňák
+  alternative_and_historical_names:
+  - Podkostelnák
+  place_type: zaniklý nebo proměněný rybník
+  earliest_documented_mention:
+    date_or_period: před 1928
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 353–366
+  main_sources:
+  - kronika-ka631
+  significance: Historický rybník pod kostelem; kronika zaznamenává úvahy o jeho vysušení a jiném využití.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Historický popis „pod kostelem“ v `kronika-ka631`, ř. 353–366.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: Současný stav a přesné hranice nejsou z nahraných pramenů bezpečně určeny.
+  latest_documented_mention:
+    date_or_period: před 1928
+    source_id: kronika-ka631
+    locator: ř. 353–366
+    verification_status: partially_verified
+- place_id: potok-struzka
+  canonical_name: Potok Stružka
+  alternative_and_historical_names:
+  - Stružka
+  place_type: vodní tok
+  earliest_documented_mention:
+    date_or_period: '1925'
+    status: verified
+    source_id: rz-2014-02
+    locator: s. 4
+  main_sources:
+  - rz-2014-02
+  significance: Vodní tok spojený s historickými povodněmi i mlýnským náhonem.
+  localization:
+    status: localized
+    precision: linear
+    evidence: '`rz-2014-02`, s. 4; přesný současný průběh vyžaduje mapový zdroj.'
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1925-08-03'
+    source_id: rz-2014-02
+    locator: s. 4
+    verification_status: verified
+- place_id: les-brezinka
+  canonical_name: Les Březinka
+  alternative_and_historical_names:
+  - Březina
+  place_type: les
+  earliest_documented_mention:
+    date_or_period: '1968'
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 12
+  main_sources:
+  - kronika-1989-2000
+  significance: Les na pomezí Rychvaldu a Záblatí, spojený se sovětským táborem roku 1968 a místní studánkou.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: '`kronika-1989-2000`, s. 12 a 131.'
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: srpen–listopad 1968
+    source_id: kronika-1989-2000
+    locator: s. 12
+    verification_status: verified
+- place_id: rychvaldska-studanka
+  canonical_name: Rychvaldská studánka
+  alternative_and_historical_names:
+  - studánka v Březince
+  - studánka v lese Březina
+  place_type: studánka
+  earliest_documented_mention:
+    date_or_period: '1998'
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 131
+  main_sources:
+  - kronika-1989-2000
+  significance: Tradiční vodní zdroj, jehož voda byla laboratorně zkoumána.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Pomezí Rychvaldu a Záblatí v lese Březinka, `kronika-1989-2000`, s. 131.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2011-04, s. 9
+  article_status: not_started
+  notes_and_uncertainties: Označení Březina/Březinka je nutné sjednotit mapovým pramenem.
+  latest_documented_mention:
+    date_or_period: '1998'
+    source_id: kronika-1989-2000
+    locator: s. 131
+    verification_status: verified
+- place_id: studanka-karolinka
+  canonical_name: Studánka Karolínka
+  alternative_and_historical_names:
+  - Karolínka
+  place_type: studánka
+  earliest_documented_mention:
+    date_or_period: doložena ve zdroji z roku 2011
+    status: verified
+    source_id: rz-2011-04
+    locator: s. 9
+  main_sources:
+  - rz-2011-04
+  significance: Bývalý zdroj pitné vody u staré kolonie na Václavu.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Mezi ulicemi Na Václavu a Hornická, `rz-2011-04`, s. 9.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: Stav vody i existence studánky po roce 2011 nejsou ověřeny.
+  latest_documented_mention:
+    date_or_period: '2011'
+    source_id: rz-2011-04
+    locator: s. 9
+    verification_status: verified
+- place_id: dul-stalin-rudy-rijen
+  canonical_name: Důl Stalin / Rudý říjen
+  alternative_and_historical_names:
+  - Důl Stalin
+  - Rudý říjen
+  - areál Autopal
+  place_type: důlní a průmyslový areál
+  earliest_documented_mention:
+    date_or_period: 50. léta 20. století
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 12
+  main_sources:
+  - kronika-1989-2000
+  significance: Větrací šachta a pozdější průmyslový areál u Nového stavu.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: U rybníka Nový stav, `kronika-1989-2000`, s. 12.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 50. léta 20. století
+    source_id: kronika-1989-2000
+    locator: s. 12
+    verification_status: verified
+- place_id: kosicko-bohuminska-draha
+  canonical_name: Košicko-bohumínská dráha
+  alternative_and_historical_names:
+  - Košická dráha
+  place_type: železniční trať
+  earliest_documented_mention:
+    date_or_period: 1867 / 1870
+    status: conflicting
+    sources:
+    - source_id: kronika-1989-2000
+      locator: s. 7
+    - source_id: kronika-ka631
+      locator: ř. 265–304
+  main_sources:
+  - kronika-1989-2000
+  - kronika-ka631
+  significance: Železniční trať zásadní pro dopravní a hospodářský vývoj obce.
+  localization:
+    status: localized
+    precision: linear
+    evidence: '`kronika-1989-2000`, s. 7; přesný průběh vyžaduje mapový zdroj.'
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: Rozpor 1867/1870 může souviset s etapami výstavby nebo nepřesností pramenů.
+  latest_documented_mention:
+    date_or_period: '1867'
+    source_id: kronika-1989-2000
+    locator: s. 7
+    verification_status: conflicting
+- place_id: zastavka-rychvald-misto
+  canonical_name: Železniční zastávka Rychvald-místo
+  alternative_and_historical_names:
+  - Rychvald – místo
+  - nádraží ve středu obce
+  place_type: železniční zastávka
+  earliest_documented_mention:
+    date_or_period: 19. století
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 7
+  main_sources:
+  - kronika-1989-2000
+  significance: Jedna ze dvou historických rychvaldských železničních zastávek.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Střed obce, `kronika-ka632-27`, ř. 1719–1723.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 19. století
+    source_id: kronika-1989-2000
+    locator: s. 7
+    verification_status: verified
+- place_id: zastavka-rychvald-zamek
+  canonical_name: Železniční zastávka Rychvald-zámek
+  alternative_and_historical_names:
+  - Rychvald – zámek
+  place_type: železniční zastávka
+  earliest_documented_mention:
+    date_or_period: 19. století
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 7
+  main_sources:
+  - kronika-1989-2000
+  significance: Historická zastávka spojovaná v kronice s majitelem panství.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Vazba na zámek, `kronika-1989-2000`, s. 7.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 19. století
+    source_id: kronika-1989-2000
+    locator: s. 7
+    verification_status: verified
+- place_id: zastavka-vyhybka
+  canonical_name: Bývalá zastávka Vyhýbka
+  alternative_and_historical_names:
+  - Rychvald-zastávka
+  - Vyhýbka
+  place_type: zaniklá železniční zastávka
+  earliest_documented_mention:
+    date_or_period: existovala do roku 1916
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 297–306
+  main_sources:
+  - kronika-ka631
+  significance: Třetí historicky uváděná zastávka, zrušená během první světové války.
+  localization:
+    status: unlocated
+    precision: unknown
+    evidence: Textový přepis neumožňuje bezpečné určení místa.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1916'
+    source_id: kronika-ka631
+    locator: ř. 297–306, oddíl „Dráha“
+    verification_status: partially_verified
+- place_id: fojtstvi
+  canonical_name: Fojtství
+  alternative_and_historical_names:
+  - Na Fojtství
+  - obecní hostinec na Fojtství
+  place_type: historický dům / hostinec
+  earliest_documented_mention:
+    date_or_period: doloženo v kronice sestavené do roku 1928
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 1694–1713
+  main_sources:
+  - kronika-ka631
+  significance: Historický obecní dům čp. 45 se sálem, jevištěm a hostinskou koncesí.
+  localization:
+    status: partially_localized
+    precision: historical_address
+    evidence: Čp. 45, `kronika-ka631`, ř. 1694–1713.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: před 1928
+    source_id: kronika-ka631
+    locator: ř. 1694–1713
+    verification_status: partially_verified
+- place_id: stary-dvur
+  canonical_name: Starý dvůr
+  alternative_and_historical_names: []
+  place_type: hospodářský dvůr
+  earliest_documented_mention:
+    date_or_period: doložen v kronice sestavené do roku 1928
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 4564–4595
+  main_sources:
+  - kronika-ka631
+  significance: Součást historického rychvaldského panství.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Vazba na zámek v `kronika-ka631`, ř. 4564–4595.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: před 1928
+    source_id: kronika-ka631
+    locator: ř. 4564–4595, oddíl „XII. Zámek Rychvald“
+    verification_status: partially_verified
+- place_id: novy-dvur
+  canonical_name: Nový dvůr
+  alternative_and_historical_names: []
+  place_type: hospodářský dvůr
+  earliest_documented_mention:
+    date_or_period: doložen v kronice sestavené do roku 1928
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 4586–4605
+  main_sources:
+  - kronika-ka631
+  significance: Součást panství tvořená podle kroniky domy čp. 13 a 90 a hospodářskými budovami.
+  localization:
+    status: partially_localized
+    precision: historical_address
+    evidence: Čp. 13 a 90 severně od zámku, `kronika-ka631`, ř. 4586–4605.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: před 1928
+    source_id: kronika-ka631
+    locator: ř. 4586–4605
+    verification_status: partially_verified
+- place_id: dvorek-panstvi
+  canonical_name: Dvorek
+  alternative_and_historical_names:
+  - Dvorek velkostatku
+  place_type: hospodářský dvůr
+  earliest_documented_mention:
+    date_or_period: doložen v kronice sestavené do roku 1928
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 4596–4612
+  main_sources:
+  - kronika-ka631
+  significance: Třetí hospodářská součást panství na východním návrší od zámku.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Východní návrší od zámku, `kronika-ka631`, ř. 4596–4612.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: před 1928
+    source_id: kronika-ka631
+    locator: ř. 4596–4612
+    verification_status: partially_verified
+- place_id: stara-skola-cp39
+  canonical_name: Stará škola čp. 39
+  alternative_and_historical_names:
+  - první školní budova
+  - pozdější obecní úřad
+  place_type: škola / obecní úřad
+  earliest_documented_mention:
+    date_or_period: '1821'
+    status: verified
+    source_id: rz-2012-11
+    locator: s. 10
+  main_sources:
+  - rz-2012-11
+  significance: První jasně lokalizovaná školní budova, později sídlo obecních kanceláří a četnictva.
+  localization:
+    status: localized
+    precision: historical_address
+    evidence: Čp. 39, `rz-2012-11`, s. 10.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: Je třeba ověřit totožnost s dnešní budovou a současnou adresou.
+  latest_documented_mention:
+    date_or_period: '1821'
+    source_id: rz-2012-11
+    locator: s. 10
+    verification_status: verified
+- place_id: skola-u-kostela-cp404
+  canonical_name: Škola u kostela čp. 404
+  alternative_and_historical_names:
+  - polská škola u kostela
+  - česká škola v centru
+  - dnešní ZUŠ
+  place_type: škola
+  earliest_documented_mention:
+    date_or_period: 1877–1878
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 3510–3545
+  main_sources:
+  - kronika-ka631
+  - rz-2012-11
+  significance: Historická školní budova v centru, spojená s českým i polským školstvím.
+  localization:
+    status: partially_localized
+    precision: historical_address
+    evidence: Čp. 404 vedle obecního úřadu, `kronika-ka631`, ř. 1694–1713.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2012-11, s. 10
+  article_status: not_started
+  notes_and_uncertainties: Vztah budovy čp. 404 a označení dnešní ZUŠ je třeba ověřit katastrálně.
+  latest_documented_mention:
+    date_or_period: '1906'
+    source_id: rz-2012-11
+    locator: s. 10
+    verification_status: verified
+- place_id: skola-u-smuku
+  canonical_name: Škola U Šmuků
+  alternative_and_historical_names:
+  - škola na dolním Podlesí
+  - první česká škola moderní doby
+  - čp. 463
+  place_type: škola
+  earliest_documented_mention:
+    date_or_period: '1903'
+    status: verified
+    source_id: rz-2012-11
+    locator: s. 10
+  main_sources:
+  - rz-2012-11
+  significance: První česká škola moderní doby v Rychvaldu.
+  localization:
+    status: partially_localized
+    precision: historical_area
+    evidence: Dolní Podlesí, `rz-2012-11`, s. 10; textová kronika uvádí čp. 463.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2012-11, s. 10
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1903'
+    source_id: rz-2012-11
+    locator: s. 10
+    verification_status: verified
+- place_id: skola-u-lastuvku
+  canonical_name: Škola U Laštůvků
+  alternative_and_historical_names:
+  - škola na horním Podlesí
+  - podleská škola
+  - čp. 529
+  place_type: škola
+  earliest_documented_mention:
+    date_or_period: 1904 / 1906
+    status: uncertain
+    sources:
+    - source_id: kronika-ka631
+      locator: ř. 3569–3590
+    - source_id: rz-2012-11
+      locator: s. 10
+  main_sources:
+  - rz-2012-11
+  - kronika-ka631
+  significance: Historická polská škola na horním Podlesí, později česká.
+  localization:
+    status: partially_localized
+    precision: historical_address
+    evidence: Čp. 529 podle `kronika-ka631`, ř. 1694–1713.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2012-11, s. 10
+  article_status: not_started
+  notes_and_uncertainties: Rozdíl 1904/1906 může znamenat rok stavby a rok otevření; je třeba ověřit.
+  latest_documented_mention:
+    date_or_period: '1906'
+    source_id: rz-2012-11
+    locator: s. 10
+    verification_status: verified
+- place_id: skola-vaclav
+  canonical_name: Škola na Václavu
+  alternative_and_historical_names:
+  - škola na Alpince
+  - ZŠ Rychvald-Václav
+  - čp. 632
+  place_type: škola
+  earliest_documented_mention:
+    date_or_period: '1912'
+    status: verified
+    source_id: rz-2012-11
+    locator: s. 10
+  main_sources:
+  - rz-2012-11
+  significance: Školní budova založená pro děti z hornické kolonie Alpinka, dnešního Václavu.
+  localization:
+    status: localized
+    precision: object
+    evidence: '`rz-2012-11`, s. 10; současnou adresu je třeba ověřit.'
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2012-11, s. 10
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1912-10-01'
+    source_id: rz-2012-11
+    locator: s. 10
+    verification_status: verified
+- place_id: nemecka-skola
+  canonical_name: Německá škola spolku Schulverein
+  alternative_and_historical_names:
+  - německá škola za Dělnickým domem
+  place_type: zaniklá škola
+  earliest_documented_mention:
+    date_or_period: '1912'
+    status: verified
+    source_id: rz-2012-11
+    locator: s. 10
+  main_sources:
+  - rz-2012-11
+  significance: Jediná německá škola uváděná v souboru rychvaldských škol před první světovou válkou.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Za Dělnickým domem, `rz-2012-11`, s. 10.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1912'
+    source_id: rz-2012-11
+    locator: s. 10
+    verification_status: verified
+- place_id: delnicky-dum-kino-rozvoj
+  canonical_name: Dělnický dům a kino Rozvoj
+  alternative_and_historical_names:
+  - kino Rozvoj
+  - Dělnický dům
+  place_type: kulturní budova / kino
+  earliest_documented_mention:
+    date_or_period: doloženo pro 60. léta 20. století
+    status: partially_verified
+    source_id: kronika-ka632-27
+    locator: ř. 3377–3385
+  main_sources:
+  - kronika-1989-2000
+  significance: Kulturní objekt ve východní části obce s historickým kinem.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Východní část obce, `kronika-1989-2000`, s. 12.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: před 1989
+    source_id: kronika-1989-2000
+    locator: s. 12
+    verification_status: verified
+- place_id: stary-hrbitov-u-fojtstvi
+  canonical_name: Starý hřbitov u Fojtství
+  alternative_and_historical_names:
+  - starý hřbitov
+  - sad u Fojtství
+  place_type: zaniklý hřbitov / sad
+  earliest_documented_mention:
+    date_or_period: '1359'
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 4387–4405
+  main_sources:
+  - kronika-ka631
+  significance: Nejstarší kronikou uváděný hřbitov, později proměněný v sad.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: U Fojtství, `kronika-ka631`, ř. 4387–4405.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1359'
+    source_id: kronika-ka631
+    locator: ř. 4387–4405, oddíl „Hřbitovy“
+    verification_status: partially_verified
+- place_id: hrbitov-u-kostela
+  canonical_name: Hřbitov u kostela svaté Anny
+  alternative_and_historical_names:
+  - hřbitov kolem kostela
+  place_type: hřbitov
+  earliest_documented_mention:
+    date_or_period: '1626'
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 4398–4415
+  main_sources:
+  - kronika-ka631
+  significance: Historický hřbitov bezprostředně u kostela svaté Anny.
+  localization:
+    status: localized
+    precision: object_surroundings
+    evidence: Okolí kostela, `kronika-ka631`, ř. 4398–4415.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1626'
+    source_id: kronika-ka631
+    locator: ř. 4398–4415, oddíl „Hřbitovy“
+    verification_status: partially_verified
+- place_id: obecni-hrbitov
+  canonical_name: Obecní hřbitov
+  alternative_and_historical_names:
+  - nový hřbitov
+  - komunální hřbitov
+  place_type: hřbitov
+  earliest_documented_mention:
+    date_or_period: 1905–1906
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 4410–4445
+  main_sources:
+  - kronika-ka631
+  significance: Nový obecní hřbitov severně od kostela, později rozšířený.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: Severně od kostela směrem k Záblatí, `kronika-ka631`, ř. 4410–4445.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 1905–1906
+    source_id: kronika-ka631
+    locator: ř. 4410–4445, oddíl „Hřbitovy“
+    verification_status: partially_verified
+- place_id: kaple-u-obecniho-uradu
+  canonical_name: Kaple u obecního úřadu
+  alternative_and_historical_names:
+  - kaple u úřadu MNV
+  - kaple se sochou sv. Jana Nepomuckého
+  place_type: kaple
+  earliest_documented_mention:
+    date_or_period: doložena roku 1965
+    status: partially_verified
+    source_id: kronika-ka632-27
+    locator: ř. 3374–3380
+  main_sources:
+  - kronika-ka632-27
+  - rz-2017-05
+  significance: Drobná sakrální stavba spojovaná se sochou Jana Nepomuckého.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: U obecního úřadu, `rz-2017-05`, s. 9.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '2017'
+    source_id: rz-2017-05
+    locator: s. 9
+    verification_status: verified
+- place_id: kaple-u-hrbitova
+  canonical_name: Kaple u hřbitova
+  alternative_and_historical_names: []
+  place_type: kaple
+  earliest_documented_mention:
+    date_or_period: doložena ve zdroji z roku 2017
+    status: verified
+    source_id: rz-2017-05
+    locator: s. 9
+  main_sources:
+  - rz-2017-05
+  significance: Drobná sakrální stavba na trase místní křížové cesty.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: U hřbitova, `rz-2017-05`, s. 9.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '2017'
+    source_id: rz-2017-05
+    locator: s. 9
+    verification_status: verified
+- place_id: kaple-u-bodingera
+  canonical_name: Kaple u Bodingera
+  alternative_and_historical_names: []
+  place_type: kaple
+  earliest_documented_mention:
+    date_or_period: doložena ve zdroji z roku 2017
+    status: verified
+    source_id: rz-2017-05
+    locator: s. 9
+  main_sources:
+  - rz-2017-05
+  significance: Drobná sakrální stavba zachycená jako zastávka místní křížové cesty.
+  localization:
+    status: unlocated
+    precision: unknown
+    evidence: Pouze pomístní označení „u Bodingera“, `rz-2017-05`, s. 9.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: Jméno Bodinger zatím není spojeno s přesnou parcelou ani adresou.
+  latest_documented_mention:
+    date_or_period: '2017'
+    source_id: rz-2017-05
+    locator: s. 9
+    verification_status: verified
+- place_id: pamatnik-prvni-svetova-valka
+  canonical_name: Památník obětem první světové války
+  alternative_and_historical_names:
+  - Utrpením ke svobodě
+  - památník pod kostelem sv. Anny
+  place_type: památník
+  earliest_documented_mention:
+    date_or_period: '1930'
+    status: partially_verified
+    source_id: kronika-ka632-27
+    locator: ř. 1260–1268
+  main_sources:
+  - kronika-ka632-27
+  - rz-2025-12
+  significance: Pietní místo pod kostelem svaté Anny.
+  localization:
+    status: localized
+    precision: object
+    evidence: Pod kostelem sv. Anny, `rz-2025-12`, s. 9.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2025-12, s. 9
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '2025'
+    source_id: rz-2025-12
+    locator: s. 9
+    verification_status: verified
+- place_id: pamatnik-u-mestskeho-uradu
+  canonical_name: Památník u městského úřadu
+  alternative_and_historical_names:
+  - památník osvobození
+  - místo sovětského tanku
+  place_type: památník
+  earliest_documented_mention:
+    date_or_period: 1977 / 1995
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 20 a 79
+  main_sources:
+  - kronika-1989-2000
+  significance: Pietní místo, kde sovětský tank z roku 1977 nahradil roku 1995 nový památník.
+  localization:
+    status: partially_localized
+    precision: object
+    evidence: Poblíž městského úřadu, `kronika-1989-2000`, s. 79.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 1977–1990
+    source_id: kronika-1989-2000
+    locator: s. 20
+    verification_status: verified
+- place_id: vetrny-mlyn-u-skucaku
+  canonical_name: Větrný mlýn u čp. 54
+  alternative_and_historical_names:
+  - mlýnek na ulici U Skučáku
+  place_type: větrný mlýn / torzo
+  earliest_documented_mention:
+    date_or_period: počátek 20. století
+    status: verified
+    source_id: rz-2011-09
+    locator: s. 14
+  main_sources:
+  - rz-2011-09
+  significance: Dochované torzo jednoho z rychvaldských malých větrných mlýnů.
+  localization:
+    status: localized
+    precision: historical_address
+    evidence: Ulice U Skučáku, čp. 54, `rz-2011-09`, s. 14.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2012-06, s. 8
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '2011'
+    source_id: rz-2011-09
+    locator: s. 14
+    verification_status: verified
+- place_id: vetrny-mlyn-podlesi
+  canonical_name: Větrný mlýn na Podlesí u čp. 344
+  alternative_and_historical_names:
+  - mlýnek u bývalé školy na Podlesí
+  place_type: větrný mlýn / torzo
+  earliest_documented_mention:
+    date_or_period: počátek 20. století
+    status: verified
+    source_id: rz-2011-09
+    locator: s. 14
+  main_sources:
+  - rz-2011-09
+  significance: Druhé zmiňované torzo malého větrného mlýna.
+  localization:
+    status: localized
+    precision: historical_address
+    evidence: Poblíž bývalé školy na Podlesí u čp. 344, `rz-2011-09`, s. 14.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2011-09, s. 14
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '2011'
+    source_id: rz-2011-09
+    locator: s. 14
+    verification_status: verified
+- place_id: skybuv-mlyn
+  canonical_name: Skýbův mlýn
+  alternative_and_historical_names:
+  - parní mlýn čp. 657
+  - bývalý mlýn na Orlovské
+  place_type: válcový mlýn
+  earliest_documented_mention:
+    date_or_period: '1920'
+    status: verified
+    source_id: rz-2012-06
+    locator: s. 8
+  main_sources:
+  - rz-2012-06
+  significance: První moderní válcový mlýn uváděný v Rychvaldu.
+  localization:
+    status: localized
+    precision: historical_address
+    evidence: Čp. 657 na ulici Orlovská, `rz-2012-06`, s. 8.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2012-06, s. 8
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1920'
+    source_id: rz-2012-06
+    locator: s. 8
+    verification_status: verified
+- place_id: satkeho-mlyn
+  canonical_name: Mlýn Gustava Satkeho
+  alternative_and_historical_names:
+  - Satkeho mlýn
+  - mlýn čp. 1058
+  place_type: válcový mlýn
+  earliest_documented_mention:
+    date_or_period: 30. léta 20. století
+    status: verified
+    source_id: rz-2012-06
+    locator: s. 8
+  main_sources:
+  - rz-2012-06
+  significance: Jeden ze dvou dalších válcových mlýnů postavených ve 30. letech.
+  localization:
+    status: partially_localized
+    precision: historical_address
+    evidence: Poblíž zámku, čp. 1058, `rz-2012-06`, s. 8.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 30. léta 20. století
+    source_id: rz-2012-06
+    locator: s. 8
+    verification_status: verified
+- place_id: luksuv-mlyn
+  canonical_name: Lukšův mlýn
+  alternative_and_historical_names:
+  - mlýn Jindřicha Lukši
+  - mlýn u čp. 149
+  place_type: válcový mlýn
+  earliest_documented_mention:
+    date_or_period: 30. léta 20. století
+    status: verified
+    source_id: rz-2012-06
+    locator: s. 8
+  main_sources:
+  - rz-2012-06
+  significance: Jeden ze dvou dalších válcových mlýnů postavených ve 30. letech.
+  localization:
+    status: localized
+    precision: historical_address
+    evidence: Ulice Lutyňská u čp. 149, `rz-2012-06`, s. 8.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2012-06, s. 8
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 30. léta 20. století
+    source_id: rz-2012-06
+    locator: s. 8
+    verification_status: verified
+- place_id: panelove-sidliste
+  canonical_name: Panelové sídliště v centru
+  alternative_and_historical_names:
+  - rychvaldské sídliště
+  - sídliště
+  place_type: sídliště
+  earliest_documented_mention:
+    date_or_period: 60. léta 20. století
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 12
+  main_sources:
+  - kronika-1989-2000
+  significance: Významná poválečná proměna centra Rychvaldu.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: Centrum obce, `kronika-1989-2000`, s. 12.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 60. léta 20. století
+    source_id: kronika-1989-2000
+    locator: s. 12
+    verification_status: verified
+- place_id: zdravotni-stredisko
+  canonical_name: Zdravotní středisko
+  alternative_and_historical_names:
+  - zdravotnické středisko
+  place_type: zdravotnická budova
+  earliest_documented_mention:
+    date_or_period: '1974'
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 13
+  main_sources:
+  - kronika-1989-2000
+  significance: Jedna z hlavních veřejných investic 70. let.
+  localization:
+    status: unlocated
+    precision: unknown
+    evidence: Nahrané prameny v citované pasáži neuvádějí adresu.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1974'
+    source_id: kronika-1989-2000
+    locator: s. 13
+    verification_status: verified
+- place_id: kulturni-stredisko
+  canonical_name: Kulturní středisko
+  alternative_and_historical_names:
+  - Kulturní dům
+  - KD
+  place_type: kulturní budova
+  earliest_documented_mention:
+    date_or_period: '1979'
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 13
+  main_sources:
+  - kronika-1989-2000
+  significance: Městské kulturní zařízení využívané pro společenské akce.
+  localization:
+    status: unlocated
+    precision: unknown
+    evidence: Poloha není v základním historickém tvrzení uvedena.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1979'
+    source_id: kronika-1989-2000
+    locator: s. 13
+    verification_status: verified
+- place_id: smutecni-obradni-sin
+  canonical_name: Smuteční obřadní síň
+  alternative_and_historical_names:
+  - obřadní síň
+  place_type: obřadní budova
+  earliest_documented_mention:
+    date_or_period: '1980'
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 13
+  main_sources:
+  - kronika-1989-2000
+  significance: Veřejná stavba dokončená na konci velkých investic 70. let.
+  localization:
+    status: unlocated
+    precision: unknown
+    evidence: Poloha není v citované pasáži uvedena.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1980'
+    source_id: kronika-1989-2000
+    locator: s. 13
+    verification_status: verified
+- place_id: sokolovna
+  canonical_name: Sokolovna
+  alternative_and_historical_names:
+  - rychvaldská Sokolovna
+  place_type: tělocvična / spolkový dům
+  earliest_documented_mention:
+    date_or_period: '1925'
+    status: verified
+    source_id: rz-2016-10
+    locator: s. 13
+  main_sources:
+  - rz-2016-10
+  significance: Spolková a sportovní budova rychvaldského Sokola.
+  localization:
+    status: partially_localized
+    precision: object
+    evidence: '`rz-2011-04`, s. 9; přesnou adresu je třeba ověřit.'
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2016-10, s. 13
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1925-09-27'
+    source_id: rz-2016-10
+    locator: s. 13
+    verification_status: verified
+- place_id: hlubinny-velkoprumerovy-vrt
+  canonical_name: Hlubinný velkoprůměrový vrt
+  alternative_and_historical_names:
+  - velkoprůměrový vrt u Stromořadí
+  place_type: technická lokalita
+  earliest_documented_mention:
+    date_or_period: 1962–1963
+    status: verified
+    source_id: rz-2011-04
+    locator: s. 9
+  main_sources:
+  - rz-2011-04
+  significance: Technický průzkumný vrt s dochovaným označením místa.
+  localization:
+    status: localized
+    precision: approximate
+    evidence: Mezi čp. 79 a 789 na ulici Stromořadí, `rz-2011-04`, s. 9.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 1962–1963
+    source_id: rz-2011-04
+    locator: s. 9
+    verification_status: verified
+- place_id: bozi-muka-hranici
+  canonical_name: Boží muka u čp. 115
+  alternative_and_historical_names:
+  - Boží muka při silnici Hraniční
+  place_type: boží muka
+  earliest_documented_mention:
+    date_or_period: doložena ve zdroji z roku 2012
+    status: verified
+    source_id: rz-2012-11
+    locator: s. 4
+  main_sources:
+  - rz-2012-11
+  significance: Drobná sakrální památka neznámého původu.
+  localization:
+    status: localized
+    precision: historical_address
+    evidence: Zahrada čp. 115 při silnici Hraniční, `rz-2012-11`, s. 4.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2012-11, s. 4
+  article_status: not_started
+  notes_and_uncertainties: Historie ani datum vzniku nebyly ve zdroji známy.
+  latest_documented_mention:
+    date_or_period: '2012'
+    source_id: rz-2012-11
+    locator: s. 4
+    verification_status: verified
+- place_id: kriz-z-pozarni
+  canonical_name: Kříž přemístěný z ulice Požární
+  alternative_and_historical_names:
+  - kříž za presbytářem kostela sv. Anny
+  place_type: kříž
+  earliest_documented_mention:
+    date_or_period: přemístěn roku 1966
+    status: verified
+    source_id: rz-2013-02
+    locator: s. 4
+  main_sources:
+  - rz-2013-02
+  significance: Drobná sakrální památka se změněnou polohou.
+  localization:
+    status: localized
+    precision: object
+    evidence: Za presbytářem kostela sv. Anny, `rz-2013-02`, s. 4.
+  historical_photographs:
+    status: present_in_source
+    sources:
+    - rz-2013-02, s. 4
+  article_status: not_started
+  notes_and_uncertainties: Historie kříže před přemístěním je podle zdroje neznámá.
+  latest_documented_mention:
+    date_or_period: '1966'
+    source_id: rz-2013-02
+    locator: s. 4
+    verification_status: verified
+- place_id: navsi
+  canonical_name: Návsí
+  alternative_and_historical_names:
+  - centrum Návsí
+  place_type: historická místní část
+  earliest_documented_mention:
+    date_or_period: doloženo pro rok 1925
+    status: verified
+    source_id: rz-2014-02
+    locator: s. 4
+  main_sources:
+  - rz-2014-02
+  significance: Historické označení centrální lokality zasažené povodněmi.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: Okolí zámku, `rz-2014-02`, s. 4.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1925-08-03'
+    source_id: rz-2014-02
+    locator: s. 4
+    verification_status: verified
+- place_id: jarosovice
+  canonical_name: Jarošovice
+  alternative_and_historical_names: []
+  place_type: historická místní část
+  earliest_documented_mention:
+    date_or_period: '1919'
+    status: verified
+    source_id: kronika-1989-2000
+    locator: s. 8
+  main_sources:
+  - kronika-1989-2000
+  significance: Severní část obce, kterou v roce 1919 protínalo dočasné československo-polské rozdělení.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: Sever obce, `kronika-1989-2000`, s. 8.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1919'
+    source_id: kronika-1989-2000
+    locator: s. 8
+    verification_status: verified
+- place_id: vaclav-alpinka
+  canonical_name: Václav
+  alternative_and_historical_names:
+  - Alpinka
+  - hornická kolonie Alpinka
+  - osada Václav
+  place_type: místní část / hornická kolonie
+  earliest_documented_mention:
+    date_or_period: počátek 20. století
+    status: verified
+    source_id: rz-2012-11
+    locator: s. 10
+  main_sources:
+  - rz-2012-11
+  significance: Historická hornická kolonie a dnešní místní část.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: '`rz-2012-11`, s. 10.'
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: počátek 20. století
+    source_id: rz-2012-11
+    locator: s. 10
+    verification_status: verified
+- place_id: podlesi
+  canonical_name: Podlesí
+  alternative_and_historical_names:
+  - dolní Podlesí
+  - horní Podlesí
+  place_type: místní část
+  earliest_documented_mention:
+    date_or_period: nejpozději 1903
+    status: verified
+    source_id: rz-2012-11
+    locator: s. 10
+  main_sources:
+  - rz-2012-11
+  significance: Historická místní část spojená se vznikem několika škol a hasičské zbrojnice.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: '`rz-2012-11`, s. 10.'
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1903'
+    source_id: rz-2012-11
+    locator: s. 10
+    verification_status: verified
+- place_id: hasicska-zbrojnice-podlesi
+  canonical_name: Hasičská zbrojnice Rychvald-Podlesí
+  alternative_and_historical_names:
+  - první hasičská zbrojnice
+  place_type: hasičská zbrojnice
+  earliest_documented_mention:
+    date_or_period: '1905'
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 747–752
+  main_sources:
+  - kronika-ka631
+  significance: První kronikou uváděná hasičská zbrojnice v Rychvaldu.
+  localization:
+    status: partially_localized
+    precision: area
+    evidence: Podlesí, `kronika-ka631`, ř. 747–752.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1905-07-27'
+    source_id: kronika-ka631
+    locator: ř. 747–752
+    verification_status: partially_verified
+- place_id: nemocnice-chudobinec-cp446
+  canonical_name: Bývalá nemocnice a chudobinec čp. 446
+  alternative_and_historical_names:
+  - infekční nemocnice
+  - chudobinec
+  place_type: zdravotní / sociální budova
+  earliest_documented_mention:
+    date_or_period: '1900'
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 3430–3448
+  main_sources:
+  - kronika-ka631
+  significance: Budova původní infekční nemocnice, od roku 1919 užívaná jako chudobinec.
+  localization:
+    status: localized
+    precision: historical_address
+    evidence: Čp. 446 na cestě ke hřbitovu, `kronika-ka631`, ř. 1680–1695.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: 1900–1919
+    source_id: kronika-ka631
+    locator: ř. 3430–3448, oddíl „Nemocnice“
+    verification_status: partially_verified
+- place_id: ucitelsky-dum-cp678
+  canonical_name: Učitelský dům čp. 678
+  alternative_and_historical_names: []
+  place_type: obytná budova
+  earliest_documented_mention:
+    date_or_period: '1923'
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 1684–1695
+  main_sources:
+  - kronika-ka631
+  significance: Obecní dům vystavěný pro ubytování učitelů.
+  localization:
+    status: localized
+    precision: historical_address
+    evidence: Čp. 678, `kronika-ka631`, ř. 1684–1695.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1923'
+    source_id: kronika-ka631
+    locator: ř. 1684–1695
+    verification_status: partially_verified
+- place_id: prvni-obecni-knihovna
+  canonical_name: První obecní knihovna
+  alternative_and_historical_names:
+  - veřejná obecní knihovna
+  place_type: knihovna
+  earliest_documented_mention:
+    date_or_period: '1920'
+    status: partially_verified
+    source_id: kronika-ka631
+    locator: ř. 1900–1920
+  main_sources:
+  - kronika-ka631
+  significance: První kronikou popsaná veřejná knihovna v bývalé zbrojnici vedle obecního úřadu.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Bývalá zbrojnice polských hasičů vedle obecního úřadu, `kronika-ka631`, ř. 1900–1920.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: ''
+  latest_documented_mention:
+    date_or_period: '1920'
+    source_id: kronika-ka631
+    locator: ř. 1900–1920, oddíl „Knihovna“
+    verification_status: partially_verified
+- place_id: drobikuv-mlyn
+  canonical_name: Drobíkův mlýn
+  alternative_and_historical_names: []
+  place_type: historický mlýn
+  earliest_documented_mention:
+    date_or_period: doložen ve zdroji z roku 2011
+    status: verified
+    source_id: rz-2011-09
+    locator: s. 14
+  latest_documented_mention:
+    date_or_period: '2011'
+    source_id: rz-2011-09
+    locator: s. 14
+    verification_status: verified
+  main_sources:
+  - rz-2011-09
+  significance: Jeden z pojmenovaných rychvaldských mlýnů zachycených ve skicách Přemysla Pastuchy.
+  localization:
+    status: unlocated
+    precision: unknown
+    evidence: Zpravodaj neuvádí adresu ani jiný přesný polohopisný údaj.
+  historical_photographs:
+    status: sketch_in_source
+    sources:
+    - rz-2011-09, s. 14
+  article_status: not_started
+  notes_and_uncertainties: Typ mlýna ani jeho poloha nejsou v popisku bezpečně určeny.
+- place_id: vitkuv-mlyn
+  canonical_name: Vítkův mlýn
+  alternative_and_historical_names: []
+  place_type: historický mlýn
+  earliest_documented_mention:
+    date_or_period: nedatováno
+    status: verified
+    source_id: rz-2011-09
+    locator: s. 14
+  latest_documented_mention:
+    date_or_period: '2011'
+    source_id: rz-2011-09
+    locator: s. 14
+    verification_status: verified
+  main_sources:
+  - rz-2011-09
+  significance: Pojmenovaný mlýn zachycený ve skice Přemysla Pastuchy.
+  localization:
+    status: unlocated
+    precision: unknown
+    evidence: Zpravodaj neuvádí adresu ani jiný přesný polohopisný údaj.
+  historical_photographs:
+    status: sketch_in_source
+    sources:
+    - rz-2011-09, s. 14
+  article_status: not_started
+  notes_and_uncertainties: Popisek uvádí stavitele Františka Vítka, nikoli datum ani polohu.
+- place_id: pospechuv-mlyn
+  canonical_name: Pospěchův mlýn
+  alternative_and_historical_names: []
+  place_type: historický mlýn
+  earliest_documented_mention:
+    date_or_period: 1922–1924
+    status: verified
+    source_id: rz-2011-09
+    locator: s. 14
+  latest_documented_mention:
+    date_or_period: '2011'
+    source_id: rz-2011-09
+    locator: s. 14
+    verification_status: verified
+  main_sources:
+  - rz-2011-09
+  significance: Pojmenovaný mlýn s datovanou stavbou a dochovanou kresbou.
+  localization:
+    status: unlocated
+    precision: unknown
+    evidence: Zpravodaj neuvádí adresu ani jiný přesný polohopisný údaj.
+  historical_photographs:
+    status: sketch_in_source
+    sources:
+    - rz-2011-09, s. 14
+  article_status: not_started
+  notes_and_uncertainties: Typ a poloha mlýna vyžadují další ověření.
+- place_id: vodni-mlyn-u-zamku
+  canonical_name: Vodní mlýn u zámku
+  alternative_and_historical_names:
+  - pila u zámku
+  place_type: zaniklý vodní mlýn / pila
+  earliest_documented_mention:
+    date_or_period: nedatováno
+    status: verified
+    source_id: rz-2012-06
+    locator: s. 8
+  latest_documented_mention:
+    date_or_period: '2012'
+    source_id: rz-2012-06
+    locator: s. 8
+    verification_status: verified
+  main_sources:
+  - rz-2012-06
+  significance: Jediný z popsaných vodních mlýnů, který měl využívat umělý náhon ze Stružky.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Nedaleko zámku na umělém náhonu ze Stružky, `rz-2012-06`, s. 8.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: Pramen objekt označuje střídavě jako mlýn a pilu; jméno ani parcela nejsou uvedeny.
+- place_id: velky-vetrny-mlyn-polni
+  canonical_name: Velký větrný mlýn u dnešní ulice Polní
+  alternative_and_historical_names:
+  - větrný mlýn německého typu
+  place_type: zaniklý větrný mlýn
+  earliest_documented_mention:
+    date_or_period: zakreslen 1876–1878
+    status: verified
+    source_id: rz-2012-06
+    locator: s. 8
+  latest_documented_mention:
+    date_or_period: '2012'
+    source_id: rz-2012-06
+    locator: s. 8
+    verification_status: verified
+  main_sources:
+  - rz-2012-06
+  significance: Větší otočný větrný mlýn zachycený na třetím vojenském mapování.
+  localization:
+    status: partially_localized
+    precision: approximate
+    evidence: Mezi čp. 154 a 1275 u dnešní ulice Polní, `rz-2012-06`, s. 8.
+  historical_photographs:
+    status: not_identified
+    sources: []
+  article_status: not_started
+  notes_and_uncertainties: Přesnou polohu je třeba ověřit v mapě třetího vojenského mapování.

@@ -1,0 +1,12 @@
+place_id: vodni-mlyn-u-zamku
+claims:
+- claim_id: vodni-mlyn-u-zamku-001
+  place_id: vodni-mlyn-u-zamku
+  statement: Nedaleko zámku stál objekt na umělém náhonu ze Stružky, uváděný jako mlýn nebo pila.
+  date_or_period: nedatováno
+  source_id: rz-2012-06
+  locator: s. 8
+  supporting_excerpt: Nacházel se nedaleko zámku a v písemných zmínkách je uváděn jednou jako mlýn, jindy jako pila.
+  verification_status: verified
+  confidence: high
+  note: Jméno, datum vzniku ani přesná poloha nejsou ve zdroji uvedeny.

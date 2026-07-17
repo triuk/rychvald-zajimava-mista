@@ -1,0 +1,32 @@
+place_id: kostel-svate-anny
+claims:
+- claim_id: kostel-svate-anny-001
+  place_id: kostel-svate-anny
+  statement: Kostel svaté Anny byl podle zpravodaje postaven v letech 1595–1596.
+  date_or_period: 1595–1596
+  source_id: rz-2011-04
+  locator: s. 3
+  supporting_excerpt: kostel svaté Anny, postavený v letech 1595–96
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: kostel-svate-anny-002
+  place_id: kostel-svate-anny
+  statement: Za kulturní památku byl podle zpravodaje prohlášen roku 1965.
+  date_or_period: '1965'
+  source_id: rz-2011-04
+  locator: s. 3
+  supporting_excerpt: Za kulturní památku byl prohlášen v roce 1965
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: kostel-svate-anny-003
+  place_id: kostel-svate-anny
+  statement: Památkový katalog identifikuje farní kostel svaté Anny v Rychvaldu na parcele č. 305.
+  date_or_period: stav ověřen 2026-07-17
+  source_id: web-npu-kostel-sv-anny-rychvald
+  locator: záhlaví evidenčního záznamu
+  supporting_excerpt: Rychvald, okres Karviná, farní kostel sv. Anny […] parc.č. 305
+  verification_status: verified
+  confidence: high
+  note: Zdroj podporuje identifikaci a lokalizaci, nikoli aktuální stavební stav nebo přístupnost.

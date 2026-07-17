@@ -1,0 +1,12 @@
+place_id: stara-skola-cp39
+claims:
+- claim_id: stara-skola-cp39-001
+  place_id: stara-skola-cp39
+  statement: První školní budova u katolického kostela je doložena roku 1821 jako čp. 39.
+  date_or_period: '1821'
+  source_id: rz-2012-11
+  locator: s. 10
+  supporting_excerpt: První školní budova u katolického kostela je doložena roku 1821
+  verification_status: verified
+  confidence: high
+  note: ''

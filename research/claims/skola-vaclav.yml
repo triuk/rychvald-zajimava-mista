@@ -1,0 +1,12 @@
+place_id: skola-vaclav
+claims:
+- claim_id: skola-vaclav-001
+  place_id: skola-vaclav
+  statement: Pravidelné vyučování ve škole na Václavu začalo 1. října 1912.
+  date_or_period: '1912-10-01'
+  source_id: rz-2012-11
+  locator: s. 10
+  supporting_excerpt: pravidelné vyučování začalo až 1. října 1912
+  verification_status: verified
+  confidence: high
+  note: ''

@@ -1,0 +1,12 @@
+place_id: jarosovice
+claims:
+- claim_id: jarosovice-001
+  place_id: jarosovice
+  statement: V únoru 1919 se část Jarošovic ocitla na polské straně demarkační čáry.
+  date_or_period: '1919'
+  source_id: kronika-1989-2000
+  locator: s. 8
+  supporting_excerpt: část Jarošovic – se ocitla na polské straně
+  verification_status: verified
+  confidence: high
+  note: ''

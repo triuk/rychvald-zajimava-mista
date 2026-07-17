@@ -1,0 +1,13 @@
+place_id: stary-dvur
+claims:
+- claim_id: stary-dvur-001
+  place_id: stary-dvur
+  statement: Kronika uvádí Starý dvůr jako součást příslušenství zámku.
+  date_or_period: před 1928
+  source_id: kronika-ka631
+  locator: ř. 4564–4595, oddíl „XII. Zámek Rychvald“
+  supporting_excerpt: K zámku patří t. zvaný „Starý dvůr“ a „Nový dvůr“
+  verification_status: partially_verified
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.

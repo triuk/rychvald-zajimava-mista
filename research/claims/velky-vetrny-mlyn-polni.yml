@@ -1,0 +1,12 @@
+place_id: velky-vetrny-mlyn-polni
+claims:
+- claim_id: velky-vetrny-mlyn-polni-001
+  place_id: velky-vetrny-mlyn-polni
+  statement: Větší větrný mlýn německého typu je zakreslen na třetím vojenském mapování z let 1876–1878.
+  date_or_period: 1876–1878
+  source_id: rz-2012-06
+  locator: s. 8
+  supporting_excerpt: Byl to mlýn německého typu. […] Je zakreslen na mapě III. vojenského františko-josefského mapování z roku 1876–78.
+  verification_status: verified
+  confidence: high
+  note: Zpravodaj jej přibližně klade mezi čp. 154 a 1275 u ulice Polní.

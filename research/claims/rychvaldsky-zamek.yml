@@ -1,0 +1,33 @@
+place_id: rychvaldsky-zamek
+claims:
+- claim_id: rychvaldsky-zamek-001
+  place_id: rychvaldsky-zamek
+  statement: Bernard Barský z Baště nechal podle zpravodaje postavit zámek roku 1573.
+  date_or_period: '1573'
+  source_id: rz-2011-04
+  locator: s. 3
+  supporting_excerpt: zámek, jejž nechal postavit Bernard Barský z Baště v roce 1573
+  verification_status: conflicting
+  confidence: medium
+  note: Textový přepis starší kroniky uvádí rok 1595.
+- claim_id: rychvaldsky-zamek-002
+  place_id: rychvaldsky-zamek
+  statement: Textový přepis kroniky klade přestavbu nynějšího zámku do roku 1595.
+  date_or_period: '1595'
+  source_id: kronika-ka631
+  locator: ř. 4564–4575, oddíl „XII. Zámek Rychvald“
+  supporting_excerpt: Nynější zámek … vystavěn byl r. 1595 Bernardem Barským z Baště.
+  verification_status: conflicting
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.
+- claim_id: rychvaldsky-zamek-003
+  place_id: rychvaldsky-zamek
+  statement: Památkový katalog eviduje rychvaldský zámek jako kulturní památku na čp. 1 a obsahuje jeho zákres do katastrální mapy.
+  date_or_period: stav ověřen 2026-07-17
+  source_id: web-npu-rychvald-zamek
+  locator: záhlaví záznamu a část s katastrální mapou
+  supporting_excerpt: Rychvald, zámek č. p. 1. Zákres kulturní památky do katastrální mapy
+  verification_status: verified
+  confidence: high
+  note: Zdroj podporuje identifikaci, památkový status a lokalizaci, nikoli současnou přístupnost objektu.

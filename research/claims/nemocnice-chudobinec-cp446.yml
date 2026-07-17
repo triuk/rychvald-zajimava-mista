@@ -1,0 +1,13 @@
+place_id: nemocnice-chudobinec-cp446
+claims:
+- claim_id: nemocnice-chudobinec-cp446-001
+  place_id: nemocnice-chudobinec-cp446
+  statement: Infekční nemocnice byla v čp. 446 zřízena roku 1900 a roku 1919 zrušena; budova pak sloužila jako chudobinec.
+  date_or_period: 1900–1919
+  source_id: kronika-ka631
+  locator: ř. 3430–3448, oddíl „Nemocnice“
+  supporting_excerpt: V r. 1900 zřízena byla v obci infekční nemocnice v domku čp. 446, v němž je nyní chudobinec
+  verification_status: partially_verified
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.

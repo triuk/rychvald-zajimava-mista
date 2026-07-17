@@ -1,0 +1,13 @@
+place_id: ucitelsky-dum-cp678
+claims:
+- claim_id: ucitelsky-dum-cp678-001
+  place_id: ucitelsky-dum-cp678
+  statement: Obec vystavěla Učitelský dům čp. 678 roku 1923 za pomoci státní subvence.
+  date_or_period: '1923'
+  source_id: kronika-ka631
+  locator: ř. 1684–1695
+  supporting_excerpt: dům čp. 678 zvaný „Učitelský dům“, který v r. 1923 obec vystavěla
+  verification_status: partially_verified
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.

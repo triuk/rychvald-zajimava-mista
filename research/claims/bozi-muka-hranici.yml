@@ -1,0 +1,12 @@
+place_id: bozi-muka-hranici
+claims:
+- claim_id: bozi-muka-hranici-001
+  place_id: bozi-muka-hranici
+  statement: Boží muka stála roku 2012 v zahradě domu čp. 115 při silnici Hraniční.
+  date_or_period: '2012'
+  source_id: rz-2012-11
+  locator: s. 4
+  supporting_excerpt: Tato Boží muka stojí v zahradě domku č. pop. 115 při silnici Hraniční
+  verification_status: verified
+  confidence: high
+  note: ''

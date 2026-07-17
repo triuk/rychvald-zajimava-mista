@@ -1,0 +1,12 @@
+place_id: luksuv-mlyn
+claims:
+- claim_id: luksuv-mlyn-001
+  place_id: luksuv-mlyn
+  statement: Ve 30. letech vznikl u Lutyňské ulice u čp. 149 mlýn Jindřicha Lukši.
+  date_or_period: 30. léta 20. století
+  source_id: rz-2012-06
+  locator: s. 8
+  supporting_excerpt: u ulice Lutyňské u domu č. pop. 149 mlýn Jindřicha Lukši
+  verification_status: verified
+  confidence: high
+  note: ''

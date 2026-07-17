@@ -1,0 +1,12 @@
+place_id: hlubinny-velkoprumerovy-vrt
+claims:
+- claim_id: hlubinny-velkoprumerovy-vrt-001
+  place_id: hlubinny-velkoprumerovy-vrt
+  statement: Vrt o průměru 1,8 metru a hloubce 240,8 metru byl prováděn v letech 1962–1963.
+  date_or_period: 1962–1963
+  source_id: rz-2011-04
+  locator: s. 9
+  supporting_excerpt: v katastru obce byl v letech 1962–63 prováděn […] hlubinný velkoprůměrový vrt […] Průměr vrtu činí 1,8 metrů a dosažená hloubka 240,8 metrů
+  verification_status: verified
+  confidence: high
+  note: ''

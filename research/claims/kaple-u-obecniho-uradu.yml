@@ -1,0 +1,23 @@
+place_id: kaple-u-obecniho-uradu
+claims:
+- claim_id: kaple-u-obecniho-uradu-001
+  place_id: kaple-u-obecniho-uradu
+  statement: Textový přepis kroniky uvádí v kapli u MNV sochu Jana Nepomuckého.
+  date_or_period: '1965'
+  source_id: kronika-ka632-27
+  locator: ř. 3374–3380
+  supporting_excerpt: socha Jana z Nepomuku, která je umístěna v kapli u úřadu MNV
+  verification_status: partially_verified
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.
+- claim_id: kaple-u-obecniho-uradu-002
+  place_id: kaple-u-obecniho-uradu
+  statement: Kaple u obecního úřadu byla roku 2017 jednou ze zastávek společné křížové cesty.
+  date_or_period: '2017'
+  source_id: rz-2017-05
+  locator: s. 9
+  supporting_excerpt: od kaple u hřbitova, přes kapli u obecního úřadu
+  verification_status: verified
+  confidence: high
+  note: ''

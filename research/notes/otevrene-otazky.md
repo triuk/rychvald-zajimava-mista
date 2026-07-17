@@ -24,3 +24,24 @@ Sem zapisuj nevyřešené otázky, rozpory mezi prameny a informace vyžadujíc�
 ## Práva
 
 - U žádného z 209 dokumentů nebyla při inventarizaci ověřena licence umožňující další zveřejnění. U zpravodajů a městských dokumentů je uveden vydavatel Město Rychvald, což samo o sobě neurčuje autora jednotlivých textů a fotografií ani rozsah publikačních oprávnění.
+
+## Rozpory zjištěné při katalogizaci míst
+
+- **Rychvaldský zámek:** `rz-2011-04`, s. 3 uvádí rok výstavby 1573, zatímco `kronika-ka631`, ř. 4564–4575 klade důkladnou přestavbu nynějšího zámku do roku 1595. Je třeba zjistit, zda jde o dvě stavební fáze, nebo o rozpor v dataci.
+- **Košicko-bohumínská dráha:** `kronika-1989-2000`, s. 7 uvádí výstavbu přes Rychvald roku 1867; `kronika-ka631`, ř. 265–304 uvádí rok 1870. Rozpor je nutné ověřit v železničním nebo mapovém prameni.
+- **Škola U Laštůvků:** `kronika-ka631`, ř. 3569–3590 uvádí stavbu roku 1904, zatímco `rz-2012-11`, s. 10 uvádí otevření roku 1906. Může jít o rozdíl mezi výstavbou a zahájením výuky.
+- **Rybník Skučák:** prameny zachycují podoby Skučák, Škuťák a Škuták. Je třeba určit, které jsou úřední, nářeční nebo chybně přepsané.
+- **Cihelník:** vztah názvů Cihelňák, Cihelník, Velký Cihelník a Malý Cihelník zatím není mapově ověřen.
+
+## Lokalizace a současný stav
+
+- U každého záznamu v `research/places.yml` je uvedena jen přesnost, kterou dovolují nahrané prameny. Přesná současná poloha, adresa a stav musí být před článkem ověřeny samostatným aktuálním zdrojem.
+- Je třeba dohledat přesnou polohu bývalé zastávky Vyhýbka, kaple u Bodingera, Drobíkova, Vítkova a Pospěchova mlýna, Dvorku velkostatku a historických lesíků Fojtok, Liščok a Pastuchův lesík.
+- U starých čísel popisných nelze bez katastrálního nebo mapového srovnání předpokládat, že dnešní číslování označuje tutéž budovu.
+- U zaniklých škol je třeba oddělit instituci od budovy: názvy školy se mohly stěhovat a jedna budova mohla sloužit více školám.
+
+## Fotografie a kresby konkrétních míst
+
+- Zpravodaje obsahují obrazový materiál k zámku, kostelu sv. Anny, Skučáku, školám, mlýnům, Sokolovně a památníkům. Před převzetím do `images/` je nutné u každého snímku nebo kresby zjistit autora, datum, původ, držitele práv a licenci.
+- Kresby mlýnů na `rz-2011-09`, s. 14 jsou reprodukcemi děl Přemysla Pastuchy, nikoli automaticky volně použitelnými historickými fotografiemi.
+- U tvrzení převzatých pouze z textových přepisů kronik je stav nejvýše `partially_verified`, dokud nebude výňatek a lokátor porovnán s obrazovým originálem.

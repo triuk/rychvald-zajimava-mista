@@ -1,0 +1,12 @@
+place_id: kulturni-stredisko
+claims:
+- claim_id: kulturni-stredisko-001
+  place_id: kulturni-stredisko
+  statement: Kulturní středisko bylo dokončeno roku 1979.
+  date_or_period: '1979'
+  source_id: kronika-1989-2000
+  locator: s. 13
+  supporting_excerpt: kulturní středisko v roce 1979
+  verification_status: verified
+  confidence: high
+  note: ''

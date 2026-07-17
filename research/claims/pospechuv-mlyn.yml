@@ -1,0 +1,12 @@
+place_id: pospechuv-mlyn
+claims:
+- claim_id: pospechuv-mlyn-001
+  place_id: pospechuv-mlyn
+  statement: Pospěchův mlýn postavili František a Karla Pospěchovi v letech 1922–1924.
+  date_or_period: 1922–1924
+  source_id: rz-2011-09
+  locator: s. 14, popisek kresby
+  supporting_excerpt: Pospěchův mlýn postavili František a Karla Pospěchovi v letech 1922–1924
+  verification_status: verified
+  confidence: high
+  note: Zdroj neuvádí polohu.

@@ -1,0 +1,13 @@
+place_id: hasicska-zbrojnice-podlesi
+claims:
+- claim_id: hasicska-zbrojnice-podlesi-001
+  place_id: hasicska-zbrojnice-podlesi
+  statement: Kronika uvádí založení první hasičské zbrojnice v Rychvaldu-Podlesí 27. července 1905.
+  date_or_period: '1905-07-27'
+  source_id: kronika-ka631
+  locator: ř. 747–752
+  supporting_excerpt: 27. VII. 1905 založena 1. hasičská zbrojírna v Rychvaldě-Podlesí
+  verification_status: partially_verified
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.

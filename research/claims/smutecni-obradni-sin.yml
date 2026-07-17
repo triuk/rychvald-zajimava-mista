@@ -1,0 +1,12 @@
+place_id: smutecni-obradni-sin
+claims:
+- claim_id: smutecni-obradni-sin-001
+  place_id: smutecni-obradni-sin
+  statement: Smuteční obřadní síň byla dokončena roku 1980.
+  date_or_period: '1980'
+  source_id: kronika-1989-2000
+  locator: s. 13
+  supporting_excerpt: smuteční obřadní síň v roce 1980
+  verification_status: verified
+  confidence: high
+  note: ''

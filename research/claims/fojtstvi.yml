@@ -1,0 +1,13 @@
+place_id: fojtstvi
+claims:
+- claim_id: fojtstvi-001
+  place_id: fojtstvi
+  statement: Kronika označuje dům čp. 45 jako Fojtství a uvádí v něm sál s jevištěm a hostinské místnosti.
+  date_or_period: před 1928
+  source_id: kronika-ka631
+  locator: ř. 1694–1713
+  supporting_excerpt: dům čp. 45 zvaný „Fojtství“, který má pěkný sál s jevištěm
+  verification_status: partially_verified
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.

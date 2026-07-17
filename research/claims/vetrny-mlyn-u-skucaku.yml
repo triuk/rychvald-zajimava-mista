@@ -1,0 +1,12 @@
+place_id: vetrny-mlyn-u-skucaku
+claims:
+- claim_id: vetrny-mlyn-u-skucaku-001
+  place_id: vetrny-mlyn-u-skucaku
+  statement: Torzo větrného mlýna se podle zpravodaje nacházelo na ulici U Skučáku u čp. 54.
+  date_or_period: '2011'
+  source_id: rz-2011-09
+  locator: s. 14
+  supporting_excerpt: nachází na ulici U Skučáku u domku č. pop. 54
+  verification_status: verified
+  confidence: high
+  note: ''

@@ -1,0 +1,13 @@
+place_id: hrbitov-u-kostela
+claims:
+- claim_id: hrbitov-u-kostela-001
+  place_id: hrbitov-u-kostela
+  statement: Kronika spojuje zřízení hřbitova u zděného kostela s rokem 1626.
+  date_or_period: '1626'
+  source_id: kronika-ka631
+  locator: ř. 4398–4415, oddíl „Hřbitovy“
+  supporting_excerpt: v r. 1626 hřbitov druhý současně s dostavěním nového zděného kostela
+  verification_status: partially_verified
+  confidence: low
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.

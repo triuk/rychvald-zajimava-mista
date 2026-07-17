@@ -1,0 +1,12 @@
+place_id: podlesi
+claims:
+- claim_id: podlesi-001
+  place_id: podlesi
+  statement: Na dolním Podlesí byla roku 1903 založena první česká škola moderní doby.
+  date_or_period: '1903'
+  source_id: rz-2012-11
+  locator: s. 10
+  supporting_excerpt: V roce 1903 byla založena první česká škola moderní doby na dolním Podlesí
+  verification_status: verified
+  confidence: high
+  note: ''

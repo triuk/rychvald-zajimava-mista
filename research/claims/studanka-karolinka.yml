@@ -1,0 +1,12 @@
+place_id: studanka-karolinka
+claims:
+- claim_id: studanka-karolinka-001
+  place_id: studanka-karolinka
+  statement: Studánka Karolínka se podle zpravodaje nacházela pod starou kolonií mezi ulicemi Na Václavu a Hornickou.
+  date_or_period: '2011'
+  source_id: rz-2011-04
+  locator: s. 9
+  supporting_excerpt: studánkou s podobnou pověstí byla Karolínka […] pod starou kolonií mezi ulicí Na Václavu a ulicí Hornickou
+  verification_status: verified
+  confidence: high
+  note: ''

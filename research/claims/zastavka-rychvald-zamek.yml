@@ -1,0 +1,12 @@
+place_id: zastavka-rychvald-zamek
+claims:
+- claim_id: zastavka-rychvald-zamek-001
+  place_id: zastavka-rychvald-zamek
+  statement: Kronika uvádí, že stanici Rychvald-zámek si vynutil majitel panství hrabě Stahremberg.
+  date_or_period: 19. století
+  source_id: kronika-1989-2000
+  locator: s. 7
+  supporting_excerpt: Tu druhou si vynutil tehdejší majitel rychvaldského panství hrabě Stahremberg
+  verification_status: verified
+  confidence: high
+  note: ''

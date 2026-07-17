@@ -1,0 +1,23 @@
+place_id: kosicko-bohuminska-draha
+claims:
+- claim_id: kosicko-bohuminska-draha-001
+  place_id: kosicko-bohuminska-draha
+  statement: Novodobá kronika uvádí stavbu Košicko-bohumínské dráhy přes Rychvald roku 1867.
+  date_or_period: '1867'
+  source_id: kronika-1989-2000
+  locator: s. 7
+  supporting_excerpt: V roce 1867 byla přes Rychvald postavena Košicko-bohumínská dráha
+  verification_status: conflicting
+  confidence: medium
+  note: Textový přepis starší kroniky uvádí rok 1870.
+- claim_id: kosicko-bohuminska-draha-002
+  place_id: kosicko-bohuminska-draha
+  statement: Textový přepis starší kroniky uvádí rok výstavby dráhy 1870.
+  date_or_period: '1870'
+  source_id: kronika-ka631
+  locator: ř. 265–304, oddíl „Dráha“
+  supporting_excerpt: Dráha vystavěna byla r. 1870
+  verification_status: conflicting
+  confidence: medium
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
+    proti obrazovému originálu.

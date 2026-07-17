@@ -1,0 +1,12 @@
+place_id: zastavka-rychvald-misto
+claims:
+- claim_id: zastavka-rychvald-misto-001
+  place_id: zastavka-rychvald-misto
+  statement: Košicko-bohumínská dráha měla v Rychvaldu stanici Rychvald-místo.
+  date_or_period: 19. století
+  source_id: kronika-1989-2000
+  locator: s. 7
+  supporting_excerpt: 'se dvěma stanicemi: Rychvald – místo a Rychvald – zámek'
+  verification_status: verified
+  confidence: high
+  note: ''

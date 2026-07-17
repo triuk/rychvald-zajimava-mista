@@ -1,0 +1,12 @@
+place_id: nemecka-skola
+claims:
+- claim_id: nemecka-skola-001
+  place_id: nemecka-skola
+  statement: Roku 1912 vznikla za Dělnickým domem německá škola spolku Schulverein.
+  date_or_period: '1912'
+  source_id: rz-2012-11
+  locator: s. 10
+  supporting_excerpt: jediná německá škola spolku Schulverein za Dělnickým domem
+  verification_status: verified
+  confidence: high
+  note: ''

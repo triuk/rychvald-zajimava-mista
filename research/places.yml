@@ -13,15 +13,20 @@ places:
   - zámek v Rychvaldě
   place_type: zámek
   earliest_documented_mention:
-    date_or_period: 1573 / 1595
+    date_or_period: 1573 / 1575–1577 / 1595
     status: conflicting
     sources:
     - source_id: rz-2011-04
       locator: s. 3
+    - source_id: rz-2025-05
+      locator: s. 5
     - source_id: kronika-ka631
       locator: ř. 4564–4575
   main_sources:
   - rz-2011-04
+  - rz-2011-11
+  - rz-2025-05
+  - rz-2026-05
   - kronika-ka631
   - web-npu-rychvald-zamek
   significance: Nejstarší dochovaná světská stavba uváděná v pramenech; zdroje se rozcházejí v dataci přestavby.
@@ -33,8 +38,11 @@ places:
     status: present_in_source
     sources:
     - rz-2011-04, s. 3 a 9
-  article_status: not_started
-  notes_and_uncertainties: Dataci 1573/1595 je nutné ověřit v odborném nebo památkovém prameni.
+    - rz-2011-11, s. 11
+    - rz-2025-05, s. 5
+  article_status: draft
+  notes_and_uncertainties: Datace 1573, 1575–1577 a 1595 je nutné rozlišit pomocí odborného nebo památkového pramene;
+    může jít o získání panství, výstavbu a pozdější přestavbu, ale tato interpretace zatím není ověřena.
   latest_documented_mention:
     date_or_period: stav ověřen 2026-07-17
     source_id: web-npu-rychvald-zamek

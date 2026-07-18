@@ -14,7 +14,7 @@ _Zatím žádné._
 
 ### Rozpracované
 
-_Zatím žádné._
+- [Rychvaldský zámek](articles/rozpracovane/rychvaldsky-zamek.md) — pilotní článek, čeká na odborné ověření datace a kontrolu citací
 
 ## Přehled podle typu místa
 
@@ -26,9 +26,9 @@ _Bude doplněno po inventarizaci pramenů._
 |---|---|
 | Inventář nahraných pramenů | dokončen: 209 dokumentů; doplněny 3 oficiální webové zdroje |
 | Základní katalog míst | dokončen první průchod: 61 míst |
-| Evidence tvrzení | založeno 61 souborů s ověřenými nebo výslovně označenými nejistými tvrzeními |
-| Výběr pilotního místa | navrženy tři možnosti, čeká se na potvrzení |
-| Rozpracované články | žádné |
+| Evidence tvrzení | založeno 61 souborů; evidence zámku rozšířena pro pilotní článek |
+| Výběr pilotního místa | potvrzen Rychvaldský zámek |
+| Rozpracované články | 1 pilotní návrh: Rychvaldský zámek |
 
 Katalog míst je veden v [`research/places.yml`](research/places.yml). Návrh pilotních míst je v
 [`research/notes/navrh-pilotnich-mist.md`](research/notes/navrh-pilotnich-mist.md).

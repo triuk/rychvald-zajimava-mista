@@ -27,7 +27,7 @@ Sem zapisuj nevyřešené otázky, rozpory mezi prameny a informace vyžadujíc�
 
 ## Rozpory zjištěné při katalogizaci míst
 
-- **Rychvaldský zámek:** `rz-2011-04`, s. 3 uvádí rok výstavby 1573, zatímco `kronika-ka631`, ř. 4564–4575 klade důkladnou přestavbu nynějšího zámku do roku 1595. Je třeba zjistit, zda jde o dvě stavební fáze, nebo o rozpor v dataci.
+- **Rychvaldský zámek:** `rz-2011-04`, s. 3 uvádí rok výstavby 1573; `rz-2011-11`, s. 8 druhou polovinu 70. let 16. století; `rz-2025-05`, s. 5 léta 1575–1577; a `kronika-ka631`, ř. 4564–4575 klade důkladnou přestavbu nynějšího zámku do roku 1595. Je třeba zjistit, zda prameny zaměňují získání panství, výstavbu a pozdější přestavbu, nebo si v dataci odporují.
 - **Košicko-bohumínská dráha:** `kronika-1989-2000`, s. 7 uvádí výstavbu přes Rychvald roku 1867; `kronika-ka631`, ř. 265–304 uvádí rok 1870. Rozpor je nutné ověřit v železničním nebo mapovém prameni.
 - **Škola U Laštůvků:** `kronika-ka631`, ř. 3569–3590 uvádí stavbu roku 1904, zatímco `rz-2012-11`, s. 10 uvádí otevření roku 1906. Může jít o rozdíl mezi výstavbou a zahájením výuky.
 - **Rybník Skučák:** prameny zachycují podoby Skučák, Škuťák a Škuták. Je třeba určit, které jsou úřední, nářeční nebo chybně přepsané.

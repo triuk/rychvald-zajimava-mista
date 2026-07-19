@@ -7197,3 +7197,89 @@ web_sources:
     note: Podmínky dalšího užití textu a fotografií nebyly ověřeny.
   notes:
   - Použito jako aktuální úřední doklad kategorie ochrany, katastrálního území a platného vyhlašovacího předpisu.
+- source_id: web-npu-rychvald-zamek-detail
+  title: Zámek, Rychvald – detail evidovaného objektu
+  document_type: oficialni_online_registr_pamatek
+  institution: Národní památkový ústav
+  url: https://pamatkovykatalog.cz/zamek-12895303
+  accessed: '2026-07-19'
+  time_period:
+    from: null
+    to: '2026-07-19'
+  file: null
+  page_count: null
+  digital_format: HTML
+  readability:
+    status: good
+    note: Veřejně přístupný detail objektu v Památkovém katalogu; údaje se načítají dynamicky.
+  visual_content:
+    photographs: present
+    maps: present_as_link
+    indexes: not_applicable
+    method: Detail obsahuje fotografii, odkaz na mapové zobrazení a seznam odborných průzkumů v evidenci NPÚ.
+  missing_pages:
+    status: not_applicable
+    note: Online databázový záznam nemá stránkování.
+  rights:
+    status: unclear
+    note: NPÚ na stránce uvádí „všechna práva vyhrazena“; jednotlivé podmínky převzetí fotografie a mapy nebyly ověřeny.
+  notes:
+  - Použito k ověření adresy, stavebního typu a datace 1575–1577.
+  - Přímý mapový odkaz je uveden v článku; mapový portál nebyl kopírován do repozitáře.
+- source_id: web-mesto-rychvald-o-meste
+  title: O městě – historie a památky Rychvaldu
+  document_type: oficialni_web_mesta
+  institution: Město Rychvald
+  url: https://rychvald.cz/o-meste/
+  accessed: '2026-07-19'
+  time_period:
+    from: null
+    to: '2026-07-19'
+  file: null
+  page_count: null
+  digital_format: HTML
+  readability:
+    status: good
+    note: Veřejně přístupná stránka města se samostatnými oddíly Historie a Památky.
+  visual_content:
+    photographs: present
+    maps: not_detected
+    indexes: not_applicable
+    method: Obrazový obsah nebyl převzat.
+  missing_pages:
+    status: not_applicable
+    note: Online stránka nemá stránkování.
+  rights:
+    status: unclear
+    note: Podmínky dalšího užití textu a fotografií nebyly ověřeny.
+  notes:
+  - Použito jako druhý oficiální doklad datace 1575–1577 a jako potvrzení poválečné historie včetně úvah o demolici v roce 1988.
+- source_id: web-muzeum-tesinska-heraldicke-pamatky
+  title: Heraldické památky Těšínska
+  document_type: odborny_online_clanek_pdf
+  institution: Muzeum Těšínska
+  author: Karel Müller
+  url: https://www.muzeumct.cz/images/E-p%C5%99ed%C3%A1%C5%A1ky/Tesinsko_v_promenach_staleti-15-Heraldicke_pamatky.pdf
+  accessed: '2026-07-19'
+  time_period:
+    from: null
+    to: '2026-07-19'
+  file: null
+  page_count: 15
+  digital_format: PDF
+  readability:
+    status: good
+    note: Text i obrazové přílohy jsou čitelné; relevantní pasáž je na digitální straně 9.
+  visual_content:
+    photographs: present
+    maps: not_detected
+    indexes: not_detected
+    method: Vizuální a textová kontrola relevantní strany PDF.
+  missing_pages:
+    status: not_detected
+    note: PDF má souvislou digitální posloupnost 15 stran; úplnost vůči tištěné předloze nebyla nezávisle ověřena.
+  rights:
+    status: unclear
+    note: Autor a instituce jsou uvedeni, licence pro další zveřejnění textu a fotografií však nebyla nalezena.
+  notes:
+  - Odborný text datuje erbovní desky na rychvaldském kostele a zámku obecně do konce 16. století.

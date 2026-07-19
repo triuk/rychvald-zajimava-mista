@@ -13,15 +13,22 @@ places:
   - zámek v Rychvaldě
   place_type: zámek
   earliest_documented_mention:
-    date_or_period: 1573 / 1575–1577 / 1595
-    status: conflicting
+    date_or_period: 1575–1577
+    status: verified
     sources:
-    - source_id: rz-2011-04
+    - source_id: web-npu-rychvald-zamek-detail
+      locator: oddíl „Anotace“
+    - source_id: web-mesto-rychvald-o-meste
+      locator: oddíl „Památky“
+    conflicting_or_uncertain_variants:
+    - date_or_period: '1573'
+      source_id: rz-2011-04
       locator: s. 3
-    - source_id: rz-2025-05
-      locator: s. 5
-    - source_id: kronika-ka631
+      assessment: Pravděpodobná záměna s rokem získání panství, jak jej rozlišuje `rz-2011-11`, s. 8.
+    - date_or_period: '1595'
+      source_id: kronika-ka631
       locator: ř. 4564–4575
+      assessment: Neověřená varianta pouze z textového přepisu kroniky; současné oficiální a odborné zdroje ji nepotvrdily.
   main_sources:
   - rz-2011-04
   - rz-2011-11
@@ -29,6 +36,9 @@ places:
   - rz-2026-05
   - kronika-ka631
   - web-npu-rychvald-zamek
+  - web-npu-rychvald-zamek-detail
+  - web-mesto-rychvald-o-meste
+  - web-muzeum-tesinska-heraldicke-pamatky
   significance: Nejstarší dochovaná světská stavba uváděná v pramenech; zdroje se rozcházejí v dataci přestavby.
   localization:
     status: localized
@@ -41,8 +51,9 @@ places:
     - rz-2011-11, s. 11
     - rz-2025-05, s. 5
   article_status: draft
-  notes_and_uncertainties: Datace 1573, 1575–1577 a 1595 je nutné rozlišit pomocí odborného nebo památkového pramene;
-    může jít o získání panství, výstavbu a pozdější přestavbu, ale tato interpretace zatím není ověřena.
+  notes_and_uncertainties: NPÚ a oficiální web města shodně potvrzují výstavbu v letech 1575–1577. Rok 1573 je v jednom
+    zpravodaji podán jako rok získání panství Burianem Barským, zatímco rok 1595 zůstává neověřenou variantou textového
+    přepisu kroniky. Obrazový originál kroniky ani uvedené stavebněhistorické průzkumy dosud nebyly prostudovány.
   latest_documented_mention:
     date_or_period: stav ověřen 2026-07-17
     source_id: web-npu-rychvald-zamek

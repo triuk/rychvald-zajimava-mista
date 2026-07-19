@@ -23,6 +23,11 @@ Nejdůležitějším pravidlem projektu je dohledatelnost všech faktických tvr
 - Internetové zdroje používej až po vytěžení nahraných pramenů.
 - Preferuj oficiální, archivní, knihovní, památkové a odborné zdroje.
 - Wikipedie, sociální sítě a neozdrojované weby mohou být pouze vodítkem.
+- Nejasnosti a rozpory se po vytěžení nahraných pramenů pokus ověřit v relevantních internetových zdrojích. Výsledek
+  popiš jako potvrzení, částečné vyřešení nebo trvající nejistotu; původní varianty nemaž.
+- Každý použitý internetový zdroj zapiš do `sources/index.yml` včetně URL a data přístupu.
+- V oddílu Zdroje článku uváděj vedle `source_id` a lokátoru také přímý klikací odkaz na konkrétní PDF, TXT nebo webovou
+  stránku. Čtenář nemá být nucen dohledávat dokument v adresářové struktuře.
 
 ## Úrovně jistoty
 
@@ -66,7 +71,12 @@ U každého obrazového materiálu eviduj:
 - licenci nebo stav práv,
 - případnou nejistotu identifikace.
 
-Obrázek s nejasnými právy neprezentuj jako volně publikovatelný.
+Fotografie, mapy a jejich výřezy lze v projektu převzít i bez ověřené licence, pokud je to pro článek užitečné a uživatel
+jejich převzetí schválil. U takového materiálu bezprostředně uveď původ, přesný lokátor, autora a držitele práv, pokud jsou
+známi, a přesné označení **„neznámá práva“**. Materiál s neznámými právy neprezentuj jako volně publikovatelný ani volně
+použitelný mimo projekt.
+
+Převzatý obrazový soubor eviduj také v `images/README.md`. Originální dokument, ze kterého byl obraz vyčleněn, neupravuj.
 
 ## Git workflow
 
@@ -95,9 +105,10 @@ Ověř:
 - citace skutečně podporuje uvedené tvrzení,
 - všechny citované zdroje existují,
 - stránky nebo jiné lokátory jsou uvedeny,
+- každá položka v oddílu Zdroje obsahuje přímý funkční odkaz na dokument nebo webovou stránku,
 - rozpory mezi zdroji jsou zachovány,
 - poloha není označena jako přesnější, než dovolují důkazy,
-- fotografie mají uvedený původ,
+- fotografie a mapy mají uvedený původ, přesný lokátor, autora, držitele práv a licenci nebo označení „neznámá práva“,
 - text neobsahuje fakta vytvořená pouze odhadem AI.
 
 Nejistota je platný výsledek výzkumu a nesmí být skryta.

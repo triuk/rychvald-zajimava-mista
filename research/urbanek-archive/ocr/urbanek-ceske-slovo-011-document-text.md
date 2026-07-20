@@ -13,10 +13,11 @@
 
 ## Přepis
 
-Na poradě důvěrníků českých spolků na Těšínsku prohlásili polští činitelé, že budou české školy na Těšínsku, podle nových hranic, zachovány. Děti českých rodičů nebudou nuceny navštěvovati polské školy. České školství bude však pravděpodobně podléhati polské školské správě. V českých školách se má vyučovati polštině jako povinnému předmětu. O ostatních podrobnostech bude rozhodnuto později. -bi-
+V okrese fryštátském, který bude přivtělen k Polsku, žije jen 60.000 osob polské národnosti, zatím co počet osob české národnosti činí 280 tisíc lidí. Je jisté, že české školy na Těšínsku budou nadále, neboť o to se budou starati naše úřady a ministerstvo školství. Všeobecně se proslýchá, že zůstanou ty české školy, které byly v roce 1918. Zbytek škol padne do majetku Polska. Školní inspektorát a ministerstvo školství vypracuje podrobný plán o tom, kde v uvedené době byly české školy. Nejvíce jich bylo na Orlovsku, kde bude také nejvíce českých škol. -bi-
 
 ## Poznámky ke spolehlivosti
 
-- Přepis zachovává dobové tvary `navštěvovati` a `podléhati`.
+- Přepis zachovává dobové tvary `přivtělen` a `starati` i původní zápis počtu `60.000`.
 - Článek je na snímku zachycen celý.
-- Tvrzení článku nejsou tímto přepisem historicky ověřena.
+- Statistická a správní tvrzení článku nejsou tímto přepisem historicky ověřena.
+- Soubor byl 20. července 2026 opraven po kontrole proti skutečnému obrazu `10.jpg`; předchozí pracovní přepis patřil k jinému textu a byl nahrazen.

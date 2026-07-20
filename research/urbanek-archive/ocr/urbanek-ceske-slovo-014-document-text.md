@@ -3,9 +3,10 @@
 - Zdroj: `urbanek-ceske-slovo-014`
 - Soubor: `Články z Českého slova/13.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný čtyřsloupcový novinový článek
 - Signatura: `vb.`
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpisy
 
@@ -43,9 +44,10 @@ V 10 hodin přichází na náměstí hudba polských spolků, a pak kratičký p
 
 Na další polské vojenské oddíly již nečekáme. Za několik minut mohou být polští vojáci již na mostě přes Olši, kde se dnes zastaví jejich pochod. Spěcháme do auta naproti okresnímu úřadu, na němž vlaje polská vlajka, rychle projíždíme kolem pochodujících pěších útvarů a před silniční odbočkou ke Karvinné již stojí tanky seřazeny k přehlídce. Bleskurychle je míjíme, silnice na Karvinnou dosud není obsazena. Jsme první, kdo vykonali na území Fryštátu přehlídku polského vojska, polští vojáci nám salutují. Za chvíli zde bude pan posel Wolf se svou družinou. vb.
 
-## Poznámky ke spolehlivosti
+## Poznámky k ověření
 
-- Slova rozdělená na koncích řádků byla spojena a čtyři sloupce byly převedeny do běžného pořadí zleva doprava.
-- Přepis zachovává dobové tvary, například `navštíviti`, `ultimatum`, `dra`, `musilo` a `zorganisováno`.
-- Číselné údaje, národnostní statistiky a hodnocení událostí jsou tvrzení dobového novinového článku a nejsou tímto OCR nezávisle ověřena.
-- Jména a označení osob, zejména `Wolf`, jsou přepsána podle tisku bez doplnění celého jména.
+- Všechny čtyři sloupce, mezititulky a přechody mezi sloupci byly znovu porovnány se zdrojovým obrazem.
+- Při druhé kontrole nebyla nalezena textová odchylka vyžadující opravu.
+- Dobové tvary `navštíviti`, `ultimatum`, `dra`, `musilo`, `zorganisováno` a neobvyklé formulace `Zcela spořádané`, `mnoho lidí s polské strany` a `pan posel Wolf` odpovídají tisku.
+- Samostatná hvězdička mezi odstavci je zachována jako grafický oddělovač.
+- Číselné údaje, národnostní statistiky a hodnocení událostí jsou tvrzení článku, nikoli tímto OCR historicky ověřená fakta.

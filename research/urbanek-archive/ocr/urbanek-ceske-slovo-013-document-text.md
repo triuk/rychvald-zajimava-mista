@@ -3,10 +3,11 @@
 - Zdroj: `urbanek-ceske-slovo-013`
 - Soubor: `Články z Českého slova/12.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek
 - Záhlaví stránky: `Strana 2. — České slovo`
 - Signatura: `-vb-`
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpisy
 
@@ -30,10 +31,10 @@ Když jsme jeli v autu zpět z toho českého kraje, který má být obsazen pol
 
 Současně se zprávami o obsazování Těšínska docházejí hlášení o opatřeních, jež polské úřady připravují pro průmysl uhelného revíru. Dělnictvo na dolech dostalo včera naposled výplatu v československých korunách. Dělníkům napříště byly určeny na dolech 4 zloté za jednu šichtu, to znamená podle přepočítávacího kursu 32 Kč. Tím se sníží průměrná mzda za jednu šichtu o 24 Kč. Zároveň docházejí zprávy o velikém stoupání drahoty v obsazovaném území. Tak na př. v Třinci se prodával kilogram cukru za 12 Kč. Komisař obsazeného území, bývalý polský konsul v Mor. Ostravě dr. Leon Malhomme musel vydat přísná nařízení proti zdražovatelům a zároveň vydal seznam maximálních cen. -vb-
 
-## Poznámky ke spolehlivosti
+## Poznámky k ověření
 
-- Přepis zachovává dobové tvary a pravopis, například `zabírati`, `Karvinnou`, `kursu` a `na př.`.
-- Slova rozdělená sazbou na konci řádku byla spojena; tři novinové sloupce byly převedeny do souvislého pořadí zleva doprava.
-- V předloze je čitelné spojení `a rovněž tak ne Němci`.
-- Místní a osobní jména jsou přepsána podle tisku; jejich historická správnost není tímto OCR ověřena.
-- Tento přepis byl původně omylem uložen pod ID `urbanek-ceske-slovo-012`; dne 20. července 2026 byl po kontrole zdrojových cest přesunut pod správné ID `013`.
+- Celé tři sloupce, záhlaví, nadpisy a signatura byly znovu porovnány se zdrojovým obrazem.
+- Při druhé kontrole nebyla nalezena textová odchylka vyžadující opravu.
+- Dobové tvary `zabírati`, `Karvinnou`, `kursu`, `na př.` a neobvyklé vazby `a k jihu`, `a rovněž tak ne Němci` a `vystupovaly … lidé` odpovídají tisku.
+- Místní a osobní jména jsou vizuálně potvrzena jako přepis, nikoli nezávisle historicky ověřena.
+- Správná vazba na `12.jpg` byla potvrzena po dřívější opravě mapování.

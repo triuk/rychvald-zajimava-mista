@@ -55,6 +55,18 @@ corrections:
         readable_signature: "-vk-"
         note: Nadpis a souvislý text předchozího článku nejsou zachyceny.
 
+  - parent_image_id: urbanek-ceske-slovo-019
+    reviewed_at: 2026-07-21
+    reason: Horní zakončení se signaturou patří jinému článku než hlavní text o šachtách.
+    corrected_subitems:
+      - id: urbanek-ceske-slovo-019
+        type: complete_article
+        headline: "Vojenský dozor na šachtách na Těšínsku"
+      - id: urbanek-ceske-slovo-019-b
+        type: unidentified_ending_fragment
+        visible_text: "…cích. -bi-"
+        note: Nadpis, začátek slova a souvislý text předchozího článku nejsou zachyceny.
+
 reviewed_items:
   - urbanek-ceske-slovo-001
   - urbanek-ceske-slovo-002
@@ -72,3 +84,25 @@ reviewed_items:
   - urbanek-ceske-slovo-010
   - urbanek-ceske-slovo-010-b
   - urbanek-ceske-slovo-011
+  - urbanek-ceske-slovo-012
+  - urbanek-ceske-slovo-013
+  - urbanek-ceske-slovo-014
+  - urbanek-ceske-slovo-015
+  - urbanek-ceske-slovo-016-a
+  - urbanek-ceske-slovo-016-b
+  - urbanek-ceske-slovo-017-a
+  - urbanek-ceske-slovo-017-b
+  - urbanek-ceske-slovo-017-c
+  - urbanek-ceske-slovo-017-d
+  - urbanek-ceske-slovo-018
+  - urbanek-ceske-slovo-019
+  - urbanek-ceske-slovo-019-b
+  - urbanek-ceske-slovo-020
+  - urbanek-ceske-slovo-021-a
+  - urbanek-ceske-slovo-021-b
+  - urbanek-ceske-slovo-022-a
+  - urbanek-ceske-slovo-022-b
+  - urbanek-ceske-slovo-022-c
+  - urbanek-ceske-slovo-022-d
+  - urbanek-ceske-slovo-023-a
+  - urbanek-ceske-slovo-023-b

@@ -13,12 +13,16 @@ source:
 checkpoints:
   import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
   ocr_rules_commit: 62486dcbdfd7c63188720dc1d5e359a9b203ac79
-  workflow_status_created_commit: 15a00152622b6a5bbd87ff51d6b24f3a91d2b5cc
-  state_created_commit: ef2ac8c3220ee7b857f0cfb8ff15adc8565fd908
-  inventory_schema_commit: b6b6586a9069477ffa12a3f56d718ea1bedb5ed4
   windmill_inventory_commit: 8362cdc4b2d79f64dff3507bc133e98f9b21768b
   windmill_path_verification_commit: 5370e74957ce61a6fe701892c91e707984a07bb7
-  latest_status_commit: 918cd456de1b9abf7f72cb08fe6d1a07069b9028
+  windmill_thumbnail_cache_audit_commit: 4f02b7c4a7526a85658921d1369667dc50b66234
+  windmill_root_classification_commit: ce46d7836cb877c0aecda649c393634cac5b7afa
+  windmill_batch_02_commit: 87e312dad960694ccd628db5a09bf6155e7f33d2
+  windmill_information_sheet_ocr_commit: 09228af0c9543207dfac414612a03bfef78d558e
+  windmill_house_339_ocr_commit: 5bc4b5f5381d9b23e9d24413a7909519aeab67e7
+  windmill_batch_03_commit: 31e855c4910adf26198ffa4cc58693d1df9faf89
+  windmill_completed_inventory_commit: f58f21e6b65a5fab8e6eefd821d660158f0c2a83
+  latest_status_commit: 0e485ed6b63a674f6904562493ded1b5045ea4ba
 
 technical_files:
   keep:
@@ -28,30 +32,17 @@ technical_files:
   include_in_standard_ocr: false
   include_in_photo_classification: false
   future_analysis_allowed: true
+  missing_binary_files_do_not_block_other_collections: true
 
 ocr:
-  status: pending
+  status: in_progress
   machine_output_status: machine_unverified
   categories:
     document_text:
       enabled: true
-      examples:
-        - newspaper_article
-        - document
-        - caption
-        - title_page
     scene_text:
       enabled: true
       purpose: identify_or_refine_image_content
-      examples:
-        - building_inscription
-        - sign
-        - street_plate
-        - memorial_plaque
-        - shop_sign
-        - poster
-        - banner
-        - vehicle_marking
       record_approximate_location: true
   infer_missing_text: false
 
@@ -59,7 +50,7 @@ phases:
   import:
     status: completed_with_missing_technical_files
   preserve_technical_thumbnail_caches:
-    status: in_progress
+    status: deferred_documented
   ocr_policy:
     status: completed
   technical_audit:
@@ -67,42 +58,47 @@ phases:
   inventory:
     status: in_progress
   pilot_classification:
-    status: pending
+    status: in_progress
   ocr_processing:
-    status: pending
+    status: in_progress
   draft_pull_request:
     status: pending
 
 pilot_collections:
   - name: Rychvaldské větrné mlýny
-    status: repo_verified_missing_five_thumbs_db
+    status: classification_and_initial_ocr_completed
     drive_total_files: 39
     repo_verified_files: 34
     repo_missing_files: 5
     image_files: 31
     image_files_repo_verified: 31
+    image_files_classified: 31
     technical_thumbnail_caches: 8
     technical_thumbnail_caches_repo_verified: 3
     technical_thumbnail_caches_repo_missing: 5
     inventory_id_prefix: urbanek-mlyny
+    document_text_transcripts:
+      - research/urbanek-archive/ocr/urbanek-mlyny-024-document-text.md
+      - research/urbanek-archive/ocr/urbanek-mlyny-036-document-text.md
+    scene_text_machine_unverified_count: 1
     exact_duplicate_groups:
-      - ids:
-          - urbanek-mlyny-011
-          - urbanek-mlyny-021
+      - ids: [urbanek-mlyny-011, urbanek-mlyny-021]
         git_blob_sha: c597cbea1f7557dfe144a9c26eb02bf18693da0e
-      - ids:
-          - urbanek-mlyny-012
-          - urbanek-mlyny-022
-          - urbanek-mlyny-039
+      - ids: [urbanek-mlyny-012, urbanek-mlyny-022, urbanek-mlyny-039]
         git_blob_sha: 7a746e9bcf23a8e2a5fc49eafa2dc58658be9d7a
-    missing_paths:
-      - Rychvaldské větrné mlýny/Thumbs.db
-      - Rychvaldské větrné mlýny/větrný mlýn u hebdy/Thumbs.db
-      - Rychvaldské větrné mlýny/Mlýn u Kakalů/Thumbs.db
-      - Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/Thumbs.db
-      - Rychvaldské větrné mlýny/Mlýn u domku č. pop. 339/Thumbs.db
+    thumbnail_cache_findings:
+      missing_original_name: P1010269.JPG
+      recovered_thumbnail_dimensions: 72x96
+      recovered_thumbnail_sha256: 0253a94e8dfddbb1b8eb11ac592841ce49ebc168cd3a316099eee0a504ccf721
+      report: research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
+    unresolved:
+      - five Thumbs.db files remain on Drive but are missing from the GitHub branch
+      - names and locations derived only from filenames or folders remain unverified
+      - urbanek-mlyny-018 is probably misfiled
+      - relationship of urbanek-mlyny-039 to house 339 is unexplained
   - name: Články z Českého slova
-    status: pending
+    status: next_inventory_pending
+    inventory_id_prefix: urbanek-ceske-slovo
   - name: Ochotníci rychvald
     status: pending
   - name: fotodokument/den po dešti
@@ -111,28 +107,18 @@ pilot_collections:
     status: pending
 
 known_findings:
-  branch_ahead_of_main_after_import: 3
-  branch_behind_main_after_import: 0
   normalized_legacy_path_detected_after_replacement: false
   large_connector_listing_truncated: true
   complete_archive_file_count_verified: false
-  windmill_drive_file_count_verified: true
-  windmill_repo_paths_verified: true
-  windmill_all_image_files_present: true
-  windmill_missing_thumbs_db_count: 5
-  windmill_zbthumbnail_info_present_count: 3
-  windmill_git_blob_shas_recorded: true
-  windmill_exact_duplicate_analysis_complete: true
   complete_archive_checksums_complete: false
   complete_archive_duplicate_analysis_complete: false
+  windmill_collection_completed: true
 
 next_action:
-  type: restore_missing_technical_files
-  collection: Rychvaldské větrné mlýny
-  expected_files: 5
-  file_name: Thumbs.db
+  type: inventory_collection
+  collection: Články z Českého slova
+  inventory_id_prefix: urbanek-ceske-slovo
   instruction: >-
-    Copy the five missing Thumbs.db files from Google Drive to their exact original
-    paths on branch agent/import-urbanek-pilot. Verify their Git blob SHAs, change
-    the five inventory rows to repo_verified, and update STATUS.md and state.yml
-    before content classification or OCR begins.
+    Create a complete recursive Drive inventory for the collection, distinguish image
+    files from technical thumbnail caches, append stable IDs to inventory.csv, and
+    verify exact repository paths before grouping article pages or starting OCR.

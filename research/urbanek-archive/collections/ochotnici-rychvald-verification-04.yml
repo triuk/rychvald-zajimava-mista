@@ -1,0 +1,19 @@
+collection_id: urbanek-ochotnici
+batch_id: verification-04
+status: completed_with_missing_technical_file
+verified_count: 9
+missing_count: 1
+items:
+- [urbanek-ochotnici-031, repo_verified, 48b136e3f29f08d218ff9a9fc8b8caf428e2a4c0]
+- [urbanek-ochotnici-032, repo_verified, 18b3c199ad3d90b8e6d952a4764d37d0ecdb267a]
+- [urbanek-ochotnici-033, repo_verified, a762f12a8bf555a4084c9f128324024e1f64ef61]
+- [urbanek-ochotnici-034, repo_verified, bc5491981f336e97b6a4d2126d8a9b3a09bad974]
+- [urbanek-ochotnici-035, repo_verified, 93e666b604fadf89f62c03d5736c4e1a1c6db098]
+- [urbanek-ochotnici-036, drive_listed_repo_missing, null]
+- [urbanek-ochotnici-037, repo_verified, dbc40ad41aac162c1ecb01ff5194c2d3aa8010ce]
+- [urbanek-ochotnici-038, repo_verified, bf3827a6e2057fcb128b5f607a2b08f2cceb58f8]
+- [urbanek-ochotnici-039, repo_verified, 1bc72a4c813e90c3e5e1561f44b3b3967e8df34b]
+- [urbanek-ochotnici-040, repo_verified, 8f489f8da11bb3a07cd76b317173714a2156b57f]
+notes:
+- Chybějící položkou je pouze technická cache Thumbs.db.
+- Všech devět obsahových nebo přítomných technických souborů zachovává přesnou původní cestu.

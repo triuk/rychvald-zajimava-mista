@@ -17,7 +17,8 @@ checkpoints:
   state_created_commit: ef2ac8c3220ee7b857f0cfb8ff15adc8565fd908
   inventory_schema_commit: b6b6586a9069477ffa12a3f56d718ea1bedb5ed4
   windmill_inventory_commit: 8362cdc4b2d79f64dff3507bc133e98f9b21768b
-  latest_status_commit: 70382c174c6fa639d530103250670b69e10641f2
+  windmill_path_verification_commit: 5370e74957ce61a6fe701892c91e707984a07bb7
+  latest_status_commit: 918cd456de1b9abf7f72cb08fe6d1a07069b9028
 
 technical_files:
   keep:
@@ -56,9 +57,9 @@ ocr:
 
 phases:
   import:
-    status: completed
+    status: completed_with_missing_technical_files
   preserve_technical_thumbnail_caches:
-    status: completed
+    status: in_progress
   ocr_policy:
     status: completed
   technical_audit:
@@ -74,11 +75,32 @@ phases:
 
 pilot_collections:
   - name: Rychvaldské větrné mlýny
-    status: drive_inventory_completed_repo_verification_pending
-    total_files: 39
+    status: repo_verified_missing_five_thumbs_db
+    drive_total_files: 39
+    repo_verified_files: 34
+    repo_missing_files: 5
     image_files: 31
+    image_files_repo_verified: 31
     technical_thumbnail_caches: 8
+    technical_thumbnail_caches_repo_verified: 3
+    technical_thumbnail_caches_repo_missing: 5
     inventory_id_prefix: urbanek-mlyny
+    exact_duplicate_groups:
+      - ids:
+          - urbanek-mlyny-011
+          - urbanek-mlyny-021
+        git_blob_sha: c597cbea1f7557dfe144a9c26eb02bf18693da0e
+      - ids:
+          - urbanek-mlyny-012
+          - urbanek-mlyny-022
+          - urbanek-mlyny-039
+        git_blob_sha: 7a746e9bcf23a8e2a5fc49eafa2dc58658be9d7a
+    missing_paths:
+      - Rychvaldské větrné mlýny/Thumbs.db
+      - Rychvaldské větrné mlýny/větrný mlýn u hebdy/Thumbs.db
+      - Rychvaldské větrné mlýny/Mlýn u Kakalů/Thumbs.db
+      - Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/Thumbs.db
+      - Rychvaldské větrné mlýny/Mlýn u domku č. pop. 339/Thumbs.db
   - name: Články z Českého slova
     status: pending
   - name: Ochotníci rychvald
@@ -95,16 +117,22 @@ known_findings:
   large_connector_listing_truncated: true
   complete_archive_file_count_verified: false
   windmill_drive_file_count_verified: true
-  windmill_repo_paths_verified: false
-  checksums_complete: false
-  duplicate_analysis_complete: false
+  windmill_repo_paths_verified: true
+  windmill_all_image_files_present: true
+  windmill_missing_thumbs_db_count: 5
+  windmill_zbthumbnail_info_present_count: 3
+  windmill_git_blob_shas_recorded: true
+  windmill_exact_duplicate_analysis_complete: true
+  complete_archive_checksums_complete: false
+  complete_archive_duplicate_analysis_complete: false
 
 next_action:
-  type: verify_collection_paths_in_repository
+  type: restore_missing_technical_files
   collection: Rychvaldské větrné mlýny
-  expected_files: 39
+  expected_files: 5
+  file_name: Thumbs.db
   instruction: >-
-    Verify all inventory paths against branch agent/import-urbanek-pilot. Change
-    matching rows from drive_listed_repo_path_pending to repo_verified, record
-    missing or extra paths, then update STATUS.md and state.yml before content
-    classification or OCR begins.
+    Copy the five missing Thumbs.db files from Google Drive to their exact original
+    paths on branch agent/import-urbanek-pilot. Verify their Git blob SHAs, change
+    the five inventory rows to repo_verified, and update STATUS.md and state.yml
+    before content classification or OCR begins.

@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-031`
 - Soubor: `Články z Českého slova/30.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek
 - Číslo v záhlaví výstřižku: `1875`
 - Datace: Řím, 29. října 1938
@@ -20,7 +20,7 @@
 
 ## Poznámky ke spolehlivosti
 
-- Článek je na snímku zachycen celý.
+- Článek je na snímku zachycen celý a byl řádkově porovnán s předlohou.
 - Čárka za spojením `z Varšavy` byla zachována podle předlohy.
 - Dobové názvy `východní Halíče` a `Podkarpatské Rusi` byly zachovány.
 - Číslo `1875` je zřejmě stránkové nebo pořadové označení, ale jeho význam není ze samotného výstřižku doložen.

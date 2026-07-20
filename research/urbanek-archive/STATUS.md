@@ -6,18 +6,18 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený revizní checkpoint: `6a71d314fac4ec958174e5e99d8086162b97b770`
+- Poslední dokončený revizní checkpoint: `38bcf6d08768ed8a253b6695ae521f47484a7985`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
-Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a korekční soubor seskupení.
+Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a `clanky-z-ceskeho-slova-grouping-corrections.yml`.
 
 ## Neměnná rozhodnutí
 
 - Originály nepřejmenovávat, nepřesouvat ani neupravovat.
 - Chybějící nebo nečitelné části textu nedoplňovat odhadem.
 - Samostatné články a fragmenty ukládat pod vlastními stabilními ID.
-- Stav `visually_verified` lze přidělit pouze po úplném porovnání se zdrojovým obrazem.
-- Strukturální opravy seskupení zapisovat do `clanky-z-ceskeho-slova-grouping-corrections.yml`.
+- Stav `visually_verified` přidělit jen po úplném porovnání s obrazem.
+- Strukturální opravy seskupení ukládat do korekčního souboru.
 - Každou dávku commitnout a aktualizovat stav i registr nejistot.
 
 ## Stav etap
@@ -28,7 +28,7 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 | Technický audit a inventář | probíhá po kolekcích |
 | Klasifikace větrných mlýnů | dokončena |
 | První OCR Českého slova | dokončeno pro všech 37 obrazů |
-| Druhá vizuální kontrola Českého slova | probíhá |
+| Druhá vizuální kontrola Českého slova | probíhá; ověřeny položky 001–011 a nové fragmenty |
 | Řešení nejistot | centrálně evidováno |
 | Ostatní tři pilotní kolekce | čekají |
 | Pull request | čeká |
@@ -39,14 +39,20 @@ Soubor: `research/urbanek-archive/uncertainties.yml`
 
 Souhrn:
 
-- `open`: 17
+- `open`: 16
 - `in_progress`: 1
 - `deferred`: 2
-- `resolved`: 2
+- `resolved`: 3
 - `not_actionable`: 1
 - celkem: 22
 
-`URB-U-0018` nyní eviduje průběh druhé řádkové kontroly. `URB-U-0014` byla uzavřena: příjmení starosty je ve zdrojovém obraze čitelné jako **Jarábáč**; ověřena je podoba přepisu, nikoli nezávisle historická identita osoby.
+Nově vyřešeno:
+
+- `URB-U-0015`: spodní cizí nadpis v `6.jpg` skutečně zní **„Malhomme se vrátil“**.
+
+Stále otevřeno:
+
+- `URB-U-0017`: horní fragment v `9.jpg` má čitelnou signaturu `-vk-`, ale nadpis ani původní článek nelze z výřezu určit.
 
 ## Pilotní kolekce
 
@@ -59,48 +65,35 @@ Souhrn:
 ## Články z Českého slova
 
 - 37 obrazových položek ověřeno, seskupeno a přepsáno v prvním průchodu.
-- Výstupy jsou v `research/urbanek-archive/ocr/`.
-- Druhou kontrolou prošly:
-  - `001`;
-  - `002`;
-  - `003`;
-  - `004-a`;
-  - `004-b`;
-  - nově oddělená `004-b2`;
-  - `004-c`;
-  - `005`.
-- Všech osm jednotek má stav `visually_verified`.
+- Druhou kontrolou prošly textové jednotky:
+  - `001`, `002`, `003`;
+  - `004-a`, `004-b`, `004-b2`, `004-c`;
+  - `005`, `006`;
+  - `007`, `007-b`;
+  - `008`, `009`;
+  - `010`, `010-b`;
+  - `011`.
+- Celkem je nyní `visually_verified` 16 textových jednotek.
 
-### Zjištěné opravy druhé kontroly
+### Opravy z druhé dávky
 
-1. `001`: odstraněny vydavatelské a kontaktní údaje, které na výřezu vůbec nejsou.
-2. `004`: odstavec s novou datací `Bratislava 3. října. (er)` je samostatná zpráva a byl oddělen jako `004-b2`.
-3. `005`: přepis příjmení `Jarábáč` byl potvrzen zvětšením zdrojového řádku.
-4. `002`, `003` a `004-a` odpovídaly obrazu bez textové opravy.
-5. U `004-c` bylo znovu potvrzeno, že je zachován pouze nadpis.
-
-Autoritativní strukturální korekce:
-
-`research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-corrections.yml`
-
-Větev byla po dokončení prvního OCR průchodu ověřena jako **114 commitů před `main` a 0 commitů za `main`**.
+- `006`, `008`, `009` a `011` odpovídaly obrazu bez textové opravy.
+- `007`: cizí spodní nadpis byl oddělen jako `007-b`; znění **„Malhomme se vrátil“** bylo potvrzeno.
+- `010`: oříznutý konec předchozího článku byl oddělen jako `010-b`; signatura je `-vk-`, identita článku zůstává neznámá.
+- Korekční soubor nyní pokrývá položky `004`, `007` a `010`.
 
 ## Následující přesný krok
 
-Druhá řádková kontrola položek:
+Druhá řádková kontrola položek ze zdrojových obrazů `11.jpg–16.jpg`:
 
-- `006`;
-- `007`;
-- `008`;
-- `009`;
-- `010`;
-- `011`.
+- `012`;
+- `013`;
+- `014`;
+- `015`;
+- `016-a`, `016-b`;
+- `017-a`, `017-b`, `017-c`, `017-d`.
 
-Zvláštní pozornost:
-
-- u `007` znovu posoudit oříznutý cizí nadpis vedený jako `URB-U-0015`;
-- u `010` zachovat horní cizí fragment oddělený a případně zpřesnit `URB-U-0017`;
-- každý úplně zkontrolovaný soubor označit `visually_verified`.
+U `015` zachovat a znovu posoudit fyzickou lakunu `URB-U-0019`. U složených výstřižků ověřit skutečný tok sazby a hranice jednotlivých článků.
 
 ## Instrukce pro nový chat
 

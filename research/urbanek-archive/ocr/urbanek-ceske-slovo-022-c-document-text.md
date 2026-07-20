@@ -4,8 +4,9 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-022`
 - Soubor: `Články z Českého slova/21.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: neúplný spodní fragment sousedního článku
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Viditelný text
 
@@ -15,6 +16,6 @@
 
 ## Poznámky ke spolehlivosti
 
-- Zachován je nadpis a pouze horní část prvního řádku textu.
-- Pokračování článku leží pod dolním okrajem snímku a nebylo rekonstruováno.
+- Při druhé vizuální kontrole byl potvrzen nadpis a pouze horní část prvního řádku textu.
+- Pokračování článku leží pod dolním okrajem snímku; slova za `bude` nebyla domýšlena.
 - Fragment není součástí článku `urbanek-ceske-slovo-022-b`.

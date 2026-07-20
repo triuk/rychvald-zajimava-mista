@@ -1,0 +1,210 @@
+collection_id: urbanek-ochotnici
+batch_id: classification-03
+status: completed
+scope: urbanek-ochotnici-021..urbanek-ochotnici-030
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+image_items: 10
+document_text_candidates: 3
+scene_text_candidates: 1
+photographs_without_ocr: 6
+
+items:
+  - id: urbanek-ochotnici-021
+    source_path: Ochotníci rychvald/Z výstavky 2.jpg
+    visual_type: contemporary_photograph_of_exhibition_panel
+    description: >-
+      Celkový pohled na výstavní panel věnovaný účasti rychvaldského souboru s
+      Večerem tříkrálovým na přehlídkách roku 1960. Panel obsahuje festivalový
+      plakát, kroměřížský program, novinové stránky, články, fotografie a výstřižky.
+    grouping:
+      group_id: exhibition-kromeriz-and-vecer-trikralovy
+      role: overview_reference
+    ocr:
+      document_text: not_applicable
+      scene_text: candidate_selective
+      note: >-
+        Plný OCR vložených dokumentů neprovádět z celkového záběru; většina je
+        zastoupena samostatnými kvalitnějšími soubory. Přepsat jen nadpisy potřebné
+        k potvrzení rozvržení panelu a vztahů mezi položkami.
+
+  - id: urbanek-ochotnici-022
+    source_path: "Ochotníci rychvald/Viola- Sylvie Kravalová MUDr Jaromír Marcalík Sebastiano Violin bratr Irena Marcalíková.jpg"
+    visual_type: historical_backstage_or_commemorative_photograph
+    description: >-
+      Dvě osoby v kostýmech z Večera tříkrálového stojí po stranách muže v civilním
+      oděvu. Jména a role jsou převzaty výhradně z původního názvu souboru.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: posed_backstage_group
+    identification:
+      status: unverified_filename_based
+      archival_label_mentions:
+        - "Viola – Sylvie Kravalová"
+        - "MUDr. Jaromír Marcalík"
+        - "Sebastiano – Irena Marcalíková"
+      note: Osoby nebyly identifikovány podle tváří.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-023
+    source_path: Ochotníci rychvald/četné uznání.jpg
+    visual_type: photographed_award_document
+    primary_title: "Čestné uznání"
+    recipient: "Sylvie Kravalová"
+    award_reason: "za vytvoření postavy Violy ve hře Williama Shakespeara Večer tříkrálový"
+    competition: "Celostátní soutěž vesnických divadelních souborů LUT 1959/1960"
+    printed_place_and_date: "Kroměříž – Jindřichův Hradec – Levice, květen 1960"
+    description: >-
+      Otevřený dvoulist čestného uznání uděleného Sylvii Kravalové za roli Violy.
+      Obsahuje dekorativní divadelní motiv a dva podpisy náměstků ministrů.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: complete_award_document
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+      note: Podpisy přepisovat jen tehdy, jsou-li čitelné; funkce jsou tištěné.
+
+  - id: urbanek-ochotnici-024
+    source_path: Ochotníci rychvald/Šašek Vejražka - Libor Smetana.jpg
+    visual_type: historical_stage_photograph
+    description: Muž v divadelním kostýmu při gestu na jevišti.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: character_portrait
+    identification:
+      status: unverified_filename_based
+      archival_label: "Šašek Vejražka – Libor Smetana"
+      note: Role a jméno jsou převzaty z názvu souboru, nikoli z rozpoznání osoby.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-025
+    source_path: Ochotníci rychvald/Viola a Fabiano - Sylvie Kravalová a Radomír Jurdin.jpg
+    visual_type: historical_stage_photograph
+    description: Dvě postavy v historizujících kostýmech v jevištní scéně.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: stage_scene_two_characters
+    identification:
+      status: unverified_filename_based
+      archival_label: "Viola a Fabiano – Sylvie Kravalová a Radomír Jurdin"
+      note: Role a jména jsou převzaty z názvu souboru.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-026
+    source_path: Ochotníci rychvald/Sebastiano - Irena Marcalíková.jpg
+    visual_type: historical_stage_photograph
+    description: Postava v historizujícím kostýmu na jevišti.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: character_portrait
+    identification:
+      status: unverified_filename_based
+      archival_label: "Sebastiano – Irena Marcalíková"
+      note: Role a jméno jsou převzaty z názvu souboru.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-027
+    source_path: Ochotníci rychvald/Z danního tisku.jpg
+    visual_type: mounted_newspaper_clipping
+    primary_title: "Jaké jsou naše vesnické soubory?"
+    author: "Dr. O. Lihotová"
+    description: >-
+      Úplný novinový článek hodnotící první celostátní soutěž vesnických divadelních
+      souborů. Zvýrazněná pasáž chválí Sylvu Kravalovou v roli Violy a soubor
+      Osvětové besedy v Rychvaldě.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: complete_press_review
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+      note: Zachovat zvýrazněnou pasáž pouze jako grafickou informaci, nikoli jako změnu textu.
+
+  - id: urbanek-ochotnici-028
+    source_path: Ochotníci rychvald/Článek v čas. Těšínsko I.jpg
+    visual_type: scanned_magazine_article_page
+    printed_page: 27
+    primary_title: "Z dějin ochotnického divadla v Rychvaldě"
+    description: >-
+      První strana článku o vývoji rychvaldského ochotnického divadla. Popisuje
+      soubor na Podlesí, vznik nového souboru, přípravu Večera tříkrálového a první
+      úspěchy. Obsahuje fotografii z představení a ruční věnování.
+    grouping:
+      group_id: tesinsko-article-borivoj-peska
+      role: first_page
+      next_id: urbanek-ochotnici-019
+    continuation:
+      status: directly_confirmed
+      note: >-
+        Poslední rozdělené slovo a věta na této straně přímo pokračují na začátku
+        položky 019; obě strany tvoří jeden článek.
+    ocr:
+      document_text: candidate_joint_with_019
+      scene_text: not_applicable
+      note: Tištěný článek a ruční věnování vést jako dvě samostatné textové vrstvy.
+
+  - id: urbanek-ochotnici-029
+    source_path: Ochotníci rychvald/Zabloudil Suider.jpg
+    visual_type: historical_stage_photograph
+    description: Dvě postavy v kostýmech sedí s korbely v jevištní scéně.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: stage_scene_two_characters
+    identification:
+      status: unverified_filename_based
+      archival_label: "Zabloudil, Suider"
+      note: Jména jsou převzata z názvu souboru; přesná role druhé osoby není doložena obrazem.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-030
+    source_path: Ochotníci rychvald/Zabloudil.jpg
+    visual_type: historical_stage_photograph
+    description: Samostatný portrét mužské postavy v historizujícím kostýmu s kordem.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: character_portrait
+    identification:
+      status: unverified_filename_based
+      archival_label: "Zabloudil"
+      note: Příjmení je převzato z názvu souboru, nikoli z rozpoznání osoby.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+groups:
+  - group_id: exhibition-kromeriz-and-vecer-trikralovy
+    members: [urbanek-ochotnici-021]
+    linked_document_groups: [kromeriz-celostatni-prehlidka, vecer-trikralovy-stage-photographs]
+  - group_id: kromeriz-celostatni-prehlidka
+    added_members: [urbanek-ochotnici-023, urbanek-ochotnici-027]
+  - group_id: tesinsko-article-borivoj-peska
+    ordered_members: [urbanek-ochotnici-028, urbanek-ochotnici-019]
+    status: complete_two_page_article_confirmed
+  - group_id: vecer-trikralovy-stage-photographs
+    existing_members: [urbanek-ochotnici-020]
+    added_members:
+      - urbanek-ochotnici-022
+      - urbanek-ochotnici-024
+      - urbanek-ochotnici-025
+      - urbanek-ochotnici-026
+      - urbanek-ochotnici-029
+      - urbanek-ochotnici-030
+
+next_action:
+  type: visually_classify_collection_batch
+  batch_ids: urbanek-ochotnici-031..urbanek-ochotnici-040
+  instruction: >-
+    Skip standard classification for technical caches 031 and 036, then classify
+    items 032–035 and 037–040. Continue grouping Večer tříkrálový photographs and
+    identify text-bearing programs or documents before OCR.

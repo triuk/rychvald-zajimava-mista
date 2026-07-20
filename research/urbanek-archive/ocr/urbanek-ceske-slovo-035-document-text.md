@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-035`
 - Soubor: `Články z Českého slova/33.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified_with_lacuna`
 - Druh: soubor krátkých novinových zpráv s fyzicky poškozeným úsekem
 - Nejistota: `URB-U-0022`
 
@@ -29,9 +29,9 @@ Vládním komisařem v Doubravě byl konsulem Malhommem ustanoven Jan Žebrok, P
 
 ## Poznámky ke spolehlivosti
 
-- Krátké zprávy byly zachovány v pořadí předlohy.
-- Poškození ve spodní střední části zasahuje několik řádků a znemožňuje určit přesný rozsah i obsah chybějícího textu.
-- Podoby jmen `Malhomme`, `Jan Žebrok` a `K. Buchta` jsou přepsány podle tisku a vyžadují druhou vizuální nebo externí kontrolu.
-- Spojení `polský legion K. Buchta` je přepsáno doslovně; neobvyklý tvar nebyl jazykově opravován.
+- Veškerý zachovaný text byl řádkově porovnán se zdrojovým obrazem.
+- Poškození ve spodní střední části zasahuje několik řádků a neumožňuje určit přesný rozsah ani obsah chybějícího textu; `URB-U-0022` proto zůstává otevřená.
+- Podoby jmen `Malhomme`, `Jan Žebrok` a `K. Buchta` byly potvrzeny jako přesný přepis tisku; historická identita osob tím není samostatně ověřena.
+- Spojení `polský legion K. Buchta` je skutečně vytištěno a nebylo jazykově opravováno.
 - Dobové tvary `vrátiti`, `býti`, `ježto` a výraz `poživatiny` byly zachovány.
 - Tvrzení zpráv nejsou tímto OCR historicky ověřena.

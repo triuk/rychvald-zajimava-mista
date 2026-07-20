@@ -3,9 +3,10 @@
 - Zdroj: `urbanek-ceske-slovo-018`
 - Soubor: `Články z Českého slova/17.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek
 - Signatura: `(Úř.)`
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Nadpisy
 
@@ -22,6 +23,6 @@ U okresního úřadu v Mor. Ostravě byla zřízena zvláštní komise, zvaná m
 ## Poznámky ke spolehlivosti
 
 - Přepis zachovává dobové nebo zkrácené tvary `reservována`, `Mar. Horách`, `Čs. Červ. kříže`, `čís.` a `okr.`.
-- Článek je na snímku zachycen celý.
-- Jména `Vlk`, `Mrštík`, `Krátký` a `Boxan` jsou přepsána podle tisku; jejich identita není tímto OCR samostatně ověřena.
+- Článek je na snímku zachycen celý a byl řádkově porovnán se zdrojovým obrazem.
+- Jména `Vlk`, `Mrštík`, `Krátký` a `Boxan` jsou ověřena jako podoba vytištěná v předloze; jejich historická identita nebyla samostatně ověřována.
 - Tvrzení článku nejsou tímto přepisem historicky ověřena.

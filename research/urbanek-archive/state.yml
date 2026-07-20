@@ -14,36 +14,24 @@ authoritative_files:
   - research/urbanek-archive/STATUS.md
   - research/urbanek-archive/state.yml
   - research/urbanek-archive/uncertainties.yml
-  - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-corrections.yml
 
 checkpoints:
   import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
-  czech_word_first_pass_last_ocr_commit: 47b931aeb6ea1a9217ab70cbb62d78deb82f1637
-  czech_word_second_review_last_item_commit: 75cd91620126f70787899912f3f11ccc150a8d1f
-  czech_word_second_review_registry_commit: 6c414ee2f5b1b783cbd1bc9ea76261ab242cf6b8
-  grouping_corrections_commit: afc9544c537a6e2fba6aab87b61f527861ff96ef
+  czech_word_second_review_completed_commit: 0bff6de7d6e757f0d800638f9efb6bbbdb70b952
+  ochotnici_inventory_commit: df993af216ea5f87ef6adff4dfaca3a8dc146d14
+  ochotnici_verification_01_commit: 7fd65ad9ebb53ea2cf5bdd7fc81f36b67c298c19
+  ochotnici_verification_02_commit: d7cb66cc299b3e5b72b12d325f5671d0d27bb49f
 
 ocr:
-  first_pass_status: completed_for_czech_word_collection
-  second_pass_status: completed_for_czech_word_collection
-  visually_reviewed_text_units: 56
-  reviewed_through: urbanek-ceske-slovo-037-c
-  verified_with_open_lacunae:
-    - {item: urbanek-ceske-slovo-020, uncertainty: URB-U-0020}
-    - {item: urbanek-ceske-slovo-022-a, uncertainty: URB-U-0021}
-    - {item: urbanek-ceske-slovo-035, uncertainty: URB-U-0022}
-  verified_with_context_support:
-    - item: urbanek-ceske-slovo-025-scene-text
-      basis: Částečně čitelná tabule a úplný vizuálně ověřený novinový popisek.
+  czech_word_first_pass: completed
+  czech_word_second_visual_review: completed
+  czech_word_reviewed_units: 56
   preserve_printed_spelling: true
-  split_composite_clippings: true
   infer_missing_text: false
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
   summary: {open: 15, in_progress: 0, deferred: 2, resolved: 5, not_actionable: 1, total: 23}
-  completed_visual_review_batch: URB-U-0018
-  retained_open_lacunae: [URB-U-0020, URB-U-0021, URB-U-0022]
 
 phases:
   import: completed_with_missing_technical_files
@@ -55,27 +43,27 @@ phases:
 
 pilot_collections:
   - {name: Rychvaldské větrné mlýny, status: classification_and_initial_ocr_completed}
-  - name: Články z Českého slova
-    status: first_pass_and_second_visual_review_completed
-    image_files: 37
-    image_items_with_first_pass_ocr: 37
-    visually_reviewed_text_units: 56
-    repo_missing_technical_files: 1
-  - {name: Ochotníci rychvald, status: next_inventory_pending}
+  - {name: Články z Českého slova, status: first_pass_and_second_visual_review_completed}
+  - name: Ochotníci rychvald
+    status: inventory_created_repo_verification_in_progress
+    drive_total_files: 63
+    image_files: 60
+    document_files: 1
+    technical_thumbnail_caches: 2
+    inventory_id_prefix: urbanek-ochotnici
+    inventory_file: research/urbanek-archive/collections/ochotnici-rychvald-inventory.csv
+    repo_verified_items: 20
+    repo_missing_items: 0
+    verification_files:
+      - research/urbanek-archive/collections/ochotnici-rychvald-verification-01.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-verification-02.yml
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
-final_czech_word_review_findings:
-  - Všech 56 textových a scénických jednotek bylo porovnáno se zdrojovými obrazy.
-  - Strukturální korekce a samostatné fragmenty jsou zapsány v korekčním YAML.
-  - Fyzické lakuny URB-U-0020, URB-U-0021 a URB-U-0022 zůstávají otevřené.
-  - Druhá kontrola nevytvořila žádnou domyšlenou rekonstrukci chybějícího textu.
-
 next_action:
-  type: inventory_collection
+  type: verify_collection_paths
   collection: Ochotníci rychvald
-  inventory_id_prefix: urbanek-ochotnici
+  batch_ids: urbanek-ochotnici-021..urbanek-ochotnici-030
   instruction: >-
-    Create a complete recursive Drive inventory, distinguish images, document scans and
-    technical thumbnail caches, assign stable IDs, and verify exact repository paths
-    before visual classification or OCR.
+    Verify exact GitHub paths and blob SHA for items 021 through 030. Do not begin
+    visual classification or OCR until all 63 inventory entries have been checked.

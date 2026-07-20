@@ -3,10 +3,12 @@
 - Zdroj: `urbanek-ceske-slovo-004-b`
 - Obrazový soubor: `Články z Českého slova/3  další  texty bez komentáře.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: druhý samostatný článek ve složeném výstřižku
 - Datace v textu: Bratislava, 3. října 1938
 - Značka: `(er)`
+- Vizuálně ověřeno: `2026-07-20`
+- Související samostatná krátká zpráva: `urbanek-ceske-slovo-004-b2`
 
 ## Nadpis
 
@@ -18,11 +20,10 @@
 
 »Slovenský deník« ve svém zítřejším čísle žádá, aby záležitost slovenská byla co nejdříve vyřešena a prohlašuje, že kdo se ještě dnes staví proti široké samosprávě na Slovensku je škůdcem československé státnosti. Protestuje však proti tomu, aby o Slovensku jednala jedna politická strana, anebo aby snad tady spolupůsobily zahraniční vlivy.
 
-**Bratislava 3. října. (er)** Ke zprávám o tom, že na Slovensko jsou posíláni noví čeští zaměstnanci hlavně železničáři, je nutno konstatovat, že jde o železničáře, kteří přechodně byli na Slovensku ubytováni z okupovaných území a kteří se zase vrátili na svá místa.
+## Poznámky k ověření
 
-## Poznámky ke spolehlivosti
-
-- Přepis zachovává dobové tvary `presidentu`, `převzíti` a původní vazby vět.
-- Článek je vysázen ve dvou sloupcích; pořadí bylo při přepisu sjednoceno.
-- Poslední odstavec má vlastní dataci a značku, ale na výstřižku navazuje pod stejným hlavním nadpisem. Je proto ponechán v témže souboru jako samostatná krátká zpráva.
-- Text představuje dobové novinové zpravodajství a jeho tvrzení nejsou tímto přepisem nezávisle ověřena.
+- Oba sloupce hlavního článku byly znovu porovnány se zdrojovým obrazem.
+- Při druhé kontrole nebyla v hlavním článku nalezena textová odchylka vyžadující opravu.
+- Dobové tvary `presidentu`, `převzíti` a původní interpunkce byly zachovány.
+- Odstavec začínající novou datací `Bratislava 3. října. (er)` byl při druhé kontrole správně oddělen jako samostatná textová jednotka `004-b2`.
+- Tvrzení článku nejsou tímto OCR historicky ověřena.

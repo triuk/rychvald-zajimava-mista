@@ -6,11 +6,11 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: commit `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený pracovní checkpoint: commit `405b9e3cbbdab40abcb9e3aa55c2e069b095d4d1`
+- Poslední dokončený pracovní checkpoint: commit `c3e921b73e36dac29fd58484a629259dc945aba3`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
-Tento soubor a `state.yml` jsou autoritativním předávacím bodem mezi chaty. Nový chat musí nejdříve načíst pravidla repozitáře, tento soubor a `state.yml` a ověřit aktuální hlavu větve.
+Tento soubor, `state.yml` a `uncertainties.yml` jsou autoritativním předávacím bodem mezi chaty. Nový chat musí nejdříve načíst pravidla repozitáře, tyto tři soubory a ověřit aktuální hlavu větve.
 
 ## Neměnná rozhodnutí
 
@@ -42,7 +42,34 @@ Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňu
 | Hlavní inventář | probíhá | Mlýny jsou v hlavním inventáři; České slovo má samostatný kolekční inventář. |
 | Pilotní klasifikace | probíhá | Mlýny dokončeny; všech 37 obrazů Českého slova je seskupeno podle fyzických článků. |
 | OCR | probíhá | Mlýny mají první přepisy; u Českého slova jsou dokončeny položky 001–010 včetně tří částí složeného výstřižku 004. |
+| Řešení nejistot | evidováno, čeká na postupné ověřování | Centrální fronta je v `research/urbanek-archive/uncertainties.yml`. |
 | Draft pull request | čeká | Až po dokončení všech pěti pilotních kolekcí. |
+
+## Centrální registr nejistot
+
+Autoritativní seznam je:
+
+`research/urbanek-archive/uncertainties.yml`
+
+Každá podstatná nejistota má stabilní ID `URB-U-XXXX`, zdrojovou položku, stav, prioritu, přesnou otázku, odkaz na doklad a konkrétní následující krok. Původní záznam se po vyřešení nemaže; doplní se výsledek, nový doklad, datum a způsob ověření.
+
+Aktuální stav registru:
+
+- `open`: 14;
+- `deferred`: 2;
+- `resolved`: 1;
+- `not_actionable`: 1;
+- celkem: 18.
+
+Příklady:
+
+- `URB-U-0007` – ověřit, zda historický obraz skutečně zachycuje Kakalův mlýn;
+- `URB-U-0010` – ověřit vazbu náčrtu a fotografií na dům č. 339;
+- `URB-U-0014` – ověřit čtení příjmení orlovského starosty jako `Jarábáč`;
+- `URB-U-0015` – ověřit oříznutý nadpis `Malhomme se vrátil`;
+- `URB-U-0013` – uzavřený příklad: u položky 004-c bylo potvrzeno, že je zachován pouze nadpis.
+
+Tvrzení navázané na otevřenou nebo odloženou nejistotu nesmí být v publikovaném článku označeno jako `verified`.
 
 ## Pilotní kolekce
 
@@ -97,7 +124,7 @@ Důležitá zjištění:
 - `24.jpg` obsahuje dvě fotografie z předávání území v Rychvaldě, úplný novinový popisek a scénický nápis **„Městys Rychvald“**;
 - `35.jpg` dokládá vydání `České slovo – pondělník`, 31. října 1938, ročník 10, číslo 301;
 - složené výstřižky se musí při OCR přepisovat po jednotlivých článcích, nikoli jako jeden souvislý text;
-- u `urbanek-ceske-slovo-004-c` je po podrobné kontrole zachován pouze nadpis **„Mnoho otázek před berlínskou komisí“**. Starší údaj `headline_and_beginning_only` v `grouping-01.yml` je v tomto bodě překonán tímto stavovým souborem a samostatným OCR záznamem.
+- u `urbanek-ceske-slovo-004-c` je po podrobné kontrole zachován pouze nadpis **„Mnoho otázek před berlínskou komisí“**.
 
 ## Dokončené OCR Českého slova
 
@@ -108,26 +135,22 @@ Důležitá zjištění:
 - `004-b`: **„Slovenský ministr Černák hrozí demisí“** a navazující krátká zpráva.
 - `004-c`: pouze nadpis **„Mnoho otázek před berlínskou komisí“**.
 - `005`: **„České Fryštátsko protestuje proti připojení k Polsku“**.
-  - Jméno orlovského starosty je strojově přepsáno jako `Jarábáč`, ale před jmenným použitím vyžaduje ověření.
 - `006`: **„Situace na polsko-čs. hranici na Těšínsku“**.
 - `007`: **„Poláci pokračují v obsazování těšínského území“**.
-  - Cizí spodní fragment je oddělen; pravděpodobný nadpis `Malhomme se vrátil` má nízkou jistotu.
 - `008`: **„Uprchlíci z Těšínska do Slezské Ostravy“**.
 - `009`: **„Poláci nepřeruší výrobu v obsazeném území“**.
-  - Polský ministr je v předloze uveden pouze příjmením `Roman`; celé jméno nebylo domýšleno.
 - `010`: **„V sobotu se zahájí obsazování Fryštátska“**.
-  - Cizí horní fragment nebyl připojen k hlavnímu článku, protože neobsahuje bezpečně určitelné záhlaví ani souvislý text.
 
 Soubory jsou uloženy v `research/urbanek-archive/ocr/` pod odpovídajícími stabilními ID. Všechny přepisy mají stav `machine_unverified` a zachovávají dobový pravopis.
 
 ## Následující přesný krok
 
-Přepsat `urbanek-ceske-slovo-011`, článek **„Zůstanou na Těšínsku české školy?“**. Poté pokračovat `urbanek-ceske-slovo-012`, článek **„Fryštát už má polského starostu“**. Každý článek uložit a commitnout samostatně.
+Přepsat `urbanek-ceske-slovo-011`, článek **„Zůstanou na Těšínsku české školy?“**. Poté pokračovat `urbanek-ceske-slovo-012`, článek **„Fryštát už má polského starostu“**. Každý článek uložit a commitnout samostatně. Každou novou podstatnou nejistotu zároveň zapsat do `uncertainties.yml`.
 
 ## Instrukce pro nový chat
 
-1. Načíst `AGENTS.md`, `sources/README.md`, tento `STATUS.md` a `state.yml`.
+1. Načíst `AGENTS.md`, `sources/README.md`, tento `STATUS.md`, `state.yml` a `uncertainties.yml`.
 2. Ověřit větev `agent/import-urbanek-pilot` a její aktuální hlavu.
 3. Neměnit originální archivní soubory.
 4. Pokračovat pouze krokem uvedeným v části **Následující přesný krok**.
-5. Po malé dokončené dávce commitnout výstupy a aktualizovat oba stavové soubory.
+5. Po malé dokončené dávce commitnout výstupy a aktualizovat stavové soubory i registr nejistot, pokud vznikla nebo byla vyřešena podstatná otázka.

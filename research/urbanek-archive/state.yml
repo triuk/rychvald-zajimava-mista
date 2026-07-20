@@ -10,33 +10,24 @@ source:
   preserve_original_filenames: true
   modify_originals: false
 
+authoritative_files:
+  - AGENTS.md
+  - research/urbanek-archive/STATUS.md
+  - research/urbanek-archive/state.yml
+  - research/urbanek-archive/uncertainties.yml
+
 checkpoints:
   import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
-  ocr_rules_commit: 62486dcbdfd7c63188720dc1d5e359a9b203ac79
   windmill_completed_inventory_commit: f58f21e6b65a5fab8e6eefd821d660158f0c2a83
   czech_word_inventory_commit: 51027f4b62f2ce058ff5267866c4a1cea8f93a66
-  czech_word_verification_01_commit: 46f2126c7f14d16df0a49c9a3a7fde0c0490885a
-  czech_word_verification_02_commit: 62840e3b5e20f6d80c162745d00b3e6ea385cb77
-  czech_word_verification_03_commit: 58b4bbeb93201809c968452625400131953019f6
-  czech_word_thumbnail_cache_audit_commit: 4a0f941144edb2ad2fc99456eeebf248a9eedeb7
-  czech_word_grouping_02_commit: 638920805d55be334974a29ed7d202a78bc07d89
-  czech_word_grouping_03_commit: 01661a669dc1948862d1961535d9e34749dbf302
-  czech_word_grouping_04_commit: ba549159b08792abe74d70f170d894de6c914ef9
-  czech_word_ocr_001_commit: 579f2c8edf2825ca246c0734b1e1da5639558679
-  czech_word_ocr_002_commit: 3026ce49e6633d9a8b7f95e54b51407515f46497
-  czech_word_ocr_003_commit: 78fd362c37aef6be5e2cbd4bb06d773663245ddb
-  czech_word_ocr_004_a_commit: 6f7c266bf46f62185dd9a99976d4b57494476804
-  czech_word_ocr_004_b_commit: b46a8377ada610fc26dd3c11336dc1bb6dfc4518
-  czech_word_ocr_004_c_commit: 657ceae5f7b9930b9605f63a7fa5b35bc68019cc
-  czech_word_ocr_005_commit: c4477cf10f30abfc88087bffd8f03a79b79eefb6
-  czech_word_ocr_006_commit: 27644c80c2f77a535b3b139288c318cf17cb2362
-  czech_word_ocr_007_commit: 909cf8fb55b77b9323e5bd37be54f5e536b0d21c
-  czech_word_ocr_008_commit: 47782095884f711cd05f6a767c86482a0e8c377e
-  czech_word_ocr_009_commit: 049ba9c9704ac8c1f40a9fabe1411de0640eab26
-  czech_word_ocr_010_commit: 405b9e3cbbdab40abcb9e3aa55c2e069b095d4d1
-  uncertainty_registry_commit: b00ffaa4e75e5109aca1ca123aff5fc52aab33e9
-  uncertainty_rules_commit: a45bda9b1541f1e60c2ff5b4f813a1239abc5c69
-  latest_status_commit: a2631890a5a491fd3dd164b0d349dd662de1942b
+  czech_word_grouping_completed_commit: ba549159b08792abe74d70f170d894de6c914ef9
+  czech_word_ocr_011_corrected_commit: ffc959c3eb467db4138e9784381fa3a561efe19d
+  czech_word_ocr_012_corrected_commit: 84703f95fb944fa66283e0ba092ee1ae35c3578e
+  czech_word_ocr_013_commit: b78198df12473cac274398fcb2a03302556e2924
+  czech_word_ocr_014_commit: 03f9ea2c53336172c937700d49cd79b187b06a54
+  czech_word_ocr_015_commit: 41f489f61f85a96e72f51c5abc98d410e5bf74fb
+  uncertainty_registry_commit: 9dc5771a7a2e272588187ca30e2eee9528eed47d
+  latest_status_commit: 8dbc1d13c6f17c9f39c1fad5f76bed0dc149af59
 
 technical_files:
   keep: [Thumbs.db, ZbThumbnail.info]
@@ -49,39 +40,31 @@ technical_files:
 ocr:
   status: in_progress
   machine_output_status: machine_unverified
+  second_pass_status: pending
+  preserve_printed_spelling: true
+  split_composite_clippings: true
+  infer_missing_text: false
   categories:
     document_text: {enabled: true}
     scene_text:
       enabled: true
       purpose: identify_or_refine_image_content
       record_approximate_location: true
-  infer_missing_text: false
-  preserve_printed_spelling: true
-  split_composite_clippings: true
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  id_format: URB-U-XXXX
-  authoritative_queue: true
-  counts:
-    open: 14
-    deferred: 2
-    resolved: 1
-    not_actionable: 1
-    total: 18
-  require_resolution_evidence: true
-  load_on_handoff: true
+  summary: {open: 15, deferred: 2, resolved: 1, not_actionable: 1, total: 19}
+  latest_id: URB-U-0019
 
 phases:
-  import: {status: completed_with_missing_technical_files}
-  preserve_technical_thumbnail_caches: {status: deferred_documented}
-  ocr_policy: {status: completed}
-  technical_audit: {status: in_progress}
-  inventory: {status: in_progress}
-  pilot_classification: {status: in_progress}
-  ocr_processing: {status: in_progress}
-  uncertainty_resolution: {status: tracked_pending}
-  draft_pull_request: {status: pending}
+  import: completed_with_missing_technical_files
+  ocr_policy: completed
+  technical_audit: in_progress
+  inventory: in_progress
+  pilot_classification: in_progress
+  ocr_processing: in_progress
+  ocr_second_visual_review: pending
+  draft_pull_request: pending
 
 pilot_collections:
   - name: Rychvaldské větrné mlýny
@@ -92,8 +75,7 @@ pilot_collections:
     image_files_classified: 31
     repo_missing_technical_files: 5
     inventory_id_prefix: urbanek-mlyny
-    reports:
-      - research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
+    report: research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
 
   - name: Články z Českého slova
     status: grouping_completed_ocr_in_progress
@@ -101,32 +83,14 @@ pilot_collections:
     image_files: 37
     image_files_repo_verified: 37
     image_items_grouped: 37
-    technical_thumbnail_caches: 2
-    technical_thumbnail_caches_repo_verified: 1
-    technical_thumbnail_caches_repo_missing: 1
+    repo_missing_technical_files: 1
     inventory_id_prefix: urbanek-ceske-slovo
     inventory_file: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
-    verification_files:
-      - research/urbanek-archive/collections/clanky-z-ceskeho-slova-verification-01.yml
-      - research/urbanek-archive/collections/clanky-z-ceskeho-slova-verification-02.yml
-      - research/urbanek-archive/collections/clanky-z-ceskeho-slova-verification-03.yml
     grouping_files:
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-01.yml
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-02.yml
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-03.yml
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-04.yml
-    grouping_corrections:
-      - id: urbanek-ceske-slovo-004-c
-        corrected_completeness: headline_only
-        uncertainty_id: URB-U-0013
-        note: grouping-01.yml originally says headline_and_beginning_only; detailed OCR inspection found no visible body text.
-    thumbnail_cache:
-      sha256: 0647ec694c2bbbd6be13517d0e201f498199bd57e825b63140c4f32ae0c43800
-      catalog_entries: 97
-      unique_thumbnail_images: 45
-      unique_images_matching_current_files: 37
-      unique_missing_images: 8
-      report: research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md
     completed_ocr_ids:
       - urbanek-ceske-slovo-001
       - urbanek-ceske-slovo-002
@@ -140,41 +104,18 @@ pilot_collections:
       - urbanek-ceske-slovo-008
       - urbanek-ceske-slovo-009
       - urbanek-ceske-slovo-010
-    completed_ocr_files:
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-001-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-002-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-003-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-004-a-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-004-b-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-004-c-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-005-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-006-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-007-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-008-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-009-document-text.md
-      - research/urbanek-archive/ocr/urbanek-ceske-slovo-010-document-text.md
-    uncertain_ocr:
-      - id: urbanek-ceske-slovo-005
-        uncertainty_id: URB-U-0014
-        field: person_name
-        value: Jarábáč
-      - id: urbanek-ceske-slovo-007
-        uncertainty_id: URB-U-0015
-        field: unrelated_fragment_headline
-        value: "Malhomme se vrátil"
-        confidence: low
-      - id: urbanek-ceske-slovo-009
-        uncertainty_id: URB-U-0016
-        field: incomplete_person_identity
-        value: Roman
-      - id: urbanek-ceske-slovo-010
-        uncertainty_id: URB-U-0017
-        field: unidentified_upper_fragment
-    next_ocr_id: urbanek-ceske-slovo-011
-    notable_scene_text:
-      - id: urbanek-ceske-slovo-025
-        text: "Městys Rychvald"
-        status: machine_unverified
+      - urbanek-ceske-slovo-011
+      - urbanek-ceske-slovo-012
+      - urbanek-ceske-slovo-013
+      - urbanek-ceske-slovo-014
+      - urbanek-ceske-slovo-015
+    mapping_correction:
+      date: 2026-07-20
+      corrected:
+        - {id: urbanek-ceske-slovo-011, source: 10.jpg, title: "Zůstanou na Těšínsku české školy?"}
+        - {id: urbanek-ceske-slovo-012, source: 11.jpg, title: "Fryštát už má polského starostu"}
+        - {id: urbanek-ceske-slovo-013, source: 12.jpg, title: "První část fryštátského okresu obsazena"}
+    next_ocr_id: urbanek-ceske-slovo-016
 
   - name: Ochotníci rychvald
     status: pending
@@ -184,24 +125,26 @@ pilot_collections:
     status: pending
 
 known_findings:
-  normalized_legacy_path_detected_after_replacement: false
-  large_connector_listing_truncated: true
   complete_archive_file_count_verified: false
   complete_archive_checksums_complete: false
   complete_archive_duplicate_analysis_complete: false
   windmill_collection_completed: true
   czech_word_all_images_present: true
   czech_word_grouping_complete: true
-  czech_word_missing_thumbs_db_count: 1
-  czech_word_unique_missing_cache_images: 8
   czech_word_numeric_filenames_not_reliable_chronology: true
+  czech_word_mapping_011_013_corrected: true
 
 next_action:
-  type: ocr_document_item
+  type: ocr_composite_document_item
   collection: Články z Českého slova
-  item_id: urbanek-ceske-slovo-011
-  title: "Zůstanou na Těšínsku české školy?"
+  item_id: urbanek-ceske-slovo-016
+  source: Články z Českého slova/15.jpg
+  text_units:
+    - title: "Sta lidí vypovídáno z Těšínska"
+      output_id: urbanek-ceske-slovo-016-a
+    - title: "Konsulární atašé v Ostravě"
+      output_id: urbanek-ceske-slovo-016-b
   instruction: >-
-    Transcribe item 011 as a separate article, preserving printed spelling and marking
-    uncertain characters. Register every new material uncertainty in uncertainties.yml.
-    Then transcribe item 012 as a separate article and update the checkpoint.
+    Přepsat obě fyzicky samostatné zprávy do oddělených souborů, zachovat dobový
+    pravopis a každou novou materiální nejistotu zapsat do uncertainties.yml.
+    Poté pokračovat položkou urbanek-ceske-slovo-017.

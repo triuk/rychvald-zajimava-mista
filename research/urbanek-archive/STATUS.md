@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: commit `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený checkpoint při založení tohoto souboru: commit `62486dcbdfd7c63188720dc1d5e359a9b203ac79`
+- Poslední dokončený pracovní checkpoint: commit `8362cdc4b2d79f64dff3507bc133e98f9b21768b`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
@@ -39,40 +39,41 @@ Text ve scéně se má využít jako vodítko k identifikaci nebo upřesnění o
 | Etapa | Stav | Poznámka |
 |---|---|---|
 | Ruční import originálů | dokončeno | Import je viditelný na pilotní větvi. |
-| Zachování technických cache | rozhodnuto | `Thumbs.db` a `ZbThumbnail.info` zůstávají. |
+| Zachování technických cache | dokončeno | `Thumbs.db` a `ZbThumbnail.info` zůstávají. |
 | Pravidla OCR včetně textu ve scéně | dokončeno | Doplněno do `AGENTS.md` v commitu `62486dcb…`. |
-| Technický audit importu | probíhá | Úvodní audit přes GitHub konektor; úplný inventář ještě nevytvořen. |
-| Hlavní inventář | čeká | Bude vytvořen po uzavření technického auditu. |
-| Pilotní klasifikace | čeká | Pět kolekcí uvedených níže. |
+| Technický audit importu | probíhá | Audit je dělen po kolekcích. |
+| Hlavní inventář | probíhá | Založen `inventory.csv`; první kolekce má 39 řádků. |
+| Pilotní klasifikace | čeká | Začne po ověření cest první kolekce v GitHub stromu. |
 | OCR | čeká | Až po základním inventáři a klasifikaci. |
 | Draft pull request | čeká | Až po dokončení pilotu. |
 
 ## Pilotní kolekce
 
-1. `Rychvaldské větrné mlýny`
-2. `Články z Českého slova`
-3. `Ochotníci rychvald`
-4. `fotodokument/den po dešti`
-5. `Nálet na Ostravu 1944`
+1. `Rychvaldské větrné mlýny` – seznam z Drivu dokončen: 39 souborů, z toho 31 obrazových a 8 technických cache.
+2. `Články z Českého slova` – čeká.
+3. `Ochotníci rychvald` – čeká.
+4. `fotodokument/den po dešti` – čeká.
+5. `Nálet na Ostravu 1944` – čeká.
 
 ## Dosavadní zjištění auditu
 
 - Pilotní větev byla po importu o tři commity před `main` a nebyla za `main` pozadu.
 - Importní commit zachovává původní názvy včetně diakritiky, mezer a původní hierarchie.
 - Dříve vytvořená cesta s normalizovanými názvy `clanky-z-ceskeho-slova/` už na větvi nebyla nalezena.
-- V archivu je alespoň jeden `ZbThumbnail.info` pod `Noviny 1938 České slovo/`; podle rozhodnutí uživatele se ponechává.
-- Rozsah změn je příliš velký pro jediný úplný výpis přes GitHub konektor; konektor dlouhé seznamy zkracuje. Audit proto musí být
-  uzavírán po složkách a každý výsledek průběžně ukládán do repozitáře.
-- Úplný počet souborů, kontrolní součty a seznam potenciálních duplicit zatím nejsou spolehlivě dokončeny.
+- Technické cache se zachovávají a jsou v inventáři odděleny od obrazového materiálu.
+- Kolekce `Rychvaldské větrné mlýny` byla rekurzivně sepsána z Google Drivu do `inventory.csv` v commitu `8362cdc4…`.
+- Její inventář obsahuje 39 položek: 31 obrazových souborů a 8 technických cache.
+- U všech 31 obrazových položek jsou samostatně připraveny stavy OCR pro `document_text` a `scene_text`.
+- Stav řádků je zatím `drive_listed_repo_path_pending`: seznam je úplný podle Drivu, ale každá cesta ještě nebyla jednotlivě
+  potvrzena v GitHub stromu.
+- Rozsah celého importu je příliš velký pro jediný úplný výpis přes GitHub konektor; kontrola proto pokračuje po kolekcích.
+- Kontrolní součty a analýza přesných či vizuálních duplicit ještě nejsou dokončeny.
 
 ## Následující přesný krok
 
-Dokončit technický audit po kořenových kolekcích a vytvořit `research/urbanek-archive/inventory.csv` alespoň se sloupci:
-
-`id,original_path,filename,extension,collection,file_role,ocr_document_text,ocr_scene_text,rights,attribution,status,notes`
-
-První zpracovanou pilotní kolekcí má být `Rychvaldské větrné mlýny`. Před jejím obsahovým hodnocením je nutné vytvořit úplný
-seznam jejích souborů a zapsat checkpoint do tohoto souboru a `state.yml`.
+Ověřit všech 39 cest kolekce `Rychvaldské větrné mlýny` proti větvi `agent/import-urbanek-pilot`. Po ověření změnit stav řádků
+z `drive_listed_repo_path_pending` na `repo_verified`, zapsat případné chybějící nebo přebývající soubory a aktualizovat tento
+soubor a `state.yml`. Teprve poté začít obsahovou klasifikaci a OCR kandidátů této kolekce.
 
 ## Instrukce pro nový chat
 

@@ -26,8 +26,9 @@ checkpoints:
   first_visual_review_batch_commit: 6a71d314fac4ec958174e5e99d8086162b97b770
   second_visual_review_last_item_commit: 38bcf6d08768ed8a253b6695ae521f47484a7985
   third_visual_review_last_item_commit: 506c4a60166284f4e6f96fee14c67c5379551b4e
-  grouping_corrections_commit: ef77fefcf955e743cbf224fb98a4bd0af4e49214
-  uncertainty_registry_commit: 66102a353748d81c1b20eb810afe6dc43173953b
+  fourth_visual_review_last_item_commit: 214e0de09d030b15a39601e942d29fbb13f77dc6
+  grouping_corrections_commit: afc9544c537a6e2fba6aab87b61f527861ff96ef
+  uncertainty_registry_commit: d044c0a2b540fae0e25f0ef4e14b338330420405
 
 ocr:
   first_pass_status: completed_for_czech_word_collection
@@ -60,15 +61,31 @@ ocr:
     - urbanek-ceske-slovo-017-b
     - urbanek-ceske-slovo-017-c
     - urbanek-ceske-slovo-017-d
+    - urbanek-ceske-slovo-018
+    - urbanek-ceske-slovo-019
+    - urbanek-ceske-slovo-019-b
+    - urbanek-ceske-slovo-020
+    - urbanek-ceske-slovo-021-a
+    - urbanek-ceske-slovo-021-b
+    - urbanek-ceske-slovo-022-a
+    - urbanek-ceske-slovo-022-b
+    - urbanek-ceske-slovo-022-c
+    - urbanek-ceske-slovo-022-d
+    - urbanek-ceske-slovo-023-a
+    - urbanek-ceske-slovo-023-b
+  verified_with_open_lacunae:
+    - {item: urbanek-ceske-slovo-020, uncertainty: URB-U-0020}
+    - {item: urbanek-ceske-slovo-022-a, uncertainty: URB-U-0021}
   preserve_printed_spelling: true
   split_composite_clippings: true
   infer_missing_text: false
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 15, in_progress: 1, deferred: 2, resolved: 4, not_actionable: 1, total: 22}
+  summary: {open: 15, in_progress: 1, deferred: 2, resolved: 4, not_actionable: 1, total: 23}
   visual_review_batch_id: URB-U-0018
-  newly_resolved: [URB-U-0019]
+  newly_opened: [URB-U-0023]
+  retained_open_lacunae: [URB-U-0020, URB-U-0021]
 
 phases:
   import: completed_with_missing_technical_files
@@ -96,7 +113,7 @@ pilot_collections:
     image_files_repo_verified: 37
     image_items_grouped: 37
     image_items_with_first_pass_ocr: 37
-    visually_verified_text_units: 26
+    visually_verified_text_units: 38
     repo_missing_technical_files: 1
     grouping_corrections: research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-corrections.yml
     review_findings:
@@ -107,6 +124,9 @@ pilot_collections:
       - {item: urbanek-ceske-slovo-010, correction: "Oddělen horní cizí fragment 010-b; identita zůstává neznámá."}
       - {item: urbanek-ceske-slovo-015, correction: "Poškozené slovo přečteno jako dosazováni; URB-U-0019 uzavřena."}
       - {item: urbanek-ceske-slovo-017-c, correction: "Doplněn viditelný koncový kód =2M."}
+      - {item: urbanek-ceske-slovo-019, correction: "Oddělen horní cizí fragment 019-b; identita zůstává neznámá."}
+      - {item: urbanek-ceske-slovo-020, correction: "Zachovaný text potvrzen; fyzická lakuna URB-U-0020 zůstává otevřená."}
+      - {item: urbanek-ceske-slovo-022-a, correction: "Zachované sloupce potvrzeny; chybějící přechod URB-U-0021 zůstává otevřený."}
 
   - name: Ochotníci rychvald
     status: pending
@@ -128,19 +148,17 @@ next_action:
   type: ocr_second_visual_review
   collection: Články z Českého slova
   batch_ids:
-    - urbanek-ceske-slovo-018
-    - urbanek-ceske-slovo-019
-    - urbanek-ceske-slovo-020
-    - urbanek-ceske-slovo-021-a
-    - urbanek-ceske-slovo-021-b
-    - urbanek-ceske-slovo-022-a
-    - urbanek-ceske-slovo-022-b
-    - urbanek-ceske-slovo-022-c
-    - urbanek-ceske-slovo-022-d
-    - urbanek-ceske-slovo-023-a
-    - urbanek-ceske-slovo-023-b
+    - urbanek-ceske-slovo-024
+    - urbanek-ceske-slovo-025
+    - urbanek-ceske-slovo-025-scene-text
+    - urbanek-ceske-slovo-026
+    - urbanek-ceske-slovo-027-a
+    - urbanek-ceske-slovo-027-b
+    - urbanek-ceske-slovo-028
+    - urbanek-ceske-slovo-029-a
+    - urbanek-ceske-slovo-029-b
+    - urbanek-ceske-slovo-030
   instruction: >-
-    Compare every unit line by line with source images 17.jpg through 22.jpg. Retain the
-    documented physical damage in 020 and the discontinuous columns in 022-a unless the
-    image itself supports a correction. Mark completed files visually_verified and update
-    URB-U-0018 plus any affected uncertainties.
+    Compare every unit line by line with source images 23.jpg through 29.jpg. Keep document
+    text and scene text separate for item 025. Mark each completed unit visually_verified,
+    record structural corrections, and update URB-U-0018 plus any affected uncertainties.

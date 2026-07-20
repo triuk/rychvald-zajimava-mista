@@ -4,7 +4,7 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-027`
 - Soubor: `Články z Českého slova/26.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek ve složeném výstřižku
 
 ## Nadpisy
@@ -19,7 +19,7 @@ Denní tisk přinesl již zprávu o požadavku, který podali jménem veškeréh
 
 ## Poznámky ke spolehlivosti
 
-- Text dolního článku pokračuje z levého spodního sloupce do prostředního spodního sloupce; pravý sloupec patří hornímu článku.
+- Text dolního článku pokračuje z levého spodního sloupce do prostředního spodního sloupce; pravý sloupec patří hornímu článku. Toto pořadí bylo potvrzeno druhou vizuální kontrolou sazby.
 - Dobové tvary `konsulární`, `konsulů` a místní označení `Bílovecko` a `Novojicko` byly zachovány.
-- Článek je na snímku zachycen celý.
+- Článek je na snímku zachycen celý a celý text byl řádkově porovnán s předlohou.
 - Tvrzení článku nejsou tímto OCR historicky ověřena.

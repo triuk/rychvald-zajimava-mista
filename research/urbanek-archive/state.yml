@@ -36,7 +36,7 @@ checkpoints:
   czech_word_ocr_010_commit: 405b9e3cbbdab40abcb9e3aa55c2e069b095d4d1
   uncertainty_registry_commit: b00ffaa4e75e5109aca1ca123aff5fc52aab33e9
   uncertainty_rules_commit: a45bda9b1541f1e60c2ff5b4f813a1239abc5c69
-  latest_status_commit: 072ad93dca866b43cc8348aa2a001a18038696c3
+  latest_status_commit: a2631890a5a491fd3dd164b0d349dd662de1942b
 
 technical_files:
   keep: [Thumbs.db, ZbThumbnail.info]

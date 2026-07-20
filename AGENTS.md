@@ -48,6 +48,20 @@ Do publikovaného článku mohou být jako jistý fakt použita pouze tvrzení s
 - Každý nový zdroj zaeviduj v `sources/index.yml`.
 - U zdroje zaznamenej název, období, typ dokumentu, cestu k souboru, počet stran, čitelnost a známý stav práv.
 
+## OCR a text zachycený v obraze
+
+- OCR prováděj nejen u skenů článků, dokumentů a popisků, ale také u textu, který je součástí fotografované scény a může
+  identifikovat nebo upřesnit zobrazený obsah.
+- Za text ve scéně považuj zejména nápisy na budovách, vývěsní štíty, cedule, uliční tabule, pamětní desky, plakáty,
+  transparenty, označení provozoven, vozidel a předmětů.
+- Dokumentový text a text ve scéně eviduj odděleně, například jako `document_text` a `scene_text`; neslučuj je do jednoho
+  přepisu bez označení původu.
+- U textu ve scéně zaznamenej jeho přibližné umístění v obraze a k čemu se vztahuje, pokud je to z fotografie zřejmé.
+- Strojový přepis vždy označ jako `machine_unverified`, dokud nebyl vizuálně zkontrolován proti originálu.
+- Nečitelné znaky, neúplná slova a sporné interpretace výslovně označ; chybějící text nedoplňuj odhadem.
+- Nápis ve fotografii může být vodítkem k identifikaci místa, osoby, organizace nebo události, ale sám o sobě se nesmí
+  automaticky změnit na ověřené historické tvrzení.
+
 ## Práce s články
 
 - Nový článek založ podle `articles/sablona.md`.

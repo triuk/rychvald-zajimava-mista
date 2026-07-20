@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: commit `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený pracovní checkpoint: commit `657ceae5f7b9930b9605f63a7fa5b35bc68019cc`
+- Poslední dokončený pracovní checkpoint: commit `27644c80c2f77a535b3b139288c318cf17cb2362`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
@@ -41,7 +41,7 @@ Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňu
 | Technický audit importu | probíhá | První dvě pilotní kolekce mají dokončený inventář a ověření cest. |
 | Hlavní inventář | probíhá | Mlýny jsou v hlavním inventáři; České slovo má samostatný kolekční inventář. |
 | Pilotní klasifikace | probíhá | Mlýny dokončeny; všech 37 obrazů Českého slova je seskupeno podle fyzických článků. |
-| OCR | probíhá | Mlýny mají první přepisy; u Českého slova jsou dokončeny položky 001–004 včetně tří částí složeného výstřižku. |
+| OCR | probíhá | Mlýny mají první přepisy; u Českého slova jsou dokončeny položky 001–006 včetně tří částí složeného výstřižku 004. |
 | Draft pull request | čeká | Až po dokončení všech pěti pilotních kolekcí. |
 
 ## Pilotní kolekce
@@ -101,24 +101,21 @@ Důležitá zjištění:
 
 ## Dokončené OCR Českého slova
 
-- `urbanek-ceske-slovo-001`: hlavička vydání **Sobota 1. října 1938**, ročník X, číslo 271.
-  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-001-document-text.md`
-- `urbanek-ceske-slovo-002`: článek **„Zněmčilá území máme odevzdat do 10. října“**, včetně otištěného znění dohody a dodatkových prohlášení.
-  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-002-document-text.md`
-- `urbanek-ceske-slovo-003`: článek **„Československo odstoupí Polsku část Těšínska“**.
-  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-003-document-text.md`
-- `urbanek-ceske-slovo-004-a`: článek **„Má Polsko nároky na české obce?“**.
-  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-004-a-document-text.md`
-- `urbanek-ceske-slovo-004-b`: článek **„Slovenský ministr Černák hrozí demisí“**, včetně navazující krátké zprávy o českých železničářích na Slovensku.
-  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-004-b-document-text.md`
-- `urbanek-ceske-slovo-004-c`: pouze viditelný nadpis **„Mnoho otázek před berlínskou komisí“**; tělo článku není na snímku.
-  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-004-c-document-text.md`
+- `001`: hlavička vydání **Sobota 1. října 1938**, ročník X, číslo 271.
+- `002`: **„Zněmčilá území máme odevzdat do 10. října“**.
+- `003`: **„Československo odstoupí Polsku část Těšínska“**.
+- `004-a`: **„Má Polsko nároky na české obce?“**.
+- `004-b`: **„Slovenský ministr Černák hrozí demisí“** a navazující krátká zpráva.
+- `004-c`: pouze nadpis **„Mnoho otázek před berlínskou komisí“**.
+- `005`: **„České Fryštátsko protestuje proti připojení k Polsku“**.
+  - Jméno orlovského starosty je strojově přepsáno jako `Jarábáč`, ale před jmenným použitím vyžaduje ověření.
+- `006`: **„Situace na polsko-čs. hranici na Těšínsku“**.
 
-Všechny přepisy mají stav `machine_unverified` a zachovávají dobový pravopis.
+Soubory jsou uloženy v `research/urbanek-archive/ocr/` pod odpovídajícími stabilními ID. Všechny přepisy mají stav `machine_unverified` a zachovávají dobový pravopis.
 
 ## Následující přesný krok
 
-Přepsat `urbanek-ceske-slovo-005`, článek **„České Fryštátsko protestuje proti připojení k Polsku“** s podnadpisem **„Obrovská manifestace za účasti 20.000 občanů v Orlové“**. Poté pokračovat `urbanek-ceske-slovo-006`, článek **„Situace na polsko-čs. hranici na Těšínsku“**. Každý článek uložit a commitnout samostatně.
+Přepsat `urbanek-ceske-slovo-007`, článek **„Poláci pokračují v obsazování těšínského území“**. Hlavní článek oddělit od nejasného cizího fragmentu na spodním okraji a přepsat pouze bezpečně čitelný text. Poté přepsat `urbanek-ceske-slovo-008`, článek **„Uprchlíci z Těšínska do Slezské Ostravy“**. Každý článek uložit a commitnout samostatně.
 
 ## Instrukce pro nový chat
 

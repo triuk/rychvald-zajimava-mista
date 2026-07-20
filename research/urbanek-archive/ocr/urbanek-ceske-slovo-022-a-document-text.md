@@ -4,10 +4,11 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-022`
 - Soubor: `Články z Českého slova/21.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified_with_lacuna`
 - Druh: rozsáhlý novinový článek s mezititulky a dvěma nespojitými místy
 - Bibliografické záhlaví: `Strana 2. — České slovo — 12. října 1938 — Číslo 281.`
 - Nejistota: `URB-U-0021`
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Nadpisy
 
@@ -29,9 +30,9 @@ Nejprve byl zabrán Bohumín-město a Nový Bohumín. Potom byl zabrán Pudlov, 
 
 ### Polské obavy o Bohumínsko
 
-Odevzdáním Bohumína Polsku jsme ztratili jednu z nejdůležitějších železničních křižovatek v našem státě. Poláci v minulých dnech měli velké obavy, že Německo předloží kategorický požadavek, aby jemu bylo Bohumínsko odevzdáno. V úředních kruzích se mluví dokonce o tom, že z Bohumínska byla vyslána do Berlína k nejkompetentnějším osobnostem deputace, která **[pokračování věty není na zachyceném výstřižku dohledatelné]**.
+Odevzdáním Bohumína Polsku jsme ztratili jednu z nejdůležitějších železničních křižovatek v našem státě. Poláci v minulých dnech měli velké obavy, že Německo předloží kategorický požadavek, aby jemu bylo Bohumínsko odevzdáno. V úředních kruzích se mluví dokonce o tom, že z Bohumínska byla vyslána do Berlína k nejkompetentnějším osobnostem deputace, která **[pokračování věty leží pod dolním okrajem zachyceného prvního sloupce]**.
 
-**[Začátek následujícího zachovaného odstavce chybí.]** …čs. národnosti. Pět členů polské hlídky vniklo do bytu tajemníka Svazu horníků Jos. Plevy a provedlo u něho osobní prohlídku. Nato byl vyzván, aby se dostavil na policejní komisařství v Karvinné, jinak že bude předveden. Přesně v 5 hodin odevzdal mu policejní úředník vyhošťovací rozkaz a prohlásil, že má 24 hodiny čas na vystěhování — jinak že úřady neručí za jeho život.
+**[Začátek následujícího zachovaného bloku leží mimo obraz.]** …čs. národnosti. Pět členů polské hlídky vniklo do bytu tajemníka Svazu horníků Jos. Plevy a provedlo u něho osobní prohlídku. Nato byl vyzván, aby se dostavil na policejní komisařství v Karvinné, jinak že bude předveden. Přesně v 5 hodin odevzdal mu policejní úředník vyhošťovací rozkaz a prohlásil, že má 24 hodiny čas na vystěhování — jinak že úřady neručí za jeho život.
 
 Také jiní čeští lidé byli vyšetřováni a především dostávali otázky, proč a kolik upsali na obranu státu a proč se již dříve nevystěhovali z Těšínska a pod. Chování Poláků nelze ani srovnat se slušným, korektním vystupováním německých vojáků.
 
@@ -51,8 +52,10 @@ Dnes v dopoledních hodinách přijela na všechny úseky nové hranice naše fi
 
 ## Poznámky ke spolehlivosti
 
-- Přepis je členěn podle fyzických mezititulků. Dvě nespojitá místa byla označena lakunou a nebyla rekonstruována.
+- Veškerý text skutečně zachycený ve čtyřech horních sloupcích byl při druhé kontrole řádkově porovnán s obrazem.
+- Dvě nespojitá místa mezi prvním a druhým sloupcem jsou důsledkem ořezu předlohy a nebyla rekonstruována.
 - Podoba názvu `Bohumín-město` a dobové tvary `ultimatu`, `delimitační`, `tak zvaní` a `dozírat` byly zachovány.
-- Osobní jména `Hrabčík`, `Bortnowski`, `Jos. Pleva`, `Koždoň`, `Graziński` a `Rydz-Śmigły` jsou přepsána podle tisku; před citací jako ověřená jména vyžadují druhou vizuální nebo externí kontrolu.
+- Osobní jména `Hrabčík`, `Bortnowski`, `Jos. Pleva`, `Koždoň` a `Graziński` byla potvrzena jako podoby vytištěné v předloze. Text obsahuje skloňovanou podobu `Rydz-Śmigleho`.
 - Zkratka `SdP` a signatura `Vb.` jsou přepsány doslovně.
+- Stav `visually_verified_with_lacuna` znamená, že zachovaný text je ověřen, ale chybějící sloupcové přechody zůstávají otevřené pod `URB-U-0021`.
 - Tvrzení článku nejsou tímto OCR historicky ověřena.

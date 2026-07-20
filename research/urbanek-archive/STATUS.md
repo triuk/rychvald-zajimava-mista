@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: commit `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený pracovní checkpoint: commit `47782095884f711cd05f6a767c86482a0e8c377e`
+- Poslední dokončený pracovní checkpoint: commit `405b9e3cbbdab40abcb9e3aa55c2e069b095d4d1`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
@@ -41,7 +41,7 @@ Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňu
 | Technický audit importu | probíhá | První dvě pilotní kolekce mají dokončený inventář a ověření cest. |
 | Hlavní inventář | probíhá | Mlýny jsou v hlavním inventáři; České slovo má samostatný kolekční inventář. |
 | Pilotní klasifikace | probíhá | Mlýny dokončeny; všech 37 obrazů Českého slova je seskupeno podle fyzických článků. |
-| OCR | probíhá | Mlýny mají první přepisy; u Českého slova jsou dokončeny položky 001–008 včetně tří částí složeného výstřižku 004. |
+| OCR | probíhá | Mlýny mají první přepisy; u Českého slova jsou dokončeny položky 001–010 včetně tří částí složeného výstřižku 004. |
 | Draft pull request | čeká | Až po dokončení všech pěti pilotních kolekcí. |
 
 ## Pilotní kolekce
@@ -113,12 +113,16 @@ Důležitá zjištění:
 - `007`: **„Poláci pokračují v obsazování těšínského území“**.
   - Cizí spodní fragment je oddělen; pravděpodobný nadpis `Malhomme se vrátil` má nízkou jistotu.
 - `008`: **„Uprchlíci z Těšínska do Slezské Ostravy“**.
+- `009`: **„Poláci nepřeruší výrobu v obsazeném území“**.
+  - Polský ministr je v předloze uveden pouze příjmením `Roman`; celé jméno nebylo domýšleno.
+- `010`: **„V sobotu se zahájí obsazování Fryštátska“**.
+  - Cizí horní fragment nebyl připojen k hlavnímu článku, protože neobsahuje bezpečně určitelné záhlaví ani souvislý text.
 
 Soubory jsou uloženy v `research/urbanek-archive/ocr/` pod odpovídajícími stabilními ID. Všechny přepisy mají stav `machine_unverified` a zachovávají dobový pravopis.
 
 ## Následující přesný krok
 
-Přepsat `urbanek-ceske-slovo-009`, článek **„Poláci nepřeruší výrobu v obsazeném území“**. Poté přepsat `urbanek-ceske-slovo-010`, článek **„V sobotu se zahájí obsazování Fryštátska“**; cizí horní fragment evidovat odděleně a nepřiřazovat jej k hlavnímu článku bez nadpisu. Každý článek uložit a commitnout samostatně.
+Přepsat `urbanek-ceske-slovo-011`, článek **„Zůstanou na Těšínsku české školy?“**. Poté pokračovat `urbanek-ceske-slovo-012`, článek **„Fryštát už má polského starostu“**. Každý článek uložit a commitnout samostatně.
 
 ## Instrukce pro nový chat
 

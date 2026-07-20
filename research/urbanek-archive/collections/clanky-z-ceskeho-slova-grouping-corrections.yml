@@ -31,6 +31,30 @@ corrections:
         headline: "Mnoho otázek před berlínskou komisí"
         note: Tělo článku není na obraze zachyceno.
 
+  - parent_image_id: urbanek-ceske-slovo-007
+    reviewed_at: 2026-07-20
+    reason: Spodní nadpis patří jinému článku než hlavní text.
+    corrected_subitems:
+      - id: urbanek-ceske-slovo-007
+        type: complete_article
+        headline: "Poláci pokračují v obsazování těšínského území"
+      - id: urbanek-ceske-slovo-007-b
+        type: headline_only_fragment
+        headline: "Malhomme se vrátil"
+        note: Tělo sousedního článku leží mimo obraz.
+
+  - parent_image_id: urbanek-ceske-slovo-010
+    reviewed_at: 2026-07-20
+    reason: Horní oříznutý řádek je konec samostatného předchozího článku.
+    corrected_subitems:
+      - id: urbanek-ceske-slovo-010
+        type: complete_article
+        headline: "V sobotu se zahájí obsazování Fryštátska"
+      - id: urbanek-ceske-slovo-010-b
+        type: unidentified_ending_fragment
+        readable_signature: "-vk-"
+        note: Nadpis a souvislý text předchozího článku nejsou zachyceny.
+
 reviewed_items:
   - urbanek-ceske-slovo-001
   - urbanek-ceske-slovo-002
@@ -40,3 +64,11 @@ reviewed_items:
   - urbanek-ceske-slovo-004-b2
   - urbanek-ceske-slovo-004-c
   - urbanek-ceske-slovo-005
+  - urbanek-ceske-slovo-006
+  - urbanek-ceske-slovo-007
+  - urbanek-ceske-slovo-007-b
+  - urbanek-ceske-slovo-008
+  - urbanek-ceske-slovo-009
+  - urbanek-ceske-slovo-010
+  - urbanek-ceske-slovo-010-b
+  - urbanek-ceske-slovo-011

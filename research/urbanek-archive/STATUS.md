@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: commit `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený pracovní checkpoint: commit `8362cdc4b2d79f64dff3507bc133e98f9b21768b`
+- Poslední dokončený pracovní checkpoint: commit `5370e74957ce61a6fe701892c91e707984a07bb7`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
@@ -38,18 +38,18 @@ Text ve scéně se má využít jako vodítko k identifikaci nebo upřesnění o
 
 | Etapa | Stav | Poznámka |
 |---|---|---|
-| Ruční import originálů | dokončeno | Import je viditelný na pilotní větvi. |
-| Zachování technických cache | dokončeno | `Thumbs.db` a `ZbThumbnail.info` zůstávají. |
+| Ruční import originálů | dokončeno s nesrovnalostmi | Obrazový obsah pilotní kolekce je přítomen; chybí některé technické cache. |
+| Zachování technických cache | probíhá | `ZbThumbnail.info` jsou zachovány; v první kolekci chybí 5 souborů `Thumbs.db`. |
 | Pravidla OCR včetně textu ve scéně | dokončeno | Doplněno do `AGENTS.md` v commitu `62486dcb…`. |
-| Technický audit importu | probíhá | Audit je dělen po kolekcích. |
-| Hlavní inventář | probíhá | Založen `inventory.csv`; první kolekce má 39 řádků. |
-| Pilotní klasifikace | čeká | Začne po ověření cest první kolekce v GitHub stromu. |
+| Technický audit importu | probíhá | Kolekce větrných mlýnů má dokončené porovnání Drivu a GitHubu. |
+| Hlavní inventář | probíhá | První kolekce má 39 řádků, stav cest a Git blob SHA. |
+| Pilotní klasifikace | čeká | Začne po doplnění nebo výslovném odložení chybějících technických cache. |
 | OCR | čeká | Až po základním inventáři a klasifikaci. |
 | Draft pull request | čeká | Až po dokončení pilotu. |
 
 ## Pilotní kolekce
 
-1. `Rychvaldské větrné mlýny` – seznam z Drivu dokončen: 39 souborů, z toho 31 obrazových a 8 technických cache.
+1. `Rychvaldské větrné mlýny` – 39 souborů na Drivu; 34 v GitHubu, 5 chybějících `Thumbs.db`.
 2. `Články z Českého slova` – čeká.
 3. `Ochotníci rychvald` – čeká.
 4. `fotodokument/den po dešti` – čeká.
@@ -60,20 +60,29 @@ Text ve scéně se má využít jako vodítko k identifikaci nebo upřesnění o
 - Pilotní větev byla po importu o tři commity před `main` a nebyla za `main` pozadu.
 - Importní commit zachovává původní názvy včetně diakritiky, mezer a původní hierarchie.
 - Dříve vytvořená cesta s normalizovanými názvy `clanky-z-ceskeho-slova/` už na větvi nebyla nalezena.
-- Technické cache se zachovávají a jsou v inventáři odděleny od obrazového materiálu.
-- Kolekce `Rychvaldské větrné mlýny` byla rekurzivně sepsána z Google Drivu do `inventory.csv` v commitu `8362cdc4…`.
-- Její inventář obsahuje 39 položek: 31 obrazových souborů a 8 technických cache.
-- U všech 31 obrazových položek jsou samostatně připraveny stavy OCR pro `document_text` a `scene_text`.
-- Stav řádků je zatím `drive_listed_repo_path_pending`: seznam je úplný podle Drivu, ale každá cesta ještě nebyla jednotlivě
-  potvrzena v GitHub stromu.
-- Rozsah celého importu je příliš velký pro jediný úplný výpis přes GitHub konektor; kontrola proto pokračuje po kolekcích.
-- Kontrolní součty a analýza přesných či vizuálních duplicit ještě nejsou dokončeny.
+- Kolekce `Rychvaldské větrné mlýny` byla rekurzivně sepsána z Google Drivu do `inventory.csv`.
+- Na Drivu obsahuje 39 položek: 31 obrazových souborů a 8 technických cache.
+- Všech 31 obrazových souborů bylo jednotlivě potvrzeno ve větvi pod přesnými původními cestami.
+- Ve větvi jsou všechny 3 soubory `ZbThumbnail.info` z této kolekce.
+- Ve větvi chybí všech 5 očekávaných souborů `Thumbs.db`:
+  - `Rychvaldské větrné mlýny/Thumbs.db`
+  - `Rychvaldské větrné mlýny/větrný mlýn u hebdy/Thumbs.db`
+  - `Rychvaldské větrné mlýny/Mlýn u Kakalů/Thumbs.db`
+  - `Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/Thumbs.db`
+  - `Rychvaldské větrné mlýny/Mlýn u domku č. pop. 339/Thumbs.db`
+- Inventář nyní obsahuje Git blob SHA všech 34 přítomných souborů a stav `drive_listed_repo_missing` u pěti chybějících cache.
+- Potvrzené přesné binární duplicity:
+  - `urbanek-mlyny-011` = `urbanek-mlyny-021`;
+  - `urbanek-mlyny-012` = `urbanek-mlyny-022` = `urbanek-mlyny-039`.
+- Stejně pojmenované soubory `P1010445`, `P1010446` a `P1010447` v kořeni a v podsložce `větrný mlýn u hebdy` mají
+  rozdílné blob SHA a nejsou přesnými binárními duplicitami.
 
 ## Následující přesný krok
 
-Ověřit všech 39 cest kolekce `Rychvaldské větrné mlýny` proti větvi `agent/import-urbanek-pilot`. Po ověření změnit stav řádků
-z `drive_listed_repo_path_pending` na `repo_verified`, zapsat případné chybějící nebo přebývající soubory a aktualizovat tento
-soubor a `state.yml`. Teprve poté začít obsahovou klasifikaci a OCR kandidátů této kolekce.
+Doplnit pět chybějících souborů `Thumbs.db` z Google Drivu do přesných původních cest ve větvi. Poté znovu ověřit jejich blob
+SHA, změnit pět stavů v `inventory.csv` na `repo_verified` a aktualizovat tento soubor a `state.yml`. Teprve potom zahájit
+obsahovou klasifikaci 31 obrazových souborů kolekce `Rychvaldské větrné mlýny`, včetně posouzení kandidátů na `document_text`
+a `scene_text` OCR.
 
 ## Instrukce pro nový chat
 

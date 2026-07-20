@@ -66,15 +66,16 @@ items:
     collection: Články z Českého slova
     type: ocr_visual_verification_batch
     source_items: [urbanek-ceske-slovo-001..urbanek-ceske-slovo-037-c]
-    reviewed_items: [urbanek-ceske-slovo-001, urbanek-ceske-slovo-002, urbanek-ceske-slovo-003, urbanek-ceske-slovo-004-a, urbanek-ceske-slovo-004-b, urbanek-ceske-slovo-004-b2, urbanek-ceske-slovo-004-c, urbanek-ceske-slovo-005, urbanek-ceske-slovo-006, urbanek-ceske-slovo-007, urbanek-ceske-slovo-007-b, urbanek-ceske-slovo-008, urbanek-ceske-slovo-009, urbanek-ceske-slovo-010, urbanek-ceske-slovo-010-b, urbanek-ceske-slovo-011, urbanek-ceske-slovo-012, urbanek-ceske-slovo-013, urbanek-ceske-slovo-014, urbanek-ceske-slovo-015, urbanek-ceske-slovo-016-a, urbanek-ceske-slovo-016-b, urbanek-ceske-slovo-017-a, urbanek-ceske-slovo-017-b, urbanek-ceske-slovo-017-c, urbanek-ceske-slovo-017-d, urbanek-ceske-slovo-018, urbanek-ceske-slovo-019, urbanek-ceske-slovo-019-b, urbanek-ceske-slovo-020, urbanek-ceske-slovo-021-a, urbanek-ceske-slovo-021-b, urbanek-ceske-slovo-022-a, urbanek-ceske-slovo-022-b, urbanek-ceske-slovo-022-c, urbanek-ceske-slovo-022-d, urbanek-ceske-slovo-023-a, urbanek-ceske-slovo-023-b]
-    next_review_items: [urbanek-ceske-slovo-024, urbanek-ceske-slovo-025, urbanek-ceske-slovo-025-scene-text, urbanek-ceske-slovo-026, urbanek-ceske-slovo-027-a, urbanek-ceske-slovo-027-b, urbanek-ceske-slovo-028, urbanek-ceske-slovo-029-a, urbanek-ceske-slovo-029-b, urbanek-ceske-slovo-030]
+    reviewed_items: [urbanek-ceske-slovo-001, urbanek-ceske-slovo-002, urbanek-ceske-slovo-003, urbanek-ceske-slovo-004-a, urbanek-ceske-slovo-004-b, urbanek-ceske-slovo-004-b2, urbanek-ceske-slovo-004-c, urbanek-ceske-slovo-005, urbanek-ceske-slovo-006, urbanek-ceske-slovo-007, urbanek-ceske-slovo-007-b, urbanek-ceske-slovo-008, urbanek-ceske-slovo-009, urbanek-ceske-slovo-010, urbanek-ceske-slovo-010-b, urbanek-ceske-slovo-011, urbanek-ceske-slovo-012, urbanek-ceske-slovo-013, urbanek-ceske-slovo-014, urbanek-ceske-slovo-015, urbanek-ceske-slovo-016-a, urbanek-ceske-slovo-016-b, urbanek-ceske-slovo-017-a, urbanek-ceske-slovo-017-b, urbanek-ceske-slovo-017-c, urbanek-ceske-slovo-017-d, urbanek-ceske-slovo-018, urbanek-ceske-slovo-019, urbanek-ceske-slovo-019-b, urbanek-ceske-slovo-020, urbanek-ceske-slovo-021-a, urbanek-ceske-slovo-021-b, urbanek-ceske-slovo-022-a, urbanek-ceske-slovo-022-b, urbanek-ceske-slovo-022-c, urbanek-ceske-slovo-022-d, urbanek-ceske-slovo-023-a, urbanek-ceske-slovo-023-b, urbanek-ceske-slovo-024, urbanek-ceske-slovo-025, urbanek-ceske-slovo-025-scene-text, urbanek-ceske-slovo-026, urbanek-ceske-slovo-027-a, urbanek-ceske-slovo-027-b, urbanek-ceske-slovo-028, urbanek-ceske-slovo-029-a, urbanek-ceske-slovo-029-b, urbanek-ceske-slovo-030]
+    next_review_items: [urbanek-ceske-slovo-031, urbanek-ceske-slovo-032-033, urbanek-ceske-slovo-034, urbanek-ceske-slovo-035, urbanek-ceske-slovo-036, urbanek-ceske-slovo-037-a, urbanek-ceske-slovo-037-b, urbanek-ceske-slovo-037-c]
     question: Které znaky nebo slova je třeba opravit při druhé vizuální kontrole OCR?
     evidence: research/urbanek-archive/ocr/
     progress_note: >-
-      Ověřeny položky 001 až 023-b. V dávce 018–023-b byl horní cizí fragment z 18.jpg
-      oddělen jako 019-b. Zachovaný text 020 a 022-a byl potvrzen, ale fyzické lakuny
-      URB-U-0020 a URB-U-0021 zůstávají otevřené. Ostatní jednotky odpovídaly obrazům.
-    next_action: Pokračovat řádkovou kontrolou položek 024 až 030 včetně scénického textu 025.
+      Ověřeny položky 001 až 030 včetně scénického textu 025. V dávce 024–030 nebyla
+      nalezena textová chyba ani nová materiální nejistota. U scénického nápisu 025 je
+      přímo čitelné zejména slovo Rychvald; úplné znění Městys Rychvald potvrzuje dobový popisek.
+      Otevřené lakuny URB-U-0020 a URB-U-0021 zůstávají beze změny.
+    next_action: Dokončit řádkovou kontrolu položek 031 až 037-c.
   - id: URB-U-0019
     status: resolved
     priority: medium

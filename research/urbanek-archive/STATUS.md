@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: commit `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený pracovní checkpoint: commit `f58f21e6b65a5fab8e6eefd821d660158f0c2a83`
+- Poslední dokončený pracovní checkpoint: commit `4a0f941144edb2ad2fc99456eeebf248a9eedeb7`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
@@ -35,19 +35,19 @@ Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňu
 
 | Etapa | Stav | Poznámka |
 |---|---|---|
-| Ruční import originálů | dokončeno s nesrovnalostmi | V první kolekci chybí v GitHubu pět technických cache, všechny obrazové soubory jsou přítomné. |
-| Zachování technických cache | odloženo, zdokumentováno | Pět `Thumbs.db` zůstává na Drivu; jejich obsah byl analyzován. |
+| Ruční import originálů | dokončeno s nesrovnalostmi | Obrazové soubory prvních dvou kolekcí jsou kompletní; chybí některé `Thumbs.db`. |
+| Zachování technických cache | odloženo, zdokumentováno | Chybějící cache zůstávají na Drivu a jejich obsah je auditován. |
 | Pravidla OCR včetně textu ve scéně | dokončeno | Zapsáno v `AGENTS.md`. |
-| Technický audit importu | probíhá | První pilotní kolekce uzavřena, další čekají. |
-| Hlavní inventář | probíhá | První kolekce má 39 úplných řádků. |
-| Pilotní klasifikace | probíhá | Kolekce větrných mlýnů dokončena. |
-| OCR | probíhá | U první kolekce dokončeny dva dokumentové přepisy a jeden krátký scénický nápis. |
+| Technický audit importu | probíhá | První dvě pilotní kolekce mají dokončený inventář a ověření cest. |
+| Hlavní inventář | probíhá | Mlýny jsou v hlavním inventáři; České slovo má samostatný kolekční inventář. |
+| Pilotní klasifikace | probíhá | Mlýny dokončeny; České slovo čeká seskupení stránek. |
+| OCR | probíhá | Mlýny mají první přepisy; České slovo čeká na seskupení článků. |
 | Draft pull request | čeká | Až po dokončení všech pěti pilotních kolekcí. |
 
 ## Pilotní kolekce
 
 1. `Rychvaldské větrné mlýny` – **klasifikace a první OCR dokončeny**.
-2. `Články z Českého slova` – následující kolekce, čeká inventář.
+2. `Články z Českého slova` – **inventář, ověření cest a audit cache dokončeny; čeká seskupení a OCR**.
 3. `Ochotníci rychvald` – čeká.
 4. `fotodokument/den po dešti` – čeká.
 5. `Nálet na Ostravu 1944` – čeká.
@@ -56,34 +56,41 @@ Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňu
 
 - Na Drivu: 39 položek, z toho 31 obrazových a 8 technických cache.
 - V GitHubu: všech 31 obrazových souborů a 3 `ZbThumbnail.info`; chybí 5 `Thumbs.db`.
-- Všech 31 obrazových souborů bylo jednotlivě ověřeno a klasifikováno.
-- Klasifikace je rozdělena do tří souborů v `research/urbanek-archive/collections/`.
-- Hlavní inventář obsahuje stav klasifikace, Git blob SHA a skutečný stav obou kategorií OCR.
-- Potvrzené přesné binární duplicity:
+- Všech 31 obrazových souborů bylo ověřeno a klasifikováno.
+- Dokončeny dva dokumentové přepisy a jeden krátký scénický nápis.
+- Potvrzené binární duplicity:
   - `urbanek-mlyny-011` = `urbanek-mlyny-021`;
   - `urbanek-mlyny-012` = `urbanek-mlyny-022` = `urbanek-mlyny-039`.
-- Položky `urbanek-mlyny-013` až `015` jsou pravděpodobné zdrojové verze s vyšším rozlišením pro upravené položky `004` až `006`.
-- `urbanek-mlyny-018` zachycuje interiér kostela a je pravděpodobně ve složce mlýnů omylem; originál nebyl přesunut.
-- `urbanek-mlyny-039` je kopie obrázku označeného „Kakalův mlýn“ ve složce domu č. 339; vztah není vysvětlen.
+- `urbanek-mlyny-018` zachycuje interiér kostela a je pravděpodobně chybně zařazen.
+- Kořenový `Thumbs.db` navíc eviduje chybějící `P1010269.JPG`; z cache je obnovitelný náhled 72 × 96 px.
+- Podrobný audit: `research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md`.
 
-## OCR první kolekce
+## Články z Českého slova – audit
 
-- `urbanek-mlyny-024`: přepis informačního listu **Kouzlo větrných mlýnů**, Jan Doubek; položka `023` je detail stejného listu.
-- `urbanek-mlyny-036`: přepis ručního náčrtu mlýnku za domem č. 339 včetně rozměrů.
-- `urbanek-mlyny-028`: bezpečně čitelný scénický nadpis **„Výroba mouky z obilí“**.
-- U položek `025` a `030` je text v pozadí příliš malý; u `026` je panel oříznutý. Text nebyl domýšlen.
+- Na Drivu: 39 položek, z toho 37 obrazových souborů, `Thumbs.db` a `ZbThumbnail.info`.
+- Kolekční inventář: `research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv`.
+- Všech 37 obrazových souborů bylo jednotlivě potvrzeno pod přesnými původními cestami.
+- `ZbThumbnail.info` je v GitHubu přítomen.
+- `Thumbs.db` je na Drivu, ale ve větvi chybí.
+- Ověření cest a blob SHA jsou rozděleny do tří souborů:
+  - `clanky-z-ceskeho-slova-verification-01.yml`;
+  - `clanky-z-ceskeho-slova-verification-02.yml`;
+  - `clanky-z-ceskeho-slova-verification-03.yml`.
 
-## Audit `Thumbs.db`
+### Audit `Thumbs.db`
 
-Všech pět chybějících cache bylo analyzováno přímo z Drivu. Čtyři neobsahují názvy dalších fotografií. Kořenový `Thumbs.db` navíc eviduje chybějící `P1010269.JPG`; z cache byl obnoven platný náhled 72 × 96 px. Jde pouze o odvozený nález, nikoli náhradu originálu. Podrobnosti a kontrolní součty jsou v:
-
-`research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md`
-
-Pět binárních cache se nepodařilo bezpečně připojit ke stromu větve přes dostupný konektor. Zůstávají proto na Drivu a v inventáři se stavem `drive_listed_repo_missing`. Tato technická odchylka neblokuje další kolekce.
+- SHA-256 cache: `0647ec694c2bbbd6be13517d0e201f498199bd57e825b63140c4f32ae0c43800`.
+- Katalog obsahuje 97 názvů a 97 platných JPEG náhledů.
+- Po porovnání dekódovaných obrazů jde o 45 unikátních náhledů.
+- Třicet sedm unikátních náhledů odpovídá současným souborům.
+- Osm unikátních náhledů nemá v současné kolekci odpovídající plný soubor.
+- Zbývajících 52 historických názvů jsou starší názvy nebo meziverze obrazů, které už v kolekci existují.
+- Podrobný seznam osmi chybějících obrazů, rozměry a SHA-256: `research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md`.
+- Náhledy mají pouze 57–96 px, a proto nejsou vhodné pro plnohodnotný OCR přepis článků.
 
 ## Následující přesný krok
 
-Vytvořit úplný rekurzivní inventář kolekce `Články z Českého slova`, přidělit stabilní ID s novým prefixem, odlišit obrazové soubory od technických cache a ověřit jejich přesné cesty ve větvi. Teprve potom seskupovat stránky článků a zahájit OCR.
+Vizuálně projít 37 obrazových souborů kolekce `Články z Českého slova`, určit pořadí a hranice jednotlivých článků nebo tematických skupin a výsledek uložit do samostatného seskupovacího souboru. Začít položkami `urbanek-ceske-slovo-001` až `011`. OCR provádět až po určení, které snímky jsou titulní listy, komentáře, celé články, pokračování nebo dílčí výřezy.
 
 ## Instrukce pro nový chat
 

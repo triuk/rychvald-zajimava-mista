@@ -25,8 +25,9 @@ checkpoints:
   czech_word_first_pass_last_ocr_commit: 47b931aeb6ea1a9217ab70cbb62d78deb82f1637
   first_visual_review_batch_commit: 6a71d314fac4ec958174e5e99d8086162b97b770
   second_visual_review_last_item_commit: 38bcf6d08768ed8a253b6695ae521f47484a7985
+  third_visual_review_last_item_commit: 506c4a60166284f4e6f96fee14c67c5379551b4e
   grouping_corrections_commit: ef77fefcf955e743cbf224fb98a4bd0af4e49214
-  uncertainty_registry_commit: 8a502ed53e24f08531228bf8276b0321f9bfef20
+  uncertainty_registry_commit: 66102a353748d81c1b20eb810afe6dc43173953b
 
 ocr:
   first_pass_status: completed_for_czech_word_collection
@@ -49,16 +50,25 @@ ocr:
     - urbanek-ceske-slovo-010
     - urbanek-ceske-slovo-010-b
     - urbanek-ceske-slovo-011
+    - urbanek-ceske-slovo-012
+    - urbanek-ceske-slovo-013
+    - urbanek-ceske-slovo-014
+    - urbanek-ceske-slovo-015
+    - urbanek-ceske-slovo-016-a
+    - urbanek-ceske-slovo-016-b
+    - urbanek-ceske-slovo-017-a
+    - urbanek-ceske-slovo-017-b
+    - urbanek-ceske-slovo-017-c
+    - urbanek-ceske-slovo-017-d
   preserve_printed_spelling: true
   split_composite_clippings: true
   infer_missing_text: false
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 16, in_progress: 1, deferred: 2, resolved: 3, not_actionable: 1, total: 22}
+  summary: {open: 15, in_progress: 1, deferred: 2, resolved: 4, not_actionable: 1, total: 22}
   visual_review_batch_id: URB-U-0018
-  newly_resolved: [URB-U-0015]
-  still_open_in_reviewed_batch: [URB-U-0017]
+  newly_resolved: [URB-U-0019]
 
 phases:
   import: completed_with_missing_technical_files
@@ -86,7 +96,7 @@ pilot_collections:
     image_files_repo_verified: 37
     image_items_grouped: 37
     image_items_with_first_pass_ocr: 37
-    visually_verified_text_units: 16
+    visually_verified_text_units: 26
     repo_missing_technical_files: 1
     grouping_corrections: research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-corrections.yml
     review_findings:
@@ -95,6 +105,8 @@ pilot_collections:
       - {item: urbanek-ceske-slovo-005, correction: "Vizuálně potvrzeno příjmení Jarábáč."}
       - {item: urbanek-ceske-slovo-007, correction: "Oddělen a potvrzen fragment 007-b: Malhomme se vrátil."}
       - {item: urbanek-ceske-slovo-010, correction: "Oddělen horní cizí fragment 010-b; identita zůstává neznámá."}
+      - {item: urbanek-ceske-slovo-015, correction: "Poškozené slovo přečteno jako dosazováni; URB-U-0019 uzavřena."}
+      - {item: urbanek-ceske-slovo-017-c, correction: "Doplněn viditelný koncový kód =2M."}
 
   - name: Ochotníci rychvald
     status: pending
@@ -116,18 +128,19 @@ next_action:
   type: ocr_second_visual_review
   collection: Články z Českého slova
   batch_ids:
-    - urbanek-ceske-slovo-012
-    - urbanek-ceske-slovo-013
-    - urbanek-ceske-slovo-014
-    - urbanek-ceske-slovo-015
-    - urbanek-ceske-slovo-016-a
-    - urbanek-ceske-slovo-016-b
-    - urbanek-ceske-slovo-017-a
-    - urbanek-ceske-slovo-017-b
-    - urbanek-ceske-slovo-017-c
-    - urbanek-ceske-slovo-017-d
+    - urbanek-ceske-slovo-018
+    - urbanek-ceske-slovo-019
+    - urbanek-ceske-slovo-020
+    - urbanek-ceske-slovo-021-a
+    - urbanek-ceske-slovo-021-b
+    - urbanek-ceske-slovo-022-a
+    - urbanek-ceske-slovo-022-b
+    - urbanek-ceske-slovo-022-c
+    - urbanek-ceske-slovo-022-d
+    - urbanek-ceske-slovo-023-a
+    - urbanek-ceske-slovo-023-b
   instruction: >-
-    Compare every text unit line by line with source images 11.jpg through 16.jpg.
-    Correct only image-supported discrepancies, retain documented physical lacunae,
-    split any additional independent text units, and mark completed files visually_verified.
-    Update URB-U-0018 and all affected uncertainty records after the batch.
+    Compare every unit line by line with source images 17.jpg through 22.jpg. Retain the
+    documented physical damage in 020 and the discontinuous columns in 022-a unless the
+    image itself supports a correction. Mark completed files visually_verified and update
+    URB-U-0018 plus any affected uncertainties.

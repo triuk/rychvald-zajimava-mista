@@ -7,7 +7,7 @@ rules:
   - Původní znění se po vyřešení nemaže.
   - Uzavření vyžaduje resolution, evidence_added, resolved_at a resolved_by.
   - Otevřená nejistota nesmí být v publikovaném článku prezentována jako verified.
-summary: {open: 15, deferred: 2, resolved: 1, not_actionable: 1, total: 19}
+summary: {open: 16, deferred: 2, resolved: 1, not_actionable: 1, total: 20}
 items:
   - id: URB-U-0001
     status: deferred
@@ -171,7 +171,7 @@ items:
     priority: high
     collection: Články z Českého slova
     type: ocr_visual_verification_batch
-    source_items: [urbanek-ceske-slovo-001, urbanek-ceske-slovo-002, urbanek-ceske-slovo-003, urbanek-ceske-slovo-004-a, urbanek-ceske-slovo-004-b, urbanek-ceske-slovo-004-c, urbanek-ceske-slovo-005, urbanek-ceske-slovo-006, urbanek-ceske-slovo-007, urbanek-ceske-slovo-008, urbanek-ceske-slovo-009, urbanek-ceske-slovo-010, urbanek-ceske-slovo-011, urbanek-ceske-slovo-012, urbanek-ceske-slovo-013, urbanek-ceske-slovo-014, urbanek-ceske-slovo-015]
+    source_items: [urbanek-ceske-slovo-001, urbanek-ceske-slovo-002, urbanek-ceske-slovo-003, urbanek-ceske-slovo-004-a, urbanek-ceske-slovo-004-b, urbanek-ceske-slovo-004-c, urbanek-ceske-slovo-005, urbanek-ceske-slovo-006, urbanek-ceske-slovo-007, urbanek-ceske-slovo-008, urbanek-ceske-slovo-009, urbanek-ceske-slovo-010, urbanek-ceske-slovo-011, urbanek-ceske-slovo-012, urbanek-ceske-slovo-013, urbanek-ceske-slovo-014, urbanek-ceske-slovo-015, urbanek-ceske-slovo-016-a, urbanek-ceske-slovo-016-b, urbanek-ceske-slovo-017-a, urbanek-ceske-slovo-017-b, urbanek-ceske-slovo-017-c, urbanek-ceske-slovo-017-d, urbanek-ceske-slovo-018, urbanek-ceske-slovo-019, urbanek-ceske-slovo-020]
     question: Které znaky nebo slova je třeba opravit při druhé vizuální kontrole OCR?
     evidence: research/urbanek-archive/ocr/
     next_action: Po první OCR sérii provést řádkovou kontrolu a uzavírat přepisy jako visually_verified.
@@ -184,3 +184,12 @@ items:
     question: Jaké slovo nebo slova chybějí ve větě mezi `ostatní závody` a `vnucení správci`?
     evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-015-document-text.md
     next_action: Najít jiný výtisk nebo digitální reprodukci stejného vydání a porovnat poškozené místo.
+  - id: URB-U-0020
+    status: open
+    priority: medium
+    collection: Články z Českého slova
+    type: physical_damage_missing_brief
+    source_items: [urbanek-ceske-slovo-020]
+    question: Jaký text nebo celá krátká zpráva chybí v poškozeném úseku mezi zprávou o dr. Benetkovi a zprávou o footballových hřištích?
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-020-document-text.md
+    next_action: Najít jiný výtisk nebo digitální reprodukci stejného vydání a porovnat poškozenou oblast.

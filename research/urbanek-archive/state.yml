@@ -34,6 +34,8 @@ checkpoints:
   czech_word_ocr_008_commit: 47782095884f711cd05f6a767c86482a0e8c377e
   czech_word_ocr_009_commit: 049ba9c9704ac8c1f40a9fabe1411de0640eab26
   czech_word_ocr_010_commit: 405b9e3cbbdab40abcb9e3aa55c2e069b095d4d1
+  uncertainty_registry_commit: b00ffaa4e75e5109aca1ca123aff5fc52aab33e9
+  uncertainty_rules_commit: a45bda9b1541f1e60c2ff5b4f813a1239abc5c69
   latest_status_commit: 072ad93dca866b43cc8348aa2a001a18038696c3
 
 technical_files:
@@ -57,6 +59,19 @@ ocr:
   preserve_printed_spelling: true
   split_composite_clippings: true
 
+uncertainties:
+  registry: research/urbanek-archive/uncertainties.yml
+  id_format: URB-U-XXXX
+  authoritative_queue: true
+  counts:
+    open: 14
+    deferred: 2
+    resolved: 1
+    not_actionable: 1
+    total: 18
+  require_resolution_evidence: true
+  load_on_handoff: true
+
 phases:
   import: {status: completed_with_missing_technical_files}
   preserve_technical_thumbnail_caches: {status: deferred_documented}
@@ -65,6 +80,7 @@ phases:
   inventory: {status: in_progress}
   pilot_classification: {status: in_progress}
   ocr_processing: {status: in_progress}
+  uncertainty_resolution: {status: tracked_pending}
   draft_pull_request: {status: pending}
 
 pilot_collections:
@@ -102,6 +118,7 @@ pilot_collections:
     grouping_corrections:
       - id: urbanek-ceske-slovo-004-c
         corrected_completeness: headline_only
+        uncertainty_id: URB-U-0013
         note: grouping-01.yml originally says headline_and_beginning_only; detailed OCR inspection found no visible body text.
     thumbnail_cache:
       sha256: 0647ec694c2bbbd6be13517d0e201f498199bd57e825b63140c4f32ae0c43800
@@ -138,13 +155,21 @@ pilot_collections:
       - research/urbanek-archive/ocr/urbanek-ceske-slovo-010-document-text.md
     uncertain_ocr:
       - id: urbanek-ceske-slovo-005
+        uncertainty_id: URB-U-0014
         field: person_name
         value: Jarábáč
-        note: Name is visually plausible but requires verification before use as an identified person.
       - id: urbanek-ceske-slovo-007
+        uncertainty_id: URB-U-0015
         field: unrelated_fragment_headline
         value: "Malhomme se vrátil"
         confidence: low
+      - id: urbanek-ceske-slovo-009
+        uncertainty_id: URB-U-0016
+        field: incomplete_person_identity
+        value: Roman
+      - id: urbanek-ceske-slovo-010
+        uncertainty_id: URB-U-0017
+        field: unidentified_upper_fragment
     next_ocr_id: urbanek-ceske-slovo-011
     notable_scene_text:
       - id: urbanek-ceske-slovo-025
@@ -178,4 +203,5 @@ next_action:
   title: "Zůstanou na Těšínsku české školy?"
   instruction: >-
     Transcribe item 011 as a separate article, preserving printed spelling and marking
-    uncertain characters. Then transcribe item 012 as a separate article and update the checkpoint.
+    uncertain characters. Register every new material uncertainty in uncertainties.yml.
+    Then transcribe item 012 as a separate article and update the checkpoint.

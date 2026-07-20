@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený revizní checkpoint: `214e0de09d030b15a39601e942d29fbb13f77dc6`
+- Poslední dokončený revizní checkpoint: `77a1ecb796c90a678e80b715f97e6894682c307a`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
 Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a `clanky-z-ceskeho-slova-grouping-corrections.yml`.
@@ -18,7 +18,7 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 - Samostatné články a fragmenty ukládat pod vlastními stabilními ID.
 - Stav `visually_verified` přidělit jen po úplném porovnání s obrazem.
 - U úplně ověřeného zachovaného textu s fyzickou mezerou používat `visually_verified_with_lacuna` a ponechat příslušnou nejistotu otevřenou.
-- Strukturální opravy seskupení ukládat do korekčního souboru.
+- Scénický text, který je jen částečně čitelný a doplněný dobovým popiskem, označit `visually_verified_with_caption_support`.
 - Každou dávku commitnout a aktualizovat stav i registr nejistot.
 
 ## Stav etap
@@ -29,7 +29,7 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 | Technický audit a inventář | probíhá po kolekcích |
 | Klasifikace větrných mlýnů | dokončena |
 | První OCR Českého slova | dokončeno pro všech 37 obrazů |
-| Druhá vizuální kontrola Českého slova | probíhá; ověřeno 38 textových jednotek |
+| Druhá vizuální kontrola Českého slova | probíhá; zkontrolováno 48 textových jednotek |
 | Řešení nejistot | centrálně evidováno |
 | Ostatní tři pilotní kolekce | čekají |
 | Pull request | čeká |
@@ -38,8 +38,6 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 
 Soubor: `research/urbanek-archive/uncertainties.yml`
 
-Souhrn:
-
 - `open`: 15
 - `in_progress`: 1
 - `deferred`: 2
@@ -47,11 +45,12 @@ Souhrn:
 - `not_actionable`: 1
 - celkem: 23
 
-Aktuální zjištění:
+Nadále otevřené textové problémy:
 
-- `URB-U-0020` zůstává otevřená: mezi zprávou o dr. Benetkovi a zprávou o footballových hřištích v `19.jpg` je fyzicky zničený úsek bez bezpečně čitelných znaků.
-- `URB-U-0021` zůstává otevřená: v `21.jpg` chybí sloupcový přechod mezi větou o deputaci z Bohumínska a blokem začínajícím `čs. národnosti`.
-- Nová `URB-U-0023` eviduje neidentifikované zakončení článku `…cích. -bi-`, oddělené jako `019-b`.
+- `URB-U-0020`: fyzicky zničený úsek v `19.jpg`.
+- `URB-U-0021`: chybějící sloupcový přechod v `21.jpg`.
+- `URB-U-0022`: poškozený blok v `33.jpg`, který bude znovu posouzen v poslední dávce.
+- `URB-U-0023`: neidentifikované zakončení cizího článku `019-b`.
 
 ## Pilotní kolekce
 
@@ -63,43 +62,41 @@ Aktuální zjištění:
 
 ## Články z Českého slova
 
-- 37 obrazových položek ověřeno, seskupeno a přepsáno v prvním průchodu.
-- Druhou kontrolou prošlo 38 textových jednotek od `001` po `023-b`, včetně dodatečně oddělených fragmentů.
-- `020` a `022-a` mají stav `visually_verified_with_lacuna`; veškerý zachovaný text je ověřen, fyzicky chybějící části nikoli.
+- 37 obrazových položek bylo ověřeno, seskupeno a přepsáno v prvním průchodu.
+- Druhou kontrolou prošlo 48 jednotek od `001` po `030`, včetně oddělených fragmentů a scénického textu `025`.
+- `020` a `022-a` mají stav `visually_verified_with_lacuna`.
+- `025-scene-text` má stav `visually_verified_with_caption_support`: na tabuli je přímo rozpoznatelné zejména `Rychvald`, celé znění `Městys Rychvald` potvrzuje dobový popisek.
 - Ostatní dokončené jednotky mají stav `visually_verified`.
 
-### Opravy z dosavadní druhé kontroly
+### Výsledek dávky `024–030`
 
-1. `001`: odstraněny vydavatelské údaje, které na výřezu nebyly.
-2. `004`: oddělena samostatná krátká zpráva `004-b2`.
-3. `005`: vizuálně potvrzeno příjmení `Jarábáč`.
-4. `007`: oddělen a potvrzen fragment `007-b` – **„Malhomme se vrátil“**.
-5. `010`: oddělen cizí horní fragment `010-b`; jeho článek zůstává neidentifikován.
-6. `015`: poškozené slovo přečteno jako `dosazováni`; `URB-U-0019` uzavřena.
-7. `017-c`: do reklamního textu doplněn viditelný koncový kód `=2M.`.
-8. `019`: horní zakončení jiného článku bylo odděleno jako `019-b`; vznikla `URB-U-0023`.
-9. `020`: jména `Karkošky`, `Lejska`, `Ďáska` a `Benetka` byla vizuálně potvrzena; fyzická lakuna zůstala.
-10. `022-a`: zachované čtyři sloupce byly řádkově potvrzeny; opravena poznámka na tištěnou podobu `Rydz-Śmigleho`, chybějící přechod zůstává.
-11. `018`, `021-a`, `021-b`, `022-b`, `022-c`, `022-d`, `023-a` a `023-b` odpovídaly obrazu bez obsahové opravy.
+- `024`: potvrzeny podoby `Malhomm`, `Malhomme`, `Szustik`, `Rziman` a `Kotas` přesně podle tisku.
+- `025`: celý fotografický popisek odpovídá obrazu; dokumentový a scénický text zůstávají oddělené.
+- `026`: potvrzeno jméno faráře `Syrčin`; zachováno neobvyklé tištěné spojení `opustili čs. území`.
+- `027-a` a `027-b`: potvrzen skutečný tok překrývající se sazby horního a dolního článku.
+- `028`: zachováno tištěné vypuštění předložky před spojením `obsazeného území Těšínska`.
+- `029-a`, `029-b` a `030`: text odpovídal obrazům bez obsahové opravy.
+- V této dávce nevznikla nová materiální nejistota.
 
 ## Následující přesný krok
 
-Druhá řádková kontrola položek ze zdrojových obrazů `23.jpg–29.jpg`:
+Dokončit druhou řádkovou kontrolu posledních položek:
 
-- `024`;
-- `025` a samostatný scénický text `025-scene-text`;
-- `026`;
-- `027-a`, `027-b`;
-- `028`;
-- `029-a`, `029-b`;
-- `030`.
+- `031`;
+- společný článek `032-033`;
+- `034`;
+- `035` s otevřenou lakunou `URB-U-0022`;
+- `036`;
+- `037-a`, `037-b`, `037-c`.
 
-U `025` zachovat oddělení novinového popisku a scénického nápisu. Každou fyzicky samostatnou zprávu nebo fragment vést pod samostatným ID.
+Zdrojové obrazy: `30.jpg`, `31 a.jpg`, `31 b.jpg`, `32.jpg`, `33.jpg`, `34.jpg`, `35.jpg`.
+
+Po dokončení této dávky uzavřít `URB-U-0018`, označit druhou vizuální kontrolu kolekce jako dokončenou a teprve poté přejít k další pilotní kolekci.
 
 ## Instrukce pro nový chat
 
 1. Načíst `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a korekční soubor seskupení.
 2. Ověřit aktuální hlavu větve.
 3. Neměnit originály.
-4. Pokračovat pouze uvedenou revizní dávkou.
-5. Po dávce commitnout každý opravený soubor a aktualizovat checkpoint.
+4. Pokračovat pouze uvedenou poslední revizní dávkou.
+5. Po dávce aktualizovat všechny autoritativní soubory.

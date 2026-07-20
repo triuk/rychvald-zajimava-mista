@@ -4,8 +4,9 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-017`
 - Soubor: `Články z Českého slova/16.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: začátek cizího článku, pokračování mimo obraz
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpis
 
@@ -17,7 +18,8 @@ Včerejší Pondělník Českého Slova přinesl zprávu, že ve Fryštátě byl
 
 **[text pokračuje mimo dolní okraj obrazu]**
 
-## Poznámky
+## Poznámky k ověření
 
-- Slovo na konci viditelné části je fyzicky přerušeno po `komunistic-`; jeho dokončení nebylo domýšleno.
+- Nadpis a celý viditelný první řádek byly znovu porovnány se zdrojovým obrazem.
+- Slovo na konci viditelné části je skutečně fyzicky přerušeno po `komunistic-`; jeho dokončení nebylo domýšleno.
 - Fragment není součástí článku `017-a`.

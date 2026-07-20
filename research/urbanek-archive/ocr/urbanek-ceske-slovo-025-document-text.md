@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-025`
 - Soubor: `Články z Českého slova/24.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: novinová fotografická položka se dvěma snímky a společným popiskem
 - Související scénický text: `research/urbanek-archive/ocr/urbanek-ceske-slovo-025-scene-text.md`
 
@@ -18,7 +18,7 @@
 
 ## Poznámky ke spolehlivosti
 
-- Popisek je na snímku zachycen celý.
+- Popisek je na snímku zachycen celý a byl řádkově porovnán s předlohou.
 - Identifikace místa jako Rychvald a funkce osob vycházejí přímo z novinového popisku.
 - Jednotlivé osoby nejsou v popisku jmenovány a nebyly obrazově identifikovány.
 - Tvrzení popisku nejsou tímto OCR nezávisle historicky ověřena.

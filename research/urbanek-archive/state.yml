@@ -21,19 +21,19 @@ checkpoints:
   windmill_completed_inventory_commit: f58f21e6b65a5fab8e6eefd821d660158f0c2a83
   czech_word_inventory_commit: 51027f4b62f2ce058ff5267866c4a1cea8f93a66
   czech_word_grouping_completed_commit: ba549159b08792abe74d70f170d894de6c914ef9
-  czech_word_ocr_011_corrected_commit: ffc959c3eb467db4138e9784381fa3a561efe19d
-  czech_word_ocr_012_corrected_commit: 84703f95fb944fa66283e0ba092ee1ae35c3578e
-  czech_word_ocr_013_commit: b78198df12473cac274398fcb2a03302556e2924
-  czech_word_ocr_014_commit: 03f9ea2c53336172c937700d49cd79b187b06a54
-  czech_word_ocr_015_commit: 41f489f61f85a96e72f51c5abc98d410e5bf74fb
-  czech_word_ocr_016_a_commit: 4bd56eb8a2f7f82bc0b37fb7228cac999f05159f
-  czech_word_ocr_016_b_commit: c874e5ba5a4188ba19d15de336abf43b918e67a1
-  czech_word_ocr_017_a_commit: 9f740dc71767518b9d363058da3dd2283665e4ce
-  czech_word_ocr_017_b_commit: 06c658aba06474aef086d727e099b3472f111431
-  czech_word_ocr_017_c_commit: dbb8962072f81a7711a64d7ae45b9b745633bfab
-  czech_word_ocr_017_d_commit: 3e5555e8d636cde56ce2963ee72c1ab2edd7fa31
-  uncertainty_registry_commit: 9dc5771a7a2e272588187ca30e2eee9528eed47d
-  latest_status_commit: 3dee37e935a5dd13e0bc009d08f67b12108e9231
+  czech_word_ocr_017_completed_commit: 3e5555e8d636cde56ce2963ee72c1ab2edd7fa31
+  czech_word_ocr_018_commit: b4015fdda672735b6000961057f8bf3ebb3f7f2c
+  czech_word_ocr_019_commit: 5812ec0a0375402785041f6b501f5439339d979b
+  czech_word_ocr_020_commit: e1f5885675a8d17388b18735444fb2c143c06bf3
+  czech_word_ocr_021_a_commit: 234984cec90d0fed91cc04a9b8c5eaa341b7fc1c
+  czech_word_ocr_021_b_commit: b8ee650ffe0950675fdfa6cabeab9ee0cdb3e62e
+  czech_word_ocr_022_a_commit: eefa412417fa373f69c409e9dadabc5632025bc8
+  czech_word_ocr_022_b_commit: 3d937eeb620d6575b4bde71bb22372a77472e5a9
+  czech_word_ocr_022_c_commit: edada5e6dc32efa4f2c76c760a8eaa189b79ee3d
+  czech_word_ocr_022_d_commit: 2daf2ddca22185c5a88e50611a32290ef22272fe
+  czech_word_ocr_023_a_commit: f25f01ffc5c618d8f33e0c7a38852fbb66160073
+  czech_word_ocr_023_b_commit: 651fa3975169eec06acbdae6f5f483866bb31c43
+  uncertainty_registry_commit: 24765f5e280a1b5c0feb3d012ea10a47046cd24d
 
 technical_files:
   keep: [Thumbs.db, ZbThumbnail.info]
@@ -59,8 +59,8 @@ ocr:
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 15, deferred: 2, resolved: 1, not_actionable: 1, total: 19}
-  latest_id: URB-U-0019
+  summary: {open: 17, deferred: 2, resolved: 1, not_actionable: 1, total: 21}
+  latest_id: URB-U-0021
 
 phases:
   import: completed_with_missing_technical_files
@@ -98,36 +98,31 @@ pilot_collections:
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-03.yml
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-04.yml
     completed_ocr_ids:
-      - urbanek-ceske-slovo-001
-      - urbanek-ceske-slovo-002
-      - urbanek-ceske-slovo-003
-      - urbanek-ceske-slovo-004-a
-      - urbanek-ceske-slovo-004-b
-      - urbanek-ceske-slovo-004-c
-      - urbanek-ceske-slovo-005
-      - urbanek-ceske-slovo-006
-      - urbanek-ceske-slovo-007
-      - urbanek-ceske-slovo-008
-      - urbanek-ceske-slovo-009
-      - urbanek-ceske-slovo-010
-      - urbanek-ceske-slovo-011
-      - urbanek-ceske-slovo-012
-      - urbanek-ceske-slovo-013
-      - urbanek-ceske-slovo-014
-      - urbanek-ceske-slovo-015
+      - urbanek-ceske-slovo-001..urbanek-ceske-slovo-015
       - urbanek-ceske-slovo-016-a
       - urbanek-ceske-slovo-016-b
       - urbanek-ceske-slovo-017-a
       - urbanek-ceske-slovo-017-b
       - urbanek-ceske-slovo-017-c
       - urbanek-ceske-slovo-017-d
+      - urbanek-ceske-slovo-018
+      - urbanek-ceske-slovo-019
+      - urbanek-ceske-slovo-020
+      - urbanek-ceske-slovo-021-a
+      - urbanek-ceske-slovo-021-b
+      - urbanek-ceske-slovo-022-a
+      - urbanek-ceske-slovo-022-b
+      - urbanek-ceske-slovo-022-c
+      - urbanek-ceske-slovo-022-d
+      - urbanek-ceske-slovo-023-a
+      - urbanek-ceske-slovo-023-b
     mapping_correction:
       date: 2026-07-20
       corrected:
         - {id: urbanek-ceske-slovo-011, source: 10.jpg, title: "Zůstanou na Těšínsku české školy?"}
         - {id: urbanek-ceske-slovo-012, source: 11.jpg, title: "Fryštát už má polského starostu"}
         - {id: urbanek-ceske-slovo-013, source: 12.jpg, title: "První část fryštátského okresu obsazena"}
-    next_ocr_id: urbanek-ceske-slovo-018
+    next_ocr_id: urbanek-ceske-slovo-024
 
   - name: Ochotníci rychvald
     status: pending
@@ -149,10 +144,11 @@ known_findings:
 next_action:
   type: ocr_document_item
   collection: Články z Českého slova
-  item_id: urbanek-ceske-slovo-018
-  source: Články z Českého slova/17.jpg
-  title: "Péče o uprchlíky z obsazeného území"
+  item_id: urbanek-ceske-slovo-024
+  source: Články z Českého slova/23.jpg
+  title: "Zprávy z Těšínska"
   instruction: >-
-    Přepsat celý článek s podnadpisem Kde se mají uprchlíci hlásit v Mor. Ostravě,
-    zachovat dobový pravopis a každou novou materiální nejistotu zapsat do
-    uncertainties.yml. Poté pokračovat položkou urbanek-ceske-slovo-019.
+    Přepsat celý soubor krátkých zpráv, zachovat jejich oddělení a dobový pravopis.
+    Každou novou materiální nejistotu zapsat do uncertainties.yml. Poté pokračovat
+    položkou urbanek-ceske-slovo-025, která obsahuje dvě fotografie, popisek a scénický
+    nápis Městys Rychvald.

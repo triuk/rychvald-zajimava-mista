@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-024`
 - Soubor: `Články z Českého slova/23.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: soubor čtyř krátkých novinových zpráv
 - Signatura všech zpráv: `-bi-`
 
@@ -33,6 +33,7 @@ Po přidělení Orlové k Polsku, konal se včera první polský týdenní trh, 
 
 - Čtyři fyzicky oddělené zprávy byly zachovány jako samostatné oddíly.
 - V první zprávě je jméno vytištěno jako `Malhomm`, zatímco ve třetí jako `Malhomme`; rozdíl nebyl redakčně sjednocen.
-- Jména `Szustik`, `Rziman` a `Kotas` jsou přepsána podle tisku a vyžadují druhou vizuální kontrolu před použitím jako ověřené osobní údaje.
+- Podoby jmen `Szustik`, `Rziman` a `Kotas` byly potvrzeny druhou vizuální kontrolou jako přesný přepis tisku; historická identita osob tím není samostatně ověřena.
 - Dobové tvary `pročež`, `žoldu`, `koupěchtivých` a `koupiti` byly zachovány.
+- Celý zachovaný text byl řádkově porovnán se zdrojovým obrazem.
 - Tvrzení zpráv nejsou tímto přepisem historicky ověřena.

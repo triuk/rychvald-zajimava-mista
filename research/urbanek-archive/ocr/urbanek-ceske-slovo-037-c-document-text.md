@@ -4,7 +4,7 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-037`
 - Soubor: `Články z Českého slova/35.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified_fragment`
 - Druh: neúplný pravý okraj sousedního článku
 - Rubrika: `Nedělní ohlas`
 
@@ -18,7 +18,7 @@
 
 ## Poznámky ke spolehlivosti
 
-- Zachován je nadpis, podnadpis a pouze levá část několika prvních řádků článku.
+- Zachovaný nadpis, podnadpis a viditelná část prvních řádků byly porovnány se zvětšeným obrazem.
 - Pravá část sazby i pokračování článku leží mimo obraz; fragment nebyl rekonstruován ani doplňován podle kontextu.
 - Zkratka `říš.` je přepsána doslovně.
 - Fragment není součástí článku `urbanek-ceske-slovo-037-b`.

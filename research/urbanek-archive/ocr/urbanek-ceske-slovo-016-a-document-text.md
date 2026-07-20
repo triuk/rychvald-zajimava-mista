@@ -4,9 +4,10 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-016`
 - Soubor: `Články z Českého slova/15.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: hlavní samostatný článek na složeném výstřižku
 - Signatura: `-vb-`
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpisy
 
@@ -22,9 +23,10 @@ Ve vyhlášce, jež byla vylepena včera, se praví: »Poněvadž v letech 1918-
 
 Ačkoliv tato vyhláška, vylepená včera na území Těšínska, mluví jasně, je těžko uvěřitelné, že by polské správní úřady chtěly skutečně prováděti toto rozhodnutí. Ustanovení vyhlášky je proti všem mezinárodním právům. Očekává se, že vyjednávání, jež bude zahájeno diplomatickou cestou, vyjasní poměry, jež vznikly v minulých dnech na našem bývalém Těšínsku, a že situace se vyvine opět příznivěji ve prospěch obyvatelstva obou národností. Je naprostou nepravdou, že z Těšínska se vystěhovalo do Polska od r. 1918 do 1938 několik desítek tisíc osob pro svou polskou příslušnost. Vyhošťovali jsme jen darebáky, zatčené pro potulku a odsouzené z různých důvodů. A tato číslice bude činit sotva několik set osob za 20 let! Nyní však je vyhoštěno z Polska za pár dnů několik tisíc! Chtějí Poláci vyhostit do 1. listopadu 125.000 Čechů? -vb-
 
-## Poznámky ke spolehlivosti
+## Poznámky k ověření
 
-- Přepis zachovává dobové tvary `musily`, `prováděti` a zápis čísel `1918-1938` a `125.000`.
-- Vložené znění vyhlášky je přepsáno jako citace uvnitř novinového článku; nejde o ověřenou kopii úředního dokumentu.
-- Hodnocení a početní údaje jsou tvrzení článku a nebyly tímto OCR nezávisle ověřeny.
-- Text je na výstřižku zachycen celý.
+- Celý hlavní článek ve třech sloupcích, včetně vloženého znění vyhlášky, byl znovu porovnán se zdrojovým obrazem.
+- Při druhé kontrole nebyla nalezena textová odchylka vyžadující opravu.
+- Dobové tvary `musily`, `prováděti`, zápis `1918-1938` a číslo `125.000` odpovídají tisku.
+- Vložená vyhláška je ověřena jako přepis novinové citace, nikoli jako autentická kopie úředního dokumentu.
+- Hodnocení a početní údaje článku nebyly historicky ověřeny.

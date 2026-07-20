@@ -19,7 +19,12 @@ checkpoints:
   czech_word_verification_02_commit: 62840e3b5e20f6d80c162745d00b3e6ea385cb77
   czech_word_verification_03_commit: 58b4bbeb93201809c968452625400131953019f6
   czech_word_thumbnail_cache_audit_commit: 4a0f941144edb2ad2fc99456eeebf248a9eedeb7
-  latest_status_commit: afb6102010d858557ddcb69e78f61cc815fa3870
+  czech_word_grouping_02_commit: 638920805d55be334974a29ed7d202a78bc07d89
+  czech_word_grouping_03_commit: 01661a669dc1948862d1961535d9e34749dbf302
+  czech_word_grouping_04_commit: ba549159b08792abe74d70f170d894de6c914ef9
+  czech_word_ocr_001_commit: 579f2c8edf2825ca246c0734b1e1da5639558679
+  czech_word_ocr_002_commit: 3026ce49e6633d9a8b7f95e54b51407515f46497
+  latest_status_commit: b5bb0d9ed72f48d7e91e9c835d05148f7ddf22cc
 
 technical_files:
   keep: [Thumbs.db, ZbThumbnail.info]
@@ -39,6 +44,8 @@ ocr:
       purpose: identify_or_refine_image_content
       record_approximate_location: true
   infer_missing_text: false
+  preserve_printed_spelling: true
+  split_composite_clippings: true
 
 phases:
   import: {status: completed_with_missing_technical_files}
@@ -61,17 +68,13 @@ pilot_collections:
     inventory_id_prefix: urbanek-mlyny
     reports:
       - research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
-    unresolved:
-      - five Thumbs.db files remain on Drive but are missing from the GitHub branch
-      - names and locations derived only from filenames or folders remain unverified
-      - urbanek-mlyny-018 is probably misfiled
-      - relationship of urbanek-mlyny-039 to house 339 is unexplained
 
   - name: Články z Českého slova
-    status: inventory_and_repo_verification_completed
+    status: grouping_completed_ocr_in_progress
     drive_total_files: 39
     image_files: 37
     image_files_repo_verified: 37
+    image_items_grouped: 37
     technical_thumbnail_caches: 2
     technical_thumbnail_caches_repo_verified: 1
     technical_thumbnail_caches_repo_missing: 1
@@ -81,26 +84,29 @@ pilot_collections:
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-verification-01.yml
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-verification-02.yml
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-verification-03.yml
+    grouping_files:
+      - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-01.yml
+      - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-02.yml
+      - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-03.yml
+      - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-04.yml
     thumbnail_cache:
       sha256: 0647ec694c2bbbd6be13517d0e201f498199bd57e825b63140c4f32ae0c43800
       catalog_entries: 97
-      valid_jpeg_thumbnails: 97
       unique_thumbnail_images: 45
       unique_images_matching_current_files: 37
       unique_missing_images: 8
       report: research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md
-    next_batch_ids:
+    completed_ocr_ids:
       - urbanek-ceske-slovo-001
       - urbanek-ceske-slovo-002
-      - urbanek-ceske-slovo-003
-      - urbanek-ceske-slovo-004
-      - urbanek-ceske-slovo-005
-      - urbanek-ceske-slovo-006
-      - urbanek-ceske-slovo-007
-      - urbanek-ceske-slovo-008
-      - urbanek-ceske-slovo-009
-      - urbanek-ceske-slovo-010
-      - urbanek-ceske-slovo-011
+    completed_ocr_files:
+      - research/urbanek-archive/ocr/urbanek-ceske-slovo-001-document-text.md
+      - research/urbanek-archive/ocr/urbanek-ceske-slovo-002-document-text.md
+    next_ocr_id: urbanek-ceske-slovo-003
+    notable_scene_text:
+      - id: urbanek-ceske-slovo-025
+        text: "Městys Rychvald"
+        status: machine_unverified
 
   - name: Ochotníci rychvald
     status: pending
@@ -117,15 +123,17 @@ known_findings:
   complete_archive_duplicate_analysis_complete: false
   windmill_collection_completed: true
   czech_word_all_images_present: true
+  czech_word_grouping_complete: true
   czech_word_missing_thumbs_db_count: 1
   czech_word_unique_missing_cache_images: 8
+  czech_word_numeric_filenames_not_reliable_chronology: true
 
 next_action:
-  type: group_document_images
+  type: ocr_document_item
   collection: Články z Českého slova
-  batch_ids: urbanek-ceske-slovo-001..urbanek-ceske-slovo-011
+  item_id: urbanek-ceske-slovo-003
+  title: "Československo odstoupí Polsku část Těšínska"
   instruction: >-
-    Visually inspect the first eleven image items, identify title sheets, commentary,
-    complete articles, continuations, or partial clippings, and record article or
-    thematic groups before starting OCR. Do not infer missing text or article order
-    solely from filenames when the image content disagrees.
+    Transcribe item 003 as a separate article, preserve printed spelling and mark
+    uncertain characters. Then process composite item 004 as three separate text
+    units 004-a, 004-b and visible fragment 004-c according to grouping-01.yml.

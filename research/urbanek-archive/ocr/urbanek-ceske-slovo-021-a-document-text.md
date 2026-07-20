@@ -4,10 +4,11 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-021`
 - Soubor: `Články z Českého slova/20.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek ve složeném výstřižku
 - Datace: Praha, 2. října 1938
 - Agentura: ČTK
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Nadpisy
 
@@ -25,8 +26,8 @@ Poněkud vzrušenější nálada jest na Těšínsku. Ve Třinci se chtělo pols
 
 ## Poznámky ke spolehlivosti
 
-- Tři novinové sloupce byly převedeny do souvislého pořadí zleva doprava.
+- Tři novinové sloupce byly řádkově porovnány s předlohou a převedeny do souvislého pořadí zleva doprava.
 - Přepis zachovává dobové tvary `zaznamenati`, `jest`, `zmocniti` a původní místní názvy.
-- Jména `Müller`, `Veselý`, `Přibaň` a `Procházka` jsou přepsána podle tisku; jejich totožnost není tímto OCR ověřena.
+- Jména `Müller`, `Veselý`, `Přibaň` a `Procházka` byla potvrzena jako podoby vytištěné v předloze; jejich historická totožnost nebyla samostatně ověřována.
 - Zkratka `SOS` je přepsána doslovně bez rozvinutí.
 - Tvrzení článku nejsou tímto přepisem historicky ověřena.

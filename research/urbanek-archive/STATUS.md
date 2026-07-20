@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený obsahový checkpoint: `9dc5771a7a2e272588187ca30e2eee9528eed47d`
+- Poslední dokončený obsahový checkpoint: `3e5555e8d636cde56ce2963ee72c1ab2edd7fa31`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
@@ -25,6 +25,7 @@ Autoritativní předání mezi chaty tvoří:
 - Dokumentový a scénický text evidovat odděleně.
 - OCR má stav `machine_unverified`, dokud neproběhne druhá řádková kontrola.
 - Chybějící nebo poškozený text nedoplňovat odhadem.
+- Fyzicky samostatné články a fragmenty ukládat pod vlastními stabilními ID.
 - Každou dokončenou dávku commitnout a aktualizovat stav i registr nejistot.
 
 ## Stav etap
@@ -53,7 +54,7 @@ Aktuální souhrn:
 - `not_actionable`: 1
 - celkem: 19
 
-Nová položka `URB-U-0019` eviduje fyzicky poškozený úsek v článku `urbanek-ceske-slovo-015` mezi slovy `ostatní závody` a `vnucení správci`.
+Položka `URB-U-0019` eviduje fyzicky poškozený úsek v článku `urbanek-ceske-slovo-015` mezi slovy `ostatní závody` a `vnucení správci`.
 
 ## Pilotní kolekce
 
@@ -81,35 +82,40 @@ Nová položka `URB-U-0019` eviduje fyzicky poškozený úsek v článku `urbane
 
 ### Dokončené OCR
 
-Dokončeny jsou stabilní položky:
+Dokončeny jsou položky:
 
-`001`, `002`, `003`, `004-a`, `004-b`, `004-c`, `005`, `006`, `007`, `008`, `009`, `010`, `011`, `012`, `013`, `014`, `015`.
+- `001–003`;
+- `004-a`, `004-b`, `004-c`;
+- `005–015`;
+- `016-a`, `016-b`;
+- `017-a`, `017-b`, `017-c`, `017-d`.
 
 Soubory jsou v `research/urbanek-archive/ocr/`.
 
 ### Oprava mapování 20. července 2026
 
-Při kontrole zdrojových obrazů byla zachycena a opravena chyba posunu:
+- `011` správně odpovídá `10.jpg` a článku **„Zůstanou na Těšínsku české školy?“**;
+- `012` správně odpovídá `11.jpg` a článku **„Fryštát už má polského starostu“**;
+- `013` správně odpovídá `12.jpg` a článku **„První část fryštátského okresu obsazena“**.
 
-- `urbanek-ceske-slovo-011` nyní správně odpovídá `10.jpg` a článku **„Zůstanou na Těšínsku české školy?“**;
-- `urbanek-ceske-slovo-012` nyní správně odpovídá `11.jpg` a článku **„Fryštát už má polského starostu“**;
-- přepis **„První část fryštátského okresu obsazena“** byl přesunut pod správné ID `urbanek-ceske-slovo-013` a zdroj `12.jpg`.
-
-Chybný obsah byl nahrazen; pod žádným ID již nezůstává nesprávné přiřazení.
+Chybný obsah byl nahrazen a pod žádným ID již nezůstává nesprávné přiřazení.
 
 ### Poslední nové přepisy
 
-- `014`: **„Fryštát s okolím zabrán“**, včetně mezititulků „Lidé touží po spravedlnosti“ a „Vojsko ustupuje z Fryštátu“.
-- `015`: **„Poslední den polského záboru na Těšínsku“**, včetně částí „Jak se rozloučil Rychvald“, „Český Petřvald zabrán“, „Poláci se usazují na dobrých místech“ a „Finanční stráž již funguje“.
+- `014`: **„Fryštát s okolím zabrán“**.
+- `015`: **„Poslední den polského záboru na Těšínsku“**.
+- `016-a`: **„Sta lidí vypovídáno z Těšínska“**.
+- `016-b`: **„Konsulární ataše v Ostravě“**.
+- `017-a`: **„Přeplněné přívozské nádraží“**.
+- `017-b`: neúplný začátek **„Poslanec Sliwka v Katovicích“**.
+- `017-c`: částečný reklamní text **„Různé nečistoty pleti“**.
+- `017-d`: pouze nadpis **„Sebevražda 24letého“**.
 
 ## Následující přesný krok
 
-Zpracovat `urbanek-ceske-slovo-016`, zdroj `Články z Českého slova/15.jpg`, jako dvě oddělené textové jednotky:
+Přepsat `urbanek-ceske-slovo-018`, zdroj `Články z Českého slova/17.jpg`, článek **„Péče o uprchlíky z obsazeného území“** s podnadpisem **„Kde se mají uprchlíci hlásit v Mor. Ostravě“**.
 
-1. hlavní článek **„Sta lidí vypovídáno z Těšínska“**;
-2. samostatnou krátkou zprávu **„Konsulární atašé v Ostravě“**.
-
-Poté pokračovat položkou `urbanek-ceske-slovo-017`. Každou novou materiální nejistotu zapsat do `uncertainties.yml`.
+Poté pokračovat položkou `urbanek-ceske-slovo-019`. Každou novou materiální nejistotu zapsat do `uncertainties.yml`.
 
 ## Instrukce pro nový chat
 

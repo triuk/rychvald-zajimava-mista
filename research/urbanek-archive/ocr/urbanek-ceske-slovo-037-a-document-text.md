@@ -4,7 +4,7 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-037`
 - Soubor: `Články z Českého slova/35.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: novinová hlavička
 
 ## Přepis
@@ -21,6 +21,6 @@ Majitel a vydavatel »Melantrich«, Praha. — Tiskem téhož závodu, M. Ostrav
 
 ## Poznámky ke spolehlivosti
 
-- Datum, ročník, číslo a cena jsou přímo čitelné.
-- Drobné vydavatelské údaje jsou méně výrazné než hlavní hlavička a mají být zahrnuty do druhé řádkové kontroly.
+- Datum, ročník, číslo, cena i drobné vydavatelské údaje byly řádkově porovnány se zvětšeným obrazem.
 - Pomlčka v názvu `České slovo-pondělník` odpovídá grafické podobě hlavičky.
+- Podoba jména odpovědného redaktora `Edvard Cenek` je přesným přepisem tisku; historická identita tím není samostatně ověřena.

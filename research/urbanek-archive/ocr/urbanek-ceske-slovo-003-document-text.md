@@ -3,10 +3,11 @@
 - Zdroj: `urbanek-ceske-slovo-003`
 - Soubor: `Články z Českého slova/2a  K dohodě s polskem mělo dojít do tří měsíců ( v  rámci vídeňské arbitráže).jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
-- Druh: úplný nebo téměř úplný novinový výstřižek
+- Stav: `visually_verified`
+- Druh: úplný novinový výstřižek
 - Datace v textu: Praha, 1. října 1938
 - Agentura: ČTK
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpisy
 
@@ -22,9 +23,10 @@ V diktátu čtyř velmocí v Mnichově byl pro nás závazek, dohodnout se o ná
 
 Sneseme i tuto ránu. Jednou pozná také Polsko na vlastní kůži těžké chvíle. Zmiňujeme-li se o tomto chování Polska, pak proto, abychom ukázali těm z některých našich lidí, kteří vyčítali nedostatek polonofilské orientace, jaká vlastně dnešní polská vláda jest.
 
-## Poznámky ke spolehlivosti
+## Poznámky k ověření
 
-- Přepis zachovává dobové tvary jako `presidenta`, `rozhodnouti`, `přijmouti`, `proposice` a `jest`.
-- Výraz `kvalifikovat` je v předloze vytištěn v tomto nedokonavém tvaru.
-- Text ve spodní části pokračuje ze levého do pravého sloupce; pořadí bylo při přepisu sjednoceno.
-- Přepis zachycuje pouze text otištěný v tomto výstřižku a není ověřen proti jinému vydání nebo úředním dokumentům.
+- Celý horní text i oba spodní sloupce byly znovu porovnány se zdrojovým obrazem.
+- Při druhé kontrole nebyla nalezena textová odchylka vyžadující opravu.
+- Přepis zachovává dobové tvary `presidenta`, `rozhodnouti`, `přijmouti`, `proposice` a `jest`.
+- Neobvyklá formulace `jiné rozhodnutí bylo by vedlo` i výraz `kvalifikovat` odpovídají předloze.
+- Přepis zachycuje pouze text otištěný ve výstřižku a není historickým ověřením jeho tvrzení.

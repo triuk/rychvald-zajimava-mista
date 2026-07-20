@@ -3,8 +3,9 @@
 - Zdroj: `urbanek-ceske-slovo-015`
 - Soubor: `Články z Českého slova/14.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný souhrnný novinový článek s mezititulky
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpisy
 
@@ -32,16 +33,16 @@ Novou hranici mezi Polskem a Československem na rozhraní Petřvaldu a Radvanic
 
 Jakmile přišlo polské vojsko a polské správní úřady na svá místa v obsazených územích Těšínska, ihned zahájili nekompromisně svou popolšťovací činnost.
 
-Včera byla volána na policii v Karvinné celá řada českých lidí a dostali písemný rozkaz, aby do 24 hodin území opustili. Je mezi nimi také karvinský obvodní lékař a tajemník Svazu horníků. Na všechny doly, koksovny a ostatní závody **[nečitelný poškozený úsek]** vnucení správci. Včera projelo Šumbarkem v autu osm úředníků, kteří jeli ujmouti se správy na dole Pokrok v Petřvaldě. Místní Poláci se starají za pomoci nových správních úřadů o to, aby okamžitě zmizely odevšad české nápisy a byly nahrazeny polskými. Ve většině dnes zabíraných obcí byly již české nápisy dnes ráno sňaty. Když se obchodníci ráno probudili, měli své nápisy přede dveřmi a dostali rozkaz opatřit hned polské. Také české plakáty, pokud ještě zbyly na vývěsních místech byly v noci a dnes ráno zalepovány buď plakáty s provoláním maršálka Rydz Śmiglyho, nebo alespoň čistými papíry, jen aby nezůstalo nic českého.
+Včera byla volána na policii v Karvinné celá řada českých lidí a dostali písemný rozkaz, aby do 24 hodin území opustili. Je mezi nimi také karvinský obvodní lékař a tajemník Svazu horníků. Na všechny doly, koksovny a ostatní závody dosazováni vnucení správci. Včera projelo Šumbarkem v autu osm úředníků, kteří jeli ujmouti se správy na dole Pokrok v Petřvaldě. Místní Poláci se starají za pomoci nových správních úřadů o to, aby okamžitě zmizely odevšad české nápisy a byly nahrazeny polskými. Ve většině dnes zabíraných obcí byly již české nápisy dnes ráno sňaty. Když se obchodníci ráno probudili, měli své nápisy přede dveřmi a dostali rozkaz opatřit hned polské. Také české plakáty, pokud ještě zbyly na vývěsních místech byly v noci a dnes ráno zalepovány buď plakáty s provoláním maršálka Rydz Śmiglyho, nebo alespoň čistými papíry, jen aby nezůstalo nic českého.
 
 ### Finanční stráž již funguje
 
 Dnes v časných ranních hodinách byla rozestavena podél celého těšínského území, obsazeného v minulých dnech a dnes naše finanční stráž. Má již svá přesná stanoviště a je ubytována prozatím v soukromých domech, pokud nebudou vystavěny její vlastní budovy. Finanční stráž má přísný rozkaz sledovat především činnost pašeráků valut. Množství pašovaných valut bylo již také zadrženo a to již dnes dopoledne.
 
-## Poznámky ke spolehlivosti
+## Poznámky k ověření
 
-- Čtyři sloupce byly převedeny do souvislého pořadí a slova rozdělená na koncích řádků byla spojena.
-- Přepis zachovává dobové tvary, například `míti`, `musili`, `ujmouti` a `popolšťovací`.
-- Jediný fyzicky poškozený úsek je výslovně označen. Bez jiného exempláře vydání jej nelze bezpečně rekonstruovat.
-- Jméno maršálka je v předloze vytištěno ve tvaru přibližně `Rydz Śmiglyho`; diakritika a skloňování odpovídají čtení novinového tisku a vyžadují případnou bibliografickou kontrolu.
-- Všechna historická tvrzení jsou tvrzení dobového článku, nikoli tímto OCR ověřená fakta.
+- Všechny čtyři sloupce a mezititulky byly znovu porovnány se zdrojovým obrazem.
+- Poškozené slovo mezi `závody` a `vnucení správci` je při zvětšení čitelné jako `dosazováni`; `URB-U-0019` lze uzavřít.
+- Neobvyklá věta bez slovesa `jsou` odpovídá viditelnému tisku a nebyla jazykově opravována.
+- Dobové tvary `míti`, `musili`, `ujmouti`, `popolšťovací` a podoba `Rydz Śmiglyho` byly zachovány.
+- Historická tvrzení článku nejsou tímto OCR nezávisle ověřena.

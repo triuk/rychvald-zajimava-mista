@@ -1,0 +1,194 @@
+schema_version: 1
+project: urbanek-archive
+purpose: Centrální fronta nejistot pro postupné ověřování; podrobnosti zůstávají v odkazovaných souborech.
+status_values: [open, in_progress, blocked, deferred, resolved, not_actionable]
+rules:
+  - Každá nová nejistota dostane stabilní ID URB-U-XXXX.
+  - Původní znění se po vyřešení nemaže.
+  - Uzavření vyžaduje resolution, evidence_added, resolved_at a resolved_by.
+  - Otevřená nejistota nesmí být v publikovaném článku prezentována jako verified.
+summary: {open: 14, deferred: 2, resolved: 1, not_actionable: 1, total: 18}
+items:
+  - id: URB-U-0001
+    status: deferred
+    priority: low
+    collection: Rychvaldské větrné mlýny
+    type: missing_technical_files
+    source_items: [urbanek-mlyny-009, urbanek-mlyny-016, urbanek-mlyny-019, urbanek-mlyny-033, urbanek-mlyny-035]
+    question: Doplnit pět chybějících Thumbs.db do přesných původních cest.
+    evidence: research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
+    next_action: Ruční upload a ověření blob SHA.
+
+  - id: URB-U-0002
+    status: open
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: missing_original_image
+    source_items: [urbanek-mlyny-009]
+    question: Kde je původní P1010269.JPG evidovaný pouze v Thumbs.db?
+    evidence: research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
+    next_action: Prohledat celý archiv a zálohy podle názvu a obrazové podobnosti.
+
+  - id: URB-U-0003
+    status: open
+    priority: low
+    collection: Rychvaldské větrné mlýny
+    type: image_identification
+    source_items: [urbanek-mlyny-009]
+    question: Co zachycuje obnovený náhled P1010269.JPG?
+    evidence: research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
+    next_action: Porovnat s ostatními fotografiemi a místními prameny.
+
+  - id: URB-U-0004
+    status: open
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: object_location_identification
+    source_items: [urbanek-mlyny-001, urbanek-mlyny-002, urbanek-mlyny-008]
+    question: Jde o stejný objekt a odpovídá mu adresa Potoční 564?
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml
+    next_action: Porovnat stavební detaily, EXIF, mapy a adresní evidenci.
+
+  - id: URB-U-0005
+    status: open
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: object_location_identification
+    source_items: [urbanek-mlyny-004, urbanek-mlyny-005, urbanek-mlyny-006, urbanek-mlyny-013, urbanek-mlyny-014, urbanek-mlyny-015]
+    question: Je zařízení skutečně mlýn u Hebdy a jaké je jeho místo a funkční zapojení?
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml
+    next_action: Hledat jméno Hebda v kronikách, mapách a adresářích.
+
+  - id: URB-U-0006
+    status: open
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: location_identification
+    source_items: [urbanek-mlyny-007]
+    question: Který objekt je v názvu souboru označen jako mlýn na Podlesí?
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml
+    next_action: Porovnat s mapami, kronikou a fotografiemi Podlesí.
+
+  - id: URB-U-0007
+    status: open
+    priority: high
+    collection: Rychvaldské větrné mlýny
+    type: historical_image_identification
+    source_items: [urbanek-mlyny-011, urbanek-mlyny-012, urbanek-mlyny-021, urbanek-mlyny-022, urbanek-mlyny-039]
+    question: Zachycuje historický obraz skutečně Kakalův mlýn?
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml
+    next_action: Hledat totožnou reprodukci s popiskem v dalších pramenech.
+
+  - id: URB-U-0008
+    status: open
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: historical_image_identification
+    source_items: [urbanek-mlyny-010]
+    question: Jaký mlýn, místo a období zachycuje historická fotografie?
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml
+    next_action: Obrazové porovnání s regionálními sbírkami.
+
+  - id: URB-U-0009
+    status: open
+    priority: low
+    collection: Rychvaldské větrné mlýny
+    type: probable_misfiled_item
+    source_items: [urbanek-mlyny-018]
+    question: Proč je fotografie interiéru kostela ve složce Mlýn u Kakalů?
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml
+    next_action: Určit kostel a význam čísla 304; originál nepřesouvat.
+
+  - id: URB-U-0010
+    status: open
+    priority: high
+    collection: Rychvaldské větrné mlýny
+    type: document_group_identification
+    source_items: [urbanek-mlyny-036, urbanek-mlyny-037, urbanek-mlyny-038]
+    question: Patří náčrt a fotografie k mlýnku u domu č. 339 a kde dům stál?
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-03.yml
+    next_action: Dohledat č. 339 v historických adresářích a mapách.
+
+  - id: URB-U-0011
+    status: open
+    priority: low
+    collection: Rychvaldské větrné mlýny
+    type: probable_misfiled_copy
+    source_items: [urbanek-mlyny-039]
+    question: Jak souvisí kopie Kakalova mlýna se složkou domu č. 339?
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-03.yml
+    next_action: Hledat doprovodné popisky; bez dokladu považovat za referenční kopii.
+
+  - id: URB-U-0012
+    status: deferred
+    priority: medium
+    collection: Články z Českého slova
+    type: missing_technical_and_original_files
+    source_items: [urbanek-ceske-slovo-038]
+    question: Kde jsou originály osmi unikátních obrazů zachovaných jen v Thumbs.db?
+    evidence: research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md
+    next_action: Hledat podle historických názvů a doplnit Thumbs.db do větve.
+
+  - id: URB-U-0013
+    status: resolved
+    priority: low
+    collection: Články z Českého slova
+    type: clipping_completeness
+    source_items: [urbanek-ceske-slovo-004-c]
+    question: Je kromě nadpisu zachován i začátek článku?
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-004-c-document-text.md
+    resolution: Zachován je pouze nadpis; tělo článku leží mimo obraz.
+    evidence_added: Podrobná vizuální kontrola a samostatný OCR záznam.
+    resolved_at: 2026-07-20
+    resolved_by: visual_review
+
+  - id: URB-U-0014
+    status: open
+    priority: high
+    collection: Články z Českého slova
+    type: personal_name_transcription
+    source_items: [urbanek-ceske-slovo-005]
+    question: Je příjmení orlovského starosty správně čteno jako Jarábáč?
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-005-document-text.md
+    next_action: Porovnat s jiným výskytem jména a dobovými seznamy představitelů Orlové.
+
+  - id: URB-U-0015
+    status: open
+    priority: low
+    collection: Články z Českého slova
+    type: partial_headline_transcription
+    source_items: [urbanek-ceske-slovo-007]
+    question: Zní oříznutý cizí nadpis skutečně Malhomme se vrátil?
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-007-document-text.md
+    next_action: Porovnat s celou stránkou nebo digitálním archivem novin.
+
+  - id: URB-U-0016
+    status: not_actionable
+    priority: low
+    collection: Články z Českého slova
+    type: source_incomplete_person_identity
+    source_items: [urbanek-ceske-slovo-009]
+    question: Jaké je celé jméno ministra označeného jen příjmením Roman?
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-009-document-text.md
+    next_action: Dohledat pouze při potřebě použití a citovat samostatný externí zdroj.
+    reason: Nejde o chybu OCR, ale o omezení předlohy.
+
+  - id: URB-U-0017
+    status: open
+    priority: low
+    collection: Články z Českého slova
+    type: unidentified_article_fragment
+    source_items: [urbanek-ceske-slovo-010]
+    question: Ke kterému článku patří neidentifikovaný horní fragment?
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-010-document-text.md
+    next_action: Přiřadit jen při nalezení celé stránky nebo sousedního výstřižku.
+
+  - id: URB-U-0018
+    status: open
+    priority: high
+    collection: Články z Českého slova
+    type: ocr_visual_verification_batch
+    source_items: [urbanek-ceske-slovo-001, urbanek-ceske-slovo-002, urbanek-ceske-slovo-003, urbanek-ceske-slovo-004-a, urbanek-ceske-slovo-004-b, urbanek-ceske-slovo-004-c, urbanek-ceske-slovo-005, urbanek-ceske-slovo-006, urbanek-ceske-slovo-007, urbanek-ceske-slovo-008, urbanek-ceske-slovo-009, urbanek-ceske-slovo-010]
+    question: Které znaky nebo slova je třeba opravit při druhé vizuální kontrole OCR?
+    evidence: research/urbanek-archive/ocr/
+    next_action: Po první OCR sérii provést řádkovou kontrolu a uzavírat přepisy jako visually_verified.

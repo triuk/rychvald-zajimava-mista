@@ -3,9 +3,10 @@
 - Zdroj: `urbanek-ceske-slovo-004-a`
 - Obrazový soubor: `Články z Českého slova/3  další  texty bez komentáře.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: první samostatný článek ve složeném výstřižku
 - Datace v textu: Praha, 3. října 1938
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpisy
 
@@ -29,9 +30,9 @@ Jsou tam polské obce, ty nechť jsou vydány. Ale jsou tam města ryze česká 
 
 Nikdo nemá práva obviňovat vládu, že je ochotna rozhodovat proti zdravému rozumu. Je proto nejvýše nutno, aby bylo úředně oznámeno, co se vlastně stalo.
 
-## Poznámky ke spolehlivosti
+## Poznámky k ověření
 
-- Článek zabírá horní část složeného snímku a pokračuje do pravého sloupce vedle jiného článku.
-- Výraz `fryštátského` a místní názvy byly přepsány podle předlohy.
-- Číslované body byly zachovány v původním pořadí.
-- Text představuje dobové novinové tvrzení; uvedené podíly obyvatelstva a další tvrzení nejsou tímto přepisem nezávisle ověřeny.
+- Celý článek byl znovu porovnán se zdrojovým obrazem včetně čtyř číslovaných bodů a pokračování v pravém sloupci.
+- Při druhé kontrole nebyla nalezena textová odchylka vyžadující opravu.
+- Výraz `fryštátského`, místní názvy a velká písmena v podnadpisu odpovídají předloze.
+- Uvedené populační podíly a další tvrzení nejsou tímto OCR historicky ověřeny.

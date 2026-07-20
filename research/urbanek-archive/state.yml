@@ -24,7 +24,11 @@ checkpoints:
   czech_word_grouping_04_commit: ba549159b08792abe74d70f170d894de6c914ef9
   czech_word_ocr_001_commit: 579f2c8edf2825ca246c0734b1e1da5639558679
   czech_word_ocr_002_commit: 3026ce49e6633d9a8b7f95e54b51407515f46497
-  latest_status_commit: b5bb0d9ed72f48d7e91e9c835d05148f7ddf22cc
+  czech_word_ocr_003_commit: 78fd362c37aef6be5e2cbd4bb06d773663245ddb
+  czech_word_ocr_004_a_commit: 6f7c266bf46f62185dd9a99976d4b57494476804
+  czech_word_ocr_004_b_commit: b46a8377ada610fc26dd3c11336dc1bb6dfc4518
+  czech_word_ocr_004_c_commit: 657ceae5f7b9930b9605f63a7fa5b35bc68019cc
+  latest_status_commit: 049fbb94b25df9dc31a3b8d2a7ddfcfb708a8416
 
 technical_files:
   keep: [Thumbs.db, ZbThumbnail.info]
@@ -89,6 +93,10 @@ pilot_collections:
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-02.yml
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-03.yml
       - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-04.yml
+    grouping_corrections:
+      - id: urbanek-ceske-slovo-004-c
+        corrected_completeness: headline_only
+        note: grouping-01.yml originally says headline_and_beginning_only; detailed OCR inspection found no visible body text.
     thumbnail_cache:
       sha256: 0647ec694c2bbbd6be13517d0e201f498199bd57e825b63140c4f32ae0c43800
       catalog_entries: 97
@@ -99,10 +107,18 @@ pilot_collections:
     completed_ocr_ids:
       - urbanek-ceske-slovo-001
       - urbanek-ceske-slovo-002
+      - urbanek-ceske-slovo-003
+      - urbanek-ceske-slovo-004-a
+      - urbanek-ceske-slovo-004-b
+      - urbanek-ceske-slovo-004-c
     completed_ocr_files:
       - research/urbanek-archive/ocr/urbanek-ceske-slovo-001-document-text.md
       - research/urbanek-archive/ocr/urbanek-ceske-slovo-002-document-text.md
-    next_ocr_id: urbanek-ceske-slovo-003
+      - research/urbanek-archive/ocr/urbanek-ceske-slovo-003-document-text.md
+      - research/urbanek-archive/ocr/urbanek-ceske-slovo-004-a-document-text.md
+      - research/urbanek-archive/ocr/urbanek-ceske-slovo-004-b-document-text.md
+      - research/urbanek-archive/ocr/urbanek-ceske-slovo-004-c-document-text.md
+    next_ocr_id: urbanek-ceske-slovo-005
     notable_scene_text:
       - id: urbanek-ceske-slovo-025
         text: "Městys Rychvald"
@@ -131,9 +147,9 @@ known_findings:
 next_action:
   type: ocr_document_item
   collection: Články z Českého slova
-  item_id: urbanek-ceske-slovo-003
-  title: "Československo odstoupí Polsku část Těšínska"
+  item_id: urbanek-ceske-slovo-005
+  title: "České Fryštátsko protestuje proti připojení k Polsku"
   instruction: >-
-    Transcribe item 003 as a separate article, preserve printed spelling and mark
-    uncertain characters. Then process composite item 004 as three separate text
-    units 004-a, 004-b and visible fragment 004-c according to grouping-01.yml.
+    Transcribe item 005 as a separate article, preserve printed spelling and mark
+    uncertain characters. Then transcribe item 006 as a separate article. Commit
+    each article independently and update STATUS.md and state.yml after the batch.

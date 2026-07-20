@@ -13,7 +13,11 @@ source:
 checkpoints:
   import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
   ocr_rules_commit: 62486dcbdfd7c63188720dc1d5e359a9b203ac79
-  status_file_commit: 15a00152622b6a5bbd87ff51d6b24f3a91d2b5cc
+  workflow_status_created_commit: 15a00152622b6a5bbd87ff51d6b24f3a91d2b5cc
+  state_created_commit: ef2ac8c3220ee7b857f0cfb8ff15adc8565fd908
+  inventory_schema_commit: b6b6586a9069477ffa12a3f56d718ea1bedb5ed4
+  windmill_inventory_commit: 8362cdc4b2d79f64dff3507bc133e98f9b21768b
+  latest_status_commit: 70382c174c6fa639d530103250670b69e10641f2
 
 technical_files:
   keep:
@@ -60,7 +64,7 @@ phases:
   technical_audit:
     status: in_progress
   inventory:
-    status: pending
+    status: in_progress
   pilot_classification:
     status: pending
   ocr_processing:
@@ -70,7 +74,11 @@ phases:
 
 pilot_collections:
   - name: Rychvaldské větrné mlýny
-    status: pending
+    status: drive_inventory_completed_repo_verification_pending
+    total_files: 39
+    image_files: 31
+    technical_thumbnail_caches: 8
+    inventory_id_prefix: urbanek-mlyny
   - name: Články z Českého slova
     status: pending
   - name: Ochotníci rychvald
@@ -85,14 +93,18 @@ known_findings:
   branch_behind_main_after_import: 0
   normalized_legacy_path_detected_after_replacement: false
   large_connector_listing_truncated: true
-  complete_file_count_verified: false
+  complete_archive_file_count_verified: false
+  windmill_drive_file_count_verified: true
+  windmill_repo_paths_verified: false
   checksums_complete: false
   duplicate_analysis_complete: false
 
 next_action:
-  type: inventory_collection
+  type: verify_collection_paths_in_repository
   collection: Rychvaldské větrné mlýny
+  expected_files: 39
   instruction: >-
-    Create a complete file list for the collection, add rows to inventory.csv,
-    then update STATUS.md and state.yml in the same checkpoint sequence before
-    beginning content classification.
+    Verify all inventory paths against branch agent/import-urbanek-pilot. Change
+    matching rows from drive_listed_repo_path_pending to repo_verified, record
+    missing or extra paths, then update STATUS.md and state.yml before content
+    classification or OCR begins.

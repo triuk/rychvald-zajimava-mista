@@ -4,10 +4,11 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-023`
 - Soubor: `Články z Českého slova/22.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek ve složeném výstřižku
 - Datace: Mor. Ostrava, 13. října 1938
 - Agentura: ČTK
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Nadpisy
 
@@ -21,7 +22,7 @@
 
 ## Poznámky ke spolehlivosti
 
-- Dva novinové sloupce byly převedeny do souvislého pořadí zleva doprava.
+- Dva novinové sloupce byly při druhé kontrole řádkově porovnány s předlohou a převedeny do souvislého pořadí zleva doprava.
 - Přepis zachovává dobové tvary `čs.`, `deponovati`, `býti` a původní označení `Polanky-výhybna`.
-- Spojení `po delší dohodě` je přepsáno podle předlohy, přestože zní neobvykle.
+- Spojení `po delší dohodě` bylo potvrzeno jako podoba vytištěná v předloze, přestože zní neobvykle.
 - Článek je na snímku zachycen celý; jeho tvrzení nejsou tímto přepisem historicky ověřena.

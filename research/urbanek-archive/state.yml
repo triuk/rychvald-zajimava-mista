@@ -26,8 +26,14 @@ checkpoints:
   czech_word_ocr_013_commit: b78198df12473cac274398fcb2a03302556e2924
   czech_word_ocr_014_commit: 03f9ea2c53336172c937700d49cd79b187b06a54
   czech_word_ocr_015_commit: 41f489f61f85a96e72f51c5abc98d410e5bf74fb
+  czech_word_ocr_016_a_commit: 4bd56eb8a2f7f82bc0b37fb7228cac999f05159f
+  czech_word_ocr_016_b_commit: c874e5ba5a4188ba19d15de336abf43b918e67a1
+  czech_word_ocr_017_a_commit: 9f740dc71767518b9d363058da3dd2283665e4ce
+  czech_word_ocr_017_b_commit: 06c658aba06474aef086d727e099b3472f111431
+  czech_word_ocr_017_c_commit: dbb8962072f81a7711a64d7ae45b9b745633bfab
+  czech_word_ocr_017_d_commit: 3e5555e8d636cde56ce2963ee72c1ab2edd7fa31
   uncertainty_registry_commit: 9dc5771a7a2e272588187ca30e2eee9528eed47d
-  latest_status_commit: 8dbc1d13c6f17c9f39c1fad5f76bed0dc149af59
+  latest_status_commit: 3dee37e935a5dd13e0bc009d08f67b12108e9231
 
 technical_files:
   keep: [Thumbs.db, ZbThumbnail.info]
@@ -109,13 +115,19 @@ pilot_collections:
       - urbanek-ceske-slovo-013
       - urbanek-ceske-slovo-014
       - urbanek-ceske-slovo-015
+      - urbanek-ceske-slovo-016-a
+      - urbanek-ceske-slovo-016-b
+      - urbanek-ceske-slovo-017-a
+      - urbanek-ceske-slovo-017-b
+      - urbanek-ceske-slovo-017-c
+      - urbanek-ceske-slovo-017-d
     mapping_correction:
       date: 2026-07-20
       corrected:
         - {id: urbanek-ceske-slovo-011, source: 10.jpg, title: "Zůstanou na Těšínsku české školy?"}
         - {id: urbanek-ceske-slovo-012, source: 11.jpg, title: "Fryštát už má polského starostu"}
         - {id: urbanek-ceske-slovo-013, source: 12.jpg, title: "První část fryštátského okresu obsazena"}
-    next_ocr_id: urbanek-ceske-slovo-016
+    next_ocr_id: urbanek-ceske-slovo-018
 
   - name: Ochotníci rychvald
     status: pending
@@ -135,16 +147,12 @@ known_findings:
   czech_word_mapping_011_013_corrected: true
 
 next_action:
-  type: ocr_composite_document_item
+  type: ocr_document_item
   collection: Články z Českého slova
-  item_id: urbanek-ceske-slovo-016
-  source: Články z Českého slova/15.jpg
-  text_units:
-    - title: "Sta lidí vypovídáno z Těšínska"
-      output_id: urbanek-ceske-slovo-016-a
-    - title: "Konsulární atašé v Ostravě"
-      output_id: urbanek-ceske-slovo-016-b
+  item_id: urbanek-ceske-slovo-018
+  source: Články z Českého slova/17.jpg
+  title: "Péče o uprchlíky z obsazeného území"
   instruction: >-
-    Přepsat obě fyzicky samostatné zprávy do oddělených souborů, zachovat dobový
-    pravopis a každou novou materiální nejistotu zapsat do uncertainties.yml.
-    Poté pokračovat položkou urbanek-ceske-slovo-017.
+    Přepsat celý článek s podnadpisem Kde se mají uprchlíci hlásit v Mor. Ostravě,
+    zachovat dobový pravopis a každou novou materiální nejistotu zapsat do
+    uncertainties.yml. Poté pokračovat položkou urbanek-ceske-slovo-019.

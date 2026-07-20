@@ -4,7 +4,7 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-029`
 - Soubor: `Články z Českého slova/28.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatné krátké úřední oznámení
 - Signatura: `-úř-`
 
@@ -18,7 +18,7 @@ Baron Miloslav, žák II. třídy české spolkové reálky ve Fryštátě nech�
 
 ## Poznámky ke spolehlivosti
 
-- Oznámení je na snímku zachyceno celé.
+- Oznámení je na snímku zachyceno celé a bylo řádkově porovnáno s předlohou.
 - Pořadí jména `Baron Miloslav` na začátku a `Miloslav Baron` v závěru odpovídá předloze.
 - Zkratky `II.` a `Mor.` i signatura `-úř-` byly zachovány.
 - Totožnost hledané osoby není tímto OCR nezávisle ověřena.

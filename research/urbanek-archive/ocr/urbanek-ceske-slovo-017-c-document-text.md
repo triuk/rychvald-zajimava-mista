@@ -4,14 +4,17 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-017`
 - Soubor: `Články z Českého slova/16.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: částečně zachycený reklamní text
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Viditelný přepis
 
-**RŮZNÉ NEČISTOTY PLETI**, červené skvrny, vřídky, újedy atd., vznikající nesprávným trávením a nečistou krví, mizejí po častějším užívání přírodní hořké vody **FRANTIŠKA JOSEFA**.
+**RŮZNÉ NEČISTOTY PLETI**, červené skvrny, vřídky, újedy atd., vznikající nesprávným trávením a nečistou krví, mizejí po častějším užívání přírodní hořké vody **FRANTIŠKA JOSEFA. =2M.**
 
-## Poznámky
+## Poznámky k ověření
 
-- Pravý konec reklamy je oříznut; případný cenový nebo značkový údaj nebyl přepsán.
+- Celý viditelný reklamní text byl znovu porovnán se zdrojovým obrazem.
+- Při druhé kontrole byl doplněn koncový tištěný kód `=2M.`, který byl v prvním průchodu vynechán.
+- Význam kódu `=2M.` nebyl z obrazu určován.
 - Reklama není součástí článku `017-a`.

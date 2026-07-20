@@ -6,123 +6,106 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený obsahový checkpoint: `47b931aeb6ea1a9217ab70cbb62d78deb82f1637`
+- Poslední dokončený revizní checkpoint: `6a71d314fac4ec958174e5e99d8086162b97b770`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
-- Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
-Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml` a `uncertainties.yml`.
+Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a korekční soubor seskupení.
 
 ## Neměnná rozhodnutí
 
-- Originální soubory nepřejmenovávat, nepřesouvat ani neupravovat.
-- Zachovat původní strukturu a názvy.
-- `Thumbs.db` a `ZbThumbnail.info` ponechat pro budoucí analýzu.
-- Dokumentový a scénický text evidovat odděleně.
-- Chybějící, poškozený nebo nespojitý text nedoplňovat odhadem.
-- Fyzicky samostatné články a fragmenty ukládat pod vlastními stabilními ID.
-- První OCR přepis má stav `machine_unverified`; po řádkové kontrole proti obrazu lze změnit na `visually_verified`.
-- Každou dokončenou dávku commitnout a aktualizovat stav i registr nejistot.
+- Originály nepřejmenovávat, nepřesouvat ani neupravovat.
+- Chybějící nebo nečitelné části textu nedoplňovat odhadem.
+- Samostatné články a fragmenty ukládat pod vlastními stabilními ID.
+- Stav `visually_verified` lze přidělit pouze po úplném porovnání se zdrojovým obrazem.
+- Strukturální opravy seskupení zapisovat do `clanky-z-ceskeho-slova-grouping-corrections.yml`.
+- Každou dávku commitnout a aktualizovat stav i registr nejistot.
 
 ## Stav etap
 
 | Etapa | Stav |
 |---|---|
 | Import originálů | dokončen s chybějícími technickými cache |
-| Pravidla a workflow | dokončeno |
-| Technický audit | probíhá po kolekcích |
-| Inventář | probíhá |
-| Klasifikace pilotu | probíhá |
-| První OCR Českého slova | dokončeno |
-| Druhá vizuální kontrola OCR | následuje |
+| Technický audit a inventář | probíhá po kolekcích |
+| Klasifikace větrných mlýnů | dokončena |
+| První OCR Českého slova | dokončeno pro všech 37 obrazů |
+| Druhá vizuální kontrola Českého slova | probíhá |
 | Řešení nejistot | centrálně evidováno |
+| Ostatní tři pilotní kolekce | čekají |
 | Pull request | čeká |
 
-## Centrální registr nejistot
+## Registr nejistot
 
 Soubor: `research/urbanek-archive/uncertainties.yml`
 
-Aktuální souhrn:
+Souhrn:
 
-- `open`: 18
+- `open`: 17
+- `in_progress`: 1
 - `deferred`: 2
-- `resolved`: 1
+- `resolved`: 2
 - `not_actionable`: 1
 - celkem: 22
 
-Nejistoty související s poškozením textu:
-
-- `URB-U-0019` – věta v článku `015`;
-- `URB-U-0020` – možná chybějící celá krátká zpráva v `020`;
-- `URB-U-0021` – nespojitý sloupcový přechod v `022-a`;
-- `URB-U-0022` – poškozený blok v `035`, který může skrývat více krátkých zpráv.
+`URB-U-0018` nyní eviduje průběh druhé řádkové kontroly. `URB-U-0014` byla uzavřena: příjmení starosty je ve zdrojovém obraze čitelné jako **Jarábáč**; ověřena je podoba přepisu, nikoli nezávisle historická identita osoby.
 
 ## Pilotní kolekce
 
 1. `Rychvaldské větrné mlýny` – klasifikace všech 31 obrazů a první OCR dokončeny.
-2. `Články z Českého slova` – inventář, audit, seskupení a první OCR všech 37 obrazů dokončeny; čeká druhá řádková kontrola.
+2. `Články z Českého slova` – první OCR dokončeno, druhá kontrola probíhá.
 3. `Ochotníci rychvald` – čeká.
 4. `fotodokument/den po dešti` – čeká.
 5. `Nálet na Ostravu 1944` – čeká.
 
-## Rychvaldské větrné mlýny
-
-- 31 obrazových souborů ověřeno a klasifikováno.
-- Dva dokumentové přepisy a jeden scénický nápis dokončeny.
-- Pět `Thumbs.db` chybí v GitHubu, ale zůstává na Drivu a bylo analyzováno.
-- Kořenová cache obsahuje stopu po chybějícím `P1010269.JPG`.
-- Podrobnosti: `research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md`.
-
 ## Články z Českého slova
 
-- Na Drivu: 37 obrazů a dvě technické cache.
-- V GitHubu: všech 37 obrazů a `ZbThumbnail.info`; chybí `Thumbs.db`.
-- Cache obsahuje osm unikátních náhledů bez současného plného souboru.
-- Všech 37 obrazů je seskupeno ve čtyřech souborech `clanky-z-ceskeho-slova-grouping-01.yml` až `04.yml`.
-- Všech 37 obrazových položek má dokončený první OCR průchod.
+- 37 obrazových položek ověřeno, seskupeno a přepsáno v prvním průchodu.
 - Výstupy jsou v `research/urbanek-archive/ocr/`.
-- Složené výstřižky jsou rozděleny na samostatné textové jednotky.
-- `31 a.jpg` a `31 b.jpg` jsou přepsány společně v `urbanek-ceske-slovo-032-033-document-text.md`.
-- `24.jpg` má oddělený dokumentový popisek a scénický OCR záznam **„Městys Rychvald“**.
+- Druhou kontrolou prošly:
+  - `001`;
+  - `002`;
+  - `003`;
+  - `004-a`;
+  - `004-b`;
+  - nově oddělená `004-b2`;
+  - `004-c`;
+  - `005`.
+- Všech osm jednotek má stav `visually_verified`.
 
-### Poslední dokončené položky
+### Zjištěné opravy druhé kontroly
 
-- `028`: **„Jednání o Češích na Těšínsku“**.
-- `029-a`: **„Zprávy z Těšínska“**.
-- `029-b`: **„Hledá se nezvěstný“** – Miloslav Baron.
-- `030`: **„Zprávy z Těšínska“**.
-- `031`: **„V Polsku střelba do Ukrajinců“**.
-- `032–033`: **„Milé klopoty“**.
-- `034`: **„Které sňatky na Těšínsku musí býti znovu provedeny“**.
-- `035`: poškozené **„Zprávy z Těšínska“**.
-- `036`: **„Protest uprchlíků z Petřvaldu“**.
-- `037-a`: hlavička vydání **31. října 1938**.
-- `037-b`: **„Beck pro spolupráci s Československem“**.
-- `037-c`: neúplný článek **„Úmluvy gentlemanů“**.
+1. `001`: odstraněny vydavatelské a kontaktní údaje, které na výřezu vůbec nejsou.
+2. `004`: odstavec s novou datací `Bratislava 3. října. (er)` je samostatná zpráva a byl oddělen jako `004-b2`.
+3. `005`: přepis příjmení `Jarábáč` byl potvrzen zvětšením zdrojového řádku.
+4. `002`, `003` a `004-a` odpovídaly obrazu bez textové opravy.
+5. U `004-c` bylo znovu potvrzeno, že je zachován pouze nadpis.
 
-### Oprava mapování 20. července 2026
+Autoritativní strukturální korekce:
 
-- `011` odpovídá `10.jpg`;
-- `012` odpovídá `11.jpg`;
-- `013` odpovídá `12.jpg`.
+`research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-corrections.yml`
 
-Pod žádným ID nezůstává nesprávně přiřazený obsah.
+Větev byla po dokončení prvního OCR průchodu ověřena jako **114 commitů před `main` a 0 commitů za `main`**.
 
 ## Následující přesný krok
 
-Zahájit druhou řádkovou kontrolu proti zdrojovým obrazům pro první dávku:
+Druhá řádková kontrola položek:
 
-- `001`;
-- `002`;
-- `003`;
-- `004-a`, `004-b`, `004-c`;
-- `005`.
+- `006`;
+- `007`;
+- `008`;
+- `009`;
+- `010`;
+- `011`.
 
-Každý přepis opravit pouze tam, kde rozdíl prokazuje obraz. Po úplné kontrole změnit stav daného souboru z `machine_unverified` na `visually_verified`. Nevyřešené znaky nebo jména zapsat do `uncertainties.yml` a průběh evidovat pod `URB-U-0018`.
+Zvláštní pozornost:
+
+- u `007` znovu posoudit oříznutý cizí nadpis vedený jako `URB-U-0015`;
+- u `010` zachovat horní cizí fragment oddělený a případně zpřesnit `URB-U-0017`;
+- každý úplně zkontrolovaný soubor označit `visually_verified`.
 
 ## Instrukce pro nový chat
 
-1. Načíst `AGENTS.md`, tento soubor, `state.yml` a `uncertainties.yml`.
+1. Načíst `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a korekční soubor seskupení.
 2. Ověřit aktuální hlavu větve.
 3. Neměnit originály.
-4. Pokračovat pouze výše uvedeným krokem.
-5. Po malé dávce commitnout výstupy a aktualizovat všechny stavové soubory.
+4. Pokračovat pouze uvedenou revizní dávkou.
+5. Po dávce commitnout každý opravený soubor a aktualizovat checkpoint.

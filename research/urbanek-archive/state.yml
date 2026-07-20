@@ -32,7 +32,9 @@ checkpoints:
   czech_word_ocr_006_commit: 27644c80c2f77a535b3b139288c318cf17cb2362
   czech_word_ocr_007_commit: 909cf8fb55b77b9323e5bd37be54f5e536b0d21c
   czech_word_ocr_008_commit: 47782095884f711cd05f6a767c86482a0e8c377e
-  latest_status_commit: 1a9e623dd76df3354b42dfc4d75dd75fa8c468c7
+  czech_word_ocr_009_commit: 049ba9c9704ac8c1f40a9fabe1411de0640eab26
+  czech_word_ocr_010_commit: 405b9e3cbbdab40abcb9e3aa55c2e069b095d4d1
+  latest_status_commit: 072ad93dca866b43cc8348aa2a001a18038696c3
 
 technical_files:
   keep: [Thumbs.db, ZbThumbnail.info]
@@ -119,6 +121,8 @@ pilot_collections:
       - urbanek-ceske-slovo-006
       - urbanek-ceske-slovo-007
       - urbanek-ceske-slovo-008
+      - urbanek-ceske-slovo-009
+      - urbanek-ceske-slovo-010
     completed_ocr_files:
       - research/urbanek-archive/ocr/urbanek-ceske-slovo-001-document-text.md
       - research/urbanek-archive/ocr/urbanek-ceske-slovo-002-document-text.md
@@ -130,6 +134,8 @@ pilot_collections:
       - research/urbanek-archive/ocr/urbanek-ceske-slovo-006-document-text.md
       - research/urbanek-archive/ocr/urbanek-ceske-slovo-007-document-text.md
       - research/urbanek-archive/ocr/urbanek-ceske-slovo-008-document-text.md
+      - research/urbanek-archive/ocr/urbanek-ceske-slovo-009-document-text.md
+      - research/urbanek-archive/ocr/urbanek-ceske-slovo-010-document-text.md
     uncertain_ocr:
       - id: urbanek-ceske-slovo-005
         field: person_name
@@ -139,7 +145,7 @@ pilot_collections:
         field: unrelated_fragment_headline
         value: "Malhomme se vrátil"
         confidence: low
-    next_ocr_id: urbanek-ceske-slovo-009
+    next_ocr_id: urbanek-ceske-slovo-011
     notable_scene_text:
       - id: urbanek-ceske-slovo-025
         text: "Městys Rychvald"
@@ -168,9 +174,8 @@ known_findings:
 next_action:
   type: ocr_document_item
   collection: Články z Českého slova
-  item_id: urbanek-ceske-slovo-009
-  title: "Poláci nepřeruší výrobu v obsazeném území"
+  item_id: urbanek-ceske-slovo-011
+  title: "Zůstanou na Těšínsku české školy?"
   instruction: >-
-    Transcribe item 009 as a separate article. Then transcribe the complete primary
-    article in item 010 and keep the unrelated top-edge fragment separate without
-    assigning it to the main article. Commit each item independently and update the checkpoint.
+    Transcribe item 011 as a separate article, preserving printed spelling and marking
+    uncertain characters. Then transcribe item 012 as a separate article and update the checkpoint.

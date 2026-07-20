@@ -4,10 +4,11 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-021`
 - Soubor: `Články z Českého slova/20.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek ve složeném výstřižku
 - Datace: Most, 2. října 1938
 - Signatura: `-kda-`
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Nadpis
 
@@ -19,7 +20,7 @@
 
 ## Poznámky ke spolehlivosti
 
-- Dva novinové sloupce byly převedeny do souvislého pořadí zleva doprava.
+- Dva novinové sloupce byly při druhé kontrole řádkově porovnány se zdrojovým obrazem.
 - Přepis zachovává dobové tvary `rekvisice`, `radiových aparátů` a `odvésti`.
 - Článek je na snímku zachycen celý.
 - Tvrzení článku nejsou tímto přepisem historicky ověřena.

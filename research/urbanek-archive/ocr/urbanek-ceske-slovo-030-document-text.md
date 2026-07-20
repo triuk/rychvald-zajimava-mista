@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-030`
 - Soubor: `Články z Českého slova/29.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: soubor čtyř krátkých novinových zpráv
 
 ## Nadpis
@@ -22,7 +22,7 @@ Skoro v každém městě a obci má Baťa na Těšínsku své prodejny. Ještě 
 
 ## Poznámky ke spolehlivosti
 
-- Čtyři krátké zprávy byly zachovány v pořadí a oddělení předlohy.
-- Místní název `Chelmaku` a označení firmy `fy Hahn` jsou přepsány podle tisku; před použitím jako ověřené názvy vyžadují kontrolu v jiném prameni.
+- Čtyři krátké zprávy byly zachovány v pořadí a oddělení předlohy a celý text byl řádkově porovnán s obrazem.
+- Místní název `Chelmaku` a označení firmy `fy Hahn` byly potvrzeny jako přesný přepis tisku; jejich historická identifikace tím není samostatně ověřena.
 - Číselné zápisy cen `29.90` a `39.90` byly zachovány podle předlohy.
 - Text je na snímku zachycen celý.

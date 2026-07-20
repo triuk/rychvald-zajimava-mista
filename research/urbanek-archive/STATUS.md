@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: commit `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený pracovní checkpoint: commit `4a0f941144edb2ad2fc99456eeebf248a9eedeb7`
+- Poslední dokončený pracovní checkpoint: commit `3026ce49e6633d9a8b7f95e54b51407515f46497`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
@@ -40,14 +40,14 @@ Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňu
 | Pravidla OCR včetně textu ve scéně | dokončeno | Zapsáno v `AGENTS.md`. |
 | Technický audit importu | probíhá | První dvě pilotní kolekce mají dokončený inventář a ověření cest. |
 | Hlavní inventář | probíhá | Mlýny jsou v hlavním inventáři; České slovo má samostatný kolekční inventář. |
-| Pilotní klasifikace | probíhá | Mlýny dokončeny; České slovo čeká seskupení stránek. |
-| OCR | probíhá | Mlýny mají první přepisy; České slovo čeká na seskupení článků. |
+| Pilotní klasifikace | probíhá | Mlýny dokončeny; všech 37 obrazů Českého slova je seskupeno podle fyzických článků. |
+| OCR | probíhá | Mlýny mají první přepisy; u Českého slova jsou dokončeny položky 001 a 002. |
 | Draft pull request | čeká | Až po dokončení všech pěti pilotních kolekcí. |
 
 ## Pilotní kolekce
 
 1. `Rychvaldské větrné mlýny` – **klasifikace a první OCR dokončeny**.
-2. `Články z Českého slova` – **inventář, ověření cest a audit cache dokončeny; čeká seskupení a OCR**.
+2. `Články z Českého slova` – **audit a seskupení dokončeny, OCR probíhá**.
 3. `Ochotníci rychvald` – čeká.
 4. `fotodokument/den po dešti` – čeká.
 5. `Nálet na Ostravu 1944` – čeká.
@@ -65,32 +65,51 @@ Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňu
 - Kořenový `Thumbs.db` navíc eviduje chybějící `P1010269.JPG`; z cache je obnovitelný náhled 72 × 96 px.
 - Podrobný audit: `research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md`.
 
-## Články z Českého slova – audit
+## Články z Českého slova – technický audit
 
 - Na Drivu: 39 položek, z toho 37 obrazových souborů, `Thumbs.db` a `ZbThumbnail.info`.
 - Kolekční inventář: `research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv`.
 - Všech 37 obrazových souborů bylo jednotlivě potvrzeno pod přesnými původními cestami.
-- `ZbThumbnail.info` je v GitHubu přítomen.
-- `Thumbs.db` je na Drivu, ale ve větvi chybí.
-- Ověření cest a blob SHA jsou rozděleny do tří souborů:
-  - `clanky-z-ceskeho-slova-verification-01.yml`;
-  - `clanky-z-ceskeho-slova-verification-02.yml`;
-  - `clanky-z-ceskeho-slova-verification-03.yml`.
+- `ZbThumbnail.info` je v GitHubu přítomen; `Thumbs.db` je na Drivu, ale ve větvi chybí.
+- Ověření cest a blob SHA jsou uloženy ve třech souborech `clanky-z-ceskeho-slova-verification-01.yml` až `03.yml`.
 
 ### Audit `Thumbs.db`
 
 - SHA-256 cache: `0647ec694c2bbbd6be13517d0e201f498199bd57e825b63140c4f32ae0c43800`.
 - Katalog obsahuje 97 názvů a 97 platných JPEG náhledů.
 - Po porovnání dekódovaných obrazů jde o 45 unikátních náhledů.
-- Třicet sedm unikátních náhledů odpovídá současným souborům.
-- Osm unikátních náhledů nemá v současné kolekci odpovídající plný soubor.
-- Zbývajících 52 historických názvů jsou starší názvy nebo meziverze obrazů, které už v kolekci existují.
-- Podrobný seznam osmi chybějících obrazů, rozměry a SHA-256: `research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md`.
-- Náhledy mají pouze 57–96 px, a proto nejsou vhodné pro plnohodnotný OCR přepis článků.
+- Třicet sedm odpovídá současným souborům a osm nemá v současné kolekci odpovídající plný soubor.
+- Podrobnosti: `research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md`.
+
+## Články z Českého slova – seskupení
+
+Všech 37 obrazových položek bylo vizuálně rozděleno na hlavičky vydání, samostatné články, složené výstřižky, pokračování, krátké zprávy, fotografické položky a neúplné okrajové fragmenty. Výsledek je uložen ve čtyřech souborech:
+
+- `research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-01.yml`
+- `research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-02.yml`
+- `research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-03.yml`
+- `research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-04.yml`
+
+Důležitá zjištění:
+
+- číselné názvy souborů nejsou spolehlivá chronologie;
+- `31 a.jpg` a `31 b.jpg` tvoří jeden pokračující článek „Milé klopoty“;
+- `24.jpg` obsahuje dvě fotografie z předávání území v Rychvaldě, úplný novinový popisek a scénický nápis **„Městys Rychvald“**;
+- `35.jpg` dokládá vydání `České slovo – pondělník`, 31. října 1938, ročník 10, číslo 301;
+- složené výstřižky se musí při OCR přepisovat po jednotlivých článcích, nikoli jako jeden souvislý text.
+
+## Dokončené OCR Českého slova
+
+- `urbanek-ceske-slovo-001`: hlavička vydání **Sobota 1. října 1938**, ročník X, číslo 271.
+  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-001-document-text.md`
+- `urbanek-ceske-slovo-002`: článek **„Zněmčilá území máme odevzdat do 10. října“**, včetně otištěného znění dohody a dodatkových prohlášení.
+  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-002-document-text.md`
+
+Oba přepisy mají stav `machine_unverified` a zachovávají dobový pravopis.
 
 ## Následující přesný krok
 
-Vizuálně projít 37 obrazových souborů kolekce `Články z Českého slova`, určit pořadí a hranice jednotlivých článků nebo tematických skupin a výsledek uložit do samostatného seskupovacího souboru. Začít položkami `urbanek-ceske-slovo-001` až `011`. OCR provádět až po určení, které snímky jsou titulní listy, komentáře, celé články, pokračování nebo dílčí výřezy.
+Přepsat `urbanek-ceske-slovo-003` jako samostatný článek **„Československo odstoupí Polsku část Těšínska“**. Poté pokračovat složenou položkou `urbanek-ceske-slovo-004`, kterou je nutné rozdělit na tři samostatné textové jednotky `004-a`, `004-b` a viditelný fragment `004-c` podle `clanky-z-ceskeho-slova-grouping-01.yml`.
 
 ## Instrukce pro nový chat
 

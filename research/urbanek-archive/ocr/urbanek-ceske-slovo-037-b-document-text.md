@@ -4,7 +4,7 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-037`
 - Soubor: `Články z Českého slova/35.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný krátký novinový článek
 - Datace: Varšava, 30. října 1938
 - Agentura: ČTK
@@ -21,7 +21,7 @@
 
 ## Poznámky ke spolehlivosti
 
-- Článek je na snímku zachycen celý.
-- Neobvyklá spojení `jednání československo-maďarského`, `bylo třeba nadlidské akce` a `k každé přátelské spolupráci` byla zachována podle předlohy.
-- Jméno `Beck`, označení `Hearstova koncernu` a agenturní značka `ČTK` jsou přepsány podle tisku.
+- Článek je na snímku zachycen celý a byl řádkově porovnán s předlohou.
+- Neobvyklá spojení `jednání československo-maďarského`, `bylo třeba nadlidské akce` a `k každé přátelské spolupráci` byla potvrzena jako přesný přepis tisku.
+- Jméno `Beck`, označení `Hearstova koncernu` a agenturní značka `ČTK` byly potvrzeny podle tisku; historický kontext tím není samostatně ověřen.
 - Tvrzení článku ani citovaný politický postoj nejsou tímto OCR historicky ověřeny.

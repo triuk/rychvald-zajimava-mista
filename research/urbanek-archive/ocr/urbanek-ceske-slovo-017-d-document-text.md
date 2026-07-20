@@ -4,8 +4,9 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-017`
 - Soubor: `Články z Českého slova/16.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: pouze nadpis cizího článku
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Viditelný přepis
 
@@ -13,7 +14,8 @@
 
 **[tělo článku leží mimo dolní okraj obrazu]**
 
-## Poznámky
+## Poznámky k ověření
 
+- Nadpis a dolní okraj výstřižku byly znovu porovnány se zdrojovým obrazem.
 - Na snímku není zachycen další bezpečně čitelný text tohoto článku.
 - Nadpis není součástí článku `017-a`.

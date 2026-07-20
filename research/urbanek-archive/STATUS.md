@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: commit `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený pracovní checkpoint: commit `3026ce49e6633d9a8b7f95e54b51407515f46497`
+- Poslední dokončený pracovní checkpoint: commit `657ceae5f7b9930b9605f63a7fa5b35bc68019cc`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
@@ -20,7 +20,7 @@ Tento soubor a `state.yml` jsou autoritativním předávacím bodem mezi chaty. 
 - Technické cache evidovat jako `technical_thumbnail_cache`; nezahrnovat je do běžné klasifikace ani OCR fotografií.
 - Normalizované názvy používat pouze v inventáři nebo u odvozených pracovních výstupů.
 - Fotografie zatím nevybírat do konkrétních článků.
-- Každou dokončenou dávku commitnout a aktualizovat stavové soubory.
+- Každou dokončenou dávku ihned commitnout a aktualizovat stavové soubory.
 
 ## OCR
 
@@ -29,7 +29,7 @@ OCR se vede odděleně jako:
 1. `document_text` – články, dokumenty, popisky, titulní strany a podobné předlohy;
 2. `scene_text` – nápisy na budovách, cedule, uliční tabule, pamětní desky, vývěsní štíty, plakáty, transparenty a další text zachycený ve scéně.
 
-Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňují odhadem.
+Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňují odhadem. U složených novinových výstřižků se každý fyzicky samostatný článek přepisuje do vlastní textové jednotky.
 
 ## Stav etap
 
@@ -41,7 +41,7 @@ Strojový výstup má stav `machine_unverified`. Nečitelná místa se nedoplňu
 | Technický audit importu | probíhá | První dvě pilotní kolekce mají dokončený inventář a ověření cest. |
 | Hlavní inventář | probíhá | Mlýny jsou v hlavním inventáři; České slovo má samostatný kolekční inventář. |
 | Pilotní klasifikace | probíhá | Mlýny dokončeny; všech 37 obrazů Českého slova je seskupeno podle fyzických článků. |
-| OCR | probíhá | Mlýny mají první přepisy; u Českého slova jsou dokončeny položky 001 a 002. |
+| OCR | probíhá | Mlýny mají první přepisy; u Českého slova jsou dokončeny položky 001–004 včetně tří částí složeného výstřižku. |
 | Draft pull request | čeká | Až po dokončení všech pěti pilotních kolekcí. |
 
 ## Pilotní kolekce
@@ -96,7 +96,8 @@ Důležitá zjištění:
 - `31 a.jpg` a `31 b.jpg` tvoří jeden pokračující článek „Milé klopoty“;
 - `24.jpg` obsahuje dvě fotografie z předávání území v Rychvaldě, úplný novinový popisek a scénický nápis **„Městys Rychvald“**;
 - `35.jpg` dokládá vydání `České slovo – pondělník`, 31. října 1938, ročník 10, číslo 301;
-- složené výstřižky se musí při OCR přepisovat po jednotlivých článcích, nikoli jako jeden souvislý text.
+- složené výstřižky se musí při OCR přepisovat po jednotlivých článcích, nikoli jako jeden souvislý text;
+- u `urbanek-ceske-slovo-004-c` je po podrobné kontrole zachován pouze nadpis **„Mnoho otázek před berlínskou komisí“**. Starší údaj `headline_and_beginning_only` v `grouping-01.yml` je v tomto bodě překonán tímto stavovým souborem a samostatným OCR záznamem.
 
 ## Dokončené OCR Českého slova
 
@@ -104,12 +105,20 @@ Důležitá zjištění:
   - `research/urbanek-archive/ocr/urbanek-ceske-slovo-001-document-text.md`
 - `urbanek-ceske-slovo-002`: článek **„Zněmčilá území máme odevzdat do 10. října“**, včetně otištěného znění dohody a dodatkových prohlášení.
   - `research/urbanek-archive/ocr/urbanek-ceske-slovo-002-document-text.md`
+- `urbanek-ceske-slovo-003`: článek **„Československo odstoupí Polsku část Těšínska“**.
+  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-003-document-text.md`
+- `urbanek-ceske-slovo-004-a`: článek **„Má Polsko nároky na české obce?“**.
+  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-004-a-document-text.md`
+- `urbanek-ceske-slovo-004-b`: článek **„Slovenský ministr Černák hrozí demisí“**, včetně navazující krátké zprávy o českých železničářích na Slovensku.
+  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-004-b-document-text.md`
+- `urbanek-ceske-slovo-004-c`: pouze viditelný nadpis **„Mnoho otázek před berlínskou komisí“**; tělo článku není na snímku.
+  - `research/urbanek-archive/ocr/urbanek-ceske-slovo-004-c-document-text.md`
 
-Oba přepisy mají stav `machine_unverified` a zachovávají dobový pravopis.
+Všechny přepisy mají stav `machine_unverified` a zachovávají dobový pravopis.
 
 ## Následující přesný krok
 
-Přepsat `urbanek-ceske-slovo-003` jako samostatný článek **„Československo odstoupí Polsku část Těšínska“**. Poté pokračovat složenou položkou `urbanek-ceske-slovo-004`, kterou je nutné rozdělit na tři samostatné textové jednotky `004-a`, `004-b` a viditelný fragment `004-c` podle `clanky-z-ceskeho-slova-grouping-01.yml`.
+Přepsat `urbanek-ceske-slovo-005`, článek **„České Fryštátsko protestuje proti připojení k Polsku“** s podnadpisem **„Obrovská manifestace za účasti 20.000 občanů v Orlové“**. Poté pokračovat `urbanek-ceske-slovo-006`, článek **„Situace na polsko-čs. hranici na Těšínsku“**. Každý článek uložit a commitnout samostatně.
 
 ## Instrukce pro nový chat
 

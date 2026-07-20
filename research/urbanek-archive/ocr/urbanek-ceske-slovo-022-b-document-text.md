@@ -4,9 +4,10 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-022`
 - Soubor: `Články z Českého slova/21.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek ve složeném výstřižku
 - Agentura: ČTK
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Nadpisy
 
@@ -32,8 +33,8 @@ Včera odpoledne a v noci dovezlo se však 12—15 vagonů jatečních vepřů, 
 
 ## Poznámky ke spolehlivosti
 
-- Čtyři novinové sloupce byly převedeny do souvislého pořadí zleva doprava.
+- Čtyři novinové sloupce byly při druhé kontrole řádkově porovnány s předlohou a převedeny do souvislého pořadí zleva doprava.
 - Přepis zachovává dobové tvary `býti`, `na př.`, `devis`, `Nár. bankou` a původní číselné rozsahy.
-- Místní název `Králov nad Tisou` je přepsán podle tisku; jeho dobová identifikace není tímto OCR ověřena.
+- Místní název `Králov nad Tisou` byl potvrzen jako podoba vytištěná v předloze; jeho dobová identifikace nebyla samostatně ověřována.
 - Článek je na snímku zachycen celý.
 - Tvrzení článku nejsou tímto přepisem historicky ověřena.

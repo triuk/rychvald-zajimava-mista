@@ -5,20 +5,10 @@
 - Repozitář: `triuk/rychvald-zajimava-mista`
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
-- Import originálů: `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený OCR checkpoint: `75cd91620126f70787899912f3f11ccc150a8d1f`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
+- Originály se nepřejmenovávají, nepřesouvají ani neupravují.
 
-Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a `clanky-z-ceskeho-slova-grouping-corrections.yml`.
-
-## Neměnná rozhodnutí
-
-- Originály nepřejmenovávat, nepřesouvat ani neupravovat.
-- Chybějící nebo nečitelné části textu nedoplňovat odhadem.
-- Samostatné články a fragmenty ukládat pod vlastními stabilními ID.
-- Stav `visually_verified` přidělit jen po úplném porovnání s obrazem.
-- Fyzicky chybějící text ponechat jako samostatnou otevřenou nejistotu.
-- Každou dávku commitnout a aktualizovat stav i registr nejistot.
+Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml` a `uncertainties.yml`.
 
 ## Stav etap
 
@@ -26,11 +16,10 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 |---|---|
 | Import originálů | dokončen s chybějícími technickými cache |
 | Technický audit a inventář | probíhá po kolekcích |
-| Klasifikace větrných mlýnů | dokončena |
-| První OCR Českého slova | dokončeno pro všech 37 obrazů |
-| Druhá vizuální kontrola Českého slova | **dokončena pro všech 56 jednotek** |
-| Řešení nejistot | centrálně evidováno |
-| Ostatní tři pilotní kolekce | čekají |
+| Rychvaldské větrné mlýny | klasifikace a první OCR dokončeny |
+| Články z Českého slova | první OCR i druhá vizuální kontrola dokončeny |
+| Ochotníci rychvald | inventář dokončen, ověřování cest probíhá |
+| Ostatní dvě pilotní kolekce | čekají |
 | Pull request | čeká |
 
 ## Registr nejistot
@@ -44,46 +33,57 @@ Soubor: `research/urbanek-archive/uncertainties.yml`
 - `not_actionable`: 1
 - celkem: 23
 
-`URB-U-0018` je vyřešena: druhá řádková a strukturální kontrola byla dokončena pro všechny OCR jednotky Českého slova.
-
-Nadále otevřené fyzické mezery:
-
-- `URB-U-0020`: poškozený úsek v `19.jpg`.
-- `URB-U-0021`: chybějící sloupcový přechod v `21.jpg`.
-- `URB-U-0022`: poškozený blok v `33.jpg`.
-
-## Pilotní kolekce
-
-1. `Rychvaldské větrné mlýny` – klasifikace všech 31 obrazů a první OCR dokončeny.
-2. `Články z Českého slova` – první OCR i druhá vizuální kontrola dokončeny.
-3. `Ochotníci rychvald` – následuje inventář.
-4. `fotodokument/den po dešti` – čeká.
-5. `Nálet na Ostravu 1944` – čeká.
+Otevřené fyzické mezery OCR Českého slova zůstávají `URB-U-0020`, `URB-U-0021` a `URB-U-0022`.
 
 ## Články z Českého slova – uzavřený výsledek
 
 - 37 obrazových položek bylo ověřeno, seskupeno a přepsáno.
-- Druhou kontrolou prošlo 56 textových a scénických jednotek.
-- Strukturální opravy zahrnují samostatné jednotky `004-b2`, `007-b`, `010-b` a `019-b`.
-- `020`, `022-a` a `035` mají ověřený zachovaný text, ale otevřené fyzické lakuny.
-- `025-scene-text` je potvrzen kombinací částečně čitelné tabule a úplného dobového popisku.
-- V závěrečné dávce byly mimo jiné potvrzeny podoby `Karkoška`, `Karkošku`, `Karkoszky`, `Jan Žebrok`, `K. Buchta` a drobné vydavatelské údaje z 31. října 1938.
+- Druhou kontrolou prošlo všech 56 textových a scénických jednotek.
+- `URB-U-0018` byla uzavřena jako dokončená kontrolní etapa.
 - Chybějící text nebyl nikde rekonstruován odhadem.
+
+## Ochotníci rychvald – inventář
+
+Google Drive obsahuje **63 přímých položek** a žádné podsložky:
+
+- 60 souborů JPEG;
+- 1 původní dokument DOC (`112 let ochotnických souborů v.doc`);
+- 2 technické cache (`Thumbs.db` a `ZbThumbnail.info`).
+
+Inventář:
+
+`research/urbanek-archive/collections/ochotnici-rychvald-inventory.csv`
+
+Stabilní ID: `urbanek-ochotnici-001` až `urbanek-ochotnici-063`.
+
+### Ověření GitHub cest
+
+- `001–010`: ověřeno, 10 přítomných, 0 chybějících.
+- `011–020`: ověřeno, 10 přítomných, 0 chybějících.
+- Celkem: **20 z 63 položek ověřeno**, bez zjištěného přejmenování nebo chybějícího souboru.
+
+Kontrolní soubory:
+
+- `research/urbanek-archive/collections/ochotnici-rychvald-verification-01.yml`
+- `research/urbanek-archive/collections/ochotnici-rychvald-verification-02.yml`
+
+Obsahová klasifikace ani OCR této kolekce zatím nebyly zahájeny. JPEGy jsou v inventáři předběžně vedeny jako `image_or_document_scan_pending`, aby se jejich typ neurčoval pouze podle názvu souboru.
 
 ## Následující přesný krok
 
-Vytvořit úplný rekurzivní inventář kolekce `Ochotníci rychvald`:
+Ověřit přesné GitHub cesty a blob SHA položek `urbanek-ochotnici-021` až `urbanek-ochotnici-030`.
 
-1. získat přesný obsah a strukturu z Google Drivu;
-2. rozlišit obrazové soubory, dokumentové skeny a technické cache;
-3. přidělit stabilní ID s prefixem `urbanek-ochotnici`;
-4. ověřit přesné cesty a blob SHA v pilotní větvi;
-5. teprve poté zahájit vizuální klasifikaci a OCR.
+Pořadí práce:
+
+1. dokončit ověření všech 63 cest;
+2. zkontrolovat technické cache;
+3. teprve potom vizuálně rozlišit fotografie, dokumentové skeny, programy, výstřižky a případný scénický text;
+4. OCR zahájit až po klasifikaci a seskupení souvisejících dokumentů.
 
 ## Instrukce pro nový chat
 
 1. Načíst autoritativní soubory.
 2. Ověřit aktuální hlavu větve.
 3. Neměnit originály.
-4. Pokračovat inventářem `Ochotníci rychvald`.
+4. Pokračovat dávkou `021–030`.
 5. Po malé dokončené dávce aktualizovat checkpoint.

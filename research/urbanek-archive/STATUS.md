@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený revizní checkpoint: `38bcf6d08768ed8a253b6695ae521f47484a7985`
+- Poslední dokončený revizní checkpoint: `506c4a60166284f4e6f96fee14c67c5379551b4e`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
 Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a `clanky-z-ceskeho-slova-grouping-corrections.yml`.
@@ -28,7 +28,7 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 | Technický audit a inventář | probíhá po kolekcích |
 | Klasifikace větrných mlýnů | dokončena |
 | První OCR Českého slova | dokončeno pro všech 37 obrazů |
-| Druhá vizuální kontrola Českého slova | probíhá; ověřeny položky 001–011 a nové fragmenty |
+| Druhá vizuální kontrola Českého slova | probíhá; ověřeno 26 textových jednotek |
 | Řešení nejistot | centrálně evidováno |
 | Ostatní tři pilotní kolekce | čekají |
 | Pull request | čeká |
@@ -39,20 +39,16 @@ Soubor: `research/urbanek-archive/uncertainties.yml`
 
 Souhrn:
 
-- `open`: 16
+- `open`: 15
 - `in_progress`: 1
 - `deferred`: 2
-- `resolved`: 3
+- `resolved`: 4
 - `not_actionable`: 1
 - celkem: 22
 
 Nově vyřešeno:
 
-- `URB-U-0015`: spodní cizí nadpis v `6.jpg` skutečně zní **„Malhomme se vrátil“**.
-
-Stále otevřeno:
-
-- `URB-U-0017`: horní fragment v `9.jpg` má čitelnou signaturu `-vk-`, ale nadpis ani původní článek nelze z výřezu určit.
+- `URB-U-0019`: poškozené slovo v článku `015` je při zvětšení čitelné jako **„dosazováni“**. Věta v tisku skutečně postrádá sloveso `jsou` a nebyla jazykově opravena.
 
 ## Pilotní kolekce
 
@@ -65,35 +61,32 @@ Stále otevřeno:
 ## Články z Českého slova
 
 - 37 obrazových položek ověřeno, seskupeno a přepsáno v prvním průchodu.
-- Druhou kontrolou prošly textové jednotky:
-  - `001`, `002`, `003`;
-  - `004-a`, `004-b`, `004-b2`, `004-c`;
-  - `005`, `006`;
-  - `007`, `007-b`;
-  - `008`, `009`;
-  - `010`, `010-b`;
-  - `011`.
-- Celkem je nyní `visually_verified` 16 textových jednotek.
+- Druhou kontrolou prošlo 26 textových jednotek od `001` po `017-d`, včetně oddělených fragmentů.
+- Všechny zkontrolované soubory mají stav `visually_verified`.
 
-### Opravy z druhé dávky
+### Opravy z dosavadní druhé kontroly
 
-- `006`, `008`, `009` a `011` odpovídaly obrazu bez textové opravy.
-- `007`: cizí spodní nadpis byl oddělen jako `007-b`; znění **„Malhomme se vrátil“** bylo potvrzeno.
-- `010`: oříznutý konec předchozího článku byl oddělen jako `010-b`; signatura je `-vk-`, identita článku zůstává neznámá.
-- Korekční soubor nyní pokrývá položky `004`, `007` a `010`.
+1. `001`: odstraněny vydavatelské údaje, které na výřezu nebyly.
+2. `004`: oddělena samostatná krátká zpráva `004-b2`.
+3. `005`: vizuálně potvrzeno příjmení `Jarábáč`.
+4. `007`: oddělen a potvrzen fragment `007-b` – **„Malhomme se vrátil“**.
+5. `010`: oddělen cizí horní fragment `010-b`; jeho článek zůstává neidentifikován.
+6. `015`: poškozené slovo přečteno jako `dosazováni`; `URB-U-0019` uzavřena.
+7. `017-c`: do reklamního textu doplněn viditelný koncový kód `=2M.`.
+8. `012–014`, `016-a`, `016-b`, `017-a`, `017-b` a `017-d` odpovídaly obrazu bez textové opravy.
 
 ## Následující přesný krok
 
-Druhá řádková kontrola položek ze zdrojových obrazů `11.jpg–16.jpg`:
+Druhá řádková kontrola položek ze zdrojových obrazů `17.jpg–22.jpg`:
 
-- `012`;
-- `013`;
-- `014`;
-- `015`;
-- `016-a`, `016-b`;
-- `017-a`, `017-b`, `017-c`, `017-d`.
+- `018`;
+- `019`;
+- `020`;
+- `021-a`, `021-b`;
+- `022-a`, `022-b`, `022-c`, `022-d`;
+- `023-a`, `023-b`.
 
-U `015` zachovat a znovu posoudit fyzickou lakunu `URB-U-0019`. U složených výstřižků ověřit skutečný tok sazby a hranice jednotlivých článků.
+U `020` zachovat fyzické poškození vedené jako `URB-U-0020`, pokud obraz neposkytne dostatek znaků k bezpečnému doplnění. U `022-a` znovu posoudit nespojitý přechod vedený jako `URB-U-0021`.
 
 ## Instrukce pro nový chat
 

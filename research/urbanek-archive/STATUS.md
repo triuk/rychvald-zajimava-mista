@@ -18,7 +18,7 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 | Technický audit a inventář | probíhá po kolekcích |
 | Rychvaldské větrné mlýny | klasifikace a první OCR dokončeny |
 | Články z Českého slova | první OCR i druhá vizuální kontrola dokončeny |
-| Ochotníci rychvald | inventář dokončen, ověřování cest probíhá |
+| Ochotníci rychvald | **inventář, ověření cest a audit cache dokončeny** |
 | Ostatní dvě pilotní kolekce | čekají |
 | Pull request | čeká |
 
@@ -26,23 +26,25 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 
 Soubor: `research/urbanek-archive/uncertainties.yml`
 
-- `open`: 15
+- `open`: 16
 - `in_progress`: 0
-- `deferred`: 2
+- `deferred`: 3
 - `resolved`: 5
 - `not_actionable`: 1
-- celkem: 23
+- celkem: 25
 
-Otevřené fyzické mezery OCR Českého slova zůstávají `URB-U-0020`, `URB-U-0021` a `URB-U-0022`.
+Nově:
+
+- `URB-U-0024`: případné doplnění chybějícího `Thumbs.db` do pilotní větve.
+- `URB-U-0025`: hledání plných originálů `img387.jpg` a `ochotnicke divadlo 2xxx.jpg`, známých pouze z cache.
 
 ## Články z Českého slova – uzavřený výsledek
 
 - 37 obrazových položek bylo ověřeno, seskupeno a přepsáno.
 - Druhou kontrolou prošlo všech 56 textových a scénických jednotek.
-- `URB-U-0018` byla uzavřena jako dokončená kontrolní etapa.
 - Chybějící text nebyl nikde rekonstruován odhadem.
 
-## Ochotníci rychvald – inventář
+## Ochotníci rychvald – technický audit
 
 Google Drive obsahuje **63 přímých položek** a žádné podsložky:
 
@@ -58,32 +60,43 @@ Stabilní ID: `urbanek-ochotnici-001` až `urbanek-ochotnici-063`.
 
 ### Ověření GitHub cest
 
-- `001–010`: ověřeno, 10 přítomných, 0 chybějících.
-- `011–020`: ověřeno, 10 přítomných, 0 chybějících.
-- Celkem: **20 z 63 položek ověřeno**, bez zjištěného přejmenování nebo chybějícího souboru.
+- zkontrolováno všech **63** položek;
+- **62** souborů je přítomných pod přesným původním názvem a cestou;
+- chybí pouze technický `Thumbs.db` (`urbanek-ochotnici-036`);
+- všech 60 JPEGů, dokument DOC a `ZbThumbnail.info` jsou přítomné;
+- kontrolní blob SHA jsou rozděleny do sedmi souborů `ochotnici-rychvald-verification-01.yml` až `07.yml`.
 
-Kontrolní soubory:
+### Audit `Thumbs.db`
 
-- `research/urbanek-archive/collections/ochotnici-rychvald-verification-01.yml`
-- `research/urbanek-archive/collections/ochotnici-rychvald-verification-02.yml`
+Report:
 
-Obsahová klasifikace ani OCR této kolekce zatím nebyly zahájeny. JPEGy jsou v inventáři předběžně vedeny jako `image_or_document_scan_pending`, aby se jejich typ neurčoval pouze podle názvu souboru.
+`research/urbanek-archive/reports/ochotnici-rychvald-thumbnail-cache.md`
+
+Výsledek:
+
+- SHA-256 cache: `61a49eda18010a9b66e9bf43a5f039d81cedb3ff8e44597306c75b1b54fa5ecd`;
+- 93 katalogových záznamů, z toho 92 názvů obrazů a jedna systémová koláž složky;
+- všech 60 současných JPEGů je v cache zastoupeno;
+- 29 starších názvů jsou přejmenování nebo meziverze současných souborů;
+- cache obsahuje dva další unikátní obrazy bez nalezeného plného originálu:
+  - `img387.jpg` – historická skupinová fotografie;
+  - `ochotnicke divadlo 2xxx.jpg` / `ochotnicke divadlo 2xxxaa.jpg` – reprodukce tištěné stránky s fotografií a textem.
+
+Náhledy mají pouze přibližně 96 px a nejsou náhradou originálů ani podkladem pro spolehlivé OCR.
 
 ## Následující přesný krok
 
-Ověřit přesné GitHub cesty a blob SHA položek `urbanek-ochotnici-021` až `urbanek-ochotnici-030`.
+Vizuálně klasifikovat položky `urbanek-ochotnici-001` až `010`:
 
-Pořadí práce:
-
-1. dokončit ověření všech 63 cest;
-2. zkontrolovat technické cache;
-3. teprve potom vizuálně rozlišit fotografie, dokumentové skeny, programy, výstřižky a případný scénický text;
-4. OCR zahájit až po klasifikaci a seskupení souvisejících dokumentů.
+1. rozlišit dokumentové skeny, výstavní panely, fotografie a jiné textové předlohy;
+2. označit kandidáty `document_text` a `scene_text`;
+3. určit, které fotografie nebo stránky tvoří společné série;
+4. OCR nezahajovat, dokud nebudou související dokumenty seskupeny.
 
 ## Instrukce pro nový chat
 
 1. Načíst autoritativní soubory.
 2. Ověřit aktuální hlavu větve.
 3. Neměnit originály.
-4. Pokračovat dávkou `021–030`.
+4. Pokračovat klasifikací `001–010`.
 5. Po malé dokončené dávce aktualizovat checkpoint.

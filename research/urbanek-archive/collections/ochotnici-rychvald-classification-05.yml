@@ -1,0 +1,150 @@
+collection_id: urbanek-ochotnici
+batch_id: classification-05
+status: completed
+scope: urbanek-ochotnici-041..urbanek-ochotnici-050
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+document_text_candidates: 2
+photographs_without_ocr: 8
+
+items:
+  - id: urbanek-ochotnici-041
+    source_path: "Ochotníci rychvald/Rytíř  Tobiáš Říhal - Jaromír Suder.jpg"
+    visual_type: historical_stage_photograph
+    description: Mužská postava v historizujícím kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Rytíř Tobiáš Říhal – Jaromír Suder"
+      note: Role a jméno jsou převzaty z názvu souboru; osoba nebyla určována podle tváře.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-042
+    source_path: Ochotníci rychvald/Slavnost lampionu program.jpg
+    visual_type: scanned_theatre_program
+    primary_title: "Slavnost lampiónů"
+    organization: "Osvětová beseda Rychvald"
+    printed_date: "1959-11-15"
+    author: "Hans Pfeiffer"
+    translator: "Josef Balvín"
+    director: "MUDr. Jaromír Marcalík"
+    description: >-
+      Jednostránkový program dramatu o třech dějstvích s tvůrčími údaji, obsazením
+      a poznámkou, že děj se odehrává v Nagasaki v červnu 1946.
+    grouping: {group_id: slavnost-lampionu, role: complete_program}
+    ocr:
+      document_text: candidate_full_structured
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-043
+    source_path: Ochotníci rychvald/Maskér ŠŤastný při práci.jpg
+    visual_type: historical_backstage_photograph
+    description: Maskér upravuje tvář kostýmované osoby před nebo během představení.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: backstage_makeup}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Maskér Šťastný při práci"
+      note: Jméno maskéra je převzato z názvu souboru; další osoba není identifikována.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-044
+    source_path: Ochotníci rychvald/Marie Tonča Pešková.jpg
+    visual_type: historical_stage_photograph
+    description: Ženská postava v kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Marie – Tonča Pešková"
+      note: Role a jméno jsou převzaty z názvu souboru.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-045
+    source_path: Ochotníci rychvald/Malvolio - Bořivoj Peška.jpg
+    visual_type: historical_stage_photograph
+    description: Mužská postava v kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Malvolio – Bořivoj Peška"
+      note: Role a jméno jsou převzaty z názvu souboru.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-046
+    source_path: Ochotníci rychvald/Kněz - Jiří Mikšan.jpg
+    visual_type: historical_stage_photograph
+    description: Mužská postava v kostýmu duchovního v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Kněz – Jiří Mikšan"
+      note: Role a jméno jsou převzaty z názvu souboru.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-047
+    source_path: Ochotníci rychvald/ocenění.jpg
+    visual_type: photographed_official_award_letter
+    issuer: "Ústřední dům lidové tvořivosti"
+    document_date: "1960-06-23"
+    addressee: "S. Kravalová, Rychvald"
+    description: >-
+      Úřední dopis oznamující Sylvii Kravalové věcnou cenu 500 Kčs za vytvoření
+      postavy Violy ve Večeru tříkrálovém. Uvádí předání diplomu a ceny při XXX.
+      Jiráskově Hronovu dne 21. srpna 1960.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: official_award_notification
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+      note: Razítko a podpis vést odděleně od strojopisného textu; jméno podpisu nepřepisovat odhadem.
+
+  - id: urbanek-ochotnici-048
+    source_path: Ochotníci rychvald/Malvolio  II Bořivoj Peška.jpg
+    visual_type: historical_stage_photograph
+    description: Druhý záběr postavy v kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: alternate_character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Malvolio II – Bořivoj Peška"
+      note: Role a jméno jsou převzaty z názvu souboru.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-049
+    source_path: Ochotníci rychvald/Marcalíková a Sylva.jpg
+    visual_type: historical_backstage_or_stage_photograph
+    description: Dvě kostýmované osoby zachycené společně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: posed_two_characters}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Marcalíková a Sylva"
+      note: Jména jsou převzata z názvu souboru a nejsou úplná.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-050
+    source_path: Ochotníci rychvald/MUDr Jaromír Marcalík - režisér.jpg
+    visual_type: historical_portrait_or_backstage_photograph
+    description: Muž v civilním oděvu zachycený v souvislosti s divadelním souborem.
+    grouping: {group_id: vecer-trikralovy-production-team, role: director_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "MUDr. Jaromír Marcalík – režisér"
+      note: Jméno a funkce jsou převzaty z názvu souboru; osoba nebyla určována podle tváře.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+groups:
+  - group_id: vecer-trikralovy-stage-photographs
+    added_members: [urbanek-ochotnici-041, urbanek-ochotnici-043, urbanek-ochotnici-044, urbanek-ochotnici-045, urbanek-ochotnici-046, urbanek-ochotnici-048, urbanek-ochotnici-049]
+  - group_id: vecer-trikralovy-production-team
+    members: [urbanek-ochotnici-050]
+  - group_id: slavnost-lampionu
+    members: [urbanek-ochotnici-042]
+  - group_id: kromeriz-celostatni-prehlidka
+    added_members: [urbanek-ochotnici-047]
+
+next_action:
+  type: visually_classify_collection_batch
+  batch_ids: urbanek-ochotnici-051..urbanek-ochotnici-063
+  instruction: >-
+    Classify the remaining stage photographs, group photographs and the original DOC.
+    Determine whether the DOC is the source text behind the exhibition materials and
+    identify any additional document or scene-text candidates before starting OCR.

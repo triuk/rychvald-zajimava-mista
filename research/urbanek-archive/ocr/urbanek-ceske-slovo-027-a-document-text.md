@@ -4,7 +4,7 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-027`
 - Soubor: `Články z Českého slova/26.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek ve složeném výstřižku
 - Signatura: `-vb-`
 
@@ -20,7 +20,7 @@ V úterý bude zahájeno v Praze zasedání československo-polské smíšené k
 
 ## Poznámky ke spolehlivosti
 
-- Text horního článku pokračuje z levého horního sloupce do prostředního horního sloupce a poté do pravého sloupce; pořadí bylo rekonstruováno podle sazby.
+- Text horního článku pokračuje z levého horního sloupce do prostředního horního sloupce a poté do pravého sloupce; pořadí bylo potvrzeno druhou vizuální kontrolou sazby.
 - Dobové tvary `čs.-polské`, `jednati`, `kdož` a `desetitisíců` byly zachovány.
-- Jméno `Hrabčík` je přepsáno podle tisku a jeho historická identita není tímto OCR ověřena.
-- Článek je na snímku zachycen celý.
+- Jméno `Hrabčík` bylo potvrzeno jako přesný přepis tisku; historická identita osoby tím není samostatně ověřena.
+- Článek je na snímku zachycen celý a celý text byl řádkově porovnán s předlohou.

@@ -23,16 +23,10 @@ checkpoints:
   czech_word_inventory_commit: 51027f4b62f2ce058ff5267866c4a1cea8f93a66
   czech_word_grouping_completed_commit: ba549159b08792abe74d70f170d894de6c914ef9
   czech_word_first_pass_last_ocr_commit: 47b931aeb6ea1a9217ab70cbb62d78deb82f1637
-  czech_word_review_001_commit: 659bc2e11094d2440f9b652e8c4ab78bc749a58a
-  czech_word_review_002_commit: b4292138a3732c5d04f05cd4c5975a929f72af79
-  czech_word_review_003_commit: 115afe0d51c65b34a116b652a1cb715979a2d3e2
-  czech_word_review_004_a_commit: 1e54794b50a2edfbaeb278e307d13081d268b6e2
-  czech_word_review_004_b_commit: b4f5214ac91490f2962eeb00b835d8b7a1aeab60
-  czech_word_review_004_b2_commit: 8891b13970e1460997006639166fca7abae5ac9b
-  czech_word_review_004_c_commit: cf339f4b9d89a44391b784ea47f1ea714bcb23f3
-  czech_word_review_005_commit: 6a71d314fac4ec958174e5e99d8086162b97b770
-  grouping_corrections_commit: 35bbc058ebb8cc319ee4c47b2a24d5a588ca4c92
-  uncertainty_registry_commit: d316aa9ed9482ab936bcc2954adb3ff0b56106b0
+  first_visual_review_batch_commit: 6a71d314fac4ec958174e5e99d8086162b97b770
+  second_visual_review_last_item_commit: 38bcf6d08768ed8a253b6695ae521f47484a7985
+  grouping_corrections_commit: ef77fefcf955e743cbf224fb98a4bd0af4e49214
+  uncertainty_registry_commit: 8a502ed53e24f08531228bf8276b0321f9bfef20
 
 ocr:
   first_pass_status: completed_for_czech_word_collection
@@ -47,16 +41,24 @@ ocr:
     - urbanek-ceske-slovo-004-b2
     - urbanek-ceske-slovo-004-c
     - urbanek-ceske-slovo-005
+    - urbanek-ceske-slovo-006
+    - urbanek-ceske-slovo-007
+    - urbanek-ceske-slovo-007-b
+    - urbanek-ceske-slovo-008
+    - urbanek-ceske-slovo-009
+    - urbanek-ceske-slovo-010
+    - urbanek-ceske-slovo-010-b
+    - urbanek-ceske-slovo-011
   preserve_printed_spelling: true
   split_composite_clippings: true
   infer_missing_text: false
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 17, in_progress: 1, deferred: 2, resolved: 2, not_actionable: 1, total: 22}
-  latest_id: URB-U-0022
+  summary: {open: 16, in_progress: 1, deferred: 2, resolved: 3, not_actionable: 1, total: 22}
   visual_review_batch_id: URB-U-0018
-  newly_resolved: [URB-U-0014]
+  newly_resolved: [URB-U-0015]
+  still_open_in_reviewed_batch: [URB-U-0017]
 
 phases:
   import: completed_with_missing_technical_files
@@ -84,16 +86,15 @@ pilot_collections:
     image_files_repo_verified: 37
     image_items_grouped: 37
     image_items_with_first_pass_ocr: 37
-    visually_verified_text_units: 8
+    visually_verified_text_units: 16
     repo_missing_technical_files: 1
     grouping_corrections: research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-corrections.yml
     review_findings:
-      - item: urbanek-ceske-slovo-001
-        correction: Odstraněny vydavatelské údaje, které nebyly na zdrojovém výřezu.
-      - item: urbanek-ceske-slovo-004
-        correction: Samostatně datovaná krátká zpráva byla oddělena jako urbanek-ceske-slovo-004-b2.
-      - item: urbanek-ceske-slovo-005
-        correction: Podoba příjmení Jarábáč vizuálně potvrzena; URB-U-0014 uzavřena.
+      - {item: urbanek-ceske-slovo-001, correction: "Odstraněny vydavatelské údaje, které na obraze nebyly."}
+      - {item: urbanek-ceske-slovo-004, correction: "Oddělena samostatná zpráva 004-b2."}
+      - {item: urbanek-ceske-slovo-005, correction: "Vizuálně potvrzeno příjmení Jarábáč."}
+      - {item: urbanek-ceske-slovo-007, correction: "Oddělen a potvrzen fragment 007-b: Malhomme se vrátil."}
+      - {item: urbanek-ceske-slovo-010, correction: "Oddělen horní cizí fragment 010-b; identita zůstává neznámá."}
 
   - name: Ochotníci rychvald
     status: pending
@@ -115,14 +116,18 @@ next_action:
   type: ocr_second_visual_review
   collection: Články z Českého slova
   batch_ids:
-    - urbanek-ceske-slovo-006
-    - urbanek-ceske-slovo-007
-    - urbanek-ceske-slovo-008
-    - urbanek-ceske-slovo-009
-    - urbanek-ceske-slovo-010
-    - urbanek-ceske-slovo-011
+    - urbanek-ceske-slovo-012
+    - urbanek-ceske-slovo-013
+    - urbanek-ceske-slovo-014
+    - urbanek-ceske-slovo-015
+    - urbanek-ceske-slovo-016-a
+    - urbanek-ceske-slovo-016-b
+    - urbanek-ceske-slovo-017-a
+    - urbanek-ceske-slovo-017-b
+    - urbanek-ceske-slovo-017-c
+    - urbanek-ceske-slovo-017-d
   instruction: >-
-    Compare each OCR file line by line with its source image. Correct only image-supported
-    discrepancies, keep unrelated edge fragments separate, and change reviewed files to
-    visually_verified. Reassess URB-U-0015 and URB-U-0017 where their source images permit.
-    Commit each file separately and update the uncertainty registry and checkpoint.
+    Compare every text unit line by line with source images 11.jpg through 16.jpg.
+    Correct only image-supported discrepancies, retain documented physical lacunae,
+    split any additional independent text units, and mark completed files visually_verified.
+    Update URB-U-0018 and all affected uncertainty records after the batch.

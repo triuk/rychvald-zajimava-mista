@@ -1,0 +1,153 @@
+collection_id: urbanek-mlyny
+batch_id: hebdy-and-kakalu
+status: completed
+source_folders:
+  - Rychvaldské větrné mlýny/větrný mlýn u hebdy
+  - Rychvaldské větrné mlýny/Mlýn u Kakalů
+item_count: 6
+new_visual_inspections: 4
+exact_duplicates_reused: 2
+document_text_candidates: 0
+scene_text_candidates: 0
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+items:
+  - id: urbanek-mlyny-013
+    source_path: Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010447.JPG
+    visual_type: contemporary_digital_photograph
+    dimensions: [3072, 2304]
+    captured_at: "2011-03-20T12:08:45"
+    date_basis: exif_datetime_original
+    description: >-
+      Plný záběr venkovního mlecího soustrojí se dvěma kamennými koly a kovovými
+      ozubenými převody. Obrazově odpovídá položce urbanek-mlyny-004, ale zachovává
+      větší rozlišení a širší výřez.
+    subject_tags: [millstones, gears, transmission, outdoor_equipment]
+    visual_equivalence:
+      status: same_capture_probable_source_version
+      related_id: urbanek-mlyny-004
+      basis: identical_exif_time_and_visual_content
+      note: Soubory nejsou binárně totožné; položka 004 je menší a oříznutá nebo jinak upravená verze.
+    identification:
+      status: unverified
+      candidate_name: větrný mlýn u Hebdy
+      candidate_basis: folder_name
+      note: Název zařízení nebo vlastníka nebyl nezávisle ověřen.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-014
+    source_path: Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010446.JPG
+    visual_type: contemporary_digital_photograph
+    dimensions: [3072, 2304]
+    captured_at: "2011-03-20T12:06:40"
+    date_basis: exif_datetime_original
+    description: >-
+      Širší záběr mlýnských kamenů, ozubených převodů, hřídelí a nosné konstrukce.
+      Obrazově odpovídá položce urbanek-mlyny-005 a zachovává větší rozlišení i širší okolí.
+    subject_tags: [millstones, gears, transmission, outdoor_equipment]
+    visual_equivalence:
+      status: same_capture_probable_source_version
+      related_id: urbanek-mlyny-005
+      basis: identical_exif_time_and_visual_content
+      note: Soubory nejsou binárně totožné; položka 005 je menší a oříznutá nebo jinak upravená verze.
+    identification:
+      status: unverified
+      candidate_name: větrný mlýn u Hebdy
+      candidate_basis: folder_name
+      note: Název zařízení nebo vlastníka nebyl nezávisle ověřen.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-015
+    source_path: Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010445.JPG
+    visual_type: contemporary_digital_photograph
+    dimensions: [2304, 3072]
+    captured_at: "2011-03-20T12:06:13"
+    date_basis: exif_datetime_original
+    description: >-
+      Celkový záběr vysoké příhradové konstrukce s vícelopatkovým kovovým větrným
+      kolem. Obrazově odpovídá položce urbanek-mlyny-006, ale má větší rozlišení a širší výřez.
+    subject_tags: [metal_tower, multi_blade_wind_wheel, rural_structure]
+    visual_equivalence:
+      status: same_capture_probable_source_version
+      related_id: urbanek-mlyny-006
+      basis: identical_exif_time_and_visual_content
+      note: Soubory nejsou binárně totožné; položka 006 je menší a oříznutá nebo jinak upravená verze.
+    identification:
+      status: unverified
+      candidate_name: větrný mlýn u Hebdy
+      candidate_basis: folder_name
+      note: Název zařízení nebo vlastníka nebyl nezávisle ověřen.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-018
+    source_path: Rychvaldské větrné mlýny/Mlýn u Kakalů/304interier.JPG
+    visual_type: contemporary_digital_photograph
+    dimensions: [3072, 2304]
+    captured_at: "2010-12-12T11:00:01"
+    date_basis: exif_datetime_original
+    description: >-
+      Interiér římskokatolického nebo obdobného kostela s hlavním oltářem, křížem,
+      sochou Panny Marie, lavicemi a gotizujícími klenebními prvky. Mlýn ani mlecí
+      zařízení nejsou na snímku vidět.
+    subject_tags: [church_interior, altar, crucifix, religious_statue, pews]
+    collection_relevance:
+      status: probable_misfiled_item
+      note: Obrazový obsah nemá zřejmý vztah k větrným mlýnům ani ke dvěma dalším souborům ve složce.
+    identification:
+      status: unverified
+      candidate_reference: "304"
+      candidate_basis: original_filename
+      note: Význam čísla 304 ani konkrétní kostel nebyly ověřeny.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-021
+    source_path: Rychvaldské větrné mlýny/Mlýn u Kakalů/obrazek mlyn bez ramecku.jpg
+    visual_type: historical_photograph_reproduction
+    description_source: exact_duplicate
+    exact_duplicate_of: urbanek-mlyny-011
+    git_blob_sha: c597cbea1f7557dfe144a9c26eb02bf18693da0e
+    description: >-
+      Přesná binární kopie historického snímku malé dřevěné stavby s větrným kolem
+      na střeše; obsahová klasifikace se přebírá z urbanek-mlyny-011.
+    identification:
+      status: unverified
+      candidate_name: Kakalův mlýn
+      candidate_basis: parent_folder_name
+      note: Zařazení do složky podporuje kandidátní název, ale nejde o nezávislé ověření.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-022
+    source_path: Rychvaldské větrné mlýny/Mlýn u Kakalů/Kakalův mlýn.jpg
+    visual_type: cropped_historical_photograph_reproduction
+    description_source: exact_duplicate
+    exact_duplicate_of: urbanek-mlyny-012
+    other_exact_duplicate_ids: [urbanek-mlyny-039]
+    git_blob_sha: 7a746e9bcf23a8e2a5fc49eafa2dc58658be9d7a
+    description: >-
+      Přesná binární kopie výřezu historického obrazu malé dřevěné stavby s větrným
+      kolem na střeše; obsahová klasifikace se přebírá z urbanek-mlyny-012.
+    identification:
+      status: unverified
+      candidate_name: Kakalův mlýn
+      candidate_basis: original_filename_and_parent_folder
+      note: Shoda názvu souboru a složky stále nepředstavuje nezávislé historické ověření.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+findings:
+  - Položky 013–015 jsou pravděpodobné zdrojové verze s vyšším rozlišením pro upravené kořenové položky 004–006.
+  - Název složky větrný mlýn u hebdy je zatím pouze archivní popisek a musí být ověřen v dalších pramenech.
+  - Položka 018 je kandidát na chybné zařazení; nepřesouvat ji bez dalšího dokladu.
+  - Položky 021 a 022 se ponechávají na původních místech navzdory přesným duplicitám.

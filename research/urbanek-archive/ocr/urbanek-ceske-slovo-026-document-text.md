@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-026`
 - Soubor: `Články z Českého slova/25.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek
 
 ## Nadpisy
@@ -18,8 +18,9 @@ Každou neděli se konávaly v Rychvaldě velké a hojně navštěvované mše �
 
 ## Poznámky ke spolehlivosti
 
-- Článek je na snímku zachycen celý.
+- Článek je na snímku zachycen celý a byl řádkově porovnán se zdrojovým obrazem.
 - Přepis zachovává dobové zkratky a tvary `čs.`, `konávaly`, `sloužit mši` a `bude se jednat`.
-- Jméno faráře je na předloze čteno jako `Syrčin`; před použitím jako ověřené osobní jméno vyžaduje druhou vizuální nebo externí kontrolu.
+- Podoba jména faráře `Syrčin` byla potvrzena druhou vizuální kontrolou jako přesný přepis tisku; historická identita osoby tím není samostatně ověřena.
 - Píseň je v tisku uvedena bez uvozovek jako `Kdož jste boží bojovníci`.
+- Neobvyklé spojení `opustili čs. území` bylo zachováno přesně podle tisku.
 - Tvrzení článku nejsou tímto OCR historicky ověřena.

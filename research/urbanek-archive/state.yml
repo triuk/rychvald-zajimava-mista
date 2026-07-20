@@ -19,8 +19,9 @@ checkpoints:
   import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
   czech_word_second_review_completed_commit: 0bff6de7d6e757f0d800638f9efb6bbbdb70b952
   ochotnici_inventory_commit: df993af216ea5f87ef6adff4dfaca3a8dc146d14
-  ochotnici_verification_01_commit: 7fd65ad9ebb53ea2cf5bdd7fc81f36b67c298c19
-  ochotnici_verification_02_commit: d7cb66cc299b3e5b72b12d325f5671d0d27bb49f
+  ochotnici_last_verification_commit: ec4eb1fd8296a6903591dd267829361b1a475447
+  ochotnici_thumbnail_cache_audit_commit: d8fd131211a7bcf64e2f5e20c466e84ba5cb8c03
+  uncertainty_registry_commit: 8205d15d36e45f7327a29746a6b53179fd78ef0e
 
 ocr:
   czech_word_first_pass: completed
@@ -31,7 +32,8 @@ ocr:
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 15, in_progress: 0, deferred: 2, resolved: 5, not_actionable: 1, total: 23}
+  summary: {open: 16, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 25}
+  new_items: [URB-U-0024, URB-U-0025]
 
 phases:
   import: completed_with_missing_technical_files
@@ -45,25 +47,40 @@ pilot_collections:
   - {name: Rychvaldské větrné mlýny, status: classification_and_initial_ocr_completed}
   - {name: Články z Českého slova, status: first_pass_and_second_visual_review_completed}
   - name: Ochotníci rychvald
-    status: inventory_created_repo_verification_in_progress
+    status: technical_audit_completed_classification_pending
     drive_total_files: 63
     image_files: 60
     document_files: 1
     technical_thumbnail_caches: 2
     inventory_id_prefix: urbanek-ochotnici
     inventory_file: research/urbanek-archive/collections/ochotnici-rychvald-inventory.csv
-    repo_verified_items: 20
-    repo_missing_items: 0
+    repo_verified_items: 62
+    repo_missing_items: 1
+    repo_missing_ids: [urbanek-ochotnici-036]
     verification_files:
       - research/urbanek-archive/collections/ochotnici-rychvald-verification-01.yml
       - research/urbanek-archive/collections/ochotnici-rychvald-verification-02.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-verification-03.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-verification-04.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-verification-05.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-verification-06.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-verification-07.yml
+    thumbnail_cache:
+      drive_sha256: 61a49eda18010a9b66e9bf43a5f039d81cedb3ff8e44597306c75b1b54fa5ecd
+      catalog_records: 93
+      current_images_confirmed: 60
+      unique_missing_images: 2
+      missing_names: [img387.jpg, ochotnicke divadlo 2xxx.jpg]
+      report: research/urbanek-archive/reports/ochotnici-rychvald-thumbnail-cache.md
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
-  type: verify_collection_paths
+  type: visually_classify_collection_batch
   collection: Ochotníci rychvald
-  batch_ids: urbanek-ochotnici-021..urbanek-ochotnici-030
+  batch_ids: urbanek-ochotnici-001..urbanek-ochotnici-010
   instruction: >-
-    Verify exact GitHub paths and blob SHA for items 021 through 030. Do not begin
-    visual classification or OCR until all 63 inventory entries have been checked.
+    Visually inspect items 001 through 010 and distinguish document scans, exhibition
+    panels, photographs and text-bearing images. Record document_text and scene_text
+    candidates, but do not start OCR until related documents and image sequences have
+    been grouped.

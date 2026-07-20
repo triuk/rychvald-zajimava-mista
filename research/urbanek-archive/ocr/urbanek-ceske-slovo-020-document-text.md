@@ -3,9 +3,10 @@
 - Zdroj: `urbanek-ceske-slovo-020`
 - Soubor: `Články z Českého slova/19.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified_with_lacuna`
 - Druh: soubor krátkých novinových zpráv
 - Nejistota: `URB-U-0020`
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Nadpis
 
@@ -27,7 +28,7 @@ V pondělí se konal v Orlové pohřeb horníka Neděly, jehož se zúčastnilo 
 
 — Lékař orlovské závodní nemocnice dr. Benetka dostal od polské policie uvědomění, že do 6 hodin se musí z Orlové vystěhovati i se svou rodinou.
 
-**[Poškozený a nečitelný úsek předlohy; může zde chybět část nebo celá další krátká zpráva.]**
+**[Fyzicky poškozený úsek předlohy; rozsah ani znění chybějícího textu nelze z obrazu určit.]**
 
 — Všechna footballová hřiště těšínských klubů českých byla uzavřena a nikomu není vstup na hřiště povolen, neboť hřiště českých klubů jsou jen pro vojenské účely.
 
@@ -36,7 +37,8 @@ V pondělí se konal v Orlové pohřeb horníka Neděly, jehož se zúčastnilo 
 ## Poznámky ke spolehlivosti
 
 - Jednotlivé zprávy jsou v předloze odděleny pomlčkami; toto členění bylo zachováno.
-- Mezi zprávou o lékaři Benetkovi a zprávou o footballových hřištích je fyzicky poškozený úsek. Zbytky znaků neumožňují bezpečný přepis ani určení rozsahu chybějícího textu.
-- Podoby jmen `Karkošky`, `Lejska`, `Ďáska` a `Benetka` jsou přepsány podle tisku a vyžadují druhou vizuální kontrolu.
-- Dobové tvary `nastoupiti`, `vystěhovati`, `footballová` a `musili` byly zachovány.
+- Mezi zprávou o lékaři Benetkovi a zprávou o footballových hřištích je fyzicky zničený úsek. Druhá vizuální kontrola nepotvrdila bezpečně čitelné slovo ani počet chybějících řádků.
+- Podoby jmen `Karkošky`, `Lejska`, `Ďáska` a `Benetka` byly při druhé kontrole potvrzeny jako podoby vytištěné v předloze.
+- Dobové tvary `nastoupiti`, `vystěhovati`, `footballová` a `musili` byly zachovány. Neobvyklé spojení `nebyli pouze puštěni` odpovídá obrazu.
+- Stav `visually_verified_with_lacuna` znamená, že veškerý zachovaný čitelný text byl řádkově ověřen, ale fyzicky chybějící místo zůstává otevřené pod `URB-U-0020`.
 - Tvrzení krátkých zpráv nejsou tímto přepisem historicky ověřena.

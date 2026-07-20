@@ -41,6 +41,17 @@ Používej tyto stavy:
 
 Do publikovaného článku mohou být jako jistý fakt použita pouze tvrzení se stavem `verified`.
 
+## Registr nejistot
+
+- Autoritativní fronta nevyřešených otázek je `research/urbanek-archive/uncertainties.yml`.
+- Každá nová podstatná nejistota dostane stabilní ID ve tvaru `URB-U-XXXX`.
+- U nejistoty eviduj zdrojovou položku, typ, stav, prioritu, přesnou otázku, doklady a konkrétní následující krok.
+- Podrobná poznámka může zůstat v OCR nebo klasifikačním souboru, ale musí být dohledatelná z centrálního registru.
+- Při vyřešení původní záznam nemaž. Změň stav na `resolved` a doplň výsledek, nový doklad, datum a způsob ověření.
+- Stavy registru jsou `open`, `in_progress`, `blocked`, `deferred`, `resolved` a `not_actionable`.
+- Tvrzení navázané na otevřenou nebo odloženou nejistotu nesmí být prezentováno jako `verified`.
+- Při předání práce do nového chatu musí být registr načten spolu se `STATUS.md` a `state.yml`.
+
 ## Práce s dokumenty
 
 - Originální dokumenty v `sources/` neupravuj.
@@ -123,6 +134,7 @@ Ověř:
 - rozpory mezi zdroji jsou zachovány,
 - poloha není označena jako přesnější, než dovolují důkazy,
 - fotografie a mapy mají uvedený původ, přesný lokátor, autora, držitele práv a licenci nebo označení „neznámá práva“,
+- všechny podstatné otevřené nejistoty jsou v `research/urbanek-archive/uncertainties.yml`,
 - text neobsahuje fakta vytvořená pouze odhadem AI.
 
 Nejistota je platný výsledek výzkumu a nesmí být skryta.

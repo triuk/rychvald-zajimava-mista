@@ -6,16 +6,11 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený obsahový checkpoint: `3e5555e8d636cde56ce2963ee72c1ab2edd7fa31`
+- Poslední dokončený obsahový checkpoint: `651fa3975169eec06acbdae6f5f483866bb31c43`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Oprávnění k použití pro projekt: potvrzeno uživatelem.
 
-Autoritativní předání mezi chaty tvoří:
-
-- `AGENTS.md`
-- tento `STATUS.md`
-- `research/urbanek-archive/state.yml`
-- `research/urbanek-archive/uncertainties.yml`
+Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml` a `uncertainties.yml`.
 
 ## Neměnná rozhodnutí
 
@@ -24,7 +19,7 @@ Autoritativní předání mezi chaty tvoří:
 - `Thumbs.db` a `ZbThumbnail.info` ponechat pro budoucí analýzu.
 - Dokumentový a scénický text evidovat odděleně.
 - OCR má stav `machine_unverified`, dokud neproběhne druhá řádková kontrola.
-- Chybějící nebo poškozený text nedoplňovat odhadem.
+- Chybějící, poškozený nebo nespojitý text nedoplňovat odhadem.
 - Fyzicky samostatné články a fragmenty ukládat pod vlastními stabilními ID.
 - Každou dokončenou dávku commitnout a aktualizovat stav i registr nejistot.
 
@@ -48,13 +43,17 @@ Soubor: `research/urbanek-archive/uncertainties.yml`
 
 Aktuální souhrn:
 
-- `open`: 15
+- `open`: 17
 - `deferred`: 2
 - `resolved`: 1
 - `not_actionable`: 1
-- celkem: 19
+- celkem: 21
 
-Položka `URB-U-0019` eviduje fyzicky poškozený úsek v článku `urbanek-ceske-slovo-015` mezi slovy `ostatní závody` a `vnucení správci`.
+Novější položky:
+
+- `URB-U-0019` – fyzicky poškozená věta v článku `015`;
+- `URB-U-0020` – poškozený úsek, který může obsahovat celou chybějící krátkou zprávu v `020`;
+- `URB-U-0021` – nespojitý přechod sloupců v článku `022-a`.
 
 ## Pilotní kolekce
 
@@ -82,40 +81,45 @@ Položka `URB-U-0019` eviduje fyzicky poškozený úsek v článku `urbanek-cesk
 
 ### Dokončené OCR
 
-Dokončeny jsou položky:
+Dokončeny jsou:
 
-- `001–003`;
-- `004-a`, `004-b`, `004-c`;
-- `005–015`;
+- `001–015`;
 - `016-a`, `016-b`;
-- `017-a`, `017-b`, `017-c`, `017-d`.
+- `017-a`, `017-b`, `017-c`, `017-d`;
+- `018`, `019`, `020`;
+- `021-a`, `021-b`;
+- `022-a`, `022-b`, `022-c`, `022-d`;
+- `023-a`, `023-b`.
 
-Soubory jsou v `research/urbanek-archive/ocr/`.
+Všechny soubory jsou v `research/urbanek-archive/ocr/`.
+
+### Poslední zpracovaná dávka
+
+- `018`: **„Péče o uprchlíky z obsazeného území“**.
+- `019`: **„Vojenský dozor na šachtách na Těšínsku“**.
+- `020`: **„Zprávy z Těšínska“**, s vyznačeným poškozeným úsekem.
+- `021-a`: **„Situační zpráva z pohraničí“**.
+- `021-b`: **„Rekvisice radiových aparátů neprospěla“**.
+- `022-a`: **„Polský zábor českých obcí dokončen“**, se dvěma výslovně označenými lakunami.
+- `022-b`: **„Zásobování Ostravy potravinami zajištěno“**.
+- `022-c`: neúplný článek **„Mléčný vlak do Mor. Ostravy“**.
+- `022-d`: pouze nadpis **„Dvě ultimata Arabů“**.
+- `023-a`: **„Na Těšínsku propouštěni dělníci i úředníci“**.
+- `023-b`: **„Svinovské nádraží neutrální“**.
 
 ### Oprava mapování 20. července 2026
 
-- `011` správně odpovídá `10.jpg` a článku **„Zůstanou na Těšínsku české školy?“**;
-- `012` správně odpovídá `11.jpg` a článku **„Fryštát už má polského starostu“**;
-- `013` správně odpovídá `12.jpg` a článku **„První část fryštátského okresu obsazena“**.
+- `011` odpovídá `10.jpg`;
+- `012` odpovídá `11.jpg`;
+- `013` odpovídá `12.jpg`.
 
-Chybný obsah byl nahrazen a pod žádným ID již nezůstává nesprávné přiřazení.
-
-### Poslední nové přepisy
-
-- `014`: **„Fryštát s okolím zabrán“**.
-- `015`: **„Poslední den polského záboru na Těšínsku“**.
-- `016-a`: **„Sta lidí vypovídáno z Těšínska“**.
-- `016-b`: **„Konsulární ataše v Ostravě“**.
-- `017-a`: **„Přeplněné přívozské nádraží“**.
-- `017-b`: neúplný začátek **„Poslanec Sliwka v Katovicích“**.
-- `017-c`: částečný reklamní text **„Různé nečistoty pleti“**.
-- `017-d`: pouze nadpis **„Sebevražda 24letého“**.
+Pod žádným ID již nezůstává nesprávně přiřazený obsah.
 
 ## Následující přesný krok
 
-Přepsat `urbanek-ceske-slovo-018`, zdroj `Články z Českého slova/17.jpg`, článek **„Péče o uprchlíky z obsazeného území“** s podnadpisem **„Kde se mají uprchlíci hlásit v Mor. Ostravě“**.
+Přepsat `urbanek-ceske-slovo-024`, zdroj `Články z Českého slova/23.jpg`, jako soubor krátkých zpráv **„Zprávy z Těšínska“**. Zachovat oddělení jednotlivých zpráv a dobový pravopis.
 
-Poté pokračovat položkou `urbanek-ceske-slovo-019`. Každou novou materiální nejistotu zapsat do `uncertainties.yml`.
+Poté pokračovat `urbanek-ceske-slovo-025`, který obsahuje dvě novinové fotografie, jejich popisek a scénický nápis **„Městys Rychvald“**.
 
 ## Instrukce pro nový chat
 

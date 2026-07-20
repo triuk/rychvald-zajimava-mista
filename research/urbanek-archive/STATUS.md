@@ -6,7 +6,7 @@
 - Větev: `agent/import-urbanek-pilot`
 - Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
 - Import originálů: `8c6e63be838f5b22ca8eed90e7cc9127352ebe5f`
-- Poslední dokončený revizní checkpoint: `77a1ecb796c90a678e80b715f97e6894682c307a`
+- Poslední dokončený OCR checkpoint: `75cd91620126f70787899912f3f11ccc150a8d1f`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
 Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a `clanky-z-ceskeho-slova-grouping-corrections.yml`.
@@ -17,8 +17,7 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 - Chybějící nebo nečitelné části textu nedoplňovat odhadem.
 - Samostatné články a fragmenty ukládat pod vlastními stabilními ID.
 - Stav `visually_verified` přidělit jen po úplném porovnání s obrazem.
-- U úplně ověřeného zachovaného textu s fyzickou mezerou používat `visually_verified_with_lacuna` a ponechat příslušnou nejistotu otevřenou.
-- Scénický text, který je jen částečně čitelný a doplněný dobovým popiskem, označit `visually_verified_with_caption_support`.
+- Fyzicky chybějící text ponechat jako samostatnou otevřenou nejistotu.
 - Každou dávku commitnout a aktualizovat stav i registr nejistot.
 
 ## Stav etap
@@ -29,7 +28,7 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 | Technický audit a inventář | probíhá po kolekcích |
 | Klasifikace větrných mlýnů | dokončena |
 | První OCR Českého slova | dokončeno pro všech 37 obrazů |
-| Druhá vizuální kontrola Českého slova | probíhá; zkontrolováno 48 textových jednotek |
+| Druhá vizuální kontrola Českého slova | **dokončena pro všech 56 jednotek** |
 | Řešení nejistot | centrálně evidováno |
 | Ostatní tři pilotní kolekce | čekají |
 | Pull request | čeká |
@@ -39,64 +38,52 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 Soubor: `research/urbanek-archive/uncertainties.yml`
 
 - `open`: 15
-- `in_progress`: 1
+- `in_progress`: 0
 - `deferred`: 2
-- `resolved`: 4
+- `resolved`: 5
 - `not_actionable`: 1
 - celkem: 23
 
-Nadále otevřené textové problémy:
+`URB-U-0018` je vyřešena: druhá řádková a strukturální kontrola byla dokončena pro všechny OCR jednotky Českého slova.
 
-- `URB-U-0020`: fyzicky zničený úsek v `19.jpg`.
+Nadále otevřené fyzické mezery:
+
+- `URB-U-0020`: poškozený úsek v `19.jpg`.
 - `URB-U-0021`: chybějící sloupcový přechod v `21.jpg`.
-- `URB-U-0022`: poškozený blok v `33.jpg`, který bude znovu posouzen v poslední dávce.
-- `URB-U-0023`: neidentifikované zakončení cizího článku `019-b`.
+- `URB-U-0022`: poškozený blok v `33.jpg`.
 
 ## Pilotní kolekce
 
 1. `Rychvaldské větrné mlýny` – klasifikace všech 31 obrazů a první OCR dokončeny.
-2. `Články z Českého slova` – první OCR dokončeno, druhá kontrola probíhá.
-3. `Ochotníci rychvald` – čeká.
+2. `Články z Českého slova` – první OCR i druhá vizuální kontrola dokončeny.
+3. `Ochotníci rychvald` – následuje inventář.
 4. `fotodokument/den po dešti` – čeká.
 5. `Nálet na Ostravu 1944` – čeká.
 
-## Články z Českého slova
+## Články z Českého slova – uzavřený výsledek
 
-- 37 obrazových položek bylo ověřeno, seskupeno a přepsáno v prvním průchodu.
-- Druhou kontrolou prošlo 48 jednotek od `001` po `030`, včetně oddělených fragmentů a scénického textu `025`.
-- `020` a `022-a` mají stav `visually_verified_with_lacuna`.
-- `025-scene-text` má stav `visually_verified_with_caption_support`: na tabuli je přímo rozpoznatelné zejména `Rychvald`, celé znění `Městys Rychvald` potvrzuje dobový popisek.
-- Ostatní dokončené jednotky mají stav `visually_verified`.
-
-### Výsledek dávky `024–030`
-
-- `024`: potvrzeny podoby `Malhomm`, `Malhomme`, `Szustik`, `Rziman` a `Kotas` přesně podle tisku.
-- `025`: celý fotografický popisek odpovídá obrazu; dokumentový a scénický text zůstávají oddělené.
-- `026`: potvrzeno jméno faráře `Syrčin`; zachováno neobvyklé tištěné spojení `opustili čs. území`.
-- `027-a` a `027-b`: potvrzen skutečný tok překrývající se sazby horního a dolního článku.
-- `028`: zachováno tištěné vypuštění předložky před spojením `obsazeného území Těšínska`.
-- `029-a`, `029-b` a `030`: text odpovídal obrazům bez obsahové opravy.
-- V této dávce nevznikla nová materiální nejistota.
+- 37 obrazových položek bylo ověřeno, seskupeno a přepsáno.
+- Druhou kontrolou prošlo 56 textových a scénických jednotek.
+- Strukturální opravy zahrnují samostatné jednotky `004-b2`, `007-b`, `010-b` a `019-b`.
+- `020`, `022-a` a `035` mají ověřený zachovaný text, ale otevřené fyzické lakuny.
+- `025-scene-text` je potvrzen kombinací částečně čitelné tabule a úplného dobového popisku.
+- V závěrečné dávce byly mimo jiné potvrzeny podoby `Karkoška`, `Karkošku`, `Karkoszky`, `Jan Žebrok`, `K. Buchta` a drobné vydavatelské údaje z 31. října 1938.
+- Chybějící text nebyl nikde rekonstruován odhadem.
 
 ## Následující přesný krok
 
-Dokončit druhou řádkovou kontrolu posledních položek:
+Vytvořit úplný rekurzivní inventář kolekce `Ochotníci rychvald`:
 
-- `031`;
-- společný článek `032-033`;
-- `034`;
-- `035` s otevřenou lakunou `URB-U-0022`;
-- `036`;
-- `037-a`, `037-b`, `037-c`.
-
-Zdrojové obrazy: `30.jpg`, `31 a.jpg`, `31 b.jpg`, `32.jpg`, `33.jpg`, `34.jpg`, `35.jpg`.
-
-Po dokončení této dávky uzavřít `URB-U-0018`, označit druhou vizuální kontrolu kolekce jako dokončenou a teprve poté přejít k další pilotní kolekci.
+1. získat přesný obsah a strukturu z Google Drivu;
+2. rozlišit obrazové soubory, dokumentové skeny a technické cache;
+3. přidělit stabilní ID s prefixem `urbanek-ochotnici`;
+4. ověřit přesné cesty a blob SHA v pilotní větvi;
+5. teprve poté zahájit vizuální klasifikaci a OCR.
 
 ## Instrukce pro nový chat
 
-1. Načíst `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a korekční soubor seskupení.
+1. Načíst autoritativní soubory.
 2. Ověřit aktuální hlavu větve.
 3. Neměnit originály.
-4. Pokračovat pouze uvedenou poslední revizní dávkou.
-5. Po dávce aktualizovat všechny autoritativní soubory.
+4. Pokračovat inventářem `Ochotníci rychvald`.
+5. Po malé dokončené dávce aktualizovat checkpoint.

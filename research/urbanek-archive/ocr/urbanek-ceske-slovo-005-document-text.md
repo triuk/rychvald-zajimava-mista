@@ -3,8 +3,9 @@
 - Zdroj: `urbanek-ceske-slovo-005`
 - Soubor: `Články z Českého slova/4.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
-- Druh: úplný nebo téměř úplný novinový výstřižek
+- Stav: `visually_verified`
+- Druh: úplný novinový výstřižek
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpisy
 
@@ -20,9 +21,10 @@ Orlovské náměstí bylo zaplněno hlava na hlavě, bylo zde přes 20.000 lidí
 
 Panu presidentovi a vládě byl poslán z projevu pozdravný telegram, v němž se praví: V plné důvěře, že Vy pane presidente a naše vláda, tak jako doposud budete se říditi jen zájmy naší vlasti, slibujeme: Zůstáváme Vám vždycky věrni. Rovněž zůstaneme věrni státu, ať se stane cokoli. Zachováme železný klid a disciplinu, tak jak to činí naše milovaná armáda. Nepřítel nás najde sjednocené. V těžkých chvílích státu zůstaneme při své práci, a zachováme za všech okolností klid. —vb—
 
-## Poznámky ke spolehlivosti
+## Poznámky k ověření
 
-- Přepis zachovává dobové tvary `presidentem`, `říditi` a `disciplinu`.
-- Surname starosty je na snímku čitelné jako `Jarábáč`, ale kvůli kvalitě výstřižku má být před jmenným použitím ještě vizuálně nebo pramenně ověřeno.
-- Spojení `byl poslán z projevu pozdravný telegram` je přepsáno doslovně, přestože stylisticky působí neobvykle.
-- Text představuje dobové novinové zpravodajství; údaje o počtu účastníků a další tvrzení nejsou tímto přepisem nezávisle ověřeny.
+- Všechny tři sloupce byly znovu porovnány se zdrojovým obrazem.
+- Příjmení starosty je po zvětšení čitelné jako `Jarábáč`; OCR nejistota `URB-U-0014` může být uzavřena.
+- Potvrzení podoby příjmení v obraze není nezávislým historickým ověřením identity starosty.
+- Dobové tvary `presidentem`, `říditi`, `disciplinu` a neobvyklé spojení `byl poslán z projevu pozdravný telegram` odpovídají předloze.
+- Údaj o 20.000 účastnících a ostatní tvrzení článku nejsou tímto OCR historicky ověřena.

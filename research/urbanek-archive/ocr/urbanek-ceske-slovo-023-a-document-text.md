@@ -4,9 +4,10 @@
 - Nadřazený obraz: `urbanek-ceske-slovo-023`
 - Soubor: `Články z Českého slova/22.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek ve složeném výstřižku
 - Signatura: `-vb-`
+- Vizuálně ověřeno: `2026-07-21`
 
 ## Nadpisy
 
@@ -26,8 +27,8 @@ Včera byly vylepeny na území celého Těšínska vyhlášky, podepsané sprá
 
 ## Poznámky ke spolehlivosti
 
-- Tři novinové sloupce byly převedeny do souvislého pořadí zleva doprava.
-- Dobové tvary `prozatímně vysazeni`, `musili`, `k disposici` a `konsulem` byly zachovány.
-- Názvy dolů `Hedvika`, `Pokrok` a `Nová jáma` i osobní jméno `Leon Malhomme` jsou přepsány podle tisku.
-- Zkratka `MOL` je přepsána doslovně a nebyla v OCR rozvíjena.
+- Tři novinové sloupce byly při druhé kontrole řádkově porovnány s předlohou a převedeny do souvislého pořadí zleva doprava.
+- Dobové a stylisticky neobvyklé tvary `prozatímně vysazeni`, `musili`, `k disposici` a `konsulem` byly zachovány podle obrazu.
+- Názvy dolů `Hedvika`, `Pokrok` a `Nová jáma` i osobní jméno `Leon Malhomme` byly potvrzeny jako podoby vytištěné v předloze.
+- Zkratka `MOL` je přepsána doslovně a nebyla rozvíjena.
 - Článek je na snímku zachycen celý; jeho tvrzení nejsou tímto přepisem historicky ověřena.

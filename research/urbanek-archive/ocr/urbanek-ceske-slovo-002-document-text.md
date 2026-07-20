@@ -3,10 +3,11 @@
 - Zdroj: `urbanek-ceske-slovo-002`
 - Soubor: `Články z Českého slova/2   Obsah Mnichovské dohody, otázka požadavků Polska měla být řešena později, viz Dodatková prohlášení.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
-- Druh: úplný nebo téměř úplný novinový výstřižek
+- Stav: `visually_verified`
+- Druh: úplný novinový výstřižek
 - Datace v textu: Berlín, 30. září 1938
 - Agentura: ČTK
+- Vizuálně ověřeno: `2026-07-20`
 
 ## Nadpisy
 
@@ -50,9 +51,10 @@ Vláda Jeho Veličenstva spojeného království Velké Britanie a vláda franco
 
 Veškeré otázky, vyplývající z postoupení území, považují se za podléhající kompetenci mezinárodního výboru.
 
-## Poznámky ke spolehlivosti
+## Poznámky k ověření
 
+- Celý viditelný text ve všech třech sloupcích byl znovu porovnán se zdrojovým obrazem, včetně nadpisů, bodů 1–8 a dodatkových prohlášení.
+- Při druhé kontrole nebyla nalezena textová odchylka vyžadující opravu.
 - Přepis zachovává dobový pravopis a tvary jako `Italie`, `principielně`, `ethnografického`, `býti` a `konati`.
-- Členění sloupců bylo při přepisu převedeno do běžného pořadí od levého sloupce přes prostřední k pravému.
-- V bodu 6 je v předloze čitelné spojení „přesně ethnografického rozhraní“.
+- Členění sloupců bylo převedeno do běžného pořadí od levého sloupce přes prostřední k pravému.
 - Přepis není ověřen proti úřednímu znění dohody; zachycuje pouze text otištěný v tomto novinovém výstřižku.

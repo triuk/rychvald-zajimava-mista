@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-036`
 - Soubor: `Články z Českého slova/34.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek
 - Signatura: `-jš-`
 
@@ -19,6 +19,6 @@ Před Domem umění v Mor. Ostravě měli včera dopoledne schůzku uprchlíci z
 
 ## Poznámky ke spolehlivosti
 
-- Článek je na snímku zachycen celý.
+- Článek je na snímku zachycen celý a byl řádkově porovnán s předlohou.
 - Zkratka `Mor.` a dobový tvar `petřvaldští` byly zachovány.
 - Tvrzení článku o národnostním složení, právním výkladu a požadavku plebiscitu nejsou tímto OCR historicky ověřena.

@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-034`
 - Soubor: `Články z Českého slova/32.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek
 - Signatura: `-oj-`
 
@@ -17,6 +17,6 @@ Na Těšínsku bylo vydáno nové nařízení, že všechny sňatky, které byly
 
 ## Poznámky ke spolehlivosti
 
-- Článek je na snímku zachycen celý.
+- Článek je na snímku zachycen celý a byl řádkově porovnán s předlohou.
 - Dobové tvary `býti`, `neb`, `římsko-katolickém` a zkratka `čs.` byly zachovány.
 - Znění údajného nařízení ani jeho právní platnost nejsou tímto OCR nezávisle ověřeny.

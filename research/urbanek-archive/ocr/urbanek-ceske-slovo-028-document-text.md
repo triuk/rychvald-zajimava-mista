@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ceske-slovo-028`
 - Soubor: `Články z Českého slova/27.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný novinový článek
 - Signatura: `-vb-`
 
@@ -19,7 +19,8 @@ Přesto, že některé polské úřední kruhy slíbily při úředních jednán
 
 ## Poznámky ke spolehlivosti
 
-- Dva novinové sloupce byly převedeny do souvislého pořadí zleva doprava.
+- Dva novinové sloupce byly převedeny do souvislého pořadí zleva doprava a řádkově porovnány s obrazem.
 - Dobové tvary `zjednati`, `delimitační`, `Karvinné`, `čs.` a `nastoupiti` byly zachovány.
-- Označení dolu `jáma Václav` a vlastníka `čs. Zbrojovka` jsou přepsána podle tisku; jejich historická správnost není tímto OCR ověřena.
+- Tištěná věta postrádá před spojením `obsazeného území Těšínska` předložku `z`; nebyla jazykově doplňována.
+- Označení dolu `jáma Václav` a vlastníka `čs. Zbrojovka` byla potvrzena jako přesný přepis tisku; jejich historická správnost tím není samostatně ověřena.
 - Článek je na snímku zachycen celý.

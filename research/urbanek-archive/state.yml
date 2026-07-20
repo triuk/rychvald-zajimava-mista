@@ -1,0 +1,98 @@
+project: urbanek-archive
+repository: triuk/rychvald-zajimava-mista
+branch: agent/import-urbanek-pilot
+
+source:
+  root: sources/osobni-archiv-jaromira-urbanka
+  attribution: "Z osobního archivu p. Jaromíra Urbánka."
+  permission_confirmed: true
+  preserve_original_paths: true
+  preserve_original_filenames: true
+  modify_originals: false
+
+checkpoints:
+  import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
+  ocr_rules_commit: 62486dcbdfd7c63188720dc1d5e359a9b203ac79
+  status_file_commit: 15a00152622b6a5bbd87ff51d6b24f3a91d2b5cc
+
+technical_files:
+  keep:
+    - Thumbs.db
+    - ZbThumbnail.info
+  classification: technical_thumbnail_cache
+  include_in_standard_ocr: false
+  include_in_photo_classification: false
+  future_analysis_allowed: true
+
+ocr:
+  status: pending
+  machine_output_status: machine_unverified
+  categories:
+    document_text:
+      enabled: true
+      examples:
+        - newspaper_article
+        - document
+        - caption
+        - title_page
+    scene_text:
+      enabled: true
+      purpose: identify_or_refine_image_content
+      examples:
+        - building_inscription
+        - sign
+        - street_plate
+        - memorial_plaque
+        - shop_sign
+        - poster
+        - banner
+        - vehicle_marking
+      record_approximate_location: true
+  infer_missing_text: false
+
+phases:
+  import:
+    status: completed
+  preserve_technical_thumbnail_caches:
+    status: completed
+  ocr_policy:
+    status: completed
+  technical_audit:
+    status: in_progress
+  inventory:
+    status: pending
+  pilot_classification:
+    status: pending
+  ocr_processing:
+    status: pending
+  draft_pull_request:
+    status: pending
+
+pilot_collections:
+  - name: Rychvaldské větrné mlýny
+    status: pending
+  - name: Články z Českého slova
+    status: pending
+  - name: Ochotníci rychvald
+    status: pending
+  - name: fotodokument/den po dešti
+    status: pending
+  - name: Nálet na Ostravu 1944
+    status: pending
+
+known_findings:
+  branch_ahead_of_main_after_import: 3
+  branch_behind_main_after_import: 0
+  normalized_legacy_path_detected_after_replacement: false
+  large_connector_listing_truncated: true
+  complete_file_count_verified: false
+  checksums_complete: false
+  duplicate_analysis_complete: false
+
+next_action:
+  type: inventory_collection
+  collection: Rychvaldské větrné mlýny
+  instruction: >-
+    Create a complete file list for the collection, add rows to inventory.csv,
+    then update STATUS.md and state.yml in the same checkpoint sequence before
+    beginning content classification.

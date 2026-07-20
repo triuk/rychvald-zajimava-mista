@@ -4,10 +4,10 @@ purpose: Centrální fronta nejistot pro postupné ověřování.
 status_values: [open, in_progress, blocked, deferred, resolved, not_actionable]
 rules:
   - Každá nová nejistota dostane stabilní ID URB-U-XXXX.
-  - Původní znění se po vyřešení nemaže.
+  - Původní otázka se po vyřešení nemaže.
   - Uzavření vyžaduje resolution, evidence_added, resolved_at a resolved_by.
   - Otevřená nejistota nesmí být v publikovaném článku prezentována jako verified.
-summary: {open: 15, in_progress: 0, deferred: 2, resolved: 5, not_actionable: 1, total: 23}
+summary: {open: 16, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 25}
 items:
   - {id: URB-U-0001, status: deferred, priority: low, collection: Rychvaldské větrné mlýny, type: missing_technical_files, source_items: [urbanek-mlyny-009, urbanek-mlyny-016, urbanek-mlyny-019, urbanek-mlyny-033, urbanek-mlyny-035], question: "Doplnit pět chybějících Thumbs.db do přesných původních cest.", evidence: research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md, next_action: "Ruční upload a ověření blob SHA."}
   - {id: URB-U-0002, status: open, priority: medium, collection: Rychvaldské větrné mlýny, type: missing_original_image, source_items: [urbanek-mlyny-009], question: "Kde je původní P1010269.JPG evidovaný pouze v Thumbs.db?", evidence: research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md, next_action: "Prohledat archiv a zálohy podle názvu a obrazové podobnosti."}
@@ -21,75 +21,16 @@ items:
   - {id: URB-U-0010, status: open, priority: high, collection: Rychvaldské větrné mlýny, type: document_group_identification, source_items: [urbanek-mlyny-036, urbanek-mlyny-037, urbanek-mlyny-038], question: "Patří náčrt a fotografie k mlýnku u domu č. 339 a kde dům stál?", evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-03.yml, next_action: "Dohledat č. 339 v historických adresářích a mapách."}
   - {id: URB-U-0011, status: open, priority: low, collection: Rychvaldské větrné mlýny, type: probable_misfiled_copy, source_items: [urbanek-mlyny-039], question: "Jak souvisí kopie Kakalova mlýna se složkou domu č. 339?", evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-03.yml, next_action: "Hledat doprovodné popisky; bez dokladu považovat za referenční kopii."}
   - {id: URB-U-0012, status: deferred, priority: medium, collection: Články z Českého slova, type: missing_technical_and_original_files, source_items: [urbanek-ceske-slovo-038], question: "Kde jsou originály osmi unikátních obrazů zachovaných jen v Thumbs.db?", evidence: research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md, next_action: "Hledat podle historických názvů a doplnit Thumbs.db do větve."}
-  - id: URB-U-0013
-    status: resolved
-    priority: low
-    collection: Články z Českého slova
-    type: clipping_completeness
-    source_items: [urbanek-ceske-slovo-004-c]
-    question: Je kromě nadpisu zachován i začátek článku?
-    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-004-c-document-text.md
-    resolution: Zachován je pouze nadpis; tělo článku leží mimo obraz.
-    evidence_added: Podrobná vizuální kontrola a samostatný OCR záznam.
-    resolved_at: 2026-07-20
-    resolved_by: visual_review
-  - id: URB-U-0014
-    status: resolved
-    priority: high
-    collection: Články z Českého slova
-    type: personal_name_transcription
-    source_items: [urbanek-ceske-slovo-005]
-    question: Je příjmení orlovského starosty správně čteno jako Jarábáč?
-    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-005-document-text.md
-    resolution: Příjmení je po zvětšení zdrojového obrazu čitelné jako Jarábáč.
-    evidence_added: Druhá vizuální kontrola celého článku a zvětšený výřez řádku se jménem.
-    resolved_at: 2026-07-20
-    resolved_by: visual_review
-    note: Ověřena je podoba přepisu; historická identita osoby zůstává mimo rozsah tohoto uzavření.
-  - id: URB-U-0015
-    status: resolved
-    priority: low
-    collection: Články z Českého slova
-    type: partial_headline_transcription
-    source_items: [urbanek-ceske-slovo-007-b]
-    question: Zní oříznutý cizí nadpis skutečně Malhomme se vrátil?
-    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-007-b-document-text.md
-    resolution: Zvětšený celý obraz jednoznačně ukazuje nadpis Malhomme se vrátil.
-    evidence_added: Druhá vizuální kontrola spodního okraje zdrojového souboru 6.jpg.
-    resolved_at: 2026-07-20
-    resolved_by: visual_review
+  - {id: URB-U-0013, status: resolved, priority: low, collection: Články z Českého slova, type: clipping_completeness, source_items: [urbanek-ceske-slovo-004-c], question: "Je kromě nadpisu zachován i začátek článku?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-004-c-document-text.md, resolution: "Zachován je pouze nadpis; tělo článku leží mimo obraz.", evidence_added: "Podrobná vizuální kontrola a samostatný OCR záznam.", resolved_at: 2026-07-20, resolved_by: visual_review}
+  - {id: URB-U-0014, status: resolved, priority: high, collection: Články z Českého slova, type: personal_name_transcription, source_items: [urbanek-ceske-slovo-005], question: "Je příjmení orlovského starosty správně čteno jako Jarábáč?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-005-document-text.md, resolution: "Příjmení je po zvětšení zdrojového obrazu čitelné jako Jarábáč.", evidence_added: "Druhá vizuální kontrola celého článku a zvětšený výřez řádku se jménem.", resolved_at: 2026-07-20, resolved_by: visual_review, note: "Ověřena je podoba přepisu, nikoli nezávislá historická identita osoby."}
+  - {id: URB-U-0015, status: resolved, priority: low, collection: Články z Českého slova, type: partial_headline_transcription, source_items: [urbanek-ceske-slovo-007-b], question: "Zní oříznutý cizí nadpis skutečně Malhomme se vrátil?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-007-b-document-text.md, resolution: "Zvětšený celý obraz jednoznačně ukazuje nadpis Malhomme se vrátil.", evidence_added: "Druhá vizuální kontrola spodního okraje zdrojového souboru 6.jpg.", resolved_at: 2026-07-20, resolved_by: visual_review}
   - {id: URB-U-0016, status: not_actionable, priority: low, collection: Články z Českého slova, type: source_incomplete_person_identity, source_items: [urbanek-ceske-slovo-009], question: "Jaké je celé jméno ministra označeného jen příjmením Roman?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-009-document-text.md, next_action: "Dohledat pouze při potřebě použití a citovat samostatný externí zdroj.", reason: "Nejde o chybu OCR, ale o omezení předlohy."}
   - {id: URB-U-0017, status: open, priority: low, collection: Články z Českého slova, type: unidentified_article_fragment, source_items: [urbanek-ceske-slovo-010-b], question: "Ke kterému článku patří neidentifikovaný horní fragment se signaturou -vk-?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-010-b-document-text.md, next_action: "Přiřadit jen při nalezení celé stránky nebo sousedního výstřižku."}
-  - id: URB-U-0018
-    status: resolved
-    priority: high
-    collection: Články z Českého slova
-    type: ocr_visual_verification_batch
-    source_items: [urbanek-ceske-slovo-001..urbanek-ceske-slovo-037-c]
-    reviewed_items: [urbanek-ceske-slovo-001, urbanek-ceske-slovo-002, urbanek-ceske-slovo-003, urbanek-ceske-slovo-004-a, urbanek-ceske-slovo-004-b, urbanek-ceske-slovo-004-b2, urbanek-ceske-slovo-004-c, urbanek-ceske-slovo-005, urbanek-ceske-slovo-006, urbanek-ceske-slovo-007, urbanek-ceske-slovo-007-b, urbanek-ceske-slovo-008, urbanek-ceske-slovo-009, urbanek-ceske-slovo-010, urbanek-ceske-slovo-010-b, urbanek-ceske-slovo-011, urbanek-ceske-slovo-012, urbanek-ceske-slovo-013, urbanek-ceske-slovo-014, urbanek-ceske-slovo-015, urbanek-ceske-slovo-016-a, urbanek-ceske-slovo-016-b, urbanek-ceske-slovo-017-a, urbanek-ceske-slovo-017-b, urbanek-ceske-slovo-017-c, urbanek-ceske-slovo-017-d, urbanek-ceske-slovo-018, urbanek-ceske-slovo-019, urbanek-ceske-slovo-019-b, urbanek-ceske-slovo-020, urbanek-ceske-slovo-021-a, urbanek-ceske-slovo-021-b, urbanek-ceske-slovo-022-a, urbanek-ceske-slovo-022-b, urbanek-ceske-slovo-022-c, urbanek-ceske-slovo-022-d, urbanek-ceske-slovo-023-a, urbanek-ceske-slovo-023-b, urbanek-ceske-slovo-024, urbanek-ceske-slovo-025, urbanek-ceske-slovo-025-scene-text, urbanek-ceske-slovo-026, urbanek-ceske-slovo-027-a, urbanek-ceske-slovo-027-b, urbanek-ceske-slovo-028, urbanek-ceske-slovo-029-a, urbanek-ceske-slovo-029-b, urbanek-ceske-slovo-030, urbanek-ceske-slovo-031, urbanek-ceske-slovo-032-033, urbanek-ceske-slovo-034, urbanek-ceske-slovo-035, urbanek-ceske-slovo-036, urbanek-ceske-slovo-037-a, urbanek-ceske-slovo-037-b, urbanek-ceske-slovo-037-c]
-    question: Které znaky nebo slova je třeba opravit při druhé vizuální kontrole OCR?
-    evidence: research/urbanek-archive/ocr/
-    resolution: Druhá řádková a strukturální kontrola byla dokončena pro všechny OCR jednotky kolekce.
-    evidence_added: >-
-      Všech 56 textových a scénických jednotek bylo porovnáno se zdrojovými obrazy.
-      Opravy a nově oddělené fragmenty jsou zapsány v OCR souborech a korekčním YAML.
-      Fyzické lakuny URB-U-0020, URB-U-0021 a URB-U-0022 zůstávají samostatně otevřené.
-    resolved_at: 2026-07-21
-    resolved_by: visual_review
-  - id: URB-U-0019
-    status: resolved
-    priority: medium
-    collection: Články z Českého slova
-    type: physical_damage_text_lacuna
-    source_items: [urbanek-ceske-slovo-015]
-    question: Jaké slovo nebo slova chybějí ve větě mezi `ostatní závody` a `vnucení správci`?
-    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-015-document-text.md
-    resolution: Po zvětšení a zvýraznění je poškozené slovo čitelné jako `dosazováni`.
-    evidence_added: Zvětšený výřez přechodu třetího a čtvrtého sloupce zdrojového obrazu 14.jpg.
-    resolved_at: 2026-07-20
-    resolved_by: visual_review
-    note: Věta v tisku zní bez slovesa `jsou`; nebyla jazykově opravena.
-  - {id: URB-U-0020, status: open, priority: medium, collection: Články z Českého slova, type: physical_damage_missing_brief, source_items: [urbanek-ceske-slovo-020], question: "Jaký text nebo celá krátká zpráva chybí v poškozeném úseku mezi zprávou o dr. Benetkovi a zprávou o footballových hřištích?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-020-document-text.md, next_action: "Najít jiný výtisk nebo digitální reprodukci stejného vydání a porovnat poškozenou oblast."}
-  - {id: URB-U-0021, status: open, priority: high, collection: Články z Českého slova, type: clipping_column_discontinuity, source_items: [urbanek-ceske-slovo-022-a], question: "Jaký text spojuje nedokončenou větu v části Polské obavy o Bohumínsko s následujícím zachovaným blokem začínajícím `čs. národnosti`?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-022-a-document-text.md, next_action: "Najít celou stránku čísla 281 z 12. října 1938 nebo jiný výstřižek a doplnit chybějící sloupcový přechod."}
-  - {id: URB-U-0022, status: open, priority: medium, collection: Články z Českého slova, type: physical_damage_missing_briefs, source_items: [urbanek-ceske-slovo-035], question: "Jaký text chybí v poškozeném úseku mezi zprávou o odstranění slezské orlice z Národního domu v Doubravě a zprávou o tabulkách českých pojišťoven?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-035-document-text.md, next_action: "Najít jiný výtisk nebo digitální reprodukci stejného vydání; poškození může skrývat dokončení zprávy nebo několik celých krátkých zpráv."}
-  - {id: URB-U-0023, status: open, priority: low, collection: Články z Českého slova, type: unidentified_article_fragment, source_items: [urbanek-ceske-slovo-019-b], question: "Ke kterému článku patří zakončení zachované pouze jako `…cích. -bi-` na horním okraji 18.jpg?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-019-b-document-text.md, next_action: "Přiřadit jen při nalezení celé stránky nebo sousedního výstřižku."}
+  - {id: URB-U-0018, status: resolved, priority: high, collection: Články z Českého slova, type: ocr_visual_verification_batch, source_items: [urbanek-ceske-slovo-001..urbanek-ceske-slovo-037-c], question: "Které znaky nebo slova je třeba opravit při druhé vizuální kontrole OCR?", evidence: research/urbanek-archive/ocr/, resolution: "Druhá řádková a strukturální kontrola byla dokončena pro všech 56 OCR jednotek kolekce.", evidence_added: "Opravy a oddělené fragmenty jsou zapsány v OCR souborech a korekčním YAML; fyzické lakuny zůstávají samostatně otevřené.", resolved_at: 2026-07-21, resolved_by: visual_review}
+  - {id: URB-U-0019, status: resolved, priority: medium, collection: Články z Českého slova, type: physical_damage_text_lacuna, source_items: [urbanek-ceske-slovo-015], question: "Jaké slovo nebo slova chybějí ve větě mezi ostatní závody a vnucení správci?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-015-document-text.md, resolution: "Po zvětšení je poškozené slovo čitelné jako dosazováni.", evidence_added: "Zvětšený výřez přechodu třetího a čtvrtého sloupce 14.jpg.", resolved_at: 2026-07-20, resolved_by: visual_review}
+  - {id: URB-U-0020, status: open, priority: medium, collection: Články z Českého slova, type: physical_damage_missing_brief, source_items: [urbanek-ceske-slovo-020], question: "Jaký text nebo celá krátká zpráva chybí mezi zprávou o dr. Benetkovi a zprávou o footballových hřištích?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-020-document-text.md, next_action: "Najít jiný výtisk nebo digitální reprodukci stejného vydání."}
+  - {id: URB-U-0021, status: open, priority: high, collection: Články z Českého slova, type: clipping_column_discontinuity, source_items: [urbanek-ceske-slovo-022-a], question: "Jaký text spojuje nedokončenou větu v části Polské obavy o Bohumínsko s blokem začínajícím čs. národnosti?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-022-a-document-text.md, next_action: "Najít celou stránku čísla 281 z 12. října 1938 nebo jiný výstřižek."}
+  - {id: URB-U-0022, status: open, priority: medium, collection: Články z Českého slova, type: physical_damage_missing_briefs, source_items: [urbanek-ceske-slovo-035], question: "Jaký text chybí mezi zprávou o slezské orlici a zprávou o tabulkách českých pojišťoven?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-035-document-text.md, next_action: "Najít jiný výtisk nebo digitální reprodukci stejného vydání."}
+  - {id: URB-U-0023, status: open, priority: low, collection: Články z Českého slova, type: unidentified_article_fragment, source_items: [urbanek-ceske-slovo-019-b], question: "Ke kterému článku patří zakončení zachované pouze jako …cích. -bi- na horním okraji 18.jpg?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-019-b-document-text.md, next_action: "Přiřadit jen při nalezení celé stránky nebo sousedního výstřižku."}
+  - {id: URB-U-0024, status: deferred, priority: low, collection: Ochotníci rychvald, type: missing_technical_file, source_items: [urbanek-ochotnici-036], question: "Doplnit Thumbs.db do přesné původní cesty v pilotní větvi?", evidence: research/urbanek-archive/reports/ochotnici-rychvald-thumbnail-cache.md, next_action: "Případný ruční upload a ověření blob SHA; audit z Drivu je již dokončen."}
+  - {id: URB-U-0025, status: open, priority: medium, collection: Ochotníci rychvald, type: missing_original_images, source_items: [urbanek-ochotnici-036], question: "Kde jsou plné originály img387.jpg a ochotnicke divadlo 2xxx.jpg, známé pouze z Thumbs.db?", evidence: research/urbanek-archive/reports/ochotnici-rychvald-thumbnail-cache.md, next_action: "Prohledat ostatní složky a zálohy podle názvů a obrazové podobnosti; náhledy nepovažovat za náhradu originálů."}

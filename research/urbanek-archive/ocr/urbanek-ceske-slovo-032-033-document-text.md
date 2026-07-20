@@ -5,7 +5,7 @@
   - `Články z Českého slova/31 a.jpg`
   - `Články z Českého slova/31 b.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: jeden úplný novinový článek pokračující přes dva obrazové soubory
 
 ## Nadpisy
@@ -34,8 +34,9 @@ Tak tedy dnes mají Poláci na zabraném Těšínsku »milé klopoty«. Říkaj�
 
 ## Poznámky ke spolehlivosti
 
-- Text navazuje z konce `31 a.jpg` přímo na začátek `31 b.jpg`; při spojení nebyla zjištěna chybějící věta ani řádek.
+- Text navazuje z konce `31 a.jpg` přímo na začátek `31 b.jpg`; druhá vizuální kontrola nepotvrdila chybějící větu ani řádek.
 - Dobové tvary `organisaci`, `censura`, `odstraniti`, `prvých` a `pozvednouti` byly zachovány.
-- Výrazy `kragel a šmizla`, `švijntuvki`, `Rzecz Pospolita Polska` a `Zaolzí` jsou přepsány doslovně; nebyly jazykově opravovány ani překládány.
-- Podoby příjmení `Karkoška`, `Karkošku` a `Karkoszky` byly zachovány podle jednotlivých výskytů v tisku. Jejich přesná dobová pravopisná podoba vyžaduje druhou vizuální nebo externí kontrolu.
-- Článek je úplný, ale jeho tvrzení a citace polského tisku nejsou tímto OCR historicky ověřeny.
+- Výrazy `kragel a šmizla`, `švijntuvki`, `Rzecz Pospolita Polska` a `Zaolzí` byly potvrzeny jako přesný přepis tisku a nebyly jazykově opravovány ani překládány.
+- Podoby příjmení `Karkoška`, `Karkošku` a `Karkoszky` byly potvrzeny podle jednotlivých výskytů v tisku; historická pravopisná podoba osoby tím není samostatně ověřena.
+- Článek je úplný a celý text byl řádkově porovnán s oběma zdrojovými obrazy.
+- Tvrzení článku a citace polského tisku nejsou tímto OCR historicky ověřeny.

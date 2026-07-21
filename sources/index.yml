@@ -7395,3 +7395,39 @@ web_sources:
   notes:
     - Potenciální další pramen pro dohledání rodiny Kakalů, čísla domu a období existence mlýnku.
     - Není použit jako důkaz konkrétního tvrzení o Kakalovu mlýnu.
+
+- source_id: web-commons-rychvald-kostel-sv-anny-interier
+  title: Rychvald, kostel svaté Anny, interiér, oltář
+  document_type: online_photograph
+  institution: Wikimedia Commons
+  url: https://commons.wikimedia.org/wiki/File:Rychvald,_kostel_svaté_Anny,_interiér,_oltář.jpg
+  accessed: '2026-07-21'
+  digital_format: HTML/JPEG
+  rights:
+    status: CC-BY-SA-4.0
+  notes:
+    - Použito k obrazové identifikaci archivního souboru 304interier.JPG.
+
+- source_id: web-farnost-rychvald-kostel-sv-anny
+  title: Naše společenství – historie kostela sv. Anny
+  document_type: official_parish_webpage
+  institution: Římskokatolická farnost Rychvald
+  url: https://farnostrychvald.cz/nase-spolecenstvi/
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: unclear
+  notes:
+    - Uvádí původ hlavního neogotického oltáře v roce 1895.
+
+- source_id: web-npu-rychvald-kostel-sv-anny
+  title: Kostel sv. Anny v Rychvaldě
+  document_type: official_heritage_catalog
+  institution: Národní památkový ústav
+  url: https://pamatkovykatalog.cz/kostel-sv-anny-12895366
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: official_catalog
+  notes:
+    - Katalogové číslo 1000133204; dokumentace interiéru je vedena na parcele č. 305.

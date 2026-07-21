@@ -99,9 +99,9 @@ Soubory:
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `open`: 16;
 - `deferred`: 0;
-- `resolved`: 19;
+- `resolved`: 20;
 - `not_actionable`: 1;
-- celkem: 36.
+- celkem: 37.
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` byly uzavřeny doplněním příslušných souborů `Thumbs.db`.
 
@@ -118,6 +118,8 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 `URB-U-0007` byla uzavřena pouze v rozsahu identity obrazu: historický snímek zachycuje Kakalův mlýn. Přesná poloha, číslo domu, vlastník, datace a technologie jsou vedeny jako samostatná otevřená položka `URB-U-0036`.
 
 `URB-U-0036` se musí znovu prověřit po zpracování každé další relevantní dávky archivu, nového OCR, mapového nebo adresního pramene. Současný negativní výsledek internetového hledání není důvodem k jejímu uzavření.
+
+`URB-U-0009` byla uzavřena pouze pro identifikaci snímku jako interiéru kostela sv. Anny v Rychvaldě. Význam čísla `304` a důvod uložení ve složce Kakalova mlýna zůstávají otevřeny jako `URB-U-0037`.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

@@ -146,7 +146,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 16, in_progress: 0, deferred: 0, resolved: 19, not_actionable: 1, total: 36}
+  summary: {open: 16, in_progress: 0, deferred: 0, resolved: 20, not_actionable: 1, total: 37}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -158,11 +158,19 @@ uncertainties:
       result: kakal_mill_image_identity_confirmed_only
       evidence: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
       linked_open_item: URB-U-0036
+    - id: URB-U-0009
+      result: rychvald_saint_anne_church_interior_verified
+      evidence: research/urbanek-archive/verifications/urb-u-0009-kostel-svate-anny.md
+      linked_open_item: URB-U-0037
   active_research_threads:
     - id: URB-U-0036
       subject: Kakalův mlýn
       unresolved: [exact_location, house_number, owner_identity, construction_date, disappearance_date, technology]
       revisit_after: [new_archive_batch, new_ocr, new_map, new_address_record, matching_photo]
+    - id: URB-U-0037
+      subject: archivní kontext fotografie kostela sv. Anny
+      unresolved: [folder_relation, meaning_of_304, possible_house_or_person_reference]
+      revisit_after: [new_archive_batch, new_caption, house_number_304_reference, Kakal_family_church_relation]
   rules:
     - Open issues are not presented as verified facts.
     - A thumbnail without a standalone full file means the full original is missing.
@@ -179,6 +187,7 @@ readiness:
     - eleven full original images are missing; only thumbnails remain in caches
     - open factual conflicts and physical lacunae remain registered
     - Kakal mill identity is known but its location and history remain open in URB-U-0036
+    - church interior is identified, but filename 304 and folder relation remain open in URB-U-0037
 
 next_action:
   type: resolve_registered_uncertainties

@@ -134,13 +134,19 @@ items:
       zařízení nejsou na snímku vidět.
     subject_tags: [church_interior, altar, crucifix, religious_statue, pews]
     collection_relevance:
-      status: probable_misfiled_item
-      note: Obrazový obsah nemá zřejmý vztah k větrným mlýnům ani ke dvěma dalším souborům ve složce.
+      status: unresolved_archival_context
+      related_open_item: URB-U-0037
+      note: Fotografie zachycuje kostel sv. Anny; důvod uložení ve složce Mlýn u Kakalů zůstává neověřený.
     identification:
-      status: unverified
-      candidate_reference: "304"
-      candidate_basis: original_filename
-      note: Význam čísla 304 ani konkrétní kostel nebyly ověřeny.
+      status: verified
+      verified_name: interiér kostela svaté Anny v Rychvaldě
+      basis: [exact_visual_comparison, user_confirmation]
+      verification: research/urbanek-archive/verifications/urb-u-0009-kostel-svate-anny.md
+      external_sources:
+        - https://commons.wikimedia.org/wiki/File:Rychvald,_kostel_svaté_Anny,_interiér,_oltář.jpg
+        - https://farnostrychvald.cz/nase-spolecenstvi/
+        - https://pamatkovykatalog.cz/kostel-sv-anny-12895366
+      filename_reference_304: unverified
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -189,5 +195,5 @@ findings:
   - Uživatel potvrdil název větrný mlýn u Hebdy a funkční spojení větrného kola s mlecím soustrojím.
   - Databáze Povětrník záznam 175 a přesná obrazová shoda ověřují polohu U Skučáku 54, katalogové číslo mlýnek 48 a objektové GPS 49.8669433, 18.3910689.
   - Dřívější inference Polní 1275 je překonaná a pro lokalizaci objektu se nepoužívá.
-  - Položka 018 je kandidát na chybné zařazení; nepřesouvat ji bez dalšího dokladu.
+  - Položka 018 zachycuje interiér kostela sv. Anny v Rychvaldě; význam čísla 304 a vztah ke složce Kakalova mlýna zůstávají otevřeny v URB-U-0037.
   - Položky 021 a 022 se ponechávají na původních místech navzdory přesným duplicitám.

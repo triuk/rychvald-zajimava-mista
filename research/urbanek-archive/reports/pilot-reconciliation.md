@@ -71,9 +71,9 @@ Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úpl
 
 - `open`: 16;
 - `deferred`: 0;
-- `resolved`: 19;
+- `resolved`: 20;
 - `not_actionable`: 1;
-- celkem: 36.
+- celkem: 37.
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou uzavřeny. Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` jsou rovněž uzavřeny: příslušné plné originály chybějí.
 
@@ -82,6 +82,8 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 `URB-U-0005` je uzavřena jako `verified`: databáze Povětrník záznam 175 (mlýnek 48) uvádí U Skučáku 54 a její základní fotografie zachycuje stejný stožár, budovu a okolí jako archivní snímky. Dřívější inference Polní 1275 je překonaná.
 
 `URB-U-0007` je uzavřena pouze pro identitu historického obrazu jako Kakalův mlýn. Přesná poloha, číslo domu, vlastník, datace a technologie jsou vedeny v propojené otevřené položce `URB-U-0036`, která se musí znovu prověřovat po zpracování dalších relevantních pramenů.
+
+`URB-U-0009` je uzavřena pro identitu fotografie jako interiér kostela sv. Anny v Rychvaldě. Význam čísla `304` a vztah ke složce Kakalova mlýna jsou vedeny v propojené otevřené položce `URB-U-0037`.
 
 ## Připravenost větve
 

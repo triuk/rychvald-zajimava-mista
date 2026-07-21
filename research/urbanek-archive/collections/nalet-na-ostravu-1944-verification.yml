@@ -1,6 +1,5 @@
 collection_id: urbanek-nalet
 status: completed_with_missing_technical_file
-drive_folder: https://drive.google.com/drive/folders/1J8egU4J9OPjSNB_QrmEB9CMT9LTxmDDb
 drive_direct_items: 8
 subfolders: 0
 image_files: 7
@@ -17,5 +16,5 @@ items:
   - [urbanek-nalet-007, repo_verified, 837ff924376c5c9342aac67f3e90db292b1f64f4]
   - [urbanek-nalet-008, drive_listed_repo_missing, null]
 notes:
-  - Chybí pouze technický soubor Thumbs.db.
+  - Chybí pouze technický soubor Thumbs.db; jeho přímý Drive odkaz je zachován v inventáři.
   - Všech sedm obsahových JPEGů je ve větvi pod přesnými původními cestami.

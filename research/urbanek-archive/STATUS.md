@@ -28,12 +28,18 @@ Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncer
 - Všech 63 položek bylo klasifikováno nebo technicky auditováno.
 - Plán: `research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml`.
 
-### Dokončené textové výstupy
+### Dokončené položky
 
 - Nativní extrakce: `061`.
-- První OCR: `001`, `004`, `010`, `011`, `012`, `013`, `014`, `019`, `023`, `027`, `028`, `032–033`, `039`, `042`, `047`.
+- První OCR: `001`, `004`, `010`, `011`, `012`, `013`, `014`, `015`, `016`, `017`, `019`, `023`, `027`, `028`, `032–033`, `039`, `042`, `047`.
 - `009` je pouze kontrolní detail k `010`.
-- `019` a `028` tvoří jeden dvoustránkový článek; ruční věnování je vedeno odděleně.
+
+### Dokončená knižní skupina stran 40–45
+
+- `017-a`: celý článek o založení Sokola v Rychvaldě; dřívější přepis byl při zvětšení potvrzen bez opravy.
+- `015-017-bohdan-horak`: celý článek `Vzpomínky na Rychvald za války`, spojený přes strany 40–44.
+- `015-b`: celý článek `Episody při sčítání lidu 1910`; opravena modernizace `zvrátit` na tištěné `zvrátiti`.
+- `015-c`: zachovaný začátek `Hospodářského přehledu`; konec je neúplný a končí děleným slovem `po-`.
 
 ### Otevřené nejistoty kolekce
 
@@ -46,9 +52,11 @@ Registr obsahuje 18 otevřených, 3 odložené, 5 vyřešených a 1 neakční po
 
 ## Následující krok
 
-Zpracovat knižní strany 40–45 v pořadí `017 → 016 → 015` a oddělit:
+Přepsat rukopisné kronikové strany 260–262 v pořadí:
 
-1. sokolský článek na straně 40;
-2. pokračující vzpomínky Bohdana Horáka;
-3. článek `Episody při sčítání lidu 1910`;
-4. pouze zachovaný začátek `Hospodářského přehledu`, který pokračuje mimo dostupný snímek.
+1. `008` — strana 260;
+2. `007` — strana 261, včetně odděleného popisku vložené fotografie;
+3. `006` — primární úplnější záběr strany 262;
+4. `005` — pouze kontrolní detail strany 262.
+
+Každé nejisté rukopisné slovo musí být označeno, nikoli doplněno odhadem.

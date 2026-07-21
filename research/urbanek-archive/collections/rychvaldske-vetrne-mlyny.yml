@@ -33,12 +33,18 @@ items:
     subject_tags: [wooden_shed, roof_mounted_wind_wheel, damaged_rotor]
     visual_sequence_group: shed-wind-wheel-2011-11-22
     identification:
-      status: partially_verified
+      status: verified
+      verified_name: větrný mlýnek s turbínou
       same_object_as: [urbanek-mlyny-002, urbanek-mlyny-008]
-      candidate_location: "Potoční 564, 735 32 Rychvald"
-      location_status: partially_verified
-      basis: [user_visual_confirmation, original_filename_of_related_item, public_address_records]
-      note: Shoda objektu je potvrzena uživatelem; přímá veřejná fotografie kůlny na této adrese nebyla nalezena.
+      verified_location: "Potoční 564, 735 32 Rychvald"
+      coordinates: [49.8470979, 18.3603469]
+      basis: [user_visual_confirmation, exact_visual_match_with_povetrnik_record]
+      external_catalog:
+        database: Povětrník
+        record_id: 176
+        catalog_number: "mlýnek 49"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/176
+      note: Databázová fotografie je oříznutou verzí archivního souboru Potoční 564.jpg.
       verification: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
     ocr:
       document_text: not_applicable
@@ -55,12 +61,18 @@ items:
     subject_tags: [wooden_shed, roof_mounted_wind_wheel, damaged_rotor]
     visual_sequence_group: shed-wind-wheel-2011-11-22
     identification:
-      status: partially_verified
+      status: verified
+      verified_name: větrný mlýnek s turbínou
       same_object_as: [urbanek-mlyny-001, urbanek-mlyny-008]
-      candidate_location: "Potoční 564, 735 32 Rychvald"
-      location_status: partially_verified
-      basis: [user_visual_confirmation, original_filename_of_related_item, public_address_records]
-      note: Shoda objektu je potvrzena uživatelem; přímá veřejná fotografie kůlny na této adrese nebyla nalezena.
+      verified_location: "Potoční 564, 735 32 Rychvald"
+      coordinates: [49.8470979, 18.3603469]
+      basis: [user_visual_confirmation, exact_visual_match_with_povetrnik_record]
+      external_catalog:
+        database: Povětrník
+        record_id: 176
+        catalog_number: "mlýnek 49"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/176
+      note: Databázová fotografie je oříznutou verzí archivního souboru Potoční 564.jpg.
       verification: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
     ocr:
       document_text: not_applicable
@@ -94,14 +106,18 @@ items:
     subject_tags: [millstones, gears, transmission, outdoor_equipment]
     visual_sequence_group: geared-millstone-mechanism-2011-03-20
     identification:
-      status: partially_verified
+      status: verified
       verified_name: větrný mlýn u Hebdy
       functional_relation: confirmed_same_device_as_wind_wheel
-      candidate_location: "Polní 1275, 735 32 Rychvald"
-      coordinates: [49.8686525, 18.393563055556]
-      location_status: partially_verified
-      basis: [user_confirmation, archival_folder_name, public_address_and_registry_records]
-      note: Přímá veřejná fotografie zařízení na kandidátní adrese nebyla nalezena.
+      verified_location: "U Skučáku 54, 735 32 Rychvald"
+      coordinates: [49.8669433, 18.3910689]
+      basis: [user_confirmation, exact_visual_match_with_povetrnik_record, specialist_database_technology_description]
+      external_catalog:
+        database: Povětrník
+        record_id: 175
+        catalog_number: "mlýnek 48"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/175
+      correction_note: Dřívější inference Polní 1275 je překonaná a pro lokalizaci objektu se nepoužívá.
       verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
     ocr:
       document_text: not_applicable
@@ -118,14 +134,18 @@ items:
     subject_tags: [millstones, gears, transmission, outdoor_equipment]
     visual_sequence_group: geared-millstone-mechanism-2011-03-20
     identification:
-      status: partially_verified
+      status: verified
       verified_name: větrný mlýn u Hebdy
       functional_relation: confirmed_same_device_as_wind_wheel
-      candidate_location: "Polní 1275, 735 32 Rychvald"
-      coordinates: [49.8686525, 18.393563055556]
-      location_status: partially_verified
-      basis: [user_confirmation, archival_folder_name, public_address_and_registry_records]
-      note: Přímá veřejná fotografie zařízení na kandidátní adrese nebyla nalezena.
+      verified_location: "U Skučáku 54, 735 32 Rychvald"
+      coordinates: [49.8669433, 18.3910689]
+      basis: [user_confirmation, exact_visual_match_with_povetrnik_record, specialist_database_technology_description]
+      external_catalog:
+        database: Povětrník
+        record_id: 175
+        catalog_number: "mlýnek 48"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/175
+      correction_note: Dřívější inference Polní 1275 je překonaná a pro lokalizaci objektu se nepoužívá.
       verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
     ocr:
       document_text: not_applicable
@@ -142,14 +162,18 @@ items:
     subject_tags: [metal_tower, multi_blade_wind_wheel, rural_structure]
     visual_sequence_group: geared-millstone-mechanism-2011-03-20
     identification:
-      status: partially_verified
+      status: verified
       verified_name: větrný mlýn u Hebdy
       functional_relation: confirmed_same_device_as_millstone_mechanism
-      candidate_location: "Polní 1275, 735 32 Rychvald"
-      coordinates: [49.8686525, 18.393563055556]
-      location_status: partially_verified
-      basis: [user_confirmation, archival_folder_name, public_address_and_registry_records]
-      note: Přímá veřejná fotografie zařízení na kandidátní adrese nebyla nalezena.
+      verified_location: "U Skučáku 54, 735 32 Rychvald"
+      coordinates: [49.8669433, 18.3910689]
+      basis: [user_confirmation, exact_visual_match_with_povetrnik_record, specialist_database_technology_description]
+      external_catalog:
+        database: Povětrník
+        record_id: 175
+        catalog_number: "mlýnek 48"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/175
+      correction_note: Dřívější inference Polní 1275 je překonaná a pro lokalizaci objektu se nepoužívá.
       verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
     ocr:
       document_text: not_applicable
@@ -184,12 +208,18 @@ items:
     subject_tags: [wooden_shed, roof_mounted_wind_wheel, damaged_rotor]
     visual_relation_group: shed-wind-wheel-confirmed-same-object
     identification:
-      status: partially_verified
+      status: verified
+      verified_name: větrný mlýnek s turbínou
       same_object_as: [urbanek-mlyny-001, urbanek-mlyny-002]
-      candidate_location: "Potoční 564, 735 32 Rychvald"
-      location_status: partially_verified
-      basis: [user_visual_confirmation, original_filename, public_address_records]
-      note: Adresní místo bylo internetově ověřeno; přímá veřejná fotografie kůlny na této adrese nebyla nalezena.
+      verified_location: "Potoční 564, 735 32 Rychvald"
+      coordinates: [49.8470979, 18.3603469]
+      basis: [user_visual_confirmation, original_filename, exact_visual_match_with_povetrnik_record]
+      external_catalog:
+        database: Povětrník
+        record_id: 176
+        catalog_number: "mlýnek 49"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/176
+      note: Základní fotografie databázového záznamu je oříznutou verzí tohoto archivního souboru.
       verification: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
     ocr:
       document_text: not_applicable

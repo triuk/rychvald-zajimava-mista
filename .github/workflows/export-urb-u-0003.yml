@@ -4,13 +4,13 @@ on:
     branches: [agent/import-urbanek-pilot]
     paths:
       - research/urbanek-archive/.export-urb-u-0003
+  pull_request:
+    types: [synchronize]
 jobs:
   export:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: agent/import-urbanek-pilot
       - name: Extract thumbnail and comparison images
         run: |
           set -euo pipefail
@@ -32,22 +32,15 @@ jobs:
               start = data.find(b'\xff\xd8')
               end = data.rfind(b'\xff\xd9')
               if start >= 0 and end > start:
-                  jpeg = data[start:end+2]
-                  candidates.append((name, jpeg))
+                  candidates.append((name, data[start:end+2]))
           ole.close()
 
-          # Audit určil odpovídající stream ID 4; preferuj jej.
-          chosen = None
-          for name, jpeg in candidates:
-              if name == '4' or name.endswith('/4'):
-                  chosen = (name, jpeg)
-                  break
+          chosen = next(((name, jpeg) for name, jpeg in candidates if name == '4' or name.endswith('/4')), None)
           if chosen is None:
               raise SystemExit(f'Stream 4 not found; JPEG streams: {[n for n,_ in candidates]}')
           out.write_bytes(chosen[1])
           print(f'extracted {chosen[0]} -> {out} ({len(chosen[1])} bytes)')
 
-          # Kořenové obrázky pro lokální obrazové porovnání.
           for p in root.iterdir():
               if p.is_file() and p.suffix.lower() in {'.jpg', '.jpeg', '.png'}:
                   (Path('export/comparison') / p.name).write_bytes(p.read_bytes())

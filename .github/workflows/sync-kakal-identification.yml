@@ -1,0 +1,68 @@
+name: Sync Kakal mill identification
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.sync-kakal
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Update classification and status
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p=Path('research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml')
+          s=p.read_text('utf-8')
+          s=s.replace('''    identification:\n      status: unverified\n      note: Konkrétní identifikace není v názvu této položky uvedena.\n''','''    identification:\n      status: verified_by_archive_owner_confirmation\n      verified_name: Kakalův mlýn\n      basis: [user_archive_knowledge]\n      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md\n      note: Přesná poloha, datace, vlastník a technické vybavení zůstávají neověřené.\n''',1)
+          s=s.replace('''    identification:\n      status: unverified\n      candidate_name: Kakalův mlýn\n      candidate_basis: original_filename\n      note: Přiřazení názvu nebylo nezávisle ověřeno.\n''','''    identification:\n      status: verified_by_archive_owner_confirmation\n      verified_name: Kakalův mlýn\n      basis: [original_filename, user_archive_knowledge]\n      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md\n      note: Jde o výřez téhož historického snímku; přesná poloha, datace, vlastník a technologie zůstávají neověřené.\n''',1)
+          s=s.replace('  - Ověřit, zda historický obraz urbanek-mlyny-011 a 012 skutečně zachycuje Kakalův mlýn.\n','')
+          p.write_text(s,'utf-8')
+
+          p=Path('research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml')
+          s=p.read_text('utf-8')
+          s=s.replace('''    identification:\n      status: unverified\n      candidate_name: Kakalův mlýn\n      candidate_basis: parent_folder_name\n      note: Zařazení do složky podporuje kandidátní název, ale nejde o nezávislé ověření.\n''','''    identification:\n      status: verified_by_archive_owner_confirmation\n      verified_name: Kakalův mlýn\n      basis: [parent_folder_name, user_archive_knowledge]\n      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md\n      note: Přesná binární kopie celého historického snímku; poloha, datace, vlastník a technologie zůstávají neověřené.\n''',1)
+          s=s.replace('''    identification:\n      status: unverified\n      candidate_name: Kakalův mlýn\n      candidate_basis: original_filename_and_parent_folder\n      note: Shoda názvu souboru a složky stále nepředstavuje nezávislé historické ověření.\n''','''    identification:\n      status: verified_by_archive_owner_confirmation\n      verified_name: Kakalův mlýn\n      basis: [original_filename, parent_folder_name, user_archive_knowledge]\n      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md\n      note: Přesná binární kopie výřezu; poloha, datace, vlastník a technologie zůstávají neověřené.\n''',1)
+          p.write_text(s,'utf-8')
+
+          p=Path('research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-03.yml')
+          s=p.read_text('utf-8')
+          s=s.replace('''    identification:\n      status: unverified\n      candidate_name: Kakalův mlýn\n      candidate_basis: original_filename\n''','''    identification:\n      status: verified_by_archive_owner_confirmation\n      verified_name: Kakalův mlýn\n      basis: [original_filename, user_archive_knowledge]\n      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md\n      note: Identita obrazu je potvrzena; důvod uložení kopie ve složce domu č. 339 zůstává neověřený.\n''',1)
+          p.write_text(s,'utf-8')
+
+          for fn in ['research/urbanek-archive/STATUS.md','research/urbanek-archive/state.yml','research/urbanek-archive/reports/pilot-reconciliation.md']:
+              p=Path(fn); s=p.read_text('utf-8')
+              s=s.replace('open: 16','open: 15').replace('resolved: 18','resolved: 19')
+              s=s.replace('`open`: 16','`open`: 15').replace('`resolved`: 18','`resolved`: 19')
+              p.write_text(s,'utf-8')
+
+          p=Path('research/urbanek-archive/STATUS.md'); s=p.read_text('utf-8')
+          marker='Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot'
+          note='`URB-U-0007` byla uzavřena potvrzením uživatele, že historický obraz zachycuje Kakalův mlýn. Veřejný web ani databáze Povětrník neposkytly adresu, dataci, vlastníka nebo technické údaje; tyto atributy zůstávají neověřené.\n\n'
+          if note not in s and marker in s: s=s.replace(marker,note+marker,1)
+          p.write_text(s,'utf-8')
+
+          p=Path('research/urbanek-archive/state.yml'); s=p.read_text('utf-8')
+          marker='  rules:\n'
+          entry='''    - id: URB-U-0007\n      result: kakal_mill_image_confirmed_details_unverified\n      evidence: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md\n'''
+          if entry not in s and marker in s: s=s.replace(marker,entry+marker,1)
+          p.write_text(s,'utf-8')
+
+          p=Path('sources/index.yml'); s=p.read_text('utf-8')
+          if 'source_id: web-familysearch-rychvald-historical-records' not in s:
+              s += '''\n- source_id: web-familysearch-rychvald-historical-records\n  title: Rychvald – matriky a sčítací operáty\n  document_type: online_archivni_katalog\n  institution: FamilySearch / Zemský archiv v Opavě\n  urls:\n    census: https://www.familysearch.org/search/catalog/2156783\n    church_records: https://www.familysearch.org/cs/search/catalog/2780537\n  accessed: '2026-07-21'\n  time_period:\n    from: '1784'\n    to: '1952'\n  file: null\n  digital_format: catalog_and_digitized_images\n  readability:\n    status: catalog_verified_images_not_reviewed\n    note: Katalogové rozsahy byly ověřeny; jednotlivé obrazové jednotky nebyly pro rodinu Kakalů ručně prohledány.\n  rights:\n    status: access_may_require_login_or_familysearch_center\n  notes:\n    - Potenciální další pramen pro dohledání rodiny Kakalů, čísla domu a období existence mlýnku.\n    - Není použit jako důkaz konkrétního tvrzení o Kakalovu mlýnu.\n'''
+          p.write_text(s,'utf-8')
+          PY
+          git config user.name "OpenAI Agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-03.yml research/urbanek-archive/STATUS.md research/urbanek-archive/state.yml research/urbanek-archive/reports/pilot-reconciliation.md sources/index.yml
+          git commit -m "Sync Kakal mill identification" || exit 0
+          git push origin HEAD:agent/import-urbanek-pilot

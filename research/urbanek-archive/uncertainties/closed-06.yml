@@ -1,0 +1,21 @@
+schema_version: 1
+scope: closed_item_0007
+items:
+  - id: URB-U-0007
+    status: resolved
+    priority: high
+    collection: Rychvaldské větrné mlýny
+    type: historical_image_identification
+    source_items: [urbanek-mlyny-011, urbanek-mlyny-012, urbanek-mlyny-021, urbanek-mlyny-022, urbanek-mlyny-039]
+    question: "Zachycuje historický obraz skutečně Kakalův mlýn?"
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml
+    resolution: >-
+      Uživatel se znalostí osobního archivu potvrdil, že historický obraz zachycuje
+      Kakalův mlýn v Rychvaldu. Celý snímek a jeho výřez jsou dochovány v pěti
+      souborech, z nichž tři jsou přesné binární kopie. Ve veřejných internetových
+      zdrojích nebyly nalezeny další ověřené údaje o poloze, dataci, majiteli ani technologii.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+    resolved_at: 2026-07-21
+    resolved_by: user_confirmation_and_exhaustive_public_source_search
+    confidence: verified_by_archive_owner_confirmation
+    unresolved_attributes: [exact_location, date, owner_identity, technology]

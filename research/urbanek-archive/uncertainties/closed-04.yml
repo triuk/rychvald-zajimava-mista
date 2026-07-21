@@ -11,18 +11,29 @@ items:
     evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml
     resolution: >-
       Uživatel potvrdil, že všechny snímky zachycují větrný mlýn u Hebdy a že větrné
-      kolo s venkovním mlecím soustrojím tvoří jeden funkční celek. Nejsilnějším
-      internetově dohledaným kandidátem polohy je Polní 1275, Rychvald
-      (49.8686525, 18.393563055556), dlouhodobě veřejně spojená s Lumírem Hebdou.
-      Přímá veřejná fotografie nebo text výslovně spojující mlýn s touto adresou
-      nalezeny nebyly, proto je lokalizace částečně ověřená.
+      kolo s venkovním mlecím soustrojím tvoří jeden funkční celek. Databáze Povětrník
+      jej eviduje jako záznam 175, katalogové číslo mlýnek 48, na adrese U Skučáku 54
+      v Rychvaldu a uvádí objektové souřadnice 49.8669433, 18.3910689. Základní
+      databázová fotografie zachycuje stejný stožár, budovu a okolí jako archivní
+      P1010445.JPG. Lokalizace i identita jsou ověřeny.
     evidence_added: >-
-      Uživatelské vizuální a věcné potvrzení; veřejná adresní a rejstříková data;
-      research/urbanek-archive/verifications/urb-u-0005-hebda-location.md.
+      Uživatelské vizuální a věcné potvrzení; přesná obrazová shoda s databázovým
+      záznamem Povětrník 175; technický a lokalizační popis v
+      research/urbanek-archive/verifications/urb-u-0005-hebda-location.md;
+      http://www.povetrnik.cz/vetrne-mlyny/detail/175.
+    correction_note: >-
+      Dřívější inference Polní 1275 byla založena pouze na veřejné adresní vazbě na
+      Lumíra Hebdu a je překonaná objektově specifickým záznamem Povětrníku. Pro další
+      práci se jako poloha mlýnku nepoužívá.
     resolved_at: 2026-07-21
-    resolved_by: user_confirmation_and_web_location_inference
-    confidence: partially_verified
-    candidate_location:
-      address: "Polní 1275, 735 32 Rychvald"
-      latitude: 49.8686525
-      longitude: 18.393563055556
+    resolved_by: user_confirmation_and_povetrnik_database_verification
+    confidence: verified
+    verified_location:
+      address: "U Skučáku 54, 735 32 Rychvald"
+      latitude: 49.8669433
+      longitude: 18.3910689
+    external_catalog:
+      database: Povětrník
+      record_id: 175
+      catalog_number: "mlýnek 48"
+      url: http://www.povetrnik.cz/vetrne-mlyny/detail/175

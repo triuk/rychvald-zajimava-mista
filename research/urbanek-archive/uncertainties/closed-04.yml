@@ -1,0 +1,28 @@
+schema_version: 1
+scope: closed_item_0005
+items:
+  - id: URB-U-0005
+    status: resolved
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: object_location_identification
+    source_items: [urbanek-mlyny-004, urbanek-mlyny-005, urbanek-mlyny-006, urbanek-mlyny-013, urbanek-mlyny-014, urbanek-mlyny-015]
+    question: "Je zařízení skutečně mlýn u Hebdy a jaké je jeho místo a funkční zapojení?"
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml
+    resolution: >-
+      Uživatel potvrdil, že všechny snímky zachycují větrný mlýn u Hebdy a že větrné
+      kolo s venkovním mlecím soustrojím tvoří jeden funkční celek. Nejsilnějším
+      internetově dohledaným kandidátem polohy je Polní 1275, Rychvald
+      (49.8686525, 18.393563055556), dlouhodobě veřejně spojená s Lumírem Hebdou.
+      Přímá veřejná fotografie nebo text výslovně spojující mlýn s touto adresou
+      nalezeny nebyly, proto je lokalizace částečně ověřená.
+    evidence_added: >-
+      Uživatelské vizuální a věcné potvrzení; veřejná adresní a rejstříková data;
+      research/urbanek-archive/verifications/urb-u-0005-hebda-location.md.
+    resolved_at: 2026-07-21
+    resolved_by: user_confirmation_and_web_location_inference
+    confidence: partially_verified
+    candidate_location:
+      address: "Polní 1275, 735 32 Rychvald"
+      latitude: 49.8686525
+      longitude: 18.393563055556

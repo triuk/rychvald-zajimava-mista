@@ -1,0 +1,44 @@
+collection_id: urbanek-ochotnici
+status: active_corrections
+basis: detailed_ocr_review
+
+corrections:
+  - source_item: urbanek-ochotnici-017
+    original_assessment: >-
+      The left page was treated as the ending of an earlier Sokol text and the start
+      of Bohdan Horák's article.
+    corrected_assessment:
+      physical_page: 40
+      text_units:
+        - id: urbanek-ochotnici-017-a
+          title: "Založení tělocvičné jednoty „Sokol“ v Rychvaldě"
+          completeness: complete_visible_article
+          evidence: >-
+            The text has its own title, begins with the founding context and ends with
+            the explicit closing sentence „Vzpomínáme a nezapomeneme.“
+        - id: urbanek-ochotnici-017-b
+          title: "Vzpomínky na Rychvald za války"
+          completeness: article_start
+          next_items: [urbanek-ochotnici-016, urbanek-ochotnici-015]
+
+  - source_item: urbanek-ochotnici-015
+    corrected_assessment:
+      physical_pages: [44, 45]
+      text_units:
+        - id: urbanek-ochotnici-015-016-017-b
+          title: "Vzpomínky na Rychvald za války"
+          completeness: article_conclusion
+        - id: urbanek-ochotnici-015-b
+          title: "Episody při sčítání lidu 1910"
+          completeness: complete_article
+        - id: urbanek-ochotnici-015-c
+          title: "Hospodářský přehled"
+          completeness: beginning_only
+          ending: "Dřívějšímu po-"
+          uncertainty: URB-U-0029
+
+outputs:
+  - research/urbanek-archive/ocr/urbanek-ochotnici-017-a-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-015-016-017-b-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-015-b-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-015-c-document-text.md

@@ -7,39 +7,58 @@ Datum ověření: 2026-07-21
 - Fotografie `urbanek-mlyny-004`, `005`, `006`, `013`, `014` a `015` zachycují větrný mlýn označovaný jako **mlýn u Hebdy**.
 - Větrné kolo na příhradové věži a venkovní mlecí soustrojí tvoří jeden funkční celek.
 
-## Internetové ověření polohy
+## Ověření databází Povětrník
 
-Ve veřejných adresních a rejstříkových datech je s Rychvaldem doložen Lumír Hebda na adrese:
+Databáze Povětrník eviduje tentýž objekt jako záznam **175**, katalogové číslo **mlýnek 48**, na adrese:
 
-**Polní 1275, 735 32 Rychvald**
+**U Skučáku 54, 735 32 Rychvald**
 
-Souřadnice adresního místa:
+Objektové souřadnice uvedené v mapě záznamu:
 
-- zeměpisná šířka: `49.8686525`
-- zeměpisná délka: `18.393563055556`
+- zeměpisná šířka: `49.8669433`;
+- zeměpisná délka: `18.3910689`.
 
-Adresní záznam uvádí Lumíra Hebdu na tomto místě od 7. listopadu 2001, tedy před pořízením fotografií dne 20. března 2011.
+Základní fotografie záznamu Povětrník zachycuje stejný příhradový stožár, stejnou větrnou turbínu, sousední budovu i okolní stromy jako archivní soubor `větrný mlýn u hebdy/P1010445.JPG`. Obrazová shoda je jednoznačná.
 
-Rychvaldský zpravodaj 05/2015 zároveň identifikuje Lumíra Hebdu jako dlouholetého rychvaldského včelaře a uvádí jeho vztah k hospodářství a hospodářským zvířatům. To podporuje místní a venkovský kontext, ale samo o sobě nedokládá větrný mlýn ani jeho adresu.
+Databáze dále uvádí:
 
-## Vyhodnocení
+- polohu 1 km východně od kostela;
+- vznik přibližně roku 1910;
+- příhradový stožár s řemeslnou větrnou turbínou typu Eclipse o třiceti lopatkách;
+- kovovou svislou hřídel;
+- dva pískovcové mlýnské kameny o průměru 0,47 m a výškách 0,23 a 0,15 m;
+- jeden dochovaný obyčejný mlecí celek;
+- zánik původního objektu mlýnku, z něhož se dochovala technologie a stožár.
 
-Nejsilnějším dohledaným kandidátem polohy je **Polní 1275, Rychvald**. Jde však o inferenci založenou na:
+## Oprava předchozí inference
 
-1. archivním označení „u Hebdy“;
-2. uživatelském potvrzení identity a funkčního spojení zařízení;
-3. veřejně doloženém dlouhodobém spojení Lumíra Hebdy s adresou Polní 1275;
-4. časové kompatibilitě adresního záznamu s fotografiemi z roku 2011.
+Adresa **Polní 1275**, dříve odvozená pouze z veřejné adresní vazby na Lumíra Hebdu, nebyla objektovým dokladem a ukázala se jako nesprávná lokalizace mlýnku. Tato původní inference se zachovává v historii ověření jako překonaná; pro další práci se nepoužívá.
 
-Veřejný zdroj, který by výslovně uváděl „větrný mlýn u Hebdy stál na Polní 1275“, ani nezávislá veřejná fotografie zařízení na této adrese nalezeny nebyly. Lokalizace se proto eviduje jako `partially_verified`, nikoli `verified`.
+Objektově doložená poloha je **U Skučáku 54, Rychvald**.
 
-## Použité internetové zdroje
+## Jistota
 
-1. Měšec.cz, „Rychvald, ulice Polní 1275 73532“ – adresa, souřadnice a vazba Lumíra Hebdy od 7. 11. 2001. Přístup 2026-07-21.  
-   https://www.mesec.cz/rejstrik-firem/adresni-misto-rychvald-polni-1275-0-14240955
+- Identifikace „mlýn u Hebdy“: `verified_by_user_confirmation`.
+- Funkční spojení turbíny a mlecího zařízení: `verified_by_user_confirmation_and_database_technology_description`.
+- Shoda archivního snímku se záznamem Povětrník 175: `verified_by_exact_visual_comparison`.
+- Lokalizace U Skučáku 54 a objektové GPS: `verified`.
+- Datace a technické parametry: `verified_from_specialist_database`, dokud nebude nalezen přesnější primární pramen.
 
-2. Podnikatel.cz, „Lumír Hebda – IČO 73034975“ – sídlo podnikání Polní 1275 a vznik subjektu 7. 11. 2001. Přístup 2026-07-21.  
-   https://www.podnikatel.cz/rejstrik/lumir-hebda-73034975/
+## Zdroje
 
-3. Rychvaldský zpravodaj 05/2015, rozhovor s Lumírem Hebdou – místní působení a vztah k hospodářství a včelařství. Přístup 2026-07-21.  
-   https://adoc.pub/download/rychvaldsky-zpravodaj4bd6505c856ff4f8e59e7594d5360bf121941.html
+1. Povětrník.cz, **Rychvald – mlýnek 48**, záznam 175, přístup 2026-07-21:  
+   http://www.povetrnik.cz/vetrne-mlyny/detail/175
+2. Archivní soubory:
+   - `Rychvaldské větrné mlýny/P1010445.jpg`;
+   - `Rychvaldské větrné mlýny/P1010446.jpg`;
+   - `Rychvaldské větrné mlýny/P1010447.jpg`;
+   - `Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010445.JPG`;
+   - `Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010446.JPG`;
+   - `Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010447.JPG`.
+3. Překonané podpůrné zdroje k nesprávné inferenci Polní 1275:
+   - https://www.mesec.cz/rejstrik-firem/adresni-misto-rychvald-polni-1275-0-14240955
+   - https://www.podnikatel.cz/rejstrik/lumir-hebda-73034975/
+
+## Bezpečná formulace
+
+Fotografie zachycují větrný mlýnek s turbínou u Hebdů na adrese U Skučáku 54 v Rychvaldu, evidovaný v databázi Povětrník pod katalogovým číslem mlýnek 48. Větrná turbína a dochované mlecí zařízení tvořily jeden funkční celek.

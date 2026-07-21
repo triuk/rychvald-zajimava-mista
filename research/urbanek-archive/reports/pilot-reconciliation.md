@@ -29,11 +29,11 @@ Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - 1× `Thumbs.db` v kolekci fotodokument/den po dešti;
 - 1× `Thumbs.db` v kolekci Nálet na Ostravu 1944.
 
-## Obrazy známé pouze z cache
+## Chybějící plné originály
 
-Audity `Thumbs.db` zachytily plné originály, které v současných složkách nejsou:
+Audity `Thumbs.db` prokázaly **12 chybějících plných originálů**. Příslušné samostatné soubory v repozitáři nejsou; zachovány jsou pouze jejich náhledy v cache:
 
-| Kolekce | Počet unikátních chybějících obrazů | Poznámka |
+| Kolekce | Počet chybějících plných originálů | Poznámka |
 |---|---:|---|
 | Rychvaldské větrné mlýny | 1 | `P1010269.JPG` |
 | Články z Českého slova | 8 | historické názvy a náhledy jsou v samostatném reportu |
@@ -41,6 +41,8 @@ Audity `Thumbs.db` zachytily plné originály, které v současných složkách 
 | fotodokument/den po dešti | 1 | `P1020841.JPG` |
 | Nálet na Ostravu 1944 | 0 | čtyři další názvy jsou pouze alternativními verzemi dochovaných snímků |
 | **Celkem** | **12** | náhledy nejsou náhradou plných originálů |
+
+Absence samostatného plného souboru je evidenční výsledek, nikoli otevřená otázka. Samostatně mohou zůstat otevřené pouze otázky identifikace, datace, lokalizace nebo interpretace zachovaného náhledu.
 
 ## Zpracování textu
 
@@ -65,21 +67,21 @@ Audity `Thumbs.db` zachytily plné originály, které v současných složkách 
 
 ## Registr nejistot
 
-Po doplnění technických cache:
+Po potvrzení pravidla pro náhledy bez plných originálů:
 
-- `open`: 23;
-- `deferred`: 1;
-- `resolved`: 10;
+- `open`: 20;
+- `deferred`: 0;
+- `resolved`: 14;
 - `not_actionable`: 1;
 - celkem: 35.
 
-Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou uzavřeny. Otevřené položky jsou dohledatelné podle stabilních ID `URB-U-XXXX`. Nevyřešená skutečnost nesmí být v článku prezentována jako ověřená.
+Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou uzavřeny. Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` jsou rovněž uzavřeny: příslušné plné originály chybějí. Otevřené položky jsou dohledatelné podle stabilních ID `URB-U-XXXX`.
 
 ## Připravenost větve
 
-Pilotní větev má kompletní souborovou sadu. Zbývají tyto věcné výhrady:
+Pilotní větev má kompletní evidovanou souborovou sadu. Zbývají tyto věcné výhrady:
 
-1. dvanáct unikátních obrazů je známo pouze jako náhled bez plného originálu;
+1. dvanáct plných originálů chybí; v `Thumbs.db` jsou zachovány pouze jejich náhledy;
 2. otevřené historické, identifikační a fyzické lakuny jsou vedeny v `uncertainties.yml`;
 3. názvy složek a souborů nejsou samy o sobě považovány za nezávislý historický důkaz;
 4. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen.

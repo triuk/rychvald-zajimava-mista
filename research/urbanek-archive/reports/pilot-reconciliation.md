@@ -69,15 +69,17 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 19;
+- `open`: 18;
 - `deferred`: 0;
-- `resolved`: 15;
+- `resolved`: 16;
 - `not_actionable`: 1;
 - celkem: 35.
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou uzavřeny. Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` jsou rovněž uzavřeny: příslušné plné originály chybějí.
 
 `URB-U-0004` je uzavřena: uživatel potvrdil, že všechny tři fotografie zachycují stejný objekt. Adresní místo Potoční 564 bylo ověřeno ve veřejných datech; přímé přiřazení konkrétní kůlny k adrese je `partially_verified`, protože nebyla nalezena nezávislá veřejná fotografie objektu.
+
+`URB-U-0005` je uzavřena: uživatel potvrdil označení větrný mlýn u Hebdy a funkční spojení větrného kola s mlecím soustrojím. Kandidátní poloha Polní 1275, Rychvald je `partially_verified` podle dlouhodobé veřejné vazby Lumíra Hebdy k této adrese; přímý veřejný doklad samotného mlýna na adrese nalezen nebyl.
 
 ## Připravenost větve
 

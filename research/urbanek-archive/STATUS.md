@@ -26,21 +26,8 @@ Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncer
 - Inventář: 63 položek — 60 JPEG, 1 DOC a 2 technické cache.
 - Ve větvi je 62 položek; chybí pouze `Thumbs.db`.
 - Všech 63 položek bylo klasifikováno nebo technicky auditováno.
+- První textový průchod všech plánovaných zdrojů je dokončen.
 - Plán: `research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml`.
-
-## Dokončený první textový průchod
-
-Zpracovány byly všechny plánované textové zdroje:
-
-- nativní DOC `061`;
-- krátké programy, soutěžní program, čestné uznání a úřední dopis;
-- kroměřížské články a tiskové recenze;
-- dvoustránkový článek Bořivoje Pešky z časopisu Těšínsko;
-- knižní strany 40–45;
-- rukopisná kronika, strany 260–262;
-- rukopisný přehled činnosti Miroslava Neboráka;
-- scénický text fotografie divadelního kroužku z roku 1923;
-- selektivní text dvou výstavních panelů.
 
 ## Druhá vizuální kontrola
 
@@ -75,15 +62,34 @@ Zkontrolováno 8 zdrojových položek v 7 textových výstupech:
 - `014` — `Vesničtí ochotníci se představují`: `visually_verified`;
 - `027` — `Jaké jsou naše vesnické soubory?`: `visually_verified`.
 
-### Opravy dávky 02
+Opravy: `Rudolf Debnárik` → `Rudolf Děbnárik`, `zvýťazí` → `zvíťazí` a odstranění strukturální duplicity u `027`. Lakuna výsledkového bloku `004` zůstává jako `URB-U-0032`.
 
-- `Rudolf Debnárik` → **`Rudolf Děbnárik`**.
-- `zvýťazí` → **`zvíťazí`**.
-- U `027` byl odstavec `Náš obrázek je…` odstraněn z duplicitní sekce popisku; zůstává jednou v hlavním textu, kam podle sazby patří.
-- U `004` byl potvrzen veškerý zachovaný text, ale výsledkový blok končí mimo spodní okraj snímku. Chybějící pokračování je evidováno jako `URB-U-0032`.
-- `001`, `010`, `011` a `014` byly potvrzeny bez textové změny.
+### Dávka 03 — Těšínsko, knižní strany 40–45 a DOC
 
-Celkem druhou kontrolou prošlo **15 zdrojových položek**. Stav `visually_verified` má 13 položek, `004` má `visually_verified_with_lacuna` a `009` sloužilo pouze jako kontrolní detail.
+Protokol:
+
+`research/urbanek-archive/collections/ochotnici-rychvald-visual-review-03.yml`
+
+Zkontrolováno 6 zdrojových položek v 6 textových výstupech:
+
+- `028` + `019` — `Z dějin ochotnického divadla v Rychvaldě`: `visually_verified`;
+- `017` — `Založení tělocvičné jednoty „Sokol“ v Rychvaldě`: `visually_verified`;
+- `017` + `016` + `015` — `Vzpomínky na Rychvald za války`: `visually_verified`;
+- `015` — `Episody při sčítání lidu 1910`: `visually_verified`;
+- `015` — začátek `Hospodářského přehledu`: `visually_verified_with_lacuna`;
+- `061` — nativní DOC `112 let ochotnických souborů v Rychvaldu`: `native_extracted_visually_verified`.
+
+Opravy a potvrzení dávky 03:
+
+- `Třasořítka` → **`Třasořitka`**;
+- `maskování` → **`maskovaní`**;
+- doplněny závěrečné tečky dvou vytištěných nadpisů;
+- nativní DOC se ve slovech a interpunkci shoduje s vykreslenou stránkou; normalizovány byly pouze technické vícenásobné mezery;
+- LibreOffice vykreslil jednu obsahovou a jednu prázdnou stránku, přestože metadata uvádějí jednu stranu;
+- tištěná podoba `Ofélie` zůstává v rozporu s programovou `Olivií` (`URB-U-0028`);
+- chybějící strana pokračování `Hospodářského přehledu` zůstává `URB-U-0029`.
+
+Celkem druhou kontrolou prošlo **21 zdrojových položek**.
 
 ## Registr nejistot
 
@@ -93,14 +99,13 @@ Celkem druhou kontrolou prošlo **15 zdrojových položek**. Stav `visually_veri
 - `not_actionable`: 1
 - celkem: 32
 
-Otevřené položky Ochotníků: `URB-U-0024` až `URB-U-0032`. Nová `URB-U-0032` se týká oříznutého výsledkového bloku v článku `004`.
+Otevřené položky Ochotníků: `URB-U-0024` až `URB-U-0032`.
 
 ## Následující krok
 
-Provést druhou kontrolu:
+Provést zvětšenou druhou kontrolu rukopisných zdrojů:
 
-1. dvoustránkového článku z časopisu Těšínsko (`028` + `019`);
-2. všech samostatných textových jednotek z knižních stran 40–45 (`017`, `016`, `015`);
-3. nativně vytěženého dokumentu DOC `061` proti jeho vizuálnímu vykreslení.
+1. kronikové strany 260–262 (`008`, `007`, `006`; `005` pouze jako kontrolní detail strany 262);
+2. obě části rukopisného přehledu Miroslava Neboráka (`003`).
 
-Zachovat otevřené rozpory `URB-U-0028` a `URB-U-0029`; fyzické hranice článků neslučovat a stav nativního DOC změnit teprve po porovnání s vykreslenou stránkou.
+Řešit pouze podoby doložené rukopisem nebo dalším archivním dokumentem. Opravdově nečitelné výrazy a rozpor mezi datací listu a položkami roku 1961 ponechat otevřené jako `URB-U-0030` a `URB-U-0031`.

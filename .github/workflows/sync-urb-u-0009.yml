@@ -1,0 +1,85 @@
+name: Sync URB-U-0009 metadata
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.sync-urb-u-0009
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Synchronize metadata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          # Update item 018 classification.
+          p = Path('research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml')
+          s = p.read_text('utf-8')
+          old = '''    collection_relevance:\n      status: probable_misfiled_item\n      note: Obrazový obsah nemá zřejmý vztah k větrným mlýnům ani ke dvěma dalším souborům ve složce.\n    identification:\n      status: unverified\n      candidate_reference: "304"\n      candidate_basis: original_filename\n      note: Význam čísla 304 ani konkrétní kostel nebyly ověřeny.\n'''
+          new = '''    collection_relevance:\n      status: unresolved_archival_context\n      related_open_item: URB-U-0037\n      note: Fotografie zachycuje kostel sv. Anny; důvod uložení ve složce Mlýn u Kakalů zůstává neověřený.\n    identification:\n      status: verified\n      verified_name: interiér kostela svaté Anny v Rychvaldě\n      basis: [exact_visual_comparison, user_confirmation]\n      verification: research/urbanek-archive/verifications/urb-u-0009-kostel-svate-anny.md\n      external_sources:\n        - https://commons.wikimedia.org/wiki/File:Rychvald,_kostel_svaté_Anny,_interiér,_oltář.jpg\n        - https://farnostrychvald.cz/nase-spolecenstvi/\n        - https://pamatkovykatalog.cz/kostel-sv-anny-12895366\n      filename_reference_304: unverified\n'''
+          if old not in s:
+              raise SystemExit('item 018 block not found')
+          s = s.replace(old, new, 1)
+          s = s.replace('  - Položka 018 je kandidát na chybné zařazení; nepřesouvat ji bez dalšího dokladu.\n', '  - Položka 018 zachycuje interiér kostela sv. Anny v Rychvaldě; význam čísla 304 a vztah ke složce Kakalova mlýna zůstávají otevřeny v URB-U-0037.\n')
+          p.write_text(s, 'utf-8')
+
+          # Update status counts and notes.
+          p = Path('research/urbanek-archive/STATUS.md')
+          s = p.read_text('utf-8')
+          s = s.replace('- `resolved`: 19;', '- `resolved`: 20;', 1)
+          s = s.replace('- celkem: 36.', '- celkem: 37.', 1)
+          marker = '`URB-U-0036` se musí znovu prověřit po zpracování každé další relevantní dávky archivu, nového OCR, mapového nebo adresního pramene. Současný negativní výsledek internetového hledání není důvodem k jejímu uzavření.\n'
+          add = marker + '\n`URB-U-0009` byla uzavřena pouze pro identifikaci snímku jako interiéru kostela sv. Anny v Rychvaldě. Význam čísla `304` a důvod uložení ve složce Kakalova mlýna zůstávají otevřeny jako `URB-U-0037`.\n'
+          if marker in s and 'URB-U-0037' not in s:
+              s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          # Update machine-readable state.
+          p = Path('research/urbanek-archive/state.yml')
+          s = p.read_text('utf-8')
+          s = s.replace('summary: {open: 16, in_progress: 0, deferred: 0, resolved: 19, not_actionable: 1, total: 36}', 'summary: {open: 16, in_progress: 0, deferred: 0, resolved: 20, not_actionable: 1, total: 37}', 1)
+          marker = '''    - id: URB-U-0007\n      result: kakal_mill_image_identity_confirmed_only\n      evidence: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md\n      linked_open_item: URB-U-0036\n'''
+          add = marker + '''    - id: URB-U-0009\n      result: rychvald_saint_anne_church_interior_verified\n      evidence: research/urbanek-archive/verifications/urb-u-0009-kostel-svate-anny.md\n      linked_open_item: URB-U-0037\n'''
+          if marker in s and 'result: rychvald_saint_anne_church_interior_verified' not in s:
+              s = s.replace(marker, add, 1)
+          marker2 = '''    - id: URB-U-0036\n      subject: Kakalův mlýn\n      unresolved: [exact_location, house_number, owner_identity, construction_date, disappearance_date, technology]\n      revisit_after: [new_archive_batch, new_ocr, new_map, new_address_record, matching_photo]\n'''
+          add2 = marker2 + '''    - id: URB-U-0037\n      subject: archivní kontext fotografie kostela sv. Anny\n      unresolved: [folder_relation, meaning_of_304, possible_house_or_person_reference]\n      revisit_after: [new_archive_batch, new_caption, house_number_304_reference, Kakal_family_church_relation]\n'''
+          if marker2 in s and 'subject: archivní kontext fotografie kostela sv. Anny' not in s:
+              s = s.replace(marker2, add2, 1)
+          marker3 = '    - Kakal mill identity is known but its location and history remain open in URB-U-0036\n'
+          if marker3 in s and 'URB-U-0037' not in s[s.find('known_non_blocking_issues:'):]:
+              s = s.replace(marker3, marker3 + '    - church interior is identified, but filename 304 and folder relation remain open in URB-U-0037\n', 1)
+          p.write_text(s, 'utf-8')
+
+          # Update reconciliation summary.
+          p = Path('research/urbanek-archive/reports/pilot-reconciliation.md')
+          s = p.read_text('utf-8')
+          s = s.replace('- `resolved`: 19;', '- `resolved`: 20;', 1)
+          s = s.replace('- celkem: 36.', '- celkem: 37.', 1)
+          marker = '`URB-U-0007` je uzavřena pouze pro identitu historického obrazu jako Kakalův mlýn. Přesná poloha, číslo domu, vlastník, datace a technologie jsou vedeny v propojené otevřené položce `URB-U-0036`, která se musí znovu prověřovat po zpracování dalších relevantních pramenů.\n'
+          add = marker + '\n`URB-U-0009` je uzavřena pro identitu fotografie jako interiér kostela sv. Anny v Rychvaldě. Význam čísla `304` a vztah ke složce Kakalova mlýna jsou vedeny v propojené otevřené položce `URB-U-0037`.\n'
+          if marker in s and 'URB-U-0037' not in s:
+              s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          # Register internet sources.
+          p = Path('sources/index.yml')
+          s = p.read_text('utf-8')
+          entries = '''\n- source_id: web-commons-rychvald-kostel-sv-anny-interier\n  title: Rychvald, kostel svaté Anny, interiér, oltář\n  document_type: online_photograph\n  institution: Wikimedia Commons\n  url: https://commons.wikimedia.org/wiki/File:Rychvald,_kostel_svaté_Anny,_interiér,_oltář.jpg\n  accessed: '2026-07-21'\n  digital_format: HTML/JPEG\n  rights:\n    status: CC-BY-SA-4.0\n  notes:\n    - Použito k obrazové identifikaci archivního souboru 304interier.JPG.\n\n- source_id: web-farnost-rychvald-kostel-sv-anny\n  title: Naše společenství – historie kostela sv. Anny\n  document_type: official_parish_webpage\n  institution: Římskokatolická farnost Rychvald\n  url: https://farnostrychvald.cz/nase-spolecenstvi/\n  accessed: '2026-07-21'\n  digital_format: HTML\n  rights:\n    status: unclear\n  notes:\n    - Uvádí původ hlavního neogotického oltáře v roce 1895.\n\n- source_id: web-npu-rychvald-kostel-sv-anny\n  title: Kostel sv. Anny v Rychvaldě\n  document_type: official_heritage_catalog\n  institution: Národní památkový ústav\n  url: https://pamatkovykatalog.cz/kostel-sv-anny-12895366\n  accessed: '2026-07-21'\n  digital_format: HTML\n  rights:\n    status: official_catalog\n  notes:\n    - Katalogové číslo 1000133204; dokumentace interiéru je vedena na parcele č. 305.\n'''
+          if 'source_id: web-commons-rychvald-kostel-sv-anny-interier' not in s:
+              s += entries
+          p.write_text(s, 'utf-8')
+          PY
+          git config user.name "OpenAI Agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml research/urbanek-archive/STATUS.md research/urbanek-archive/state.yml research/urbanek-archive/reports/pilot-reconciliation.md sources/index.yml
+          git commit -m "Sync church interior identification" || exit 0
+          git push origin HEAD:agent/import-urbanek-pilot

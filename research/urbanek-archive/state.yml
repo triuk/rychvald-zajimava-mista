@@ -14,146 +14,133 @@ authoritative_files:
   - research/urbanek-archive/STATUS.md
   - research/urbanek-archive/state.yml
   - research/urbanek-archive/uncertainties.yml
-  - research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
+  - research/urbanek-archive/reports/pilot-reconciliation.md
 
 checkpoints:
   import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
   czech_word_second_review_completed_commit: 0bff6de7d6e757f0d800638f9efb6bbbdb70b952
-  ochotnici_inventory_commit: df993af216ea5f87ef6adff4dfaca3a8dc146d14
-  ochotnici_classification_completed_commit: baddbef168e3543d01edcea0c30d6385570f3bc2
-  ochotnici_processing_plan_commit: b1b6b0644fc9ef9565b0f35986aeff98c9874769
-  ochotnici_chronicle_commit: acbb4c46a25916a0621943f74070c62ff81098c1
-  ochotnici_neborak_table_last_commit: 5beb75cd89f3502444858ec28be19f2a29eb29a3
-  ochotnici_group_photo_scene_commit: d28eb9d0857476fd19ab8b77ea966d4558ec31c4
-  ochotnici_exhibition_scene_commit: 4c53a47843bdbc9b66f277296c5b473470767fdf
-  canonical_horak_cleanup_commit: 950e8901d71a7ae517588a5e5fd50d25e3feae91
-  ochotnici_visual_review_01_commit: 06a65c4eccbdfd0718641dbbba2878e76f914ca5
-  ochotnici_visual_review_02_commit: 6be74cb2bb6da5517dc86efdfd87db8cf7d763b9
-  ochotnici_visual_review_03_commit: c2055c92102e16e7ddd8cf767355cf821760a3bd
-  ochotnici_visual_review_04_commit: 1c22b7f438c365e072928f9128170116924a3f75
-  ochotnici_visual_review_05_commit: 7bf36d5547d860e4596730ab9a3d32c9bc74f3b0
-  uncertainty_registry_commit: 4475836e25280fc08711956d74b6824999a61dad
+  ochotnici_visual_review_completed_commit: 7bf36d5547d860e4596730ab9a3d32c9bc74f3b0
+  den_po_desti_inventory_commit: 983ae743c95dbc03d1995bd0e7e8d24adc63d0c1
+  den_po_desti_cache_audit_commit: c4f03a2c30c47d4b5e8fd263eac835cef366bae0
+  den_po_desti_classification_commit: c62b130a606c7d8e46b4c3130fe49e225c662827
+  nalet_inventory_commit: 5af5e9460d84eb3e1af18a8756f3a6e32fc1125d
+  nalet_cache_audit_commit: 1d10fbe0aa85869e2bdc873ef45ab2fc90e3f5b4
+  nalet_classification_commit: ae068338045a1dbb09e5d6e97af295e71a1fa513
+  uncertainty_registry_commit: 97e792659d5144fa70dc7d511098501f5899cb00
+  pilot_reconciliation_commit: a22027e5d4d6b0627f6630ca7c86c8dd68aecdf1
 
-ocr:
-  czech_word_first_pass: completed
-  czech_word_second_visual_review: completed
-  ochotnici_first_pass: completed
-  ochotnici_second_visual_review: completed
-  native_extraction_completed: [urbanek-ochotnici-061]
-  document_source_items_completed:
-    - urbanek-ochotnici-001
-    - urbanek-ochotnici-003
-    - urbanek-ochotnici-004
-    - urbanek-ochotnici-005
-    - urbanek-ochotnici-006
-    - urbanek-ochotnici-007
-    - urbanek-ochotnici-008
-    - urbanek-ochotnici-010
-    - urbanek-ochotnici-011
-    - urbanek-ochotnici-012
-    - urbanek-ochotnici-013
-    - urbanek-ochotnici-014
-    - urbanek-ochotnici-015
-    - urbanek-ochotnici-016
-    - urbanek-ochotnici-017
-    - urbanek-ochotnici-019
-    - urbanek-ochotnici-023
-    - urbanek-ochotnici-027
-    - urbanek-ochotnici-028
-    - urbanek-ochotnici-032
-    - urbanek-ochotnici-033
-    - urbanek-ochotnici-039
-    - urbanek-ochotnici-042
-    - urbanek-ochotnici-047
-  scene_text_completed: [urbanek-ochotnici-002, urbanek-ochotnici-018, urbanek-ochotnici-021]
-  verification_only_items: [urbanek-ochotnici-009]
-  second_visual_review_batches:
-    - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-01.yml
-      status: completed
-      items: [urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
-    - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-02.yml
-      status: completed
-      items: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-009, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-014, urbanek-ochotnici-027]
-    - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-03.yml
-      status: completed
-      items: [urbanek-ochotnici-019, urbanek-ochotnici-028, urbanek-ochotnici-015, urbanek-ochotnici-016, urbanek-ochotnici-017, urbanek-ochotnici-061]
-    - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-04.yml
-      status: completed
-      items: [urbanek-ochotnici-003, urbanek-ochotnici-005, urbanek-ochotnici-006, urbanek-ochotnici-007, urbanek-ochotnici-008]
-    - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-05.yml
-      status: completed
-      items: [urbanek-ochotnici-002, urbanek-ochotnici-018, urbanek-ochotnici-021]
-  second_visual_review_completed_source_items: 29
-  visually_verified_items:
-    - urbanek-ochotnici-001
-    - urbanek-ochotnici-002
-    - urbanek-ochotnici-003
-    - urbanek-ochotnici-005
-    - urbanek-ochotnici-006
-    - urbanek-ochotnici-007
-    - urbanek-ochotnici-008
-    - urbanek-ochotnici-010
-    - urbanek-ochotnici-011
-    - urbanek-ochotnici-012
-    - urbanek-ochotnici-013
-    - urbanek-ochotnici-014
-    - urbanek-ochotnici-016
-    - urbanek-ochotnici-017
-    - urbanek-ochotnici-018
-    - urbanek-ochotnici-019
-    - urbanek-ochotnici-021
-    - urbanek-ochotnici-023
-    - urbanek-ochotnici-027
-    - urbanek-ochotnici-028
-    - urbanek-ochotnici-032
-    - urbanek-ochotnici-033
-    - urbanek-ochotnici-039
-    - urbanek-ochotnici-042
-    - urbanek-ochotnici-047
-    - urbanek-ochotnici-061
-  visually_verified_with_lacuna_items: [urbanek-ochotnici-004]
-  mixed_review_source_items: [urbanek-ochotnici-015]
-  visually_verified_with_open_metadata_conflict_items: [urbanek-ochotnici-003]
-  preserve_printed_spelling: true
-  infer_missing_text: false
-
-uncertainties:
-  registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 22, in_progress: 0, deferred: 3, resolved: 6, not_actionable: 1, total: 32}
-  ochotnici_open_ids: [URB-U-0024, URB-U-0025, URB-U-0026, URB-U-0027, URB-U-0028, URB-U-0029, URB-U-0031, URB-U-0032]
-  newly_resolved: URB-U-0030
+pilot_totals:
+  collections: 5
+  content_files_drive: 144
+  technical_files_drive: 15
+  total_items_drive: 159
+  content_files_repo_verified: 144
+  technical_files_repo_verified: 6
+  technical_files_repo_missing: 9
+  total_items_repo_present: 150
+  unique_images_known_only_from_thumbnail_caches: 12
 
 phases:
   import: completed_with_missing_technical_files
-  technical_audit: in_progress
-  inventory: in_progress
+  pilot_inventory: completed
+  pilot_technical_audit: completed
+  pilot_visual_classification: completed
   ocr_first_pass_czech_word: completed
   ocr_second_visual_review_czech_word: completed
-  ochotnici_classification: completed
   ochotnici_text_processing_first_pass: completed
   ochotnici_second_visual_review: completed
-  draft_pull_request: pending
+  pilot_reconciliation: completed
+  draft_pull_request: ready
 
 pilot_collections:
-  - {name: Rychvaldské větrné mlýny, status: classification_and_initial_ocr_completed}
-  - {name: Články z Českého slova, status: first_pass_and_second_visual_review_completed}
+  - name: Rychvaldské větrné mlýny
+    status: classification_and_initial_ocr_completed
+    drive_total_items: 39
+    content_files: 31
+    technical_files: 8
+    repo_missing_technical_files: 5
+    unique_images_known_only_from_cache: 1
+    reports:
+      - research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
+
+  - name: Články z Českého slova
+    status: first_pass_and_second_visual_review_completed
+    drive_total_items: 39
+    content_files: 37
+    technical_files: 2
+    repo_missing_technical_files: 1
+    unique_images_known_only_from_cache: 8
+    reports:
+      - research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md
+
   - name: Ochotníci rychvald
     status: first_text_pass_and_second_visual_review_completed
-    drive_total_files: 63
-    classified_items: 63
-    repo_verified_items: 62
-    repo_missing_items: 1
+    drive_total_items: 63
+    content_files: 61
+    technical_files: 2
+    repo_missing_technical_files: 1
+    unique_images_known_only_from_cache: 2
+    second_visual_review_source_items: 29
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
-    second_visual_review_completed_source_items: 29
-    remaining_open_issues_are_registered: true
-  - {name: fotodokument/den po dešti, status: pending}
-  - {name: Nálet na Ostravu 1944, status: pending}
+    visual_review_protocols:
+      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-01.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-02.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-03.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-04.yml
+      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-05.yml
+
+  - name: fotodokument/den po dešti
+    status: technical_audit_and_visual_classification_completed
+    drive_total_items: 10
+    content_files: 8
+    technical_files: 2
+    repo_missing_technical_files: 1
+    unique_images_known_only_from_cache: 1
+    ocr_required: false
+    multiple_events_confirmed_by_exif: true
+    files:
+      inventory: research/urbanek-archive/collections/den-po-desti-inventory.csv
+      verification: research/urbanek-archive/collections/den-po-desti-verification.yml
+      classification: research/urbanek-archive/collections/den-po-desti-classification.yml
+      cache_report: research/urbanek-archive/reports/den-po-desti-thumbnail-cache.md
+
+  - name: Nálet na Ostravu 1944
+    status: technical_audit_and_visual_classification_completed
+    drive_total_items: 8
+    content_files: 7
+    technical_files: 1
+    repo_missing_technical_files: 1
+    unique_images_known_only_from_cache: 0
+    ocr_required: false
+    event_label_independently_verified: false
+    files:
+      inventory: research/urbanek-archive/collections/nalet-na-ostravu-1944-inventory.csv
+      verification: research/urbanek-archive/collections/nalet-na-ostravu-1944-verification.yml
+      classification: research/urbanek-archive/collections/nalet-na-ostravu-1944-classification.yml
+      cache_report: research/urbanek-archive/reports/nalet-na-ostravu-1944-thumbnail-cache.md
+
+uncertainties:
+  registry: research/urbanek-archive/uncertainties.yml
+  summary: {open: 23, in_progress: 0, deferred: 5, resolved: 6, not_actionable: 1, total: 35}
+  rules:
+    - Open issues are not presented as verified facts.
+    - Thumbnail-only images are not substitutes for full originals.
+    - Folder and filename labels are archival metadata, not independent proof.
+
+readiness:
+  status: ready_for_draft_pr_with_known_deferred_technical_files
+  reconciliation_report: research/urbanek-archive/reports/pilot-reconciliation.md
+  blockers_for_draft_pr: []
+  known_non_blocking_issues:
+    - nine Thumbs.db files are absent from the branch but audited from Drive
+    - twelve unique images are known only from thumbnail caches
+    - open factual conflicts and physical lacunae remain registered
 
 next_action:
-  type: inventory_collection
-  collection: fotodokument/den po dešti
+  type: prepare_draft_pull_request
+  base: main
+  head: agent/import-urbanek-pilot
   instruction: >-
-    List all direct Drive items and subfolders, assign stable IDs, classify technical
-    thumbnail caches, and verify exact repository paths before visual classification.
-    Preserve original paths and filenames and do not start OCR before the collection
-    structure is known.
+    Verify the branch remains zero commits behind main, then create a draft pull
+    request summarizing the five pilot collections, preservation totals, completed
+    OCR and classifications, and known deferred technical files and uncertainties.

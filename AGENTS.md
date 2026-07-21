@@ -67,10 +67,11 @@ Do publikovaného článku mohou být jako jistý fakt použita pouze tvrzení s
   `repo_path`.
 - Přímý odkaz na GitHub není autoritativní údaj a není nutné jej ukládat do každého řádku. V případě potřeby jej odvoď z
   repozitáře, refu nebo commitu a `repo_path`.
-- U položek přítomných v repozitáři neukládej odkaz ani ID Google Drivu.
-- `drive_file_id` a `drive_url` ponechávej pouze u souborů záměrně vyloučených z importu nebo evidovaných jako chybějící v
-  repozitáři, například se stavem `excluded` nebo `drive_listed_repo_missing`. U takové položky ponech `repo_path` a
-  `git_blob_sha` prázdné.
+- U položek přítomných v repozitáři neukládej `drive_url`. Případné `drive_file_id` je pouze pomocné auditní metadata a
+  nesmí nahrazovat `repo_path` ani `git_blob_sha`.
+- `drive_url` ponechávej pouze u souborů záměrně vyloučených z importu nebo evidovaných jako chybějící v repozitáři,
+  například se stavem `excluded` nebo `drive_listed_repo_missing`. U takové položky ponech `repo_path` a `git_blob_sha`
+  prázdné.
 - Každý inventář musí výslovně obsahovat `repo_status`, aby bylo zřejmé, zda položka existuje v repozitáři, byla vyloučena,
   nebo zůstává pouze v původním archivu.
 

@@ -1,0 +1,20 @@
+name: Export uncertainty images
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  export-urb-u-0004:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urb-u-0004-images
+          path: |
+            sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/P1010663.JPG
+            sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/P1010662.JPG
+            sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/Potoční 564.jpg
+          if-no-files-found: error
+          retention-days: 1

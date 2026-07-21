@@ -32,6 +32,9 @@ Používej stavy `verified`, `partially_verified`, `conflicting`, `uncertain` a 
 - Eviduj zdrojovou položku, typ, stav, prioritu, přesnou otázku, doklady a následující krok.
 - Podrobná poznámka může zůstat v OCR nebo klasifikačním souboru, ale musí být dohledatelná z registru.
 - Vyřešený záznam nemaž; změň stav na `resolved` a doplň výsledek, doklad, datum a způsob ověření.
+- Pokud se vyřeší pouze část otázky, uzavři jen tuto část a pro zbývající podstatné atributy vytvoř propojenou otevřenou položku. Typicky odděluj identitu objektu od polohy, datace, vlastníka a technologie.
+- U propojené otevřené položky uveď `related_resolved_items`, přesný seznam neověřených atributů a podmínky, při nichž se má znovu prověřit.
+- Negativní výsledek současného hledání není důvodem k uzavření položky, pokud se očekávají další nezpracované prameny. Taková položka musí zůstat `open` nebo `deferred` podle konkrétního dalšího kroku.
 - Stavy registru jsou `open`, `in_progress`, `blocked`, `deferred`, `resolved` a `not_actionable`.
 - Tvrzení navázané na otevřenou nebo odloženou nejistotu nesmí být prezentováno jako `verified`.
 - Při předání práce načti index i všechny odkazované shard soubory spolu se `STATUS.md` a `state.yml`.

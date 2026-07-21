@@ -1,0 +1,60 @@
+name: Export Povetrnik 229
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.export-povetrnik-229
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Download record and compare image
+        run: |
+          set -euo pipefail
+          mkdir -p export
+          curl -k -L --http1.1 --retry 2 --connect-timeout 20 --max-time 120 \
+            -A 'Mozilla/5.0' -o export/page.html \
+            http://www.povetrnik.cz/vetrne-mlyny/detail/229
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urljoin
+          from urllib.request import Request, urlopen
+
+          class P(HTMLParser):
+              def __init__(self):
+                  super().__init__(); self.text=[]; self.img=[]
+              def handle_starttag(self, tag, attrs):
+                  d=dict(attrs)
+                  if tag=='img' and d.get('src'): self.img.append(d['src'])
+              def handle_data(self, data):
+                  s=' '.join(data.split())
+                  if s: self.text.append(s)
+
+          root=Path('export')
+          html=(root/'page.html').read_text('utf-8',errors='replace')
+          p=P(); p.feed(html)
+          (root/'text.txt').write_text('\n'.join(p.text),'utf-8')
+          (root/'image-urls.txt').write_text('\n'.join(dict.fromkeys(p.img)),'utf-8')
+          base='http://www.povetrnik.cz/vetrne-mlyny/detail/229'
+          for i,src in enumerate(dict.fromkeys(p.img)):
+              url=urljoin(base,src)
+              try:
+                  req=Request(url,headers={'User-Agent':'Mozilla/5.0'})
+                  data=urlopen(req,timeout=40).read()
+                  suf=Path(url.split('?',1)[0]).suffix.lower()
+                  if suf not in {'.jpg','.jpeg','.png','.webp','.gif'}: suf='.bin'
+                  (root/f'image-{i:02d}{suf}').write_bytes(data)
+              except Exception as e:
+                  (root/f'image-{i:02d}.error.txt').write_text(f'{url}\n{e}\n','utf-8')
+          src=Path('sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/mlýn na podlesí.JPG')
+          (root/'archive-mlýn-na-podlesí.JPG').write_bytes(src.read_bytes())
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: povetrnik-229-verification
+          path: export
+          retention-days: 1

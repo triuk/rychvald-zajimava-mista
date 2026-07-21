@@ -1,0 +1,50 @@
+collection_id: urbanek-ochotnici
+batch_id: visual-review-05
+status: completed
+reviewed_at: 2026-07-21
+scope: selective_scene_text
+source_items: [urbanek-ochotnici-002, urbanek-ochotnici-018, urbanek-ochotnici-021]
+outputs:
+  - path: research/urbanek-archive/ocr/urbanek-ochotnici-018-scene-text.md
+    status: visually_verified_scene_text
+    corrections:
+      - "DIV. KROUŽEK -> DIV-KROUŽEK"
+      - "S. M. O. L. -> S.M.O.L."
+    confirmed:
+      - "I. odb."
+      - "v Rychvaldě"
+      - "1923"
+      - "ATELIER KRIŠKOVSKÝ / RADVANICE."
+    note: Osoby nebyly identifikovány podle tváří.
+  - path: research/urbanek-archive/ocr/urbanek-ochotnici-002-021-scene-text.md
+    status: visually_verified_selective_scene_text
+    corrections:
+      - "II. FESTIVAL -> I. FESTIVAL"
+      - "soubor ZK Dolu Dolní Suchá -> soubor ZK Dukla, Dolní Suchá"
+      - "expanded years 1960 -> printed short form 60"
+    confirmed:
+      - panel_1_periods_1902_38_and_1945_1961
+      - seven_festival_program_rows
+      - Frenstat_pod_Radhostem_divadelni_sal
+    limitations:
+      - vertical_metal_supports_obscure_parts_of_left_and_bottom_poster_text
+      - obscured_text_not_reconstructed
+      - embedded_documents_not_ocr_repeated
+summary:
+  source_items_reviewed: 3
+  corrected_outputs: 2
+  new_uncertainties: []
+  resolved_uncertainties: []
+collection_result:
+  first_text_pass: completed
+  second_visual_review: completed
+  reviewed_source_items_total: 29
+  remaining_open_issues_are_registry_items_not_unreviewed_ocr
+next_action:
+  type: reconcile_collection_and_prepare_next_pilot_collection
+  collection: Ochotníci rychvald
+  instruction: >-
+    Mark the collection text review complete, retain all open factual conflicts and
+    physical lacunae in uncertainties.yml, and continue with the technical inventory
+    of fotodokument/den po dešti unless a repository-wide pilot reconciliation is
+    required first.

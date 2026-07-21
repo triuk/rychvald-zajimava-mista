@@ -16,7 +16,7 @@ Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncer
 |---|---|
 | Rychvaldské větrné mlýny | klasifikace a první OCR dokončeny |
 | Články z Českého slova | první OCR i druhá vizuální kontrola dokončeny |
-| Ochotníci rychvald | **první textový průchod dokončen, druhá kontrola čeká** |
+| Ochotníci rychvald | **první textový průchod dokončen; druhá kontrola probíhá** |
 | fotodokument/den po dešti | čeká |
 | Nálet na Ostravu 1944 | čeká |
 | Pull request | čeká |
@@ -42,40 +42,33 @@ Zpracovány byly všechny plánované textové zdroje:
 - scénický text fotografie divadelního kroužku z roku 1923;
 - selektivní text dvou výstavních panelů.
 
-### Knižní strany 40–45
+## Druhá vizuální kontrola
 
-Autoritativní výstupy:
+### Dokončená dávka 01
 
-- `urbanek-ochotnici-017-a-document-text.md` — založení Sokola;
-- `urbanek-ochotnici-015-017-bohdan-horak-document-text.md` — Bohdan Horák, celý článek;
-- `urbanek-ochotnici-015-b-document-text.md` — sčítání lidu 1910;
-- `urbanek-ochotnici-015-c-document-text.md` — neúplný začátek Hospodářského přehledu.
+Protokol:
 
-Duplicitní Horákův přepis byl odstraněn. V autoritativním souboru byl podle obrazu opraven tvar `zaplašil`.
+`research/urbanek-archive/collections/ochotnici-rychvald-visual-review-01.yml`
 
-### Rukopisná kronika 260–262
+Stav `visually_verified` mají:
 
-Výstup:
+- `032–033` — program `Večer tříkrálový`;
+- `013` — program celostátní soutěže;
+- `023` — čestné uznání Sylvii Kravalové;
+- `039` — program `Poslední noc v roce`;
+- `042` — program `Slavnost lampiónů`;
+- `047` — dopis o věcné ceně.
 
-`research/urbanek-archive/ocr/urbanek-ochotnici-006-007-008-document-text.md`
+Celkem bylo vizuálně ověřeno **7 zdrojových položek v 6 textových výstupech**.
 
-Nejasná slova a příjmení jsou označena hranatými závorkami a vedena pod `URB-U-0030`.
+### Opravy a potvrzení
 
-### Přehled Miroslava Neboráka
-
-Kvůli velikosti je jeden pramen rozdělen do dvou navazujících souborů:
-
-- `urbanek-ochotnici-003-a-document-text.md` — hlavní seznam 32 her a souhrn režisérů;
-- `urbanek-ochotnici-003-b-document-text.md` — šest doplňkových her a celkový součet.
-
-List uvádí celkem **38 her a 110 představení**. Nejasná rukopisná čtení a rozpor datace jsou vedeny jako `URB-U-0031`.
-
-### Text ve scéně
-
-- `urbanek-ochotnici-018-scene-text.md` — tabulka `DIV. KROUŽEK / I. odb. / S. M. O. L. / v Rychvaldě`, datace `1923` a ateliérová značka;
-- `urbanek-ochotnici-002-021-scene-text.md` — časové členění výstavy a unikátní plakát II. festivalu divadelních ochotníků.
-
-Osoby nebyly identifikovány podle tváří.
+- U programu Večera tříkrálového bylo společné označení `ve službách vévodových` odděleno od Valentina a vedeno jako společný údaj Valentina a Curia.
+- Na plakátu celostátní soutěže byl chybný přepis `KLÍPERA` opraven na tištěné `KLICPERA`.
+- Dekorativní symboly mezi městy na čestném uznání jsou vedeny jako ornamenty, ne jako textové odrážky.
+- Číslo jednací dopisu bylo potvrzeno jako `9272/60-sl.` a datum jako `23.6.1960`.
+- Programy `Poslední noc v roce` a `Slavnost lampiónů` neobsahovaly textovou chybu prvního přepisu.
+- Rukopisné podpisy na čestném uznání nebyly doplněny odhadem.
 
 ## Registr nejistot
 
@@ -85,17 +78,18 @@ Osoby nebyly identifikovány podle tváří.
 - `not_actionable`: 1
 - celkem: 31
 
-Otevřené položky Ochotníků: `URB-U-0024` až `URB-U-0031` podle registru.
+Otevřené položky Ochotníků: `URB-U-0024` až `URB-U-0031` podle registru. Rozpor v obsazení Fabiana (`URB-U-0026`) zůstává otevřený.
 
 ## Následující krok
 
-Zahájit druhou řádkovou kontrolu krátkých strukturovaných dokumentů:
+Provést druhou řádkovou kontrolu skupiny **Kroměříž 1960**:
 
-1. `032–033` — program Večera tříkrálového;
-2. `013` — program celostátní soutěže;
-3. `023` — čestné uznání;
-4. `039` — Poslední noc v roce;
-5. `042` — Slavnost lampiónů;
-6. `047` — dopis o věcné ceně.
+1. `001` — `Vesničtí ochotníci ve finále`;
+2. `004` — `Thálie držela palce`;
+3. `010` — `Katka, Angelika a Viola v Kroměříži`, s `009` pouze jako kontrolním detailem;
+4. `011` — první kroměřížská novinová stránka;
+5. `012` — stránka s článkem `Rychvald a Shakespeare v Kroměříži`;
+6. `014` — `Vesničtí ochotníci se představují`;
+7. `027` — `Jaké jsou naše vesnické soubory?`.
 
-Stav `visually_verified` se přidá pouze po úplném porovnání se zdrojovým obrazem.
+Každý článek a každý fotografický popisek musí být porovnán se zdrojovým obrazem po řádcích. Stav `visually_verified` se přidá pouze po úplné kontrole.

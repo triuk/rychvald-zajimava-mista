@@ -10,7 +10,7 @@
   - `Ochotníci rychvald/img204.jpg`
   - `Ochotníci rychvald/img205.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný vícestránkový knižní článek
 
 ## Nadpis
@@ -69,8 +69,9 @@ Rád vzpomínám dob, kdy docházel jsem do Rychvaldu, neboť radostná spolupr�
 
 - Článek je zachován celý od nadpisu na straně 40 po závěrečný odstavec na straně 44.
 - Fyzické přechody byly spojeny v místech `Za- / hradníkem` a `komi- / sařství`; žádný text nebyl při spojení doplněn odhadem.
+- Druhá řádková kontrola dne 2026-07-21 potvrdila celý text na stranách 40–44 bez další textové opravy.
 - Přepis zachovává dobové infinitivy a tvary `konati`, `probuditi`, `pomýšleti`, `pořádati`, `odsunouti`, `nacvičovati`, `zdolati`, `saisonu`, `spontanní`, `oficielním` a `intensivnějšího`.
 - Zkratky `M. O. L.`, `Mat. Osv. Lidové`, `I. odb.`, `II. odb.`, `Mor. Ostravě`, `p. uč.`, `pí.`, `Dra` a časový údaj `1¼ hod.` jsou zachovány podle tisku.
-- Neobvyklá spojení `rdoušeného češství`, `věnované studování` a `melodií nejkrásnější` nebyla jazykově upravována.
-- Podoby osobních a místních jmen a názvů her vycházejí z tohoto článku a čekají na druhou vizuální kontrolu.
+- Neobvyklá spojení `rdoušeného češství`, `věnované studování` a `melodií nejkrásnější` byla vizuálně potvrzena a nebyla jazykově upravována.
+- Podoby osobních a místních jmen a názvů her byly potvrzeny jako tištěné, nikoli však nezávisle historicky ověřeny.
 - Historická tvrzení článku nejsou tímto OCR nezávisle ověřena.

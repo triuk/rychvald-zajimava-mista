@@ -14,33 +14,38 @@ authoritative_files:
   - research/urbanek-archive/STATUS.md
   - research/urbanek-archive/state.yml
   - research/urbanek-archive/uncertainties.yml
+  - research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
 
 checkpoints:
   import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
   czech_word_second_review_completed_commit: 0bff6de7d6e757f0d800638f9efb6bbbdb70b952
   ochotnici_inventory_commit: df993af216ea5f87ef6adff4dfaca3a8dc146d14
-  ochotnici_last_verification_commit: ec4eb1fd8296a6903591dd267829361b1a475447
-  ochotnici_thumbnail_cache_audit_commit: d8fd131211a7bcf64e2f5e20c466e84ba5cb8c03
   ochotnici_classification_completed_commit: baddbef168e3543d01edcea0c30d6385570f3bc2
   ochotnici_processing_plan_commit: b1b6b0644fc9ef9565b0f35986aeff98c9874769
   ochotnici_native_doc_extraction_commit: 93e7a23682b1a5f323ff8fce8fcee51f8a0ecb0a
-  ochotnici_first_program_ocr_commit: 4106a09e5bdf28241a5b4e50a4ecf069f2d07d9c
+  ochotnici_short_documents_last_commit: fb0b99b42c3503c805decb169d1a2d979abc643f
   uncertainty_registry_commit: 17528c06f047b00608653c9d633d85101046f3fb
 
 ocr:
   czech_word_first_pass: completed
   czech_word_second_visual_review: completed
   ochotnici_status: in_progress
-  ochotnici_completed_text_outputs:
-    - research/urbanek-archive/ocr/urbanek-ochotnici-061-document-text.md
-    - research/urbanek-archive/ocr/urbanek-ochotnici-032-033-document-text.md
+  ochotnici_native_extraction_completed: [urbanek-ochotnici-061]
+  ochotnici_first_pass_ocr_completed:
+    - urbanek-ochotnici-032
+    - urbanek-ochotnici-033
+    - urbanek-ochotnici-013
+    - urbanek-ochotnici-023
+    - urbanek-ochotnici-039
+    - urbanek-ochotnici-042
+    - urbanek-ochotnici-047
   preserve_printed_spelling: true
   infer_missing_text: false
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
   summary: {open: 17, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 26}
-  new_item: URB-U-0026
+  current_ochotnici_conflict: URB-U-0026
 
 phases:
   import: completed_with_missing_technical_files
@@ -58,33 +63,21 @@ pilot_collections:
   - name: Ochotníci rychvald
     status: classification_completed_text_processing_in_progress
     drive_total_files: 63
-    image_files: 60
-    document_files: 1
-    technical_thumbnail_caches: 2
     classified_items: 63
     repo_verified_items: 62
     repo_missing_items: 1
-    repo_missing_ids: [urbanek-ochotnici-036]
-    classification_files:
-      - research/urbanek-archive/collections/ochotnici-rychvald-classification-01.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-classification-02.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-classification-03.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-classification-04.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-classification-05.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-classification-06.yml
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
     native_extraction_completed: [urbanek-ochotnici-061]
-    first_pass_ocr_completed: [urbanek-ochotnici-032, urbanek-ochotnici-033]
-    open_metadata_conflict: URB-U-0026
+    first_pass_ocr_completed: [urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
   type: ocr_document_item
   collection: Ochotníci rychvald
-  item_id: urbanek-ochotnici-013
-  title: "Celostátní soutěž vesnických divadelních souborů – program 13.–19. května 1960"
+  item_id: urbanek-ochotnici-001
+  title: "Vesničtí ochotníci ve finále"
   instruction: >-
-    Transcribe the complete chronological program, preserving dates, ensemble names,
-    authors and play titles. Then process award item 023 and program item 039 as
-    separate structured documents.
+    Transcribe the complete three-column article and its photograph caption. Preserve
+    article boundaries and printed spelling. Then continue with item 004 and primary
+    article source 010; use item 009 only as a verification detail.

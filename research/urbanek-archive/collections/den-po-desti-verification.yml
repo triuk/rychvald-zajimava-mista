@@ -1,6 +1,5 @@
 collection_id: urbanek-den-po-desti
 status: completed_with_missing_technical_file
-drive_folder: https://drive.google.com/drive/folders/1YX3sXp1ktHiBiyD-G0C3XsvjszfBWPeh
 drive_direct_items: 10
 subfolders: 0
 image_files: 8
@@ -19,6 +18,6 @@ items:
   - [urbanek-den-po-desti-009, drive_listed_repo_missing, null]
   - [urbanek-den-po-desti-010, repo_verified, 21cc0d964c1f5acb5ce3b55be6926af3521fbc55]
 notes:
-  - Chybí pouze technický soubor Thumbs.db.
+  - Chybí pouze technický soubor Thumbs.db; jeho přímý Drive odkaz je zachován v inventáři.
   - Všech osm obsahových JPEGů je ve větvi pod přesnými původními cestami.
   - ZbThumbnail.info je přítomen a není určen ke standardní klasifikaci ani OCR.

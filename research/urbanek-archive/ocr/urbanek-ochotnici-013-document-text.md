@@ -3,16 +3,17 @@
 - Zdroj: `urbanek-ochotnici-013`
 - Soubor: `Ochotníci rychvald/img216.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný programový plakát
 - Datum konání: `13.–19. května 1960`
 - Místo: Kroměříž
+- Druhá vizuální kontrola: `2026-07-21`
 
 ## Přepis
 
 # Celostátní soutěž vesnických divadelních souborů
 
-**13.–19. KVĚTNA 1960**
+**13.-19. KVĚTNA 1960**
 
 **Ústřední přehlídka v Kroměříži**
 
@@ -55,7 +56,7 @@ Patronát: Moravskoslezské pletárny, národní podnik, Holešov, Jednota, lido
 Ochotnický soubor „VOJAN“ při kulturním klubu JZD Bartoušov  
 (okres Havlíčkův Brod, kraj Jihlava)
 
-**Jaroslav Galan – Georgij Šipov**
+**Jaroslav Galan - Georgij Šipov**
 
 # U ZLATÉHO ORLA
 
@@ -74,7 +75,7 @@ Patronát: Fatra, národní podnik, závod Chropyně, JZD Chropyně, JZD Září
 
 ### 18. V.
 
-Dramatický kroužek „KLÍPERA“ družstevního klubu JZD Hroubovice  
+Dramatický kroužek „KLICPERA“ družstevního klubu JZD Hroubovice  
 (okres Chrudim, kraj Pardubice)
 
 **Hans Pfeiffer**
@@ -96,11 +97,11 @@ Patronát: Pal-Magneton, národní podnik, Kroměříž
 
 ## Organizační údaje
 
-Sál Domu osvěty v Kroměříži – Začátky představení vždy 19.30 hod.
+Sál Domu osvěty v Kroměříži - Začátky představení vždy 19.30 hod.
 
-Předprodej v Okresním osvětovém domě denně mimo neděli od 15–18 hod., telefon č. 444
+Předprodej v Okresním osvětovém domě denně mimo neděli od 15-18 hod., telefon č. 444
 
-V cestovní kanceláři ČIS, nám. J. V. Stalina od 8–15 hod., telefon č. 277
+V cestovní kanceláři ČIS, nám. J. V. Stalina od 8-15 hod., telefon č. 277
 
 # Ochotnickým divadlem za rozvoj kulturního života vesnice!
 
@@ -108,7 +109,9 @@ Tiskařský nebo výrobní kód při levém dolním okraji: `Mír 32 — 0-30138
 
 ## Poznámky ke spolehlivosti
 
-- Přepis zachovává pořadí programu, velká písmena, zkratky a dobové administrativní názvy.
-- Místní názvy `Zálinice`, `Žalkovice`, `Záříčí`, `Plešovec` a `Hroubovice` jsou přepsány podle viditelného tisku a před dalším použitím jako ověřené místní názvy mají projít druhou vizuální nebo externí kontrolou.
+- Celý plakát byl podruhé porovnán se zdrojovým obrazem po jednotlivých programových blocích.
+- Při druhé kontrole byl opraven název souboru z chybného `KLÍPERA` na tištěné `KLICPERA`.
+- Spojovníky v záhlaví, jménech autorů a časových rozsazích byly sjednoceny s viditelným tiskem.
+- Místní názvy `Zálinice`, `Žalkovice`, `Záříčí`, `Plešovec` a `Hroubovice` jsou vizuálně ověřeny jako podoby vytištěné na plakátu; jejich dobová úřední správnost není tímto přepisem nezávisle ověřena.
 - Zkratky `nár. podnik`, `JZD`, `ČIS`, `nám.` a `č.` byly zachovány.
 - Programový plakát je na snímku zachycen celý.

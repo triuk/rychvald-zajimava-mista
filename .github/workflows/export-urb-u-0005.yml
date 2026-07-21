@@ -1,0 +1,25 @@
+name: Export URB-U-0005 images
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.export-urb-u-0005
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect images
+        run: |
+          mkdir -p export
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/P1010447.jpg' export/01-P1010447-small.jpg
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/P1010446.jpg' export/02-P1010446-small.jpg
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/P1010445.jpg' export/03-P1010445-small.jpg
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010447.JPG' export/04-P1010447-full.JPG
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010446.JPG' export/05-P1010446-full.JPG
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/větrný mlýn u hebdy/P1010445.JPG' export/06-P1010445-full.JPG
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urb-u-0005-images
+          path: export
+          retention-days: 1

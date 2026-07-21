@@ -1,0 +1,26 @@
+name: Export URB-U-0009 image
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.export-urb-u-0009
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Export image
+        run: |
+          mkdir -p out
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/Mlýn u Kakalů/304interier.JPG' out/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urb-u-0009-image
+          path: out/
+          retention-days: 1

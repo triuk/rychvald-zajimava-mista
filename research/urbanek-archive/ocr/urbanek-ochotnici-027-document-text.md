@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ochotnici-027`
 - Soubor: `Ochotníci rychvald/Z danního tisku.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný novinový výstřižek nalepený na podklad
 - Autorka: Dr. O. Lihotová
 
@@ -29,11 +29,9 @@ Mladí lidé okouzlili diváky v podkrkonošské báchore M. Kubátové Jak při
 
 **Dr. O. LIHOTOVÁ**
 
-## Tištěný fotografický popisek
+## Obrazový odkaz v textu
 
-Náš obrázek je z Molièrovy komedie Zdravý nemocný, kterou sehrál dramatický odbor ZK Stap z Vilémova. Vidíme na něm J. Jelínka v titulní roli a H. Moravcovou jako Belinu.
-
-Fotografie samotná není v dochovaném výstřižku přítomna; zachován je pouze text, který se k ní vztahuje.
+Odstavec začínající slovy „Náš obrázek je…“ je součástí hlavního článku a už je přepsán výše. Fotografie, na kterou odkazuje, není v dochovaném výstřižku přítomna; text proto není podruhé veden jako samostatný fotografický popisek.
 
 ## Pozdější grafická anotace
 
@@ -45,9 +43,10 @@ Podtržení není součástí původní sazby a nemění textový přepis.
 
 ## Poznámky ke spolehlivosti
 
-- Výstřižek je zachován celý; text byl převeden ze tří sloupců do souvislého pořadí.
+- Výstřižek je zachován celý; text byl převeden ze tří fyzicky rozdělených sloupců do souvislého pořadí.
 - Přepis zachovává dobové tvary `prvých`, `myslil`, `svoje`, zkratky `TJ`, `ZK` a tištěnou podobu `Stap`.
 - Podoby jmen `Egon Rannet`, `Josefa Boková`, `J. Jelínek` a `H. Moravcová` jsou přepsány podle článku.
 - Tvar `Molièrovy` a výraz `v podkrkonošské báchore` jsou zachovány podle tisku a nebyly redakčně opravovány.
-- Jména z chybějící fotografie vycházejí pouze z tištěného popisku, nikoli z identifikace osob podle tváří.
+- Druhá řádková kontrola dne 2026-07-21 potvrdila celý text a odstranila pouze strukturální duplicitu odstavce odkazujícího na chybějící fotografii.
+- Jména z chybějící fotografie vycházejí pouze z textového odkazu článku, nikoli z identifikace osob podle tváří.
 - Historická a hodnotící tvrzení článku nejsou tímto OCR nezávisle ověřena.

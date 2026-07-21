@@ -7373,3 +7373,25 @@ web_sources:
   notes:
     - Ověřuje URB-U-0006 jako adresu U Školky 344 a GPS 49.8516111, 18.3718333.
     - Potvrzuje, že náhled P1010269.JPG odpovídá dochovanému souboru mlýn na podlesí.JPG.
+
+- source_id: web-familysearch-rychvald-historical-records
+  title: Rychvald – matriky a sčítací operáty
+  document_type: online_archivni_katalog
+  institution: FamilySearch / Zemský archiv v Opavě
+  urls:
+    census: https://www.familysearch.org/search/catalog/2156783
+    church_records: https://www.familysearch.org/cs/search/catalog/2780537
+  accessed: '2026-07-21'
+  time_period:
+    from: '1784'
+    to: '1952'
+  file: null
+  digital_format: catalog_and_digitized_images
+  readability:
+    status: catalog_verified_images_not_reviewed
+    note: Katalogové rozsahy byly ověřeny; jednotlivé obrazové jednotky nebyly pro rodinu Kakalů ručně prohledány.
+  rights:
+    status: access_may_require_login_or_familysearch_center
+  notes:
+    - Potenciální další pramen pro dohledání rodiny Kakalů, čísla domu a období existence mlýnku.
+    - Není použit jako důkaz konkrétního tvrzení o Kakalovu mlýnu.

@@ -261,8 +261,11 @@ items:
     visual_derivative_group: kakaluv-mlyn-historical-image
     exact_duplicate_ids: [urbanek-mlyny-021]
     identification:
-      status: unverified
-      note: Konkrétní identifikace není v názvu této položky uvedena.
+      status: verified_by_archive_owner_confirmation
+      verified_name: Kakalův mlýn
+      basis: [user_archive_knowledge]
+      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+      note: Přesná poloha, datace, vlastník a technické vybavení zůstávají neověřené.
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -279,14 +282,14 @@ items:
     visual_derivative_group: kakaluv-mlyn-historical-image
     exact_duplicate_ids: [urbanek-mlyny-022, urbanek-mlyny-039]
     identification:
-      status: unverified
-      candidate_name: Kakalův mlýn
-      candidate_basis: original_filename
-      note: Přiřazení názvu nebylo nezávisle ověřeno.
+      status: verified_by_archive_owner_confirmation
+      verified_name: Kakalův mlýn
+      basis: [original_filename, user_archive_knowledge]
+      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+      note: Jde o výřez téhož historického snímku; přesná poloha, datace, vlastník a technologie zůstávají neověřené.
     ocr:
       document_text: not_applicable
       scene_text: not_detected
 
 open_questions:
-  - Ověřit, zda historický obraz urbanek-mlyny-011 a 012 skutečně zachycuje Kakalův mlýn.
   - Určit konkrétní mlýn, místo a období na historické fotografii urbanek-mlyny-010.

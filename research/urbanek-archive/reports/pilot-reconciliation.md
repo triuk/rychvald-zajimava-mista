@@ -69,9 +69,9 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 16;
+- `open`: 15;
 - `deferred`: 0;
-- `resolved`: 18;
+- `resolved`: 19;
 - `not_actionable`: 1;
 - celkem: 35.
 

@@ -97,9 +97,9 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 16;
+- `open`: 15;
 - `deferred`: 0;
-- `resolved`: 18;
+- `resolved`: 19;
 - `not_actionable`: 1;
 - celkem: 35.
 
@@ -114,6 +114,8 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 `URB-U-0005` byla ověřena databází Povětrník jako záznam 175, katalogové číslo mlýnek 48, na adrese U Skučáku 54. Databázová fotografie se přesně shoduje s archivním záběrem stožáru; identita, lokalizace a funkční celek jsou `verified`. Dřívější inference Polní 1275 je překonaná.
 
 `URB-U-0006` byla ověřena databází Povětrník jako záznam 229 na adrese U Školky 344. Databázová fotografie zachycuje stejný objekt jako archivní `mlýn na podlesí.JPG`.
+
+`URB-U-0007` byla uzavřena potvrzením uživatele, že historický obraz zachycuje Kakalův mlýn. Veřejný web ani databáze Povětrník neposkytly adresu, dataci, vlastníka nebo technické údaje; tyto atributy zůstávají neověřené.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

@@ -155,10 +155,11 @@ items:
       Přesná binární kopie historického snímku malé dřevěné stavby s větrným kolem
       na střeše; obsahová klasifikace se přebírá z urbanek-mlyny-011.
     identification:
-      status: unverified
-      candidate_name: Kakalův mlýn
-      candidate_basis: parent_folder_name
-      note: Zařazení do složky podporuje kandidátní název, ale nejde o nezávislé ověření.
+      status: verified_by_archive_owner_confirmation
+      verified_name: Kakalův mlýn
+      basis: [parent_folder_name, user_archive_knowledge]
+      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+      note: Přesná binární kopie celého historického snímku; poloha, datace, vlastník a technologie zůstávají neověřené.
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -174,10 +175,11 @@ items:
       Přesná binární kopie výřezu historického obrazu malé dřevěné stavby s větrným
       kolem na střeše; obsahová klasifikace se přebírá z urbanek-mlyny-012.
     identification:
-      status: unverified
-      candidate_name: Kakalův mlýn
-      candidate_basis: original_filename_and_parent_folder
-      note: Shoda názvu souboru a složky stále nepředstavuje nezávislé historické ověření.
+      status: verified_by_archive_owner_confirmation
+      verified_name: Kakalův mlýn
+      basis: [original_filename, parent_folder_name, user_archive_knowledge]
+      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+      note: Přesná binární kopie výřezu; poloha, datace, vlastník a technologie zůstávají neověřené.
     ocr:
       document_text: not_applicable
       scene_text: not_detected

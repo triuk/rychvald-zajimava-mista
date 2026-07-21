@@ -146,7 +146,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 16, in_progress: 0, deferred: 0, resolved: 18, not_actionable: 1, total: 35}
+  summary: {open: 15, in_progress: 0, deferred: 0, resolved: 19, not_actionable: 1, total: 35}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -154,6 +154,9 @@ uncertainties:
     - id: URB-U-0005
       result: povetrnik_record_175_exact_image_match_u_skucaku_54_verified
       evidence: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
+    - id: URB-U-0007
+      result: kakal_mill_image_confirmed_details_unverified
+      evidence: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
   rules:
     - Open issues are not presented as verified facts.
     - A thumbnail without a standalone full file means the full original is missing.

@@ -243,9 +243,11 @@ items:
       status: probable_misfiled_or_reference_copy
       note: Soubor označený Kakalův mlýn je ve složce domu č. 339 bez vysvětlení vztahu.
     identification:
-      status: unverified
-      candidate_name: Kakalův mlýn
-      candidate_basis: original_filename
+      status: verified_by_archive_owner_confirmation
+      verified_name: Kakalův mlýn
+      basis: [original_filename, user_archive_knowledge]
+      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+      note: Identita obrazu je potvrzena; důvod uložení kopie ve složce domu č. 339 zůstává neověřený.
     ocr:
       document_text: not_applicable
       scene_text: not_detected

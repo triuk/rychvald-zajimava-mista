@@ -41,7 +41,7 @@ V té době bylo již jednáno o tom, aby sál v hostinci Eichenbaumově byl vyp
 
 Úspěch vystoupení záblatských ochotníků v hostinci pí. Mžikové dal podnět II. odboru M. O. L. k vytvoření samostatného dramatického kroužku, který ovšem byl v začátcích. Nebylo režiséra a nebylo dost ochotníků. Proto podjal jsem se práce nacvičovati s ochotníky a za pomoci několika ochotníků z I. odboru M. O. L. byla provedena dne 25. listopadu 1917 Štolbova veselohra „Na letním bytě“. Sám jsem účinkovati při hře nemohl, neboť jsem téhož dne působil v Záblatí v „Ondrášovi“. Vedení tohoto dramatického kroužku ujali se později jiní a já působil nadále jen v I. odb. M. O. L. v Rychvaldě a v Záblatí.
 
-Tři divadelní představení a slušný finanční efekt zaplašily poslední zbytky pochyb a ruch v Rychvaldě se zvětšil. Ve schůzích odboru jednalo se již i o škole a mateřské školce, o knihovně a jin. akutních záležitostech. Bylo milo sledovati debaty ve výborových schůzích.
+Tři divadelní představení a slušný finanční efekt zaplašil poslední zbytky pochyb a ruch v Rychvaldě se zvětšil. Ve schůzích odboru jednalo se již i o škole a mateřské školce, o knihovně a jin. akutních záležitostech. Bylo milo sledovati debaty ve výborových schůzích.
 
 Vědělo se předem, že činnost se musí rozšířiti, že na započaté dráze nutno vytrvati. Mikulášská zábava dne 8. prosince 1917 ještě více sdružila naše lidi, kteří zase po dlouhé době mohli se oddati při stolech nerušené přátelské zábavě.
 

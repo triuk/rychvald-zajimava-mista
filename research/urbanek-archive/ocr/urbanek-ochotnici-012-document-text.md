@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ochotnici-012`
 - Soubor: `Ochotníci rychvald/Kroměříž 2.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: novinová strana s hlavním článkem, krátkými zprávami a výroky k představení
 - Tištěná strana: 2
 
@@ -33,9 +33,9 @@ Suverénne ovládanie textu predlohy, technické zvládnutie verša, celý umele
 
 Nazdávam sa, že to bol režisér, ktorý išiel svojským rukopisom, vedel pevne a cieľavedome viesť herca tak, aby sa stal víťazom hry nie jednotlivec, ale celý kolektív.
 
-Očakávame právom od Rychvaldských, že v celkovom ich repertoári zvýťazí krása, pravda i optimizmus súčasnej socialistickej drámy, pretože im veríme.
+Očakávame právom od Rychvaldských, že v celkovom ich repertoári zvíťazí krása, pravda i optimizmus súčasnej socialistickej drámy, pretože im veríme.
 
-**Rudolf Debnárik,**  
+**Rudolf Děbnárik,**  
 **člen ústrednej poroty**
 
 ## 2. Pěkné přivítání
@@ -98,5 +98,6 @@ Kdybych věděl předem, že hra je veršovaná, neodvážil bych se přijít. N
 - Tvar `zdravou mladosť` je zachován podle viditelného tisku a nebyl gramaticky opravován.
 - Krátké zprávy a výroky byly odděleny podle fyzické sazby stránky.
 - Tvar `z Rychlova` v textu „8 hodin“ je přepsán podle tisku; pravděpodobnou tiskovou chybu nebylo dovoleno opravit na `z Rychvalda` bez dalšího dokladu.
+- Druhá řádková kontrola dne 2026-07-21 opravila podpis `Rudolf Debnárik` na tištěné `Rudolf Děbnárik` a sloveso `zvýťazí` na tištěné `zvíťazí`.
 - Jména a role v hlavním článku a citacích jsou tištěné údaje; osoby nebyly identifikovány podle tváří.
 - Historická, politická a hodnotící tvrzení nejsou tímto OCR nezávisle ověřena.

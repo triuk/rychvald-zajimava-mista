@@ -26,7 +26,8 @@ checkpoints:
   ochotnici_short_documents_last_commit: fb0b99b42c3503c805decb169d1a2d979abc643f
   ochotnici_article_001_commit: 503f7cd76d742dfb285b3cc980318fd729b9e662
   ochotnici_kromeriz_articles_last_commit: e484e7b0ec1728fd4a2abb9b5d65c46091a3bbd0
-  ochotnici_tesinsko_article_commit: 12a5a4eef07a454a37c2810eb7fd5ec8d1e733d1
+  ochotnici_press_review_commit: d811e840350152e1be7d49116e24f3ccab233b5b
+  ochotnici_tesinsko_article_commit: e6b2f4d72417e0eced6665f582c88d237da3ab8f
   uncertainty_registry_commit: 221df8b5067454377fd6ae962f78196840b7b106
 
 ocr:
@@ -92,8 +93,12 @@ next_action:
   collection: Ochotníci rychvald
   group_id: historical-book-pages-40-45
   ordered_items: [urbanek-ochotnici-017, urbanek-ochotnici-016, urbanek-ochotnici-015]
+  text_units:
+    - ending_or_complete_sokol_article
+    - bohdan_horak_wartime_memories
+    - census_1910_article
+    - partial_economic_overview
   instruction: >-
-    Transcribe the three photographed book spreads in page order. Split the ending
-    Sokol fragment, Bohdan Horák's continuing article and the later articles beginning
-    on pages 44–45 into separate text units. Preserve physical page boundaries and do
-    not merge unrelated articles.
+    Transcribe photographed book pages 40 through 45 in order. Preserve page boundaries
+    and split all four printed text units. The economic overview continues beyond the
+    available image and must remain explicitly incomplete.

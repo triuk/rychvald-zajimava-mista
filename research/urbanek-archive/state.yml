@@ -14,7 +14,7 @@ authoritative_files:
   - AGENTS.md
   - research/urbanek-archive/STATUS.md
   - research/urbanek-archive/state.yml
-  - research/urbanek-archive/uncertainties.yml
+  - research/urbanek-archive/uncertainties/index.yml
   - research/urbanek-archive/reports/pilot-reconciliation.md
 
 checkpoints:
@@ -55,6 +55,7 @@ phases:
   pilot_reconciliation: completed
   pilot_file_completion: completed
   thumbnail_only_original_classification: completed
+  uncertainty_registry_sharding: completed
   draft_pull_request: created
 
 pull_request:
@@ -140,7 +141,8 @@ pilot_collections:
       cache_report: research/urbanek-archive/reports/nalet-na-ostravu-1944-thumbnail-cache.md
 
 uncertainties:
-  registry: research/urbanek-archive/uncertainties.yml
+  registry: research/urbanek-archive/uncertainties/index.yml
+  legacy_snapshot: research/urbanek-archive/uncertainties.yml
   summary: {open: 20, in_progress: 0, deferred: 0, resolved: 14, not_actionable: 1, total: 35}
   rules:
     - Open issues are not presented as verified facts.

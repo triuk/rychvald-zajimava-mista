@@ -47,9 +47,9 @@ Souhrnný report:
 
 `research/urbanek-archive/reports/pilot-reconciliation.md`
 
-## Obrazy známé pouze z cache
+## Chybějící plné originály
 
-Audity technických cache odhalily **12 unikátních obrazů**, jejichž plné originály nebyly nalezeny:
+Audity technických cache prokázaly **12 chybějících plných originálů**. V repozitáři nejsou jako samostatné soubory; zachovány jsou pouze jejich náhledy v `Thumbs.db`:
 
 - 1 v kolekci Rychvaldské větrné mlýny;
 - 8 v kolekci Články z Českého slova;
@@ -57,17 +57,17 @@ Audity technických cache odhalily **12 unikátních obrazů**, jejichž plné o
 - 1 v kolekci `den po dešti`;
 - 0 v kolekci Nálet na Ostravu 1944.
 
-Přítomnost souborů `Thumbs.db` zachovává jejich náhledy, ale náhledy nejsou náhradou plných originálů.
+Náhledy v `Thumbs.db` nejsou samostatné zdrojové obrazy ani náhrada plných originálů. Absence těchto plných souborů je uzavřený evidenční výsledek; otevřená může zůstat pouze identifikace nebo interpretace náhledu.
 
 ## fotodokument/den po dešti
 
 - 8 JPEGů a 2 technické cache, bez podsložek.
-- Všech deset položek je ve větvi pod původními cestami.
+- Všech deset evidovaných položek je ve větvi pod původními cestami.
 - EXIF potvrzuje tři časově oddělené celky:
   - 5. srpna 2014;
   - série 24. srpna 2014;
   - samostatný kontext odvodnění 18. března 2015.
-- `P1020841.JPG` chybí jako plný originál; cache jej řadí bezprostředně před `P1020842.JPG`.
+- Plný originál `P1020841.JPG` chybí; v `Thumbs.db` je zachován pouze jeho náhled.
 - Kolekce nevyžaduje OCR.
 
 Soubory:
@@ -80,7 +80,7 @@ Soubory:
 ## Nálet na Ostravu 1944
 
 - 7 JPEGů a jeden `Thumbs.db`, bez podsložek.
-- Všech osm položek je ve větvi pod původními cestami.
+- Všech osm evidovaných položek je ve větvi pod původními cestami.
 - Cache obsahuje čtyři další pracovní názvy, ale jejich náhledy odpovídají dochovaným fotografiím; žádný nový unikátní výjev nechybí.
 - Šest snímků dokumentuje těžce poškozené budovy a městské bloky.
 - Jeden snímek zachycuje velký válcovitý předmět připomínající munici; přesný typ není z fotografie ověřen.
@@ -96,15 +96,15 @@ Soubory:
 
 ## Registr nejistot
 
-- `open`: 23;
-- `deferred`: 1;
-- `resolved`: 10;
+- `open`: 20;
+- `deferred`: 0;
+- `resolved`: 14;
 - `not_actionable`: 1;
 - celkem: 35.
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` byly uzavřeny doplněním příslušných souborů `Thumbs.db`.
 
-Obsahové nejistoty, zejména chybějící plné originály známé pouze z cache, zůstávají otevřené nebo odložené.
+Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatováním, že plné originály chybějí. Související otázky identifikace zachovaných náhledů mohou zůstat otevřené samostatně.
 
 ## Aktuální krok
 

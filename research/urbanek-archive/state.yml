@@ -41,7 +41,7 @@ pilot_totals:
   technical_files_repo_verified: 15
   total_items_repo_present: 159
   repo_missing_items: 0
-  unique_images_known_only_from_thumbnail_caches: 12
+  missing_full_original_images_known_only_from_thumbnail_caches: 12
 
 phases:
   import: completed
@@ -54,6 +54,7 @@ phases:
   ochotnici_second_visual_review: completed
   pilot_reconciliation: completed
   pilot_file_completion: completed
+  thumbnail_only_original_classification: completed
   draft_pull_request: created
 
 pull_request:
@@ -74,7 +75,7 @@ pilot_collections:
     technical_files: 8
     repo_verified_items: 39
     repo_missing_items: 0
-    unique_images_known_only_from_cache: 1
+    missing_full_original_images_known_only_from_cache: 1
     reports:
       - research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
 
@@ -85,7 +86,7 @@ pilot_collections:
     technical_files: 2
     repo_verified_items: 39
     repo_missing_items: 0
-    unique_images_known_only_from_cache: 8
+    missing_full_original_images_known_only_from_cache: 8
     reports:
       - research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md
 
@@ -96,7 +97,7 @@ pilot_collections:
     technical_files: 2
     repo_verified_items: 63
     repo_missing_items: 0
-    unique_images_known_only_from_cache: 2
+    missing_full_original_images_known_only_from_cache: 2
     second_visual_review_source_items: 29
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
     visual_review_protocols:
@@ -113,7 +114,7 @@ pilot_collections:
     technical_files: 2
     repo_verified_items: 10
     repo_missing_items: 0
-    unique_images_known_only_from_cache: 1
+    missing_full_original_images_known_only_from_cache: 1
     ocr_required: false
     multiple_events_confirmed_by_exif: true
     files:
@@ -129,7 +130,7 @@ pilot_collections:
     technical_files: 1
     repo_verified_items: 8
     repo_missing_items: 0
-    unique_images_known_only_from_cache: 0
+    missing_full_original_images_known_only_from_cache: 0
     ocr_required: false
     event_label_independently_verified: false
     files:
@@ -140,9 +141,10 @@ pilot_collections:
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 23, in_progress: 0, deferred: 1, resolved: 10, not_actionable: 1, total: 35}
+  summary: {open: 20, in_progress: 0, deferred: 0, resolved: 14, not_actionable: 1, total: 35}
   rules:
     - Open issues are not presented as verified facts.
+    - A thumbnail without a standalone full file means the full original is missing.
     - Thumbnail-only images are not substitutes for full originals.
     - Folder and filename labels are archival metadata, not independent proof.
 
@@ -151,7 +153,7 @@ readiness:
   reconciliation_report: research/urbanek-archive/reports/pilot-reconciliation.md
   blockers_for_draft_pr: []
   known_non_blocking_issues:
-    - twelve unique images are known only from thumbnail caches
+    - twelve full original images are missing; only thumbnails remain in caches
     - open factual conflicts and physical lacunae remain registered
 
 next_action:
@@ -159,5 +161,6 @@ next_action:
   pull_request: 1
   instruction: >-
     Review the draft PR scope, changed files, authoritative reports and registered
-    uncertainties. Continue resolving the uncertainty registry item by item. Do not
-    mark the PR ready or merge it until the pilot structure has been accepted.
+    uncertainties. Continue resolving factual and identification uncertainties item by item.
+    Do not reopen the confirmed absence of full originals represented only by thumbnails.
+    Do not mark the PR ready or merge it until the pilot structure has been accepted.

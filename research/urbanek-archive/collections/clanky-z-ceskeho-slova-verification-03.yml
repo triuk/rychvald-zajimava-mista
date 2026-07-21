@@ -2,8 +2,8 @@ collection_id: urbanek-ceske-slovo
 batch_id: verification-03
 status: completed
 scope: urbanek-ceske-slovo-022 až urbanek-ceske-slovo-039
-verified_count: 17
-missing_count: 1
+verified_count: 18
+missing_count: 0
 items:
   - {id: urbanek-ceske-slovo-022, repo_status: repo_verified, git_blob_sha: c98d00ac0a1888be3ba740c77c7693785c34df0d}
   - {id: urbanek-ceske-slovo-023, repo_status: repo_verified, git_blob_sha: c2114b457c648cb6d3814ce7a82ce6ef6be7cb0b}
@@ -21,16 +21,15 @@ items:
   - {id: urbanek-ceske-slovo-035, repo_status: repo_verified, git_blob_sha: 307df2f9353afca93b049e25845156fd5469d390}
   - {id: urbanek-ceske-slovo-036, repo_status: repo_verified, git_blob_sha: 54f34ab7b91faa63f3b022930482f021830b51a4}
   - {id: urbanek-ceske-slovo-037, repo_status: repo_verified, git_blob_sha: 4e2b788540a273029f7cec79c46b3e138681eb0d}
-  - {id: urbanek-ceske-slovo-038, repo_status: drive_listed_repo_missing, git_blob_sha: null, filename: Thumbs.db}
+  - {id: urbanek-ceske-slovo-038, repo_status: repo_verified, git_blob_sha: f087d7ecec991aaa5d3327f4e7a9cf4130e44c3c, filename: Thumbs.db}
   - {id: urbanek-ceske-slovo-039, repo_status: repo_verified, git_blob_sha: 76ed4babab864fa3e4db96a6736d0dde71d92400}
 summary:
-  drive_total_files: 39
+  total_files: 39
   image_files: 37
   image_files_repo_verified: 37
   technical_thumbnail_caches: 2
-  technical_thumbnail_caches_repo_verified: 1
-  technical_thumbnail_caches_repo_missing: 1
+  technical_thumbnail_caches_repo_verified: 2
+  repo_missing_items: 0
 notes:
-  - Všechny obrazové soubory mají přesnou původní cestu ve větvi.
-  - Chybějící `Thumbs.db` zůstává na Google Drivu a bude analyzován samostatně.
-  - Obsahová klasifikace, seskupování článků a OCR dosud nebyly zahájeny.
+  - Všechny soubory mají přesnou původní cestu ve větvi.
+  - Obsahová klasifikace, seskupování článků a OCR jsou vedeny v navazujících souborech kolekce.

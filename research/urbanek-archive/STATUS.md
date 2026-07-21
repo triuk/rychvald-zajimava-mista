@@ -57,7 +57,7 @@ Audity technických cache prokázaly **11 chybějících plných originálů**. 
 - 1 v kolekci `den po dešti`;
 - 0 v kolekci Nálet na Ostravu 1944.
 
-Náhledy v `Thumbs.db` nejsou samostatné zdrojové obrazy ani náhrada plných originálů. Absence těchto plných souborů je uzavřený evidenční výsledek; otevřená může zůstat pouze identifikace nebo interpretace náhledu.
+Náhledy v `Thumbs.db` nejsou samostatné zdrojové obrazy ani náhrada plných originálů. Pokud se však přesným obrazovým porovnáním prokáže, že náhled odpovídá plnému souboru dochovanému pod jiným názvem, nejde o chybějící obrazový obsah.
 
 ## fotodokument/den po dešti
 
@@ -105,11 +105,15 @@ Soubory:
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` byly uzavřeny doplněním příslušných souborů `Thumbs.db`.
 
-Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatováním, že plné originály chybějí. Související otázky identifikace zachovaných náhledů mohou zůstat otevřené samostatně.
+Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatováním, že příslušné plné obrazy skutečně chybějí.
+
+`URB-U-0002` a `URB-U-0003` byly zpřesněny: soubor pod názvem `P1010269.JPG` chybí, ale jeho plný obrazový obsah je dochován jako `mlýn na podlesí.JPG`; náhled v cache je duplicitní.
 
 `URB-U-0004` byla ověřena databází Povětrník jako záznam 176, katalogové číslo mlýnek 49, na adrese Potoční 564. Databázová fotografie je oříznutou verzí archivního snímku; identita a lokalizace jsou `verified`.
 
 `URB-U-0005` byla ověřena databází Povětrník jako záznam 175, katalogové číslo mlýnek 48, na adrese U Skučáku 54. Databázová fotografie se přesně shoduje s archivním záběrem stožáru; identita, lokalizace a funkční celek jsou `verified`. Dřívější inference Polní 1275 je překonaná.
+
+`URB-U-0006` byla ověřena databází Povětrník jako záznam 229 na adrese U Školky 344. Databázová fotografie zachycuje stejný objekt jako archivní `mlýn na podlesí.JPG`.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

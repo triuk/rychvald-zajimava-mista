@@ -3,10 +3,11 @@
 - Zdroj: `urbanek-ochotnici-004`
 - Soubor: `Ochotníci rychvald/Svět v obrazech.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified_with_lacuna`
 - Druh: časopisecká strana s článkem, fotografiemi, popisky a vloženým výsledkovým blokem
 - Autor textu: M. Veselý
 - Foto: Karel Minc
+- Otevřená nejistota: `URB-U-0032`
 
 ## Hlavní fotografický popisek
 
@@ -47,9 +48,9 @@ Cenu redakce časopisu **BESEDA** získává soubor OB Tážaly, kraj Olomouc (V
 
 ## Poznámky ke spolehlivosti
 
-- Hlavní článek je na snímku čitelný celý.
+- Hlavní článek, oba fotografické popisky a veškerý zachovaný text výsledkového bloku byly při druhé řádkové kontrole dne 2026-07-21 potvrzeny bez textové opravy.
 - Vložený výsledkový blok je fyzicky oříznut dolním okrajem zdrojového obrazu a končí uprostřed věty; chybějící pokračování nebylo domýšleno.
 - Přepis zachovává tištěné zkratky `OB`, `n. p.`, `PAL`, dobové názvy a podobu `Moje teta, tvoje teta`.
-- Podoby `Lubietová`, `Neděliště`, `Tážaly` a jméno `V. Cach` jsou přepsány podle tisku a mají projít druhou vizuální kontrolou před použitím jako ověřené údaje.
+- Podoby `Lubietová`, `Neděliště`, `Tážaly` a jméno `V. Cach` byly při druhé vizuální kontrole potvrzeny jako tištěné podoby.
 - Fotografické osoby nebyly identifikovány podle tváří.
 - Historická a hodnotící tvrzení článku ani výsledkového bloku nejsou tímto OCR nezávisle ověřena.

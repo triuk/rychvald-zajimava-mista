@@ -69,17 +69,19 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 15;
+- `open`: 16;
 - `deferred`: 0;
 - `resolved`: 19;
 - `not_actionable`: 1;
-- celkem: 35.
+- celkem: 36.
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou uzavřeny. Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` jsou rovněž uzavřeny: příslušné plné originály chybějí.
 
 `URB-U-0004` je uzavřena jako `verified`: databáze Povětrník záznam 176 (mlýnek 49) uvádí Potoční 564 a její základní fotografie je oříznutou verzí archivního souboru `Potoční 564.jpg`.
 
 `URB-U-0005` je uzavřena jako `verified`: databáze Povětrník záznam 175 (mlýnek 48) uvádí U Skučáku 54 a její základní fotografie zachycuje stejný stožár, budovu a okolí jako archivní snímky. Dřívější inference Polní 1275 je překonaná.
+
+`URB-U-0007` je uzavřena pouze pro identitu historického obrazu jako Kakalův mlýn. Přesná poloha, číslo domu, vlastník, datace a technologie jsou vedeny v propojené otevřené položce `URB-U-0036`, která se musí znovu prověřovat po zpracování dalších relevantních pramenů.
 
 ## Připravenost větve
 
@@ -89,6 +91,7 @@ Pilotní větev má kompletní evidovanou souborovou sadu. Zbývají tyto věcn�
 2. otevřené historické, identifikační a fyzické lakuny jsou vedeny v aktuálním registru;
 3. názvy složek a souborů nejsou samy o sobě považovány za nezávislý historický důkaz;
 4. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen;
-5. další větrné mlýny se před uzavřením identifikace porovnávají také s databází Povětrník.
+5. další větrné mlýny se před uzavřením identifikace porovnávají také s databází Povětrník;
+6. `URB-U-0036` zůstává aktivní, dokud nové prameny nepotvrdí nebo nevyvrátí polohu a historii Kakalova mlýna.
 
 Doporučený stav: `draft_pr_open_with_complete_pilot_file_set`.

@@ -97,11 +97,11 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 15;
+- `open`: 16;
 - `deferred`: 0;
 - `resolved`: 19;
 - `not_actionable`: 1;
-- celkem: 35.
+- celkem: 36.
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` byly uzavřeny doplněním příslušných souborů `Thumbs.db`.
 
@@ -115,7 +115,9 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 
 `URB-U-0006` byla ověřena databází Povětrník jako záznam 229 na adrese U Školky 344. Databázová fotografie zachycuje stejný objekt jako archivní `mlýn na podlesí.JPG`.
 
-`URB-U-0007` byla uzavřena potvrzením uživatele, že historický obraz zachycuje Kakalův mlýn. Veřejný web ani databáze Povětrník neposkytly adresu, dataci, vlastníka nebo technické údaje; tyto atributy zůstávají neověřené.
+`URB-U-0007` byla uzavřena pouze v rozsahu identity obrazu: historický snímek zachycuje Kakalův mlýn. Přesná poloha, číslo domu, vlastník, datace a technologie jsou vedeny jako samostatná otevřená položka `URB-U-0036`.
+
+`URB-U-0036` se musí znovu prověřit po zpracování každé další relevantní dávky archivu, nového OCR, mapového nebo adresního pramene. Současný negativní výsledek internetového hledání není důvodem k jejímu uzavření.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

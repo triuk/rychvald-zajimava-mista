@@ -11,75 +11,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download Povětrník records
+      - name: Collect metadata files
         run: |
-          set -uxo pipefail
-          mkdir -p export/175 export/176
-          for id in 175 176; do
-            for mode in https http jina; do
-              case "$mode" in
-                https) url="https://www.povetrnik.cz/vetrne-mlyny/detail/$id" ;;
-                http)  url="http://www.povetrnik.cz/vetrne-mlyny/detail/$id" ;;
-                jina)  url="https://r.jina.ai/http://www.povetrnik.cz/vetrne-mlyny/detail/$id" ;;
-              esac
-              curl -k -L --http1.1 --retry 2 --connect-timeout 20 --max-time 120 \
-                -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/138 Safari/537.36' \
-                -D "export/$id/$mode-headers.txt" \
-                -w '%{http_code}\n%{url_effective}\n' \
-                -o "export/$id/$mode-page.txt" \
-                "$url" > "export/$id/$mode-status.txt" 2> "export/$id/$mode-curl-error.txt" || true
-            done
-          done
-          curl -k -L --http1.1 --fail -o export/175/povetrnik-preview.jpg \
-            http://www.povetrnik.cz/upload/media/174/605_preview_cropped_500x420.JPG || true
-          curl -k -L --http1.1 --fail -o export/176/povetrnik-preview.jpg \
-            http://www.povetrnik.cz/upload/media/175/606_preview_cropped_500x420.jpg || true
-          python - <<'PY'
-          from html.parser import HTMLParser
-          from pathlib import Path
-          from urllib.parse import urljoin
-          from urllib.request import Request, urlopen
-
-          class Parser(HTMLParser):
-              def __init__(self):
-                  super().__init__(); self.img=[]; self.links=[]; self.text=[]
-              def handle_starttag(self, tag, attrs):
-                  d=dict(attrs)
-                  if tag=='img' and d.get('src'): self.img.append(d['src'])
-                  if tag=='a' and d.get('href'): self.links.append(d['href'])
-              def handle_data(self, data):
-                  s=' '.join(data.split())
-                  if s: self.text.append(s)
-
-          for mid in ('175','176'):
-              root=Path('export')/mid
-              candidates=[root/'https-page.txt',root/'http-page.txt']
-              html=''
-              for c in candidates:
-                  if c.exists() and c.stat().st_size>500:
-                      html=c.read_text('utf-8',errors='replace'); break
-              if html:
-                  p=Parser(); p.feed(html)
-                  (root/'parsed-text.txt').write_text('\n'.join(p.text),'utf-8')
-                  (root/'image-urls.txt').write_text('\n'.join(dict.fromkeys(p.img)),'utf-8')
-                  (root/'links.txt').write_text('\n'.join(dict.fromkeys(p.links)),'utf-8')
-                  base=f'https://www.povetrnik.cz/vetrne-mlyny/detail/{mid}'
-                  imgdir=root/'images'; imgdir.mkdir(exist_ok=True)
-                  for i,src in enumerate(dict.fromkeys(p.img)):
-                      if i>=50: break
-                      url=urljoin(base,src)
-                      try:
-                          req=Request(url,headers={'User-Agent':'Mozilla/5.0'})
-                          data=urlopen(req,timeout=40).read()
-                          suffix=Path(url.split('?',1)[0]).suffix.lower()
-                          if suffix not in {'.jpg','.jpeg','.png','.webp','.gif'}: suffix='.bin'
-                          (imgdir/f'{i:02d}{suffix}').write_bytes(data)
-                      except Exception as e:
-                          (imgdir/f'{i:02d}.error.txt').write_text(f'{url}\n{e}\n','utf-8')
-          PY
+          mkdir -p export/research/urbanek-archive/collections
+          mkdir -p export/research/urbanek-archive/reports
+          mkdir -p export/sources
+          cp sources/index.yml export/sources/index.yml
+          cp research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml export/research/urbanek-archive/collections/
+          cp research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-02.yml export/research/urbanek-archive/collections/
+          cp research/urbanek-archive/STATUS.md export/research/urbanek-archive/
+          cp research/urbanek-archive/state.yml export/research/urbanek-archive/
+          cp research/urbanek-archive/reports/pilot-reconciliation.md export/research/urbanek-archive/reports/
       - uses: actions/upload-artifact@v4
-        if: always()
         with:
-          name: povetrnik-175-176-verification
+          name: povetrnik-metadata-sync
           path: export
           retention-days: 1

@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ochotnici-001`
 - Soubor: `Ochotníci rychvald/Článek.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplná časopisecká strana s třísloupcovým článkem a fotografií
 - Rubrika: `Kroměříž`
 - Autor: Petr Grimm
@@ -37,5 +37,6 @@ Ve spodní části stránky je fotografie několika osob u kašny na kroměří�
 - Přepis zachovává dobové tvary `prvých`, `musili`, `popřípadě`, zkratky `OB`, `ČSM`, `MNV`, `JZD` a tištěné názvy her.
 - Místní názvy `Tážaly`, `Bartoušov`, `Hroubovice` a `Želetice` jsou přepsány podle tisku; jejich dobová úřední podoba není tímto OCR samostatně ověřena.
 - Tvar `Mojí a tvojí tety` je zachován podle článku.
-- Článek je na snímku zachycen celý; fotografie však nemá viditelný samostatný popisek.
+- Článek je na snímku zachycen celý; fotografie nemá viditelný samostatný popisek.
+- Druhá řádková kontrola dne 2026-07-21 potvrdila nadpis, všech pět textových bloků, podpis autora i absenci fotografického popisku bez textové opravy.
 - Historická a hodnotící tvrzení článku nejsou tímto OCR nezávisle ověřena.

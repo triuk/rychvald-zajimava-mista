@@ -13,14 +13,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: Download Povětrník records
         run: |
-          set -euxo pipefail
+          set -uxo pipefail
           mkdir -p export/175 export/176
           for id in 175 176; do
-            curl -L --fail --retry 3 --connect-timeout 20 --max-time 120 \
-              -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/138 Safari/537.36' \
-              -D "export/$id/headers.txt" \
-              -o "export/$id/page.html" \
-              "https://www.povetrnik.cz/vetrne-mlyny/detail/$id"
+            for mode in https http jina; do
+              case "$mode" in
+                https) url="https://www.povetrnik.cz/vetrne-mlyny/detail/$id" ;;
+                http)  url="http://www.povetrnik.cz/vetrne-mlyny/detail/$id" ;;
+                jina)  url="https://r.jina.ai/http://www.povetrnik.cz/vetrne-mlyny/detail/$id" ;;
+              esac
+              curl -k -L --http1.1 --retry 2 --connect-timeout 20 --max-time 120 \
+                -A 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/138 Safari/537.36' \
+                -D "export/$id/$mode-headers.txt" \
+                -w '%{http_code}\n%{url_effective}\n' \
+                -o "export/$id/$mode-page.txt" \
+                "$url" > "export/$id/$mode-status.txt" 2> "export/$id/$mode-curl-error.txt" || true
+            done
           done
           python - <<'PY'
           from html.parser import HTMLParser
@@ -41,26 +49,32 @@ jobs:
 
           for mid in ('175','176'):
               root=Path('export')/mid
-              html=(root/'page.html').read_text('utf-8',errors='replace')
-              p=Parser(); p.feed(html)
-              (root/'text.txt').write_text('\n'.join(p.text),'utf-8')
-              (root/'image-urls.txt').write_text('\n'.join(dict.fromkeys(p.img)),'utf-8')
-              (root/'links.txt').write_text('\n'.join(dict.fromkeys(p.links)),'utf-8')
-              base=f'https://www.povetrnik.cz/vetrne-mlyny/detail/{mid}'
-              imgdir=root/'images'; imgdir.mkdir()
-              for i,src in enumerate(dict.fromkeys(p.img)):
-                  if i>=40: break
-                  url=urljoin(base,src)
-                  try:
-                      req=Request(url,headers={'User-Agent':'Mozilla/5.0'})
-                      data=urlopen(req,timeout=40).read()
-                      suffix=Path(url.split('?',1)[0]).suffix.lower()
-                      if suffix not in {'.jpg','.jpeg','.png','.webp','.gif'}: suffix='.bin'
-                      (imgdir/f'{i:02d}{suffix}').write_bytes(data)
-                  except Exception as e:
-                      (imgdir/f'{i:02d}.error.txt').write_text(f'{url}\n{e}\n','utf-8')
+              candidates=[root/'https-page.txt',root/'http-page.txt']
+              html=''
+              for c in candidates:
+                  if c.exists() and c.stat().st_size>500:
+                      html=c.read_text('utf-8',errors='replace'); break
+              if html:
+                  p=Parser(); p.feed(html)
+                  (root/'parsed-text.txt').write_text('\n'.join(p.text),'utf-8')
+                  (root/'image-urls.txt').write_text('\n'.join(dict.fromkeys(p.img)),'utf-8')
+                  (root/'links.txt').write_text('\n'.join(dict.fromkeys(p.links)),'utf-8')
+                  base=f'https://www.povetrnik.cz/vetrne-mlyny/detail/{mid}'
+                  imgdir=root/'images'; imgdir.mkdir(exist_ok=True)
+                  for i,src in enumerate(dict.fromkeys(p.img)):
+                      if i>=50: break
+                      url=urljoin(base,src)
+                      try:
+                          req=Request(url,headers={'User-Agent':'Mozilla/5.0'})
+                          data=urlopen(req,timeout=40).read()
+                          suffix=Path(url.split('?',1)[0]).suffix.lower()
+                          if suffix not in {'.jpg','.jpeg','.png','.webp','.gif'}: suffix='.bin'
+                          (imgdir/f'{i:02d}{suffix}').write_bytes(data)
+                      except Exception as e:
+                          (imgdir/f'{i:02d}.error.txt').write_text(f'{url}\n{e}\n','utf-8')
           PY
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: povetrnik-175-176-verification
           path: export

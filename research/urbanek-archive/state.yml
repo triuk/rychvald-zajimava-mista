@@ -32,6 +32,7 @@ checkpoints:
   draft_pull_request_head_at_creation: a5bb5e7762eb775030677d166d0602c25b576b4d
   technical_cache_completion_commit: 7e6483d1bcb92034bea6eddd43fd55869dedce9c
   urb_u_0004_resolution_commit: f97052ae3e50b52936376107d32e3943c1d85162
+  urb_u_0005_resolution_commit: d073437f3145d70537157eb02aab1faadb88dfc8
 
 pilot_totals:
   collections: 5
@@ -57,6 +58,7 @@ phases:
   pilot_file_completion: completed
   thumbnail_only_original_classification: completed
   uncertainty_registry_sharding: completed
+  hebda_windmill_identification: completed
   draft_pull_request: created
 
 pull_request:
@@ -144,11 +146,14 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 19, in_progress: 0, deferred: 0, resolved: 15, not_actionable: 1, total: 35}
+  summary: {open: 18, in_progress: 0, deferred: 0, resolved: 16, not_actionable: 1, total: 35}
   recently_resolved:
     - id: URB-U-0004
       result: same_object_confirmed_address_exists_object_to_address_partially_verified
       evidence: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
+    - id: URB-U-0005
+      result: hebda_windmill_and_function_confirmed_location_partially_verified
+      evidence: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
   rules:
     - Open issues are not presented as verified facts.
     - A thumbnail without a standalone full file means the full original is missing.

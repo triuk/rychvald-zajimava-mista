@@ -1,11 +1,11 @@
 collection_id: urbanek-den-po-desti
-status: completed_with_missing_technical_file
-drive_direct_items: 10
+status: completed
+source_items: 10
 subfolders: 0
 image_files: 8
 technical_thumbnail_caches: 2
-repo_verified_items: 9
-repo_missing_items: 1
+repo_verified_items: 10
+repo_missing_items: 0
 items:
   - [urbanek-den-po-desti-001, repo_verified, 2afe8856455759e64d8e9d73c5c16214a58fb6c0]
   - [urbanek-den-po-desti-002, repo_verified, be0aa4a882e3a296c2f0f1236c2e555701aad1f5]
@@ -15,9 +15,8 @@ items:
   - [urbanek-den-po-desti-006, repo_verified, 031eb028ce17a196ebbe031b59929d73d9031649]
   - [urbanek-den-po-desti-007, repo_verified, af4eda057f7e62df1c2c5358390c6ee4036e437d]
   - [urbanek-den-po-desti-008, repo_verified, 83de6634c5cf0a9a9d0da5dbdbc90ff5125296fb]
-  - [urbanek-den-po-desti-009, drive_listed_repo_missing, null]
+  - [urbanek-den-po-desti-009, repo_verified, 3dd6f7b84cca9cb098bd199337ad1855db6f8be7]
   - [urbanek-den-po-desti-010, repo_verified, 21cc0d964c1f5acb5ce3b55be6926af3521fbc55]
 notes:
-  - Chybí pouze technický soubor Thumbs.db; jeho přímý Drive odkaz je zachován v inventáři.
-  - Všech osm obsahových JPEGů je ve větvi pod přesnými původními cestami.
-  - ZbThumbnail.info je přítomen a není určen ke standardní klasifikaci ani OCR.
+  - Všech deset položek je ve větvi pod přesnými původními cestami.
+  - ZbThumbnail.info a Thumbs.db jsou technické cache a nejsou určeny ke standardní klasifikaci ani OCR.

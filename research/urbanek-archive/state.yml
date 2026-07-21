@@ -27,13 +27,14 @@ checkpoints:
   ochotnici_group_photo_scene_commit: c7f8828b1a2193078b2b8d78c1a4f1a2e60ff157
   ochotnici_exhibition_scene_commit: b73e64a0c6db8dd2904d5c26af57144dcc7b0bf6
   canonical_horak_cleanup_commit: 950e8901d71a7ae517588a5e5fd50d25e3feae91
+  ochotnici_visual_review_01_commit: 06a65c4eccbdfd0718641dbbba2878e76f914ca5
   uncertainty_registry_commit: 919e4a053c8284346e00719e3fdd86ad3f094201
 
 ocr:
   czech_word_first_pass: completed
   czech_word_second_visual_review: completed
   ochotnici_first_pass: completed
-  ochotnici_second_visual_review: pending
+  ochotnici_second_visual_review: in_progress
   native_extraction_completed: [urbanek-ochotnici-061]
   document_source_items_completed:
     - urbanek-ochotnici-001
@@ -62,6 +63,18 @@ ocr:
     - urbanek-ochotnici-047
   scene_text_completed: [urbanek-ochotnici-002, urbanek-ochotnici-018, urbanek-ochotnici-021]
   verification_only_items: [urbanek-ochotnici-009]
+  second_visual_review_batches:
+    - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-01.yml
+      status: completed
+      items: [urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
+  visually_verified_items:
+    - urbanek-ochotnici-013
+    - urbanek-ochotnici-023
+    - urbanek-ochotnici-032
+    - urbanek-ochotnici-033
+    - urbanek-ochotnici-039
+    - urbanek-ochotnici-042
+    - urbanek-ochotnici-047
   preserve_printed_spelling: true
   infer_missing_text: false
 
@@ -78,27 +91,30 @@ phases:
   ocr_second_visual_review_czech_word: completed
   ochotnici_classification: completed
   ochotnici_text_processing_first_pass: completed
-  ochotnici_second_visual_review: pending
+  ochotnici_second_visual_review: in_progress
   draft_pull_request: pending
 
 pilot_collections:
   - {name: Rychvaldské větrné mlýny, status: classification_and_initial_ocr_completed}
   - {name: Články z Českého slova, status: first_pass_and_second_visual_review_completed}
   - name: Ochotníci rychvald
-    status: first_text_pass_completed_second_review_pending
+    status: first_text_pass_completed_second_review_in_progress
     drive_total_files: 63
     classified_items: 63
     repo_verified_items: 62
     repo_missing_items: 1
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
+    second_visual_review_completed_items: 7
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
-  type: second_visual_review_batch
+  type: second_visual_review_group
   collection: Ochotníci rychvald
-  items: [urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
+  group_id: kromeriz-celostatni-prehlidka
+  primary_items: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-014, urbanek-ochotnici-027]
+  verification_only_items: [urbanek-ochotnici-009]
   instruction: >-
-    Perform line-by-line visual verification of the short structured programmes and
-    award documents. Correct only image-supported differences, update statuses to
-    visually_verified, and record any new material uncertainty before reviewing long articles.
+    Compare every article and photograph caption line by line with its primary source
+    image. Use item 009 only as a verification detail for item 010. Correct only
+    image-supported differences and record the completed group in visual-review-02.

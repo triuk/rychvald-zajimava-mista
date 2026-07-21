@@ -77,9 +77,9 @@ Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úpl
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou uzavřeny. Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` jsou rovněž uzavřeny: příslušné plné originály chybějí.
 
-`URB-U-0004` je uzavřena: uživatel potvrdil, že všechny tři fotografie zachycují stejný objekt. Adresní místo Potoční 564 bylo ověřeno ve veřejných datech; přímé přiřazení konkrétní kůlny k adrese je `partially_verified`, protože nebyla nalezena nezávislá veřejná fotografie objektu.
+`URB-U-0004` je uzavřena jako `verified`: databáze Povětrník záznam 176 (mlýnek 49) uvádí Potoční 564 a její základní fotografie je oříznutou verzí archivního souboru `Potoční 564.jpg`.
 
-`URB-U-0005` je uzavřena: uživatel potvrdil označení větrný mlýn u Hebdy a funkční spojení větrného kola s mlecím soustrojím. Kandidátní poloha Polní 1275, Rychvald je `partially_verified` podle dlouhodobé veřejné vazby Lumíra Hebdy k této adrese; přímý veřejný doklad samotného mlýna na adrese nalezen nebyl.
+`URB-U-0005` je uzavřena jako `verified`: databáze Povětrník záznam 175 (mlýnek 48) uvádí U Skučáku 54 a její základní fotografie zachycuje stejný stožár, budovu a okolí jako archivní snímky. Dřívější inference Polní 1275 je překonaná.
 
 ## Připravenost větve
 
@@ -88,6 +88,7 @@ Pilotní větev má kompletní evidovanou souborovou sadu. Zbývají tyto věcn�
 1. dvanáct plných originálů chybí; v `Thumbs.db` jsou zachovány pouze jejich náhledy;
 2. otevřené historické, identifikační a fyzické lakuny jsou vedeny v aktuálním registru;
 3. názvy složek a souborů nejsou samy o sobě považovány za nezávislý historický důkaz;
-4. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen.
+4. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen;
+5. další větrné mlýny se před uzavřením identifikace porovnávají také s databází Povětrník.
 
 Doporučený stav: `draft_pr_open_with_complete_pilot_file_set`.

@@ -3,7 +3,7 @@
 - Zdroj: `urbanek-ochotnici-011`
 - Soubor: `Ochotníci rychvald/Kroměříž 1.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplná novinová stránka se třemi samostatnými články
 - Periodikum: `Kroměřížská Jiskra – okresní noviny`
 - Označení: `Zvláštní vydání`
@@ -51,8 +51,9 @@ Levá polovina horní části stránky obsahuje kresbu ženy s rozpaženýma ruk
 ## Poznámky ke spolehlivosti
 
 - Tři články byly přepsány odděleně podle fyzické sazby stránky.
-- Podoby `Kožušany`, `Tážaly`, `Pravčice`, `Žalkovice`, `Bartoušov`, `Lehnice` a další místní názvy nebyly redakčně normalizovány.
+- Podoby `Kožušany`, `Tážaly`, `Pravčice`, `Žalkovice`, `Bartoušov` a další místní názvy nebyly redakčně normalizovány.
 - Tvar `Mordové rokli` je zachován přesně podle větného pádu v tisku; základní název hry nebyl doplňován odhadem.
 - Jméno autora hry je v článku uvedeno jako `Cach`; křestní jméno článek neuvádí.
 - Stránka neobsahuje viditelné podpisy autorů jednotlivých článků.
+- Druhá řádková kontrola dne 2026-07-21 potvrdila hlavičku, datum i všechny tři články bez textové opravy.
 - Historická, politická a hodnotící tvrzení nejsou tímto OCR nezávisle ověřena.

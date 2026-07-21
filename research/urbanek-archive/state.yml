@@ -25,7 +25,8 @@ checkpoints:
   ochotnici_native_doc_extraction_commit: 93e7a23682b1a5f323ff8fce8fcee51f8a0ecb0a
   ochotnici_short_documents_last_commit: fb0b99b42c3503c805decb169d1a2d979abc643f
   ochotnici_article_001_commit: 503f7cd76d742dfb285b3cc980318fd729b9e662
-  uncertainty_registry_commit: 17528c06f047b00608653c9d633d85101046f3fb
+  ochotnici_kromeriz_articles_last_commit: e484e7b0ec1728fd4a2abb9b5d65c46091a3bbd0
+  uncertainty_registry_commit: 221df8b5067454377fd6ae962f78196840b7b106
 
 ocr:
   czech_word_first_pass: completed
@@ -34,20 +35,26 @@ ocr:
   ochotnici_native_extraction_completed: [urbanek-ochotnici-061]
   ochotnici_first_pass_ocr_completed:
     - urbanek-ochotnici-001
+    - urbanek-ochotnici-004
+    - urbanek-ochotnici-010
+    - urbanek-ochotnici-011
+    - urbanek-ochotnici-012
     - urbanek-ochotnici-013
+    - urbanek-ochotnici-014
     - urbanek-ochotnici-023
     - urbanek-ochotnici-032
     - urbanek-ochotnici-033
     - urbanek-ochotnici-039
     - urbanek-ochotnici-042
     - urbanek-ochotnici-047
+  verification_only_items: [urbanek-ochotnici-009]
   preserve_printed_spelling: true
   infer_missing_text: false
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 17, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 26}
-  current_ochotnici_conflict: URB-U-0026
+  summary: {open: 18, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 27}
+  current_ochotnici_items: [URB-U-0024, URB-U-0025, URB-U-0026, URB-U-0027]
 
 phases:
   import: completed_with_missing_technical_files
@@ -70,16 +77,18 @@ pilot_collections:
     repo_missing_items: 1
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
     native_extraction_completed: [urbanek-ochotnici-061]
-    first_pass_ocr_completed: [urbanek-ochotnici-001, urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
+    first_pass_ocr_completed: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-013, urbanek-ochotnici-014, urbanek-ochotnici-023, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
+    verification_only_items: [urbanek-ochotnici-009]
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
   type: ocr_document_item
   collection: Ochotníci rychvald
-  item_id: urbanek-ochotnici-004
-  title: "Thálie držela palce"
+  item_id: urbanek-ochotnici-027
+  title: "Jaké jsou naše vesnické soubory?"
   instruction: >-
-    Transcribe the complete article and every visible photograph caption as separate
-    blocks. Preserve layout boundaries and printed spelling. Then process primary
-    article source 010, using item 009 only as a verification detail.
+    Transcribe the complete mounted newspaper clipping, preserving the highlighted
+    passage only as a graphical annotation. Then process the confirmed two-page
+    Těšínsko article in items 028 and 019 as one continuous transcript with the
+    handwritten dedication kept in a separate text layer.

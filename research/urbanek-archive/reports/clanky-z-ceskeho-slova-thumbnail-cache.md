@@ -2,10 +2,11 @@
 
 ## Zdroj a metoda
 
-- Původní cesta na Google Drivu: `Články z Českého slova/Thumbs.db`
+- Cesta v repozitáři: `sources/osobni-archiv-jaromira-urbanka/Články z Českého slova/Thumbs.db`
 - Velikost: 304 640 B
 - SHA-256: `0647ec694c2bbbd6be13517d0e201f498199bd57e825b63140c4f32ae0c43800`
-- Stav v GitHubu: `drive_listed_repo_missing`
+- Git blob SHA: `f087d7ecec991aaa5d3327f4e7a9cf4130e44c3c`
+- Stav: `repo_verified`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
 Soubor byl načten jako Microsoft Compound File Binary. Z katalogu bylo získáno 97 záznamů a ze všech odpovídajících streamů se podařilo načíst platný JPEG náhled. Náhledy byly porovnány podle dekódovaných obrazových pixelů, nikoli pouze podle názvů.
@@ -36,10 +37,10 @@ Zbývajících 52 nestávajících názvů sdílí přesně stejný dekódovaný
 
 ## Důsledky pro další práci
 
-- `Thumbs.db` nesmí být smazán z původního archivu. Je nyní jediným známým nosičem osmi dodatečných obrazových náhledů.
+- `Thumbs.db` je součástí Git repozitáře a nesmí být smazán; je jediným známým nosičem osmi dodatečných obrazových náhledů.
 - Náhledy nejsou náhradou originálních fotografií a nemají být používány jako plnohodnotné stránky pro OCR.
-- Osm náhledů lze použít jako vodítko při hledání originálních snímků v jiných složkách archivu, na původním disku nebo v dalších zálohách.
-- Před zahájením OCR současných 37 souborů není nutné chybějící náhledy rekonstruovat; je však nutné zachovat jejich názvy, kontrolní součty a vazbu na cache.
+- Osm náhledů lze použít jako vodítko při hledání originálních snímků v jiných složkách archivu nebo v dalších zálohách.
+- Před zahájením dalšího zpracování současných 37 souborů není nutné chybějící obrazy rekonstruovat; je však nutné zachovat jejich názvy, kontrolní součty a vazbu na cache.
 - Historické názvy v cache ukazují, že současná číselná řada vznikla přejmenováním nebo výběrem z většího pracovního souboru.
 
 ## Omezení

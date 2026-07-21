@@ -24,6 +24,7 @@ checkpoints:
   ochotnici_processing_plan_commit: b1b6b0644fc9ef9565b0f35986aeff98c9874769
   ochotnici_native_doc_extraction_commit: 93e7a23682b1a5f323ff8fce8fcee51f8a0ecb0a
   ochotnici_short_documents_last_commit: fb0b99b42c3503c805decb169d1a2d979abc643f
+  ochotnici_article_001_commit: 503f7cd76d742dfb285b3cc980318fd729b9e662
   uncertainty_registry_commit: 17528c06f047b00608653c9d633d85101046f3fb
 
 ocr:
@@ -32,10 +33,11 @@ ocr:
   ochotnici_status: in_progress
   ochotnici_native_extraction_completed: [urbanek-ochotnici-061]
   ochotnici_first_pass_ocr_completed:
-    - urbanek-ochotnici-032
-    - urbanek-ochotnici-033
+    - urbanek-ochotnici-001
     - urbanek-ochotnici-013
     - urbanek-ochotnici-023
+    - urbanek-ochotnici-032
+    - urbanek-ochotnici-033
     - urbanek-ochotnici-039
     - urbanek-ochotnici-042
     - urbanek-ochotnici-047
@@ -68,16 +70,16 @@ pilot_collections:
     repo_missing_items: 1
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
     native_extraction_completed: [urbanek-ochotnici-061]
-    first_pass_ocr_completed: [urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
+    first_pass_ocr_completed: [urbanek-ochotnici-001, urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
   type: ocr_document_item
   collection: Ochotníci rychvald
-  item_id: urbanek-ochotnici-001
-  title: "Vesničtí ochotníci ve finále"
+  item_id: urbanek-ochotnici-004
+  title: "Thálie držela palce"
   instruction: >-
-    Transcribe the complete three-column article and its photograph caption. Preserve
-    article boundaries and printed spelling. Then continue with item 004 and primary
-    article source 010; use item 009 only as a verification detail.
+    Transcribe the complete article and every visible photograph caption as separate
+    blocks. Preserve layout boundaries and printed spelling. Then process primary
+    article source 010, using item 009 only as a verification detail.

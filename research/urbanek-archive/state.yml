@@ -26,6 +26,7 @@ checkpoints:
   ochotnici_short_documents_last_commit: fb0b99b42c3503c805decb169d1a2d979abc643f
   ochotnici_article_001_commit: 503f7cd76d742dfb285b3cc980318fd729b9e662
   ochotnici_kromeriz_articles_last_commit: e484e7b0ec1728fd4a2abb9b5d65c46091a3bbd0
+  ochotnici_tesinsko_article_commit: 12a5a4eef07a454a37c2810eb7fd5ec8d1e733d1
   uncertainty_registry_commit: 221df8b5067454377fd6ae962f78196840b7b106
 
 ocr:
@@ -41,7 +42,10 @@ ocr:
     - urbanek-ochotnici-012
     - urbanek-ochotnici-013
     - urbanek-ochotnici-014
+    - urbanek-ochotnici-019
     - urbanek-ochotnici-023
+    - urbanek-ochotnici-027
+    - urbanek-ochotnici-028
     - urbanek-ochotnici-032
     - urbanek-ochotnici-033
     - urbanek-ochotnici-039
@@ -55,6 +59,7 @@ uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
   summary: {open: 18, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 27}
   current_ochotnici_items: [URB-U-0024, URB-U-0025, URB-U-0026, URB-U-0027]
+  observed_unregistered_conflict: "Těšínsko article labels Eva Močkořová as Ofélie; printed programme labels her as Olivie."
 
 phases:
   import: completed_with_missing_technical_files
@@ -77,18 +82,18 @@ pilot_collections:
     repo_missing_items: 1
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
     native_extraction_completed: [urbanek-ochotnici-061]
-    first_pass_ocr_completed: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-013, urbanek-ochotnici-014, urbanek-ochotnici-023, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
+    first_pass_ocr_completed: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-013, urbanek-ochotnici-014, urbanek-ochotnici-019, urbanek-ochotnici-023, urbanek-ochotnici-027, urbanek-ochotnici-028, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
     verification_only_items: [urbanek-ochotnici-009]
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
-  type: ocr_document_item
+  type: ocr_document_group
   collection: Ochotníci rychvald
-  item_id: urbanek-ochotnici-027
-  title: "Jaké jsou naše vesnické soubory?"
+  group_id: historical-book-pages-40-45
+  ordered_items: [urbanek-ochotnici-017, urbanek-ochotnici-016, urbanek-ochotnici-015]
   instruction: >-
-    Transcribe the complete mounted newspaper clipping, preserving the highlighted
-    passage only as a graphical annotation. Then process the confirmed two-page
-    Těšínsko article in items 028 and 019 as one continuous transcript with the
-    handwritten dedication kept in a separate text layer.
+    Transcribe the three photographed book spreads in page order. Split the ending
+    Sokol fragment, Bohdan Horák's continuing article and the later articles beginning
+    on pages 44–45 into separate text units. Preserve physical page boundaries and do
+    not merge unrelated articles.

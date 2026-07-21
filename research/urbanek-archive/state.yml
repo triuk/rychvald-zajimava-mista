@@ -149,16 +149,17 @@ uncertainties:
   summary: {open: 18, in_progress: 0, deferred: 0, resolved: 16, not_actionable: 1, total: 35}
   recently_resolved:
     - id: URB-U-0004
-      result: same_object_confirmed_address_exists_object_to_address_partially_verified
+      result: povetrnik_record_176_exact_image_match_potocni_564_verified
       evidence: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
     - id: URB-U-0005
-      result: hebda_windmill_and_function_confirmed_location_partially_verified
+      result: povetrnik_record_175_exact_image_match_u_skucaku_54_verified
       evidence: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
   rules:
     - Open issues are not presented as verified facts.
     - A thumbnail without a standalone full file means the full original is missing.
     - Thumbnail-only images are not substitutes for full originals.
     - Folder and filename labels are archival metadata, not independent proof.
+    - Windmill identifications are compared with the Povětrník specialist database before closure.
 
 readiness:
   status: draft_pr_open_with_complete_pilot_file_set

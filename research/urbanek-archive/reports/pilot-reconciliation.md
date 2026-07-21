@@ -71,9 +71,9 @@ Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úpl
 
 - `open`: 16;
 - `deferred`: 0;
-- `resolved`: 20;
+- `resolved`: 21;
 - `not_actionable`: 1;
-- celkem: 37.
+- celkem: 38.
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou uzavřeny. Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` jsou rovněž uzavřeny: příslušné plné originály chybějí.
 
@@ -84,6 +84,8 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 `URB-U-0007` je uzavřena pouze pro identitu historického obrazu jako Kakalův mlýn. Přesná poloha, číslo domu, vlastník, datace a technologie jsou vedeny v propojené otevřené položce `URB-U-0036`, která se musí znovu prověřovat po zpracování dalších relevantních pramenů.
 
 `URB-U-0009` je uzavřena pro identitu fotografie jako interiér kostela sv. Anny v Rychvaldě. Význam čísla `304` a vztah ke složce Kakalova mlýna jsou vedeny v propojené otevřené položce `URB-U-0037`.
+
+`URB-U-0010` je uzavřena pro dokumentační vztah náčrtu a fotografií k jednomu zařízení. Přesná historická poloha mlýnku označeného jako zařízení za domem č. 339 zůstává v propojené otevřené položce `URB-U-0038`.
 
 ## Připravenost větve
 

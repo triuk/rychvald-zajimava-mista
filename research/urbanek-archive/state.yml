@@ -146,7 +146,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 16, in_progress: 0, deferred: 0, resolved: 20, not_actionable: 1, total: 37}
+  summary: {open: 16, in_progress: 0, deferred: 0, resolved: 21, not_actionable: 1, total: 38}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -162,6 +162,10 @@ uncertainties:
       result: rychvald_saint_anne_church_interior_verified
       evidence: research/urbanek-archive/verifications/urb-u-0009-kostel-svate-anny.md
       linked_open_item: URB-U-0037
+    - id: URB-U-0010
+      result: house_339_windmill_sketch_and_photos_same_device_verified
+      evidence: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      linked_open_item: URB-U-0038
   active_research_threads:
     - id: URB-U-0036
       subject: Kakalův mlýn
@@ -171,6 +175,11 @@ uncertainties:
       subject: archivní kontext fotografie kostela sv. Anny
       unresolved: [folder_relation, meaning_of_304, possible_house_or_person_reference]
       revisit_after: [new_archive_batch, new_caption, house_number_304_reference, Kakal_family_church_relation]
+    - id: URB-U-0038
+      subject: mlýnek za domem č. 339
+      unresolved: [exact_historical_location, house_number_continuity, owner_identity, construction_date, disappearance_date, technology]
+      candidate_current_location: "Bohumínská 339, parcela st. 548"
+      revisit_after: [new_archive_batch, historical_map, aerial_photo, address_record, matching_landscape_photo]
   rules:
     - Open issues are not presented as verified facts.
     - A thumbnail without a standalone full file means the full original is missing.
@@ -188,6 +197,7 @@ readiness:
     - open factual conflicts and physical lacunae remain registered
     - Kakal mill identity is known but its location and history remain open in URB-U-0036
     - church interior is identified, but filename 304 and folder relation remain open in URB-U-0037
+    - house 339 windmill document group is verified, but exact historical location remains open in URB-U-0038
 
 next_action:
   type: resolve_registered_uncertainties

@@ -186,10 +186,18 @@ items:
     description: Ruční náčrt nízkého objektu s věží a větrným kolem doplněný rozměry a poznámkou o mlýnku za domem č. 339.
     document_group: house-339-windmill
     identification:
-      status: partially_verified
-      candidate_name: mlýnek za domem č. 339
-      candidate_basis: handwritten_note_in_document
-      note: Číslo domu je čitelné, ale místo, autor a datace náčrtu nejsou uvedeny.
+      status: verified_document_group
+      verified_name: mlýnek za domem č. 339
+      basis: [handwritten_note_in_document, user_confirmation, visual_comparison]
+      related_ids: [urbanek-mlyny-037, urbanek-mlyny-038]
+      verification: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      linked_open_item: URB-U-0038
+      current_address_candidate:
+        address: "Bohumínská 339, 735 32 Rychvald"
+        parcel: "st. 548"
+        coordinates: [49.8707364, 18.3753053]
+        status: unverified_historical_continuity
+      note: Dokumentační celek je ověřen, přesná historická poloha zůstává otevřená.
     ocr:
       document_text: machine_unverified
       transcript_path: research/urbanek-archive/ocr/urbanek-mlyny-036-document-text.md
@@ -205,10 +213,13 @@ items:
     subject_tags: [historical_wind_wheel, metal_tower, wooden_outbuilding]
     document_group: house-339-windmill
     identification:
-      status: unverified
-      candidate_name: mlýn u domku č. pop. 339
-      candidate_basis: parent_folder_and_related_sketch
-      note: Přímá vazba na číslo 339 nebyla na fotografii doložena.
+      status: verified_document_group
+      verified_name: mlýnek za domem č. 339
+      basis: [user_confirmation, visual_comparison, related_handwritten_sketch]
+      related_ids: [urbanek-mlyny-036, urbanek-mlyny-038]
+      verification: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      linked_open_item: URB-U-0038
+      note: Fotografie patří k témuž zařízení jako náčrt; přesná historická poloha zůstává otevřená.
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -223,10 +234,13 @@ items:
     subject_tags: [historical_wind_wheel, metal_tower, trees, roof]
     document_group: house-339-windmill
     identification:
-      status: unverified
-      candidate_name: mlýn u domku č. pop. 339
-      candidate_basis: parent_folder_and_related_sketch
-      note: Přímá vazba na číslo 339 nebyla na fotografii doložena.
+      status: verified_document_group
+      verified_name: mlýnek za domem č. 339
+      basis: [user_confirmation, visual_comparison, related_handwritten_sketch]
+      related_ids: [urbanek-mlyny-036, urbanek-mlyny-037]
+      verification: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      linked_open_item: URB-U-0038
+      note: Fotografie patří k témuž zařízení jako náčrt; přesná historická poloha zůstává otevřená.
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -257,5 +271,5 @@ findings:
   - Položky 025–030 a pravděpodobně také informační list pocházejí z jedné muzejní expozice fotografované 15. listopadu 2011.
   - U položky 028 je bezpečně čitelný pouze nadpis panelu „Výroba mouky z obilí“.
   - Položky 031 a 032 jsou časová a obrazová série stejné trojice kamenů.
-  - Náčrt 036, fotografie 037 a 038 pravděpodobně tvoří dokumentační soubor jednoho zařízení, ale vazba na dům č. 339 musí být ověřena jiným pramenem.
+  - Uživatel potvrdil, že náčrt 036 a fotografie 037–038 zachycují stejné zařízení označené v náčrtu jako mlýnek za domem č. 339; přesná historická poloha je vedena v URB-U-0038.
   - Položka 039 je přesná kopie obrázku Kakalova mlýna a její vztah ke složce domu č. 339 není vysvětlen.

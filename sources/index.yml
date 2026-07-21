@@ -7431,3 +7431,54 @@ web_sources:
     status: official_catalog
   notes:
     - Katalogové číslo 1000133204; dokumentace interiéru je vedena na parcele č. 305.
+
+- source_id: web-ruian-rychvald-bohuminska-339
+  title: Adresní místo Bohumínská 339, Rychvald
+  document_type: official_address_register
+  institution: RÚIAN / VDP
+  url: https://2z3yffk.257.cz/vdp/ruian/adresnimista?cisDom=&cisOr=&kodOb=599107&kodVo=2961&nespravny=&ohradaId=&page=4&pscAp=&search=&sort=&typSo=
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: official_public_data
+  notes:
+    - Potvrzuje současné adresní místo č.p. 339 v ulici Bohumínská a kód adresního místa 14232618.
+    - Nepotvrzuje historickou polohu mlýnku.
+
+- source_id: web-csu-rso-rychvald-339
+  title: Stavební objekt Rychvald č.p. 339
+  document_type: official_building_register
+  institution: Český statistický úřad – Registr sčítacích obvodů a budov
+  url: https://apl2.czso.cz/irso4/budlist.jsp?b=21&hkodcis=51&kod=599107&kodcis=51&kodpol=nnnnnn&stranka=2&trideni=4
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: official_public_data
+  notes:
+    - Uvádí stavební objekt č.p. 339, ulici Bohumínská, kód RÚIAN 14141329 a kód RSO 1023646226.
+
+- source_id: web-finance-rychvald-bohuminska-339
+  title: Bohumínská 339, Rychvald – základní údaje a souřadnice
+  document_type: derived_public_register_page
+  institution: Finance.cz
+  url: https://rejstriky.finance.cz/adresa-rychvald-bohuminska-339-0-14232618
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: unclear
+  notes:
+    - Uvádí souřadnice adresního místa 49.870736388889, 18.375305277778.
+    - Použito pouze jako lokalizační kandidát pro URB-U-0038.
+
+- source_id: web-povetrnik-horni-datyne-record-198
+  title: Vratimov – Horní Datyně, replika mlýnku z U Školky 344
+  document_type: specialist_online_database
+  institution: Povětrník.cz
+  url: http://www.povetrnik.cz/vetrne-mlyny/detail/198
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: unclear
+  notes:
+    - Záznam byl prověřen a vyloučen jako identifikace mlýnku u č.p. 339.
+    - Týká se repliky podle jiného rychvaldského mlýnku z U Školky 344.

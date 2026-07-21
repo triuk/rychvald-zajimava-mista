@@ -3,9 +3,10 @@
 - Zdroj: `urbanek-ochotnici-023`
 - Soubor: `Ochotníci rychvald/četné uznání.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný dvoulist čestného uznání
 - Datum: květen 1960
+- Druhá vizuální kontrola: `2026-07-21`
 
 ## Přepis
 
@@ -15,7 +16,7 @@
 
 **A MINISTERSTVO ZEMĚDĚLSTVÍ**
 
-KROMĚŘÍŽ • JINDŘICHŮV HRADEC • LEVICE
+KROMĚŘÍŽ [ornament] JINDŘICHŮV HRADEC [ornament] LEVICE
 
 KVĚTEN 1960
 
@@ -45,8 +46,9 @@ NÁMĚSTEK MINISTRA ŠKOLSTVÍ A KULTURY
 
 ## Poznámky ke spolehlivosti
 
-- Tištěný text je na snímku zachycen celý.
-- Rukopisné podpisy nebyly přepisovány odhadem.
+- Celý tištěný text byl podruhé porovnán se zdrojovým obrazem a nebyla nalezena textová chyba prvního přepisu.
+- Dva symboly mezi názvy měst jsou dekorativní ornamenty, nikoli textové odrážky.
+- Rukopisné podpisy nebyly přepisovány odhadem; dostupný obraz nestačí k bezpečnému určení jejich přesné podoby.
 - Jméno je na listu uvedeno ve tvaru `SYLVII KRAVALOVÉ`; pravopis nebyl sjednocován s jinými archivními podobami jména.
 - Zkratka `LUT` byla zachována bez rozvinutí.
 - Udělení a jeho institucionální kontext nejsou tímto OCR nezávisle historicky ověřeny.

@@ -14,9 +14,22 @@ Datum ověření: 2026-07-21
 ## Vyhodnocení
 
 - `URB-U-0007`: `resolved` – obraz identifikován jako Kakalův mlýn na základě potvrzení uživatele.
+- Rozsah uzavření: pouze identita historického obrazu.
 - Identita obrazu: `verified_by_archive_owner_confirmation`.
-- Lokalizace, datace, vlastník a technické vybavení: `unverified`.
+- Lokalizace, datace, vlastník a technické vybavení: `unverified` a nadále aktivně vedené v `URB-U-0036`.
 - Nepoužívat formulaci, že jde o objekt evidovaný v databázi Povětrník; žádná odpovídající karta nebyla nalezena.
+
+## Navazující otevřená nejistota
+
+`URB-U-0036` se má znovu kontrolovat po zpracování každé další relevantní části archivu. Hledají se zejména:
+
+- přesná poloha a číslo domu;
+- celé jméno vlastníka nebo rodiny;
+- období vzniku a zániku;
+- technické vybavení a funkce;
+- další fotografie, mapové body, popisky, adresáře a kronikové zmínky.
+
+Negativní výsledek současného internetového hledání není důvodem k uzavření `URB-U-0036`.
 
 ## Potenciální další prameny
 
@@ -39,4 +52,4 @@ Tyto fondy mohou pomoci dohledat rodinu Kakalů, číslo domu a časové období
 
 ## Bezpečná formulace
 
-Historický snímek v osobním archivu Jaromíra Urbánka zachycuje podle potvrzení vlastníka archivu Kakalův mlýn v Rychvaldu. Ve veřejně dostupných internetových zdrojích se zatím nepodařilo ověřit jeho přesnou polohu, stáří, majitele ani technické vybavení.
+Historický snímek v osobním archivu Jaromíra Urbánka zachycuje podle potvrzení vlastníka archivu Kakalův mlýn v Rychvaldu. Přesná poloha, stáří, majitel a technické vybavení zůstávají otevřenou výzkumnou otázkou vedenou pod ID `URB-U-0036` a mají být znovu prověřeny po zpracování dalších pramenů.

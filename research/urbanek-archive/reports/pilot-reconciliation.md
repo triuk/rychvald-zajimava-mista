@@ -11,16 +11,17 @@ Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 | Ochotníci rychvald | 61 | 2 | 63 | klasifikace, textový průchod i druhá kontrola dokončeny |
 | fotodokument/den po dešti | 8 | 2 | 10 | audit a vizuální klasifikace dokončeny; OCR není potřebný |
 | Nálet na Ostravu 1944 | 7 | 1 | 8 | audit a vizuální klasifikace dokončeny; OCR není potřebný |
-| **Celkem** | **144** | **15** | **159** | |
+| **Celkem** | **144** | **15** | **159** | **všechny položky přítomny** |
 
 ## Stav souborů ve větvi
 
 - Všech **144 obsahových souborů** je ve větvi pod přesnou původní cestou a názvem.
-- Z 15 technických souborů je ve větvi přítomno 6 a chybí 9 souborů `Thumbs.db`.
-- Celkem je tedy ve větvi přítomno **150 z 159** položek evidovaných na Drivu.
-- Chybějící technické soubory jsou zachovány na Google Drivu, byly auditovány přímo z originálu a jsou vedeny jako odložené položky registru nejistot.
+- Všech **15 technických souborů** je ve větvi pod přesnou původní cestou a názvem.
+- Celkem je ve větvi přítomno **159 z 159** evidovaných položek.
+- Commit `7e6483d1bcb92034bea6eddd43fd55869dedce9c` doplnil chybějící technické cache a odstranil jejich ignorování.
+- U devíti dříve chybějících pilotních položek byla po commitu ověřena přesná cesta a Git blob SHA.
 
-### Chybějící technické cache
+### Doplněné technické cache
 
 - 5× `Thumbs.db` v kolekci Rychvaldské větrné mlýny;
 - 1× `Thumbs.db` v kolekci Články z Českého slova;
@@ -64,24 +65,23 @@ Audity `Thumbs.db` zachytily plné originály, které v současných složkách 
 
 ## Registr nejistot
 
-Po dokončení pilotních kolekcí:
+Po doplnění technických cache:
 
 - `open`: 23;
-- `deferred`: 5;
-- `resolved`: 6;
+- `deferred`: 1;
+- `resolved`: 10;
 - `not_actionable`: 1;
 - celkem: 35.
 
-Otevřené položky jsou dohledatelné podle stabilních ID `URB-U-XXXX`. Nevyřešená skutečnost nesmí být v článku prezentována jako ověřená.
+Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou uzavřeny. Otevřené položky jsou dohledatelné podle stabilních ID `URB-U-XXXX`. Nevyřešená skutečnost nesmí být v článku prezentována jako ověřená.
 
 ## Připravenost větve
 
-Pilotní větev je připravena pro **draft pull request** s těmito výhradami:
+Pilotní větev má kompletní souborovou sadu. Zbývají tyto věcné výhrady:
 
-1. devět technických souborů `Thumbs.db` není fyzicky ve větvi, ale je auditováno z Drivu;
-2. dvanáct unikátních obrazů je známo pouze jako náhled bez plného originálu;
-3. otevřené historické, identifikační a fyzické lakuny jsou vedeny v `uncertainties.yml`;
-4. názvy složek a souborů nejsou samy o sobě považovány za nezávislý historický důkaz;
-5. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen.
+1. dvanáct unikátních obrazů je známo pouze jako náhled bez plného originálu;
+2. otevřené historické, identifikační a fyzické lakuny jsou vedeny v `uncertainties.yml`;
+3. názvy složek a souborů nejsou samy o sobě považovány za nezávislý historický důkaz;
+4. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen.
 
-Doporučený stav: `ready_for_draft_pr_with_known_deferred_technical_files`.
+Doporučený stav: `draft_pr_open_with_complete_pilot_file_set`.

@@ -22,23 +22,27 @@ checkpoints:
   ochotnici_inventory_commit: df993af216ea5f87ef6adff4dfaca3a8dc146d14
   ochotnici_classification_completed_commit: baddbef168e3543d01edcea0c30d6385570f3bc2
   ochotnici_processing_plan_commit: b1b6b0644fc9ef9565b0f35986aeff98c9874769
-  ochotnici_native_doc_extraction_commit: 93e7a23682b1a5f323ff8fce8fcee51f8a0ecb0a
-  ochotnici_short_documents_last_commit: fb0b99b42c3503c805decb169d1a2d979abc643f
-  ochotnici_kromeriz_articles_last_commit: e484e7b0ec1728fd4a2abb9b5d65c46091a3bbd0
-  ochotnici_press_review_commit: d811e840350152e1be7d49116e24f3ccab233b5b
-  ochotnici_tesinsko_article_commit: e6b2f4d72417e0eced6665f582c88d237da3ab8f
-  ochotnici_bohdan_horak_commit: 65d635ff260a2c0c5e75cf846920e457e2e52b81
-  ochotnici_census_article_commit: f52796c45fe6869523e632655323e1322b85f186
-  uncertainty_registry_commit: 221df8b5067454377fd6ae962f78196840b7b106
+  ochotnici_chronicle_commit: d284b2347be543e35afb739788c1a937ea2debed
+  ochotnici_neborak_table_last_commit: e896e0ab153ec5f4b7c7c34931146e4ad910d437
+  ochotnici_group_photo_scene_commit: c7f8828b1a2193078b2b8d78c1a4f1a2e60ff157
+  ochotnici_exhibition_scene_commit: b73e64a0c6db8dd2904d5c26af57144dcc7b0bf6
+  canonical_horak_cleanup_commit: 950e8901d71a7ae517588a5e5fd50d25e3feae91
+  uncertainty_registry_commit: 919e4a053c8284346e00719e3fdd86ad3f094201
 
 ocr:
   czech_word_first_pass: completed
   czech_word_second_visual_review: completed
-  ochotnici_status: in_progress
-  ochotnici_native_extraction_completed: [urbanek-ochotnici-061]
-  ochotnici_first_pass_ocr_completed:
+  ochotnici_first_pass: completed
+  ochotnici_second_visual_review: pending
+  native_extraction_completed: [urbanek-ochotnici-061]
+  document_source_items_completed:
     - urbanek-ochotnici-001
+    - urbanek-ochotnici-003
     - urbanek-ochotnici-004
+    - urbanek-ochotnici-005
+    - urbanek-ochotnici-006
+    - urbanek-ochotnici-007
+    - urbanek-ochotnici-008
     - urbanek-ochotnici-010
     - urbanek-ochotnici-011
     - urbanek-ochotnici-012
@@ -56,55 +60,45 @@ ocr:
     - urbanek-ochotnici-039
     - urbanek-ochotnici-042
     - urbanek-ochotnici-047
+  scene_text_completed: [urbanek-ochotnici-002, urbanek-ochotnici-018, urbanek-ochotnici-021]
   verification_only_items: [urbanek-ochotnici-009]
-  completed_book_text_units:
-    - research/urbanek-archive/ocr/urbanek-ochotnici-017-a-document-text.md
-    - research/urbanek-archive/ocr/urbanek-ochotnici-015-017-bohdan-horak-document-text.md
-    - research/urbanek-archive/ocr/urbanek-ochotnici-015-b-document-text.md
-    - research/urbanek-archive/ocr/urbanek-ochotnici-015-c-document-text.md
   preserve_printed_spelling: true
   infer_missing_text: false
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 18, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 27}
-  current_ochotnici_items: [URB-U-0024, URB-U-0025, URB-U-0026, URB-U-0027]
-  observed_unregistered_conflict: "Těšínsko article labels Eva Močkořová as Ofélie; printed programme labels her as Olivie."
+  summary: {open: 22, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 31}
+  ochotnici_open_ids: [URB-U-0024, URB-U-0025, URB-U-0026, URB-U-0027, URB-U-0028, URB-U-0029, URB-U-0030, URB-U-0031]
 
 phases:
   import: completed_with_missing_technical_files
   technical_audit: in_progress
   inventory: in_progress
   ocr_first_pass_czech_word: completed
-  ocr_second_visual_review: completed
+  ocr_second_visual_review_czech_word: completed
   ochotnici_classification: completed
-  ochotnici_text_processing: in_progress
+  ochotnici_text_processing_first_pass: completed
+  ochotnici_second_visual_review: pending
   draft_pull_request: pending
 
 pilot_collections:
   - {name: Rychvaldské větrné mlýny, status: classification_and_initial_ocr_completed}
   - {name: Články z Českého slova, status: first_pass_and_second_visual_review_completed}
   - name: Ochotníci rychvald
-    status: classification_completed_text_processing_in_progress
+    status: first_text_pass_completed_second_review_pending
     drive_total_files: 63
     classified_items: 63
     repo_verified_items: 62
     repo_missing_items: 1
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
-    native_extraction_completed: [urbanek-ochotnici-061]
-    first_pass_ocr_completed: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-013, urbanek-ochotnici-014, urbanek-ochotnici-015, urbanek-ochotnici-016, urbanek-ochotnici-017, urbanek-ochotnici-019, urbanek-ochotnici-023, urbanek-ochotnici-027, urbanek-ochotnici-028, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
-    verification_only_items: [urbanek-ochotnici-009]
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
-  type: ocr_document_group
+  type: second_visual_review_batch
   collection: Ochotníci rychvald
-  group_id: rychvald-divadelni-kronika-pages-260-262
-  ordered_primary_items: [urbanek-ochotnici-008, urbanek-ochotnici-007, urbanek-ochotnici-006]
-  supplementary_items: [urbanek-ochotnici-005]
+  items: [urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
   instruction: >-
-    Transcribe handwritten chronicle pages 260 through 262 in order. Use item 006 as
-    the primary image for page 262 and item 005 only as a verification detail. Keep
-    the embedded photograph caption on page 261 separate from the running text and
-    mark every uncertain handwritten word explicitly.
+    Perform line-by-line visual verification of the short structured programmes and
+    award documents. Correct only image-supported differences, update statuses to
+    visually_verified, and record any new material uncertainty before reviewing long articles.

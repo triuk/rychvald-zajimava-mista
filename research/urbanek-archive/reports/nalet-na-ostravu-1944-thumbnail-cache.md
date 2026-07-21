@@ -2,10 +2,11 @@
 
 ## Zdroj a metoda
 
-- Původní cesta na Google Drivu: `Nálet na Ostravu 1944/Thumbs.db`
+- Cesta v repozitáři: `sources/osobni-archiv-jaromira-urbanka/Nálet na Ostravu 1944/Thumbs.db`
 - Velikost: 47 104 B
 - SHA-256: `855499f2cd27d31be3e9e01fc46d0b744a6df897e009bad31c3fdd998dd6ca89`
-- Stav v GitHubu: `drive_listed_repo_missing`
+- Git blob SHA: `4fbead38600f057441e0529ac1ad039fa4b2e52d`
+- Stav: `repo_verified`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
 Soubor byl načten jako Microsoft Compound File Binary. Katalogové názvy byly spojeny s JPEG streamy a vizuálně porovnány podle dekódovaných náhledů.
@@ -45,7 +46,7 @@ Záznam `{A42CD7B6-E9B9-4D02-B7A6-288B71AD28BA}` obsahuje systémovou náhledovo
 
 ## Důsledky
 
-- `Thumbs.db` má být zachován v původním archivu, protože dokládá historické pracovní názvy.
+- `Thumbs.db` je součástí Git repozitáře a má být zachován, protože dokládá historické pracovní názvy.
 - Cache neodhalila žádný další unikátní výjev, který by chyběl mezi sedmi současnými JPEGy.
-- Chybějící technická cache ve větvi neblokuje vizuální klasifikaci kolekce.
+- Technická úplnost kolekce je vyřešena.
 - Alternativní názvy se nemají používat jako samostatné zdroje ani navyšovat počet fotografií.

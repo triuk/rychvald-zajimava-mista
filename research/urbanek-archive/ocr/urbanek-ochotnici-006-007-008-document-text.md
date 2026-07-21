@@ -12,9 +12,9 @@
   - `Ochotníci rychvald/P1020771.JPG`
   - `Ochotníci rychvald/P1020772.JPG`
 - Kategorie: `document_text`
-- Stav: `machine_unverified_handwriting`
+- Stav: `visually_verified_handwriting`
 - Druh: rukopisná kronika s vloženou historickou fotografií
-- Nejistota druhé kontroly: `URB-U-0030`
+- Uzavřená nejistota druhé kontroly: `URB-U-0030`
 
 ## Strana 260
 
@@ -24,7 +24,7 @@ Ochotnické jednoty nebo divadelního spolku Rychvald neměl a podnes nemá, vš
 
 ### 1900 – První jeviště
 
-První jeviště obstarával spolek Vlastimil a stavělo se u Eichenbaumů na stěně východní nebo severní. Postavení jeviště bývala nejhorší práce, neboť vždy po představení muselo býti rozebráno a odneseno na půdu, aby zachováno bylo dostatečné místo pro tancovačku. Jak herci tím trpěli, když bylo sněhu po kolena a mrzlo až praštilo a součástky jeviště musely putovati a `[oknem?]` přenášeny do sněhových závějí a odtud do sálu, nynější ochotníci neuvěří. Když stálo jeviště, byla nejhorší práce s kouřem. Zkrátka – to už byla hračka.
+První jeviště obstarával spolek Vlastimil a stavělo se u Eichenbaumů na stěně východní nebo severní. Postavení jeviště bývala nejhorší práce, neboť vždy po představení muselo býti rozebráno a odneseno na půdu, aby zachováno bylo dostatečné místo pro tancovačku. Jak herci tím trpěli, když bylo sněhu po kolena a mrzlo až praštilo a součástky jeviště musely putovati z okna přesunovány do sněhových závějí a odtud do sálu, nynější ochotníci neuvěří. Když stálo jeviště, byla nejhorší práce s kouřem. Zkrátka – to už byla hračka.
 
 ### Další jeviště
 
@@ -34,7 +34,7 @@ Brzy na to zřídili si Poláci jeviště „na Fojtství“, odbor Matice Osvě
 
 ### Režie
 
-O ochotníky také nebyla nouze. Z Rychvalďanů téměř každý rád zahrál `[ve stáří?]` na prknech. Nebyla-li nouze o režiséra, o herce nebyla nikdy, proto pokud a kdykoliv byl ve spolku čilý a dobrý režisér, divadlo kvetlo.
+O ochotníky také nebyla nouze. Z Rychvalďanů téměř každý rád zkusil své štěstí na prknech. Nebyla-li nouze o režiséra, o herce nebyla nikdy, proto pokud a kdykoliv byl ve spolku čilý a dobrý režisér, divadlo kvetlo.
 
 ## Strana 261
 
@@ -50,11 +50,11 @@ Narodil se 26. X. 1876 na Kladně, kde byl horníkem. Divadlu věnoval již i ta
 
 ### Herci
 
-Kočímu věrně pomáhal v této práci sbor místních učitelů a k nim `[náleželi?]` po mnozí občané: Fr. Žebrák, jeho paní, dcerky `[Wolflovy?]` a j. Později získalo divadlo platnou pomoc v občanech: Dr. Bohum. Pěnička,
+Kočímu věrně pomáhal v této práci sbor matičních učitelů a k nim rojili se mnozí občané: Fr. Žebrák, jeho paní, dcerky Wölflovy a j. Později získalo divadlo platnou pomoc v občanech: Dr. Bohum. Pěnička,
 
 ## Strana 262
 
-stavitel Ferd. `[Šílec?]`, Frant. `[Šílec?]`, obuvník Jos. Peda, žel. zřízenec, Emil Lamla, strojník, Otýlie Bayerová (prov. `[Hlausová?]`), říd. uč. Grygar a jeho paní, Eman. Musiol, žel. úřed. a jeho paní, Jos. Kolenda. Ovšem, že učitelské sbory všechny práce vždy vypomohly a velmi často hudbou, kterouž vedl p. uč. Eman. `[Löwenberger?]`.
+stavitel Ferd. Šílec, Frant. Šílec, obuvník Jos. Peda, žel. zřízenec, Emil Lamla, strojník, Otílie Bayerová (prov. Hlausová), říd. uč. Grygar a jeho paní, Eman. Musiol, žel. úřed. a jeho paní, Jos. Kolenda. Ovšem, že učitelské sbory všechny práce vždy vypomohly a velmi často hudbou, kterouž vedl p. uč. Eman. Löwenberger.
 
 V nynější době činností divadelní zabývají se téměř všecky spolky jako: Sbor dobrovol. hasičů, Sokol, matiční odbory zvláště I. a II. (III. nemá místnosti), Děl. tělocvič. jednoty, Mládež, osvětová komise. Také „Orel“ zřídil si u Eichenbauma jeviště a občas pořádá představení.
 
@@ -70,8 +70,9 @@ V r. 1928 hostovali zde podruhé. Program však byl mnohem slabší.
 
 ## Poznámky ke spolehlivosti
 
-- Přepis je prvním čtením rukopisu a má stav `machine_unverified_handwriting`; hranaté závorky s otazníkem označují místa, která nelze z dostupných snímků zatím bezpečně uzavřít.
-- Strana 262 byla kontrolována podle dvou různých fotografií; úplnější primární záběr je `P1020771.JPG`, detail `P1020772.JPG` pomohl u jmen a posledních odstavců.
+- Přepis byl podruhé porovnán se zvětšenými snímky všech tří stran; strana 262 byla kontrolována podle obou dostupných fotografií.
+- Druhá kontrola potvrdila rukopisné podoby `z okna přesunovány`, `zkusil své štěstí`, `rojili se`, `Wölflovy`, `Šílec`, `Hlausová` a `Löwenberger`.
 - Kronika píše jméno u fotografie jako `Bohuš Koci`, zatímco pozdější strojopisný dokument `urbanek-ochotnici-061` používá podobu `Bohuš Kočí`. Podoby nebyly automaticky sjednoceny.
+- Vizuálně ověřena je podoba rukopisného přepisu, nikoli nezávislá historická totožnost osob nebo správnost kronikářových tvrzení.
 - Popisek fotografie je dokumentový text; osoba nebyla určována rozpoznáním tváře. Samostatný soubor `img356.jpg` byl klasifikován jako reprodukce stejné vložené fotografie na základě obrazové shody a tohoto popisku.
-- Zkratky a dobové tvary byly zachovány. Celá jména osob, názvy hostinců a historická tvrzení vyžadují druhou vizuální a případně pramennou kontrolu.
+- Zkratky a dobové tvary byly zachovány.

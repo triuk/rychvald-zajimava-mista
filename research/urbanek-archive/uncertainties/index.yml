@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 18, deferred: 0, resolved: 16, not_actionable: 1, total: 35}
+summary: {open: 16, deferred: 0, resolved: 18, not_actionable: 1, total: 35}
 open_files:
   - open-01.yml
   - open-02a.yml
@@ -11,4 +11,5 @@ closed_files:
   - closed-02b.yml
   - closed-03.yml
   - closed-04.yml
-rule: A thumbnail in Thumbs.db without a standalone full file means the full original is missing.
+  - closed-05.yml
+rule: A thumbnail in Thumbs.db without a standalone full file means the full original is missing; visually verified duplicate thumbnails do not represent additional missing image content.

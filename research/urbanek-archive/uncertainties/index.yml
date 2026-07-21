@@ -1,0 +1,12 @@
+schema_version: 2
+summary: {open: 20, deferred: 0, resolved: 14, not_actionable: 1, total: 35}
+open_files:
+  - open-01.yml
+  - open-02a.yml
+  - open-02b.yml
+closed_files:
+  - closed-01a.yml
+  - closed-01b.yml
+  - closed-02a.yml
+  - closed-02b.yml
+rule: A thumbnail in Thumbs.db without a standalone full file means the full original is missing.

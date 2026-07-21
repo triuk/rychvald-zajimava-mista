@@ -21,7 +21,7 @@ Pamětlivi jsouce naší početní síly a uvědomění lidu našeho, přikroči
 ## Poznámky ke spolehlivosti
 
 - Přechod mezi stranami 44 a 45 byl spojen v citované větě začínající `Podotýkám, že nám...`.
-- Přepis zachovává tvary `Pamětlivi jsouce`, `n dopočítavše`, `míchati`, `resistenci`, `organisovaná`, `10letí` a další dobové či tištěné podoby.
+- Přepis zachovává tvary `Pamětlivi jsouce`, `napočítavše`, `míchati`, `resistenci`, `organisovaná`, `10letí` a další dobové či tištěné podoby.
 - Neobvyklé slovosledy `Rychvald rozdělen na úseky`, `4 protestní nové schůze` a `Jmenováni opět 4 sčítací komisaři` byly zachovány podle tisku.
 - Jména a označení `Šmuk`, `Baron`, `Alpinky`, `Boh. Kočím`, `alpinští` a `břešínští` mají projít druhou vizuální nebo pramennou kontrolou před použitím jako ověřené údaje.
 - Výrok o výsledku sčítání a ostatní historická tvrzení nejsou tímto OCR nezávisle ověřena.

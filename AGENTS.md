@@ -15,6 +15,9 @@ Repozitář obsahuje výzkumná data a články o historicky nebo místně zají
 - Rozpory mezi prameny nezakrývej.
 - Internetové zdroje používej až po vytěžení nahraných pramenů. Preferuj oficiální, archivní, knihovní, památkové a odborné zdroje; Wikipedie, sociální sítě a neozdrojované weby mohou být pouze vodítkem.
 - Nejasnosti a rozpory se pokus ověřit v relevantních internetových zdrojích. Výsledek popiš jako potvrzení, částečné vyřešení nebo trvající nejistotu; původní varianty nemaž.
+- Při identifikaci, lokalizaci nebo technickém popisu větrného mlýna, mlýnku s turbínou či větrného čerpadla vždy porovnej archivní materiál také s odbornou databází Povětrník (`http://www.povetrnik.cz`).
+- U shody s Povětrníkem zaznamenej přímý detailový odkaz, katalogové číslo, adresu, GPS, technické údaje a způsob obrazového porovnání. Databázový záznam není automaticky neomylný; rozhodující tvrzení porovnej s archivními snímky a dalšími prameny.
+- Pokud Povětrník vyvrátí dřívější inferenci z názvu souboru, složky, příjmení nebo obecného adresního registru, původní inferenci zachovej jako překonanou a pro další práci používej objektově doložený výsledek.
 - Každý použitý internetový zdroj zapiš do `sources/index.yml` včetně URL a data přístupu.
 - V oddílu Zdroje článku uváděj vedle `source_id` a lokátoru také přímý klikací odkaz na konkrétní PDF, TXT nebo webovou stránku.
 

@@ -6,7 +6,7 @@
   - `Ochotníci rychvald/P1020599.JPG`
   - `Ochotníci rychvald/P1020600.JPG`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplná časopisecká strana s článkem a fotografií
 - Autor: M. Sehnalová
 - Místo uvedené u podpisu: Kroměříž
@@ -44,9 +44,10 @@ Jedenadvacetiletá učitelka z Rychvaldu Sylva Kravalová hrála Violu v Shakesp
 
 ## Poznámky ke spolehlivosti
 
-- Primární snímek `010` zachycuje celou levou časopiseckou stránku; snímek `009` byl použit pouze pro kontrolu spodních odstavců a fotografického popisku.
+- Primární snímek `010` zachycuje celou levou časopiseckou stránku; snímek `009` byl při druhé kontrole použit pouze pro ověření spodních odstavců a fotografického popisku.
 - Nesouvisející pokračování článku na pravé stránce nebylo zahrnuto.
 - Přepis zachovává tištěné tvary `Sylva Kravalová`, `Lehnice`, `Tuisková`, `Krčulová` a zkratku `W.` před jménem Shakespeara.
-- Číslo `3960` je přepsáno podle tohoto článku; jiné archivní články uvádějí odlišné počty přihlášených či soutěžících souborů a údaje se nesmějí bez dalšího slučovat.
+- Číslo `3960` je přepsáno podle tohoto článku; jiné archivní články uvádějí odlišné počty přihlášených či soutěžících souborů a údaj zůstává veden v `URB-U-0027`.
 - Jméno osoby na fotografii vychází z tištěného popisku, nikoli z identifikace podle tváře.
+- Druhá řádková kontrola dne 2026-07-21 potvrdila celý článek, podpis, fotografický popisek i kredit bez textové opravy.
 - Historická a hodnotící tvrzení článku nejsou tímto OCR nezávisle ověřena.

@@ -28,6 +28,7 @@ checkpoints:
   nalet_classification_commit: ae068338045a1dbb09e5d6e97af295e71a1fa513
   uncertainty_registry_commit: 97e792659d5144fa70dc7d511098501f5899cb00
   pilot_reconciliation_commit: a22027e5d4d6b0627f6630ca7c86c8dd68aecdf1
+  draft_pull_request_head_at_creation: a5bb5e7762eb775030677d166d0602c25b576b4d
 
 pilot_totals:
   collections: 5
@@ -50,7 +51,17 @@ phases:
   ochotnici_text_processing_first_pass: completed
   ochotnici_second_visual_review: completed
   pilot_reconciliation: completed
-  draft_pull_request: ready
+  draft_pull_request: created
+
+pull_request:
+  number: 1
+  url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
+  state: open
+  draft: true
+  base: main
+  head: agent/import-urbanek-pilot
+  created_at: 2026-07-21T13:33:00Z
+  merge_requested: false
 
 pilot_collections:
   - name: Rychvaldské větrné mlýny
@@ -128,7 +139,7 @@ uncertainties:
     - Folder and filename labels are archival metadata, not independent proof.
 
 readiness:
-  status: ready_for_draft_pr_with_known_deferred_technical_files
+  status: draft_pr_open_with_known_deferred_technical_files
   reconciliation_report: research/urbanek-archive/reports/pilot-reconciliation.md
   blockers_for_draft_pr: []
   known_non_blocking_issues:
@@ -137,10 +148,9 @@ readiness:
     - open factual conflicts and physical lacunae remain registered
 
 next_action:
-  type: prepare_draft_pull_request
-  base: main
-  head: agent/import-urbanek-pilot
+  type: review_draft_pull_request
+  pull_request: 1
   instruction: >-
-    Verify the branch remains zero commits behind main, then create a draft pull
-    request summarizing the five pilot collections, preservation totals, completed
-    OCR and classifications, and known deferred technical files and uncertainties.
+    Review the draft PR scope, changed files, authoritative reports and registered
+    uncertainties. Do not mark the PR ready or merge it until the pilot structure and
+    the treatment of missing technical cache files have been accepted.

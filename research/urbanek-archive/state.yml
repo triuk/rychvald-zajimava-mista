@@ -24,10 +24,11 @@ checkpoints:
   ochotnici_processing_plan_commit: b1b6b0644fc9ef9565b0f35986aeff98c9874769
   ochotnici_native_doc_extraction_commit: 93e7a23682b1a5f323ff8fce8fcee51f8a0ecb0a
   ochotnici_short_documents_last_commit: fb0b99b42c3503c805decb169d1a2d979abc643f
-  ochotnici_article_001_commit: 503f7cd76d742dfb285b3cc980318fd729b9e662
   ochotnici_kromeriz_articles_last_commit: e484e7b0ec1728fd4a2abb9b5d65c46091a3bbd0
   ochotnici_press_review_commit: d811e840350152e1be7d49116e24f3ccab233b5b
   ochotnici_tesinsko_article_commit: e6b2f4d72417e0eced6665f582c88d237da3ab8f
+  ochotnici_bohdan_horak_commit: 65d635ff260a2c0c5e75cf846920e457e2e52b81
+  ochotnici_census_article_commit: f52796c45fe6869523e632655323e1322b85f186
   uncertainty_registry_commit: 221df8b5067454377fd6ae962f78196840b7b106
 
 ocr:
@@ -43,6 +44,9 @@ ocr:
     - urbanek-ochotnici-012
     - urbanek-ochotnici-013
     - urbanek-ochotnici-014
+    - urbanek-ochotnici-015
+    - urbanek-ochotnici-016
+    - urbanek-ochotnici-017
     - urbanek-ochotnici-019
     - urbanek-ochotnici-023
     - urbanek-ochotnici-027
@@ -53,6 +57,11 @@ ocr:
     - urbanek-ochotnici-042
     - urbanek-ochotnici-047
   verification_only_items: [urbanek-ochotnici-009]
+  completed_book_text_units:
+    - research/urbanek-archive/ocr/urbanek-ochotnici-017-a-document-text.md
+    - research/urbanek-archive/ocr/urbanek-ochotnici-015-017-bohdan-horak-document-text.md
+    - research/urbanek-archive/ocr/urbanek-ochotnici-015-b-document-text.md
+    - research/urbanek-archive/ocr/urbanek-ochotnici-015-c-document-text.md
   preserve_printed_spelling: true
   infer_missing_text: false
 
@@ -83,7 +92,7 @@ pilot_collections:
     repo_missing_items: 1
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
     native_extraction_completed: [urbanek-ochotnici-061]
-    first_pass_ocr_completed: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-013, urbanek-ochotnici-014, urbanek-ochotnici-019, urbanek-ochotnici-023, urbanek-ochotnici-027, urbanek-ochotnici-028, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
+    first_pass_ocr_completed: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-013, urbanek-ochotnici-014, urbanek-ochotnici-015, urbanek-ochotnici-016, urbanek-ochotnici-017, urbanek-ochotnici-019, urbanek-ochotnici-023, urbanek-ochotnici-027, urbanek-ochotnici-028, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-039, urbanek-ochotnici-042, urbanek-ochotnici-047]
     verification_only_items: [urbanek-ochotnici-009]
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
@@ -91,14 +100,11 @@ pilot_collections:
 next_action:
   type: ocr_document_group
   collection: Ochotníci rychvald
-  group_id: historical-book-pages-40-45
-  ordered_items: [urbanek-ochotnici-017, urbanek-ochotnici-016, urbanek-ochotnici-015]
-  text_units:
-    - ending_or_complete_sokol_article
-    - bohdan_horak_wartime_memories
-    - census_1910_article
-    - partial_economic_overview
+  group_id: rychvald-divadelni-kronika-pages-260-262
+  ordered_primary_items: [urbanek-ochotnici-008, urbanek-ochotnici-007, urbanek-ochotnici-006]
+  supplementary_items: [urbanek-ochotnici-005]
   instruction: >-
-    Transcribe photographed book pages 40 through 45 in order. Preserve page boundaries
-    and split all four printed text units. The economic overview continues beyond the
-    available image and must remain explicitly incomplete.
+    Transcribe handwritten chronicle pages 260 through 262 in order. Use item 006 as
+    the primary image for page 262 and item 005 only as a verification detail. Keep
+    the embedded photograph caption on page 261 separate from the running text and
+    mark every uncertain handwritten word explicitly.

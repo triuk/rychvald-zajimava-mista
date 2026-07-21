@@ -9,7 +9,7 @@
 - Originály se nepřejmenovávají, nepřesouvají ani neupravují.
 - Pro další práci je autoritativní obsah pilotní větve v Git repozitáři.
 
-Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a `reports/pilot-reconciliation.md`.
+Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties/index.yml` včetně odkazovaných shard souborů a `reports/pilot-reconciliation.md`.
 
 ## Stav pilotu
 
@@ -96,6 +96,7 @@ Soubory:
 
 ## Registr nejistot
 
+- Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `open`: 20;
 - `deferred`: 0;
 - `resolved`: 14;
@@ -105,6 +106,8 @@ Soubory:
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` byly uzavřeny doplněním příslušných souborů `Thumbs.db`.
 
 Položky `URB-U-0002`, `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatováním, že plné originály chybějí. Související otázky identifikace zachovaných náhledů mohou zůstat otevřené samostatně.
+
+Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá.
 
 ## Aktuální krok
 

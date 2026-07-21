@@ -18,4 +18,9 @@ items:
     resolved_at: 2026-07-21
     resolved_by: user_confirmation_and_exhaustive_public_source_search
     confidence: verified_by_archive_owner_confirmation
+    resolved_scope: image_identity_only
     unresolved_attributes: [exact_location, date, owner_identity, technology]
+    linked_open_items: [URB-U-0036]
+    note: >-
+      Uzavření URB-U-0007 se vztahuje pouze k identitě obrazu. Lokalizace, vlastník,
+      datace a technologie zůstávají aktivním výzkumným úkolem v URB-U-0036.

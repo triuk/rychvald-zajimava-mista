@@ -4,6 +4,8 @@ on:
     branches: [agent/import-urbanek-pilot]
     paths:
       - research/urbanek-archive/.sync-podlesi-229
+  pull_request:
+    types: [synchronize]
 permissions:
   contents: write
 jobs:
@@ -18,7 +20,6 @@ jobs:
           python - <<'PY'
           from pathlib import Path
 
-          # Classification item urbanek-mlyny-007.
           p=Path('research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml')
           s=p.read_text('utf-8')
           old='''    identification:\n      status: unverified\n      candidate_name: mlýn na Podlesí\n      candidate_basis: original_filename\n      note: Název a lokalizace vycházejí pouze z názvu souboru.\n'''
@@ -28,7 +29,6 @@ jobs:
           s=s.replace('  - Ověřit lokalizaci a název objektu označeného souborem mlýn na podlesí.JPG.\n','')
           p.write_text(s,'utf-8')
 
-          # Source registry.
           p=Path('sources/index.yml'); s=p.read_text('utf-8')
           if 'source_id: web-povetrnik-rychvald-u-skolky-344' not in s:
               s += '''\n- source_id: web-povetrnik-rychvald-u-skolky-344\n  title: Rychvald – větrný mlýnek s turbínou U Školky 344\n  document_type: odborna_online_databaze_technickeho_dedictvi\n  institution: Povětrník.cz – databáze větrných mlýnů a čerpadel v českých zemích\n  url: http://www.povetrnik.cz/vetrne-mlyny/detail/229\n  accessed: '2026-07-21'\n  time_period:\n    from: '1901'\n    to: '2026-07-21'\n    note: Databáze uvádí vznik po roce 1900 a rozebrání v roce 2014.\n  file: null\n  page_count: null\n  digital_format: HTML\n  readability:\n    status: good_via_http\n    note: Text, GPS a základní fotografie byly zkontrolovány.\n  visual_content:\n    photographs: present\n    maps: present\n    indexes: not_applicable\n    method: Základní fotografie byla porovnána s archivním souborem mlýn na podlesí.JPG.\n  missing_pages:\n    status: not_applicable\n  rights:\n    status: unclear\n    note: Záznam a fotografie byly použity pouze k ověření.\n  notes:\n    - Ověřuje URB-U-0006 jako adresu U Školky 344 a GPS 49.8516111, 18.3718333.\n    - Potvrzuje, že náhled P1010269.JPG odpovídá dochovanému souboru mlýn na podlesí.JPG.\n'''

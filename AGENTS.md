@@ -59,6 +59,21 @@ Do publikovaného článku mohou být jako jistý fakt použita pouze tvrzení s
 - Každý nový zdroj zaeviduj v `sources/index.yml`.
 - U zdroje zaznamenej název, období, typ dokumentu, cestu k souboru, počet stran, čitelnost a známý stav práv.
 
+## Inventáře importovaných souborů
+
+- U každé položky fyzicky přítomné v repozitáři eviduj úplnou cestu od kořene repozitáře jako `repo_path` a její
+  `git_blob_sha`. Samotný blob SHA nenahrazuje cestu, protože neobsahuje název ani umístění souboru.
+- Původní archivní umístění může být vedeno samostatně jako `source_path` nebo `original_path`; nesmí být zaměněno za
+  `repo_path`.
+- Přímý odkaz na GitHub není autoritativní údaj a není nutné jej ukládat do každého řádku. V případě potřeby jej odvoď z
+  repozitáře, refu nebo commitu a `repo_path`.
+- U položek přítomných v repozitáři neukládej odkaz ani ID Google Drivu.
+- `drive_file_id` a `drive_url` ponechávej pouze u souborů záměrně vyloučených z importu nebo evidovaných jako chybějící v
+  repozitáři, například se stavem `excluded` nebo `drive_listed_repo_missing`. U takové položky ponech `repo_path` a
+  `git_blob_sha` prázdné.
+- Každý inventář musí výslovně obsahovat `repo_status`, aby bylo zřejmé, zda položka existuje v repozitáři, byla vyloučena,
+  nebo zůstává pouze v původním archivu.
+
 ## OCR a text zachycený v obraze
 
 - OCR prováděj nejen u skenů článků, dokumentů a popisků, ale také u textu, který je součástí fotografované scény a může

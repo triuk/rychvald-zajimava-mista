@@ -44,13 +44,13 @@ Zpracovány byly všechny plánované textové zdroje:
 
 ## Druhá vizuální kontrola
 
-### Dokončená dávka 01
+### Dávka 01 — krátké strukturované dokumenty
 
 Protokol:
 
 `research/urbanek-archive/collections/ochotnici-rychvald-visual-review-01.yml`
 
-Stav `visually_verified` mají:
+Vizuálně ověřeno 7 zdrojových položek v 6 výstupech:
 
 - `032–033` — program `Večer tříkrálový`;
 - `013` — program celostátní soutěže;
@@ -59,37 +59,48 @@ Stav `visually_verified` mají:
 - `042` — program `Slavnost lampiónů`;
 - `047` — dopis o věcné ceně.
 
-Celkem bylo vizuálně ověřeno **7 zdrojových položek v 6 textových výstupech**.
+### Dávka 02 — skupina Kroměříž 1960
 
-### Opravy a potvrzení
+Protokol:
 
-- U programu Večera tříkrálového bylo společné označení `ve službách vévodových` odděleno od Valentina a vedeno jako společný údaj Valentina a Curia.
-- Na plakátu celostátní soutěže byl chybný přepis `KLÍPERA` opraven na tištěné `KLICPERA`.
-- Dekorativní symboly mezi městy na čestném uznání jsou vedeny jako ornamenty, ne jako textové odrážky.
-- Číslo jednací dopisu bylo potvrzeno jako `9272/60-sl.` a datum jako `23.6.1960`.
-- Programy `Poslední noc v roce` a `Slavnost lampiónů` neobsahovaly textovou chybu prvního přepisu.
-- Rukopisné podpisy na čestném uznání nebyly doplněny odhadem.
+`research/urbanek-archive/collections/ochotnici-rychvald-visual-review-02.yml`
+
+Zkontrolováno 8 zdrojových položek v 7 textových výstupech:
+
+- `001` — `Vesničtí ochotníci ve finále`: `visually_verified`;
+- `004` — `Thálie držela palce`: `visually_verified_with_lacuna`;
+- `010` s kontrolním detailem `009` — `Katka, Angelika a Viola v Kroměříži`: `visually_verified`;
+- `011` — první kroměřížská novinová stránka: `visually_verified`;
+- `012` — `Rychvald a Shakespeare v Kroměříži`: `visually_verified`;
+- `014` — `Vesničtí ochotníci se představují`: `visually_verified`;
+- `027` — `Jaké jsou naše vesnické soubory?`: `visually_verified`.
+
+### Opravy dávky 02
+
+- `Rudolf Debnárik` → **`Rudolf Děbnárik`**.
+- `zvýťazí` → **`zvíťazí`**.
+- U `027` byl odstavec `Náš obrázek je…` odstraněn z duplicitní sekce popisku; zůstává jednou v hlavním textu, kam podle sazby patří.
+- U `004` byl potvrzen veškerý zachovaný text, ale výsledkový blok končí mimo spodní okraj snímku. Chybějící pokračování je evidováno jako `URB-U-0032`.
+- `001`, `010`, `011` a `014` byly potvrzeny bez textové změny.
+
+Celkem druhou kontrolou prošlo **15 zdrojových položek**. Stav `visually_verified` má 13 položek, `004` má `visually_verified_with_lacuna` a `009` sloužilo pouze jako kontrolní detail.
 
 ## Registr nejistot
 
-- `open`: 22
+- `open`: 23
 - `deferred`: 3
 - `resolved`: 5
 - `not_actionable`: 1
-- celkem: 31
+- celkem: 32
 
-Otevřené položky Ochotníků: `URB-U-0024` až `URB-U-0031` podle registru. Rozpor v obsazení Fabiana (`URB-U-0026`) zůstává otevřený.
+Otevřené položky Ochotníků: `URB-U-0024` až `URB-U-0032`. Nová `URB-U-0032` se týká oříznutého výsledkového bloku v článku `004`.
 
 ## Následující krok
 
-Provést druhou řádkovou kontrolu skupiny **Kroměříž 1960**:
+Provést druhou kontrolu:
 
-1. `001` — `Vesničtí ochotníci ve finále`;
-2. `004` — `Thálie držela palce`;
-3. `010` — `Katka, Angelika a Viola v Kroměříži`, s `009` pouze jako kontrolním detailem;
-4. `011` — první kroměřížská novinová stránka;
-5. `012` — stránka s článkem `Rychvald a Shakespeare v Kroměříži`;
-6. `014` — `Vesničtí ochotníci se představují`;
-7. `027` — `Jaké jsou naše vesnické soubory?`.
+1. dvoustránkového článku z časopisu Těšínsko (`028` + `019`);
+2. všech samostatných textových jednotek z knižních stran 40–45 (`017`, `016`, `015`);
+3. nativně vytěženého dokumentu DOC `061` proti jeho vizuálnímu vykreslení.
 
-Každý článek a každý fotografický popisek musí být porovnán se zdrojovým obrazem po řádcích. Stav `visually_verified` se přidá pouze po úplné kontrole.
+Zachovat otevřené rozpory `URB-U-0028` a `URB-U-0029`; fyzické hranice článků neslučovat a stav nativního DOC změnit teprve po porovnání s vykreslenou stránkou.

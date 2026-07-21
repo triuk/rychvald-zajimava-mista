@@ -2,10 +2,11 @@
 
 ## Zdroj a metoda
 
-- Původní cesta na Google Drivu: `fotodokument/den po dešti/Thumbs.db`
+- Cesta v repozitáři: `sources/osobni-archiv-jaromira-urbanka/fotodokument/den po dešti/Thumbs.db`
 - Velikost: 32 256 B
 - SHA-256: `107910de5c9211d7048b338d5df1b7e1ec407bf4c8c75615fafba7f090f9fd9c`
-- Stav v GitHubu: `drive_listed_repo_missing`
+- Git blob SHA: `3dd6f7b84cca9cb098bd199337ad1855db6f8be7`
+- Stav: `repo_verified`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
 Soubor byl načten jako Microsoft Compound File Binary. Katalog byl spojen s osmi JPEG náhledovými streamy.
@@ -36,18 +37,18 @@ Soubor byl načten jako Microsoft Compound File Binary. Katalog byl spojen s osm
 
 ### `P1020841.JPG`
 
-- V současné složce ani v ověřené cestě GitHubu nebyl nalezen plný soubor.
+- V současné složce ani pod jinou ověřenou cestou repozitáře nebyl nalezen plný soubor.
 - Cache uchovává pouze náhled 72 × 96 px.
 - Bezpečný vizuální popis: úzká mokrá nebo štěrková cesta lemovaná trávou, stromy a oplocením či zástavbou.
 - Náhled není náhradou originálu a nestačí k přesnému určení místa, data nebo rozsahu škod.
 
 ## Současný soubor mimo cache
 
-`P1040200.JPG` je v aktuální složce i v GitHubu, ale v této starší cache není. To pravděpodobně znamená, že byl do složky přidán nebo zobrazen až po vytvoření cache; samotná cache časovou posloupnost spolehlivě nedokládá.
+`P1040200.JPG` je v aktuální složce, ale v této starší cache není. To pravděpodobně znamená, že byl do složky přidán nebo zobrazen až po vytvoření cache; samotná cache časovou posloupnost spolehlivě nedokládá.
 
 ## Důsledky
 
-- `Thumbs.db` nesmí být smazán z původního archivu; je jediným známým nosičem náhledu `P1020841.JPG`.
+- `Thumbs.db` je součástí Git repozitáře a nesmí být smazán; je jediným známým nosičem náhledu `P1020841.JPG`.
 - Při hledání v jiných složkách nebo zálohách použít přesný název `P1020841.JPG` a obrazovou podobnost.
-- Chybějící technická cache ve větvi neblokuje klasifikaci osmi současných JPEGů.
+- Technická úplnost kolekce je vyřešena; chybějící plný originál zůstává samostatnou obsahovou nejistotou.
 - Standardní OCR se pro cache neprovádí.

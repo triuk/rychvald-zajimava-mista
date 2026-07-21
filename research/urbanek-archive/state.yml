@@ -24,20 +24,21 @@ checkpoints:
   ochotnici_processing_plan_commit: b1b6b0644fc9ef9565b0f35986aeff98c9874769
   ochotnici_chronicle_commit: acbb4c46a25916a0621943f74070c62ff81098c1
   ochotnici_neborak_table_last_commit: 5beb75cd89f3502444858ec28be19f2a29eb29a3
-  ochotnici_group_photo_scene_commit: c7f8828b1a2193078b2b8d78c1a4f1a2e60ff157
-  ochotnici_exhibition_scene_commit: b73e64a0c6db8dd2904d5c26af57144dcc7b0bf6
+  ochotnici_group_photo_scene_commit: d28eb9d0857476fd19ab8b77ea966d4558ec31c4
+  ochotnici_exhibition_scene_commit: 4c53a47843bdbc9b66f277296c5b473470767fdf
   canonical_horak_cleanup_commit: 950e8901d71a7ae517588a5e5fd50d25e3feae91
   ochotnici_visual_review_01_commit: 06a65c4eccbdfd0718641dbbba2878e76f914ca5
   ochotnici_visual_review_02_commit: 6be74cb2bb6da5517dc86efdfd87db8cf7d763b9
   ochotnici_visual_review_03_commit: c2055c92102e16e7ddd8cf767355cf821760a3bd
   ochotnici_visual_review_04_commit: 1c22b7f438c365e072928f9128170116924a3f75
+  ochotnici_visual_review_05_commit: 7bf36d5547d860e4596730ab9a3d32c9bc74f3b0
   uncertainty_registry_commit: 4475836e25280fc08711956d74b6824999a61dad
 
 ocr:
   czech_word_first_pass: completed
   czech_word_second_visual_review: completed
   ochotnici_first_pass: completed
-  ochotnici_second_visual_review: in_progress
+  ochotnici_second_visual_review: completed
   native_extraction_completed: [urbanek-ochotnici-061]
   document_source_items_completed:
     - urbanek-ochotnici-001
@@ -79,9 +80,13 @@ ocr:
     - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-04.yml
       status: completed
       items: [urbanek-ochotnici-003, urbanek-ochotnici-005, urbanek-ochotnici-006, urbanek-ochotnici-007, urbanek-ochotnici-008]
-  second_visual_review_completed_source_items: 26
+    - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-05.yml
+      status: completed
+      items: [urbanek-ochotnici-002, urbanek-ochotnici-018, urbanek-ochotnici-021]
+  second_visual_review_completed_source_items: 29
   visually_verified_items:
     - urbanek-ochotnici-001
+    - urbanek-ochotnici-002
     - urbanek-ochotnici-003
     - urbanek-ochotnici-005
     - urbanek-ochotnici-006
@@ -94,7 +99,9 @@ ocr:
     - urbanek-ochotnici-014
     - urbanek-ochotnici-016
     - urbanek-ochotnici-017
+    - urbanek-ochotnici-018
     - urbanek-ochotnici-019
+    - urbanek-ochotnici-021
     - urbanek-ochotnici-023
     - urbanek-ochotnici-027
     - urbanek-ochotnici-028
@@ -124,32 +131,29 @@ phases:
   ocr_second_visual_review_czech_word: completed
   ochotnici_classification: completed
   ochotnici_text_processing_first_pass: completed
-  ochotnici_second_visual_review: in_progress
+  ochotnici_second_visual_review: completed
   draft_pull_request: pending
 
 pilot_collections:
   - {name: Rychvaldské větrné mlýny, status: classification_and_initial_ocr_completed}
   - {name: Články z Českého slova, status: first_pass_and_second_visual_review_completed}
   - name: Ochotníci rychvald
-    status: first_text_pass_completed_second_review_in_progress
+    status: first_text_pass_and_second_visual_review_completed
     drive_total_files: 63
     classified_items: 63
     repo_verified_items: 62
     repo_missing_items: 1
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
-    second_visual_review_completed_source_items: 26
+    second_visual_review_completed_source_items: 29
+    remaining_open_issues_are_registered: true
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
-  type: second_visual_review_batch
-  collection: Ochotníci rychvald
-  items: [urbanek-ochotnici-018, urbanek-ochotnici-002, urbanek-ochotnici-021]
-  outputs:
-    - research/urbanek-archive/ocr/urbanek-ochotnici-018-scene-text.md
-    - research/urbanek-archive/ocr/urbanek-ochotnici-002-021-scene-text.md
+  type: inventory_collection
+  collection: fotodokument/den po dešti
   instruction: >-
-    Verify the selective scene text on the 1923 group photograph and both exhibition
-    panel overviews. Do not duplicate OCR of embedded documents that already have
-    higher-quality individual sources. Then reconcile the collection and decide
-    whether the second visual review is complete.
+    List all direct Drive items and subfolders, assign stable IDs, classify technical
+    thumbnail caches, and verify exact repository paths before visual classification.
+    Preserve original paths and filenames and do not start OCR before the collection
+    structure is known.

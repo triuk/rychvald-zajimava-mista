@@ -4,7 +4,7 @@
   - `urbanek-ochotnici-002` – `Ochotníci rychvald/Z výstavky v kulturáku 1.jpg`
   - `urbanek-ochotnici-021` – `Ochotníci rychvald/Z výstavky 2.jpg`
 - Kategorie: `scene_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified_selective_scene_text`
 - Rozsah: pouze velké nadpisy, časové členění a unikátní festivalový plakát
 
 ## Panel 1 – časové členění
@@ -31,7 +31,7 @@ pořádají v rámci oslav 15. výročí osvobození ČSR sovětskou armádou
 
 pod záštitou odboru pro školství a kulturu rady KNV v Ostravě a KDO v Ostravě
 
-# II. FESTIVAL
+# I. FESTIVAL
 
 ## DIVADELNÍCH OCHOTNÍKŮ
 
@@ -39,13 +39,13 @@ pod záštitou odboru pro školství a kulturu rady KNV v Ostravě a KDO v Ostra
 
 | Datum | Soubor | Autor | Hra |
 |---|---|---|---|
-| sobota 23. 4. 1960 | soubor OB Rychvald | W. Shakespeare | Večer tříkrálový |
-| neděle 24. 4. 1960 | soubor ZK Dolu Dolní Suchá | E. M. Remarque | Poslední dějství |
-| úterý 26. 4. 1960 | soubor DAR ZK OSP Frenštát p. R. | Peter Karvaš | Půlnoční mše |
-| středa 27. 4. 1960 | dětský soubor TJ Sokol Ostravice | H. Ch. Andersen | Pasáček vepřů |
-| čtvrtek 28. 4. 1960 | soubor ZK Slezan Frýdek-Místek | Alejandro Casona | Stromy umírají vstoje |
-| pátek 29. 4. 1960 | soubor ZK VŽKG Ostrava | Mil. Stehlík | Mordová rokle |
-| sobota 30. 4. 1960 | Divadlo nové vesnice, odbor OB Stará Bělá | T. B. Davídová | Dódy |
+| sobota 23. 4. 60 | soubor OB Rychvald | W. Shakespeare | Večer tříkrálový |
+| neděle 24. 4. 60 | soubor ZK Dukla, Dolní Suchá | E. M. Remarque | Poslední dějství |
+| úterý 26. 4. 60 | soubor DAR ZK OSP Frenštát p. R. | Peter Karvaš | Půlnoční mše |
+| středa 27. 4. 60 | dětský soubor TJ Sokol Ostravice | H. Ch. Andersen | Pasáček vepřů |
+| čtvrtek 28. 4. 60 | soubor ZK Slezan Frýdek-Místek | Alejandro Casona | Stromy umírají vstoje |
+| pátek 29. 4. 60 | soubor ZK VŽKG Ostrava | Mil. Stehlík | Mordová rokle |
+| sobota 30. 4. 60 | Divadlo nové vesnice, odbor OB Stará Bělá | T. B. Davidová | Dódy |
 
 **FRENŠTÁT POD RADHOŠTĚM • DIVADELNÍ SÁL**
 
@@ -61,7 +61,10 @@ pod záštitou odboru pro školství a kulturu rady KNV v Ostravě a KDO v Ostra
 
 ## Poznámky
 
+- Druhá vizuální kontrola opravila `II. FESTIVAL` na vytištěné `I. FESTIVAL` a `ZK Dolu Dolní Suchá` na `ZK Dukla, Dolní Suchá`.
+- Data jsou zachována ve zkráceném tištěném tvaru s rokem `60`.
+- Kovové svislé nosníky zakrývají části levého okraje plakátu a spodních organizačních údajů. Zakrytý text nebyl rekonstruován.
 - Vložené novinové a časopisecké stránky nebyly z panelu znovu OCRovány, protože jsou v archivu zastoupeny kvalitnějšími samostatnými snímky.
-- Festivalový plakát je unikátním textovým celkem na panelu, proto byl přepsán v rozsahu čitelnosti.
-- Zkratky organizací a dobové názvy byly zachovány. Některé zkratky souborů a přesné podoby jmen autorů mají projít druhou vizuální kontrolou.
+- Festivalový plakát je unikátním textovým celkem na panelu, proto byl přepsán jen v rozsahu bezpečné čitelnosti.
+- Zkratky organizací a dobové názvy byly zachovány.
 - Texty identifikují exponáty a jejich kontext; osoby na fotografiích nebyly určovány podle tváří.

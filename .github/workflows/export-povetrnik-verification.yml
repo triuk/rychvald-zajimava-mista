@@ -4,6 +4,8 @@ on:
     branches: [agent/import-urbanek-pilot]
     paths:
       - research/urbanek-archive/.export-povetrnik-verification
+  pull_request:
+    types: [synchronize]
 jobs:
   export:
     runs-on: ubuntu-latest
@@ -25,43 +27,35 @@ jobs:
           from pathlib import Path
           from urllib.parse import urljoin
           from urllib.request import Request, urlopen
-          import re
 
           class Parser(HTMLParser):
               def __init__(self):
-                  super().__init__()
-                  self.img = []
-                  self.links = []
-                  self.text = []
+                  super().__init__(); self.img=[]; self.links=[]; self.text=[]
               def handle_starttag(self, tag, attrs):
-                  d = dict(attrs)
-                  if tag == 'img' and d.get('src'):
-                      self.img.append(d['src'])
-                  if tag == 'a' and d.get('href'):
-                      self.links.append(d['href'])
+                  d=dict(attrs)
+                  if tag=='img' and d.get('src'): self.img.append(d['src'])
+                  if tag=='a' and d.get('href'): self.links.append(d['href'])
               def handle_data(self, data):
-                  s = ' '.join(data.split())
-                  if s:
-                      self.text.append(s)
+                  s=' '.join(data.split())
+                  if s: self.text.append(s)
 
           for mid in ('175','176'):
-              root = Path('export') / mid
-              html = (root/'page.html').read_text('utf-8', errors='replace')
-              p = Parser(); p.feed(html)
-              (root/'text.txt').write_text('\n'.join(p.text), 'utf-8')
-              (root/'image-urls.txt').write_text('\n'.join(dict.fromkeys(p.img)), 'utf-8')
-              (root/'links.txt').write_text('\n'.join(dict.fromkeys(p.links)), 'utf-8')
-              base = f'https://www.povetrnik.cz/vetrne-mlyny/detail/{mid}'
-              imgdir = root/'images'; imgdir.mkdir()
-              for i, src in enumerate(dict.fromkeys(p.img)):
-                  if i >= 40: break
-                  url = urljoin(base, src)
+              root=Path('export')/mid
+              html=(root/'page.html').read_text('utf-8',errors='replace')
+              p=Parser(); p.feed(html)
+              (root/'text.txt').write_text('\n'.join(p.text),'utf-8')
+              (root/'image-urls.txt').write_text('\n'.join(dict.fromkeys(p.img)),'utf-8')
+              (root/'links.txt').write_text('\n'.join(dict.fromkeys(p.links)),'utf-8')
+              base=f'https://www.povetrnik.cz/vetrne-mlyny/detail/{mid}'
+              imgdir=root/'images'; imgdir.mkdir()
+              for i,src in enumerate(dict.fromkeys(p.img)):
+                  if i>=40: break
+                  url=urljoin(base,src)
                   try:
-                      req = Request(url, headers={'User-Agent':'Mozilla/5.0'})
-                      data = urlopen(req, timeout=40).read()
-                      suffix = Path(url.split('?',1)[0]).suffix.lower()
-                      if suffix not in {'.jpg','.jpeg','.png','.webp','.gif'}:
-                          suffix = '.bin'
+                      req=Request(url,headers={'User-Agent':'Mozilla/5.0'})
+                      data=urlopen(req,timeout=40).read()
+                      suffix=Path(url.split('?',1)[0]).suffix.lower()
+                      if suffix not in {'.jpg','.jpeg','.png','.webp','.gif'}: suffix='.bin'
                       (imgdir/f'{i:02d}{suffix}').write_bytes(data)
                   except Exception as e:
                       (imgdir/f'{i:02d}.error.txt').write_text(f'{url}\n{e}\n','utf-8')

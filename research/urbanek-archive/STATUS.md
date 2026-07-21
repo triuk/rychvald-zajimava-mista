@@ -8,91 +8,106 @@
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Originály se nepřejmenovávají, nepřesouvají ani neupravují.
 
-Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a plán příslušné kolekce.
+Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a `reports/pilot-reconciliation.md`.
 
-## Etapy
+## Stav pilotu
 
-| Kolekce / etapa | Stav |
+| Kolekce | Stav |
 |---|---|
 | Rychvaldské větrné mlýny | klasifikace a první OCR dokončeny |
 | Články z Českého slova | první OCR i druhá vizuální kontrola dokončeny |
-| Ochotníci rychvald | **první textový průchod i druhá vizuální kontrola dokončeny** |
-| fotodokument/den po dešti | následuje inventář |
-| Nálet na Ostravu 1944 | čeká |
-| Pull request | čeká |
+| Ochotníci rychvald | první textový průchod i druhá vizuální kontrola dokončeny |
+| fotodokument/den po dešti | technický audit a vizuální klasifikace dokončeny |
+| Nálet na Ostravu 1944 | technický audit a vizuální klasifikace dokončeny |
+| Reconciliace pilotu | dokončena |
+| Draft pull request | připraven k vytvoření |
 
-## Ochotníci rychvald – uzavřený stav zpracování
+## Celkové součty
 
-- Inventář: 63 položek — 60 JPEG, 1 DOC a 2 technické cache.
-- Ve větvi je 62 položek; chybí pouze technický `Thumbs.db`.
-- Všech 63 položek bylo klasifikováno nebo technicky auditováno.
-- První textový průchod všech plánovaných zdrojů je dokončen.
-- Druhou vizuální kontrolou prošlo **29 zdrojových položek** v pěti dávkách.
-- Protokoly: `ochotnici-rychvald-visual-review-01.yml` až `05.yml`.
-- Plán: `research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml`.
+- Pilotní kolekce: **5**.
+- Obsahové soubory na Drivu: **144**.
+- Technické soubory na Drivu: **15**.
+- Celkem evidovaných položek: **159**.
+- Obsahové soubory přítomné ve větvi: **144 ze 144**.
+- Technické soubory přítomné ve větvi: **6 z 15**.
+- Ve větvi je celkem **150 z 159** položek.
+- Chybí devět souborů `Thumbs.db`; všechny byly auditovány přímo z originálů na Drivu.
 
-### Dávka 01 — krátké strukturované dokumenty
+Souhrnný report:
 
-Ověřeny programy `Večer tříkrálový`, celostátní soutěž, `Poslední noc v roce`, `Slavnost lampiónů`, čestné uznání a úřední dopis. Důležité opravy: `KLICPERA`, číslo jednací `9272/60-sl.` a správné strukturální přiřazení údaje `ve službách vévodových`.
+`research/urbanek-archive/reports/pilot-reconciliation.md`
 
-### Dávka 02 — Kroměříž 1960
+## Obrazy známé pouze z cache
 
-Ověřeno sedm textových výstupů. Opravy: `Rudolf Děbnárik`, `zvíťazí` a odstranění strukturální duplicity u `027`. Článek `004` zůstává `visually_verified_with_lacuna`, protože výsledkový blok je oříznut.
+Audity technických cache odhalily **12 unikátních obrazů**, jejichž plné originály nebyly nalezeny:
 
-### Dávka 03 — Těšínsko, knižní strany 40–45 a DOC
+- 1 v kolekci Rychvaldské větrné mlýny;
+- 8 v kolekci Články z Českého slova;
+- 2 v kolekci Ochotníci rychvald;
+- 1 v kolekci `den po dešti`;
+- 0 v kolekci Nálet na Ostravu 1944.
 
-Opravy `Třasořitka` a `maskovaní`; ověřeny všechny samostatné textové jednotky i nativní DOC. Rozpor `Ofélie/Olivie` a chybějící pokračování `Hospodářského přehledu` zůstávají v registru.
+Náhledy nejsou náhradou plných originálů.
 
-### Dávka 04 — rukopisná kronika a přehled Miroslava Neboráka
+## fotodokument/den po dešti
 
-Kronikové strany 260–262 mají stav `visually_verified_handwriting`. Druhá kontrola určila mimo jiné podoby:
+- 8 JPEGů a 2 technické cache, bez podsložek.
+- Všech osm JPEGů je ve větvi; chybí `Thumbs.db`.
+- EXIF potvrzuje tři časově oddělené celky:
+  - 5. srpna 2014;
+  - série 24. srpna 2014;
+  - samostatný kontext odvodnění 18. března 2015.
+- `P1020841.JPG` chybí jako plný originál; cache jej řadí bezprostředně před `P1020842.JPG`.
+- Kolekce nevyžaduje OCR.
 
-- `z okna přesunovány`;
-- `zkusil své štěstí`;
-- `rojili se`;
-- `Wölflovy`;
-- `Šílec`;
-- `Otílie Bayerová (prov. Hlausová)`;
-- `Löwenberger`.
+Soubory:
 
-`URB-U-0030` je vyřešena.
+- `collections/den-po-desti-inventory.csv`;
+- `collections/den-po-desti-verification.yml`;
+- `collections/den-po-desti-classification.yml`;
+- `reports/den-po-desti-thumbnail-cache.md`.
 
-U přehledu Miroslava Neboráka byly ověřeny názvy, autoři, role, součty 38 her a 110 představení i podpis `M. Neborák`. Otevřený zůstává pouze rozpor `URB-U-0031`: list je datován 29. února 1960, ale obsahuje dva řádky označené rokem 1961.
+## Nálet na Ostravu 1944
 
-### Dávka 05 — scénický text
+- 7 JPEGů a jeden `Thumbs.db`, bez podsložek.
+- Všech sedm JPEGů je ve větvi; chybí pouze technická cache.
+- Cache obsahuje čtyři další pracovní názvy, ale jejich náhledy odpovídají dochovaným fotografiím; žádný nový unikátní výjev nechybí.
+- Šest snímků dokumentuje těžce poškozené budovy a městské bloky.
+- Jeden snímek zachycuje velký válcovitý předmět připomínající munici; přesný typ není z fotografie ověřen.
+- Označení události a roku pochází z názvu archivní složky a není samo o sobě nezávislým historickým důkazem.
+- Kolekce nevyžaduje OCR.
 
-Historická fotografie z roku 1923:
+Soubory:
 
-- `DIV-KROUŽEK`;
-- `I. odb.`;
-- `S.M.O.L.`;
-- `v Rychvaldě`;
-- `1923`;
-- `ATELIER KRIŠKOVSKÝ / RADVANICE.`
-
-Na festivalovém plakátu byly opraveny podoby:
-
-- `II. FESTIVAL` → **`I. FESTIVAL`**;
-- `ZK Dolu Dolní Suchá` → **`ZK Dukla, Dolní Suchá`**.
-
-Zakrytý text za kovovými nosníky nebyl rekonstruován a vložené články nebyly duplicitně OCRovány.
+- `collections/nalet-na-ostravu-1944-inventory.csv`;
+- `collections/nalet-na-ostravu-1944-verification.yml`;
+- `collections/nalet-na-ostravu-1944-classification.yml`;
+- `reports/nalet-na-ostravu-1944-thumbnail-cache.md`.
 
 ## Registr nejistot
 
-- `open`: 22
-- `deferred`: 3
-- `resolved`: 6
-- `not_actionable`: 1
-- celkem: 32
+- `open`: 23;
+- `deferred`: 5;
+- `resolved`: 6;
+- `not_actionable`: 1;
+- celkem: 35.
 
-Otevřené položky kolekce Ochotníci: `URB-U-0024`, `0025`, `0026`, `0027`, `0028`, `0029`, `0031` a `0032`. Jde o chybějící soubory, věcné rozpory, dataci nebo fyzické lakuny — nikoli o nedokončenou druhou kontrolu OCR.
+Nové položky:
 
-## Následující přesný krok
+- `URB-U-0033` — chybějící technický `Thumbs.db` kolekce `den po dešti`;
+- `URB-U-0034` — plný originál `P1020841.JPG` známý pouze z cache;
+- `URB-U-0035` — chybějící technický `Thumbs.db` kolekce Nálet na Ostravu 1944.
 
-Zahájit kolekci `fotodokument/den po dešti`:
+## Připravenost
 
-1. vypsat všechny přímé položky a podsložky na Google Drivu;
-2. přiřadit stabilní ID;
-3. označit technické cache;
-4. ověřit přesné cesty ve větvi;
-5. nezahajovat OCR ani výběr fotografií, dokud není známá struktura kolekce.
+Stav pilotu:
+
+`ready_for_draft_pr_with_known_deferred_technical_files`
+
+Draft PR může být vytvořen proti `main`. Musí uvést:
+
+1. kompletních 144 obsahových souborů;
+2. devět chybějících technických cache;
+3. dvanáct obrazů známých pouze z náhledů;
+4. otevřené historické a identifikační nejistoty;
+5. skutečnost, že žádná otevřená nejistota není vydávána za ověřený fakt.

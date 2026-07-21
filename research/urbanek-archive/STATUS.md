@@ -16,96 +16,83 @@ Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncer
 |---|---|
 | Rychvaldské větrné mlýny | klasifikace a první OCR dokončeny |
 | Články z Českého slova | první OCR i druhá vizuální kontrola dokončeny |
-| Ochotníci rychvald | **první textový průchod dokončen; druhá kontrola probíhá** |
-| fotodokument/den po dešti | čeká |
+| Ochotníci rychvald | **první textový průchod i druhá vizuální kontrola dokončeny** |
+| fotodokument/den po dešti | následuje inventář |
 | Nálet na Ostravu 1944 | čeká |
 | Pull request | čeká |
 
-## Ochotníci rychvald
+## Ochotníci rychvald – uzavřený stav zpracování
 
 - Inventář: 63 položek — 60 JPEG, 1 DOC a 2 technické cache.
-- Ve větvi je 62 položek; chybí pouze `Thumbs.db`.
+- Ve větvi je 62 položek; chybí pouze technický `Thumbs.db`.
 - Všech 63 položek bylo klasifikováno nebo technicky auditováno.
 - První textový průchod všech plánovaných zdrojů je dokončen.
+- Druhou vizuální kontrolou prošlo **29 zdrojových položek** v pěti dávkách.
+- Protokoly: `ochotnici-rychvald-visual-review-01.yml` až `05.yml`.
 - Plán: `research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml`.
-
-## Druhá vizuální kontrola
 
 ### Dávka 01 — krátké strukturované dokumenty
 
-Protokol:
+Ověřeny programy `Večer tříkrálový`, celostátní soutěž, `Poslední noc v roce`, `Slavnost lampiónů`, čestné uznání a úřední dopis. Důležité opravy: `KLICPERA`, číslo jednací `9272/60-sl.` a správné strukturální přiřazení údaje `ve službách vévodových`.
 
-`research/urbanek-archive/collections/ochotnici-rychvald-visual-review-01.yml`
+### Dávka 02 — Kroměříž 1960
 
-Vizuálně ověřeno 7 zdrojových položek v 6 výstupech:
-
-- `032–033` — program `Večer tříkrálový`;
-- `013` — program celostátní soutěže;
-- `023` — čestné uznání Sylvii Kravalové;
-- `039` — program `Poslední noc v roce`;
-- `042` — program `Slavnost lampiónů`;
-- `047` — dopis o věcné ceně.
-
-### Dávka 02 — skupina Kroměříž 1960
-
-Protokol:
-
-`research/urbanek-archive/collections/ochotnici-rychvald-visual-review-02.yml`
-
-Zkontrolováno 8 zdrojových položek v 7 textových výstupech:
-
-- `001` — `Vesničtí ochotníci ve finále`: `visually_verified`;
-- `004` — `Thálie držela palce`: `visually_verified_with_lacuna`;
-- `010` s kontrolním detailem `009` — `Katka, Angelika a Viola v Kroměříži`: `visually_verified`;
-- `011` — první kroměřížská novinová stránka: `visually_verified`;
-- `012` — `Rychvald a Shakespeare v Kroměříži`: `visually_verified`;
-- `014` — `Vesničtí ochotníci se představují`: `visually_verified`;
-- `027` — `Jaké jsou naše vesnické soubory?`: `visually_verified`.
-
-Opravy: `Rudolf Debnárik` → `Rudolf Děbnárik`, `zvýťazí` → `zvíťazí` a odstranění strukturální duplicity u `027`. Lakuna výsledkového bloku `004` zůstává jako `URB-U-0032`.
+Ověřeno sedm textových výstupů. Opravy: `Rudolf Děbnárik`, `zvíťazí` a odstranění strukturální duplicity u `027`. Článek `004` zůstává `visually_verified_with_lacuna`, protože výsledkový blok je oříznut.
 
 ### Dávka 03 — Těšínsko, knižní strany 40–45 a DOC
 
-Protokol:
+Opravy `Třasořitka` a `maskovaní`; ověřeny všechny samostatné textové jednotky i nativní DOC. Rozpor `Ofélie/Olivie` a chybějící pokračování `Hospodářského přehledu` zůstávají v registru.
 
-`research/urbanek-archive/collections/ochotnici-rychvald-visual-review-03.yml`
+### Dávka 04 — rukopisná kronika a přehled Miroslava Neboráka
 
-Zkontrolováno 6 zdrojových položek v 6 textových výstupech:
+Kronikové strany 260–262 mají stav `visually_verified_handwriting`. Druhá kontrola určila mimo jiné podoby:
 
-- `028` + `019` — `Z dějin ochotnického divadla v Rychvaldě`: `visually_verified`;
-- `017` — `Založení tělocvičné jednoty „Sokol“ v Rychvaldě`: `visually_verified`;
-- `017` + `016` + `015` — `Vzpomínky na Rychvald za války`: `visually_verified`;
-- `015` — `Episody při sčítání lidu 1910`: `visually_verified`;
-- `015` — začátek `Hospodářského přehledu`: `visually_verified_with_lacuna`;
-- `061` — nativní DOC `112 let ochotnických souborů v Rychvaldu`: `native_extracted_visually_verified`.
+- `z okna přesunovány`;
+- `zkusil své štěstí`;
+- `rojili se`;
+- `Wölflovy`;
+- `Šílec`;
+- `Otílie Bayerová (prov. Hlausová)`;
+- `Löwenberger`.
 
-Opravy a potvrzení dávky 03:
+`URB-U-0030` je vyřešena.
 
-- `Třasořítka` → **`Třasořitka`**;
-- `maskování` → **`maskovaní`**;
-- doplněny závěrečné tečky dvou vytištěných nadpisů;
-- nativní DOC se ve slovech a interpunkci shoduje s vykreslenou stránkou; normalizovány byly pouze technické vícenásobné mezery;
-- LibreOffice vykreslil jednu obsahovou a jednu prázdnou stránku, přestože metadata uvádějí jednu stranu;
-- tištěná podoba `Ofélie` zůstává v rozporu s programovou `Olivií` (`URB-U-0028`);
-- chybějící strana pokračování `Hospodářského přehledu` zůstává `URB-U-0029`.
+U přehledu Miroslava Neboráka byly ověřeny názvy, autoři, role, součty 38 her a 110 představení i podpis `M. Neborák`. Otevřený zůstává pouze rozpor `URB-U-0031`: list je datován 29. února 1960, ale obsahuje dva řádky označené rokem 1961.
 
-Celkem druhou kontrolou prošlo **21 zdrojových položek**.
+### Dávka 05 — scénický text
+
+Historická fotografie z roku 1923:
+
+- `DIV-KROUŽEK`;
+- `I. odb.`;
+- `S.M.O.L.`;
+- `v Rychvaldě`;
+- `1923`;
+- `ATELIER KRIŠKOVSKÝ / RADVANICE.`
+
+Na festivalovém plakátu byly opraveny podoby:
+
+- `II. FESTIVAL` → **`I. FESTIVAL`**;
+- `ZK Dolu Dolní Suchá` → **`ZK Dukla, Dolní Suchá`**.
+
+Zakrytý text za kovovými nosníky nebyl rekonstruován a vložené články nebyly duplicitně OCRovány.
 
 ## Registr nejistot
 
-- `open`: 23
+- `open`: 22
 - `deferred`: 3
-- `resolved`: 5
+- `resolved`: 6
 - `not_actionable`: 1
 - celkem: 32
 
-Otevřené položky Ochotníků: `URB-U-0024` až `URB-U-0032`.
+Otevřené položky kolekce Ochotníci: `URB-U-0024`, `0025`, `0026`, `0027`, `0028`, `0029`, `0031` a `0032`. Jde o chybějící soubory, věcné rozpory, dataci nebo fyzické lakuny — nikoli o nedokončenou druhou kontrolu OCR.
 
-## Následující krok
+## Následující přesný krok
 
-Provést zvětšenou druhou kontrolu rukopisných zdrojů:
+Zahájit kolekci `fotodokument/den po dešti`:
 
-1. kronikové strany 260–262 (`008`, `007`, `006`; `005` pouze jako kontrolní detail strany 262);
-2. obě části rukopisného přehledu Miroslava Neboráka (`003`).
-
-Řešit pouze podoby doložené rukopisem nebo dalším archivním dokumentem. Opravdově nečitelné výrazy a rozpor mezi datací listu a položkami roku 1961 ponechat otevřené jako `URB-U-0030` a `URB-U-0031`.
+1. vypsat všechny přímé položky a podsložky na Google Drivu;
+2. přiřadit stabilní ID;
+3. označit technické cache;
+4. ověřit přesné cesty ve větvi;
+5. nezahajovat OCR ani výběr fotografií, dokud není známá struktura kolekce.

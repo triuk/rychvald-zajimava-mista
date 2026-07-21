@@ -1,0 +1,75 @@
+name: Export URB-U-0007 images
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.export-urb-u-0007
+  pull_request:
+    types: [synchronize]
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Export archive images and search Povetrnik
+        run: |
+          set -euo pipefail
+          mkdir -p export/archive export/povetrnik/pages export/povetrnik/images
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/obrazek mlyn bez ramecku.jpg' export/archive/
+          cp 'sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny/Kakalův mlýn.jpg' export/archive/
+          python - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          import re
+
+          out=Path('export/povetrnik')
+          def fetch(i):
+              url=f'http://www.povetrnik.cz/vetrne-mlyny/detail/{i}'
+              try:
+                  req=Request(url,headers={'User-Agent':'Mozilla/5.0'})
+                  data=urlopen(req,timeout=20).read()
+                  text=data.decode('utf-8','replace')
+                  if re.search(r'Rychvald|Kakal', text, re.I):
+                      (out/'pages'/f'{i}.html').write_bytes(data)
+                      return i,text
+              except Exception:
+                  return None
+          hits=[]
+          with ThreadPoolExecutor(max_workers=16) as ex:
+              futs=[ex.submit(fetch,i) for i in range(140,261)]
+              for f in as_completed(futs):
+                  r=f.result()
+                  if r: hits.append(r)
+          summary=[]
+          for i,text in sorted(hits):
+              plain=re.sub(r'<[^>]+>',' ',text)
+              plain=re.sub(r'\s+',' ',plain)
+              summary.append(f'RECORD {i}\n{plain[:5000]}\n')
+              urls=[]
+              for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)',text,re.I):
+                  src=m.group(1)
+                  if src.startswith('/'):
+                      src='http://www.povetrnik.cz'+src
+                  elif not src.startswith('http'):
+                      src='http://www.povetrnik.cz/vetrne-mlyny/detail/'+src
+                  urls.append(src)
+              for j,url in enumerate(dict.fromkeys(urls)):
+                  try:
+                      req=Request(url,headers={'User-Agent':'Mozilla/5.0'})
+                      data=urlopen(req,timeout=20).read()
+                      suf=Path(url.split('?',1)[0]).suffix.lower()
+                      if suf not in {'.jpg','.jpeg','.png','.webp'}: continue
+                      (out/'images'/f'{i}-{j:02d}{suf}').write_bytes(data)
+                  except Exception:
+                      pass
+          (out/'summary.txt').write_text('\n'.join(summary),'utf-8')
+          print('hits', [i for i,_ in hits])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urb-u-0007-images
+          path: export
+          retention-days: 1

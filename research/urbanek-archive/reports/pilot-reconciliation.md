@@ -67,7 +67,7 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 ## Registr nejistot
 
-Po potvrzení pravidla pro náhledy bez plných originálů:
+Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
 - `open`: 20;
 - `deferred`: 0;
@@ -82,7 +82,7 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 Pilotní větev má kompletní evidovanou souborovou sadu. Zbývají tyto věcné výhrady:
 
 1. dvanáct plných originálů chybí; v `Thumbs.db` jsou zachovány pouze jejich náhledy;
-2. otevřené historické, identifikační a fyzické lakuny jsou vedeny v `uncertainties.yml`;
+2. otevřené historické, identifikační a fyzické lakuny jsou vedeny v aktuálním registru;
 3. názvy složek a souborů nejsou samy o sobě považovány za nezávislý historický důkaz;
 4. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen.
 

@@ -7,6 +7,7 @@
 - Zdroj: `sources/osobni-archiv-jaromira-urbanka/`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Originály se nepřejmenovávají, nepřesouvají ani neupravují.
+- Pro další práci je autoritativní obsah pilotní větve v Git repozitáři.
 
 Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a `reports/pilot-reconciliation.md`.
 
@@ -20,6 +21,7 @@ Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncer
 | fotodokument/den po dešti | technický audit a vizuální klasifikace dokončeny |
 | Nálet na Ostravu 1944 | technický audit a vizuální klasifikace dokončeny |
 | Reconciliace pilotu | dokončena |
+| Úplnost pilotních souborů | **159 z 159 položek přítomno** |
 | Draft pull request | **otevřen jako PR #1** |
 
 ## Draft pull request
@@ -35,13 +37,11 @@ PR slouží ke kontrole rozsahu pilotu, struktury metadat, OCR výstupů, audit�
 ## Celkové součty
 
 - Pilotní kolekce: **5**.
-- Obsahové soubory na Drivu: **144**.
-- Technické soubory na Drivu: **15**.
-- Celkem evidovaných položek: **159**.
-- Obsahové soubory přítomné ve větvi: **144 ze 144**.
-- Technické soubory přítomné ve větvi: **6 z 15**.
-- Ve větvi je celkem **150 z 159** položek.
-- Chybí devět souborů `Thumbs.db`; všechny byly auditovány přímo z originálů na Drivu.
+- Obsahové soubory: **144 z 144 přítomno**.
+- Technické soubory: **15 z 15 přítomno**.
+- Celkem: **159 z 159 evidovaných položek přítomno**.
+- Osmnáct souborů `Thumbs.db` v celém archivním stromu bylo doplněno commitem `7e6483d1bcb92034bea6eddd43fd55869dedce9c`.
+- Z toho devět souborů uzavírá dříve chybějící technické položky pěti pilotních kolekcí.
 
 Souhrnný report:
 
@@ -57,12 +57,12 @@ Audity technických cache odhalily **12 unikátních obrazů**, jejichž plné o
 - 1 v kolekci `den po dešti`;
 - 0 v kolekci Nálet na Ostravu 1944.
 
-Náhledy nejsou náhradou plných originálů.
+Přítomnost souborů `Thumbs.db` zachovává jejich náhledy, ale náhledy nejsou náhradou plných originálů.
 
 ## fotodokument/den po dešti
 
 - 8 JPEGů a 2 technické cache, bez podsložek.
-- Všech osm JPEGů je ve větvi; chybí `Thumbs.db`.
+- Všech deset položek je ve větvi pod původními cestami.
 - EXIF potvrzuje tři časově oddělené celky:
   - 5. srpna 2014;
   - série 24. srpna 2014;
@@ -80,7 +80,7 @@ Soubory:
 ## Nálet na Ostravu 1944
 
 - 7 JPEGů a jeden `Thumbs.db`, bez podsložek.
-- Všech sedm JPEGů je ve větvi; chybí pouze technická cache.
+- Všech osm položek je ve větvi pod původními cestami.
 - Cache obsahuje čtyři další pracovní názvy, ale jejich náhledy odpovídají dochovaným fotografiím; žádný nový unikátní výjev nechybí.
 - Šest snímků dokumentuje těžce poškozené budovy a městské bloky.
 - Jeden snímek zachycuje velký válcovitý předmět připomínající munici; přesný typ není z fotografie ověřen.
@@ -97,21 +97,19 @@ Soubory:
 ## Registr nejistot
 
 - `open`: 23;
-- `deferred`: 5;
-- `resolved`: 6;
+- `deferred`: 1;
+- `resolved`: 10;
 - `not_actionable`: 1;
 - celkem: 35.
 
-Nové položky:
+Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` byly uzavřeny doplněním příslušných souborů `Thumbs.db`.
 
-- `URB-U-0033` — chybějící technický `Thumbs.db` kolekce `den po dešti`;
-- `URB-U-0034` — plný originál `P1020841.JPG` známý pouze z cache;
-- `URB-U-0035` — chybějící technický `Thumbs.db` kolekce Nálet na Ostravu 1944.
+Obsahové nejistoty, zejména chybějící plné originály známé pouze z cache, zůstávají otevřené nebo odložené.
 
 ## Aktuální krok
 
 Stav pilotu:
 
-`draft_pr_open_with_known_deferred_technical_files`
+`draft_pr_open_with_complete_pilot_file_set`
 
-Další práce má probíhat kontrolou draft PR #1. PR nemá být označen jako připravený ani sloučen, dokud nebude přijat rozsah pilotu a způsob zacházení s chybějícími technickými cache.
+Další práce má probíhat kontrolou draft PR #1 a postupným řešením věcných nejistot. Technické soubory již nejsou překážkou.

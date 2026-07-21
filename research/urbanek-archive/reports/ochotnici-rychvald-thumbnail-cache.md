@@ -2,10 +2,11 @@
 
 ## Zdroj a metoda
 
-- Původní cesta na Google Drivu: `Ochotníci rychvald/Thumbs.db`
+- Cesta v repozitáři: `sources/osobni-archiv-jaromira-urbanka/Ochotníci rychvald/Thumbs.db`
 - Velikost: 366 080 B
 - SHA-256: `61a49eda18010a9b66e9bf43a5f039d81cedb3ff8e44597306c75b1b54fa5ecd`
-- Stav v GitHubu: `drive_listed_repo_missing`
+- Git blob SHA: `8a10aaeb9f78b862847417025e1a5c839b94cb40`
+- Stav: `repo_verified`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
 Soubor byl načten jako Microsoft Compound File Binary. Katalogové záznamy byly propojeny s jednotlivými streamy a JPEG náhledy byly porovnány podle dekódovaných obrazových pixelů, nikoli pouze podle názvu souboru.
@@ -54,7 +55,7 @@ Záznam `{A42CD7B6-E9B9-4D02-B7A6-288B71AD28BA}` obsahuje náhledovou koláž n�
 
 ## Důsledky pro další práci
 
-- `Thumbs.db` nesmí být smazán z původního archivu. Je jediným známým nosičem dvou dodatečných unikátních obrazů.
+- `Thumbs.db` je součástí Git repozitáře a nesmí být smazán; je jediným známým nosičem dvou dodatečných unikátních obrazů.
 - Náhledy nejsou náhradou originálních souborů a nebudou použity k plnohodnotnému OCR ani k definitivní identifikaci osob.
 - Při pozdějším hledání v dalších složkách nebo zálohách použít názvy `img387.jpg` a `ochotnicke divadlo 2xxx.jpg` a zároveň obrazovou podobnost.
-- Chybějící binární cache v GitHubu neblokuje klasifikaci 60 současných JPEGů ani dokumentu DOC, protože audit byl proveden přímo z originálu na Drivu.
+- Technická úplnost kolekce je vyřešena; dva chybějící plné originály zůstávají samostatnou obsahovou nejistotou.

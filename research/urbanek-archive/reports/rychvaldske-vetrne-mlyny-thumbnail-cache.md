@@ -2,13 +2,13 @@
 
 ## Rozsah a metoda
 
-Bylo zkontrolováno všech pět souborů `Thumbs.db`, které jsou v původní kolekci na Google Drivu, ale při technickém auditu nebyly nalezeny ve větvi `agent/import-urbanek-pilot`.
+Bylo zkontrolováno všech pět souborů `Thumbs.db` v kolekci. Všechny jsou nyní přítomné ve větvi `agent/import-urbanek-pilot` pod přesnými původními cestami.
 
-Soubory byly čteny jako Microsoft Compound File Binary. Z každého souboru byl načten stream `Catalog`, názvy byly porovnány s aktuálním seznamem fotografií ve stejné složce a byly vypočteny kontrolní součty SHA-256. Originály na Drivu nebyly změněny.
+Soubory byly čteny jako Microsoft Compound File Binary. Z každého souboru byl načten stream `Catalog`, názvy byly porovnány s aktuálním seznamem fotografií ve stejné složce a byly vypočteny kontrolní součty SHA-256. Zdrojové soubory nebyly změněny.
 
 ## Výsledky
 
-| Původní cesta | Velikost | SHA-256 | Obrazové názvy v katalogu | Názvy navíc |
+| Cesta v archivu | Velikost | SHA-256 | Obrazové názvy v katalogu | Názvy navíc |
 |---|---:|---|---:|---|
 | `Rychvaldské větrné mlýny/Thumbs.db` | 53 760 B | `528e10c340a5a5ab07ee0f690f50c180df4b3c18401b471f3d400c0ce07fa150` | 11 | `P1010269.JPG` |
 | `Rychvaldské větrné mlýny/větrný mlýn u hebdy/Thumbs.db` | 21 504 B | `66d06abeac65e6543f5180e377bb71f4c86a849b66e86d5c4de7b89833283dd1` | 3 | žádné |
@@ -20,7 +20,7 @@ Systémový záznam s GUID nebyl započítán jako obrazový název.
 
 ## Nález `P1010269.JPG`
 
-Kořenový `Thumbs.db` obsahuje katalogový záznam `P1010269.JPG`, přestože stejnojmenný originál v aktuální kolekci nebyl nalezen. Z odpovídajícího streamu ID 4 se podařilo vyčlenit JPEG náhled:
+Kořenový `Thumbs.db` obsahuje katalogový záznam `P1010269.JPG`, přestože stejnojmenný plný originál v aktuální kolekci nebyl nalezen. Z odpovídajícího streamu ID 4 se podařilo vyčlenit JPEG náhled:
 
 - rozměry: 72 × 96 px;
 - velikost: 4 896 B;
@@ -33,7 +33,7 @@ Náhled není náhradou původního souboru. Musí být označen jako odvozený 
 
 ## Závěr
 
-- Soubory `Thumbs.db` mají archivní hodnotu a nemají být mazány z původního archivu.
+- Všech pět souborů `Thumbs.db` je součástí Git repozitáře a nemá být mazáno.
 - Čtyři z pěti cache nepřidávají další názvy fotografií.
 - Kořenová cache uchovává poslední známou stopu po chybějícím souboru `P1010269.JPG` a také jeho malý náhled.
-- Pět původních `Thumbs.db` nadále chybí v GitHub větvi a má být později doplněno pod přesnými původními cestami.
+- Technická úplnost kolekce je vyřešena; hledání plného originálu `P1010269.JPG` zůstává samostatnou obsahovou nejistotou.

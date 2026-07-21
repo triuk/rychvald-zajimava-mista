@@ -3,8 +3,9 @@
 - Zdroj: `urbanek-ochotnici-039`
 - Soubor: `Ochotníci rychvald/posledni noc  program.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný jednostránkový divadelní program
+- Druhá vizuální kontrola: `2026-07-21`
 
 ## Přepis
 
@@ -44,8 +45,8 @@ Ve spodní části programu je znovu dekorativně uveden název:
 
 ## Poznámky ke spolehlivosti
 
-- Přepis zachovává tvary jmen a rolí podle programu.
-- Jméno autora je na programu uvedeno jako `Ardi Liives`.
-- Podoby `Mahta Šagelová`, `Gabriel Bugel` a `Jiří Kraval` jsou přepsány podle viditelného tisku a před dalším použitím jako ověřená osobní jména mají projít druhou vizuální nebo externí kontrolou.
+- Celý program byl podruhé porovnán se zdrojovým obrazem a nebyla nalezena textová chyba prvního přepisu.
+- Podoby `Ardi Liives`, `Mahta Šagelová`, `Gabriel Bugel` a `Jiří Kraval` jsou vizuálně ověřeny jako text skutečně vytištěný v programu.
+- Vizuální ověření podoby tisku není nezávislým ověřením správnosti osobních jmen nebo jejich historické identity.
 - Program neobsahuje datum představení.
 - Jména v programu představují tištěné obsazení, nikoli nezávislou identifikaci osob na fotografiích.

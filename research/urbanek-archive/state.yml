@@ -8,6 +8,7 @@ source:
   preserve_original_paths: true
   preserve_original_filenames: true
   modify_originals: false
+  authoritative_storage: git_repository
 
 authoritative_files:
   - AGENTS.md
@@ -29,20 +30,21 @@ checkpoints:
   uncertainty_registry_commit: 97e792659d5144fa70dc7d511098501f5899cb00
   pilot_reconciliation_commit: a22027e5d4d6b0627f6630ca7c86c8dd68aecdf1
   draft_pull_request_head_at_creation: a5bb5e7762eb775030677d166d0602c25b576b4d
+  technical_cache_completion_commit: 7e6483d1bcb92034bea6eddd43fd55869dedce9c
 
 pilot_totals:
   collections: 5
-  content_files_drive: 144
-  technical_files_drive: 15
-  total_items_drive: 159
+  content_files: 144
+  technical_files: 15
+  total_items: 159
   content_files_repo_verified: 144
-  technical_files_repo_verified: 6
-  technical_files_repo_missing: 9
-  total_items_repo_present: 150
+  technical_files_repo_verified: 15
+  total_items_repo_present: 159
+  repo_missing_items: 0
   unique_images_known_only_from_thumbnail_caches: 12
 
 phases:
-  import: completed_with_missing_technical_files
+  import: completed
   pilot_inventory: completed
   pilot_technical_audit: completed
   pilot_visual_classification: completed
@@ -51,6 +53,7 @@ phases:
   ochotnici_text_processing_first_pass: completed
   ochotnici_second_visual_review: completed
   pilot_reconciliation: completed
+  pilot_file_completion: completed
   draft_pull_request: created
 
 pull_request:
@@ -66,30 +69,33 @@ pull_request:
 pilot_collections:
   - name: Rychvaldské větrné mlýny
     status: classification_and_initial_ocr_completed
-    drive_total_items: 39
+    total_items: 39
     content_files: 31
     technical_files: 8
-    repo_missing_technical_files: 5
+    repo_verified_items: 39
+    repo_missing_items: 0
     unique_images_known_only_from_cache: 1
     reports:
       - research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
 
   - name: Články z Českého slova
     status: first_pass_and_second_visual_review_completed
-    drive_total_items: 39
+    total_items: 39
     content_files: 37
     technical_files: 2
-    repo_missing_technical_files: 1
+    repo_verified_items: 39
+    repo_missing_items: 0
     unique_images_known_only_from_cache: 8
     reports:
       - research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md
 
   - name: Ochotníci rychvald
     status: first_text_pass_and_second_visual_review_completed
-    drive_total_items: 63
+    total_items: 63
     content_files: 61
     technical_files: 2
-    repo_missing_technical_files: 1
+    repo_verified_items: 63
+    repo_missing_items: 0
     unique_images_known_only_from_cache: 2
     second_visual_review_source_items: 29
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
@@ -102,10 +108,11 @@ pilot_collections:
 
   - name: fotodokument/den po dešti
     status: technical_audit_and_visual_classification_completed
-    drive_total_items: 10
+    total_items: 10
     content_files: 8
     technical_files: 2
-    repo_missing_technical_files: 1
+    repo_verified_items: 10
+    repo_missing_items: 0
     unique_images_known_only_from_cache: 1
     ocr_required: false
     multiple_events_confirmed_by_exif: true
@@ -117,10 +124,11 @@ pilot_collections:
 
   - name: Nálet na Ostravu 1944
     status: technical_audit_and_visual_classification_completed
-    drive_total_items: 8
+    total_items: 8
     content_files: 7
     technical_files: 1
-    repo_missing_technical_files: 1
+    repo_verified_items: 8
+    repo_missing_items: 0
     unique_images_known_only_from_cache: 0
     ocr_required: false
     event_label_independently_verified: false
@@ -132,25 +140,24 @@ pilot_collections:
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 23, in_progress: 0, deferred: 5, resolved: 6, not_actionable: 1, total: 35}
+  summary: {open: 23, in_progress: 0, deferred: 1, resolved: 10, not_actionable: 1, total: 35}
   rules:
     - Open issues are not presented as verified facts.
     - Thumbnail-only images are not substitutes for full originals.
     - Folder and filename labels are archival metadata, not independent proof.
 
 readiness:
-  status: draft_pr_open_with_known_deferred_technical_files
+  status: draft_pr_open_with_complete_pilot_file_set
   reconciliation_report: research/urbanek-archive/reports/pilot-reconciliation.md
   blockers_for_draft_pr: []
   known_non_blocking_issues:
-    - nine Thumbs.db files are absent from the branch but audited from Drive
     - twelve unique images are known only from thumbnail caches
     - open factual conflicts and physical lacunae remain registered
 
 next_action:
-  type: review_draft_pull_request
+  type: resolve_registered_uncertainties
   pull_request: 1
   instruction: >-
     Review the draft PR scope, changed files, authoritative reports and registered
-    uncertainties. Do not mark the PR ready or merge it until the pilot structure and
-    the treatment of missing technical cache files have been accepted.
+    uncertainties. Continue resolving the uncertainty registry item by item. Do not
+    mark the PR ready or merge it until the pilot structure has been accepted.

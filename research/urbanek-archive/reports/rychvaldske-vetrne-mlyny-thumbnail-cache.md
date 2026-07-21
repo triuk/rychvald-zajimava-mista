@@ -20,20 +20,19 @@ Systémový záznam s GUID nebyl započítán jako obrazový název.
 
 ## Nález `P1010269.JPG`
 
-Kořenový `Thumbs.db` obsahuje katalogový záznam `P1010269.JPG`, přestože stejnojmenný plný originál v aktuální kolekci nebyl nalezen. Z odpovídajícího streamu ID 4 se podařilo vyčlenit JPEG náhled:
+Kořenový `Thumbs.db` obsahuje katalogový záznam `P1010269.JPG`, přestože stejnojmenný plný soubor v aktuální kolekci není. Z odpovídajícího streamu ID 4 byl vyčleněn platný JPEG náhled:
 
 - rozměry: 72 × 96 px;
 - velikost: 4 896 B;
-- SHA-256: `0253a94e8dfddbb1b8eb11ac592841ce49ebc168cd3a316099eee0a504ccf721`;
-- technický stav: platný JPEG;
-- popis `machine_unverified`: malý tmavý objekt nebo budova se šikmou střechou, částečně zakrytá stromy;
-- čitelný text ve scéně: nezjištěn při tomto rozlišení.
+- SHA-256: `0253a94e8dfddbb1b8eb11ac592841ce49ebc168cd3a316099eee0a504ccf721`.
 
-Náhled není náhradou původního souboru. Musí být označen jako odvozený nález z cache a jeho identifikace zůstává `unverified`, dokud nebude porovnán s jinými fotografiemi nebo prameny.
+Uživatel potvrdil a přesné obrazové porovnání ověřilo, že náhled je zmenšeninou dochovaného souboru `mlýn na podlesí.JPG`. Shodují se větvení stromů, poloha turbíny a stožáru, střecha i budova. Náhled tedy nepředstavuje další chybějící obrazový výjev; chybí pouze samostatný soubor pod původním názvem `P1010269.JPG`.
+
+Objekt byl následně ověřen proti databázi Povětrník jako záznam 229, větrný mlýnek s turbínou na adrese U Školky 344 v Rychvaldu. Podrobnosti jsou v `research/urbanek-archive/verifications/urb-u-0003-0006-podlesi-povetrnik-229.md`.
 
 ## Závěr
 
 - Všech pět souborů `Thumbs.db` je součástí Git repozitáře a nemá být mazáno.
 - Čtyři z pěti cache nepřidávají další názvy fotografií.
-- Kořenová cache uchovává poslední známou stopu po chybějícím souboru `P1010269.JPG` a také jeho malý náhled.
-- Technická úplnost kolekce je vyřešena; hledání plného originálu `P1010269.JPG` zůstává samostatnou obsahovou nejistotou.
+- Kořenová cache uchovává historický název `P1010269.JPG` a duplicitní náhled dochovaného souboru `mlýn na podlesí.JPG`.
+- Technická úplnost kolekce je vyřešena a žádný další unikátní obrazový obsah v této cache nechybí.

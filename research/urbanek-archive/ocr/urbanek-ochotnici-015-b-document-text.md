@@ -5,7 +5,7 @@
 - Soubor: `Ochotníci rychvald/img205.jpg`
 - Fyzické strany: `44–45`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný dvoustránkový knižní článek
 
 ## Nadpis
@@ -22,7 +22,8 @@ Pamětlivi jsouce naší početní síly a uvědomění lidu našeho, přikroči
 
 - Článek začíná na straně 44 a končí před ornamentem na straně 45.
 - Přechod stran byl spojen uvnitř výroku v místě `velice / záleží`; žádný text nebyl doplněn odhadem.
+- Druhá řádková kontrola dne 2026-07-21 potvrdila celý článek bez textové opravy.
 - Přepis zachovává tvary `Pamětlivi jsouce`, `zvrátiti`, `napočítavše`, `míchati`, `resistenci`, `organisovaná`, `využitkovali`, `dostavše`, `10letí` a další dobové či tištěné podoby.
-- Neobvyklé slovosledy `Rychvald rozdělen na úseky`, `4 protestní nové schůze` a `Jmenováni opět 4 sčítací komisaři` byly zachovány podle tisku.
-- Jména a označení `Šmuk`, `Baron`, `Alpinky`, `Boh. Kočím`, `alpinští` a `břešínští` mají projít druhou vizuální nebo pramennou kontrolou před použitím jako ověřené údaje.
+- Neobvyklé slovosledy `Rychvald rozdělen na úseky`, `4 protestní nové schůze` a `Jmenováni opět 4 sčítací komisaři` byly potvrzeny podle tisku.
+- Podoby `Šmuk`, `Baron`, `Alpinky`, `Boh. Kočím`, `alpinští` a `břešínští` byly vizuálně potvrzeny jako tištěné, nikoli však nezávisle historicky ověřeny.
 - Výrok o výsledku sčítání a ostatní historická tvrzení nejsou tímto OCR nezávisle ověřena.

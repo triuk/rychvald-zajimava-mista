@@ -7,7 +7,7 @@
   - `Ochotníci rychvald/Článek v čas. Těšínsko I.jpg`
   - `Ochotníci rychvald/Článek v čas. Těšínsko.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný dvoustránkový časopisecký článek s fotografií, popiskem a ručním věnováním
 - Autor: Bořivoj Peška
 - Tištěná strana první části: 27
@@ -31,11 +31,11 @@ Datum premiéry se neodvratně blížilo. První generálka dobrá, druhá rovn�
 
 Také ostatní kulturní pracovníci a hlavně soutěžní komise hru ocenili tak, že byla doporučena do oblastního kola, které se uskutečnilo v Bordovicích.
 
-Jak byla hra přijata samými Rychvaldany? Byli nadšeni úspěchem svých spoluobčanů. Celou hru od zvednutí opony až po závěr sledovali s velikým zaujetím. Kdo byli ti, kteří se o tak veliký úspěch zasloužili? V prvé řadě to byla představitelka hlavní ženské role Violy v podání Sylvy Kravalové—Bielasové. Lyricky něžná, stejně pak cynická k Malvoliovi a jemu podobným nalomeným charakterům. Jí se přibližovala čtveřice nositelů veselé, někdy až rozpustilé kreace. — A. Pešková je Marie, M. Suder v roli bodrého ochmelky Říhala, L. Zabloudil — výborný rytíř smutné postavy Třasořítka a konečně šašek L. Smetany. Impozantní, v gestech střízlivý byl kultivovaný vévoda Oldřicha Kuboše. O své bohaté ochotnické činnosti přesvědčil M. Neborák jako Antonio. Výkon, na který se nezapomíná. Intrikánský podlého Malvolia v intencích role vytvořil autor článku. Vhodnou představitelkou Ofélie byla Eva Močkořová. Režisérův záměr bezezbytku splnili R. Jurdin, J. Mikšan a O. Matějík.
+Jak byla hra přijata samými Rychvaldany? Byli nadšeni úspěchem svých spoluobčanů. Celou hru od zvednutí opony až po závěr sledovali s velikým zaujetím. Kdo byli ti, kteří se o tak veliký úspěch zasloužili? V prvé řadě to byla představitelka hlavní ženské role Violy v podání Sylvy Kravalové—Bielasové. Lyricky něžná, stejně pak cynická k Malvoliovi a jemu podobným nalomeným charakterům. Jí se přibližovala čtveřice nositelů veselé, někdy až rozpustilé kreace. — A. Pešková je Marie, M. Suder v roli bodrého ochmelky Říhala, L. Zabloudil — výborný rytíř smutné postavy Třasořitka a konečně šašek L. Smetany. Impozantní, v gestech střízlivý byl kultivovaný vévoda Oldřicha Kuboše. O své bohaté ochotnické činnosti přesvědčil M. Neborák jako Antonio. Výkon, na který se nezapomíná. Intrikánský podlého Malvolia v intencích role vytvořil autor článku. Vhodnou představitelkou Ofélie byla Eva Močkořová. Režisérův záměr bezezbytku splnili R. Jurdin, J. Mikšan a O. Matějík.
 
 Pak následovaly tradiční „štace“: Rychvald — Podlesí, Václavovice, Záblatí, vystoupení pro rychvaldské školy, bývalý kulturní dům v Karviné—Dolech a pak již zmíněné oblastní kolo venkovských (Rychvald nebyl tehdy ještě městem) souborů v Bordovicích. Vítězně. Pak následovalo krajské kolo ve Frenštátě pod Radhoštěm. Tam byl soubor slavnostně uvítán předsedou MěNV na městské radnici. Hra opět měla obrovský úspěch a výsledkem bylo bezkonkurenční 1. místo a postup do celostátní přehlídky. Tam jsme jeli za 14 dní a přivítání bylo ve staroslavné Kroměříži. Před vyprodaným hledištěm jsme opět dokázali, že v Rychvaldě dovedou hrát dobré divadlo a že Shakespeare byl v dobrých rukou. Z úspěchu v Kroměříži a z 1. místa byla opravdu veliká radost. Bylo zadostiučinění za všechny oběti, které byly hře věnovány. Druhý den po představení se konala beseda o inscenaci. Zúčastnili se jí představitelé Ústředního svazu ochotníků z Prahy, vedoucí představitelé tehdejšího profesionálního Vesnického divadla, zástupci všech soutěžících souborů a všichni rychvaldští. Bohatá, kritická beseda přísně zhodnotila pojetí hry, výpravu, kostýmy a také nedostatky. Vysoce hodnoceni byli představitelé hlavních rolí. Při závěrečném hodnocení celé přehlídky byla jako nejlepší herečka oceněna Sylva Kravalová—Bielasová za roli Violy. Zaslouženě.
 
-Zajímavé bylo v pořadí 14. představení. Hrálo se pro ústřední komisi, která měla s konečnou platností rozhodnout, zda se rychvaldští zúčastní „Jiráskova Hronova“, či ne. Představení probíhalo v přátelské atmosféře, bez diváků, maskování, nalíčení herci seděli a pozorovali hru z hlediště. Když měl přijít jejich výstup, odebrali se do zákulisí a nastoupili na jeviště. Komise hru doporučila. Přesto se do Hronova nejelo. Ten rok byl totiž vyhrazen pouze Jiráskovým hrám. Rychvald tam měl přesto zastoupení. Zastupovala ho Sylva Kravalová—Bielasová.
+Zajímavé bylo v pořadí 14. představení. Hrálo se pro ústřední komisi, která měla s konečnou platností rozhodnout, zda se rychvaldští zúčastní „Jiráskova Hronova“, či ne. Představení probíhalo v přátelské atmosféře, bez diváků, maskovaní, nalíčení herci seděli a pozorovali hru z hlediště. Když měl přijít jejich výstup, odebrali se do zákulisí a nastoupili na jeviště. Komise hru doporučila. Přesto se do Hronova nejelo. Ten rok byl totiž vyhrazen pouze Jiráskovým hrám. Rychvald tam měl přesto zastoupení. Zastupovala ho Sylva Kravalová—Bielasová.
 
 Jak zakončit bylo jednomyslně rozhodnuto. Tam, kde začalo. V sále u Mžiků. Představení, s trochou nostalgie, přesto však s radostí, že dobrá věc se opravdu podařila, i když někteří v to nevěřili. Dlouho trvající potlesk Rychvaldanů byl tou nejlepší odměnou, při které se zapomnělo i na nesplněnou touhu — Hronov. Ochotníkům se ani z jeviště nechtělo, a také diváci se k odchodu neměli. Ale i Shakespeare musel jednou v Rychvaldě skončit. A to se stalo tímto nezapomenutelným posledním představením.
 
@@ -61,12 +61,13 @@ Těmito incenacemi ochotnická činnost v Rychvaldě skončila. Mnoho příznivc
 > kdy Shakespeare navštívil Rychvald.  
 > věnuje Bořivoj Peška
 
-Stav rukopisné vrstvy: `machine_unverified`.
+Stav rukopisné vrstvy: `visually_verified`.
 
 ## Poznámky ke spolehlivosti
 
 - Text obou stran byl spojen v místě fyzicky rozděleného slova `roz- / pustilé`.
 - Tištěný článek, fotografický popisek a ruční věnování jsou vedeny odděleně.
+- Druhá řádková kontrola dne 2026-07-21 opravila `Třasořítka` na tištěné `Třasořitka` a `maskování` na tištěné `maskovaní`.
 - Přepis zachovává dobové zkratky `ONV`, `MNV`, `MěNV`, `DZN`, `KOBR` a tištěné podoby jmen.
 - Věta `Intrikánský podlého Malvolia...` obsahuje už v předloze zjevnou syntaktickou mezeru; chybějící výraz nebyl rekonstruován.
 - Článek tiskne podobu role `Ofélie`, ačkoli program Večera tříkrálového uvádí `Olivie`. Text nebyl potichu opraven.

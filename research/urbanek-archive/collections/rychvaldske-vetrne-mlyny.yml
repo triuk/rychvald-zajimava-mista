@@ -189,10 +189,18 @@ items:
       konstrukci vidět velké poškozené nebo neúplné větrné kolo.
     subject_tags: [wooden_building, wind_wheel, trees, damaged_rotor]
     identification:
-      status: unverified
-      candidate_name: mlýn na Podlesí
-      candidate_basis: original_filename
-      note: Název a lokalizace vycházejí pouze z názvu souboru.
+      status: verified
+      verified_name: větrný mlýnek s turbínou
+      archival_name: mlýn na Podlesí
+      verified_location: "U Školky 344, 735 32 Rychvald"
+      coordinates: [49.8516111, 18.3718333]
+      basis: [exact_visual_match_with_povetrnik_record, user_confirmation]
+      external_catalog:
+        database: Povětrník
+        record_id: 229
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/229
+      duplicate_thumbnail_name: P1010269.JPG
+      verification: research/urbanek-archive/verifications/urb-u-0003-0006-podlesi-povetrnik-229.md
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -280,6 +288,5 @@ items:
       scene_text: not_detected
 
 open_questions:
-  - Ověřit lokalizaci a název objektu označeného souborem mlýn na podlesí.JPG.
   - Ověřit, zda historický obraz urbanek-mlyny-011 a 012 skutečně zachycuje Kakalův mlýn.
   - Určit konkrétní mlýn, místo a období na historické fotografii urbanek-mlyny-010.

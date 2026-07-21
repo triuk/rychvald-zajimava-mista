@@ -31,16 +31,16 @@ Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 
 ## Chybějící plné originály
 
-Audity `Thumbs.db` prokázaly **12 chybějících plných originálů**. Příslušné samostatné soubory v repozitáři nejsou; zachovány jsou pouze jejich náhledy v cache:
+Audity `Thumbs.db` prokázaly **11 chybějících plných originálů**. Příslušné samostatné soubory v repozitáři nejsou; zachovány jsou pouze jejich náhledy v cache:
 
 | Kolekce | Počet chybějících plných originálů | Poznámka |
 |---|---:|---|
-| Rychvaldské větrné mlýny | 1 | `P1010269.JPG` |
+| Rychvaldské větrné mlýny | 0 | `P1010269.JPG` je duplicitní náhled dochovaného souboru |
 | Články z Českého slova | 8 | historické názvy a náhledy jsou v samostatném reportu |
 | Ochotníci rychvald | 2 | `img387.jpg` a stránka `ochotnicke divadlo 2xxx.jpg` |
 | fotodokument/den po dešti | 1 | `P1020841.JPG` |
 | Nálet na Ostravu 1944 | 0 | čtyři další názvy jsou pouze alternativními verzemi dochovaných snímků |
-| **Celkem** | **12** | náhledy nejsou náhradou plných originálů |
+| **Celkem** | **11** | náhledy nejsou náhradou plných originálů |
 
 Absence samostatného plného souboru je evidenční výsledek, nikoli otevřená otázka. Samostatně mohou zůstat otevřené pouze otázky identifikace, datace, lokalizace nebo interpretace zachovaného náhledu.
 
@@ -69,9 +69,9 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 18;
+- `open`: 16;
 - `deferred`: 0;
-- `resolved`: 16;
+- `resolved`: 18;
 - `not_actionable`: 1;
 - celkem: 35.
 
@@ -85,7 +85,7 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 
 Pilotní větev má kompletní evidovanou souborovou sadu. Zbývají tyto věcné výhrady:
 
-1. dvanáct plných originálů chybí; v `Thumbs.db` jsou zachovány pouze jejich náhledy;
+1. jedenáct plných originálů chybí; v `Thumbs.db` jsou zachovány pouze jejich náhledy;
 2. otevřené historické, identifikační a fyzické lakuny jsou vedeny v aktuálním registru;
 3. názvy složek a souborů nejsou samy o sobě považovány za nezávislý historický důkaz;
 4. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen;

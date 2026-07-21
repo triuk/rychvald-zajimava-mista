@@ -49,9 +49,9 @@ Souhrnný report:
 
 ## Chybějící plné originály
 
-Audity technických cache prokázaly **12 chybějících plných originálů**. V repozitáři nejsou jako samostatné soubory; zachovány jsou pouze jejich náhledy v `Thumbs.db`:
+Audity technických cache prokázaly **11 chybějících plných originálů**. V repozitáři nejsou jako samostatné soubory; zachovány jsou pouze jejich náhledy v `Thumbs.db`:
 
-- 1 v kolekci Rychvaldské větrné mlýny;
+- 0 v kolekci Rychvaldské větrné mlýny;
 - 8 v kolekci Články z Českého slova;
 - 2 v kolekci Ochotníci rychvald;
 - 1 v kolekci `den po dešti`;
@@ -97,9 +97,9 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 18;
+- `open`: 16;
 - `deferred`: 0;
-- `resolved`: 16;
+- `resolved`: 18;
 - `not_actionable`: 1;
 - celkem: 35.
 

@@ -43,7 +43,7 @@ pilot_totals:
   technical_files_repo_verified: 15
   total_items_repo_present: 159
   repo_missing_items: 0
-  missing_full_original_images_known_only_from_thumbnail_caches: 12
+  missing_full_original_images_known_only_from_thumbnail_caches: 11
 
 phases:
   import: completed
@@ -79,7 +79,7 @@ pilot_collections:
     technical_files: 8
     repo_verified_items: 39
     repo_missing_items: 0
-    missing_full_original_images_known_only_from_cache: 1
+    missing_full_original_images_known_only_from_cache: 0
     reports:
       - research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
 
@@ -146,7 +146,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 18, in_progress: 0, deferred: 0, resolved: 16, not_actionable: 1, total: 35}
+  summary: {open: 16, in_progress: 0, deferred: 0, resolved: 18, not_actionable: 1, total: 35}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -166,7 +166,7 @@ readiness:
   reconciliation_report: research/urbanek-archive/reports/pilot-reconciliation.md
   blockers_for_draft_pr: []
   known_non_blocking_issues:
-    - twelve full original images are missing; only thumbnails remain in caches
+    - eleven full original images are missing; only thumbnails remain in caches
     - open factual conflicts and physical lacunae remain registered
 
 next_action:

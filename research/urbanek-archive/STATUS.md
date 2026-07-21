@@ -20,7 +20,17 @@ Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncer
 | fotodokument/den po dešti | technický audit a vizuální klasifikace dokončeny |
 | Nálet na Ostravu 1944 | technický audit a vizuální klasifikace dokončeny |
 | Reconciliace pilotu | dokončena |
-| Draft pull request | připraven k vytvoření |
+| Draft pull request | **otevřen jako PR #1** |
+
+## Draft pull request
+
+- PR: [#1 – Import and classify Jaromír Urbánek archive pilot](https://github.com/triuk/rychvald-zajimava-mista/pull/1)
+- Stav: otevřený draft
+- Base: `main`
+- Head: `agent/import-urbanek-pilot`
+- Sloučení nebylo vyžádáno.
+
+PR slouží ke kontrole rozsahu pilotu, struktury metadat, OCR výstupů, auditů cache a evidence nejistot.
 
 ## Celkové součty
 
@@ -98,16 +108,10 @@ Nové položky:
 - `URB-U-0034` — plný originál `P1020841.JPG` známý pouze z cache;
 - `URB-U-0035` — chybějící technický `Thumbs.db` kolekce Nálet na Ostravu 1944.
 
-## Připravenost
+## Aktuální krok
 
 Stav pilotu:
 
-`ready_for_draft_pr_with_known_deferred_technical_files`
+`draft_pr_open_with_known_deferred_technical_files`
 
-Draft PR může být vytvořen proti `main`. Musí uvést:
-
-1. kompletních 144 obsahových souborů;
-2. devět chybějících technických cache;
-3. dvanáct obrazů známých pouze z náhledů;
-4. otevřené historické a identifikační nejistoty;
-5. skutečnost, že žádná otevřená nejistota není vydávána za ověřený fakt.
+Další práce má probíhat kontrolou draft PR #1. PR nemá být označen jako připravený ani sloučen, dokud nebude přijat rozsah pilotu a způsob zacházení s chybějícími technickými cache.

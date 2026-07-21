@@ -30,10 +30,18 @@ items:
       basis: identical_exif_time_and_visual_content
       note: Soubory nejsou binárně totožné; položka 004 je menší a oříznutá nebo jinak upravená verze.
     identification:
-      status: unverified
-      candidate_name: větrný mlýn u Hebdy
-      candidate_basis: folder_name
-      note: Název zařízení nebo vlastníka nebyl nezávisle ověřen.
+      status: partially_verified
+      verified_name: větrný mlýn u Hebdy
+      functional_relation: confirmed_same_device_as_wind_wheel
+      candidate_location: "Polní 1275, 735 32 Rychvald"
+      coordinates: [49.8686525, 18.393563055556]
+      location_status: partially_verified
+      basis:
+        - user_confirmation
+        - archival_folder_name
+        - public_address_and_registry_records
+      note: Přímá veřejná fotografie zařízení na kandidátní adrese nebyla nalezena.
+      verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -54,10 +62,18 @@ items:
       basis: identical_exif_time_and_visual_content
       note: Soubory nejsou binárně totožné; položka 005 je menší a oříznutá nebo jinak upravená verze.
     identification:
-      status: unverified
-      candidate_name: větrný mlýn u Hebdy
-      candidate_basis: folder_name
-      note: Název zařízení nebo vlastníka nebyl nezávisle ověřen.
+      status: partially_verified
+      verified_name: větrný mlýn u Hebdy
+      functional_relation: confirmed_same_device_as_wind_wheel
+      candidate_location: "Polní 1275, 735 32 Rychvald"
+      coordinates: [49.8686525, 18.393563055556]
+      location_status: partially_verified
+      basis:
+        - user_confirmation
+        - archival_folder_name
+        - public_address_and_registry_records
+      note: Přímá veřejná fotografie zařízení na kandidátní adrese nebyla nalezena.
+      verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -78,10 +94,18 @@ items:
       basis: identical_exif_time_and_visual_content
       note: Soubory nejsou binárně totožné; položka 006 je menší a oříznutá nebo jinak upravená verze.
     identification:
-      status: unverified
-      candidate_name: větrný mlýn u Hebdy
-      candidate_basis: folder_name
-      note: Název zařízení nebo vlastníka nebyl nezávisle ověřen.
+      status: partially_verified
+      verified_name: větrný mlýn u Hebdy
+      functional_relation: confirmed_same_device_as_millstone_mechanism
+      candidate_location: "Polní 1275, 735 32 Rychvald"
+      coordinates: [49.8686525, 18.393563055556]
+      location_status: partially_verified
+      basis:
+        - user_confirmation
+        - archival_folder_name
+        - public_address_and_registry_records
+      note: Přímá veřejná fotografie zařízení na kandidátní adrese nebyla nalezena.
+      verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
     ocr:
       document_text: not_applicable
       scene_text: not_detected
@@ -148,6 +172,7 @@ items:
 
 findings:
   - Položky 013–015 jsou pravděpodobné zdrojové verze s vyšším rozlišením pro upravené kořenové položky 004–006.
-  - Název složky větrný mlýn u hebdy je zatím pouze archivní popisek a musí být ověřen v dalších pramenech.
+  - Uživatel potvrdil název větrný mlýn u Hebdy a funkční spojení větrného kola s mlecím soustrojím.
+  - Kandidátní poloha Polní 1275 je částečně ověřena veřejnými adresními daty a vazbou na Lumíra Hebdu; přímý obrazový důkaz chybí.
   - Položka 018 je kandidát na chybné zařazení; nepřesouvat ji bez dalšího dokladu.
   - Položky 021 a 022 se ponechávají na původních místech navzdory přesným duplicitám.

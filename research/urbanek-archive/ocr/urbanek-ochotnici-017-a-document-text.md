@@ -4,13 +4,13 @@
 - Soubor: `Ochotníci rychvald/img203.jpg`
 - Fyzická strana: `40`, levá horní část
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: samostatný úplný článek nebo vzpomínkový text
 - Autor: na zachycené straně neuveden
 
 ## Nadpis
 
-# Založení tělocvičné jednoty „Sokol“ v Rychvaldě
+# Založení tělocvičné jednoty „Sokol“ v Rychvaldě.
 
 ## Přepis
 
@@ -35,7 +35,7 @@ Vzpomínáme a nezapomeneme.
 ## Poznámky ke spolehlivosti
 
 - Text má na zachycené straně vlastní nadpis, souvislý začátek a zřetelný závěr; je proto veden jako samostatný úplný text, nikoli jako pouhý fragment předchozího článku.
+- Druhá řádková kontrola dne 2026-07-21 potvrdila celý text a doplnila pouze závěrečnou tečku vytištěného nadpisu.
 - Přepis zachovává dobové tvary `zříditi`, `míti`, `tenkráte`, `veškeří` a původní interpunkci v rozsahu čitelnosti.
-- Výraz `bezperáctva` je přepsán podle tisku; jeho přesná jazyková podoba má být při druhé vizuální kontrole znovu ověřena.
-- Spojení `vykoupal v kyselce a Labi` je neobvyklé, ale odpovídá viditelnému textu; nebylo významově opravováno.
+- Výraz `bezperáctva` i spojení `vykoupal v kyselce a Labi` byly potvrzeny jako tištěné podoby a nebyly významově opravovány.
 - Jména `Muroň`, `Kielar`, `Vondrovič` a historická tvrzení nebyla tímto OCR nezávisle ověřena.

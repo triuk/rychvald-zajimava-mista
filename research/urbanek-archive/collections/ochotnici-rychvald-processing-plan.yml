@@ -1,0 +1,139 @@
+collection_id: urbanek-ochotnici
+status: ready_for_text_processing
+classification_complete: true
+inventory_items: 63
+classified_images: 60
+classified_documents: 1
+audited_technical_caches: 2
+principles:
+  - Prefer native text extraction over OCR when an original editable document exists.
+  - Use the most complete image as the primary OCR source and alternate captures only for verification.
+  - Split composite pages by physical article boundaries.
+  - Preserve printed spelling and mark unreadable text instead of reconstructing it.
+  - Do not repeat full OCR from exhibition-panel overviews when individual source images exist.
+  - Keep archival filename labels separate from independently verified identities.
+
+processing_order:
+  - priority: 1
+    group_id: exhibition-source-text-2014
+    method: native_document_extraction
+    primary_items: [urbanek-ochotnici-061]
+    output_unit: one_markdown_file
+    purpose: >-
+      Extract the born-digital overview text with correct Czech encoding. Use it as a
+      guide to the exhibition context, not as an automatically verified historical source.
+
+  - priority: 2
+    group_id: short-structured-documents
+    method: document_ocr
+    primary_items:
+      - urbanek-ochotnici-033
+      - urbanek-ochotnici-032
+      - urbanek-ochotnici-013
+      - urbanek-ochotnici-023
+      - urbanek-ochotnici-039
+      - urbanek-ochotnici-042
+      - urbanek-ochotnici-047
+    subgroups:
+      - {id: vecer-trikralovy-program, ordered_items: [urbanek-ochotnici-033, urbanek-ochotnici-032]}
+      - {id: kromeriz-competition-program, ordered_items: [urbanek-ochotnici-013]}
+      - {id: sylvie-kravalova-honour, ordered_items: [urbanek-ochotnici-023, urbanek-ochotnici-047]}
+      - {id: posledni-noc-v-roce-program, ordered_items: [urbanek-ochotnici-039]}
+      - {id: slavnost-lampionu-program, ordered_items: [urbanek-ochotnici-042]}
+    purpose: Establish reliable titles, dates, roles, cast lists and production credits.
+
+  - priority: 3
+    group_id: kromeriz-celostatni-prehlidka
+    method: article_ocr_split_by_layout
+    primary_items:
+      - urbanek-ochotnici-001
+      - urbanek-ochotnici-004
+      - urbanek-ochotnici-010
+      - urbanek-ochotnici-011
+      - urbanek-ochotnici-012
+      - urbanek-ochotnici-014
+      - urbanek-ochotnici-027
+    supplementary_items: [urbanek-ochotnici-009]
+    related_documents: [urbanek-ochotnici-013, urbanek-ochotnici-023, urbanek-ochotnici-047]
+    purpose: Transcribe contemporary press coverage while keeping separate articles and captions distinct.
+
+  - priority: 4
+    group_id: tesinsko-article-borivoj-peska
+    method: joint_multi_page_ocr
+    ordered_items: [urbanek-ochotnici-028, urbanek-ochotnici-019]
+    status: direct_page_continuation_confirmed
+    purpose: Produce one continuous article transcript plus a separate layer for handwritten dedication.
+
+  - priority: 5
+    group_id: historical-book-pages-40-45
+    method: multi_page_ocr_split_by_article
+    ordered_items: [urbanek-ochotnici-017, urbanek-ochotnici-016, urbanek-ochotnici-015]
+    purpose: >-
+      Separate the ending Sokol fragment, Bohdan Horák's continuing article and the
+      later articles beginning on pages 44–45.
+
+  - priority: 6
+    group_id: rychvald-divadelni-kronika-pages-260-262
+    method: handwritten_chronicle_ocr
+    ordered_primary_items: [urbanek-ochotnici-008, urbanek-ochotnici-007, urbanek-ochotnici-006]
+    supplementary_items: [urbanek-ochotnici-005]
+    purpose: Transcribe pages 260–262 in order and use the alternate page-262 image only for verification.
+
+  - priority: 7
+    group_id: miroslav-neborak-activity-record
+    method: handwritten_structured_ocr
+    primary_items: [urbanek-ochotnici-003]
+    purpose: Preserve the original table structure, play titles, roles, counts and summary figures.
+
+  - priority: 8
+    group_id: selective-scene-text
+    method: scene_text_ocr
+    primary_items: [urbanek-ochotnici-018]
+    selective_overviews: [urbanek-ochotnici-002, urbanek-ochotnici-021]
+    purpose: >-
+      Transcribe the historical group-photo board, date and studio imprint. From
+      exhibition panels retain only headings or labels needed to document grouping.
+
+excluded_from_standard_ocr:
+  technical_items: [urbanek-ochotnici-031, urbanek-ochotnici-036]
+  stage_or_group_photographs_without_visible_text:
+    - urbanek-ochotnici-020
+    - urbanek-ochotnici-022
+    - urbanek-ochotnici-024
+    - urbanek-ochotnici-025
+    - urbanek-ochotnici-026
+    - urbanek-ochotnici-029
+    - urbanek-ochotnici-030
+    - urbanek-ochotnici-034
+    - urbanek-ochotnici-035
+    - urbanek-ochotnici-037
+    - urbanek-ochotnici-038
+    - urbanek-ochotnici-040
+    - urbanek-ochotnici-041
+    - urbanek-ochotnici-043
+    - urbanek-ochotnici-044
+    - urbanek-ochotnici-045
+    - urbanek-ochotnici-046
+    - urbanek-ochotnici-048
+    - urbanek-ochotnici-049
+    - urbanek-ochotnici-050
+    - urbanek-ochotnici-051
+    - urbanek-ochotnici-052
+    - urbanek-ochotnici-053
+    - urbanek-ochotnici-054
+    - urbanek-ochotnici-055
+    - urbanek-ochotnici-056
+    - urbanek-ochotnici-057
+    - urbanek-ochotnici-058
+    - urbanek-ochotnici-059
+    - urbanek-ochotnici-060
+    - urbanek-ochotnici-062
+    - urbanek-ochotnici-063
+
+next_action:
+  type: native_text_extraction
+  item_id: urbanek-ochotnici-061
+  instruction: >-
+    Convert the original DOC through LibreOffice or another Word-compatible parser,
+    extract the text with correct Czech encoding, preserve original wording and
+    punctuation, and store it as a source transcript marked native_extracted_unverified.

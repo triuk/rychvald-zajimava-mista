@@ -22,15 +22,16 @@ checkpoints:
   ochotnici_inventory_commit: df993af216ea5f87ef6adff4dfaca3a8dc146d14
   ochotnici_classification_completed_commit: baddbef168e3543d01edcea0c30d6385570f3bc2
   ochotnici_processing_plan_commit: b1b6b0644fc9ef9565b0f35986aeff98c9874769
-  ochotnici_chronicle_commit: d284b2347be543e35afb739788c1a937ea2debed
-  ochotnici_neborak_table_last_commit: e896e0ab153ec5f4b7c7c34931146e4ad910d437
+  ochotnici_chronicle_commit: acbb4c46a25916a0621943f74070c62ff81098c1
+  ochotnici_neborak_table_last_commit: 5beb75cd89f3502444858ec28be19f2a29eb29a3
   ochotnici_group_photo_scene_commit: c7f8828b1a2193078b2b8d78c1a4f1a2e60ff157
   ochotnici_exhibition_scene_commit: b73e64a0c6db8dd2904d5c26af57144dcc7b0bf6
   canonical_horak_cleanup_commit: 950e8901d71a7ae517588a5e5fd50d25e3feae91
   ochotnici_visual_review_01_commit: 06a65c4eccbdfd0718641dbbba2878e76f914ca5
   ochotnici_visual_review_02_commit: 6be74cb2bb6da5517dc86efdfd87db8cf7d763b9
   ochotnici_visual_review_03_commit: c2055c92102e16e7ddd8cf767355cf821760a3bd
-  uncertainty_registry_commit: 5865703988d8c67165d0dfd72c6c359c7aaec0c6
+  ochotnici_visual_review_04_commit: 1c22b7f438c365e072928f9128170116924a3f75
+  uncertainty_registry_commit: 4475836e25280fc08711956d74b6824999a61dad
 
 ocr:
   czech_word_first_pass: completed
@@ -75,9 +76,17 @@ ocr:
     - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-03.yml
       status: completed
       items: [urbanek-ochotnici-019, urbanek-ochotnici-028, urbanek-ochotnici-015, urbanek-ochotnici-016, urbanek-ochotnici-017, urbanek-ochotnici-061]
-  second_visual_review_completed_source_items: 21
+    - file: research/urbanek-archive/collections/ochotnici-rychvald-visual-review-04.yml
+      status: completed
+      items: [urbanek-ochotnici-003, urbanek-ochotnici-005, urbanek-ochotnici-006, urbanek-ochotnici-007, urbanek-ochotnici-008]
+  second_visual_review_completed_source_items: 26
   visually_verified_items:
     - urbanek-ochotnici-001
+    - urbanek-ochotnici-003
+    - urbanek-ochotnici-005
+    - urbanek-ochotnici-006
+    - urbanek-ochotnici-007
+    - urbanek-ochotnici-008
     - urbanek-ochotnici-010
     - urbanek-ochotnici-011
     - urbanek-ochotnici-012
@@ -97,13 +106,15 @@ ocr:
     - urbanek-ochotnici-061
   visually_verified_with_lacuna_items: [urbanek-ochotnici-004]
   mixed_review_source_items: [urbanek-ochotnici-015]
+  visually_verified_with_open_metadata_conflict_items: [urbanek-ochotnici-003]
   preserve_printed_spelling: true
   infer_missing_text: false
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties.yml
-  summary: {open: 23, in_progress: 0, deferred: 3, resolved: 5, not_actionable: 1, total: 32}
-  ochotnici_open_ids: [URB-U-0024, URB-U-0025, URB-U-0026, URB-U-0027, URB-U-0028, URB-U-0029, URB-U-0030, URB-U-0031, URB-U-0032]
+  summary: {open: 22, in_progress: 0, deferred: 3, resolved: 6, not_actionable: 1, total: 32}
+  ochotnici_open_ids: [URB-U-0024, URB-U-0025, URB-U-0026, URB-U-0027, URB-U-0028, URB-U-0029, URB-U-0031, URB-U-0032]
+  newly_resolved: URB-U-0030
 
 phases:
   import: completed_with_missing_technical_files
@@ -126,20 +137,19 @@ pilot_collections:
     repo_verified_items: 62
     repo_missing_items: 1
     processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
-    second_visual_review_completed_source_items: 21
+    second_visual_review_completed_source_items: 26
   - {name: fotodokument/den po dešti, status: pending}
   - {name: Nálet na Ostravu 1944, status: pending}
 
 next_action:
   type: second_visual_review_batch
   collection: Ochotníci rychvald
-  items: [urbanek-ochotnici-005, urbanek-ochotnici-006, urbanek-ochotnici-007, urbanek-ochotnici-008, urbanek-ochotnici-003]
+  items: [urbanek-ochotnici-018, urbanek-ochotnici-002, urbanek-ochotnici-021]
   outputs:
-    - research/urbanek-archive/ocr/urbanek-ochotnici-006-007-008-document-text.md
-    - research/urbanek-archive/ocr/urbanek-ochotnici-003-a-document-text.md
-    - research/urbanek-archive/ocr/urbanek-ochotnici-003-b-document-text.md
+    - research/urbanek-archive/ocr/urbanek-ochotnici-018-scene-text.md
+    - research/urbanek-archive/ocr/urbanek-ochotnici-002-021-scene-text.md
   instruction: >-
-    Perform enlarged second review of the handwritten chronicle pages 260-262 and
-    both parts of Miroslav Neborak's handwritten activity table. Resolve only forms
-    supported by the handwriting or corroborating archive documents; keep the date
-    conflict and genuinely unreadable entries open.
+    Verify the selective scene text on the 1923 group photograph and both exhibition
+    panel overviews. Do not duplicate OCR of embedded documents that already have
+    higher-quality individual sources. Then reconcile the collection and decide
+    whether the second visual review is complete.

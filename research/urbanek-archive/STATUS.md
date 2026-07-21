@@ -1,89 +1,51 @@
 # Stav zpracování archivu Jaromíra Urbánka
 
-## Autoritativní kontext
+## Kontext
 
 - Repozitář: `triuk/rychvald-zajimava-mista`
 - Větev: `agent/import-urbanek-pilot`
-- Zdrojový adresář: `sources/osobni-archiv-jaromira-urbanka/`
+- Zdroj: `sources/osobni-archiv-jaromira-urbanka/`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Originály se nepřejmenovávají, nepřesouvají ani neupravují.
 
-Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a plán zpracování příslušné kolekce.
+Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties.yml` a plán příslušné kolekce.
 
-## Stav etap
+## Etapy
 
-| Etapa | Stav |
+| Kolekce / etapa | Stav |
 |---|---|
 | Import originálů | dokončen s chybějícími technickými cache |
-| Technický audit a inventář | probíhá po kolekcích |
 | Rychvaldské větrné mlýny | klasifikace a první OCR dokončeny |
 | Články z Českého slova | první OCR i druhá vizuální kontrola dokončeny |
-| Ochotníci rychvald | inventář, audit a klasifikace dokončeny; zpracování textu probíhá |
-| Ostatní dvě pilotní kolekce | čekají |
+| Ochotníci rychvald | audit a klasifikace dokončeny; první OCR probíhá |
+| fotodokument/den po dešti | čeká |
+| Nálet na Ostravu 1944 | čeká |
 | Pull request | čeká |
 
-## Registr nejistot
+## Ochotníci rychvald
 
-Soubor: `research/urbanek-archive/uncertainties.yml`
-
-- `open`: 17
-- `in_progress`: 0
-- `deferred`: 3
-- `resolved`: 5
-- `not_actionable`: 1
-- celkem: 26
-
-Nejistoty kolekce Ochotníci:
-
-- `URB-U-0024`: případné doplnění chybějícího `Thumbs.db` do pilotní větve.
-- `URB-U-0025`: hledání plných originálů `img387.jpg` a `ochotnicke divadlo 2xxx.jpg`, známých pouze z cache.
-- `URB-U-0026`: rozpor v obsazení Fabiana — program a fotografie `025` uvádějí Radomíra Jurdina, název fotografie `051` uvádí Václava Válka. Rozpor se nesmí rozhodnout podle tváře.
-
-## Články z Českého slova – uzavřený výsledek
-
-- 37 obrazových položek bylo ověřeno, seskupeno a přepsáno.
-- Druhou kontrolou prošlo všech 56 textových a scénických jednotek.
-- Chybějící text nebyl nikde rekonstruován odhadem.
-
-## Ochotníci rychvald – audit a klasifikace
-
-- 63 položek na Drivu: 60 JPEG, 1 DOC a 2 technické cache.
-- 62 položek je ve větvi pod přesnou původní cestou; chybí pouze `Thumbs.db`.
-- Cache potvrdila všech 60 současných JPEGů a dva další unikátní náhledy bez plných originálů.
+- Inventář: 63 položek — 60 JPEG, 1 DOC a 2 technické cache.
+- Ve větvi je 62 položek; chybí pouze `Thumbs.db`.
 - Všech 63 položek bylo klasifikováno nebo technicky auditováno.
-- Klasifikace: `research/urbanek-archive/collections/ochotnici-rychvald-classification-01.yml` až `06.yml`.
-- Plán zpracování: `research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml`.
+- Plán: `research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml`.
 
-## Dokončené textové výstupy Ochotníků
+### Dokončené textové výstupy
 
-### Nativní extrakce
+- Nativní extrakce: `061`.
+- První OCR: `001`, `004`, `010`, `011`, `012`, `013`, `014`, `023`, `032–033`, `039`, `042`, `047`.
+- Položka `009` je pouze kontrolní detail k `010` a nebude mít duplicitní přepis.
 
-- `urbanek-ochotnici-061` — `112 let ochotnických souborů v Rychvaldu`.
-  - Výstup: `research/urbanek-archive/ocr/urbanek-ochotnici-061-document-text.md`
-  - Stav: `native_extracted_unverified`
+### Otevřené nejistoty kolekce
 
-### První průchod OCR
+- `URB-U-0024`: chybějící `Thumbs.db` ve větvi.
+- `URB-U-0025`: plné originály dvou obrazů známých jen z cache.
+- `URB-U-0026`: rozpor v obsazení Fabiana.
+- `URB-U-0027`: rozdílné počty účastníků soutěže (`3915` a přibližně `3960`).
 
-- `032–033` — titulní strana a obsazení programu `Večer tříkrálový`.
-- `013` — program Celostátní soutěže vesnických divadelních souborů, 13.–19. května 1960.
-- `023` — čestné uznání Sylvii Kravalové.
-- `039` — program `Poslední noc v roce`.
-- `042` — program `Slavnost lampiónů`.
-- `047` — úřední dopis o věcné ceně 500 Kčs Sylvii Kravalové.
-- `001` — úplný článek Petra Grimma `Vesničtí ochotníci ve finále`.
+Centrální registr nyní obsahuje 18 otevřených, 3 odložené, 5 vyřešených a 1 neakční položku; celkem 27.
 
-Všechny obrazové přepisy mají zatím stav `machine_unverified`. U článku `001` nebyl k fotografii doplněn popisek, protože na stránce žádný viditelný samostatný popisek není.
+## Následující krok
 
-## Následující přesný krok
-
-Přepsat `urbanek-ochotnici-004`, článek **„Thálie držela palce“**, včetně všech viditelných fotografických popisků vedených jako samostatné bloky.
-
-Poté zpracovat primární zdroj `urbanek-ochotnici-010`, článek **„Katka, Angelika a Viola v Kroměříži“**; položku `009` použít jen jako kontrolní detail stejné stránky.
-
-## Instrukce pro nový chat
-
-1. Načíst autoritativní soubory a processing plan.
-2. Ověřit aktuální hlavu větve.
-3. Neměnit originály.
-4. Pokračovat OCR položkou `004`.
-5. Každý samostatný dokument commitnout zvlášť a novou podstatnou nejistotu zapsat do registru.
+1. Přepsat `urbanek-ochotnici-027`, výstřižek **„Jaké jsou naše vesnické soubory?“**.
+2. Poté zpracovat `028` a `019` jako jeden přímo navazující článek z časopisu Těšínsko.
+3. Ruční věnování na `028` vést jako samostatnou textovou vrstvu.

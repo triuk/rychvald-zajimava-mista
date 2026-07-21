@@ -24,14 +24,14 @@ Používej stavy `verified`, `partially_verified`, `conflicting`, `uncertain` a 
 
 ## Registr nejistot
 
-- Autoritativní registr je `research/urbanek-archive/uncertainties.yml`.
+- Autoritativní index registru je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech.
 - Každá podstatná nejistota dostane stabilní ID `URB-U-XXXX`.
 - Eviduj zdrojovou položku, typ, stav, prioritu, přesnou otázku, doklady a následující krok.
 - Podrobná poznámka může zůstat v OCR nebo klasifikačním souboru, ale musí být dohledatelná z registru.
 - Vyřešený záznam nemaž; změň stav na `resolved` a doplň výsledek, doklad, datum a způsob ověření.
 - Stavy registru jsou `open`, `in_progress`, `blocked`, `deferred`, `resolved` a `not_actionable`.
 - Tvrzení navázané na otevřenou nebo odloženou nejistotu nesmí být prezentováno jako `verified`.
-- Při předání práce načti registr spolu se `STATUS.md` a `state.yml`.
+- Při předání práce načti index i všechny odkazované shard soubory spolu se `STATUS.md` a `state.yml`.
 
 ## Dokumenty a inventáře
 

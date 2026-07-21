@@ -3,22 +3,23 @@
 - Zdroj: `urbanek-ochotnici-047`
 - Soubor: `Ochotníci rychvald/ocenění.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný úřední dopis
 - Odesílatel: Ústřední dům lidové tvořivosti
 - Datum: `23. června 1960`
 - Číslo jednací: `9272/60-sl.`
+- Druhá vizuální kontrola: `2026-07-21`
 
 ## Přepis
 
 # ÚSTŘEDNÍ DŮM LIDOVÉ TVOŘIVOSTI
 
-PRAHA 2 – NOVÉ MĚSTO, JUNGMANNOVA 15 – TELEFON 24 57 92, 24 69 62, 24 69 68
+PRAHA 2 - NOVÉ MĚSTO, JUNGMANNOVA 15 - TELEFON 24 57 92, 24 69 62, 24 69 68
 
 Č. j. `9272/60-sl.`  
 VYŘIZUJE: `Valenta`
 
-PRAHA dne `23. 6. 1960`
+PRAHA dne `23.6.1960`
 
 Soudružka  
 **S. Kravalová**
@@ -51,8 +52,9 @@ Příloha:
 
 ## Poznámky ke spolehlivosti
 
-- Strojopisný text je na snímku zachycen celý.
-- Číslo jednací je čitelné jako `9272/60-sl.`; poslední dvě písmena mají být při druhé vizuální kontrole znovu ověřena.
+- Celý strojopisný text byl podruhé porovnán se zdrojovým obrazem.
+- Číslo jednací bylo při zvětšení potvrzeno jako `9272/60-sl.`; dřívější kontrolní výhrada k posledním písmenům je uzavřena.
+- Datum je v předloze napsáno `23.6.1960`; mezery nebyly doplňovány.
 - Jméno `Jiří Valenta` je vytištěno pod rukopisným podpisem; podpis samotný nebyl samostatně interpretován.
-- Dopis uvádí předání v Náchodě při příležitosti XXX. Jiráskova Hronova; znění nebylo upravováno podle předpokládaného místa konání festivalu.
+- Dopis skutečně uvádí předání v Náchodě při příležitosti XXX. Jiráskova Hronova; znění nebylo upravováno podle předpokládaného místa konání festivalu.
 - Institucionální a historická tvrzení dopisu nejsou tímto OCR nezávisle ověřena.

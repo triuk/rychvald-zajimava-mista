@@ -3,9 +3,10 @@
 - Zdroj: `urbanek-ochotnici-042`
 - Soubor: `Ochotníci rychvald/Slavnost lampionu program.jpg`
 - Kategorie: `document_text`
-- Stav: `machine_unverified`
+- Stav: `visually_verified`
 - Druh: úplný jednostránkový divadelní program
 - Datum: `15. listopadu 1959`
+- Druhá vizuální kontrola: `2026-07-21`
 
 ## Přepis
 
@@ -49,7 +50,8 @@ Text sleduje **Dana Suderová**
 
 ## Poznámky ke spolehlivosti
 
-- Program je na snímku zachycen celý.
-- Jméno hudebního spolupracovníka je přepsáno jako `Bohumil Malocha` podle viditelného tisku.
-- Funkce `inspicient` byla zachována podle programu.
+- Celý program byl podruhé porovnán se zdrojovým obrazem a nebyla nalezena textová chyba prvního přepisu.
+- Jméno hudebního spolupracovníka je na programu skutečně vytištěno jako `Bohumil Malocha`.
+- Funkce `inspicient`, datum `15. XI. 1959`, místo děje a všech pět dvojic role–představitel byly vizuálně ověřeny.
+- Vizuální ověření podoby tisku není nezávislým ověřením historické správnosti údajů.
 - Jména v obsazení představují tištěné údaje, nikoli nezávislou identifikaci osob na fotografiích.

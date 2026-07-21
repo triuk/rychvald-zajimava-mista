@@ -18,7 +18,7 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 | Technický audit a inventář | probíhá po kolekcích |
 | Rychvaldské větrné mlýny | klasifikace a první OCR dokončeny |
 | Články z Českého slova | první OCR i druhá vizuální kontrola dokončeny |
-| Ochotníci rychvald | **inventář, ověření cest a audit cache dokončeny** |
+| Ochotníci rychvald | **inventář, audit a klasifikace dokončeny; zpracování textu zahájeno** |
 | Ostatní dvě pilotní kolekce | čekají |
 | Pull request | čeká |
 
@@ -26,17 +26,18 @@ Autoritativní předání mezi chaty tvoří `AGENTS.md`, tento soubor, `state.y
 
 Soubor: `research/urbanek-archive/uncertainties.yml`
 
-- `open`: 16
+- `open`: 17
 - `in_progress`: 0
 - `deferred`: 3
 - `resolved`: 5
 - `not_actionable`: 1
-- celkem: 25
+- celkem: 26
 
-Nově:
+Nejistoty kolekce Ochotníci:
 
 - `URB-U-0024`: případné doplnění chybějícího `Thumbs.db` do pilotní větve.
 - `URB-U-0025`: hledání plných originálů `img387.jpg` a `ochotnicke divadlo 2xxx.jpg`, známých pouze z cache.
+- `URB-U-0026`: program uvádí Fabiana jako Radomíra Jurdina, ale název fotografie `Fabiano - Václav Válek.jpg` uvádí Václava Válka. Rozpor se nesmí rozhodnout podle tváře na fotografii.
 
 ## Články z Českého slova – uzavřený výsledek
 
@@ -46,57 +47,71 @@ Nově:
 
 ## Ochotníci rychvald – technický audit
 
-Google Drive obsahuje **63 přímých položek** a žádné podsložky:
+- 63 položek na Drivu: 60 JPEG, 1 DOC a 2 technické cache.
+- 62 položek je ve větvi pod přesnou původní cestou; chybí pouze `Thumbs.db`.
+- Cache potvrdila všech 60 současných JPEGů a obsahuje dva další unikátní náhledy bez plných originálů.
+- Report: `research/urbanek-archive/reports/ochotnici-rychvald-thumbnail-cache.md`.
 
-- 60 souborů JPEG;
-- 1 původní dokument DOC (`112 let ochotnických souborů v.doc`);
-- 2 technické cache (`Thumbs.db` a `ZbThumbnail.info`).
+## Ochotníci rychvald – klasifikace
 
-Inventář:
+Všech **63 inventárních položek** bylo klasifikováno nebo technicky auditováno:
 
-`research/urbanek-archive/collections/ochotnici-rychvald-inventory.csv`
+- 60 obrazových souborů;
+- 1 původní dokument DOC;
+- 2 technické cache.
 
-Stabilní ID: `urbanek-ochotnici-001` až `urbanek-ochotnici-063`.
+Klasifikace je rozdělena do šesti souborů:
 
-### Ověření GitHub cest
+- `ochotnici-rychvald-classification-01.yml` až `ochotnici-rychvald-classification-06.yml`.
 
-- zkontrolováno všech **63** položek;
-- **62** souborů je přítomných pod přesným původním názvem a cestou;
-- chybí pouze technický `Thumbs.db` (`urbanek-ochotnici-036`);
-- všech 60 JPEGů, dokument DOC a `ZbThumbnail.info` jsou přítomné;
-- kontrolní blob SHA jsou rozděleny do sedmi souborů `ochotnici-rychvald-verification-01.yml` až `07.yml`.
+Souhrnný plán textového zpracování:
 
-### Audit `Thumbs.db`
+`research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml`
 
-Report:
+### Hlavní skupiny
 
-`research/urbanek-archive/reports/ochotnici-rychvald-thumbnail-cache.md`
+- celostátní přehlídka v Kroměříži roku 1960;
+- program, obsazení, ocenění a fotografie Večera tříkrálového;
+- programy Poslední noci v roce a Slavnosti lampiónů;
+- článek Bořivoje Pešky z časopisu Těšínsko, potvrzený jako dvě přímo navazující strany;
+- knižní dvoustrany 40–45 s pokračujícími a překrývajícími se články;
+- rukopisné kronikové strany 260–262;
+- rukopisný přehled činnosti Miroslava Neboráka;
+- historická fotografie divadelního kroužku z roku 1923;
+- jevištní fotografie, u nichž jsou jména a role vedeny jako archivní popisky, nikoli jako identifikace podle tváří.
 
-Výsledek:
+### Důležitá zjištění
 
-- SHA-256 cache: `61a49eda18010a9b66e9bf43a5f039d81cedb3ff8e44597306c75b1b54fa5ecd`;
-- 93 katalogových záznamů, z toho 92 názvů obrazů a jedna systémová koláž složky;
-- všech 60 současných JPEGů je v cache zastoupeno;
-- 29 starších názvů jsou přejmenování nebo meziverze současných souborů;
-- cache obsahuje dva další unikátní obrazy bez nalezeného plného originálu:
-  - `img387.jpg` – historická skupinová fotografie;
-  - `ochotnicke divadlo 2xxx.jpg` / `ochotnicke divadlo 2xxxaa.jpg` – reprodukce tištěné stránky s fotografií a textem.
+- `P1020771.JPG` je primární úplnější záběr kronikové strany 262; `P1020772.JPG` je kontrolní detail.
+- `P1020599.JPG` je primární záběr článku „Katka, Angelika a Viola v Kroměříži“; `P1020600.JPG` je detail.
+- `Článek v čas. Těšínsko I.jpg` a `Článek v čas. Těšínsko.jpg` tvoří jeden dvoustránkový článek.
+- `img356.jpg` je samostatná reprodukce stejné fotografie, která je vložena na kronikové straně 261 a označena popiskem `Bohuš Koci`.
+- Výstavní panely se nebudou plně OCRovat, pokud existují kvalitnější samostatné reprodukce vložených dokumentů.
 
-Náhledy mají pouze přibližně 96 px a nejsou náhradou originálů ani podkladem pro spolehlivé OCR.
+## Zahájené textové zpracování
+
+1. `urbanek-ochotnici-061`: nativně extrahován text DOC `112 let ochotnických souborů v Rychvaldu` přes LibreOffice se zachovanou českou diakritikou.
+   - výstup: `research/urbanek-archive/ocr/urbanek-ochotnici-061-document-text.md`
+   - stav: `native_extracted_unverified`
+2. `urbanek-ochotnici-033` + `032`: přepsána titulní strana a úplné obsazení programu Večera tříkrálového.
+   - výstup: `research/urbanek-archive/ocr/urbanek-ochotnici-032-033-document-text.md`
+   - stav: `machine_unverified`
 
 ## Následující přesný krok
 
-Vizuálně klasifikovat položky `urbanek-ochotnici-001` až `010`:
+Přepsat `urbanek-ochotnici-013`, program **Celostátní soutěže vesnických divadelních souborů, 13.–19. května 1960**. Zachovat chronologické členění, názvy souborů, autory a tituly her.
 
-1. rozlišit dokumentové skeny, výstavní panely, fotografie a jiné textové předlohy;
-2. označit kandidáty `document_text` a `scene_text`;
-3. určit, které fotografie nebo stránky tvoří společné série;
-4. OCR nezahajovat, dokud nebudou související dokumenty seskupeny.
+Poté samostatně zpracovat:
+
+1. `urbanek-ochotnici-023` – čestné uznání Sylvii Kravalové;
+2. `urbanek-ochotnici-039` – program `Poslední noc v roce`;
+3. `urbanek-ochotnici-042` – program `Slavnost lampiónů`;
+4. `urbanek-ochotnici-047` – úřední oznámení o věcné ceně.
 
 ## Instrukce pro nový chat
 
-1. Načíst autoritativní soubory.
+1. Načíst autoritativní soubory a processing plan.
 2. Ověřit aktuální hlavu větve.
 3. Neměnit originály.
-4. Pokračovat klasifikací `001–010`.
-5. Po malé dokončené dávce aktualizovat checkpoint.
+4. Pokračovat OCR položkou `013`.
+5. Každý samostatný dokument commitnout zvlášť a novou podstatnou nejistotu zapsat do registru.

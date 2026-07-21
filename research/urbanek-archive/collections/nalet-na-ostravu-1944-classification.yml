@@ -1,0 +1,141 @@
+collection_id: urbanek-nalet
+status: completed
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+inventory_items: 8
+image_items: 7
+technical_items: 1
+document_text_candidates: 0
+scene_text_required: 0
+archival_event_label: "Nálet na Ostravu 1944"
+event_label_status: folder_name_only_not_independently_verified
+
+items:
+  - id: urbanek-nalet-001
+    source_path: Nálet na Ostravu 1944/img242.jpg
+    visual_type: historical_damage_photograph
+    dimensions: [846, 1194]
+    description: >-
+      Svislý pohled do úzkého prostoru mezi silně poškozenými budovami. V popředí
+      a středu leží rozsáhlé trosky, z prostoru stoupá kouř nebo prach a na místě
+      stojí několik osob.
+    grouping: {group_id: urban-building-damage, role: close_view_with_people_and_smoke}
+    text: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-nalet-002
+    source_path: Nálet na Ostravu 1944/img244.jpg
+    visual_type: historical_damage_photograph
+    dimensions: [1175, 840]
+    description: >-
+      Pohled přes dřevěný plot na zděný městský objekt s rozsáhle zničeným krovem,
+      střechou a přilehlou nižší stavbou. Ve dvoře leží velké množství suti.
+    grouping:
+      group_id: urban-building-damage
+      role: courtyard_and_facade_overview
+      probable_related_id: urbanek-nalet-003
+    text: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-nalet-003
+    source_path: Nálet na Ostravu 1944/img245.jpg
+    visual_type: historical_damage_photograph
+    dimensions: [1194, 792]
+    description: >-
+      Pohled do dvora nebo proluky zaplněné troskami zřícené stavby. Uprostřed je
+      zachycena osoba; v pozadí stojí vícepodlažní městský dům.
+    grouping:
+      group_id: urban-building-damage
+      role: rubble_courtyard_with_person
+      probable_related_id: urbanek-nalet-002
+    text: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-nalet-004
+    source_path: Nálet na Ostravu 1944/img246.jpg
+    visual_type: historical_urban_damage_overview
+    dimensions: [1200, 858]
+    description: >-
+      Vyvýšený pohled podél městského bloku. Dlouhý objekt má těžce poškozenou nebo
+      strženou střechu; vedle něj stojí vyšší funkcionalisticky působící budova.
+    grouping: {group_id: urban-building-damage, role: elevated_block_overview}
+    text: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-nalet-005
+    source_path: Nálet na Ostravu 1944/img247a.jpg
+    visual_type: historical_damage_photograph
+    dimensions: [1200, 822]
+    description: >-
+      Samostatně stojící vícepodlažní zděný dům s odkrytým krovem, zničenou střechou
+      a rozsáhle vybouranou částí fasády. V popředí u plotu stojí osoba.
+    grouping: {group_id: urban-building-damage, role: severely_damaged_building_overview}
+    text: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-nalet-006
+    source_path: Nálet na Ostravu 1944/img248.jpg
+    visual_type: historical_urban_damage_overview
+    dimensions: [1212, 786]
+    description: >-
+      Vyvýšený pohled přes vyhořelou nebo zřícenou střechu, z níž místy stoupá kouř
+      či pára. V pozadí jsou městské budovy a ulice s několika osobami.
+    grouping: {group_id: urban-building-damage, role: elevated_roof_damage_view}
+    text: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-nalet-007
+    source_path: Nálet na Ostravu 1944/img249.jpg
+    visual_type: historical_object_documentation
+    dimensions: [1212, 840]
+    description: >-
+      Velký kovový válcovitý předmět ležící mezi troskami u zděného pilíře; u objektu
+      stojí dvě osoby. Vzhledem k archivnímu kontextu může jít o leteckou munici nebo
+      její část, ale přesný typ a stav nelze z fotografie bezpečně určit.
+    grouping: {group_id: munition-like-object, role: object_with_scale_people}
+    object_identification:
+      status: unverified
+      safe_label: large_cylindrical_munition_like_object
+    text: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-nalet-008
+    source_path: Nálet na Ostravu 1944/Thumbs.db
+    visual_type: technical_thumbnail_cache
+    repo_status: drive_listed_repo_missing
+    audit_report: research/urbanek-archive/reports/nalet-na-ostravu-1944-thumbnail-cache.md
+    text: {document_text: not_applicable, scene_text: not_applicable}
+
+groups:
+  - group_id: urban-building-damage
+    members:
+      - urbanek-nalet-001
+      - urbanek-nalet-002
+      - urbanek-nalet-003
+      - urbanek-nalet-004
+      - urbanek-nalet-005
+      - urbanek-nalet-006
+    exact_site_relationships:
+      - pair: [urbanek-nalet-002, urbanek-nalet-003]
+        status: probable_same_or_adjacent_site
+      - pair: [urbanek-nalet-004, urbanek-nalet-006]
+        status: possible_same_urban_district_not_confirmed
+  - group_id: munition-like-object
+    members: [urbanek-nalet-007]
+
+cache_aliases:
+  - [img245a.jpg, img245.jpg]
+  - [img246a.jpg, img246.jpg]
+  - [img247.jpg, img247a.jpg]
+  - [img248a.jpg, img248.jpg]
+
+collection_result:
+  classification_complete: true
+  ocr_required: false
+  exact_locations_verified: false
+  event_date_verified_from_images: false
+  unique_visuals_present: 7
+  unique_visuals_missing_from_cache_audit: 0
+  safety_note: >-
+    The cylindrical object is treated only as a historical photographed object. The
+    collection contains no current actionable location or handling instructions.
+
+next_action:
+  type: reconcile_pilot_collections
+  instruction: >-
+    Mark the fifth pilot collection classified and technically audited. Add the
+    missing Thumbs.db as a deferred technical issue, then perform a repository-wide
+    pilot reconciliation before preparing a draft pull request.

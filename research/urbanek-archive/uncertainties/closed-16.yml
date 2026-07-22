@@ -1,0 +1,21 @@
+schema_version: 1
+scope: closed_item_0027
+items:
+  - id: URB-U-0027
+    status: resolved
+    priority: medium
+    collection: Ochotníci rychvald
+    type: exact_count_and_rounded_reporting
+    source_items: [urbanek-ochotnici-010, urbanek-ochotnici-014]
+    question: "Kolik vesnických souborů nebo kolektivů bylo zapojeno do soutěže: 3915, nebo přibližně 3960?"
+    resolution: >-
+      Oba články popisují tutéž první celostátní soutěž vesnických divadelních
+      souborů v roce 1960. Údaj 3915 je přesný počet scén přihlášených do soutěže.
+      Formulace „na 3960 vesnických kolektivů“ je dobové přibližné a zaokrouhlené
+      vyjádření téhož rozsahu akce, nikoli údaj o jiné soutěži. Pro faktografické
+      použití se přebírá hodnota 3915; údaj 3960 lze citovat pouze jako přibližnou
+      formulaci konkrétního článku.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0027-participant-counts.md
+    resolved_at: 2026-07-22
+    resolved_by: source_comparison_and_user_confirmation
+    confidence: verified

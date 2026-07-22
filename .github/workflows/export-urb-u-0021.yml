@@ -13,41 +13,39 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Fetch archive image and Kramerius page 2
+      - name: Search Kramerius metadata for the correct issue
         shell: bash
         run: |
           mkdir -p out/archive out/kramerius
           cp 'sources/osobni-archiv-jaromira-urbanka/Články z Českého slova/21.jpg' out/archive/
           python - <<'PY'
-          import json, re, urllib.request, urllib.parse
+          import json, urllib.request, urllib.parse
           from pathlib import Path
 
-          BASE='https://kramerius.nkp.cz'
-          headers={'User-Agent':'Mozilla/5.0','Accept':'*/*'}
-          viewer_url=f'{BASE}/kramerius/PShowPageDoc.do?it=0&id=8051962&picp=&idpi=13916277'
-          req=urllib.request.Request(viewer_url,headers=headers)
-          with urllib.request.urlopen(req,timeout=120) as r:
-            html=r.read()
-          Path('out/kramerius/viewer.html').write_bytes(html)
-          text=html.decode('utf-8','replace')
-          m=re.search(r'["\'](/kramerius/document/[^"\']+?\.djvu[^"\']*)["\']',text,re.I)
-          if not m:
-            raise SystemExit('DjVu document link not found')
-          djvu_url=urllib.parse.urljoin(BASE,m.group(1).replace('&amp;','&'))
-          req=urllib.request.Request(djvu_url,headers=headers)
-          with urllib.request.urlopen(req,timeout=180) as r:
-            data=r.read()
-          Path('out/kramerius/page2.djvu').write_bytes(data)
-          Path('out/kramerius/source.json').write_text(json.dumps({'viewer_url':viewer_url,'djvu_url':djvu_url,'bytes':len(data)},ensure_ascii=False,indent=2),'utf-8')
+          headers={'User-Agent':'Mozilla/5.0','Accept':'application/json'}
+          queries=[
+            'root_title:"České slovo : ústřední orgán České strany národně sociální" AND rok:1938',
+            'root_title:"České slovo" AND rok:1938',
+            '"České slovo" AND rok:1938',
+            'rok:1938 AND fedora.model:periodicalitem',
+            'rok:1938 AND dc.title:281',
+            'rok:1938 AND title:281',
+            'rok:1938 AND datum_str:1938',
+          ]
+          results=[]
+          for i,q in enumerate(queries):
+            url='https://kramerius5.nkp.cz/search/api/v5.0/search?'+urllib.parse.urlencode({'q':q,'rows':1000})
+            entry={'index':i,'query':q,'url':url}
+            try:
+              req=urllib.request.Request(url,headers=headers)
+              with urllib.request.urlopen(req,timeout=120) as r:
+                data=r.read(); entry['status']=r.status; entry['bytes']=len(data)
+              Path(f'out/kramerius/query-{i:02d}.json').write_bytes(data)
+            except Exception as e:
+              entry['error']=repr(e)
+            results.append(entry)
+          Path('out/kramerius/queries.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),'utf-8')
           PY
-      - name: Convert DjVu to PNG
-        shell: bash
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq djvulibre-bin imagemagick
-          ddjvu -format=tiff out/kramerius/page2.djvu out/kramerius/page2.tif
-          convert out/kramerius/page2.tif out/kramerius/page2.png
-          file out/kramerius/page2.png
       - uses: actions/upload-artifact@v4
         with:
           name: urb-u-0021-sources

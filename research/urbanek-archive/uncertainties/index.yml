@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 15, deferred: 0, resolved: 22, not_actionable: 1, total: 38}
+summary: {open: 14, deferred: 0, resolved: 22, not_actionable: 2, total: 38}
 open_files:
   - open-01.yml
   - open-02a.yml
@@ -19,6 +19,8 @@ closed_files:
   - closed-07.yml
   - closed-08.yml
   - closed-09.yml
+  - closed-10.yml
 rules:
   - A thumbnail in Thumbs.db without a standalone full file means the full original is missing; visually verified duplicate thumbnails do not represent additional missing image content.
   - When one part of a question is resolved but other material attributes remain unknown, keep the resolved finding closed and create a linked open item for the unresolved attributes.
+  - Incidental surrounding content captured outside the intended clipping scope is not treated as a separate document or identification task.

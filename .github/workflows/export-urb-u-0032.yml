@@ -1,0 +1,31 @@
+name: Export URB-U-0032 image
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - .github/workflows/export-urb-u-0032.yml
+permissions:
+  contents: write
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Prepare image
+        run: |
+          mkdir -p export
+          cp "sources/osobni-archiv-jaromira-urbanka/Ochotníci rychvald/Svět v obrazech.jpg" "export/urb-u-0032.jpg"
+      - uses: actions/upload-artifact@v6
+        with:
+          name: urb-u-0032-image
+          path: export/urb-u-0032.jpg
+      - name: Remove temporary workflow
+        run: |
+          rm -f .github/workflows/export-urb-u-0032.yml
+          git config user.name "OpenAI Agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Remove temporary URB-U-0032 export workflow" || exit 0
+          git push origin HEAD:agent/import-urbanek-pilot

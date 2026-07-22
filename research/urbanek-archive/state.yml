@@ -146,7 +146,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 16, in_progress: 0, deferred: 0, resolved: 21, not_actionable: 1, total: 38}
+  summary: {open: 15, in_progress: 0, deferred: 0, resolved: 22, not_actionable: 1, total: 38}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -166,6 +166,9 @@ uncertainties:
       result: house_339_windmill_sketch_and_photos_same_device_verified
       evidence: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
       linked_open_item: URB-U-0038
+    - id: URB-U-0011
+      result: kakal_mill_copy_in_house_339_folder_confirmed_misfiled
+      evidence: research/urbanek-archive/verifications/urb-u-0011-misfiled-kakal-copy.md
   active_research_threads:
     - id: URB-U-0036
       subject: Kakalův mlýn

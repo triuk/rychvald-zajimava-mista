@@ -1,5 +1,4 @@
 schema_version: 1
-scope: open_items_0023_0026
+scope: open_item_0026
 items:
-  - {id: URB-U-0023, status: open, priority: low, collection: Články z Českého slova, type: unidentified_article_fragment, source_items: [urbanek-ceske-slovo-019-b], question: "Ke kterému článku patří zakončení zachované pouze jako …cích. -bi- na horním okraji 18.jpg?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-019-b-document-text.md, next_action: "Přiřadit jen při nalezení celé stránky nebo sousedního výstřižku."}
   - {id: URB-U-0026, status: open, priority: high, collection: Ochotníci rychvald, type: conflicting_cast_identification, source_items: [urbanek-ochotnici-025, urbanek-ochotnici-032, urbanek-ochotnici-051], question: "Kdo skutečně hrál Fabiana: Radomír Jurdin, jak uvádí tištěný program a soubor 025, nebo Václav Válek, jak uvádí název souboru 051?", evidence: research/urbanek-archive/ocr/urbanek-ochotnici-032-033-document-text.md, next_action: "Porovnat další programy, popisky výstavního panelu, seznam členů souboru a případné osobní svědectví; osoby neurčovat podle tváří."}

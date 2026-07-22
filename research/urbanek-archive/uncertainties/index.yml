@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 13, deferred: 0, resolved: 23, not_actionable: 2, total: 38}
+summary: {open: 12, deferred: 0, resolved: 24, not_actionable: 2, total: 38}
 open_files:
   - open-01.yml
   - open-02a.yml
@@ -21,8 +21,9 @@ closed_files:
   - closed-09.yml
   - closed-10.yml
   - closed-11.yml
+  - closed-12.yml
 rules:
   - A thumbnail in Thumbs.db without a standalone full file means the full original is missing; visually verified duplicate thumbnails do not represent additional missing image content.
   - When one part of a question is resolved but other material attributes remain unknown, keep the resolved finding closed and create a linked open item for the unresolved attributes.
   - Incidental surrounding content captured outside the intended clipping scope is not treated as a separate document or identification task.
-  - A documented physical lacuna may be closed when all surviving text is transcribed and the missing content is not material enough to justify an ongoing search; the gap must remain explicitly marked and must never be reconstructed by guesswork.
+  - A documented physical or cropping lacuna may be closed when all surviving text is transcribed and the missing content is not to remain an ongoing search task; the gap must remain explicitly marked and must never be reconstructed by guesswork.

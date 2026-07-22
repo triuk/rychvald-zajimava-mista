@@ -97,10 +97,10 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 15;
+- `open`: 14;
 - `deferred`: 0;
 - `resolved`: 22;
-- `not_actionable`: 1;
+- `not_actionable`: 2;
 - celkem: 38.
 
 Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` byly uzavřeny doplněním příslušných souborů `Thumbs.db`.
@@ -124,6 +124,8 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 `URB-U-0010` byla uzavřena pro vztah náčrtu a dvou fotografií k jednomu mlýnku označenému jako zařízení za domem č. 339. Přesná historická poloha, kontinuita čísla domu, vlastník a datace zůstávají otevřeny jako `URB-U-0038`; dnešní Bohumínská 339 je pouze kandidát.
 
 `URB-U-0011` byla uzavřena jako chybně zařazená přesná kopie obrazu Kakalova mlýna ve složce domu č. 339. Jde o jiný objekt a soubor se nepoužívá jako doklad k mlýnku u č.p. 339; původní archivní cesta se zachovává.
+
+`URB-U-0017` byla označena jako `not_actionable`: úzký proužek nad článkem v souboru `9.jpg` je pouze spodní okraj předchozího článku zachycený na fotografii navíc. Není součástí cílového výstřižku ani samostatným předmětem OCR či identifikace.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

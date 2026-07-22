@@ -1,0 +1,21 @@
+schema_version: 1
+scope: closed_item_0026
+items:
+  - id: URB-U-0026
+    status: resolved
+    priority: high
+    collection: Ochotníci rychvald
+    type: cast_alternation
+    source_items: [urbanek-ochotnici-025, urbanek-ochotnici-032, urbanek-ochotnici-051, urbanek-ochotnici-019, urbanek-ochotnici-028]
+    question: "Kdo hrál Fabiana: Radomír Jurdin, nebo Václav Válek?"
+    resolution: >-
+      Oba. Tištěný program uvádí Radomíra Jurdina jako představitele Fabiana.
+      Uživatel potvrdil, že Václav Válek v této roli alternoval. Archivní článek
+      Bořivoje Pešky nezávisle potvrzuje V. Válka jako člena rychvaldského
+      ochotnického souboru. Názvy obou fotografií jsou tedy věcně správné a
+      nezachycují rozpor v identitě role, nýbrž dva alternující představitele.
+      Přesné rozdělení jednotlivých repríz mezi oba herce není doloženo.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0026-vaclav-valek-research.md
+    resolved_at: 2026-07-22
+    resolved_by: user_confirmation_with_archival_corroboration
+    confidence: verified

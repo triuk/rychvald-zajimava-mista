@@ -1,5 +1,5 @@
 schema_version: 1
-scope: open_items_0008_0017
+scope: open_items_0008
 items:
   - id: URB-U-0008
     status: open
@@ -22,4 +22,3 @@ items:
       - new_archive_batch_processed
       - matching_historical_photograph_found
       - new_caption_or_source_note_available
-  - {id: URB-U-0017, status: open, priority: low, collection: Články z Českého slova, type: unidentified_article_fragment, source_items: [urbanek-ceske-slovo-010-b], question: "Ke kterému článku patří neidentifikovaný horní fragment se signaturou -vk-?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-010-b-document-text.md, next_action: "Přiřadit jen při nalezení celé stránky nebo sousedního výstřižku."}

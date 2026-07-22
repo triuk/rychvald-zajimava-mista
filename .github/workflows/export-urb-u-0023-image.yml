@@ -1,0 +1,24 @@
+name: Export URB-U-0023 image
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.export-urb-u-0023-image
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Collect source image
+        shell: bash
+        run: |
+          mkdir -p out
+          cp 'sources/osobni-archiv-jaromira-urbanka/Články z Českého slova/18.jpg' out/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urb-u-0023-image
+          path: out

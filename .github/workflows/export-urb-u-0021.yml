@@ -13,55 +13,52 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Collect archive image and Kramerius diagnostics
+      - name: Collect archive image and Kramerius issue pages
         shell: bash
         run: |
           mkdir -p out/archive out/kramerius
           cp 'sources/osobni-archiv-jaromira-urbanka/Články z Českého slova/21.jpg' out/archive/
           python - <<'PY'
-          import json, urllib.request, urllib.parse
+          import json, re, urllib.request, urllib.parse
           from pathlib import Path
 
-          root='uuid:1585c940-8080-11ea-a276-5ef3fc9bb22f'
-          urls=[]
-          bases=[
-            'https://kramerius5.nkp.cz/search/api/v5.0',
-            'https://www.ndk.cz/search/api/v5.0',
-          ]
-          for b in bases:
-            urls += [
-              f'{b}/item/{urllib.parse.quote(root, safe=":")}/children',
-              f'{b}/item/{urllib.parse.quote(root, safe=":")}',
-            ]
-          queries=[
-            '"Polský zábor českých obcí dokončen"',
-            '"Polské obavy o Bohumínsko"',
-            '"Jos. Pleva"',
-            'date:1938-10-12',
-            'datum_str:1938-10-12',
-            'root_title:"České slovo" AND date:1938-10-12',
-            'root_title:"České slovo" AND issue.number:281',
-          ]
-          for q in queries:
-            urls.append('https://kramerius5.nkp.cz/search/api/v5.0/search?'+urllib.parse.urlencode({'q':q,'rows':100}))
-          urls += [
-            'https://kramerius.nkp.cz/kramerius/PShowVolume.do?id=12802&it=',
-            'https://kramerius.nkp.cz/kramerius/PShowVolume.do?id=12457&it=',
-          ]
-
+          BASE='https://kramerius.nkp.cz'
+          headers={'User-Agent':'Mozilla/5.0','Accept':'*/*'}
           log=[]
-          for i,url in enumerate(urls):
+
+          def fetch(url, path):
             try:
-              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'*/*'})
-              with urllib.request.urlopen(req,timeout=60) as r:
-                data=r.read()
-                ctype=r.headers.get('content-type','')
-                status=r.status
-              suffix='.html' if 'html' in ctype else '.json' if 'json' in ctype else '.bin'
-              Path(f'out/kramerius/response-{i:02d}{suffix}').write_bytes(data)
-              log.append({'index':i,'url':url,'status':status,'content_type':ctype,'bytes':len(data),'file':f'response-{i:02d}{suffix}'})
+              req=urllib.request.Request(url,headers=headers)
+              with urllib.request.urlopen(req,timeout=90) as r:
+                data=r.read(); ctype=r.headers.get('content-type',''); status=r.status
+              Path(path).write_bytes(data)
+              log.append({'url':url,'status':status,'content_type':ctype,'bytes':len(data),'file':str(path)})
+              return data
             except Exception as e:
-              log.append({'index':i,'url':url,'error':repr(e)})
+              log.append({'url':url,'error':repr(e),'file':str(path)})
+              return b''
+
+          # The old catalogue exposes two editions for issue 281 dated 12 October 1938.
+          for issue in ('843603','843604'):
+            issue_dir=Path('out/kramerius')/f'issue-{issue}'
+            issue_dir.mkdir(parents=True,exist_ok=True)
+            issue_url=f'{BASE}/kramerius/PShowIssue.do?id={issue}&it='
+            data=fetch(issue_url, issue_dir/'issue.html')
+            text=data.decode('utf-8','replace')
+            page_ids=[]
+            for m in re.finditer(r'href=["\']([^"\']*PShowPage\.do[^"\']*?[?&]id=(\d+)[^"\']*)["\']',text,re.I):
+              if m.group(2) not in page_ids: page_ids.append(m.group(2))
+            (issue_dir/'page-ids.json').write_text(json.dumps(page_ids,indent=2),'utf-8')
+            for order,page_id in enumerate(page_ids,1):
+              page_url=f'{BASE}/kramerius/PShowPage.do?id={page_id}&it=0'
+              pdata=fetch(page_url, issue_dir/f'page-{order:02d}-{page_id}.html')
+              ptext=pdata.decode('utf-8','replace')
+              links=[]
+              for href in re.findall(r'(?:href|src)=["\']([^"\']+)["\']',ptext,re.I):
+                if any(k in href.lower() for k in ('djvu','image','img','zoom','stream')):
+                  links.append(urllib.parse.urljoin(BASE,href.replace('&amp;','&')))
+              (issue_dir/f'page-{order:02d}-{page_id}-links.json').write_text(json.dumps(list(dict.fromkeys(links)),ensure_ascii=False,indent=2),'utf-8')
+
           Path('out/kramerius/requests.json').write_text(json.dumps(log,ensure_ascii=False,indent=2),'utf-8')
           PY
       - uses: actions/upload-artifact@v4

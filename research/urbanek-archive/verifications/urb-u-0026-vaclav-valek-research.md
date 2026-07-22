@@ -1,8 +1,8 @@
-# Průzkum URB-U-0026 – Václav Válek
+# Ověření URB-U-0026 – Václav Válek a role Fabiana
 
-Datum průzkumu: 2026-07-22
+Datum ověření: 2026-07-22
 
-## Nález v archivních pramenech
+## Archivní prameny
 
 Úplný článek Bořivoje Pešky **„Z dějin ochotnického divadla v Rychvaldě“**
 (`urbanek-ochotnici-028` a `urbanek-ochotnici-019`) uvádí při vzniku souboru
@@ -15,36 +15,42 @@ souboru Osvětové besedy. Jde o samostatný pramen potvrzující, že Václav V
 byl členem nebo hercem rychvaldského ochotnického souboru a že v souboru
 působila také jeho manželka Dáša.
 
-## Co nález nepotvrzuje
+Tištěný program inscenace **Večer tříkrálový** uvádí:
 
-- Článek Václava Válka nezařazuje do obsazení **Večera tříkrálového**.
-- Článek mu nepřisuzuje roli Fabiana.
-- Tištěný program Večera tříkrálového nadále uvádí: **Fabiano – Radomír Jurdin**.
-- Soubor `Viola a Fabiano - Sylvie Kravalová a Radomír Jurdin.jpg` je v souladu s programem.
-- Pro spojení **Fabiano – Václav Válek** zůstává jediným přímým podkladem archivní název souboru `Fabiano - Václav Válek.jpg`.
+- `Fabiano – RADOMÍR JURDIN`.
 
-## Úplné hledání v pilotním repozitáři
+Archivní fotografie jsou pojmenovány:
+
+- `Viola a Fabiano - Sylvie Kravalová a Radomír Jurdin.jpg`;
+- `Fabiano - Václav Válek.jpg`.
+
+## Potvrzení uživatele
+
+Uživatel dne 2026-07-22 potvrdil, že Václav Válek v roli Fabiana **alternoval**
+Radomíra Jurdina.
+
+## Závěr
+
+Rozpor je vysvětlen alternací:
+
+- Radomír Jurdin je představitel Fabiana uvedený v dochovaném tištěném programu;
+- Václav Válek byl alternativním představitelem téže role;
+- názvy obou archivních fotografií jsou věcně správné;
+- přesné rozdělení jednotlivých repríz mezi oba herce není v dochovaných
+  dokumentech doloženo a nesmí být odhadováno.
+
+`URB-U-0026` je uzavřena jako `resolved`, typ `cast_alternation`, s důvěrou
+`verified` na základě uživatelského svědectví a nezávislého archivního potvrzení,
+že Václav Válek byl členem rychvaldského souboru.
+
+## Úplné hledání
 
 Byly prohledány názvy souborů a všechny čitelné textové soubory na varianty
 `Václav Válek`, `Vaclav Valek`, `V. Válek`, `Válek` a `Valek`.
-
-Jedinou další věcnou zmínkou mimo evidenci samotného rozporu je výše uvedený
-článek Bořivoje Pešky. Souhrnný dokument `112 let ochotnických souborů v Rychvaldu`
-Václava Válka jmenovitě neuvádí.
-
-Vyhledání v připojeném Google Drive našlo pouze fotografii pojmenovanou
-`Fabiano - Václav Válek.jpg`; další soubor nebo text pojmenovaný po Václavu
-Válkovi nebyl nalezen. Veřejné internetové hledání nepřineslo ověřitelnou
-zmínku spojující osobu tohoto jména s rychvaldským souborem.
-
-## Průběžný závěr
-
-Václav Válek byl skutečným členem rychvaldského ochotnického souboru, takže
-jeho jméno v názvu fotografie nelze odmítnout jako zcela nahodilé. Dostupné
-prameny však stále silněji podporují Radomíra Jurdina jako tištěného představitele
-Fabiana v inscenaci Večer tříkrálový. Nelze zatím rozhodnout, zda fotografie
-Václava Válka zachycuje alternaci, jinou roli, jiné uvedení, nebo zda je její
-název chybný.
+Souhrnný dokument `112 let ochotnických souborů v Rychvaldu` Václava Válka
+jmenovitě neuvádí. Vyhledání v připojeném Google Drive našlo vedle výše uvedených
+pramenů fotografii `Fabiano - Václav Válek.jpg`; veřejné internetové hledání
+nepřineslo další ověřitelnou zmínku spojující jej s rolí Fabiana.
 
 ## Zdroje
 
@@ -52,3 +58,4 @@ název chybný.
 2. `research/urbanek-archive/ocr/urbanek-ochotnici-032-033-document-text.md`
 3. `research/urbanek-archive/collections/ochotnici-rychvald-inventory.csv`
 4. `Ochotníci rychvald/112 let ochotnických souborů v.doc`
+5. Uživatelské potvrzení z 2026-07-22.

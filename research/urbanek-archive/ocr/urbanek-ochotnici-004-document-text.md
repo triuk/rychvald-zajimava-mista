@@ -7,7 +7,7 @@
 - Druh: časopisecká strana s článkem, fotografiemi, popisky a vloženým výsledkovým blokem
 - Autor textu: M. Veselý
 - Foto: Karel Minc
-- Otevřená nejistota: `URB-U-0032`
+- Známá ořezová lakuna: `URB-U-0032` (`resolved`; bez dalšího hledání)
 
 ## Hlavní fotografický popisek
 
@@ -39,7 +39,7 @@ První cena udělena nebyla. O druhou se podílejí dva soubory: OB Lubietová, 
 
 Cenu redakce časopisu **BESEDA** získává soubor OB Tážaly, kraj Olomouc (V. Cach: „Moje teta, tvoje teta“). Je to soubor, který svým dramaturgickým plánem prokazuje bezprostřední sepětí s problematikou svého prostředí, má vysokou životnost zájezdovou a svým repertoárem se snaží probojovávat aktuální otázky naší…
 
-`[pokračování výsledkového bloku je na zdrojovém snímku odříznuto dolním okrajem]`
+`[pokračování výsledkového bloku je na zdrojovém snímku odříznuto dolním okrajem; známá ořezová lakuna, bez dalšího dohledávání]`
 
 ## Obrazové části bez samostatného popisku
 
@@ -49,7 +49,7 @@ Cenu redakce časopisu **BESEDA** získává soubor OB Tážaly, kraj Olomouc (V
 ## Poznámky ke spolehlivosti
 
 - Hlavní článek, oba fotografické popisky a veškerý zachovaný text výsledkového bloku byly při druhé řádkové kontrole dne 2026-07-21 potvrzeny bez textové opravy.
-- Vložený výsledkový blok je fyzicky oříznut dolním okrajem zdrojového obrazu a končí uprostřed věty; chybějící pokračování nebylo domýšleno.
+- Vložený výsledkový blok je fyzicky oříznut dolním okrajem zdrojového obrazu a končí uprostřed věty; chybějící pokračování nebylo domýšleno a podle rozhodnutí uživatele ze dne 2026-07-22 se dále nedohledává.
 - Přepis zachovává tištěné zkratky `OB`, `n. p.`, `PAL`, dobové názvy a podobu `Moje teta, tvoje teta`.
 - Podoby `Lubietová`, `Neděliště`, `Tážaly` a jméno `V. Cach` byly při druhé vizuální kontrole potvrzeny jako tištěné podoby.
 - Fotografické osoby nebyly identifikovány podle tváří.

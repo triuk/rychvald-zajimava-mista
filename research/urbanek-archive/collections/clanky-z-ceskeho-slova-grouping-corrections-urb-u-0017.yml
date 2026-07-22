@@ -1,0 +1,13 @@
+schema_version: 1
+collection_id: urbanek-ceske-slovo
+corrections:
+  - source_item: urbanek-ceske-slovo-010-b
+    previous_classification: unidentified_article_fragment
+    corrected_classification: incidental_surrounding_content
+    corrected_role: excluded_from_document_scope
+    reason: >-
+      Uživatel upřesnil, že jde pouze o spodní okraj předchozího článku zachycený
+      navíc nad cílovým výstřižkem. Fragment se nemá identifikovat ani přepisovat
+      jako samostatný dokument.
+    uncertainty: URB-U-0017
+    uncertainty_status: not_actionable

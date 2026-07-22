@@ -1,0 +1,53 @@
+name: Sync URB-U-0020 closure
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.sync-urb-u-0020
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Synchronize status files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          p=Path('research/urbanek-archive/STATUS.md'); s=p.read_text('utf-8')
+          s=s.replace('- `open`: 14;', '- `open`: 13;', 1)
+          s=s.replace('- `resolved`: 22;', '- `resolved`: 23;', 1)
+          marker='`URB-U-0017` byla označena jako `not_actionable`: úzký proužek nad článkem v souboru `9.jpg` je pouze spodní okraj předchozího článku zachycený na fotografii navíc. Není součástí cílového výstřižku ani samostatným předmětem OCR či identifikace.\n'
+          add=marker+'\n`URB-U-0020` byla uzavřena jako známá, ale nepodstatná fyzická lakuna v článku „Zprávy z Těšínska“. Veškerý dochovaný text je přepsán; chybějící úsek zůstává výslovně označen a nesmí být rekonstruován odhadem.\n'
+          if marker in s and '`URB-U-0020` byla uzavřena' not in s:
+              s=s.replace(marker,add,1)
+          p.write_text(s,'utf-8')
+
+          p=Path('research/urbanek-archive/state.yml'); s=p.read_text('utf-8')
+          s=s.replace('summary: {open: 14, in_progress: 0, deferred: 0, resolved: 22, not_actionable: 2, total: 38}', 'summary: {open: 13, in_progress: 0, deferred: 0, resolved: 23, not_actionable: 2, total: 38}', 1)
+          marker='''    - id: URB-U-0011\n      result: kakal_mill_copy_in_house_339_folder_confirmed_misfiled\n      evidence: research/urbanek-archive/verifications/urb-u-0011-misfiled-kakal-copy.md\n'''
+          add=marker+'''    - id: URB-U-0020\n      result: known_nonmaterial_physical_lacuna_closed\n      evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-020-document-text.md\n'''
+          if marker in s and 'known_nonmaterial_physical_lacuna_closed' not in s:
+              s=s.replace(marker,add,1)
+          p.write_text(s,'utf-8')
+
+          p=Path('research/urbanek-archive/reports/pilot-reconciliation.md'); s=p.read_text('utf-8')
+          s=s.replace('- `open`: 14;', '- `open`: 13;', 1)
+          s=s.replace('- `resolved`: 22;', '- `resolved`: 23;', 1)
+          marker='`URB-U-0017` je `not_actionable`: spodní okraj předchozího článku je na fotografii `9.jpg` pouze vedlejším obsahem mimo rozsah cílového výstřižku a dále se neidentifikuje ani nepřepisuje.\n'
+          add=marker+'\n`URB-U-0020` je uzavřena jako známá fyzická lakuna bez dalšího badatelského úkolu. Veškerý zachovaný text byl přepsán a chybějící úsek zůstává výslovně označen bez odhadované rekonstrukce.\n'
+          if marker in s and '`URB-U-0020` je uzavřena' not in s:
+              s=s.replace(marker,add,1)
+          p.write_text(s,'utf-8')
+          PY
+          git config user.name "OpenAI Agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/urbanek-archive/STATUS.md research/urbanek-archive/state.yml research/urbanek-archive/reports/pilot-reconciliation.md
+          git commit -m "Sync URB-U-0020 closure" || exit 0
+          git push origin HEAD:agent/import-urbanek-pilot

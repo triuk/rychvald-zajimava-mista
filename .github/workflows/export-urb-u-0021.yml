@@ -30,9 +30,9 @@ jobs:
             html=r.read()
           Path('out/kramerius/viewer.html').write_bytes(html)
           text=html.decode('utf-8','replace')
-          m=re.search(r'(?:href|src)=["\']([^"\']*?/kramerius/document/[^"\']+?\.djvu[^"\']*)["\']',text,re.I)
+          m=re.search(r'["\'](/kramerius/document/[^"\']+?\.djvu[^"\']*)["\']',text,re.I)
           if not m:
-            raise SystemExit('DjVu link not found')
+            raise SystemExit('DjVu document link not found')
           djvu_url=urllib.parse.urljoin(BASE,m.group(1).replace('&amp;','&'))
           req=urllib.request.Request(djvu_url,headers=headers)
           with urllib.request.urlopen(req,timeout=180) as r:

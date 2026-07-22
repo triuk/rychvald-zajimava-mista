@@ -1,0 +1,19 @@
+schema_version: 1
+scope: closed_item_0011
+items:
+  - id: URB-U-0011
+    status: resolved
+    priority: low
+    collection: Rychvaldské větrné mlýny
+    type: misfiled_exact_duplicate
+    source_items: [urbanek-mlyny-039]
+    question: "Jak souvisí kopie Kakalova mlýna se složkou domu č. 339?"
+    resolution: >-
+      Uživatel potvrdil, že jde o chybně zařazenou přesnou kopii obrazu
+      Kakalova mlýna. Nezachycuje mlýnek za domem č. 339 a mezi oběma objekty
+      nebyla zjištěna věcná souvislost. Soubor zůstává na původní archivní cestě,
+      ale nesmí být používán jako doklad k zařízení u č.p. 339.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0011-misfiled-kakal-copy.md
+    resolved_at: 2026-07-21
+    resolved_by: user_confirmation_and_visual_comparison
+    confidence: verified

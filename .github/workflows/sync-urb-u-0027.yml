@@ -1,0 +1,58 @@
+name: Sync URB-U-0027 summaries
+on:
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Synchronize summaries and OCR notes
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root = Path('research/urbanek-archive')
+
+          p = root / 'ocr/urbanek-ochotnici-014-document-text.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- Časový údaj `14. 5. do 2. 6.` a počet `3915` jsou údaje tohoto konkrétního článku; rozdíl proti článku `010` zůstává veden jako `URB-U-0027`.', '- Časový údaj `14. 5. do 2. 6.` a přesný počet `3915` jsou údaje tohoto konkrétního článku. `URB-U-0027` byla uzavřena: jiný článek uvádí pouze přibližné zaokrouhlení „na 3960“ pro tutéž soutěž; pro faktografické použití se přebírá 3915.')
+          p.write_text(s, 'utf-8')
+
+          p = root / 'ocr/urbanek-ochotnici-010-document-text.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- Číslo `3960` je přepsáno podle tohoto článku; jiné archivní články uvádějí odlišné počty přihlášených či soutěžících souborů a údaj zůstává veden v `URB-U-0027`.', '- Formulace `na 3960` je přepsána podle tohoto článku jako přibližný údaj. `URB-U-0027` byla uzavřena: přesný počet přihlášených scén v jiném článku je 3915 a oba texty pojednávají o téže soutěži.')
+          p.write_text(s, 'utf-8')
+
+          p = root / 'STATUS.md'
+          s = p.read_text('utf-8').replace('- `open`: 9;', '- `open`: 8;', 1).replace('- `resolved`: 26;', '- `resolved`: 27;', 1)
+          marker = '`URB-U-0026` byla uzavřena jako potvrzená alternace role Fabiana. Tištěný program uvádí Radomíra Jurdina; Václav Válek jej v roli alternoval. Obě archivní fotografie jsou proto správně pojmenované. Přesné rozdělení jednotlivých repríz mezi oba herce není doloženo.\n'
+          add = marker + '\n`URB-U-0027` byla uzavřena: oba články popisují tutéž soutěž. Hodnota 3915 je přesný počet přihlášených scén; formulace „na 3960“ je pouze dobové přibližné zaokrouhlení.\n'
+          if marker in s and '`URB-U-0027` byla uzavřena' not in s: s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          p = root / 'state.yml'
+          s = p.read_text('utf-8').replace('summary: {open: 9, in_progress: 0, deferred: 0, resolved: 26, not_actionable: 3, total: 38}', 'summary: {open: 8, in_progress: 0, deferred: 0, resolved: 27, not_actionable: 3, total: 38}')
+          marker = '    - id: URB-U-0026\n      result: fabian_role_alternation_radomir_jurdin_and_vaclav_valek_verified\n      evidence: research/urbanek-archive/verifications/urb-u-0026-vaclav-valek-research.md\n'
+          add = marker + '    - id: URB-U-0027\n      result: exact_count_3915_approximate_3960_same_event_verified\n      evidence: research/urbanek-archive/verifications/urb-u-0027-participant-counts.md\n'
+          if marker in s and 'exact_count_3915_approximate_3960_same_event_verified' not in s: s = s.replace(marker, add, 1)
+          rule = '    - Exact participant counts take precedence over explicitly approximate rounded figures when both sources describe the same event.\n'
+          if rule not in s: s = s.replace('    - User-confirmed cast alternation may reconcile a printed cast with differently named archival photographs when ensemble membership is independently corroborated.\n', '    - User-confirmed cast alternation may reconcile a printed cast with differently named archival photographs when ensemble membership is independently corroborated.\n' + rule)
+          p.write_text(s, 'utf-8')
+
+          p = root / 'reports/pilot-reconciliation.md'
+          s = p.read_text('utf-8').replace('- `open`: 9;', '- `open`: 8;', 1).replace('- `resolved`: 26;', '- `resolved`: 27;', 1)
+          paragraph = '`URB-U-0027` je uzavřena: oba dobové články popisují tutéž první celostátní soutěž vesnických divadelních souborů. Přesný počet přihlášených scén je 3915; formulace „na 3960“ je pouze přibližné zaokrouhlení druhého článku.\n\n'
+          if '`URB-U-0027` je uzavřena' not in s: s = s.replace('## Připravenost větve\n', paragraph + '## Připravenost větve\n')
+          p.write_text(s, 'utf-8')
+          PY
+          rm -f research/urbanek-archive/.resolve-urb-u-0027
+          rm -f .github/workflows/resolve-urb-u-0027.yml .github/workflows/sync-urb-u-0027.yml
+          git config user.name "OpenAI Agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Synchronize URB-U-0027 resolution"
+          git push origin HEAD:agent/import-urbanek-pilot

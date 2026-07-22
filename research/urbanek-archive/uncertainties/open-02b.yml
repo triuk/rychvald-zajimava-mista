@@ -1,21 +1,6 @@
 schema_version: 1
-scope: open_items_0031_0032
+scope: open_item_0032
 items:
-  - id: URB-U-0031
-    status: open
-    priority: high
-    collection: Ochotníci rychvald
-    type: handwritten_internal_date_conflict
-    source_items: [urbanek-ochotnici-003]
-    question: "Proč je list datován 23. února 1960, když obsahuje dvě položky roku 1961 a souhrn do roku 1961?"
-    evidence: research/urbanek-archive/ocr/urbanek-ochotnici-003-b-document-text.md
-    current_findings: >-
-      Původní čtení dne 29 bylo opraveno na 23. Uživatel potvrdil, že list nebyl
-      později doplňován. Fotografie nemusí zachycovat případnou další spodní část listu.
-    next_action: >-
-      Rozhodnout, zda položku uzavřít jako vnitřní datovací chybu s neznámým
-      zamýšleným rokem. Znovu ji otevřít jen při nalezení úplnějšího snímku nebo
-      fyzického originálu; nedochovaný spodní obsah nedomýšlet.
   - id: URB-U-0032
     status: open
     priority: low

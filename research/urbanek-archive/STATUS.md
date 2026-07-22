@@ -97,9 +97,9 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 16;
+- `open`: 15;
 - `deferred`: 0;
-- `resolved`: 21;
+- `resolved`: 22;
 - `not_actionable`: 1;
 - celkem: 38.
 
@@ -122,6 +122,8 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 `URB-U-0009` byla uzavřena pouze pro identifikaci snímku jako interiéru kostela sv. Anny v Rychvaldě. Význam čísla `304` a důvod uložení ve složce Kakalova mlýna zůstávají otevřeny jako `URB-U-0037`.
 
 `URB-U-0010` byla uzavřena pro vztah náčrtu a dvou fotografií k jednomu mlýnku označenému jako zařízení za domem č. 339. Přesná historická poloha, kontinuita čísla domu, vlastník a datace zůstávají otevřeny jako `URB-U-0038`; dnešní Bohumínská 339 je pouze kandidát.
+
+`URB-U-0011` byla uzavřena jako chybně zařazená přesná kopie obrazu Kakalova mlýna ve složce domu č. 339. Jde o jiný objekt a soubor se nepoužívá jako doklad k mlýnku u č.p. 339; původní archivní cesta se zachovává.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

@@ -5,9 +5,9 @@
 - Soubor: `Ochotníci rychvald/img205.jpg`
 - Fyzická strana: `45`, dolní část
 - Kategorie: `document_text`
-- Stav: `visually_verified_with_lacuna`
+- Stav: `visually_verified_with_known_missing_continuation`
 - Druh: začátek pokračujícího článku; následující strana není v této skupině zachycena
-- Otevřená nejistota: `URB-U-0029`
+- Nejistota: `URB-U-0029` (`resolved`)
 
 ## Nadpis
 
@@ -31,6 +31,7 @@ Teprve prvá polovina minulého století vnáší novoty a mění poměry. Páne
 
 - Zachovaný text začíná vlastním autorským údajem a nadpisem, ale končí na dolním okraji strany 45 u rozděleného slova `po-`.
 - Chybějící pokračování nebylo rekonstruováno.
+- Kontrola archivní řady potvrdila, že jsou zachyceny strany 40–45; následující strana 46 chybí. Uživatel položku uzavřel jako známé chybějící pokračování bez dalšího hledání.
 - Druhá řádková kontrola dne 2026-07-21 potvrdila celý viditelný text a doplnila pouze závěrečnou tečku vytištěného nadpisu.
 - Přepis zachovává dobové tvary `charakterisují`, `rozvířiti`, `prvá` a původní slovosled.
 - Označení autorů `Bratři A. a S. Pěničkové` je přepsáno podle tisku; celá křestní jména nejsou na stránce uvedena.

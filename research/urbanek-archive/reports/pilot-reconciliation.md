@@ -69,9 +69,9 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 16;
+- `open`: 15;
 - `deferred`: 0;
-- `resolved`: 21;
+- `resolved`: 22;
 - `not_actionable`: 1;
 - celkem: 38.
 
@@ -86,6 +86,8 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 `URB-U-0009` je uzavřena pro identitu fotografie jako interiér kostela sv. Anny v Rychvaldě. Význam čísla `304` a vztah ke složce Kakalova mlýna jsou vedeny v propojené otevřené položce `URB-U-0037`.
 
 `URB-U-0010` je uzavřena pro dokumentační vztah náčrtu a fotografií k jednomu zařízení. Přesná historická poloha mlýnku označeného jako zařízení za domem č. 339 zůstává v propojené otevřené položce `URB-U-0038`.
+
+`URB-U-0011` je uzavřena jako chybně zařazená přesná kopie obrazu Kakalova mlýna. Nezachycuje mlýnek za domem č. 339 a soubor se nepoužívá jako doklad k tomuto zařízení; původní archivní cesta zůstává zachována.
 
 ## Připravenost větve
 

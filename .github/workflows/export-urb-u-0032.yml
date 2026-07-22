@@ -29,3 +29,4 @@ jobs:
           git add -A
           git commit -m "Remove temporary URB-U-0032 export workflow" || exit 0
           git push origin HEAD:agent/import-urbanek-pilot
+# trigger

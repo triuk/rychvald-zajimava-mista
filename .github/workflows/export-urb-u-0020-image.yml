@@ -1,0 +1,17 @@
+name: Export URB-U-0020 image
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.export-urb-u-0020-image
+  pull_request:
+    types: [synchronize]
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urb-u-0020-image
+          path: sources/osobni-archiv-jaromira-urbanka/Články z Českého slova/19.jpg

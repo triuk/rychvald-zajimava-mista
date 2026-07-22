@@ -146,7 +146,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 11, in_progress: 0, deferred: 0, resolved: 25, not_actionable: 2, total: 38}
+  summary: {open: 10, in_progress: 0, deferred: 0, resolved: 25, not_actionable: 3, total: 38}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -182,6 +182,9 @@ uncertainties:
     - id: URB-U-0017
       result: incidental_previous_article_edge_excluded_from_clipping_scope
       evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-010-b-document-text.md
+    - id: URB-U-0023
+      result: incidental_previous_article_edge_excluded_from_clipping_scope
+      evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-019-b-document-text.md
   active_research_threads:
     - id: URB-U-0036
       subject: Kakalův mlýn

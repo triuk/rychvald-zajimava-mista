@@ -1,0 +1,29 @@
+name: Export URB-U-0031 image
+on:
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: write
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Prepare image
+        run: |
+          cp 'sources/osobni-archiv-jaromira-urbanka/Ochotníci rychvald/Seznam her v nichž hrál M. Neborák.jpg' /tmp/urb-u-0031.jpg
+      - uses: actions/upload-artifact@v6
+        with:
+          name: urb-u-0031-image
+          path: /tmp/urb-u-0031.jpg
+          if-no-files-found: error
+      - name: Remove temporary workflow
+        run: |
+          rm -f .github/workflows/export-urb-u-0031-image.yml
+          git config user.name 'OpenAI Agent'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Remove temporary URB-U-0031 export workflow' || exit 0
+          git push origin HEAD:agent/import-urbanek-pilot

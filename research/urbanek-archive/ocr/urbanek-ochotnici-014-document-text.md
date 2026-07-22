@@ -40,7 +40,7 @@ Záběr z představení souboru osvětové besedy v Rychvaldě, který hrál Sha
 
 - Přepis zachovává dobové tvary `Prvá`, `s kterými`, názvy krajů a organizační zkratky `OB`, `JZD`, `ZK STAP`.
 - Podoby `Lubietova`, `Hroubovice`, `Želetice`, `Trnová`, `Neděliště` a `Vilémov` jsou přepsány podle tisku a nebyly redakčně normalizovány.
-- Časový údaj `14. 5. do 2. 6.` a počet `3915` jsou údaje tohoto konkrétního článku; rozdíl proti článku `010` zůstává veden jako `URB-U-0027`.
+- Časový údaj `14. 5. do 2. 6.` a přesný počet `3915` jsou údaje tohoto konkrétního článku. `URB-U-0027` byla uzavřena: jiný článek uvádí pouze přibližné zaokrouhlení „na 3960“ pro tutéž soutěž; pro faktografické použití se přebírá 3915.
 - Jména osob na horní fotografii vycházejí z tištěného popisku, nikoli z identifikace podle tváří.
 - Červené ruční podtržení jména `E. Močkořová` není součástí tištěného textu.
 - Druhá řádková kontrola dne 2026-07-21 potvrdila celý článek, kredit i jediný tištěný fotografický popisek bez textové opravy.

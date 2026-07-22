@@ -47,7 +47,7 @@ Jedenadvacetiletá učitelka z Rychvaldu Sylva Kravalová hrála Violu v Shakesp
 - Primární snímek `010` zachycuje celou levou časopiseckou stránku; snímek `009` byl při druhé kontrole použit pouze pro ověření spodních odstavců a fotografického popisku.
 - Nesouvisející pokračování článku na pravé stránce nebylo zahrnuto.
 - Přepis zachovává tištěné tvary `Sylva Kravalová`, `Lehnice`, `Tuisková`, `Krčulová` a zkratku `W.` před jménem Shakespeara.
-- Číslo `3960` je přepsáno podle tohoto článku; jiné archivní články uvádějí odlišné počty přihlášených či soutěžících souborů a údaj zůstává veden v `URB-U-0027`.
+- Formulace `na 3960` je přepsána podle tohoto článku jako přibližný údaj. `URB-U-0027` byla uzavřena: přesný počet přihlášených scén v jiném článku je 3915 a oba texty pojednávají o téže soutěži.
 - Jméno osoby na fotografii vychází z tištěného popisku, nikoli z identifikace podle tváře.
 - Druhá řádková kontrola dne 2026-07-21 potvrdila celý článek, podpis, fotografický popisek i kredit bez textové opravy.
 - Historická a hodnotící tvrzení článku nejsou tímto OCR nezávisle ověřena.

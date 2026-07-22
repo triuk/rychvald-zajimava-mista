@@ -1,0 +1,152 @@
+name: Resolve URB-U-0027
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.resolve-urb-u-0027
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Record resolution
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          root = Path('research/urbanek-archive')
+
+          # Remove the item from the open shard.
+          p = root / 'uncertainties/open-02b.yml'
+          lines = p.read_text('utf-8').splitlines()
+          lines = [ln for ln in lines if 'id: URB-U-0027' not in ln]
+          text = '\n'.join(lines) + '\n'
+          text = text.replace('scope: open_items_0027_0032', 'scope: open_items_0028_0032')
+          p.write_text(text, 'utf-8')
+
+          # Closed record and verification note.
+          (root / 'uncertainties/closed-16.yml').write_text('''schema_version: 1
+scope: closed_item_0027
+items:
+  - id: URB-U-0027
+    status: resolved
+    priority: medium
+    collection: Ochotníci rychvald
+    type: exact_count_and_rounded_reporting
+    source_items: [urbanek-ochotnici-010, urbanek-ochotnici-014]
+    question: "Kolik vesnických souborů nebo kolektivů bylo zapojeno do soutěže: 3915, nebo přibližně 3960?"
+    resolution: >-
+      Oba články popisují tutéž první celostátní soutěž vesnických divadelních
+      souborů v roce 1960. Údaj 3915 je přesný počet scén přihlášených do soutěže.
+      Formulace „na 3960 vesnických kolektivů“ je dobové přibližné a zaokrouhlené
+      vyjádření téhož rozsahu akce, nikoli údaj o jiné soutěži. Pro faktografické
+      použití se přebírá hodnota 3915; údaj 3960 lze citovat pouze jako přibližnou
+      formulaci konkrétního článku.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0027-participant-counts.md
+    resolved_at: 2026-07-22
+    resolved_by: source_comparison_and_user_confirmation
+    confidence: verified
+''', 'utf-8')
+
+          (root / 'verifications/urb-u-0027-participant-counts.md').write_text('''# Ověření URB-U-0027 – počet souborů v celostátní soutěži
+
+Datum ověření: 2026-07-22
+
+## Závěr
+
+Oba archivní články pojednávají o stejné první celostátní soutěži vesnických
+divadelních souborů v roce 1960. Shodují se na vyhlašujících ministerstvech,
+ústředních přehlídkách v Kroměříži, Jindřichově Hradci a Levici i účasti
+rychvaldského souboru s Večerem tříkrálovým.
+
+Článek „Vesničtí ochotníci se představují“ uvádí přesně: „Celkem 3915
+vesnických scén (z toho 1052 ze Slovenska) se přihlásilo.“ Článek „Katka,
+Angelika a Viola v Kroměříži“ uvádí přibližně: „zúčastnilo na 3960 vesnických
+kolektivů“. Slovo „na“ označuje přibližný údaj.
+
+Pro faktografické použití se proto eviduje **3915 přihlášených scén**. Číslo
+„na 3960“ se zachovává pouze jako dobová zaokrouhlená formulace druhého článku.
+
+## Zdroje
+
+1. `research/urbanek-archive/ocr/urbanek-ochotnici-014-document-text.md`
+2. `research/urbanek-archive/ocr/urbanek-ochotnici-010-document-text.md`
+''', 'utf-8')
+
+          # Update index.
+          p = root / 'uncertainties/index.yml'
+          s = p.read_text('utf-8')
+          s = s.replace('summary: {open: 9, deferred: 0, resolved: 26, not_actionable: 3, total: 38}',
+                        'summary: {open: 8, deferred: 0, resolved: 27, not_actionable: 3, total: 38}')
+          if '  - closed-16.yml\n' not in s:
+              s = s.replace('  - closed-15.yml\n', '  - closed-15.yml\n  - closed-16.yml\n')
+          rule = '  - When one source gives an exact count and another explicitly approximate rounded count for the same event, preserve both readings but use the exact count for factual synthesis.\n'
+          if rule not in s:
+              s += rule
+          p.write_text(s, 'utf-8')
+
+          # Update OCR reliability notes.
+          p = root / 'ocr/urbanek-ochotnici-014-document-text.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- Časový údaj `14. 5. do 2. 6.` a počet `3915` jsou údaje tohoto konkrétního článku; rozdíl proti článku `010` zůstává veden jako `URB-U-0027`.',
+                        '- Časový údaj `14. 5. do 2. 6.` a přesný počet `3915` jsou údaje tohoto konkrétního článku. `URB-U-0027` byla uzavřena: jiný článek uvádí pouze přibližné zaokrouhlení „na 3960“ pro tutéž soutěž; pro faktografické použití se přebírá 3915.')
+          p.write_text(s, 'utf-8')
+
+          p = root / 'ocr/urbanek-ochotnici-010-document-text.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- Číslo `3960` je přepsáno podle tohoto článku; jiné archivní články uvádějí odlišné počty přihlášených či soutěžících souborů a údaj zůstává veden v `URB-U-0027`.',
+                        '- Formulace `na 3960` je přepsána podle tohoto článku jako přibližný údaj. `URB-U-0027` byla uzavřena: přesný počet přihlášených scén v jiném článku je 3915 a oba texty pojednávají o téže soutěži.')
+          p.write_text(s, 'utf-8')
+
+          # Status summary.
+          p = root / 'STATUS.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- `open`: 9;', '- `open`: 8;', 1)
+          s = s.replace('- `resolved`: 26;', '- `resolved`: 27;', 1)
+          marker = '`URB-U-0026` byla uzavřena jako potvrzená alternace role Fabiana. Tištěný program uvádí Radomíra Jurdina; Václav Válek jej v roli alternoval. Obě archivní fotografie jsou proto správně pojmenované. Přesné rozdělení jednotlivých repríz mezi oba herce není doloženo.\n'
+          add = marker + '\n`URB-U-0027` byla uzavřena: oba články popisují tutéž soutěž. Hodnota 3915 je přesný počet přihlášených scén; formulace „na 3960“ je pouze dobové přibližné zaokrouhlení.\n'
+          if marker in s and '`URB-U-0027` byla uzavřena' not in s:
+              s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          # State summary.
+          p = root / 'state.yml'
+          s = p.read_text('utf-8')
+          s = s.replace('summary: {open: 9, in_progress: 0, deferred: 0, resolved: 26, not_actionable: 3, total: 38}',
+                        'summary: {open: 8, in_progress: 0, deferred: 0, resolved: 27, not_actionable: 3, total: 38}')
+          marker = '''    - id: URB-U-0026
+      result: fabian_role_alternation_radomir_jurdin_and_vaclav_valek_verified
+      evidence: research/urbanek-archive/verifications/urb-u-0026-vaclav-valek-research.md
+'''
+          add = marker + '''    - id: URB-U-0027
+      result: exact_count_3915_approximate_3960_same_event_verified
+      evidence: research/urbanek-archive/verifications/urb-u-0027-participant-counts.md
+'''
+          if marker in s and 'exact_count_3915_approximate_3960_same_event_verified' not in s:
+              s = s.replace(marker, add, 1)
+          rule = '    - Exact participant counts take precedence over explicitly approximate rounded figures when both sources describe the same event.\n'
+          if rule not in s:
+              s = s.replace('    - User-confirmed cast alternation may reconcile a printed cast with differently named archival photographs when ensemble membership is independently corroborated.\n',
+                            '    - User-confirmed cast alternation may reconcile a printed cast with differently named archival photographs when ensemble membership is independently corroborated.\n' + rule)
+          p.write_text(s, 'utf-8')
+
+          # Reconciliation report.
+          p = root / 'reports/pilot-reconciliation.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- `open`: 9;', '- `open`: 8;', 1)
+          s = s.replace('- `resolved`: 26;', '- `resolved`: 27;', 1)
+          paragraph = '`URB-U-0027` je uzavřena: oba dobové články popisují tutéž první celostátní soutěž vesnických divadelních souborů. Přesný počet přihlášených scén je 3915; formulace „na 3960“ je pouze přibližné zaokrouhlení druhého článku.\n\n'
+          if '`URB-U-0027` je uzavřena' not in s:
+              s = s.replace('## Připravenost větve\n', paragraph + '## Připravenost větve\n')
+          p.write_text(s, 'utf-8')
+          PY
+          rm -f research/urbanek-archive/.resolve-urb-u-0027 .github/workflows/resolve-urb-u-0027.yml
+          git config user.name "OpenAI Agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Resolve URB-U-0027 participant count"
+          git push origin HEAD:agent/import-urbanek-pilot

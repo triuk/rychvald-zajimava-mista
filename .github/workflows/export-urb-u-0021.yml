@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - name: Collect archive image and Kramerius issue pages
+      - name: Collect archive image and Kramerius page viewer
         shell: bash
         run: |
           mkdir -p out/archive out/kramerius
@@ -29,7 +29,7 @@ jobs:
           def fetch(url, path):
             try:
               req=urllib.request.Request(url,headers=headers)
-              with urllib.request.urlopen(req,timeout=90) as r:
+              with urllib.request.urlopen(req,timeout=120) as r:
                 data=r.read(); ctype=r.headers.get('content-type',''); status=r.status
               Path(path).write_bytes(data)
               log.append({'url':url,'status':status,'content_type':ctype,'bytes':len(data),'file':str(path)})
@@ -38,26 +38,24 @@ jobs:
               log.append({'url':url,'error':repr(e),'file':str(path)})
               return b''
 
-          # The old catalogue exposes two editions for issue 281 dated 12 October 1938.
-          for issue in ('843603','843604'):
-            issue_dir=Path('out/kramerius')/f'issue-{issue}'
-            issue_dir.mkdir(parents=True,exist_ok=True)
-            issue_url=f'{BASE}/kramerius/PShowIssue.do?id={issue}&it='
-            data=fetch(issue_url, issue_dir/'issue.html')
-            text=data.decode('utf-8','replace')
-            page_ids=[]
-            for m in re.finditer(r'href=["\']([^"\']*PShowPage\.do[^"\']*?[?&]id=(\d+)[^"\']*)["\']',text,re.I):
-              if m.group(2) not in page_ids: page_ids.append(m.group(2))
-            (issue_dir/'page-ids.json').write_text(json.dumps(page_ids,indent=2),'utf-8')
-            for order,page_id in enumerate(page_ids,1):
-              page_url=f'{BASE}/kramerius/PShowPage.do?id={page_id}&it=0'
-              pdata=fetch(page_url, issue_dir/f'page-{order:02d}-{page_id}.html')
-              ptext=pdata.decode('utf-8','replace')
-              links=[]
-              for href in re.findall(r'(?:href|src)=["\']([^"\']+)["\']',ptext,re.I):
-                if any(k in href.lower() for k in ('djvu','image','img','zoom','stream')):
-                  links.append(urllib.parse.urljoin(BASE,href.replace('&amp;','&')))
-              (issue_dir/f'page-{order:02d}-{page_id}-links.json').write_text(json.dumps(list(dict.fromkeys(links)),ensure_ascii=False,indent=2),'utf-8')
+          # Page 2 of the 8-page Prague morning edition, 12 October 1938, issue 281.
+          page_id='8051962'
+          idpi='13916277'
+          page_url=f'{BASE}/kramerius/PShowPage.do?id={page_id}&it=0'
+          pdata=fetch(page_url,'out/kramerius/page.html')
+          viewer_url=f'{BASE}/kramerius/PShowPageDoc.do?it=0&id={page_id}&picp=&idpi={idpi}'
+          vdata=fetch(viewer_url,'out/kramerius/viewer.html')
+          vtext=vdata.decode('utf-8','replace')
+
+          candidates=[]
+          for value in re.findall(r'(?:href|src|value)=["\']([^"\']+)["\']',vtext,re.I):
+            value=value.replace('&amp;','&')
+            if any(k in value.lower() for k in ('djvu','image','img','stream','zoom','getfile','getimage')):
+              candidates.append(urllib.parse.urljoin(BASE,value))
+          Path('out/kramerius/viewer-links.json').write_text(json.dumps(list(dict.fromkeys(candidates)),ensure_ascii=False,indent=2),'utf-8')
+
+          for i,url in enumerate(list(dict.fromkeys(candidates))):
+            fetch(url,f'out/kramerius/candidate-{i:02d}.bin')
 
           Path('out/kramerius/requests.json').write_text(json.dumps(log,ensure_ascii=False,indent=2),'utf-8')
           PY

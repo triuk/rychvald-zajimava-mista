@@ -9,8 +9,9 @@
 - Kategorie: `document_text`
 - Stav: `visually_verified`
 - Druh: dvoustránkový divadelní program
-- Nejistota související s obsazením: `URB-U-0026`
+- Nejistota související s obsazením: `URB-U-0026` (`resolved_as_cast_alternation`)
 - Druhá vizuální kontrola: `2026-07-21`
+- Alternace potvrzena uživatelem: `2026-07-22`
 
 ## Titulní strana
 
@@ -66,11 +67,19 @@ Text sleduje: **DANA SUDEROVÁ**
 
 Děj se odehrává v městě Illyrii v XV. století.
 
+## Alternace role Fabiana
+
+Dochovaný program uvádí jako představitele Fabiana **Radomíra Jurdina**.
+Uživatel potvrdil, že v této roli alternoval také **Václav Válek**. Tomu odpovídají
+archivní fotografie pojmenované `Viola a Fabiano - Sylvie Kravalová a Radomír Jurdin.jpg`
+a `Fabiano - Václav Válek.jpg`. Přesné rozdělení jednotlivých repríz mezi oba
+herce není doloženo.
+
 ## Poznámky ke spolehlivosti
 
 - Celý přepis byl podruhé porovnán s oběma zdrojovými obrazy.
 - Jméno hudebního autora je na programu čitelné jako `ČESTMÍR PALONCY`; nebylo doplněno nebo upraveno podle externích zdrojů.
 - Zkratka `LAD.` u Ladislava Vybrance je přepsána doslovně.
 - Při druhé kontrole bylo opraveno pouze rozvržení společného označení `ve službách vévodových`; v prvním přepisu bylo nepřesně připojeno jen k Valentinovi.
-- Program uvádí postavu Fabiana jako `RADOMÍR JURDIN`, zatímco původní název souboru `Fabiano - Václav Válek.jpg` uvádí jiné jméno. Rozpor je veden jako `URB-U-0026` a nebyl rozhodnut podle fotografie.
+- Tištěný program zachycuje konkrétní programové obsazení a sám neuvádí alternaci. Informace o Václavu Válkovi jako alternantovi pochází z uživatelského potvrzení; jeho členství v souboru nezávisle dokládá článek Bořivoje Pešky.
 - Jména v programu představují tištěné obsazení; sama o sobě nejsou nezávislým ověřením totožnosti osob na jednotlivých fotografiích.

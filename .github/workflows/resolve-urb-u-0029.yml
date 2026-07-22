@@ -1,5 +1,9 @@
 name: Resolve URB-U-0029
 on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - .github/workflows/resolve-urb-u-0029.yml
   pull_request:
     types: [synchronize]
 permissions:
@@ -17,7 +21,6 @@ jobs:
           from pathlib import Path
           root = Path('research/urbanek-archive')
 
-          # Open shard: remove URB-U-0029.
           p = root / 'uncertainties/open-02b.yml'
           s = p.read_text('utf-8')
           lines = [ln for ln in s.splitlines() if 'id: URB-U-0029' not in ln]
@@ -25,7 +28,6 @@ jobs:
           s = s.replace('scope: open_items_0029_0032', 'scope: open_items_0031_0032')
           p.write_text(s, 'utf-8')
 
-          # Closed record.
           closed = root / 'uncertainties/closed-18.yml'
           if not closed.exists():
               closed.write_text('''schema_version: 1
@@ -50,7 +52,6 @@ items:
     confidence: verified_missing_continuation
 ''', 'utf-8')
 
-          # Index.
           p = root / 'uncertainties/index.yml'
           s = p.read_text('utf-8')
           s = s.replace('summary: {open: 7, deferred: 0, resolved: 28, not_actionable: 3, total: 38}',
@@ -62,7 +63,6 @@ items:
               s += rule
           p.write_text(s, 'utf-8')
 
-          # OCR note.
           p = root / 'ocr/urbanek-ochotnici-015-c-document-text.md'
           s = p.read_text('utf-8')
           s = s.replace('- Stav: `visually_verified_with_lacuna`', '- Stav: `visually_verified_with_known_missing_continuation`')
@@ -73,7 +73,6 @@ items:
               s = s.replace(marker, add, 1)
           p.write_text(s, 'utf-8')
 
-          # STATUS.
           p = root / 'STATUS.md'
           s = p.read_text('utf-8')
           s = s.replace('- `open`: 7;', '- `open`: 6;', 1)
@@ -84,7 +83,6 @@ items:
               s = s.replace(marker, add, 1)
           p.write_text(s, 'utf-8')
 
-          # State.
           p = root / 'state.yml'
           s = p.read_text('utf-8')
           s = s.replace('summary: {open: 7, in_progress: 0, deferred: 0, resolved: 28, not_actionable: 3, total: 38}',
@@ -101,7 +99,6 @@ items:
               s = s.replace(marker, add, 1)
           p.write_text(s, 'utf-8')
 
-          # Reconciliation.
           p = root / 'reports/pilot-reconciliation.md'
           s = p.read_text('utf-8')
           s = s.replace('- `open`: 7;', '- `open`: 6;', 1)

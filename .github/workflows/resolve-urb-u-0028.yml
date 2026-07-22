@@ -1,0 +1,136 @@
+name: Resolve URB-U-0028
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - .github/workflows/resolve-urb-u-0028.yml
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Record resolution
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root = Path('research/urbanek-archive')
+
+          p = root / 'uncertainties/open-02b.yml'
+          lines = p.read_text('utf-8').splitlines()
+          lines = [ln for ln in lines if 'id: URB-U-0028' not in ln]
+          s = '\n'.join(lines) + '\n'
+          s = s.replace('scope: open_items_0028_0032', 'scope: open_items_0029_0032')
+          p.write_text(s, 'utf-8')
+
+          (root / 'uncertainties/closed-17.yml').write_text('''schema_version: 1
+scope: closed_item_0028
+items:
+  - id: URB-U-0028
+    status: resolved
+    priority: medium
+    collection: Ochotníci rychvald
+    type: erroneous_character_name_in_retrospective_article
+    source_items: [urbanek-ochotnici-019, urbanek-ochotnici-028, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-038]
+    question: "Je postava Evy Močkořové Olivie, nebo Ofélie?"
+    resolution: >-
+      Správně je Olivie. Tištěný program Večera tříkrálového uvádí
+      „Olivie, dcera hraběte — Eva Močkořová“ a archivní fotografie je
+      pojmenována „Olivie - Eva Močkořová.jpg“. Ofélie je postava z Hamleta,
+      nikoli z Večera tříkrálového. Podoba „Ofélie“ v retrospektivním článku
+      Bořivoje Pešky je proto autorský nebo tiskový omyl; v doslovném přepisu
+      článku zůstává zachována a je výslovně opravena v poznámce.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0028-olivie-ofelie.md
+    resolved_at: 2026-07-22
+    resolved_by: printed_program_archival_filename_and_play_text
+    confidence: verified
+''', 'utf-8')
+
+          (root / 'verifications/urb-u-0028-olivie-ofelie.md').write_text('''# Ověření URB-U-0028 – Olivie versus Ofélie
+
+Datum ověření: 2026-07-22
+
+## Závěr
+
+Eva Močkořová hrála ve Večeru tříkrálovém **Olivii**. Tištěný program uvádí
+„Olivie, dcera hraběte — EVA MOČKOŘOVÁ“ a archivní fotografie nese název
+`Olivie - Eva Močkořová.jpg`. Ofélie je postava ze Shakespearova Hamleta.
+
+Věta Bořivoje Pešky „Vhodnou představitelkou Ofélie byla Eva Močkořová“ je
+proto autorský nebo tiskový omyl v retrospektivním článku. Doslovný OCR přepis
+chybnou podobu zachovává, ale poznámka ji nesmí přebírat jako správný údaj.
+
+## Zdroje
+
+1. `research/urbanek-archive/ocr/urbanek-ochotnici-032-033-document-text.md`
+2. `research/urbanek-archive/ocr/urbanek-ochotnici-019-028-document-text.md`
+3. `sources/osobni-archiv-jaromira-urbanka/Ochotníci rychvald/Olivie - Eva Močkořová.jpg`
+''', 'utf-8')
+
+          p = root / 'uncertainties/index.yml'
+          s = p.read_text('utf-8')
+          s = s.replace('summary: {open: 8, deferred: 0, resolved: 27, not_actionable: 3, total: 38}',
+                        'summary: {open: 7, deferred: 0, resolved: 28, not_actionable: 3, total: 38}')
+          if '  - closed-17.yml\n' not in s:
+              s = s.replace('  - closed-16.yml\n', '  - closed-16.yml\n  - closed-17.yml\n')
+          rule = '  - When a printed program and the dramatic text agree on a character name, an incompatible name in a later retrospective article is recorded as an authorial or typographical error rather than silently normalized in the transcription.\n'
+          if rule not in s:
+              s += rule
+          p.write_text(s, 'utf-8')
+
+          p = root / 'ocr/urbanek-ochotnici-019-028-document-text.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- Článek tiskne podobu role `Ofélie`, ačkoli program Večera tříkrálového uvádí `Olivie`. Text nebyl potichu opraven.',
+                        '- Článek tiskne chybnou podobu role `Ofélie`; správně je `Olivie`, jak potvrzuje program Večera tříkrálového, archivní název fotografie a samotná hra. `URB-U-0028` je uzavřena jako autorský nebo tiskový omyl; doslovný text článku nebyl potichu opraven.')
+          p.write_text(s, 'utf-8')
+
+          p = root / 'ocr/urbanek-ochotnici-032-033-document-text.md'
+          s = p.read_text('utf-8')
+          if '- Nejistota názvu postavy Evy Močkořové: `URB-U-0028` (`resolved_as_olivie`).\n' not in s:
+              s = s.replace('- Alternace potvrzena uživatelem: `2026-07-22`\n', '- Alternace potvrzena uživatelem: `2026-07-22`\n- Nejistota názvu postavy Evy Močkořové: `URB-U-0028` (`resolved_as_olivie`).\n')
+          p.write_text(s, 'utf-8')
+
+          p = root / 'STATUS.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- `open`: 8;', '- `open`: 7;', 1)
+          s = s.replace('- `resolved`: 27;', '- `resolved`: 28;', 1)
+          marker = '`URB-U-0027` byla uzavřena: oba články popisují tutéž soutěž. Hodnota 3915 je přesný počet přihlášených scén; formulace „na 3960“ je pouze dobové přibližné zaokrouhlení.\n'
+          add = marker + '\n`URB-U-0028` byla uzavřena: Eva Močkořová hrála Olivii. Podoba „Ofélie“ v retrospektivním článku Bořivoje Pešky je autorský nebo tiskový omyl; v doslovném přepisu zůstává zachována s výslovnou opravnou poznámkou.\n'
+          if marker in s and '`URB-U-0028` byla uzavřena' not in s:
+              s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          p = root / 'state.yml'
+          s = p.read_text('utf-8')
+          s = s.replace('summary: {open: 8, in_progress: 0, deferred: 0, resolved: 27, not_actionable: 3, total: 38}',
+                        'summary: {open: 7, in_progress: 0, deferred: 0, resolved: 28, not_actionable: 3, total: 38}')
+          marker = '''    - id: URB-U-0027
+      result: exact_count_3915_approximate_3960_same_event_verified
+      evidence: research/urbanek-archive/verifications/urb-u-0027-participant-counts.md
+'''
+          add = marker + '''    - id: URB-U-0028
+      result: olivie_correct_ofelie_retrospective_article_error
+      evidence: research/urbanek-archive/verifications/urb-u-0028-olivie-ofelie.md
+'''
+          if marker in s and 'olivie_correct_ofelie_retrospective_article_error' not in s:
+              s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          p = root / 'reports/pilot-reconciliation.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- `open`: 8;', '- `open`: 7;', 1)
+          s = s.replace('- `resolved`: 27;', '- `resolved`: 28;', 1)
+          paragraph = '`URB-U-0028` je uzavřena: správné jméno postavy Evy Močkořové je Olivie. Podoba „Ofélie“ v retrospektivním článku je autorský nebo tiskový omyl a zůstává zachována pouze v doslovném přepisu s opravnou poznámkou.\n\n'
+          if '`URB-U-0028` je uzavřena' not in s:
+              s = s.replace('## Připravenost větve\n', paragraph + '## Připravenost větve\n')
+          p.write_text(s, 'utf-8')
+          PY
+          rm -f .github/workflows/resolve-urb-u-0028.yml
+          git config user.name "OpenAI Agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Resolve URB-U-0028 as Olivie"
+          git push origin HEAD:agent/import-urbanek-pilot

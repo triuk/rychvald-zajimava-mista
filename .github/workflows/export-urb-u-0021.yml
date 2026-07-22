@@ -1,0 +1,55 @@
+name: Export URB-U-0021 sources
+on:
+  push:
+    branches: [agent/import-urbanek-pilot]
+    paths:
+      - research/urbanek-archive/.export-urb-u-0021
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Collect archive image and Kramerius diagnostics
+        shell: bash
+        run: |
+          mkdir -p out/archive out/kramerius
+          cp 'sources/osobni-archiv-jaromira-urbanka/Články z Českého slova/21.jpg' out/archive/
+          python - <<'PY'
+          import json, urllib.request, urllib.parse
+          from pathlib import Path
+
+          root='uuid:1585c940-8080-11ea-a276-5ef3fc9bb22f'
+          bases=[
+            'https://kramerius5.nkp.cz/search/api/client/v7.0',
+            'https://kramerius5.nkp.cz/search/api/client/v5.0',
+            'https://kramerius5.nkp.cz/search/api/v5.0',
+            'https://www.ndk.cz/search/api/client/v7.0',
+          ]
+          urls=[]
+          for b in bases:
+            urls += [
+              f'{b}/items/{urllib.parse.quote(root, safe=":")}/children',
+              f'{b}/item/{urllib.parse.quote(root, safe=":")}/children',
+              f'{b}/items/{urllib.parse.quote(root, safe=":")}',
+              f'{b}/item/{urllib.parse.quote(root, safe=":")}',
+            ]
+          log=[]
+          for i,url in enumerate(urls):
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'application/json'})
+              with urllib.request.urlopen(req,timeout=40) as r:
+                data=r.read()
+                ctype=r.headers.get('content-type','')
+                status=r.status
+              Path(f'out/kramerius/response-{i:02d}.bin').write_bytes(data)
+              log.append({'index':i,'url':url,'status':status,'content_type':ctype,'bytes':len(data)})
+            except Exception as e:
+              log.append({'index':i,'url':url,'error':repr(e)})
+          Path('out/kramerius/requests.json').write_text(json.dumps(log,ensure_ascii=False,indent=2),'utf-8')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urb-u-0021-sources
+          path: out

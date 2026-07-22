@@ -146,7 +146,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 10, in_progress: 0, deferred: 0, resolved: 25, not_actionable: 3, total: 38}
+  summary: {open: 9, in_progress: 0, deferred: 0, resolved: 26, not_actionable: 3, total: 38}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -178,6 +178,9 @@ uncertainties:
     - id: URB-U-0022
       result: known_physical_lacuna_closed
       evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-035-document-text.md
+    - id: URB-U-0026
+      result: fabian_role_alternation_radomir_jurdin_and_vaclav_valek_verified
+      evidence: research/urbanek-archive/verifications/urb-u-0026-vaclav-valek-research.md
   not_actionable_items:
     - id: URB-U-0017
       result: incidental_previous_article_edge_excluded_from_clipping_scope
@@ -207,6 +210,7 @@ uncertainties:
     - Windmill identifications are compared with the Povětrník specialist database before closure.
     - A resolved identity does not close unresolved location, date, ownership or technology; create a linked open item for those attributes.
     - Known physical or cropping lacunae may be closed when all surviving text is transcribed and the missing content is explicitly marked without reconstruction.
+    - User-confirmed cast alternation may reconcile a printed cast with differently named archival photographs when ensemble membership is independently corroborated.
 
 readiness:
   status: draft_pr_open_with_complete_pilot_file_set

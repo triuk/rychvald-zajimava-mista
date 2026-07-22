@@ -12,6 +12,7 @@
 - Nejistota související s obsazením: `URB-U-0026` (`resolved_as_cast_alternation`)
 - Druhá vizuální kontrola: `2026-07-21`
 - Alternace potvrzena uživatelem: `2026-07-22`
+- Nejistota názvu postavy Evy Močkořové: `URB-U-0028` (`resolved_as_olivie`).
 
 ## Titulní strana
 

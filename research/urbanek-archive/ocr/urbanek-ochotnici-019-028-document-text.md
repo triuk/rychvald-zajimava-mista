@@ -70,7 +70,7 @@ Stav rukopisné vrstvy: `visually_verified`.
 - Druhá řádková kontrola dne 2026-07-21 opravila `Třasořítka` na tištěné `Třasořitka` a `maskování` na tištěné `maskovaní`.
 - Přepis zachovává dobové zkratky `ONV`, `MNV`, `MěNV`, `DZN`, `KOBR` a tištěné podoby jmen.
 - Věta `Intrikánský podlého Malvolia...` obsahuje už v předloze zjevnou syntaktickou mezeru; chybějící výraz nebyl rekonstruován.
-- Článek tiskne podobu role `Ofélie`, ačkoli program Večera tříkrálového uvádí `Olivie`. Text nebyl potichu opraven.
+- Článek tiskne chybnou podobu role `Ofélie`; správně je `Olivie`, jak potvrzuje program Večera tříkrálového, archivní název fotografie a samotná hra. `URB-U-0028` je uzavřena jako autorský nebo tiskový omyl; doslovný text článku nebyl potichu opraven.
 - Podoba `O. Matějíčkem` se liší od jiných výskytů `O. Matějík` a `O. Matějíkem`; všechny byly zachovány podle konkrétního místa.
 - Článek uvádí `Adri Liivese`, zatímco program Poslední noci v roce tiskne `Ardi Liives`; varianty nebyly sjednoceny.
 - Tvar `incenacemi` je zachován podle tisku.

@@ -69,9 +69,9 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 8;
+- `open`: 7;
 - `deferred`: 0;
-- `resolved`: 27;
+- `resolved`: 28;
 - `not_actionable`: 3;
 - celkem: 38.
 
@@ -102,6 +102,8 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 `URB-U-0026` je uzavřena jako alternace role Fabiana. Radomír Jurdin je uveden v tištěném programu a Václav Válek jej v roli alternoval. Archivní článek nezávisle potvrzuje Václava Válka jako člena rychvaldského souboru. Přesné rozdělení jednotlivých repríz není doloženo.
 
 `URB-U-0027` je uzavřena: oba dobové články popisují tutéž první celostátní soutěž vesnických divadelních souborů. Přesný počet přihlášených scén je 3915; formulace „na 3960“ je pouze přibližné zaokrouhlení druhého článku.
+
+`URB-U-0028` je uzavřena: správné jméno postavy Evy Močkořové je Olivie. Podoba „Ofélie“ v retrospektivním článku je autorský nebo tiskový omyl a zůstává zachována pouze v doslovném přepisu s opravnou poznámkou.
 
 ## Připravenost větve
 

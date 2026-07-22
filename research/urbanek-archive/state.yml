@@ -146,7 +146,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 8, in_progress: 0, deferred: 0, resolved: 27, not_actionable: 3, total: 38}
+  summary: {open: 7, in_progress: 0, deferred: 0, resolved: 28, not_actionable: 3, total: 38}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -184,6 +184,9 @@ uncertainties:
     - id: URB-U-0027
       result: exact_count_3915_approximate_3960_same_event_verified
       evidence: research/urbanek-archive/verifications/urb-u-0027-participant-counts.md
+    - id: URB-U-0028
+      result: olivie_correct_ofelie_retrospective_article_error
+      evidence: research/urbanek-archive/verifications/urb-u-0028-olivie-ofelie.md
   not_actionable_items:
     - id: URB-U-0017
       result: incidental_previous_article_edge_excluded_from_clipping_scope

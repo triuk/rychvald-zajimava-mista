@@ -97,9 +97,9 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 8;
+- `open`: 7;
 - `deferred`: 0;
-- `resolved`: 27;
+- `resolved`: 28;
 - `not_actionable`: 3;
 - celkem: 38.
 
@@ -138,6 +138,8 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 `URB-U-0026` byla uzavřena jako potvrzená alternace role Fabiana. Tištěný program uvádí Radomíra Jurdina; Václav Válek jej v roli alternoval. Obě archivní fotografie jsou proto správně pojmenované. Přesné rozdělení jednotlivých repríz mezi oba herce není doloženo.
 
 `URB-U-0027` byla uzavřena: oba články popisují tutéž soutěž. Hodnota 3915 je přesný počet přihlášených scén; formulace „na 3960“ je pouze dobové přibližné zaokrouhlení.
+
+`URB-U-0028` byla uzavřena: Eva Močkořová hrála Olivii. Podoba „Ofélie“ v retrospektivním článku Bořivoje Pešky je autorský nebo tiskový omyl; v doslovném přepisu zůstává zachována s výslovnou opravnou poznámkou.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

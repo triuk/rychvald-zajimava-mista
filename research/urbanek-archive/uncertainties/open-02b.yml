@@ -1,5 +1,27 @@
 schema_version: 1
 scope: open_items_0031_0032
 items:
-  - {id: URB-U-0031, status: open, priority: high, collection: Ochotníci rychvald, type: handwritten_date_conflict, source_items: [urbanek-ochotnici-003], question: "Proč je list jednoznačně datován 29. února 1960, když doplňková tabulka obsahuje dvě položky označené rokem 1961?", evidence: research/urbanek-archive/ocr/urbanek-ochotnici-003-b-document-text.md, next_action: "Zjistit z fyzického originálu, inkoustových vrstev, dalších verzí seznamu nebo svědectví, zda byly řádky 1961 či jiné části listu doplněny po původní dataci; rukopisná čtení názvů a rolí jsou již vizuálně ověřena."}
-  - {id: URB-U-0032, status: open, priority: low, collection: Ochotníci rychvald, type: cropped_article_continuation, source_items: [urbanek-ochotnici-004], question: "Jak pokračuje výsledkový blok Ocenění v celostátní soutěži vesnických divadelních souborů po slovech aktuální otázky naší…?", evidence: research/urbanek-archive/ocr/urbanek-ochotnici-004-document-text.md, next_action: "Najít úplnou stránku časopisu Svět v obrazech nebo jinou reprodukci téhož výsledkového bloku; pokračování nedoplňovat odhadem."}
+  - id: URB-U-0031
+    status: open
+    priority: high
+    collection: Ochotníci rychvald
+    type: handwritten_internal_date_conflict
+    source_items: [urbanek-ochotnici-003]
+    question: "Proč je list datován 23. února 1960, když obsahuje dvě položky roku 1961 a souhrn do roku 1961?"
+    evidence: research/urbanek-archive/ocr/urbanek-ochotnici-003-b-document-text.md
+    current_findings: >-
+      Původní čtení dne 29 bylo opraveno na 23. Uživatel potvrdil, že list nebyl
+      později doplňován. Fotografie nemusí zachycovat případnou další spodní část listu.
+    next_action: >-
+      Rozhodnout, zda položku uzavřít jako vnitřní datovací chybu s neznámým
+      zamýšleným rokem. Znovu ji otevřít jen při nalezení úplnějšího snímku nebo
+      fyzického originálu; nedochovaný spodní obsah nedomýšlet.
+  - id: URB-U-0032
+    status: open
+    priority: low
+    collection: Ochotníci rychvald
+    type: cropped_article_continuation
+    source_items: [urbanek-ochotnici-004]
+    question: "Jak pokračuje výsledkový blok Ocenění v celostátní soutěži vesnických divadelních souborů po slovech aktuální otázky naší…?"
+    evidence: research/urbanek-archive/ocr/urbanek-ochotnici-004-document-text.md
+    next_action: "Najít úplnou stránku časopisu Svět v obrazech nebo jinou reprodukci téhož výsledkového bloku; pokračování nedoplňovat odhadem."

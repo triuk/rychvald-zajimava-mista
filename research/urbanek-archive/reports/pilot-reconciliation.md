@@ -50,7 +50,7 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 - 37 obrazových položek bylo seskupeno podle fyzické sazby.
 - První OCR a druhá řádková kontrola jsou dokončeny.
-- Fyzické lakuny, chybějící výstřižky a neidentifikované fragmenty zůstávají v registru nejistot.
+- Fyzické a ořezové lakuny jsou výslovně označeny; pouze ty, u nichž zůstává aktivní badatelský úkol, se vedou jako otevřené nejistoty.
 
 ### Ochotníci rychvald
 
@@ -69,9 +69,9 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 13;
+- `open`: 12;
 - `deferred`: 0;
-- `resolved`: 23;
+- `resolved`: 24;
 - `not_actionable`: 2;
 - celkem: 38.
 
@@ -92,6 +92,8 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 `URB-U-0017` je `not_actionable`: spodní okraj předchozího článku je na fotografii `9.jpg` pouze vedlejším obsahem mimo rozsah cílového výstřižku a dále se neidentifikuje ani nepřepisuje.
 
 `URB-U-0020` je uzavřena jako známá fyzická lakuna bez dalšího badatelského úkolu. Veškerý zachovaný text byl přepsán a chybějící úsek zůstává výslovně označen bez odhadované rekonstrukce.
+
+`URB-U-0021` je uzavřena jako známá ořezová lakuna. Archivní fotografie zachycuje pouze horní část novinové strany; chybějící spodní části sloupců zůstávají výslovně označeny a nejsou rekonstruovány.
 
 ## Připravenost větve
 

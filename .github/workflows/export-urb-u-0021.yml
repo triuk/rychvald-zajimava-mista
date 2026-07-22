@@ -4,6 +4,8 @@ on:
     branches: [agent/import-urbanek-pilot]
     paths:
       - research/urbanek-archive/.export-urb-u-0021
+  pull_request:
+    types: [synchronize]
 permissions:
   contents: read
 jobs:

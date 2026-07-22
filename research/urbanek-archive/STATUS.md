@@ -97,9 +97,9 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 10;
+- `open`: 9;
 - `deferred`: 0;
-- `resolved`: 25;
+- `resolved`: 26;
 - `not_actionable`: 3;
 - celkem: 38.
 
@@ -134,6 +134,8 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 `URB-U-0022` byla uzavřena jako známá fyzická lakuna ve výstřižku `33.jpg`. Několik zničených řádků zůstává výslovně označeno a nesmí být rekonstruováno odhadem.
 
 `URB-U-0023` byla označena jako `not_actionable`: horní proužek v souboru `18.jpg` je pouze spodní okraj předchozího článku zachycený na fotografii navíc. Není součástí cílového výstřižku ani samostatným předmětem OCR či identifikace.
+
+`URB-U-0026` byla uzavřena jako potvrzená alternace role Fabiana. Tištěný program uvádí Radomíra Jurdina; Václav Válek jej v roli alternoval. Obě archivní fotografie jsou proto správně pojmenované. Přesné rozdělení jednotlivých repríz mezi oba herce není doloženo.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

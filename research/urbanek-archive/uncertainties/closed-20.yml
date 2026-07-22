@@ -1,0 +1,21 @@
+schema_version: 1
+scope: closed_item_0032
+items:
+  - id: URB-U-0032
+    status: resolved
+    priority: low
+    collection: Ochotníci rychvald
+    type: known_cropping_lacuna
+    source_items: [urbanek-ochotnici-004]
+    question: "Jak pokračuje výsledkový blok Ocenění v celostátní soutěži vesnických divadelních souborů po slovech aktuální otázky naší…?"
+    resolution: >-
+      Uživatel rozhodl položku uzavřít jako známou ořezovou lakunu bez dalšího
+      hledání. Zdrojový obraz zachycuje výsledkový blok pouze po větu končící
+      slovy aktuální otázky naší…; pokračování leží mimo dolní okraj snímku.
+      Veškerý dochovaný text je přepsán, mezera zůstává výslovně označena a
+      chybějící text nesmí být rekonstruován odhadem.
+    evidence: research/urbanek-archive/ocr/urbanek-ochotnici-004-document-text.md
+    evidence_added: "Vizuálně ověřený zdrojový obraz Svět v obrazech.jpg a uživatelské rozhodnutí ukončit další dohledávání."
+    resolved_at: 2026-07-22
+    resolved_by: user_scope_decision
+    confidence: verified_cropping_lacuna

@@ -1,0 +1,119 @@
+name: Resolve URB-U-0029
+on:
+  pull_request:
+    types: [synchronize]
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Record resolution
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          root = Path('research/urbanek-archive')
+
+          # Open shard: remove URB-U-0029.
+          p = root / 'uncertainties/open-02b.yml'
+          s = p.read_text('utf-8')
+          lines = [ln for ln in s.splitlines() if 'id: URB-U-0029' not in ln]
+          s = '\n'.join(lines) + '\n'
+          s = s.replace('scope: open_items_0029_0032', 'scope: open_items_0031_0032')
+          p.write_text(s, 'utf-8')
+
+          # Closed record.
+          closed = root / 'uncertainties/closed-18.yml'
+          if not closed.exists():
+              closed.write_text('''schema_version: 1
+scope: closed_item_0029
+items:
+  - id: URB-U-0029
+    status: resolved
+    priority: medium
+    collection: Ochotníci rychvald
+    type: known_missing_page_continuation
+    source_items: [urbanek-ochotnici-015-c]
+    question: "Kde je pokračování článku Hospodářský přehled po slově Dřívějšímu po- na straně 45?"
+    resolution: >-
+      Článek začíná na straně 45 a pokračoval na nezachycené straně 46.
+      Archivní série obsahuje pouze strany 40 až 45; další kontrolované snímky
+      zachycují jiné dokumenty. Pokračování ani dokončení rozděleného slova
+      nelze z dostupných podkladů bezpečně rekonstruovat. Uživatel rozhodl
+      položku uzavřít jako známé chybějící pokračování bez dalšího hledání.
+    evidence: research/urbanek-archive/ocr/urbanek-ochotnici-015-c-document-text.md
+    resolved_at: 2026-07-22
+    resolved_by: user_scope_decision_after_archive_sequence_check
+    confidence: verified_missing_continuation
+''', 'utf-8')
+
+          # Index.
+          p = root / 'uncertainties/index.yml'
+          s = p.read_text('utf-8')
+          s = s.replace('summary: {open: 7, deferred: 0, resolved: 28, not_actionable: 3, total: 38}',
+                        'summary: {open: 6, deferred: 0, resolved: 29, not_actionable: 3, total: 38}')
+          if '  - closed-18.yml\n' not in s:
+              s = s.replace('  - closed-17.yml\n', '  - closed-17.yml\n  - closed-18.yml\n')
+          rule = '  - A missing continuation on a demonstrably absent following page may be closed as a known lacuna when the user declines further searching; no text may be reconstructed from context alone.\n'
+          if rule not in s:
+              s += rule
+          p.write_text(s, 'utf-8')
+
+          # OCR note.
+          p = root / 'ocr/urbanek-ochotnici-015-c-document-text.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- Stav: `visually_verified_with_lacuna`', '- Stav: `visually_verified_with_known_missing_continuation`')
+          s = s.replace('- Otevřená nejistota: `URB-U-0029`', '- Nejistota: `URB-U-0029` (`resolved`)')
+          marker = '- Chybějící pokračování nebylo rekonstruováno.\n'
+          add = marker + '- Kontrola archivní řady potvrdila, že jsou zachyceny strany 40–45; následující strana 46 chybí. Uživatel rozhodl položku uzavřít jako známé chybějící pokračování bez dalšího hledání.\n'
+          if marker in s and 'Kontrola archivní řady potvrdila' not in s:
+              s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          # STATUS.
+          p = root / 'STATUS.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- `open`: 7;', '- `open`: 6;', 1)
+          s = s.replace('- `resolved`: 28;', '- `resolved`: 29;', 1)
+          marker = '`URB-U-0028` byla uzavřena: Eva Močkořová hrála Olivii. Podoba „Ofélie“ v retrospektivním článku Bořivoje Pešky je autorský nebo tiskový omyl; v doslovném přepisu zůstává zachována s výslovnou opravnou poznámkou.\n'
+          add = marker + '\n`URB-U-0029` byla uzavřena jako známé chybějící pokračování. Článek „Hospodářský přehled“ končí na straně 45 rozděleným slovem a následující strana 46 v archivní sérii chybí; text se nereconstruuje odhadem.\n'
+          if marker in s and '`URB-U-0029` byla uzavřena' not in s:
+              s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          # State.
+          p = root / 'state.yml'
+          s = p.read_text('utf-8')
+          s = s.replace('summary: {open: 7, in_progress: 0, deferred: 0, resolved: 28, not_actionable: 3, total: 38}',
+                        'summary: {open: 6, in_progress: 0, deferred: 0, resolved: 29, not_actionable: 3, total: 38}')
+          marker = '''    - id: URB-U-0028
+      result: olivie_correct_ofelie_retrospective_article_error
+      evidence: research/urbanek-archive/verifications/urb-u-0028-olivie-ofelie.md
+'''
+          add = marker + '''    - id: URB-U-0029
+      result: known_missing_page_46_continuation_closed
+      evidence: research/urbanek-archive/ocr/urbanek-ochotnici-015-c-document-text.md
+'''
+          if marker in s and 'known_missing_page_46_continuation_closed' not in s:
+              s = s.replace(marker, add, 1)
+          p.write_text(s, 'utf-8')
+
+          # Reconciliation.
+          p = root / 'reports/pilot-reconciliation.md'
+          s = p.read_text('utf-8')
+          s = s.replace('- `open`: 7;', '- `open`: 6;', 1)
+          s = s.replace('- `resolved`: 28;', '- `resolved`: 29;', 1)
+          para = '`URB-U-0029` je uzavřena jako známé chybějící pokračování: článek „Hospodářský přehled“ přechází ze strany 45 na nezachovanou stranu 46. Pokračování ani rozdělené slovo nejsou rekonstruovány.\n\n'
+          if '`URB-U-0029` je uzavřena' not in s:
+              s = s.replace('## Připravenost větve\n', para + '## Připravenost větve\n')
+          p.write_text(s, 'utf-8')
+          PY
+          rm -f .github/workflows/resolve-urb-u-0029.yml
+          git config user.name "OpenAI Agent"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Resolve URB-U-0029 missing continuation" || exit 0
+          git push origin HEAD:agent/import-urbanek-pilot

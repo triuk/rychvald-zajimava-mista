@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 7, deferred: 0, resolved: 28, not_actionable: 3, total: 38}
+summary: {open: 6, deferred: 0, resolved: 29, not_actionable: 3, total: 38}
 open_files:
   - open-01.yml
   - open-02b.yml
@@ -26,6 +26,7 @@ closed_files:
   - closed-15.yml
   - closed-16.yml
   - closed-17.yml
+  - closed-18.yml
 rules:
   - A thumbnail in Thumbs.db without a standalone full file means the full original is missing; visually verified duplicate thumbnails do not represent additional missing image content.
   - When one part of a question is resolved but other material attributes remain unknown, keep the resolved finding closed and create a linked open item for the unresolved attributes.
@@ -34,3 +35,4 @@ rules:
   - A printed cast and a differently named archival photograph may both be correct when user testimony confirms role alternation and the named person is independently documented as a member of the ensemble.
   - When one source gives an exact count and another explicitly approximate rounded count for the same event, preserve both readings but use the exact count for factual synthesis.
   - When a printed program and the dramatic text agree on a character name, an incompatible name in a later retrospective article is recorded as an authorial or typographical error rather than silently normalized in the transcription.
+  - A missing continuation on a demonstrably absent following page may be closed as a known lacuna when the user declines further searching; no text may be reconstructed from context alone.

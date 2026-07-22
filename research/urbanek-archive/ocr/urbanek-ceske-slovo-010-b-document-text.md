@@ -1,21 +1,20 @@
-# OCR: neidentifikovaný horní fragment
+# Vedlejší obsah mimo rozsah výstřižku
 
 - Zdroj: `urbanek-ceske-slovo-010-b`
 - Nadřazený obraz: `urbanek-ceske-slovo-010`
 - Soubor: `Články z Českého slova/9.jpg`
-- Kategorie: `document_text`
-- Stav: `visually_verified`
-- Druh: oříznutý konec cizího článku
+- Kategorie: `incidental_surrounding_content`
+- Stav: `excluded_from_document_scope`
 - Vizuálně ověřeno: `2026-07-20`
-- Nejistota: `URB-U-0017`
+- Rozsah upřesněn uživatelem: `2026-07-22`
+- Nejistota: `URB-U-0017` (`not_actionable`)
 
-## Rozsah fragmentu
+## Vyhodnocení
 
-Nad hlavním článkem je zachován pouze úzký spodní okraj předchozího textu a signatura `-vk-`. Jednotlivá slova jsou horním ořezem natolik poškozena, že z nich nelze sestavit spolehlivý souvislý přepis.
+Nad hlavním článkem je na fotografii zachycen pouze úzký spodní okraj předchozího
+novinového textu se signaturou `-vk-`. Uživatel upřesnil, že tento proužek je na
+snímku navíc a není součástí dokumentovaného výstřižku.
 
-## Poznámky k ověření
-
-- Fragment byl při druhé kontrole fyzicky oddělen od článku `urbanek-ceske-slovo-010`.
-- Signatura `-vk-` je čitelná; nadpis, začátek a tematické zařazení článku zachyceny nejsou.
-- Stav `visually_verified` potvrzuje rozsah a čitelnost fragmentu, nikoli jeho identitu.
-- `URB-U-0017` zůstává otevřená do nalezení celé stránky nebo sousedního výstřižku.
+Fragment se proto nepovažuje za samostatný článek, nemá se dále identifikovat ani
+přepisovat a není součástí dokumentového OCR. Zůstává evidován pouze jako technická
+poznámka o obsahu mimo zamýšlený rozsah fotografie.

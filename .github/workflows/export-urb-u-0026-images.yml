@@ -1,0 +1,22 @@
+name: Export URB-U-0026 evidence
+on:
+  pull_request:
+    types: [synchronize]
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: agent/import-urbanek-pilot
+      - name: Collect evidence images
+        shell: bash
+        run: |
+          mkdir -p out
+          cp "sources/osobni-archiv-jaromira-urbanka/Ochotníci rychvald/Viola a Fabiano - Sylvie Kravalová a Radomír Jurdin.jpg" out/
+          cp "sources/osobni-archiv-jaromira-urbanka/Ochotníci rychvald/večer třikr.jpg" out/
+          cp "sources/osobni-archiv-jaromira-urbanka/Ochotníci rychvald/Fabiano - Václav Válek.jpg" out/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: urb-u-0026-evidence
+          path: out

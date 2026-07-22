@@ -69,9 +69,9 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 10;
+- `open`: 9;
 - `deferred`: 0;
-- `resolved`: 25;
+- `resolved`: 26;
 - `not_actionable`: 3;
 - celkem: 38.
 
@@ -98,6 +98,8 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 `URB-U-0022` je uzavřena jako známá fyzická lakuna ve výstřižku `33.jpg`. Veškerý dochovaný text je přepsán a několik zničených řádků zůstává označeno bez odhadované rekonstrukce.
 
 `URB-U-0023` je `not_actionable`: horní okraj předchozího článku je na fotografii `18.jpg` pouze vedlejším obsahem mimo rozsah cílového výstřižku a dále se neidentifikuje ani nepřepisuje.
+
+`URB-U-0026` je uzavřena jako alternace role Fabiana. Radomír Jurdin je uveden v tištěném programu a Václav Válek jej v roli alternoval. Archivní článek nezávisle potvrzuje Václava Válka jako člena rychvaldského souboru. Přesné rozdělení jednotlivých repríz není doloženo.
 
 ## Připravenost větve
 

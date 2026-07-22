@@ -1,23 +1,23 @@
-# OCR fragment: zakončení neidentifikovaného článku
+# Vedlejší obsah mimo rozsah výstřižku
 
 - Zdroj: `urbanek-ceske-slovo-019-b`
 - Nadřazený obraz: `urbanek-ceske-slovo-019`
 - Soubor: `Články z Českého slova/18.jpg`
-- Kategorie: `document_text`
-- Stav: `visually_verified`
-- Druh: zakončení cizího článku na horním okraji obrazu
-- Vizuálně ověřeno: `2026-07-21`
+- Kategorie: `incidental_surrounding_content`
+- Stav: `excluded_from_document_scope`
+- Rozsah upřesněn uživatelem: `2026-07-22`
+- Nejistota: `URB-U-0023` (`not_actionable`)
 
-## Viditelný přepis
+## Viditelný obsah
 
 > …cích. -bi-
 
-## Rozsah fragmentu
+## Vyhodnocení
 
-Na horním okraji snímku je zachován pouze konec jednoho slova nebo řádku a signatura `-bi-`. Nadpis ani souvislý text článku na obraze nejsou.
+Na horním okraji fotografie je zachycen pouze spodní okraj předchozího článku.
+Uživatel potvrdil, že proužek je na snímku navíc a není součástí dokumentovaného
+výstřižku `Vojenský dozor na šachtách na Těšínsku`.
 
-## Poznámky
-
-- Fragment není součástí článku `urbanek-ceske-slovo-019`.
-- Neviditelný začátek slova nebyl domýšlen.
-- Bez celé stránky nelze fragment bezpečně přiřadit ke konkrétnímu článku.
+Fragment se proto nepovažuje za samostatný článek, nemá se dále identifikovat ani
+přepisovat a zůstává evidován pouze jako technická poznámka o obsahu mimo zamýšlený
+rozsah fotografie.

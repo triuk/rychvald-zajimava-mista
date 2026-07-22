@@ -23,30 +23,43 @@ jobs:
           from pathlib import Path
 
           root='uuid:1585c940-8080-11ea-a276-5ef3fc9bb22f'
-          bases=[
-            'https://kramerius5.nkp.cz/search/api/client/v7.0',
-            'https://kramerius5.nkp.cz/search/api/client/v5.0',
-            'https://kramerius5.nkp.cz/search/api/v5.0',
-            'https://www.ndk.cz/search/api/client/v7.0',
-          ]
           urls=[]
+          bases=[
+            'https://kramerius5.nkp.cz/search/api/v5.0',
+            'https://www.ndk.cz/search/api/v5.0',
+          ]
           for b in bases:
             urls += [
-              f'{b}/items/{urllib.parse.quote(root, safe=":")}/children',
               f'{b}/item/{urllib.parse.quote(root, safe=":")}/children',
-              f'{b}/items/{urllib.parse.quote(root, safe=":")}',
               f'{b}/item/{urllib.parse.quote(root, safe=":")}',
             ]
+          queries=[
+            '"Polský zábor českých obcí dokončen"',
+            '"Polské obavy o Bohumínsko"',
+            '"Jos. Pleva"',
+            'date:1938-10-12',
+            'datum_str:1938-10-12',
+            'root_title:"České slovo" AND date:1938-10-12',
+            'root_title:"České slovo" AND issue.number:281',
+          ]
+          for q in queries:
+            urls.append('https://kramerius5.nkp.cz/search/api/v5.0/search?'+urllib.parse.urlencode({'q':q,'rows':100}))
+          urls += [
+            'https://kramerius.nkp.cz/kramerius/PShowVolume.do?id=12802&it=',
+            'https://kramerius.nkp.cz/kramerius/PShowVolume.do?id=12457&it=',
+          ]
+
           log=[]
           for i,url in enumerate(urls):
             try:
-              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'application/json'})
-              with urllib.request.urlopen(req,timeout=40) as r:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'*/*'})
+              with urllib.request.urlopen(req,timeout=60) as r:
                 data=r.read()
                 ctype=r.headers.get('content-type','')
                 status=r.status
-              Path(f'out/kramerius/response-{i:02d}.bin').write_bytes(data)
-              log.append({'index':i,'url':url,'status':status,'content_type':ctype,'bytes':len(data)})
+              suffix='.html' if 'html' in ctype else '.json' if 'json' in ctype else '.bin'
+              Path(f'out/kramerius/response-{i:02d}{suffix}').write_bytes(data)
+              log.append({'index':i,'url':url,'status':status,'content_type':ctype,'bytes':len(data),'file':f'response-{i:02d}{suffix}'})
             except Exception as e:
               log.append({'index':i,'url':url,'error':repr(e)})
           Path('out/kramerius/requests.json').write_text(json.dumps(log,ensure_ascii=False,indent=2),'utf-8')

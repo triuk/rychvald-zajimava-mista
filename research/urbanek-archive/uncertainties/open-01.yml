@@ -22,5 +22,4 @@ items:
       - new_archive_batch_processed
       - matching_historical_photograph_found
       - new_caption_or_source_note_available
-  - {id: URB-U-0011, status: open, priority: low, collection: Rychvaldské větrné mlýny, type: probable_misfiled_copy, source_items: [urbanek-mlyny-039], question: "Jak souvisí kopie Kakalova mlýna se složkou domu č. 339?", evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny-batch-03.yml, next_action: "Hledat doprovodné popisky; bez dokladu považovat za referenční kopii."}
   - {id: URB-U-0017, status: open, priority: low, collection: Články z Českého slova, type: unidentified_article_fragment, source_items: [urbanek-ceske-slovo-010-b], question: "Ke kterému článku patří neidentifikovaný horní fragment se signaturou -vk-?", evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-010-b-document-text.md, next_action: "Přiřadit jen při nalezení celé stránky nebo sousedního výstřižku."}

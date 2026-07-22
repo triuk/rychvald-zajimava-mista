@@ -69,9 +69,9 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 14;
+- `open`: 13;
 - `deferred`: 0;
-- `resolved`: 22;
+- `resolved`: 23;
 - `not_actionable`: 2;
 - celkem: 38.
 
@@ -90,6 +90,8 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 `URB-U-0011` je uzavřena jako chybně zařazená přesná kopie obrazu Kakalova mlýna. Nezachycuje mlýnek za domem č. 339 a soubor se nepoužívá jako doklad k tomuto zařízení; původní archivní cesta zůstává zachována.
 
 `URB-U-0017` je `not_actionable`: spodní okraj předchozího článku je na fotografii `9.jpg` pouze vedlejším obsahem mimo rozsah cílového výstřižku a dále se neidentifikuje ani nepřepisuje.
+
+`URB-U-0020` je uzavřena jako známá fyzická lakuna bez dalšího badatelského úkolu. Veškerý zachovaný text byl přepsán a chybějící úsek zůstává výslovně označen bez odhadované rekonstrukce.
 
 ## Připravenost větve
 

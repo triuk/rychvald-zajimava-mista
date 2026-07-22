@@ -97,9 +97,9 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 14;
+- `open`: 13;
 - `deferred`: 0;
-- `resolved`: 22;
+- `resolved`: 23;
 - `not_actionable`: 2;
 - celkem: 38.
 
@@ -126,6 +126,8 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 `URB-U-0011` byla uzavřena jako chybně zařazená přesná kopie obrazu Kakalova mlýna ve složce domu č. 339. Jde o jiný objekt a soubor se nepoužívá jako doklad k mlýnku u č.p. 339; původní archivní cesta se zachovává.
 
 `URB-U-0017` byla označena jako `not_actionable`: úzký proužek nad článkem v souboru `9.jpg` je pouze spodní okraj předchozího článku zachycený na fotografii navíc. Není součástí cílového výstřižku ani samostatným předmětem OCR či identifikace.
+
+`URB-U-0020` byla uzavřena jako známá, ale nepodstatná fyzická lakuna v článku „Zprávy z Těšínska“. Veškerý dochovaný text je přepsán; chybějící úsek zůstává výslovně označen a nesmí být rekonstruován odhadem.
 
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 

@@ -1,0 +1,54 @@
+schema_version: 1
+scope: ccs_batch_13_open_items
+items:
+  - id: URB-U-0068
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: Leonard_Bogumski_name_identity_service_spouse_garden_and_Vodicka_visit
+    related_open_items: [URB-U-0063, URB-U-0064, URB-U-0067]
+    source_items: [urbanek-ccs-062, urbanek-ccs-064, urbanek-ccs-065]
+    question: >-
+      Jaká je správná úřední podoba jména Leonard Bogumski nebo Bogumský, kdy a kde
+      působil jako farář, je duchovní na portrétu skutečně on, která osoba na skupinových
+      snímcích je Bogumský a která jeho manželka, kde byla zahrada, kdy přesně návštěva
+      proběhla a šlo o rok 1965, rok 1970 nebo dvě různé návštěvy spojené s výročím?
+    known_facts:
+      - "Urbanek-ccs-062 zachycuje muže v duchovním oděvu a světlé štole, který čte z otevřené knihy za liturgickým stolem se znakem kalicha a kříže."
+      - "Jméno Leonard Bogumski a funkce faráře pocházejí z archivního názvu urbanek-ccs-062."
+      - "Urbanek-ccs-064 zachycuje širší skupinu, jejíž přední řadu tvoří dvě sedící ženy a dva sedící muži."
+      - "Urbanek-ccs-065 zachycuje stejné čtyři sedící osoby samostatně před zahradním plotem."
+      - "Archivní názvy tvrdí, že jde o faráře Vodičku a Bogumského s manželkami a že zahradní snímek vznikl u faráře Bogumského."
+      - "Název druhé podsložky uvádí návštěvu faráře Vodičky v letech 1965 a 1970 u příležitosti textu končícího číslem 50; tento folderový údaj je archivní metadata, nikoli potvrzená datace jednotlivých snímků."
+      - "Archiv používá pravopisné varianty Bogumski a Bogumský."
+    unresolved_attributes:
+      - authoritative_name_spelling_and_full_titles
+      - portrait_identity
+      - birth_death_and_biographical_data
+      - exact_clerical_service_places_and_dates
+      - relationship_to_Rychvald_congregation
+      - identity_and_biography_of_spouse
+      - mapping_of_four_seated_people
+      - identities_of_larger_group
+      - garden_owner_location_and_address
+      - exact_date_of_each_group_image
+      - whether_1965_and_1970_represent_two_visits
+      - exact_anniversary_or_event_context
+      - relationship_to_baptisms_and_fiftieth_anniversary_series
+    next_action: >-
+      Hledat personální schematismy a církevní adresáře, sborovou a obecní kroniku,
+      zápisy rady starších, programy návštěv roku 1965 a 1970, rodinné prameny,
+      životopis a oddací záznam, adresu fary nebo zahrady a další popsané fotografie.
+      Pravopis jména ani osoby ve skupině neurčovat pouze podle archivního pořadí či tváře.
+    reopen_triggers:
+      - clergy_personnel_record_found
+      - authoritative_name_source_found
+      - 1965_or_1970_visit_program_found
+      - church_or_municipal_chronicle_entry_found
+      - spouse_or_family_identification_provided
+      - garden_or_parsonage_address_confirmed
+      - captioned_parallel_photo_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml
+      - sources/index.d/urbanek-ccs-13.yml

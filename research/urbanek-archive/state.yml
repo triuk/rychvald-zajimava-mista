@@ -23,6 +23,7 @@ authoritative_files:
     - sources/index.d/urbanek-ccs.yml
     - sources/index.d/urbanek-ccs-02.yml
     - sources/index.d/urbanek-ccs-03.yml
+    - sources/index.d/urbanek-ccs-04.yml
 
 pull_request:
   number: 1
@@ -44,55 +45,24 @@ checkpoints:
   urb_u_0032_resolution_commit: 171acb480c3c1177104df8007647903e8dd2e077
   urb_u_0032_temp_cleanup_final_commit: b94ce7128266332800c878935fbac6d566a66dd9
   ccs_history_overview_commit: ec08c19bd23a93b6ec24dddaf6636a3e370a62c8
-  ccs_history_inventory_01_commit: a167ccaf592076e38632df0e95d3bd7398033b57
-  ccs_history_batch_01_commit: 482ab4cfd05802ac4fbd55222db04ce6df53b3fd
-  ccs_history_source_index_01_commit: 5c77fe0db46f2b65675db1207a9193a2b3b95fc9
   ccs_history_inventory_03_commit: 48c7daf5cae1caba3f1cf9586ceb0fe39be853e2
   ccs_history_batch_03_commit: 3380b9c9f2c9b9aca2da718c710606f700a69df1
   ccs_history_source_index_03_commit: 7fa43bca38f5b0c6ebdd43c2624833a28bcb5618
   ccs_history_uncertainties_03_commit: f5a573b992c6e2ec10ca7747232269530d71b4b7
+  ccs_history_inventory_04_commit: e516cb36ed7ab2387571effc9d548b6d2b1112b7
+  ccs_history_batch_04_commit: 396805d46839b3c2204c80c73a63d78a946eea60
+  ccs_history_source_index_04_commit: 1e4f32adc5c15d3fd61338f0e84185d2d005f9bc
+  ccs_history_uncertainties_04_commit: 8fafd933ac79cdc5204493a31e29f5c2556ea0c3
 
 pilot:
   status: completed
-  totals:
-    collections: 5
-    content_files: 144
-    technical_files: 15
-    total_items: 159
-    repo_verified_items: 159
-    repo_missing_items: 0
-    missing_full_original_images_known_only_from_thumbnail_caches: 11
+  totals: {collections: 5, content_files: 144, technical_files: 15, total_items: 159, repo_verified_items: 159, repo_missing_items: 0, missing_full_original_images_known_only_from_thumbnail_caches: 11}
   collections:
-    - id: urbanek-mlyny
-      name: Rychvaldské větrné mlýny
-      status: classification_and_initial_ocr_completed
-      content_files: 31
-      technical_files: 8
-      total_items: 39
-    - id: urbanek-ceske-slovo
-      name: Články z Českého slova
-      status: first_pass_and_second_visual_review_completed
-      content_files: 37
-      technical_files: 2
-      total_items: 39
-    - id: urbanek-ochotnici
-      name: Ochotníci rychvald
-      status: first_text_pass_and_second_visual_review_completed
-      content_files: 61
-      technical_files: 2
-      total_items: 63
-    - id: urbanek-den-po-desti
-      name: fotodokument/den po dešti
-      status: technical_audit_and_visual_classification_completed
-      content_files: 8
-      technical_files: 2
-      total_items: 10
-    - id: urbanek-nalet-ostrava-1944
-      name: Nálet na Ostravu 1944
-      status: technical_audit_and_visual_classification_completed
-      content_files: 7
-      technical_files: 1
-      total_items: 8
+    - {id: urbanek-mlyny, name: Rychvaldské větrné mlýny, status: classification_and_initial_ocr_completed, content_files: 31, technical_files: 8, total_items: 39}
+    - {id: urbanek-ceske-slovo, name: Články z Českého slova, status: first_pass_and_second_visual_review_completed, content_files: 37, technical_files: 2, total_items: 39}
+    - {id: urbanek-ochotnici, name: Ochotníci rychvald, status: first_text_pass_and_second_visual_review_completed, content_files: 61, technical_files: 2, total_items: 63}
+    - {id: urbanek-den-po-desti, name: fotodokument/den po dešti, status: technical_audit_and_visual_classification_completed, content_files: 8, technical_files: 2, total_items: 10}
+    - {id: urbanek-nalet-ostrava-1944, name: Nálet na Ostravu 1944, status: technical_audit_and_visual_classification_completed, content_files: 7, technical_files: 1, total_items: 8}
 
 next_archive_batch:
   collection_id: urbanek-ccs-history
@@ -103,105 +73,54 @@ next_archive_batch:
     - sources/index.d/urbanek-ccs.yml
     - sources/index.d/urbanek-ccs-02.yml
     - sources/index.d/urbanek-ccs-03.yml
-  totals:
-    subfolders: 10
-    content_files: 200
-    technical_files: 1
-    total_items: 201
+    - sources/index.d/urbanek-ccs-04.yml
+  totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 15
-    repo_verified_items: 15
-    visually_classified_items: 15
-    source_indexed_items: 15
-    remaining_items: 186
+    processed_items: 20
+    repo_verified_items: 20
+    visually_classified_items: 20
+    source_indexed_items: 20
+    remaining_items: 181
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
     thumbnail_cache_audit_status: pending
   completed_batches:
-    - id: construction-sequence-01
-      items: [urbanek-ccs-001, urbanek-ccs-002, urbanek-ccs-003, urbanek-ccs-004, urbanek-ccs-005]
-      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
-      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
-      source_index: sources/index.d/urbanek-ccs.yml
-    - id: opening-and-early-interior-02
-      items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
-      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv
-      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml
-      source_index: sources/index.d/urbanek-ccs-02.yml
-    - id: first-communion-council-and-bells-03
-      items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015]
-      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv
-      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
-      source_index: sources/index.d/urbanek-ccs-03.yml
-      uncertainty_shard: research/urbanek-archive/uncertainties/open-06.yml
-  next_items: [urbanek-ccs-016, urbanek-ccs-017, urbanek-ccs-018, urbanek-ccs-019, urbanek-ccs-020]
+    - {id: construction-sequence-01, items: [urbanek-ccs-001, urbanek-ccs-002, urbanek-ccs-003, urbanek-ccs-004, urbanek-ccs-005], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
+    - {id: opening-and-early-interior-02, items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
+    - {id: first-communion-council-and-bells-03, items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml, source_index: sources/index.d/urbanek-ccs-03.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-06.yml}
+    - {id: murals-occupation-exteriors-and-organ-04, items: [urbanek-ccs-016, urbanek-ccs-017, urbanek-ccs-018, urbanek-ccs-019, urbanek-ccs-020], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-04.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml, source_index: sources/index.d/urbanek-ccs-04.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-07.yml}
+  next_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023, urbanek-ccs-024, urbanek-ccs-025]
   technical_files:
-    - path: "10 Kalendář 2015/Thumbs.db"
-      audit_status: pending
+    - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary:
-    open: 8
-    in_progress: 0
-    deferred: 0
-    resolved: 31
-    not_actionable: 3
-    total: 42
+  summary: {open: 13, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 47}
   active_research_threads:
-    - id: URB-U-0008
-      subject: neidentifikovaná historická fotografie větrného mlýna
-      unresolved: [mill_identity, exact_location, period]
-    - id: URB-U-0036
-      subject: Kakalův mlýn
-      unresolved: [exact_location, house_number, owner_identity, construction_date, disappearance_date, technology]
-    - id: URB-U-0037
-      subject: archivní kontext fotografie kostela sv. Anny
-      unresolved: [folder_relation, meaning_of_304, possible_house_or_person_reference]
-    - id: URB-U-0038
-      subject: mlýnek za domem č. 339
-      unresolved: [exact_historical_location, house_number_continuity, owner_identity, construction_date, disappearance_date, technology]
-      candidate_current_location: "Bohumínská 339, parcela st. 548"
-    - id: URB-U-0039
-      subject: první svaté přijímání – fotografie chlapců a dívek
-      unresolved: [exact_dates, same_or_separate_years, event_identity, clergy_identity, participant_identities]
-    - id: URB-U-0040
-      subject: rada starších a desetiletí CČS v roce 1930
-      unresolved: [exact_caption, exact_event_date, council_confirmation, person_identities]
-    - id: URB-U-0041
-      subject: původ, datace a identita zvonů
-      unresolved: [meaning_of_1920, maker, inscriptions, provenance, installation, set_composition]
-    - id: URB-U-0042
-      subject: historie mechanismu zvonění
-      unresolved: [original_operation, electrification_date, modifications, current_state]
+    - {id: URB-U-0008, subject: neidentifikovaná historická fotografie větrného mlýna}
+    - {id: URB-U-0036, subject: Kakalův mlýn}
+    - {id: URB-U-0037, subject: archivní kontext fotografie kostela sv. Anny}
+    - {id: URB-U-0038, subject: mlýnek za domem č. 339}
+    - {id: URB-U-0039, subject: první svaté přijímání – fotografie chlapců a dívek}
+    - {id: URB-U-0040, subject: rada starších a desetiletí CČS v roce 1930}
+    - {id: URB-U-0041, subject: původ, datace a identita zvonů}
+    - {id: URB-U-0042, subject: historie mechanismu zvonění}
+    - {id: URB-U-0043, subject: autorství, datace a význam nástěnných maleb}
+    - {id: URB-U-0044, subject: odstranění hesla a kalicha během polského záboru}
+    - {id: URB-U-0045, subject: zahradní úprava před sborem za německé okupace}
+    - {id: URB-U-0046, subject: nové varhany roku 1946 a osoby na fotografii}
+    - {id: URB-U-0047, subject: mezery v číslování archivních souborů}
   handling_rule: >-
-    Každá podstatná neověřená datace, identifikace osoby, události, objektu nebo
-    technické interpretace musí být vedena pod stabilním ID. Aktivní položku znovu
-    prověř při získání relevantní fotografie, popisku, textu, mapového, adresního,
-    technického nebo svědeckého dokladu. Negativní dílčí hledání není důvodem k uzavření.
+    Každá podstatná neověřená datace, identifikace osoby, události, objektu,
+    archivní mezery nebo technické interpretace musí být vedena pod stabilním ID.
+    Negativní dílčí hledání není důvodem k uzavření.
 
 consistency_review:
   status: completed_with_corrections
-  corrections:
-    - pilot_and_next_batch_scopes_separated
-    - pull_request_title_and_body_updated
-    - uncertainty_counts_synchronized
-    - urb_u_0032_temporary_artifacts_removed
-    - ccs_collection_overview_created
-    - ccs_source_index_shards_created
-    - first_three_ccs_batches_inventory_and_classification_created
-    - ccs_batch_03_uncertainties_registered
-  verified_equal_totals:
-    ccs_content_files: 200
-    ccs_technical_files: 1
-    ccs_total_items: 201
-    ccs_processed_items: 15
-    ccs_remaining_items: 186
-  ci_status:
-    checks_returned: 0
-    interpretation: no_reported_checks_not_a_successful_test_run
+  verified_equal_totals: {ccs_content_files: 200, ccs_technical_files: 1, ccs_total_items: 201, ccs_processed_items: 20, ccs_remaining_items: 181}
+  ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 
 readiness:
   status: draft_pr_open_pilot_complete_next_batch_in_progress
@@ -212,12 +131,12 @@ readiness:
     - ccs_history_thumbnail_cache_not_audited
   non_blocking_known_issues:
     - eleven pilot full original images are missing; only thumbnails remain in caches
-    - eight historical, personal and technical questions remain open
+    - thirteen historical, personal, archival and technical questions remain open
 
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-016, urbanek-ccs-017, urbanek-ccs-018, urbanek-ccs-019, urbanek-ccs-020]
+  items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023, urbanek-ccs-024, urbanek-ccs-025]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify each source file against the Git branch, record its Git blob SHA,

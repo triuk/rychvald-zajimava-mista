@@ -1,0 +1,90 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-11
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-051
+    title: Hudba v průvodu – archivní označení
+    document_type: modern_color_procession_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/52a  Hudba v průvodu.JPG"
+    file_size_bytes: 3141941
+    git_blob_sha: a81aaee3ab9299576a2b0cc93ef77e2ff6aaa0fd
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Vlajka, dechová hudba a průvod jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_color_procession_with_Czech_flag_and_brass_band, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Archivní název dokládá označení hudby v průvodu, nikoli přesné datum nebo událost.
+      - Vztah k ostatním snímkům husovské série je pravděpodobný, ale není definitivně doložen.
+      - Souvisí s URB-U-0065.
+
+  - source_id: urbanek-ccs-052
+    title: Hranice s obrazem Jana Husa – archivní označení
+    document_type: modern_color_unlit_bonfire_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/52b  Hranice s obrazem  Jana Husa.JPG"
+    file_size_bytes: 2932535
+    git_blob_sha: bff2be623a707b77f08e27f75c06a9c444326a89
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Nezapálená hranice, portrét, dav a stan jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_color_unlit_bonfire_with_attached_portrait_and_crowd, scene_text: no_readable_text, method: "Vizuální kontrola celého obrazu a porovnání s urbanek-ccs-053 a 054."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Identita portrétu jako Jana Husa pochází z archivního názvu.
+      - Obrazové porovnání potvrzuje stejnou hranici na urbanek-ccs-052 až 054.
+      - Souvisí s URB-U-0065.
+
+  - source_id: urbanek-ccs-053
+    title: Hořící hranice – archivní označení
+    document_type: modern_color_burning_bonfire_closeup_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/53  Hranice.JPG"
+    file_size_bytes: 794747
+    git_blob_sha: 01fdea46ebd951ffa40e049d16dff38755d8a1aa
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Plameny, kouř, konstrukce hranice a portrét jsou čitelné."}
+    visual_content: {photographs: single_modern_color_burning_bonfire_closeup, scene_text: no_readable_text, method: "Vizuální kontrola celého obrazu a porovnání s urbanek-ccs-052 a 054."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jde o stejnou konstrukci a portrét jako na urbanek-ccs-052 a 054.
+      - Přesné datum a identita osoby v tmavém oděvu nejsou ověřeny.
+      - Souvisí s URB-U-0065.
+
+  - source_id: urbanek-ccs-054
+    title: Početná účast u hořící hranice – archivní označení
+    document_type: modern_color_burning_bonfire_wide_crowd_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/54  účastníků je vždy hodně.JPG"
+    file_size_bytes: 2430231
+    git_blob_sha: 48e7deea5571623ede16582b730fac09e94eaa79
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Hořící hranice, dav a hasiči jsou dobře čitelní."}
+    visual_content: {photographs: single_modern_color_burning_bonfire_with_large_crowd_and_firefighters, scene_text: not_detected, method: "Vizuální kontrola celého obrazu a porovnání s urbanek-ccs-052 a 053."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Obraz dokládá početný dav, nikoli přesný počet ani opakování vyjádřené slovem vždy.
+      - Jednotka, role a osoby hasičů nejsou ověřeny.
+      - Souvisí s URB-U-0065.
+
+  - source_id: urbanek-ccs-055
+    title: Živý betlém – archivní označení
+    document_type: modern_color_outdoor_living_nativity_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/55   Živý betlém.JPG"
+    file_size_bytes: 3495759
+    git_blob_sha: 58fad4cd9d977515cd9b268b8a388c83003d98c6
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Kostýmy, účinkující, mikrofon a dětská postava nebo rekvizita jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_color_costumed_outdoor_nativity_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata:
+      camera: Panasonic DMC-TZ3
+      datetime_original: "2011-12-10 16:14:43"
+      interpretation: "Technické datum může odpovídat pořízení fotografie, ale samo není nezávislým dokladem data veřejné události."
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Označení živého betléma pochází z archivního názvu a odpovídá kostýmované scéně.
+      - Pořadatel, účinkující, přesná lokalita a opakování akce nejsou ověřeny.
+      - Souvisí s URB-U-0066.

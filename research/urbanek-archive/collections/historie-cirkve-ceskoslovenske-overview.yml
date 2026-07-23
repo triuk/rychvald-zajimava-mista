@@ -7,6 +7,7 @@ source_index_shards:
   - sources/index.d/urbanek-ccs-02.yml
   - sources/index.d/urbanek-ccs-03.yml
   - sources/index.d/urbanek-ccs-04.yml
+  - sources/index.d/urbanek-ccs-05.yml
 attribution: "Z osobního archivu p. Jaromíra Urbánka."
 rights: unknown
 status: processing_in_progress
@@ -47,16 +48,17 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 20
-  repo_verified_items: 20
-  visually_classified_items: 20
-  source_indexed_items: 20
-  remaining_items: 181
+  processed_items: 25
+  repo_verified_items: 25
+  visually_classified_items: 25
+  source_indexed_items: 25
+  remaining_items: 176
   completed_batches:
     - {id: construction-sequence-01, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
     - {id: opening-and-early-interior-02, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
     - {id: first-communion-council-and-bells-03, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml, source_index: sources/index.d/urbanek-ccs-03.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-06.yml}
     - {id: murals-occupation-exteriors-and-organ-04, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-04.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml, source_index: sources/index.d/urbanek-ccs-04.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-07.yml}
+    - {id: wedding-reconstruction-and-bishop-05, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-05.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml, source_index: sources/index.d/urbanek-ccs-05.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-08.yml}
   open_uncertainties_from_collection:
     - URB-U-0039
     - URB-U-0040
@@ -67,11 +69,15 @@ processing:
     - URB-U-0045
     - URB-U-0046
     - URB-U-0047
-  next_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023, urbanek-ccs-024, urbanek-ccs-025]
+    - URB-U-0048
+    - URB-U-0049
+    - URB-U-0050
+  next_items: [urbanek-ccs-026, urbanek-ccs-027, urbanek-ccs-028, urbanek-ccs-029, urbanek-ccs-030]
 
 rules:
   - Filenames and folder names are archival metadata, not independent historical proof.
   - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
   - Document text and scene text are recorded separately.
   - Every unresolved event, date, person, object history, archive gap or technical interpretation is linked to a stable uncertainty ID.
+  - Persons are not identified solely from facial appearance.
   - Original files are not renamed, moved or modified.

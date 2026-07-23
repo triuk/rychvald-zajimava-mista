@@ -9,6 +9,7 @@ source_index_shards:
   - sources/index.d/urbanek-ccs-04.yml
   - sources/index.d/urbanek-ccs-05.yml
   - sources/index.d/urbanek-ccs-06.yml
+  - sources/index.d/urbanek-ccs-07.yml
 attribution: "Z osobního archivu p. Jaromíra Urbánka."
 rights: unknown
 status: processing_in_progress
@@ -49,11 +50,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 30
-  repo_verified_items: 30
-  visually_classified_items: 30
-  source_indexed_items: 30
-  remaining_items: 171
+  processed_items: 35
+  repo_verified_items: 35
+  visually_classified_items: 35
+  source_indexed_items: 35
+  remaining_items: 166
   completed_batches:
     - {id: construction-sequence-01, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
     - {id: opening-and-early-interior-02, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
@@ -61,6 +62,7 @@ processing:
     - {id: murals-occupation-exteriors-and-organ-04, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-04.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml, source_index: sources/index.d/urbanek-ccs-04.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-07.yml}
     - {id: wedding-reconstruction-and-bishop-05, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-05.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml, source_index: sources/index.d/urbanek-ccs-05.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-08.yml}
     - {id: reconstructed-chancel-carpet-and-obsil-murals-06, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-06.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml, source_index: sources/index.d/urbanek-ccs-06.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-09.yml}
+    - {id: anniversary-and-postwar-communion-groups-07, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-07.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml, source_index: sources/index.d/urbanek-ccs-07.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-10.yml}
   open_uncertainties_from_collection:
     - URB-U-0039
     - URB-U-0040
@@ -77,13 +79,18 @@ processing:
     - URB-U-0051
     - URB-U-0052
     - URB-U-0053
-  next_items: [urbanek-ccs-031, urbanek-ccs-032, urbanek-ccs-033, urbanek-ccs-034, urbanek-ccs-035]
+    - URB-U-0054
+    - URB-U-0055
+    - URB-U-0056
+    - URB-U-0057
+  next_items: [urbanek-ccs-036, urbanek-ccs-037, urbanek-ccs-038, urbanek-ccs-039, urbanek-ccs-040]
 
 rules:
   - Filenames and folder names are archival metadata, not independent historical proof.
   - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
   - Document text and scene text are recorded separately.
-  - Every unresolved event, date, person, object history, archive gap or technical interpretation is linked to a stable uncertainty ID.
+  - Every unresolved event, date, person, object history, archive gap, technical interpretation or truncated caption is linked to a stable uncertainty ID.
   - Persons are not identified solely from facial appearance.
-  - A relative architectural sequence does not independently verify absolute dates from filenames.
+  - A relative architectural or event sequence does not independently verify absolute dates from filenames.
+  - Truncated filenames are not completed by guesswork.
   - Original files are not renamed, moved or modified.

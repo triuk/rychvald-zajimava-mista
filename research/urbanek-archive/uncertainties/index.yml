@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 19, deferred: 0, resolved: 31, not_actionable: 3, total: 53}
+summary: {open: 23, deferred: 0, resolved: 31, not_actionable: 3, total: 57}
 open_files:
   - open-01.yml
   - open-03.yml
@@ -9,6 +9,7 @@ open_files:
   - open-07.yml
   - open-08.yml
   - open-09.yml
+  - open-10.yml
 closed_files:
   - closed-01a.yml
   - closed-01b.yml
@@ -47,3 +48,4 @@ rules:
   - A gap in archival filename numbering is recorded as an archive-sequence uncertainty, but is not classified as a missing full original until a thumbnail, manifest entry or other concrete reference proves that a separate image existed.
   - Persons in photographs are not identified solely from facial appearance; identification requires a caption, documentary source, user testimony or another explicit evidentiary link.
   - A visually established relative sequence of architectural states does not by itself verify the absolute years assigned in archival filenames.
+  - Text missing from a demonstrably truncated archival filename is recorded as an uncertainty and is never reconstructed solely from grammar, context or the pictured scene.

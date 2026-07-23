@@ -44,32 +44,33 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je patnáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `075`.
+Dokončeno je šestnáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `080`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **75 z 201 položek**;
-- proti Git blob SHA ověřeno: **75 položek**;
-- vizuálně klasifikováno: **75 položek**;
-- zdrojově indexováno: **75 položek**;
-- zbývá: **126 položek**.
+- zpracováno: **80 z 201 položek**;
+- proti Git blob SHA ověřeno: **80 položek**;
+- vizuálně klasifikováno: **80 položek**;
+- zdrojově indexováno: **80 položek**;
+- zbývá: **121 položek**.
 
-### Zjištění dávky 15
+### Zjištění dávky 16
 
-Dávka 15 pokračuje v sérii návštěvy archivně připisované Ferdinandu Stiborovi.
+Dávka 16 uzavírá podsložku návštěvy archivně připisované Ferdinandu Stiborovi a otevírá sérii slavnostní volby a jmenování Gabriela Chrobáčka.
 
-- `urbanek-ccs-071` a `072` zachycují tutéž nebo bezprostředně navazující venkovní skupinu z odlišných záběrů. Opakují se účastníci a oděvy, ale jejich jména ani identita hlavního hosta nejsou obrazem potvrzeny.
-- `urbanek-ccs-073` zachycuje menší skupinu dospělých a duchovních před oltářem.
-- `urbanek-ccs-074` je další formální skupinový snímek duchovních a civilních účastníků.
-- `urbanek-ccs-075` zachycuje velkou společnou skupinu dospělých, duchovních a dětí.
-- Společná podsložka, pořadí, prostředí a opakující se osoby podporují jednu návštěvní sérii, nikoli však samy o sobě jméno Ferdinand Stibor, rok 1948 ani přesný program.
+- `urbanek-ccs-076` zachycuje sedm sedících dospělých ve venkovním prostředí. Uprostřed je duchovní s řetězem nebo insignií a kyticí. Archivní název označuje skupinu jako biskupa Stibora s radou starších a obsahuje useknuté fragmenty jmen `Herman, nn,Trant. Šm`; pokračování nebylo rekonstruováno.
+- `urbanek-ccs-077` zachycuje čtyři duchovní s výraznými řetězy nebo insigniemi, otevřenou velkou knihu a další účastníky v pozadí.
+- `urbanek-ccs-078` zachycuje duchovního v kulatých brýlích držícího listy nebo dokument před skupinou přihlížejících.
+- `urbanek-ccs-079` zachycuje obřad u oltáře se třemi hlavními duchovními, kalichem, knihami a dalším duchovním u pultu. Prostřední má přívěsek připomínající kalich.
+- `urbanek-ccs-080` zachycuje zaplněný interiér se samostatnou přední řadou; nejméně dva muži v ní mají výrazné řetězy nebo insignie.
+- Snímky `077–080` podle prostředí, pořadí a opakujících se účastníků pravděpodobně tvoří jednu obřadní posloupnost. Jméno Gabriel Chrobáček, volba, jmenování a neúplný rok `19…` však pocházejí z názvu podsložky a nejsou obrazem samostatně potvrzeny.
 
-Pracovní soubory dávky 15:
+Pracovní soubory dávky 16:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-15.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml`;
-- `sources/index.d/urbanek-ccs-15.yml`;
-- rozšířený `research/urbanek-archive/uncertainties/open-08.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-16.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-16.yml`;
+- `sources/index.d/urbanek-ccs-16.yml`;
+- rozšířené `research/urbanek-archive/uncertainties/open-08.yml` a `open-12.yml`.
 
 ## Registr nejistot
 
@@ -81,13 +82,18 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 68.
 
-Dávka 15 nepřidala nové ID. Rozšířila `URB-U-0050` o venkovní záběry, skupinu před oltářem, formální skupinu a společnou fotografii s dětmi. Osoby se neidentifikují pouze podle obličeje a souvislost obrazové série sama nepotvrzuje datum ani funkce.
+Dávka 16 nepřidala nové ID. Rozšířila:
+
+- `URB-U-0050` – úplnou Stiborovu podsložku, skupinu označenou jako rada starších a useknuté fragmenty jmen;
+- `URB-U-0062` – úvodní část volby a jmenování, osoby s insigniemi, čtení dokumentu, obřad u oltáře, účastníky a neúplný rok v názvu podsložky.
+
+Osoby se neidentifikují pouze podle obličeje. Řetěz nebo insignie sám neurčuje úřad a useknutá jména ani rok se nedoplňují odhadem.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 75 zpracovaných a 126 zbývajících položek;
+- aktuální průběžný stav je 80 zpracovaných a 121 zbývajících položek;
 - registr používá součty 34/31/3/68;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -95,7 +101,8 @@ Dávka 15 nepřidala nové ID. Rozšířila `URB-U-0050` o venkovní záběry, s
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-076` až `urbanek-ccs-080`.
-- Očekávaný přechod: poslední soubor podsložky `3 Biskup Ferdinand Stibor v Rychvaldě` (`6 Biskup Stibor s radou starších...`) a první čtyři soubory podsložky `4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka...`; přesné mapování se ověří před zápisem.
+- Následující položky: `urbanek-ccs-081` až `urbanek-ccs-085`.
+- Očekávané archivní názvy: `5  Syn Jaromír snacha Milena,dcera Miluše, manželka a paní S.jpg`, `6.jpg`, `7.jpg`, `8.jpg` a `9.jpg`.
+- Název souboru `5` je useknutý za řetězcem `paní S`; pokračování ani rodinné vztahy se nesmějí domýšlet.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

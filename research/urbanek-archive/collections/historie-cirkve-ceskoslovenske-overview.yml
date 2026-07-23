@@ -2,6 +2,7 @@ schema_version: 1
 collection_id: urbanek-ccs-history
 collection_name: Historie Církve československé v Rychvaldě ve fotografiích
 source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
+source_index_shard: sources/index.d/urbanek-ccs.yml
 attribution: "Z osobního archivu p. Jaromíra Urbánka."
 rights: unknown
 status: processing_in_progress

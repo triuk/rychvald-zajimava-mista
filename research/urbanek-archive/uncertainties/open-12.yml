@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_09_open_items_updated_through_batch_12
+scope: ccs_batch_09_open_items_updated_through_batch_13
 items:
   - id: URB-U-0061
     status: open
@@ -67,44 +67,50 @@ items:
     status: open
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: Gabriel_Chrobacek_episcopal_appointment_inauguration_presentation_and_delegation
+    type: Gabriel_Chrobacek_identity_episcopal_appointment_inauguration_portrait_presentation_and_delegation
     related_open_items: [URB-U-0055, URB-U-0059, URB-U-0063]
-    source_items: [urbanek-ccs-045, urbanek-ccs-046]
+    source_items: [urbanek-ccs-045, urbanek-ccs-046, urbanek-ccs-061]
     question: >-
       Kdy, kde a do jakého biskupského úřadu byl Gabriel Chrobáček ustanoven a
-      inaugurován, zachycují obě fotografie tutéž slavnost, kdo tvořil rychvaldskou
-      delegaci, kdo předává plastiku, co plastika představuje, kdo jsou ostatní osoby
-      a jak zněl celý popisek useknutý za řetězcem „Rychv“?
+      inaugurován, zachycují fotografie tutéž osobu a slavnost, kdo tvořil rychvaldskou
+      delegaci, kdo předává plastiku, co plastika představuje, kdy a při jaké události
+      vznikl samostatný portrét u kalicha, co znamená řetěz nebo insignie a jak zněl
+      celý popisek useknutý za řetězcem „Rychv“?
     known_facts:
       - "Urbanek-ccs-045 zachycuje velkou formální skupinu několika desítek dospělých a dětí před monumentálním vstupem."
-      - "Uprostřed přední řady sedí duchovní s výrazným řetězem nebo insignií; po jeho stranách sedí dvě ženy a jedna drží kytici."
+      - "Uprostřed přední řady urbanek-ccs-045 sedí duchovní s výrazným řetězem nebo insignií; po jeho stranách sedí dvě ženy a jedna drží kytici."
       - "Inaugurace, jméno Gabriel Chrobáček a účast lidí z Rychvaldu pocházejí z archivního názvu, který končí řetězcem Rychv."
       - "Urbanek-ccs-046 zachycuje duchovního s podobným typem řetězu, který drží listinu a světlou plastiku sedící mužské postavy, zatímco proti němu stojí muž v obleku."
       - "Název urbanek-ccs-046 tvrdí, že bratr farář Gabriel Chrobáček se stal biskupem; obraz sám neurčuje datum, úřad ani identitu plastiky."
-      - "Vztah obou fotografií k jedné slavnosti je pracovní hypotéza, nikoli ověření podle tváře."
+      - "Urbanek-ccs-061 zachycuje muže v tmavém duchovním oděvu s výrazným řetězem nebo insignií u stolu s kalichem, otevřenými knihami a listinami; v pozadí jsou další duchovní."
+      - "Jméno Gabriel Chrobáček a biskupský titul na urbanek-ccs-061 pocházejí pouze z archivního názvu."
+      - "Vztah fotografií k jedné osobě nebo události je pracovní hypotéza a nesmí být potvrzen jen porovnáním obličeje."
     unresolved_attributes:
       - exact_appointment_and_inauguration_dates
       - episcopal_office_and_diocese
-      - exact_location_and_building_identity
+      - exact_locations_and_building_identities
       - Gabriel_Chrobacek_identity_on_each_image
       - meaning_and_provenance_of_chain_or_insignia
+      - date_occasion_and_provenance_of_portrait_061
       - Rychvald_delegation_membership_and_count
       - presenter_identity
       - sculpture_subject_author_and_provenance
       - document_content
       - identities_and_roles_of_all_people
-      - whether_images_show_same_event
+      - whether_images_show_same_event_or_multiple_events
       - complete_original_caption
     next_action: >-
       Hledat protokol volby a inaugurace, diecézní a sborovou kroniku, dobový tisk,
-      program slavnosti, seznam delegace, záznam o daru nebo plastice, popsané
-      paralelní fotografie a úplnou kopii názvu. Osoby neurčovat pouze podle vzhledu.
+      program slavnosti, seznam delegace, záznam o daru nebo plastice, personální
+      portrétní prameny, popsané paralelní fotografie a úplnou kopii názvu. Osoby ani
+      význam insignie neurčovat pouze podle vzhledu.
     reopen_triggers:
       - appointment_or_inauguration_protocol_found
       - diocesan_chronicle_entry_found
       - dated_press_report_found
       - Rychvald_delegation_list_found
       - gift_or_sculpture_record_found
+      - captioned_portrait_source_found
       - complete_filename_or_caption_found
       - participant_identification_provided
     evidence:
@@ -112,3 +118,5 @@ items:
       - sources/index.d/urbanek-ccs-09.yml
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
       - sources/index.d/urbanek-ccs-10.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml
+      - sources/index.d/urbanek-ccs-13.yml

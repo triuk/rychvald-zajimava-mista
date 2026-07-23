@@ -1,0 +1,150 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: fiftieth-anniversary-baptisms-and-stibor-welcome-14
+status: completed_first_visual_pass
+item_count: 5
+source_scope: >-
+  Druhá podsložka – archivní soubory 3 až 6; třetí podsložka
+  „Biskup Ferdinand Stibor v Rychvaldě“ – soubor 1.
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    První dva archivní soubory zachycují přesně tentýž fotografický obraz přivítání
+    duchovního dítětem; soubor 066 je těsnější výřez a jiné zvětšení širšího souboru
+    067. Archivní názvy spojují obraz s padesátým výročím roku 1970, useknutým jménem
+    „Kare…“ a biskupem Marceluchem, ale žádné z těchto tvrzení není obrazem nezávisle
+    potvrzeno. Další dva snímky zachycují křestní obřady s různými rodinnými skupinami;
+    pouze jeden kojenec je na každém záběru jednoznačně viditelný a tvrzení o trojích
+    křtinách vyžaduje matriku nebo program. Poslední snímek otevírá starší venkovní sérii
+    uvítání chlebem a solí, kterou archivní struktura připisuje Ferdinandu Stiborovi.
+  basis:
+    - visual_review
+    - exact_image_crop_and_scale_comparison
+    - event_sequence_comparison
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-066
+    archival_filename: "3  K 50. výročí  zal církve ČSL v r. 1970  přijel farář Kare.jpg"
+    source_subfolder: "2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50"
+    visual_type: historical_black_and_white_cropped_child_welcome_to_clergy
+    dimensions_pixels: [924, 1386]
+    description: >-
+      Těsný svislý výřez, na němž duchovní v tmavém oděvu přijímá podání ruky dítěte.
+      Duchovní drží kytici a knihy nebo složku; v popředí je zády další dítě a po pravé
+      straně část dospělého s kyticí.
+    subject_tags: [clergy, children, welcome, bouquet, fiftieth_anniversary_claim, truncated_name]
+    identification:
+      status: partially_verified
+      archival_claim: "k 50. výročí založení církve ČSL roku 1970 přijel farář Kare…"
+      verified_from_image: [clergy_member, child_handshake, flowers, books_or_folder, ceremonial_welcome]
+      unverified: [exact_date, year_1970, anniversary_subject, clergy_identity, complete_Kare_name, child_identities, event_program]
+    image_relationship:
+      status: verified_same_underlying_photograph
+      related_item: urbanek-ccs-067
+      method: "Geometrické porovnání lokálních obrazových bodů a homografie."
+      result: "306 geometricky konzistentních shod; 96,8 % vybraných shod tvoří jeden model výřezu a změny měřítka."
+      interpretation: "Samostatný archivní soubor, nikoli druhý nezávislý fotografický okamžik."
+    filename_note: "Název končí řetězcem ‚Kare‘; pokračování nebylo rekonstruováno."
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0063]
+
+  - id: urbanek-ccs-067
+    archival_filename: "4  Přivítání nejmenšími. Vlevo biskup  Marceluch.jpg"
+    source_subfolder: "2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50"
+    visual_type: historical_black_and_white_wide_child_welcome_to_clergy
+    dimensions_pixels: [1398, 900]
+    description: >-
+      Širší podoba stejného fotografického obrazu jako položka 066. Dítě podává ruku
+      ústřednímu duchovnímu s kyticí a knihami. Vlevo stojí další holohlavý duchovní s
+      výrazným řetězem nebo insignií a knihou; vpravo muž v obleku drží velkou kytici.
+    subject_tags: [clergy, children, welcome, chain_or_insignia, bouquets, anniversary_claim, Marceluch_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "přivítání nejmenšími; vlevo biskup Marceluch"
+      verified_from_image: [two_clergy_members, child_handshake, chain_or_insignia, books, bouquets, suited_man]
+      unverified: [Marceluch_identity_and_spelling, episcopal_office, central_clergy_identity, exact_date, year_1970, anniversary_context, all_participant_identities]
+    image_relationship:
+      status: verified_same_underlying_photograph
+      related_item: urbanek-ccs-066
+      interpretation: "Tato širší reprodukce obsahuje obrazovou informaci o levém duchovním a pravém účastníkovi, která ve výřezu 066 chybí."
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0063]
+
+  - id: urbanek-ccs-068
+    archival_filename: "5  U této příležitosti proběhly troje křtiny.jpg"
+    source_subfolder: "2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50"
+    visual_type: historical_black_and_white_multiple_family_baptism_scene
+    dimensions_pixels: [1422, 948]
+    description: >-
+      V popředí žena drží zavinutého kojence před duchovním, který drží knihu nebo
+      obřadní text a malou nádobku; mezi nimi stojí vysoká křestní svíce. Vlevo a v
+      pozadí jsou další dospělí seskupení u kněžiště a nejméně dva další duchovní.
+    subject_tags: [baptism, infant, baptismal_candle, clergy, multiple_family_groups, three_baptisms_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "při této příležitosti proběhly troje křtiny"
+      verified_from_image: [one_clearly_visible_infant, baptismal_candle, officiating_clergy, liturgical_book_or_text, several_family_groups, additional_clergy]
+      unverified: [exact_number_of_baptisms, exact_date, relationship_to_anniversary, infant_and_family_identities, officiating_clergy_identity, identities_of_other_clergy]
+    sequence_note: "Interiér, oděvy a archivní pořadí podporují souvislost s urbanek-ccs-069, nikoli však totožnost všech osob ani přesný počet obřadů."
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0064]
+
+  - id: urbanek-ccs-069
+    archival_filename: "6  Kdo byli tito křtěnc..jpg"
+    source_subfolder: "2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50"
+    visual_type: historical_black_and_white_baptism_family_before_senior_clergy
+    dimensions_pixels: [1398, 954]
+    description: >-
+      Žena drží zavinutého kojence před duchovním fotografovaným zezadu, který má na
+      tmavém oděvu výrazný řetěz nebo insignii. Po stranách ženy stojí dva muži v
+      oblecích a v pozadí je zaplněný interiér sboru.
+    subject_tags: [baptism, infant, parents_or_godparents, senior_clergy, chain_or_insignia, congregation, unidentified_baptizees]
+    identification:
+      status: partially_verified
+      archival_claim: "kdo byli tito křtěnci"
+      verified_from_image: [one_infant, woman_holding_infant, two_suited_men, chain_bearing_clergy, large_congregation]
+      unverified: [infant_identity, parent_and_godparent_roles, clergy_identity, exact_date, relationship_to_item_068_family, relationship_to_anniversary]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0064]
+
+  - id: urbanek-ccs-070
+    archival_filename: "1   Uvítání  chlebem a solí.jpg"
+    source_subfolder: "3 Biskup Ferdinand Stibor v Rychvaldě"
+    visual_type: historical_black_and_white_outdoor_bread_and_salt_welcome
+    dimensions_pixels: [1626, 1044]
+    description: >-
+      Venkovní slavnostní přivítání. Žena v lidovém nebo slavnostním kroji nese tác s
+      chlebem a malou miskou či nádobkou směrem ke staršímu muži v kabátu. V popředí
+      stojí zády duchovní v tmavém oděvu a kolem je početná skupina dospělých.
+    subject_tags: [bread_and_salt_welcome, folk_costume, clergy, guest, outdoor_ceremony, Ferdinand_Stibor_archival_context]
+    identification:
+      status: partially_verified
+      archival_claim: "uvítání chlebem a solí v podsložce Biskup Ferdinand Stibor v Rychvaldě"
+      verified_from_image: [bread_and_salt_tray, costumed_woman, older_male_guest, clergy_present, outdoor_crowd]
+      unverified: [Ferdinand_Stibor_identity, exact_date, year_1948, exact_location, welcoming_woman_identity, clergy_identity, event_program, relationship_to_item_025]
+    sequence_note: >-
+      Krojovaná účastnice a slavnostní venkovní charakter jsou slučitelné s dříve
+      zpracovanou skupinovou fotografií urbanek-ccs-025, ale společná událost zatím
+      není potvrzena přesným obrazovým nebo textovým dokladem.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0050]
+
+open_research_candidates:
+  - {id: URB-U-0063, subject: fiftieth_anniversary_1970_Kare_Marceluch_people_and_program}
+  - {id: URB-U-0064, subject: anniversary_baptisms_number_families_clergy_and_register}
+  - {id: URB-U-0050, subject: Ferdinand_Stibor_bread_and_salt_visit_date_people_and_sequence}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-071 až urbanek-ccs-075 v podsložce věnované
+  Ferdinandu Stiborovi. Přesně porovnat opakované záběry, skupiny, interiér a osoby,
+  avšak jména nepřiřazovat pouze podle obličeje. Výroční křty ověřit v matrice a
+  program padesátého výročí v kronice nebo dobovém tisku.

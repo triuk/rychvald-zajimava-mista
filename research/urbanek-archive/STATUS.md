@@ -48,33 +48,32 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je třináct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `065`.
+Dokončeno je čtrnáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `070`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **65 z 201 položek**;
-- proti Git blob SHA ověřeno: **65 položek**;
-- vizuálně klasifikováno: **65 položek**;
-- zdrojově indexováno: **65 položek**;
-- zbývá: **136 položek**.
+- zpracováno: **70 z 201 položek**;
+- proti Git blob SHA ověřeno: **70 položek**;
+- vizuálně klasifikováno: **70 položek**;
+- zdrojově indexováno: **70 položek**;
+- zbývá: **131 položek**.
 
-### Zjištění dávky 13
+### Zjištění dávky 14
 
-Dávka 13 uzavírá první podsložku třemi portréty duchovních a otevírá druhou podsložku dvěma skupinovými snímky návštěvy.
+Dávka 14 uzavírá druhou podsložku výročním přivítáním a křty a otevírá sérii připisovanou Ferdinandu Stiborovi.
 
-- `urbanek-ccs-061` zachycuje muže v duchovním oděvu s výrazným řetězem nebo insignií u stolu s kalichem, knihami a listinami. Jméno a titul biskupa Gabriela Chrobáčka pocházejí z archivního názvu; snímek rozšiřuje `URB-U-0062`.
-- `urbanek-ccs-062` zachycuje duchovního ve světlé štóle čtoucího z knihy za liturgickým stolem se znakem kalicha a kříže. Archiv jej označuje jako faráře Leonarda Bogumského; používá přitom varianty `Bogumski` a `Bogumský`.
-- `urbanek-ccs-063` zachycuje ženu v duchovním oděvu, bílé štóle s červeným kalichem a řetězem nebo insignií. Jméno Jana Šilerová, titul Mgr. a funkce biskupky pocházejí z archivního názvu; fotografie rozšiřuje `URB-U-0058`.
-- `urbanek-ccs-064` zachycuje širší skupinu, v jejíž přední řadě sedí dvě ženy a dva muži. Název je označuje jako faráře Vodičku a Bogumského s manželkami, ale jednotlivé osoby nelze přiřadit pouze podle vzhledu.
-- `urbanek-ccs-065` zachycuje stejnou čtveřici samostatně v zahradě před plotem. Jde o samostatný záběr, nikoli prostý výřez. Lokalizace k faráři Bogumskému a rok 1965 nebo 1970 nejsou obrazem potvrzeny.
+- `urbanek-ccs-066` a `067` jsou dvě archivní reprodukce **téhož fotografického obrazu** přivítání duchovního dítětem. Technické porovnání nalezlo 306 geometricky konzistentních shod a 96,8 % vybraných bodů odpovídá jednomu modelu výřezu a změny měřítka. Soubor `066` proto není druhým nezávislým fotografickým okamžikem.
+- Název `066` končí řetězcem `Kare`; celé jméno nebylo rekonstruováno. Název `067` označuje levého duchovního jako biskupa Marcelucha, ale jméno, pravopis a úřad nejsou obrazem potvrzeny.
+- `urbanek-ccs-068` zachycuje křestní obřad s jedním jasně viditelným kojencem, křestní svící, duchovním a několika rodinnými skupinami. Archivní tvrzení o trojích křtinách nelze z jediného obrazu ověřit.
+- `urbanek-ccs-069` zachycuje další rodinnou skupinu s kojencem před duchovním s řetězem nebo insignií. Totožnost dítěte, rodičů, kmotrů a duchovního není známa.
+- `urbanek-ccs-070` zachycuje venkovní uvítání chlebem a solí ženou v lidovém či slavnostním kroji. Ferdinand Stibor, rok 1948 a vztah k dřívější skupinové fotografii `urbanek-ccs-025` pocházejí z archivního kontextu a zůstávají otevřené.
 
-Pracovní soubory dávky 13:
+Pracovní soubory dávky 14:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-13.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml`;
-- `sources/index.d/urbanek-ccs-13.yml`;
-- `research/urbanek-archive/uncertainties/open-16.yml`;
-- rozšířené `research/urbanek-archive/uncertainties/open-11.yml`, `open-12.yml` a `open-15.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-14.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml`;
+- `sources/index.d/urbanek-ccs-14.yml`;
+- rozšířené `research/urbanek-archive/uncertainties/open-08.yml` a `open-13.yml`.
 
 Úplný inventář, blob verifikace, vizuální klasifikace, OCR relevantního textu a audit `Thumbs.db` pokračují po dávkách 5–10 souborů.
 
@@ -88,20 +87,19 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 68.
 
-Nejistoty z kolekce CČS jsou vedeny pod `URB-U-0039` až `URB-U-0068`. Dávka 13:
+Dávka 14 nepřidala nové ID, ale rozšířila:
 
-- rozšířila `URB-U-0058` o portrét Jany Šilerové, její služební a biskupskou funkci a význam insignie;
-- rozšířila `URB-U-0062` o samostatný portrét připisovaný Gabrielu Chrobáčkovi;
-- rozšířila `URB-U-0067` o skupinové snímky Karla a Libuše Vodičkových a dataci návštěvy;
-- přidala `URB-U-0068` – pravopis jména, identitu, službu, manželku, zahradu a návštěvu Leonarda Bogumského.
+- `URB-U-0063` – padesáté výročí roku 1970, useknuté jméno `Kare…`, biskup Marceluch, hosté a program;
+- `URB-U-0064` – počet křtů, rodiny, děti, duchovní a matrika;
+- `URB-U-0050` – uvítání chlebem a solí, návštěva připisovaná Ferdinandu Stiborovi a vztah ke skupinové fotografii.
 
-Dřívější aktivní položky zůstávají otevřené. Archivní název je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, příbuzenského vztahu nebo funkce. Opakování stejných lidí ve více obrazech potvrzuje obrazovou souvislost, nikoli jejich jména.
+Dřívější aktivní položky zůstávají otevřené. Dvě reprodukce stejného fotografického obrazu jsou dvěma archivními soubory, nikoli dvěma nezávislými důkazy události. Archivní názvy ani názvy podsložek automaticky nepotvrzují osoby, data a funkce.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 65 zpracovaných a 136 zbývajících položek;
+- aktuální průběžný stav je 70 zpracovaných a 131 zbývajících položek;
 - registr používá součty 34/31/3/68;
 - každá podstatná nejistota má stabilní ID a návratové podmínky;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
@@ -110,8 +108,8 @@ Dřívější aktivní položky zůstávají otevřené. Archivní název je dok
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-066` až `urbanek-ccs-070`.
-- Očekávané mapování: druhá podsložka soubory `3` až `6` a první soubor podsložky `3 Biskup Ferdinand Stibor v Rychvaldě`.
+- Následující položky: `urbanek-ccs-071` až `urbanek-ccs-075`.
+- Očekávané archivní názvy v podsložce `3 Biskup Ferdinand Stibor v Rychvaldě`: `2.jpg`, `2a.jpg`, `3 Před oltářem.jpg`, `4.jpg` a `5 Společná fotografie také s dětmi.jpg`.
 - Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
 - Každá podstatná nejistota musí být okamžitě zapsána pod stabilním `URB-U-XXXX`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.

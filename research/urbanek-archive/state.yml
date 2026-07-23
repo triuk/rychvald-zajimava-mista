@@ -32,14 +32,7 @@ pull_request:
 
 pilot:
   status: completed
-  totals:
-    collections: 5
-    content_files: 144
-    technical_files: 15
-    total_items: 159
-    repo_verified_items: 159
-    repo_missing_items: 0
-    missing_full_original_images_known_only_from_thumbnail_caches: 11
+  totals: {collections: 5, content_files: 144, technical_files: 15, total_items: 159, repo_verified_items: 159, repo_missing_items: 0, missing_full_original_images_known_only_from_thumbnail_caches: 11}
 
 ccs_collection:
   id: urbanek-ccs-history
@@ -48,11 +41,11 @@ ccs_collection:
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 70
-    repo_verified_items: 70
-    visually_classified_items: 70
-    source_indexed_items: 70
-    remaining_items: 131
+    processed_items: 75
+    repo_verified_items: 75
+    visually_classified_items: 75
+    source_indexed_items: 75
+    remaining_items: 126
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -72,10 +65,11 @@ ccs_collection:
     - {number: 12, items: 056-060, id: living-nativity-concerts-and-vodicka-memorial}
     - {number: 13, items: 061-065, id: clergy-portraits-and-vodicka-bogumski-visit}
     - {number: 14, items: 066-070, id: fiftieth-anniversary-baptisms-and-stibor-welcome}
+    - {number: 15, items: 071-075, id: stibor-visit-sequence-and-groups}
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-14.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
-    source_index: sources/index.d/urbanek-ccs-14.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-15.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml
+    source_index: sources/index.d/urbanek-ccs-15.yml
   technical_files:
     - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
 
@@ -83,7 +77,7 @@ uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary: {open: 34, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 68}
   ccs_range: URB-U-0039..URB-U-0068
-  batch_14_updated: [URB-U-0050, URB-U-0063, URB-U-0064]
+  batch_15_updated: [URB-U-0050]
   handling_rules:
     - Archival names and folder labels are attribution metadata, not independent historical proof.
     - Persons are not identified solely from facial appearance.
@@ -93,7 +87,7 @@ uncertainties:
 
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 70, ccs_remaining_items: 131}
+  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 75, ccs_remaining_items: 126}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 
 readiness:
@@ -110,8 +104,8 @@ readiness:
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-071, urbanek-ccs-072, urbanek-ccs-073, urbanek-ccs-074, urbanek-ccs-075]
-  expected_source_files: ["2.jpg", "2a.jpg", "3  Před oltářem.jpg", "4.jpg", "5   Společná fotografie také s dětmi.jpg"]
+  items: [urbanek-ccs-076, urbanek-ccs-077, urbanek-ccs-078, urbanek-ccs-079, urbanek-ccs-080]
+  expected_source_files: ["3/6 Biskup Stibor s radou starších...", "4/1.jpg", "4/2.jpg", "4/3.jpg", "4/4.jpg"]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify source paths and Git blob SHA, classify visually, preserve rights and attribution,

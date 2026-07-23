@@ -1,0 +1,92 @@
+schema_version: 1
+scope: ccs_batch_09_open_items
+items:
+  - id: URB-U-0061
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: modern_choir_events_dates_leadership_members_and_sequence
+    related_open_items: [URB-U-0060]
+    source_items: [urbanek-ccs-041, urbanek-ccs-042, urbanek-ccs-043, urbanek-ccs-044]
+    question: >-
+      Zachycují čtyři novodobé fotografie jedno vystoupení nebo více událostí,
+      které z nich skutečně pocházejí z roku 2001, jaké byly přesné termíny a
+      programy, jak se sbor oficiálně jmenoval, kdo byli sbormistr Dajč a učitelka
+      Dziadziová, kdo jsou ostatní zpěváci a hudebníci a jak spolu snímky souvisejí?
+    known_facts:
+      - "Urbanek-ccs-041 zachycuje smíšený sbor zpívající z notových desek v interiéru sboru."
+      - "Urbanek-ccs-042 zachycuje sbor, komorní hudební soubor, dirigenta a ozdobený jehličnatý strom."
+      - "Urbanek-ccs-043 je skupinový portrét více než dvou desítek dospělých, jednoho dítěte a ženy v liturgické štole s motivem kalicha."
+      - "Urbanek-ccs-044 zachycuje ženu u varhan, houslistku, další mladou ženu a část publika."
+      - "Rok 2001, příjmení Dajč a Dziadziová, funkce sbormistra a titul učitelky pocházejí z archivních názvů."
+      - "EXIF urbanek-ccs-043 obsahuje datum 8. září 2014, které se vztahuje k digitálnímu pořízení nebo reprodukci, nikoli k zachycené události."
+      - "Podobný interiér a opakující se osoby jsou vodítkem k souvislosti snímků, nikoli samy o sobě důkazem jediné události."
+    unresolved_attributes:
+      - exact_date_of_each_image
+      - independent_confirmation_of_year_2001
+      - whether_images_show_one_or_multiple_events
+      - exact_event_names_and_programs
+      - choir_official_name
+      - Dajc_full_name_identity_and_role
+      - Dziadziova_full_name_identity_teaching_institution_and_role
+      - conductor_singers_musicians_and_clergy_identities
+      - repertoire_and_accompanying_ensemble
+      - interpretation_of_decorated_tree
+      - relationship_to_historical_choir_item_URB_U_0060
+    next_action: >-
+      Hledat kroniku, programy koncertů a bohoslužeb, sborové seznamy, notové
+      materiály, personální záznamy Dajče a Dziadziové, dobový zpravodaj a paralelní
+      fotografie s popisky. Události neslučovat pouze podle podobnosti osob nebo interiéru.
+    reopen_triggers:
+      - dated_choir_program_found
+      - church_chronicle_entry_found
+      - choir_roster_found
+      - Dajc_or_Dziadziova_personnel_record_found
+      - captioned_parallel_photo_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml
+      - sources/index.d/urbanek-ccs-09.yml
+
+  - id: URB-U-0062
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: Gabriel_Chrobacek_inauguration_date_location_delegation_and_caption
+    related_open_items: [URB-U-0055, URB-U-0059]
+    source_items: [urbanek-ccs-045]
+    question: >-
+      Kdy a kde se konala zachycená inaugurace, o jaký biskupský úřad šlo, je
+      ústředním duchovním skutečně Gabriel Chrobáček, kdo a v jakém počtu přijel
+      z Rychvaldu, kdo jsou ostatní osoby a jak zněl celý archivní popisek
+      useknutý za řetězcem „Rychv“?
+    known_facts:
+      - "Fotografie zachycuje velkou formální skupinu několika desítek dospělých a dětí před monumentálním vstupem."
+      - "Uprostřed přední řady sedí duchovní s výrazným řetězem nebo insignií."
+      - "Po jeho stranách sedí dvě ženy a jedna drží kytici."
+      - "Inaugurace, jméno Gabriel Chrobáček a účast lidí z Rychvaldu pocházejí z archivního názvu."
+      - "Skutečný název souboru končí řetězcem „Rychv“ a další text není dochován."
+    unresolved_attributes:
+      - exact_inauguration_date
+      - episcopal_office_and_diocese
+      - exact_location_and_building_identity
+      - Gabriel_Chrobacek_identity
+      - meaning_of_chain_or_insignia
+      - Rychvald_delegation_membership_and_count
+      - identities_and_roles_of_all_people
+      - relationship_to_other_Chrobacek_photographs
+      - complete_original_caption
+    next_action: >-
+      Hledat protokol volby a inaugurace, diecézní a sborovou kroniku, dobový tisk,
+      program slavnosti, seznam delegace, popsané paralelní fotografie a úplnou
+      kopii názvu. Osoby neurčovat pouze podle vzhledu a useknutý popisek nedoplňovat odhadem.
+    reopen_triggers:
+      - inauguration_program_or_protocol_found
+      - diocesan_chronicle_entry_found
+      - dated_press_report_found
+      - Rychvald_delegation_list_found
+      - complete_filename_or_caption_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml
+      - sources/index.d/urbanek-ccs-09.yml

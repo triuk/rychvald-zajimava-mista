@@ -1,45 +1,54 @@
 schema_version: 1
-scope: ccs_batch_11_open_items
+scope: ccs_batch_11_open_items_updated_by_batch_12
 items:
   - id: URB-U-0066
     status: open
     priority: medium
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: living_nativity_date_organizer_cast_location_and_recurrence
-    source_items: [urbanek-ccs-055]
+    type: recurring_living_nativity_dates_organizer_cast_location_and_local_amateur_actors
+    source_items: [urbanek-ccs-055, urbanek-ccs-056]
     question: >-
-      Kdy a kde se zachycený živý betlém konal, kdo jej pořádal a režíroval, kdo byli
-      účinkující a jaké hráli role, šlo skutečně o místní ochotníky, byla dětská
-      postava živým dítětem nebo rekvizitou a jak často se akce opakovala?
+      Ve kterých letech a na jakém místě se živý betlém konal, kdo jej pořádal a
+      režíroval, kdo byli účinkující a jaké hráli role, byli skutečně členy místního
+      ochotnického souboru, jak se obsazení a program mezi ročníky měnily a jak dlouho
+      se tradice opakovala?
     known_facts:
-      - "Fotografie zachycuje venkovní skupinu kostýmovaných dospělých před moderní budovou."
-      - "Ve skupině jsou královské a biblické kostýmy, žena v modrém držící zavinutou dětskou postavu nebo rekvizitu, žena s mikrofonem a osoba v hnědém plášti s kapucí."
-      - "Archivní název označuje scénu jako živý betlém."
-      - "EXIF uvádí fotoaparát Panasonic DMC-TZ3 a čas 10. prosince 2011 v 16:14:43; tento technický údaj není sám o sobě nezávislým potvrzením data veřejné události."
+      - "Urbanek-ccs-055 zachycuje venkovní skupinu kostýmovaných dospělých před moderní budovou; žena v modrém drží zavinutou dětskou postavu nebo rekvizitu a jiná žena drží mikrofon."
+      - "Archivní název urbanek-ccs-055 označuje scénu jako živý betlém."
+      - "EXIF urbanek-ccs-055 uvádí fotoaparát Panasonic DMC-TZ3 a čas 10. prosince 2011 v 16:14:43; tento údaj není sám o sobě nezávislým potvrzením data veřejné události."
+      - "Urbanek-ccs-056 zachycuje kostýmovanou skupinu před kulisou chléva a zřetelně živé dítě v náručí ženy v modrém."
+      - "V pozadí urbanek-ccs-056 jsou diváci, moderní budova a kostelní věž."
+      - "Archivní název urbanek-ccs-056 tvrdí, že postavy hráli místní ochotníci; obraz sám členství v souboru neprokazuje."
+      - "EXIF urbanek-ccs-056 uvádí fotoaparát Sony DCR-HC96E a čas 6. prosince 2008 v 16:04:44."
+      - "Rozdílná embedded data a odlišné záběry dokládají nejméně dvě digitální fotografické série; zda přesně odpovídají dvěma veřejným ročníkům, musí potvrdit program nebo kronika."
+      - "Živé dítě je obrazově potvrzeno pouze na urbanek-ccs-056; nelze tím automaticky určit povahu dětské postavy na urbanek-ccs-055."
     unresolved_attributes:
-      - exact_event_date
-      - whether_EXIF_datetime_equals_event_time
-      - exact_location_and_building
-      - organizer_and_director
+      - exact_event_date_for_each_image
+      - reliability_of_2008_and_2011_embedded_dates_as_event_dates
+      - exact_location_and_building_identity
+      - organizer_and_director_for_each_year
       - cast_identities_and_roles
       - whether_cast_were_local_amateur_actors
-      - whether_infant_figure_was_live_child_or_prop
+      - amateur_theatre_group_identity
+      - nature_of_infant_figure_on_item_055
       - program_and_event_context
       - audience_and_attendance
-      - recurrence_and_duration_of_tradition
-      - relationship_to_following_archival_image_56
+      - recurrence_start_end_and_frequency
+      - cast_continuity_between_2008_and_2011
     next_action: >-
-      Porovnat s následujícím snímkem 56, jehož název tvrdí účast místních ochotníků,
-      a hledat programy adventních akcí, církevní a obecní kroniku, zpravodaj,
-      záznamy ochotnického souboru a další fotografie ze stejné série. Osoby neurčovat
-      pouze podle vzhledu a technické datum potvrdit textovým pramenem.
+      Hledat programy adventních akcí z let 2008 a 2011, církevní a obecní kroniku,
+      zpravodaj, záznamy místního ochotnického souboru a další fotografie stejných
+      sérií. Embedded data porovnat s textovými prameny a osoby neurčovat pouze podle
+      podobnosti tváří mezi ročníky.
     reopen_triggers:
-      - following_image_56_compared
-      - dated_event_program_found
+      - dated_2008_or_2011_event_program_found
       - church_or_municipal_chronicle_entry_found
       - amateur_theatre_record_found
       - participant_identification_provided
       - original_camera_series_found
+      - organizer_or_director_testimony_found
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml
       - sources/index.d/urbanek-ccs-11.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml
+      - sources/index.d/urbanek-ccs-12.yml

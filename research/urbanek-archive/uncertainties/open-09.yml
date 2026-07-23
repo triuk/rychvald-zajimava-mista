@@ -1,0 +1,124 @@
+schema_version: 1
+scope: ccs_batch_06_open_items
+items:
+  - id: URB-U-0051
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: post_reconstruction_service_identification
+    related_open_items: [URB-U-0049]
+    source_items: [urbanek-ccs-027]
+    question: >-
+      Jaká slavnostní bohoslužba po rekonstrukci je na snímku zachycena, konala se
+      skutečně roku 1949, kdy přesně, kdo jsou tři duchovní a jaký význam mají
+      čísla a nečitelné slovní popisky na tabuli vlevo?
+    known_facts:
+      - "Fotografie zachycuje zaplněný sbor v rekonstruovaném stavu kněžiště shodném s urbanek-ccs-026."
+      - "Za oltářem stojí tři duchovní nebo obřadní osoby."
+      - "Na tabuli vlevo jsou čitelná čísla 15 a 8, slovní popisky nejsou bezpečně čitelné."
+      - "Rok 1949 a spojení bohoslužby s dokončenou rekonstrukcí pocházejí z archivního názvu."
+    unresolved_attributes:
+      - exact_event_date
+      - independent_confirmation_of_year_1949
+      - purpose_of_service
+      - identities_of_three_officiants
+      - identities_of_flag_bearers_or_delegations
+      - exact_transcription_and_meaning_of_board_entries
+      - relation_to_formal_reopening_or_consecration
+    next_action: >-
+      Hledat program slavnosti, církevní kroniku, dobový tisk, zápisy rady starších,
+      fotografie se jmenným popiskem a lepší kopii tabule. Slovní části tabule
+      nedoplňovat odhadem.
+    reopen_triggers:
+      - 1949_church_chronicle_entry_found
+      - service_program_found
+      - dated_press_report_found
+      - captioned_parallel_photo_found
+      - better_board_detail_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml
+      - sources/index.d/urbanek-ccs-06.yml
+
+  - id: URB-U-0052
+    status: open
+    priority: low
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: chancel_carpet_installation_and_event_context
+    related_open_items: [URB-U-0049]
+    source_items: [urbanek-ccs-028]
+    question: >-
+      Kdy bylo kněžiště opatřeno soustavou koberců, odkud koberce pocházely, kdo
+      jejich pořízení financoval nebo daroval a při jaké události byla fotografie
+      se třemi duchovními pořízena?
+    known_facts:
+      - "Koberce pokrývají stupně, prostor kolem oltáře a přední část kněžiště."
+      - "Základní uspořádání kříže a oltáře odpovídá rekonstruovanému stavu na urbanek-ccs-026 a 027."
+      - "Na snímku jsou tři duchovní nebo obřadní osoby."
+      - "Archivní název pouze uvádí, že koberec byl doplněn později."
+    unresolved_attributes:
+      - exact_installation_date
+      - supplier_or_manufacturer
+      - donor_or_funding_source
+      - whether_carpets_were_installed_at_once
+      - duration_and_replacement_history
+      - event_identity
+      - identities_of_officiants
+    next_action: >-
+      Prověřit inventáře, účty, dary, zápisy rady starších a pozdější barevné
+      fotografie. Porovnat vzory koberců s dalšími snímky pro určení období užívání.
+    reopen_triggers:
+      - church_inventory_or_invoice_found
+      - donation_record_found
+      - dated_carpeted_interior_photo_found
+      - captioned_event_photo_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml
+      - sources/index.d/urbanek-ccs-06.yml
+
+  - id: URB-U-0053
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: front_wall_murals_artist_dating_and_conservation
+    related_open_items: [URB-U-0043, URB-U-0049]
+    source_items: [urbanek-ccs-029, urbanek-ccs-030]
+    question: >-
+      Kdo přesně byl malíř uváděný příjmením Obšil, vytvořil skutečně figurální
+      výzdobu čelní stěny roku 1957, jakou technikou, kdo ji objednal a jaká je
+      historie jejích oprav, barevných změn a současného stavu?
+    known_facts:
+      - "Oba snímky zachycují stejnou trojdílnou figurální výzdobu čelní stěny."
+      - "Levý výjev zachycuje křest Ježíše a nese citát Jan 3,5."
+      - "Pravý výjev zachycuje vzkříšeného Krista se ženou a nese citát I Kor 15,20."
+      - "Centrální výzdoba obklopuje kříž paprsky, oblaky a znakem kalicha s křížem."
+      - "Barevný snímek má EXIF datum 28. srpna 2009 a dokládá, že výzdoba byla tehdy zachována."
+      - "Rok 1957, označení akademického malíře a příjmení Obšil pocházejí z archivních názvů."
+    verified_scene_text:
+      - "NENARODÍ-LI SE KDO Z VODY A Z DUCHA, NEMŮŽE VEJÍTI DO KRÁLOVSTVÍ BOŽÍHO. JAN 3,5"
+      - "KRISTUS VSTAL Z MRTVÝCH JAKO PRVNÍ Z TĚCH, KDOŽ ZESNULI. I KOR 15,20"
+    unresolved_attributes:
+      - artist_full_name_and_identity
+      - confirmation_of_Obsil_attribution
+      - exact_creation_date
+      - independent_confirmation_of_year_1957
+      - technique_and_materials
+      - commissioning_and_payment
+      - preparatory_design_or_iconographic_source
+      - restoration_repainting_and_color_change_history
+      - current_conservation_status_after_2009
+      - relation_to_earlier_murals_in_URB_U_0043
+    next_action: >-
+      Hledat signaturu, účet, smlouvu, kroniku, restaurátorský průzkum a plné jméno
+      malíře. Porovnat barevnost a poškození na dalších snímcích a důsledně odlišit
+      tyto malby na čelní stěně od starších maleb nad balkony vedených v URB-U-0043.
+    reopen_triggers:
+      - artist_signature_or_full_name_found
+      - 1957_chronicle_or_invoice_found
+      - restoration_report_found
+      - later_color_photo_found
+      - conservation_assessment_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml
+      - sources/index.d/urbanek-ccs-06.yml

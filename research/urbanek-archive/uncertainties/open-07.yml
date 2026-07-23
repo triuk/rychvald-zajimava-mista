@@ -1,0 +1,177 @@
+schema_version: 1
+scope: ccs_batch_04_open_items
+items:
+  - id: URB-U-0043
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: artwork_identification_dating_and_conservation
+    source_items: [urbanek-ccs-016, urbanek-ccs-017]
+    question: >-
+      Kdo vytvořil obě nástěnné malby, kdy přesně vznikly, kde byly v interiéru
+      umístěny, jaké výjevy přesně zachycují a jaká je jejich historie oprav,
+      přemalování nebo odstranění?
+    known_facts:
+      - "Oba snímky dokumentují rozsáhlé figurální nástěnné malby s viditelnými prasklinami."
+      - "První výjev obsahuje dvě ústřední duchovní postavy a dvojramenný kříž."
+      - "Druhý výjev obsahuje modlící se postavu, kůl, duchovní hodnostáře, ozbrojené osoby a město v pozadí."
+      - "Archivní názvy spojují první výjev s Cyrilem a Metodějem, druhý s Janem Husem před upálením a vznik maleb s rokem 1932."
+    unresolved_attributes:
+      - artist_or_workshop
+      - exact_creation_date
+      - exact_subject_of_first_mural
+      - exact_subject_of_second_mural
+      - original_location_above_balconies
+      - dimensions_and_technique
+      - later_repainting_or_restoration
+      - current_preservation_status
+    next_action: >-
+      Porovnat malby s celkovými snímky interiéru, církevní kronikou, účty,
+      výročními texty, restaurátorskými zprávami a pamětnickými údaji. Hledat
+      signaturu nebo nápis na kvalitnějších fotografiích a přesnou polohu nad balkony.
+    reopen_triggers:
+      - church_chronicle_entry_found
+      - artist_signature_or_invoice_found
+      - full_interior_photo_found
+      - restoration_record_found
+      - user_or_witness_information_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml
+      - sources/index.d/urbanek-ccs-04.yml
+
+  - id: URB-U-0044
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: occupation_period_building_alteration
+    source_items: [urbanek-ccs-018]
+    question: >-
+      Bylo heslo a kalichový znak na Husově sboru skutečně odstraněny během
+      polského záboru, kdy a na čí příkaz k tomu došlo, jak přesně vypadaly a kdy
+      byly obnoveny?
+    known_facts:
+      - "Fotografie zachycuje sbor bez jasně viditelného hesla nebo kalichového symbolu na fasádě věže."
+      - "Archivní název připisuje odstranění období polské okupace."
+      - "Jediný snímek neukazuje původní podobu prvků ani proces jejich odstranění."
+    unresolved_attributes:
+      - exact_date_of_removal
+      - responsible_authority_or_actor
+      - exact_wording_of_motto
+      - original_form_and_location_of_chalice
+      - whether_elements_were_removed_or_only_obscured
+      - restoration_date_and_method
+      - independent_confirmation_of_polish_occupation_context
+    next_action: >-
+      Porovnat předokupační a poválečné exteriéry, kroniky, obecní a církevní
+      zápisy, okupační nařízení a zprávy o poválečné obnově. Nepoužívat příčinnou
+      vazbu k polskému záboru jako ověřený fakt bez nezávislého textového dokladu.
+    reopen_triggers:
+      - preoccupation_photo_found
+      - wartime_chronicle_or_order_found
+      - postwar_restoration_record_found
+      - matching_captioned_photo_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml
+      - sources/index.d/urbanek-ccs-04.yml
+
+  - id: URB-U-0045
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: occupation_period_landscape_history
+    source_items: [urbanek-ccs-019]
+    question: >-
+      Kdy vznikla geometrická zahradní úprava před sborem, kdo ji navrhl a provedl,
+      zda skutečně souvisela s německou okupací a jak dlouho se zachovala?
+    known_facts:
+      - "Fotografie zachycuje geometrické záhony a upravené cesty před sborem."
+      - "V popředí je dobový automobil a sloup veřejného osvětlení."
+      - "Archivní název spojuje úpravu s obdobím německé okupace."
+    unresolved_attributes:
+      - exact_date_of_photograph
+      - creation_date_of_landscaping
+      - designer_or_commissioning_authority
+      - independent_confirmation_of_german_occupation_context
+      - purpose_of_layout
+      - duration_and_later_changes
+    next_action: >-
+      Porovnat fotografie prostranství v chronologické řadě, obecní kroniky,
+      plány veřejné zeleně, letecké snímky a dobové mapy. Dataci zkusit upřesnit
+      také podle automobilu a veřejného osvětlení, pouze jako podpůrné vodítko.
+    reopen_triggers:
+      - dated_forecourt_photo_found
+      - municipal_landscape_record_found
+      - aerial_photo_or_map_found
+      - occupation_period_chronicle_entry_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml
+      - sources/index.d/urbanek-ccs-04.yml
+
+  - id: URB-U-0046
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: organ_installation_event_and_person_identification
+    source_items: [urbanek-ccs-020]
+    question: >-
+      Zachycuje fotografie skutečně předání nebo instalaci nových varhan roku 1946,
+      kdo varhany vyrobil a instaloval a kdo jsou členové rady starších a zástupci
+      MNV na snímku?
+    known_facts:
+      - "Fotografie zachycuje více než dvacet mužů před vysokými varhanními píšťalami."
+      - "Archivní název uvádí rok 1946, nové varhany, radu starších a zástupce MNV."
+      - "Na snímku není čitelný výrobní štítek ani popisek osob."
+    unresolved_attributes:
+      - exact_event_date
+      - confirmation_of_new_organ_installation
+      - organ_builder_and_model
+      - installation_or_consecration_details
+      - source_of_funding
+      - identities_of_council_members
+      - identities_of_municipal_representatives
+      - exact_location_within_organ_loft
+    next_action: >-
+      Hledat varhanní inventář, účty, kolaudační nebo svěcení záznamy, výrobní
+      štítek, kroniku roku 1946, zápisy rady starších a MNV a paralelní popsanou
+      fotografii. Osoby neidentifikovat pouze podle obličeje.
+    reopen_triggers:
+      - organ_inventory_or_builder_record_found
+      - 1946_chronicle_entry_found
+      - council_or_municipal_roster_found
+      - captioned_parallel_photo_found
+      - user_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml
+      - sources/index.d/urbanek-ccs-04.yml
+
+  - id: URB-U-0047
+    status: open
+    priority: low
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: archive_sequence_gap
+    source_items: [urbanek-ccs-015, urbanek-ccs-016, urbanek-ccs-017, urbanek-ccs-018, urbanek-ccs-019, urbanek-ccs-020]
+    question: >-
+      Znamenají mezery v archivním číslování souborů 16, 18 a 20 chybějící
+      fotografie, nebo jde jen o původní pracovní či výběrové číslování?
+    known_facts:
+      - "Dochovaná posloupnost názvů v tomto úseku je 15, 17, 17a, 19, 21 a 22."
+      - "V aktuální složce nejsou samostatné soubory pojmenované 16, 18 nebo 20."
+      - "Mezera v názvu sama o sobě není důkazem, že unikátní obrazový obsah chybí."
+    unresolved_attributes:
+      - whether_number_16_ever_existed
+      - whether_number_18_ever_existed
+      - whether_number_20_ever_existed
+      - whether_gaps_represent_duplicates_or_removed_working_files
+      - whether_thumbnail_cache_or_other_folder_preserves_the_images
+    next_action: >-
+      Při úplném auditu kolekce porovnat původní manifesty, další kopie archivu,
+      `Thumbs.db`, sousední podsložky a případné tištěné album nebo prezentaci.
+      Chybějící plný originál evidovat až po nalezení konkrétního náhledu nebo odkazu.
+    reopen_triggers:
+      - thumbnail_cache_audited
+      - original_manifest_found
+      - alternate_archive_copy_found
+      - numbered_album_or_presentation_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml
+      - sources/index.d/urbanek-ccs-04.yml

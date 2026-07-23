@@ -1,0 +1,146 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: living-nativity-concerts-and-vodicka-memorial-12
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / archivní soubory 56–60"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka rozšiřuje živý betlém o samostatný snímek s živým dítětem a embedded
+    datem roku 2008, obsahuje dva koncertní záběry se shodným fotoaparátem a datem
+    12. června 2011 a dokumentuje pamětní desku Karla a Libuše Vodičkových spolu s
+    portrétem archivně připisovaným Karlu Vodičkovi. Koncertní názvy jsou ve vzájemném
+    napětí: jeden uvádí Svatováclavský festival, druhý adventní koncerty, přestože
+    metadata ukazují tentýž červnový den. Nápis na pamětní desce je čitelný, ale jeho
+    historická tvrzení vyžadují nezávislé potvrzení.
+  basis:
+    - visual_review
+    - embedded_metadata_comparison
+    - scene_text_transcription
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-056
+    archival_filename: "56  Postavy v živém betlému hrají místní ochotníci.JPG"
+    visual_type: modern_color_living_nativity_close_group
+    description: >-
+      Kostýmovaná skupina před venkovní kulisou chléva. Žena v modrém drží zřetelně
+      živé dítě; kolem stojí osoby v kostýmech králů a dalších postav. V pozadí jsou
+      diváci, moderní budova a kostelní věž.
+    subject_tags: [living_nativity, live_infant, costumed_cast, spectators, local_amateur_actors_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "postavy živého betléma hrají místní ochotníci"
+      verified_from_image: [costumed_nativity_group, live_infant, spectators, outdoor_staging, church_tower_in_background]
+      unverified: [cast_identities, local_amateur_actor_status, organizer, exact_location, event_program, relationship_to_item_055_cast]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata:
+      embedded_date: "2008-12-06 16:04:44"
+      camera: "SONY DCR-HC96E"
+      interpretation: "Technický čas může odpovídat pořízení fotografie, ale veřejné datum akce vyžaduje textové potvrzení."
+    uncertainty_ids: [URB-U-0066]
+
+  - id: urbanek-ccs-057
+    archival_filename: "57  Koncerty v rámci Svatováclavského festivalu.JPG"
+    visual_type: modern_color_large_choir_concert
+    description: >-
+      Velký smíšený pěvecký sbor v kněžišti. Ženy mají černé oděvy se zlatými
+      doplňky, muži převážně černé obleky. Před sborem stojí muž u dirigentského pultu;
+      v lavicích sedí publikum.
+    subject_tags: [choir, concert, conductor, audience, Svatovaclavsky_festival_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "koncert v rámci Svatováclavského festivalu"
+      verified_from_image: [large_mixed_choir, conductor, music_stand, audience, church_interior]
+      unverified: [event_name, choir_identity, conductor_identity, program, performers, relationship_to_item_058]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked
+        note: "Na stěnách jsou již dříve přepsané biblické nápisy; nový identifikační text akce není viditelný."
+    metadata:
+      embedded_date: "2011-06-12 17:02:40"
+      camera: "NIKON D3100"
+    uncertainty_ids: [URB-U-0061]
+
+  - id: urbanek-ccs-058
+    archival_filename: "58  Na adventních koncertech vystupují také děti mísní ZUŠ.JPG"
+    visual_type: modern_color_child_music_ensemble_concert
+    description: >-
+      Dětský a mládežnický hudební soubor v hlavní lodi s houslemi, dalšími nástroji
+      a notovými stojany. Některé děti mají oděv s modře vzorovanými prvky; v lavicích
+      sedí publikum.
+    subject_tags: [children, youth_music_ensemble, violin, music_stands, audience, local_music_school_claim, advent_concert_claim]
+    identification:
+      status: conflicting
+      archival_claim: "děti místní ZUŠ na adventním koncertu"
+      verified_from_image: [child_and_youth_ensemble, string_instruments, music_stands, audience, same_church_interior_as_item_057]
+      unverified: [school_identity, performer_identities, exact_event, program, advent_context]
+      conflict: "Embedded datum 12. června 2011 neodpovídá archivnímu označení adventního koncertu; snímek 057 má stejný fotoaparát a tentýž den."
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata:
+      embedded_date: "2011-06-12 16:13:05"
+      camera: "NIKON D3100"
+    uncertainty_ids: [URB-U-0061]
+
+  - id: urbanek-ccs-059
+    archival_filename: "59  V e vstupní hale kostela jsou za touto pam. deskou umíst.JPG"
+    visual_type: modern_color_memorial_plaque_documentation
+    description: >-
+      Obdélná světlá pamětní deska se zlatým nápisem věnovaným Karlu a Libuši
+      Vodičkovým. Deska je připevněna čtyřmi tmavými šrouby; archivní název je useknut
+      za slovem „umíst“.
+    subject_tags: [memorial_plaque, Karel_Vodicka, Libuse_Vodickova, dates, church_history, truncated_caption]
+    identification:
+      status: partially_verified
+      verified_from_image: [plaque, readable_inscription, two_names, four_dates, stated_roles]
+      unverified: [historical_accuracy_of_inscription, installation_date, object_or_remains_behind_plaque, complete_caption, exact_hall_location, Libuse_relationship_and_role]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: manually_transcribed
+        text: |-
+          KAREL VODIČKA
+          * 2. 8. 1890  + 12. 6. 1970
+          PRVNÍ FARÁŘ ZDEJŠÍ NÁBOŽENSKÉ OBCE
+          BUDOVATEL TOHOTO SBORU
+          SPOLUZAKLADATEL CÍRKVE ČESKOSLOVENSKÉ
+          HUSITSKÉ
+          LIBUŠE VODIČKOVÁ
+          * 23. 3. 1900  + 21. 9. 1973
+        note: "Přepis byl proveden vizuálně; nápis dokládá obsah desky, nikoli automaticky historickou správnost všech tvrzení."
+    metadata:
+      embedded_date: "2010-10-14 17:45:12"
+      camera: "Panasonic DMC-TZ3"
+    filename_note: "Název končí řetězcem ‚umíst‘; pokračování nebylo rekonstruováno."
+    uncertainty_ids: [URB-U-0067]
+
+  - id: urbanek-ccs-060
+    archival_filename: "60  První farář ThDr Karel Vodička.jpg"
+    visual_type: historical_black_and_white_clergy_portrait
+    description: >-
+      Ateliérový nebo interiérový portrét muže v tmavém duchovním oděvu a brýlích.
+      Na oděvu je malý světlý odznak nebo spona. Fotografie sama neobsahuje jméno ani datum.
+    subject_tags: [clergy_portrait, Karel_Vodicka_claim, first_pastor_claim, ThDr_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "první farář ThDr Karel Vodička"
+      verified_from_image: [male_clergy_portrait, glasses, dark_clerical_attire]
+      unverified: [portrait_identity, portrait_date, photographer, original_source, academic_title, exact_tenure]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0067]
+
+open_research_candidates:
+  - {id: URB-U-0061, subject: concert_sequence_date_title_conflict_choirs_and_performers}
+  - {id: URB-U-0066, subject: recurring_living_nativity_dates_cast_and_local_amateur_actors}
+  - {id: URB-U-0067, subject: Vodicka_memorial_plaque_hidden_content_biography_and_portrait}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-061 až urbanek-ccs-065. Přesné mapování ověřit
+  přes přechod z první do druhé podsložky. Koncertní rozpor ověřit v programech a
+  pamětní desku porovnat s kronikou, životopisnými prameny a úplným popiskem souboru.

@@ -83,41 +83,54 @@ items:
     collection: Historie Církve československé v Rychvaldě ve fotografiích
     type: restored_Jan_Hus_bonfire_tradition_procession_date_people_and_caption
     related_open_items: [URB-U-0058, URB-U-0061]
-    source_items: [urbanek-ccs-049, urbanek-ccs-050]
+    source_items: [urbanek-ccs-049, urbanek-ccs-050, urbanek-ccs-051, urbanek-ccs-052, urbanek-ccs-053, urbanek-ccs-054]
     question: >-
       Kdy a kým byla obnovena tradice husovské hranice, jak zněl celý useknutý
-      popisek, zachycují hranice a průvod stejný ročník, kdo jsou vedoucí osoby a
-      účastníci, jaká byla trasa a role hasičů a jak dlouho tradice pokračovala?
+      popisek, zachycují oba průvodové snímky a série hranice stejný ročník, kdo jsou
+      vedoucí osoby, hudebníci, hasiči a ostatní účastníci, jaká byla trasa a jak
+      dlouho tradice pokračovala?
     known_facts:
       - "Urbanek-ccs-049 zachycuje hořící hranici z polen s černobílým portrétem nebo obrazem mužské postavy, početný dav a ženu v černém liturgickém oděvu."
-      - "Archivní název identifikuje portrét jako Jana Husa a tvrdí obnovení tradice, ale končí useknutým řetězcem far."
-      - "EXIF datum 15. března 2012 je v rozporu s plně olistěnou letní scénou a není spolehlivou datací události."
+      - "Archivní název urbanek-ccs-049 identifikuje portrét jako Jana Husa a tvrdí obnovení tradice, ale končí useknutým řetězcem far."
+      - "EXIF datum 15. března 2012 u urbanek-ccs-049 je v rozporu s plně olistěnou letní scénou a není spolehlivou datací události."
       - "Urbanek-ccs-050 zachycuje průvod podél kostela vedený dvěma ženami, za nimiž kráčejí hasiči v zásahovém oděvu a další účastníci."
-      - "Snímek průvodu nemá použitelná metadata pro dataci."
-      - "Vztah obou fotografií je pracovní hypotéza založená na archivním pořadí a tématu, nikoli potvrzený ročník."
+      - "Urbanek-ccs-051 zachycuje muže s českou vlajkou, dechovou hudbu a další část venkovního průvodu."
+      - "Urbanek-ccs-052 zachycuje nezapálenou hranici z polen s připevněným kresleným portrétem a okolním davem."
+      - "Urbanek-ccs-053 zachycuje stejnou konstrukci a portrét při hoření v detailu."
+      - "Urbanek-ccs-054 zachycuje tutéž hořící hranici v širokém pohledu s početným davem a několika hasiči."
+      - "Přesné obrazové porovnání potvrzuje, že urbanek-ccs-052, 053 a 054 tvoří posloupnost téže hranice před zapálením a při hoření."
+      - "Vztah urbanek-ccs-050 a 051 ke stejnému průvodu a vztah průvodu k hranici z téhož ročníku zůstávají pracovní hypotézou."
+      - "Urbanek-ccs-050 až 054 nemají použitelná embedded metadata pro dataci události."
     unresolved_attributes:
       - exact_date_of_each_image
-      - whether_images_show_same_event_and_year
+      - whether_procession_images_050_and_051_show_same_event
+      - whether_procession_and_bonfire_show_same_year
       - date_and_person_responsible_for_restoration
       - complete_original_caption
       - portrait_identity_and_origin
       - event_program_and_religious_civic_context
       - procession_route_and_destination
-      - firefighter_role_and_organization
+      - brass_band_identity
+      - flag_bearer_identity
+      - firefighter_role_unit_and_persons
       - leader_and_participant_identities
+      - exact_attendance_count
       - duration_and_frequency_of_restored_tradition
       - interpretation_of_conflicting_EXIF_date
     next_action: >-
-      Porovnat s následujícími snímky husovské série, církevní a obecní kronikou,
-      zpravodajem, programem akce, hasičskou kronikou a úplnou kopií popisku.
-      Metadata nepoužívat proti obrazovým a textovým dokladům bez vysvětlení rozporu.
+      Hledat církevní a obecní kroniku, zpravodaj, program husovské vzpomínky,
+      hasičskou kroniku, záznamy dechové hudby, úplnou kopii useknutého popisku a
+      další datované fotografie. Potvrzenou obrazovou posloupnost hranice odlišovat
+      od dosud neověřeného spojení s konkrétním průvodem a ročníkem.
     reopen_triggers:
       - dated_Hus_commemoration_program_found
       - church_or_municipal_chronicle_entry_found
       - fire_brigade_record_found
+      - brass_band_record_found
       - complete_filename_or_caption_found
-      - following_series_images_compared
       - participant_identification_provided
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml
       - sources/index.d/urbanek-ccs-10.yml
+      - sources/index.d/urbanek-ccs-11.yml

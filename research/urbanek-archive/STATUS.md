@@ -97,9 +97,9 @@ Soubory:
 ## Registr nejistot
 
 - Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
-- `open`: 7;
+- `open`: 4;
 - `deferred`: 0;
-- `resolved`: 28;
+- `resolved`: 31;
 - `not_actionable`: 3;
 - celkem: 38.
 
@@ -141,6 +141,8 @@ Položky `URB-U-0012`, `URB-U-0025` a `URB-U-0034` byly uzavřeny konstatování
 
 `URB-U-0028` byla uzavřena: Eva Močkořová hrála Olivii. Podoba „Ofélie“ v retrospektivním článku Bořivoje Pešky je autorský nebo tiskový omyl; v doslovném přepisu zůstává zachována s výslovnou opravnou poznámkou.
 
+`URB-U-0032` byla uzavřena jako známá ořezová lakuna bez dalšího hledání. Veškerý dochovaný text výsledkového bloku je přepsán; pokračování odříznuté dolním okrajem snímku zůstává výslovně označeno a nesmí být rekonstruováno odhadem.
+
 Původní `research/urbanek-archive/uncertainties.yml` je zachován jako historický snapshot a pro aktuální stav se nepoužívá. Další rychvaldské větrné mlýny se mají před uzavřením porovnat také s databází Povětrník.
 
 ## Aktuální krok
@@ -149,4 +151,4 @@ Stav pilotu:
 
 `draft_pr_open_with_complete_pilot_file_set`
 
-Další práce má probíhat kontrolou draft PR #1 a postupným řešením věcných nejistot. Technické soubory již nejsou překážkou.
+Všechny čtyři aktuálně otevřené položky (`URB-U-0008`, `URB-U-0036`, `URB-U-0037`, `URB-U-0038`) byly znovu posouzeny a zůstávají otevřené pro další hledání po získání nových relevantních pramenů. Další práce má pokračovat kontrolou draft PR #1 nebo zpracováním nové archivní dávky; technické soubory již nejsou překážkou.

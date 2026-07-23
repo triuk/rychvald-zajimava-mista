@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_09_open_items_updated_through_batch_13
+scope: ccs_batch_09_open_items_updated_through_batch_16
 items:
   - id: URB-U-0061
     status: open
@@ -67,15 +67,16 @@ items:
     status: open
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: Gabriel_Chrobacek_identity_episcopal_appointment_inauguration_portrait_presentation_and_delegation
+    type: Gabriel_Chrobacek_identity_election_appointment_inauguration_ritual_portrait_presentation_and_delegation
     related_open_items: [URB-U-0055, URB-U-0059, URB-U-0063]
-    source_items: [urbanek-ccs-045, urbanek-ccs-046, urbanek-ccs-061]
+    source_items: [urbanek-ccs-045, urbanek-ccs-046, urbanek-ccs-061, urbanek-ccs-077, urbanek-ccs-078, urbanek-ccs-079, urbanek-ccs-080]
     question: >-
-      Kdy, kde a do jakého biskupského úřadu byl Gabriel Chrobáček ustanoven a
-      inaugurován, zachycují fotografie tutéž osobu a slavnost, kdo tvořil rychvaldskou
-      delegaci, kdo předává plastiku, co plastika představuje, kdy a při jaké události
-      vznikl samostatný portrét u kalicha, co znamená řetěz nebo insignie a jak zněl
-      celý popisek useknutý za řetězcem „Rychv“?
+      Kdy, kde a do jakého biskupského úřadu byl Gabriel Chrobáček zvolen, ustanoven
+      a inaugurován, jaké úkony zachycují skupina duchovních s insigniemi, čtení listiny,
+      obřad u oltáře a zaplněné shromáždění, kdo jsou jejich účastníci a jaké měli úřady,
+      zachycují fotografie tutéž osobu a slavnost, kdo tvořil rychvaldskou delegaci,
+      kdo předává plastiku, co představuje, co znamenají řetězy a jak zněly useknuté
+      popisky a celý rok v názvu podsložky končícím „v r. 19“?
     known_facts:
       - "Urbanek-ccs-045 zachycuje velkou formální skupinu několika desítek dospělých a dětí před monumentálním vstupem."
       - "Uprostřed přední řady urbanek-ccs-045 sedí duchovní s výrazným řetězem nebo insignií; po jeho stranách sedí dvě ženy a jedna drží kytici."
@@ -84,34 +85,47 @@ items:
       - "Název urbanek-ccs-046 tvrdí, že bratr farář Gabriel Chrobáček se stal biskupem; obraz sám neurčuje datum, úřad ani identitu plastiky."
       - "Urbanek-ccs-061 zachycuje muže v tmavém duchovním oděvu s výrazným řetězem nebo insignií u stolu s kalichem, otevřenými knihami a listinami; v pozadí jsou další duchovní."
       - "Jméno Gabriel Chrobáček a biskupský titul na urbanek-ccs-061 pocházejí pouze z archivního názvu."
+      - "Urbanek-ccs-077 zachycuje čtyři duchovní s výraznými řetězy nebo insigniemi; jeden drží otevřenou velkou knihu a jiný menší uzavřenou knihu."
+      - "Urbanek-ccs-078 zachycuje duchovního v kulatých brýlích, který drží listy nebo dokument před skupinou přihlížejících."
+      - "Urbanek-ccs-079 zachycuje tři hlavní duchovní za oltářem, kalich, knihy, květiny a dalšího duchovního u pultu; prostřední má řetěz s přívěskem připomínajícím kalich."
+      - "Urbanek-ccs-080 zachycuje zaplněný interiér se samostatnou přední řadou, v níž nejméně dva muži mají výrazné řetězy nebo insignie."
+      - "Snímky 077 až 080 tvoří podle stejného prostředí, pořadí a opakujících se účastníků pravděpodobnou obřadní posloupnost, ale neobsahují jména, datum ani čitelný identifikační text."
+      - "Název podsložky uvádí slavnostní volbu a jmenování Gabriela Chrobáčka, avšak končí neúplným údajem ‚v r. 19‘."
       - "Vztah fotografií k jedné osobě nebo události je pracovní hypotéza a nesmí být potvrzen jen porovnáním obličeje."
     unresolved_attributes:
-      - exact_appointment_and_inauguration_dates
+      - exact_election_appointment_and_inauguration_dates
+      - complete_year_from_truncated_folder_title
       - episcopal_office_and_diocese
       - exact_locations_and_building_identities
       - Gabriel_Chrobacek_identity_on_each_image
-      - meaning_and_provenance_of_chain_or_insignia
+      - identities_and_offices_of_chain_or_insignia_bearers
+      - meaning_provenance_and_official_use_of_chains_or_insignia
+      - exact_ritual_and_documentary_sequence_of_items_077_to_080
+      - reader_identity_and_document_content_on_item_078
+      - officiants_roles_and_liturgical_or_appointment_act_on_item_079
+      - identities_roles_and_attendance_of_front_row_and_congregation_on_item_080
+      - whether_items_077_to_080_show_one_event
       - date_occasion_and_provenance_of_portrait_061
       - Rychvald_delegation_membership_and_count
       - presenter_identity
       - sculpture_subject_author_and_provenance
-      - document_content
       - identities_and_roles_of_all_people
-      - whether_images_show_same_event_or_multiple_events
-      - complete_original_caption
+      - whether_all_images_show_same_event_or_multiple_events
+      - complete_original_captions
     next_action: >-
-      Hledat protokol volby a inaugurace, diecézní a sborovou kroniku, dobový tisk,
-      program slavnosti, seznam delegace, záznam o daru nebo plastice, personální
-      portrétní prameny, popsané paralelní fotografie a úplnou kopii názvu. Osoby ani
-      význam insignie neurčovat pouze podle vzhledu.
+      Dokončit celou podsložku a poté hledat protokol volby a jmenování, diecézní a
+      sborovou kroniku, dobový tisk, program slavnosti, seznam delegace, záznam o daru
+      nebo plastice a personální portrétní prameny. Získat úplný název podsložky a
+      popisky. Osoby, úřady ani význam insignií neurčovat pouze podle vzhledu.
     reopen_triggers:
-      - appointment_or_inauguration_protocol_found
+      - full_Chrobacek_subcollection_processed
+      - election_appointment_or_inauguration_protocol_found
+      - complete_folder_title_found
       - diocesan_chronicle_entry_found
       - dated_press_report_found
       - Rychvald_delegation_list_found
       - gift_or_sculpture_record_found
-      - captioned_portrait_source_found
-      - complete_filename_or_caption_found
+      - captioned_parallel_photo_found
       - participant_identification_provided
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml
@@ -120,3 +134,5 @@ items:
       - sources/index.d/urbanek-ccs-10.yml
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml
       - sources/index.d/urbanek-ccs-13.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-16.yml
+      - sources/index.d/urbanek-ccs-16.yml

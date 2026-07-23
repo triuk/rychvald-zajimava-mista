@@ -1,6 +1,8 @@
+schema_version: 2
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
+
 source:
   root: sources/osobni-archiv-jaromira-urbanka
   attribution: "Z osobního archivu p. Jaromíra Urbánka."
@@ -11,277 +13,178 @@ source:
   authoritative_storage: git_repository
 
 authoritative_files:
-  - AGENTS.md
-  - research/urbanek-archive/STATUS.md
-  - research/urbanek-archive/state.yml
-  - research/urbanek-archive/uncertainties/index.yml
-  - research/urbanek-archive/reports/pilot-reconciliation.md
-  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
-
-checkpoints:
-  import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
-  czech_word_second_review_completed_commit: 0bff6de7d6e757f0d800638f9efb6bbbdb70b952
-  ochotnici_visual_review_completed_commit: 7bf36d5547d860e4596730ab9a3d32c9bc74f3b0
-  den_po_desti_inventory_commit: 983ae743c95dbc03d1995bd0e7e8d24adc63d0c1
-  den_po_desti_cache_audit_commit: c4f03a2c30c47d4b5e8fd263eac835cef366bae0
-  den_po_desti_classification_commit: c62b130a606c7d8e46b4c3130fe49e225c662827
-  nalet_inventory_commit: 5af5e9460d84eb3e1af18a8756f3a6e32fc1125d
-  nalet_cache_audit_commit: 1d10fbe0aa85869e2bdc873ef45ab2fc90e3f5b4
-  nalet_classification_commit: ae068338045a1dbb09e5d6e97af295e71a1fa513
-  uncertainty_registry_commit: 97e792659d5144fa70dc7d511098501f5899cb00
-  pilot_reconciliation_commit: a22027e5d4d6b0627f6630ca7c86c8dd68aecdf1
-  draft_pull_request_head_at_creation: a5bb5e7762eb775030677d166d0602c25b576b4d
-  technical_cache_completion_commit: 7e6483d1bcb92034bea6eddd43fd55869dedce9c
-  urb_u_0004_resolution_commit: f97052ae3e50b52936376107d32e3943c1d85162
-  urb_u_0005_resolution_commit: d073437f3145d70537157eb02aab1faadb88dfc8
-  urb_u_0032_resolution_commit: 171acb480c3c1177104df8007647903e8dd2e077
-  urb_u_0032_temp_cleanup_final_commit: b94ce7128266332800c878935fbac6d566a66dd9
-  ccs_history_overview_commit: ec08c19bd23a93b6ec24dddaf6636a3e370a62c8
-  ccs_history_inventory_01_commit: a167ccaf592076e38632df0e95d3bd7398033b57
-  ccs_history_batch_01_commit: 482ab4cfd05802ac4fbd55222db04ce6df53b3fd
-
-pilot_totals:
-  collections: 5
-  content_files: 144
-  technical_files: 15
-  total_items: 159
-  content_files_repo_verified: 144
-  technical_files_repo_verified: 15
-  total_items_repo_present: 159
-  repo_missing_items: 0
-  missing_full_original_images_known_only_from_thumbnail_caches: 11
-
-phases:
-  import: completed
-  pilot_inventory: completed
-  pilot_technical_audit: completed
-  pilot_visual_classification: completed
-  ocr_first_pass_czech_word: completed
-  ocr_second_visual_review_czech_word: completed
-  ochotnici_text_processing_first_pass: completed
-  ochotnici_second_visual_review: completed
-  pilot_reconciliation: completed
-  pilot_file_completion: completed
-  thumbnail_only_original_classification: completed
-  uncertainty_registry_sharding: completed
-  hebda_windmill_identification: completed
-  draft_pull_request: created
-  draft_consistency_review: completed_with_scope_correction
-  ccs_history_collection_inventory: in_progress
-  ccs_history_visual_classification: in_progress
-  ccs_history_ocr_review: pending
-  ccs_history_thumbnail_cache_audit: pending
+  rules: AGENTS.md
+  human_status: research/urbanek-archive/STATUS.md
+  machine_state: research/urbanek-archive/state.yml
+  uncertainty_registry: research/urbanek-archive/uncertainties/index.yml
+  pilot_reconciliation: research/urbanek-archive/reports/pilot-reconciliation.md
+  ccs_collection_overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
+  ccs_source_index: sources/index.d/urbanek-ccs.yml
 
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
+  title: Import and classify Jaromír Urbánek archive (pilot + CČS batch)
   state: open
   draft: true
   base: main
   head: agent/import-urbanek-pilot
-  created_at: 2026-07-21T13:33:00Z
   merge_requested: false
   scope:
     completed_pilot: true
     next_archive_batch_in_progress: urbanek-ccs-history
 
-pilot_collections:
-  - name: Rychvaldské větrné mlýny
-    status: classification_and_initial_ocr_completed
-    total_items: 39
-    content_files: 31
-    technical_files: 8
-    repo_verified_items: 39
-    repo_missing_items: 0
-    missing_full_original_images_known_only_from_cache: 0
-    reports:
-      - research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
+checkpoints:
+  import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
+  pilot_reconciliation_commit: a22027e5d4d6b0627f6630ca7c86c8dd68aecdf1
+  technical_cache_completion_commit: 7e6483d1bcb92034bea6eddd43fd55869dedce9c
+  urb_u_0032_resolution_commit: 171acb480c3c1177104df8007647903e8dd2e077
+  urb_u_0032_temp_cleanup_final_commit: b94ce7128266332800c878935fbac6d566a66dd9
+  ccs_history_overview_commit: ec08c19bd23a93b6ec24dddaf6636a3e370a62c8
+  ccs_history_inventory_01_commit: a167ccaf592076e38632df0e95d3bd7398033b57
+  ccs_history_batch_01_commit: 482ab4cfd05802ac4fbd55222db04ce6df53b3fd
+  ccs_history_source_index_01_commit: 5c77fe0db46f2b65675db1207a9193a2b3b95fc9
 
-  - name: Články z Českého slova
-    status: first_pass_and_second_visual_review_completed
-    total_items: 39
-    content_files: 37
-    technical_files: 2
-    repo_verified_items: 39
+pilot:
+  status: completed
+  totals:
+    collections: 5
+    content_files: 144
+    technical_files: 15
+    total_items: 159
+    repo_verified_items: 159
     repo_missing_items: 0
-    missing_full_original_images_known_only_from_cache: 8
-    reports:
-      - research/urbanek-archive/reports/clanky-z-ceskeho-slova-thumbnail-cache.md
+    missing_full_original_images_known_only_from_thumbnail_caches: 11
+  collections:
+    - id: urbanek-mlyny
+      name: Rychvaldské větrné mlýny
+      status: classification_and_initial_ocr_completed
+      content_files: 31
+      technical_files: 8
+      total_items: 39
+    - id: urbanek-ceske-slovo
+      name: Články z Českého slova
+      status: first_pass_and_second_visual_review_completed
+      content_files: 37
+      technical_files: 2
+      total_items: 39
+    - id: urbanek-ochotnici
+      name: Ochotníci rychvald
+      status: first_text_pass_and_second_visual_review_completed
+      content_files: 61
+      technical_files: 2
+      total_items: 63
+    - id: urbanek-den-po-desti
+      name: fotodokument/den po dešti
+      status: technical_audit_and_visual_classification_completed
+      content_files: 8
+      technical_files: 2
+      total_items: 10
+    - id: urbanek-nalet-ostrava-1944
+      name: Nálet na Ostravu 1944
+      status: technical_audit_and_visual_classification_completed
+      content_files: 7
+      technical_files: 1
+      total_items: 8
 
-  - name: Ochotníci rychvald
-    status: first_text_pass_and_second_visual_review_completed
-    total_items: 63
-    content_files: 61
-    technical_files: 2
-    repo_verified_items: 63
-    repo_missing_items: 0
-    missing_full_original_images_known_only_from_cache: 2
-    second_visual_review_source_items: 29
-    processing_plan: research/urbanek-archive/collections/ochotnici-rychvald-processing-plan.yml
-    visual_review_protocols:
-      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-01.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-02.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-03.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-04.yml
-      - research/urbanek-archive/collections/ochotnici-rychvald-visual-review-05.yml
-
-  - name: fotodokument/den po dešti
-    status: technical_audit_and_visual_classification_completed
-    total_items: 10
-    content_files: 8
-    technical_files: 2
-    repo_verified_items: 10
-    repo_missing_items: 0
-    missing_full_original_images_known_only_from_cache: 1
-    ocr_required: false
-    multiple_events_confirmed_by_exif: true
-    files:
-      inventory: research/urbanek-archive/collections/den-po-desti-inventory.csv
-      verification: research/urbanek-archive/collections/den-po-desti-verification.yml
-      classification: research/urbanek-archive/collections/den-po-desti-classification.yml
-      cache_report: research/urbanek-archive/reports/den-po-desti-thumbnail-cache.md
-
-  - name: Nálet na Ostravu 1944
-    status: technical_audit_and_visual_classification_completed
-    total_items: 8
-    content_files: 7
-    technical_files: 1
-    repo_verified_items: 8
-    repo_missing_items: 0
-    missing_full_original_images_known_only_from_cache: 0
-    ocr_required: false
-    event_label_independently_verified: false
-    files:
-      inventory: research/urbanek-archive/collections/nalet-na-ostravu-1944-inventory.csv
-      verification: research/urbanek-archive/collections/nalet-na-ostravu-1944-verification.yml
-      classification: research/urbanek-archive/collections/nalet-na-ostravu-1944-classification.yml
-      cache_report: research/urbanek-archive/reports/nalet-na-ostravu-1944-thumbnail-cache.md
-
-next_archive_batches:
-  - collection_id: urbanek-ccs-history
-    name: Historie Církve československé v Rychvaldě ve fotografiích
-    status: processing_in_progress
-    source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
+next_archive_batch:
+  collection_id: urbanek-ccs-history
+  name: Historie Církve československé v Rychvaldě ve fotografiích
+  status: processing_in_progress
+  source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
+  source_index_shard: sources/index.d/urbanek-ccs.yml
+  totals:
     subfolders: 10
     content_files: 200
     technical_files: 1
     total_items: 201
+  progress:
     processed_items: 5
     repo_verified_items: 5
-    current_batch: construction-sequence-01
-    next_items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
-    files:
-      overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
-      inventory_01: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
-      classification_01: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
+    visually_classified_items: 5
+    source_indexed_items: 5
+    remaining_items: 196
+    inventory_status: in_progress
+    visual_classification_status: in_progress
+    ocr_status: pending
+    thumbnail_cache_audit_status: pending
+  current_batch:
+    id: construction-sequence-01
+    status: completed_first_visual_pass
+    items: [urbanek-ccs-001, urbanek-ccs-002, urbanek-ccs-003, urbanek-ccs-004, urbanek-ccs-005]
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
+  next_items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
+  technical_files:
+    - path: "10 Kalendář 2015/Thumbs.db"
+      audit_status: pending
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 4, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 38}
-  recently_resolved:
-    - id: URB-U-0004
-      result: povetrnik_record_176_exact_image_match_potocni_564_verified
-      evidence: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
-    - id: URB-U-0005
-      result: povetrnik_record_175_exact_image_match_u_skucaku_54_verified
-      evidence: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
-    - id: URB-U-0007
-      result: kakal_mill_image_identity_confirmed_only
-      evidence: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
-      linked_open_item: URB-U-0036
-    - id: URB-U-0009
-      result: rychvald_saint_anne_church_interior_verified
-      evidence: research/urbanek-archive/verifications/urb-u-0009-kostel-svate-anny.md
-      linked_open_item: URB-U-0037
-    - id: URB-U-0010
-      result: house_339_windmill_sketch_and_photos_same_device_verified
-      evidence: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
-      linked_open_item: URB-U-0038
-    - id: URB-U-0011
-      result: kakal_mill_copy_in_house_339_folder_confirmed_misfiled
-      evidence: research/urbanek-archive/verifications/urb-u-0011-misfiled-kakal-copy.md
-    - id: URB-U-0020
-      result: known_nonmaterial_physical_lacuna_closed
-      evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-020-document-text.md
-    - id: URB-U-0021
-      result: known_cropping_lacuna_closed
-      evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-022-a-document-text.md
-    - id: URB-U-0022
-      result: known_physical_lacuna_closed
-      evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-035-document-text.md
-    - id: URB-U-0026
-      result: fabian_role_alternation_radomir_jurdin_and_vaclav_valek_verified
-      evidence: research/urbanek-archive/verifications/urb-u-0026-vaclav-valek-research.md
-    - id: URB-U-0027
-      result: exact_count_3915_approximate_3960_same_event_verified
-      evidence: research/urbanek-archive/verifications/urb-u-0027-participant-counts.md
-    - id: URB-U-0028
-      result: olivie_correct_ofelie_retrospective_article_error
-      evidence: research/urbanek-archive/verifications/urb-u-0028-olivie-ofelie.md
-    - id: URB-U-0032
-      result: known_cropping_lacuna_closed_without_further_search
-      evidence: research/urbanek-archive/ocr/urbanek-ochotnici-004-document-text.md
-  not_actionable_items:
-    - id: URB-U-0017
-      result: incidental_previous_article_edge_excluded_from_clipping_scope
-      evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-010-b-document-text.md
-    - id: URB-U-0023
-      result: incidental_previous_article_edge_excluded_from_clipping_scope
-      evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-019-b-document-text.md
+  summary:
+    open: 4
+    in_progress: 0
+    deferred: 0
+    resolved: 31
+    not_actionable: 3
+    total: 38
   active_research_threads:
     - id: URB-U-0008
       subject: neidentifikovaná historická fotografie větrného mlýna
       unresolved: [mill_identity, exact_location, period]
-      revisit_after: [new_archive_batch, matching_historical_photograph, new_caption, new_source_note]
     - id: URB-U-0036
       subject: Kakalův mlýn
       unresolved: [exact_location, house_number, owner_identity, construction_date, disappearance_date, technology]
-      revisit_after: [new_archive_batch, new_ocr, new_map, new_address_record, matching_photo]
     - id: URB-U-0037
       subject: archivní kontext fotografie kostela sv. Anny
       unresolved: [folder_relation, meaning_of_304, possible_house_or_person_reference]
-      revisit_after: [new_archive_batch, new_caption, house_number_304_reference, Kakal_family_church_relation]
     - id: URB-U-0038
       subject: mlýnek za domem č. 339
       unresolved: [exact_historical_location, house_number_continuity, owner_identity, construction_date, disappearance_date, technology]
       candidate_current_location: "Bohumínská 339, parcela st. 548"
-      revisit_after: [new_archive_batch, historical_map, aerial_photo, address_record, matching_landscape_photo]
-  rules:
-    - Open issues are not presented as verified facts.
-    - A thumbnail without a standalone full file means the full original is missing.
-    - Thumbnail-only images are not substitutes for full originals.
-    - Folder and filename labels are archival metadata, not independent proof.
-    - Windmill identifications are compared with the Povětrník specialist database before closure.
-    - A resolved identity does not close unresolved location, date, ownership or technology; create a linked open item for those attributes.
-    - Known physical or cropping lacunae may be closed when all surviving text is transcribed and the missing content is explicitly marked without reconstruction.
-    - User-confirmed cast alternation may reconcile a printed cast with differently named archival photographs when ensemble membership is independently corroborated.
-    - Exact participant counts take precedence over explicitly approximate rounded figures when both sources describe the same event.
+  handling_rule: >-
+    Aktivní položku znovu prověř pouze tehdy, přinese-li nová dávka relevantní
+    fotografii, popisek, text, mapový nebo adresní doklad. Negativní dílčí hledání
+    není důvodem k uzavření.
+
+consistency_review:
+  status: completed_with_corrections
+  corrections:
+    - pilot_and_next_batch_scopes_separated
+    - pull_request_title_and_body_updated
+    - uncertainty_counts_synchronized
+    - urb_u_0032_temporary_artifacts_removed
+    - ccs_collection_overview_created
+    - ccs_source_index_shard_created
+    - first_ccs_batch_inventory_and_classification_created
+  verified_equal_totals:
+    ccs_content_files: 200
+    ccs_technical_files: 1
+    ccs_total_items: 201
+  ci_status:
+    checks_returned: 0
+    interpretation: no_reported_checks_not_a_successful_test_run
 
 readiness:
   status: draft_pr_open_pilot_complete_next_batch_in_progress
-  reconciliation_report: research/urbanek-archive/reports/pilot-reconciliation.md
   blockers_for_merge:
     - next_archive_batch_processing_incomplete
     - ccs_history_full_inventory_and_blob_verification_incomplete
+    - ccs_history_ocr_review_incomplete
     - ccs_history_thumbnail_cache_not_audited
-  known_non_blocking_issues:
+  non_blocking_known_issues:
     - eleven pilot full original images are missing; only thumbnails remain in caches
-    - four open historical and identification questions remain registered
-    - one historical windmill photograph remains unidentified in URB-U-0008
-    - Kakal mill identity is known but its location and history remain open in URB-U-0036
-    - church interior is identified, but filename 304 and folder relation remain open in URB-U-0037
-    - house 339 windmill document group is verified, but exact historical location remains open in URB-U-0038
+    - four historical and identification questions remain open
 
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  pull_request: 1
+  items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
+  batch_size_rule: 5_to_10_files
   instruction: >-
-    Continue with items 6–10 of the first subfolder, then process the remaining
-    files in batches of 5–10. For each item verify the Git blob SHA, preserve the
-    original path and filename, perform visual classification, separate document
-    text from scene text, and register only substantive unresolved questions.
-    Audit the Thumbs.db file in the calendar subfolder before declaring the
-    collection complete. Do not mark the PR ready or merge it while this batch is
-    incomplete.
+    Verify each source file against the Git branch, record its Git blob SHA,
+    perform visual classification, record rights and attribution, separate
+    document_text from scene_text, append the item to the collection inventory
+    and source-index shard, and register only substantive unresolved questions.
+    Do not mark the PR ready or merge it while the collection remains incomplete.

@@ -1,0 +1,89 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-16
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-076
+    title: Skupina archivně označená jako biskup Stibor s radou starších
+    document_type: historical_black_and_white_outdoor_council_group
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/3 Biskup Ferdinand Stibor v Rychvaldě/6 Biskup Stibor s radou starších. Zleva Herman, nn,Trant. Šm.jpg"
+    file_size_bytes: 264078
+    git_blob_sha: 31809fd2001d74b99256c2360080bae5389f4230
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Sedm osob, duchovní oděv, řetěz, kytice a venkovní prostředí jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_outdoor_seated_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno Stibor a označení rady starších pocházejí z archivního názvu.
+      - Název obsahuje pouze fragmenty jmen Herman, nn, Trant a Šm; pokračování nebylo rekonstruováno.
+      - Souvisí s URB-U-0050.
+
+  - source_id: urbanek-ccs-077
+    title: Čtyři duchovní s řetězy a knihami při slavnostním shromáždění
+    document_type: historical_black_and_white_clergy_group_with_insignia
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/1.jpg"
+    file_size_bytes: 212096
+    git_blob_sha: 5c482a916c75e19fe2bfaa8f44ce227308a270e9
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Duchovní, řetězy nebo insignie, knihy a další účastníci jsou čitelní."}
+    visual_content: {photographs: single_historical_clergy_group, scene_text: no_readable_text, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Volba, jmenování a jméno Gabriela Chrobáčka pocházejí z názvu podsložky.
+      - Osoby, úřady a význam insignií nejsou obrazem určeny.
+      - Souvisí s URB-U-0062.
+
+  - source_id: urbanek-ccs-078
+    title: Duchovní s brýlemi čtoucí nebo držící dokument
+    document_type: historical_black_and_white_clergy_reader_with_documents
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/2.jpg"
+    file_size_bytes: 164757
+    git_blob_sha: 4f5ba19760c7ba8e0b82f487e1ede780f6aec800
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Postava duchovního, brýle a držené listiny jsou dobře čitelné; obsah dokumentu nikoli."}
+    visual_content: {photographs: single_historical_clergy_reader, scene_text: no_readable_text, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Osoba, dokument a přesný obřadní okamžik nejsou určeny.
+      - Souvisí s URB-U-0062.
+
+  - source_id: urbanek-ccs-079
+    title: Obřad u oltáře s kalichem, knihami a duchovními
+    document_type: historical_black_and_white_altar_ceremony
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/3.jpg"
+    file_size_bytes: 205985
+    git_blob_sha: 8c152a2b745b6d892053486e5d8d4fef7d2b27b4
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Tři hlavní duchovní, kalich, knihy, květiny a pult jsou čitelné."}
+    visual_content: {photographs: single_historical_altar_ceremony, scene_text: no_readable_text, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Prostřední duchovní má řetěz s přívěskem připomínajícím kalich.
+      - Identita osob a přesný liturgický či jmenovací úkon nejsou určeny.
+      - Souvisí s URB-U-0062.
+
+  - source_id: urbanek-ccs-080
+    title: Zaplněný interiér se samostatnou přední řadou držitelů insignií
+    document_type: historical_black_and_white_crowded_service_with_dignitaries
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/4.jpg"
+    file_size_bytes: 230161
+    git_blob_sha: 785a0d5a8973ebc4cd20b30de9be23a0956bface
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Přední řada, nejméně dva řetězy nebo insignie a zaplněné hlediště jsou čitelné."}
+    visual_content: {photographs: single_historical_crowded_service, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Přesný počet účastníků, jejich identity a funkce nejsou známy.
+      - Souvisí s URB-U-0062.

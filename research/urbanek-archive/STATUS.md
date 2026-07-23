@@ -56,20 +56,28 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-První dávka pěti snímků dokumentujících položení základního kamene a výstavbu byla:
+Dokončeny jsou dvě dávky po pěti snímcích:
 
-- vizuálně zkontrolována;
-- položkově inventarizována;
-- ověřena proti Git blob SHA;
-- zapsána do kolekčního zdrojového indexu;
-- klasifikována se samostatným `document_text` a `scene_text`.
+1. `urbanek-ccs-001` až `urbanek-ccs-005` – položení základního kamene a výstavba;
+2. `urbanek-ccs-006` až `urbanek-ccs-010` – dokončený exteriér, původní interiér a rané slavnostní bohoslužby.
+
+Dosavadní stav nové kolekce:
+
+- zpracováno: **10 z 201 položek**;
+- proti Git blob SHA ověřeno: **10 položek**;
+- vizuálně klasifikováno: **10 položek**;
+- zdrojově indexováno: **10 položek**;
+- zbývá: **191 položek**.
 
 Pracovní soubory:
 
 - `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml`;
 - `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv`;
 - `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml`;
-- `sources/index.d/urbanek-ccs.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml`;
+- `sources/index.d/urbanek-ccs.yml`;
+- `sources/index.d/urbanek-ccs-02.yml`.
 
 Úplný inventář, blob verifikace, vizuální klasifikace, OCR relevantního textu a audit `Thumbs.db` pokračují po dávkách 5–10 souborů.
 
@@ -100,16 +108,16 @@ Provedeno:
 - pilot oddělen od nové dávky;
 - popis a název PR aktualizovány podle skutečného obsahu větve;
 - dočasný export a fragmenty k `URB-U-0032` odstraněny;
-- nový kolekční přehled, inventář, klasifikace a zdrojový shard vytvořeny;
+- nový kolekční přehled, dávkové inventáře, klasifikace a zdrojové shardy vytvořeny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejné součty nové dávky: 200 + 1 = 201.
 
-GitHub pro aktuální head nevrací žádné CI status checks; nejde tedy o úspěšně proběhlý test, ale o repozitář bez hlášených kontrol.
+GitHub nevrací pro kontrolovaný head žádné CI status checks; nejde tedy o úspěšně proběhlý test, ale o repozitář bez hlášených kontrol.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-006` až `urbanek-ccs-010`.
+- Následující položky: `urbanek-ccs-011` až `urbanek-ccs-015`.
 - Pokračovat po dávkách 5–10 souborů.
 - Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.

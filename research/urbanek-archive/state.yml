@@ -35,7 +35,6 @@ pull_request:
   draft: true
   base: main
   head: agent/import-urbanek-pilot
-  head_observed_before_this_commit: 93ec90fefac6c9ce7f1baeb3e139be11802b9074
   merge_requested: false
   scope:
     completed_pilot: true
@@ -57,7 +56,7 @@ checkpoints:
   ccs_history_uncertainties_06_commit: 0d126184110a9f201111f8d7710d1bd7482c1f9c
   ccs_history_uncertainty_index_06_commit: ea2f841290a949dcb9687b98e1fb23e3e923edc0
   ccs_history_overview_06_commit: e4a3992e96045ea48d9d6c474c17be7db13f583d
-  ccs_history_status_06_commit: cf30c550c9b8010cc10027e9526a7c532bf459b4
+  ccs_history_status_06_commit: b890b83b707a088b68af20fdababd3ddad491253
 
 pilot:
   status: completed

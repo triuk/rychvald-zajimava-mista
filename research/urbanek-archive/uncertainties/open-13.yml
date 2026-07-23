@@ -1,81 +1,111 @@
 schema_version: 1
-scope: ccs_batch_10_open_items
+scope: ccs_batch_10_open_items_updated_through_batch_14
 items:
   - id: URB-U-0063
     status: open
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: fiftieth_anniversary_1970_exact_context_people_and_program
-    related_open_items: [URB-U-0054, URB-U-0059, URB-U-0062]
-    source_items: [urbanek-ccs-047]
+    type: fiftieth_anniversary_1970_exact_context_Kare_Marceluch_people_and_program
+    related_open_items: [URB-U-0054, URB-U-0059, URB-U-0062, URB-U-0064, URB-U-0068]
+    source_items: [urbanek-ccs-047, urbanek-ccs-066, urbanek-ccs-067]
     question: >-
       Kdy přesně a při jaké události se konalo padesáté výročí uváděné rokem 1970,
-      čeho bylo výročí, kdo jsou tři duchovní a muž v obleku, jaké měli funkce a
-      jaký byl program a rozsah oslav?
+      čeho bylo výročí, kdo byli přítomní duchovní a další hosté, jak znělo celé jméno
+      useknuté po řetězci „Kare“, kdo byl archivně označený biskup Marceluch, jaká je
+      správná podoba jeho jména a úřadu a jaký byl program a rozsah oslav?
     known_facts:
-      - "Fotografie zachycuje v kněžišti tři muže v duchovním oděvu a jednoho muže v obleku."
-      - "Duchovní vlevo má výrazný řetěz nebo insignii a drží kytici; další osoba také drží kytici."
-      - "Na oltáři je viditelný kalich a květinová výzdoba."
-      - "Rok 1970 a formulace o 50. výročí založení CČS v Rychvaldě pocházejí z archivního názvu."
+      - "Urbanek-ccs-047 zachycuje v kněžišti tři muže v duchovním oděvu a jednoho muže v obleku."
+      - "Duchovní vlevo na urbanek-ccs-047 má výrazný řetěz nebo insignii a drží kytici; další osoba také drží kytici."
+      - "Na oltáři urbanek-ccs-047 je viditelný kalich a květinová výzdoba."
+      - "Rok 1970 a formulace o 50. výročí založení CČS v Rychvaldě pocházejí z archivního názvu urbanek-ccs-047 a z názvu druhé podsložky."
+      - "Urbanek-ccs-066 zachycuje dítě podávající ruku ústřednímu duchovnímu s kyticí a knihami nebo složkou."
+      - "Název urbanek-ccs-066 končí řetězcem ‚Kare‘; pokračování jména v dochovaném názvu chybí."
+      - "Urbanek-ccs-067 je širší reprodukce přesně téhož fotografického obrazu jako urbanek-ccs-066 a navíc ukazuje vlevo holohlavého duchovního s řetězem nebo insignií a vpravo muže v obleku s kyticí."
+      - "Geometrické porovnání urbanek-ccs-066 a 067 nalezlo 306 konzistentních shod, z nichž 96,8 % odpovídá jednomu modelu výřezu a změny měřítka; nejde tedy o dva nezávislé okamžiky."
+      - "Archivní název urbanek-ccs-067 označuje levého duchovního jako biskupa Marcelucha; obraz neobsahuje jméno ani úřad."
     unresolved_attributes:
       - exact_event_date
       - exact_anniversary_subject_and_starting_event
       - independent_confirmation_of_year_1970
-      - identities_and_roles_of_four_men
-      - identity_and_meaning_of_chain_or_insignia
-      - exact_service_ceremony_and_program
+      - complete_Kare_name_and_identity
+      - Marceluch_authoritative_name_spelling_identity_and_episcopal_office
+      - identities_and_roles_of_clergy_and_other_guests
+      - identity_and_meaning_of_each_chain_or_insignia
+      - exact_service_ceremony_welcome_and_program
+      - identities_of_children_and_welcoming_participants
       - invited_guests_and_attendance
-      - relationship_to_Chrobacek_and_Vodicka_visits
+      - relationship_between_items_047_066_067_and_other_1970_visit_images
+      - relationship_to_Chrobacek_Vodicka_Bogumski_and_baptism_series
     next_action: >-
-      Hledat výroční program, sborovou a obecní kroniku, zápisy rady starších,
-      dobový tisk, seznam hostů a další popsané fotografie z roku 1970.
+      Hledat výroční program, sborovou a obecní kroniku, zápisy rady starších, dobový
+      tisk, návštěvní protokoly, personální prameny k Marceluchovi a osobě Kare…, seznam
+      hostů a další popsané fotografie z roku 1970. Urbanek-ccs-066 a 067 počítat jako
+      dvě archivní reprodukce jednoho fotografického obrazu, nikoli dva doklady události.
     reopen_triggers:
       - anniversary_program_found
       - church_or_municipal_chronicle_entry_found
       - dated_press_report_found
+      - complete_Kare_caption_found
+      - Marceluch_personnel_record_found
       - council_minutes_found
       - participant_identification_provided
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
       - sources/index.d/urbanek-ccs-10.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
+      - sources/index.d/urbanek-ccs-14.yml
 
   - id: URB-U-0064
     status: open
-    priority: medium
+    priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: baptism_1970_Vodicka_family_clergy_and_context
-    related_open_items: [URB-U-0050, URB-U-0063]
-    source_items: [urbanek-ccs-048]
+    type: anniversary_baptisms_number_Vodicka_families_clergy_and_register
+    related_open_items: [URB-U-0050, URB-U-0063, URB-U-0067, URB-U-0068]
+    source_items: [urbanek-ccs-048, urbanek-ccs-068, urbanek-ccs-069]
     question: >-
-      Kdy se křtiny konaly, komu bylo dítě křtěno, kdo jsou rodiče a ostatní
-      účastníci, který z několika duchovních je farář Vodička a souvisela událost
-      s výroční návštěvou roku 1970?
+      Kdy se křtiny konaly, šlo při výroční návštěvě skutečně o tři křty, komu byly
+      děti křtěny, kdo jsou rodiče, kmotři a ostatní účastníci, kteří duchovní obřady
+      vedli, který z nich je farář Vodička a jak jednotlivé fotografie a rodiny souvisejí?
     known_facts:
-      - "Žena drží zavinuté dítě před duchovním, který má v rukou knihu nebo obřadní text."
-      - "Mezi nimi stojí vysoká křestní svíce a v pozadí jsou další dospělí a nejméně dva duchovní."
-      - "Jeden muž v pozadí má brýle; archivní název označuje muže v brýlích jako faráře Vodičku."
-      - "EXIF datum 1. září 2014 dokládá digitalizaci nebo reprodukci, nikoli křtiny roku 1970."
+      - "Urbanek-ccs-048 zachycuje ženu se zavinutým dítětem před duchovním, který má v rukou knihu nebo obřadní text."
+      - "Mezi nimi na urbanek-ccs-048 stojí vysoká křestní svíce a v pozadí jsou další dospělí a nejméně dva duchovní."
+      - "Jeden muž v pozadí urbanek-ccs-048 má brýle; archivní název označuje muže v brýlích jako faráře Vodičku."
+      - "EXIF datum 1. září 2014 u urbanek-ccs-048 dokládá digitalizaci nebo reprodukci, nikoli křtiny roku 1970."
+      - "Urbanek-ccs-068 zachycuje jeden jasně viditelný kojenec, ženu, obřad vedoucího duchovního, vysokou křestní svíci a několik dalších rodinných a duchovních skupin."
+      - "Archivní název urbanek-ccs-068 tvrdí, že při této příležitosti proběhly troje křtiny; jediný snímek přesný počet tří samostatných křtů neprokazuje."
+      - "Urbanek-ccs-069 zachycuje jinou nebo jinak postavenou rodinnou skupinu: ženu s kojencem, dva muže v oblecích a duchovního fotografovaného zezadu s výrazným řetězem nebo insignií."
+      - "Archivní název urbanek-ccs-069 sám klade otázku totožnosti křtěnců."
+      - "Společný interiér, archivní pořadí a obřadní charakter podporují souvislost urbanek-ccs-048, 068 a 069 s jednou výroční sérií, ale neurčují přesné rodiny, pořadí ani počet obřadů."
     unresolved_attributes:
       - exact_baptism_date
       - independent_confirmation_of_year_1970
+      - independent_confirmation_of_three_baptisms
+      - number_of_distinct_infants_and_families_across_images
       - infant_parent_and_godparent_identities
-      - Vodicka_identity_and_position_in_image
-      - officiating_clergy_identity
+      - Vodicka_identity_and_position_in_each_image
+      - identities_of_officiating_clergy
+      - identity_and_role_of_chain_bearing_clergy
       - identities_of_other_clergy_and_participants
-      - baptism_register_entry
+      - baptism_register_entries
+      - relationship_between_images_048_068_069
       - relationship_to_anniversary_or_clergy_visit
     next_action: >-
-      Hledat matriku křtů, kroniku, rodinné album, návštěvní program roku 1970 a
-      popsanou paralelní fotografii. Faráře Vodičku neurčovat jen podle vzhledu či brýlí.
+      Hledat matriku křtů, sborovou a obecní kroniku, rodinná alba, návštěvní a výroční
+      program roku 1970 a popsané paralelní fotografie. Počet tří křtů nepřebírat jako
+      obrazově potvrzený a faráře Vodičku ani jiné duchovní neurčovat podle vzhledu,
+      brýlí, řetězu nebo polohy.
     reopen_triggers:
-      - baptism_register_entry_found
+      - baptism_register_entries_found
+      - three_baptisms_documented
       - family_identification_provided
       - clergy_visit_program_found
       - captioned_parallel_photo_found
-      - Vodicka_personnel_record_found
+      - Vodicka_or_other_clergy_personnel_record_found
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
       - sources/index.d/urbanek-ccs-10.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
+      - sources/index.d/urbanek-ccs-14.yml
 
   - id: URB-U-0065
     status: open

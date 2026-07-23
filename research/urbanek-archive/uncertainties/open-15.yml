@@ -1,0 +1,50 @@
+schema_version: 1
+scope: ccs_batch_12_open_items
+items:
+  - id: URB-U-0067
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: Vodicka_memorial_plaque_hidden_content_biography_and_portrait
+    related_open_items: [URB-U-0039, URB-U-0046, URB-U-0060, URB-U-0064]
+    source_items: [urbanek-ccs-059, urbanek-ccs-060]
+    question: >-
+      Kdy byla pamětní deska Karla a Libuše Vodičkových instalována, co je podle
+      useknutého archivního popisku umístěno za ní, jsou data a role uvedené na desce
+      doložitelné dalšími prameny, jaký byl vztah a význam Libuše Vodičkové a je
+      portrét skutečně Karlem Vodičkou, kdy a kým byl pořízen?
+    known_facts:
+      - "Deska obsahuje čitelná jména Karel Vodička a Libuše Vodičková a jejich životní data."
+      - "Nápis označuje Karla Vodičku jako prvního faráře zdejší náboženské obce, budovatele sboru a spoluzakladatele Církve československé husitské."
+      - "Čitelné znění desky je přepsáno v klasifikaci dávky 12."
+      - "Archivní název fotografie desky končí řetězcem ‚umíst‘, takže předmět nebo obsah za deskou není v dochovaném názvu uveden celý."
+      - "Urbanek-ccs-060 zachycuje muže v duchovním oděvu a brýlích; jméno ThDr. Karel Vodička a funkce prvního faráře pocházejí z archivního názvu."
+      - "Fotografie desky má embedded datum 14. října 2010, které dokládá pořízení snímku, nikoli instalaci desky."
+    unresolved_attributes:
+      - plaque_installation_date_and_author
+      - exact_location_in_entrance_hall
+      - complete_original_filename_and_caption
+      - object_remains_or_container_behind_plaque
+      - independent_confirmation_of_Karel_Vodicka_birth_and_death_dates
+      - independent_confirmation_of_first_pastor_builder_and_cofounder_roles
+      - Libuse_Vodickova_relationship_biography_and_role
+      - portrait_identity
+      - portrait_date_photographer_and_original_provenance
+      - academic_title_and_exact_clerical_tenure
+      - relationship_to_other_photographs_attributed_to_Vodicka
+    next_action: >-
+      Hledat sborovou a obecní kroniku, personální a životopisné prameny, matriky,
+      záznam o instalaci desky, úplný archivní popisek, evidenci případných uren nebo
+      ostatků a další popsané reprodukce portrétu. Obsah za deskou ani vztah Libuše
+      Vodičkové nedoplňovat pouze podle kontextu.
+    reopen_triggers:
+      - complete_filename_or_caption_found
+      - plaque_installation_record_found
+      - church_chronicle_entry_found
+      - burial_or_urn_record_found
+      - independent_biographical_source_found
+      - captioned_portrait_source_found
+      - family_or_congregation_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml
+      - sources/index.d/urbanek-ccs-12.yml

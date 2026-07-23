@@ -1,0 +1,71 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-15
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-071
+    title: Venkovní skupina z návštěvní série připisované Ferdinandu Stiborovi
+    document_type: historical_black_and_white_visit_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/3 Biskup Ferdinand Stibor v Rychvaldě/2.jpg"
+    file_size_bytes: 299064
+    git_blob_sha: aed6fccb37be879eb9cd70f6023fa8840425f2bd
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Venkovní skupina a duchovní oděvy jsou čitelné."}
+    visual_content: {photographs: single_historical_outdoor_visit_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Jméno hosta a datum pocházejí z archivního kontextu.", "Souvisí s URB-U-0050."]
+
+  - source_id: urbanek-ccs-072
+    title: Alternativní venkovní záběr návštěvní skupiny
+    document_type: historical_black_and_white_visit_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/3 Biskup Ferdinand Stibor v Rychvaldě/2a.jpg"
+    file_size_bytes: 304918
+    git_blob_sha: 727d4c1c9346c8e1c17d402903cbd82bbdbf52cf
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Skupina a rozdílný úhel záběru jsou čitelné."}
+    visual_content: {photographs: single_historical_outdoor_visit_alternate_view, scene_text: not_detected, method: "Vizuální kontrola a porovnání se souborem 2.jpg."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Opakující se osoby podporují společnou sérii, nikoli jejich identifikaci.", "Souvisí s URB-U-0050."]
+
+  - source_id: urbanek-ccs-073
+    title: Skupina před oltářem
+    document_type: historical_black_and_white_church_group_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/3 Biskup Ferdinand Stibor v Rychvaldě/3  Před oltářem.jpg"
+    file_size_bytes: 65026
+    git_blob_sha: dc19bac655c8a835250699326a357ee86d3c1c28
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: fair, note: "Nízké rozlišení, ale oltář, skupina a duchovní jsou rozeznatelní."}
+    visual_content: {photographs: single_historical_group_before_altar, scene_text: no_identifying_text, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Přesná událost a osoby nejsou obrazem potvrzeny.", "Souvisí s URB-U-0050."]
+
+  - source_id: urbanek-ccs-074
+    title: Formální skupina z návštěvní série
+    document_type: historical_black_and_white_formal_group_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/3 Biskup Ferdinand Stibor v Rychvaldě/4.jpg"
+    file_size_bytes: 280282
+    git_blob_sha: 2639e608310460c0755ebe2b52cf05930e88a56c
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Duchovní a civilní účastníci jsou čitelní."}
+    visual_content: {photographs: single_historical_formal_visit_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Archivní pořadí spojuje snímek s návštěvou, nikoli samo o sobě konkrétní osobu.", "Souvisí s URB-U-0050."]
+
+  - source_id: urbanek-ccs-075
+    title: Společná fotografie dospělých a dětí
+    document_type: historical_black_and_white_large_group_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/3 Biskup Ferdinand Stibor v Rychvaldě/5   Společná fotografie také s dětmi.jpg"
+    file_size_bytes: 306425
+    git_blob_sha: d80601f5a322925fd28a2f219b7c50c4afcbf16b
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Velká skupina, děti a duchovní jsou čitelní."}
+    visual_content: {photographs: single_historical_large_group_with_children, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Děti jsou obrazem doloženy, jejich skupinová příslušnost nikoli.", "Souvisí s URB-U-0050."]

@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 33, deferred: 0, resolved: 31, not_actionable: 3, total: 67}
+summary: {open: 34, deferred: 0, resolved: 31, not_actionable: 3, total: 68}
 open_files:
   - open-01.yml
   - open-03.yml
@@ -15,6 +15,7 @@ open_files:
   - open-13.yml
   - open-14.yml
   - open-15.yml
+  - open-16.yml
 closed_files:
   - closed-01a.yml
   - closed-01b.yml
@@ -56,3 +57,4 @@ rules:
   - Text missing from a demonstrably truncated archival filename is recorded as an uncertainty and is never reconstructed solely from grammar, context or the pictured scene.
   - Embedded dates conflicting with visible season, source age or reproduction context are preserved as metadata but are not used as event dates without corroboration.
   - A readable memorial inscription verifies the wording present on the object; the biographical and historical claims within it remain subject to independent source verification.
+  - Repeated appearance of the same people across photographs can establish an image sequence, but not their names, family relationships or official roles without an explicit evidentiary link.

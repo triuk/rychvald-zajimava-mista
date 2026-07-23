@@ -48,39 +48,35 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je sedm dávek po pěti snímcích:
-
-1. `urbanek-ccs-001` až `005` – položení základního kamene a výstavba;
-2. `urbanek-ccs-006` až `010` – dokončený exteriér, původní interiér a rané slavnostní bohoslužby;
-3. `urbanek-ccs-011` až `015` – první přijímání, rada starších a technické snímky zvonů;
-4. `urbanek-ccs-016` až `020` – nástěnné malby, exteriéry spojované s okupacemi a skupina u varhan;
-5. `urbanek-ccs-021` až `025` – svatební série, interiér před rekonstrukcí s varhanami a návštěva připisovaná Ferdinandu Stiborovi;
-6. `urbanek-ccs-026` až `030` – rekonstruované kněžiště, bohoslužba, koberce a malby připisované Obšilovi;
-7. `urbanek-ccs-031` až `035` – výroční shromáždění a velké skupiny prvního přijímání.
+Dokončeno je osm dávek po pěti snímcích, tedy `urbanek-ccs-001` až `040`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **35 z 201 položek**;
-- proti Git blob SHA ověřeno: **35 položek**;
-- vizuálně klasifikováno: **35 položek**;
-- zdrojově indexováno: **35 položek**;
-- zbývá: **166 položek**.
+- zpracováno: **40 z 201 položek**;
+- proti Git blob SHA ověřeno: **40 položek**;
+- vizuálně klasifikováno: **40 položek**;
+- zdrojově indexováno: **40 položek**;
+- zbývá: **161 položek**.
 
-### Zjištění dávky 07
+### Zjištění dávek 07 a 08
 
-- `urbanek-ccs-031` zachycuje mimořádně zaplněný hlavní prostor i galerie sboru; rok 1965 a výroční kontext jsou zatím pouze archivním tvrzením.
-- `urbanek-ccs-032` zachycuje smíšenou slavnostní skupinu dětí, duchovního a dva civilní dospělé; označení prvního poválečného přijímání, jméno Chrobáček a řetězec `Anna Nedělo…` nejsou obrazem ověřeny.
-- `urbanek-ccs-033` a `035` mohou představovat oddělenou dívčí a chlapeckou část téhož přijímání; `urbanek-ccs-034` může být následující ročník. Jde o pracovní hypotézu, nikoli identifikaci osob podle tváře.
-- Na snímcích `urbanek-ccs-033` a `034` je čitelný fasádní nápis **PRAVDA VÍTĚZÍ**; na `034` také znak kalicha s křížem.
-- Tři názvy souborů jsou zjevně useknuté. Chybějící text nebyl rekonstruován.
-- Snímek početné skupiny sám nedokládá pozdější pokles účasti ani jeho politickou příčinu.
+Dávka 07 dokumentuje zaplněný interiér a početné skupiny prvního přijímání. Tři názvy jsou useknuté; rok 1965, první poválečné přijímání, jména osob, vztah „o rok později“ a politická příčinná interpretace zůstávají archivními tvrzeními. Na dvou snímcích je čitelný nápis **PRAVDA VÍTĚZÍ**.
 
-Pracovní soubory dávky 07:
+Dávka 08 dokumentuje:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-07.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml`;
-- `sources/index.d/urbanek-ccs-07.yml`;
-- `research/urbanek-archive/uncertainties/open-10.yml`.
+- malou skupinu dětí se ženou v liturgickém oděvu, archivně připisovanou obnovenému přijímání Janou Šilerovou;
+- tři generačně rozdílné skupiny spojované s radou starších, z toho jednu datovanou názvem na 26. dubna 1970 a jednu výslovně nedatovanou;
+- velký smíšený pěvecký sbor, archivně označený rokem 1933 a jmény Šlachta a Vodička;
+- slabý kreslený znak na listu drženém uprostřed sborové fotografie, jehož přesný motiv ani text nelze bezpečně přečíst.
+
+Názvy souborů `38` a `39` jsou useknuté právě v identifikačně významné části a nebyly doplněny odhadem.
+
+Pracovní soubory dávky 08:
+
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-08.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml`;
+- `sources/index.d/urbanek-ccs-08.yml`;
+- `research/urbanek-archive/uncertainties/open-11.yml`.
 
 Úplný inventář, blob verifikace, vizuální klasifikace, OCR relevantního textu a audit `Thumbs.db` pokračují po dávkách 5–10 souborů.
 
@@ -88,27 +84,26 @@ Pracovní soubory dávky 07:
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 23;
+- `open`: 26;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 57.
+- celkem: 60.
 
-Nejistoty z kolekce CČS jsou vedeny pod `URB-U-0039` až `URB-U-0057`. Dávka 07 přidala:
+Nejistoty z kolekce CČS jsou vedeny pod `URB-U-0039` až `URB-U-0060`. Dávka 08 přidala:
 
-- `URB-U-0054` – datum a povaha výročí roku 1965, účast a úplné znění useknutého popisku;
-- `URB-U-0055` – první poválečné přijímání, identita duchovního a osoby označené `Anna Nedělo…`;
-- `URB-U-0056` – přesné roky, vztah skupin, počty a identity účastníků přijímání;
-- `URB-U-0057` – doložení pozdějšího poklesu dětské účasti a případné příčinné vazby na politiku komunistického režimu.
+- `URB-U-0058` – datum, kontext a osoby při obnoveném prvním přijímání;
+- `URB-U-0059` – chronologie, členství a osoby na třech fotografiích rady starších včetně useknutého popisku `bisk…`;
+- `URB-U-0060` – pěvecký sbor roku 1933, Šlachta, Vodička, členové a držený znak nebo dokument.
 
-Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření. Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události, technické historie nebo příčinné interpretace. Osoby se neidentifikují pouze podle obličeje a useknuté názvy se nedoplňují odhadem.
+Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření. Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události nebo funkce. Osoby se neidentifikují pouze podle obličeje a useknuté názvy se nedoplňují odhadem.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 35 zpracovaných a 166 zbývajících položek;
-- registr používá součty 23/31/3/57;
+- aktuální průběžný stav je 40 zpracovaných a 161 zbývajících položek;
+- registr používá součty 26/31/3/60;
 - každá podstatná nejistota má stabilní ID a návratové podmínky;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -116,8 +111,8 @@ Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hle
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-036` až `urbanek-ccs-040`.
-- Očekávané archivní názvy: soubory `38`, `39`, `40`, `41` a `42`; přesné mapování se ověří proti větvi před zápisem.
+- Následující položky: `urbanek-ccs-041` až `urbanek-ccs-045`.
+- Očekávané archivní názvy: soubory `43`, `44`, `45`, `46` a `47`; přesné mapování se ověří proti větvi před zápisem.
 - Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
 - Každá podstatná nejistota musí být okamžitě zapsána pod stabilním `URB-U-XXXX`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.

@@ -27,6 +27,7 @@ authoritative_files:
     - sources/index.d/urbanek-ccs-05.yml
     - sources/index.d/urbanek-ccs-06.yml
     - sources/index.d/urbanek-ccs-07.yml
+    - sources/index.d/urbanek-ccs-08.yml
 
 pull_request:
   number: 1
@@ -47,9 +48,8 @@ checkpoints:
   technical_cache_completion_commit: 7e6483d1bcb92034bea6eddd43fd55869dedce9c
   urb_u_0032_resolution_commit: 171acb480c3c1177104df8007647903e8dd2e077
   urb_u_0032_temp_cleanup_final_commit: b94ce7128266332800c878935fbac6d566a66dd9
-  ccs_history_batch_05_commit: 223871a2128ba7045c5e4b59791d853df8a61185
-  ccs_history_batch_06_commit: 6b37277c3efaecfd4b5487b836de057007d10061
   ccs_history_batch_07_atomic_commit: e16b7b1895ad2ba3137caaf1d0757ccf8f201566
+  ccs_history_batch_08_atomic_commit: 4a9ed28c759c7a39f48412e32bcc11efbf6ab758
 
 pilot:
   status: completed
@@ -74,13 +74,14 @@ next_archive_batch:
     - sources/index.d/urbanek-ccs-05.yml
     - sources/index.d/urbanek-ccs-06.yml
     - sources/index.d/urbanek-ccs-07.yml
+    - sources/index.d/urbanek-ccs-08.yml
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 35
-    repo_verified_items: 35
-    visually_classified_items: 35
-    source_indexed_items: 35
-    remaining_items: 166
+    processed_items: 40
+    repo_verified_items: 40
+    visually_classified_items: 40
+    source_indexed_items: 40
+    remaining_items: 161
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -93,14 +94,15 @@ next_archive_batch:
     - {id: wedding-reconstruction-and-bishop-05, items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023, urbanek-ccs-024, urbanek-ccs-025], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-05.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml, source_index: sources/index.d/urbanek-ccs-05.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-08.yml}
     - {id: reconstructed-chancel-carpet-and-obsil-murals-06, items: [urbanek-ccs-026, urbanek-ccs-027, urbanek-ccs-028, urbanek-ccs-029, urbanek-ccs-030], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-06.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml, source_index: sources/index.d/urbanek-ccs-06.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-09.yml}
     - {id: anniversary-and-postwar-communion-groups-07, items: [urbanek-ccs-031, urbanek-ccs-032, urbanek-ccs-033, urbanek-ccs-034, urbanek-ccs-035], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-07.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml, source_index: sources/index.d/urbanek-ccs-07.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-10.yml}
-  next_items: [urbanek-ccs-036, urbanek-ccs-037, urbanek-ccs-038, urbanek-ccs-039, urbanek-ccs-040]
+    - {id: renewed-communion-councils-and-choir-08, items: [urbanek-ccs-036, urbanek-ccs-037, urbanek-ccs-038, urbanek-ccs-039, urbanek-ccs-040], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-08.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml, source_index: sources/index.d/urbanek-ccs-08.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-11.yml}
+  next_items: [urbanek-ccs-041, urbanek-ccs-042, urbanek-ccs-043, urbanek-ccs-044, urbanek-ccs-045]
   technical_files:
     - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 23, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 57}
+  summary: {open: 26, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 60}
   active_research_threads:
     - {id: URB-U-0008, subject: neidentifikovaná historická fotografie větrného mlýna}
     - {id: URB-U-0036, subject: Kakalův mlýn}
@@ -125,6 +127,9 @@ uncertainties:
     - {id: URB-U-0055, subject: první poválečné přijímání, Chrobáček a Anna Nedělo…}
     - {id: URB-U-0056, subject: chronologie a účastníci velkých skupin přijímání}
     - {id: URB-U-0057, subject: pokles dětské účasti a tvrzená politická příčina}
+    - {id: URB-U-0058, subject: obnovené první přijímání, Jana Šilerová a děti}
+    - {id: URB-U-0059, subject: chronologie a osoby na snímcích rady starších}
+    - {id: URB-U-0060, subject: pěvecký sbor roku 1933, Šlachta, Vodička a znak}
   handling_rule: >-
     Každá podstatná neověřená datace, identifikace osoby, události, objektu,
     archivní mezery, useknutého popisku nebo technické a příčinné interpretace musí
@@ -133,7 +138,7 @@ uncertainties:
 
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_content_files: 200, ccs_technical_files: 1, ccs_total_items: 201, ccs_processed_items: 35, ccs_remaining_items: 166}
+  verified_equal_totals: {ccs_content_files: 200, ccs_technical_files: 1, ccs_total_items: 201, ccs_processed_items: 40, ccs_remaining_items: 161}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 
 readiness:
@@ -145,12 +150,12 @@ readiness:
     - ccs_history_thumbnail_cache_not_audited
   non_blocking_known_issues:
     - eleven pilot full original images are missing; only thumbnails remain in caches
-    - twenty_three historical, personal, archival and technical questions remain open
+    - twenty_six historical, personal, archival and technical questions remain open
 
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-036, urbanek-ccs-037, urbanek-ccs-038, urbanek-ccs-039, urbanek-ccs-040]
+  items: [urbanek-ccs-041, urbanek-ccs-042, urbanek-ccs-043, urbanek-ccs-044, urbanek-ccs-045]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify each source file against the Git branch, record its Git blob SHA,

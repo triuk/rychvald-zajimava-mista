@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
@@ -19,156 +19,81 @@ authoritative_files:
   uncertainty_registry: research/urbanek-archive/uncertainties/index.yml
   pilot_reconciliation: research/urbanek-archive/reports/pilot-reconciliation.md
   ccs_collection_overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
-  ccs_source_indexes:
-    - sources/index.d/urbanek-ccs.yml
-    - sources/index.d/urbanek-ccs-02.yml
-    - sources/index.d/urbanek-ccs-03.yml
-    - sources/index.d/urbanek-ccs-04.yml
-    - sources/index.d/urbanek-ccs-05.yml
-    - sources/index.d/urbanek-ccs-06.yml
-    - sources/index.d/urbanek-ccs-07.yml
-    - sources/index.d/urbanek-ccs-08.yml
-    - sources/index.d/urbanek-ccs-09.yml
-    - sources/index.d/urbanek-ccs-10.yml
-    - sources/index.d/urbanek-ccs-11.yml
-    - sources/index.d/urbanek-ccs-12.yml
-    - sources/index.d/urbanek-ccs-13.yml
+  ccs_source_index_pattern: sources/index.d/urbanek-ccs{-NN}.yml
 
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
-  title: Import and classify Jaromír Urbánek archive (pilot + CČS batch)
   state: open
   draft: true
   base: main
   head: agent/import-urbanek-pilot
   merge_requested: false
-  scope:
-    completed_pilot: true
-    next_archive_batch_in_progress: urbanek-ccs-history
-
-checkpoints:
-  import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
-  pilot_reconciliation_commit: a22027e5d4d6b0627f6630ca7c86c8dd68aecdf1
-  technical_cache_completion_commit: 7e6483d1bcb92034bea6eddd43fd55869dedce9c
-  urb_u_0032_resolution_commit: 171acb480c3c1177104df8007647903e8dd2e077
-  urb_u_0032_temp_cleanup_final_commit: b94ce7128266332800c878935fbac6d566a66dd9
-  ccs_history_batch_07_atomic_commit: e16b7b1895ad2ba3137caaf1d0757ccf8f201566
-  ccs_history_batch_08_atomic_commit: 4a9ed28c759c7a39f48412e32bcc11efbf6ab758
-  ccs_history_batch_09_final_commit: a8eb56bc87092a2ca6ea9765be77ba4ebb736473
-  ccs_history_batch_10_content_commit: 1cde105533357567c265f830914040c81e78ea10
-  ccs_history_batch_11_final_commit: 647851fbf24a02e728b4f29e4152489bfb523ece
-  ccs_history_batch_12_registry_commit: e2c828a4ed0c54429bad4e0a12a0998ad74412fc
-  ccs_history_batch_13_registry_commit: b620fd1665b31b1d4c0c7ff626292c0444796618
 
 pilot:
   status: completed
-  totals: {collections: 5, content_files: 144, technical_files: 15, total_items: 159, repo_verified_items: 159, repo_missing_items: 0, missing_full_original_images_known_only_from_thumbnail_caches: 11}
-  collections:
-    - {id: urbanek-mlyny, name: Rychvaldské větrné mlýny, status: classification_and_initial_ocr_completed, content_files: 31, technical_files: 8, total_items: 39}
-    - {id: urbanek-ceske-slovo, name: Články z Českého slova, status: first_pass_and_second_visual_review_completed, content_files: 37, technical_files: 2, total_items: 39}
-    - {id: urbanek-ochotnici, name: Ochotníci rychvald, status: first_text_pass_and_second_visual_review_completed, content_files: 61, technical_files: 2, total_items: 63}
-    - {id: urbanek-den-po-desti, name: fotodokument/den po dešti, status: technical_audit_and_visual_classification_completed, content_files: 8, technical_files: 2, total_items: 10}
-    - {id: urbanek-nalet-ostrava-1944, name: Nálet na Ostravu 1944, status: technical_audit_and_visual_classification_completed, content_files: 7, technical_files: 1, total_items: 8}
+  totals:
+    collections: 5
+    content_files: 144
+    technical_files: 15
+    total_items: 159
+    repo_verified_items: 159
+    repo_missing_items: 0
+    missing_full_original_images_known_only_from_thumbnail_caches: 11
 
-next_archive_batch:
-  collection_id: urbanek-ccs-history
+ccs_collection:
+  id: urbanek-ccs-history
   name: Historie Církve československé v Rychvaldě ve fotografiích
   status: processing_in_progress
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
-  source_index_shards:
-    - sources/index.d/urbanek-ccs.yml
-    - sources/index.d/urbanek-ccs-02.yml
-    - sources/index.d/urbanek-ccs-03.yml
-    - sources/index.d/urbanek-ccs-04.yml
-    - sources/index.d/urbanek-ccs-05.yml
-    - sources/index.d/urbanek-ccs-06.yml
-    - sources/index.d/urbanek-ccs-07.yml
-    - sources/index.d/urbanek-ccs-08.yml
-    - sources/index.d/urbanek-ccs-09.yml
-    - sources/index.d/urbanek-ccs-10.yml
-    - sources/index.d/urbanek-ccs-11.yml
-    - sources/index.d/urbanek-ccs-12.yml
-    - sources/index.d/urbanek-ccs-13.yml
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 65
-    repo_verified_items: 65
-    visually_classified_items: 65
-    source_indexed_items: 65
-    remaining_items: 136
+    processed_items: 70
+    repo_verified_items: 70
+    visually_classified_items: 70
+    source_indexed_items: 70
+    remaining_items: 131
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
     thumbnail_cache_audit_status: pending
   completed_batches:
-    - {id: construction-sequence-01, items: [urbanek-ccs-001, urbanek-ccs-002, urbanek-ccs-003, urbanek-ccs-004, urbanek-ccs-005], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
-    - {id: opening-and-early-interior-02, items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
-    - {id: first-communion-council-and-bells-03, items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml, source_index: sources/index.d/urbanek-ccs-03.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-06.yml}
-    - {id: murals-occupation-exteriors-and-organ-04, items: [urbanek-ccs-016, urbanek-ccs-017, urbanek-ccs-018, urbanek-ccs-019, urbanek-ccs-020], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-04.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml, source_index: sources/index.d/urbanek-ccs-04.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-07.yml}
-    - {id: wedding-reconstruction-and-bishop-05, items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023, urbanek-ccs-024, urbanek-ccs-025], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-05.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml, source_index: sources/index.d/urbanek-ccs-05.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-08.yml}
-    - {id: reconstructed-chancel-carpet-and-obsil-murals-06, items: [urbanek-ccs-026, urbanek-ccs-027, urbanek-ccs-028, urbanek-ccs-029, urbanek-ccs-030], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-06.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml, source_index: sources/index.d/urbanek-ccs-06.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-09.yml}
-    - {id: anniversary-and-postwar-communion-groups-07, items: [urbanek-ccs-031, urbanek-ccs-032, urbanek-ccs-033, urbanek-ccs-034, urbanek-ccs-035], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-07.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml, source_index: sources/index.d/urbanek-ccs-07.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-10.yml}
-    - {id: renewed-communion-councils-and-choir-08, items: [urbanek-ccs-036, urbanek-ccs-037, urbanek-ccs-038, urbanek-ccs-039, urbanek-ccs-040], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-08.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml, source_index: sources/index.d/urbanek-ccs-08.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-11.yml}
-    - {id: modern-choir-and-chrobacek-inauguration-09, items: [urbanek-ccs-041, urbanek-ccs-042, urbanek-ccs-043, urbanek-ccs-044, urbanek-ccs-045], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-09.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml, source_index: sources/index.d/urbanek-ccs-09.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-12.yml}
-    - {id: chrobacek-anniversary-baptism-and-hus-commemoration-10, items: [urbanek-ccs-046, urbanek-ccs-047, urbanek-ccs-048, urbanek-ccs-049, urbanek-ccs-050], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-10.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml, source_index: sources/index.d/urbanek-ccs-10.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-13.yml}
-    - {id: hus-commemoration-continuation-and-living-nativity-11, items: [urbanek-ccs-051, urbanek-ccs-052, urbanek-ccs-053, urbanek-ccs-054, urbanek-ccs-055], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-11.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml, source_index: sources/index.d/urbanek-ccs-11.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-14.yml}
-    - {id: living-nativity-concerts-and-vodicka-memorial-12, items: [urbanek-ccs-056, urbanek-ccs-057, urbanek-ccs-058, urbanek-ccs-059, urbanek-ccs-060], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-12.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml, source_index: sources/index.d/urbanek-ccs-12.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-15.yml}
-    - {id: clergy-portraits-and-vodicka-bogumski-visit-13, items: [urbanek-ccs-061, urbanek-ccs-062, urbanek-ccs-063, urbanek-ccs-064, urbanek-ccs-065], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-13.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml, source_index: sources/index.d/urbanek-ccs-13.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-16.yml}
-  next_items: [urbanek-ccs-066, urbanek-ccs-067, urbanek-ccs-068, urbanek-ccs-069, urbanek-ccs-070]
+    - {number: 1, items: 001-005, id: construction-sequence}
+    - {number: 2, items: 006-010, id: opening-and-early-interior}
+    - {number: 3, items: 011-015, id: first-communion-council-and-bells}
+    - {number: 4, items: 016-020, id: murals-occupation-exteriors-and-organ}
+    - {number: 5, items: 021-025, id: wedding-reconstruction-and-bishop}
+    - {number: 6, items: 026-030, id: reconstructed-chancel-carpet-and-obsil-murals}
+    - {number: 7, items: 031-035, id: anniversary-and-postwar-communion-groups}
+    - {number: 8, items: 036-040, id: renewed-communion-councils-and-choir}
+    - {number: 9, items: 041-045, id: modern-choir-and-chrobacek-inauguration}
+    - {number: 10, items: 046-050, id: chrobacek-anniversary-baptism-and-hus-commemoration}
+    - {number: 11, items: 051-055, id: hus-commemoration-and-living-nativity}
+    - {number: 12, items: 056-060, id: living-nativity-concerts-and-vodicka-memorial}
+    - {number: 13, items: 061-065, id: clergy-portraits-and-vodicka-bogumski-visit}
+    - {number: 14, items: 066-070, id: fiftieth-anniversary-baptisms-and-stibor-welcome}
+  latest_batch_files:
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-14.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
+    source_index: sources/index.d/urbanek-ccs-14.yml
   technical_files:
     - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
-  legacy_snapshot: research/urbanek-archive/uncertainties.yml
   summary: {open: 34, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 68}
-  active_research_threads:
-    - {id: URB-U-0008, subject: neidentifikovaná historická fotografie větrného mlýna}
-    - {id: URB-U-0036, subject: Kakalův mlýn}
-    - {id: URB-U-0037, subject: archivní kontext fotografie kostela sv. Anny}
-    - {id: URB-U-0038, subject: mlýnek za domem č. 339}
-    - {id: URB-U-0039, subject: první svaté přijímání – fotografie chlapců a dívek}
-    - {id: URB-U-0040, subject: rada starších a desetiletí CČS v roce 1930}
-    - {id: URB-U-0041, subject: původ, datace a identita zvonů}
-    - {id: URB-U-0042, subject: historie mechanismu zvonění}
-    - {id: URB-U-0043, subject: autorství, datace a význam starších nástěnných maleb}
-    - {id: URB-U-0044, subject: odstranění hesla a kalicha během polského záboru}
-    - {id: URB-U-0045, subject: zahradní úprava před sborem za německé okupace}
-    - {id: URB-U-0046, subject: nové varhany a osoby na skupinové fotografii}
-    - {id: URB-U-0047, subject: mezery v číslování archivních souborů}
-    - {id: URB-U-0048, subject: svatební série roku 1948 – datum a osoby}
-    - {id: URB-U-0049, subject: chronologie rekonstrukce interiéru, varhan, koberců a maleb}
-    - {id: URB-U-0050, subject: návštěva připisovaná Ferdinandu Stiborovi}
-    - {id: URB-U-0051, subject: slavnostní bohoslužba po rekonstrukci}
-    - {id: URB-U-0052, subject: instalace a původ koberců v kněžišti}
-    - {id: URB-U-0053, subject: figurální malby připisované Obšilovi}
-    - {id: URB-U-0054, subject: výročí roku 1965, účast a useknutý popisek}
-    - {id: URB-U-0055, subject: první poválečné přijímání, Chrobáček a Anna Nedělo…}
-    - {id: URB-U-0056, subject: chronologie a účastníci velkých skupin přijímání}
-    - {id: URB-U-0057, subject: pokles dětské účasti a tvrzená politická příčina}
-    - {id: URB-U-0058, subject: Jana Šilerová, obnovené přijímání, služba, biskupská funkce a portrét}
-    - {id: URB-U-0059, subject: chronologie a osoby na snímcích rady starších}
-    - {id: URB-U-0060, subject: pěvecký sbor roku 1933, Šlachta, Vodička a znak}
-    - {id: URB-U-0061, subject: novodobé koncerty, data, názvový konflikt, sbory a účinkující}
-    - {id: URB-U-0062, subject: Chrobáčkovo biskupské ustanovení, portrét, inaugurace, plastika a delegace}
-    - {id: URB-U-0063, subject: padesáté výročí roku 1970, osoby a program}
-    - {id: URB-U-0064, subject: křtiny roku 1970, Vodička, rodina a duchovní}
-    - {id: URB-U-0065, subject: obnovená husovská hranice, průvod, hudba, hasiči, osoby a datace}
-    - {id: URB-U-0066, subject: opakovaný živý betlém, ročníky, pořadatel, účinkující a ochotníci}
-    - {id: URB-U-0067, subject: pamětní deska Vodičkových, obsah za ní, biografie, portrét a návštěva}
-    - {id: URB-U-0068, subject: Leonard Bogumski/Bogumský, služba, manželka, zahrada a návštěva}
-  handling_rule: >-
-    Každá podstatná neověřená datace, identifikace osoby, události, objektu,
-    archivní mezery, useknutého popisku nebo technické a příčinné interpretace musí
-    být vedena pod stabilním ID. Osoby se neidentifikují pouze podle obličeje,
-    useknuté názvy se nedoplňují odhadem, konfliktní metadata nejsou bez vysvětlení
-    používána jako datace a opakování osob potvrzuje obrazovou souvislost, nikoli
-    automaticky jména, příbuzenské vztahy nebo úřední role.
+  ccs_range: URB-U-0039..URB-U-0068
+  batch_14_updated: [URB-U-0050, URB-U-0063, URB-U-0064]
+  handling_rules:
+    - Archival names and folder labels are attribution metadata, not independent historical proof.
+    - Persons are not identified solely from facial appearance.
+    - Truncated captions are not reconstructed by guesswork.
+    - Multiple archival reproductions of the same underlying photograph are separate files but not independent event evidence.
+    - Image continuity may establish a sequence, not names, dates, family relations or offices.
 
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_content_files: 200, ccs_technical_files: 1, ccs_total_items: 201, ccs_processed_items: 65, ccs_remaining_items: 136}
+  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 70, ccs_remaining_items: 131}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 
 readiness:
@@ -185,13 +110,10 @@ readiness:
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-066, urbanek-ccs-067, urbanek-ccs-068, urbanek-ccs-069, urbanek-ccs-070]
+  items: [urbanek-ccs-071, urbanek-ccs-072, urbanek-ccs-073, urbanek-ccs-074, urbanek-ccs-075]
+  expected_source_files: ["2.jpg", "2a.jpg", "3  Před oltářem.jpg", "4.jpg", "5   Společná fotografie také s dětmi.jpg"]
   batch_size_rule: 5_to_10_files
   instruction: >-
-    Verify each source file against the Git branch, record its Git blob SHA,
-    perform visual classification, record rights and attribution, separate
-    document_text from scene_text, append the item to a collection inventory and
-    source-index shard, and register every substantive uncertainty under a stable
-    URB-U identifier. The batch crosses from the second to the third subfolder, so
-    exact source mapping must be verified before assignment. Do not mark the PR ready
-    or merge it while the collection remains incomplete.
+    Verify source paths and Git blob SHA, classify visually, preserve rights and attribution,
+    separate document and scene text, index each item, reuse stable uncertainty IDs where
+    appropriate, compare repeated photographs precisely, and keep the PR draft and unmerged.

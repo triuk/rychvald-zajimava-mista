@@ -2,7 +2,9 @@ schema_version: 1
 collection_id: urbanek-ccs-history
 collection_name: Historie Církve československé v Rychvaldě ve fotografiích
 source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
-source_index_shard: sources/index.d/urbanek-ccs.yml
+source_index_shards:
+  - sources/index.d/urbanek-ccs.yml
+  - sources/index.d/urbanek-ccs-02.yml
 attribution: "Z osobního archivu p. Jaromíra Urbánka."
 rights: unknown
 status: processing_in_progress
@@ -73,8 +75,21 @@ processing:
   visual_classification_status: in_progress
   ocr_status: pending
   thumbnail_cache_audit_status: pending
-  first_completed_batch: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
-  first_inventory_batch: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
+  processed_items: 10
+  repo_verified_items: 10
+  visually_classified_items: 10
+  source_indexed_items: 10
+  remaining_items: 191
+  completed_batches:
+    - id: construction-sequence-01
+      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
+      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
+      source_index: sources/index.d/urbanek-ccs.yml
+    - id: opening-and-early-interior-02
+      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv
+      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml
+      source_index: sources/index.d/urbanek-ccs-02.yml
+  next_items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015]
 
 rules:
   - Filenames and folder names are archival metadata, not independent historical proof.

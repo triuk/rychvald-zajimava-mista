@@ -48,34 +48,34 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je jedenáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `055`.
+Dokončeno je dvanáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `060`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **55 z 201 položek**;
-- proti Git blob SHA ověřeno: **55 položek**;
-- vizuálně klasifikováno: **55 položek**;
-- zdrojově indexováno: **55 položek**;
-- zbývá: **146 položek**.
+- zpracováno: **60 z 201 položek**;
+- proti Git blob SHA ověřeno: **60 položek**;
+- vizuálně klasifikováno: **60 položek**;
+- zdrojově indexováno: **60 položek**;
+- zbývá: **141 položek**.
 
-### Zjištění dávky 11
+### Zjištění dávky 12
 
-Dávka 11 pokračuje ve fotografické sérii husovské vzpomínky a otevírá dokumentaci živého betléma.
+Dávka 12 rozšiřuje dokumentaci živého betléma, přináší dva koncertní záběry a dokumentuje pamětní desku a portrét Karla Vodičky.
 
-- `urbanek-ccs-051` zachycuje venkovní průvod vedený mužem s českou vlajkou, za nímž kráčí dechová hudba a další účastníci. Vztah ke stejnému průvodu jako `urbanek-ccs-050` je pravděpodobný, nikoli definitivně potvrzený.
-- `urbanek-ccs-052` zachycuje nezapálenou hranici z polen s připevněným kresleným portrétem a okolním davem.
-- `urbanek-ccs-053` zachycuje tutéž konstrukci a portrét při hoření v detailu.
-- `urbanek-ccs-054` zachycuje stejnou hořící hranici v širokém pohledu s početným davem a hasiči. Obraz dokládá početnou účast, nikoli přesný počet ani opakování tvrzené slovem „vždy“.
-- Přesné obrazové porovnání potvrzuje, že `urbanek-ccs-052` až `054` tvoří posloupnost téže hranice před zapálením a při hoření. Spojení s konkrétním průvodem a ročníkem zůstává otevřené.
-- `urbanek-ccs-055` zachycuje venkovní kostýmovanou scénu archivně označenou jako živý betlém. EXIF uvádí 10. prosince 2011 v 16:14:43 a fotoaparát Panasonic DMC-TZ3; datum musí být ještě potvrzeno programem nebo kronikou. Pořadatel, účinkující, role a vztah k místním ochotníkům nejsou ověřeny.
+- `urbanek-ccs-056` zachycuje kostýmovanou scénu živého betléma se zřetelně živým dítětem. Archivní název tvrdí, že účinkují místní ochotníci. EXIF uvádí 6. prosince 2008 v 16:04:44 a fotoaparát Sony DCR-HC96E.
+- Předchozí `urbanek-ccs-055` má EXIF 10. prosince 2011. Jde tedy o nejméně dvě digitální série; přesná data veřejných ročníků musí potvrdit program nebo kronika. Živé dítě na snímku 056 neurčuje povahu dětské postavy na snímku 055.
+- `urbanek-ccs-057` zachycuje velký smíšený sbor s dirigentem a publikem. Archivní název jej připisuje Svatováclavskému festivalu; EXIF uvádí 12. června 2011 v 17:02:40.
+- `urbanek-ccs-058` zachycuje dětský a mládežnický hudební soubor. Název jej připisuje adventnímu koncertu a místní ZUŠ, ale EXIF stejného fotoaparátu uvádí 12. června 2011 v 16:13:05. Shodný den, fotoaparát, interiér a časová návaznost silně ukazují na společnou akci; označení adventního koncertu je s červnovým datem v konfliktu.
+- `urbanek-ccs-059` zachycuje čitelnou pamětní desku Karla a Libuše Vodičkových. Nápis označuje Karla Vodičku za prvního faráře zdejší náboženské obce, budovatele sboru a spoluzakladatele Církve československé husitské. Přepis dokládá znění desky, nikoli automaticky historickou správnost tvrzení. Archivní název končí řetězcem `umíst`; obsah za deskou nebyl domýšlen.
+- `urbanek-ccs-060` zachycuje muže v duchovním oděvu a brýlích. Identifikace jako ThDr. Karel Vodička a první farář pochází z archivního názvu a musí být potvrzena dokumentárně.
 
-Pracovní soubory dávky 11:
+Pracovní soubory dávky 12:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-11.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml`;
-- `sources/index.d/urbanek-ccs-11.yml`;
-- `research/urbanek-archive/uncertainties/open-14.yml`;
-- rozšířený `research/urbanek-archive/uncertainties/open-13.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-12.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml`;
+- `sources/index.d/urbanek-ccs-12.yml`;
+- `research/urbanek-archive/uncertainties/open-15.yml`;
+- rozšířené `research/urbanek-archive/uncertainties/open-12.yml` a `open-14.yml`.
 
 Úplný inventář, blob verifikace, vizuální klasifikace, OCR relevantního textu a audit `Thumbs.db` pokračují po dávkách 5–10 souborů.
 
@@ -83,25 +83,26 @@ Pracovní soubory dávky 11:
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 32;
+- `open`: 33;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 66.
+- celkem: 67.
 
-Nejistoty z kolekce CČS jsou vedeny pod `URB-U-0039` až `URB-U-0066`. Dávka 11:
+Nejistoty z kolekce CČS jsou vedeny pod `URB-U-0039` až `URB-U-0067`. Dávka 12:
 
-- rozšířila `URB-U-0065` o průvod s dechovou hudbou a obrazově potvrzenou posloupnost hranice před zapálením a při hoření;
-- přidala `URB-U-0066` – datum, pořadatel, lokalita, účinkující, role a opakování živého betléma včetně tvrzené účasti místních ochotníků.
+- rozšířila `URB-U-0061` o dva koncertní záběry, jejich společné červnové datum a konflikt mezi označením Svatováclavského festivalu a adventního koncertu;
+- rozšířila `URB-U-0066` o druhou sérii živého betléma z embedded roku 2008 a archivní tvrzení o místních ochotnících;
+- přidala `URB-U-0067` – instalace a obsah pamětní desky, neznámý obsah za ní, životopisná tvrzení o Karlu a Libuši Vodičkových a provenience portrétu.
 
-Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření. Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události nebo funkce. Osoby se neidentifikují pouze podle obličeje a technická data se používají jako historická datace až po věcném posouzení.
+Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření. Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události nebo funkce. Čitelný nápis dokládá text na objektu, nikoli automaticky správnost všech jeho historických tvrzení.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 55 zpracovaných a 146 zbývajících položek;
-- registr používá součty 32/31/3/66;
+- aktuální průběžný stav je 60 zpracovaných a 141 zbývajících položek;
+- registr používá součty 33/31/3/67;
 - každá podstatná nejistota má stabilní ID a návratové podmínky;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -109,9 +110,8 @@ Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hle
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-056` až `urbanek-ccs-060`.
-- Očekávané archivní názvy: soubory `56`, `57`, `58`, `59` a `60`; přesné mapování se ověří proti větvi před zápisem.
-- Snímek `56` porovnat s živým betlémem kvůli archivnímu tvrzení o místních ochotnících.
+- Následující položky: `urbanek-ccs-061` až `urbanek-ccs-065`.
+- První tři očekávané archivní názvy jsou `61 Biskup Gabriel Chrobáček`, `62 Farář Leonard Bogumski` a `63 Biskupka Mgr Jana Šilerová`; další dvě položky již přecházejí do druhé podsložky a jejich přesné mapování se ověří před zápisem.
 - Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
 - Každá podstatná nejistota musí být okamžitě zapsána pod stabilním `URB-U-XXXX`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.

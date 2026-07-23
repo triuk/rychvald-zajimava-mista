@@ -16,6 +16,7 @@ authoritative_files:
   - research/urbanek-archive/state.yml
   - research/urbanek-archive/uncertainties/index.yml
   - research/urbanek-archive/reports/pilot-reconciliation.md
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
 
 checkpoints:
   import_commit: 8c6e63be838f5b22ca8eed90e7cc9127352ebe5f
@@ -34,6 +35,10 @@ checkpoints:
   urb_u_0004_resolution_commit: f97052ae3e50b52936376107d32e3943c1d85162
   urb_u_0005_resolution_commit: d073437f3145d70537157eb02aab1faadb88dfc8
   urb_u_0032_resolution_commit: 171acb480c3c1177104df8007647903e8dd2e077
+  urb_u_0032_temp_cleanup_final_commit: b94ce7128266332800c878935fbac6d566a66dd9
+  ccs_history_overview_commit: ec08c19bd23a93b6ec24dddaf6636a3e370a62c8
+  ccs_history_inventory_01_commit: a167ccaf592076e38632df0e95d3bd7398033b57
+  ccs_history_batch_01_commit: 482ab4cfd05802ac4fbd55222db04ce6df53b3fd
 
 pilot_totals:
   collections: 5
@@ -61,6 +66,11 @@ phases:
   uncertainty_registry_sharding: completed
   hebda_windmill_identification: completed
   draft_pull_request: created
+  draft_consistency_review: completed_with_scope_correction
+  ccs_history_collection_inventory: in_progress
+  ccs_history_visual_classification: in_progress
+  ccs_history_ocr_review: pending
+  ccs_history_thumbnail_cache_audit: pending
 
 pull_request:
   number: 1
@@ -71,6 +81,9 @@ pull_request:
   head: agent/import-urbanek-pilot
   created_at: 2026-07-21T13:33:00Z
   merge_requested: false
+  scope:
+    completed_pilot: true
+    next_archive_batch_in_progress: urbanek-ccs-history
 
 pilot_collections:
   - name: Rychvaldské větrné mlýny
@@ -143,6 +156,24 @@ pilot_collections:
       verification: research/urbanek-archive/collections/nalet-na-ostravu-1944-verification.yml
       classification: research/urbanek-archive/collections/nalet-na-ostravu-1944-classification.yml
       cache_report: research/urbanek-archive/reports/nalet-na-ostravu-1944-thumbnail-cache.md
+
+next_archive_batches:
+  - collection_id: urbanek-ccs-history
+    name: Historie Církve československé v Rychvaldě ve fotografiích
+    status: processing_in_progress
+    source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
+    subfolders: 10
+    content_files: 200
+    technical_files: 1
+    total_items: 201
+    processed_items: 5
+    repo_verified_items: 5
+    current_batch: construction-sequence-01
+    next_items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
+    files:
+      overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
+      inventory_01: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
+      classification_01: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
@@ -228,11 +259,14 @@ uncertainties:
     - Exact participant counts take precedence over explicitly approximate rounded figures when both sources describe the same event.
 
 readiness:
-  status: draft_pr_open_with_complete_pilot_file_set
+  status: draft_pr_open_pilot_complete_next_batch_in_progress
   reconciliation_report: research/urbanek-archive/reports/pilot-reconciliation.md
-  blockers_for_draft_pr: []
+  blockers_for_merge:
+    - next_archive_batch_processing_incomplete
+    - ccs_history_full_inventory_and_blob_verification_incomplete
+    - ccs_history_thumbnail_cache_not_audited
   known_non_blocking_issues:
-    - eleven full original images are missing; only thumbnails remain in caches
+    - eleven pilot full original images are missing; only thumbnails remain in caches
     - four open historical and identification questions remain registered
     - one historical windmill photograph remains unidentified in URB-U-0008
     - Kakal mill identity is known but its location and history remain open in URB-U-0036
@@ -240,12 +274,14 @@ readiness:
     - house 339 windmill document group is verified, but exact historical location remains open in URB-U-0038
 
 next_action:
-  type: await_new_evidence_or_review_draft_pr
+  type: process_next_archive_batch
+  collection: urbanek-ccs-history
   pull_request: 1
   instruction: >-
-    Review the draft PR scope, changed files, authoritative reports and registered
-    uncertainties. The four active research threads have been reviewed and remain open.
-    Re-check them when new archive material, OCR, maps, address evidence, captions or
-    matching photographs are added. Do not reopen the confirmed absence of full originals
-    represented only by thumbnails. Do not mark the PR ready or merge it until the pilot
-    structure has been accepted.
+    Continue with items 6–10 of the first subfolder, then process the remaining
+    files in batches of 5–10. For each item verify the Git blob SHA, preserve the
+    original path and filename, perform visual classification, separate document
+    text from scene text, and register only substantive unresolved questions.
+    Audit the Thumbs.db file in the calendar subfolder before declaring the
+    collection complete. Do not mark the PR ready or merge it while this batch is
+    incomplete.

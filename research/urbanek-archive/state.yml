@@ -22,6 +22,7 @@ authoritative_files:
   ccs_source_indexes:
     - sources/index.d/urbanek-ccs.yml
     - sources/index.d/urbanek-ccs-02.yml
+    - sources/index.d/urbanek-ccs-03.yml
 
 pull_request:
   number: 1
@@ -46,9 +47,10 @@ checkpoints:
   ccs_history_inventory_01_commit: a167ccaf592076e38632df0e95d3bd7398033b57
   ccs_history_batch_01_commit: 482ab4cfd05802ac4fbd55222db04ce6df53b3fd
   ccs_history_source_index_01_commit: 5c77fe0db46f2b65675db1207a9193a2b3b95fc9
-  ccs_history_inventory_02_commit: 687f4edc9299d603f4834f3d2d30a661bd296411
-  ccs_history_batch_02_commit: 4aa03f4d4332ca426e0f868e9680e9a5de354906
-  ccs_history_source_index_02_commit: ecbbaf1cac0d677bfceca8323b1c8adba363fab3
+  ccs_history_inventory_03_commit: 48c7daf5cae1caba3f1cf9586ceb0fe39be853e2
+  ccs_history_batch_03_commit: 3380b9c9f2c9b9aca2da718c710606f700a69df1
+  ccs_history_source_index_03_commit: 7fa43bca38f5b0c6ebdd43c2624833a28bcb5618
+  ccs_history_uncertainties_03_commit: f5a573b992c6e2ec10ca7747232269530d71b4b7
 
 pilot:
   status: completed
@@ -100,35 +102,40 @@ next_archive_batch:
   source_index_shards:
     - sources/index.d/urbanek-ccs.yml
     - sources/index.d/urbanek-ccs-02.yml
+    - sources/index.d/urbanek-ccs-03.yml
   totals:
     subfolders: 10
     content_files: 200
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 10
-    repo_verified_items: 10
-    visually_classified_items: 10
-    source_indexed_items: 10
-    remaining_items: 191
+    processed_items: 15
+    repo_verified_items: 15
+    visually_classified_items: 15
+    source_indexed_items: 15
+    remaining_items: 186
     inventory_status: in_progress
     visual_classification_status: in_progress
-    ocr_status: pending
+    ocr_status: in_progress_for_scene_text
     thumbnail_cache_audit_status: pending
   completed_batches:
     - id: construction-sequence-01
-      status: completed_first_visual_pass
       items: [urbanek-ccs-001, urbanek-ccs-002, urbanek-ccs-003, urbanek-ccs-004, urbanek-ccs-005]
       inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
       classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
       source_index: sources/index.d/urbanek-ccs.yml
     - id: opening-and-early-interior-02
-      status: completed_first_visual_pass
       items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
       inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv
       classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml
       source_index: sources/index.d/urbanek-ccs-02.yml
-  next_items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015]
+    - id: first-communion-council-and-bells-03
+      items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015]
+      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv
+      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
+      source_index: sources/index.d/urbanek-ccs-03.yml
+      uncertainty_shard: research/urbanek-archive/uncertainties/open-06.yml
+  next_items: [urbanek-ccs-016, urbanek-ccs-017, urbanek-ccs-018, urbanek-ccs-019, urbanek-ccs-020]
   technical_files:
     - path: "10 Kalendář 2015/Thumbs.db"
       audit_status: pending
@@ -137,12 +144,12 @@ uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
   summary:
-    open: 4
+    open: 8
     in_progress: 0
     deferred: 0
     resolved: 31
     not_actionable: 3
-    total: 38
+    total: 42
   active_research_threads:
     - id: URB-U-0008
       subject: neidentifikovaná historická fotografie větrného mlýna
@@ -157,10 +164,23 @@ uncertainties:
       subject: mlýnek za domem č. 339
       unresolved: [exact_historical_location, house_number_continuity, owner_identity, construction_date, disappearance_date, technology]
       candidate_current_location: "Bohumínská 339, parcela st. 548"
+    - id: URB-U-0039
+      subject: první svaté přijímání – fotografie chlapců a dívek
+      unresolved: [exact_dates, same_or_separate_years, event_identity, clergy_identity, participant_identities]
+    - id: URB-U-0040
+      subject: rada starších a desetiletí CČS v roce 1930
+      unresolved: [exact_caption, exact_event_date, council_confirmation, person_identities]
+    - id: URB-U-0041
+      subject: původ, datace a identita zvonů
+      unresolved: [meaning_of_1920, maker, inscriptions, provenance, installation, set_composition]
+    - id: URB-U-0042
+      subject: historie mechanismu zvonění
+      unresolved: [original_operation, electrification_date, modifications, current_state]
   handling_rule: >-
-    Aktivní položku znovu prověř pouze tehdy, přinese-li nová dávka relevantní
-    fotografii, popisek, text, mapový nebo adresní doklad. Negativní dílčí hledání
-    není důvodem k uzavření.
+    Každá podstatná neověřená datace, identifikace osoby, události, objektu nebo
+    technické interpretace musí být vedena pod stabilním ID. Aktivní položku znovu
+    prověř při získání relevantní fotografie, popisku, textu, mapového, adresního,
+    technického nebo svědeckého dokladu. Negativní dílčí hledání není důvodem k uzavření.
 
 consistency_review:
   status: completed_with_corrections
@@ -171,11 +191,14 @@ consistency_review:
     - urb_u_0032_temporary_artifacts_removed
     - ccs_collection_overview_created
     - ccs_source_index_shards_created
-    - first_two_ccs_batches_inventory_and_classification_created
+    - first_three_ccs_batches_inventory_and_classification_created
+    - ccs_batch_03_uncertainties_registered
   verified_equal_totals:
     ccs_content_files: 200
     ccs_technical_files: 1
     ccs_total_items: 201
+    ccs_processed_items: 15
+    ccs_remaining_items: 186
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
@@ -189,16 +212,17 @@ readiness:
     - ccs_history_thumbnail_cache_not_audited
   non_blocking_known_issues:
     - eleven pilot full original images are missing; only thumbnails remain in caches
-    - four historical and identification questions remain open
+    - eight historical, personal and technical questions remain open
 
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015]
+  items: [urbanek-ccs-016, urbanek-ccs-017, urbanek-ccs-018, urbanek-ccs-019, urbanek-ccs-020]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify each source file against the Git branch, record its Git blob SHA,
     perform visual classification, record rights and attribution, separate
     document_text from scene_text, append the item to a collection inventory and
-    source-index shard, and register only substantive unresolved questions. Do
-    not mark the PR ready or merge it while the collection remains incomplete.
+    source-index shard, and register every substantive uncertainty under a stable
+    URB-U identifier. Do not mark the PR ready or merge it while the collection
+    remains incomplete.

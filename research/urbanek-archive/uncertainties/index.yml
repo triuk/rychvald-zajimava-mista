@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 28, deferred: 0, resolved: 31, not_actionable: 3, total: 62}
+summary: {open: 31, deferred: 0, resolved: 31, not_actionable: 3, total: 65}
 open_files:
   - open-01.yml
   - open-03.yml
@@ -12,6 +12,7 @@ open_files:
   - open-10.yml
   - open-11.yml
   - open-12.yml
+  - open-13.yml
 closed_files:
   - closed-01a.yml
   - closed-01b.yml
@@ -51,3 +52,4 @@ rules:
   - Persons in photographs are not identified solely from facial appearance; identification requires a caption, documentary source, user testimony or another explicit evidentiary link.
   - A visually established relative sequence of architectural states does not by itself verify the absolute years assigned in archival filenames.
   - Text missing from a demonstrably truncated archival filename is recorded as an uncertainty and is never reconstructed solely from grammar, context or the pictured scene.
+  - Embedded dates conflicting with visible season, source age or reproduction context are preserved as metadata but are not used as event dates without corroboration.

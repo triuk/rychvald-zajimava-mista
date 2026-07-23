@@ -112,37 +112,46 @@ items:
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
     type: organ_installation_event_and_person_identification
-    source_items: [urbanek-ccs-020]
+    related_open_items: [URB-U-0049]
+    source_items: [urbanek-ccs-020, urbanek-ccs-024]
     question: >-
-      Zachycuje fotografie skutečně předání nebo instalaci nových varhan roku 1946,
-      kdo varhany vyrobil a instaloval a kdo jsou členové rady starších a zástupci
-      MNV na snímku?
+      Zachycuje skupinová fotografie skutečně předání nebo instalaci nových varhan
+      roku 1946, kdo varhany vyrobil a instaloval, kdy byly uvedeny do provozu a kdo
+      jsou členové rady starších a zástupci MNV na snímku?
     known_facts:
-      - "Fotografie zachycuje více než dvacet mužů před vysokými varhanními píšťalami."
-      - "Archivní název uvádí rok 1946, nové varhany, radu starších a zástupce MNV."
-      - "Na snímku není čitelný výrobní štítek ani popisek osob."
+      - "Urbanek-ccs-020 zachycuje více než dvacet mužů před vysokými varhanními píšťalami."
+      - "Archivní název urbanek-ccs-020 uvádí rok 1946, nové varhany, radu starších a zástupce MNV."
+      - "Na skupinovém snímku není čitelný výrobní štítek ani popisek osob."
+      - "Urbanek-ccs-024 obrazově potvrzuje varhanní píšťaly na kůru při starším uspořádání interiéru."
+      - "Archivní název urbanek-ccs-024 uvádí rok 1948 a tvrdí, že varhany jsou již nové; obraz sám jejich novost ani dataci neprokazuje."
     unresolved_attributes:
       - exact_event_date
       - confirmation_of_new_organ_installation
       - organ_builder_and_model
       - installation_or_consecration_details
+      - commissioning_and_first_use_date
       - source_of_funding
       - identities_of_council_members
       - identities_of_municipal_representatives
       - exact_location_within_organ_loft
+      - chronology_relative_to_interior_reconstruction
     next_action: >-
       Hledat varhanní inventář, účty, kolaudační nebo svěcení záznamy, výrobní
-      štítek, kroniku roku 1946, zápisy rady starších a MNV a paralelní popsanou
-      fotografii. Osoby neidentifikovat pouze podle obličeje.
+      štítek, kroniku let 1946–1949, zápisy rady starších a MNV a paralelní popsanou
+      fotografii. Porovnat stav varhan s chronologií rekonstrukce v URB-U-0049.
+      Osoby neidentifikovat pouze podle obličeje.
     reopen_triggers:
       - organ_inventory_or_builder_record_found
-      - 1946_chronicle_entry_found
+      - 1946_to_1949_chronicle_entry_found
       - council_or_municipal_roster_found
       - captioned_parallel_photo_found
+      - dated_interior_photo_found
       - user_identification_provided
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml
       - sources/index.d/urbanek-ccs-04.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
+      - sources/index.d/urbanek-ccs-05.yml
 
   - id: URB-U-0047
     status: open

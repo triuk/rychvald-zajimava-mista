@@ -18,6 +18,7 @@ source_index_shards:
   - sources/index.d/urbanek-ccs-13.yml
   - sources/index.d/urbanek-ccs-14.yml
   - sources/index.d/urbanek-ccs-15.yml
+  - sources/index.d/urbanek-ccs-16.yml
 attribution: "Z osobního archivu p. Jaromíra Urbánka."
 rights: unknown
 status: processing_in_progress
@@ -58,11 +59,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 75
-  repo_verified_items: 75
-  visually_classified_items: 75
-  source_indexed_items: 75
-  remaining_items: 126
+  processed_items: 80
+  repo_verified_items: 80
+  visually_classified_items: 80
+  source_indexed_items: 80
+  remaining_items: 121
   completed_batches:
     - {id: construction-sequence-01, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
     - {id: opening-and-early-interior-02, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
@@ -79,6 +80,7 @@ processing:
     - {id: clergy-portraits-and-vodicka-bogumski-visit-13, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-13.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml, source_index: sources/index.d/urbanek-ccs-13.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-16.yml}
     - {id: fiftieth-anniversary-baptisms-and-stibor-welcome-14, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-14.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml, source_index: sources/index.d/urbanek-ccs-14.yml}
     - {id: stibor-visit-sequence-and-groups-15, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-15.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml, source_index: sources/index.d/urbanek-ccs-15.yml}
+    - {id: stibor-council-and-chrobacek-election-opening-16, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-16.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-16.yml, source_index: sources/index.d/urbanek-ccs-16.yml}
   open_uncertainties_from_collection:
     - URB-U-0039
     - URB-U-0040
@@ -110,7 +112,7 @@ processing:
     - URB-U-0066
     - URB-U-0067
     - URB-U-0068
-  next_items: [urbanek-ccs-076, urbanek-ccs-077, urbanek-ccs-078, urbanek-ccs-079, urbanek-ccs-080]
+  next_items: [urbanek-ccs-081, urbanek-ccs-082, urbanek-ccs-083, urbanek-ccs-084, urbanek-ccs-085]
 
 rules:
   - Filenames and folder names are archival metadata, not independent historical proof.

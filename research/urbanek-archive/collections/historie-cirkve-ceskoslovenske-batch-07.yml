@@ -1,0 +1,139 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: anniversary-and-postwar-communion-groups-07
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / archivní soubory 33–37"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka obsahuje jeden pohled na mimořádně zaplněný interiér sboru a čtyři
+    skupinové fotografie spojované s prvním přijímáním. Obrazově je doložena vysoká
+    účast, slavnostní oděv dětí, květiny, přítomnost duchovních a opakované použití
+    stejného vstupního průčelí. Rok 1965, čtyřicáté výročí, označení prvního
+    poválečného přijímání, jména osob, vztah „o rok později“ a příčinná interpretace
+    úbytku účasti pocházejí z archivních názvů a nejsou samy obrazem ověřeny.
+  working_hypothesis: >-
+    Urbanek-ccs-033 a urbanek-ccs-035 mohou být oddělené dívčí a chlapecké skupinové
+    snímky téhož přijímání; urbanek-ccs-034 může zachycovat následující ročník.
+    Hypotéza vychází z pořadí, obdobného místa, slavnostního oděvu a formulace názvů,
+    nikoli z identifikace osob podle tváře.
+  basis:
+    - repeated_portico_architecture
+    - ceremonial_clothing_and_flowers
+    - archival_sequence
+    - verified_repo_files
+    - visually_readable_facade_motto
+
+items:
+  - id: urbanek-ccs-031
+    archival_filename: "33  V r. 1965 u výročí 40.let postavení kostela byla takovát.jpg"
+    visual_type: historical_black_and_white_crowded_congregation_interior
+    description: >-
+      Pohled z přední části sboru směrem k zadnímu vstupu a balkonům. Hlavní prostor,
+      zadní galerie i oba boční balkony jsou zaplněny dospělými a dětmi; v popředí
+      jsou rodiny s malými dětmi. Fotografie dokumentuje mimořádně početné shromáždění.
+    subject_tags: [crowded_congregation, church_interior, balconies, families, anniversary_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "roku 1965 při 40. výročí postavení kostela byla takováto nebo obdobně popsaná účast"
+      verified_from_image: [very_large_congregation, occupied_main_floor_and_galleries, church_interior]
+      unverified: [exact_date, year_1965, fortieth_anniversary_context, event_type, participant_identities, exact_intended_filename_ending]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    filename_note: "Název končí useknutým řetězcem ‚takovát‘; chybějící pokračování nebylo rekonstruováno."
+    uncertainty_ids: [URB-U-0054]
+
+  - id: urbanek-ccs-032
+    archival_filename: "34  První poválečné přijímání. S far. Chrobáčkem Anna Nedělo.jpg"
+    visual_type: historical_black_and_white_mixed_first_communion_group
+    description: >-
+      Skupina chlapců a dívek ve slavnostním oděvu před vstupním portikem sboru.
+      Dívky drží květiny. Uprostřed sedí duchovní, jeden muž a jedna žena; jednotlivé
+      osoby nejsou obrazově jmenně určitelné.
+    subject_tags: [first_communion_claim, children, clergy, flowers, group_portrait, postwar_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "první poválečné přijímání s farářem Chrobáčkem a osobou označenou useknutým jménem Anna Nedělo…"
+      verified_from_image: [mixed_ceremonial_child_group, clergy_present, flowers, exterior_portico]
+      unverified: [exact_date, first_postwar_status, clergy_identity, identity_and_full_name_of_Anna_Nedelo, identities_of_children_and_two_adults]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    filename_note: "Jméno nebo popisek po řetězci ‚Anna Nedělo‘ je ve skutečném názvu souboru useknutý; nebyl doplněn odhadem."
+    uncertainty_ids: [URB-U-0055]
+
+  - id: urbanek-ccs-033
+    archival_filename: "35  Tolik dětí chodívalo do kostela než zasáhla tvrdá komuni.jpg"
+    visual_type: historical_black_and_white_girls_first_communion_group
+    description: >-
+      Velká skupina dívek v bílých šatech s květinami, uspořádaná před vstupem sboru
+      kolem sedícího duchovního. Nad portikem je čitelný nápis PRAVDA VÍTĚZÍ.
+    subject_tags: [girls, first_communion_claim, clergy, flowers, large_group, facade_motto]
+    identification:
+      status: partially_verified
+      archival_claim: "velká účast dětí před zásahem tvrdé komunistické politiky nebo režimu"
+      verified_from_image: [large_group_of_girls, ceremonial_dress, flowers, clergy_present, facade_motto]
+      unverified: [exact_date, event_identity, participant_identities, clergy_identity, exact_group_count, political_causal_claim, exact_intended_filename_ending]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_readable
+        transcription: "PRAVDA VÍTĚZÍ"
+        location: facade lintel above portico
+    filename_note: "Název končí řetězcem ‚tvrdá komuni‘; zamýšlené pokračování nebylo rekonstruováno."
+    uncertainty_ids: [URB-U-0056, URB-U-0057]
+
+  - id: urbanek-ccs-034
+    archival_filename: "36  Přijímání ještě o rok později.jpg"
+    visual_type: historical_black_and_white_large_mixed_communion_group
+    description: >-
+      Velká smíšená skupina chlapců a dívek ve slavnostním oděvu s květinami před
+      průčelím sboru. Uprostřed sedí duchovní. Nad portikem jsou viditelné znak kalicha
+      s křížem a nápis PRAVDA VÍTĚZÍ.
+    subject_tags: [mixed_child_group, first_communion_claim, clergy, flowers, chalice_symbol, facade_motto]
+    identification:
+      status: partially_verified
+      archival_claim: "přijímání o rok později než předchozí archivní snímek nebo skupina"
+      verified_from_image: [large_mixed_ceremonial_group, clergy_present, flowers, chalice_and_cross_symbol, facade_motto]
+      unverified: [exact_date, reference_year_for_one_year_later, relation_to_urbanek_ccs_033_and_035, participant_identities, clergy_identity, exact_group_count]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_readable
+        transcription: "PRAVDA VÍTĚZÍ"
+        location: facade lintel above portico
+    uncertainty_ids: [URB-U-0056]
+
+  - id: urbanek-ccs-035
+    archival_filename: "37  U přijímání bývalo i tolik chlapců.jpg"
+    visual_type: historical_black_and_white_boys_first_communion_group
+    description: >-
+      Skupina několika desítek chlapců ve slavnostních oblecích před vstupním portikem
+      sboru. Uprostřed sedí duchovní; chlapci mají na oděvu květinové nebo stužkové
+      ozdoby.
+    subject_tags: [boys, first_communion_claim, clergy, ceremonial_suits, group_portrait]
+    identification:
+      status: partially_verified
+      archival_claim: "chlapecká skupina při přijímání a vysoká účast chlapců"
+      verified_from_image: [large_group_of_boys, ceremonial_clothing, clergy_present, exterior_portico]
+      unverified: [exact_date, relation_to_urbanek_ccs_033_or_034, participant_identities, clergy_identity, exact_group_count]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_visible_in_crop
+    uncertainty_ids: [URB-U-0056]
+
+open_research_candidates:
+  - {id: URB-U-0054, subject: fortieth_anniversary_1965_event_attendance_and_truncated_caption}
+  - {id: URB-U-0055, subject: first_postwar_communion_Chrobacek_and_Anna_Nedelo_identification}
+  - {id: URB-U-0056, subject: communion_group_dates_sequence_counts_and_participants}
+  - {id: URB-U-0057, subject: evidence_for_decline_in_child_participation_and_communist_regime_causality}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-036 až urbanek-ccs-040. Při pozdějším výzkumu
+  porovnat skupiny s církevní kronikou, matrikami, seznamy přijímajících, rodinnými
+  alby a výročními materiály. Useknuté názvy nedoplňovat bez jiné dochované kopie.

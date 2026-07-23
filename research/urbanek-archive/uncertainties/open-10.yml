@@ -1,0 +1,157 @@
+schema_version: 1
+scope: ccs_batch_07_open_items
+items:
+  - id: URB-U-0054
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: anniversary_event_date_attendance_and_caption
+    source_items: [urbanek-ccs-031]
+    question: >-
+      Zachycuje fotografie skutečně oslavu 40. výročí postavení nebo otevření sboru
+      roku 1965, kdy přesně a při jaké bohoslužbě vznikla, kolik lidí bylo přítomno
+      a jak zněl celý původní popisek končící v názvu useknutým řetězcem „takovát“?
+    known_facts:
+      - "Hlavní prostor, zadní galerie i oba boční balkony jsou zaplněny dospělými a dětmi."
+      - "Fotografie byla pořízena z přední části sboru směrem k zadnímu vstupu."
+      - "Rok 1965, čtyřicáté výročí a význam useknutého konce popisku pocházejí z archivního názvu."
+    unresolved_attributes:
+      - exact_event_date
+      - independent_confirmation_of_year_1965
+      - whether_anniversary_of_construction_opening_or_congregation
+      - exact_service_or_event_type
+      - exact_attendance_count
+      - participant_and_clergy_identification
+      - complete_original_caption
+    next_action: >-
+      Hledat výroční program, kroniku, dobový tisk, zápisy rady starších, další kopii
+      fotografie s úplným popiskem a případný seznam účastníků. Useknutý konec názvu
+      nedoplňovat pouze podle obrazového dojmu.
+    reopen_triggers:
+      - 1965_anniversary_program_found
+      - church_chronicle_entry_found
+      - dated_press_report_found
+      - complete_filename_or_caption_found
+      - captioned_parallel_photo_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml
+      - sources/index.d/urbanek-ccs-07.yml
+
+  - id: URB-U-0055
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: first_postwar_communion_date_person_and_truncated_name
+    related_open_items: [URB-U-0039, URB-U-0056]
+    source_items: [urbanek-ccs-032]
+    question: >-
+      Šlo skutečně o první poválečné přijímání, kdy se konalo, je přítomným duchovním
+      Gabriel Chrobáček, koho označuje useknuté jméno „Anna Nedělo…“ a kdo jsou ostatní
+      děti a dva civilní dospělí uprostřed skupiny?
+    known_facts:
+      - "Snímek zachycuje chlapce a dívky ve slavnostním oděvu před vstupem sboru."
+      - "Dívky drží květiny a uprostřed sedí duchovní, jeden muž a jedna žena."
+      - "Označení prvního poválečného přijímání, jméno Chrobáček a řetězec Anna Nedělo pocházejí z archivního názvu."
+      - "Skutečný název souboru je za řetězcem Anna Nedělo useknutý."
+    unresolved_attributes:
+      - exact_date
+      - independent_confirmation_of_first_postwar_status
+      - clergy_identity
+      - full_name_and_role_of_Anna_Nedelo
+      - identity_and_role_of_two_civilian_adults
+      - participant_identities
+      - relation_to_other_communion_groups
+      - complete_original_caption
+    next_action: >-
+      Porovnat s církevní matrikou, kronikou, seznamy prvních přijímání, rodinnými alby,
+      personálními záznamy Gabriela Chrobáčka a další kopií popisku. Osoby neurčovat
+      pouze podle obličeje a příjmení nedoplňovat odhadem.
+    reopen_triggers:
+      - first_postwar_communion_record_found
+      - church_register_or_chronicle_found
+      - complete_filename_or_caption_found
+      - captioned_parallel_photo_found
+      - participant_or_family_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml
+      - sources/index.d/urbanek-ccs-07.yml
+
+  - id: URB-U-0056
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: communion_group_sequence_dates_counts_and_participants
+    related_open_items: [URB-U-0039, URB-U-0055]
+    source_items: [urbanek-ccs-033, urbanek-ccs-034, urbanek-ccs-035]
+    question: >-
+      Z jakých přesných let pocházejí tři velké skupinové fotografie přijímajících,
+      tvoří dívčí snímek urbanek-ccs-033 a chlapecký snímek urbanek-ccs-035 dvě části
+      téhož ročníku, ke kterému roku se vztahuje označení „o rok později“ u
+      urbanek-ccs-034 a kdo jsou duchovní a děti?
+    known_facts:
+      - "Urbanek-ccs-033 zachycuje velkou dívčí skupinu s květinami a duchovním."
+      - "Urbanek-ccs-034 zachycuje ještě větší smíšenou skupinu chlapců a dívek s duchovním."
+      - "Urbanek-ccs-035 zachycuje skupinu několika desítek chlapců s duchovním."
+      - "Všechny snímky byly pořízeny před vstupním průčelím téhož sboru."
+      - "Na urbanek-ccs-033 a 034 je čitelný nápis PRAVDA VÍTĚZÍ; na 034 je také viditelný znak kalicha s křížem."
+      - "Vztah mezi skupinami je pracovní hypotéza založená na archivním pořadí a kompozici, nikoli na identifikaci tváří."
+    unresolved_attributes:
+      - exact_date_of_each_image
+      - base_year_for_one_year_later
+      - whether_033_and_035_are_same_event
+      - whether_034_is_next_year
+      - exact_event_identity
+      - exact_participant_counts
+      - clergy_identity_on_each_image
+      - participant_identities
+      - relationship_to_urbanek_ccs_032
+    next_action: >-
+      Porovnat církevní matriky, jmenné seznamy přijímajících, kroniku, školní ročníky,
+      rodinná alba a jiné skupinové fotografie. Při porovnávání nepoužívat samotnou
+      podobnost obličejů jako identifikační důkaz.
+    reopen_triggers:
+      - dated_communion_register_found
+      - participant_list_found
+      - captioned_parallel_photo_found
+      - family_album_identification_provided
+      - exact_year_sequence_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml
+      - sources/index.d/urbanek-ccs-07.yml
+
+  - id: URB-U-0057
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: historical_participation_decline_and_causal_claim
+    related_open_items: [URB-U-0056]
+    source_items: [urbanek-ccs-033]
+    question: >-
+      Lze doložit, že po období zachyceném na fotografii skutečně výrazně poklesla
+      účast dětí na bohoslužbách nebo prvním přijímání, kdy k poklesu došlo a do jaké
+      míry jej lze věcně spojit s politikou komunistického režimu?
+    known_facts:
+      - "Fotografie zachycuje početnou skupinu dívek při církevní slavnosti nebo přijímání."
+      - "Samotný snímek nedokládá pozdější trend ani jeho příčinu."
+      - "Politická a kauzální formulace je dochována pouze v useknutém archivním názvu končícím řetězcem ‚tvrdá komuni‘."
+    unresolved_attributes:
+      - exact_intended_filename_wording
+      - baseline_year_and_participation_level
+      - annual_or_decadal_participation_counts
+      - timing_and_scale_of_decline
+      - relevant_state_or_local_measures
+      - distinction_between_correlation_and_causation
+      - alternative_demographic_or_institutional_factors
+    next_action: >-
+      Hledat dlouhodobé řady v matrikách a kronikách, počty přihlášených dětí,
+      zápisy rady starších, školní a obecní dokumenty, doklady státních zásahů a
+      pamětnická svědectví. Kauzální tvrzení formulovat až po srovnání více zdrojů.
+    reopen_triggers:
+      - longitudinal_participation_records_found
+      - state_or_local_restriction_document_found
+      - church_chronicle_analysis_completed
+      - oral_history_or_witness_account_found
+      - complete_filename_or_caption_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml
+      - sources/index.d/urbanek-ccs-07.yml

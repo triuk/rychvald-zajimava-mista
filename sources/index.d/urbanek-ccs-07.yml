@@ -1,0 +1,93 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-07
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-031
+    title: Zaplněný sbor při údajném 40. výročí roku 1965
+    document_type: historical_congregation_interior_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/33  V r. 1965 u výročí 40.let postavení kostela byla takovát.jpg"
+    file_size_bytes: 343742
+    git_blob_sha: 26a321239f9226b2c638bbdac66cc1a59bda0653
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Architektura interiéru a rozsah shromáždění jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_crowded_congregation, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Fotografie potvrzuje zaplnění hlavního prostoru i galerií.
+      - Rok 1965 a výroční kontext pocházejí z archivního názvu.
+      - Konec názvu je useknutý a nebyl rekonstruován.
+      - Souvisí s URB-U-0054.
+
+  - source_id: urbanek-ccs-032
+    title: První poválečné přijímání – archivní označení
+    document_type: historical_first_communion_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/34  První poválečné přijímání. S far. Chrobáčkem Anna Nedělo.jpg"
+    file_size_bytes: 706667
+    git_blob_sha: 1648194b6300a8972156d2f5decda8046e6ac25e
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Skupina dětí, tři dospělí a vstupní portikus jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_mixed_ceremonial_child_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Označení prvního poválečného přijímání a jméno faráře Chrobáčka nejsou obrazem ověřeny.
+      - Řetězec jména Anna Nedělo je v názvu useknutý.
+      - Souvisí s URB-U-0055.
+
+  - source_id: urbanek-ccs-033
+    title: Velká dívčí skupina při přijímání
+    document_type: historical_girls_first_communion_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/35  Tolik dětí chodívalo do kostela než zasáhla tvrdá komuni.jpg"
+    file_size_bytes: 907851
+    git_blob_sha: b664dcc365d3c9c00e0131719856ec425ffd5db2
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Dívčí skupina, duchovní, květiny a nápis na průčelí jsou dobře čitelné."}
+    visual_content:
+      photographs: single_historical_large_girls_ceremonial_group
+      scene_text: readable
+      transcriptions: ["PRAVDA VÍTĚZÍ"]
+      method: "Vizuální kontrola celého obrazu."
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Obraz dokládá vysoký počet účastnic, nikoli příčinu pozdějšího vývoje.
+      - Politická a kauzální formulace pochází pouze z useknutého archivního názvu.
+      - Souvisí s URB-U-0056 a URB-U-0057.
+
+  - source_id: urbanek-ccs-034
+    title: Velká smíšená skupina přijímajících údajně o rok později
+    document_type: historical_mixed_first_communion_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/36  Přijímání ještě o rok později.jpg"
+    file_size_bytes: 886161
+    git_blob_sha: a24784a3f0b816b95ea38a04f88480174bbec049
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Smíšená skupina, duchovní, fasádní znak a nápis jsou dobře čitelné."}
+    visual_content:
+      photographs: single_historical_large_mixed_ceremonial_group
+      scene_text: readable
+      transcriptions: ["PRAVDA VÍTĚZÍ"]
+      method: "Vizuální kontrola celého obrazu."
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Relativní údaj o jednom roce vyžaduje určení výchozího snímku a absolutního roku.
+      - Souvisí s URB-U-0056.
+
+  - source_id: urbanek-ccs-035
+    title: Chlapecká skupina při přijímání
+    document_type: historical_boys_first_communion_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/37  U přijímání bývalo i tolik chlapců.jpg"
+    file_size_bytes: 369656
+    git_blob_sha: dc50be121731a7ae839550587097a30339d16253
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Chlapecká skupina, slavnostní oděv a duchovní jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_large_boys_ceremonial_group, scene_text: not_visible_in_crop, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Snímek může tvořit chlapecký protějšek k urbanek-ccs-033, ale vztah není ověřen.
+      - Souvisí s URB-U-0056.

@@ -1,0 +1,123 @@
+schema_version: 1
+scope: ccs_batch_10_open_items
+items:
+  - id: URB-U-0063
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: fiftieth_anniversary_1970_exact_context_people_and_program
+    related_open_items: [URB-U-0054, URB-U-0059, URB-U-0062]
+    source_items: [urbanek-ccs-047]
+    question: >-
+      Kdy přesně a při jaké události se konalo padesáté výročí uváděné rokem 1970,
+      čeho bylo výročí, kdo jsou tři duchovní a muž v obleku, jaké měli funkce a
+      jaký byl program a rozsah oslav?
+    known_facts:
+      - "Fotografie zachycuje v kněžišti tři muže v duchovním oděvu a jednoho muže v obleku."
+      - "Duchovní vlevo má výrazný řetěz nebo insignii a drží kytici; další osoba také drží kytici."
+      - "Na oltáři je viditelný kalich a květinová výzdoba."
+      - "Rok 1970 a formulace o 50. výročí založení CČS v Rychvaldě pocházejí z archivního názvu."
+    unresolved_attributes:
+      - exact_event_date
+      - exact_anniversary_subject_and_starting_event
+      - independent_confirmation_of_year_1970
+      - identities_and_roles_of_four_men
+      - identity_and_meaning_of_chain_or_insignia
+      - exact_service_ceremony_and_program
+      - invited_guests_and_attendance
+      - relationship_to_Chrobacek_and_Vodicka_visits
+    next_action: >-
+      Hledat výroční program, sborovou a obecní kroniku, zápisy rady starších,
+      dobový tisk, seznam hostů a další popsané fotografie z roku 1970.
+    reopen_triggers:
+      - anniversary_program_found
+      - church_or_municipal_chronicle_entry_found
+      - dated_press_report_found
+      - council_minutes_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+      - sources/index.d/urbanek-ccs-10.yml
+
+  - id: URB-U-0064
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: baptism_1970_Vodicka_family_clergy_and_context
+    related_open_items: [URB-U-0050, URB-U-0063]
+    source_items: [urbanek-ccs-048]
+    question: >-
+      Kdy se křtiny konaly, komu bylo dítě křtěno, kdo jsou rodiče a ostatní
+      účastníci, který z několika duchovních je farář Vodička a souvisela událost
+      s výroční návštěvou roku 1970?
+    known_facts:
+      - "Žena drží zavinuté dítě před duchovním, který má v rukou knihu nebo obřadní text."
+      - "Mezi nimi stojí vysoká křestní svíce a v pozadí jsou další dospělí a nejméně dva duchovní."
+      - "Jeden muž v pozadí má brýle; archivní název označuje muže v brýlích jako faráře Vodičku."
+      - "EXIF datum 1. září 2014 dokládá digitalizaci nebo reprodukci, nikoli křtiny roku 1970."
+    unresolved_attributes:
+      - exact_baptism_date
+      - independent_confirmation_of_year_1970
+      - infant_parent_and_godparent_identities
+      - Vodicka_identity_and_position_in_image
+      - officiating_clergy_identity
+      - identities_of_other_clergy_and_participants
+      - baptism_register_entry
+      - relationship_to_anniversary_or_clergy_visit
+    next_action: >-
+      Hledat matriku křtů, kroniku, rodinné album, návštěvní program roku 1970 a
+      popsanou paralelní fotografii. Faráře Vodičku neurčovat jen podle vzhledu či brýlí.
+    reopen_triggers:
+      - baptism_register_entry_found
+      - family_identification_provided
+      - clergy_visit_program_found
+      - captioned_parallel_photo_found
+      - Vodicka_personnel_record_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+      - sources/index.d/urbanek-ccs-10.yml
+
+  - id: URB-U-0065
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: restored_Jan_Hus_bonfire_tradition_procession_date_people_and_caption
+    related_open_items: [URB-U-0058, URB-U-0061]
+    source_items: [urbanek-ccs-049, urbanek-ccs-050]
+    question: >-
+      Kdy a kým byla obnovena tradice husovské hranice, jak zněl celý useknutý
+      popisek, zachycují hranice a průvod stejný ročník, kdo jsou vedoucí osoby a
+      účastníci, jaká byla trasa a role hasičů a jak dlouho tradice pokračovala?
+    known_facts:
+      - "Urbanek-ccs-049 zachycuje hořící hranici z polen s černobílým portrétem nebo obrazem mužské postavy, početný dav a ženu v černém liturgickém oděvu."
+      - "Archivní název identifikuje portrét jako Jana Husa a tvrdí obnovení tradice, ale končí useknutým řetězcem far."
+      - "EXIF datum 15. března 2012 je v rozporu s plně olistěnou letní scénou a není spolehlivou datací události."
+      - "Urbanek-ccs-050 zachycuje průvod podél kostela vedený dvěma ženami, za nimiž kráčejí hasiči v zásahovém oděvu a další účastníci."
+      - "Snímek průvodu nemá použitelná metadata pro dataci."
+      - "Vztah obou fotografií je pracovní hypotéza založená na archivním pořadí a tématu, nikoli potvrzený ročník."
+    unresolved_attributes:
+      - exact_date_of_each_image
+      - whether_images_show_same_event_and_year
+      - date_and_person_responsible_for_restoration
+      - complete_original_caption
+      - portrait_identity_and_origin
+      - event_program_and_religious_civic_context
+      - procession_route_and_destination
+      - firefighter_role_and_organization
+      - leader_and_participant_identities
+      - duration_and_frequency_of_restored_tradition
+      - interpretation_of_conflicting_EXIF_date
+    next_action: >-
+      Porovnat s následujícími snímky husovské série, církevní a obecní kronikou,
+      zpravodajem, programem akce, hasičskou kronikou a úplnou kopií popisku.
+      Metadata nepoužívat proti obrazovým a textovým dokladům bez vysvětlení rozporu.
+    reopen_triggers:
+      - dated_Hus_commemoration_program_found
+      - church_or_municipal_chronicle_entry_found
+      - fire_brigade_record_found
+      - complete_filename_or_caption_found
+      - following_series_images_compared
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+      - sources/index.d/urbanek-ccs-10.yml

@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_09_open_items
+scope: ccs_batch_09_open_items_updated_by_batch_10
 items:
   - id: URB-U-0061
     status: open
@@ -52,41 +52,48 @@ items:
     status: open
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: Gabriel_Chrobacek_inauguration_date_location_delegation_and_caption
-    related_open_items: [URB-U-0055, URB-U-0059]
-    source_items: [urbanek-ccs-045]
+    type: Gabriel_Chrobacek_episcopal_appointment_inauguration_presentation_and_delegation
+    related_open_items: [URB-U-0055, URB-U-0059, URB-U-0063]
+    source_items: [urbanek-ccs-045, urbanek-ccs-046]
     question: >-
-      Kdy a kde se konala zachycená inaugurace, o jaký biskupský úřad šlo, je
-      ústředním duchovním skutečně Gabriel Chrobáček, kdo a v jakém počtu přijel
-      z Rychvaldu, kdo jsou ostatní osoby a jak zněl celý archivní popisek
-      useknutý za řetězcem „Rychv“?
+      Kdy, kde a do jakého biskupského úřadu byl Gabriel Chrobáček ustanoven a
+      inaugurován, zachycují obě fotografie tutéž slavnost, kdo tvořil rychvaldskou
+      delegaci, kdo předává plastiku, co plastika představuje, kdo jsou ostatní osoby
+      a jak zněl celý popisek useknutý za řetězcem „Rychv“?
     known_facts:
-      - "Fotografie zachycuje velkou formální skupinu několika desítek dospělých a dětí před monumentálním vstupem."
-      - "Uprostřed přední řady sedí duchovní s výrazným řetězem nebo insignií."
-      - "Po jeho stranách sedí dvě ženy a jedna drží kytici."
-      - "Inaugurace, jméno Gabriel Chrobáček a účast lidí z Rychvaldu pocházejí z archivního názvu."
-      - "Skutečný název souboru končí řetězcem „Rychv“ a další text není dochován."
+      - "Urbanek-ccs-045 zachycuje velkou formální skupinu několika desítek dospělých a dětí před monumentálním vstupem."
+      - "Uprostřed přední řady sedí duchovní s výrazným řetězem nebo insignií; po jeho stranách sedí dvě ženy a jedna drží kytici."
+      - "Inaugurace, jméno Gabriel Chrobáček a účast lidí z Rychvaldu pocházejí z archivního názvu, který končí řetězcem Rychv."
+      - "Urbanek-ccs-046 zachycuje duchovního s podobným typem řetězu, který drží listinu a světlou plastiku sedící mužské postavy, zatímco proti němu stojí muž v obleku."
+      - "Název urbanek-ccs-046 tvrdí, že bratr farář Gabriel Chrobáček se stal biskupem; obraz sám neurčuje datum, úřad ani identitu plastiky."
+      - "Vztah obou fotografií k jedné slavnosti je pracovní hypotéza, nikoli ověření podle tváře."
     unresolved_attributes:
-      - exact_inauguration_date
+      - exact_appointment_and_inauguration_dates
       - episcopal_office_and_diocese
       - exact_location_and_building_identity
-      - Gabriel_Chrobacek_identity
-      - meaning_of_chain_or_insignia
+      - Gabriel_Chrobacek_identity_on_each_image
+      - meaning_and_provenance_of_chain_or_insignia
       - Rychvald_delegation_membership_and_count
+      - presenter_identity
+      - sculpture_subject_author_and_provenance
+      - document_content
       - identities_and_roles_of_all_people
-      - relationship_to_other_Chrobacek_photographs
+      - whether_images_show_same_event
       - complete_original_caption
     next_action: >-
       Hledat protokol volby a inaugurace, diecézní a sborovou kroniku, dobový tisk,
-      program slavnosti, seznam delegace, popsané paralelní fotografie a úplnou
-      kopii názvu. Osoby neurčovat pouze podle vzhledu a useknutý popisek nedoplňovat odhadem.
+      program slavnosti, seznam delegace, záznam o daru nebo plastice, popsané
+      paralelní fotografie a úplnou kopii názvu. Osoby neurčovat pouze podle vzhledu.
     reopen_triggers:
-      - inauguration_program_or_protocol_found
+      - appointment_or_inauguration_protocol_found
       - diocesan_chronicle_entry_found
       - dated_press_report_found
       - Rychvald_delegation_list_found
+      - gift_or_sculpture_record_found
       - complete_filename_or_caption_found
       - participant_identification_provided
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml
       - sources/index.d/urbanek-ccs-09.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+      - sources/index.d/urbanek-ccs-10.yml

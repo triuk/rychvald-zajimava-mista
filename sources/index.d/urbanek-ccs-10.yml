@@ -1,0 +1,92 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-10
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-046
+    title: Gabriel Chrobáček při předání plastiky – archivní označení biskupské události
+    document_type: historical_episcopal_presentation_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/48  Br. farář Gabriel Chrobáček se stal biskupem.jpg"
+    file_size_bytes: 364633
+    git_blob_sha: a374052affe79a66495f4c6e6125c7b068307987
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Duchovní s řetězem, muž v obleku, plastika a listina jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_clergy_presentation_scene, scene_text: not_readable, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno Gabriel Chrobáček a biskupský význam pocházejí z archivního názvu.
+      - Fotografie sama neurčuje předmět plastiky ani přesnou událost.
+      - Rozšiřuje URB-U-0062.
+
+  - source_id: urbanek-ccs-047
+    title: Padesáté výročí CČS v Rychvaldě roku 1970 – archivní označení
+    document_type: historical_anniversary_chancel_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/49  V r. 1970 u příležitosti 50. výročí zal. CČS v Rychvaldě.jpg"
+    file_size_bytes: 272468
+    git_blob_sha: 165dc0a94b8f1caf82c92146cee7f5248f9d6de4
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good_with_motion_blur, note: "Kněžiště, čtyři muži, kytice, řetěz a kalich jsou čitelné; jedna ústřední tvář je pohybově rozmazaná."}
+    visual_content: {photographs: single_historical_anniversary_chancel_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Rok 1970 a padesáté výročí založení CČS v Rychvaldě pocházejí z archivního názvu.
+      - Identity a funkce mužů nejsou obrazem ověřeny.
+      - Souvisí s URB-U-0063.
+
+  - source_id: urbanek-ccs-048
+    title: Křtiny údajně roku 1970 s farářem Vodičkou
+    document_type: historical_baptism_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/50  křtiny v r.1970 V brejlích farář Vodička..jpg"
+    file_size_bytes: 200337
+    git_blob_sha: 7bc281dff5a454be95f8052cdf7240072fe4a857
+    digital_format: JPEG
+    text_layer: absent
+    capture_metadata:
+      exif_datetime_original: "2014-09-01 11:31:58"
+      interpretation: "Datum se vztahuje k digitalizaci nebo reprodukci historického snímku, nikoli ke křtinám roku 1970."
+    readability: {status: fair, note: "Dítě, žena, svíce a duchovní jsou čitelní, ale část osob je rozmazaná a překrytá."}
+    visual_content: {photographs: single_historical_baptism_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu a metadat."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Rok 1970 a identifikace faráře Vodičky podle brýlí pocházejí z archivního názvu.
+      - V obrazu jsou nejméně dva duchovní a jméno nelze bezpečně přiřadit bez popisku.
+      - Souvisí s URB-U-0064.
+
+  - source_id: urbanek-ccs-049
+    title: Obnovená tradice husovské hranice – archivní označení
+    document_type: modern_color_commemorative_bonfire_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/51  Tradici pálení hranice s obrazem Jana Husa obnovila far..jpg"
+    file_size_bytes: 539210
+    git_blob_sha: cff852acba76e004cacda2597a23c377d8ef352e
+    digital_format: JPEG
+    text_layer: absent
+    capture_metadata:
+      exif_datetime_original: "2012-03-15 09:39:23"
+      interpretation: "Datum je v rozporu s plně olistěnou scénou a bez dalšího dokladu není spolehlivým datem události."
+    readability: {status: good, note: "Hranice, portrét, dav a žena v liturgickém oděvu jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_bonfire_commemoration_scene, scene_text: portrait_without_readable_text, method: "Vizuální kontrola celého obrazu a metadat."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Identita portrétu jako Jana Husa, obnovení tradice a osoba iniciátorky pocházejí z archivního názvu.
+      - Název je useknutý za řetězcem far.
+      - Souvisí s URB-U-0065.
+
+  - source_id: urbanek-ccs-050
+    title: Průvod od kostela při vzpomínce na Jana Husa – archivní označení
+    document_type: modern_color_church_procession_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/52  Průvod od kostela. Vzpomínka na Jana Husa.JPG"
+    file_size_bytes: 2096705
+    git_blob_sha: 38df3a6ce4a4df7d876182374bf371f333f40337
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Čelo průvodu, hasiči, další účastníci a část kostela jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_community_procession, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Husovská vzpomínka a směr od kostela pocházejí z archivního názvu.
+      - Přesná role hasičů ani vztah k fotografii hranice nejsou obrazem ověřeny.
+      - Souvisí s URB-U-0065.

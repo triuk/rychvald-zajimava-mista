@@ -1,52 +1,67 @@
 schema_version: 1
-scope: ccs_batch_09_open_items_updated_by_batch_10
+scope: ccs_batch_09_open_items_updated_through_batch_12
 items:
   - id: URB-U-0061
     status: open
-    priority: medium
+    priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: modern_choir_events_dates_leadership_members_and_sequence
+    type: modern_choir_events_dates_title_conflicts_leadership_members_and_sequence
     related_open_items: [URB-U-0060]
-    source_items: [urbanek-ccs-041, urbanek-ccs-042, urbanek-ccs-043, urbanek-ccs-044]
+    source_items: [urbanek-ccs-041, urbanek-ccs-042, urbanek-ccs-043, urbanek-ccs-044, urbanek-ccs-057, urbanek-ccs-058]
     question: >-
-      Zachycují čtyři novodobé fotografie jedno vystoupení nebo více událostí,
-      které z nich skutečně pocházejí z roku 2001, jaké byly přesné termíny a
-      programy, jak se sbor oficiálně jmenoval, kdo byli sbormistr Dajč a učitelka
-      Dziadziová, kdo jsou ostatní zpěváci a hudebníci a jak spolu snímky souvisejí?
+      Kolik různých novodobých koncertů fotografie zachycují, které snímky skutečně
+      pocházejí z roku 2001 nebo 2011, jaké byly přesné názvy a programy akcí, proč
+      jsou snímky ze stejného červnového dne označeny jednou Svatováclavským festivalem
+      a podruhé adventním koncertem, jak se sbory a soubory jmenovaly a kdo byli
+      dirigenti, Dajč, Dziadziová, děti místní ZUŠ a ostatní účinkující?
     known_facts:
       - "Urbanek-ccs-041 zachycuje smíšený sbor zpívající z notových desek v interiéru sboru."
       - "Urbanek-ccs-042 zachycuje sbor, komorní hudební soubor, dirigenta a ozdobený jehličnatý strom."
       - "Urbanek-ccs-043 je skupinový portrét více než dvou desítek dospělých, jednoho dítěte a ženy v liturgické štole s motivem kalicha."
       - "Urbanek-ccs-044 zachycuje ženu u varhan, houslistku, další mladou ženu a část publika."
       - "Rok 2001, příjmení Dajč a Dziadziová, funkce sbormistra a titul učitelky pocházejí z archivních názvů."
-      - "EXIF urbanek-ccs-043 obsahuje datum 8. září 2014, které se vztahuje k digitálnímu pořízení nebo reprodukci, nikoli k zachycené události."
-      - "Podobný interiér a opakující se osoby jsou vodítkem k souvislosti snímků, nikoli samy o sobě důkazem jediné události."
+      - "EXIF urbanek-ccs-043 obsahuje datum 8. září 2014, které se vztahuje k digitálnímu pořízení nebo reprodukci, nikoli nutně k zachycené události."
+      - "Urbanek-ccs-057 zachycuje velký smíšený sbor, dirigenta a publikum; název jej připisuje Svatováclavskému festivalu."
+      - "Urbanek-ccs-058 zachycuje dětský a mládežnický hudební soubor; název jej připisuje adventnímu koncertu a místní ZUŠ."
+      - "Urbanek-ccs-057 a 058 mají stejný fotoaparát Nikon D3100 a embedded datum 12. června 2011 v časech 17:02:40 a 16:13:05."
+      - "Shodný den, fotoaparát, interiér a časová návaznost silně ukazují, že urbanek-ccs-057 a 058 dokumentují tutéž akci nebo programový blok."
+      - "Červnové embedded datum urbanek-ccs-058 je v přímém napětí s archivním označením adventního koncertu; ani jedna varianta zatím není potvrzena programem."
+      - "Podobný interiér a opakující se osoby u ostatních snímků jsou vodítkem k souvislosti, nikoli samy o sobě důkazem jediné události."
     unresolved_attributes:
       - exact_date_of_each_image
       - independent_confirmation_of_year_2001
-      - whether_images_show_one_or_multiple_events
+      - whether_images_041_to_044_show_one_or_multiple_events
+      - exact_event_identity_for_images_057_and_058
+      - explanation_of_Svatovaclavsky_festival_vs_advent_title_conflict
+      - reliability_of_embedded_June_2011_dates
       - exact_event_names_and_programs
-      - choir_official_name
+      - choir_and_ensemble_official_names
+      - local_ZUS_identity_and_participation
       - Dajc_full_name_identity_and_role
       - Dziadziova_full_name_identity_teaching_institution_and_role
-      - conductor_singers_musicians_and_clergy_identities
-      - repertoire_and_accompanying_ensemble
+      - conductors_singers_musicians_children_and_clergy_identities
+      - repertoire_and_accompanying_ensembles
       - interpretation_of_decorated_tree
       - relationship_to_historical_choir_item_URB_U_0060
     next_action: >-
-      Hledat kroniku, programy koncertů a bohoslužeb, sborové seznamy, notové
-      materiály, personální záznamy Dajče a Dziadziové, dobový zpravodaj a paralelní
-      fotografie s popisky. Události neslučovat pouze podle podobnosti osob nebo interiéru.
+      Hledat program Svatováclavského festivalu a koncertů roku 2011, adventní programy,
+      kroniku, sborové seznamy, záznamy místní ZUŠ, notové materiály, personální
+      záznamy Dajče a Dziadziové a dobový zpravodaj. Konflikt názvů a embedded data
+      zachovat, dokud jej nevyřeší textový pramen.
     reopen_triggers:
-      - dated_choir_program_found
+      - dated_2011_concert_program_found
+      - Svatovaclavsky_festival_archive_found
+      - advent_program_found
       - church_chronicle_entry_found
-      - choir_roster_found
+      - choir_or_ZUS_roster_found
       - Dajc_or_Dziadziova_personnel_record_found
       - captioned_parallel_photo_found
       - participant_identification_provided
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml
       - sources/index.d/urbanek-ccs-09.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml
+      - sources/index.d/urbanek-ccs-12.yml
 
   - id: URB-U-0062
     status: open

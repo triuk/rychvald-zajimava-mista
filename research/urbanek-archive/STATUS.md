@@ -35,15 +35,7 @@ PR obsahuje dokončený pilot a rozpracovanou následující archivní dávku. T
 
 Podrobná reconciliace: `research/urbanek-archive/reports/pilot-reconciliation.md`.
 
-Audity pilotních cache prokázaly **11 chybějících plných originálů**:
-
-- 0 – Rychvaldské větrné mlýny;
-- 8 – Články z Českého slova;
-- 2 – Ochotníci rychvald;
-- 1 – `den po dešti`;
-- 0 – Nálet na Ostravu 1944.
-
-Náhled v `Thumbs.db` není náhradou plného originálu. Přesně ověřená kopie obrazu dochovaná pod jiným názvem se však nepovažuje za další chybějící obrazový obsah.
+Audity pilotních cache prokázaly **11 chybějících plných originálů**. Náhled v `Thumbs.db` není náhradou plného originálu; přesně ověřená kopie obrazu dochovaná pod jiným názvem se však nepovažuje za další chybějící obrazový obsah.
 
 ## Nová dávka – historie Církve československé
 
@@ -56,28 +48,28 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeny jsou dvě dávky po pěti snímcích:
+Dokončeny jsou tři dávky po pěti snímcích:
 
-1. `urbanek-ccs-001` až `urbanek-ccs-005` – položení základního kamene a výstavba;
-2. `urbanek-ccs-006` až `urbanek-ccs-010` – dokončený exteriér, původní interiér a rané slavnostní bohoslužby.
+1. `urbanek-ccs-001` až `005` – položení základního kamene a výstavba;
+2. `urbanek-ccs-006` až `010` – dokončený exteriér, původní interiér a rané slavnostní bohoslužby;
+3. `urbanek-ccs-011` až `015` – první přijímání, rada starších a technické snímky zvonů.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **10 z 201 položek**;
-- proti Git blob SHA ověřeno: **10 položek**;
-- vizuálně klasifikováno: **10 položek**;
-- zdrojově indexováno: **10 položek**;
-- zbývá: **191 položek**.
+- zpracováno: **15 z 201 položek**;
+- proti Git blob SHA ověřeno: **15 položek**;
+- vizuálně klasifikováno: **15 položek**;
+- zdrojově indexováno: **15 položek**;
+- zbývá: **186 položek**.
 
-Pracovní soubory:
+Dávka 03 ověřila obrazově zejména společný vstup na skupinových fotografiích, částečný popisek desetiletí CČS v Rychvaldě s rokem 1930, letopočet `1920` na jednom zvonu a existenci nejméně tří zvonů. Význam letopočtu, identita osob a historie zvonění zůstávají otevřené.
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml`;
-- `sources/index.d/urbanek-ccs.yml`;
-- `sources/index.d/urbanek-ccs-02.yml`.
+Pracovní soubory dávky 03:
+
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml`;
+- `sources/index.d/urbanek-ccs-03.yml`;
+- `research/urbanek-archive/uncertainties/open-06.yml`.
 
 Úplný inventář, blob verifikace, vizuální klasifikace, OCR relevantního textu a audit `Thumbs.db` pokračují po dávkách 5–10 souborů.
 
@@ -85,40 +77,36 @@ Pracovní soubory:
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 4;
+- `open`: 8;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 38.
+- celkem: 42.
 
-Aktivní zůstávají:
+Nově založené položky:
 
-- `URB-U-0008` – neidentifikovaná historická fotografie větrného mlýna;
-- `URB-U-0036` – poloha a historie Kakalova mlýna;
-- `URB-U-0037` – význam `304` a archivní vztah fotografie kostela;
-- `URB-U-0038` – historická poloha a vlastník mlýnku za domem č. 339.
+- `URB-U-0039` – datace a osoby na fotografiích prvního přijímání;
+- `URB-U-0040` – úplný popisek, událost a osoby rady starších roku 1930;
+- `URB-U-0041` – význam letopočtu 1920, původ a identita zvonů;
+- `URB-U-0042` – původní ovládání, elektrifikace a změny mechanismu zvonění.
 
-Tyto otázky se znovu prověří pouze tehdy, přinese-li nová dávka relevantní podklad. Negativní dílčí hledání není důvodem k jejich uzavření.
+Dřívější aktivní položky `URB-U-0008`, `URB-U-0036`, `URB-U-0037` a `URB-U-0038` zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření. Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události nebo technické historie.
 
 ## Kontrola konzistence draftu
 
-Provedeno:
-
-- součty registru sjednoceny na 4/31/3/38;
-- pilot oddělen od nové dávky;
-- popis a název PR aktualizovány podle skutečného obsahu větve;
-- dočasný export a fragmenty k `URB-U-0032` odstraněny;
-- nový kolekční přehled, dávkové inventáře, klasifikace a zdrojové shardy vytvořeny;
-- `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejné součty nové dávky: 200 + 1 = 201.
-
-GitHub nevrací pro kontrolovaný head žádné CI status checks; nejde tedy o úspěšně proběhlý test, ale o repozitář bez hlášených kontrol.
+- pilot a nová dávka jsou odděleny;
+- `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
+- aktuální průběžný stav je 15 zpracovaných a 186 zbývajících položek;
+- registr používá součty 8/31/3/42;
+- každá nejistota z dávky 03 má stabilní ID a vlastní návratové podmínky;
+- GitHub nevrací pro kontrolovaný head žádné CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-011` až `urbanek-ccs-015`.
-- Pokračovat po dávkách 5–10 souborů.
+- Následující položky: `urbanek-ccs-016` až `urbanek-ccs-020`.
 - Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
+- Každá podstatná nejistota musí být okamžitě zapsána pod stabilním `URB-U-XXXX`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

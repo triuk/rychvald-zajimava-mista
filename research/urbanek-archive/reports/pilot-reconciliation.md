@@ -69,9 +69,9 @@ Absence samostatného plného souboru je evidenční výsledek, nikoli otevřen�
 
 Autoritativní index je `research/urbanek-archive/uncertainties/index.yml`; úplné záznamy jsou v odkazovaných shard souborech. Původní `research/urbanek-archive/uncertainties.yml` je pouze historický snapshot.
 
-- `open`: 7;
+- `open`: 4;
 - `deferred`: 0;
-- `resolved`: 28;
+- `resolved`: 31;
 - `not_actionable`: 3;
 - celkem: 38.
 
@@ -105,15 +105,17 @@ Technické položky `URB-U-0001`, `URB-U-0024`, `URB-U-0033` a `URB-U-0035` jsou
 
 `URB-U-0028` je uzavřena: správné jméno postavy Evy Močkořové je Olivie. Podoba „Ofélie“ v retrospektivním článku je autorský nebo tiskový omyl a zůstává zachována pouze v doslovném přepisu s opravnou poznámkou.
 
+`URB-U-0032` je uzavřena jako známá ořezová lakuna bez dalšího hledání. Veškerý dochovaný text výsledkového bloku je přepsán; pokračování odříznuté dolním okrajem snímku zůstává výslovně označeno a nesmí být rekonstruováno odhadem.
+
 ## Připravenost větve
 
 Pilotní větev má kompletní evidovanou souborovou sadu. Zbývají tyto věcné výhrady:
 
 1. jedenáct plných originálů chybí; v `Thumbs.db` jsou zachovány pouze jejich náhledy;
-2. otevřené historické, identifikační a fyzické lakuny jsou vedeny v aktuálním registru;
+2. čtyři otevřené historické a identifikační otázky jsou vedeny v aktuálním registru;
 3. názvy složek a souborů nejsou samy o sobě považovány za nezávislý historický důkaz;
 4. před použitím konkrétního tvrzení v článku je nutné citovat příslušný zdrojový soubor a případně další ověřovací pramen;
 5. další větrné mlýny se před uzavřením identifikace porovnávají také s databází Povětrník;
-6. `URB-U-0036` zůstává aktivní, dokud nové prameny nepotvrdí nebo nevyvrátí polohu a historii Kakalova mlýna.
+6. `URB-U-0008`, `URB-U-0036`, `URB-U-0037` a `URB-U-0038` zůstávají aktivní a mají se znovu prověřovat po získání nových relevantních pramenů.
 
 Doporučený stav: `draft_pr_open_with_complete_pilot_file_set`.

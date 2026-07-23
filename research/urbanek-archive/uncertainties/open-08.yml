@@ -42,39 +42,49 @@ items:
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
     type: interior_reconstruction_chronology
-    related_open_items: [URB-U-0043, URB-U-0046]
-    source_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-024]
+    related_open_items: [URB-U-0043, URB-U-0046, URB-U-0051, URB-U-0052, URB-U-0053]
+    source_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-024, urbanek-ccs-026, urbanek-ccs-027, urbanek-ccs-028, urbanek-ccs-029, urbanek-ccs-030]
     question: >-
       Jaká rekonstrukce interiéru proběhla kolem let 1948–1949, kdy začala a skončila,
-      co přesně změnila a v jakém pořadí souvisela s instalací varhan a pozdějšími
-      nástěnnými malbami nebo jejich úpravou?
+      co přesně změnila a v jakém pořadí souvisela s instalací varhan, doplněním
+      koberců a pozdější figurální výzdobou čelní stěny?
     known_facts:
       - "Urbanek-ccs-024 zachycuje starší podobu interiéru s balkony, dekorativní výzdobou a varhanními píšťalami na kůru."
-      - "Varhanní píšťaly jsou na snímku obrazově ověřené, jejich novost ani rok instalace však nikoli."
       - "Svatební snímky urbanek-ccs-021 a 022 zachycují stejnou nebo velmi podobnou starší výzdobu kněžiště."
-      - "Archivní názvy používají označení ‚před rekonstrukcí‘ a uvádějí rok 1948."
+      - "Urbanek-ccs-026 zachycuje výrazně zjednodušené kněžiště s křížem a novým pravoúhlým oltářem, bez pozdějších bočních maleb."
+      - "Urbanek-ccs-027 zachycuje tentýž rekonstruovaný stav při zaplněné bohoslužbě."
+      - "Urbanek-ccs-028 dokládá pozdější doplnění několika vzorovaných koberců."
+      - "Urbanek-ccs-029 a 030 dokládají ještě pozdější trojdílnou figurální výzdobu čelní stěny."
+      - "Obrazová posloupnost bezpečně prokazuje relativní pořadí stavů, nikoli automaticky roky 1948, 1949 a 1957 uvedené v názvech."
     unresolved_attributes:
       - exact_reconstruction_start_date
       - exact_reconstruction_completion_date
+      - independent_confirmation_of_years_1948_and_1949
       - architectural_and_decorative_scope
       - chronology_relative_to_organ_installation
-      - chronology_relative_to_wall_murals
+      - chronology_and_date_of_carpet_installation
+      - chronology_relative_to_front_wall_murals
       - contractor_architect_or_artist
       - funding_and_approval
-      - independent_confirmation_of_year_1948
+      - date_and_character_of_formal_reopening
     next_action: >-
-      Sestavit obrazovou chronologii všech pohledů interiéru a porovnat ji s účty,
-      zápisy rady starších, stavební dokumentací, kronikou a záznamy o varhanách.
-      Označení ‚před rekonstrukcí‘ nepoužívat jako přesnou dataci bez textového dokladu.
+      Sestavit úplnou obrazovou chronologii všech pohledů interiéru a porovnat ji
+      s účty, zápisy rady starších, stavební dokumentací, kronikou, záznamy o
+      varhanách a podklady k nástěnným malbám. Relativní pořadí obrazů je doloženo;
+      absolutní roky a rozsah prací vyžadují textový pramen.
     reopen_triggers:
       - dated_pre_or_post_reconstruction_photo_found
       - construction_invoice_or_plan_found
       - church_council_minutes_found
       - organ_installation_record_found
-      - restoration_or_mural_record_found
+      - formal_reopening_program_found
+      - carpet_invoice_or_donation_found
+      - mural_invoice_or_restoration_record_found
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
       - sources/index.d/urbanek-ccs-05.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml
+      - sources/index.d/urbanek-ccs-06.yml
 
   - id: URB-U-0050
     status: open

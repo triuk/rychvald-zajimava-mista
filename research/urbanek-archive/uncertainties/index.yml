@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 13, deferred: 0, resolved: 31, not_actionable: 3, total: 47}
+summary: {open: 16, deferred: 0, resolved: 31, not_actionable: 3, total: 50}
 open_files:
   - open-01.yml
   - open-03.yml
@@ -7,6 +7,7 @@ open_files:
   - open-05.yml
   - open-06.yml
   - open-07.yml
+  - open-08.yml
 closed_files:
   - closed-01a.yml
   - closed-01b.yml
@@ -43,3 +44,4 @@ rules:
   - An archival filename or folder label is evidence of archival attribution, not independent proof of a date, event, person or technical history; unresolved attributes receive a stable registry item.
   - A visually readable year on an object verifies the inscription only, not automatically the object's manufacture, installation or dedication date.
   - A gap in archival filename numbering is recorded as an archive-sequence uncertainty, but is not classified as a missing full original until a thumbnail, manifest entry or other concrete reference proves that a separate image existed.
+  - Persons in photographs are not identified solely from facial appearance; identification requires a caption, documentary source, user testimony or another explicit evidentiary link.

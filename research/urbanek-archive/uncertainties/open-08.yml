@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_05_open_items_updated_through_batch_15
+scope: ccs_batch_05_open_items_updated_through_batch_16
 items:
   - id: URB-U-0048
     status: open
@@ -90,14 +90,14 @@ items:
     status: open
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: Ferdinand_Stibor_visit_bread_and_salt_event_date_full_sequence_and_people
-    source_items: [urbanek-ccs-025, urbanek-ccs-070, urbanek-ccs-071, urbanek-ccs-072, urbanek-ccs-073, urbanek-ccs-074, urbanek-ccs-075]
+    type: Ferdinand_Stibor_visit_bread_and_salt_event_date_full_sequence_council_and_people
+    source_items: [urbanek-ccs-025, urbanek-ccs-070, urbanek-ccs-071, urbanek-ccs-072, urbanek-ccs-073, urbanek-ccs-074, urbanek-ccs-075, urbanek-ccs-076]
     question: >-
       Zachycují všechny fotografie jednu návštěvu biskupa Ferdinanda Stibora v Rychvaldě
       roku 1948, při jaké příležitosti proběhla, jak na sebe navazovalo uvítání chlebem
-      a solí, venkovní skupiny, setkání před oltářem a společné fotografování s dětmi,
-      kde přesně se jednotlivé části konaly a kdo jsou host, duchovní, krojované ženy,
-      děti a další účastníci?
+      a solí, venkovní skupiny, setkání před oltářem, společné fotografování s dětmi a
+      sedmičlenná skupina označená jako rada starších, kde se části konaly a kdo jsou
+      host, duchovní, krojované osoby, děti, členové rady a další účastníci?
     known_facts:
       - "Urbanek-ccs-025 zachycuje velkou venkovní skupinu dospělých a dětí; mezi dospělými jsou osoby v duchovním oděvu a v přední řadě dívky v jednotných slavnostních nebo lidových krojích."
       - "Jméno Ferdinanda Stibora, návštěva Rychvaldu a rok 1948 u urbanek-ccs-025 pocházejí z archivního názvu souboru."
@@ -106,13 +106,15 @@ items:
       - "Urbanek-ccs-073 zachycuje menší skupinu dospělých a duchovních před oltářem v interiéru sboru."
       - "Urbanek-ccs-074 je další formální skupinový snímek duchovních a civilních účastníků."
       - "Urbanek-ccs-075 zachycuje velkou společnou skupinu dospělých, duchovních a dětí."
-      - "Soudržnost série podporuje společná podsložka, pořadí, prostředí a opakující se osoby, nikoli však sama o sobě identitu hosta ani datum."
+      - "Urbanek-ccs-076 zachycuje sedm sedících dospělých; uprostřed je duchovní s výrazným řetězem nebo insignií a kyticí, po stranách civilně oblečení muži a jedna žena se šátkem."
+      - "Název urbanek-ccs-076 označuje skupinu jako biskupa Stibora s radou starších a obsahuje pouze fragmenty jmen ‚Herman, nn,Trant. Šm‘; chybějící části nebyly rekonstruovány."
+      - "Celá sedmisouborová podsložka je nyní vizuálně zpracována; soudržnost série podporují pořadí, prostředí a opakující se osoby, nikoli však sama o sobě identita hosta, datum nebo funkce."
     unresolved_attributes:
       - confirmation_of_Ferdinand_Stibor_identity_on_each_image
       - exact_visit_date
       - independent_confirmation_of_year_1948
       - exact_event_or_liturgical_occasion
-      - whether_items_025_and_070_to_075_show_same_visit
+      - whether_items_025_and_070_to_076_show_same_visit
       - exact_sequence_of_welcome_outdoor_groups_altar_and_group_photographs
       - exact_locations_and_route
       - identities_of_clergy
@@ -120,18 +122,21 @@ items:
       - identity_and_group_affiliation_of_bread_and_salt_presenter
       - identities_of_adult_participants
       - identities_and_group_affiliation_of_costumed_children
+      - council_of_elders_status_and_membership_of_item_076
+      - left_to_right_identity_order_on_item_076
+      - full_names_and_spelling_behind_Herman_nn_Trant_and_Sm_fragments
       - full_visit_program_and_sequence
-      - relationship_to_remaining_item_076
     next_action: >-
-      Zpracovat poslední snímek podsložky věnované Ferdinandu Stiborovi a poté porovnat
-      celou sérii s církevní kronikou, návštěvními protokoly, dobovým tiskem, programem
-      slavnosti a popsanými skupinovými snímky. Osoby neidentifikovat pouze podle
-      obličejů ani podle pozice hlavního hosta.
+      Porovnat celou dokončenou podsložku s církevní kronikou, zápisy rady starších,
+      návštěvními protokoly, dobovým tiskem, programem slavnosti a popsanými skupinovými
+      snímky. Získat úplný původní popisek položky 076. Osoby neidentifikovat pouze podle
+      obličejů, polohy ve skupině ani fragmentů jmen bez dalšího dokladu.
     reopen_triggers:
-      - full_Stibor_subcollection_processed
       - church_chronicle_visit_entry_found
+      - church_council_minutes_found
       - dated_press_report_found
       - visit_program_or_protocol_found
+      - complete_item_076_caption_found
       - captioned_parallel_photo_found
       - participant_identification_provided
     evidence:
@@ -141,3 +146,5 @@ items:
       - sources/index.d/urbanek-ccs-14.yml
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml
       - sources/index.d/urbanek-ccs-15.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-16.yml
+      - sources/index.d/urbanek-ccs-16.yml

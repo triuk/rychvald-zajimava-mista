@@ -1,0 +1,87 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-09
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-041
+    title: Pěvecký sbor údajně roku 2001
+    document_type: modern_color_choir_performance_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/43  Pěvecký sbor  2001.jpg"
+    file_size_bytes: 247928
+    git_blob_sha: efad986b14ae08c03a0bb056d6904fbe118bb031
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Sbor, notové desky a část hudebního doprovodu jsou čitelné."}
+    visual_content: {photographs: single_modern_mixed_choir_performance, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Rok 2001 a označení pěveckého sboru pocházejí z archivního názvu.
+      - Souvisí s URB-U-0061.
+
+  - source_id: urbanek-ccs-042
+    title: Pěvecký sbor se sbormistrem Dajčem – archivní označení
+    document_type: modern_color_choir_and_ensemble_performance_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/44  Pěvecký sbor se sbormistrem p. Dajčem.jpg"
+    file_size_bytes: 278840
+    git_blob_sha: d14f81713cd7e1d02de90c9898a91c3ab44db4f8
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Sbor, dirigent, komorní soubor a ozdobený strom jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_choir_and_chamber_ensemble_performance, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno Dajč a funkce sbormistra pocházejí z archivního názvu.
+      - Ozdobený strom naznačuje vánoční období, ale neurčuje přesnou událost.
+      - Souvisí s URB-U-0061.
+
+  - source_id: urbanek-ccs-043
+    title: Členové pěveckého sboru – archivní označení
+    document_type: modern_color_choir_member_group_portrait_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/45  Členové pěveckého sboru.jpg"
+    file_size_bytes: 279677
+    git_blob_sha: 9652ac38c0e4e3c09ef25484e41f6bfc2a9f7e29
+    digital_format: JPEG
+    text_layer: absent
+    capture_metadata:
+      exif_datetime: "2014-09-08 10:11:29"
+      interpretation: "Datum se vztahuje k digitálnímu pořízení nebo reprodukci souboru, nikoli nutně k události."
+    readability: {status: good, note: "Skupina, liturgická štóla a motiv kalicha jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_large_mixed_group_portrait, scene_text: not_detected, method: "Vizuální kontrola celého obrazu a metadat."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Členství jednotlivých osob ve sboru není obrazem ověřeno.
+      - EXIF datum není datem zachycené události.
+      - Souvisí s URB-U-0061.
+
+  - source_id: urbanek-ccs-044
+    title: U varhan paní učitelka Dziadziová – archivní označení
+    document_type: modern_color_organ_and_violin_performance_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/46  U varhan p. uč. Dziadziová.jpg"
+    file_size_bytes: 251943
+    git_blob_sha: e2788565ebac311df59d3f02eb5669eadf9c8720
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Varhanice, houslistka, hrací stůl a píšťaly jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_organ_and_violin_performance, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Příjmení Dziadziová a titul paní učitelka pocházejí z archivního názvu.
+      - Souvisí s URB-U-0061.
+
+  - source_id: urbanek-ccs-045
+    title: Inaugurace biskupa Gabriela Chrobáčka a rychvaldská účast – archivní označení
+    document_type: historical_large_inauguration_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/47  Na inauguraci biskupa Gabriela Chrobáčka přijelo z Rychv.jpg"
+    file_size_bytes: 458721
+    git_blob_sha: d220a75fd2a69f43b2089c126488bbda84bea476
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Velká skupina, ústřední duchovní s insignií a vstupní architektura jsou čitelné."}
+    visual_content: {photographs: single_historical_large_formal_group_with_bishop_like_central_figure, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Inaugurace, identita Gabriela Chrobáčka a účast lidí z Rychvaldu pocházejí z archivního názvu.
+      - Název končí useknutým řetězcem Rychv a nebyl doplněn odhadem.
+      - Souvisí s URB-U-0062.

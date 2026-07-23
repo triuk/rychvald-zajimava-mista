@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_05_open_items
+scope: ccs_batch_05_open_items_updated_through_batch_14
 items:
   - id: URB-U-0048
     status: open
@@ -90,36 +90,50 @@ items:
     status: open
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: episcopal_visit_event_date_and_group_identification
-    source_items: [urbanek-ccs-025]
+    type: Ferdinand_Stibor_visit_bread_and_salt_event_date_sequence_and_people
+    source_items: [urbanek-ccs-025, urbanek-ccs-070]
     question: >-
-      Zachycuje skupinová fotografie skutečně návštěvu biskupa Ferdinanda Stibora
-      v Rychvaldě roku 1948, při jaké příležitosti byla pořízena, kde přesně a kdo
-      jsou duchovní, dospělí a dívky ve slavnostních krojích?
+      Zachycují fotografie skutečně návštěvu biskupa Ferdinanda Stibora v Rychvaldě
+      roku 1948, při jaké příležitosti byla pořízena, je uvítání chlebem a solí součástí
+      téže události jako velká skupinová fotografie, kde přesně se slavnost konala a
+      kdo jsou host, duchovní, krojované ženy, děti a další účastníci?
     known_facts:
-      - "Fotografie zachycuje velkou venkovní skupinu dospělých a dětí."
-      - "Mezi dospělými jsou osoby v duchovním oděvu."
-      - "V přední řadě jsou dívky v jednotných slavnostních nebo lidových krojích."
-      - "Jméno Ferdinanda Stibora, návštěva Rychvaldu a rok 1948 pocházejí z archivního názvu souboru."
+      - "Urbanek-ccs-025 zachycuje velkou venkovní skupinu dospělých a dětí."
+      - "Mezi dospělými na urbanek-ccs-025 jsou osoby v duchovním oděvu."
+      - "V přední řadě urbanek-ccs-025 jsou dívky v jednotných slavnostních nebo lidových krojích."
+      - "Jméno Ferdinanda Stibora, návštěva Rychvaldu a rok 1948 u urbanek-ccs-025 pocházejí z archivního názvu souboru."
+      - "Urbanek-ccs-070 zachycuje venkovní uvítání: žena v lidovém nebo slavnostním kroji nese tác s chlebem a malou miskou nebo nádobkou ke staršímu muži v kabátu."
+      - "V popředí urbanek-ccs-070 stojí zády duchovní v tmavém oděvu a kolem je početná skupina dospělých."
+      - "Urbanek-ccs-070 je uložen v podsložce nazvané ‚Biskup Ferdinand Stibor v Rychvaldě‘; samotný obraz neobsahuje jméno, datum ani místo."
+      - "Krojovaná účastnice a slavnostní venkovní charakter jsou slučitelné s urbanek-ccs-025, ale dosud nebyla prokázána totožnost události ani osob."
     unresolved_attributes:
-      - confirmation_of_Ferdinand_Stibor_identity
+      - confirmation_of_Ferdinand_Stibor_identity_on_each_image
       - exact_visit_date
+      - independent_confirmation_of_year_1948
       - exact_event_or_liturgical_occasion
-      - exact_location
+      - whether_items_025_and_070_show_same_visit
+      - exact_location_and_route_of_welcome
       - identities_of_clergy
+      - identity_of_older_welcomed_guest
+      - identity_and_group_affiliation_of_bread_and_salt_presenter
       - identities_of_adult_participants
       - identities_and_group_affiliation_of_costumed_children
-      - relation_to_other_Stibor_photographs_in_archive
+      - full_visit_program_and_sequence
+      - relation_to_remaining_Stibor_subcollection_photographs
     next_action: >-
-      Porovnat snímek s podsložkou věnovanou Ferdinandu Stiborovi, církevní kronikou,
-      návštěvními protokoly, dobovým tiskem a dalšími popsanými skupinovými snímky.
-      Osoby neidentifikovat pouze podle obličejů.
+      Pokračovat zpracováním celé podsložky věnované Ferdinandu Stiborovi a porovnat
+      opakující se oděvy, kroje, prostředí a osoby. Následně hledat církevní kroniku,
+      návštěvní protokoly, dobový tisk, program slavnosti a popsané skupinové snímky.
+      Osoby neidentifikovat pouze podle obličejů ani podle pozice hosta.
     reopen_triggers:
-      - Stibor_subcollection_processed
+      - full_Stibor_subcollection_processed
       - church_chronicle_visit_entry_found
       - dated_press_report_found
+      - visit_program_or_protocol_found
       - captioned_parallel_photo_found
       - participant_identification_provided
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
       - sources/index.d/urbanek-ccs-05.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
+      - sources/index.d/urbanek-ccs-14.yml

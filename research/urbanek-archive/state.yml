@@ -19,7 +19,9 @@ authoritative_files:
   uncertainty_registry: research/urbanek-archive/uncertainties/index.yml
   pilot_reconciliation: research/urbanek-archive/reports/pilot-reconciliation.md
   ccs_collection_overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
-  ccs_source_index: sources/index.d/urbanek-ccs.yml
+  ccs_source_indexes:
+    - sources/index.d/urbanek-ccs.yml
+    - sources/index.d/urbanek-ccs-02.yml
 
 pull_request:
   number: 1
@@ -44,6 +46,9 @@ checkpoints:
   ccs_history_inventory_01_commit: a167ccaf592076e38632df0e95d3bd7398033b57
   ccs_history_batch_01_commit: 482ab4cfd05802ac4fbd55222db04ce6df53b3fd
   ccs_history_source_index_01_commit: 5c77fe0db46f2b65675db1207a9193a2b3b95fc9
+  ccs_history_inventory_02_commit: 687f4edc9299d603f4834f3d2d30a661bd296411
+  ccs_history_batch_02_commit: 4aa03f4d4332ca426e0f868e9680e9a5de354906
+  ccs_history_source_index_02_commit: ecbbaf1cac0d677bfceca8323b1c8adba363fab3
 
 pilot:
   status: completed
@@ -92,29 +97,38 @@ next_archive_batch:
   name: Historie Církve československé v Rychvaldě ve fotografiích
   status: processing_in_progress
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
-  source_index_shard: sources/index.d/urbanek-ccs.yml
+  source_index_shards:
+    - sources/index.d/urbanek-ccs.yml
+    - sources/index.d/urbanek-ccs-02.yml
   totals:
     subfolders: 10
     content_files: 200
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 5
-    repo_verified_items: 5
-    visually_classified_items: 5
-    source_indexed_items: 5
-    remaining_items: 196
+    processed_items: 10
+    repo_verified_items: 10
+    visually_classified_items: 10
+    source_indexed_items: 10
+    remaining_items: 191
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: pending
     thumbnail_cache_audit_status: pending
-  current_batch:
-    id: construction-sequence-01
-    status: completed_first_visual_pass
-    items: [urbanek-ccs-001, urbanek-ccs-002, urbanek-ccs-003, urbanek-ccs-004, urbanek-ccs-005]
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
-  next_items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
+  completed_batches:
+    - id: construction-sequence-01
+      status: completed_first_visual_pass
+      items: [urbanek-ccs-001, urbanek-ccs-002, urbanek-ccs-003, urbanek-ccs-004, urbanek-ccs-005]
+      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
+      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
+      source_index: sources/index.d/urbanek-ccs.yml
+    - id: opening-and-early-interior-02
+      status: completed_first_visual_pass
+      items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
+      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv
+      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml
+      source_index: sources/index.d/urbanek-ccs-02.yml
+  next_items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015]
   technical_files:
     - path: "10 Kalendář 2015/Thumbs.db"
       audit_status: pending
@@ -156,8 +170,8 @@ consistency_review:
     - uncertainty_counts_synchronized
     - urb_u_0032_temporary_artifacts_removed
     - ccs_collection_overview_created
-    - ccs_source_index_shard_created
-    - first_ccs_batch_inventory_and_classification_created
+    - ccs_source_index_shards_created
+    - first_two_ccs_batches_inventory_and_classification_created
   verified_equal_totals:
     ccs_content_files: 200
     ccs_technical_files: 1
@@ -180,11 +194,11 @@ readiness:
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010]
+  items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify each source file against the Git branch, record its Git blob SHA,
     perform visual classification, record rights and attribution, separate
-    document_text from scene_text, append the item to the collection inventory
-    and source-index shard, and register only substantive unresolved questions.
-    Do not mark the PR ready or merge it while the collection remains incomplete.
+    document_text from scene_text, append the item to a collection inventory and
+    source-index shard, and register only substantive unresolved questions. Do
+    not mark the PR ready or merge it while the collection remains incomplete.

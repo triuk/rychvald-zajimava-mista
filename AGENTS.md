@@ -42,7 +42,8 @@ Používej stavy `verified`, `partially_verified`, `conflicting`, `uncertain` a 
 ## Dokumenty a inventáře
 
 - Originální dokumenty v `sources/` neupravuj a bez závažného důvodu neměň jejich názvy ani cesty.
-- Každý nový zdroj zaeviduj v `sources/index.yml`: název, období, typ, cesta, počet stran, čitelnost a známý stav práv.
+- Každý nový zdroj zaeviduj v `sources/index.yml`. Rozsáhlé archivní kolekce lze kvůli bezpečným dávkovým aktualizacím vést v pojmenovaných shardech `sources/index.d/*.yml`; příslušný shard musí být uveden v `STATUS.md`, `state.yml` a kolekčním přehledu.
+- U zdroje eviduj název, období, typ, cestu, počet stran nebo obrazů, čitelnost a známý stav práv.
 - Autoritativním pracovním úložištěm je Git repozitář.
 - U každé položky eviduj `repo_path`, `repo_status` a identitu obsahu jako `git_blob_sha` přímo v inventáři nebo v navázaném ověřovacím manifestu.
 - Původní archivní umístění může být vedeno jako `source_path` nebo `original_path`; nezaměňuj je za `repo_path`.

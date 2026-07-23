@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_05_open_items_updated_through_batch_14
+scope: ccs_batch_05_open_items_updated_through_batch_15
 items:
   - id: URB-U-0048
     status: open
@@ -90,41 +90,43 @@ items:
     status: open
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: Ferdinand_Stibor_visit_bread_and_salt_event_date_sequence_and_people
-    source_items: [urbanek-ccs-025, urbanek-ccs-070]
+    type: Ferdinand_Stibor_visit_bread_and_salt_event_date_full_sequence_and_people
+    source_items: [urbanek-ccs-025, urbanek-ccs-070, urbanek-ccs-071, urbanek-ccs-072, urbanek-ccs-073, urbanek-ccs-074, urbanek-ccs-075]
     question: >-
-      Zachycují fotografie skutečně návštěvu biskupa Ferdinanda Stibora v Rychvaldě
-      roku 1948, při jaké příležitosti byla pořízena, je uvítání chlebem a solí součástí
-      téže události jako velká skupinová fotografie, kde přesně se slavnost konala a
-      kdo jsou host, duchovní, krojované ženy, děti a další účastníci?
+      Zachycují všechny fotografie jednu návštěvu biskupa Ferdinanda Stibora v Rychvaldě
+      roku 1948, při jaké příležitosti proběhla, jak na sebe navazovalo uvítání chlebem
+      a solí, venkovní skupiny, setkání před oltářem a společné fotografování s dětmi,
+      kde přesně se jednotlivé části konaly a kdo jsou host, duchovní, krojované ženy,
+      děti a další účastníci?
     known_facts:
-      - "Urbanek-ccs-025 zachycuje velkou venkovní skupinu dospělých a dětí."
-      - "Mezi dospělými na urbanek-ccs-025 jsou osoby v duchovním oděvu."
-      - "V přední řadě urbanek-ccs-025 jsou dívky v jednotných slavnostních nebo lidových krojích."
+      - "Urbanek-ccs-025 zachycuje velkou venkovní skupinu dospělých a dětí; mezi dospělými jsou osoby v duchovním oděvu a v přední řadě dívky v jednotných slavnostních nebo lidových krojích."
       - "Jméno Ferdinanda Stibora, návštěva Rychvaldu a rok 1948 u urbanek-ccs-025 pocházejí z archivního názvu souboru."
       - "Urbanek-ccs-070 zachycuje venkovní uvítání: žena v lidovém nebo slavnostním kroji nese tác s chlebem a malou miskou nebo nádobkou ke staršímu muži v kabátu."
-      - "V popředí urbanek-ccs-070 stojí zády duchovní v tmavém oděvu a kolem je početná skupina dospělých."
-      - "Urbanek-ccs-070 je uložen v podsložce nazvané ‚Biskup Ferdinand Stibor v Rychvaldě‘; samotný obraz neobsahuje jméno, datum ani místo."
-      - "Krojovaná účastnice a slavnostní venkovní charakter jsou slučitelné s urbanek-ccs-025, ale dosud nebyla prokázána totožnost události ani osob."
+      - "Urbanek-ccs-071 a 072 zachycují tutéž nebo bezprostředně navazující venkovní skupinu z odlišných záběrů; opakují se účastníci a oděvy."
+      - "Urbanek-ccs-073 zachycuje menší skupinu dospělých a duchovních před oltářem v interiéru sboru."
+      - "Urbanek-ccs-074 je další formální skupinový snímek duchovních a civilních účastníků."
+      - "Urbanek-ccs-075 zachycuje velkou společnou skupinu dospělých, duchovních a dětí."
+      - "Soudržnost série podporuje společná podsložka, pořadí, prostředí a opakující se osoby, nikoli však sama o sobě identitu hosta ani datum."
     unresolved_attributes:
       - confirmation_of_Ferdinand_Stibor_identity_on_each_image
       - exact_visit_date
       - independent_confirmation_of_year_1948
       - exact_event_or_liturgical_occasion
-      - whether_items_025_and_070_show_same_visit
-      - exact_location_and_route_of_welcome
+      - whether_items_025_and_070_to_075_show_same_visit
+      - exact_sequence_of_welcome_outdoor_groups_altar_and_group_photographs
+      - exact_locations_and_route
       - identities_of_clergy
       - identity_of_older_welcomed_guest
       - identity_and_group_affiliation_of_bread_and_salt_presenter
       - identities_of_adult_participants
       - identities_and_group_affiliation_of_costumed_children
       - full_visit_program_and_sequence
-      - relation_to_remaining_Stibor_subcollection_photographs
+      - relationship_to_remaining_item_076
     next_action: >-
-      Pokračovat zpracováním celé podsložky věnované Ferdinandu Stiborovi a porovnat
-      opakující se oděvy, kroje, prostředí a osoby. Následně hledat církevní kroniku,
-      návštěvní protokoly, dobový tisk, program slavnosti a popsané skupinové snímky.
-      Osoby neidentifikovat pouze podle obličejů ani podle pozice hosta.
+      Zpracovat poslední snímek podsložky věnované Ferdinandu Stiborovi a poté porovnat
+      celou sérii s církevní kronikou, návštěvními protokoly, dobovým tiskem, programem
+      slavnosti a popsanými skupinovými snímky. Osoby neidentifikovat pouze podle
+      obličejů ani podle pozice hlavního hosta.
     reopen_triggers:
       - full_Stibor_subcollection_processed
       - church_chronicle_visit_entry_found
@@ -137,3 +139,5 @@ items:
       - sources/index.d/urbanek-ccs-05.yml
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
       - sources/index.d/urbanek-ccs-14.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml
+      - sources/index.d/urbanek-ccs-15.yml

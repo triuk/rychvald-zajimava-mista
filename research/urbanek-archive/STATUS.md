@@ -111,6 +111,7 @@ Archivní název souboru je dokladem archivního označení, nikoli automaticky 
 - aktuální průběžný stav je 30 zpracovaných a 171 zbývajících položek;
 - registr používá součty 19/31/3/53;
 - každá podstatná nejistota má stabilní ID a návratové podmínky;
+- stavový checkpoint po dávce 06 je commit `a927354c392b11d570eb9904fb472363e312083c`;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok

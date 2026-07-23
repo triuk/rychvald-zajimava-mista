@@ -48,34 +48,33 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je devět dávek po pěti snímcích, tedy `urbanek-ccs-001` až `045`.
+Dokončeno je deset dávek po pěti snímcích, tedy `urbanek-ccs-001` až `050`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **45 z 201 položek**;
-- proti Git blob SHA ověřeno: **45 položek**;
-- vizuálně klasifikováno: **45 položek**;
-- zdrojově indexováno: **45 položek**;
-- zbývá: **156 položek**.
+- zpracováno: **50 z 201 položek**;
+- proti Git blob SHA ověřeno: **50 položek**;
+- vizuálně klasifikováno: **50 položek**;
+- zdrojově indexováno: **50 položek**;
+- zbývá: **151 položek**.
 
-### Zjištění dávky 09
+### Zjištění dávky 10
 
-Dávka 09 dokumentuje čtyři novodobé snímky pěveckého sboru a hudebníků a jednu velkou historickou skupinu spojovanou s inaugurací Gabriela Chrobáčka.
+Dávka 10 dokumentuje Chrobáčkovu biskupskou událost, výročí roku 1970, křtiny a novodobou husovskou vzpomínku.
 
-- `urbanek-ccs-041` zachycuje smíšený sbor zpívající z notových desek; rok 2001 pochází pouze z archivního názvu.
-- `urbanek-ccs-042` zachycuje sbor, komorní soubor a dirigenta před ozdobeným jehličnatým stromem. Výzdoba naznačuje vánoční období, nikoli sama o sobě přesnou událost.
-- `urbanek-ccs-043` je skupinový portrét více než dvou desítek dospělých, jednoho dítěte a ženy v liturgické štole s motivem kalicha. EXIF datum **8. září 2014** dokládá digitální pořízení nebo reprodukci souboru, nikoli datum zachycené události.
-- `urbanek-ccs-044` zachycuje varhanici, houslistku, další mladou ženu a část publika; příjmení Dziadziová a titul učitelky pocházejí z archivního názvu.
-- `urbanek-ccs-045` zachycuje velkou skupinu před monumentálním vstupem a ústředního duchovního s řetězem nebo insignií. Inaugurace, jméno Gabriel Chrobáček a účast lidí z Rychvaldu pocházejí z useknutého archivního názvu končícího řetězcem `Rychv`.
+- `urbanek-ccs-046` zachycuje duchovního s řetězem při předání listiny a plastiky sedící mužské postavy. Jméno Gabriel Chrobáček a tvrzení, že se stal biskupem, pocházejí z archivního názvu; snímek rozšiřuje `URB-U-0062`.
+- `urbanek-ccs-047` zachycuje v kněžišti tři duchovní a muže v obleku, kytice, insignii a kalich. Rok 1970 a padesáté výročí založení CČS v Rychvaldě jsou zatím archivními tvrzeními.
+- `urbanek-ccs-048` zachycuje křestní obřad s dítětem, svící a několika duchovními. EXIF datum **1. září 2014** dokládá digitalizaci nebo reprodukci historického snímku, nikoli křtiny roku 1970. Označení faráře Vodičky podle brýlí vyžaduje dokumentární ověření.
+- `urbanek-ccs-049` zachycuje hořící hranici s portrétem, početný dav a ženu v liturgickém oděvu. EXIF datum **15. března 2012** je v rozporu s plně olistěnou letní scénou a bez dalšího dokladu není spolehlivou datací události. Název je useknutý za řetězcem `far`.
+- `urbanek-ccs-050` zachycuje průvod od kostela vedený dvěma ženami, za nimiž jdou hasiči a další účastníci. Vztah k fotografii hranice je pracovní hypotéza založená na tématu a pořadí, nikoli potvrzený společný ročník.
 
-Podobný interiér a opakující se osoby na snímcích `041–044` jsou vodítkem k souvislosti, nikoli důkazem jediné události.
+Pracovní soubory dávky 10:
 
-Pracovní soubory dávky 09:
-
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-09.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml`;
-- `sources/index.d/urbanek-ccs-09.yml`;
-- `research/urbanek-archive/uncertainties/open-12.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-10.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml`;
+- `sources/index.d/urbanek-ccs-10.yml`;
+- `research/urbanek-archive/uncertainties/open-13.yml`;
+- aktualizovaný `research/urbanek-archive/uncertainties/open-12.yml`.
 
 Úplný inventář, blob verifikace, vizuální klasifikace, OCR relevantního textu a audit `Thumbs.db` pokračují po dávkách 5–10 souborů.
 
@@ -83,25 +82,26 @@ Pracovní soubory dávky 09:
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 28;
+- `open`: 31;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 62.
+- celkem: 65.
 
-Nejistoty z kolekce CČS jsou vedeny pod `URB-U-0039` až `URB-U-0062`. Dávka 09 přidala:
+Nejistoty z kolekce CČS jsou vedeny pod `URB-U-0039` až `URB-U-0065`. Dávka 10 přidala:
 
-- `URB-U-0061` – přesná data a vzájemný vztah novodobých sborových snímků, sbor, Dajč, Dziadziová, členové a program;
-- `URB-U-0062` – inaugurace Gabriela Chrobáčka, její datum, místo, úřad, rychvaldská delegace, osoby a useknutý popisek.
+- `URB-U-0063` – přesný kontext padesátého výročí roku 1970, osoby a program;
+- `URB-U-0064` – křtiny roku 1970, rodina, duchovní a identifikace faráře Vodičky;
+- `URB-U-0065` – obnovení husovské hranice, průvod, datace, osoby, hasiči a useknutý popisek.
 
-Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření. Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události nebo funkce. Osoby se neidentifikují pouze podle obličeje a useknuté názvy se nedoplňují odhadem.
+`URB-U-0062` byla rozšířena o fotografii předání plastiky při Chrobáčkově biskupské události. Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření. Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události nebo funkce. Osoby se neidentifikují pouze podle obličeje a useknuté názvy se nedoplňují odhadem.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 45 zpracovaných a 156 zbývajících položek;
-- registr používá součty 28/31/3/62;
+- aktuální průběžný stav je 50 zpracovaných a 151 zbývajících položek;
+- registr používá součty 31/31/3/65;
 - každá podstatná nejistota má stabilní ID a návratové podmínky;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -109,8 +109,8 @@ Dřívější aktivní položky zůstávají otevřené. Negativní dílčí hle
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-046` až `urbanek-ccs-050`.
-- Očekávané archivní názvy: soubory `48`, `49`, `50`, `51` a `52`; přesné mapování se ověří proti větvi před zápisem.
+- Následující položky: `urbanek-ccs-051` až `urbanek-ccs-055`.
+- Očekávané archivní názvy: soubory `52a`, `52b`, `53`, `54` a `55`; přesné mapování se ověří proti větvi před zápisem.
 - Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
 - Každá podstatná nejistota musí být okamžitě zapsána pod stabilním `URB-U-XXXX`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.

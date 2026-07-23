@@ -20,8 +20,6 @@ Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncer
 - Head: `agent/import-urbanek-pilot`
 - Sloučení nebylo vyžádáno.
 
-PR obsahuje dokončený pilot a rozpracovanou následující archivní dávku. Tyto dva rozsahy jsou evidovány odděleně.
-
 ## Dokončený pilot
 
 | Kolekce | Obsahové soubory | Technické soubory | Celkem | Stav |
@@ -33,9 +31,7 @@ PR obsahuje dokončený pilot a rozpracovanou následující archivní dávku. T
 | Nálet na Ostravu 1944 | 7 | 1 | 8 | audit a vizuální klasifikace dokončeny |
 | **Celkem** | **144** | **15** | **159** | **159 z 159 položek přítomno** |
 
-Podrobná reconciliace: `research/urbanek-archive/reports/pilot-reconciliation.md`.
-
-Audity pilotních cache prokázaly **11 chybějících plných originálů**. Náhled v `Thumbs.db` není náhradou plného originálu; přesně ověřená kopie obrazu dochovaná pod jiným názvem se však nepovažuje za další chybějící obrazový obsah.
+Audity pilotních cache prokázaly **11 chybějících plných originálů**. Náhled v `Thumbs.db` není náhradou plného originálu.
 
 ## Nová dávka – historie Církve československé
 
@@ -48,34 +44,32 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je čtrnáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `070`.
+Dokončeno je patnáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `075`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **70 z 201 položek**;
-- proti Git blob SHA ověřeno: **70 položek**;
-- vizuálně klasifikováno: **70 položek**;
-- zdrojově indexováno: **70 položek**;
-- zbývá: **131 položek**.
+- zpracováno: **75 z 201 položek**;
+- proti Git blob SHA ověřeno: **75 položek**;
+- vizuálně klasifikováno: **75 položek**;
+- zdrojově indexováno: **75 položek**;
+- zbývá: **126 položek**.
 
-### Zjištění dávky 14
+### Zjištění dávky 15
 
-Dávka 14 uzavírá druhou podsložku výročním přivítáním a křty a otevírá sérii připisovanou Ferdinandu Stiborovi.
+Dávka 15 pokračuje v sérii návštěvy archivně připisované Ferdinandu Stiborovi.
 
-- `urbanek-ccs-066` a `067` jsou dvě archivní reprodukce **téhož fotografického obrazu** přivítání duchovního dítětem. Technické porovnání nalezlo 306 geometricky konzistentních shod a 96,8 % vybraných bodů odpovídá jednomu modelu výřezu a změny měřítka. Soubor `066` proto není druhým nezávislým fotografickým okamžikem.
-- Název `066` končí řetězcem `Kare`; celé jméno nebylo rekonstruováno. Název `067` označuje levého duchovního jako biskupa Marcelucha, ale jméno, pravopis a úřad nejsou obrazem potvrzeny.
-- `urbanek-ccs-068` zachycuje křestní obřad s jedním jasně viditelným kojencem, křestní svící, duchovním a několika rodinnými skupinami. Archivní tvrzení o trojích křtinách nelze z jediného obrazu ověřit.
-- `urbanek-ccs-069` zachycuje další rodinnou skupinu s kojencem před duchovním s řetězem nebo insignií. Totožnost dítěte, rodičů, kmotrů a duchovního není známa.
-- `urbanek-ccs-070` zachycuje venkovní uvítání chlebem a solí ženou v lidovém či slavnostním kroji. Ferdinand Stibor, rok 1948 a vztah k dřívější skupinové fotografii `urbanek-ccs-025` pocházejí z archivního kontextu a zůstávají otevřené.
+- `urbanek-ccs-071` a `072` zachycují tutéž nebo bezprostředně navazující venkovní skupinu z odlišných záběrů. Opakují se účastníci a oděvy, ale jejich jména ani identita hlavního hosta nejsou obrazem potvrzeny.
+- `urbanek-ccs-073` zachycuje menší skupinu dospělých a duchovních před oltářem.
+- `urbanek-ccs-074` je další formální skupinový snímek duchovních a civilních účastníků.
+- `urbanek-ccs-075` zachycuje velkou společnou skupinu dospělých, duchovních a dětí.
+- Společná podsložka, pořadí, prostředí a opakující se osoby podporují jednu návštěvní sérii, nikoli však samy o sobě jméno Ferdinand Stibor, rok 1948 ani přesný program.
 
-Pracovní soubory dávky 14:
+Pracovní soubory dávky 15:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-14.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml`;
-- `sources/index.d/urbanek-ccs-14.yml`;
-- rozšířené `research/urbanek-archive/uncertainties/open-08.yml` a `open-13.yml`.
-
-Úplný inventář, blob verifikace, vizuální klasifikace, OCR relevantního textu a audit `Thumbs.db` pokračují po dávkách 5–10 souborů.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-15.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml`;
+- `sources/index.d/urbanek-ccs-15.yml`;
+- rozšířený `research/urbanek-archive/uncertainties/open-08.yml`.
 
 ## Registr nejistot
 
@@ -87,30 +81,21 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 68.
 
-Dávka 14 nepřidala nové ID, ale rozšířila:
-
-- `URB-U-0063` – padesáté výročí roku 1970, useknuté jméno `Kare…`, biskup Marceluch, hosté a program;
-- `URB-U-0064` – počet křtů, rodiny, děti, duchovní a matrika;
-- `URB-U-0050` – uvítání chlebem a solí, návštěva připisovaná Ferdinandu Stiborovi a vztah ke skupinové fotografii.
-
-Dřívější aktivní položky zůstávají otevřené. Dvě reprodukce stejného fotografického obrazu jsou dvěma archivními soubory, nikoli dvěma nezávislými důkazy události. Archivní názvy ani názvy podsložek automaticky nepotvrzují osoby, data a funkce.
+Dávka 15 nepřidala nové ID. Rozšířila `URB-U-0050` o venkovní záběry, skupinu před oltářem, formální skupinu a společnou fotografii s dětmi. Osoby se neidentifikují pouze podle obličeje a souvislost obrazové série sama nepotvrzuje datum ani funkce.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 70 zpracovaných a 131 zbývajících položek;
+- aktuální průběžný stav je 75 zpracovaných a 126 zbývajících položek;
 - registr používá součty 34/31/3/68;
-- každá podstatná nejistota má stabilní ID a návratové podmínky;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-071` až `urbanek-ccs-075`.
-- Očekávané archivní názvy v podsložce `3 Biskup Ferdinand Stibor v Rychvaldě`: `2.jpg`, `2a.jpg`, `3 Před oltářem.jpg`, `4.jpg` a `5 Společná fotografie také s dětmi.jpg`.
-- Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
-- Každá podstatná nejistota musí být okamžitě zapsána pod stabilním `URB-U-XXXX`.
+- Následující položky: `urbanek-ccs-076` až `urbanek-ccs-080`.
+- Očekávaný přechod: poslední soubor podsložky `3 Biskup Ferdinand Stibor v Rychvaldě` (`6 Biskup Stibor s radou starších...`) a první čtyři soubory podsložky `4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka...`; přesné mapování se ověří před zápisem.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

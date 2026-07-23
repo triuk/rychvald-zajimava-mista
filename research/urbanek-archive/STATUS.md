@@ -48,29 +48,30 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeny jsou čtyři dávky po pěti snímcích:
+Dokončeno je pět dávek po pěti snímcích:
 
 1. `urbanek-ccs-001` až `005` – položení základního kamene a výstavba;
 2. `urbanek-ccs-006` až `010` – dokončený exteriér, původní interiér a rané slavnostní bohoslužby;
 3. `urbanek-ccs-011` až `015` – první přijímání, rada starších a technické snímky zvonů;
-4. `urbanek-ccs-016` až `020` – nástěnné malby, exteriéry spojované s okupacemi a skupina u varhan.
+4. `urbanek-ccs-016` až `020` – nástěnné malby, exteriéry spojované s okupacemi a skupina u varhan;
+5. `urbanek-ccs-021` až `025` – svatební série, interiér před rekonstrukcí s varhanami a skupinová návštěva připisovaná Ferdinandu Stiborovi.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **20 z 201 položek**;
-- proti Git blob SHA ověřeno: **20 položek**;
-- vizuálně klasifikováno: **20 položek**;
-- zdrojově indexováno: **20 položek**;
-- zbývá: **181 položek**.
+- zpracováno: **25 z 201 položek**;
+- proti Git blob SHA ověřeno: **25 položek**;
+- vizuálně klasifikováno: **25 položek**;
+- zdrojově indexováno: **25 položek**;
+- zbývá: **176 položek**.
 
-Dávka 04 obrazově potvrzuje existenci dvou figurálních nástěnných maleb, absenci jasně viditelného hesla a kalicha na jednom historickém exteriéru, geometricky upravené prostranství na dalším snímku a skupinu mužů před varhanními píšťalami. Datace 1932 a 1946, konkrétní okupační souvislosti, autorství maleb, identita osob a historie varhan zůstávají otevřené.
+Dávka 05 obrazově potvrzuje tři svatební výjevy v raném interiéru, varhanní píšťaly na kůru při starším uspořádání sálu a velkou venkovní skupinu s duchovními a dívkami ve slavnostních krojích. Rok 1948, shoda všech tří svatebních snímků, novost varhan, přesná rekonstrukční chronologie a identita Ferdinanda Stibora zůstávají otevřené.
 
-Pracovní soubory dávky 04:
+Pracovní soubory dávky 05:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-04.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml`;
-- `sources/index.d/urbanek-ccs-04.yml`;
-- `research/urbanek-archive/uncertainties/open-07.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-05.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml`;
+- `sources/index.d/urbanek-ccs-05.yml`;
+- `research/urbanek-archive/uncertainties/open-08.yml`.
 
 Úplný inventář, blob verifikace, vizuální klasifikace, OCR relevantního textu a audit `Thumbs.db` pokračují po dávkách 5–10 souborů.
 
@@ -78,43 +79,37 @@ Pracovní soubory dávky 04:
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 13;
+- `open`: 16;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 47.
+- celkem: 50.
 
-Nejistoty z kolekce CČS:
+Nejistoty z kolekce CČS jsou vedeny pod `URB-U-0039` až `URB-U-0050`. Nově přibyly:
 
-- `URB-U-0039` – datace a osoby na fotografiích prvního přijímání;
-- `URB-U-0040` – úplný popisek, událost a osoby rady starších roku 1930;
-- `URB-U-0041` – význam letopočtu 1920, původ a identita zvonů;
-- `URB-U-0042` – původní ovládání, elektrifikace a změny mechanismu zvonění;
-- `URB-U-0043` – autorství, datace, přesný námět a stav nástěnných maleb;
-- `URB-U-0044` – odstranění hesla a kalicha během polského záboru;
-- `URB-U-0045` – vznik zahradní úpravy před sborem a vztah k německé okupaci;
-- `URB-U-0046` – nové varhany roku 1946 a osoby na fotografii;
-- `URB-U-0047` – význam mezer v číslování archivních souborů.
+- `URB-U-0048` – zda tři fotografie zachycují tutéž svatbu, její datace a identity osob;
+- `URB-U-0049` – přesná chronologie rekonstrukce interiéru a vztah k instalaci varhan;
+- `URB-U-0050` – návštěva připisovaná Ferdinandu Stiborovi, její datum, účel, místo a osoby.
 
-Dřívější aktivní položky `URB-U-0008`, `URB-U-0036`, `URB-U-0037` a `URB-U-0038` zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření. Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události nebo technické historie.
+`URB-U-0046` byla rozšířena o další snímek interiéru s varhanními píšťalami. Dřívější aktivní položky `URB-U-0008`, `URB-U-0036`, `URB-U-0037` a `URB-U-0038` zůstávají otevřené. Negativní dílčí hledání není důvodem k uzavření.
 
-Mezery v číslování nejsou evidovány jako chybějící plné originály, dokud se nenajde konkrétní náhled, manifest nebo jiný doklad existence samostatných obrazů.
+Archivní název souboru je dokladem archivního označení, nikoli automaticky ověřeného data, osoby, události nebo technické historie. Osoby se neidentifikují pouze podle obličeje.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 20 zpracovaných a 181 zbývajících položek;
-- registr používá součty 13/31/3/47;
-- každá nejistota z dávek 03 a 04 má stabilní ID a vlastní návratové podmínky;
-- GitHub nevrací pro kontrolovaný head žádné CI status checks; nejde tedy o úspěšně proběhlý test.
+- aktuální průběžný stav je 25 zpracovaných a 176 zbývajících položek;
+- registr používá součty 16/31/3/50;
+- každá podstatná nejistota má stabilní ID a návratové podmínky;
+- GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-021` až `urbanek-ccs-025`.
-- Očekávané archivní názvy následující dávky začínají soubory `23`, `24`, `25`, `26` a `27`; přesné mapování na stabilní ID se ověří proti větvi před zápisem.
+- Následující položky: `urbanek-ccs-026` až `urbanek-ccs-030`.
+- Očekávané archivní názvy: soubory `28`, `29`, `30`, `31` a `32`; přesné mapování se ověří proti větvi před zápisem.
 - Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
 - Každá podstatná nejistota musí být okamžitě zapsána pod stabilním `URB-U-XXXX`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.

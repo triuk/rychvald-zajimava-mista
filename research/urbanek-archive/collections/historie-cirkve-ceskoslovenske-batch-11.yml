@@ -1,0 +1,119 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: hus-commemoration-continuation-and-living-nativity-11
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / archivní soubory 52a, 52b, 53, 54 a 55"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Čtyři fotografie pokračují v novodobé sérii husovské vzpomínky. Snímky 52b,
+    53 a 54 obrazově zachycují tutéž hranici před zapálením, při hoření a v širším
+    pohledu s davem a hasiči. Snímek 52a zachycuje českou vlajku a dechovou hudbu
+    v průvodu; jeho vztah ke stejnému ročníku je pravděpodobný, nikoli definitivně
+    prokázaný. Pátý snímek dokumentuje kostýmovanou scénu archivně označenou jako
+    živý betlém. Jména, pořadatelé a přesná data nejsou obrazem ověřena.
+  basis:
+    - visual_sequence_comparison
+    - identical_bonfire_structure_and_portrait
+    - archival_sequence
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-051
+    archival_filename: "52a  Hudba v průvodu.JPG"
+    visual_type: modern_color_procession_with_flag_and_brass_band
+    description: >-
+      Venkovní průvod vedený mužem s českou vlajkou. Za ním kráčí dechová hudba
+      s žesťovými nástroji a další účastníci podél budovy a zahrad.
+    subject_tags: [procession, Czech_flag, brass_band, musicians, outdoor_event, Hus_commemoration_context]
+    identification:
+      status: partially_verified
+      archival_claim: "hudba v průvodu"
+      verified_from_image: [Czech_flag, flag_bearer, brass_band, walking_procession, outdoor_route]
+      unverified: [exact_date, event_identity, band_identity, flag_bearer_identity, musician_identities, route, relationship_to_items_050_052_053_054]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0065]
+
+  - id: urbanek-ccs-052
+    archival_filename: "52b  Hranice s obrazem  Jana Husa.JPG"
+    visual_type: modern_color_unlit_bonfire_with_portrait_and_crowd
+    description: >-
+      Hranice sestavená z příčně kladených polen před zapálením. Nad ní je připevněn
+      černobílý kreslený portrét mužské postavy. Kolem stojí dospělí i děti a v pozadí
+      je velký stan.
+    subject_tags: [bonfire, portrait, crowd, children, outdoor_commemoration, Jan_Hus_archival_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "hranice s obrazem Jana Husa"
+      verified_from_image: [unlit_log_bonfire, attached_drawn_portrait, large_mixed_age_crowd, event_tent]
+      unverified: [exact_date, portrait_source_and_identity, event_program, participant_identities]
+    ocr: {document_text: not_applicable, scene_text: no_readable_text}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0065]
+
+  - id: urbanek-ccs-053
+    archival_filename: "53  Hranice.JPG"
+    visual_type: modern_color_burning_bonfire_closeup
+    description: >-
+      Detail téže konstrukce z polen v plamenech a hustém kouři. Kreslený portrét
+      je stále připevněn nad hranicí a začíná hořet. Vlevo v pozadí stojí osoba v
+      tmavém plášti nebo kostýmu.
+    subject_tags: [burning_bonfire, fire, smoke, portrait, costumed_person, outdoor_commemoration]
+    identification:
+      status: partially_verified
+      archival_claim: "hranice"
+      verified_from_image: [burning_log_structure, same_portrait_as_item_052, closeup, dark_robed_person]
+      unverified: [exact_date, person_identity_and_role, precise_sequence_time]
+    ocr: {document_text: not_applicable, scene_text: no_readable_text}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0065]
+
+  - id: urbanek-ccs-054
+    archival_filename: "54  účastníků je vždy hodně.JPG"
+    visual_type: modern_color_burning_bonfire_wide_crowd
+    description: >-
+      Široký pohled na hořící hranici obklopenou početným davem. V blízkosti ohně
+      stojí několik hasičů v zásahovém oděvu; účastníci sledují událost ze všech stran.
+    subject_tags: [burning_bonfire, crowd, firefighters, spectators, outdoor_commemoration, attendance_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "účastníků je vždy hodně"
+      verified_from_image: [large_visible_crowd, burning_bonfire, firefighters_present, mixed_age_spectators]
+      unverified: [exact_date, exact_attendance_count, recurrence_implied_by_always, firefighter_unit, participant_identities]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0065]
+
+  - id: urbanek-ccs-055
+    archival_filename: "55   Živý betlém.JPG"
+    visual_type: modern_color_outdoor_living_nativity_cast
+    description: >-
+      Skupina kostýmovaných dospělých před moderní budovou. Jsou zastoupeny královské
+      a biblické kostýmy; žena v modrém drží zavinutou dětskou postavu nebo rekvizitu,
+      jiná žena drží mikrofon a vpravo stojí osoba v hnědém plášti s kapucí.
+    subject_tags: [living_nativity_claim, costumed_cast, Three_Kings_costumes, Mary_costume, infant_prop, microphone, outdoor_performance]
+    identification:
+      status: partially_verified
+      archival_claim: "živý betlém"
+      verified_from_image: [costumed_adult_group, biblical_and_royal_costumes, infant_figure_or_prop, microphone, outdoor_staging]
+      unverified: [exact_event_identity, whether_infant_is_live_or_prop, organizer, cast_identities, roles, exact_location, audience, recurrence]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata:
+      embedded_date: "2011-12-10 16:14:43"
+      camera: "Panasonic DMC-TZ3"
+      interpretation: "Technické datum může odpovídat pořízení fotografie, ale není nezávisle potvrzeným datem veřejné události."
+    uncertainty_ids: [URB-U-0066]
+
+open_research_candidates:
+  - {id: URB-U-0065, subject: Hus_commemoration_procession_bonfire_date_people_and_tradition}
+  - {id: URB-U-0066, subject: living_nativity_date_organizer_cast_location_and_recurrence}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-056 až urbanek-ccs-060. Následující snímek 56
+  porovnat s živým betlémem kvůli tvrzení o místních ochotnících; husovskou sérii
+  porovnat s kronikou, programem akce a hasičskými záznamy.

@@ -1,0 +1,85 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-08
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-036
+    title: Obnovené slavnostní první přijímání – archivní označení
+    document_type: historical_small_communion_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/38  Farářka  Jana Šilerová obnovila slavnostní první přijímá.jpg"
+    file_size_bytes: 216302
+    git_blob_sha: 1221e44aa1d472029b0277240e4b531141c577d4
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: fair, note: "Skupina je čitelná, pravá část je přeexponovaná a některé osoby se překrývají."}
+    visual_content: {photographs: single_historical_small_child_group_with_female_clergy, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Identita Jany Šilerové a institucionální význam slova obnovila pocházejí z archivního názvu.
+      - Konec názvu je useknutý.
+      - Souvisí s URB-U-0058.
+
+  - source_id: urbanek-ccs-037
+    title: Rada starších údajně kolem let 1945–1946
+    document_type: historical_formal_council_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/39  Rada starších asi v r. 1945-46 sedící čtvrtý zprava bisk.jpg"
+    file_size_bytes: 1566287
+    git_blob_sha: 08a270ef5bc89c031a22e3453406344e20e3f36d
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Formální skupina a oděvy jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_formal_adult_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Datace, rada starších a identifikace čtvrté sedící osoby zprava nejsou obrazem ověřeny.
+      - Popisek je useknut za řetězcem bisk.
+      - Souvisí s URB-U-0059.
+
+  - source_id: urbanek-ccs-038
+    title: Rada starších a členové sboru 26. dubna 1970 – archivní označení
+    document_type: historical_council_and_congregation_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/40  Rada starších a členové sboru  26. 4.1970.jpg"
+    file_size_bytes: 350292
+    git_blob_sha: 245a38aa309e048317ea798202b419bcef812ec3
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Skupina, duchovní oděvy a výrazná ústřední insignie jsou čitelné."}
+    visual_content: {photographs: single_historical_large_adult_group_with_clergy, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Přesné datum a funkce osob vyžadují textový doklad.
+      - Souvisí s URB-U-0059.
+
+  - source_id: urbanek-ccs-039
+    title: Nedatovaná rada starších s Janou Šilerovou – archivní označení
+    document_type: historical_small_council_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/41  Rada starších s farářkou Janou Šilerovou, rok není určen.jpg"
+    file_size_bytes: 384015
+    git_blob_sha: 0bce9b9b8a428185fb0a950910e614701b650c41
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Třináct osob a zahradní prostředí jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_small_adult_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Rok je výslovně neznámý již v archivním názvu.
+      - Identita Jany Šilerové a členství ostatních osob nejsou obrazem ověřeny.
+      - Souvisí s URB-U-0059.
+
+  - source_id: urbanek-ccs-040
+    title: Pěvecký sbor údajně se Šlachtou a farářem Vodičkou roku 1933
+    document_type: historical_mixed_choir_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/42  Pěvecký sbor s p. Šlachtou a Far. Vodičkou. 1933.jpg"
+    file_size_bytes: 1083909
+    git_blob_sha: 7836caf6181f8629fdc4d69b8bc39e3c66588c0b
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good_with_faint_held_emblem, note: "Členové skupiny jsou čitelní; znak na drženém listu je velmi slabý."}
+    visual_content: {photographs: single_historical_large_mixed_formal_group, scene_text: unreadable_emblem_sheet, method: "Vizuální kontrola celého obrazu a zvětšeného středu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Rok, identita sboru, Šlachty a Vodičky pocházejí z archivního názvu.
+      - Držený list zřejmě nese kreslený znak, ale text ani přesný motiv nejsou bezpečně čitelné.
+      - Souvisí s URB-U-0060.

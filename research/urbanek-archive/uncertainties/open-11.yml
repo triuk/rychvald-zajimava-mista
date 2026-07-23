@@ -1,0 +1,125 @@
+schema_version: 1
+scope: ccs_batch_08_open_items
+items:
+  - id: URB-U-0058
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: renewed_first_communion_date_context_and_people
+    related_open_items: [URB-U-0055, URB-U-0056]
+    source_items: [urbanek-ccs-036]
+    question: >-
+      Kdy a po jak dlouhé přestávce bylo obnoveno slavnostní první přijímání, kdo
+      obnovu inicioval, je zachycenou duchovní skutečně Jana Šilerová, kdo jsou děti
+      a jak zněl celý useknutý archivní popisek?
+    known_facts:
+      - "Fotografie zachycuje malou venkovní skupinu dětí různého věku a ženu v liturgickém oděvu."
+      - "Pravá část obrazu je přeexponovaná a několik osob se překrývá."
+      - "Jméno Jana Šilerová, tvrzení o obnovení a označení slavnostního prvního přijímání pocházejí z archivního názvu."
+      - "Název končí useknutým řetězcem ‚přijímá‘."
+    unresolved_attributes:
+      - exact_event_date
+      - duration_and_reason_for_previous_interruption
+      - meaning_of_restored_ceremonial_communion
+      - Jana_Silerova_identity
+      - child_identities
+      - exact_event_location
+      - complete_original_caption
+    next_action: >-
+      Hledat kroniku, matriku, zápisy rady starších, program přijímání, služební data
+      Jany Šilerové a další kopii fotografie nebo popisku. Useknutý název nedoplňovat
+      odhadem a osobu neurčovat pouze podle vzhledu.
+    reopen_triggers:
+      - church_chronicle_entry_found
+      - communion_register_found
+      - Jana_Silerova_service_record_found
+      - complete_filename_or_caption_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml
+      - sources/index.d/urbanek-ccs-08.yml
+
+  - id: URB-U-0059
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: council_group_chronology_membership_and_person_identification
+    related_open_items: [URB-U-0040, URB-U-0050, URB-U-0058]
+    source_items: [urbanek-ccs-037, urbanek-ccs-038, urbanek-ccs-039]
+    question: >-
+      Z jakých přesných let a událostí pocházejí tři skupiny spojované s radou
+      starších, kdo byl v jednotlivých obdobích jejím členem, kdo jsou přítomní
+      duchovní a další členové sboru, koho měl označovat useknutý popisek „čtvrtý
+      zprava bisk…“ a kdy vznikl nedatovaný snímek s Janou Šilerovou?
+    known_facts:
+      - "Urbanek-ccs-037 zachycuje formální skupinu přibližně dvou desítek dospělých ve dvou řadách."
+      - "Urbanek-ccs-038 zachycuje více než dvě desítky dospělých, několik duchovních a ústřední osobu s výrazným řetězem nebo insignií."
+      - "Urbanek-ccs-039 zachycuje třináct dospělých v neformálnějším zahradním prostředí."
+      - "Datace 1945–1946 a 26. dubna 1970, role rady starších a jméno Jana Šilerová pocházejí z archivních názvů."
+      - "Název urbanek-ccs-037 je useknut za řetězcem ‚bisk‘ a urbanek-ccs-039 je výslovně veden jako nedatovaný."
+    unresolved_attributes:
+      - exact_date_and_occasion_of_each_image
+      - independent_confirmation_of_1945_1946_range
+      - independent_confirmation_of_1970_04_26
+      - council_membership_lists_for_each_period
+      - identities_and_roles_of_all_people
+      - identity_of_fourth_seated_from_right
+      - complete_bisk_caption
+      - identity_and_meaning_of_central_chain_or_insignia
+      - date_of_undated_Jana_Silerova_group
+      - relationship_between_three_groups
+    next_action: >-
+      Porovnat zápisy rady starších, výroční zprávy, členské seznamy, kroniku,
+      služební data duchovních a popsané paralelní fotografie. Pořadové určení osoby
+      z useknutého názvu ověřit až po nalezení úplného popisku.
+    reopen_triggers:
+      - council_minutes_or_roster_found
+      - complete_filename_or_caption_found
+      - dated_anniversary_or_event_program_found
+      - clergy_service_records_found
+      - captioned_parallel_photo_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml
+      - sources/index.d/urbanek-ccs-08.yml
+
+  - id: URB-U-0060
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: choir_date_leadership_members_and_emblem_identification
+    related_open_items: [URB-U-0039, URB-U-0040]
+    source_items: [urbanek-ccs-040]
+    question: >-
+      Zachycuje snímek skutečně rychvaldský pěvecký sbor roku 1933, kdo byli pan
+      Šlachta a farář Vodička, jaké měli ve sboru role, kdo jsou ostatní členové a
+      jaký znak nebo dokument drží muž uprostřed přední řady?
+    known_facts:
+      - "Fotografie zachycuje velkou smíšenou skupinu mužů a žen ve třech řadách před budovou."
+      - "Dva muži sedí uprostřed přední řady."
+      - "Jeden z nich drží světlý list se slabým kresleným znakem připomínajícím lyru nebo sborový emblém; přesný motiv ani případný text nejsou bezpečně čitelné."
+      - "Rok 1933, označení pěveckého sboru a jména Šlachta a Vodička pocházejí z archivního názvu."
+    unresolved_attributes:
+      - exact_date_and_occasion
+      - independent_confirmation_of_year_1933
+      - choir_official_name
+      - Slachta_full_name_identity_and_role
+      - Vodicka_identity_and_role
+      - choir_member_identities
+      - location_and_building_identity
+      - held_sheet_symbol_or_document_identity
+      - choir_activity_period_and_repertoire
+    next_action: >-
+      Hledat kroniku, programy koncertů a bohoslužeb, členské seznamy sboru, notové
+      materiály, výroční publikace a kvalitnější kopii znaku. Osoby neidentifikovat
+      pouze podle tváře.
+    reopen_triggers:
+      - choir_roster_or_program_found
+      - 1933_church_chronicle_entry_found
+      - Slachta_or_Vodicka_document_found
+      - clearer_emblem_copy_found
+      - captioned_parallel_photo_found
+      - member_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml
+      - sources/index.d/urbanek-ccs-08.yml

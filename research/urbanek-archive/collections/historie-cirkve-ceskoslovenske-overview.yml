@@ -16,6 +16,7 @@ source_index_shards:
   - sources/index.d/urbanek-ccs-11.yml
   - sources/index.d/urbanek-ccs-12.yml
   - sources/index.d/urbanek-ccs-13.yml
+  - sources/index.d/urbanek-ccs-14.yml
 attribution: "Z osobního archivu p. Jaromíra Urbánka."
 rights: unknown
 status: processing_in_progress
@@ -56,11 +57,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 65
-  repo_verified_items: 65
-  visually_classified_items: 65
-  source_indexed_items: 65
-  remaining_items: 136
+  processed_items: 70
+  repo_verified_items: 70
+  visually_classified_items: 70
+  source_indexed_items: 70
+  remaining_items: 131
   completed_batches:
     - {id: construction-sequence-01, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
     - {id: opening-and-early-interior-02, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
@@ -75,6 +76,7 @@ processing:
     - {id: hus-commemoration-continuation-and-living-nativity-11, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-11.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml, source_index: sources/index.d/urbanek-ccs-11.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-14.yml}
     - {id: living-nativity-concerts-and-vodicka-memorial-12, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-12.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml, source_index: sources/index.d/urbanek-ccs-12.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-15.yml}
     - {id: clergy-portraits-and-vodicka-bogumski-visit-13, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-13.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml, source_index: sources/index.d/urbanek-ccs-13.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-16.yml}
+    - {id: fiftieth-anniversary-baptisms-and-stibor-welcome-14, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-14.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml, source_index: sources/index.d/urbanek-ccs-14.yml}
   open_uncertainties_from_collection:
     - URB-U-0039
     - URB-U-0040
@@ -106,7 +108,7 @@ processing:
     - URB-U-0066
     - URB-U-0067
     - URB-U-0068
-  next_items: [urbanek-ccs-066, urbanek-ccs-067, urbanek-ccs-068, urbanek-ccs-069, urbanek-ccs-070]
+  next_items: [urbanek-ccs-071, urbanek-ccs-072, urbanek-ccs-073, urbanek-ccs-074, urbanek-ccs-075]
 
 rules:
   - Filenames and folder names are archival metadata, not independent historical proof.
@@ -114,6 +116,7 @@ rules:
   - Document text and scene text are recorded separately.
   - Every unresolved event, date, person, object history, archive gap, technical interpretation or truncated caption is linked to a stable uncertainty ID.
   - Persons are not identified solely from facial appearance.
+  - Multiple archival reproductions of the same underlying photograph are separate files but not independent event evidence.
   - A relative architectural or event sequence does not independently verify absolute dates from filenames.
   - Truncated filenames are not completed by guesswork.
   - Conflicting embedded metadata is preserved and explicitly evaluated rather than silently used as event dating.

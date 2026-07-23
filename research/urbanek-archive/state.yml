@@ -33,6 +33,7 @@ checkpoints:
   technical_cache_completion_commit: 7e6483d1bcb92034bea6eddd43fd55869dedce9c
   urb_u_0004_resolution_commit: f97052ae3e50b52936376107d32e3943c1d85162
   urb_u_0005_resolution_commit: d073437f3145d70537157eb02aab1faadb88dfc8
+  urb_u_0032_resolution_commit: 171acb480c3c1177104df8007647903e8dd2e077
 
 pilot_totals:
   collections: 5
@@ -146,7 +147,7 @@ pilot_collections:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 7, in_progress: 0, deferred: 0, resolved: 28, not_actionable: 3, total: 38}
+  summary: {open: 4, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 38}
   recently_resolved:
     - id: URB-U-0004
       result: povetrnik_record_176_exact_image_match_potocni_564_verified
@@ -187,6 +188,9 @@ uncertainties:
     - id: URB-U-0028
       result: olivie_correct_ofelie_retrospective_article_error
       evidence: research/urbanek-archive/verifications/urb-u-0028-olivie-ofelie.md
+    - id: URB-U-0032
+      result: known_cropping_lacuna_closed_without_further_search
+      evidence: research/urbanek-archive/ocr/urbanek-ochotnici-004-document-text.md
   not_actionable_items:
     - id: URB-U-0017
       result: incidental_previous_article_edge_excluded_from_clipping_scope
@@ -195,6 +199,10 @@ uncertainties:
       result: incidental_previous_article_edge_excluded_from_clipping_scope
       evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-019-b-document-text.md
   active_research_threads:
+    - id: URB-U-0008
+      subject: neidentifikovaná historická fotografie větrného mlýna
+      unresolved: [mill_identity, exact_location, period]
+      revisit_after: [new_archive_batch, matching_historical_photograph, new_caption, new_source_note]
     - id: URB-U-0036
       subject: Kakalův mlýn
       unresolved: [exact_location, house_number, owner_identity, construction_date, disappearance_date, technology]
@@ -225,17 +233,19 @@ readiness:
   blockers_for_draft_pr: []
   known_non_blocking_issues:
     - eleven full original images are missing; only thumbnails remain in caches
-    - open factual conflicts and physical lacunae remain registered
+    - four open historical and identification questions remain registered
+    - one historical windmill photograph remains unidentified in URB-U-0008
     - Kakal mill identity is known but its location and history remain open in URB-U-0036
     - church interior is identified, but filename 304 and folder relation remain open in URB-U-0037
     - house 339 windmill document group is verified, but exact historical location remains open in URB-U-0038
 
 next_action:
-  type: resolve_registered_uncertainties
+  type: await_new_evidence_or_review_draft_pr
   pull_request: 1
   instruction: >-
     Review the draft PR scope, changed files, authoritative reports and registered
-    uncertainties. Continue resolving factual and identification uncertainties item by item.
-    Re-check URB-U-0036 whenever new archive material, OCR, maps or address evidence are added.
-    Do not reopen the confirmed absence of full originals represented only by thumbnails.
-    Do not mark the PR ready or merge it until the pilot structure has been accepted.
+    uncertainties. The four active research threads have been reviewed and remain open.
+    Re-check them when new archive material, OCR, maps, address evidence, captions or
+    matching photographs are added. Do not reopen the confirmed absence of full originals
+    represented only by thumbnails. Do not mark the PR ready or merge it until the pilot
+    structure has been accepted.

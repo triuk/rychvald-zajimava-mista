@@ -1,0 +1,115 @@
+schema_version: 1
+scope: ccs_batch_05_open_items
+items:
+  - id: URB-U-0048
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: wedding_event_date_and_person_identification
+    source_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023]
+    question: >-
+      Zachycují všechny tři fotografie tutéž svatbu, konala se skutečně roku 1948,
+      kdy přesně proběhla a kdo jsou novomanželé, svědci, další účastníci a duchovní?
+    known_facts:
+      - "Všechny tři snímky zachycují svatební obřad nebo svatební skupinu v témže typu interiéru sboru."
+      - "Oděvy a pořadí souborů podporují pracovní hypotézu jedné obrazové série."
+      - "Na jednom snímku je obřad u oltáře, na druhém svatební skupina a na třetím detail obřadního úkonu."
+      - "Rok 1948 a označení stavu před rekonstrukcí pocházejí z archivních názvů souborů."
+    unresolved_attributes:
+      - whether_all_three_images_show_same_wedding
+      - exact_wedding_date
+      - independent_confirmation_of_year_1948
+      - identities_of_newlyweds
+      - identities_and_roles_of_attendants_or_witnesses
+      - clergy_identity
+      - relation_to_interior_reconstruction_chronology
+    next_action: >-
+      Porovnat snímky s matrikou sňatků, církevní kronikou, rodinnými alby,
+      svatebními oznámeními a popsanými paralelními fotografiemi. Identifikace osob
+      musí vycházet z popisku, dokumentu nebo svědectví, nikoli pouze z obličeje.
+    reopen_triggers:
+      - marriage_register_found
+      - church_chronicle_entry_found
+      - captioned_parallel_photo_found
+      - wedding_announcement_found
+      - participant_or_family_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
+      - sources/index.d/urbanek-ccs-05.yml
+
+  - id: URB-U-0049
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: interior_reconstruction_chronology
+    related_open_items: [URB-U-0043, URB-U-0046]
+    source_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-024]
+    question: >-
+      Jaká rekonstrukce interiéru proběhla kolem let 1948–1949, kdy začala a skončila,
+      co přesně změnila a v jakém pořadí souvisela s instalací varhan a pozdějšími
+      nástěnnými malbami nebo jejich úpravou?
+    known_facts:
+      - "Urbanek-ccs-024 zachycuje starší podobu interiéru s balkony, dekorativní výzdobou a varhanními píšťalami na kůru."
+      - "Varhanní píšťaly jsou na snímku obrazově ověřené, jejich novost ani rok instalace však nikoli."
+      - "Svatební snímky urbanek-ccs-021 a 022 zachycují stejnou nebo velmi podobnou starší výzdobu kněžiště."
+      - "Archivní názvy používají označení ‚před rekonstrukcí‘ a uvádějí rok 1948."
+    unresolved_attributes:
+      - exact_reconstruction_start_date
+      - exact_reconstruction_completion_date
+      - architectural_and_decorative_scope
+      - chronology_relative_to_organ_installation
+      - chronology_relative_to_wall_murals
+      - contractor_architect_or_artist
+      - funding_and_approval
+      - independent_confirmation_of_year_1948
+    next_action: >-
+      Sestavit obrazovou chronologii všech pohledů interiéru a porovnat ji s účty,
+      zápisy rady starších, stavební dokumentací, kronikou a záznamy o varhanách.
+      Označení ‚před rekonstrukcí‘ nepoužívat jako přesnou dataci bez textového dokladu.
+    reopen_triggers:
+      - dated_pre_or_post_reconstruction_photo_found
+      - construction_invoice_or_plan_found
+      - church_council_minutes_found
+      - organ_installation_record_found
+      - restoration_or_mural_record_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
+      - sources/index.d/urbanek-ccs-05.yml
+
+  - id: URB-U-0050
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: episcopal_visit_event_date_and_group_identification
+    source_items: [urbanek-ccs-025]
+    question: >-
+      Zachycuje skupinová fotografie skutečně návštěvu biskupa Ferdinanda Stibora
+      v Rychvaldě roku 1948, při jaké příležitosti byla pořízena, kde přesně a kdo
+      jsou duchovní, dospělí a dívky ve slavnostních krojích?
+    known_facts:
+      - "Fotografie zachycuje velkou venkovní skupinu dospělých a dětí."
+      - "Mezi dospělými jsou osoby v duchovním oděvu."
+      - "V přední řadě jsou dívky v jednotných slavnostních nebo lidových krojích."
+      - "Jméno Ferdinanda Stibora, návštěva Rychvaldu a rok 1948 pocházejí z archivního názvu souboru."
+    unresolved_attributes:
+      - confirmation_of_Ferdinand_Stibor_identity
+      - exact_visit_date
+      - exact_event_or_liturgical_occasion
+      - exact_location
+      - identities_of_clergy
+      - identities_of_adult_participants
+      - identities_and_group_affiliation_of_costumed_children
+      - relation_to_other_Stibor_photographs_in_archive
+    next_action: >-
+      Porovnat snímek s podsložkou věnovanou Ferdinandu Stiborovi, církevní kronikou,
+      návštěvními protokoly, dobovým tiskem a dalšími popsanými skupinovými snímky.
+      Osoby neidentifikovat pouze podle obličejů.
+    reopen_triggers:
+      - Stibor_subcollection_processed
+      - church_chronicle_visit_entry_found
+      - dated_press_report_found
+      - captioned_parallel_photo_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
+      - sources/index.d/urbanek-ccs-05.yml

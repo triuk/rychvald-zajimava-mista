@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 26, deferred: 0, resolved: 31, not_actionable: 3, total: 60}
+summary: {open: 28, deferred: 0, resolved: 31, not_actionable: 3, total: 62}
 open_files:
   - open-01.yml
   - open-03.yml
@@ -11,6 +11,7 @@ open_files:
   - open-09.yml
   - open-10.yml
   - open-11.yml
+  - open-12.yml
 closed_files:
   - closed-01a.yml
   - closed-01b.yml

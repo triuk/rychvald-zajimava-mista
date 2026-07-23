@@ -31,6 +31,7 @@ authoritative_files:
     - sources/index.d/urbanek-ccs-09.yml
     - sources/index.d/urbanek-ccs-10.yml
     - sources/index.d/urbanek-ccs-11.yml
+    - sources/index.d/urbanek-ccs-12.yml
 
 pull_request:
   number: 1
@@ -55,7 +56,8 @@ checkpoints:
   ccs_history_batch_08_atomic_commit: 4a9ed28c759c7a39f48412e32bcc11efbf6ab758
   ccs_history_batch_09_final_commit: a8eb56bc87092a2ca6ea9765be77ba4ebb736473
   ccs_history_batch_10_content_commit: 1cde105533357567c265f830914040c81e78ea10
-  ccs_history_batch_11_registry_commit: 3d5d01700823c71320b4e66e71613e8176561a01
+  ccs_history_batch_11_final_commit: 647851fbf24a02e728b4f29e4152489bfb523ece
+  ccs_history_batch_12_registry_commit: e2c828a4ed0c54429bad4e0a12a0998ad74412fc
 
 pilot:
   status: completed
@@ -84,13 +86,14 @@ next_archive_batch:
     - sources/index.d/urbanek-ccs-09.yml
     - sources/index.d/urbanek-ccs-10.yml
     - sources/index.d/urbanek-ccs-11.yml
+    - sources/index.d/urbanek-ccs-12.yml
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 55
-    repo_verified_items: 55
-    visually_classified_items: 55
-    source_indexed_items: 55
-    remaining_items: 146
+    processed_items: 60
+    repo_verified_items: 60
+    visually_classified_items: 60
+    source_indexed_items: 60
+    remaining_items: 141
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -107,14 +110,15 @@ next_archive_batch:
     - {id: modern-choir-and-chrobacek-inauguration-09, items: [urbanek-ccs-041, urbanek-ccs-042, urbanek-ccs-043, urbanek-ccs-044, urbanek-ccs-045], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-09.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml, source_index: sources/index.d/urbanek-ccs-09.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-12.yml}
     - {id: chrobacek-anniversary-baptism-and-hus-commemoration-10, items: [urbanek-ccs-046, urbanek-ccs-047, urbanek-ccs-048, urbanek-ccs-049, urbanek-ccs-050], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-10.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml, source_index: sources/index.d/urbanek-ccs-10.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-13.yml}
     - {id: hus-commemoration-continuation-and-living-nativity-11, items: [urbanek-ccs-051, urbanek-ccs-052, urbanek-ccs-053, urbanek-ccs-054, urbanek-ccs-055], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-11.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml, source_index: sources/index.d/urbanek-ccs-11.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-14.yml}
-  next_items: [urbanek-ccs-056, urbanek-ccs-057, urbanek-ccs-058, urbanek-ccs-059, urbanek-ccs-060]
+    - {id: living-nativity-concerts-and-vodicka-memorial-12, items: [urbanek-ccs-056, urbanek-ccs-057, urbanek-ccs-058, urbanek-ccs-059, urbanek-ccs-060], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-12.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml, source_index: sources/index.d/urbanek-ccs-12.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-15.yml}
+  next_items: [urbanek-ccs-061, urbanek-ccs-062, urbanek-ccs-063, urbanek-ccs-064, urbanek-ccs-065]
   technical_files:
     - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 32, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 66}
+  summary: {open: 33, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 67}
   active_research_threads:
     - {id: URB-U-0008, subject: neidentifikovaná historická fotografie větrného mlýna}
     - {id: URB-U-0036, subject: Kakalův mlýn}
@@ -142,22 +146,24 @@ uncertainties:
     - {id: URB-U-0058, subject: obnovené první přijímání, Jana Šilerová a děti}
     - {id: URB-U-0059, subject: chronologie a osoby na snímcích rady starších}
     - {id: URB-U-0060, subject: pěvecký sbor roku 1933, Šlachta, Vodička a znak}
-    - {id: URB-U-0061, subject: novodobá sborová série, rok 2001, Dajč a Dziadziová}
+    - {id: URB-U-0061, subject: novodobé koncerty, data, názvový konflikt, sbory a účinkující}
     - {id: URB-U-0062, subject: Chrobáčkovo biskupské ustanovení, inaugurace, plastika a delegace}
     - {id: URB-U-0063, subject: padesáté výročí roku 1970, osoby a program}
     - {id: URB-U-0064, subject: křtiny roku 1970, Vodička, rodina a duchovní}
     - {id: URB-U-0065, subject: obnovená husovská hranice, průvod, hudba, hasiči, osoby a datace}
-    - {id: URB-U-0066, subject: živý betlém, datum, pořadatel, účinkující a místní ochotníci}
+    - {id: URB-U-0066, subject: opakovaný živý betlém, ročníky, pořadatel, účinkující a ochotníci}
+    - {id: URB-U-0067, subject: pamětní deska Vodičkových, obsah za ní, biografie a portrét}
   handling_rule: >-
     Každá podstatná neověřená datace, identifikace osoby, události, objektu,
     archivní mezery, useknutého popisku nebo technické a příčinné interpretace musí
     být vedena pod stabilním ID. Osoby se neidentifikují pouze podle obličeje,
-    useknuté názvy se nedoplňují odhadem a konfliktní metadata nejsou bez
-    vysvětlení používána jako datace události.
+    useknuté názvy se nedoplňují odhadem, konfliktní metadata nejsou bez vysvětlení
+    používána jako datace a nápis na objektu není automaticky nezávislým potvrzením
+    historických tvrzení, která obsahuje.
 
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_content_files: 200, ccs_technical_files: 1, ccs_total_items: 201, ccs_processed_items: 55, ccs_remaining_items: 146}
+  verified_equal_totals: {ccs_content_files: 200, ccs_technical_files: 1, ccs_total_items: 201, ccs_processed_items: 60, ccs_remaining_items: 141}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 
 readiness:
@@ -169,18 +175,18 @@ readiness:
     - ccs_history_thumbnail_cache_not_audited
   non_blocking_known_issues:
     - eleven pilot full original images are missing; only thumbnails remain in caches
-    - thirty_two historical, personal, archival and technical questions remain open
+    - thirty_three historical, personal, archival and technical questions remain open
 
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-056, urbanek-ccs-057, urbanek-ccs-058, urbanek-ccs-059, urbanek-ccs-060]
+  items: [urbanek-ccs-061, urbanek-ccs-062, urbanek-ccs-063, urbanek-ccs-064, urbanek-ccs-065]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify each source file against the Git branch, record its Git blob SHA,
     perform visual classification, record rights and attribution, separate
     document_text from scene_text, append the item to a collection inventory and
     source-index shard, and register every substantive uncertainty under a stable
-    URB-U identifier. Compare item 56 with the living nativity before creating a
-    separate uncertainty. Do not mark the PR ready or merge it while the collection
-    remains incomplete.
+    URB-U identifier. The batch crosses from the first to the second subfolder, so
+    exact source mapping must be verified before assignment. Do not mark the PR ready
+    or merge it while the collection remains incomplete.

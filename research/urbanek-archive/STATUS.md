@@ -7,9 +7,9 @@
 - Zdroj: `sources/osobni-archiv-jaromira-urbanka/`
 - Původ: **Z osobního archivu p. Jaromíra Urbánka.**
 - Originály se nepřejmenovávají, nepřesouvají ani neupravují.
-- Pro další práci je autoritativní obsah pilotní větve v Git repozitáři.
+- Pro další práci je autoritativní obsah pracovní větve v Git repozitáři.
 
-Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties/index.yml` včetně odkazovaných shard souborů a `reports/pilot-reconciliation.md`.
+Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncertainties/index.yml` včetně odkazovaných shard souborů, `reports/pilot-reconciliation.md` a přehledy nových archivních dávek v `collections/`.
 
 ## Stav pilotu
 
@@ -32,9 +32,9 @@ Autoritativní předání tvoří `AGENTS.md`, tento soubor, `state.yml`, `uncer
 - Head: `agent/import-urbanek-pilot`
 - Sloučení nebylo vyžádáno.
 
-PR slouží ke kontrole rozsahu pilotu, struktury metadat, OCR výstupů, auditů cache a evidence nejistot.
+PR obsahuje dokončený pilot a nově také rozpracovanou následující archivní dávku. Pilotní součty se nemění; nová dávka se eviduje odděleně, dokud nebude kompletně zpracována a zrevidována.
 
-## Celkové součty
+## Celkové součty pilotu
 
 - Pilotní kolekce: **5**.
 - Obsahové soubory: **144 z 144 přítomno**.
@@ -47,7 +47,24 @@ Souhrnný report:
 
 `research/urbanek-archive/reports/pilot-reconciliation.md`
 
-## Chybějící plné originály
+## Nová archivní dávka – historie Církve československé
+
+- Archivní složka: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`.
+- Struktura: **10 tematických podsložek**.
+- Obsahové soubory: **200 JPEGů**.
+- Technické soubory: **1× Thumbs.db** v podsložce `10 Kalendář 2015`.
+- Celkem: **201 položek**.
+- Původní soubory jsou ve větvi pod původními cestami; úplná položková kontrola Git blob SHA probíhá postupně po dávkách.
+- První dávka pěti snímků dokumentujících položení základního kamene a výstavbu byla vizuálně zkontrolována, položkově inventarizována a propojena s Git blob SHA.
+- Dočasné exportní a fragmentové soubory použité při kontrole `URB-U-0032` byly z větve odstraněny.
+
+Pracovní soubory:
+
+- `collections/historie-cirkve-ceskoslovenske-overview.yml`;
+- `collections/historie-cirkve-ceskoslovenske-inventory-01.csv`;
+- `collections/historie-cirkve-ceskoslovenske-batch-01.yml`.
+
+## Chybějící plné originály pilotu
 
 Audity technických cache prokázaly **11 chybějících plných originálů**. V repozitáři nejsou jako samostatné soubory; zachovány jsou pouze jejich náhledy v `Thumbs.db`:
 
@@ -151,4 +168,8 @@ Stav pilotu:
 
 `draft_pr_open_with_complete_pilot_file_set`
 
-Všechny čtyři aktuálně otevřené položky (`URB-U-0008`, `URB-U-0036`, `URB-U-0037`, `URB-U-0038`) byly znovu posouzeny a zůstávají otevřené pro další hledání po získání nových relevantních pramenů. Další práce má pokračovat kontrolou draft PR #1 nebo zpracováním nové archivní dávky; technické soubory již nejsou překážkou.
+Stav nové dávky:
+
+`ccs_history_batch_processing_in_progress`
+
+Pokračovat položkami 6–10 první podsložky, poté v dávkách po 5–10 souborech. Každá zpracovaná položka musí mít vizuální klasifikaci, `repo_status`, Git blob SHA, stav práv a oddělený `document_text`/`scene_text`. Čtyři dřívější otevřené položky registru zůstávají aktivní a mají se znovu prověřit pouze tehdy, přinese-li nová dávka relevantní důkaz.

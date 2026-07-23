@@ -1,10 +1,11 @@
 schema_version: 2
-summary: {open: 4, deferred: 0, resolved: 31, not_actionable: 3, total: 38}
+summary: {open: 8, deferred: 0, resolved: 31, not_actionable: 3, total: 42}
 open_files:
   - open-01.yml
   - open-03.yml
   - open-04.yml
   - open-05.yml
+  - open-06.yml
 closed_files:
   - closed-01a.yml
   - closed-01b.yml
@@ -38,3 +39,5 @@ rules:
   - When a printed program and the dramatic text agree on a character name, an incompatible name in a later retrospective article is recorded as an authorial or typographical error rather than silently normalized in the transcription.
   - A missing continuation on a demonstrably absent following page may be closed as a known lacuna when the user declines further searching; no text may be reconstructed from context alone.
   - Ambiguous handwritten dates must be rechecked at maximum useful enlargement and compared by digit shape before treating an apparent chronology conflict as substantive.
+  - An archival filename or folder label is evidence of archival attribution, not independent proof of a date, event, person or technical history; unresolved attributes receive a stable registry item.
+  - A visually readable year on an object verifies the inscription only, not automatically the object's manufacture, installation or dedication date.

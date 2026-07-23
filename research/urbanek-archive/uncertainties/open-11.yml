@@ -1,43 +1,57 @@
 schema_version: 1
-scope: ccs_batch_08_open_items
+scope: ccs_batch_08_open_items_updated_through_batch_13
 items:
   - id: URB-U-0058
     status: open
     priority: medium
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: renewed_first_communion_date_context_and_people
-    related_open_items: [URB-U-0055, URB-U-0056]
-    source_items: [urbanek-ccs-036]
+    type: Jana_Silerova_renewed_communion_service_episcopal_role_and_portrait
+    related_open_items: [URB-U-0055, URB-U-0056, URB-U-0059]
+    source_items: [urbanek-ccs-036, urbanek-ccs-063]
     question: >-
       Kdy a po jak dlouhé přestávce bylo obnoveno slavnostní první přijímání, kdo
-      obnovu inicioval, je zachycenou duchovní skutečně Jana Šilerová, kdo jsou děti
-      a jak zněl celý useknutý archivní popisek?
+      obnovu inicioval, je zachycenou duchovní skutečně Jana Šilerová, kdo jsou děti,
+      jak zněl celý useknutý archivní popisek, kdy a kde portrét vznikl a jaké přesné
+      služební, akademické a biskupské funkce Jana Šilerová v daném období zastávala?
     known_facts:
-      - "Fotografie zachycuje malou venkovní skupinu dětí různého věku a ženu v liturgickém oděvu."
-      - "Pravá část obrazu je přeexponovaná a několik osob se překrývá."
-      - "Jméno Jana Šilerová, tvrzení o obnovení a označení slavnostního prvního přijímání pocházejí z archivního názvu."
-      - "Název končí useknutým řetězcem ‚přijímá‘."
+      - "Urbanek-ccs-036 zachycuje malou venkovní skupinu dětí různého věku a ženu v liturgickém oděvu."
+      - "Pravá část urbanek-ccs-036 je přeexponovaná a několik osob se překrývá."
+      - "Jméno Jana Šilerová, tvrzení o obnovení a označení slavnostního prvního přijímání pocházejí z archivního názvu urbanek-ccs-036."
+      - "Název urbanek-ccs-036 končí useknutým řetězcem ‚přijímá‘."
+      - "Urbanek-ccs-063 zachycuje ženu v tmavém duchovním oděvu, bílé štóle s červeným kalichem a výrazným řetězem nebo insignií."
+      - "Jméno Jana Šilerová, akademický titul Mgr. a označení biskupky pocházejí z archivního názvu urbanek-ccs-063."
+      - "Portrét neobsahuje datum ani text umožňující nezávislou identifikaci osoby nebo úřadu."
     unresolved_attributes:
-      - exact_event_date
+      - exact_communion_event_date
       - duration_and_reason_for_previous_interruption
       - meaning_of_restored_ceremonial_communion
-      - Jana_Silerova_identity
+      - Jana_Silerova_identity_on_each_image
       - child_identities
-      - exact_event_location
+      - exact_communion_location
       - complete_original_caption
+      - portrait_date_location_and_photographer
+      - independent_confirmation_of_Mgr_title
+      - exact_clerical_service_dates_and_roles
+      - exact_episcopal_office_and_term
+      - meaning_and_provenance_of_chain_or_insignia
+      - relationship_to_council_and_choir_images
     next_action: >-
-      Hledat kroniku, matriku, zápisy rady starších, program přijímání, služební data
-      Jany Šilerové a další kopii fotografie nebo popisku. Useknutý název nedoplňovat
-      odhadem a osobu neurčovat pouze podle vzhledu.
+      Hledat kroniku, matriku, zápisy rady starších, program přijímání, personální a
+      biskupské záznamy Jany Šilerové, diecézní dokumenty a další popsanou kopii portrétu
+      nebo useknutého popisku. Osobu ani funkci neurčovat pouze podle vzhledu a insignie.
     reopen_triggers:
       - church_chronicle_entry_found
       - communion_register_found
       - Jana_Silerova_service_record_found
+      - episcopal_appointment_record_found
+      - captioned_portrait_source_found
       - complete_filename_or_caption_found
       - participant_identification_provided
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml
       - sources/index.d/urbanek-ccs-08.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml
+      - sources/index.d/urbanek-ccs-13.yml
 
   - id: URB-U-0059
     status: open

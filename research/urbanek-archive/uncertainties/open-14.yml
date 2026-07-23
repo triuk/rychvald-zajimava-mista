@@ -1,0 +1,45 @@
+schema_version: 1
+scope: ccs_batch_11_open_items
+items:
+  - id: URB-U-0066
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: living_nativity_date_organizer_cast_location_and_recurrence
+    source_items: [urbanek-ccs-055]
+    question: >-
+      Kdy a kde se zachycený živý betlém konal, kdo jej pořádal a režíroval, kdo byli
+      účinkující a jaké hráli role, šlo skutečně o místní ochotníky, byla dětská
+      postava živým dítětem nebo rekvizitou a jak často se akce opakovala?
+    known_facts:
+      - "Fotografie zachycuje venkovní skupinu kostýmovaných dospělých před moderní budovou."
+      - "Ve skupině jsou královské a biblické kostýmy, žena v modrém držící zavinutou dětskou postavu nebo rekvizitu, žena s mikrofonem a osoba v hnědém plášti s kapucí."
+      - "Archivní název označuje scénu jako živý betlém."
+      - "EXIF uvádí fotoaparát Panasonic DMC-TZ3 a čas 10. prosince 2011 v 16:14:43; tento technický údaj není sám o sobě nezávislým potvrzením data veřejné události."
+    unresolved_attributes:
+      - exact_event_date
+      - whether_EXIF_datetime_equals_event_time
+      - exact_location_and_building
+      - organizer_and_director
+      - cast_identities_and_roles
+      - whether_cast_were_local_amateur_actors
+      - whether_infant_figure_was_live_child_or_prop
+      - program_and_event_context
+      - audience_and_attendance
+      - recurrence_and_duration_of_tradition
+      - relationship_to_following_archival_image_56
+    next_action: >-
+      Porovnat s následujícím snímkem 56, jehož název tvrdí účast místních ochotníků,
+      a hledat programy adventních akcí, církevní a obecní kroniku, zpravodaj,
+      záznamy ochotnického souboru a další fotografie ze stejné série. Osoby neurčovat
+      pouze podle vzhledu a technické datum potvrdit textovým pramenem.
+    reopen_triggers:
+      - following_image_56_compared
+      - dated_event_program_found
+      - church_or_municipal_chronicle_entry_found
+      - amateur_theatre_record_found
+      - participant_identification_provided
+      - original_camera_series_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml
+      - sources/index.d/urbanek-ccs-11.yml

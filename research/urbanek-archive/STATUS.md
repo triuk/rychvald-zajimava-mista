@@ -114,6 +114,7 @@ Mezery v číslování nejsou evidovány jako chybějící plné originály, dok
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
 - Následující položky: `urbanek-ccs-021` až `urbanek-ccs-025`.
+- Očekávané archivní názvy následující dávky začínají soubory `23`, `24`, `25`, `26` a `27`; přesné mapování na stabilní ID se ověří proti větvi před zápisem.
 - Každá položka musí mít `repo_path`, `repo_status`, `git_blob_sha`, vizuální popis, stav práv a oddělený `document_text`/`scene_text`.
 - Každá podstatná nejistota musí být okamžitě zapsána pod stabilním `URB-U-XXXX`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.

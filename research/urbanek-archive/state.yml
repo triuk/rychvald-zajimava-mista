@@ -24,6 +24,7 @@ authoritative_files:
     - sources/index.d/urbanek-ccs-02.yml
     - sources/index.d/urbanek-ccs-03.yml
     - sources/index.d/urbanek-ccs-04.yml
+    - sources/index.d/urbanek-ccs-05.yml
 
 pull_request:
   number: 1
@@ -44,15 +45,11 @@ checkpoints:
   technical_cache_completion_commit: 7e6483d1bcb92034bea6eddd43fd55869dedce9c
   urb_u_0032_resolution_commit: 171acb480c3c1177104df8007647903e8dd2e077
   urb_u_0032_temp_cleanup_final_commit: b94ce7128266332800c878935fbac6d566a66dd9
-  ccs_history_overview_commit: ec08c19bd23a93b6ec24dddaf6636a3e370a62c8
-  ccs_history_inventory_03_commit: 48c7daf5cae1caba3f1cf9586ceb0fe39be853e2
-  ccs_history_batch_03_commit: 3380b9c9f2c9b9aca2da718c710606f700a69df1
-  ccs_history_source_index_03_commit: 7fa43bca38f5b0c6ebdd43c2624833a28bcb5618
-  ccs_history_uncertainties_03_commit: f5a573b992c6e2ec10ca7747232269530d71b4b7
-  ccs_history_inventory_04_commit: e516cb36ed7ab2387571effc9d548b6d2b1112b7
-  ccs_history_batch_04_commit: 396805d46839b3c2204c80c73a63d78a946eea60
-  ccs_history_source_index_04_commit: 1e4f32adc5c15d3fd61338f0e84185d2d005f9bc
-  ccs_history_uncertainties_04_commit: 8fafd933ac79cdc5204493a31e29f5c2556ea0c3
+  ccs_history_inventory_05_commit: 15a9eab141a088a5bd79102cee79eb834baa322d
+  ccs_history_batch_05_commit: 223871a2128ba7045c5e4b59791d853df8a61185
+  ccs_history_source_index_05_commit: 8fe43c2019f460a166dd5cd33704c9eaac649afb
+  ccs_history_uncertainties_05_commit: 96c8fe75bd0ad36e1449cc0aa40f48b7999a5e10
+  ccs_history_uncertainty_index_05_commit: 8f62f8cc2dbb5803e6c5f92b4171bc8a6558453d
 
 pilot:
   status: completed
@@ -74,13 +71,14 @@ next_archive_batch:
     - sources/index.d/urbanek-ccs-02.yml
     - sources/index.d/urbanek-ccs-03.yml
     - sources/index.d/urbanek-ccs-04.yml
+    - sources/index.d/urbanek-ccs-05.yml
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 20
-    repo_verified_items: 20
-    visually_classified_items: 20
-    source_indexed_items: 20
-    remaining_items: 181
+    processed_items: 25
+    repo_verified_items: 25
+    visually_classified_items: 25
+    source_indexed_items: 25
+    remaining_items: 176
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -90,14 +88,15 @@ next_archive_batch:
     - {id: opening-and-early-interior-02, items: [urbanek-ccs-006, urbanek-ccs-007, urbanek-ccs-008, urbanek-ccs-009, urbanek-ccs-010], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
     - {id: first-communion-council-and-bells-03, items: [urbanek-ccs-011, urbanek-ccs-012, urbanek-ccs-013, urbanek-ccs-014, urbanek-ccs-015], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml, source_index: sources/index.d/urbanek-ccs-03.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-06.yml}
     - {id: murals-occupation-exteriors-and-organ-04, items: [urbanek-ccs-016, urbanek-ccs-017, urbanek-ccs-018, urbanek-ccs-019, urbanek-ccs-020], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-04.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml, source_index: sources/index.d/urbanek-ccs-04.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-07.yml}
-  next_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023, urbanek-ccs-024, urbanek-ccs-025]
+    - {id: wedding-reconstruction-and-bishop-05, items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023, urbanek-ccs-024, urbanek-ccs-025], inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-05.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml, source_index: sources/index.d/urbanek-ccs-05.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-08.yml}
+  next_items: [urbanek-ccs-026, urbanek-ccs-027, urbanek-ccs-028, urbanek-ccs-029, urbanek-ccs-030]
   technical_files:
     - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
 
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   legacy_snapshot: research/urbanek-archive/uncertainties.yml
-  summary: {open: 13, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 47}
+  summary: {open: 16, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 50}
   active_research_threads:
     - {id: URB-U-0008, subject: neidentifikovaná historická fotografie větrného mlýna}
     - {id: URB-U-0036, subject: Kakalův mlýn}
@@ -110,16 +109,20 @@ uncertainties:
     - {id: URB-U-0043, subject: autorství, datace a význam nástěnných maleb}
     - {id: URB-U-0044, subject: odstranění hesla a kalicha během polského záboru}
     - {id: URB-U-0045, subject: zahradní úprava před sborem za německé okupace}
-    - {id: URB-U-0046, subject: nové varhany roku 1946 a osoby na fotografii}
+    - {id: URB-U-0046, subject: nové varhany a osoby na skupinové fotografii}
     - {id: URB-U-0047, subject: mezery v číslování archivních souborů}
+    - {id: URB-U-0048, subject: svatební série roku 1948 – datum a osoby}
+    - {id: URB-U-0049, subject: chronologie rekonstrukce interiéru a vztah k varhanám}
+    - {id: URB-U-0050, subject: návštěva připisovaná Ferdinandu Stiborovi}
   handling_rule: >-
     Každá podstatná neověřená datace, identifikace osoby, události, objektu,
     archivní mezery nebo technické interpretace musí být vedena pod stabilním ID.
-    Negativní dílčí hledání není důvodem k uzavření.
+    Osoby se neidentifikují pouze podle obličeje. Negativní dílčí hledání není
+    důvodem k uzavření.
 
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_content_files: 200, ccs_technical_files: 1, ccs_total_items: 201, ccs_processed_items: 20, ccs_remaining_items: 181}
+  verified_equal_totals: {ccs_content_files: 200, ccs_technical_files: 1, ccs_total_items: 201, ccs_processed_items: 25, ccs_remaining_items: 176}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 
 readiness:
@@ -131,12 +134,12 @@ readiness:
     - ccs_history_thumbnail_cache_not_audited
   non_blocking_known_issues:
     - eleven pilot full original images are missing; only thumbnails remain in caches
-    - thirteen historical, personal, archival and technical questions remain open
+    - sixteen historical, personal, archival and technical questions remain open
 
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023, urbanek-ccs-024, urbanek-ccs-025]
+  items: [urbanek-ccs-026, urbanek-ccs-027, urbanek-ccs-028, urbanek-ccs-029, urbanek-ccs-030]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify each source file against the Git branch, record its Git blob SHA,

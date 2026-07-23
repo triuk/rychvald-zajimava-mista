@@ -12,6 +12,7 @@ source_index_shards:
   - sources/index.d/urbanek-ccs-07.yml
   - sources/index.d/urbanek-ccs-08.yml
   - sources/index.d/urbanek-ccs-09.yml
+  - sources/index.d/urbanek-ccs-10.yml
 attribution: "Z osobního archivu p. Jaromíra Urbánka."
 rights: unknown
 status: processing_in_progress
@@ -52,11 +53,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 45
-  repo_verified_items: 45
-  visually_classified_items: 45
-  source_indexed_items: 45
-  remaining_items: 156
+  processed_items: 50
+  repo_verified_items: 50
+  visually_classified_items: 50
+  source_indexed_items: 50
+  remaining_items: 151
   completed_batches:
     - {id: construction-sequence-01, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
     - {id: opening-and-early-interior-02, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
@@ -67,6 +68,7 @@ processing:
     - {id: anniversary-and-postwar-communion-groups-07, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-07.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml, source_index: sources/index.d/urbanek-ccs-07.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-10.yml}
     - {id: renewed-communion-councils-and-choir-08, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-08.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml, source_index: sources/index.d/urbanek-ccs-08.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-11.yml}
     - {id: modern-choir-and-chrobacek-inauguration-09, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-09.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml, source_index: sources/index.d/urbanek-ccs-09.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-12.yml}
+    - {id: chrobacek-anniversary-baptism-and-hus-commemoration-10, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-10.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml, source_index: sources/index.d/urbanek-ccs-10.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-13.yml}
   open_uncertainties_from_collection:
     - URB-U-0039
     - URB-U-0040
@@ -92,7 +94,10 @@ processing:
     - URB-U-0060
     - URB-U-0061
     - URB-U-0062
-  next_items: [urbanek-ccs-046, urbanek-ccs-047, urbanek-ccs-048, urbanek-ccs-049, urbanek-ccs-050]
+    - URB-U-0063
+    - URB-U-0064
+    - URB-U-0065
+  next_items: [urbanek-ccs-051, urbanek-ccs-052, urbanek-ccs-053, urbanek-ccs-054, urbanek-ccs-055]
 
 rules:
   - Filenames and folder names are archival metadata, not independent historical proof.
@@ -102,4 +107,5 @@ rules:
   - Persons are not identified solely from facial appearance.
   - A relative architectural or event sequence does not independently verify absolute dates from filenames.
   - Truncated filenames are not completed by guesswork.
+  - Conflicting embedded metadata is preserved and explicitly evaluated rather than silently used as event dating.
   - Original files are not renamed, moved or modified.

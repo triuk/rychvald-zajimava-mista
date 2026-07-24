@@ -1,0 +1,131 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-21
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-101
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní
+    volba a jmenování biskupem Gabriela Chrobáčka v r. 19/25  S rychvaldskými občany.jpg
+  file_size_bytes: 458721
+  git_blob_sha: d220a75fd2a69f43b2089c126488bbda84bea476
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Rychvaldští občané na inaugurační skupině – archivní označení; přesná kopie položky 045
+  document_type: historical_large_formal_group_photograph_exact_duplicate
+  readability:
+    status: good
+    note: Velká skupina, ústřední duchovní s insignií a vstupní architektura jsou čitelné.
+  visual_content:
+    photographs: single_historical_large_formal_group
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu a porovnání Git blob SHA.
+  duplicate_relation:
+    exact_binary_duplicate_of: urbanek-ccs-045
+    git_blob_sha: d220a75fd2a69f43b2089c126488bbda84bea476
+    evidentiary_note: Druhá archivní cesta, nikoli druhé nezávislé svědectví.
+  notes:
+  - Označení rychvaldských občanů pochází z archivního názvu.
+  - Soubor je binárně totožný s urbanek-ccs-045, jehož název jej připisuje inauguraci Gabriela Chrobáčka a účasti z Rychvaldu.
+  - Souvisí s URB-U-0062.
+- source_id: urbanek-ccs-102
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/1  Kaple CČS na Ostravici s  Winklerovou zvoničkou.jpg
+  file_size_bytes: 236949
+  git_blob_sha: 96983c840d68d31f470e308e7ac9db7946a2e06e
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Kaple CČS na Ostravici s takzvanou Winklerovou zvoničkou – archivní označení
+  document_type: historical_hillside_chapel_exterior_photograph_reproduction
+  readability:
+    status: good
+    note: Stavba, opěrná zeď, věžová konstrukce a svah jsou dobře čitelné.
+  visual_content:
+    photographs: single_historical_hillside_small_chapel_exterior
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Identita kaple, lokalita Ostravice a označení Winklerova zvonička pocházejí z archivního názvu.
+  - Fotografie sama neurčuje stavební datum, funkci věžové konstrukce ani osobu Winklera.
+  - Souvisí s URB-U-0069.
+- source_id: urbanek-ccs-103
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/2  Oltář, za ním okno s obrazem Jana  Husa.jpg
+  file_size_bytes: 229459
+  git_blob_sha: ea135899bd8ae138aec0a800dd89ed3246ff33ca
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Oltář kaple s kruhovým figurálním oknem připisovaným Janu Husovi
+  document_type: historical_chapel_altar_and_figural_window_photograph_reproduction
+  readability:
+    status: good
+    note: Oltář, motiv kalicha, svícny a kruhové figurální okno jsou dobře čitelné.
+  visual_content:
+    photographs: single_historical_chapel_altar_and_round_figural_window
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Určení portrétu jako Jana Husa pochází z archivního názvu; obrazově je ověřen pouze profil vousatého muže v pokrývce hlavy.
+  - Autor, datum a provenience okna ani oltáře nejsou určeny.
+  - Souvisí s URB-U-0069.
+- source_id: urbanek-ccs-104
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/3.jpg
+  file_size_bytes: 545574
+  git_blob_sha: 839249cac5ecddd658e83c4661bc74492c3ebe29
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Zástupce diecézní rady Chrobáček vítá účastníky – text vložený do fotografie
+  document_type: historical_captioned_chapel_welcome_address_photograph_reproduction
+  readability:
+    status: good
+    note: Muž před oltářem a celý vložený popisek jsou čitelné.
+  visual_content:
+    photographs: single_historical_male_welcome_address_before_altar
+    scene_text: transcribed
+    method: Vizuální kontrola celého obrazu a ruční přepis vloženého popisku.
+  scene_text:
+    text: Zástupce diec.rady br.Chrobáček vítá účastníky.
+    status: transcribed
+  notes:
+  - Přepis popisku je obrazově ověřen; identita muže, Chrobáčkovo jméno a funkce zástupce diecézní rady zůstávají historickými
+    tvrzeními popisku.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-105
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/4.jpg
+  file_size_bytes: 530074
+  git_blob_sha: b5960365bfb7d77ce5fe4a10cb3331b4502ee6c6
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Uvítání biskupa za děti – text vložený do fotografie
+  document_type: historical_captioned_child_bouquet_welcome_photograph_reproduction
+  readability:
+    status: good
+    note: Předání kytice, oděvy osob a celý vložený popisek jsou čitelné.
+  visual_content:
+    photographs: single_historical_child_or_young_woman_bouquet_welcome_of_clergy
+    scene_text: transcribed
+    method: Vizuální kontrola celého obrazu a ruční přepis vloženého popisku.
+  scene_text:
+    text: Uvítání br.biskupa za děti
+    status: transcribed
+  notes:
+  - Přepis popisku je obrazově ověřen; identita biskupa, dívky a tvrzení o zastupování dětí vyžadují dokumentární potvrzení.
+  - Souvisí s URB-U-0070.

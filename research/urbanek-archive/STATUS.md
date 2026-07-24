@@ -44,32 +44,32 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je osmnáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `090`.
+Dokončeno je devatenáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `095`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **90 z 201 položek**;
-- proti Git blob SHA ověřeno: **90 položek**;
-- vizuálně klasifikováno: **90 položek**;
-- zdrojově indexováno: **90 položek**;
-- zbývá: **111 položek**.
+- zpracováno: **95 z 201 položek**;
+- proti Git blob SHA ověřeno: **95 položek**;
+- vizuálně klasifikováno: **95 položek**;
+- zdrojově indexováno: **95 položek**;
+- zbývá: **106 položek**.
 
-### Zjištění dávky 18
+### Zjištění dávky 19
 
-Dávka 18 pokračuje v obřadní a gratulační části série archivně připisované volbě a jmenování Gabriela Chrobáčka.
+Dávka 19 pokračuje v obřadní a investiční části série archivně připisované volbě a jmenování Gabriela Chrobáčka.
 
-- `urbanek-ccs-086` zachycuje dva stojící duchovní s řetězy nebo insigniemi a třetího skloněného či klečícího duchovního. Jeden stojící muž drží ruku nad jeho hlavou, druhý knihu; mezi nimi je vysoká svíce. Přesný význam úkonu není obrazem určen.
-- `urbanek-ccs-087` zachycuje skupinu duchovních u oltáře s otevřenou knihou, kalichem a mužem s řetězem držícím další knihu.
-- `urbanek-ccs-088` je detail početné skupiny duchovních s kalichem a otevřenou knihou. Otevřená ústa několika osob mohou znamenat zpěv nebo recitaci, nikoli však doložený konkrétní text.
-- `urbanek-ccs-089` zachycuje duchovního s řetězem nebo insignií držícího kalich před oltářem.
-- `urbanek-ccs-090` zachycuje pozdrav nebo předání mezi duchovním a skupinou čtyř žen. Označení „manželka“ pochází pouze z archivního názvu a neurčuje, která žena je míněna.
-- Snímky `086–089` tvoří podle prostředí a opakujících se osob pravděpodobnou obřadní posloupnost. Absolutní datum, osoby, úřady, význam řetězů a přesné rituály zůstávají otevřené.
+- `urbanek-ccs-091` zachycuje vystoupení duchovního s řetězem nebo insignií na vyvýšeném stupni před dalšími duchovními a shromážděním.
+- `urbanek-ccs-092` obrazově dokládá fyzické nasazení řetězu nebo insignie skloněnému duchovnímu. Fotografie sama neurčuje identitu příjemce, jeho úřad ani právní či liturgický význam aktu.
+- `urbanek-ccs-093` zachycuje dva hlavní duchovní s řetězy u oltáře, před nimi kalich a otevřenou knihu.
+- `urbanek-ccs-094` zachycuje setkání dvou duchovních; jeden drží složený list či dokument a druhý k němu natahuje ruku. Není jisté, zda jde o předání, čtení nebo pouze držení listiny.
+- `urbanek-ccs-095` zachycuje stojícího duchovního s řetězem při proslovu, modlitbě nebo zpěvu a sedícího duchovního s otevřenou složkou či knihou.
+- Snímky `091–095` navazují prostředím a opakujícími se osobami na předchozí obřadní sérii. Jména, úřady, datum, obsah dokumentu a přesná funkce insignie zůstávají otevřené.
 
-Pracovní soubory dávky 18:
+Pracovní soubory dávky 19:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-18.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-18.yml`;
-- `sources/index.d/urbanek-ccs-18.yml`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-19.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-19.yml`;
+- `sources/index.d/urbanek-ccs-19.yml`;
 - rozšířený `research/urbanek-archive/uncertainties/open-12.yml`.
 
 ## Registr nejistot
@@ -82,15 +82,15 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 68.
 
-Dávka 18 nepřidala nové ID. Rozšířila `URB-U-0062` o položení ruky, úkony s knihou a kalichem, gratulaci označenou jako gratulace manželce a další podmínky dokumentárního ověření.
+Dávka 19 nepřidala nové ID. Rozšířila `URB-U-0062` o fyzické nasazení insignie, proslovy, listinu nebo složený dokument a úplnější investiční posloupnost.
 
-Osoby se neidentifikují pouze podle obličeje. Řetěz nebo insignie sám neurčuje úřad, gesto neurčuje přesný rituál a rodinné vztahy z názvů se nepovažují za obrazově ověřené.
+Osoby se neidentifikují pouze podle obličeje. Řetěz nebo insignie sám neurčuje úřad a ani jeho fyzické nasazení samo nepotvrzuje identitu příjemce nebo právní význam aktu.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 90 zpracovaných a 111 zbývajících položek;
+- aktuální průběžný stav je 95 zpracovaných a 106 zbývajících položek;
 - registr používá součty 34/31/3/68;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -98,7 +98,7 @@ Osoby se neidentifikují pouze podle obličeje. Řetěz nebo insignie sám neur�
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-091` až `urbanek-ccs-095`.
-- Očekávané archivní názvy: `15.jpg`, `16.jpg`, `17.jpg`, `18.jpg` a `19.jpg`.
+- Následující položky: `urbanek-ccs-096` až `urbanek-ccs-100`.
+- Očekávané archivní názvy: `20.jpg`, `21.jpg`, `22.jpg`, `23.jpg` a `24.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

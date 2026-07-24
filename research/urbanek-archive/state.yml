@@ -41,11 +41,11 @@ ccs_collection:
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 90
-    repo_verified_items: 90
-    visually_classified_items: 90
-    source_indexed_items: 90
-    remaining_items: 111
+    processed_items: 95
+    repo_verified_items: 95
+    visually_classified_items: 95
+    source_indexed_items: 95
+    remaining_items: 106
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -69,10 +69,11 @@ ccs_collection:
     - {number: 16, items: 076-080, id: stibor-council-and-chrobacek-election-opening}
     - {number: 17, items: 081-085, id: chrobacek-family-and-congratulations}
     - {number: 18, items: 086-090, id: chrobacek-ritual-and-wife-congratulation}
+    - {number: 19, items: 091-095, id: chrobacek-investiture-address-and-document}
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-18.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-18.yml
-    source_index: sources/index.d/urbanek-ccs-18.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-19.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-19.yml
+    source_index: sources/index.d/urbanek-ccs-19.yml
   technical_files:
     - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
 
@@ -80,7 +81,7 @@ uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary: {open: 34, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 68}
   ccs_range: URB-U-0039..URB-U-0068
-  batch_18_updated: [URB-U-0062]
+  batch_19_updated: [URB-U-0062]
   handling_rules:
     - Archival names and folder labels are attribution metadata, not independent historical proof.
     - Persons are not identified solely from facial appearance.
@@ -89,10 +90,11 @@ uncertainties:
     - Image continuity may establish a sequence, not names, dates, family relations or offices.
     - Chains or insignia do not independently establish a specific ecclesiastical office.
     - A visible gesture does not independently identify the exact ritual.
+    - Physical placement of an insignia verifies the action, not the recipient identity or legal meaning.
 
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 90, ccs_remaining_items: 111}
+  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 95, ccs_remaining_items: 106}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 
 readiness:
@@ -109,8 +111,8 @@ readiness:
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-091, urbanek-ccs-092, urbanek-ccs-093, urbanek-ccs-094, urbanek-ccs-095]
-  expected_source_files: ["4/15.jpg", "4/16.jpg", "4/17.jpg", "4/18.jpg", "4/19.jpg"]
+  items: [urbanek-ccs-096, urbanek-ccs-097, urbanek-ccs-098, urbanek-ccs-099, urbanek-ccs-100]
+  expected_source_files: ["4/20.jpg", "4/21.jpg", "4/22.jpg", "4/23.jpg", "4/24.jpg"]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify source paths and Git blob SHA, classify visually, preserve rights and attribution,

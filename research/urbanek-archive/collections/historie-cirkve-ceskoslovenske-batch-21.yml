@@ -1,0 +1,240 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: chrobacek-final-duplicate-and-ostravice-chapel-opening-21
+status: completed_first_visual_pass
+item_count: 5
+source_scope: Konec podsložky 4 (soubor 25) a začátek podsložky 5 Kaple CČS na Ostravici (soubory 1–4)
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Urbanek-ccs-101 uzavírá Chrobáčkovu podsložku a je přesnou binární kopií urbanek-ccs-045; oba soubory mají shodný
+    Git blob SHA a nepředstavují dvě nezávislá obrazová svědectví. Položky 102–105 otevírají podsložku kaple CČS na Ostravici.
+    Zachycují malou modernistickou stavbu na svahu s oddělenou vysokou zvonicovou konstrukcí, oltář s kruhovým figurálním
+    oknem a dvě slavnostní fotografie s vloženými psanými popisky. Archivní názvy a popisky připisují objekt CČS, zvoničku
+    Winklerovi, okenní portrét Janu Husovi, muže v obleku Chrobáčkovi a vítaného duchovního biskupovi; fotografie samy neověřují
+    přesné datum, místo, osoby, funkce, stavební historii ani vztah obou slavnostních snímků.
+  basis:
+  - full_image_visual_review
+  - exact_git_blob_comparison
+  - embedded_caption_transcription
+  - architectural_and_interior_comparison
+  - archival_sequence
+  - verified_repo_files
+items:
+- id: urbanek-ccs-101
+  archival_filename: 25  S rychvaldskými občany.jpg
+  visual_type: historical_black_and_white_large_group_exact_duplicate
+  description: Velká formální skupina několika desítek dospělých a dětí stojí a sedí před monumentálním vstupem do budovy.
+    Uprostřed přední řady sedí duchovní s výrazným řetězem nebo insignií; po jeho stranách sedí dvě ženy a jedna drží kytici.
+  subject_tags:
+  - large_formal_group
+  - clergy
+  - chain_or_insignia
+  - adults_and_children
+  - monumental_entrance
+  - Rychvald_citizens_claim
+  - exact_duplicate
+  identification:
+    status: partially_verified
+    archival_claim: s rychvaldskými občany
+    verified_from_image:
+    - large_formal_group
+    - central_clergy_with_chain_or_insignia
+    - adults_and_children
+    - monumental_entrance
+    - bouquet
+    unverified:
+    - event_identity
+    - exact_date
+    - location_and_building
+    - all_person_identities
+    - Rychvald_residency_or_delegation_status
+    - Gabriel_Chrobacek_identity
+    - episcopal_office
+  duplicate_relation:
+    exact_binary_duplicate_of: urbanek-ccs-045
+    verification: identical_git_blob_sha
+    git_blob_sha: d220a75fd2a69f43b2089c126488bbda84bea476
+    evidentiary_note: Dvě archivní cesty, ale pouze jeden nezávislý obrazový záznam.
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0062
+- id: urbanek-ccs-102
+  archival_filename: 1  Kaple CČS na Ostravici s  Winklerovou zvoničkou.jpg
+  visual_type: historical_black_and_white_hillside_chapel_exterior
+  description: Na otevřeném travnatém svahu stojí nízká světlá stavba s jednoduchým obdélným průčelím, kamennou opěrnou zdí
+    a vedlejší vysokou úzkou věžovou konstrukcí zakončenou stříškou a dlouhou tyčí. V okolí jsou louky, stromy a les.
+  subject_tags:
+  - chapel_claim
+  - Ostravice_claim
+  - modernist_small_building
+  - hillside
+  - stone_retaining_wall
+  - detached_bell_tower_claim
+  - Winkler_bell_tower_claim
+  identification:
+    status: partially_verified
+    archival_claim: kaple CČS na Ostravici s Winklerovou zvoničkou
+    verified_from_image:
+    - small_light_colored_hillside_building
+    - rectangular_entrance
+    - stone_retaining_wall
+    - tall_narrow_tower_structure
+    - meadow_and_forest_setting
+    unverified:
+    - building_identity
+    - exact_location
+    - construction_date
+    - architect
+    - ownership
+    - CČS_use
+    - tower_function
+    - Winkler_name_and_role
+    - bell_presence
+    - image_date
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0069
+- id: urbanek-ccs-103
+  archival_filename: 2  Oltář, za ním okno s obrazem Jana  Husa.jpg
+  visual_type: historical_black_and_white_chapel_altar_and_round_figural_window
+  description: Jednoduchý oltář nebo liturgický stůl je překryt světlou textilií s motivem kalicha a rostlinných prvků. Na
+    stole stojí svícny a další liturgické předměty. Za oltářem je velké kruhové členěné okno s profilovým portrétem vousatého
+    muže v pokrývce hlavy.
+  subject_tags:
+  - altar
+  - chalice_motif
+  - candlesticks
+  - round_stained_glass_or_leaded_window
+  - bearded_profile
+  - Jan_Hus_claim
+  - chapel_interior
+  identification:
+    status: partially_verified
+    archival_claim: oltář a okno s obrazem Jana Husa
+    verified_from_image:
+    - altar_or_liturgical_table
+    - chalice_motif_on_cloth
+    - multiple_candlesticks
+    - round_segmented_figural_window
+    - bearded_male_profile_with_head_covering
+    unverified:
+    - chapel_identity
+    - window_subject_identity
+    - Jan_Hus_identity
+    - artist
+    - installation_date
+    - altar_date
+    - liturgical_object_provenance
+    - image_date
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0069
+- id: urbanek-ccs-104
+  archival_filename: 3.jpg
+  visual_type: historical_black_and_white_captioned_chapel_welcome_address
+  description: Muž v obleku a brýlích stojí před oltářem a gestem pravé ruky patrně promlouvá. Ve fotografii je vložen psaný
+    popisek.
+  subject_tags:
+  - male_speaker
+  - suit
+  - glasses
+  - altar
+  - welcome_address_claim
+  - Chrobacek_claim
+  - diocesan_council_claim
+  - embedded_caption
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - male_speaker_in_suit
+    - glasses
+    - altar_background
+    - raised_hand_gesture
+    - caption_strip
+    archival_caption_claim: Zástupce diec.rady br.Chrobáček vítá účastníky.
+    unverified:
+    - speaker_identity
+    - Chrobacek_identity
+    - diocesan_council_role
+    - event_identity
+    - exact_date
+    - location
+    - audience_identity
+    - speech_content
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: transcribed
+      text: Zástupce diec.rady br.Chrobáček vítá účastníky.
+      note: Přepisuje se přesně významově čitelný vložený popisek; jeho historické tvrzení vyžaduje nezávislé ověření.
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-105
+  archival_filename: 4.jpg
+  visual_type: historical_black_and_white_captioned_child_bouquet_welcome
+  description: Dívka nebo mladá žena v oděvu s květinovým věncem předává velkou kytici muži v tmavém liturgickém oděvu a brýlích.
+    Za nimi jsou částečně viditelní další dospělí a prapor nebo textilie. Ve fotografii je vložen psaný popisek.
+  subject_tags:
+  - child_or_young_woman
+  - flower_wreath
+  - bouquet
+  - clergy
+  - bishop_claim
+  - children_delegation_claim
+  - welcome
+  - embedded_caption
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - young_female_person_with_flower_wreath
+    - large_bouquet
+    - male_clergy_in_dark_robe
+    - glasses
+    - additional_adults
+    - caption_strip
+    archival_caption_claim: Uvítání br.biskupa za děti
+    unverified:
+    - all_person_identities
+    - bishop_identity_and_office
+    - whether_girl_represents_children
+    - event_identity
+    - exact_date
+    - location
+    - relationship_to_item_104
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: transcribed
+      text: Uvítání br.biskupa za děti
+      note: Přepis vloženého popisku; titul a zastupování dětí nejsou fotografií samostatně ověřeny.
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+open_research_candidates:
+- id: URB-U-0062
+  subject: Chrobacek_final_group_exact_duplicate_and_subcollection_completion
+- id: URB-U-0069
+  subject: Ostravice_CCS_chapel_history_location_Winkler_bell_tower_and_Hus_window
+- id: URB-U-0070
+  subject: Ostravice_chapel_ceremony_date_Chrobacek_bishop_children_and_participants
+next_action: 'Pokračovat položkami urbanek-ccs-106 až urbanek-ccs-110 v podsložce Kaple CČS na Ostravici: soubory 5.jpg, 5a
+  chatka na Ostravici.jpg, 5 b Winklerova zvonička.jpg, 5 c.jpg a 5 d.jpg. Po dalších záběrech porovnat stavební vývoj kaple
+  a zvoničky, přesné místo a dataci s kronikou, stavebními a církevními záznamy. Scene text z položek 104–105 zachovat jako
+  archivní tvrzení, nikoli jako samostatně ověřenou identifikaci osob.'

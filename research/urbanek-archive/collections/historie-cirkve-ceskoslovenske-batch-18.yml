@@ -1,0 +1,112 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: chrobacek-ritual-and-wife-congratulation-18
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19 / archivní soubory 10–14"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Čtyři snímky pokračují v obřadní části série: položení ruky na skloněného
+    duchovního, úkony u oltáře, práce s knihou a kalichem a přítomnost více duchovních
+    s řetězy nebo insigniemi. Pátý snímek zachycuje gratulaci ženy duchovnímu;
+    označení ženy jako manželky pochází pouze z archivního názvu. Přesný význam
+    rituálů, jména, úřady ani datum nejsou obrazem samostatně potvrzeny.
+  basis:
+    - visual_sequence_comparison
+    - repeated_clergy_and_interior
+    - archival_sequence
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-086
+    archival_filename: "10.jpg"
+    visual_type: historical_black_and_white_laying_on_of_hands_ritual
+    description: >-
+      Dva stojící duchovní s výraznými řetězy nebo insigniemi a třetí skloněný či
+      klečící duchovní. Prostřední stojící muž drží pravou ruku nad hlavou skloněného
+      muže; vlevo stojící duchovní drží knihu. Mezi nimi je vysoká svíce.
+    subject_tags: [clergy, laying_on_of_hands, book, candle, chains_or_insignia, ritual]
+    identification:
+      status: partially_verified
+      verified_from_image: [three_clergy, hand_above_bowed_head, book, tall_candle, two_chains_or_insignia]
+      unverified: [person_identities, exact_ritual, offices, date, location, sequence_position]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-087
+    archival_filename: "11.jpg"
+    visual_type: historical_black_and_white_altar_ritual_with_book_and_chalice
+    description: >-
+      Skupina duchovních za a vedle oltáře. Uprostřed je otevřená kniha na pultu,
+      vlevo kalich a vpravo duchovní s řetězem nebo insignií držící uzavřenou knihu.
+    subject_tags: [clergy, altar, open_book, chalice, chain_or_insignia, ceremony]
+    identification:
+      status: partially_verified
+      verified_from_image: [multiple_clergy, altar, open_book, chalice, chain_or_insignia]
+      unverified: [person_identities, spoken_or_read_text, exact_ritual, offices, date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-088
+    archival_filename: "12.jpg"
+    visual_type: historical_black_and_white_clergy_closeup_with_chalice_and_book
+    description: >-
+      Detail početné skupiny duchovních u oltáře. V popředí jsou dva muži, před nimi
+      kalich a otevřená kniha; několik osob v pozadí má otevřená ústa, patrně při zpěvu
+      nebo společné recitaci.
+    subject_tags: [clergy, chalice, open_book, group_recitation_or_singing, ceremony]
+    identification:
+      status: partially_verified
+      verified_from_image: [multiple_clergy, chalice, open_book, several_open_mouths]
+      unverified: [person_identities, whether_singing_or_reciting, exact_text, ritual, date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-089
+    archival_filename: "13.jpg"
+    visual_type: historical_black_and_white_clergy_with_raised_chalice
+    description: >-
+      Duchovní s řetězem nebo insignií drží před sebou kalich. Po jeho stranách stojí
+      další muži v duchovním oděvu; na oltáři leží knihy a další předměty a vlevo je
+      květinová výzdoba.
+    subject_tags: [clergy, raised_chalice, chain_or_insignia, altar, books, flowers]
+    identification:
+      status: partially_verified
+      verified_from_image: [clergy_group, held_chalice, chain_or_insignia, altar_books, flowers]
+      unverified: [person_identities, meaning_of_chalice_act, offices, date, exact_sequence]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-090
+    archival_filename: "14  Gratulace manželce.jpg"
+    visual_type: historical_black_and_white_congratulation_at_rail
+    description: >-
+      Duchovní s výrazným řetězem nebo insignií stojí proti čtyřem ženám za dřevěným
+      zábradlím. S jednou starší ženou si podává ruku nebo přijímá drobný předmět;
+      ostatní ženy přihlížejí.
+    subject_tags: [congratulation, clergy, women, handshake_or_object_exchange, chain_or_insignia, wife_archival_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "gratulace manželce"
+      verified_from_image: [one_clergy, four_women, greeting_or_exchange, wooden_rail, chain_or_insignia]
+      unverified: [which_woman_is_wife, spouse_relationship, all_identities, exact_occasion, date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+open_research_candidates:
+  - {id: URB-U-0062, subject: Chrobacek_election_appointment_ritual_family_and_congratulations}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-091 až urbanek-ccs-095, tedy soubory 15–19.
+  Po dokončení celé podsložky porovnat obřadní posloupnost s protokolem volby,
+  programem slavnosti, kronikou a personálními záznamy; osoby a rodinné vztahy
+  neurčovat pouze podle vzhledu.

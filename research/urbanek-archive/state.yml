@@ -41,11 +41,11 @@ ccs_collection:
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 85
-    repo_verified_items: 85
-    visually_classified_items: 85
-    source_indexed_items: 85
-    remaining_items: 116
+    processed_items: 90
+    repo_verified_items: 90
+    visually_classified_items: 90
+    source_indexed_items: 90
+    remaining_items: 111
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -68,10 +68,11 @@ ccs_collection:
     - {number: 15, items: 071-075, id: stibor-visit-sequence-and-groups}
     - {number: 16, items: 076-080, id: stibor-council-and-chrobacek-election-opening}
     - {number: 17, items: 081-085, id: chrobacek-family-and-congratulations}
+    - {number: 18, items: 086-090, id: chrobacek-ritual-and-wife-congratulation}
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-17.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-17.yml
-    source_index: sources/index.d/urbanek-ccs-17.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-18.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-18.yml
+    source_index: sources/index.d/urbanek-ccs-18.yml
   technical_files:
     - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
 
@@ -79,22 +80,28 @@ uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary: {open: 34, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 68}
   ccs_range: URB-U-0039..URB-U-0068
-  batch_17_updated: [URB-U-0062]
+  batch_18_updated: [URB-U-0062]
   handling_rules:
     - Archival names and folder labels are attribution metadata, not independent historical proof.
     - Persons are not identified solely from facial appearance.
     - Truncated captions are not reconstructed by guesswork.
+    - Multiple archival reproductions of the same underlying photograph are separate files but not independent event evidence.
     - Image continuity may establish a sequence, not names, dates, family relations or offices.
     - Chains or insignia do not independently establish a specific ecclesiastical office.
+    - A visible gesture does not independently identify the exact ritual.
 
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 85, ccs_remaining_items: 116}
+  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 90, ccs_remaining_items: 111}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 
 readiness:
   status: draft_pr_open_pilot_complete_next_batch_in_progress
-  blockers_for_merge: [next_archive_batch_processing_incomplete, ccs_history_full_inventory_and_blob_verification_incomplete, ccs_history_ocr_review_incomplete, ccs_history_thumbnail_cache_not_audited]
+  blockers_for_merge:
+    - next_archive_batch_processing_incomplete
+    - ccs_history_full_inventory_and_blob_verification_incomplete
+    - ccs_history_ocr_review_incomplete
+    - ccs_history_thumbnail_cache_not_audited
   non_blocking_known_issues:
     - eleven pilot full original images are missing; only thumbnails remain in caches
     - thirty_four historical, personal, archival and technical questions remain open
@@ -102,8 +109,8 @@ readiness:
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-086, urbanek-ccs-087, urbanek-ccs-088, urbanek-ccs-089, urbanek-ccs-090]
-  expected_source_files: ["4/10.jpg", "4/11.jpg", "4/12.jpg", "4/13.jpg", "4/14  Gratulace manželce.jpg"]
+  items: [urbanek-ccs-091, urbanek-ccs-092, urbanek-ccs-093, urbanek-ccs-094, urbanek-ccs-095]
+  expected_source_files: ["4/15.jpg", "4/16.jpg", "4/17.jpg", "4/18.jpg", "4/19.jpg"]
   batch_size_rule: 5_to_10_files
   instruction: >-
     Verify source paths and Git blob SHA, classify visually, preserve rights and attribution,

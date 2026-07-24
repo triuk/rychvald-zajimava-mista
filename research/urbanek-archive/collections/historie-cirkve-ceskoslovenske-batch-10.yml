@@ -15,11 +15,15 @@ batch_assessment:
     Obrazy potvrzují viditelné obřady, osoby, předměty a prostředí, nikoli přesná
     data, identity nebo institucionální významy uvedené v názvech. Metadata dvou
     souborů nejsou spolehlivou datací události a jeden archivní název je useknutý.
+    Pozdější přesné porovnání s urbanek-ccs-097 a 098 potvrdilo, že urbanek-ccs-046
+    je další reprodukcí téže původní fotografie; samostatná listina na ní není
+    spolehlivě rozeznatelná.
   basis:
     - full_image_visual_review
     - embedded_metadata_review
     - archival_sequence
     - verified_repo_files
+    - exact_cross_batch_visual_comparison
 
 items:
   - id: urbanek-ccs-046
@@ -27,14 +31,23 @@ items:
     visual_type: historical_black_and_white_episcopal_presentation_scene
     description: >-
       Dva muži stojí v interiéru před publikem. Duchovní v tmavém rouchu s výrazným
-      řetězem drží listinu a světlou plastiku sedící mužské postavy; muž v obleku
-      stojí proti němu u květinové výzdoby.
-    subject_tags: [Gabriel_Chrobacek_claim, bishop_claim, chain_or_insignia, presentation, sculpture, document]
+      řetězem drží světlou plastiku sedící či zahalené postavy; muž v obleku stojí
+      vedle něj a mezi oběma je kytice. Samostatná listina není na dostupných
+      reprodukcích spolehlivě rozeznatelná.
+    subject_tags: [Gabriel_Chrobacek_claim, bishop_claim, chain_or_insignia, presentation, sculpture, bouquet]
     identification:
       status: partially_verified
       archival_claim: "bratr farář Gabriel Chrobáček se stal biskupem"
-      verified_from_image: [clergy_with_chain_or_insignia, civilian_man, presented_sculpture, paper_document, audience]
-      unverified: [exact_date, event_identity, Gabriel_Chrobacek_identity, episcopal_office, presenter_identity, sculpture_subject_and_provenance, document_content, relation_to_inauguration_group]
+      verified_from_image: [clergy_with_chain_or_insignia, civilian_man, light_sculpture, bouquet, audience]
+      unverified: [exact_date, event_identity, Gabriel_Chrobacek_identity, episcopal_office, presenter_identity, sculpture_subject_and_provenance, relation_to_inauguration_group]
+    duplicate_relation:
+      same_underlying_photograph_as: [urbanek-ccs-097, urbanek-ccs-098]
+      verification: exact_visual_comparison
+      evidentiary_note: "Samostatný soubor, nikoli nezávislý záběr události."
+    correction_note: >-
+      Původní první průchod uváděl listinu. Porovnání tří reprodukcí ukázalo, že
+      samostatný dokument nelze bezpečně oddělit od plastiky, jejího podstavce
+      nebo drapérie; údaj byl proto odstraněn.
     ocr:
       document_text: not_applicable
       scene_text: not_readable

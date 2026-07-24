@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_09_open_items_updated_through_batch_18
+scope: ccs_batch_09_open_items_updated_through_batch_19
 items:
   - id: URB-U-0061
     status: open
@@ -67,17 +67,18 @@ items:
     status: open
     priority: high
     collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: Gabriel_Chrobacek_identity_election_appointment_inauguration_ritual_family_congratulations_portrait_presentation_and_delegation
+    type: Gabriel_Chrobacek_identity_election_appointment_inauguration_investiture_document_ritual_family_congratulations_portrait_presentation_and_delegation
     related_open_items: [URB-U-0055, URB-U-0059, URB-U-0063]
-    source_items: [urbanek-ccs-045, urbanek-ccs-046, urbanek-ccs-061, urbanek-ccs-077, urbanek-ccs-078, urbanek-ccs-079, urbanek-ccs-080, urbanek-ccs-081, urbanek-ccs-082, urbanek-ccs-083, urbanek-ccs-084, urbanek-ccs-085, urbanek-ccs-086, urbanek-ccs-087, urbanek-ccs-088, urbanek-ccs-089, urbanek-ccs-090]
+    source_items: [urbanek-ccs-045, urbanek-ccs-046, urbanek-ccs-061, urbanek-ccs-077, urbanek-ccs-078, urbanek-ccs-079, urbanek-ccs-080, urbanek-ccs-081, urbanek-ccs-082, urbanek-ccs-083, urbanek-ccs-084, urbanek-ccs-085, urbanek-ccs-086, urbanek-ccs-087, urbanek-ccs-088, urbanek-ccs-089, urbanek-ccs-090, urbanek-ccs-091, urbanek-ccs-092, urbanek-ccs-093, urbanek-ccs-094, urbanek-ccs-095]
     question: >-
       Kdy, kde a do jakého biskupského úřadu byl Gabriel Chrobáček zvolen, ustanoven
-      a inaugurován, jaké úkony zachycují čtení listiny, obřady u oltáře, položení ruky,
-      práce s knihou a kalichem a následné gratulace, kdo jsou jejich účastníci a jaké
-      měli úřady, kdo byli archivně označení příbuzní Jaromír, Milena, Miluše, manželka
-      a neúplně uvedená paní S…, zachycují fotografie tutéž osobu a slavnost, kdo tvořil
-      rychvaldskou delegaci, kdo předává plastiku, co představuje, co znamenají řetězy
-      a jak zněly useknuté popisky a celý rok v názvu podsložky končícím „v r. 19“?
+      a inaugurován, jaké úkony zachycují čtení a předávání listin, proslovy, obřady
+      u oltáře, položení ruky a fyzické nasazení řetězu nebo insignie, kdo jsou jejich
+      účastníci a jaké měli úřady, kdo byli archivně označení příbuzní Jaromír, Milena,
+      Miluše, manželka a neúplně uvedená paní S…, zachycují fotografie tutéž osobu a
+      slavnost, kdo tvořil rychvaldskou delegaci, kdo předává plastiku, co představuje,
+      co znamenají řetězy a jak zněly useknuté popisky a celý rok v názvu podsložky
+      končícím „v r. 19“?
     known_facts:
       - "Urbanek-ccs-045 zachycuje velkou formální skupinu několika desítek dospělých a dětí před monumentálním vstupem."
       - "Uprostřed přední řady urbanek-ccs-045 sedí duchovní s výrazným řetězem nebo insignií; po jeho stranách sedí dvě ženy a jedna drží kytici."
@@ -90,7 +91,12 @@ items:
       - "Urbanek-ccs-086 zachycuje stojícího duchovního, který drží ruku nad hlavou skloněného či klečícího duchovního; jiný duchovní drží knihu a mezi nimi je vysoká svíce."
       - "Urbanek-ccs-087 až 089 zachycují navazující úkony u oltáře s otevřenou knihou, kalichem a více duchovními; na urbanek-ccs-089 drží duchovní s řetězem kalich."
       - "Urbanek-ccs-090 zachycuje duchovního s řetězem při pozdravu nebo předání se skupinou žen; označení manželky pochází pouze z názvu souboru."
-      - "Snímky 077 až 090 podle stejného prostředí, pořadí a opakujících se účastníků tvoří pravděpodobnou obřadní a gratulační posloupnost, ale neobsahují jména, datum ani čitelný identifikační text."
+      - "Urbanek-ccs-091 zachycuje vystoupení duchovního s řetězem před shromážděním a dalšími sedícími duchovními."
+      - "Urbanek-ccs-092 obrazově dokládá, že stojící duchovní fyzicky nasazuje řetěz nebo insignii kolem krku skloněného duchovního."
+      - "Urbanek-ccs-093 zachycuje dva hlavní duchovní s řetězy u oltáře s kalichem a otevřenou knihou."
+      - "Urbanek-ccs-094 zachycuje dva proti sobě stojící duchovní; jeden drží složený list či dokument a druhý k němu natahuje ruku."
+      - "Urbanek-ccs-095 zachycuje stojícího duchovního s řetězem při vystoupení, modlitbě nebo zpěvu a sedícího duchovního s otevřenou složkou či knihou."
+      - "Snímky 077 až 095 podle stejného prostředí, pořadí a opakujících se účastníků tvoří pravděpodobnou obřadní, investiční a gratulační posloupnost, ale neobsahují jména, datum ani čitelný identifikační text."
       - "Název podsložky uvádí slavnostní volbu a jmenování Gabriela Chrobáčka, avšak končí neúplným údajem v r. 19."
       - "Jména, rodinné vztahy, úřady osob a význam insignií nesmějí být potvrzeny pouze porovnáním tváří nebo vzhledu."
     unresolved_attributes:
@@ -101,16 +107,19 @@ items:
       - Gabriel_Chrobacek_identity_on_each_image
       - identities_and_offices_of_chain_or_insignia_bearers
       - meaning_provenance_and_official_use_of_chains_or_insignia
-      - exact_ritual_and_documentary_sequence_of_items_077_to_090
+      - exact_ritual_and_documentary_sequence_of_items_077_to_095
       - exact_meaning_of_laying_on_of_hands_item_086
+      - exact_meaning_and_authority_of_chain_or_insignia_placement_item_092
       - reader_identity_and_document_content_on_item_078
+      - identity_and_content_of_folded_document_item_094
       - officiants_roles_and_liturgical_or_appointment_acts
-      - exact_meaning_of_book_and_chalice_actions_items_087_to_089
+      - exact_meaning_of_book_and_chalice_actions
+      - speech_prayer_or_song_content_items_091_and_095
       - identities_and_roles_of_congregation_and_gratulants
       - Jaromir_Milena_Miluse_and_wife_identities_and_relationships
       - complete_identity_of_truncated_pani_S
       - identity_of_woman_called_wife_on_item_090
-      - whether_items_077_to_090_show_one_event
+      - whether_items_077_to_095_show_one_event
       - date_occasion_and_provenance_of_portrait_061
       - Rychvald_delegation_membership_and_count
       - presenter_identity
@@ -119,16 +128,18 @@ items:
       - complete_original_captions
     next_action: >-
       Dokončit celou podsložku a poté hledat protokol volby a jmenování, diecézní a
-      sborovou kroniku, dobový tisk, program slavnosti, rodinné a personální záznamy,
-      seznam delegace a záznam o daru nebo plastice. Získat úplný název podsložky a
-      useknuté popisky. Osoby, rodinné vztahy, úřady, rituály ani význam insignií
-      neurčovat pouze podle vzhledu.
+      sborovou kroniku, dobový tisk, program slavnosti, texty listin a proslovů, rodinné
+      a personální záznamy, seznam delegace a záznam o daru nebo plastice. Získat úplný
+      název podsložky a useknuté popisky. Osoby, rodinné vztahy, úřady, rituály ani
+      význam insignií neurčovat pouze podle vzhledu.
     reopen_triggers:
       - full_Chrobacek_subcollection_processed
       - election_appointment_or_inauguration_protocol_found
       - complete_folder_title_found
       - diocesan_chronicle_entry_found
       - dated_press_report_found
+      - investiture_or_insignia_record_found
+      - appointment_document_or_speech_found
       - family_or_personnel_record_found
       - Rychvald_delegation_list_found
       - gift_or_sculpture_record_found
@@ -147,3 +158,5 @@ items:
       - sources/index.d/urbanek-ccs-17.yml
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-18.yml
       - sources/index.d/urbanek-ccs-18.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-19.yml
+      - sources/index.d/urbanek-ccs-19.yml

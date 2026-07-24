@@ -13,12 +13,14 @@ sources:
     git_blob_sha: a374052affe79a66495f4c6e6125c7b068307987
     digital_format: JPEG
     text_layer: absent
-    readability: {status: good, note: "Duchovní s řetězem, muž v obleku, plastika a listina jsou dobře čitelné."}
-    visual_content: {photographs: single_historical_clergy_presentation_scene, scene_text: not_readable, method: "Vizuální kontrola celého obrazu."}
+    readability: {status: good, note: "Duchovní s řetězem, muž v obleku, světlá plastika a kytice jsou dobře čitelné; samostatná listina nikoli."}
+    visual_content: {photographs: single_historical_clergy_presentation_scene, scene_text: not_readable, method: "Vizuální kontrola a pozdější přesné porovnání s urbanek-ccs-097 a 098."}
+    duplicate_relation: {same_underlying_photograph_as: [urbanek-ccs-097, urbanek-ccs-098], evidentiary_independence: false}
     rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
     notes:
       - Jméno Gabriel Chrobáček a biskupský význam pocházejí z archivního názvu.
-      - Fotografie sama neurčuje předmět plastiky ani přesnou událost.
+      - Fotografie sama neurčuje námět plastiky, její původ ani přesnou událost.
+      - Původní první průchod mylně uváděl samostatnou listinu; údaj byl po porovnání tří reprodukcí opraven.
       - Rozšiřuje URB-U-0062.
 
   - source_id: urbanek-ccs-047

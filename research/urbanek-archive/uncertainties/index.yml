@@ -1,60 +1,63 @@
 schema_version: 2
-summary: {open: 34, deferred: 0, resolved: 31, not_actionable: 3, total: 68}
+summary: {open: 36, deferred: 0, resolved: 31, not_actionable: 3, total: 70}
 open_files:
-  - open-01.yml
-  - open-03.yml
-  - open-04.yml
-  - open-05.yml
-  - open-06.yml
-  - open-07.yml
-  - open-08.yml
-  - open-09.yml
-  - open-10.yml
-  - open-11.yml
-  - open-12.yml
-  - open-13.yml
-  - open-14.yml
-  - open-15.yml
-  - open-16.yml
+- open-01.yml
+- open-03.yml
+- open-04.yml
+- open-05.yml
+- open-06.yml
+- open-07.yml
+- open-08.yml
+- open-09.yml
+- open-10.yml
+- open-11.yml
+- open-12.yml
+- open-13.yml
+- open-14.yml
+- open-15.yml
+- open-16.yml
+- open-17.yml
 closed_files:
-  - closed-01a.yml
-  - closed-01b.yml
-  - closed-02a.yml
-  - closed-02b.yml
-  - closed-03.yml
-  - closed-04.yml
-  - closed-05.yml
-  - closed-06.yml
-  - closed-07.yml
-  - closed-08.yml
-  - closed-09.yml
-  - closed-10.yml
-  - closed-11.yml
-  - closed-12.yml
-  - closed-13.yml
-  - closed-14.yml
-  - closed-15.yml
-  - closed-16.yml
-  - closed-17.yml
-  - closed-18.yml
-  - closed-19.yml
-  - closed-20.yml
+- closed-01a.yml
+- closed-01b.yml
+- closed-02a.yml
+- closed-02b.yml
+- closed-03.yml
+- closed-04.yml
+- closed-05.yml
+- closed-06.yml
+- closed-07.yml
+- closed-08.yml
+- closed-09.yml
+- closed-10.yml
+- closed-11.yml
+- closed-12.yml
+- closed-13.yml
+- closed-14.yml
+- closed-15.yml
+- closed-16.yml
+- closed-17.yml
+- closed-18.yml
+- closed-19.yml
+- closed-20.yml
 rules:
-  - A thumbnail in Thumbs.db without a standalone full file means the full original is missing; visually verified duplicate thumbnails do not represent additional missing image content.
-  - When one part of a question is resolved but other material attributes remain unknown, keep the resolved finding closed and create a linked open item for the unresolved attributes.
-  - Incidental surrounding content captured outside the intended clipping scope is not treated as a separate document or identification task.
-  - A documented physical or cropping lacuna may be closed when all surviving text is transcribed and the missing content is not to remain an ongoing search task; the gap must remain explicitly marked and must never be reconstructed by guesswork.
-  - A printed cast and a differently named archival photograph may both be correct when user testimony confirms role alternation and the named person is independently documented as a member of the ensemble.
-  - When one source gives an exact count and another explicitly approximate rounded count for the same event, preserve both readings but use the exact count for factual synthesis.
-  - When a printed program and the dramatic text agree on a character name, an incompatible name in a later retrospective article is recorded as an authorial or typographical error rather than silently normalized in the transcription.
-  - A missing continuation on a demonstrably absent following page may be closed as a known lacuna when the user declines further searching; no text may be reconstructed from context alone.
-  - Ambiguous handwritten dates must be rechecked at maximum useful enlargement and compared by digit shape before treating an apparent chronology conflict as substantive.
-  - An archival filename or folder label is evidence of archival attribution, not independent proof of a date, event, person or technical history; unresolved attributes receive a stable registry item.
-  - A visually readable year on an object verifies the inscription only, not automatically the object's manufacture, installation or dedication date.
-  - A gap in archival filename numbering is recorded as an archive-sequence uncertainty, but is not classified as a missing full original until a thumbnail, manifest entry or other concrete reference proves that a separate image existed.
-  - Persons in photographs are not identified solely from facial appearance; identification requires a caption, documentary source, user testimony or another explicit evidentiary link.
-  - A visually established relative sequence of architectural states does not by itself verify the absolute years assigned in archival filenames.
-  - Text missing from a demonstrably truncated archival filename is recorded as an uncertainty and is never reconstructed solely from grammar, context or the pictured scene.
-  - Embedded dates conflicting with visible season, source age or reproduction context are preserved as metadata but are not used as event dates without corroboration.
-  - A readable memorial inscription verifies the wording present on the object; the biographical and historical claims within it remain subject to independent source verification.
-  - Repeated appearance of the same people across photographs can establish an image sequence, but not their names, family relationships or official roles without an explicit evidentiary link.
+- A thumbnail in Thumbs.db without a standalone full file means the full original is missing; visually verified duplicate thumbnails do not represent additional missing image content.
+- When one part of a question is resolved but other material attributes remain unknown, keep the resolved finding closed and create a linked open item for the unresolved attributes.
+- Incidental surrounding content captured outside the intended clipping scope is not treated as a separate document or identification task.
+- A documented physical or cropping lacuna may be closed when all surviving text is transcribed and the missing content is not to remain an ongoing search task; the gap must remain explicitly marked and must never be reconstructed by guesswork.
+- A printed cast and a differently named archival photograph may both be correct when user testimony confirms role alternation and the named person is independently documented as a member of the ensemble.
+- When one source gives an exact count and another explicitly approximate rounded count for the same event, preserve both readings but use the exact count for factual synthesis.
+- When a printed program and the dramatic text agree on a character name, an incompatible name in a later retrospective article is recorded as an authorial or typographical error rather than silently normalized in the transcription.
+- A missing continuation on a demonstrably absent following page may be closed as a known lacuna when the user declines further searching; no text may be reconstructed from context alone.
+- Ambiguous handwritten dates must be rechecked at maximum useful enlargement and compared by digit shape before treating an apparent chronology conflict as substantive.
+- An archival filename or folder label is evidence of archival attribution, not independent proof of a date, event, person or technical history; unresolved attributes receive a stable registry item.
+- A visually readable year on an object verifies the inscription only, not automatically the object's manufacture, installation or dedication date.
+- A gap in archival filename numbering is recorded as an archive-sequence uncertainty, but is not classified as a missing full original until a thumbnail, manifest entry or other concrete reference proves that a separate image existed.
+- Persons in photographs are not identified solely from facial appearance; identification requires a caption, documentary source, user testimony or another explicit evidentiary link.
+- A visually established relative sequence of architectural states does not by itself verify the absolute years assigned in archival filenames.
+- Text missing from a demonstrably truncated archival filename is recorded as an uncertainty and is never reconstructed solely from grammar, context or the pictured scene.
+- Embedded dates conflicting with visible season, source age or reproduction context are preserved as metadata but are not used as event dates without corroboration.
+- A readable memorial inscription verifies the wording present on the object; the biographical and historical claims within it remain subject to independent source verification.
+- Repeated appearance of the same people across photographs can establish an image sequence, but not their names, family relationships or official roles without an explicit evidentiary link.
+- Exact binary duplicates under different archive paths are separate inventory items but only one independent piece of image evidence.
+- A readable caption embedded in a photographic reproduction verifies the caption wording, not automatically the people, offices, event or date asserted by that caption.

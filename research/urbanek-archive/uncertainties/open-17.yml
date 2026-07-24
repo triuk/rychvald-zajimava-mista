@@ -1,0 +1,97 @@
+schema_version: 1
+scope: ccs_batch_21_new_open_items
+items:
+- id: URB-U-0069
+  status: open
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: Ostravice_CCS_chapel_identity_location_history_architecture_Winkler_bell_tower_Hus_window_and_current_state
+  source_items:
+  - urbanek-ccs-102
+  - urbanek-ccs-103
+  question: Kde přesně stála nebo stojí archivně označená kaple CČS na Ostravici, kdy a kým byla postavena, projektována,
+    vysvěcena a užívána, komu patřila, co přesně je takzvaná Winklerova zvonička, kdo byl Winkler, kdy vznikla a jaké měla
+    zvony či funkci, jak se stavba a zvonička měnily, kdo vytvořil kruhové figurální okno a zda skutečně zobrazuje Jana Husa?
+  known_facts:
+  - Urbanek-ccs-102 zachycuje malou světlou stavbu na travnatém svahu s obdélným vstupem, kamennou opěrnou zdí a vysokou úzkou
+    věžovou konstrukcí.
+  - Název urbanek-ccs-102 označuje objekt jako kapli CČS na Ostravici a věž jako Winklerovu zvoničku; jde o archivní atribuci,
+    nikoli nezávislé potvrzení.
+  - Urbanek-ccs-103 zachycuje oltář nebo liturgický stůl s motivem kalicha, svícny a kruhové členěné okno s profilovým portrétem
+    vousatého muže v pokrývce hlavy.
+  - Název urbanek-ccs-103 připisuje portrét Janu Husovi; fotografie sama potvrzuje pouze viditelnou figurální podobu.
+  - Ani jeden soubor neobsahuje použitelné embedded datum.
+  unresolved_attributes:
+  - exact_address_coordinates_and_parcel
+  - building_identity_and_relationship_to_current_site
+  - construction_design_dedication_and_opening_dates
+  - architect_builder_donor_owner_and_operator
+  - CČS_or_CČSH_institutional_status_and_use
+  - Winkler_full_identity_role_and_name_origin
+  - bell_tower_function_construction_date_and_bell_history
+  - architectural_changes_reconstruction_demolition_or_replacement
+  - altar_and_liturgical_furnishings_history
+  - round_window_artist_date_subject_and_provenance
+  - independent_confirmation_of_Jan_Hus_depiction
+  - dates_and_provenance_of_images_102_and_103
+  next_action: Dokončit celou ostravickou podsložku a porovnat stavební stavy. Poté hledat církevní a obecní kroniku, stavební
+    spis, katastrální a mapové podklady, diecézní archiv CČSH, dobový tisk, údaje o Winklerovi, zvonech a autorovi figurálního
+    okna. Zvlášť ověřit pozdější snímky a tvrzení o výměně zvoničky roku 2016.
+  reopen_triggers:
+  - full_Ostravice_chapel_subcollection_processed
+  - church_or_municipal_chronicle_found
+  - building_permit_or_architectural_plan_found
+  - cadastral_or_map_identification_found
+  - Winkler_person_or_donation_record_found
+  - bell_inventory_or_dedication_record_found
+  - window_artist_or_commission_record_found
+  - dated_parallel_photograph_found
+  - current_site_documented
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml
+  - sources/index.d/urbanek-ccs-21.yml
+- id: URB-U-0070
+  status: open
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: Ostravice_chapel_ceremony_date_Chrobacek_diocesan_council_bishop_children_participants_and_sequence
+  source_items:
+  - urbanek-ccs-104
+  - urbanek-ccs-105
+  question: Jakou slavnost nebo bohoslužbu zachycují popsané snímky z kaple na Ostravici, kdy a kde se konala, zda oba snímky
+    patří k téže události, kdo byl muž označený popiskem jako zástupce diecézní rady bratr Chrobáček, koho popisek označuje
+    jako biskupa, kdo byla dívka s květinovým věncem, které děti zastupovala a kdo byli ostatní účastníci?
+  known_facts:
+  - Urbanek-ccs-104 zachycuje muže v obleku a brýlích před oltářem při gestu připomínajícím proslov.
+  - Vložený popisek na urbanek-ccs-104 je čitelný jako „Zástupce diec.rady br.Chrobáček vítá účastníky.“
+  - Urbanek-ccs-105 zachycuje dívku nebo mladou ženu s květinovým věncem při předávání kytice muži v tmavém liturgickém oděvu
+    a brýlích.
+  - Vložený popisek na urbanek-ccs-105 je čitelný jako „Uvítání br.biskupa za děti“.
+  - Přepisy popisků jsou obrazově ověřené, ale jejich tvrzení o jménech, funkcích a reprezentaci dětí vyžadují nezávislé potvrzení.
+  - Ani jeden soubor neobsahuje použitelné embedded datum.
+  unresolved_attributes:
+  - exact_event_name_purpose_and_date
+  - exact_location_and_relationship_to_chapel
+  - whether_items_104_and_105_show_same_event
+  - Chrobacek_full_identity_and_diocesan_council_role
+  - bishop_identity_office_and_visit_context
+  - girl_identity_age_and_community
+  - meaning_of_representing_children
+  - identities_and_roles_of_other_participants
+  - speech_and_welcome_program_content
+  - caption_author_date_and_provenance
+  - image_dates_and_photographers
+  next_action: Dokončit navazující slavnostní fotografie v podsložce a porovnat osoby, oltář, prapory a pořadí. Hledat program
+    slavnosti, kroniku kaple, diecézní zápis, dobový tisk, seznam duchovních a delegací a úplné album s původními popisky.
+    Jména a úřady nepřidělovat pouze podle obličeje.
+  reopen_triggers:
+  - full_Ostravice_chapel_ceremony_sequence_processed
+  - dated_event_program_found
+  - chapel_chronicle_entry_found
+  - diocesan_council_record_found
+  - bishop_visit_record_found
+  - captioned_parallel_photo_found
+  - participant_identification_provided
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml
+  - sources/index.d/urbanek-ccs-21.yml

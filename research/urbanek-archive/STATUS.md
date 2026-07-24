@@ -44,63 +44,62 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je dvacet dávek po pěti snímcích, tedy `urbanek-ccs-001` až `100`.
+Dokončeno je dvacet jedna dávek po pěti snímcích, tedy `urbanek-ccs-001` až `105`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **100 z 201 položek**;
-- proti Git blob SHA ověřeno: **100 položek**;
-- vizuálně klasifikováno: **100 položek**;
-- zdrojově indexováno: **100 položek**;
-- zbývá: **101 položek**.
+- zpracováno: **105 z 201 položek**;
+- proti Git blob SHA ověřeno: **105 položek**;
+- vizuálně klasifikováno: **105 položek**;
+- zdrojově indexováno: **105 položek**;
+- zbývá: **96 položek**.
 
-### Zjištění dávky 20
+### Zjištění dávky 21
 
-Dávka 20 pokračuje v závěrečné části série archivně připisované volbě a jmenování Gabriela Chrobáčka.
+Dávka 21 uzavírá Chrobáčkovu podsložku a otevírá podsložku `5 Kaple CČS na Ostravici`.
 
-- `urbanek-ccs-096` zachycuje ženu nebo dívku v bohatě zdobeném kroji s velkou kyticí před duchovním s řetězem nebo insignií. Identita, původ kroje ani role nejsou obrazem určeny.
-- `urbanek-ccs-097` a `098` jsou užší a širší reprodukce téhož původního snímku: muž v obleku stojí vedle duchovního s řetězem, který drží světlou plastiku; mezi nimi je kytice.
-- Přesné obrazové porovnání potvrdilo, že stejnou původní fotografii používá také dřívější `urbanek-ccs-046`. Tři soubory jsou archivně samostatné, ale představují pouze jeden nezávislý obrazový záznam.
-- Porovnání současně opravilo starší interpretaci `urbanek-ccs-046`: samostatná listina není na třech reprodukcích spolehlivě rozeznatelná; světlý útvar odpovídá plastice a jejímu podstavci nebo drapérii.
-- `urbanek-ccs-099` zachycuje duchovního s řetězem při vystoupení nebo čtení z listu papíru.
-- `urbanek-ccs-100` zachycuje stojící shromáždění v dřevěných lavicích. Stejné prostředí a opakující se účastníci podporují vztah k `urbanek-ccs-080`, kde je přední řada zachycena vsedě.
-- Jména, datum, úřady, původ kroje, role muže v obleku, námět a provenience plastiky ani přesné pořadí úkonů nejsou fotografiemi samostatně potvrzeny.
+- `urbanek-ccs-101` zachycuje velkou skupinu před monumentálním vstupem. Je přesnou binární kopií `urbanek-ccs-045`; oba soubory mají blob SHA `d220a75fd2a69f43b2089c126488bbda84bea476`. Dvě archivní cesty proto představují jediný nezávislý obrazový záznam.
+- `urbanek-ccs-102` zachycuje malou světlou stavbu na travnatém svahu s kamennou opěrnou zdí a vysokou úzkou věžovou konstrukcí. Označení kaple CČS na Ostravici a Winklerovy zvoničky pochází z archivního názvu.
+- `urbanek-ccs-103` zachycuje oltář s motivem kalicha, svícny a kruhové figurální okno s profilem vousatého muže. Určení postavy jako Jana Husa pochází z archivního názvu.
+- `urbanek-ccs-104` obsahuje čitelný vložený popisek: „Zástupce diec.rady br.Chrobáček vítá účastníky.“ Přepis textu je ověřen, identita muže a funkce uvedená v popisku nikoli.
+- `urbanek-ccs-105` obsahuje čitelný vložený popisek: „Uvítání br.biskupa za děti“. Obraz zachycuje předání kytice mladou ženou nebo dívkou duchovnímu; identity, úřad a zastupování dětí nejsou samostatně ověřeny.
+- Chrobáčkova podsložka má nyní zpracováno všech 25 souborů. Historické otázky v `URB-U-0062` zůstávají otevřené.
+- Dávka vytvořila nové položky `URB-U-0069` pro kapli, zvoničku a figurální okno a `URB-U-0070` pro slavnost, Chrobáčka, biskupa a dětské uvítání.
 
-Pracovní soubory dávky 20:
+Pracovní soubory dávky 21:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-20.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-20.yml`;
-- `sources/index.d/urbanek-ccs-20.yml`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-21.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml`;
+- `sources/index.d/urbanek-ccs-21.yml`;
+- nový `research/urbanek-archive/uncertainties/open-17.yml`;
 - rozšířený `research/urbanek-archive/uncertainties/open-12.yml`;
-- opravené `historie-cirkve-ceskoslovenske-batch-10.yml` a `sources/index.d/urbanek-ccs-10.yml`.
+- doplněná vazba přesné kopie v dávce 09 a `sources/index.d/urbanek-ccs-09.yml`.
 
 ## Registr nejistot
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 34;
+- `open`: 36;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 68.
+- celkem: 70.
 
-Dávka 20 nepřidala nové ID. Rozšířila `URB-U-0062` o krojovanou gratulantku, tři reprodukce stejné fotografie, opravu interpretace listiny, proslov s papírem a vztah stojícího shromáždění k dřívějšímu záběru.
-
-Osoby se neidentifikují pouze podle obličeje. Přesná shoda reprodukcí potvrzuje společnou fotografickou předlohu, nikoli nezávislé historické potvrzení události.
+Dávka 21 přidala `URB-U-0069` a `URB-U-0070` a rozšířila `URB-U-0062` o přesnou kopii položek `045/101`. Přesná binární kopie není druhým historickým svědectvím a čitelný vložený popisek potvrzuje své znění, nikoli automaticky osoby, úřady, událost nebo datum.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 100 zpracovaných a 101 zbývajících položek;
-- registr používá součty 34/31/3/68;
+- aktuální průběžný stav je 105 zpracovaných a 96 zbývajících položek;
+- registr používá součty 36/31/3/70;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-101` až `urbanek-ccs-105`.
-- Očekávané archivní názvy: `25  S rychvaldskými občany.jpg`, poté v podsložce `5 Kaple CČS na Ostravici` soubory `1  Kaple CČS na Ostravici s  Winklerovou zvoničkou.jpg`, `2  Oltář, za ním okno s obrazem Jana  Husa.jpg`, `3.jpg` a `4.jpg`.
+- Následující položky: `urbanek-ccs-106` až `urbanek-ccs-110`.
+- Očekávané archivní názvy v podsložce `5 Kaple CČS na Ostravici`: `5.jpg`, `5a chatka na Ostravici.jpg`, `5 b Winklerova zvonička.jpg`, `5 c.jpg` a `5 d.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

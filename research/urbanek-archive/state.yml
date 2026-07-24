@@ -2,16 +2,14 @@ schema_version: 3
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
-
 source:
   root: sources/osobni-archiv-jaromira-urbanka
-  attribution: "Z osobního archivu p. Jaromíra Urbánka."
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
   permission_confirmed: true
   preserve_original_paths: true
   preserve_original_filenames: true
   modify_originals: false
   authoritative_storage: git_repository
-
 authoritative_files:
   rules: AGENTS.md
   human_status: research/urbanek-archive/STATUS.md
@@ -20,7 +18,6 @@ authoritative_files:
   pilot_reconciliation: research/urbanek-archive/reports/pilot-reconciliation.md
   ccs_collection_overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
   ccs_source_index_pattern: sources/index.d/urbanek-ccs{-NN}.yml
-
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
@@ -29,11 +26,9 @@ pull_request:
   base: main
   head: agent/import-urbanek-pilot
   merge_requested: false
-
 pilot:
   status: completed
   totals: {collections: 5, content_files: 144, technical_files: 15, total_items: 159, repo_verified_items: 159, repo_missing_items: 0, missing_full_original_images_known_only_from_thumbnail_caches: 11}
-
 ccs_collection:
   id: urbanek-ccs-history
   name: Historie Církve československé v Rychvaldě ve fotografiích
@@ -41,82 +36,74 @@ ccs_collection:
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 100
-    repo_verified_items: 100
-    visually_classified_items: 100
-    source_indexed_items: 100
-    remaining_items: 101
+    processed_items: 105
+    repo_verified_items: 105
+    visually_classified_items: 105
+    source_indexed_items: 105
+    remaining_items: 96
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
     thumbnail_cache_audit_status: pending
   completed_batches:
-    - {number: 1, items: 001-005, id: construction-sequence}
-    - {number: 2, items: 006-010, id: opening-and-early-interior}
-    - {number: 3, items: 011-015, id: first-communion-council-and-bells}
-    - {number: 4, items: 016-020, id: murals-occupation-exteriors-and-organ}
-    - {number: 5, items: 021-025, id: wedding-reconstruction-and-bishop}
-    - {number: 6, items: 026-030, id: reconstructed-chancel-carpet-and-obsil-murals}
-    - {number: 7, items: 031-035, id: anniversary-and-postwar-communion-groups}
-    - {number: 8, items: 036-040, id: renewed-communion-councils-and-choir}
-    - {number: 9, items: 041-045, id: modern-choir-and-chrobacek-inauguration}
-    - {number: 10, items: 046-050, id: chrobacek-anniversary-baptism-and-hus-commemoration}
-    - {number: 11, items: 051-055, id: hus-commemoration-and-living-nativity}
-    - {number: 12, items: 056-060, id: living-nativity-concerts-and-vodicka-memorial}
-    - {number: 13, items: 061-065, id: clergy-portraits-and-vodicka-bogumski-visit}
-    - {number: 14, items: 066-070, id: fiftieth-anniversary-baptisms-and-stibor-welcome}
-    - {number: 15, items: 071-075, id: stibor-visit-sequence-and-groups}
-    - {number: 16, items: 076-080, id: stibor-council-and-chrobacek-election-opening}
-    - {number: 17, items: 081-085, id: chrobacek-family-and-congratulations}
-    - {number: 18, items: 086-090, id: chrobacek-ritual-and-wife-congratulation}
-    - {number: 19, items: 091-095, id: chrobacek-investiture-address-and-document}
-    - {number: 20, items: 096-100, id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation}
+  - {number: 1, items: 001-005, id: construction-sequence}
+  - {number: 2, items: 006-010, id: opening-and-early-interior}
+  - {number: 3, items: 011-015, id: first-communion-council-and-bells}
+  - {number: 4, items: 016-020, id: murals-occupation-exteriors-and-organ}
+  - {number: 5, items: 021-025, id: wedding-reconstruction-and-bishop}
+  - {number: 6, items: 026-030, id: reconstructed-chancel-carpet-and-obsil-murals}
+  - {number: 7, items: 031-035, id: anniversary-and-postwar-communion-groups}
+  - {number: 8, items: 036-040, id: renewed-communion-councils-and-choir}
+  - {number: 9, items: 041-045, id: modern-choir-and-chrobacek-inauguration}
+  - {number: 10, items: 046-050, id: chrobacek-anniversary-baptism-and-hus-commemoration}
+  - {number: 11, items: 051-055, id: hus-commemoration-and-living-nativity}
+  - {number: 12, items: 056-060, id: living-nativity-concerts-and-vodicka-memorial}
+  - {number: 13, items: 061-065, id: clergy-portraits-and-vodicka-bogumski-visit}
+  - {number: 14, items: 066-070, id: fiftieth-anniversary-baptisms-and-stibor-welcome}
+  - {number: 15, items: 071-075, id: stibor-visit-sequence-and-groups}
+  - {number: 16, items: 076-080, id: stibor-council-and-chrobacek-election-opening}
+  - {number: 17, items: 081-085, id: chrobacek-family-and-congratulations}
+  - {number: 18, items: 086-090, id: chrobacek-ritual-and-wife-congratulation}
+  - {number: 19, items: 091-095, id: chrobacek-investiture-address-and-document}
+  - {number: 20, items: 096-100, id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation}
+  - {number: 21, items: 101-105, id: chrobacek-final-duplicate-and-ostravice-chapel-opening}
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-20.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-20.yml
-    source_index: sources/index.d/urbanek-ccs-20.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-21.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml
+    source_index: sources/index.d/urbanek-ccs-21.yml
   technical_files:
-    - {path: "10 Kalendář 2015/Thumbs.db", audit_status: pending}
-
+  - {path: 10 Kalendář 2015/Thumbs.db, audit_status: pending}
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
-  summary: {open: 34, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 68}
-  ccs_range: URB-U-0039..URB-U-0068
-  batch_20_updated: [URB-U-0062]
+  summary: {open: 36, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 70}
+  ccs_range: URB-U-0039..URB-U-0070
+  batch_21_updated: [URB-U-0062]
+  batch_21_created: [URB-U-0069, URB-U-0070]
   handling_rules:
-    - Archival names and folder labels are attribution metadata, not independent historical proof.
-    - Persons are not identified solely from facial appearance.
-    - Truncated captions are not reconstructed by guesswork.
-    - Multiple archival reproductions of the same underlying photograph are separate files but not independent event evidence.
-    - Image continuity may establish a sequence, not names, dates, family relations or offices.
-    - Chains or insignia do not independently establish a specific ecclesiastical office.
-    - A visible gesture does not independently identify the exact ritual.
-    - Physical placement of an insignia verifies the action, not the recipient identity or legal meaning.
-    - Exact visual matching can establish a shared photographic original, not independent historical corroboration.
-
+  - Archival names and folder labels are attribution metadata, not independent historical proof.
+  - Persons are not identified solely from facial appearance.
+  - Truncated captions are not reconstructed by guesswork.
+  - Multiple archival reproductions of the same underlying photograph are separate files but not independent event evidence.
+  - Exact binary duplicates under different paths are separate inventory items but only one independent image record.
+  - Image continuity may establish a sequence, not names, dates, family relations or offices.
+  - Chains or insignia do not independently establish a specific ecclesiastical office.
+  - A visible gesture does not independently identify the exact ritual.
+  - Physical placement of an insignia verifies the action, not the recipient identity or legal meaning.
+  - A readable caption embedded in a photograph verifies the wording, not automatically the people, offices, event or date asserted.
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 100, ccs_remaining_items: 101}
+  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 105, ccs_remaining_items: 96}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
-
 readiness:
   status: draft_pr_open_pilot_complete_next_batch_in_progress
-  blockers_for_merge:
-    - next_archive_batch_processing_incomplete
-    - ccs_history_full_inventory_and_blob_verification_incomplete
-    - ccs_history_ocr_review_incomplete
-    - ccs_history_thumbnail_cache_not_audited
+  blockers_for_merge: [next_archive_batch_processing_incomplete, ccs_history_full_inventory_and_blob_verification_incomplete, ccs_history_ocr_review_incomplete, ccs_history_thumbnail_cache_not_audited]
   non_blocking_known_issues:
-    - eleven pilot full original images are missing; only thumbnails remain in caches
-    - thirty_four historical, personal, archival and technical questions remain open
-
+  - eleven pilot full original images are missing; only thumbnails remain in caches
+  - thirty_six historical, personal, archival and technical questions remain open
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-101, urbanek-ccs-102, urbanek-ccs-103, urbanek-ccs-104, urbanek-ccs-105]
-  expected_source_files: ["4/25  S rychvaldskými občany.jpg", "5/1  Kaple CČS na Ostravici s  Winklerovou zvoničkou.jpg", "5/2  Oltář, za ním okno s obrazem Jana  Husa.jpg", "5/3.jpg", "5/4.jpg"]
+  items: [urbanek-ccs-106, urbanek-ccs-107, urbanek-ccs-108, urbanek-ccs-109, urbanek-ccs-110]
+  expected_source_files: [5/5.jpg, 5/5a chatka na Ostravici.jpg, 5/5 b Winklerova zvonička.jpg, 5/5 c.jpg, 5/5 d.jpg]
   batch_size_rule: 5_to_10_files
-  instruction: >-
-    Verify source paths and Git blob SHA, classify visually, preserve rights and attribution,
-    separate document and scene text, index each item, reuse stable uncertainty IDs where
-    appropriate, handle the folder boundary explicitly, and keep the PR draft and unmerged.
+  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document and scene text, index each item, reuse stable uncertainty IDs where appropriate, and keep the PR draft and unmerged.

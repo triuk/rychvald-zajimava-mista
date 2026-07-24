@@ -21,6 +21,7 @@ source_index_shards:
   - sources/index.d/urbanek-ccs-16.yml
   - sources/index.d/urbanek-ccs-17.yml
   - sources/index.d/urbanek-ccs-18.yml
+  - sources/index.d/urbanek-ccs-19.yml
 attribution: "Z osobního archivu p. Jaromíra Urbánka."
 rights: unknown
 status: processing_in_progress
@@ -61,11 +62,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 90
-  repo_verified_items: 90
-  visually_classified_items: 90
-  source_indexed_items: 90
-  remaining_items: 111
+  processed_items: 95
+  repo_verified_items: 95
+  visually_classified_items: 95
+  source_indexed_items: 95
+  remaining_items: 106
   completed_batches:
     - {id: construction-sequence-01, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
     - {id: opening-and-early-interior-02, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
@@ -85,8 +86,9 @@ processing:
     - {id: stibor-council-and-chrobacek-election-opening-16, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-16.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-16.yml, source_index: sources/index.d/urbanek-ccs-16.yml}
     - {id: chrobacek-family-and-congratulations-17, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-17.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-17.yml, source_index: sources/index.d/urbanek-ccs-17.yml}
     - {id: chrobacek-ritual-and-wife-congratulation-18, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-18.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-18.yml, source_index: sources/index.d/urbanek-ccs-18.yml}
+    - {id: chrobacek-investiture-address-and-document-19, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-19.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-19.yml, source_index: sources/index.d/urbanek-ccs-19.yml}
   open_uncertainties_from_collection: [URB-U-0039, URB-U-0040, URB-U-0041, URB-U-0042, URB-U-0043, URB-U-0044, URB-U-0045, URB-U-0046, URB-U-0047, URB-U-0048, URB-U-0049, URB-U-0050, URB-U-0051, URB-U-0052, URB-U-0053, URB-U-0054, URB-U-0055, URB-U-0056, URB-U-0057, URB-U-0058, URB-U-0059, URB-U-0060, URB-U-0061, URB-U-0062, URB-U-0063, URB-U-0064, URB-U-0065, URB-U-0066, URB-U-0067, URB-U-0068]
-  next_items: [urbanek-ccs-091, urbanek-ccs-092, urbanek-ccs-093, urbanek-ccs-094, urbanek-ccs-095]
+  next_items: [urbanek-ccs-096, urbanek-ccs-097, urbanek-ccs-098, urbanek-ccs-099, urbanek-ccs-100]
 
 rules:
   - Filenames and folder names are archival metadata, not independent historical proof.

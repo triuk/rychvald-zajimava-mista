@@ -44,33 +44,35 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je devatenáct dávek po pěti snímcích, tedy `urbanek-ccs-001` až `095`.
+Dokončeno je dvacet dávek po pěti snímcích, tedy `urbanek-ccs-001` až `100`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **95 z 201 položek**;
-- proti Git blob SHA ověřeno: **95 položek**;
-- vizuálně klasifikováno: **95 položek**;
-- zdrojově indexováno: **95 položek**;
-- zbývá: **106 položek**.
+- zpracováno: **100 z 201 položek**;
+- proti Git blob SHA ověřeno: **100 položek**;
+- vizuálně klasifikováno: **100 položek**;
+- zdrojově indexováno: **100 položek**;
+- zbývá: **101 položek**.
 
-### Zjištění dávky 19
+### Zjištění dávky 20
 
-Dávka 19 pokračuje v obřadní a investiční části série archivně připisované volbě a jmenování Gabriela Chrobáčka.
+Dávka 20 pokračuje v závěrečné části série archivně připisované volbě a jmenování Gabriela Chrobáčka.
 
-- `urbanek-ccs-091` zachycuje vystoupení duchovního s řetězem nebo insignií na vyvýšeném stupni před dalšími duchovními a shromážděním.
-- `urbanek-ccs-092` obrazově dokládá fyzické nasazení řetězu nebo insignie skloněnému duchovnímu. Fotografie sama neurčuje identitu příjemce, jeho úřad ani právní či liturgický význam aktu.
-- `urbanek-ccs-093` zachycuje dva hlavní duchovní s řetězy u oltáře, před nimi kalich a otevřenou knihu.
-- `urbanek-ccs-094` zachycuje setkání dvou duchovních; jeden drží složený list či dokument a druhý k němu natahuje ruku. Není jisté, zda jde o předání, čtení nebo pouze držení listiny.
-- `urbanek-ccs-095` zachycuje stojícího duchovního s řetězem při proslovu, modlitbě nebo zpěvu a sedícího duchovního s otevřenou složkou či knihou.
-- Snímky `091–095` navazují prostředím a opakujícími se osobami na předchozí obřadní sérii. Jména, úřady, datum, obsah dokumentu a přesná funkce insignie zůstávají otevřené.
+- `urbanek-ccs-096` zachycuje ženu nebo dívku v bohatě zdobeném kroji s velkou kyticí před duchovním s řetězem nebo insignií. Identita, původ kroje ani role nejsou obrazem určeny.
+- `urbanek-ccs-097` a `098` jsou užší a širší reprodukce téhož původního snímku: muž v obleku stojí vedle duchovního s řetězem, který drží světlou plastiku; mezi nimi je kytice.
+- Přesné obrazové porovnání potvrdilo, že stejnou původní fotografii používá také dřívější `urbanek-ccs-046`. Tři soubory jsou archivně samostatné, ale představují pouze jeden nezávislý obrazový záznam.
+- Porovnání současně opravilo starší interpretaci `urbanek-ccs-046`: samostatná listina není na třech reprodukcích spolehlivě rozeznatelná; světlý útvar odpovídá plastice a jejímu podstavci nebo drapérii.
+- `urbanek-ccs-099` zachycuje duchovního s řetězem při vystoupení nebo čtení z listu papíru.
+- `urbanek-ccs-100` zachycuje stojící shromáždění v dřevěných lavicích. Stejné prostředí a opakující se účastníci podporují vztah k `urbanek-ccs-080`, kde je přední řada zachycena vsedě.
+- Jména, datum, úřady, původ kroje, role muže v obleku, námět a provenience plastiky ani přesné pořadí úkonů nejsou fotografiemi samostatně potvrzeny.
 
-Pracovní soubory dávky 19:
+Pracovní soubory dávky 20:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-19.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-19.yml`;
-- `sources/index.d/urbanek-ccs-19.yml`;
-- rozšířený `research/urbanek-archive/uncertainties/open-12.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-20.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-20.yml`;
+- `sources/index.d/urbanek-ccs-20.yml`;
+- rozšířený `research/urbanek-archive/uncertainties/open-12.yml`;
+- opravené `historie-cirkve-ceskoslovenske-batch-10.yml` a `sources/index.d/urbanek-ccs-10.yml`.
 
 ## Registr nejistot
 
@@ -82,15 +84,15 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 68.
 
-Dávka 19 nepřidala nové ID. Rozšířila `URB-U-0062` o fyzické nasazení insignie, proslovy, listinu nebo složený dokument a úplnější investiční posloupnost.
+Dávka 20 nepřidala nové ID. Rozšířila `URB-U-0062` o krojovanou gratulantku, tři reprodukce stejné fotografie, opravu interpretace listiny, proslov s papírem a vztah stojícího shromáždění k dřívějšímu záběru.
 
-Osoby se neidentifikují pouze podle obličeje. Řetěz nebo insignie sám neurčuje úřad a ani jeho fyzické nasazení samo nepotvrzuje identitu příjemce nebo právní význam aktu.
+Osoby se neidentifikují pouze podle obličeje. Přesná shoda reprodukcí potvrzuje společnou fotografickou předlohu, nikoli nezávislé historické potvrzení události.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 95 zpracovaných a 106 zbývajících položek;
+- aktuální průběžný stav je 100 zpracovaných a 101 zbývajících položek;
 - registr používá součty 34/31/3/68;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -98,7 +100,7 @@ Osoby se neidentifikují pouze podle obličeje. Řetěz nebo insignie sám neur�
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-096` až `urbanek-ccs-100`.
-- Očekávané archivní názvy: `20.jpg`, `21.jpg`, `22.jpg`, `23.jpg` a `24.jpg`.
+- Následující položky: `urbanek-ccs-101` až `urbanek-ccs-105`.
+- Očekávané archivní názvy: `25  S rychvaldskými občany.jpg`, poté v podsložce `5 Kaple CČS na Ostravici` soubory `1  Kaple CČS na Ostravici s  Winklerovou zvoničkou.jpg`, `2  Oltář, za ním okno s obrazem Jana  Husa.jpg`, `3.jpg` a `4.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

@@ -1,0 +1,89 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-20
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-096
+    title: Krojovaná gratulantka s kyticí před duchovním
+    document_type: historical_black_and_white_folk_costume_congratulation_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/20.jpg"
+    file_size_bytes: 200150
+    git_blob_sha: 0fc719cc0de4abb92ecd65cce27a56898db3c24b
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Kroj, kytice, duchovní s řetězem a publikum jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_folk_costume_congratulation_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Původ kroje, identita gratulantky a význam její účasti nejsou ověřeny.
+      - Souvisí s URB-U-0062.
+
+  - source_id: urbanek-ccs-097
+    title: Užší reprodukce předání světlé plastiky
+    document_type: historical_black_and_white_sculpture_presentation_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/21.jpg"
+    file_size_bytes: 183991
+    git_blob_sha: da754baee5cdddd770bd1cdfa5f1a2cd4967ea2c
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Oba muži, řetěz, plastika a kytice jsou dobře čitelné."}
+    visual_content: {photographs: tight_reproduction_of_sculpture_presentation, scene_text: not_detected, method: "Vizuální kontrola a přesné porovnání s urbanek-ccs-046 a 098."}
+    embedded_metadata: {datetime: absent}
+    duplicate_relation: {same_underlying_photograph_as: [urbanek-ccs-046, urbanek-ccs-098], evidentiary_independence: false}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jména osob, role muže v obleku a námět plastiky nejsou ověřeny.
+      - Souvisí s URB-U-0062.
+
+  - source_id: urbanek-ccs-098
+    title: Širší reprodukce předání světlé plastiky
+    document_type: historical_black_and_white_sculpture_presentation_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/22.jpg"
+    file_size_bytes: 389735
+    git_blob_sha: b8d13575816ef32f64b4ffa7cd0c49db1eb91af5
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Oba muži, řetěz, plastika, kytice a část publika jsou dobře čitelné."}
+    visual_content: {photographs: wide_reproduction_of_sculpture_presentation, scene_text: not_detected, method: "Vizuální kontrola a přesné porovnání s urbanek-ccs-046 a 097."}
+    embedded_metadata: {datetime: absent}
+    duplicate_relation: {same_underlying_photograph_as: [urbanek-ccs-046, urbanek-ccs-097], evidentiary_independence: false}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Samostatná listina není na třech reprodukcích spolehlivě rozeznatelná; starší popis urbanek-ccs-046 byl opraven.
+      - Jména osob, role muže v obleku a námět plastiky nejsou ověřeny.
+      - Souvisí s URB-U-0062.
+
+  - source_id: urbanek-ccs-099
+    title: Duchovní s řetězem při vystoupení s listem papíru
+    document_type: historical_black_and_white_clergy_address_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/23.jpg"
+    file_size_bytes: 221482
+    git_blob_sha: 1305168e63f0fc843cffe10298135c415e00c6c3
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Duchovní, řetěz, list papíru, stupně a pult jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_clergy_address_scene, scene_text: not_readable, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Obsah listu ani totožnost řečníka nejsou ověřeny.
+      - Souvisí s URB-U-0062.
+
+  - source_id: urbanek-ccs-100
+    title: Stojící shromáždění v dřevěných lavicích
+    document_type: historical_black_and_white_congregation_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/24.jpg"
+    file_size_bytes: 198818
+    git_blob_sha: c6e1af4e469d8613a05db0b97765ed68176e7623
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Shromáždění, lavice, okna a prapor nebo žerď jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_standing_congregation_scene, scene_text: not_detected, method: "Vizuální kontrola a porovnání s urbanek-ccs-080."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Stejné prostředí a opakující se lidé podporují vztah k urbanek-ccs-080; přesný důvod stání není doložen.
+      - Souvisí s URB-U-0062.

@@ -1,0 +1,277 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-2016-site-plaque-symbol-and-horsky-portrait-24
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 5 Kaple CČS na Ostravici / archivní soubory 8c, tři IMG snímky a 9
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: První čtyři položky pokračují v moderní dokumentaci areálu z 2. října 2016. Zachycují společný pohled na novou
+    zvonici a kapli, průčelí kaple s pamětní deskou, detail stejné fyzické desky jako na urbanek-ccs-109 a detail střešního
+    znaku tvořeného křížem a kalichem. EXIF časy 14:05:52–14:07:01 a stejný fotoaparát podporují jedno souvislé fotografické
+    sezení navazující na urbanek-ccs-114 a 115. Urbanek-ccs-120 je historický portrét duchovního s vloženým popiskem „Biskup
+    dr.Horský“; archivní název přidává rozmezí 1945–1946. Ověřeno je znění popisku a obrazové znaky, nikoli osoba, úřad, datum
+    nebo vztah k dřívější skupině rady starších.
+  basis:
+  - full_image_visual_review
+  - manual_scene_text_transcription
+  - architectural_and_object_cross_batch_comparison
+  - embedded_EXIF_review
+  - verified_repo_files
+items:
+- id: urbanek-ccs-116
+  archival_filename: 8c.jpg
+  visual_type: modern_color_overall_chapel_and_new_bell_tower_view
+  description: Celkový pohled na areál ve svahu. Vlevo stojí nová vysoká dřevěná zvonice na kamenné základně, vpravo nízká
+    bílá kaple s tmavým vstupem, pamětní deskou a kovovým střešním znakem kříže a kalicha. Na pravém svahu je jedna vzdálená
+    osoba.
+  subject_tags:
+  - new_timber_bell_tower
+  - chapel_exterior
+  - stone_wall
+  - memorial_plaque
+  - cross_and_chalice_roof_symbol
+  - hillside
+  - single_unidentified_person
+  - same_2016_session
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - new_massive_timber_bell_tower
+    - white_low_chapel
+    - dark_rectangular_entrance
+    - wall_plaque
+    - roof_cross_and_chalice_symbol
+    - stone_retaining_wall
+    - one_distant_person
+    unverified:
+    - exact_site_and_parcel
+    - building_ownership_and_use
+    - identity_of_person
+    - architect_and_builder
+    - exact_construction_or_replacement_date
+    - date_and_author_of_roof_symbol
+  capture_metadata:
+    camera_make: myPhone_FUN4
+    camera_model: myPhone FUN4
+    exif_datetime_original: '2016-10-02 14:05:52'
+    exif_datetime_digitized: '2016-10-02 14:05:52'
+    file_datetime: '2016-10-03 09:23:23'
+    software: Windows Photo Editor 10.0.10011.16384
+    interpretation: Pokud byly hodiny fotoaparátu správné, snímek dokumentuje areál 2. října 2016; datum samo neurčuje dobu
+      výstavby.
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  comparison_relation:
+    related_items:
+    - urbanek-ccs-114
+    - urbanek-ccs-115
+    - urbanek-ccs-117
+    - urbanek-ccs-119
+    assessment: Součást stejné moderní série; spojuje novou zvonici, kapli a její střešní znak v jednom záběru.
+  uncertainty_ids:
+  - URB-U-0069
+- id: urbanek-ccs-117
+  archival_filename: IMG_20161002_140624.jpg
+  visual_type: modern_color_chapel_front_facade
+  description: Čelní pohled na nízkou bílou pravoúhlou stavbu. Uprostřed je široký tmavý obdélný vstup nebo dveřní výplň,
+    vpravo pamětní deska a nad plochou střechou kovový znak kříže a kalicha. Vlevo navazuje kamenná zídka.
+  subject_tags:
+  - chapel_front
+  - white_facade
+  - dark_wide_doorway
+  - memorial_plaque
+  - cross_and_chalice_roof_symbol
+  - stone_wall
+  - same_2016_session
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - low_white_rectangular_facade
+    - wide_dark_rectangular_door_or_opening
+    - wall_plaque
+    - roof_cross_and_chalice_symbol
+    - adjacent_stone_wall
+    unverified:
+    - exact_building_identity
+    - exact_function_and_state_of_dark_opening
+    - architectural_date
+    - date_and_author_of_roof_symbol
+    - current_use
+  capture_metadata:
+    camera_make: myPhone_FUN4
+    camera_model: myPhone FUN4
+    exif_datetime_original: '2016-10-02 14:06:26'
+    exif_datetime_digitized: '2016-10-02 14:06:26'
+    file_datetime: '2016-10-03 09:14:45'
+    software: Windows Photo Editor 10.0.10011.16384
+    interpretation: Čas je 34 sekund po položce 116 a podporuje společné fotografické sezení.
+  ocr:
+    document_text: not_applicable
+    scene_text: plaque_present_but_not_transcribed_from_this_overall_view
+  uncertainty_ids:
+  - URB-U-0069
+- id: urbanek-ccs-118
+  archival_filename: IMG_20161002_140644.jpg
+  visual_type: modern_color_close_up_of_Hus_chapel_memorial_plaque
+  description: Detail tmavé kamenné pamětní desky na bílé omítce. Deska nese znak kalicha s křížem a stejný nápis o Husově
+    kapli, Winklerově zvonici, roku 1937 a Ferdinandu Stiborovi jako urbanek-ccs-109. V levém dolním rohu je drobná značka
+    nebo signatura, jejíž přesné čtení není zcela jisté.
+  subject_tags:
+  - memorial_plaque
+  - same_physical_plaque_as_item_109
+  - Hus_chapel
+  - Winkler_bell_tower
+  - year_1937_inscription
+  - Ferdinand_Stibor_inscription
+  - cross_and_chalice_symbol
+  - small_lower_left_mark
+  - same_2016_session
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - dark_stone_plaque
+    - cross_and_chalice_symbol
+    - full_main_inscription
+    - small_lower_left_mark
+    unverified:
+    - plaque_author_and_installation_date
+    - historical_accuracy_of_inscription
+    - exact_reading_and_meaning_of_small_mark
+    - commissioning_authority
+  scene_text:
+    status: transcribed
+    text: 'HUSOVA KAPLE
+
+      S WINKLEROVOU ZVONICÍ
+
+      KAPLE CÍRKVE ČESKOSLOVENSKÉ HUSITSKÉ
+
+      BYLA POSTAVENA A SLAVNOSTNĚ OTEVŘENA
+
+      V ROCE 1937 PRVNÍM OSTRAVSKÝM
+
+      BISKUPEM FERDINANDEM STIBOREM'
+    note: Hlavní nápis odpovídá položce 109. Drobné znaky v levém dolním rohu nebyly kvůli nejistotě přepsány.
+  same_object_relation:
+    same_physical_inscription_as: urbanek-ccs-109
+    evidentiary_note: Druhá fotografie stejné desky z jiného úhlu a data digitalizace; nejde o druhý nezávislý historický
+      nápis.
+  capture_metadata:
+    camera_make: myPhone_FUN4
+    camera_model: myPhone FUN4
+    exif_datetime_original: '2016-10-02 14:06:45'
+    exif_datetime_digitized: '2016-10-02 14:06:45'
+    file_datetime: '2016-10-03 09:11:55'
+    software: Windows Photo Editor 10.0.10011.16384
+    interpretation: Čas je 19 sekund po položce 117 a podporuje společné fotografické sezení.
+  ocr:
+    document_text: not_applicable
+  uncertainty_ids:
+  - URB-U-0069
+- id: urbanek-ccs-119
+  archival_filename: IMG_20161002_140659.jpg
+  visual_type: modern_color_chapel_roof_cross_and_chalice_symbol_detail
+  description: Detail kovového znaku nad hranou ploché střechy. Motiv tvoří šikmo nesený kříž a stylizovaný kalich; v pozadí
+    je obloha a koruny stromů.
+  subject_tags:
+  - roof_symbol
+  - cross
+  - chalice
+  - Czechoslovak_Hussite_Church_symbol_claim
+  - metalwork
+  - same_2016_session
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - metal_cross
+    - stylized_chalice
+    - roof_mount
+    - outdoor_setting
+    unverified:
+    - official_symbol_designation
+    - artist_or_maker
+    - installation_date
+    - commissioning_and_provenance
+    - relationship_to_original_1937_architecture
+  capture_metadata:
+    camera_make: myPhone_FUN4
+    camera_model: myPhone FUN4
+    exif_datetime_original: '2016-10-02 14:07:01'
+    exif_datetime_digitized: '2016-10-02 14:07:01'
+    file_datetime: '2016-10-03 09:21:11'
+    software: Windows Photo Editor 10.0.10011.16384
+    interpretation: Čas je 16 sekund po položce 118; položky 116–119 vznikly v rozmezí 69 sekund.
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  comparison_relation:
+    related_items:
+    - urbanek-ccs-116
+    - urbanek-ccs-117
+    assessment: Jde o detail stejného střešního znaku viditelného na celkových pohledech.
+  uncertainty_ids:
+  - URB-U-0069
+- id: urbanek-ccs-120
+  archival_filename: 9  biskup dr Horský v r. 1945 - 1946.jpg
+  visual_type: historical_black_and_white_captioned_clergy_portrait_with_bouquet
+  description: Muž v tmavém duchovním oděvu a brýlích stojí s kyticí. Na hrudi má výrazný řetěz nebo insignii s motivem kalicha.
+    Vlevo za ním je částečně viditelná další osoba. Pod fotografií je vložen tištěný popisek.
+  subject_tags:
+  - male_clergy
+  - glasses
+  - chain_or_insignia
+  - chalice_motif
+  - bouquet
+  - captioned_portrait
+  - Horsky_claim
+  - bishop_claim
+  - 1945_1946_filename_claim
+  identification:
+    status: partially_verified
+    archival_filename_claim: biskup dr Horský v letech 1945–1946
+    embedded_caption_claim: Biskup dr.Horský
+    verified_from_image:
+    - adult_male_clergy
+    - glasses
+    - dark_robe
+    - chain_or_insignia_with_chalice_motif
+    - bouquet
+    - one_partly_visible_background_person
+    - caption_strip
+    unverified:
+    - person_identity
+    - Horsky_full_name
+    - doctoral_title
+    - exact_episcopal_office_and_term
+    - year_1945_1946
+    - occasion_and_location
+    - relationship_to_item_037
+    - background_person_identity
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: transcribed
+      text: Biskup dr.Horský
+      note: Znění vloženého popisku je čitelné; identitu, titul a úřad je nutno ověřit dokumentárně. Rozmezí 1945–1946 je
+        pouze v archivním názvu.
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_item: urbanek-ccs-037
+    assessment: Portrét může pomoci při dokumentárním ověření useknutého popisku „čtvrtý zprava bisk…“, ale totožnost osob
+      nelze určit pouze porovnáním tváře.
+  uncertainty_ids:
+  - URB-U-0059
+open_research_candidates:
+- id: URB-U-0069
+  subject: Ostravice_2016_chapel_site_plaque_roof_symbol_and_bell_tower_documentation
+- id: URB-U-0059
+  subject: Horsky_bishop_identity_office_dates_and_relationship_to_1945_1946_council_group
+next_action: 'Pokračovat položkami urbanek-ccs-121 až urbanek-ccs-125 v podsložce Kaple CČS na Ostravici: soubory 10.jpg,
+  11 Celkový pohled na účastníky slavnosti asi v r. 1945 nebo .jpg, 12  Průvod účastníků.jpg, 13  Krojovaní, prapory sborů
+  a děti v průvodu.jpg a 14  Účast duchovních.jpg. Porovnat historické účastníky a dataci s portrétem Horského a starší skupinou
+  rady starších, osoby však neurčovat pouze podle vzhledu.'

@@ -1,0 +1,118 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-28
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-136
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/25.jpg
+  file_size_bytes: 218798
+  git_blob_sha: f57c0b21930f0ef8971697d9da663034b442bd3a
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Skupina duchovních s knihami při venkovní bohoslužbě
+  document_type: historical_outdoor_clergy_group_photograph
+  readability:
+    status: good
+    note: Hlavní osoby, prostředí a předměty jsou čitelné; drobné texty nejsou přítomny nebo nejsou čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Několik osob pravděpodobně zpívá nebo recituje; přesný úkon není určen.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-137
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/26.jpg
+  file_size_bytes: 271803
+  git_blob_sha: 4c9b88a59dc9fbe84098e3250452b7d1fd6ec61d
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Společný venkovní zpěv vedený gestem ženy
+  document_type: historical_outdoor_congregational_singing_photograph
+  readability:
+    status: good
+    note: Hlavní osoby, prostředí a předměty jsou čitelné; drobné texty nejsou přítomny nebo nejsou čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Gesto ženy a otevřená ústa skupiny podporují interpretaci společného zpěvu.
+  - Přesná identita sboru, vedoucí a skladby není určena.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-138
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/27.jpg
+  file_size_bytes: 244367
+  git_blob_sha: 2c33defebfdc89a9328332739242864ec9fdf29b
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Duchovní, zdobeně oděné ženy, děti a prapory
+  document_type: historical_clergy_costumes_children_banners_photograph
+  readability:
+    status: good
+    note: Hlavní osoby, prostředí a předměty jsou čitelné; drobné texty nejsou přítomny nebo nejsou čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Příslušnost krojů, praporů a uniformy není určena.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-139
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/28.jpg
+  file_size_bytes: 182949
+  git_blob_sha: fd3499b55540936c1ffe31d5617d00724603e0e7
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Projev duchovního s řetězem a knihou u oltáře
+  document_type: historical_chain_bearing_clergy_address_photograph
+  readability:
+    status: good
+    note: Hlavní osoby, prostředí a předměty jsou čitelné; drobné texty nejsou přítomny nebo nejsou čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Vizuální podobnost s osobou na urbanek-ccs-120 není identifikací; jméno ani úřad se nepřiřazují.
+  - Souvisí s URB-U-0059 a URB-U-0070.
+- source_id: urbanek-ccs-140
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/29.jpg
+  file_size_bytes: 304603
+  git_blob_sha: 07cdff46c97740d13448e4c0f233e7bc5f2cba44
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Velké shromáždění na svahu s deštníky a fotografem
+  document_type: historical_large_hillside_crowd_photograph
+  readability:
+    status: good
+    note: Hlavní osoby, prostředí a předměty jsou čitelné; drobné texty nejsou přítomny nebo nejsou čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Fotograf s fotoaparátem je viditelný, jeho totožnost a autorství snímků nejsou určeny.
+  - Souvisí s URB-U-0070.

@@ -40,19 +40,18 @@ ccs_collection:
   id: urbanek-ccs-history
   name: Historie Církve československé v Rychvaldě ve fotografiích
   status: processing_in_progress
-  source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve 
-    fotografiích
+  source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals:
     subfolders: 10
     content_files: 200
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 145
-    repo_verified_items: 145
-    visually_classified_items: 145
-    source_indexed_items: 145
-    remaining_items: 56
+    processed_items: 150
+    repo_verified_items: 150
+    visually_classified_items: 150
+    source_indexed_items: 150
+    remaining_items: 51
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -145,10 +144,13 @@ ccs_collection:
     - number: 29
       items: 141-145
       id: ostravice-final-group-and-vodicka-funeral-opening
+    - number: 30
+      items: 146-150
+      id: vodicka-funeral-mourners-faculty-exit-and-salutes
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-29.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-29.yml
-    source_index: sources/index.d/urbanek-ccs-29.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-30.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-30.yml
+    source_index: sources/index.d/urbanek-ccs-30.yml
   technical_files:
     - path: 10 Kalendář 2015/Thumbs.db
       audit_status: pending
@@ -181,12 +183,14 @@ uncertainties:
   batch_29_updated:
     - URB-U-0067
     - URB-U-0070
+  batch_30_updated:
+    - URB-U-0067
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 145
-    ccs_remaining_items: 56
+    ccs_processed_items: 150
+    ccs_remaining_items: 51
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
@@ -204,18 +208,19 @@ next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
   items:
-    - urbanek-ccs-146
-    - urbanek-ccs-147
-    - urbanek-ccs-148
-    - urbanek-ccs-149
-    - urbanek-ccs-150
+    - urbanek-ccs-151
+    - urbanek-ccs-152
+    - urbanek-ccs-153
+    - urbanek-ccs-154
+    - urbanek-ccs-155
   expected_source_files:
-    - 6/5.jpg
-    - 6/6.jpg
-    - 6/7.jpg
-    - 6/8.jpg
-    - 6/9.jpg
+    - 6/10.jpg
+    - 6/11.jpg
+    - 6/12  Před oltářem v Rychvaldě.jpg
+    - 6/13  Fotografie Karla Vodičky.jpg
+    - 6/14  Pamětní deska v kostele v Rychvaldě, za níž jsou uloženy.JPG
   batch_size_rule: 5_to_10_files
   instruction: >-
-    Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document
-    and scene text, index each item, reuse stable uncertainty IDs where appropriate, and keep the PR draft and unmerged.
+    Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document and scene
+    text, index each item, compare the closing funeral images and memorial plaque with prior evidence without inferring identities
+    or hidden contents, reuse stable uncertainty IDs where appropriate, and keep the PR draft and unmerged.

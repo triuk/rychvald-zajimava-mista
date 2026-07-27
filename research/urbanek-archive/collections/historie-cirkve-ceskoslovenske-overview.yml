@@ -1,8 +1,7 @@
 schema_version: 1
 collection_id: urbanek-ccs-history
 collection_name: Historie Církve československé v Rychvaldě ve fotografiích
-source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve 
-  fotografiích
+source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
 source_index_shards:
   - sources/index.d/urbanek-ccs.yml
   - sources/index.d/urbanek-ccs-02.yml
@@ -33,6 +32,7 @@ source_index_shards:
   - sources/index.d/urbanek-ccs-27.yml
   - sources/index.d/urbanek-ccs-28.yml
   - sources/index.d/urbanek-ccs-29.yml
+  - sources/index.d/urbanek-ccs-30.yml
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 status: processing_in_progress
@@ -98,11 +98,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 145
-  repo_verified_items: 145
-  visually_classified_items: 145
-  source_indexed_items: 145
-  remaining_items: 56
+  processed_items: 150
+  repo_verified_items: 150
+  visually_classified_items: 150
+  source_indexed_items: 150
+  remaining_items: 51
   completed_batches:
     - number: 1
       items: 001-005
@@ -278,6 +278,12 @@ processing:
       inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-29.csv
       classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-29.yml
       source_index: sources/index.d/urbanek-ccs-29.yml
+    - number: 30
+      items: 146-150
+      id: vodicka-funeral-mourners-faculty-exit-and-salutes-30
+      inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-30.csv
+      classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-30.yml
+      source_index: sources/index.d/urbanek-ccs-30.yml
   open_uncertainties_from_collection:
     - URB-U-0039
     - URB-U-0040
@@ -312,24 +318,21 @@ processing:
     - URB-U-0069
     - URB-U-0070
   next_items:
-    - urbanek-ccs-146
-    - urbanek-ccs-147
-    - urbanek-ccs-148
-    - urbanek-ccs-149
-    - urbanek-ccs-150
+    - urbanek-ccs-151
+    - urbanek-ccs-152
+    - urbanek-ccs-153
+    - urbanek-ccs-154
+    - urbanek-ccs-155
 rules:
   - Filenames and folder names are archival metadata, not independent historical proof.
-  - Visual descriptions may be verified from the image; named persons, dates and events remain unverified 
-    until corroborated.
+  - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until 
+    corroborated.
   - Document text and scene text are recorded separately.
   - Persons are not identified solely from facial appearance.
   - Chains or insignia do not independently establish a specific ecclesiastical office.
-  - Multiple archival reproductions of the same photograph are separate files but not independent event 
-    evidence.
-  - Exact binary duplicates under different paths are separate inventory items but only one independent image 
-    record.
+  - Multiple archival reproductions of the same photograph are separate files but not independent event evidence.
+  - Exact binary duplicates under different paths are separate inventory items but only one independent image record.
   - Truncated captions are not completed by guesswork.
-  - A readable caption or inscription verifies its wording, not automatically the asserted identity, office, 
-    event or date.
-  - Directional filename labels such as left or right require an unambiguous referent before a person can be 
-    assigned.
+  - A readable caption or inscription verifies its wording, not automatically the asserted identity, office, event or 
+    date.
+  - Directional filename labels such as left or right require an unambiguous referent before a person can be assigned.

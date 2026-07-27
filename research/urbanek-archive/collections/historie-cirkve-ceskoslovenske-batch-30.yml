@@ -1,0 +1,283 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: vodicka-funeral-mourners-faculty-exit-and-salutes-30
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1) / archivní soubory 5 až 9
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka pokračuje pohřební sérií. Položka 146 zachycuje stojící osobu v dlouhém tmavém oděvu u rakve nebo katafalku, věnců
+    a svící a řady sedících účastníků. Položka 147 dokumentuje zaplněný interiér pod varhanní kruchtou; několik osob v přední
+    řadě drží kapesníky u obličeje. Položka 148 zachycuje vynášení rakve z budovy, na níž je čitelný nápis „HUSOVA ČESKOSLOVENSKÁ
+    BOHOSLOVECKÁ FAKULTA V PRAZE“. Tento nápis dokládá označení budovy zachycené na fotografii, nikoli sám o sobě identitu
+    zemřelého, přesné datum nebo přesnou adresu. Položky 149 a 150 zachycují bezprostředně navazující venkovní situaci před
+    stejným vstupem: několik osob v uniformách, salutování, osobu s četnými dekoracemi a účastníky stojící ve dveřích. Číslo
+    5 je viditelné na fasádě. Organizace uniformovaných osob, status čestné stráže a všechny identity zůstávají neurčeny.
+  basis:
+    - full_image_visual_review
+    - cross_image_sequence_comparison
+    - manual_scene_text_transcription
+    - embedded_metadata_inspection
+    - verified_repo_files
+  related_open_items:
+    - URB-U-0067
+items:
+  - id: urbanek-ccs-146
+    archival_filename: 5.jpg
+    dimensions_px:
+      - 1416
+      - 924
+    visual_type: historical_black_and_white_funeral_officiant_coffin_wreaths_and_seated_mourners
+    description: >-
+      Vlevo stojí zády nebo z profilu osoba v dlouhém tmavém oděvu u okraje rakve či katafalku, vysokých svící a květinových
+      věnců. Vpravo a v pozadí sedí několik řad účastníků v civilním oděvu; v první řadě je mimo jiné žena v tmavé pokrývce
+      hlavy a několik mužů. Snímek neobsahuje čitelný identifikační text.
+    subject_tags:
+      - funeral_interior
+      - coffin_or_catafalque_edge
+      - dark_robed_standing_person
+      - wreaths
+      - flowers
+      - tall_candles
+      - seated_mourners
+      - funeral_of_Karel_Vodicka_claim
+      - June_1970_claim
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - same_interior_and_funeral_arrangement_as_items_142_to_145
+        - standing_person_in_long_dark_garment
+        - coffin_or_catafalque_edge
+        - wreaths_and_flowers
+        - tall_candles
+        - rows_of_seated_attendees
+      unverified:
+        - deceased_identity
+        - standing_person_identity_and_role
+        - exact_ritual_or_speech
+        - exact_event_date
+        - exact_room_and_address
+        - all_attendee_identities
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    metadata:
+      embedded_date: absent
+    uncertainty_ids:
+      - URB-U-0067
+  - id: urbanek-ccs-147
+    archival_filename: 6.jpg
+    dimensions_px:
+      - 1428
+      - 930
+    visual_type: historical_black_and_white_large_funeral_congregation_under_organ_loft
+    description: >-
+      Široký pohled na zaplněný sál nebo chrámový interiér pod varhanní kruchtou. V předních řadách sedí muži a ženy; několik
+      osob drží kapesníky nebo ruce u obličeje. Vlevo je u okraje obrazu část osoby v dlouhém tmavém oděvu. Rakev na tomto
+      záběru viditelná není.
+    subject_tags:
+      - large_congregation
+      - funeral_attendees
+      - organ_loft
+      - seated_mourners
+      - handkerchiefs
+      - dark_robed_partial_figure
+      - funeral_of_Karel_Vodicka_claim
+      - June_1970_claim
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - large_seated_congregation
+        - organ_loft
+        - multiple_people_with_handkerchiefs_or_hands_near_faces
+        - partial_dark_robed_figure_at_left
+        - same_interior_sequence_as_items_142_to_146
+      unverified:
+        - all_person_identities
+        - exact_emotional_states
+        - exact_event_date
+        - exact_room_and_address
+        - officiant_identity
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    metadata:
+      embedded_date: absent
+    uncertainty_ids:
+      - URB-U-0067
+  - id: urbanek-ccs-148
+    archival_filename: 7.jpg
+    dimensions_px:
+      - 1428
+      - 918
+    visual_type: historical_black_and_white_coffin_carried_from_theological_faculty_entrance
+    description: >-
+      Několik mužů v civilních oděvech a dlouhých tmavých pláštích vynáší z širokého vstupu zdobenou rakev. V popředí stojí
+      dvě osoby v uniformách, další účastníci lemují dveře. Nad dvěma deskami je znak; horní deska nese čitelný nápis „HUSOVA
+      ČESKOSLOVENSKÁ BOHOSLOVECKÁ FAKULTA V PRAZE“. Dolní deska není z celého snímku spolehlivě čitelná.
+    subject_tags:
+      - coffin_procession
+      - pallbearers
+      - dark_robed_participants
+      - uniformed_people
+      - building_entrance
+      - Husova_Ceskoslovenska_bohoslovecka_fakulta
+      - Prague_scene_text
+      - state_emblem
+      - funeral_of_Karel_Vodicka_claim
+      - June_1970_claim
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - coffin_carried_out_of_building
+        - multiple_pallbearers
+        - civil_and_long_dark_garments
+        - two_uniformed_people_in_foreground
+        - building_sign_identifying_Husova_Ceskoslovenska_bohoslovecka_fakulta_v_Praze
+        - state_emblem_above_sign
+      unverified:
+        - deceased_identity
+        - all_pallbearer_identities_and_roles
+        - uniformed_people_identities_and_organization
+        - exact_date
+        - exact_street_address
+        - exact_function_of_interior_room
+        - lower_sign_text
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: manually_transcribed
+        text: |
+          HUSOVA
+          ČESKOSLOVENSKÁ
+          BOHOSLOVECKÁ
+          FAKULTA V PRAZE
+        note: Přepis horní desky byl proveden vizuálně. Dolní deska je přítomna, ale její text není z tohoto snímku 
+          spolehlivě čitelný.
+    metadata:
+      embedded_date: absent
+    uncertainty_ids:
+      - URB-U-0067
+  - id: urbanek-ccs-149
+    archival_filename: 8.jpg
+    dimensions_px:
+      - 1422
+      - 924
+    visual_type: historical_black_and_white_uniformed_salutes_outside_faculty_entrance
+    description: >-
+      Venkovní záběr před stejným vstupem. Nejméně dvě osoby v uniformách salutují; další osoba v uniformě s kloboukem nebo
+      čepicí má na hrudi množství dekorací. Ve dveřích stojí civilní účastníci, několik z nich drží kapesníky u obličeje.
+      Na fasádě je viditelné číslo 5 a část nápisu fakulty. V popředí vpravo stojí zády osoba s brašnou nebo pouzdrem zavěšeným
+      přes rameno.
+    subject_tags:
+      - uniformed_salute
+      - decorated_uniform
+      - building_entrance
+      - mourners
+      - handkerchiefs
+      - building_number_5
+      - faculty_sign_partial
+      - shoulder_bag_or_case
+      - funeral_procession_sequence
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - at_least_two_saluting_uniformed_people
+        - uniformed_person_with_many_decorations
+        - mourners_at_entrance
+        - multiple_handkerchiefs_near_faces
+        - building_number_5
+        - same_entrance_as_item_148
+        - person_with_shoulder_bag_or_case
+      unverified:
+        - uniformed_organization
+        - whether_official_honor_guard
+        - all_person_identities
+        - meaning_of_decorations
+        - exact_date
+        - exact_street_address
+        - foreground_person_role_and_equipment
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked
+        text: '5'
+        note: Číslo 5 je čitelné na fasádě. Nápis fakulty je pouze částečně zachycen; úplný přepis je uveden u položky 
+          148.
+    metadata:
+      embedded_date: absent
+    comparison_relation:
+      related_item: urbanek-ccs-150
+      assessment: Dva odlišné snímky bezprostředně navazující venkovní situace; nejde o binární duplicitu.
+    uncertainty_ids:
+      - URB-U-0067
+  - id: urbanek-ccs-150
+    archival_filename: 9.jpg
+    dimensions_px:
+      - 1422
+      - 906
+    visual_type: historical_black_and_white_funeral_exit_aftermath_with_uniforms_and_mourners
+    description: >-
+      Další záběr před stejným vstupem krátce po vynesení rakve. Na levém okraji je část salutující uniformované osoby; vedle
+      stojí osoba v uniformě s četnými dekoracemi. Uprostřed je osoba v dlouhém tmavém oděvu a muž s čepicí, ve dveřích a
+      na schodech stojí další účastníci. Vpravo je zády osoba s brašnou nebo pouzdrem přes rameno. Horní nápis fakulty je
+      viditelný jen částečně.
+    subject_tags:
+      - funeral_exit_sequence
+      - uniformed_salute_partial
+      - decorated_uniform
+      - dark_robed_person
+      - mourners_at_entrance
+      - faculty_sign_partial
+      - shoulder_bag_or_case
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - same_entrance_as_items_148_and_149
+        - partial_saluting_uniformed_person
+        - uniformed_person_with_many_decorations
+        - dark_robed_person
+        - participants_on_steps_and_in_doorway
+        - person_with_shoulder_bag_or_case
+      unverified:
+        - uniformed_organization
+        - whether_official_honor_guard
+        - all_person_identities
+        - roles_of_dark_robed_people
+        - exact_date
+        - exact_street_address
+        - foreground_person_role_and_equipment
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: present_but_partial
+        note: Horní deska fakulty je v obrazu pouze částečně; úplný přepis je uveden u položky 148.
+    metadata:
+      embedded_date: absent
+    comparison_relation:
+      related_item: urbanek-ccs-149
+      assessment: Dva odlišné snímky bezprostředně navazující venkovní situace; nejde o binární duplicitu.
+    uncertainty_ids:
+      - URB-U-0067
+open_research_candidates:
+  - id: URB-U-0067
+    subject: 
+      Vodicka_funeral_identity_date_exact_address_faculty_interior_uniformed_organization_honor_guard_participants_and_procession
+next_action: >-
+  Pokračovat položkami urbanek-ccs-151 až urbanek-ccs-155, tedy soubory `10.jpg`, `11.jpg`, `12  Před oltářem v Rychvaldě.jpg`,
+  `13  Fotografie Karla Vodičky.jpg` a `14  Pamětní deska v kostele v Rychvaldě, za níž jsou uloženy.JPG` v téže podsložce.
+  Porovnat závěr pohřební série s archivně označenými snímky z Rychvaldu a s dříve zpracovanou pamětní deskou, ale osoby,
+  místo u položek bez nápisu ani obsah za deskou nedoplňovat podle kontextu.

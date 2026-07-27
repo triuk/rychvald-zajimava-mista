@@ -1,0 +1,127 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-30
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: >-
+  Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni.
+sources:
+  - source_id: urbanek-ccs-146
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen
+      1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/5.jpg
+    file_size_bytes: 180758
+    git_blob_sha: 03849855ef8d53cec84d9b3eb12b762f2d2242ce
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+    title: Stojící osoba u rakve, věnců a sedících účastníků
+    document_type: historical_funeral_officiant_and_mourners_photograph
+    readability:
+      status: good
+      note: Hlavní osoby, prostředí a děj jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě 
+        rozpoznatelný.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Stojící osoba ani přesný úkon nejsou určeny.
+      - Souvisí s URB-U-0067.
+  - source_id: urbanek-ccs-147
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen
+      1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/6.jpg
+    file_size_bytes: 198528
+    git_blob_sha: 47e01fa8c9ee5dfe54ccd25609c910ee15b934bc
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+    title: Zaplněný pohřební interiér pod varhanní kruchtou
+    document_type: historical_large_funeral_congregation_photograph
+    readability:
+      status: good
+      note: Hlavní osoby, prostředí a děj jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě 
+        rozpoznatelný.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Gesta s kapesníky jsou obrazově viditelná; přesné emocionální stavy osob se neurčují.
+      - Souvisí s URB-U-0067.
+  - source_id: urbanek-ccs-148
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen
+      1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/7.jpg
+    file_size_bytes: 168257
+    git_blob_sha: d7035ed39b7ab1e4c4f484d157cb8d5f8a523299
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+    title: Vynášení rakve z Husovy československé bohoslovecké fakulty
+    document_type: historical_coffin_procession_from_theological_faculty_photograph
+    readability:
+      status: good
+      note: Hlavní osoby, prostředí a děj jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě 
+        rozpoznatelný.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: manually_transcribed
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Horní deska zní „HUSOVA ČESKOSLOVENSKÁ BOHOSLOVECKÁ FAKULTA V PRAZE“.
+      - Nápis určuje označení budovy, nikoli identitu zemřelého nebo přesné datum.
+      - Dolní deska není spolehlivě čitelná.
+      - Souvisí s URB-U-0067.
+  - source_id: urbanek-ccs-149
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen
+      1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/8.jpg
+    file_size_bytes: 169423
+    git_blob_sha: 962b11469f66283059cf53f42e20bd4d2728289e
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+    title: Salutující uniformované osoby před vstupem fakulty
+    document_type: historical_uniformed_salute_outside_faculty_photograph
+    readability:
+      status: good
+      note: Hlavní osoby, prostředí a děj jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě 
+        rozpoznatelný.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: partial_building_number
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Číslo 5 je čitelné na fasádě.
+      - Salutování je viditelné; organizace osob ani status čestné stráže nejsou určeny.
+      - Jde o jiný snímek než 150.
+      - Souvisí s URB-U-0067.
+  - source_id: urbanek-ccs-150
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen
+      1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/9.jpg
+    file_size_bytes: 171782
+    git_blob_sha: d9255f93d934d962ca05b49e063c3841edb192e6
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+    title: Účastníci a uniformované osoby před vstupem po vynesení rakve
+    document_type: historical_funeral_exit_sequence_outside_faculty_photograph
+    readability:
+      status: good
+      note: Hlavní osoby, prostředí a děj jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě 
+        rozpoznatelný.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: present_but_partial
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Navazuje na položku 149, ale jde o jiný snímek.
+      - Organizace uniformovaných osob a role účastníků nejsou určeny.
+      - Souvisí s URB-U-0067.

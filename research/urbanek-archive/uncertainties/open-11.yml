@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_08_open_items_updated_through_batch_24
+scope: ccs_batch_08_open_items_updated_through_batch_28
 items:
 - id: URB-U-0058
   status: open
@@ -21,7 +21,7 @@ items:
   - Pravá část urbanek-ccs-036 je přeexponovaná a několik osob se překrývá.
   - Jméno Jana Šilerová, tvrzení o obnovení a označení slavnostního prvního přijímání pocházejí z archivního názvu urbanek-ccs-036.
   - Název urbanek-ccs-036 končí useknutým řetězcem ‚přijímá‘.
-  - Urbanek-ccs-063 zachycuje ženu v tmavém duchovním oděvu, bílé štóle s červeným kalichem a výrazným řetězem nebo insignií.
+  - Urbanek-ccs-063 zachycuje ženu v tmavém duchovním oděvu, bílé štole s červeným kalichem a výrazným řetězem nebo insignií.
   - Jméno Jana Šilerová, akademický titul Mgr. a označení biskupky pocházejí z archivního názvu urbanek-ccs-063.
   - Portrét neobsahuje datum ani text umožňující nezávislou identifikaci osoby nebo úřadu.
   unresolved_attributes:
@@ -58,20 +58,22 @@ items:
   status: open
   priority: high
   collection: Historie Církve československé v Rychvaldě ve fotografiích
-  type: council_group_chronology_membership_bishop_Horsky_portrait_and_person_identification
+  type: council_group_chronology_membership_bishop_Horsky_portrait_parallel_address_and_person_identification
   related_open_items:
   - URB-U-0040
   - URB-U-0050
   - URB-U-0058
+  - URB-U-0070
   source_items:
   - urbanek-ccs-037
   - urbanek-ccs-038
   - urbanek-ccs-039
   - urbanek-ccs-120
+  - urbanek-ccs-139
   question: Z jakých přesných let a událostí pocházejí tři skupiny spojované s radou starších, kdo byl v jednotlivých obdobích
-    jejím členem, kdo jsou přítomní duchovní a další členové sboru, koho měl označovat useknutý popisek „čtvrtý zprava bisk…“,
-    zda s ním souvisí portrét označený „Biskup dr.Horský“, jaké bylo Horského celé jméno, přesný úřad a služební období a
-    kdy vznikl nedatovaný snímek s Janou Šilerovou?
+    jejím členem, koho měl označovat useknutý popisek „čtvrtý zprava bisk…“, zda s ním souvisí portrét označený „Biskup dr.Horský“
+    a vizuálně podobný nedatovaný projev na položce 139, jaké bylo Horského celé jméno, přesný úřad a služební období a kdy
+    vznikl nedatovaný snímek s Janou Šilerovou?
   known_facts:
   - Urbanek-ccs-037 zachycuje formální skupinu přibližně dvou desítek dospělých ve dvou řadách.
   - Urbanek-ccs-038 zachycuje více než dvě desítky dospělých, několik duchovních a ústřední osobu s výrazným řetězem nebo
@@ -85,6 +87,11 @@ items:
   - Rozmezí 1945–1946 pochází z archivního názvu urbanek-ccs-120, nikoli z vloženého popisku nebo embedded metadata.
   - Popisek potvrzuje své znění, nikoli automaticky identitu, doktorát, biskupský úřad, datum nebo vztah k osobě na urbanek-ccs-037.
   - Urbanek-ccs-120 neobsahuje použitelné embedded datum.
+  - Urbanek-ccs-139 zachycuje muže v tmavém duchovním oděvu a brýlích, který drží otevřenou knihu a má výrazný řetěz s oválným
+    medailonem motivu kalicha a kříže; stojí u oltáře se svícny, kalichem a zdobeným křížem.
+  - Urbanek-ccs-139 je tváří, brýlemi a celkovým držením postavy vizuálně podobná portrétu 120, ale obrazová podobnost není
+    dokumentární identifikací osoby.
+  - Urbanek-ccs-139 nemá vložený popisek ani použitelné embedded datum.
   unresolved_attributes:
   - exact_date_and_occasion_of_each_image
   - independent_confirmation_of_1945_1946_range
@@ -97,15 +104,17 @@ items:
   - Horsky_doctoral_title_and_field
   - Horsky_exact_episcopal_office_jurisdiction_and_term
   - whether_portrait_item_120_is_same_person_as_fourth_seated_from_right_in_item_037
+  - whether_item_139_is_same_person_as_item_120_using_documentary_evidence
+  - item_139_address_or_reading_event_date_location_and_content
   - portrait_occasion_location_photographer_and_bouquet_context
   - identity_of_partly_visible_background_person_on_item_120
   - identity_and_meaning_of_central_chain_or_insignia
   - date_of_undated_Jana_Silerova_group
   - relationship_between_three_groups
   next_action: Porovnat zápisy rady starších, výroční zprávy, členské seznamy, kroniku, služební a biskupské záznamy osob
-    jménem Horský a popsané paralelní fotografie. Hledat úplný popisek skupiny, program nebo zprávu z návštěvy a originální
-    zdroj portrétu. Osobu na skupině neurčovat pouze podle podobnosti tváře; identifikaci opřít o dokumentární nebo jmenný
-    pramen.
+    jménem Horský a popsané paralelní fotografie. Hledat úplný popisek skupiny, program nebo zprávu z návštěvy, originální
+    zdroj portrétu a dokumentární paralelu k projevu na položce 139. Osobu neurčovat pouze podle podobnosti tváře, brýlí nebo
+    insignie.
   reopen_triggers:
   - council_minutes_or_roster_found
   - complete_filename_or_caption_found
@@ -114,12 +123,15 @@ items:
   - Horsky_episcopal_or_personnel_record_found
   - captioned_parallel_photo_found
   - portrait_original_or_caption_source_found
+  - documentary_parallel_for_item_139_found
   - participant_identification_provided
   evidence:
   - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml
   - sources/index.d/urbanek-ccs-08.yml
   - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-24.yml
   - sources/index.d/urbanek-ccs-24.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-28.yml
+  - sources/index.d/urbanek-ccs-28.yml
 - id: URB-U-0060
   status: open
   priority: medium

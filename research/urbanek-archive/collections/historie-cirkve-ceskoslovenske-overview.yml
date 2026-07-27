@@ -30,6 +30,7 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-25.yml
 - sources/index.d/urbanek-ccs-26.yml
 - sources/index.d/urbanek-ccs-27.yml
+- sources/index.d/urbanek-ccs-28.yml
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 status: processing_in_progress
@@ -95,11 +96,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 135
-  repo_verified_items: 135
-  visually_classified_items: 135
-  source_indexed_items: 135
-  remaining_items: 66
+  processed_items: 140
+  repo_verified_items: 140
+  visually_classified_items: 140
+  source_indexed_items: 140
+  remaining_items: 61
   completed_batches:
   - number: 1
     items: 001-005
@@ -263,6 +264,12 @@ processing:
     inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-27.csv
     classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-27.yml
     source_index: sources/index.d/urbanek-ccs-27.yml
+  - number: 28
+    items: 136-140
+    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd-28
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-28.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-28.yml
+    source_index: sources/index.d/urbanek-ccs-28.yml
   open_uncertainties_from_collection:
   - URB-U-0039
   - URB-U-0040
@@ -297,11 +304,11 @@ processing:
   - URB-U-0069
   - URB-U-0070
   next_items:
-  - urbanek-ccs-136
-  - urbanek-ccs-137
-  - urbanek-ccs-138
-  - urbanek-ccs-139
-  - urbanek-ccs-140
+  - urbanek-ccs-141
+  - urbanek-ccs-142
+  - urbanek-ccs-143
+  - urbanek-ccs-144
+  - urbanek-ccs-145
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.

@@ -36,11 +36,11 @@ ccs_collection:
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 105
-    repo_verified_items: 105
-    visually_classified_items: 105
-    source_indexed_items: 105
-    remaining_items: 96
+    processed_items: 110
+    repo_verified_items: 110
+    visually_classified_items: 110
+    source_indexed_items: 110
+    remaining_items: 91
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -67,18 +67,18 @@ ccs_collection:
   - {number: 19, items: 091-095, id: chrobacek-investiture-address-and-document}
   - {number: 20, items: 096-100, id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation}
   - {number: 21, items: 101-105, id: chrobacek-final-duplicate-and-ostravice-chapel-opening}
+  - {number: 22, items: 106-110, id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques}
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-21.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml
-    source_index: sources/index.d/urbanek-ccs-21.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-22.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-22.yml
+    source_index: sources/index.d/urbanek-ccs-22.yml
   technical_files:
   - {path: 10 Kalendář 2015/Thumbs.db, audit_status: pending}
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary: {open: 36, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 70}
   ccs_range: URB-U-0039..URB-U-0070
-  batch_21_updated: [URB-U-0062]
-  batch_21_created: [URB-U-0069, URB-U-0070]
+  batch_22_updated: [URB-U-0069, URB-U-0070]
   handling_rules:
   - Archival names and folder labels are attribution metadata, not independent historical proof.
   - Persons are not identified solely from facial appearance.
@@ -90,9 +90,10 @@ uncertainties:
   - A visible gesture does not independently identify the exact ritual.
   - Physical placement of an insignia verifies the action, not the recipient identity or legal meaning.
   - A readable caption embedded in a photograph verifies the wording, not automatically the people, offices, event or date asserted.
+  - A readable memorial or construction inscription verifies its wording, not automatically the historical claims within it.
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 105, ccs_remaining_items: 96}
+  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 110, ccs_remaining_items: 91}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 readiness:
   status: draft_pr_open_pilot_complete_next_batch_in_progress
@@ -103,7 +104,10 @@ readiness:
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-106, urbanek-ccs-107, urbanek-ccs-108, urbanek-ccs-109, urbanek-ccs-110]
-  expected_source_files: [5/5.jpg, 5/5a chatka na Ostravici.jpg, 5/5 b Winklerova zvonička.jpg, 5/5 c.jpg, 5/5 d.jpg]
+  items: [urbanek-ccs-111, urbanek-ccs-112, urbanek-ccs-113, urbanek-ccs-114, urbanek-ccs-115]
+  expected_source_files: [5/6.jpg, 5/7.jpg, 5/8  Winklerova zvonička.jpg, 5/8a  V r. 2016 byla stará zvonička demontována a nahrazena novou.jpg, 5/8b.jpg]
   batch_size_rule: 5_to_10_files
-  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document and scene text, index each item, reuse stable uncertainty IDs where appropriate, and keep the PR draft and unmerged.
+  instruction: >-
+    Verify source paths and Git blob SHA, classify visually, preserve rights and attribution,
+    separate document and scene text, index each item, reuse stable uncertainty IDs where
+    appropriate, and keep the PR draft and unmerged.

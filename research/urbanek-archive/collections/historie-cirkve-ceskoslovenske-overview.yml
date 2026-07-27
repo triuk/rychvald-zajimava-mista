@@ -28,71 +28,281 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-23.yml
 - sources/index.d/urbanek-ccs-24.yml
 - sources/index.d/urbanek-ccs-25.yml
+- sources/index.d/urbanek-ccs-26.yml
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 status: processing_in_progress
-scope: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201, pilot_relation: next_archive_batch_not_in_pilot_totals}
-repository: {branch: agent/import-urbanek-pilot, original_files_staged: true, original_paths_preserved: true, original_filenames_preserved: true, full_blob_verification: in_progress}
+scope:
+  subfolders: 10
+  content_files: 200
+  technical_files: 1
+  total_items: 201
+  pilot_relation: next_archive_batch_not_in_pilot_totals
+repository:
+  branch: agent/import-urbanek-pilot
+  original_files_staged: true
+  original_paths_preserved: true
+  original_filenames_preserved: true
+  full_blob_verification: in_progress
 subfolders:
-- {order: 1, name: 1 Od položení základního kamene. Histotie rychvaldského kostela, content_files: 63, technical_files: 0}
-- {order: 2, name: 2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50, content_files: 6, technical_files: 0}
-- {order: 3, name: 3 Biskup Ferdinand Stibor v Rychvaldě, content_files: 7, technical_files: 0}
-- {order: 4, name: 4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19, content_files: 25, technical_files: 0}
-- {order: 5, name: 5 Kaple CČS na Ostravici, content_files: 40, technical_files: 0}
-- {order: 6, name: 6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky. Husova Č (1), content_files: 14, technical_files: 0}
-- {order: 7, name: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956, content_files: 20, technical_files: 0}
-- {order: 8, name: 8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav, content_files: 5, technical_files: 0}
-- {order: 9, name: 9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenická..., content_files: 5, technical_files: 0}
-- {order: 10, name: 10 Kalendář 2015, content_files: 15, technical_files: 1}
+- order: 1
+  name: 1 Od položení základního kamene. Histotie rychvaldského kostela
+  content_files: 63
+  technical_files: 0
+- order: 2
+  name: 2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50
+  content_files: 6
+  technical_files: 0
+- order: 3
+  name: 3 Biskup Ferdinand Stibor v Rychvaldě
+  content_files: 7
+  technical_files: 0
+- order: 4
+  name: 4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19
+  content_files: 25
+  technical_files: 0
+- order: 5
+  name: 5 Kaple CČS na Ostravici
+  content_files: 40
+  technical_files: 0
+- order: 6
+  name: 6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky. Husova Č (1)
+  content_files: 14
+  technical_files: 0
+- order: 7
+  name: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956
+  content_files: 20
+  technical_files: 0
+- order: 8
+  name: 8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav
+  content_files: 5
+  technical_files: 0
+- order: 9
+  name: 9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenická...
+  content_files: 5
+  technical_files: 0
+- order: 10
+  name: 10 Kalendář 2015
+  content_files: 15
+  technical_files: 1
 technical_files:
-- {source_path: 10 Kalendář 2015/Thumbs.db, type: windows_thumbnail_cache, audit_status: pending}
+- source_path: 10 Kalendář 2015/Thumbs.db
+  type: windows_thumbnail_cache
+  audit_status: pending
 processing:
   inventory_status: in_progress
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 125
-  repo_verified_items: 125
-  visually_classified_items: 125
-  source_indexed_items: 125
-  remaining_items: 76
+  processed_items: 130
+  repo_verified_items: 130
+  visually_classified_items: 130
+  source_indexed_items: 130
+  remaining_items: 71
   completed_batches:
-  - {id: construction-sequence-01, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
-  - {id: opening-and-early-interior-02, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
-  - {id: first-communion-council-and-bells-03, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml, source_index: sources/index.d/urbanek-ccs-03.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-06.yml}
-  - {id: murals-occupation-exteriors-and-organ-04, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-04.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml, source_index: sources/index.d/urbanek-ccs-04.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-07.yml}
-  - {id: wedding-reconstruction-and-bishop-05, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-05.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml, source_index: sources/index.d/urbanek-ccs-05.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-08.yml}
-  - {id: reconstructed-chancel-carpet-and-obsil-murals-06, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-06.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml, source_index: sources/index.d/urbanek-ccs-06.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-09.yml}
-  - {id: anniversary-and-postwar-communion-groups-07, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-07.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml, source_index: sources/index.d/urbanek-ccs-07.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-10.yml}
-  - {id: renewed-communion-councils-and-choir-08, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-08.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml, source_index: sources/index.d/urbanek-ccs-08.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-11.yml}
-  - {id: modern-choir-and-chrobacek-inauguration-09, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-09.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml, source_index: sources/index.d/urbanek-ccs-09.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-12.yml}
-  - {id: chrobacek-anniversary-baptism-and-hus-commemoration-10, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-10.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml, source_index: sources/index.d/urbanek-ccs-10.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-13.yml}
-  - {id: hus-commemoration-continuation-and-living-nativity-11, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-11.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml, source_index: sources/index.d/urbanek-ccs-11.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-14.yml}
-  - {id: living-nativity-concerts-and-vodicka-memorial-12, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-12.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml, source_index: sources/index.d/urbanek-ccs-12.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-15.yml}
-  - {id: clergy-portraits-and-vodicka-bogumski-visit-13, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-13.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml, source_index: sources/index.d/urbanek-ccs-13.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-16.yml}
-  - {id: fiftieth-anniversary-baptisms-and-stibor-welcome-14, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-14.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml, source_index: sources/index.d/urbanek-ccs-14.yml}
-  - {id: stibor-visit-sequence-and-groups-15, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-15.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml, source_index: sources/index.d/urbanek-ccs-15.yml}
-  - {id: stibor-council-and-chrobacek-election-opening-16, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-16.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-16.yml, source_index: sources/index.d/urbanek-ccs-16.yml}
-  - {id: chrobacek-family-and-congratulations-17, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-17.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-17.yml, source_index: sources/index.d/urbanek-ccs-17.yml}
-  - {id: chrobacek-ritual-and-wife-congratulation-18, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-18.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-18.yml, source_index: sources/index.d/urbanek-ccs-18.yml}
-  - {id: chrobacek-investiture-address-and-document-19, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-19.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-19.yml, source_index: sources/index.d/urbanek-ccs-19.yml}
-  - {id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation-20, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-20.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-20.yml, source_index: sources/index.d/urbanek-ccs-20.yml}
-  - {id: chrobacek-final-duplicate-and-ostravice-chapel-opening-21, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-21.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml, source_index: sources/index.d/urbanek-ccs-21.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-17.yml}
-  - {id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques-22, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-22.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-22.yml, source_index: sources/index.d/urbanek-ccs-22.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-17.yml}
-  - {id: ostravice-chapel-manager-service-old-and-new-bell-tower-23, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-23.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-23.yml, source_index: sources/index.d/urbanek-ccs-23.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-17.yml}
-  - {id: ostravice-2016-site-plaque-symbol-and-horsky-portrait-24, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-24.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-24.yml, source_index: sources/index.d/urbanek-ccs-24.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-17.yml}
-  - {id: ostravice-service-crowd-procession-costumes-banners-and-clergy-25, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-25.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-25.yml, source_index: sources/index.d/urbanek-ccs-25.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-17.yml}
-  open_uncertainties_from_collection: [URB-U-0039, URB-U-0040, URB-U-0041, URB-U-0042, URB-U-0043, URB-U-0044, URB-U-0045, URB-U-0046, URB-U-0047, URB-U-0048, URB-U-0049, URB-U-0050, URB-U-0051, URB-U-0052, URB-U-0053, URB-U-0054, URB-U-0055, URB-U-0056, URB-U-0057, URB-U-0058, URB-U-0059, URB-U-0060, URB-U-0061, URB-U-0062, URB-U-0063, URB-U-0064, URB-U-0065, URB-U-0066, URB-U-0067, URB-U-0068, URB-U-0069, URB-U-0070]
-  next_items: [urbanek-ccs-126, urbanek-ccs-127, urbanek-ccs-128, urbanek-ccs-129, urbanek-ccs-130]
+  - number: 1
+    items: 001-005
+    id: construction-sequence-01
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml
+    source_index: sources/index.d/urbanek-ccs.yml
+  - number: 2
+    items: 006-010
+    id: opening-and-early-interior-02
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml
+    source_index: sources/index.d/urbanek-ccs-02.yml
+  - number: 3
+    items: 011-015
+    id: first-communion-council-and-bells-03
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-03.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
+    source_index: sources/index.d/urbanek-ccs-03.yml
+  - number: 4
+    items: 016-020
+    id: murals-occupation-exteriors-and-organ-04
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-04.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml
+    source_index: sources/index.d/urbanek-ccs-04.yml
+  - number: 5
+    items: 021-025
+    id: wedding-reconstruction-and-bishop-05
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-05.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
+    source_index: sources/index.d/urbanek-ccs-05.yml
+  - number: 6
+    items: 026-030
+    id: reconstructed-chancel-carpet-and-obsil-murals-06
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-06.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml
+    source_index: sources/index.d/urbanek-ccs-06.yml
+  - number: 7
+    items: 031-035
+    id: anniversary-and-postwar-communion-groups-07
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-07.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-07.yml
+    source_index: sources/index.d/urbanek-ccs-07.yml
+  - number: 8
+    items: 036-040
+    id: renewed-communion-councils-and-choir-08
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-08.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-08.yml
+    source_index: sources/index.d/urbanek-ccs-08.yml
+  - number: 9
+    items: 041-045
+    id: modern-choir-and-chrobacek-inauguration-09
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-09.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-09.yml
+    source_index: sources/index.d/urbanek-ccs-09.yml
+  - number: 10
+    items: 046-050
+    id: chrobacek-anniversary-baptism-and-hus-commemoration-10
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-10.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+    source_index: sources/index.d/urbanek-ccs-10.yml
+  - number: 11
+    items: 051-055
+    id: hus-commemoration-continuation-and-living-nativity-11
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-11.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml
+    source_index: sources/index.d/urbanek-ccs-11.yml
+  - number: 12
+    items: 056-060
+    id: living-nativity-concerts-and-vodicka-memorial-12
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-12.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml
+    source_index: sources/index.d/urbanek-ccs-12.yml
+  - number: 13
+    items: 061-065
+    id: clergy-portraits-and-vodicka-bogumski-visit-13
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-13.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml
+    source_index: sources/index.d/urbanek-ccs-13.yml
+  - number: 14
+    items: 066-070
+    id: fiftieth-anniversary-baptisms-and-stibor-welcome-14
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-14.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
+    source_index: sources/index.d/urbanek-ccs-14.yml
+  - number: 15
+    items: 071-075
+    id: stibor-visit-sequence-and-groups-15
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-15.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml
+    source_index: sources/index.d/urbanek-ccs-15.yml
+  - number: 16
+    items: 076-080
+    id: stibor-council-and-chrobacek-election-opening-16
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-16.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-16.yml
+    source_index: sources/index.d/urbanek-ccs-16.yml
+  - number: 17
+    items: 081-085
+    id: chrobacek-family-and-congratulations-17
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-17.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-17.yml
+    source_index: sources/index.d/urbanek-ccs-17.yml
+  - number: 18
+    items: 086-090
+    id: chrobacek-ritual-and-wife-congratulation-18
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-18.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-18.yml
+    source_index: sources/index.d/urbanek-ccs-18.yml
+  - number: 19
+    items: 091-095
+    id: chrobacek-investiture-address-and-document-19
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-19.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-19.yml
+    source_index: sources/index.d/urbanek-ccs-19.yml
+  - number: 20
+    items: 096-100
+    id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation-20
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-20.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-20.yml
+    source_index: sources/index.d/urbanek-ccs-20.yml
+  - number: 21
+    items: 101-105
+    id: chrobacek-final-duplicate-and-ostravice-chapel-opening-21
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-21.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml
+    source_index: sources/index.d/urbanek-ccs-21.yml
+  - number: 22
+    items: 106-110
+    id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques-22
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-22.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-22.yml
+    source_index: sources/index.d/urbanek-ccs-22.yml
+  - number: 23
+    items: 111-115
+    id: ostravice-chapel-manager-service-old-and-new-bell-tower-23
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-23.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-23.yml
+    source_index: sources/index.d/urbanek-ccs-23.yml
+  - number: 24
+    items: 116-120
+    id: ostravice-2016-site-plaque-symbol-and-horsky-portrait-24
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-24.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-24.yml
+    source_index: sources/index.d/urbanek-ccs-24.yml
+  - number: 25
+    items: 121-125
+    id: ostravice-service-crowd-procession-costumes-banners-and-clergy-25
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-25.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-25.yml
+    source_index: sources/index.d/urbanek-ccs-25.yml
+  - number: 26
+    items: 126-130
+    id: ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-26.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-26.yml
+    source_index: sources/index.d/urbanek-ccs-26.yml
+  open_uncertainties_from_collection:
+  - URB-U-0039
+  - URB-U-0040
+  - URB-U-0041
+  - URB-U-0042
+  - URB-U-0043
+  - URB-U-0044
+  - URB-U-0045
+  - URB-U-0046
+  - URB-U-0047
+  - URB-U-0048
+  - URB-U-0049
+  - URB-U-0050
+  - URB-U-0051
+  - URB-U-0052
+  - URB-U-0053
+  - URB-U-0054
+  - URB-U-0055
+  - URB-U-0056
+  - URB-U-0057
+  - URB-U-0058
+  - URB-U-0059
+  - URB-U-0060
+  - URB-U-0061
+  - URB-U-0062
+  - URB-U-0063
+  - URB-U-0064
+  - URB-U-0065
+  - URB-U-0066
+  - URB-U-0067
+  - URB-U-0068
+  - URB-U-0069
+  - URB-U-0070
+  next_items:
+  - urbanek-ccs-131
+  - urbanek-ccs-132
+  - urbanek-ccs-133
+  - urbanek-ccs-134
+  - urbanek-ccs-135
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
 - Document text and scene text are recorded separately.
-- Every unresolved event, date, person, object history, archive gap, technical interpretation or truncated caption is linked to a stable uncertainty ID.
 - Persons are not identified solely from facial appearance.
-- Multiple archival reproductions of the same underlying photograph are separate files but not independent event evidence.
+- Chains or insignia do not independently establish a specific ecclesiastical office.
+- Multiple archival reproductions of the same photograph are separate files but not independent event evidence.
 - Exact binary duplicates under different paths are separate inventory items but only one independent image record.
-- A relative architectural or event sequence does not independently verify absolute dates from filenames.
-- Truncated filenames are not completed by guesswork.
-- A readable memorial inscription or embedded caption verifies its wording, not automatically the historical claims within it.
-- Shared banners, setting and sequence may support a common procession, not identify participants, organizations or dates.
+- Truncated captions are not completed by guesswork.
+- A readable caption or inscription verifies its wording, not automatically the asserted identity, office, event or date.
+- Directional filename labels such as left or right require an unambiguous referent before a person can be assigned.

@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batches_21_24_open_items
+scope: ccs_batches_21_25_open_items
 items:
 - id: URB-U-0069
   status: open
@@ -35,39 +35,21 @@ items:
   - Název urbanek-ccs-103 připisuje portrét Janu Husovi; fotografie sama potvrzuje pouze viditelnou figurální podobu.
   - Urbanek-ccs-107 zachycuje nízkou tmavě dřevem obloženou stavbu na zalesněném svahu se sedlovou střechou, komínem a bílými
     okenicemi; archivní název ji označuje jako chatku na Ostravici.
-  - Urbanek-ccs-108 zachycuje vysokou otevřenou dřevěnou věžovou konstrukci se stříškou, dlouhou horní kovovou tyčí, plošinou
-    a venkovními lavicemi; zvon není z tohoto úhlu zřetelně rozeznatelný.
-  - Konstrukce na urbanek-ccs-108 odpovídá typem, svislými trámy, stříškou a horní tyčí věži vedle kaple na urbanek-ccs-102
-    a pravděpodobně jde o tentýž objekt v pozdější době.
-  - Urbanek-ccs-109 nese čitelný nápis, podle něhož byla Husova kaple s Winklerovou zvonicí postavena a slavnostně otevřena
-    roku 1937 prvním ostravským biskupem Ferdinandem Stiborem.
-  - Urbanek-ccs-110 nese čitelný nápis, podle něhož byla Husova kaple diecéze ostravské CČS vystavěna mezi 21. 3. a 4. 7.
-    1937 za biskupa Ferdinanda Stibora a předsedy propagačního sboru Bohumíra Lišky podle návrhu architekta inženýra Alfreda
-    Farníka z darů příslušníků CČS.
-  - Čitelnost desek ověřuje znění nápisů, nikoli automaticky historickou správnost údajů, dobu vzniku desek nebo jejich vztah
-    k zachycenému objektu.
-  - Urbanek-ccs-113 zachycuje subtilní otevřenou dřevěnou věžovou konstrukci s viditelným zavěšeným zvonem nebo zřetelně zvonovitým
-    předmětem a početným davem.
-  - Urbanek-ccs-114 a 115 zachycují tutéž novou zvonici se čtyřmi masivními dřevěnými sloupy, širokou stříškou, viditelným
-    zavěšeným zvonem a vysokou kovovou tyčí s kruhovým symbolem.
+  - Urbanek-ccs-108 a 113 zachycují subtilní otevřenou dřevěnou věžovou konstrukci; na položce 113 je viditelný zavěšený zvon
+    nebo zřetelně zvonovitý předmět.
+  - Urbanek-ccs-109 a 110 obsahují čitelné nápisy o roce 1937, Ferdinandu Stiborovi, Bohumíru Liškovi a Alfredu Farníkovi;
+    čitelnost ověřuje znění nápisů, nikoli automaticky jejich historickou správnost.
+  - Urbanek-ccs-114 a 115 zachycují tutéž novou zvonici se čtyřmi masivními dřevěnými sloupy, širokou stříškou, zavěšeným
+    zvonem a vysokou kovovou tyčí s kruhovým symbolem.
   - Archivní název urbanek-ccs-114 tvrdí, že stará zvonice byla roku 2016 demontována a nahrazena novou; obraz sám ověřuje
     novou konstrukci, nikoli celý proces výměny.
-  - EXIF urbanek-ccs-114 a 115 uvádí původní pořízení 2. října 2016 v časech 14:04:23 a 14:05:02; pokud byly hodiny fotoaparátu
-    správné, nová konstrukce existovala nejpozději tohoto dne.
-  - EXIF obou moderních snímků uvádí fotoaparát myPhone FUN4 a následné zpracování ve Windows Photo Editor; časový odstup
-    39 sekund podporuje společné fotografické sezení.
-  - Žádný ze souborů 102, 103, 107 až 110 a 113 neobsahuje použitelné embedded datum.
-  - Urbanek-ccs-116 zachycuje ve společném záběru novou masivní dřevěnou zvonici, nízkou bílou kapli, pamětní desku, střešní
-    znak kříže a kalicha, kamennou zídku a jednu vzdálenou neidentifikovanou osobu.
-  - Urbanek-ccs-117 zachycuje čelní fasádu kaple se širokým tmavým obdélným vstupem nebo dveřní výplní, pamětní deskou a střešním
-    znakem.
-  - Urbanek-ccs-118 je detail stejné fyzické pamětní desky jako urbanek-ccs-109; hlavní nápis je totožný a drobná značka v
-    levém dolním rohu zůstává jen částečně čitelná.
-  - Urbanek-ccs-119 je detail kovového střešního znaku tvořeného křížem a stylizovaným kalichem.
-  - EXIF položek 116 až 119 uvádí pořízení 2. října 2016 v časech 14:05:52, 14:06:26, 14:06:45 a 14:07:01 stejným fotoaparátem
-    myPhone FUN4.
-  - Položky 114 až 119 tvoří podle EXIF souvislou fotografickou sérii od 14:04:23 do 14:07:01 a dokumentují novou zvonici,
-    kapli, pamětní desku a střešní znak ve stejném areálu.
+  - EXIF urbanek-ccs-114 až 119 uvádí společné fotografické sezení 2. října 2016 mezi 14:04:23 a 14:07:01 fotoaparátem myPhone
+    FUN4.
+  - Urbanek-ccs-116 zachycuje společně novou zvonici, nízkou bílou kapli, pamětní desku, střešní znak kříže a kalicha a kamennou
+    zídku.
+  - Urbanek-ccs-117 zachycuje čelní fasádu kaple; urbanek-ccs-119 detail kovového střešního znaku.
+  - Urbanek-ccs-118 je druhá fotografie stejné fyzické pamětní desky jako urbanek-ccs-109, nikoli druhé nezávislé historické
+    svědectví.
   unresolved_attributes:
   - exact_address_coordinates_and_parcel
   - building_identity_and_relationship_to_current_site
@@ -94,19 +76,12 @@ items:
   - round_window_artist_date_subject_and_provenance
   - independent_confirmation_of_Jan_Hus_depiction
   - plaque_authors_dates_commissioning_and_historical_authority
-  - meaning_of_small_lower_left_mark_on_item_109
-  - dates_and_provenance_of_images_102_103_107_to_110_and_113
-  - exact_function_and_state_of_wide_dark_facade_opening
-  - roof_cross_and_chalice_symbol_artist_maker_installation_date_and_provenance
-  - identity_and_role_of_distant_person_on_item_116
-  - whether_plaque_items_109_and_118_were_installed_before_or_during_2016_changes
   - exact_reading_and_meaning_of_small_lower_left_plaque_mark
+  - roof_cross_and_chalice_symbol_artist_maker_installation_date_and_provenance
   - relationship_of_2016_documented_state_to_current_state
   next_action: Dokončit celou ostravickou podsložku a porovnat další historické i moderní snímky areálu. Poté hledat církevní
-    a obecní kroniku, stavební spis, katastrální a mapové podklady, diecézní archiv CČSH, dobový tisk, údaje o Winklerovi,
-    zvonech, Bohumíru Liškovi, Alfredu Farníkovi, autorovi figurálního okna, střešního znaku a pamětních desek. Zvlášť hledat
-    dokumentaci demontáže a nové stavby roku 2016, objednávku, povolení, zhotovitele, rozpočet, předání a údaj o případném
-    přenesení zvonu.
+    a obecní kroniku, stavební spis, katastrální a mapové podklady, diecézní archiv CČSH, dobový tisk a dokumentaci demontáže
+    a nové stavby roku 2016 včetně zhotovitele, rozpočtu, předání a případného přenesení zvonu.
   reopen_triggers:
   - full_Ostravice_chapel_subcollection_processed
   - church_or_municipal_chronicle_found
@@ -114,13 +89,9 @@ items:
   - cadastral_or_map_identification_found
   - Winkler_person_or_donation_record_found
   - bell_inventory_or_dedication_record_found
-  - Bohumir_Liska_record_found
-  - Alfred_Farnik_architectural_record_found
-  - window_artist_or_commission_record_found
   - 2016_demolition_or_construction_record_found
   - new_tower_builder_or_dedication_record_found
   - bell_transfer_record_found
-  - dated_parallel_photograph_found
   - current_site_documented
   - roof_symbol_commission_or_installation_record_found
   - plaque_author_or_installation_record_found
@@ -137,62 +108,77 @@ items:
   status: open
   priority: high
   collection: Historie Církve československé v Rychvaldě ve fotografiích
-  type: Ostravice_chapel_ceremony_date_Chrobacek_diocesan_council_bishop_children_MNV_chapel_manager_service_participants_and_sequence
+  type: Ostravice_chapel_ceremony_service_procession_date_Chrobacek_bishop_Horsky_children_MNV_manager_clergy_banners_costumes_and_participants
+  related_open_items:
+  - URB-U-0059
   source_items:
   - urbanek-ccs-104
   - urbanek-ccs-105
   - urbanek-ccs-106
   - urbanek-ccs-111
   - urbanek-ccs-112
-  question: Jakou slavnost nebo bohoslužbu zachycují popsané snímky z kaple na Ostravici, kdy a kde se konala, zda všechny
-    patří k téže události, kdo byl muž označený jako zástupce diecézní rady bratr Chrobáček, koho popisky označují jako biskupa,
-    kdo byla dívka s květinovým věncem, které děti zastupovala, kdo byl zástupce MNV, kdo byl správce Husitské kaple a kdo
-    byli ostatní účastníci bohoslužeb?
+  - urbanek-ccs-121
+  - urbanek-ccs-122
+  - urbanek-ccs-123
+  - urbanek-ccs-124
+  - urbanek-ccs-125
+  question: Jakou slavnost nebo bohoslužbu zachycují popsané snímky z kaple na Ostravici, kdy a kde se konala, zda položky
+    104 až 106, 111, 112 a 121 až 125 patří k téže události, zda souvisejí s portrétem označeným „Biskup dr.Horský“, kdo byli
+    Chrobáček, biskup, zástupce MNV a správce kaple, kdo byli další duchovní, děti a krojovaní účastníci a kterým sborům nebo
+    organizacím patřily prapory?
   known_facts:
-  - Urbanek-ccs-104 zachycuje muže v obleku a brýlích před oltářem při gestu připomínajícím proslov.
-  - Vložený popisek na urbanek-ccs-104 je čitelný jako „Zástupce diec.rady br.Chrobáček vítá účastníky.“
-  - Urbanek-ccs-105 zachycuje dívku nebo mladou ženu s květinovým věncem při předávání kytice muži v tmavém liturgickém oděvu
-    a brýlích.
-  - Vložený popisek na urbanek-ccs-105 je čitelný jako „Uvítání br.biskupa za děti“.
-  - Urbanek-ccs-106 zachycuje muže v obleku proti duchovnímu v tmavém oděvu s brýlemi a řetězem nebo insignií; mezi nimi je
-    kytice.
-  - Vložený popisek na urbanek-ccs-106 je čitelný jako „Uvítání br.biskupa zástupcem MNV“.
-  - Urbanek-ccs-111 zachycuje tři muže, z nichž ústřední muž v tmavém duchovním oděvu s řetězem nebo insignií stojí proti
-    muži v obleku; vpravo další muž drží složku.
-  - Vložený popisek na urbanek-ccs-111 je čitelný jako „Uvítání br.biskupa správcem Husitské kaple“.
-  - Urbanek-ccs-112 zachycuje početný dav před otevřeným vstupem kaple a uvnitř oltář nebo liturgický stůl se svícny.
-  - Vložený popisek na urbanek-ccs-112 je čitelný jako „Záběr z bohoslužeb“.
-  - Přepisy popisků jsou obrazově ověřené, ale jejich tvrzení o jménech, funkcích, úřadech, reprezentaci dětí, MNV a správě
-    kaple vyžadují nezávislé potvrzení.
-  - Žádný ze souborů 104 až 106, 111 a 112 neobsahuje použitelné embedded datum.
+  - Urbanek-ccs-104 až 106 a 111 obsahují čitelné vložené popisky o uvítání účastníků, biskupa, zástupce MNV a správce Husitské
+    kaple.
+  - Urbanek-ccs-112 obsahuje čitelný popisek „Záběr z bohoslužeb“ a zachycuje početný dav před otevřeným vstupem kaple.
+  - Urbanek-ccs-121 zachycuje tři muže v duchovním oděvu, otevřenou knihu a výraznou insignii; vložený popisek zní „Závěr
+    bohoslužeb.“
+  - Urbanek-ccs-122 zachycuje velmi početné venkovní shromáždění, mnoho šátků a otevřených knih nebo zpěvníků; vložený popisek
+    zní „Záběr z bohoslužeb.“
+  - Archivní název urbanek-ccs-122 končí useknutou formulací „asi v r. 1945 nebo .“; pokračování ani druhý rok nejsou známy.
+  - Urbanek-ccs-123 až 125 zachycují průvod na venkovské komunikaci s několika vysokými prapory, ženami nebo dívkami ve zdobeném
+    oděvu, dětmi, civilními účastníky a početnou skupinou duchovních.
+  - Na urbanek-ccs-124 jsou viditelné ozdobné hlavice praporů včetně tvarů připomínajících kříž a kouli, ale texty, znaky
+    a příslušnost praporů nejsou čitelné.
+  - Na urbanek-ccs-125 jsou viditelní četní muži v tmavém duchovním oděvu, někteří s kříži nebo závěsnými insigniemi.
+  - Sdílené prapory, venkovská trasa a archivní posloupnost podporují souvislost položek 123 až 125, nikoli přesnou dataci
+    nebo identitu účastníků.
+  - Žádný ze souborů 104 až 106, 111, 112 a 121 až 125 neobsahuje použitelné embedded datum.
+  - Podobnost tváří, oděvu nebo insignie není dostatečná k určení přítomnosti osoby označené jako Horský.
   unresolved_attributes:
   - exact_event_name_purpose_and_date
-  - exact_location_and_relationship_to_chapel
-  - whether_items_104_105_106_111_and_112_show_same_event
+  - exact_location_and_procession_route
+  - whether_items_104_105_106_111_112_and_121_to_125_show_same_event
+  - relationship_to_portrait_item_120_and_Horsky_visit
   - Chrobacek_full_identity_and_diocesan_council_role
   - bishop_identity_office_and_visit_context
-  - girl_identity_age_and_community
-  - meaning_of_representing_children
   - MNV_representative_identity_office_and_municipal_role
   - chapel_manager_identity_office_and_tenure
-  - identities_and_roles_of_other_participants
+  - identities_and_roles_of_clergy_and_other_participants
+  - girl_identity_age_and_community
+  - meaning_of_representing_children
   - exact_service_liturgy_officiants_and_program
   - speech_and_welcome_program_content
+  - folk_costume_regions_groups_and_participant_identities
+  - banner_owners_congregations_symbols_and_text
+  - independent_confirmation_of_1945_or_other_date
+  - missing_filename_continuation_for_item_122
   - caption_author_date_and_provenance
   - image_dates_and_photographers
-  next_action: Dokončit navazující slavnostní fotografie v podsložce a porovnat osoby, oltář, prapory, květiny a pořadí. Hledat
-    program slavnosti, kroniku kaple, diecézní zápis, dobový tisk, zápisy MNV, seznam správců kaple, seznam duchovních a delegací
-    a úplné album s původními popisky. Jména a úřady nepřidělovat pouze podle obličeje.
+  next_action: Dokončit navazující fotografie v podsložce a porovnat osoby, kapli, prapory, oděvy a pořadí. Hledat program
+    slavnosti, kroniku kaple, diecézní zápis, dobový tisk, zápisy MNV, seznam správců kaple, seznam duchovních a delegací,
+    údaje o praporech a úplné album s původními popisky. Jména a úřady nepřidělovat pouze podle obličeje.
   reopen_triggers:
   - full_Ostravice_chapel_ceremony_sequence_processed
   - dated_event_program_found
   - chapel_chronicle_entry_found
   - diocesan_council_record_found
-  - bishop_visit_record_found
+  - bishop_visit_or_Horsky_record_found
   - MNV_record_found
   - chapel_manager_roster_found
+  - banner_inventory_or_caption_found
   - captioned_parallel_photo_found
   - participant_identification_provided
+  - complete_item_122_filename_or_caption_found
   evidence:
   - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml
   - sources/index.d/urbanek-ccs-21.yml
@@ -200,3 +186,5 @@ items:
   - sources/index.d/urbanek-ccs-22.yml
   - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-23.yml
   - sources/index.d/urbanek-ccs-23.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-25.yml
+  - sources/index.d/urbanek-ccs-25.yml

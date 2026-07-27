@@ -44,33 +44,34 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je dvacet tři dávek po pěti snímcích, tedy `urbanek-ccs-001` až `115`.
+Dokončeno je dvacet čtyři dávek po pěti snímcích, tedy `urbanek-ccs-001` až `120`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **115 z 201 položek**;
-- proti Git blob SHA ověřeno: **115 položek**;
-- vizuálně klasifikováno: **115 položek**;
-- zdrojově indexováno: **115 položek**;
-- zbývá: **86 položek**.
+- zpracováno: **120 z 201 položek**;
+- proti Git blob SHA ověřeno: **120 položek**;
+- vizuálně klasifikováno: **120 položek**;
+- zdrojově indexováno: **120 položek**;
+- zbývá: **81 položek**.
 
-### Zjištění dávky 23
+### Zjištění dávky 24
 
-Dávka 23 pokračuje v podsložce `5 Kaple CČS na Ostravici`.
+Dávka 24 pokračuje v podsložce `5 Kaple CČS na Ostravici`.
 
-- `urbanek-ccs-111` obsahuje čitelný vložený popisek „Uvítání br.biskupa správcem Husitské kaple“. Obraz zachycuje tři muže, kytici a ústředního duchovního s řetězem nebo insignií; identity a funkce nejsou samostatně ověřeny.
-- `urbanek-ccs-112` obsahuje čitelný popisek „Záběr z bohoslužeb“ a zachycuje početný dav před otevřeným vstupem kaple, v němž je viditelný oltář nebo liturgický stůl se svícny.
-- `urbanek-ccs-113` zachycuje starou subtilní dřevěnou věžovou konstrukci. V horní části je viditelný zavěšený zvon nebo zřetelně zvonovitý předmět; pod zvonicí stojí dav.
-- `urbanek-ccs-114` a `115` zachycují tutéž novou dřevěnou zvonici se čtyřmi masivními sloupy, širokou stříškou, zavěšeným zvonem a vysokou kovovou tyčí s kruhovým symbolem.
-- Archivní název `114` tvrdí, že stará zvonice byla roku 2016 demontována a nahrazena novou. EXIF obou moderních snímků uvádí pořízení 2. října 2016 v časech 14:04:23 a 14:05:02. To podporuje existenci nové konstrukce k tomuto dni, nikoli přesné datum demontáže, stavby nebo předání.
-- Dávka nepřidala nové ID a rozšířila `URB-U-0069` a `URB-U-0070`.
+- `urbanek-ccs-116` zachycuje společně novou dřevěnou zvonici, nízkou bílou kapli, pamětní desku, střešní znak kříže a kalicha, kamennou zídku a jednu vzdálenou neidentifikovanou osobu.
+- `urbanek-ccs-117` zachycuje čelní fasádu kaple se širokým tmavým vstupem nebo dveřní výplní, pamětní deskou a střešním znakem.
+- `urbanek-ccs-118` je detail stejné fyzické pamětní desky jako `urbanek-ccs-109`. Hlavní nápis je totožný; jde o druhou fotografii stejného objektu, nikoli druhé nezávislé historické svědectví. Drobná značka vlevo dole zůstává jen částečně čitelná.
+- `urbanek-ccs-119` zachycuje detail kovového střešního znaku tvořeného křížem a stylizovaným kalichem.
+- EXIF položek `116–119` uvádí pořízení 2. října 2016 v časech 14:05:52 až 14:07:01. Spolu s položkami `114–115` jde o souvislou fotografickou sérii areálu dlouhou 2 minuty a 38 sekund.
+- `urbanek-ccs-120` zachycuje duchovního v brýlích s kyticí a insignií s motivem kalicha. Vložený popisek zní „Biskup dr.Horský“; rozmezí 1945–1946 pochází pouze z archivního názvu. Osoba, doktorát, úřad, datum a vztah k useknutému popisku na `urbanek-ccs-037` nejsou nezávisle ověřeny.
+- Dávka nepřidala nové ID. Rozšířila `URB-U-0069` a starší `URB-U-0059`.
 
-Pracovní soubory dávky 23:
+Pracovní soubory dávky 24:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-23.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-23.yml`;
-- `sources/index.d/urbanek-ccs-23.yml`;
-- rozšířený `research/urbanek-archive/uncertainties/open-17.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-24.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-24.yml`;
+- `sources/index.d/urbanek-ccs-24.yml`;
+- rozšířené `research/urbanek-archive/uncertainties/open-11.yml` a `open-17.yml`.
 
 ## Registr nejistot
 
@@ -82,15 +83,15 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 70.
 
-Dávka 23 nepřidala nové ID. `URB-U-0069` nyní zahrnuje obrazovou posloupnost staré a nové zvonice, viditelné zvony, tvrzení o výměně roku 2016, EXIF dataci nové konstrukce a otázku případného přenesení původního zvonu. `URB-U-0070` byla rozšířena o správce Husitské kaple a záběr z bohoslužeb.
+Dávka 24 nepřidala nové ID. `URB-U-0069` nyní zahrnuje také celkový stav areálu 2. října 2016, průčelí kaple, další fotografii stejné pamětní desky a střešní znak kříže a kalicha. `URB-U-0059` byla rozšířena o portrét s popiskem „Biskup dr.Horský“ a otázku jeho vztahu ke skupině rady starších z let 1945–1946.
 
-EXIF datum může podporovat, že objekt existoval v okamžiku pořízení fotografie; samo neprokazuje datum stavby, demontáže nebo vysvěcení.
+EXIF datum může podporovat, že objekt existoval v okamžiku pořízení fotografie; samo neprokazuje datum stavby, demontáže nebo instalace. Druhá fotografie stejného fyzického nápisu není druhým nezávislým historickým pramenem.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 115 zpracovaných a 86 zbývajících položek;
+- aktuální průběžný stav je 120 zpracovaných a 81 zbývajících položek;
 - registr používá součty 36/31/3/70;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -98,7 +99,7 @@ EXIF datum může podporovat, že objekt existoval v okamžiku pořízení fotog
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-116` až `urbanek-ccs-120`.
-- Očekávané archivní názvy v podsložce `5 Kaple CČS na Ostravici`: `8c.jpg`, `IMG_20161002_140624.jpg`, `IMG_20161002_140644.jpg`, `IMG_20161002_140659.jpg` a `9  biskup dr Horský v r. 1945 - 1946.jpg`.
+- Následující položky: `urbanek-ccs-121` až `urbanek-ccs-125`.
+- Očekávané archivní názvy v podsložce `5 Kaple CČS na Ostravici`: `10.jpg`, `11 Celkový pohled na účastníky slavnosti asi v r. 1945 nebo .jpg`, `12  Průvod účastníků.jpg`, `13  Krojovaní, prapory sborů a děti v průvodu.jpg` a `14  Účast duchovních.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

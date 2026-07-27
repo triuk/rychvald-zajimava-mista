@@ -36,11 +36,11 @@ ccs_collection:
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
-    processed_items: 115
-    repo_verified_items: 115
-    visually_classified_items: 115
-    source_indexed_items: 115
-    remaining_items: 86
+    processed_items: 120
+    repo_verified_items: 120
+    visually_classified_items: 120
+    source_indexed_items: 120
+    remaining_items: 81
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -56,7 +56,7 @@ ccs_collection:
   - {number: 8, items: 036-040, id: renewed-communion-councils-and-choir}
   - {number: 9, items: 041-045, id: modern-choir-and-chrobacek-inauguration}
   - {number: 10, items: 046-050, id: chrobacek-anniversary-baptism-and-hus-commemoration}
-  - {number: 11, items: 051-055, id: hus-commemoration-and-living-nativity}
+  - {number: 11, items: 051-055, id: hus-commemoration-continuation-and-living-nativity}
   - {number: 12, items: 056-060, id: living-nativity-concerts-and-vodicka-memorial}
   - {number: 13, items: 061-065, id: clergy-portraits-and-vodicka-bogumski-visit}
   - {number: 14, items: 066-070, id: fiftieth-anniversary-baptisms-and-stibor-welcome}
@@ -69,17 +69,18 @@ ccs_collection:
   - {number: 21, items: 101-105, id: chrobacek-final-duplicate-and-ostravice-chapel-opening}
   - {number: 22, items: 106-110, id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques}
   - {number: 23, items: 111-115, id: ostravice-chapel-manager-service-old-and-new-bell-tower}
+  - {number: 24, items: 116-120, id: ostravice-2016-site-plaque-symbol-and-horsky-portrait}
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-23.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-23.yml
-    source_index: sources/index.d/urbanek-ccs-23.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-24.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-24.yml
+    source_index: sources/index.d/urbanek-ccs-24.yml
   technical_files:
   - {path: 10 Kalendář 2015/Thumbs.db, audit_status: pending}
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary: {open: 36, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 70}
   ccs_range: URB-U-0039..URB-U-0070
-  batch_23_updated: [URB-U-0069, URB-U-0070]
+  batch_24_updated: [URB-U-0059, URB-U-0069]
   handling_rules:
   - Archival names and folder labels are attribution metadata, not independent historical proof.
   - Persons are not identified solely from facial appearance.
@@ -95,7 +96,7 @@ uncertainties:
   - EXIF capture time may support that an object existed by the recorded moment, not the exact construction, demolition or dedication date.
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 115, ccs_remaining_items: 86}
+  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 120, ccs_remaining_items: 81}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 readiness:
   status: draft_pr_open_pilot_complete_next_batch_in_progress
@@ -106,7 +107,12 @@ readiness:
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-116, urbanek-ccs-117, urbanek-ccs-118, urbanek-ccs-119, urbanek-ccs-120]
-  expected_source_files: [5/8c.jpg, 5/IMG_20161002_140624.jpg, 5/IMG_20161002_140644.jpg, 5/IMG_20161002_140659.jpg, 5/9  biskup dr Horský v r. 1945 - 1946.jpg]
+  items: [urbanek-ccs-121, urbanek-ccs-122, urbanek-ccs-123, urbanek-ccs-124, urbanek-ccs-125]
+  expected_source_files:
+  - 5/10.jpg
+  - 5/11 Celkový pohled na účastníky slavnosti asi v r. 1945 nebo .jpg
+  - 5/12  Průvod účastníků.jpg
+  - 5/13  Krojovaní, prapory sborů a děti v průvodu.jpg
+  - 5/14  Účast duchovních.jpg
   batch_size_rule: 5_to_10_files
   instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document and scene text, index each item, reuse stable uncertainty IDs where appropriate, and keep the PR draft and unmerged.

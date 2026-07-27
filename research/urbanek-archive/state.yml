@@ -47,11 +47,11 @@ ccs_collection:
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 130
-    repo_verified_items: 130
-    visually_classified_items: 130
-    source_indexed_items: 130
-    remaining_items: 71
+    processed_items: 135
+    repo_verified_items: 135
+    visually_classified_items: 135
+    source_indexed_items: 135
+    remaining_items: 66
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -135,10 +135,13 @@ ccs_collection:
   - number: 26
     items: 126-130
     id: ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
+  - number: 27
+    items: 131-135
+    id: ostravice-welcome-infant-reproductions-address-and-congregation
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-26.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-26.yml
-    source_index: sources/index.d/urbanek-ccs-26.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-27.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-27.yml
+    source_index: sources/index.d/urbanek-ccs-27.yml
   technical_files:
   - path: 10 Kalendář 2015/Thumbs.db
     audit_status: pending
@@ -163,12 +166,14 @@ uncertainties:
   - Chains or insignia do not independently establish a specific office.
   - A visible gesture or document does not independently identify the exact ritual or legal act.
   - A directional caption such as left must have an unambiguous referent before assigning a person.
+  batch_27_updated:
+  - URB-U-0070
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 130
-    ccs_remaining_items: 71
+    ccs_processed_items: 135
+    ccs_remaining_items: 66
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
@@ -186,17 +191,17 @@ next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
   items:
-  - urbanek-ccs-131
-  - urbanek-ccs-132
-  - urbanek-ccs-133
-  - urbanek-ccs-134
-  - urbanek-ccs-135
+  - urbanek-ccs-136
+  - urbanek-ccs-137
+  - urbanek-ccs-138
+  - urbanek-ccs-139
+  - urbanek-ccs-140
   expected_source_files:
-  - 5/20.jpg
-  - 5/21.jpg
-  - 5/22.jpg
-  - 5/23.jpg
-  - 5/24.jpg
+  - 5/25.jpg
+  - 5/26.jpg
+  - 5/27.jpg
+  - 5/28.jpg
+  - 5/29.jpg
   batch_size_rule: 5_to_10_files
-  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document
-    and scene text, index each item, reuse stable uncertainty IDs where appropriate, and keep the PR draft and unmerged.
+  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document and scene text, index each item,
+    reuse stable uncertainty IDs where appropriate, and keep the PR draft and unmerged.

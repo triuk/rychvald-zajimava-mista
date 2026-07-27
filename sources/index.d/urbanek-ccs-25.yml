@@ -1,0 +1,102 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-25
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: >-
+  Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv
+  jednotlivých fotografií nejsou ověřeni.
+sources:
+  - source_id: urbanek-ccs-121
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/10.jpg
+    file_size_bytes: 467425
+    git_blob_sha: 8f8c30ce462e01f79dfe62fe15ebbe00486ae492
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Závěr bohoslužeb – tři duchovní a otevřená kniha
+    document_type: historical_captioned_clergy_service_conclusion_photograph
+    readability: {status: good, note: "Tři osoby, kniha, insignie a popisek jsou dobře čitelné."}
+    visual_content:
+      photographs: single_historical_clergy_service_conclusion
+      scene_text: transcribed
+      method: Vizuální kontrola celého obrazu a ruční přepis popisku.
+    scene_text:
+      text: Závěr bohoslužeb.
+      status: transcribed
+      note: Znění je ověřeno; osoby, událost a datum nikoli.
+    notes:
+      - Souvisí s URB-U-0070.
+      - Podobnost oděvů nebo insignií není dostatečná k identifikaci osoby z urbanek-ccs-120.
+  - source_id: urbanek-ccs-122
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/11 Celkový pohled na účastníky slavnosti asi v r. 1945 nebo .jpg
+    file_size_bytes: 487556
+    git_blob_sha: 7b37195ec87238caadba10692b88ce23eddc80b0
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Velké venkovní shromáždění při bohoslužbách
+    document_type: historical_captioned_large_outdoor_congregation_photograph
+    readability: {status: good, note: "Dav, otevřené knihy a hlavní text popisku jsou čitelné."}
+    visual_content:
+      photographs: single_historical_large_outdoor_congregation
+      scene_text: transcribed
+      method: Vizuální kontrola celého obrazu a ruční přepis popisku.
+    scene_text:
+      text: Záběr z bohoslužeb.
+      status: transcribed
+      note: Znění je ověřeno; přesná bohoslužba a datum nikoli.
+    notes:
+      - Archivní název končí po formulaci „asi v r. 1945 nebo .“; chybějící pokračování nebylo rekonstruováno.
+      - Souvisí s URB-U-0070.
+  - source_id: urbanek-ccs-123
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/12  Průvod účastníků.jpg
+    file_size_bytes: 212804
+    git_blob_sha: c07d6b795953e064626b25e4588850a86c6974fc
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Průvod účastníků s prapory na venkovské silnici
+    document_type: historical_rural_procession_with_banners_photograph
+    readability: {status: good, note: "Průvod, prapory, ženy, děti a okolní zástavba jsou čitelné."}
+    visual_content:
+      photographs: single_historical_rural_procession
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Texty a příslušnost praporů nejsou z obrazu určeny.
+      - Souvisí s URB-U-0070.
+  - source_id: urbanek-ccs-124
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/13  Krojovaní, prapory sborů a děti v průvodu.jpg
+    file_size_bytes: 314672
+    git_blob_sha: 031c11deadb579a5eb31a0cf80770f44f29de4e5
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Krojované účastnice, děti a prapory v průvodu – archivní označení
+    document_type: historical_procession_with_decorated_clothing_children_and_banners_photograph
+    readability: {status: good, note: "Účastníci, oděvy, děti a prapory jsou dobře čitelné; nápisy na praporech nikoli."}
+    visual_content:
+      photographs: single_historical_procession_with_costumes_children_and_banners
+      scene_text: visually_checked_not_readable
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Označení krojovaní a prapory sborů pochází z archivního názvu.
+      - Konkrétní kroje, sbory, znaky a texty nejsou nezávisle určeny.
+      - Souvisí s URB-U-0070.
+  - source_id: urbanek-ccs-125
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/14  Účast duchovních.jpg
+    file_size_bytes: 344441
+    git_blob_sha: 914deaaedb896c9b19ddd4e5e0669e26f600f67c
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Průvod s prapory a početnou skupinou duchovních
+    document_type: historical_procession_with_clergy_and_banners_photograph
+    readability: {status: good, note: "Prapory, nosiči, duchovní a další účastníci jsou dobře čitelní."}
+    visual_content:
+      photographs: single_historical_procession_with_clergy_and_banners
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Přítomnost konkrétní osoby nebo biskupa nelze určit pouze podle obličeje, oděvu či insignie.
+      - Souvisí s URB-U-0070 a tematicky s URB-U-0059.

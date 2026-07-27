@@ -1,0 +1,267 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd-28
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 5 Kaple CČS na Ostravici / archivní soubory 25 až 29
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Dávka pokračuje venkovní historickou slavnostní sérií. Položka 136 zachycuje skupinu mužů v duchovních oděvech
+    s knihami, přičemž několik osob má otevřená ústa a zřejmě zpívá. Položka 137 zachycuje početné shromáždění, dvě ženy ve
+    zdobeném oděvu a ženu stojící zády s pozvednutou paží, jejíž gesto odpovídá řízení společného zpěvu. Položka 138 spojuje
+    dva duchovní s knihami, dvě zdobeně oděné ženy, děti a vysoké žerdi nebo prapory. Položka 139 zachycuje samostatný projev
+    duchovního s knihou a výrazným řetězem u oltáře. Položka 140 dokumentuje velmi početný dav na zalesněném svahu, několik
+    deštníků a fotografa s fotoaparátem. Sdílené prostředí, účastníci a pořadí podporují společný slavnostní okruh, nikoli
+    automaticky jediný den, přesné datum nebo identity osob.
+  basis:
+  - full_image_visual_review
+  - architectural_and_personnel_cross_image_comparison
+  - archival_sequence
+  - verified_repo_files
+  related_open_items:
+  - URB-U-0059
+  - URB-U-0068
+items:
+- id: urbanek-ccs-136
+  archival_filename: 25.jpg
+  dimensions_px:
+  - 1554
+  - 1014
+  visual_type: historical_black_and_white_outdoor_clergy_group_with_books
+  description: V popředí stojí nejméně sedm mužů v dlouhých tmavých duchovních oděvech. Několik drží zavřené nebo otevřené
+    knihy, u nejméně jednoho je viditelný křížový přívěsek či znak. Některé osoby v pozadí mají otevřená ústa, což odpovídá
+    společnému zpěvu nebo recitaci.
+  subject_tags:
+  - clergy
+  - dark_robes
+  - books_or_hymnals
+  - possible_singing
+  - cross_or_pendant
+  - outdoor_service
+  - male_crowd
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - multiple_men_in_clergy_like_attire
+    - several_books_or_hymnals
+    - small_cross_or_pendant
+    - outdoor_group
+    - several_open_mouths
+    unverified:
+    - all_person_identities
+    - exact_offices
+    - whether_group_is_singing_praying_or_reciting
+    - event
+    - date
+    - location
+    - relationship_to_items_121_to_140
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-137
+  archival_filename: 26.jpg
+  dimensions_px:
+  - 1554
+  - 990
+  visual_type: historical_black_and_white_outdoor_congregational_singing_with_conductor
+  description: Početné venkovní shromáždění žen, dětí a jednoho duchovního v pravé části. Mnoho žen drží knihy nebo zpěvníky
+    a má otevřená ústa. Uprostřed stojí zády žena se zdviženou paží, jejíž gesto připomíná řízení zpěvu. Vlevo jsou dvě ženy
+    ve zdobeném oděvu s bílými pokrývkami hlavy, knihami a květinami; v pozadí je zalesněný horský svah.
+  subject_tags:
+  - large_congregation
+  - possible_choir
+  - woman_conducting_gesture
+  - books_or_hymnals
+  - women_in_decorated_dress
+  - head_coverings
+  - flowers
+  - children
+  - clergy
+  - mountain_background
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - many_women_and_children
+    - many_books_or_hymnals
+    - multiple_open_mouths
+    - woman_with_raised_arm_facing_group
+    - two_decorated_dress_women
+    - male_clergy_like_attire_at_right
+    - wooded_mountain_background
+    unverified:
+    - conductor_identity_and_role
+    - choir_or_congregation_identity
+    - exact_costume_region_or_group
+    - all_person_identities
+    - exact_song_or_liturgy
+    - event
+    - date
+    - exact_location
+  interpretive_note: Gesto a reakce skupiny podporují interpretaci společného zpěvu, nikoli přesné určení skladby nebo organizačního
+    sboru.
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-138
+  archival_filename: 27.jpg
+  dimensions_px:
+  - 1566
+  - 1002
+  visual_type: historical_black_and_white_clergy_costumed_women_children_and_banner_poles
+  description: Dva muži v tmavých duchovních oděvech drží knihy; u jednoho je viditelný kříž. Vedle nich stojí dvě ženy nebo
+    dívky ve zdobeném oděvu s bílými pokrývkami hlavy, knihami a květinami. Vpravo jsou děti a za skupinou několik vysokých
+    tmavých žerdí nebo praporů. V pozadí je rovněž muž v uniformě s čepicí.
+  subject_tags:
+  - clergy
+  - books_or_hymnals
+  - cross_pendant
+  - women_in_decorated_dress
+  - head_coverings
+  - flowers
+  - children
+  - banner_or_standard_poles
+  - uniformed_man
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - two_clergy_like_men_with_books
+    - visible_cross_pendant
+    - two_decorated_dress_women
+    - white_head_coverings
+    - flowers
+    - children
+    - multiple_dark_poles_or_standards
+    - uniformed_man_with_peaked_cap
+    unverified:
+    - all_person_identities
+    - exact_offices
+    - costume_region_or_group
+    - banner_owners_symbols_and_text
+    - uniformed_person_identity_and_service
+    - event
+    - date
+    - location
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-139
+  archival_filename: 28.jpg
+  dimensions_px:
+  - 1008
+  - 1590
+  visual_type: historical_black_and_white_chain_bearing_clergy_address_at_altar
+  description: Muž v dlouhém tmavém duchovním oděvu a brýlích stojí před oltářem nebo liturgickým stolem a drží otevřenou
+    knihu. Má výrazný ozdobný řetěz s velkým oválným medailonem obsahujícím motiv kalicha a kříže. Za ním jsou svícny, kalich
+    a zdobený kříž na světlém oltářním textilu.
+  subject_tags:
+  - clergy
+  - glasses
+  - ornate_chain
+  - chalice_and_cross_medallion
+  - open_book
+  - address_or_reading
+  - altar
+  - candlesticks
+  - chalice
+  - decorated_cross
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - single_male_clergy_like_person
+    - glasses
+    - ornate_chain
+    - oval_chalice_and_cross_medallion
+    - open_book
+    - altar_or_liturgical_table
+    - candlesticks
+    - chalice
+    - decorated_cross
+    unverified:
+    - person_identity
+    - exact_office
+    - whether_same_person_as_item_120
+    - speech_or_reading_content
+    - exact_liturgy
+    - event
+    - date
+    - location
+  comparison_relation:
+    related_item: urbanek-ccs-120
+    assessment: Tvář, brýle a celkové držení postavy jsou vizuálně podobné portrétu 120, ale podobnost obrazu není dokumentární
+      identifikací a jméno ani úřad se položce 139 nepřiřazují.
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0059
+  - URB-U-0070
+- id: urbanek-ccs-140
+  archival_filename: 29.jpg
+  dimensions_px:
+  - 1595
+  - 1031
+  visual_type: historical_black_and_white_large_hillside_crowd_with_umbrellas_and_photographer
+  description: Velmi početné venkovní shromáždění dospělých a dětí na zalesněném svahu. Několik účastníků drží deštníky a
+    knihy. V horní levé části sedí nebo klečí muž na vyvýšené zděné konstrukci a fotografuje fotoaparátem; na levém okraji
+    je část vysokého praporu nebo textilie a postava v tmavém oděvu.
+  subject_tags:
+  - very_large_crowd
+  - adults
+  - children
+  - umbrellas
+  - books_or_hymnals
+  - photographer
+  - camera
+  - wooded_hillside
+  - partial_banner_or_textile
+  - partial_clergy
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - very_large_outdoor_crowd
+    - adults_and_children
+    - several_umbrellas
+    - some_books
+    - man_using_camera_from_raised_position
+    - wooded_slope
+    - partial_vertical_textile_or_standard_at_left
+    unverified:
+    - photographer_identity
+    - all_participant_identities
+    - exact_site
+    - event
+    - date
+    - banner_or_textile_identity
+    - relationship_to_items_127_and_137
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+open_research_candidates:
+- id: URB-U-0070
+  subject: Ostravice_historical_outdoor_service_clergy_singing_costumes_children_banners_address_and_crowd
+- id: URB-U-0059
+  subject: possible_visual_parallel_to_Horsky_caption_without_identity_assignment
+next_action: 'Pokračovat položkami urbanek-ccs-141 až urbanek-ccs-145: posledním souborem podsložky Kaple CČS na Ostravici
+  `30  Fotografie asi z r. 1947. Zájezd Rychvaldských  s biskup.jpg` a prvními čtyřmi soubory podsložky `6 Červen 1970. Pohřeb
+  br. faráře ThDr Karla Vodičky.  Husova Č (1)`: `1.jpg`, `2.jpg`, `3.jpg` a `4.jpg`. Oddělit konec ostravické slavnostní
+  série od nové pohřební kolekce a osoby neurčovat pouze podle vzhledu.'

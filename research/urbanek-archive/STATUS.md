@@ -44,33 +44,32 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je dvacet dva dávek po pěti snímcích, tedy `urbanek-ccs-001` až `110`.
+Dokončeno je dvacet tři dávek po pěti snímcích, tedy `urbanek-ccs-001` až `115`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **110 z 201 položek**;
-- proti Git blob SHA ověřeno: **110 položek**;
-- vizuálně klasifikováno: **110 položek**;
-- zdrojově indexováno: **110 položek**;
-- zbývá: **91 položek**.
+- zpracováno: **115 z 201 položek**;
+- proti Git blob SHA ověřeno: **115 položek**;
+- vizuálně klasifikováno: **115 položek**;
+- zdrojově indexováno: **115 položek**;
+- zbývá: **86 položek**.
 
-### Zjištění dávky 22
+### Zjištění dávky 23
 
-Dávka 22 pokračuje v podsložce `5 Kaple CČS na Ostravici`.
+Dávka 23 pokračuje v podsložce `5 Kaple CČS na Ostravici`.
 
-- `urbanek-ccs-106` zachycuje uvítání duchovního mužem v obleku. Vložený popisek je čitelný jako „Uvítání br.biskupa zástupcem MNV“. Přepis je ověřen, identity, úřady, MNV, událost a datum nikoli.
-- `urbanek-ccs-107` zachycuje nízkou tmavě dřevem obloženou stavbu na zalesněném svahu se sedlovou střechou, komínem a bílými okenicemi. Archivní název ji označuje jako chatku na Ostravici; vztah ke kapli není prokázán.
-- `urbanek-ccs-108` zachycuje vysokou otevřenou dřevěnou věžovou konstrukci se stříškou, horní kovovou tyčí, kamennou nebo betonovou plošinou a venkovními lavicemi. Konstrukce odpovídá věži na historickém snímku `urbanek-ccs-102`, ale označení Winklerova zvonička, funkce a datace zůstávají k ověření.
-- `urbanek-ccs-109` zachycuje pamětní desku s nápisem o Husově kapli, Winklerově zvonici, roce 1937 a prvním ostravském biskupu Ferdinandu Stiborovi.
-- `urbanek-ccs-110` zachycuje druhou desku s údajem o stavbě od 21. 3. do 4. 7. 1937 za biskupa Ferdinanda Stibora a předsedy propagačního sboru Bohumíra Lišky podle návrhu architekta inženýra Alfreda Farníka z darů příslušníků CČS.
-- U obou desek je ověřeno přesné znění hlavního nápisu. Nápis sám neověřuje historickou správnost tvrzení, dobu vzniku desky ani její autoritu.
+- `urbanek-ccs-111` obsahuje čitelný vložený popisek „Uvítání br.biskupa správcem Husitské kaple“. Obraz zachycuje tři muže, kytici a ústředního duchovního s řetězem nebo insignií; identity a funkce nejsou samostatně ověřeny.
+- `urbanek-ccs-112` obsahuje čitelný popisek „Záběr z bohoslužeb“ a zachycuje početný dav před otevřeným vstupem kaple, v němž je viditelný oltář nebo liturgický stůl se svícny.
+- `urbanek-ccs-113` zachycuje starou subtilní dřevěnou věžovou konstrukci. V horní části je viditelný zavěšený zvon nebo zřetelně zvonovitý předmět; pod zvonicí stojí dav.
+- `urbanek-ccs-114` a `115` zachycují tutéž novou dřevěnou zvonici se čtyřmi masivními sloupy, širokou stříškou, zavěšeným zvonem a vysokou kovovou tyčí s kruhovým symbolem.
+- Archivní název `114` tvrdí, že stará zvonice byla roku 2016 demontována a nahrazena novou. EXIF obou moderních snímků uvádí pořízení 2. října 2016 v časech 14:04:23 a 14:05:02. To podporuje existenci nové konstrukce k tomuto dni, nikoli přesné datum demontáže, stavby nebo předání.
 - Dávka nepřidala nové ID a rozšířila `URB-U-0069` a `URB-U-0070`.
 
-Pracovní soubory dávky 22:
+Pracovní soubory dávky 23:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-22.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-22.yml`;
-- `sources/index.d/urbanek-ccs-22.yml`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-23.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-23.yml`;
+- `sources/index.d/urbanek-ccs-23.yml`;
 - rozšířený `research/urbanek-archive/uncertainties/open-17.yml`.
 
 ## Registr nejistot
@@ -83,15 +82,15 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 70.
 
-Dávka 22 nepřidala nové ID. `URB-U-0069` nyní zahrnuje dřevěnou chatku, moderní detail staré zvonice, oba pamětní nápisy, rok 1937, Ferdinanda Stibora, Bohumíra Lišku a Alfreda Farníka. `URB-U-0070` byla rozšířena o uvítání biskupa zástupcem MNV.
+Dávka 23 nepřidala nové ID. `URB-U-0069` nyní zahrnuje obrazovou posloupnost staré a nové zvonice, viditelné zvony, tvrzení o výměně roku 2016, EXIF dataci nové konstrukce a otázku případného přenesení původního zvonu. `URB-U-0070` byla rozšířena o správce Husitské kaple a záběr z bohoslužeb.
 
-Čitelné pamětní nebo stavební nápisy potvrzují své znění, nikoli automaticky historickou správnost údajů v nich.
+EXIF datum může podporovat, že objekt existoval v okamžiku pořízení fotografie; samo neprokazuje datum stavby, demontáže nebo vysvěcení.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 110 zpracovaných a 91 zbývajících položek;
+- aktuální průběžný stav je 115 zpracovaných a 86 zbývajících položek;
 - registr používá součty 36/31/3/70;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -99,7 +98,7 @@ Dávka 22 nepřidala nové ID. `URB-U-0069` nyní zahrnuje dřevěnou chatku, mo
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-111` až `urbanek-ccs-115`.
-- Očekávané archivní názvy v podsložce `5 Kaple CČS na Ostravici`: `6.jpg`, `7.jpg`, `8  Winklerova zvonička.jpg`, `8a  V r. 2016 byla stará zvonička demontována a nahrazena novou.jpg` a `8b.jpg`.
+- Následující položky: `urbanek-ccs-116` až `urbanek-ccs-120`.
+- Očekávané archivní názvy v podsložce `5 Kaple CČS na Ostravici`: `8c.jpg`, `IMG_20161002_140624.jpg`, `IMG_20161002_140644.jpg`, `IMG_20161002_140659.jpg` a `9  biskup dr Horský v r. 1945 - 1946.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

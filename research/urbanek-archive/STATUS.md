@@ -44,36 +44,34 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - stav: `processing_in_progress`;
 - pilotní součty se touto dávkou nemění.
 
-Dokončeno je dvacet jedna dávek po pěti snímcích, tedy `urbanek-ccs-001` až `105`.
+Dokončeno je dvacet dva dávek po pěti snímcích, tedy `urbanek-ccs-001` až `110`.
 
 Dosavadní stav nové kolekce:
 
-- zpracováno: **105 z 201 položek**;
-- proti Git blob SHA ověřeno: **105 položek**;
-- vizuálně klasifikováno: **105 položek**;
-- zdrojově indexováno: **105 položek**;
-- zbývá: **96 položek**.
+- zpracováno: **110 z 201 položek**;
+- proti Git blob SHA ověřeno: **110 položek**;
+- vizuálně klasifikováno: **110 položek**;
+- zdrojově indexováno: **110 položek**;
+- zbývá: **91 položek**.
 
-### Zjištění dávky 21
+### Zjištění dávky 22
 
-Dávka 21 uzavírá Chrobáčkovu podsložku a otevírá podsložku `5 Kaple CČS na Ostravici`.
+Dávka 22 pokračuje v podsložce `5 Kaple CČS na Ostravici`.
 
-- `urbanek-ccs-101` zachycuje velkou skupinu před monumentálním vstupem. Je přesnou binární kopií `urbanek-ccs-045`; oba soubory mají blob SHA `d220a75fd2a69f43b2089c126488bbda84bea476`. Dvě archivní cesty proto představují jediný nezávislý obrazový záznam.
-- `urbanek-ccs-102` zachycuje malou světlou stavbu na travnatém svahu s kamennou opěrnou zdí a vysokou úzkou věžovou konstrukcí. Označení kaple CČS na Ostravici a Winklerovy zvoničky pochází z archivního názvu.
-- `urbanek-ccs-103` zachycuje oltář s motivem kalicha, svícny a kruhové figurální okno s profilem vousatého muže. Určení postavy jako Jana Husa pochází z archivního názvu.
-- `urbanek-ccs-104` obsahuje čitelný vložený popisek: „Zástupce diec.rady br.Chrobáček vítá účastníky.“ Přepis textu je ověřen, identita muže a funkce uvedená v popisku nikoli.
-- `urbanek-ccs-105` obsahuje čitelný vložený popisek: „Uvítání br.biskupa za děti“. Obraz zachycuje předání kytice mladou ženou nebo dívkou duchovnímu; identity, úřad a zastupování dětí nejsou samostatně ověřeny.
-- Chrobáčkova podsložka má nyní zpracováno všech 25 souborů. Historické otázky v `URB-U-0062` zůstávají otevřené.
-- Dávka vytvořila nové položky `URB-U-0069` pro kapli, zvoničku a figurální okno a `URB-U-0070` pro slavnost, Chrobáčka, biskupa a dětské uvítání.
+- `urbanek-ccs-106` zachycuje uvítání duchovního mužem v obleku. Vložený popisek je čitelný jako „Uvítání br.biskupa zástupcem MNV“. Přepis je ověřen, identity, úřady, MNV, událost a datum nikoli.
+- `urbanek-ccs-107` zachycuje nízkou tmavě dřevem obloženou stavbu na zalesněném svahu se sedlovou střechou, komínem a bílými okenicemi. Archivní název ji označuje jako chatku na Ostravici; vztah ke kapli není prokázán.
+- `urbanek-ccs-108` zachycuje vysokou otevřenou dřevěnou věžovou konstrukci se stříškou, horní kovovou tyčí, kamennou nebo betonovou plošinou a venkovními lavicemi. Konstrukce odpovídá věži na historickém snímku `urbanek-ccs-102`, ale označení Winklerova zvonička, funkce a datace zůstávají k ověření.
+- `urbanek-ccs-109` zachycuje pamětní desku s nápisem o Husově kapli, Winklerově zvonici, roce 1937 a prvním ostravském biskupu Ferdinandu Stiborovi.
+- `urbanek-ccs-110` zachycuje druhou desku s údajem o stavbě od 21. 3. do 4. 7. 1937 za biskupa Ferdinanda Stibora a předsedy propagačního sboru Bohumíra Lišky podle návrhu architekta inženýra Alfreda Farníka z darů příslušníků CČS.
+- U obou desek je ověřeno přesné znění hlavního nápisu. Nápis sám neověřuje historickou správnost tvrzení, dobu vzniku desky ani její autoritu.
+- Dávka nepřidala nové ID a rozšířila `URB-U-0069` a `URB-U-0070`.
 
-Pracovní soubory dávky 21:
+Pracovní soubory dávky 22:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-21.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml`;
-- `sources/index.d/urbanek-ccs-21.yml`;
-- nový `research/urbanek-archive/uncertainties/open-17.yml`;
-- rozšířený `research/urbanek-archive/uncertainties/open-12.yml`;
-- doplněná vazba přesné kopie v dávce 09 a `sources/index.d/urbanek-ccs-09.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-22.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-22.yml`;
+- `sources/index.d/urbanek-ccs-22.yml`;
+- rozšířený `research/urbanek-archive/uncertainties/open-17.yml`.
 
 ## Registr nejistot
 
@@ -85,13 +83,15 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 70.
 
-Dávka 21 přidala `URB-U-0069` a `URB-U-0070` a rozšířila `URB-U-0062` o přesnou kopii položek `045/101`. Přesná binární kopie není druhým historickým svědectvím a čitelný vložený popisek potvrzuje své znění, nikoli automaticky osoby, úřady, událost nebo datum.
+Dávka 22 nepřidala nové ID. `URB-U-0069` nyní zahrnuje dřevěnou chatku, moderní detail staré zvonice, oba pamětní nápisy, rok 1937, Ferdinanda Stibora, Bohumíra Lišku a Alfreda Farníka. `URB-U-0070` byla rozšířena o uvítání biskupa zástupcem MNV.
+
+Čitelné pamětní nebo stavební nápisy potvrzují své znění, nikoli automaticky historickou správnost údajů v nich.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová dávka jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají stejný rozsah nové dávky: 200 + 1 = 201;
-- aktuální průběžný stav je 105 zpracovaných a 96 zbývajících položek;
+- aktuální průběžný stav je 110 zpracovaných a 91 zbývajících položek;
 - registr používá součty 36/31/3/70;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -99,7 +99,7 @@ Dávka 21 přidala `URB-U-0069` a `URB-U-0070` a rozšířila `URB-U-0062` o př
 
 - Pilot: `completed`.
 - Nová dávka: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-106` až `urbanek-ccs-110`.
-- Očekávané archivní názvy v podsložce `5 Kaple CČS na Ostravici`: `5.jpg`, `5a chatka na Ostravici.jpg`, `5 b Winklerova zvonička.jpg`, `5 c.jpg` a `5 d.jpg`.
+- Následující položky: `urbanek-ccs-111` až `urbanek-ccs-115`.
+- Očekávané archivní názvy v podsložce `5 Kaple CČS na Ostravici`: `6.jpg`, `7.jpg`, `8  Winklerova zvonička.jpg`, `8a  V r. 2016 byla stará zvonička demontována a nahrazena novou.jpg` a `8b.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení, dokud nová dávka nebude dokončena nebo z rozsahu PR výslovně oddělena.

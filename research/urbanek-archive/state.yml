@@ -35,16 +35,7 @@ ccs_collection:
   status: processing_in_progress
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
-  progress:
-    processed_items: 120
-    repo_verified_items: 120
-    visually_classified_items: 120
-    source_indexed_items: 120
-    remaining_items: 81
-    inventory_status: in_progress
-    visual_classification_status: in_progress
-    ocr_status: in_progress_for_scene_text
-    thumbnail_cache_audit_status: pending
+  progress: {processed_items: 125, repo_verified_items: 125, visually_classified_items: 125, source_indexed_items: 125, remaining_items: 76, inventory_status: in_progress, visual_classification_status: in_progress, ocr_status: in_progress_for_scene_text, thumbnail_cache_audit_status: pending}
   completed_batches:
   - {number: 1, items: 001-005, id: construction-sequence}
   - {number: 2, items: 006-010, id: opening-and-early-interior}
@@ -70,33 +61,30 @@ ccs_collection:
   - {number: 22, items: 106-110, id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques}
   - {number: 23, items: 111-115, id: ostravice-chapel-manager-service-old-and-new-bell-tower}
   - {number: 24, items: 116-120, id: ostravice-2016-site-plaque-symbol-and-horsky-portrait}
+  - {number: 25, items: 121-125, id: ostravice-service-crowd-procession-costumes-banners-and-clergy}
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-24.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-24.yml
-    source_index: sources/index.d/urbanek-ccs-24.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-25.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-25.yml
+    source_index: sources/index.d/urbanek-ccs-25.yml
   technical_files:
   - {path: 10 Kalendář 2015/Thumbs.db, audit_status: pending}
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary: {open: 36, in_progress: 0, deferred: 0, resolved: 31, not_actionable: 3, total: 70}
   ccs_range: URB-U-0039..URB-U-0070
-  batch_24_updated: [URB-U-0059, URB-U-0069]
+  batch_25_updated: [URB-U-0070]
+  batch_25_related: [URB-U-0059]
   handling_rules:
   - Archival names and folder labels are attribution metadata, not independent historical proof.
   - Persons are not identified solely from facial appearance.
   - Truncated captions are not reconstructed by guesswork.
-  - Multiple archival reproductions of the same underlying photograph are separate files but not independent event evidence.
-  - Exact binary duplicates under different paths are separate inventory items but only one independent image record.
   - Image continuity may establish a sequence, not names, dates, family relations or offices.
   - Chains or insignia do not independently establish a specific ecclesiastical office.
-  - A visible gesture does not independently identify the exact ritual.
-  - Physical placement of an insignia verifies the action, not the recipient identity or legal meaning.
   - A readable caption embedded in a photograph verifies the wording, not automatically the people, offices, event or date asserted.
-  - A readable memorial or construction inscription verifies its wording, not automatically the historical claims within it.
-  - EXIF capture time may support that an object existed by the recorded moment, not the exact construction, demolition or dedication date.
+  - Shared banners and route can support a common procession but do not identify banner owners or participants.
 consistency_review:
   status: completed_with_corrections
-  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 120, ccs_remaining_items: 81}
+  verified_equal_totals: {ccs_total_items: 201, ccs_processed_items: 125, ccs_remaining_items: 76}
   ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 readiness:
   status: draft_pr_open_pilot_complete_next_batch_in_progress
@@ -107,12 +95,7 @@ readiness:
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
-  items: [urbanek-ccs-121, urbanek-ccs-122, urbanek-ccs-123, urbanek-ccs-124, urbanek-ccs-125]
-  expected_source_files:
-  - 5/10.jpg
-  - 5/11 Celkový pohled na účastníky slavnosti asi v r. 1945 nebo .jpg
-  - 5/12  Průvod účastníků.jpg
-  - 5/13  Krojovaní, prapory sborů a děti v průvodu.jpg
-  - 5/14  Účast duchovních.jpg
+  items: [urbanek-ccs-126, urbanek-ccs-127, urbanek-ccs-128, urbanek-ccs-129, urbanek-ccs-130]
+  expected_source_files: [5/15.jpg, 5/16 Před kapličkou.jpg, 5/17 Vlevo Leonard Bugumský.jpg, 5/18.jpg, 5/19.jpg]
   batch_size_rule: 5_to_10_files
   instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document and scene text, index each item, reuse stable uncertainty IDs where appropriate, and keep the PR draft and unmerged.

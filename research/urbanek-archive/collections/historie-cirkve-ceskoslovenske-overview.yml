@@ -24,6 +24,7 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-19.yml
 - sources/index.d/urbanek-ccs-20.yml
 - sources/index.d/urbanek-ccs-21.yml
+- sources/index.d/urbanek-ccs-22.yml
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 status: processing_in_progress
@@ -47,11 +48,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 105
-  repo_verified_items: 105
-  visually_classified_items: 105
-  source_indexed_items: 105
-  remaining_items: 96
+  processed_items: 110
+  repo_verified_items: 110
+  visually_classified_items: 110
+  source_indexed_items: 110
+  remaining_items: 91
   completed_batches:
   - {id: construction-sequence-01, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-01.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-01.yml, source_index: sources/index.d/urbanek-ccs.yml}
   - {id: opening-and-early-interior-02, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-02.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-02.yml, source_index: sources/index.d/urbanek-ccs-02.yml}
@@ -74,8 +75,9 @@ processing:
   - {id: chrobacek-investiture-address-and-document-19, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-19.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-19.yml, source_index: sources/index.d/urbanek-ccs-19.yml}
   - {id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation-20, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-20.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-20.yml, source_index: sources/index.d/urbanek-ccs-20.yml}
   - {id: chrobacek-final-duplicate-and-ostravice-chapel-opening-21, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-21.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-21.yml, source_index: sources/index.d/urbanek-ccs-21.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-17.yml}
+  - {id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques-22, inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-22.csv, classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-22.yml, source_index: sources/index.d/urbanek-ccs-22.yml, uncertainty_shard: research/urbanek-archive/uncertainties/open-17.yml}
   open_uncertainties_from_collection: [URB-U-0039, URB-U-0040, URB-U-0041, URB-U-0042, URB-U-0043, URB-U-0044, URB-U-0045, URB-U-0046, URB-U-0047, URB-U-0048, URB-U-0049, URB-U-0050, URB-U-0051, URB-U-0052, URB-U-0053, URB-U-0054, URB-U-0055, URB-U-0056, URB-U-0057, URB-U-0058, URB-U-0059, URB-U-0060, URB-U-0061, URB-U-0062, URB-U-0063, URB-U-0064, URB-U-0065, URB-U-0066, URB-U-0067, URB-U-0068, URB-U-0069, URB-U-0070]
-  next_items: [urbanek-ccs-106, urbanek-ccs-107, urbanek-ccs-108, urbanek-ccs-109, urbanek-ccs-110]
+  next_items: [urbanek-ccs-111, urbanek-ccs-112, urbanek-ccs-113, urbanek-ccs-114, urbanek-ccs-115]
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
@@ -90,4 +92,3 @@ rules:
 - A readable memorial inscription verifies its wording, not automatically the historical claims within it.
 - Repeated people can establish an image sequence, not names or family relationships without explicit evidence.
 - A readable caption embedded in a photograph verifies the caption wording, not automatically the identity, office, event or date asserted by it.
-- Original files are not renamed, moved or modified.

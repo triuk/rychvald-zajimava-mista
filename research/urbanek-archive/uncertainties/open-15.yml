@@ -1,139 +1,138 @@
 schema_version: 1
-scope: ccs_batch_12_open_items_updated_through_batch_30
+scope: ccs_batch_12_open_items_updated_through_batch_31
 items:
-  - id: URB-U-0067
-    status: open
-    priority: high
-    collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: 
-      Vodicka_memorial_plaque_hidden_content_biography_portrait_spouse_visit_groups_funeral_faculty_exit_and_uniformed_salutes
-    related_open_items:
-      - URB-U-0039
-      - URB-U-0046
-      - URB-U-0060
-      - URB-U-0063
-      - URB-U-0064
-      - URB-U-0068
-    source_items:
-      - urbanek-ccs-059
-      - urbanek-ccs-060
-      - urbanek-ccs-064
-      - urbanek-ccs-065
-      - urbanek-ccs-142
-      - urbanek-ccs-143
-      - urbanek-ccs-144
-      - urbanek-ccs-145
-      - urbanek-ccs-146
-      - urbanek-ccs-147
-      - urbanek-ccs-148
-      - urbanek-ccs-149
-      - urbanek-ccs-150
-    question: >-
-      Kdy byla pamětní deska Karla a Libuše Vodičkových instalována, co je podle useknutého archivního popisku umístěno za
-      ní, jsou data a role uvedené na desce doložitelné dalšími prameny, jaký byl vztah a význam Libuše Vodičkové, je portrét
-      skutečně Karlem Vodičkou a které osoby na skupinových fotografiích jsou Karel a Libuše Vodičkovi? Kdy proběhla zachycená
-      návštěva a patří k roku 1965, 1970 nebo k jiné události? Zachycují položky 142 až 150 skutečně pohřeb Karla Vodičky
-      v červnu 1970, jaká místnost Husovy československé bohoslovecké fakulty v Praze hostila obřad, jaká je přesná historická
-      adresa, kdo jsou uniformované osoby a lidé v dlouhých tmavých oděvech a zda salutující uniformovaní účastníci tvořili
-      oficiální čestnou stráž?
-    known_facts:
-      - Deska obsahuje čitelná jména Karel Vodička a Libuše Vodičková a jejich životní data.
-      - Nápis označuje Karla Vodičku jako prvního faráře zdejší náboženské obce, budovatele sboru a spoluzakladatele 
-        Církve československé husitské.
-      - Čitelné znění desky je přepsáno v klasifikaci dávky 12.
-      - Archivní název fotografie desky končí řetězcem „umíst“, takže předmět nebo obsah za deskou není v dochovaném 
-        názvu uveden celý.
-      - Urbanek-ccs-060 zachycuje muže v duchovním oděvu a brýlích; jméno ThDr. Karel Vodička a funkce prvního faráře 
-        pocházejí z archivního názvu.
-      - Fotografie desky má embedded datum 14. října 2010, které dokládá pořízení snímku, nikoli instalaci desky.
-      - Urbanek-ccs-064 zachycuje širší skupinu s dvěma ženami a dvěma muži sedícími v přední řadě; archivní název je 
-        označuje jako faráře Vodičku a Bogumského s manželkami.
-      - Urbanek-ccs-065 zachycuje tutéž čtveřici samostatně v zahradním prostředí; název ji lokalizuje k faráři 
-        Bogumskému.
-      - Snímky 064 a 065 neobsahují text ani jednoznačný znak dovolující přiřadit jednotlivá jména k osobám.
-      - Název druhé podsložky zmiňuje návštěvu faráře Vodičky v letech 1965 a 1970, ale jednotlivé fotografie nejsou 
-        samy datovány.
-      - Název šesté podsložky připisuje položky 142 až 145 pohřbu bratra faráře ThDr. Karla Vodičky v červnu 1970; jde o
-        archivní atribuci.
-      - Urbanek-ccs-142 zachycuje rakev pod velkým krucifixem, množství věnců, květin a svící a čtyři uniformované muže;
-        dva v popředí mají viditelné dekorace nebo medaile.
-      - Urbanek-ccs-143 zachycuje tentýž interiér v širokém pohledu s rakví, dvěma viditelnými uniformovanými muži, 
-        početným shromážděním a osobami po stranách kněžiště.
-      - Urbanek-ccs-144 a 145 zachycují rakev a čtyři dospělé osoby v dlouhých tmavých oděvech nebo pláštích.
-      - Položky 142 až 145 neobsahují použitelné embedded datum ani obrazový text jednoznačně určující zemřelého, datum 
-        nebo místo.
-      - Urbanek-ccs-146 zachycuje stojící osobu v dlouhém tmavém oděvu u rakve nebo katafalku, věnců, svící a řad 
-        sedících účastníků.
-      - Urbanek-ccs-147 zachycuje zaplněný interiér pod varhanní kruchtou; několik osob v přední řadě drží kapesníky 
-        nebo ruce u obličeje.
-      - Urbanek-ccs-148 zachycuje vynášení rakve z budovy označené čitelným nápisem „HUSOVA ČESKOSLOVENSKÁ BOHOSLOVECKÁ 
-        FAKULTA V PRAZE“.
-      - Nápis na urbanek-ccs-148 dokládá dobové označení zachycené budovy; sám neurčuje identitu zemřelého, datum, 
-        přesnou adresu ani funkci interiéru.
-      - Urbanek-ccs-149 zachycuje před stejným vstupem nejméně dvě salutující uniformované osoby, osobu v uniformě s 
-        četnými dekoracemi, účastníky ve dveřích a číslo 5 na fasádě.
-      - Urbanek-ccs-150 navazuje na tutéž venkovní situaci; je to odlišný snímek, nikoli binární duplikát položky 149.
-      - Položky 146 až 150 neobsahují použitelné embedded datum.
-    unresolved_attributes:
-      - plaque_installation_date_and_author
-      - exact_location_in_entrance_hall
-      - complete_original_filename_and_caption
-      - object_remains_or_container_behind_plaque
-      - independent_confirmation_of_Karel_Vodicka_birth_and_death_dates
-      - independent_confirmation_of_first_pastor_builder_and_cofounder_roles
-      - Libuse_Vodickova_relationship_biography_and_role
-      - portrait_identity
-      - portrait_date_photographer_and_original_provenance
-      - academic_title_and_exact_clerical_tenure
-      - mapping_of_Karel_and_Libuse_Vodicka_on_items_064_065
-      - identities_of_Bogumski_and_spouse
-      - exact_date_and_occasion_of_visit_group
-      - whether_images_belong_to_1965_or_1970
-      - identities_of_larger_group_on_item_064
-      - relationship_to_other_photographs_attributed_to_Vodicka
-      - independent_confirmation_that_items_142_to_150_show_Karel_Vodicka_funeral
-      - exact_funeral_date_historical_street_address_and_room_within_faculty
-      - whether_interior_is_faculty_chapel_auditorium_or_other_room
-      - identities_and_roles_of_four_dark_robed_participants
-      - identities_and_roles_of_people_beside_chancel_and_at_altar
-      - reliable_transcription_of_wreath_ribbons
-      - funeral_program_liturgy_and_procession_sequence
-      - photographers_and_original_provenance_of_funeral_images
-      - relationship_between_plaque_death_date_and_funeral_folder_date
-      - meaning_and_historical_status_of_building_number_5
-      - lower_exterior_sign_text
-      - identities_roles_and_organization_of_saluting_uniformed_people
-      - identity_and_role_of_decorated_uniformed_person
-      - foreground_person_with_bag_or_case_identity_role_and_equipment
-    next_action: >-
-      Hledat sborovou a obecní kroniku, personální a životopisné prameny, matriky, záznam o instalaci desky, úplný archivní
-      popisek, evidenci případných uren nebo ostatků, programy návštěv roku 1965 a 1970, nekrolog, smuteční oznámení, program
-      a zápis pohřbu a dobové materiály Husovy československé bohoslovecké fakulty. Ověřit historickou adresu budovy s číslem
-      5, konkrétní místnost obřadu, dolní venkovní desku, příslušnost uniformovaných osob a případný status čestné stráže.
-      Obsah za pamětní deskou, zemřelého, osoby ani jejich role nedoplňovat pouze podle kontextu, oděvu, uniformy nebo vzhledu.
-    reopen_triggers:
-      - complete_filename_or_caption_found
-      - plaque_installation_record_found
-      - church_chronicle_entry_found
-      - burial_or_urn_record_found
-      - independent_biographical_source_found
-      - captioned_portrait_source_found
-      - 1965_or_1970_visit_program_found
-      - family_or_congregation_identification_provided
-      - funeral_program_obituary_or_notice_found
-      - captioned_funeral_photo_found
-      - honor_guard_identification_found
-      - wreath_ribbon_text_resolved
-      - faculty_archive_or_building_record_found
-      - historical_address_or_floor_plan_found
-      - lower_exterior_sign_resolved
-      - uniformed_organization_or_honor_guard_record_found
-    evidence:
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml
-      - sources/index.d/urbanek-ccs-12.yml
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml
-      - sources/index.d/urbanek-ccs-13.yml
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-29.yml
-      - sources/index.d/urbanek-ccs-29.yml
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-30.yml
-      - sources/index.d/urbanek-ccs-30.yml
+- id: URB-U-0067
+  status: open
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: Vodicka_memorial_plaque_hidden_content_biography_portrait_spouse_visit_groups_funeral_faculty_exit_altar_and_duplicate_plaque
+  related_open_items:
+  - URB-U-0039
+  - URB-U-0046
+  - URB-U-0060
+  - URB-U-0063
+  - URB-U-0064
+  - URB-U-0068
+  source_items:
+  - urbanek-ccs-059
+  - urbanek-ccs-060
+  - urbanek-ccs-064
+  - urbanek-ccs-065
+  - urbanek-ccs-142
+  - urbanek-ccs-143
+  - urbanek-ccs-144
+  - urbanek-ccs-145
+  - urbanek-ccs-146
+  - urbanek-ccs-147
+  - urbanek-ccs-148
+  - urbanek-ccs-149
+  - urbanek-ccs-150
+  - urbanek-ccs-151
+  - urbanek-ccs-152
+  - urbanek-ccs-153
+  - urbanek-ccs-154
+  - urbanek-ccs-155
+  question: Kdy byla pamětní deska Karla a Libuše Vodičkových instalována, co je podle neúplných archivních popisků umístěno
+    nebo uloženo za ní, jsou data a role uvedené na desce doložitelné dalšími prameny, jaký byl vztah a význam Libuše Vodičkové,
+    je rámovaný portrét skutečně Karlem Vodičkou a které osoby na skupinových fotografiích jsou Karel a Libuše Vodičkovi?
+    Kdy proběhla zachycená návštěva a patří k roku 1965, 1970 nebo k jiné události? Zachycují položky 142 až 152 skutečně
+    pohřeb Karla Vodičky v červnu 1970, jaká místnost Husovy československé bohoslovecké fakulty v Praze hostila obřad, jaká
+    je přesná historická adresa, kdo jsou uniformované osoby a lidé v dlouhých tmavých oděvech a zda salutující uniformovaní
+    účastníci tvořili oficiální čestnou stráž? Kdy a při jaké příležitosti bylo v rychvaldském sboru vytvořeno pietní uspořádání
+    zachycené na položkách 153 a 154?
+  known_facts:
+  - Deska obsahuje čitelná jména Karel Vodička a Libuše Vodičková a jejich životní data.
+  - Nápis označuje Karla Vodičku jako prvního faráře zdejší náboženské obce, budovatele sboru a spoluzakladatele Církve československé
+    husitské.
+  - Čitelné znění desky je přepsáno v klasifikacích dávek 12 a 31.
+  - Archivní názvy položek 059 a 155 uvádějí, že je něco za deskou umístěno nebo uloženo, ale neuvádějí co.
+  - Urbanek-ccs-059 a urbanek-ccs-155 jsou přesné binární duplikáty se SHA a5781859d0d64384fff6d1c55a9e9100539ec22d.
+  - Fotografie desky má embedded datum 14. října 2010, které dokládá pořízení snímku, nikoli instalaci desky.
+  - Urbanek-ccs-060 zachycuje muže v duchovním oděvu a brýlích; jméno ThDr. Karel Vodička a funkce prvního faráře pocházejí
+    z archivního názvu.
+  - Urbanek-ccs-064 a 065 zachycují skupiny osob připisované archivními názvy manželům Vodičkovým a Bogumským; jednotlivé
+    identity nejsou obrazově určeny.
+  - Název druhé podsložky zmiňuje návštěvu faráře Vodičky v letech 1965 a 1970, ale jednotlivé fotografie nejsou samy datovány.
+  - Název šesté podsložky připisuje položky 142 až 155 pohřbu bratra faráře ThDr. Karla Vodičky v červnu 1970; jde o archivní
+    atribuci.
+  - Položky 142 až 147 zachycují rakev nebo související interiér, smuteční výzdobu, shromáždění a osoby v uniformách a dlouhých
+    tmavých oděvech.
+  - Urbanek-ccs-148 zachycuje vynášení rakve z budovy označené nápisem HUSOVA ČESKOSLOVENSKÁ BOHOSLOVECKÁ FAKULTA V PRAZE.
+  - Položky 149 až 151 zachycují navazující situaci před stejným vstupem s uniformovanými, duchovními a civilními účastníky.
+  - Urbanek-ccs-152 zachycuje ženu v tmavém oděvu mezi dvěma muži, kteří ji drží nebo podpírají; identity, vztahy a důvod
+    podpory nejsou určeny.
+  - Urbanek-ccs-153 zachycuje oltář, krucifix, svíce, květiny a rámovaný portrét s černou stuhou; lokalizace do Rychvaldu
+    pochází z názvu.
+  - Urbanek-ccs-154 je bližší záběr stejného pietního uspořádání; identifikace portrétu jako Karla Vodičky pochází z archivního
+    názvu.
+  - Položky 153 a 154 nejsou binární duplikáty.
+  - Položky 151 až 154 neobsahují použitelné embedded datum.
+  unresolved_attributes:
+  - plaque_installation_date_and_author
+  - exact_location_in_entrance_hall
+  - complete_original_captions
+  - object_remains_or_container_behind_plaque
+  - independent_confirmation_of_Karel_Vodicka_birth_and_death_dates
+  - independent_confirmation_of_first_pastor_builder_and_cofounder_roles
+  - Libuse_Vodickova_relationship_biography_and_role
+  - portrait_identity
+  - portrait_date_photographer_and_original_provenance
+  - academic_title_and_exact_clerical_tenure
+  - mapping_of_Karel_and_Libuse_Vodicka_on_items_064_065
+  - identities_of_Bogumski_and_spouse
+  - exact_date_and_occasion_of_visit_group
+  - whether_images_belong_to_1965_or_1970
+  - identities_of_larger_group_on_item_064
+  - independent_confirmation_that_items_142_to_152_show_Karel_Vodicka_funeral
+  - exact_funeral_date_historical_street_address_and_room_within_faculty
+  - whether_interior_is_faculty_chapel_auditorium_or_other_room
+  - identities_and_roles_of_dark_robed_participants
+  - identities_and_roles_of_people_beside_chancel_and_at_altar
+  - reliable_transcription_of_wreath_ribbons
+  - funeral_program_liturgy_and_procession_sequence
+  - photographers_and_original_provenance_of_funeral_images
+  - relationship_between_plaque_death_date_and_funeral_folder_date
+  - meaning_and_historical_status_of_building_number_5
+  - lower_exterior_sign_text
+  - identities_roles_and_organization_of_uniformed_people
+  - identity_and_role_of_decorated_uniformed_person
+  - foreground_person_with_bag_or_case_identity_role_and_equipment
+  - identities_relationships_and_reason_for_support_on_item_152
+  - independent_confirmation_of_Rychvald_location_for_items_153_154
+  - date_and_occasion_of_memorial_portrait_display
+  - relationship_of_items_153_154_to_the_Prague_funeral_sequence
+  next_action: Hledat sborovou a obecní kroniku, personální a životopisné prameny, matriky, záznam o instalaci desky, úplné
+    archivní popisky, evidenci případných uren nebo ostatků, programy návštěv roku 1965 a 1970, nekrolog, smuteční oznámení,
+    program a zápis pohřbu a dobové materiály Husovy československé bohoslovecké fakulty. Ověřit historickou adresu budovy
+    s číslem 5, konkrétní místnost obřadu, dolní venkovní desku, příslušnost uniformovaných osob, případný status čestné stráže
+    a datum i účel pietního uspořádání v rychvaldském sboru. Obsah za pamětní deskou, zemřelého, osoby ani jejich role nedoplňovat
+    pouze podle kontextu, oděvu, uniformy nebo vzhledu.
+  reopen_triggers:
+  - complete_filename_or_caption_found
+  - plaque_installation_record_found
+  - church_chronicle_entry_found
+  - burial_or_urn_record_found
+  - independent_biographical_source_found
+  - captioned_portrait_source_found
+  - 1965_or_1970_visit_program_found
+  - family_or_congregation_identification_provided
+  - funeral_program_obituary_or_notice_found
+  - captioned_funeral_photo_found
+  - honor_guard_identification_found
+  - wreath_ribbon_text_resolved
+  - faculty_archive_or_building_record_found
+  - historical_address_or_floor_plan_found
+  - lower_exterior_sign_resolved
+  - uniformed_organization_or_honor_guard_record_found
+  - memorial_display_record_found
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-12.yml
+  - sources/index.d/urbanek-ccs-12.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml
+  - sources/index.d/urbanek-ccs-13.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-29.yml
+  - sources/index.d/urbanek-ccs-29.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-30.yml
+  - sources/index.d/urbanek-ccs-30.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-31.yml
+  - sources/index.d/urbanek-ccs-31.yml

@@ -1,0 +1,142 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-31
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-151
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen 1970.
+    Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/10.jpg
+  file_size_bytes: 173846
+  git_blob_sha: e7d0b0528413895725689571ce3ca74d9747b8a6
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Účastníci a uniformované osoby před vstupem fakulty
+  document_type: historical_funeral_participants_outside_faculty_photograph
+  readability:
+    status: good
+    note: Hlavní obrazový obsah je čitelný; text je přepsán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: present_but_blurred
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Jde o pokračování venkovní série před stejným vstupem jako položky 148 až 150.
+  - Uniformy, dekorace ani dlouhé oděvy samy neurčují organizaci, hodnost nebo roli osob.
+  - Souvisí s URB-U-0067.
+- source_id: urbanek-ccs-152
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen 1970.
+    Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/11.jpg
+  file_size_bytes: 156866
+  git_blob_sha: a2fab28e7ff65cbe52d5507613eacf71f4c4dd2e
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Žena doprovázená dvěma muži u vstupu fakulty
+  document_type: historical_supported_woman_at_funeral_exit_photograph
+  readability:
+    status: good
+    note: Hlavní obrazový obsah je čitelný; text je přepsán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Fyzická podpora ženy je obrazově viditelná; její důvod ani stav se neurčují.
+  - Identity a vzájemné vztahy osob nejsou určeny.
+  - Souvisí s URB-U-0067.
+- source_id: urbanek-ccs-153
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen 1970.
+    Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/12  Před oltářem v Rychvaldě.jpg
+  file_size_bytes: 148634
+  git_blob_sha: 65e44aa24a7745b99bbe4ff2e183a935df6d83fe
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Oltář s krucifixem a rámovaným pietním portrétem
+  document_type: historical_altar_memorial_portrait_photograph
+  readability:
+    status: good
+    note: Hlavní obrazový obsah je čitelný; text je přepsán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Archivní název lokalizuje scénu před oltář v Rychvaldě; obraz místo textově neurčuje.
+  - Portrét a pietní uspořádání odpovídají položce 154, ale soubory nejsou binární duplikáty.
+  - Souvisí s URB-U-0067.
+- source_id: urbanek-ccs-154
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen 1970.
+    Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/13  Fotografie Karla Vodičky.jpg
+  file_size_bytes: 161282
+  git_blob_sha: 2c594bd07557cccf6a2ea3cd4cd7997307e4eff5
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Rámovaný portrét se smuteční stuhou před oltářem
+  document_type: historical_framed_mourning_portrait_photograph
+  readability:
+    status: good
+    note: Hlavní obrazový obsah je čitelný; text je přepsán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Identifikace portrétu jako Karla Vodičky pochází z archivního názvu, nikoli z rozpoznání obličeje.
+  - Jde o bližší záběr pietního uspořádání z položky 153.
+  - Souvisí s URB-U-0067.
+- source_id: urbanek-ccs-155
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/6 Červen 1970.
+    Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/14  Pamětní deska v kostele v Rychvaldě, za níž jsou uloženy.JPG
+  file_size_bytes: 1728220
+  git_blob_sha: a5781859d0d64384fff6d1c55a9e9100539ec22d
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Pamětní deska Karla a Libuše Vodičkových – přesný duplikát položky 059
+  document_type: modern_memorial_plaque_photograph_exact_duplicate
+  readability:
+    status: good
+    note: Hlavní obrazový obsah je čitelný; text je přepsán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_modern_color_photograph
+    scene_text: not_applicable
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Soubor má stejný Git blob SHA jako urbanek-ccs-059 a je jeho přesným binárním duplikátem pod jinou cestou.
+  - Nápis desky je čitelný; správnost údajů vyžaduje nezávislý pramen.
+  - Archivní název neuvádí, co má být za deskou uloženo; obsah se nedoplňuje odhadem.
+  - Embedded datum 2010-10-14 dokládá pořízení snímku, nikoli instalaci desky.
+  - Souvisí s URB-U-0067.
+  document_text:
+    status: manually_transcribed
+    text: 'KAREL VODIČKA
+
+      * 2. 8. 1890  + 12. 6. 1970
+
+      PRVNÍ FARÁŘ ZDEJŠÍ NÁBOŽENSKÉ OBCE
+
+      BUDOVATEL TOHOTO SBORU
+
+      SPOLUZAKLADATEL CÍRKVE ČESKOSLOVENSKÉ
+
+      HUSITSKÉ
+
+      LIBUŠE VODIČKOVÁ
+
+      * 23. 3. 1900  + 21. 9. 1973'
+  duplicate_of: urbanek-ccs-059

@@ -41,31 +41,32 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - celkem 201 položek;
 - stav: `processing_in_progress`.
 
-Dokončeno je třicet dávek po pěti snímcích, tedy `urbanek-ccs-001` až `150`.
+Dokončeno je třicet jedna dávek po pěti snímcích, tedy `urbanek-ccs-001` až `155`.
 
-- zpracováno: **150 z 201 položek**;
-- proti Git blob SHA ověřeno: **150 položek**;
-- vizuálně klasifikováno: **150 položek**;
-- zdrojově indexováno: **150 položek**;
-- zbývá: **51 položek**.
+- zpracováno: **155 z 201 položek**;
+- proti Git blob SHA ověřeno: **155 položek**;
+- vizuálně klasifikováno: **155 položek**;
+- zdrojově indexováno: **155 položek**;
+- zbývá: **46 položek**.
 
-### Zjištění dávky 30
+### Zjištění dávky 31
 
-Dávka 30 pokračuje v podsložce `6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)`.
+Dávka 31 uzavírá podsložku `6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)`.
 
-- `urbanek-ccs-146` zachycuje stojící osobu v dlouhém tmavém oděvu u rakve nebo katafalku, věnců, svící a řad sedících účastníků.
-- `urbanek-ccs-147` je široký pohled na zaplněný interiér pod varhanní kruchtou; několik osob v přední řadě drží kapesníky nebo ruce u obličeje.
-- `urbanek-ccs-148` zachycuje vynášení rakve z budovy označené čitelným nápisem „HUSOVA ČESKOSLOVENSKÁ BOHOSLOVECKÁ FAKULTA V PRAZE“. Nápis dokládá označení budovy, nikoli sám o sobě identitu zemřelého, datum, přesnou adresu nebo konkrétní místnost obřadu.
-- `urbanek-ccs-149` zachycuje před stejným vstupem nejméně dvě salutující uniformované osoby, osobu s četnými dekoracemi, účastníky ve dveřích a číslo 5 na fasádě.
-- `urbanek-ccs-150` navazuje na tutéž situaci; jde o odlišný snímek, nikoli binární duplikát položky `149`.
-- Žádný z pěti souborů neobsahuje použitelné embedded datum.
-- Dávka nepřidala nové ID. Rozšířila `URB-U-0067`.
+- `urbanek-ccs-151` pokračuje venkovní sérií před vstupem Husovy československé bohoslovecké fakulty v Praze; zachycuje civilní, uniformované a osoby v dlouhých tmavých oděvech.
+- `urbanek-ccs-152` zachycuje ženu v tmavém oděvu mezi dvěma muži, kteří ji drží nebo podpírají za paže. Identity, vzájemné vztahy a důvod podpory nejsou obrazem určeny.
+- `urbanek-ccs-153` zachycuje oltář s krucifixem, svícemi, květinami a rámovaným portrétem s černou stuhou. Lokalizace před oltář v Rychvaldě pochází z archivního názvu.
+- `urbanek-ccs-154` je bližší záběr stejného pietního uspořádání. Identifikace portrétu jako Karla Vodičky pochází z archivního názvu, nikoli z rozpoznání obličeje.
+- `urbanek-ccs-155` je přesný binární duplikát položky `059` pod jinou archivní cestou. Deska uvádí jména Karel Vodička a Libuše Vodičková, jejich životní data a role Karla Vodičky; nápis dokládá své znění, nikoli automaticky historickou správnost.
+- Fotografická metadata položky `155` uvádějí `2010-10-14 17:45:12`; jde o datum pořízení digitální fotografie, ne instalace desky.
+- Archivní názvy položek `059` a `155` neuvádějí, co je za deskou umístěno nebo uloženo. Obsah nelze doplnit odhadem.
+- Dávka nepřidala nové ID a rozšířila `URB-U-0067`.
 
-Pracovní soubory dávky 30:
+Pracovní soubory dávky 31:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-30.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-30.yml`;
-- `sources/index.d/urbanek-ccs-30.yml`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-31.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-31.yml`;
+- `sources/index.d/urbanek-ccs-31.yml`;
 - rozšířený `research/urbanek-archive/uncertainties/open-15.yml`.
 
 ## Registr nejistot
@@ -78,15 +79,15 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 70.
 
-`URB-U-0067` nyní zahrnuje také pokračování pohřební série, čitelný nápis Husovy československé bohoslovecké fakulty v Praze, číslo 5 na fasádě, vynášení rakve, salutující uniformované osoby a osobu s četnými dekoracemi.
+`URB-U-0067` nyní zahrnuje celou pohřební podsložku, dvojici pietních záběrů před oltářem, archivní identifikaci portrétu, přesný duplikát pamětní desky a stále neúplné tvrzení o obsahu za deskou.
 
-Čitelný nápis dokládá označení zachycené budovy, nikoli automaticky identitu zemřelého, datum nebo přesnou adresu. Salutování je obrazově ověřitelné gesto; organizace osob ani status čestné stráže z něj samy nevyplývají.
+Přesná binární duplicita je samostatná archivní položka, nikoli další nezávislý obrazový důkaz. Čitelné jméno nebo role na desce potvrzuje znění nápisu; správnost vyžaduje nezávislý pramen.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová kolekce jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají rozsah 200 + 1 = 201;
-- průběžný stav je 150 zpracovaných a 51 zbývajících položek;
+- průběžný stav je 155 zpracovaných a 46 zbývajících položek;
 - registr používá součty 36/31/3/70;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -94,7 +95,7 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
 - Pilot: `completed`.
 - Nová kolekce: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-151` až `urbanek-ccs-155`.
-- Očekávané názvy: `10.jpg`, `11.jpg`, `12  Před oltářem v Rychvaldě.jpg`, `13  Fotografie Karla Vodičky.jpg` a `14  Pamětní deska v kostele v Rychvaldě, za níž jsou uloženy.JPG` v téže podsložce.
+- Následující položky: `urbanek-ccs-156` až `urbanek-ccs-160`.
+- Očekávané názvy v podsložce `7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956`: `1   Ferdinand Stibor ještě v r. 1956.jpg`, `2  V radvanickém Husově sboru.jpg`, `3  U rakve se střídala čestná stráž.jpg`, `4.jpg` a `5.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení.

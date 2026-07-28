@@ -49,23 +49,20 @@ Dokončeno je čtyřicet obrazových dávek `urbanek-ccs-001` až `200` a samost
 - zdrojově indexováno: **201 položek**;
 - zbývá: **0 položek**.
 
-### Zjištění auditu `Thumbs.db`
+### Revize nejistot 01 – zvony Husova sboru
 
-- `10 Kalendář 2015/Thumbs.db` má 70 656 B; Drive originál a Git soubor jsou binárně totožné.
-- SHA-256: `056cb436b5556dea975512e8ff00cd80ffb8eaa7ecbf7c3c4795e8f47831d037`; Git blob SHA: `91d73b30448ce8f8aa02a8ed79dafee5d349f0c2`.
-- Katalog obsahuje přesně názvy `1.jpg` až `15.jpg` a jednu interní GUID položku se složeným náhledem složky Windows.
-- Čtrnáct plných náhledů bylo dekódováno a jednoznačně přiřazeno k odpovídajícím kalendářovým stranám `1.jpg` až `14.jpg`.
-- Stream náhledu `15.jpg` je neúplný: CFB struktura odkazuje na sektory za koncem dochovaného souboru. Plný soubor `15.jpg` je však v kolekci přítomen a samostatně Git-ověřen.
-- Cache neobsahuje žádný další název zdrojového obrázku a nedokládá žádný chybějící plný originál.
-- Počet chybějících plných originálů doložených pouze touto cache: **0**.
-- Katalogové časy jsou metadata cache z 24. ledna 2015, nikoli data historických událostí.
+- `URB-U-0074` bylo uzavřeno pro úzce vymezenou otázku materiálu hlavních věžových zvonů a válečné rekvizice.
+- Historický souhrn zveřejněný CČSH v roce 2025 uvádí, že zvony nebyly zabaveny pro vojenské účely, protože jsou ocelové, nikoli ze zvonoviny.
+- Kalendář 2015 rovněž označuje dva zvony ve věži jako ocelové. Jeho tvrzení, že reliéf `1920` je rokem výroby, zůstává sekundárním popiskem bez nezávislého potvrzení.
+- `URB-U-0041` zůstává otevřené pro zvonaře nebo slévárnu, úplné nápisy, původ, přesné datace, jména a rozmístění zvonů, vztah všech tří zvonů k jedné soupravě a pozdější opravy.
+- `URB-U-0042` zůstává otevřené pro historii ručního ovládání, elektrifikace a technických přestaveb.
+- Vyhledávání příjmení Kakalová ve zpravodaji z července 1998 přineslo pouze záznam životního jubilea bez doložitelné vazby na Kakalův mlýn; tato shoda nebyla použita jako důkaz.
 
-Pracovní soubory auditu:
+Pracovní soubory revize:
 
-- `research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-technical-inventory.csv`;
-- `sources/index.d/urbanek-ccs-technical.yml`;
-- aktualizované `research/urbanek-archive/uncertainties/open-20.yml`.
+- `research/urbanek-archive/verifications/urb-u-0074-rychvald-bells-material-and-wartime-requisition.md`;
+- `research/urbanek-archive/uncertainties/closed-21.yml`;
+- aktualizované `research/urbanek-archive/uncertainties/open-06.yml`.
 
 ## Registr nejistot
 
@@ -73,27 +70,25 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
 - `open`: 39;
 - `deferred`: 0;
-- `resolved`: 31;
+- `resolved`: 32;
 - `not_actionable`: 3;
-- celkem: 73.
+- celkem: 74.
 
-`URB-U-0073` bylo rozšířeno o výsledek technického auditu. Cache potvrzuje úplnost názvů patnácti kalendářových stran, ale nemění otevřené otázky autorství, vydavatele, bibliografie, původu vložených fotografií, historické správnosti popisků a práv.
-
-Strukturální neúplnost cache sama není dokladem chybějícího originálu. Za takový doklad lze považovat pouze název nebo náhled, který nelze přiřadit k přítomnému plnému souboru.
+Uzavření `URB-U-0074` je úmyslně úzké. Dva shodné místní sekundární zdroje umožňují bezpečnou atribuovanou formulaci o ocelových hlavních zvonech a jejich válečné nerekvizici, nikoli širší technickou nebo provenienční rekonstrukci.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová kolekce jsou odděleny;
-- `STATUS.md`, `state.yml`, kolekční přehled a PR používají rozsah 200 + 1 = 201;
-- kolekce je zpracována v rozsahu 201 z 201 položek;
-- registr používá součty 39/31/3/73;
-- pilotní údaj o 11 chybějících plných originálech zůstává beze změny a netýká se této kolekce;
+- kolekce CČS je zpracována v rozsahu 201 z 201 položek;
+- registr používá součty 39/32/3/74;
+- pilotní údaj o 11 chybějících plných originálech zůstává beze změny a netýká se kolekce CČS;
+- PR zůstává otevřený draft a není žádostí o sloučení;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Kolekce historie CČS: `completed`.
-- Zbývající archivní položky v této kolekci: `0`.
-- Následuje uživatelská kontrola dokončené kolekce a rozhodnutí o prioritách 39 otevřených nejistot.
+- Revize otevřených nejistot: `in_progress`.
+- Další prioritní položky: `URB-U-0036` (Kakalův mlýn), `URB-U-0038` (mlýnek za domem č. 339) a zbývající vysoké priority kolekce CČS.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

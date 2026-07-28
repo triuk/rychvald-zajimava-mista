@@ -1,147 +1,149 @@
 schema_version: 1
-scope: ccs_batch_03_open_items
+scope: ccs_batch_03_open_items_updated_by_uncertainty_review_01
 items:
-  - id: URB-U-0039
-    status: open
-    priority: medium
-    collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: event_date_and_person_identification
-    source_items: [urbanek-ccs-011, urbanek-ccs-012]
-    question: >-
-      Kdy byly pořízeny skupinové fotografie chlapců a dívek, zachycují stejné
-      první svaté přijímání nebo různé ročníky, kdo je zobrazený duchovní a kdo
-      jsou jednotlivé děti?
-    known_facts:
-      - "Oba snímky byly pořízeny před stejným obloukovým vstupem budovy."
-      - "Jeden snímek zachycuje skupinu chlapců, druhý skupinu dívek; na obou je přítomen duchovní."
-      - "Slavnostní oděv, květiny a uspořádání skupin podporují ceremoniální charakter události."
-      - "Označení prvního svatého přijímání a jméno faráře Vodičky pocházejí z názvů souborů."
-    unresolved_attributes:
-      - exact_date_of_urbanek_ccs_011
-      - exact_date_of_urbanek_ccs_012
-      - same_year_or_separate_years
-      - exact_event_identity
-      - clergy_identity
-      - participant_identities
-    next_action: >-
-      Porovnat fotografie s církevními matrikami, kronikami, výročními materiály,
-      rodinnými alby a pozdějšími popisky. Hledat paralelní snímky s uvedeným
-      rokem nebo jmenným seznamem. Případné uživatelské určení osob zaznamenat
-      jako samostatný doklad, nikoli jako vizuální identifikaci modelem.
-    reopen_triggers:
-      - church_register_or_chronicle_found
-      - parallel_captioned_photo_found
-      - participant_or_family_identification_provided
-      - dated_anniversary_material_found
-    evidence:
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
-      - sources/index.d/urbanek-ccs-03.yml
-
-  - id: URB-U-0040
-    status: open
-    priority: medium
-    collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: caption_and_person_identification
-    source_items: [urbanek-ccs-013]
-    question: >-
-      Jak přesně zní celý popisek fotografie rady starších, při jaké konkrétní
-      příležitosti a kdy byla fotografie pořízena a kdo je všech čtrnáct osob?
-    known_facts:
-      - "Fotografie zachycuje čtrnáct dospělých osob ve dvou řadách před vstupem sboru."
-      - "Na spodním okraji je částečně setřený popisek."
-      - "Vizuálně čitelné části podporují text přibližně ‚10 LET CČS V RYCHVALDĚ … 1930‘."
-      - "Označení skupiny jako rady starších pochází z názvu souboru a pravděpodobně také ze zkrácené části popisku."
-    unresolved_attributes:
-      - exact_caption_transcription
-      - exact_event_date
-      - exact_anniversary_context
-      - confirmation_of_council_role
-      - identities_of_all_fourteen_persons
-      - identity_of_central_seated_person
-    next_action: >-
-      Hledat lepší kopii stejného snímku, výroční tisk k desetiletí sboru,
-      seznam rady starších kolem roku 1930, církevní kroniku a popsané skupinové
-      fotografie. Přepis setřené části nedoplňovat odhadem.
-    reopen_triggers:
-      - better_copy_found
-      - anniversary_program_found
-      - council_membership_list_found
-      - named_parallel_photo_found
-      - user_identification_provided
-    evidence:
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
-      - sources/index.d/urbanek-ccs-03.yml
-
-  - id: URB-U-0041
-    status: open
-    priority: high
-    collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: bell_identity_provenance_and_dating
-    source_items: [urbanek-ccs-014, urbanek-ccs-015]
-    question: >-
-      Co přesně znamená letopočet 1920 na jednom zvonu, kdy a kým byly jednotlivé
-      zvony odlity, odkud pocházejí, kdy byly instalovány a zda všechny tři
-      viditelné zvony patří k téže původní soupravě?
-    known_facts:
-      - "Na těle jednoho zvonu je obrazově ověřen plastický letopočet 1920."
-      - "Na společném snímku jsou viditelné nejméně tři zvony různých velikostí."
-      - "Fotografie detailu nezachycuje úplný nápis, značku zvonaře ani celý zvon."
-      - "Letopočet sám neprokazuje, zda jde o rok odlití, pořízení, darování nebo jinou připomínku."
-    unresolved_attributes:
-      - meaning_of_year_1920
-      - bell_maker
-      - full_inscriptions
-      - donor_or_provenance
-      - casting_date_of_each_bell
-      - installation_or_consecration_date
-      - whether_all_three_bells_form_original_set
-      - wartime_requisition_or_replacement_history
-    next_action: >-
-      Hledat detailní snímky všech nápisů a reliéfů, církevní inventáře, účty,
-      kronikářské zápisy, zprávy o svěcení zvonů a případných válečných rekvizicích.
-      Porovnat rozměry, výzdobu a závěsy jednotlivých zvonů napříč kolekcí.
-    reopen_triggers:
-      - detailed_bell_inscription_photo_found
-      - church_inventory_found
-      - bell_consecration_record_found
-      - bell_foundry_mark_identified
-      - requisition_or_replacement_record_found
-    evidence:
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
-      - sources/index.d/urbanek-ccs-03.yml
-
-  - id: URB-U-0042
-    status: open
-    priority: medium
-    collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: bell_ringing_mechanism_history
-    related_open_items: [URB-U-0041]
-    source_items: [urbanek-ccs-015]
-    question: >-
-      Jak byly zvony původně ovládány, které části viditelného mechanismu jsou
-      původní, kdy došlo k případné elektrifikaci nebo jiné přestavbě a jak se
-      způsob zvonění v čase měnil?
-    known_facts:
-      - "Fotografie zachycuje kovovou zvonovou stolici, závěsy, srdce zvonů a několik svislých lan nebo vodičů."
-      - "Samotný obraz neprokazuje časovou posloupnost ani původnost jednotlivých součástí."
-      - "Tvrzení o původním ručním zvonění pochází z archivního názvu souboru."
-    unresolved_attributes:
-      - original_ringing_method
-      - original_frame_and_suspension_components
-      - date_of_electrification
-      - later_mechanical_modifications
-      - current_operational_state
-      - relation_of_visible_cords_to_manual_or_electric_operation
-    next_action: >-
-      Porovnat starší a novější technické fotografie, dohledat záznamy o opravách,
-      elektrifikaci a údržbě a získat odborný popis současného mechanismu. Bez
-      časového nebo technického pramene nepoužívat formulaci o původním ručním
-      zvonění jako ověřený fakt.
-    reopen_triggers:
-      - repair_or_electrification_record_found
-      - earlier_bell_chamber_photo_found
-      - technical_inspection_found
-      - knowledgeable_witness_information_provided
-    evidence:
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
-      - sources/index.d/urbanek-ccs-03.yml
+- id: URB-U-0039
+  status: open
+  priority: medium
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: event_date_and_person_identification
+  source_items:
+  - urbanek-ccs-011
+  - urbanek-ccs-012
+  question: Kdy byly pořízeny skupinové fotografie chlapců a dívek, zachycují stejné první svaté přijímání nebo
+    různé ročníky, kdo je zobrazený duchovní a kdo jsou jednotlivé děti?
+  known_facts:
+  - Oba snímky byly pořízeny před stejným obloukovým vstupem budovy.
+  - Jeden snímek zachycuje skupinu chlapců, druhý skupinu dívek; na obou je přítomen duchovní.
+  - Slavnostní oděv, květiny a uspořádání skupin podporují ceremoniální charakter události.
+  - Označení prvního svatého přijímání a jméno faráře Vodičky pocházejí z názvů souborů.
+  unresolved_attributes:
+  - exact_date_of_urbanek_ccs_011
+  - exact_date_of_urbanek_ccs_012
+  - same_year_or_separate_years
+  - exact_event_identity
+  - clergy_identity
+  - participant_identities
+  next_action: Porovnat fotografie s církevními matrikami, kronikami, výročními materiály, rodinnými alby a pozdějšími
+    popisky. Hledat paralelní snímky s uvedeným rokem nebo jmenným seznamem. Případné uživatelské určení osob zaznamenat
+    jako samostatný doklad, nikoli jako vizuální identifikaci modelem.
+  reopen_triggers:
+  - church_register_or_chronicle_found
+  - parallel_captioned_photo_found
+  - participant_or_family_identification_provided
+  - dated_anniversary_material_found
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
+  - sources/index.d/urbanek-ccs-03.yml
+- id: URB-U-0040
+  status: open
+  priority: medium
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: caption_and_person_identification
+  source_items:
+  - urbanek-ccs-013
+  question: Jak přesně zní celý popisek fotografie rady starších, při jaké konkrétní příležitosti a kdy byla fotografie
+    pořízena a kdo je všech čtrnáct osob?
+  known_facts:
+  - Fotografie zachycuje čtrnáct dospělých osob ve dvou řadách před vstupem sboru.
+  - Na spodním okraji je částečně setřený popisek.
+  - Vizuálně čitelné části podporují text přibližně ‚10 LET CČS V RYCHVALDĚ … 1930‘.
+  - Označení skupiny jako rady starších pochází z názvu souboru a pravděpodobně také ze zkrácené části popisku.
+  unresolved_attributes:
+  - exact_caption_transcription
+  - exact_event_date
+  - exact_anniversary_context
+  - confirmation_of_council_role
+  - identities_of_all_fourteen_persons
+  - identity_of_central_seated_person
+  next_action: Hledat lepší kopii stejného snímku, výroční tisk k desetiletí sboru, seznam rady starších kolem roku
+    1930, církevní kroniku a popsané skupinové fotografie. Přepis setřené části nedoplňovat odhadem.
+  reopen_triggers:
+  - better_copy_found
+  - anniversary_program_found
+  - council_membership_list_found
+  - named_parallel_photo_found
+  - user_identification_provided
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
+  - sources/index.d/urbanek-ccs-03.yml
+- id: URB-U-0041
+  status: open
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: bell_identity_provenance_and_dating
+  related_resolved_items:
+  - URB-U-0074
+  source_items:
+  - urbanek-ccs-014
+  - urbanek-ccs-015
+  - urbanek-ccs-191
+  question: Co přesně znamená letopočet 1920 na jednom zvonu, kdy a kým byly jednotlivé zvony odlity, odkud pocházejí,
+    kdy byly instalovány, jak se jmenují a zda všechny tři viditelné zvony patří k téže původní soupravě?
+  known_facts:
+  - Na těle jednoho zvonu je obrazově ověřen plastický letopočet 1920.
+  - Na společném snímku jsou viditelné nejméně tři zvony různých velikostí.
+  - Fotografie detailu nezachycuje úplný nápis, značku zvonaře ani celý zvon.
+  - Kalendář 2015 označuje dva zvony ve věži jako ocelové a letopočet 1920 jako rok výroby; jde o sekundární kalendářový
+    popisek.
+  - Historický souhrn zveřejněný CČSH v roce 2025 uvádí, že zvony nebyly zabaveny pro vojenské účely, protože jsou
+    ocelové, nikoli ze zvonoviny.
+  - Materiál a válečná nerekvizice byly odděleně uzavřeny v URB-U-0074; přesná výrobní a provenienční historie zůstává
+    otevřená.
+  unresolved_attributes:
+  - independent_confirmation_of_meaning_of_year_1920
+  - bell_maker_or_foundry
+  - full_inscriptions
+  - donor_or_provenance
+  - casting_date_of_each_bell
+  - installation_or_consecration_date
+  - bell_names_and_exact_placement
+  - whether_all_three_bells_form_original_set
+  - later_replacement_repair_or_modification_history
+  next_action: Hledat detailní snímky všech nápisů a reliéfů, církevní inventáře, účty, kronikářské zápisy, zprávy
+    o pořízení nebo svěcení zvonů a záznamy oprav. Sekundární turistické přehledy uvádějící jména Václav, Ludmila
+    a Bořivoj použít pouze jako vyhledávací stopu, dokud nebudou nalezeny primární nebo místní dokumentární prameny.
+  reopen_triggers:
+  - detailed_bell_inscription_photo_found
+  - church_inventory_found
+  - bell_consecration_or_purchase_record_found
+  - bell_foundry_mark_identified
+  - named_local_bell_record_found
+  - repair_or_replacement_record_found
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-39.yml
+  - sources/index.d/urbanek-ccs-03.yml
+  - research/urbanek-archive/verifications/urb-u-0074-rychvald-bells-material-and-wartime-requisition.md
+- id: URB-U-0042
+  status: open
+  priority: medium
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: bell_ringing_mechanism_history
+  related_open_items:
+  - URB-U-0041
+  source_items:
+  - urbanek-ccs-015
+  question: Jak byly zvony původně ovládány, které části viditelného mechanismu jsou původní, kdy došlo k případné
+    elektrifikaci nebo jiné přestavbě a jak se způsob zvonění v čase měnil?
+  known_facts:
+  - Fotografie zachycuje kovovou zvonovou stolici, závěsy, srdce zvonů a několik svislých lan nebo vodičů.
+  - Samotný obraz neprokazuje časovou posloupnost ani původnost jednotlivých součástí.
+  - Tvrzení o původním ručním zvonění pochází z archivního názvu souboru.
+  unresolved_attributes:
+  - original_ringing_method
+  - original_frame_and_suspension_components
+  - date_of_electrification
+  - later_mechanical_modifications
+  - current_operational_state
+  - relation_of_visible_cords_to_manual_or_electric_operation
+  next_action: Porovnat starší a novější technické fotografie, dohledat záznamy o opravách, elektrifikaci a údržbě
+    a získat odborný popis současného mechanismu. Bez časového nebo technického pramene nepoužívat formulaci o původním
+    ručním zvonění jako ověřený fakt.
+  reopen_triggers:
+  - repair_or_electrification_record_found
+  - earlier_bell_chamber_photo_found
+  - technical_inspection_found
+  - knowledgeable_witness_information_provided
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-03.yml
+  - sources/index.d/urbanek-ccs-03.yml

@@ -19,6 +19,7 @@ authoritative_files:
   ccs_collection_overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
   ccs_source_index_pattern: sources/index.d/urbanek-ccs{-NN}.yml
   ccs_thumbnail_audit: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
+  latest_verification: research/urbanek-archive/verifications/urb-u-0074-rychvald-bells-material-and-wartime-requisition.md
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
@@ -201,10 +202,10 @@ uncertainties:
     open: 39
     in_progress: 0
     deferred: 0
-    resolved: 31
+    resolved: 32
     not_actionable: 3
-    total: 73
-  ccs_range: URB-U-0039..URB-U-0073
+    total: 74
+  ccs_range: URB-U-0039..URB-U-0074
   handling_rules:
   - Archival names and folder labels are attribution metadata, not independent historical proof.
   - Persons are not identified solely from facial appearance.
@@ -217,6 +218,8 @@ uncertainties:
   - A readable biblical quotation or reference verifies visible wording only, not the date, place, denomination or event character.
   - 'A modern commemorative calendar is a secondary compilation: readable narratives, captions and reused photographs verify
     the calendar content, not the underlying historical claims.'
+  - A concordant local secondary account may resolve a narrowly attributed working statement, but does not replace a primary
+    inventory or technical examination.
   batch_32_updated:
   - URB-U-0071
   batch_33_updated:
@@ -237,8 +240,12 @@ uncertainties:
   - URB-U-0073
   thumbnail_cache_audit_updated:
   - URB-U-0073
+  review_01_resolved:
+  - URB-U-0074
+  review_01_updated:
+  - URB-U-0041
 consistency_review:
-  status: completed_with_corrections
+  status: completed_with_corrections_and_uncertainty_review_in_progress
   verified_equal_totals:
     ccs_total_items: 201
     ccs_processed_items: 201
@@ -247,17 +254,21 @@ consistency_review:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
 readiness:
-  status: draft_pr_open_collection_processing_complete_review_pending
+  status: draft_pr_open_collection_processing_complete_uncertainty_review_in_progress
   blockers_for_merge:
   - user_review_and_explicit_merge_decision_pending
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
   - thirty_nine historical personal archival and technical questions remain open
   - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
+  - bell maker, complete inscriptions, exact dating and mechanism history remain open after narrow resolution URB-U-0074
 next_action:
-  type: review_completed_collection_and_open_uncertainties
-  collection: urbanek-ccs-history
-  processing_status: completed
+  type: continue_prioritized_open_uncertainty_review
+  processing_status: in_progress
   remaining_archive_items: 0
-  instruction: Review the completed collection, decide how to prioritize or accept the thirty-nine open uncertainties, and
-    keep the PR draft and unmerged until an explicit merge decision.
+  priority_items:
+  - URB-U-0036
+  - URB-U-0038
+  - remaining_high_priority_CCS_items
+  instruction: Continue source-led review of the thirty-nine open uncertainties. Resolve only narrowly supported attributes,
+    preserve source attribution, and keep the PR draft and unmerged until an explicit merge decision.

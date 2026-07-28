@@ -47,11 +47,11 @@ ccs_collection:
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 170
-    repo_verified_items: 170
-    visually_classified_items: 170
-    source_indexed_items: 170
-    remaining_items: 31
+    processed_items: 175
+    repo_verified_items: 175
+    visually_classified_items: 175
+    source_indexed_items: 175
+    remaining_items: 26
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -137,32 +137,35 @@ ccs_collection:
     id: ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
   - number: 27
     items: 131-135
-    id: ostravice-welcome-infant-reproductions-address-and-congregation
+    id: ostravice-welcome-infant-reproductions-address-and-congregation-27
   - number: 28
     items: 136-140
-    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd
+    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd-28
   - number: 29
     items: 141-145
-    id: ostravice-final-group-and-vodicka-funeral-opening
+    id: ostravice-final-group-and-vodicka-funeral-opening-29
   - number: 30
     items: 146-150
-    id: vodicka-funeral-mourners-faculty-exit-and-salutes
+    id: vodicka-funeral-mourners-faculty-exit-and-salutes-30
   - number: 31
     items: 151-155
-    id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque
+    id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque-31
   - number: 32
     items: 156-160
-    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags
+    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
   - number: 33
     items: 161-165
-    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession
+    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession-33
   - number: 34
     items: 166-170
     id: stibor-funeral-coffin-bearing-street-clergy-and-procession-34
+  - number: 35
+    items: 171-175
+    id: stibor-funeral-wreaths-clergy-coffin-and-civilian-procession-35
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-34.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-34.yml
-    source_index: sources/index.d/urbanek-ccs-34.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-35.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-35.yml
+    source_index: sources/index.d/urbanek-ccs-35.yml
   technical_files:
   - path: 10 Kalendář 2015/Thumbs.db
     audit_status: pending
@@ -180,20 +183,23 @@ uncertainties:
   - Archival names and folder labels are attribution metadata, not independent historical proof.
   - Persons are not identified solely from facial appearance.
   - Multiple reproductions of one photograph are not independent event evidence.
-  - Chains, medallions, armbands, chalice-like emblems or headwear do not independently establish an office, organization or role.
-  - Standing beside a coffin or in a procession does not independently establish formal honor-guard status.
+  - Chains, medallions, armbands, chalice-like emblems, headwear, books, wreaths or procession position do not independently
+    establish an office, organization, donor or role.
+  - Standing beside or carrying a coffin does not independently establish formal status, identity or relationship to the deceased.
   batch_32_updated:
   - URB-U-0071
   batch_33_updated:
   - URB-U-0071
   batch_34_updated:
   - URB-U-0071
+  batch_35_updated:
+  - URB-U-0071
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 170
-    ccs_remaining_items: 31
+    ccs_processed_items: 175
+    ccs_remaining_items: 26
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
@@ -211,17 +217,18 @@ next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
   items:
-  - urbanek-ccs-171
-  - urbanek-ccs-172
-  - urbanek-ccs-173
-  - urbanek-ccs-174
-  - urbanek-ccs-175
+  - urbanek-ccs-176
+  - urbanek-ccs-177
+  - urbanek-ccs-178
+  - urbanek-ccs-179
+  - urbanek-ccs-180
   expected_source_files:
-  - 7/16.jpg
-  - 7/17.jpg
-  - 7/18.jpg
-  - 7/19.jpg
-  - 7/20.jpg
+  - 8/1.jpg
+  - 8/2.jpg
+  - 8/3.jpg
+  - 8/4.jpg
+  - 8/5.jpg
   batch_size_rule: 5_to_10_files
-  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, reuse URB-U-0071 where appropriate, and
-    keep the PR draft and unmerged.
+  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, treat the folder
+    title and Leonard Bogumský name as archival claims, reuse or create stable uncertainty IDs as appropriate, and keep the
+    PR draft and unmerged.

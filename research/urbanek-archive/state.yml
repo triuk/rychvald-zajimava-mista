@@ -18,6 +18,7 @@ authoritative_files:
   pilot_reconciliation: research/urbanek-archive/reports/pilot-reconciliation.md
   ccs_collection_overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
   ccs_source_index_pattern: sources/index.d/urbanek-ccs{-NN}.yml
+  ccs_thumbnail_audit: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
@@ -39,7 +40,7 @@ pilot:
 ccs_collection:
   id: urbanek-ccs-history
   name: Historie Církve československé v Rychvaldě ve fotografiích
-  status: content_complete_technical_audit_pending
+  status: completed
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals:
     subfolders: 10
@@ -47,15 +48,15 @@ ccs_collection:
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 200
-    repo_verified_items: 200
+    processed_items: 201
+    repo_verified_items: 201
     visually_classified_items: 200
-    source_indexed_items: 200
-    remaining_items: 1
-    inventory_status: content_complete_technical_pending
+    source_indexed_items: 201
+    remaining_items: 0
+    inventory_status: completed
     visual_classification_status: completed_first_pass_for_content_files
     ocr_status: completed_first_pass_for_content_files
-    thumbnail_cache_audit_status: pending
+    thumbnail_cache_audit_status: completed_structurally_incomplete_no_missing_source_filenames
   completed_batches:
   - number: 1
     items: 001-005
@@ -183,7 +184,17 @@ ccs_collection:
     source_index: sources/index.d/urbanek-ccs-40.yml
   technical_files:
   - path: 10 Kalendář 2015/Thumbs.db
-    audit_status: pending
+    audit_status: completed_structurally_incomplete_no_missing_source_filenames
+    file_size_bytes: 70656
+    git_blob_sha: 91d73b30448ce8f8aa02a8ed79dafee5d349f0c2
+    sha256: 056cb436b5556dea975512e8ff00cd80ffb8eaa7ecbf7c3c4795e8f47831d037
+    catalog_source_filenames: 1.jpg–15.jpg
+    missing_full_originals_evidenced: 0
+    report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
+  technical_audit_files:
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-technical-inventory.csv
+    source_index: sources/index.d/urbanek-ccs-technical.yml
+    report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary:
@@ -224,27 +235,29 @@ uncertainties:
   - URB-U-0073
   batch_40_updated:
   - URB-U-0073
+  thumbnail_cache_audit_updated:
+  - URB-U-0073
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 200
-    ccs_remaining_items: 1
+    ccs_processed_items: 201
+    ccs_remaining_items: 0
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
 readiness:
-  status: draft_pr_open_content_complete_thumbnail_cache_audit_pending
+  status: draft_pr_open_collection_processing_complete_review_pending
   blockers_for_merge:
-  - ccs_history_full_inventory_and_blob_verification_incomplete
-  - ccs_history_ocr_review_incomplete
-  - ccs_history_thumbnail_cache_not_audited
+  - user_review_and_explicit_merge_decision_pending
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
   - thirty_nine historical personal archival and technical questions remain open
+  - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
 next_action:
-  type: audit_thumbnail_cache
+  type: review_completed_collection_and_open_uncertainties
   collection: urbanek-ccs-history
-  technical_file: 10 Kalendář 2015/Thumbs.db
-  expected_repo_path: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář 2015/Thumbs.db
-  instruction: Audit the Windows thumbnail cache, compare embedded thumbnails with the fifteen calendar JPEGs, identify only concretely evidenced missing originals, preserve the technical file, and keep the PR draft and unmerged.
+  processing_status: completed
+  remaining_archive_items: 0
+  instruction: Review the completed collection, decide how to prioritize or accept the thirty-nine open uncertainties, and
+    keep the PR draft and unmerged until an explicit merge decision.

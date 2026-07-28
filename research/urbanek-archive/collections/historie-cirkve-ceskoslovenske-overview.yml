@@ -4,7 +4,7 @@ collection_name: Historie Církve československé v Rychvaldě ve fotografiích
 source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
-status: content_complete_technical_audit_pending
+status: completed
 scope:
   subfolders: 10
   content_files: 200
@@ -16,7 +16,7 @@ repository:
   original_files_staged: true
   original_paths_preserved: true
   original_filenames_preserved: true
-  full_blob_verification: content_complete_technical_pending
+  full_blob_verification: completed
 subfolders:
 - order: 1
   name: 1 Od položení základního kamene. Histotie rychvaldského kostela
@@ -61,7 +61,13 @@ subfolders:
 technical_files:
 - source_path: 10 Kalendář 2015/Thumbs.db
   type: windows_thumbnail_cache
-  audit_status: pending
+  audit_status: completed_structurally_incomplete_no_missing_source_filenames
+  file_size_bytes: 70656
+  git_blob_sha: 91d73b30448ce8f8aa02a8ed79dafee5d349f0c2
+  sha256: 056cb436b5556dea975512e8ff00cd80ffb8eaa7ecbf7c3c4795e8f47831d037
+  catalog_source_filenames: 1.jpg–15.jpg
+  missing_full_originals_evidenced: 0
+  report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
 source_index_shards:
 - sources/index.d/urbanek-ccs.yml
 - sources/index.d/urbanek-ccs-02.yml
@@ -103,6 +109,7 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-38.yml
 - sources/index.d/urbanek-ccs-39.yml
 - sources/index.d/urbanek-ccs-40.yml
+- sources/index.d/urbanek-ccs-technical.yml
 batch_file_patterns:
   inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-{NN}.csv
   classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-{NN}.yml
@@ -110,15 +117,15 @@ batch_file_patterns:
   exceptions:
     batch_01_source_index: sources/index.d/urbanek-ccs.yml
 processing:
-  inventory_status: content_complete_technical_pending
+  inventory_status: completed
   visual_classification_status: completed_first_pass_for_content_files
   ocr_status: completed_first_pass_for_content_files
-  thumbnail_cache_audit_status: pending
-  processed_items: 200
-  repo_verified_items: 200
+  thumbnail_cache_audit_status: completed_structurally_incomplete_no_missing_source_filenames
+  processed_items: 201
+  repo_verified_items: 201
   visually_classified_items: 200
-  source_indexed_items: 200
-  remaining_items: 1
+  source_indexed_items: 201
+  remaining_items: 0
   completed_batches:
   - number: 1
     items: 001-005
@@ -277,7 +284,10 @@ processing:
   - URB-U-0072
   - URB-U-0073
   next_items: []
-  next_technical_file: 10 Kalendář 2015/Thumbs.db
+  technical_audit_files:
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-technical-inventory.csv
+    source_index: sources/index.d/urbanek-ccs-technical.yml
+    report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
@@ -290,3 +300,5 @@ rules:
   of the photographed event.
 - Modern commemorative calendar pages are secondary compilations; readable text and reused images verify page content only,
   not the underlying historical claims.
+- A thumbnail-cache filename or image is evidence of a missing full original only when it cannot be matched to a present source
+  file; an incomplete cache stream alone is not such evidence.

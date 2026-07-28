@@ -99,6 +99,7 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-34.yml
 - sources/index.d/urbanek-ccs-35.yml
 - sources/index.d/urbanek-ccs-36.yml
+- sources/index.d/urbanek-ccs-37.yml
 batch_file_patterns:
   inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-{NN}.csv
   classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-{NN}.yml
@@ -110,11 +111,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 180
-  repo_verified_items: 180
-  visually_classified_items: 180
-  source_indexed_items: 180
-  remaining_items: 21
+  processed_items: 185
+  repo_verified_items: 185
+  visually_classified_items: 185
+  source_indexed_items: 185
+  remaining_items: 16
   completed_batches:
   - number: 1
     items: 001-005
@@ -196,25 +197,25 @@ processing:
     id: ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
   - number: 27
     items: 131-135
-    id: ostravice-welcome-infant-reproductions-address-and-congregation-27
+    id: ostravice-welcome-infant-reproductions-address-and-congregation
   - number: 28
     items: 136-140
-    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd-28
+    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd
   - number: 29
     items: 141-145
-    id: ostravice-final-group-and-vodicka-funeral-opening-29
+    id: ostravice-final-group-and-vodicka-funeral-opening
   - number: 30
     items: 146-150
-    id: vodicka-funeral-mourners-faculty-exit-and-salutes-30
+    id: vodicka-funeral-mourners-faculty-exit-and-salutes
   - number: 31
     items: 151-155
-    id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque-31
+    id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque
   - number: 32
     items: 156-160
-    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
+    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags
   - number: 33
     items: 161-165
-    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession-33
+    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession
   - number: 34
     items: 166-170
     id: stibor-funeral-coffin-bearing-street-clergy-and-procession-34
@@ -224,6 +225,9 @@ processing:
   - number: 36
     items: 176-180
     id: bogumsky-doubrava-service-altar-congregation-and-rite-36
+  - number: 37
+    items: 181-185
+    id: ostravice-1969-ecumenical-service-altar-pulpit-and-clergy-37
   open_uncertainties_from_collection:
   - URB-U-0039
   - URB-U-0040
@@ -258,12 +262,13 @@ processing:
   - URB-U-0069
   - URB-U-0070
   - URB-U-0071
+  - URB-U-0072
   next_items:
-  - urbanek-ccs-181
-  - urbanek-ccs-182
-  - urbanek-ccs-183
-  - urbanek-ccs-184
-  - urbanek-ccs-185
+  - urbanek-ccs-186
+  - urbanek-ccs-187
+  - urbanek-ccs-188
+  - urbanek-ccs-189
+  - urbanek-ccs-190
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
@@ -271,4 +276,6 @@ rules:
 - Multiple archival reproductions of the same photograph are separate files but not independent event evidence.
 - Exact binary duplicates under different paths are separate inventory items but only one independent image record.
 - Chains, medallions, armbands, chalice-like emblems, headwear, books, banners, liturgical gestures or procession position
-  do not independently establish an office, organization, person or exact rite.
+  do not independently establish an office, organization or role.
+- A readable biblical quotation or reference verifies visible wording only, not the date, place, denomination or character
+  of the photographed event.

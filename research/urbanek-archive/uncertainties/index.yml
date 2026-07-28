@@ -1,5 +1,5 @@
 schema_version: 2
-summary: {open: 37, deferred: 0, resolved: 31, not_actionable: 3, total: 71}
+summary: {open: 38, deferred: 0, resolved: 31, not_actionable: 3, total: 72}
 open_files:
 - open-01.yml
 - open-03.yml
@@ -18,6 +18,7 @@ open_files:
 - open-16.yml
 - open-17.yml
 - open-18.yml
+- open-19.yml
 closed_files:
 - closed-01a.yml
 - closed-01b.yml
@@ -63,3 +64,4 @@ rules:
 - Exact binary duplicates under different archive paths are separate inventory items but only one independent piece of image evidence.
 - A readable caption embedded in a photographic reproduction verifies the caption wording, not automatically the people, offices, event or date asserted by that caption.
 - Standing beside a coffin, wearing a uniform-like garment or holding a fixed posture does not by itself establish formal honor-guard status.
+- A readable biblical quotation or reference in a church interior verifies the visible text only, not the date, place, denomination or character of the photographed event.

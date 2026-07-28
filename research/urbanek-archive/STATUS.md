@@ -41,62 +41,63 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - celkem 201 položek;
 - stav: `processing_in_progress`.
 
-Dokončeno je třicet šest dávek po pěti snímcích, tedy `urbanek-ccs-001` až `180`.
+Dokončeno je třicet sedm dávek po pěti snímcích, tedy `urbanek-ccs-001` až `185`.
 
-- zpracováno: **180 z 201 položek**;
-- proti Git blob SHA ověřeno: **180 položek**;
-- vizuálně klasifikováno: **180 položek**;
-- zdrojově indexováno: **180 položek**;
-- zbývá: **21 položek**.
+- zpracováno: **185 z 201 položek**;
+- proti Git blob SHA ověřeno: **185 položek**;
+- vizuálně klasifikováno: **185 položek**;
+- zdrojově indexováno: **185 položek**;
+- zbývá: **16 položek**.
 
-### Zjištění dávky 36
+### Zjištění dávky 37
 
-Dávka 36 zpracovala celou podsložku `8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav`.
+Dávka 37 zpracovala celou podsložku `9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenick`.
 
-- `urbanek-ccs-176` zachycuje čtyři muže v dlouhých tmavých oděvech u oltáře pod krucifixem; na oltáři jsou kalich, otevřená kniha a široká nádoba.
-- `urbanek-ccs-177` zachycuje muže se vzpaženýma rukama u stejného oltáře; na krucifixu je čitelné označení `INRI`.
-- `urbanek-ccs-178` zachycuje zaplněný interiér s galerií, velkou textilní korouhví nebo praporem, dvěma duchovními v uličce a několika křesťanskými symboly.
-- `urbanek-ccs-179` zachycuje duchovního u pultu s textilií se znakem kalicha a jen částečně čitelným víceřádkovým textem.
-- `urbanek-ccs-180` zachycuje obřadní úkon mezi dvěma muži u oltáře; přesný úkon ani identity osob nelze určit pouze z fotografie.
-- Všech pět snímků pochází ze stejného nebo velmi podobného interiéru a zachycuje opakující se osoby. Jde o jednu obrazovou sekvenci, nikoli pět nezávislých potvrzení archivního popisu.
+- `urbanek-ccs-181` zachycuje muže v duchovním oděvu a světlé štole před oltářem; drží knihu nebo desky a gestikuluje.
+- `urbanek-ccs-182` a `185` zachycují téhož nebo velmi pravděpodobně téhož muže s brýlemi při čtení z otevřené knihy před stejným oltářem. Jde o odlišné záběry, nikoli binární duplicity.
+- `urbanek-ccs-183` zachycuje postavu zády k oltáři a další sedící osoby. Na oltářní textilii je čitelný odkaz `1 Petr 4,11`; úplný text je zčásti zakryt a nebyl rekonstruován.
+- `urbanek-ccs-184` zachycuje muže v duchovním oděvu u vyvýšené dřevěné kazatelny nebo pultu s otevřenou knihou či listy.
+- Všech pět snímků pochází ze stejného nebo velmi podobného interiéru a tvoří jednu bohoslužebnou sekvenci, nikoli pět nezávislých potvrzení archivního popisu.
+- Archivní označení roku 1969, evangelického chrámu na Ostravici a ekumenického charakteru nebylo obrazem nezávisle potvrzeno.
 - Všech pět souborů má odlišné Git blob SHA a žádný nemá použitelné embedded datum.
-- Dávka nepřidala nové ID; rozšířila `URB-U-0068` o položky `176` až `180`.
-- Všech pět JPEGů v osmé podsložce je nyní vizuálně klasifikováno a proti Git blob SHA ověřeno.
+- Dávka přidala nové ID `URB-U-0072`.
+- Všech pět JPEGů v deváté podsložce je nyní vizuálně klasifikováno a proti Git blob SHA ověřeno.
 
-Pracovní soubory dávky 36:
+Pracovní soubory dávky 37:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-36.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-36.yml`;
-- `sources/index.d/urbanek-ccs-36.yml`;
-- aktualizované `research/urbanek-archive/uncertainties/open-16.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-37.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-37.yml`;
+- `sources/index.d/urbanek-ccs-37.yml`;
+- nový záznam `research/urbanek-archive/uncertainties/open-19.yml`;
+- aktualizovaný `research/urbanek-archive/uncertainties/index.yml`.
 
 ## Registr nejistot
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 37;
+- `open`: 38;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 71.
+- celkem: 72.
 
-`URB-U-0068` nyní vedle portrétu, skupinových návštěv a ostravické slavnosti zahrnuje také položky `176` až `180`. Neověřené zůstávají správná podoba jména, identita Leonarda Bogumského na jednotlivých snímcích, Doubrava jako místo, datum a účel bohoslužby nebo slavnosti, ostatní osoby, význam symbolů, text na závěsné textilii a přesný liturgický úkon.
+`URB-U-0072` sleduje nezávislé ověření roku 1969, přesného evangelického chrámu na Ostravici, ekumenického charakteru, programu, zúčastněných církví, identit duchovních, textu oltářní textilie a vztahu k dřívějším ostravickým sériím.
 
-Archivní názvy jsou atribuce, nikoli nezávislé potvrzení. Duchovní oděv, štóla, kalich, prapor, symbol, gesto, pozice u oltáře ani podávání předmětu samy neurčují osobu, úřad, organizaci, místo nebo přesný obřad.
+Archivní názvy jsou atribuce, nikoli nezávislé potvrzení. Duchovní oděv, štóla, oltář, kazatelna, gesto, biblický text ani opakovaný výskyt osoby samy neurčují identitu, úřad, denominaci, místo, datum nebo ekumenický charakter.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová kolekce jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají rozsah 200 + 1 = 201;
-- průběžný stav je 180 zpracovaných a 21 zbývajících položek;
-- registr používá součty 37/31/3/71;
+- průběžný stav je 185 zpracovaných a 16 zbývajících položek;
+- registr používá součty 38/31/3/72;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Nová kolekce: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-181` až `urbanek-ccs-185`.
-- Očekávané názvy v podsložce `9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenick`: `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg` a `5.jpg`.
-- `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
+- Následující položky: `urbanek-ccs-186` až `urbanek-ccs-190`.
+- Očekávané názvy v podsložce `10 Kalendář 2015`: `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg` a `5.jpg`.
+- `Thumbs.db` v téže podsložce musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení.

@@ -47,11 +47,11 @@ ccs_collection:
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 180
-    repo_verified_items: 180
-    visually_classified_items: 180
-    source_indexed_items: 180
-    remaining_items: 21
+    processed_items: 185
+    repo_verified_items: 185
+    visually_classified_items: 185
+    source_indexed_items: 185
+    remaining_items: 16
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -152,10 +152,10 @@ ccs_collection:
     id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque
   - number: 32
     items: 156-160
-    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
+    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags
   - number: 33
     items: 161-165
-    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession-33
+    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession
   - number: 34
     items: 166-170
     id: stibor-funeral-coffin-bearing-street-clergy-and-procession-34
@@ -165,23 +165,26 @@ ccs_collection:
   - number: 36
     items: 176-180
     id: bogumsky-doubrava-service-altar-congregation-and-rite-36
+  - number: 37
+    items: 181-185
+    id: ostravice-1969-ecumenical-service-altar-pulpit-and-clergy-37
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-36.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-36.yml
-    source_index: sources/index.d/urbanek-ccs-36.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-37.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-37.yml
+    source_index: sources/index.d/urbanek-ccs-37.yml
   technical_files:
   - path: 10 Kalendář 2015/Thumbs.db
     audit_status: pending
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary:
-    open: 37
+    open: 38
     in_progress: 0
     deferred: 0
     resolved: 31
     not_actionable: 3
-    total: 71
-  ccs_range: URB-U-0039..URB-U-0071
+    total: 72
+  ccs_range: URB-U-0039..URB-U-0072
   handling_rules:
   - Archival names and folder labels are attribution metadata, not independent historical proof.
   - Persons are not identified solely from facial appearance.
@@ -191,6 +194,7 @@ uncertainties:
   - Standing beside a coffin or in a procession does not independently establish formal honor-guard status.
   - Liturgical garments, symbols, gestures or altar position do not independently establish a person, office, location or
     exact rite.
+  - A readable biblical quotation or reference verifies visible wording only, not the date, place, denomination or event character.
   batch_32_updated:
   - URB-U-0071
   batch_33_updated:
@@ -201,12 +205,14 @@ uncertainties:
   - URB-U-0071
   batch_36_updated:
   - URB-U-0068
+  batch_37_added:
+  - URB-U-0072
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 180
-    ccs_remaining_items: 21
+    ccs_processed_items: 185
+    ccs_remaining_items: 16
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
@@ -219,22 +225,22 @@ readiness:
   - ccs_history_thumbnail_cache_not_audited
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
-  - thirty_seven historical personal archival and technical questions remain open
+  - thirty_eight historical personal archival and technical questions remain open
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
   items:
-  - urbanek-ccs-181
-  - urbanek-ccs-182
-  - urbanek-ccs-183
-  - urbanek-ccs-184
-  - urbanek-ccs-185
+  - urbanek-ccs-186
+  - urbanek-ccs-187
+  - urbanek-ccs-188
+  - urbanek-ccs-189
+  - urbanek-ccs-190
   expected_source_files:
-  - 9/1.jpg
-  - 9/2.jpg
-  - 9/3.jpg
-  - 9/4.jpg
-  - 9/5.jpg
+  - 10/1.jpg
+  - 10/2.jpg
+  - 10/3.jpg
+  - 10/4.jpg
+  - 10/5.jpg
   batch_size_rule: 5_to_10_files
   instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, reuse or extend existing
     uncertainties where appropriate, and keep the PR draft and unmerged.

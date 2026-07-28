@@ -41,33 +41,34 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - celkem 201 položek;
 - stav: `processing_in_progress`.
 
-Dokončeno je třicet pět dávek po pěti snímcích, tedy `urbanek-ccs-001` až `175`.
+Dokončeno je třicet šest dávek po pěti snímcích, tedy `urbanek-ccs-001` až `180`.
 
-- zpracováno: **175 z 201 položek**;
-- proti Git blob SHA ověřeno: **175 položek**;
-- vizuálně klasifikováno: **175 položek**;
-- zdrojově indexováno: **175 položek**;
-- zbývá: **26 položek**.
+- zpracováno: **180 z 201 položek**;
+- proti Git blob SHA ověřeno: **180 položek**;
+- vizuálně klasifikováno: **180 položek**;
+- zdrojově indexováno: **180 položek**;
+- zbývá: **21 položek**.
 
-### Zjištění dávky 35
+### Zjištění dávky 36
 
-Dávka 35 uzavírá podsložku `7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956`.
+Dávka 36 zpracovala celou podsložku `8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav`.
 
-- `urbanek-ccs-171` zachycuje několik oddělených skupin nesoucích velké květinové věnce v uličním průvodu.
-- `urbanek-ccs-172` zachycuje osoby v dlouhých tmavých oděvech; několik drží knihy, desky nebo jiné obdélné předměty.
-- `urbanek-ccs-173` je široký pohled na dlouhou řadu podobně oděných osob, za nimiž je nesena zdobená uzavřená rakev a následuje početný zástup.
-- `urbanek-ccs-174` je bližší záběr stejné nebo bezprostředně navazující situace s rakví. Nejde o binární duplikát položek `166`, `169` ani `173`.
-- `urbanek-ccs-175` zachycuje početný civilní zástup s muži, ženami a dětmi; rakev v tomto výřezu viditelná není.
+- `urbanek-ccs-176` zachycuje čtyři muže v dlouhých tmavých oděvech u oltáře pod krucifixem; na oltáři jsou kalich, otevřená kniha a široká nádoba.
+- `urbanek-ccs-177` zachycuje muže se vzpaženýma rukama u stejného oltáře; na krucifixu je čitelné označení `INRI`.
+- `urbanek-ccs-178` zachycuje zaplněný interiér s galerií, velkou textilní korouhví nebo praporem, dvěma duchovními v uličce a několika křesťanskými symboly.
+- `urbanek-ccs-179` zachycuje duchovního u pultu s textilií se znakem kalicha a jen částečně čitelným víceřádkovým textem.
+- `urbanek-ccs-180` zachycuje obřadní úkon mezi dvěma muži u oltáře; přesný úkon ani identity osob nelze určit pouze z fotografie.
+- Všech pět snímků pochází ze stejného nebo velmi podobného interiéru a zachycuje opakující se osoby. Jde o jednu obrazovou sekvenci, nikoli pět nezávislých potvrzení archivního popisu.
 - Všech pět souborů má odlišné Git blob SHA a žádný nemá použitelné embedded datum.
-- Dávka nepřidala nové ID a rozšířila `URB-U-0071`.
-- Všech 20 JPEGů v sedmé podsložce je nyní vizuálně klasifikováno a proti Git blob SHA ověřeno.
+- Dávka nepřidala nové ID; rozšířila `URB-U-0068` o položky `176` až `180`.
+- Všech pět JPEGů v osmé podsložce je nyní vizuálně klasifikováno a proti Git blob SHA ověřeno.
 
-Pracovní soubory dávky 35:
+Pracovní soubory dávky 36:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-35.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-35.yml`;
-- `sources/index.d/urbanek-ccs-35.yml`;
-- aktualizované `research/urbanek-archive/uncertainties/open-18.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-36.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-36.yml`;
+- `sources/index.d/urbanek-ccs-36.yml`;
+- aktualizované `research/urbanek-archive/uncertainties/open-16.yml`.
 
 ## Registr nejistot
 
@@ -79,15 +80,15 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 71.
 
-`URB-U-0071` nyní zahrnuje položky `156` až `175`: portrét, vystavení a nesení rakve, věnce, osoby u rakve, výstup ze sboru, schodiště, uliční průvod, řetězy, medailony, knihy, znaky připomínající kalich, pásku s křížovitým znakem, prapory a civilní účastníky.
+`URB-U-0068` nyní vedle portrétu, skupinových návštěv a ostravické slavnosti zahrnuje také položky `176` až `180`. Neověřené zůstávají správná podoba jména, identita Leonarda Bogumského na jednotlivých snímcích, Doubrava jako místo, datum a účel bohoslužby nebo slavnosti, ostatní osoby, význam symbolů, text na závěsné textilii a přesný liturgický úkon.
 
-Archivní názvy jsou atribuce, nikoli nezávislé potvrzení. Oděv, řetěz, medailon, znak, pokrývka hlavy, páska na paži, kniha, věnec, nesení rakve nebo postavení v průvodu samy neurčují identitu, úřad, organizaci, dárce nebo formální roli.
+Archivní názvy jsou atribuce, nikoli nezávislé potvrzení. Duchovní oděv, štóla, kalich, prapor, symbol, gesto, pozice u oltáře ani podávání předmětu samy neurčují osobu, úřad, organizaci, místo nebo přesný obřad.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová kolekce jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají rozsah 200 + 1 = 201;
-- průběžný stav je 175 zpracovaných a 26 zbývajících položek;
+- průběžný stav je 180 zpracovaných a 21 zbývajících položek;
 - registr používá součty 37/31/3/71;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -95,7 +96,7 @@ Archivní názvy jsou atribuce, nikoli nezávislé potvrzení. Oděv, řetěz, m
 
 - Pilot: `completed`.
 - Nová kolekce: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-176` až `urbanek-ccs-180`.
-- Očekávané názvy v podsložce `8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav`: `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg` a `5.jpg`.
+- Následující položky: `urbanek-ccs-181` až `urbanek-ccs-185`.
+- Očekávané názvy v podsložce `9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenick`: `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg` a `5.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení.

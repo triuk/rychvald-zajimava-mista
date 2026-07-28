@@ -46,13 +46,12 @@ subfolders:
   name: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956
   content_files: 20
   technical_files: 0
-  processing_status: completed_first_visual_pass_and_blob_verification
 - order: 8
   name: 8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav
   content_files: 5
   technical_files: 0
 - order: 9
-  name: 9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenická...
+  name: 9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenick
   content_files: 5
   technical_files: 0
 - order: 10
@@ -99,6 +98,7 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-33.yml
 - sources/index.d/urbanek-ccs-34.yml
 - sources/index.d/urbanek-ccs-35.yml
+- sources/index.d/urbanek-ccs-36.yml
 batch_file_patterns:
   inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-{NN}.csv
   classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-{NN}.yml
@@ -110,11 +110,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 175
-  repo_verified_items: 175
-  visually_classified_items: 175
-  source_indexed_items: 175
-  remaining_items: 26
+  processed_items: 180
+  repo_verified_items: 180
+  visually_classified_items: 180
+  source_indexed_items: 180
+  remaining_items: 21
   completed_batches:
   - number: 1
     items: 001-005
@@ -221,6 +221,9 @@ processing:
   - number: 35
     items: 171-175
     id: stibor-funeral-wreaths-clergy-coffin-and-civilian-procession-35
+  - number: 36
+    items: 176-180
+    id: bogumsky-doubrava-service-altar-congregation-and-rite-36
   open_uncertainties_from_collection:
   - URB-U-0039
   - URB-U-0040
@@ -256,16 +259,16 @@ processing:
   - URB-U-0070
   - URB-U-0071
   next_items:
-  - urbanek-ccs-176
-  - urbanek-ccs-177
-  - urbanek-ccs-178
-  - urbanek-ccs-179
-  - urbanek-ccs-180
+  - urbanek-ccs-181
+  - urbanek-ccs-182
+  - urbanek-ccs-183
+  - urbanek-ccs-184
+  - urbanek-ccs-185
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
 - Persons are not identified solely from facial appearance.
 - Multiple archival reproductions of the same photograph are separate files but not independent event evidence.
 - Exact binary duplicates under different paths are separate inventory items but only one independent image record.
-- Chains, medallions, armbands, chalice-like emblems, headwear, books, wreaths, coffin position or procession position do
-  not independently establish an office, organization, donor, identity or role.
+- Chains, medallions, armbands, chalice-like emblems, headwear, books, banners, liturgical gestures or procession position
+  do not independently establish an office, organization, person or exact rite.

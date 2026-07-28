@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batch_38_open_items
+scope: ccs_batches_38_39_open_items
 items:
 - id: URB-U-0073
   status: open
@@ -7,10 +7,19 @@ items:
   collection: Historie Církve československé v Rychvaldě ve fotografiích
   type: calendar_2015_authorship_publisher_source_provenance_historical_summary_captions_reused_images_and_rights
   related_open_items:
+  - URB-U-0039
   - URB-U-0040
   - URB-U-0041
+  - URB-U-0042
+  - URB-U-0048
+  - URB-U-0055
+  - URB-U-0056
   - URB-U-0058
   - URB-U-0059
+  - URB-U-0060
+  - URB-U-0061
+  - URB-U-0064
+  - URB-U-0065
   - URB-U-0067
   - URB-U-0068
   source_items:
@@ -19,19 +28,27 @@ items:
   - urbanek-ccs-188
   - urbanek-ccs-189
   - urbanek-ccs-190
+  - urbanek-ccs-191
+  - urbanek-ccs-192
+  - urbanek-ccs-193
+  - urbanek-ccs-194
+  - urbanek-ccs-195
   question: Kdo vytvořil, sestavil a vydal kalendář 2015, z jakých pramenů vychází jeho historický souhrn a popisky, jaké
     jsou přesné zdroje a úpravy vložených fotografií a která historická tvrzení lze potvrdit primárními nebo nezávislými prameny?
   known_facts:
-  - Položky 186 až 190 tvoří titulní stranu, historický souhrn 1920–2015 a měsíční strany leden až březen kalendáře 2015.
-  - Všech pět souborů má rozměr 2385 × 3354 pixelů, barevný režim CMYK a odlišné Git blob SHA.
-  - EXIF Artist a XPAuthor ve všech pěti souborech obsahují řetězec Marta; použitelné embedded datum chybí.
+  - Položky 186 až 195 tvoří titulní stranu, historický souhrn 1920–2015 a měsíční strany leden až srpen kalendáře 2015.
+  - Všech deset souborů má rozměr 2385 × 3354 pixelů, barevný režim CMYK a navzájem odlišné Git blob SHA.
+  - EXIF Artist a XPAuthor ve všech deseti souborech obsahují řetězec Marta; použitelné embedded datum chybí.
   - Řetězec Marta je metadatový údaj, nikoli nezávislé potvrzení úplné identity, autorství, grafické úpravy nebo vydavatelské
     odpovědnosti.
   - Položka 187 obsahuje souvislý historický přehled s řadou konkrétních dat, jmen, počtů, stavebních, okupačních, uměleckých
     a personálních tvrzení.
-  - Položka 188 vizuálně znovu používá podkladové fotografie položek 001, 003 a 006.
-  - Položka 189 vizuálně znovu používá podkladové fotografie položek 007, 008, 009 a 013.
-  - Položka 190 vizuálně znovu používá podkladové fotografie položek 037, 038 a 039.
+  - Položky 188 až 195 převážně znovu používají podkladové fotografie už evidované v položkách 001, 003, 006–009, 011–015,
+    023, 032, 036–043, 048, 050, 053 a 054.
+  - Položka 191 navíc obsahuje fotografii návštěvníků ve zvonové stolici, kterou se mezi dosud zpracovanými samostatnými položkami
+    nepodařilo bezpečně přiřadit.
+  - Kalendářové popisky přidávají sekundární datace a tvrzení o zvonech, sborech, prvním přijímání, husovské tradici, svatbě,
+    křtu a přijímání; nejde o nezávislé ověření.
   - Kalendářové reprodukce a popisky jsou sekundární kompilací a nepředstavují další nezávislé potvrzení zachycených událostí.
   unresolved_attributes:
   - full_identity_and_role_of_Marta
@@ -39,8 +56,8 @@ items:
   - publication_date_distribution_and_original_file_provenance
   - source_bibliography_for_historical_summary
   - independent_verification_of_all_dates_names_counts_roles_and_events
-  - complete_exact_transcription_of_text_page
-  - source_and_authorship_of_modern_exterior_photograph
+  - complete_exact_transcription_of_all_calendar_text
+  - source_and_authorship_of_modern_exterior_and_tower_visit_photographs
   - identity_date_and_meaning_of_inset_stone
   - exact_mapping_source_scan_and_editing_history_of_every_reused_photo
   - caption_authorship_and_fact_checking
@@ -61,3 +78,5 @@ items:
   evidence:
   - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-38.yml
   - sources/index.d/urbanek-ccs-38.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-39.yml
+  - sources/index.d/urbanek-ccs-39.yml

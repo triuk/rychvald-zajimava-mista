@@ -47,11 +47,11 @@ ccs_collection:
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 190
-    repo_verified_items: 190
-    visually_classified_items: 190
-    source_indexed_items: 190
-    remaining_items: 11
+    processed_items: 195
+    repo_verified_items: 195
+    visually_classified_items: 195
+    source_indexed_items: 195
+    remaining_items: 6
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -137,25 +137,25 @@ ccs_collection:
     id: ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
   - number: 27
     items: 131-135
-    id: ostravice-welcome-infant-reproductions-address-and-congregation
+    id: ostravice-welcome-infant-reproductions-address-and-congregation-27
   - number: 28
     items: 136-140
-    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd
+    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd-28
   - number: 29
     items: 141-145
-    id: ostravice-final-group-and-vodicka-funeral-opening
+    id: ostravice-final-group-and-vodicka-funeral-opening-29
   - number: 30
     items: 146-150
-    id: vodicka-funeral-mourners-faculty-exit-and-salutes
+    id: vodicka-funeral-mourners-faculty-exit-and-salutes-30
   - number: 31
     items: 151-155
-    id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque
+    id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque-31
   - number: 32
     items: 156-160
-    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags
+    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
   - number: 33
     items: 161-165
-    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession
+    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession-33
   - number: 34
     items: 166-170
     id: stibor-funeral-coffin-bearing-street-clergy-and-procession-34
@@ -171,10 +171,13 @@ ccs_collection:
   - number: 38
     items: 186-190
     id: calendar-2015-cover-history-january-february-march-38
+  - number: 39
+    items: 191-195
+    id: calendar-2015-april-may-june-july-august-39
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-38.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-38.yml
-    source_index: sources/index.d/urbanek-ccs-38.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-39.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-39.yml
+    source_index: sources/index.d/urbanek-ccs-39.yml
   technical_files:
   - path: 10 Kalendář 2015/Thumbs.db
     audit_status: pending
@@ -214,12 +217,14 @@ uncertainties:
   - URB-U-0072
   batch_38_added:
   - URB-U-0073
+  batch_39_updated:
+  - URB-U-0073
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 190
-    ccs_remaining_items: 11
+    ccs_processed_items: 195
+    ccs_remaining_items: 6
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
@@ -237,17 +242,17 @@ next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
   items:
-  - urbanek-ccs-191
-  - urbanek-ccs-192
-  - urbanek-ccs-193
-  - urbanek-ccs-194
-  - urbanek-ccs-195
+  - urbanek-ccs-196
+  - urbanek-ccs-197
+  - urbanek-ccs-198
+  - urbanek-ccs-199
+  - urbanek-ccs-200
   expected_source_files:
-  - 10/6.jpg
-  - 10/7.jpg
-  - 10/8.jpg
-  - 10/9.jpg
-  - 10/10.jpg
+  - 10/11.jpg
+  - 10/12.jpg
+  - 10/13.jpg
+  - 10/14.jpg
+  - 10/15.jpg
   batch_size_rule: 5_to_10_files
   instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, reuse or extend existing
     uncertainties where appropriate, and keep the PR draft and unmerged.

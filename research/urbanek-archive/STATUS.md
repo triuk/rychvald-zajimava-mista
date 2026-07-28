@@ -41,35 +41,34 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - celkem 201 položek;
 - stav: `processing_in_progress`.
 
-Dokončeno je třicet osm dávek po pěti snímcích, tedy `urbanek-ccs-001` až `190`.
+Dokončeno je třicet devět dávek po pěti snímcích, tedy `urbanek-ccs-001` až `195`.
 
-- zpracováno: **190 z 201 položek**;
-- proti Git blob SHA ověřeno: **190 položek**;
-- vizuálně klasifikováno: **190 položek**;
-- zdrojově indexováno: **190 položek**;
-- zbývá: **11 položek**.
+- zpracováno: **195 z 201 položek**;
+- proti Git blob SHA ověřeno: **195 položek**;
+- vizuálně klasifikováno: **195 položek**;
+- zdrojově indexováno: **195 položek**;
+- zbývá: **6 položek**.
 
-### Zjištění dávky 38
+### Zjištění dávky 39
 
-Dávka 38 zahájila podsložku `10 Kalendář 2015` a zpracovala titulní stranu, historický souhrn a měsíce leden až březen.
+Dávka 39 pokračovala v podsložce `10 Kalendář 2015` a zpracovala měsíce duben až srpen.
 
-- `urbanek-ccs-186` je titulní strana s rokem 2015, textem „90 let Husova sboru a 95 let Církve československé v Rychvaldu“, současným exteriérem sboru, znakem kalicha s křížem a detailem kamene s číselným údajem.
-- `urbanek-ccs-187` je textová strana `1920–2015` s historickým souhrnem založení obce, stavby, výzdoby, období okupací, poválečných úprav, zvonů, farářů a kulturních aktivit. Jde o čitelný sekundární text; jeho historická tvrzení nebyla touto dávkou nezávisle potvrzena.
-- `urbanek-ccs-188` je lednová strana. Vizuálně znovu používá fotografie `urbanek-ccs-001`, `003` a `006`.
-- `urbanek-ccs-189` je únorová strana. Vizuálně znovu používá fotografie `urbanek-ccs-007`, `008`, `009` a `013`.
-- `urbanek-ccs-190` je březnová strana. Vizuálně znovu používá fotografie `urbanek-ccs-037`, `038` a `039`.
-- Kalendářové reprodukce jsou další sazební použití už evidovaných snímků, nikoli nové nezávislé obrazové doklady.
+- `urbanek-ccs-191` je dubnová strana se zvony, reliéfním rokem `1920` a veřejnou prohlídkou věže. Znovu používá zvonové podklady položek `014` a `015`; fotografii návštěvníků u zvonu se nepodařilo bezpečně přiřadit k dřívější samostatné položce.
+- `urbanek-ccs-192` je květnová strana se sbory a znovu používá položky `040`, `042` a `043`. Popisky sekundárně uvádějí rok 1933, Šlachtu, Vodičku a vánoční koncert se sbormistrem Dajčem roku 1990.
+- `urbanek-ccs-193` je červnová strana se skupinami prvního přijímání a znovu používá položky `011`, `012` a `032`. Popisky uvádějí chlapce roku 1930 a další skupinu přibližně roku 1950.
+- `urbanek-ccs-194` je červencová strana husovské připomínky a znovu používá položky `050`, `053` a `054`. Text tvrdí založení tradice roku 1926 a každoroční růst účasti.
+- `urbanek-ccs-195` je srpnová strana se svatbou, křtem a přijímáním a znovu používá položky `023`, `048` a `036`. Popisky uvádějí roky 1948, 1970 a 1987 a jméno Mgr. Jany Šilerové.
+- Kalendářové datace, jména a historické výroky jsou sekundární popisky, nikoli nezávislé potvrzení.
 - Všech pět souborů má odlišné Git blob SHA, rozměr 2385 × 3354 pixelů a barevný režim CMYK.
-- EXIF `Artist` a `XPAuthor` ve všech pěti souborech uvádějí řetězec `Marta`; použitelné embedded datum chybí. Samotný řetězec nepotvrzuje úplnou identitu ani autorství.
-- Dávka přidala nové ID `URB-U-0073`.
+- EXIF `Artist` a `XPAuthor` ve všech pěti souborech uvádějí řetězec `Marta`; použitelné embedded datum chybí.
+- Dávka nepřidala nové ID a rozšířila `URB-U-0073` o položky `191` až `195`.
 
-Pracovní soubory dávky 38:
+Pracovní soubory dávky 39:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-38.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-38.yml`;
-- `sources/index.d/urbanek-ccs-38.yml`;
-- nový záznam `research/urbanek-archive/uncertainties/open-20.yml`;
-- aktualizovaný `research/urbanek-archive/uncertainties/index.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-39.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-39.yml`;
+- `sources/index.d/urbanek-ccs-39.yml`;
+- aktualizované `research/urbanek-archive/uncertainties/open-20.yml`.
 
 ## Registr nejistot
 
@@ -81,7 +80,7 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 73.
 
-`URB-U-0073` sleduje autorství, vydavatele, zdrojovou bibliografii, původ a úpravy vložených fotografií, historickou správnost textu a popisků a práva ke kalendáři 2015. Kalendář je sekundární kompilace; viditelné texty potvrzují znění stránky, nikoli automaticky popisované události.
+`URB-U-0073` nyní zahrnuje položky `186` až `195` a sleduje autorství, vydavatele, zdrojovou bibliografii, původ a úpravy vložených fotografií, historickou správnost textu a popisků a práva ke kalendáři 2015.
 
 EXIF jméno, kalendářový popisek, moderní historický souhrn ani znovu použitá fotografie samy neurčují autora, vydavatele, původní zdroj nebo historickou správnost tvrzení.
 
@@ -89,7 +88,7 @@ EXIF jméno, kalendářový popisek, moderní historický souhrn ani znovu použ
 
 - pilot a nová kolekce jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají rozsah 200 + 1 = 201;
-- průběžný stav je 190 zpracovaných a 11 zbývajících položek;
+- průběžný stav je 195 zpracovaných a 6 zbývajících položek;
 - registr používá součty 39/31/3/73;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -97,7 +96,7 @@ EXIF jméno, kalendářový popisek, moderní historický souhrn ani znovu použ
 
 - Pilot: `completed`.
 - Nová kolekce: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-191` až `urbanek-ccs-195`.
-- Očekávané názvy v podsložce `10 Kalendář 2015`: `6.jpg`, `7.jpg`, `8.jpg`, `9.jpg` a `10.jpg`.
-- `Thumbs.db` v téže podsložce musí být před uzavřením kolekce samostatně auditován.
+- Následující položky: `urbanek-ccs-196` až `urbanek-ccs-200`.
+- Očekávané názvy v podsložce `10 Kalendář 2015`: `11.jpg`, `12.jpg`, `13.jpg`, `14.jpg` a `15.jpg`.
+- `Thumbs.db` v téže podsložce musí být po dokončení obrazů samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení.

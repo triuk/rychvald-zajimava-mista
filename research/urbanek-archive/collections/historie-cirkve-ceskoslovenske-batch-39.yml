@@ -1,0 +1,248 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: calendar-2015-april-may-june-july-august-39
+status: completed_first_visual_pass
+git_attachment: finalized
+item_count: 5
+source_scope: 10 Kalendář 2015 / archivní soubory 6 až 10
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Položky 191 až 195 jsou měsíční strany duben až srpen výročního kalendáře 2015. Znovu používají dříve evidované
+    fotografie zvonů, pěveckých sborů, prvního přijímání, husovské připomínky, svatby, křtu a přijímání. Novou informační
+    vrstvu tvoří kalendářové popisky a datace; ty dokládají znění sekundární kompilace, nikoli automaticky historickou správnost.
+    Jedna vložená fotografie veřejné prohlídky věže nebyla mezi dosud zpracovanými samostatnými položkami bezpečně přiřazena.
+  basis:
+  - full_page_visual_review
+  - scene_and_document_text_review
+  - cross_collection_image_comparison
+  - embedded_metadata_inspection
+  - exact_git_blob_verification
+  - binary_duplicate_screening
+  related_open_items:
+  - URB-U-0073
+  - URB-U-0039
+  - URB-U-0041
+  - URB-U-0042
+  - URB-U-0048
+  - URB-U-0055
+  - URB-U-0056
+  - URB-U-0058
+  - URB-U-0060
+  - URB-U-0061
+  - URB-U-0064
+  - URB-U-0065
+items:
+- id: urbanek-ccs-191
+  archival_filename: 6.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_april_page_bells_and_tower_visit
+  description: Dubnová strana kalendáře s fotografiemi zvonů ve věži, detailem reliéfního letopočtu 1920 a veřejné prohlídky
+    zvonové stolice. Kalendářový text tvrdí, že ve věži jsou dva ocelové zvony bez výzdoby kromě roku výroby 1920 a že prohlídky
+    mají velkou oblibu.
+  verified_from_page:
+  - month_April_2015
+  - bell_chamber_photographs
+  - visible_relief_1920
+  - people_inside_bell_tower
+  - caption_claim_two_steel_bells
+  - caption_claim_public_tours_popular
+  reused_image_relations:
+  - relation: visually_reuses_or_crops
+    source_items:
+    - urbanek-ccs-014
+    - urbanek-ccs-015
+    note: Detail roku 1920 a pohled do zvonové stolice odpovídají dříve evidované zvonové dokumentaci.
+  - relation: additional_embedded_photo_unmapped
+    note: Fotografie návštěvníků u zvonu nebyla v dosud zpracovaných samostatných položkách bezpečně přiřazena.
+  unverified:
+  - number_material_and_history_of_bells
+  - meaning_of_year_1920
+  - manufacture_and_installation_date
+  - public_tour_dates_attendance_and_organizer
+  - embedded_photo_authors_and_dates
+  - calendar_caption_accuracy
+  metadata: &id001
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+    interpretation: Řetězec Marta je pouze vložený metadatový údaj; nepotvrzuje úplnou identitu, autorství, grafickou úpravu
+      ani vydavatelskou odpovědnost.
+  uncertainty_ids:
+  - URB-U-0073
+  - URB-U-0041
+  - URB-U-0042
+- id: urbanek-ccs-192
+  archival_filename: 7.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_may_page_historical_and_modern_choirs
+  description: Květnová strana se skupinovým portrétem pěveckého sboru, koncertním záběrem se sborem a instrumentálním souborem
+    a pozdějším skupinovým portrétem. Popisky uvádějí sbormistra bratra Šlachtu a faráře Vodičku roku 1933 a vánoční koncert
+    se sbormistrem bratrem Dajčem roku 1990.
+  verified_from_page:
+  - month_May_2015
+  - three_choir_related_photographs
+  - printed_year_1933
+  - printed_year_1990
+  - printed_names_Slachta_Vodicka_Dajc
+  reused_image_relations:
+  - relation: visually_reuses
+    source_items:
+    - urbanek-ccs-040
+    - urbanek-ccs-042
+    - urbanek-ccs-043
+    note: Horní, prostřední a dolní fotografie odpovídají dříve evidovaným sborovým snímkům.
+  unverified:
+  - independent_confirmation_of_1933_and_1990
+  - Slachta_Vodicka_Dajc_identification_and_roles
+  - Christmas_concert_identity
+  - choir_membership_and_event_sequence
+  - embedded_photo_authors_and_dates
+  - calendar_caption_accuracy
+  metadata: *id001
+  uncertainty_ids:
+  - URB-U-0073
+  - URB-U-0060
+  - URB-U-0061
+- id: urbanek-ccs-193
+  archival_filename: 8.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_june_page_first_communion_groups
+  description: Červnová strana se třemi historickými skupinovými fotografiemi dětí a duchovních. Popisky uvádějí první přijímání
+    chlapců roku 1930, první přijímání děvčat a první přijímání přibližně roku 1950.
+  verified_from_page:
+  - month_June_2015
+  - three_child_ceremonial_group_photographs
+  - printed_claim_boys_1930
+  - printed_claim_girls_first_communion
+  - printed_claim_about_1950
+  reused_image_relations:
+  - relation: visually_reuses
+    source_items:
+    - urbanek-ccs-011
+    - urbanek-ccs-012
+    - urbanek-ccs-032
+    note: Fotografie odpovídají dříve evidovaným chlapeckým, dívčím a smíšeným skupinám.
+  unverified:
+  - independent_confirmation_of_1930_and_about_1950
+  - exact_event_dates
+  - clergy_and_child_identities
+  - relation_between_three_groups
+  - first_postwar_status
+  - embedded_photo_authors_and_dates
+  - calendar_caption_accuracy
+  metadata: *id001
+  uncertainty_ids:
+  - URB-U-0073
+  - URB-U-0039
+  - URB-U-0055
+  - URB-U-0056
+- id: urbanek-ccs-194
+  archival_filename: 9.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_july_page_Jan_Hus_procession_and_bonfire
+  description: Červencová strana se současným průvodem, hořící hranicí s kresleným portrétem a širokým pohledem na dav u ohně.
+    Text uvádí vzpomínku na upálení Mistra Jana Husa, založení tradice roku 1926, rok 2015 jako 600 let od upálení a tvrzení,
+    že účastníků každoročně přibývá.
+  verified_from_page:
+  - month_July_2015
+  - procession_with_firefighters
+  - burning_log_pyre_with_portrait
+  - large_crowd_near_fire
+  - printed_claim_tradition_since_1926
+  - printed_2015_600_year_commemoration
+  - printed_claim_participation_increases
+  reused_image_relations:
+  - relation: visually_reuses
+    source_items:
+    - urbanek-ccs-050
+    - urbanek-ccs-053
+    - urbanek-ccs-054
+    note: Tři fotografie odpovídají dříve evidované husovské průvodové a ohňové sekvenci.
+  unverified:
+  - independent_confirmation_of_tradition_since_1926
+  - exact_event_date_and_year_of_photographs
+  - portrait_identity
+  - organizers_and_participants
+  - attendance_trend
+  - relationship_of_all_images_to_one_year
+  - embedded_photo_authors
+  - calendar_caption_accuracy
+  metadata: *id001
+  uncertainty_ids:
+  - URB-U-0073
+  - URB-U-0065
+- id: urbanek-ccs-195
+  archival_filename: 10.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_august_page_wedding_baptism_and_communion
+  description: Srpnová strana se svatebním obřadem, křtem dítěte a skupinou dětí s duchovní. Popisky uvádějí svatbu roku 1948,
+    křtiny roku 1970 a farářku Mgr. Janu Šilerovou s dětmi při přijímání roku 1987.
+  verified_from_page:
+  - month_August_2015
+  - wedding_rite_photograph
+  - infant_baptism_scene
+  - female_liturgical_person_with_children
+  - printed_year_1948
+  - printed_year_1970
+  - printed_year_1987
+  - printed_name_Mgr_Jana_Silerova
+  reused_image_relations:
+  - relation: visually_reuses
+    source_items:
+    - urbanek-ccs-023
+    - urbanek-ccs-048
+    - urbanek-ccs-036
+    note: Horní, prostřední a dolní fotografie odpovídají dříve evidované svatební, křestní a přijímací fotografii.
+  unverified:
+  - independent_confirmation_of_1948_1970_1987
+  - wedding_and_baptism_participant_identities
+  - Jana_Silerova_identity_title_and_role
+  - child_identities
+  - exact_event_dates
+  - embedded_photo_authors
+  - calendar_caption_accuracy
+  metadata: *id001
+  uncertainty_ids:
+  - URB-U-0073
+  - URB-U-0048
+  - URB-U-0064
+  - URB-U-0058
+binary_duplicate_review:
+  status: no_exact_duplicates_within_batch
+  git_blob_shas:
+  - 8da137a7405c6d1511da083de89b02cf3ad28b9c
+  - cd8e1f1d1a438dba969de31f42b01687c7fc1f02
+  - 86cb25ef15a69f83d428acd2c283cd7e73210d1e
+  - 85b72388613eb13cde373f3dc1451cdefd7c8315
+  - f3efdf28856e5c751861f0f61afbc98ac852e154
+next_action:
+  items:
+  - urbanek-ccs-196
+  - urbanek-ccs-197
+  - urbanek-ccs-198
+  - urbanek-ccs-199
+  - urbanek-ccs-200
+  expected_source_files:
+  - 10 Kalendář 2015/11.jpg
+  - 10 Kalendář 2015/12.jpg
+  - 10 Kalendář 2015/13.jpg
+  - 10 Kalendář 2015/14.jpg
+  - 10 Kalendář 2015/15.jpg
+  technical_file_after_content: 10 Kalendář 2015/Thumbs.db

@@ -41,63 +41,63 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - celkem 201 položek;
 - stav: `processing_in_progress`.
 
-Dokončeno je třicet sedm dávek po pěti snímcích, tedy `urbanek-ccs-001` až `185`.
+Dokončeno je třicet osm dávek po pěti snímcích, tedy `urbanek-ccs-001` až `190`.
 
-- zpracováno: **185 z 201 položek**;
-- proti Git blob SHA ověřeno: **185 položek**;
-- vizuálně klasifikováno: **185 položek**;
-- zdrojově indexováno: **185 položek**;
-- zbývá: **16 položek**.
+- zpracováno: **190 z 201 položek**;
+- proti Git blob SHA ověřeno: **190 položek**;
+- vizuálně klasifikováno: **190 položek**;
+- zdrojově indexováno: **190 položek**;
+- zbývá: **11 položek**.
 
-### Zjištění dávky 37
+### Zjištění dávky 38
 
-Dávka 37 zpracovala celou podsložku `9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenick`.
+Dávka 38 zahájila podsložku `10 Kalendář 2015` a zpracovala titulní stranu, historický souhrn a měsíce leden až březen.
 
-- `urbanek-ccs-181` zachycuje muže v duchovním oděvu a světlé štole před oltářem; drží knihu nebo desky a gestikuluje.
-- `urbanek-ccs-182` a `185` zachycují téhož nebo velmi pravděpodobně téhož muže s brýlemi při čtení z otevřené knihy před stejným oltářem. Jde o odlišné záběry, nikoli binární duplicity.
-- `urbanek-ccs-183` zachycuje postavu zády k oltáři a další sedící osoby. Na oltářní textilii je čitelný odkaz `1 Petr 4,11`; úplný text je zčásti zakryt a nebyl rekonstruován.
-- `urbanek-ccs-184` zachycuje muže v duchovním oděvu u vyvýšené dřevěné kazatelny nebo pultu s otevřenou knihou či listy.
-- Všech pět snímků pochází ze stejného nebo velmi podobného interiéru a tvoří jednu bohoslužebnou sekvenci, nikoli pět nezávislých potvrzení archivního popisu.
-- Archivní označení roku 1969, evangelického chrámu na Ostravici a ekumenického charakteru nebylo obrazem nezávisle potvrzeno.
-- Všech pět souborů má odlišné Git blob SHA a žádný nemá použitelné embedded datum.
-- Dávka přidala nové ID `URB-U-0072`.
-- Všech pět JPEGů v deváté podsložce je nyní vizuálně klasifikováno a proti Git blob SHA ověřeno.
+- `urbanek-ccs-186` je titulní strana s rokem 2015, textem „90 let Husova sboru a 95 let Církve československé v Rychvaldu“, současným exteriérem sboru, znakem kalicha s křížem a detailem kamene s číselným údajem.
+- `urbanek-ccs-187` je textová strana `1920–2015` s historickým souhrnem založení obce, stavby, výzdoby, období okupací, poválečných úprav, zvonů, farářů a kulturních aktivit. Jde o čitelný sekundární text; jeho historická tvrzení nebyla touto dávkou nezávisle potvrzena.
+- `urbanek-ccs-188` je lednová strana. Vizuálně znovu používá fotografie `urbanek-ccs-001`, `003` a `006`.
+- `urbanek-ccs-189` je únorová strana. Vizuálně znovu používá fotografie `urbanek-ccs-007`, `008`, `009` a `013`.
+- `urbanek-ccs-190` je březnová strana. Vizuálně znovu používá fotografie `urbanek-ccs-037`, `038` a `039`.
+- Kalendářové reprodukce jsou další sazební použití už evidovaných snímků, nikoli nové nezávislé obrazové doklady.
+- Všech pět souborů má odlišné Git blob SHA, rozměr 2385 × 3354 pixelů a barevný režim CMYK.
+- EXIF `Artist` a `XPAuthor` ve všech pěti souborech uvádějí řetězec `Marta`; použitelné embedded datum chybí. Samotný řetězec nepotvrzuje úplnou identitu ani autorství.
+- Dávka přidala nové ID `URB-U-0073`.
 
-Pracovní soubory dávky 37:
+Pracovní soubory dávky 38:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-37.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-37.yml`;
-- `sources/index.d/urbanek-ccs-37.yml`;
-- nový záznam `research/urbanek-archive/uncertainties/open-19.yml`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-38.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-38.yml`;
+- `sources/index.d/urbanek-ccs-38.yml`;
+- nový záznam `research/urbanek-archive/uncertainties/open-20.yml`;
 - aktualizovaný `research/urbanek-archive/uncertainties/index.yml`.
 
 ## Registr nejistot
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 38;
+- `open`: 39;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 72.
+- celkem: 73.
 
-`URB-U-0072` sleduje nezávislé ověření roku 1969, přesného evangelického chrámu na Ostravici, ekumenického charakteru, programu, zúčastněných církví, identit duchovních, textu oltářní textilie a vztahu k dřívějším ostravickým sériím.
+`URB-U-0073` sleduje autorství, vydavatele, zdrojovou bibliografii, původ a úpravy vložených fotografií, historickou správnost textu a popisků a práva ke kalendáři 2015. Kalendář je sekundární kompilace; viditelné texty potvrzují znění stránky, nikoli automaticky popisované události.
 
-Archivní názvy jsou atribuce, nikoli nezávislé potvrzení. Duchovní oděv, štóla, oltář, kazatelna, gesto, biblický text ani opakovaný výskyt osoby samy neurčují identitu, úřad, denominaci, místo, datum nebo ekumenický charakter.
+EXIF jméno, kalendářový popisek, moderní historický souhrn ani znovu použitá fotografie samy neurčují autora, vydavatele, původní zdroj nebo historickou správnost tvrzení.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová kolekce jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají rozsah 200 + 1 = 201;
-- průběžný stav je 185 zpracovaných a 16 zbývajících položek;
-- registr používá součty 38/31/3/72;
+- průběžný stav je 190 zpracovaných a 11 zbývajících položek;
+- registr používá součty 39/31/3/73;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Nová kolekce: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-186` až `urbanek-ccs-190`.
-- Očekávané názvy v podsložce `10 Kalendář 2015`: `1.jpg`, `2.jpg`, `3.jpg`, `4.jpg` a `5.jpg`.
+- Následující položky: `urbanek-ccs-191` až `urbanek-ccs-195`.
+- Očekávané názvy v podsložce `10 Kalendář 2015`: `6.jpg`, `7.jpg`, `8.jpg`, `9.jpg` a `10.jpg`.
 - `Thumbs.db` v téže podsložce musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení.

@@ -100,6 +100,7 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-35.yml
 - sources/index.d/urbanek-ccs-36.yml
 - sources/index.d/urbanek-ccs-37.yml
+- sources/index.d/urbanek-ccs-38.yml
 batch_file_patterns:
   inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-{NN}.csv
   classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-{NN}.yml
@@ -111,11 +112,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 185
-  repo_verified_items: 185
-  visually_classified_items: 185
-  source_indexed_items: 185
-  remaining_items: 16
+  processed_items: 190
+  repo_verified_items: 190
+  visually_classified_items: 190
+  source_indexed_items: 190
+  remaining_items: 11
   completed_batches:
   - number: 1
     items: 001-005
@@ -228,6 +229,9 @@ processing:
   - number: 37
     items: 181-185
     id: ostravice-1969-ecumenical-service-altar-pulpit-and-clergy-37
+  - number: 38
+    items: 186-190
+    id: calendar-2015-cover-history-january-february-march-38
   open_uncertainties_from_collection:
   - URB-U-0039
   - URB-U-0040
@@ -263,12 +267,13 @@ processing:
   - URB-U-0070
   - URB-U-0071
   - URB-U-0072
+  - URB-U-0073
   next_items:
-  - urbanek-ccs-186
-  - urbanek-ccs-187
-  - urbanek-ccs-188
-  - urbanek-ccs-189
-  - urbanek-ccs-190
+  - urbanek-ccs-191
+  - urbanek-ccs-192
+  - urbanek-ccs-193
+  - urbanek-ccs-194
+  - urbanek-ccs-195
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
@@ -279,3 +284,5 @@ rules:
   do not independently establish an office, organization or role.
 - A readable biblical quotation or reference verifies visible wording only, not the date, place, denomination or character
   of the photographed event.
+- Modern commemorative calendar pages are secondary compilations; readable text and reused images verify page content only,
+  not the underlying historical claims.

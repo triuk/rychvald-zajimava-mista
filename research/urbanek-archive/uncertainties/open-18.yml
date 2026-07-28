@@ -1,63 +1,70 @@
 schema_version: 1
-scope: ccs_batches_32_33_open_items
+scope: ccs_batches_32_34_open_items
 items:
-  - id: URB-U-0071
-    status: open
-    priority: high
-    collection: Historie Církve československé v Rychvaldě ve fotografiích
-    type: Ferdinand_Stibor_funeral_identity_date_location_people_insignia_and_sequence
-    related_open_items: [URB-U-0050]
-    source_items:
-      - urbanek-ccs-156
-      - urbanek-ccs-157
-      - urbanek-ccs-158
-      - urbanek-ccs-159
-      - urbanek-ccs-160
-      - urbanek-ccs-161
-      - urbanek-ccs-162
-      - urbanek-ccs-163
-      - urbanek-ccs-164
-      - urbanek-ccs-165
-    question: >-
-      Jak nezávisle ověřit osobu, datum, místo, účastníky, organizace, význam oděvních
-      znaků a přesný sled události zachycené na položkách 156 až 165?
-    known_facts:
-      - Archivní názvy připisují sérii Ferdinandu Stiborovi, říjnu 1956 a radvanickému Husovu sboru; jde o archivní atribuce.
-      - Položky 157 a 158 zachycují stejný interiér a pietní uspořádání z různých úhlů.
-      - Položky 159 až 163 zachycují stejný nebo velmi podobný vstup a schodiště.
-      - Na položkách 159, 162, 164 a dalších jsou viditelné řetězy nebo medailony; jejich význam není určen.
-      - Na položkách 161 a 165 jsou světlé znaky připomínající kalich nebo medailon; jejich význam není určen.
-      - Na položce 161 je světlá páska na paži s tmavým křížovitým znakem; organizace ani funkce nejsou určeny.
-      - Položka 160 zachycuje shromáždění s prapory nebo korouhvemi.
-      - Položka 163 zachycuje účastníky po stranách schodiště a převážně volný střední průchod.
-      - Položky 164 a 165 zachycují navazující venkovní pohyb; na 164 je držen světlý předmět podobný knize nebo složce.
-      - Všechny položky 156 až 165 mají odlišné Git blob SHA a žádná nemá použitelné embedded datum.
-    unresolved_attributes:
-      - independent_confirmation_of_person_identity
-      - exact_event_date_and_location
-      - confirmation_of_Radvanice_location
-      - complete_program_route_and_sequence
-      - participant_identities_and_roles
-      - formal_guard_status_and_organization
-      - meaning_of_chains_medallions_crosses_and_chalice_like_emblems
-      - meaning_and_organization_of_armband
-      - content_and_function_of_held_item_on_164
-      - flag_and_banner_organizations_and_symbols
-      - photographers_and_original_provenance
-      - relationship_to_URB_U_0050
-    next_action: >-
-      Hledat dobové písemné prameny, program, kroniky, tisk, archiv sboru a fotografie
-      s popisky. Osoby ani organizace neurčovat pouze podle vzhledu nebo insignií.
-    reopen_triggers:
-      - obituary_or_funeral_notice_found
-      - funeral_program_or_church_record_found
-      - congregation_archive_found
-      - dated_press_report_found
-      - captioned_parallel_photo_found
-      - participant_or_organization_identification_provided
-      - photographer_or_original_caption_found
-    evidence:
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-32.yml
-      - sources/index.d/urbanek-ccs-32.yml
-      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-33.yml
-      - sources/index.d/urbanek-ccs-33.yml
+- id: URB-U-0071
+  status: open
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: Ferdinand_Stibor_funeral_identity_date_location_people_insignia_coffin_and_sequence
+  related_open_items:
+  - URB-U-0050
+  source_items:
+  - urbanek-ccs-156
+  - urbanek-ccs-157
+  - urbanek-ccs-158
+  - urbanek-ccs-159
+  - urbanek-ccs-160
+  - urbanek-ccs-161
+  - urbanek-ccs-162
+  - urbanek-ccs-163
+  - urbanek-ccs-164
+  - urbanek-ccs-165
+  - urbanek-ccs-166
+  - urbanek-ccs-167
+  - urbanek-ccs-168
+  - urbanek-ccs-169
+  - urbanek-ccs-170
+  question: Jak nezávisle ověřit osobu, datum, místo, účastníky, organizace, význam oděvních znaků, identitu nesené rakve a přesný sled události
+    zachycené na položkách 156 až 170?
+  known_facts:
+  - Archivní názvy připisují sérii Ferdinandu Stiborovi, říjnu 1956 a radvanickému Husovu sboru; jde o archivní atribuce.
+  - Položky 157 a 158 zachycují stejný interiér a pietní uspořádání z různých úhlů.
+  - Položky 159 až 163 zachycují stejný nebo velmi podobný vstup a schodiště.
+  - Položky 166 a 169 zachycují bohatě zdobenou uzavřenou rakev nesenou několika muži; jde o rozdílné záběry stejné nebo bezprostředně navazující
+    situace.
+  - Položky 167, 168 a 170 zachycují uliční části průvodu s osobami v dlouhých tmavých oděvech, řetězy, medailony nebo světlými znaky připomínajícími
+    kalich.
+  - Na položce 161 je světlá páska na paži s tmavým křížovitým znakem; organizace ani funkce nejsou určeny.
+  - Položka 160 zachycuje shromáždění s prapory nebo korouhvemi.
+  - Všechny položky 156 až 170 mají odlišné Git blob SHA a žádná nemá použitelné embedded datum.
+  unresolved_attributes:
+  - independent_confirmation_of_person_and_deceased_identity
+  - exact_event_date_and_location
+  - confirmation_of_Radvanice_location
+  - complete_program_route_and_sequence
+  - participant_identities_and_roles
+  - coffin_bearer_identities_and_roles
+  - formal_guard_status_and_organization
+  - meaning_of_chains_medallions_crosses_and_chalice_like_emblems
+  - meaning_and_organization_of_armband
+  - content_and_function_of_held_books_or_folders
+  - flag_banner_staff_and_pole_organizations_and_symbols
+  - photographers_and_original_provenance
+  - relationship_to_URB_U_0050
+  next_action: Hledat dobové písemné prameny, nekrolog, program, kroniky, tisk, archiv sboru a fotografie s popisky. Osoby, úřady ani organizace
+    neurčovat pouze podle vzhledu, oděvu nebo insignií.
+  reopen_triggers:
+  - obituary_or_funeral_notice_found
+  - funeral_program_or_church_record_found
+  - congregation_archive_found
+  - dated_press_report_found
+  - captioned_parallel_photo_found
+  - participant_or_organization_identification_provided
+  - photographer_or_original_caption_found
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-32.yml
+  - sources/index.d/urbanek-ccs-32.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-33.yml
+  - sources/index.d/urbanek-ccs-33.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-34.yml
+  - sources/index.d/urbanek-ccs-34.yml

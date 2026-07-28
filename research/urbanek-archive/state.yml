@@ -47,11 +47,11 @@ ccs_collection:
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 165
-    repo_verified_items: 165
-    visually_classified_items: 165
-    source_indexed_items: 165
-    remaining_items: 36
+    processed_items: 170
+    repo_verified_items: 170
+    visually_classified_items: 170
+    source_indexed_items: 170
+    remaining_items: 31
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -156,10 +156,13 @@ ccs_collection:
   - number: 33
     items: 161-165
     id: stibor-funeral-clergy-exit-steps-and-outdoor-procession
+  - number: 34
+    items: 166-170
+    id: stibor-funeral-coffin-bearing-street-clergy-and-procession-34
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-33.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-33.yml
-    source_index: sources/index.d/urbanek-ccs-33.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-34.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-34.yml
+    source_index: sources/index.d/urbanek-ccs-34.yml
   technical_files:
   - path: 10 Kalendář 2015/Thumbs.db
     audit_status: pending
@@ -183,12 +186,14 @@ uncertainties:
   - URB-U-0071
   batch_33_updated:
   - URB-U-0071
+  batch_34_updated:
+  - URB-U-0071
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 165
-    ccs_remaining_items: 36
+    ccs_processed_items: 170
+    ccs_remaining_items: 31
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
@@ -206,16 +211,17 @@ next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
   items:
-  - urbanek-ccs-166
-  - urbanek-ccs-167
-  - urbanek-ccs-168
-  - urbanek-ccs-169
-  - urbanek-ccs-170
+  - urbanek-ccs-171
+  - urbanek-ccs-172
+  - urbanek-ccs-173
+  - urbanek-ccs-174
+  - urbanek-ccs-175
   expected_source_files:
-  - 7/11.jpg
-  - 7/12.jpg
-  - 7/13.jpg
-  - 7/14.jpg
-  - 7/15.jpg
+  - 7/16.jpg
+  - 7/17.jpg
+  - 7/18.jpg
+  - 7/19.jpg
+  - 7/20.jpg
   batch_size_rule: 5_to_10_files
-  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, reuse URB-U-0071 where appropriate, and keep the PR draft and unmerged.
+  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, reuse URB-U-0071 where appropriate, and
+    keep the PR draft and unmerged.

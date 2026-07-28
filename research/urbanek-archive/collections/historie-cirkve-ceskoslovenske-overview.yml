@@ -34,6 +34,7 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-29.yml
 - sources/index.d/urbanek-ccs-30.yml
 - sources/index.d/urbanek-ccs-31.yml
+- sources/index.d/urbanek-ccs-32.yml
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 status: processing_in_progress
@@ -99,11 +100,11 @@ processing:
   visual_classification_status: in_progress
   ocr_status: in_progress_for_scene_text
   thumbnail_cache_audit_status: pending
-  processed_items: 155
-  repo_verified_items: 155
-  visually_classified_items: 155
-  source_indexed_items: 155
-  remaining_items: 46
+  processed_items: 160
+  repo_verified_items: 160
+  visually_classified_items: 160
+  source_indexed_items: 160
+  remaining_items: 41
   completed_batches:
   - number: 1
     items: 001-005
@@ -291,6 +292,12 @@ processing:
     inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-31.csv
     classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-31.yml
     source_index: sources/index.d/urbanek-ccs-31.yml
+  - number: 32
+    items: 156-160
+    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-32.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-32.yml
+    source_index: sources/index.d/urbanek-ccs-32.yml
   open_uncertainties_from_collection:
   - URB-U-0039
   - URB-U-0040
@@ -324,12 +331,13 @@ processing:
   - URB-U-0068
   - URB-U-0069
   - URB-U-0070
+  - URB-U-0071
   next_items:
-  - urbanek-ccs-156
-  - urbanek-ccs-157
-  - urbanek-ccs-158
-  - urbanek-ccs-159
-  - urbanek-ccs-160
+  - urbanek-ccs-161
+  - urbanek-ccs-162
+  - urbanek-ccs-163
+  - urbanek-ccs-164
+  - urbanek-ccs-165
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
@@ -341,3 +349,4 @@ rules:
 - Truncated captions are not completed by guesswork.
 - A readable caption or inscription verifies its wording, not automatically the asserted identity, office, event or date.
 - Directional filename labels such as left or right require an unambiguous referent before a person can be assigned.
+- Standing beside a coffin or wearing a uniform-like garment does not independently establish formal honor-guard status.

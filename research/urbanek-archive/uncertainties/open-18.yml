@@ -1,0 +1,74 @@
+schema_version: 1
+scope: ccs_batch_32_open_items
+items:
+- id: URB-U-0071
+  status: open
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: Ferdinand_Stibor_funeral_identity_date_Radvanice_honor_guard_clergy_flags_and_sequence
+  related_open_items:
+  - URB-U-0050
+  source_items:
+  - urbanek-ccs-156
+  - urbanek-ccs-157
+  - urbanek-ccs-158
+  - urbanek-ccs-159
+  - urbanek-ccs-160
+  question: Zachycují položky 156 až 160 skutečně Ferdinanda Stibora a jeho pohřeb v říjnu 1956, je portrét 156 jeho fotografií
+    z téhož roku, byla rakev vystavena v radvanickém Husově sboru, kdy a kde přesně obřad proběhl, kdo stojí u rakve a na
+    schodech, šlo o formální čestnou stráž, jaké úřady nebo funkce označují řetězy a medailony a kterým organizacím patří
+    zachycené prapory?
+  known_facts:
+  - Archivní název sedmé podsložky uvádí pohřeb biskupa Ferdinanda Stibora v říjnu 1956; jde o archivní atribuci.
+  - Urbanek-ccs-156 je venkovní portrét staršího muže v tmavém obleku; jméno Ferdinand Stibor a rok 1956 pocházejí z názvu
+    souboru.
+  - Urbanek-ccs-157 a 158 zachycují stejný pohřební interiér s otevřenou rakví, viditelným tělem, složenýma rukama, vysokými
+    svícemi a květinami.
+  - Název urbanek-ccs-157 lokalizuje interiér do radvanického Husova sboru, ale na fotografii není čitelná jednoznačná místní
+    identifikace.
+  - Na urbanek-ccs-157 jsou na krajních panelech spolehlivě čitelné fragmenty „Bude“ a „Boží“; prostřední text není bezpečně
+    čitelný.
+  - Název urbanek-ccs-158 tvrdí, že se u rakve střídala čestná stráž. Fotografie dokládá několik stojících mužů, nikoli sama
+    o sobě jejich formální status nebo střídání.
+  - Urbanek-ccs-159 zachycuje větší skupinu osob v dlouhých tmavých oděvech před vstupem; nejméně čtyři mají výrazné řetězy
+    nebo medailony.
+  - Urbanek-ccs-160 zachycuje početné shromáždění s několika prapory nebo korouhvemi před vstupem.
+  - Položky 157 a 158 jsou rozdílné záběry stejného interiéru; položky 159 a 160 jsou rozdílné venkovní snímky navazující
+    sekvence.
+  - Žádný z pěti souborů neobsahuje použitelné embedded datum.
+  unresolved_attributes:
+  - independent_confirmation_of_Ferdinand_Stibor_identity_on_portrait_and_coffin
+  - relationship_of_portrait_156_to_funeral_sequence
+  - exact_death_and_funeral_dates
+  - independent_confirmation_of_October_1956
+  - confirmation_of_Radvanice_Hus_congregation_location
+  - exact_building_and_room
+  - complete_funeral_program_and_sequence
+  - identities_and_roles_of_people_at_coffin
+  - whether_formal_honor_guard_and_whether_it_rotated
+  - organizations_of_uniformed_or_capped_attendants
+  - identities_and_offices_of_chain_or_medallion_bearers
+  - meaning_of_chains_medallions_and_crosses
+  - identities_of_civilian_participants
+  - flag_banner_and_finial_organizations_and_symbols
+  - reliable_transcription_of_wreath_ribbons_and_banners
+  - photographers_and_original_provenance
+  - relationship_to_Ferdinand_Stibor_visit_images_in_URB_U_0050
+  next_action: Hledat nekrolog, smuteční oznámení, úmrtní a pohřební záznam, program obřadu, církevní kroniky, zápisy rady
+    starších, dobový tisk, archiv radvanického Husova sboru a fotografie se jmennými popisky. Porovnat architekturu, plastiky,
+    nápisové panely a symbol na závěsu s dokumentací radvanického sboru. Osoby, úřady, čestnou stráž a prapory neurčovat pouze
+    podle obličeje, oděvu, postoje nebo insignie.
+  reopen_triggers:
+  - obituary_or_funeral_notice_found
+  - funeral_program_or_church_record_found
+  - Radvanice_congregation_archive_found
+  - dated_press_report_found
+  - captioned_parallel_photo_found
+  - honor_guard_roster_or_organization_record_found
+  - clergy_and_dignitary_identification_provided
+  - flag_or_banner_identification_found
+  - wreath_ribbon_text_resolved
+  - photographer_or_original_album_caption_found
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-32.yml
+  - sources/index.d/urbanek-ccs-32.yml

@@ -41,61 +41,61 @@ Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
 - celkem 201 položek;
 - stav: `processing_in_progress`.
 
-Dokončeno je třicet jedna dávek po pěti snímcích, tedy `urbanek-ccs-001` až `155`.
+Dokončeno je třicet dva dávek po pěti snímcích, tedy `urbanek-ccs-001` až `160`.
 
-- zpracováno: **155 z 201 položek**;
-- proti Git blob SHA ověřeno: **155 položek**;
-- vizuálně klasifikováno: **155 položek**;
-- zdrojově indexováno: **155 položek**;
-- zbývá: **46 položek**.
+- zpracováno: **160 z 201 položek**;
+- proti Git blob SHA ověřeno: **160 položek**;
+- vizuálně klasifikováno: **160 položek**;
+- zdrojově indexováno: **160 položek**;
+- zbývá: **41 položek**.
 
-### Zjištění dávky 31
+### Zjištění dávky 32
 
-Dávka 31 uzavírá podsložku `6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)`.
+Dávka 32 otevírá podsložku `7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956`.
 
-- `urbanek-ccs-151` pokračuje venkovní sérií před vstupem Husovy československé bohoslovecké fakulty v Praze; zachycuje civilní, uniformované a osoby v dlouhých tmavých oděvech.
-- `urbanek-ccs-152` zachycuje ženu v tmavém oděvu mezi dvěma muži, kteří ji drží nebo podpírají za paže. Identity, vzájemné vztahy a důvod podpory nejsou obrazem určeny.
-- `urbanek-ccs-153` zachycuje oltář s krucifixem, svícemi, květinami a rámovaným portrétem s černou stuhou. Lokalizace před oltář v Rychvaldě pochází z archivního názvu.
-- `urbanek-ccs-154` je bližší záběr stejného pietního uspořádání. Identifikace portrétu jako Karla Vodičky pochází z archivního názvu, nikoli z rozpoznání obličeje.
-- `urbanek-ccs-155` je přesný binární duplikát položky `059` pod jinou archivní cestou. Deska uvádí jména Karel Vodička a Libuše Vodičková, jejich životní data a role Karla Vodičky; nápis dokládá své znění, nikoli automaticky historickou správnost.
-- Fotografická metadata položky `155` uvádějí `2010-10-14 17:45:12`; jde o datum pořízení digitální fotografie, ne instalace desky.
-- Archivní názvy položek `059` a `155` neuvádějí, co je za deskou umístěno nebo uloženo. Obsah nelze doplnit odhadem.
-- Dávka nepřidala nové ID a rozšířila `URB-U-0067`.
+- `urbanek-ccs-156` je venkovní portrét staršího muže. Jméno Ferdinand Stibor a rok 1956 pocházejí pouze z archivního názvu.
+- `urbanek-ccs-157` a `158` zachycují stejný pohřební interiér s otevřenou rakví, viditelným tělem, vysokými svícemi, květinami a stojícími účastníky. Lokalizace do radvanického Husova sboru pochází z názvu `157`.
+- Název `158` uvádí střídání čestné stráže. Fotografie potvrzuje stojící osoby u rakve, nikoli sama o sobě jejich formální status nebo střídání.
+- `urbanek-ccs-159` zachycuje větší počet osob v dlouhých tmavých oděvech na schodech; nejméně čtyři mají výrazné řetězy nebo medailony.
+- `urbanek-ccs-160` zachycuje početné venkovní shromáždění s prapory nebo korouhvemi.
+- Žádný z pěti souborů neobsahuje použitelné embedded datum.
+- Dávka vytvořila nové otevřené ID `URB-U-0071`.
 
-Pracovní soubory dávky 31:
+Pracovní soubory dávky 32:
 
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-31.csv`;
-- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-31.yml`;
-- `sources/index.d/urbanek-ccs-31.yml`;
-- rozšířený `research/urbanek-archive/uncertainties/open-15.yml`.
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-32.csv`;
+- `research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-32.yml`;
+- `sources/index.d/urbanek-ccs-32.yml`;
+- nové `research/urbanek-archive/uncertainties/open-18.yml`;
+- aktualizovaný `research/urbanek-archive/uncertainties/index.yml`.
 
 ## Registr nejistot
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 36;
+- `open`: 37;
 - `deferred`: 0;
 - `resolved`: 31;
 - `not_actionable`: 3;
-- celkem: 70.
+- celkem: 71.
 
-`URB-U-0067` nyní zahrnuje celou pohřební podsložku, dvojici pietních záběrů před oltářem, archivní identifikaci portrétu, přesný duplikát pamětní desky a stále neúplné tvrzení o obsahu za deskou.
+`URB-U-0071` odděleně sleduje identitu Ferdinanda Stibora na portrétu a v rakvi, datum a místo pohřbu, lokalizaci do radvanického Husova sboru, osoby stojící u rakve, tvrzení o čestné stráži, řetězy a medailony, prapory a sled obřadu.
 
-Přesná binární duplicita je samostatná archivní položka, nikoli další nezávislý obrazový důkaz. Čitelné jméno nebo role na desce potvrzuje znění nápisu; správnost vyžaduje nezávislý pramen.
+Archivní názvy jsou atribuce, nikoli nezávislé potvrzení. Postoj u rakve, uniformní prvek, dlouhý oděv, řetěz nebo medailon samy neurčují identitu, úřad ani formální status čestné stráže.
 
 ## Kontrola konzistence draftu
 
 - pilot a nová kolekce jsou odděleny;
 - `STATUS.md`, `state.yml`, kolekční přehled a PR používají rozsah 200 + 1 = 201;
-- průběžný stav je 155 zpracovaných a 46 zbývajících položek;
-- registr používá součty 36/31/3/70;
+- průběžný stav je 160 zpracovaných a 41 zbývajících položek;
+- registr používá součty 37/31/3/71;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Pilot: `completed`.
 - Nová kolekce: `ccs_history_batch_processing_in_progress`.
-- Následující položky: `urbanek-ccs-156` až `urbanek-ccs-160`.
-- Očekávané názvy v podsložce `7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956`: `1   Ferdinand Stibor ještě v r. 1956.jpg`, `2  V radvanickém Husově sboru.jpg`, `3  U rakve se střídala čestná stráž.jpg`, `4.jpg` a `5.jpg`.
+- Následující položky: `urbanek-ccs-161` až `urbanek-ccs-165`.
+- Očekávané názvy v téže podsložce: `6.jpg`, `7.jpg`, `8.jpg`, `9.jpg` a `10.jpg`.
 - `Thumbs.db` v podsložce `10 Kalendář 2015` musí být před uzavřením kolekce samostatně auditován.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení.

@@ -47,11 +47,11 @@ ccs_collection:
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 155
-    repo_verified_items: 155
-    visually_classified_items: 155
-    source_indexed_items: 155
-    remaining_items: 46
+    processed_items: 160
+    repo_verified_items: 160
+    visually_classified_items: 160
+    source_indexed_items: 160
+    remaining_items: 41
     inventory_status: in_progress
     visual_classification_status: in_progress
     ocr_status: in_progress_for_scene_text
@@ -150,23 +150,26 @@ ccs_collection:
   - number: 31
     items: 151-155
     id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque
+  - number: 32
+    items: 156-160
+    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-31.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-31.yml
-    source_index: sources/index.d/urbanek-ccs-31.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-32.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-32.yml
+    source_index: sources/index.d/urbanek-ccs-32.yml
   technical_files:
   - path: 10 Kalendář 2015/Thumbs.db
     audit_status: pending
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary:
-    open: 36
+    open: 37
     in_progress: 0
     deferred: 0
     resolved: 31
     not_actionable: 3
-    total: 70
-  ccs_range: URB-U-0039..URB-U-0070
+    total: 71
+  ccs_range: URB-U-0039..URB-U-0071
   batch_26_updated:
   - URB-U-0068
   - URB-U-0070
@@ -178,6 +181,7 @@ uncertainties:
   - Chains or insignia do not independently establish a specific office.
   - A visible gesture or document does not independently identify the exact ritual or legal act.
   - A directional caption such as left must have an unambiguous referent before assigning a person.
+  - Standing beside a coffin or wearing a uniform-like garment does not independently establish formal honor-guard status.
   batch_27_updated:
   - URB-U-0070
   batch_28_updated:
@@ -190,12 +194,14 @@ uncertainties:
   - URB-U-0067
   batch_31_updated:
   - URB-U-0067
+  batch_32_updated:
+  - URB-U-0071
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 155
-    ccs_remaining_items: 46
+    ccs_processed_items: 160
+    ccs_remaining_items: 41
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
@@ -208,24 +214,24 @@ readiness:
   - ccs_history_thumbnail_cache_not_audited
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
-  - thirty_six historical, personal, archival and technical questions remain open
+  - thirty_seven historical, personal, archival and technical questions remain open
 next_action:
   type: process_next_archive_batch
   collection: urbanek-ccs-history
   items:
-  - urbanek-ccs-156
-  - urbanek-ccs-157
-  - urbanek-ccs-158
-  - urbanek-ccs-159
-  - urbanek-ccs-160
+  - urbanek-ccs-161
+  - urbanek-ccs-162
+  - urbanek-ccs-163
+  - urbanek-ccs-164
+  - urbanek-ccs-165
   expected_source_files:
-  - 7/1   Ferdinand Stibor ještě v r. 1956.jpg
-  - 7/2  V radvanickém Husovę sboru.jpg
-  - 7/3  U rakve se střídala čestná stráž.jpg
-  - 7/4.jpg
-  - 7/5.jpg
+  - 7/6.jpg
+  - 7/7.jpg
+  - 7/8.jpg
+  - 7/9.jpg
+  - 7/10.jpg
   batch_size_rule: 5_to_10_files
   instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, separate document
-    and scene text, index each item, treat folder and filename statements as archival claims, do not identify Ferdinand Stibor
-    or honor-guard participants solely from appearance, reuse stable uncertainty IDs where appropriate, and keep the PR draft
-    and unmerged.
+    and scene text, index each item, treat folder and filename statements as archival claims, do not identify Ferdinand Stibor,
+    clergy, guards or flag organizations solely from appearance, reuse stable uncertainty IDs where appropriate, and keep
+    the PR draft and unmerged.

@@ -1,5 +1,5 @@
 schema_version: 1
-scope: ccs_batches_38_39_open_items
+scope: ccs_batches_38_40_open_items
 items:
 - id: URB-U-0073
   status: open
@@ -11,13 +11,18 @@ items:
   - URB-U-0040
   - URB-U-0041
   - URB-U-0042
+  - URB-U-0043
+  - URB-U-0044
+  - URB-U-0046
   - URB-U-0048
+  - URB-U-0053
   - URB-U-0055
   - URB-U-0056
   - URB-U-0058
   - URB-U-0059
   - URB-U-0060
   - URB-U-0061
+  - URB-U-0062
   - URB-U-0064
   - URB-U-0065
   - URB-U-0067
@@ -33,43 +38,52 @@ items:
   - urbanek-ccs-193
   - urbanek-ccs-194
   - urbanek-ccs-195
-  question: Kdo vytvořil, sestavil a vydal kalendář 2015, z jakých pramenů vychází jeho historický souhrn a popisky, jaké
-    jsou přesné zdroje a úpravy vložených fotografií a která historická tvrzení lze potvrdit primárními nebo nezávislými prameny?
+  - urbanek-ccs-196
+  - urbanek-ccs-197
+  - urbanek-ccs-198
+  - urbanek-ccs-199
+  - urbanek-ccs-200
+  question: >-
+    Kdo vytvořil, sestavil, graficky zpracoval, vydal a vytiskl kalendář 2015, z
+    jakých pramenů vychází historický souhrn a popisky, jaké jsou přesné zdroje a
+    úpravy vložených fotografií a která historická tvrzení lze potvrdit primárními
+    nebo nezávislými prameny?
   known_facts:
-  - Položky 186 až 195 tvoří titulní stranu, historický souhrn 1920–2015 a měsíční strany leden až srpen kalendáře 2015.
-  - Všech deset souborů má rozměr 2385 × 3354 pixelů, barevný režim CMYK a navzájem odlišné Git blob SHA.
-  - EXIF Artist a XPAuthor ve všech deseti souborech obsahují řetězec Marta; použitelné embedded datum chybí.
-  - Řetězec Marta je metadatový údaj, nikoli nezávislé potvrzení úplné identity, autorství, grafické úpravy nebo vydavatelské
-    odpovědnosti.
-  - Položka 187 obsahuje souvislý historický přehled s řadou konkrétních dat, jmen, počtů, stavebních, okupačních, uměleckých
-    a personálních tvrzení.
-  - Položky 188 až 195 převážně znovu používají podkladové fotografie už evidované v položkách 001, 003, 006–009, 011–015,
-    023, 032, 036–043, 048, 050, 053 a 054.
-  - Položka 191 navíc obsahuje fotografii návštěvníků ve zvonové stolici, kterou se mezi dosud zpracovanými samostatnými položkami
-    nepodařilo bezpečně přiřadit.
-  - Kalendářové popisky přidávají sekundární datace a tvrzení o zvonech, sborech, prvním přijímání, husovské tradici, svatbě,
-    křtu a přijímání; nejde o nezávislé ověření.
+  - Položky 186 až 200 tvoří úplnou dochovanou obrazovou sadu kalendáře 2015: titulní stranu, historický souhrn, dvanáct měsíců a závěrečnou stranu.
+  - Všech patnáct souborů má rozměr 2385 × 3354 pixelů, barevný režim CMYK a navzájem odlišné Git blob SHA.
+  - EXIF Artist a XPAuthor uvádějí u třinácti stran řetězec Marta, u položky 196 Corel Corporation a u položky 199 Pavla; žádná strana nemá použitelné embedded datum.
+  - Metadatové řetězce nejsou nezávislým potvrzením úplné identity, autorství, grafické úpravy nebo vydavatelské odpovědnosti.
+  - Položka 187 obsahuje souvislý historický přehled s konkrétními daty, jmény, počty a stavebními, okupačními, uměleckými a personálními tvrzeními.
+  - Měsíční strany převážně znovu používají podkladové fotografie už evidované v položkách 001, 003, 006–009, 011–018, 023, 030, 032, 036–043, 048, 050, 053, 054, 057, 058 a 060–063.
+  - Položky 191, 197 a 198 obsahují jednotlivé vložené fotografie, které nebyly mezi samostatnými položkami bezpečně přiřazeny.
+  - Závěrečná položka 200 děkuje Jaromíru Urbánkovi a dalším spolupracovníkům.
+  - Na položce 200 je podpis čitelný jako Jana Šilerová a produkční údaj „zpracováno: fa. Grafik Aja“.
+  - Podpis a produkční údaj představují částečnou atribuci, nikoli úplnou tiráž nebo jednoznačné rozdělení autorských, edičních, grafických, vydavatelských a tiskových rolí.
   - Kalendářové reprodukce a popisky jsou sekundární kompilací a nepředstavují další nezávislé potvrzení zachycených událostí.
   unresolved_attributes:
-  - full_identity_and_role_of_Marta
-  - calendar_author_editor_designer_publisher_and_print_run
-  - publication_date_distribution_and_original_file_provenance
-  - source_bibliography_for_historical_summary
+  - exact_role_of_Jana_Silerova_in_authorship_editing_and_approval
+  - legal_identity_and_exact_role_of_Grafik_Aja
+  - full_identity_and_role_of_Marta_and_Pavla_metadata_strings
+  - calendar_publisher_printer_print_run_distribution_and_original_file_provenance
+  - source_bibliography_for_historical_summary_and_monthly_captions
   - independent_verification_of_all_dates_names_counts_roles_and_events
   - complete_exact_transcription_of_all_calendar_text
-  - source_and_authorship_of_modern_exterior_and_tower_visit_photographs
-  - identity_date_and_meaning_of_inset_stone
+  - source_and_authorship_of_unmapped_embedded_photographs
+  - identity_date_and_meaning_of_cover_inset_stone
   - exact_mapping_source_scan_and_editing_history_of_every_reused_photo
-  - caption_authorship_and_fact_checking
   - copyright_and_usage_rights_for_design_text_and_each_embedded_photo
   - relationship_to_existing_open_items_and_primary_sources
-  next_action: Hledat původní tiskový nebo elektronický kalendář, tiráž, pracovní soubory, autora či grafika označeného jako
-    Marta, objednavatele, vydavatele, bibliografii a zdrojové fotografie. Historická tvrzení porovnat s kronikou, stavebními
-    a církevními prameny a již otevřenými nejistotami. Kalendářové popisky nepovažovat samy o sobě za nezávislé potvrzení.
+  next_action: >-
+    Hledat původní tiskový nebo elektronický kalendář, plnou tiráž, pracovní soubory,
+    právní identitu firmy Grafik Aja, potvrzení role Jany Šilerové, objednavatele,
+    vydavatele, tiskárnu, bibliografii a zdrojové fotografie. Historická tvrzení
+    porovnat s kronikou, stavebními a církevními prameny. Kalendářové popisky
+    nepovažovat samy o sobě za nezávislé potvrzení.
   reopen_triggers:
   - calendar_colophon_or_original_project_file_found
-  - Marta_full_identity_or_authorship_confirmation_found
-  - publisher_or_print_order_found
+  - Jana_Silerova_authorship_or_editorial_role_confirmed
+  - Grafik_Aja_legal_identity_or_contract_found
+  - publisher_printer_or_print_order_found
   - source_bibliography_or_chronicle_reference_found
   - original_uncropped_photograph_or_edit_history_found
   - independent_historical_source_found
@@ -80,3 +94,5 @@ items:
   - sources/index.d/urbanek-ccs-38.yml
   - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-39.yml
   - sources/index.d/urbanek-ccs-39.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-40.yml
+  - sources/index.d/urbanek-ccs-40.yml

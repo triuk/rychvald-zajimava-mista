@@ -4,7 +4,7 @@ collection_name: Historie Církve československé v Rychvaldě ve fotografiích
 source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
-status: processing_in_progress
+status: content_complete_technical_audit_pending
 scope:
   subfolders: 10
   content_files: 200
@@ -16,7 +16,7 @@ repository:
   original_files_staged: true
   original_paths_preserved: true
   original_filenames_preserved: true
-  full_blob_verification: in_progress
+  full_blob_verification: content_complete_technical_pending
 subfolders:
 - order: 1
   name: 1 Od položení základního kamene. Histotie rychvaldského kostela
@@ -102,6 +102,7 @@ source_index_shards:
 - sources/index.d/urbanek-ccs-37.yml
 - sources/index.d/urbanek-ccs-38.yml
 - sources/index.d/urbanek-ccs-39.yml
+- sources/index.d/urbanek-ccs-40.yml
 batch_file_patterns:
   inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-{NN}.csv
   classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-{NN}.yml
@@ -109,15 +110,15 @@ batch_file_patterns:
   exceptions:
     batch_01_source_index: sources/index.d/urbanek-ccs.yml
 processing:
-  inventory_status: in_progress
-  visual_classification_status: in_progress
-  ocr_status: in_progress_for_scene_text
+  inventory_status: content_complete_technical_pending
+  visual_classification_status: completed_first_pass_for_content_files
+  ocr_status: completed_first_pass_for_content_files
   thumbnail_cache_audit_status: pending
-  processed_items: 195
-  repo_verified_items: 195
-  visually_classified_items: 195
-  source_indexed_items: 195
-  remaining_items: 6
+  processed_items: 200
+  repo_verified_items: 200
+  visually_classified_items: 200
+  source_indexed_items: 200
+  remaining_items: 1
   completed_batches:
   - number: 1
     items: 001-005
@@ -236,6 +237,9 @@ processing:
   - number: 39
     items: 191-195
     id: calendar-2015-april-may-june-july-august-39
+  - number: 40
+    items: 196-200
+    id: calendar-2015-september-october-november-december-and-closing-40
   open_uncertainties_from_collection:
   - URB-U-0039
   - URB-U-0040
@@ -272,12 +276,8 @@ processing:
   - URB-U-0071
   - URB-U-0072
   - URB-U-0073
-  next_items:
-  - urbanek-ccs-196
-  - urbanek-ccs-197
-  - urbanek-ccs-198
-  - urbanek-ccs-199
-  - urbanek-ccs-200
+  next_items: []
+  next_technical_file: 10 Kalendář 2015/Thumbs.db
 rules:
 - Filenames and folder names are archival metadata, not independent historical proof.
 - Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.

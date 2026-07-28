@@ -39,7 +39,7 @@ pilot:
 ccs_collection:
   id: urbanek-ccs-history
   name: Historie Církve československé v Rychvaldě ve fotografiích
-  status: processing_in_progress
+  status: content_complete_technical_audit_pending
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
   totals:
     subfolders: 10
@@ -47,14 +47,14 @@ ccs_collection:
     technical_files: 1
     total_items: 201
   progress:
-    processed_items: 195
-    repo_verified_items: 195
-    visually_classified_items: 195
-    source_indexed_items: 195
-    remaining_items: 6
-    inventory_status: in_progress
-    visual_classification_status: in_progress
-    ocr_status: in_progress_for_scene_text
+    processed_items: 200
+    repo_verified_items: 200
+    visually_classified_items: 200
+    source_indexed_items: 200
+    remaining_items: 1
+    inventory_status: content_complete_technical_pending
+    visual_classification_status: completed_first_pass_for_content_files
+    ocr_status: completed_first_pass_for_content_files
     thumbnail_cache_audit_status: pending
   completed_batches:
   - number: 1
@@ -174,10 +174,13 @@ ccs_collection:
   - number: 39
     items: 191-195
     id: calendar-2015-april-may-june-july-august-39
+  - number: 40
+    items: 196-200
+    id: calendar-2015-september-october-november-december-and-closing-40
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-39.csv
-    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-39.yml
-    source_index: sources/index.d/urbanek-ccs-39.yml
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-40.csv
+    classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-40.yml
+    source_index: sources/index.d/urbanek-ccs-40.yml
   technical_files:
   - path: 10 Kalendář 2015/Thumbs.db
     audit_status: pending
@@ -219,19 +222,20 @@ uncertainties:
   - URB-U-0073
   batch_39_updated:
   - URB-U-0073
+  batch_40_updated:
+  - URB-U-0073
 consistency_review:
   status: completed_with_corrections
   verified_equal_totals:
     ccs_total_items: 201
-    ccs_processed_items: 195
-    ccs_remaining_items: 6
+    ccs_processed_items: 200
+    ccs_remaining_items: 1
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
 readiness:
-  status: draft_pr_open_pilot_complete_next_batch_in_progress
+  status: draft_pr_open_content_complete_thumbnail_cache_audit_pending
   blockers_for_merge:
-  - next_archive_batch_processing_incomplete
   - ccs_history_full_inventory_and_blob_verification_incomplete
   - ccs_history_ocr_review_incomplete
   - ccs_history_thumbnail_cache_not_audited
@@ -239,20 +243,8 @@ readiness:
   - eleven pilot full original images are missing; only thumbnails remain in caches
   - thirty_nine historical personal archival and technical questions remain open
 next_action:
-  type: process_next_archive_batch
+  type: audit_thumbnail_cache
   collection: urbanek-ccs-history
-  items:
-  - urbanek-ccs-196
-  - urbanek-ccs-197
-  - urbanek-ccs-198
-  - urbanek-ccs-199
-  - urbanek-ccs-200
-  expected_source_files:
-  - 10/11.jpg
-  - 10/12.jpg
-  - 10/13.jpg
-  - 10/14.jpg
-  - 10/15.jpg
-  batch_size_rule: 5_to_10_files
-  instruction: Verify source paths and Git blob SHA, classify visually, preserve rights and attribution, reuse or extend existing
-    uncertainties where appropriate, and keep the PR draft and unmerged.
+  technical_file: 10 Kalendář 2015/Thumbs.db
+  expected_repo_path: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář 2015/Thumbs.db
+  instruction: Audit the Windows thumbnail cache, compare embedded thumbnails with the fifteen calendar JPEGs, identify only concretely evidenced missing originals, preserve the technical file, and keep the PR draft and unmerged.

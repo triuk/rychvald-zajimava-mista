@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - tmp/ocr-transfer-20260801
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:

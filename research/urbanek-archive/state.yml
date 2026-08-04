@@ -1,4 +1,4 @@
-schema_version: 3
+schema_version: 4
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
@@ -12,6 +12,7 @@ source:
   authoritative_storage: git_repository
 authoritative_files:
   rules: AGENTS.md
+  workflow: research/urbanek-archive/WORKFLOW.md
   human_status: research/urbanek-archive/STATUS.md
   machine_state: research/urbanek-archive/state.yml
   uncertainty_registry: research/urbanek-archive/uncertainties/index.yml
@@ -28,8 +29,28 @@ pull_request:
   base: main
   head: agent/import-urbanek-pilot
   merge_requested: false
+archive_scope:
+  full_source_root_inventory_status: not_yet_completed
+  known_processed_collections: 6
+  known_processed_items: 360
+  total_collections: unknown_until_full_source_root_inventory
+  total_items: unknown_until_full_source_root_inventory
+  interpretation: The completed pilot and CČS collection are processed subsets, not proof that the whole archive is indexed.
+workflow:
+  current_phase: full_archive_indexing
+  phase_order:
+  - full_archive_indexing
+  - final_uncertainty_review
+  dedicated_uncertainty_resolution: deferred_until_full_archive_index_complete
+  during_indexing:
+  - preserve_or_create_stable_uncertainty_ids
+  - record_source_item_links_question_priority_and_evidence
+  - do_not_run_dedicated_resolution_research
+  - allow_only_narrow_verification_required_for_correct_inventory_or_provenance
+  final_review_trigger: full_source_root_inventory_and_index_completed
 pilot:
   status: completed
+  scope_interpretation: processed_pilot_subset_not_whole_archive
   totals:
     collections: 5
     content_files: 144
@@ -205,6 +226,8 @@ uncertainties:
     resolved: 32
     not_actionable: 3
     total: 74
+  workflow_resolution_status: deferred_until_full_archive_index_complete
+  note: Workflow deferral does not change individual open items to deferred.
   ccs_range: URB-U-0039..URB-U-0074
   handling_rules:
   - Archival names and folder labels are attribution metadata, not independent historical proof.
@@ -220,32 +243,33 @@ uncertainties:
     the calendar content, not the underlying historical claims.'
   - A concordant local secondary account may resolve a narrowly attributed working statement, but does not replace a primary
     inventory or technical examination.
-  batch_32_updated:
-  - URB-U-0071
-  batch_33_updated:
-  - URB-U-0071
-  batch_34_updated:
-  - URB-U-0071
-  batch_35_updated:
-  - URB-U-0071
-  batch_36_updated:
-  - URB-U-0068
-  batch_37_added:
-  - URB-U-0072
-  batch_38_added:
-  - URB-U-0073
-  batch_39_updated:
-  - URB-U-0073
-  batch_40_updated:
-  - URB-U-0073
-  thumbnail_cache_audit_updated:
-  - URB-U-0073
-  review_01_resolved:
-  - URB-U-0074
-  review_01_updated:
-  - URB-U-0041
+  history:
+    batch_32_updated:
+    - URB-U-0071
+    batch_33_updated:
+    - URB-U-0071
+    batch_34_updated:
+    - URB-U-0071
+    batch_35_updated:
+    - URB-U-0071
+    batch_36_updated:
+    - URB-U-0068
+    batch_37_added:
+    - URB-U-0072
+    batch_38_added:
+    - URB-U-0073
+    batch_39_updated:
+    - URB-U-0073
+    batch_40_updated:
+    - URB-U-0073
+    thumbnail_cache_audit_updated:
+    - URB-U-0073
+    review_01_resolved:
+    - URB-U-0074
+    review_01_updated:
+    - URB-U-0041
 consistency_review:
-  status: completed_with_corrections_and_uncertainty_review_in_progress
+  status: completed_with_corrections_workflow_switched_to_full_archive_indexing
   verified_equal_totals:
     ccs_total_items: 201
     ccs_processed_items: 201
@@ -254,8 +278,9 @@ consistency_review:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
 readiness:
-  status: draft_pr_open_collection_processing_complete_uncertainty_review_in_progress
+  status: draft_pr_open_full_archive_indexing_in_progress
   blockers_for_merge:
+  - full_archive_inventory_and_index_not_yet_complete
   - user_review_and_explicit_merge_decision_pending
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
@@ -263,12 +288,15 @@ readiness:
   - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
   - bell maker, complete inscriptions, exact dating and mechanism history remain open after narrow resolution URB-U-0074
 next_action:
-  type: continue_prioritized_open_uncertainty_review
+  type: inventory_full_source_root_and_continue_indexing
   processing_status: in_progress
-  remaining_archive_items: 0
-  priority_items:
-  - URB-U-0036
-  - URB-U-0038
-  - remaining_high_priority_CCS_items
-  instruction: Continue source-led review of the thirty-nine open uncertainties. Resolve only narrowly supported attributes,
-    preserve source attribution, and keep the PR draft and unmerged until an explicit merge decision.
+  remaining_archive_items: unknown_until_full_source_root_inventory
+  steps:
+  - enumerate_all_top_level_collections_under_source_root
+  - match_collections_against_existing_inventories_and_source_indexes
+  - record_completed_partially_processed_and_unprocessed_collection_status
+  - select_next_unindexed_collection_in_stable_source_order
+  - index_in_batches_while_only_recording_uncertainties
+  after_full_indexing: prioritize_and_review_all_open_uncertainties
+  instruction: Continue indexing the archive. Preserve and register uncertainties, but defer dedicated resolution work until
+    the entire source root is inventoried and indexed.

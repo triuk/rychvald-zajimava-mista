@@ -1,10 +1,25 @@
-schema_version: 2
+schema_version: 3
 summary:
   open: 39
   deferred: 0
   resolved: 32
   not_actionable: 3
   total: 74
+workflow_policy:
+  current_phase: full_archive_indexing
+  dedicated_resolution_research: deferred_until_full_archive_index_complete
+  status_semantics: Workflow deferral does not move open items to the deferred count.
+  during_indexing:
+  - create_or_preserve_stable_uncertainty_id
+  - record_source_items_question_evidence_and_priority
+  - do_not_close_items_by_guesswork_or_incidental_search
+  - perform_only_narrow_verification_required_for_correct_inventory_or_provenance
+  final_review_trigger: full_source_root_inventory_and_index_completed
+  final_review_actions:
+  - validate_all_source_links
+  - deduplicate_only_identical_questions_without_losing_history
+  - reprioritize_by_project_impact_and_source_availability
+  - resolve_attributes_narrowly_and_keep_remaining_attributes_open
 open_files:
 - open-01.yml
 - open-03.yml

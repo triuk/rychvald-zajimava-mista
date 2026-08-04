@@ -85,10 +85,24 @@ Uzavření `URB-U-0074` je úmyslně úzké. Dva shodné místní sekundární z
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
+## Pracovní pořadí
+
+Projekt je nově rozdělen do dvou navazujících fází:
+
+1. **Úplná inventarizace a indexace archivu.** Nejprve se projde celý zdrojový kořen `sources/osobni-archiv-jaromira-urbanka/`, určí se všechny dosud nezpracované kolekce a jejich položky se inventarizují, Git-ověří, základně klasifikují a zdrojově indexují.
+2. **Závěrečná revize nejistot.** Teprve po dokončení úplného indexu se všechna otevřená ID znovu seřadí podle významu a dostupnosti pramenů a začne jejich systematické řešení.
+
+Během indexace se nejistoty neztrácejí: každá materiální nejasnost dostane nebo zachová stabilní ID, vazbu na zdrojové položky, stručný popis a případnou prioritu. Samostatná rešerše a uzavírání se odkládají do druhé fáze.
+
+Výjimkou jsou pouze situace, kdy je dílčí ověření nutné pro správnou inventarizaci nebo ochranu provenience, například rozlišení technického souboru, přesného binárního duplikátu, skutečně chybějícího originálu nebo správného přiřazení položky ke kolekci.
+
 ## Aktuální krok
 
-- Pilot: `completed`.
+- Pilot: `completed`, ale nepředstavuje celý archiv.
 - Kolekce historie CČS: `completed`.
-- Revize otevřených nejistot: `in_progress`.
-- Další prioritní položky: `URB-U-0036` (Kakalův mlýn), `URB-U-0038` (mlýnek za domem č. 339) a zbývající vysoké priority kolekce CČS.
+- Známý dokončený rozsah: **6 kolekcí a 360 položek**.
+- Úplný rozsah zdrojového kořene dosud není autoritativně zinventarizován.
+- Aktivní fáze: `full_archive_indexing`.
+- Revize otevřených nejistot: `deferred_until_full_archive_index_complete`.
+- Následuje úplný soupis zdrojového kořene a výběr další dosud neindexované kolekce.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

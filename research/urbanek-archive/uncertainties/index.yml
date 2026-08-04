@@ -1,10 +1,10 @@
 schema_version: 3
 summary:
-  open: 40
+  open: 41
   deferred: 0
   resolved: 32
   not_actionable: 3
-  total: 75
+  total: 76
 workflow_policy:
   current_phase: full_archive_indexing
   dedicated_resolution_research: deferred_until_full_archive_index_complete
@@ -41,6 +41,7 @@ open_files:
 - open-19.yml
 - open-20.yml
 - open-21.yml
+- open-22.yml
 closed_files:
 - closed-01a.yml
 - closed-01b.yml
@@ -116,3 +117,6 @@ rules:
   inventory, technical examination or independent documentary proof for wider attributes.
 - A photographed manuscript page verifies its visible wording and physical appearance only; exact volume, authorship, page
   numbering, completeness and historical claims require separate source-level corroboration.
+- A folder name suggesting use in a book and a filename suggesting a title page are archival metadata only; without visible
+  page structure, bibliographic text or a publication manifest they do not establish whether an image is an original photograph,
+  a printed-page reproduction or a layout asset.

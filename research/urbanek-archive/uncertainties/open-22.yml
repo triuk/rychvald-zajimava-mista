@@ -1,0 +1,38 @@
+schema_version: 1
+scope: open_item_0076
+items:
+- id: URB-U-0076
+  status: open
+  priority: medium
+  collection: Fotografie knihy Rychvald včera a dnes
+  type: book_relationship_photographic_provenance_and_rights
+  source_items:
+  - urbanek-rychvald-vcera-dnes-001
+  - urbanek-rychvald-vcera-dnes-002
+  - urbanek-rychvald-vcera-dnes-003
+  - urbanek-rychvald-vcera-dnes-004
+  - urbanek-rychvald-vcera-dnes-005
+  question: Jaký je přesný vztah souborů v této složce ke knize Rychvald včera a dnes a kdo je autorem leteckých fotografií?
+  known_facts:
+  - Složka je archivně pojmenována Fotografie knihy Rychvald včera a dnes.
+  - První dávka obsahuje pět samostatných leteckých fotografií bez viditelných okrajů knižních stran a bez čitelného bibliografického
+    textu.
+  - Soubor 0 titulní stránka.jpg obsahuje letecké panorama bez viditelného titulního nápisu.
+  - Všechny snímky mají EXIF Make SONY a Model DSC-WX7; data spadají do 7. a 30. srpna 2013.
+  - Soubory 0–3 uvádějí software Picasa; 4.jpg nikoli.
+  - Pět souborů má odlišné binární hashe; v dávce nejsou přesné duplicity.
+  unknown:
+  - bibliographic_identity_authors_publisher_year_and_edition_of_the_book
+  - whether_files_are_original_source_photographs_printed_page_reproductions_or_layout_assets
+  - photographer_identity
+  - copyright_holder_and_reuse_terms
+  - whether_EXIF_dates_are_original_capture_dates_or_postprocessing_dates
+  - exact_viewpoints_and_complete_depicted_location mapping
+  evidence:
+  - research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-01.yml
+  - research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-01.csv
+  - sources/index.d/urbanek-rychvald-vcera-dnes-01.yml
+  handling: Keep open through indexing; extend source_items as further batches are processed. Resolve during final uncertainty
+    review unless narrow verification becomes necessary for provenance or inventory.
+  created_at: '2026-08-04'
+  created_by: archive_indexing_batch_01

@@ -16,16 +16,17 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 347
+  processed_content_files: 352
   processed_technical_files: 17
-  processed_items: 364
-  remaining_content_files: 240
+  processed_items: 369
+  remaining_content_files: 235
   remaining_technical_files: 12
-  remaining_items: 252
+  remaining_items: 247
 status_summary:
   completed_collections: 7
+  in_progress_collections: 1
   partially_processed_top_level_directories: 1
-  unprocessed_collection_groups: 8
+  unprocessed_collection_groups: 7
   full_source_root_inventory: completed_for_current_git_snapshot
   full_archive_index: in_progress
 groups:
@@ -75,9 +76,13 @@ groups:
   content_files: 54
   technical_files: 1
   total_items: 55
-  processed_items: 0
-  remaining_items: 55
-  status: unprocessed
+  processed_items: 5
+  remaining_items: 50
+  status: in_progress
+  overview: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml
+  latest_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-01.csv
+  latest_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-01.yml
+  latest_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-01.yml
 - order: 5
   id: urbanek-noviny-1938-ceske-slovo
   source_path: Noviny 1938 České slovo
@@ -192,11 +197,18 @@ groups:
   status: completed
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
-  next_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  current_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  completed_batch: 1
+  next_batch_filenames:
+  - 5.jpg
+  - 6.jpg
+  - 7.jpg
+  - 8.jpg
+  - 9.jpg
   reason:
-  - next coherent unprocessed directory in stable source order after Boj o náboženství v Rychvaldě
-  - contains 54 image files and one technical thumbnail cache
-  - will be processed in bounded batches while uncertainties are only registered
+  - continue the selected collection in stable filename order
+  - bounded five-image batches preserve reviewability
+  - technical Thumbs.db audit remains deferred until all 54 content images are indexed
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

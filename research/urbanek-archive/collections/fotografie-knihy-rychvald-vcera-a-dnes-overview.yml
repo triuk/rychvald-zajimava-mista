@@ -1,0 +1,53 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+collection_title: Fotografie knihy Rychvald včera a dnes
+source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: in_progress
+totals:
+  content_files: 54
+  technical_files: 1
+  total_items: 55
+progress:
+  processed_content_files: 5
+  processed_technical_files: 0
+  processed_items: 5
+  repo_verified_items: 5
+  visually_classified_items: 5
+  source_indexed_items: 5
+  remaining_content_files: 49
+  remaining_technical_files: 1
+  remaining_items: 50
+completed_batches:
+- number: 1
+  items: 001-005
+  filenames:
+  - 0 titulní stránka.jpg
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  id: aerial-views-center-housing-and-rural-edge-01
+  inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-01.csv
+  classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-01.yml
+  source_index: sources/index.d/urbanek-rychvald-vcera-dnes-01.yml
+interpretation_rules:
+- Folder and filename wording is archival metadata, not independent proof of book publication, page placement, date, authorship
+  or depicted location.
+- EXIF dates are preserved as embedded file metadata and are not independent proof of publication date or photographer.
+- Overlapping aerial views are separate evidence only when the image files and viewpoints are distinct.
+- Exact building and road identities remain unverified unless supported by captions, maps, user testimony or documentary sources.
+open_uncertainties:
+- URB-U-0076
+next_batch:
+  number: 2
+  filenames:
+  - 5.jpg
+  - 6.jpg
+  - 7.jpg
+  - 8.jpg
+  - 9.jpg
+technical_file:
+  path: Thumbs.db
+  status: pending_final_collection_audit

@@ -37,68 +37,68 @@ Podrobný přehled: `research/urbanek-archive/archive-root-inventory.yml`.
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| dokončeno | 347 | 17 | **364** |
-| zbývá | 240 | 12 | **252** |
+| zpracováno | 352 | 17 | **369** |
+| zbývá | 235 | 12 | **247** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je sedm kolekcí:
+Dokončeno je sedm kolekcí; osmá je rozpracovaná:
 
-| Kolekce | Obsahové | Technické | Celkem |
-|---|---:|---:|---:|
-| Rychvaldské větrné mlýny | 31 | 8 | 39 |
-| Články z Českého slova | 37 | 2 | 39 |
-| Ochotníci rychvald | 61 | 2 | 63 |
-| fotodokument/den po dešti | 8 | 2 | 10 |
-| Nálet na Ostravu 1944 | 7 | 1 | 8 |
-| Historie Církve československé | 200 | 1 | 201 |
-| Boj o náboženství v Rychvaldě | 3 | 1 | 4 |
-| **Celkem** | **347** | **17** | **364** |
+| Kolekce | Obsahové | Technické | Celkem | Stav |
+|---|---:|---:|---:|---|
+| Rychvaldské větrné mlýny | 31 | 8 | 39 | dokončeno |
+| Články z Českého slova | 37 | 2 | 39 | dokončeno |
+| Ochotníci rychvald | 61 | 2 | 63 | dokončeno |
+| fotodokument/den po dešti | 8 | 2 | 10 | dokončeno |
+| Nálet na Ostravu 1944 | 7 | 1 | 8 | dokončeno |
+| Historie Církve československé | 200 | 1 | 201 | dokončeno |
+| Boj o náboženství v Rychvaldě | 3 | 1 | 4 | dokončeno |
+| Fotografie knihy Rychvald včera a dnes | 5 z 54 | 0 z 1 | 5 z 55 | probíhá |
 
 Pilot tvoří prvních pět kolekcí a nepředstavuje celý archiv. Audity pilotních cache
 prokázaly 11 chybějících plných originálů dochovaných pouze jako náhledy.
 
-## Dokončená kolekce „Boj o náboženství v Rychvaldě“
+## Rozpracovaná kolekce „Fotografie knihy Rychvald včera a dnes“
 
-Kolekce obsahuje tři po sobě jdoucí fotografie rukopisných stran a jeden technický
-soubor `Thumbs.db`.
+Kolekce obsahuje 54 JPEGů a jeden technický soubor `Thumbs.db`.
 
-- viditelný nadpis: **„Náboženský převrat v Rychvaldě“**;
-- fotografie mají rozměr 2304 × 3072 px, režim RGB a odlišné Git blob SHA;
-- EXIF uvádí fotoaparát Panasonic DMC-TZ3 a časy 4. června 2012 od 11:05:40 do 11:06:36;
-- časy slouží k potvrzení pořadí fotografování, nikoli jako data historických událostí;
-- rukopisný text pojednává o sporu o českou výuku náboženství, faráři Ferdinandu Němcovi,
-  jednáních v letech 1919–1920 a příchodu Karla Vodičky;
-- uvedená jména, data a události jsou evidována jako obsah rukopisného pramene,
-  nikoli jako nezávisle ověřené historické skutečnosti.
+### Dávka 01 – soubory `0 titulní stránka.jpg`, `1.jpg` až `4.jpg`
 
-Audit `Thumbs.db` zjistil přesně tři katalogové názvy a tři dekódovatelné náhledy.
-Všechny odpovídají přítomným plným JPEGům; cache nedokládá žádný chybějící originál.
+- zpracováno a Git-ověřeno: **5 obrazových položek**;
+- všechny soubory jsou odlišné a v dávce není přesná binární duplicita;
+- jde o pět šikmých leteckých pohledů na centrum, sídlištní zástavbu a okrajovou obytnou a zemědělskou krajinu;
+- snímky `0` až `3` se místy prostorově překrývají, ale představují různé záběry;
+- soubor `0 titulní stránka.jpg` vizuálně neobsahuje titulní text ani okraj tištěné stránky, ale letecké panorama města;
+- název složky a souboru je proto veden jako archivní metadata, nikoli jako důkaz, že jde o reprodukce konkrétních knižních stran;
+- EXIF uvádí fotoaparát Sony DSC-WX7;
+- soubory `0`, `1` a `4` nesou datum 30. srpna 2013, soubory `2` a `3` datum 7. srpna 2013;
+- soubory `0` až `3` obsahují EXIF tag software `Picasa`, soubor `4.jpg` nikoli;
+- embedded data jsou evidována jako metadata souborů, ne jako nezávislý doklad autorství, vydání knihy nebo přesné provenience.
 
-Nové otevřené ID `URB-U-0075` eviduje neznámý přesný svazek, autora, čísla stran
-a úplnost fotografovaného oddílu. Samostatné řešení je odloženo do závěrečné fáze.
+Nové otevřené ID `URB-U-0076` eviduje neověřený vztah souborů ke knize,
+bibliografickou identitu publikace, autora fotografií, držitele práv, přesné použití
+snímků a úplné mapové přiřazení záběrů. Samostatná rešerše je odložena do závěrečné fáze.
 
 Pracovní soubory:
 
-- `research/urbanek-archive/collections/boj-o-nabozenstvi-inventory.csv`;
-- `research/urbanek-archive/collections/boj-o-nabozenstvi.yml`;
-- `research/urbanek-archive/ocr/boj-o-nabozenstvi-visible-text.md`;
-- `research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md`;
-- `sources/index.d/urbanek-boj-o-nabozenstvi.yml`;
-- `research/urbanek-archive/uncertainties/open-21.yml`.
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml`;
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-01.yml`;
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-01.csv`;
+- `sources/index.d/urbanek-rychvald-vcera-dnes-01.yml`;
+- `research/urbanek-archive/uncertainties/open-22.yml`.
 
 ## Dosud nezpracované skupiny
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
 | volné soubory přímo v kořeni | 6 | 0 | 6 |
-| Fotografie knihy Rychvald včera a dnes | 54 | 1 | 55 |
+| zbytek kolekce Fotografie knihy Rychvald včera a dnes | 49 | 1 | 50 |
 | Noviny 1938 České slovo | 33 | 2 | 35 |
 | Rychvald | 31 | 2 | 33 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **240** | **12** | **252** |
+| **Celkem** | **235** | **12** | **247** |
 
 Adresář `fotodokument` je částečně zpracovaný: podsložka `den po dešti` je dokončena,
 ale 43 položek přímo v nadřazeném adresáři zůstává nezpracovaných.
@@ -107,11 +107,11 @@ ale 43 položek přímo v nadřazeném adresáři zůstává nezpracovaných.
 
 Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 
-- `open`: 40;
+- `open`: 41;
 - `deferred`: 0;
 - `resolved`: 32;
 - `not_actionable`: 3;
-- celkem: 75.
+- celkem: 76.
 
 Systematické řešení nejistot je odloženo do závěrečné fáze. Položky zůstávají `open`;
 workflow odložení je nepřevádí do stavu `deferred`.
@@ -119,10 +119,10 @@ workflow odložení je nepřevádí do stavu `deferred`.
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- dokončený rozsah je 364 položek;
-- zbývá 252 položek;
-- cache kolekce „Boj o náboženství“ dokládá 0 chybějících plných originálů;
-- registr používá součty 40/32/3/75;
+- zpracovaný rozsah je 369 položek;
+- zbývá 247 položek;
+- kolekce „Fotografie knihy Rychvald včera a dnes“ je zpracována v rozsahu 5 z 55 položek;
+- registr používá součty 41/32/3/76;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
@@ -130,9 +130,10 @@ workflow odložení je nepřevádí do stavu `deferred`.
 
 - Aktivní fáze: `full_archive_indexing`.
 - Úplný soupis aktuálního Git snapshotu: `completed`.
-- Zbývající položky: **252**.
+- Zbývající položky: **247**.
 - Revize otevřených nejistot: `deferred_until_full_archive_index_complete`.
-- Další kolekce: `Fotografie knihy Rychvald včera a dnes`.
-- Rozsah: 54 obrazových souborů + 1 technický soubor = 55 položek.
-- Zpracování bude rozděleno do omezených obrazových dávek a uzavřeno auditem technické cache.
+- Aktuální kolekce: `Fotografie knihy Rychvald včera a dnes`.
+- Dokončená dávka: 01, položky `001–005`.
+- Následující dávka: `5.jpg`, `6.jpg`, `7.jpg`, `8.jpg`, `9.jpg`.
+- Technický `Thumbs.db` bude auditován až po dokončení všech 54 obrazových souborů.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

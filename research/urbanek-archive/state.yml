@@ -1,4 +1,4 @@
-schema_version: 6
+schema_version: 7
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
@@ -21,9 +21,11 @@ authoritative_files:
   ccs_collection_overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
   ccs_source_index_pattern: sources/index.d/urbanek-ccs{-NN}.yml
   ccs_thumbnail_audit: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
-  latest_verification: research/urbanek-archive/verifications/urb-u-0074-rychvald-bells-material-and-wartime-requisition.md
   latest_completed_collection: research/urbanek-archive/collections/boj-o-nabozenstvi.yml
-  latest_technical_audit: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
+  current_collection_overview: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml
+  current_batch_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-01.yml
+  current_batch_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-01.csv
+  current_batch_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-01.yml
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
@@ -43,15 +45,16 @@ archive_scope:
     content_files: 587
     technical_files: 29
     total_items: 616
-    processed_content_files: 347
+    processed_content_files: 352
     processed_technical_files: 17
-    processed_items: 364
-    remaining_content_files: 240
+    processed_items: 369
+    remaining_content_files: 235
     remaining_technical_files: 12
-    remaining_items: 252
-  known_processed_collections: 7
+    remaining_items: 247
+  completed_collections: 7
+  in_progress_collections: 1
   partially_processed_top_level_directories: 1
-  unprocessed_collection_groups: 8
+  unprocessed_collection_groups: 7
   inventory_file: research/urbanek-archive/archive-root-inventory.yml
 workflow:
   current_phase: full_archive_indexing
@@ -230,97 +233,6 @@ ccs_collection:
     catalog_source_filenames: 1.jpg–15.jpg
     missing_full_originals_evidenced: 0
     report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
-  technical_audit_files:
-    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-technical-inventory.csv
-    source_index: sources/index.d/urbanek-ccs-technical.yml
-    report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
-uncertainties:
-  registry: research/urbanek-archive/uncertainties/index.yml
-  summary:
-    open: 40
-    in_progress: 0
-    deferred: 0
-    resolved: 32
-    not_actionable: 3
-    total: 75
-  workflow_resolution_status: deferred_until_full_archive_index_complete
-  note: Workflow deferral does not change individual open items to deferred.
-  ccs_range: URB-U-0039..URB-U-0074
-  handling_rules:
-  - Archival names and folder labels are attribution metadata, not independent historical proof.
-  - Persons are not identified solely from facial appearance.
-  - Multiple reproductions of one photograph are not independent event evidence.
-  - Chains, medallions, armbands, chalice-like emblems or headwear do not independently establish an office, organization
-    or role.
-  - Standing beside a coffin or in a procession does not independently establish formal honor-guard status.
-  - Liturgical garments, symbols, gestures or altar position do not independently establish a person, office, location or
-    exact rite.
-  - A readable biblical quotation or reference verifies visible wording only, not the date, place, denomination or event character.
-  - 'A modern commemorative calendar is a secondary compilation: readable narratives, captions and reused photographs verify
-    the calendar content, not the underlying historical claims.'
-  - A concordant local secondary account may resolve a narrowly attributed working statement, but does not replace a primary
-    inventory or technical examination.
-  history:
-    batch_32_updated:
-    - URB-U-0071
-    batch_33_updated:
-    - URB-U-0071
-    batch_34_updated:
-    - URB-U-0071
-    batch_35_updated:
-    - URB-U-0071
-    batch_36_updated:
-    - URB-U-0068
-    batch_37_added:
-    - URB-U-0072
-    batch_38_added:
-    - URB-U-0073
-    batch_39_updated:
-    - URB-U-0073
-    batch_40_updated:
-    - URB-U-0073
-    thumbnail_cache_audit_updated:
-    - URB-U-0073
-    review_01_resolved:
-    - URB-U-0074
-    review_01_updated:
-    - URB-U-0041
-    boj_o_nabozenstvi_added:
-    - URB-U-0075
-  archive_indexing_range: URB-U-0075
-consistency_review:
-  status: full_source_root_inventory_completed_boj_o_nabozenstvi_completed_indexing_continues
-  verified_totals:
-    archive_total_items: 616
-    archive_processed_items: 364
-    archive_remaining_items: 252
-    ccs_total_items: 201
-    ccs_processed_items: 201
-    ccs_remaining_items: 0
-  ci_status:
-    checks_returned: 0
-    interpretation: no_reported_checks_not_a_successful_test_run
-readiness:
-  status: draft_pr_open_full_archive_indexing_in_progress
-  blockers_for_merge:
-  - remaining_252_archive_items_not_yet_indexed
-  - user_review_and_explicit_merge_decision_pending
-  non_blocking_known_issues:
-  - eleven pilot full original images are missing; only thumbnails remain in caches
-  - forty historical personal archival and technical questions remain open
-  - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
-  - bell maker, complete inscriptions, exact dating and mechanism history remain open after narrow resolution URB-U-0074
-next_action:
-  type: index_next_unprocessed_collection
-  processing_status: ready
-  remaining_archive_items: 252
-  collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
-  source_path: Fotografie knihy Rychvald včera a dnes
-  expected_content_files: 54
-  expected_technical_files: 1
-  expected_total_items: 55
-  processing_plan: bounded_batches_with_final_technical_cache_audit
-  after_collection: Continue in stable source order while only registering uncertainties.
 boj_o_nabozenstvi_collection:
   id: urbanek-boj-o-nabozenstvi
   name: Boj o náboženství v Rychvaldě
@@ -343,8 +255,121 @@ boj_o_nabozenstvi_collection:
   files:
     inventory: research/urbanek-archive/collections/boj-o-nabozenstvi-inventory.csv
     classification: research/urbanek-archive/collections/boj-o-nabozenstvi.yml
-    text_notes: research/urbanek-archive/ocr/boj-o-nabozenstvi-visible-text.md
-    technical_audit: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
+    visible_text: research/urbanek-archive/ocr/boj-o-nabozenstvi-visible-text.md
     source_index: sources/index.d/urbanek-boj-o-nabozenstvi.yml
-  uncertainties_added:
-  - URB-U-0075
+    technical_audit: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
+  uncertainty: URB-U-0075
+rychvald_vcera_dnes_collection:
+  id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  name: Fotografie knihy Rychvald včera a dnes
+  status: in_progress
+  source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+  totals:
+    content_files: 54
+    technical_files: 1
+    total_items: 55
+  progress:
+    processed_content_files: 5
+    processed_technical_files: 0
+    processed_items: 5
+    repo_verified_items: 5
+    visually_classified_items: 5
+    source_indexed_items: 5
+    remaining_content_files: 49
+    remaining_technical_files: 1
+    remaining_items: 50
+    technical_cache_audit_status: pending_after_all_content_batches
+  completed_batches:
+  - number: 1
+    items: 001-005
+    filenames:
+    - 0 titulní stránka.jpg
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+    - 4.jpg
+    id: aerial-views-center-housing-and-rural-edge-01
+  latest_batch_files:
+    inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-01.csv
+    classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-01.yml
+    source_index: sources/index.d/urbanek-rychvald-vcera-dnes-01.yml
+  interpretation:
+    folder_title_is_archival_metadata: true
+    zero_filename_does_not_visibly_show_title_text: true
+    exact_binary_duplicates_in_batch_01: 0
+    overlapping_but_distinct_aerial_views: items 001-004
+  open_uncertainties:
+  - URB-U-0076
+  next_batch:
+    number: 2
+    filenames:
+    - 5.jpg
+    - 6.jpg
+    - 7.jpg
+    - 8.jpg
+    - 9.jpg
+uncertainties:
+  registry: research/urbanek-archive/uncertainties/index.yml
+  summary:
+    open: 41
+    in_progress: 0
+    deferred: 0
+    resolved: 32
+    not_actionable: 3
+    total: 76
+  workflow_resolution_status: deferred_until_full_archive_index_complete
+  note: Workflow deferral does not change individual open items to deferred.
+  ccs_range: URB-U-0039..URB-U-0074
+  archive_indexing_range: URB-U-0075..URB-U-0076
+  history:
+    boj_o_nabozenstvi_added:
+    - URB-U-0075
+    rychvald_vcera_dnes_batch_01_added:
+    - URB-U-0076
+  handling_rules:
+  - Archival names and folder labels are attribution metadata, not independent historical proof.
+  - Persons are not identified solely from facial appearance.
+  - Multiple reproductions of one photograph are not independent event evidence.
+  - EXIF metadata is preserved as file metadata but does not independently establish authorship, publication use or historical
+    event date.
+  - A folder name suggesting book use and a filename suggesting a title page do not establish page reproduction without visible
+    page structure or bibliographic evidence.
+consistency_review:
+  status: full_source_root_inventory_completed_rychvald_vcera_dnes_batch_01_completed_indexing_continues
+  verified_totals:
+    archive_total_items: 616
+    archive_processed_items: 369
+    archive_remaining_items: 247
+    current_collection_total_items: 55
+    current_collection_processed_items: 5
+    current_collection_remaining_items: 50
+  ci_status:
+    checks_returned: 0
+    interpretation: no_reported_checks_not_a_successful_test_run
+readiness:
+  status: draft_pr_open_full_archive_indexing_in_progress
+  blockers_for_merge:
+  - remaining_247_archive_items_not_yet_indexed
+  - user_review_and_explicit_merge_decision_pending
+  non_blocking_known_issues:
+  - eleven pilot full original images are missing; only thumbnails remain in caches
+  - forty_one historical personal archival and technical questions remain open
+  - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
+  - the exact relationship of the current aerial photographs to the named book and their rights provenance remains open as
+    URB-U-0076
+next_action:
+  type: continue_current_collection_batch
+  processing_status: ready
+  remaining_archive_items: 247
+  collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  source_path: Fotografie knihy Rychvald včera a dnes
+  batch_number: 2
+  filenames:
+  - 5.jpg
+  - 6.jpg
+  - 7.jpg
+  - 8.jpg
+  - 9.jpg
+  remaining_collection_items_after_batch_01: 50
+  technical_audit: after all 54 content files
+  after_collection: Continue in stable source order while only registering uncertainties.

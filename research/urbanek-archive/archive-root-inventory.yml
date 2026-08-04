@@ -1,0 +1,205 @@
+schema_version: 1
+archive_id: urbanek-archive
+source_root: sources/osobni-archiv-jaromira-urbanka
+snapshot:
+  branch: agent/import-urbanek-pilot
+  commit: bfb98b4aeaae1834dfe3f53c63ae56d9d3337986
+  inventoried_at: '2026-08-04'
+  method: complete PR changed-file path enumeration filtered to source_root
+  scope_note: Authoritative for files staged in the current Git branch snapshot; it does not prove that no additional files
+    exist outside Git.
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+totals:
+  top_level_directories: 13
+  loose_root_files: 6
+  content_files: 587
+  technical_files: 29
+  total_items: 616
+  processed_content_files: 344
+  processed_technical_files: 16
+  processed_items: 360
+  remaining_content_files: 243
+  remaining_technical_files: 13
+  remaining_items: 256
+status_summary:
+  completed_collections: 6
+  partially_processed_top_level_directories: 1
+  unprocessed_collection_groups: 9
+  full_source_root_inventory: completed_for_current_git_snapshot
+  full_archive_index: in_progress
+groups:
+- order: 1
+  id: urbanek-root-loose-files
+  source_path: .
+  scope: loose files directly under source root
+  content_files: 6
+  technical_files: 0
+  total_items: 6
+  processed_items: 0
+  remaining_items: 6
+  status: unprocessed
+  files:
+  - 19.jpg
+  - 20Hlavička 27.10.1938.jpg
+  - 21zpráva 28.10.1938.jpg
+  - 9 X 1938 przed zajęciem Rychvaldu.png
+  - IMG_0117 seznam bojůvkařů.jpg
+  - img237 německý četník.jpg
+- order: 2
+  id: urbanek-ccs-history
+  source_path: 4 Historie  Církve Československé  v Rychvaldě ve fotografiích
+  content_files: 200
+  technical_files: 1
+  total_items: 201
+  processed_items: 201
+  remaining_items: 0
+  status: completed
+  inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
+- order: 3
+  id: urbanek-boj-o-nabozenstvi
+  source_path: Boj o náboženství v Rychvaldě
+  content_files: 3
+  technical_files: 1
+  total_items: 4
+  processed_items: 0
+  remaining_items: 4
+  status: selected_next
+  expected_files:
+  - P1010899.JPG
+  - P1010900.JPG
+  - P1010901.JPG
+  - Thumbs.db
+- order: 4
+  id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  source_path: Fotografie knihy Rychvald včera a dnes
+  content_files: 54
+  technical_files: 1
+  total_items: 55
+  processed_items: 0
+  remaining_items: 55
+  status: unprocessed
+- order: 5
+  id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo
+  content_files: 33
+  technical_files: 2
+  total_items: 35
+  processed_items: 0
+  remaining_items: 35
+  status: unprocessed
+- order: 6
+  id: urbanek-nalet-na-ostravu-1944
+  source_path: Nálet na Ostravu 1944
+  content_files: 7
+  technical_files: 1
+  total_items: 8
+  processed_items: 8
+  remaining_items: 0
+  status: completed
+  inventory: research/urbanek-archive/collections/nalet-na-ostravu-1944-inventory.csv
+- order: 7
+  id: urbanek-ochotnici-rychvald
+  source_path: Ochotníci rychvald
+  content_files: 61
+  technical_files: 2
+  total_items: 63
+  processed_items: 63
+  remaining_items: 0
+  status: completed
+  inventory: research/urbanek-archive/collections/ochotnici-rychvald-inventory.csv
+- order: 8
+  id: urbanek-rychvald
+  source_path: Rychvald
+  content_files: 31
+  technical_files: 2
+  total_items: 33
+  processed_items: 0
+  remaining_items: 33
+  status: unprocessed
+- order: 9
+  id: urbanek-rychvaldske-vetrne-mlyny
+  source_path: Rychvaldské větrné mlýny
+  content_files: 31
+  technical_files: 8
+  total_items: 39
+  processed_items: 39
+  remaining_items: 0
+  status: completed
+  inventory: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml
+- order: 10
+  id: urbanek-fotodokument
+  source_path: fotodokument
+  content_files: 49
+  technical_files: 4
+  total_items: 53
+  processed_items: 10
+  remaining_items: 43
+  status: partially_processed
+  subgroups:
+  - id: urbanek-den-po-desti
+    source_path: fotodokument/den po dešti
+    content_files: 8
+    technical_files: 2
+    total_items: 10
+    processed_items: 10
+    remaining_items: 0
+    status: completed
+    inventory: research/urbanek-archive/collections/den-po-desti-inventory.csv
+  - id: urbanek-fotodokument-root
+    source_path: fotodokument
+    scope: files directly in fotodokument, excluding den po dešti
+    content_files: 41
+    technical_files: 2
+    total_items: 43
+    processed_items: 0
+    remaining_items: 43
+    status: unprocessed
+- order: 11
+  id: urbanek-nepouzite-fotografie
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář
+  content_files: 28
+  technical_files: 1
+  total_items: 29
+  processed_items: 0
+  remaining_items: 29
+  status: unprocessed
+- order: 12
+  id: urbanek-novinove-clanky-1903-1925
+  source_path: novinové články 1903 - 1925
+  content_files: 16
+  technical_files: 2
+  total_items: 18
+  processed_items: 0
+  remaining_items: 18
+  status: unprocessed
+- order: 13
+  id: urbanek-popopo
+  source_path: popopo
+  content_files: 31
+  technical_files: 2
+  total_items: 33
+  processed_items: 0
+  remaining_items: 33
+  status: unprocessed
+- order: 14
+  id: urbanek-clanky-z-ceskeho-slova
+  source_path: Články z Českého slova
+  content_files: 37
+  technical_files: 2
+  total_items: 39
+  processed_items: 39
+  remaining_items: 0
+  status: completed
+  inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
+selection:
+  next_collection_id: urbanek-boj-o-nabozenstvi
+  reason:
+  - first coherent unprocessed directory after the completed numeric CČS directory in stable source order
+  - small closed scope of three content files and one technical cache
+  - suitable for validating the post-pilot indexing workflow
+rules:
+- Original paths and filenames are preserved.
+- Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.
+- Collection and filename wording is archival metadata, not independent proof of historical claims.
+- Uncertainties are registered during indexing but dedicated resolution is deferred until the full archive index is complete.

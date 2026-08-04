@@ -12,57 +12,80 @@
 
 ## Draft pull request
 
-- PR: [#1 – Import and classify Jaromír Urbánek archive (pilot + CČS batch)](https://github.com/triuk/rychvald-zajimava-mista/pull/1)
+- PR: [#1 – Index and classify Jaromír Urbánek archive (in progress)](https://github.com/triuk/rychvald-zajimava-mista/pull/1)
 - Stav: otevřený draft
 - Base: `main`
 - Head: `agent/import-urbanek-pilot`
 - Sloučení nebylo vyžádáno.
 
-## Dokončený pilot
+## Úplný soupis zdrojového kořene
 
-| Kolekce | Obsahové soubory | Technické soubory | Celkem | Stav |
-|---|---:|---:|---:|---|
-| Rychvaldské větrné mlýny | 31 | 8 | 39 | dokončeno |
-| Články z Českého slova | 37 | 2 | 39 | dokončeno |
-| Ochotníci rychvald | 61 | 2 | 63 | dokončeno |
-| fotodokument/den po dešti | 8 | 2 | 10 | dokončeno |
-| Nálet na Ostravu 1944 | 7 | 1 | 8 | dokončeno |
-| **Celkem** | **144** | **15** | **159** | **159 z 159 položek přítomno** |
+Pro aktuální Git snapshot byl dokončen úplný soupis cest pod
+`sources/osobni-archiv-jaromira-urbanka/`.
 
-Audity pilotních cache prokázaly **11 chybějících plných originálů** dochovaných pouze jako náhledy.
+- 13 adresářů nejvyšší úrovně;
+- 6 volných souborů přímo v kořeni;
+- **587 obsahových souborů**;
+- **29 technických souborů**;
+- **616 položek celkem**.
+
+Soupis je autoritativní pro soubory přítomné na aktuální pracovní větvi. Neprokazuje,
+že mimo Git neexistují další dosud nepřidané archivní soubory.
+
+Podrobný přehled:
+
+- `research/urbanek-archive/archive-root-inventory.yml`
+
+## Stav indexace
+
+| Stav | Obsahové | Technické | Celkem |
+|---|---:|---:|---:|
+| dokončeno | 344 | 16 | **360** |
+| zbývá | 243 | 13 | **256** |
+| celý aktuální snapshot | **587** | **29** | **616** |
+
+Dokončeno je šest kolekcí:
+
+| Kolekce | Obsahové | Technické | Celkem |
+|---|---:|---:|---:|
+| Rychvaldské větrné mlýny | 31 | 8 | 39 |
+| Články z Českého slova | 37 | 2 | 39 |
+| Ochotníci rychvald | 61 | 2 | 63 |
+| fotodokument/den po dešti | 8 | 2 | 10 |
+| Nálet na Ostravu 1944 | 7 | 1 | 8 |
+| Historie Církve československé | 200 | 1 | 201 |
+| **Celkem** | **344** | **16** | **360** |
+
+Pilot tvoří prvních pět kolekcí a nepředstavuje celý archiv. Audity pilotních cache
+prokázaly 11 chybějících plných originálů dochovaných pouze jako náhledy.
+
+## Dosud nezpracované skupiny
+
+| Skupina | Obsahové | Technické | Celkem |
+|---|---:|---:|---:|
+| volné soubory přímo v kořeni | 6 | 0 | 6 |
+| Boj o náboženství v Rychvaldě | 3 | 1 | 4 |
+| Fotografie knihy Rychvald včera a dnes | 54 | 1 | 55 |
+| Noviny 1938 České slovo | 33 | 2 | 35 |
+| Rychvald | 31 | 2 | 33 |
+| fotodokument mimo `den po dešti` | 41 | 2 | 43 |
+| fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
+| novinové články 1903–1925 | 16 | 2 | 18 |
+| popopo | 31 | 2 | 33 |
+| **Celkem** | **243** | **13** | **256** |
+
+Adresář `fotodokument` je tedy částečně zpracovaný: podsložka `den po dešti`
+je dokončena, ale 43 položek přímo v nadřazeném adresáři zůstává nezpracovaných.
 
 ## Kolekce historie Církve československé
 
-Kolekce: `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
+Kolekce `4 Historie  Církve Československé  v Rychvaldě ve fotografiích`
+je dokončena v rozsahu 201 z 201 položek:
 
-- 10 tematických podsložek;
-- 200 JPEGů;
-- 1 technický soubor `Thumbs.db`;
-- celkem 201 položek;
-- stav: `completed`.
-
-Dokončeno je čtyřicet obrazových dávek `urbanek-ccs-001` až `200` a samostatný audit technického souboru.
-
-- zpracováno: **201 z 201 položek**;
-- proti Git blob SHA ověřeno: **201 položek**;
-- vizuálně klasifikováno: **200 obrazových položek**;
-- zdrojově indexováno: **201 položek**;
-- zbývá: **0 položek**.
-
-### Revize nejistot 01 – zvony Husova sboru
-
-- `URB-U-0074` bylo uzavřeno pro úzce vymezenou otázku materiálu hlavních věžových zvonů a válečné rekvizice.
-- Historický souhrn zveřejněný CČSH v roce 2025 uvádí, že zvony nebyly zabaveny pro vojenské účely, protože jsou ocelové, nikoli ze zvonoviny.
-- Kalendář 2015 rovněž označuje dva zvony ve věži jako ocelové. Jeho tvrzení, že reliéf `1920` je rokem výroby, zůstává sekundárním popiskem bez nezávislého potvrzení.
-- `URB-U-0041` zůstává otevřené pro zvonaře nebo slévárnu, úplné nápisy, původ, přesné datace, jména a rozmístění zvonů, vztah všech tří zvonů k jedné soupravě a pozdější opravy.
-- `URB-U-0042` zůstává otevřené pro historii ručního ovládání, elektrifikace a technických přestaveb.
-- Vyhledávání příjmení Kakalová ve zpravodaji z července 1998 přineslo pouze záznam životního jubilea bez doložitelné vazby na Kakalův mlýn; tato shoda nebyla použita jako důkaz.
-
-Pracovní soubory revize:
-
-- `research/urbanek-archive/verifications/urb-u-0074-rychvald-bells-material-and-wartime-requisition.md`;
-- `research/urbanek-archive/uncertainties/closed-21.yml`;
-- aktualizované `research/urbanek-archive/uncertainties/open-06.yml`.
+- 200 obrazů vizuálně klasifikováno;
+- 201 položek Git-ověřeno a zdrojově indexováno;
+- dokončeno 40 obrazových dávek;
+- audit `Thumbs.db` nedoložil žádný chybějící plný originál.
 
 ## Registr nejistot
 
@@ -74,35 +97,30 @@ Autoritativní index: `research/urbanek-archive/uncertainties/index.yml`.
 - `not_actionable`: 3;
 - celkem: 74.
 
-Uzavření `URB-U-0074` je úmyslně úzké. Dva shodné místní sekundární zdroje umožňují bezpečnou atribuovanou formulaci o ocelových hlavních zvonech a jejich válečné nerekvizici, nikoli širší technickou nebo provenienční rekonstrukci.
+Systematické řešení nejistot je odloženo do závěrečné fáze. Položky zůstávají
+`open`; workflow odložení je nepřevádí do stavu `deferred`.
 
-## Kontrola konzistence draftu
+Během indexace se provádí jen úzké ověření nutné pro správné zařazení souboru,
+rozlišení technického souboru, binárního duplikátu, chybějícího originálu nebo
+ochranu provenience.
 
-- pilot a nová kolekce jsou odděleny;
-- kolekce CČS je zpracována v rozsahu 201 z 201 položek;
+## Kontrola konzistence
+
+- součet skupin v kořenovém inventáři je 616 položek;
+- dokončený rozsah je 360 položek;
+- zbývá 256 položek;
+- pilot a kolekce CČS jsou vedeny odděleně;
 - registr používá součty 39/32/3/74;
-- pilotní údaj o 11 chybějících plných originálech zůstává beze změny a netýká se kolekce CČS;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
-## Pracovní pořadí
-
-Projekt je nově rozdělen do dvou navazujících fází:
-
-1. **Úplná inventarizace a indexace archivu.** Nejprve se projde celý zdrojový kořen `sources/osobni-archiv-jaromira-urbanka/`, určí se všechny dosud nezpracované kolekce a jejich položky se inventarizují, Git-ověří, základně klasifikují a zdrojově indexují.
-2. **Závěrečná revize nejistot.** Teprve po dokončení úplného indexu se všechna otevřená ID znovu seřadí podle významu a dostupnosti pramenů a začne jejich systematické řešení.
-
-Během indexace se nejistoty neztrácejí: každá materiální nejasnost dostane nebo zachová stabilní ID, vazbu na zdrojové položky, stručný popis a případnou prioritu. Samostatná rešerše a uzavírání se odkládají do druhé fáze.
-
-Výjimkou jsou pouze situace, kdy je dílčí ověření nutné pro správnou inventarizaci nebo ochranu provenience, například rozlišení technického souboru, přesného binárního duplikátu, skutečně chybějícího originálu nebo správného přiřazení položky ke kolekci.
-
 ## Aktuální krok
 
-- Pilot: `completed`, ale nepředstavuje celý archiv.
-- Kolekce historie CČS: `completed`.
-- Známý dokončený rozsah: **6 kolekcí a 360 položek**.
-- Úplný rozsah zdrojového kořene dosud není autoritativně zinventarizován.
 - Aktivní fáze: `full_archive_indexing`.
+- Úplný soupis aktuálního Git snapshotu: `completed`.
+- Zbývající položky: **256**.
 - Revize otevřených nejistot: `deferred_until_full_archive_index_complete`.
-- Následuje úplný soupis zdrojového kořene a výběr další dosud neindexované kolekce.
+- Další kolekce: `Boj o náboženství v Rychvaldě`.
+- Rozsah další kolekce: 3 obrazové soubory + 1 `Thumbs.db` = 4 položky.
+- Důvod výběru: první souvislá nezpracovaná složka ve stabilním pořadí po již dokončené číselné kolekci CČS a vhodný malý rozsah pro ověření nového workflow.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

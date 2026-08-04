@@ -1,4 +1,4 @@
-schema_version: 4
+schema_version: 5
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
@@ -15,6 +15,7 @@ authoritative_files:
   workflow: research/urbanek-archive/WORKFLOW.md
   human_status: research/urbanek-archive/STATUS.md
   machine_state: research/urbanek-archive/state.yml
+  archive_root_inventory: research/urbanek-archive/archive-root-inventory.yml
   uncertainty_registry: research/urbanek-archive/uncertainties/index.yml
   pilot_reconciliation: research/urbanek-archive/reports/pilot-reconciliation.md
   ccs_collection_overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
@@ -30,12 +31,26 @@ pull_request:
   head: agent/import-urbanek-pilot
   merge_requested: false
 archive_scope:
-  full_source_root_inventory_status: not_yet_completed
+  full_source_root_inventory_status: completed_for_current_git_snapshot
+  inventory_commit_basis: bfb98b4aeaae1834dfe3f53c63ae56d9d3337986
+  inventory_method: complete PR changed-file path enumeration filtered to source root
+  scope_limit: Does not prove completeness outside files staged in the current Git branch.
+  top_level_directories: 13
+  loose_root_files: 6
+  totals:
+    content_files: 587
+    technical_files: 29
+    total_items: 616
+    processed_content_files: 344
+    processed_technical_files: 16
+    processed_items: 360
+    remaining_content_files: 243
+    remaining_technical_files: 13
+    remaining_items: 256
   known_processed_collections: 6
-  known_processed_items: 360
-  total_collections: unknown_until_full_source_root_inventory
-  total_items: unknown_until_full_source_root_inventory
-  interpretation: The completed pilot and CČS collection are processed subsets, not proof that the whole archive is indexed.
+  partially_processed_top_level_directories: 1
+  unprocessed_collection_groups: 9
+  inventory_file: research/urbanek-archive/archive-root-inventory.yml
 workflow:
   current_phase: full_archive_indexing
   phase_order:
@@ -47,7 +62,7 @@ workflow:
   - record_source_item_links_question_priority_and_evidence
   - do_not_run_dedicated_resolution_research
   - allow_only_narrow_verification_required_for_correct_inventory_or_provenance
-  final_review_trigger: full_source_root_inventory_and_index_completed
+  final_review_trigger: all_616_current_snapshot_items_indexed_and_technical_files_audited
 pilot:
   status: completed
   scope_interpretation: processed_pilot_subset_not_whole_archive
@@ -269,8 +284,11 @@ uncertainties:
     review_01_updated:
     - URB-U-0041
 consistency_review:
-  status: completed_with_corrections_workflow_switched_to_full_archive_indexing
-  verified_equal_totals:
+  status: full_source_root_inventory_completed_indexing_continues
+  verified_totals:
+    archive_total_items: 616
+    archive_processed_items: 360
+    archive_remaining_items: 256
     ccs_total_items: 201
     ccs_processed_items: 201
     ccs_remaining_items: 0
@@ -280,7 +298,7 @@ consistency_review:
 readiness:
   status: draft_pr_open_full_archive_indexing_in_progress
   blockers_for_merge:
-  - full_archive_inventory_and_index_not_yet_complete
+  - remaining_256_archive_items_not_yet_indexed
   - user_review_and_explicit_merge_decision_pending
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
@@ -288,15 +306,14 @@ readiness:
   - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
   - bell maker, complete inscriptions, exact dating and mechanism history remain open after narrow resolution URB-U-0074
 next_action:
-  type: inventory_full_source_root_and_continue_indexing
-  processing_status: in_progress
-  remaining_archive_items: unknown_until_full_source_root_inventory
-  steps:
-  - enumerate_all_top_level_collections_under_source_root
-  - match_collections_against_existing_inventories_and_source_indexes
-  - record_completed_partially_processed_and_unprocessed_collection_status
-  - select_next_unindexed_collection_in_stable_source_order
-  - index_in_batches_while_only_recording_uncertainties
-  after_full_indexing: prioritize_and_review_all_open_uncertainties
-  instruction: Continue indexing the archive. Preserve and register uncertainties, but defer dedicated resolution work until
-    the entire source root is inventoried and indexed.
+  type: index_next_unprocessed_collection
+  processing_status: ready
+  remaining_archive_items: 256
+  collection_id: urbanek-boj-o-nabozenstvi
+  source_path: Boj o náboženství v Rychvaldě
+  expected_content_files: 3
+  expected_technical_files: 1
+  expected_total_items: 4
+  reason: First coherent unprocessed directory in stable source order after the completed numeric CČS directory; small scope
+    validates the new workflow.
+  after_collection: Continue in stable source order while only registering uncertainties.

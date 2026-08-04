@@ -1,0 +1,122 @@
+schema_version: 1
+collection_id: urbanek-boj-o-nabozenstvi
+collection_name: Boj o náboženství v Rychvaldě
+status: completed_first_visual_and_text_pass
+git_attachment: finalized
+source_root: sources/osobni-archiv-jaromira-urbanka/Boj o náboženství v Rychvaldě
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+scope:
+  content_files: 3
+  technical_files: 1
+  total_items: 4
+collection_assessment:
+  visual_type: three_consecutive_photographs_of_handwritten_manuscript_pages
+  visible_heading: Náboženský převrat v Rychvaldě
+  sequence_basis:
+  - continuous_sentence_across_P1010899_and_P1010900
+  - continuous_narrative_across_P1010900_and_P1010901
+  - ascending_camera_filenames
+  - EXIF_capture_times_2012_06_04_11_05_40_to_11_06_36
+  - Thumbs_db_catalog_order_1_to_3
+  content_summary: Rukopisný oddíl líčí jazykový a církevní konflikt kolem výuky náboženství v rychvaldských českých školách,
+    faráře Ferdinanda Němce, zásahy Národního a plebiscitního výboru v letech 1919–1920 a závěrem příchod Karla Vodičky, který
+    se podle textu ujal úřadu 1. května 1920.
+  evidentiary_limit: Vizuální kontrola potvrzuje znění nadpisu, návaznost stran a čitelné osoby a letopočty. Historická správnost
+    vyprávění, autorství rukopisu, přesný svazek a čísla stran nejsou tímto indexačním průchodem ověřeny.
+  related_uncertainties:
+  - URB-U-0075
+items:
+- id: urbanek-boj-o-nabozenstvi-001
+  archival_filename: P1010899.JPG
+  dimensions_px:
+  - 2304
+  - 3072
+  color_mode: RGB
+  capture_metadata:
+    camera: Panasonic DMC-TZ3
+    datetime: '2012-06-04 11:05:40'
+    interpretation: capture_time_not_historical_event_date
+  visual_description: První fotografovaná rukopisná strana s nadpisem „Náboženský převrat v Rychvaldě“. Vyprávění začíná rokem
+    1855, popisuje popolštění školy a spor o českou školu a českou výuku náboženství; na konci přechází k očekáváním po 28.
+    říjnu.
+  verified_from_image:
+  - visible_heading
+  - handwritten_manuscript_page
+  - printed_or_written_year_1855
+  - continuous_text_to_next_image
+  not_independently_verified:
+  - exact_manuscript_source
+  - author
+  - page_number
+  - historical_accuracy_of_narrative
+- id: urbanek-boj-o-nabozenstvi-002
+  archival_filename: P1010900.JPG
+  dimensions_px:
+  - 2304
+  - 3072
+  color_mode: RGB
+  capture_metadata:
+    camera: Panasonic DMC-TZ3
+    datetime: '2012-06-04 11:06:04'
+    interpretation: capture_time_not_historical_event_date
+  visual_description: Druhá navazující rukopisná strana. Text pokračuje jednáním o odstranění faráře Němce, uvádí deputaci
+    17. prosince 1919 a jeho odchod 7. března 1920; závěr stránky přechází k telegramu knězi Raimochovi.
+  verified_from_image:
+  - handwritten_manuscript_page
+  - continuation_from_previous_image
+  - visible_dates_17_December_1919_and_7_March_1920
+  - continuous_text_to_next_image
+  not_independently_verified:
+  - exact_manuscript_source
+  - author
+  - page_number
+  - historical_accuracy_of_narrative
+- id: urbanek-boj-o-nabozenstvi-003
+  archival_filename: P1010901.JPG
+  dimensions_px:
+  - 2304
+  - 3072
+  color_mode: RGB
+  capture_metadata:
+    camera: Panasonic DMC-TZ3
+    datetime: '2012-06-04 11:06:36'
+    interpretation: capture_time_not_historical_event_date
+  visual_description: Třetí navazující rukopisná strana. Vyprávění zmiňuje neúspěšné jednání s P. Raimochem a radu faráře
+    Stibora; uzavírá se tvrzením o vystoupení z římské církve 30. dubna 1920 a příchodu Karla Vodičky, který se měl ujmout
+    úřadu 1. května.
+  verified_from_image:
+  - handwritten_manuscript_page
+  - continuation_from_previous_image
+  - visible_dates_30_April_1920_and_1_May_1920
+  - narrative_endpoint_on_page
+  not_independently_verified:
+  - exact_manuscript_source
+  - author
+  - page_number
+  - historical_accuracy_of_narrative
+binary_duplicate_review:
+  status: no_exact_duplicates_within_collection
+  git_blob_shas:
+  - 7c16fef94dd42a5f76c1d63353fba13ace09849b
+  - d1c2b027577cecffbbcccf5bcdd44931c9012a6e
+  - cac4687b3b7ca99f988ec728410285ed5d342406
+technical_file:
+  id: urbanek-boj-o-nabozenstvi-004
+  archival_filename: Thumbs.db
+  type: windows_thumbnail_cache
+  audit_status: completed_three_catalog_entries_all_matched_no_missing_full_original
+  catalog_filenames:
+  - P1010899.JPG
+  - P1010900.JPG
+  - P1010901.JPG
+  decoded_thumbnails: 3
+  missing_full_originals_evidenced: 0
+  report: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
+text_notes: research/urbanek-archive/ocr/boj-o-nabozenstvi-visible-text.md
+next_action:
+  collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  source_path: Fotografie knihy Rychvald včera a dnes
+  expected_content_files: 54
+  expected_technical_files: 1
+  processing: bounded_batches

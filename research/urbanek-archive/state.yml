@@ -1,4 +1,4 @@
-schema_version: 5
+schema_version: 6
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
@@ -22,6 +22,8 @@ authoritative_files:
   ccs_source_index_pattern: sources/index.d/urbanek-ccs{-NN}.yml
   ccs_thumbnail_audit: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
   latest_verification: research/urbanek-archive/verifications/urb-u-0074-rychvald-bells-material-and-wartime-requisition.md
+  latest_completed_collection: research/urbanek-archive/collections/boj-o-nabozenstvi.yml
+  latest_technical_audit: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
@@ -32,7 +34,7 @@ pull_request:
   merge_requested: false
 archive_scope:
   full_source_root_inventory_status: completed_for_current_git_snapshot
-  inventory_commit_basis: bfb98b4aeaae1834dfe3f53c63ae56d9d3337986
+  inventory_commit_basis: e94832c650dc15cf7e28b7affe66812f70bfd497
   inventory_method: complete PR changed-file path enumeration filtered to source root
   scope_limit: Does not prove completeness outside files staged in the current Git branch.
   top_level_directories: 13
@@ -41,15 +43,15 @@ archive_scope:
     content_files: 587
     technical_files: 29
     total_items: 616
-    processed_content_files: 344
-    processed_technical_files: 16
-    processed_items: 360
-    remaining_content_files: 243
-    remaining_technical_files: 13
-    remaining_items: 256
-  known_processed_collections: 6
+    processed_content_files: 347
+    processed_technical_files: 17
+    processed_items: 364
+    remaining_content_files: 240
+    remaining_technical_files: 12
+    remaining_items: 252
+  known_processed_collections: 7
   partially_processed_top_level_directories: 1
-  unprocessed_collection_groups: 9
+  unprocessed_collection_groups: 8
   inventory_file: research/urbanek-archive/archive-root-inventory.yml
 workflow:
   current_phase: full_archive_indexing
@@ -235,12 +237,12 @@ ccs_collection:
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary:
-    open: 39
+    open: 40
     in_progress: 0
     deferred: 0
     resolved: 32
     not_actionable: 3
-    total: 74
+    total: 75
   workflow_resolution_status: deferred_until_full_archive_index_complete
   note: Workflow deferral does not change individual open items to deferred.
   ccs_range: URB-U-0039..URB-U-0074
@@ -283,12 +285,15 @@ uncertainties:
     - URB-U-0074
     review_01_updated:
     - URB-U-0041
+    boj_o_nabozenstvi_added:
+    - URB-U-0075
+  archive_indexing_range: URB-U-0075
 consistency_review:
-  status: full_source_root_inventory_completed_indexing_continues
+  status: full_source_root_inventory_completed_boj_o_nabozenstvi_completed_indexing_continues
   verified_totals:
     archive_total_items: 616
-    archive_processed_items: 360
-    archive_remaining_items: 256
+    archive_processed_items: 364
+    archive_remaining_items: 252
     ccs_total_items: 201
     ccs_processed_items: 201
     ccs_remaining_items: 0
@@ -298,22 +303,48 @@ consistency_review:
 readiness:
   status: draft_pr_open_full_archive_indexing_in_progress
   blockers_for_merge:
-  - remaining_256_archive_items_not_yet_indexed
+  - remaining_252_archive_items_not_yet_indexed
   - user_review_and_explicit_merge_decision_pending
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
-  - thirty_nine historical personal archival and technical questions remain open
+  - forty historical personal archival and technical questions remain open
   - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
   - bell maker, complete inscriptions, exact dating and mechanism history remain open after narrow resolution URB-U-0074
 next_action:
   type: index_next_unprocessed_collection
   processing_status: ready
-  remaining_archive_items: 256
-  collection_id: urbanek-boj-o-nabozenstvi
-  source_path: Boj o náboženství v Rychvaldě
-  expected_content_files: 3
+  remaining_archive_items: 252
+  collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  source_path: Fotografie knihy Rychvald včera a dnes
+  expected_content_files: 54
   expected_technical_files: 1
-  expected_total_items: 4
-  reason: First coherent unprocessed directory in stable source order after the completed numeric CČS directory; small scope
-    validates the new workflow.
+  expected_total_items: 55
+  processing_plan: bounded_batches_with_final_technical_cache_audit
   after_collection: Continue in stable source order while only registering uncertainties.
+boj_o_nabozenstvi_collection:
+  id: urbanek-boj-o-nabozenstvi
+  name: Boj o náboženství v Rychvaldě
+  status: completed
+  source_root: sources/osobni-archiv-jaromira-urbanka/Boj o náboženství v Rychvaldě
+  totals:
+    content_files: 3
+    technical_files: 1
+    total_items: 4
+  progress:
+    processed_items: 4
+    repo_verified_items: 4
+    visually_classified_items: 3
+    source_indexed_items: 4
+    remaining_items: 0
+    inventory_status: completed
+    visual_classification_status: completed_first_pass
+    text_review_status: completed_visible_text_summary
+    thumbnail_cache_audit_status: completed_three_catalog_entries_all_matched_no_missing_full_original
+  files:
+    inventory: research/urbanek-archive/collections/boj-o-nabozenstvi-inventory.csv
+    classification: research/urbanek-archive/collections/boj-o-nabozenstvi.yml
+    text_notes: research/urbanek-archive/ocr/boj-o-nabozenstvi-visible-text.md
+    technical_audit: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
+    source_index: sources/index.d/urbanek-boj-o-nabozenstvi.yml
+  uncertainties_added:
+  - URB-U-0075

@@ -3,7 +3,7 @@ archive_id: urbanek-archive
 source_root: sources/osobni-archiv-jaromira-urbanka
 snapshot:
   branch: agent/import-urbanek-pilot
-  commit: bfb98b4aeaae1834dfe3f53c63ae56d9d3337986
+  commit: e94832c650dc15cf7e28b7affe66812f70bfd497
   inventoried_at: '2026-08-04'
   method: complete PR changed-file path enumeration filtered to source_root
   scope_note: Authoritative for files staged in the current Git branch snapshot; it does not prove that no additional files
@@ -16,16 +16,16 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 344
-  processed_technical_files: 16
-  processed_items: 360
-  remaining_content_files: 243
-  remaining_technical_files: 13
-  remaining_items: 256
+  processed_content_files: 347
+  processed_technical_files: 17
+  processed_items: 364
+  remaining_content_files: 240
+  remaining_technical_files: 12
+  remaining_items: 252
 status_summary:
-  completed_collections: 6
+  completed_collections: 7
   partially_processed_top_level_directories: 1
-  unprocessed_collection_groups: 9
+  unprocessed_collection_groups: 8
   full_source_root_inventory: completed_for_current_git_snapshot
   full_archive_index: in_progress
 groups:
@@ -62,14 +62,13 @@ groups:
   content_files: 3
   technical_files: 1
   total_items: 4
-  processed_items: 0
-  remaining_items: 4
-  status: selected_next
-  expected_files:
-  - P1010899.JPG
-  - P1010900.JPG
-  - P1010901.JPG
-  - Thumbs.db
+  processed_items: 4
+  remaining_items: 0
+  status: completed
+  inventory: research/urbanek-archive/collections/boj-o-nabozenstvi-inventory.csv
+  classification: research/urbanek-archive/collections/boj-o-nabozenstvi.yml
+  source_index: sources/index.d/urbanek-boj-o-nabozenstvi.yml
+  technical_audit: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
 - order: 4
   id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
   source_path: Fotografie knihy Rychvald včera a dnes
@@ -193,11 +192,11 @@ groups:
   status: completed
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
-  next_collection_id: urbanek-boj-o-nabozenstvi
+  next_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
   reason:
-  - first coherent unprocessed directory after the completed numeric CČS directory in stable source order
-  - small closed scope of three content files and one technical cache
-  - suitable for validating the post-pilot indexing workflow
+  - next coherent unprocessed directory in stable source order after Boj o náboženství v Rychvaldě
+  - contains 54 image files and one technical thumbnail cache
+  - will be processed in bounded batches while uncertainties are only registered
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

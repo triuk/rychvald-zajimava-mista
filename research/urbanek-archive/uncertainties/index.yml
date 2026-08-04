@@ -1,10 +1,10 @@
 schema_version: 3
 summary:
-  open: 39
+  open: 40
   deferred: 0
   resolved: 32
   not_actionable: 3
-  total: 74
+  total: 75
 workflow_policy:
   current_phase: full_archive_indexing
   dedicated_resolution_research: deferred_until_full_archive_index_complete
@@ -40,6 +40,7 @@ open_files:
 - open-18.yml
 - open-19.yml
 - open-20.yml
+- open-21.yml
 closed_files:
 - closed-01a.yml
 - closed-01b.yml
@@ -113,3 +114,5 @@ rules:
   facts and reused photographs require source-level corroboration.
 - A concordant local secondary account may resolve a narrowly attributed working statement, but it does not replace a primary
   inventory, technical examination or independent documentary proof for wider attributes.
+- A photographed manuscript page verifies its visible wording and physical appearance only; exact volume, authorship, page
+  numbering, completeness and historical claims require separate source-level corroboration.

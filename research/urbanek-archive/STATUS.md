@@ -37,8 +37,8 @@ Podrobný přehled: `research/urbanek-archive/archive-root-inventory.yml`.
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 352 | 17 | **369** |
-| zbývá | 235 | 12 | **247** |
+| zpracováno | 357 | 17 | **374** |
+| zbývá | 230 | 12 | **242** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
 Dokončeno je sedm kolekcí; osmá je rozpracovaná:
@@ -52,7 +52,7 @@ Dokončeno je sedm kolekcí; osmá je rozpracovaná:
 | Nálet na Ostravu 1944 | 7 | 1 | 8 | dokončeno |
 | Historie Církve československé | 200 | 1 | 201 | dokončeno |
 | Boj o náboženství v Rychvaldě | 3 | 1 | 4 | dokončeno |
-| Fotografie knihy Rychvald včera a dnes | 5 z 54 | 0 z 1 | 5 z 55 | probíhá |
+| Fotografie knihy Rychvald včera a dnes | 10 z 54 | 0 z 1 | 10 z 55 | probíhá |
 
 Pilot tvoří prvních pět kolekcí a nepředstavuje celý archiv. Audity pilotních cache
 prokázaly 11 chybějících plných originálů dochovaných pouze jako náhledy.
@@ -61,29 +61,28 @@ prokázaly 11 chybějících plných originálů dochovaných pouze jako náhled
 
 Kolekce obsahuje 54 JPEGů a jeden technický soubor `Thumbs.db`.
 
-### Dávka 01 – soubory `0 titulní stránka.jpg`, `1.jpg` až `4.jpg`
+### Dávka 02 – soubory `5.jpg` až `9.jpg`
 
 - zpracováno a Git-ověřeno: **5 obrazových položek**;
-- všechny soubory jsou odlišné a v dávce není přesná binární duplicita;
-- jde o pět šikmých leteckých pohledů na centrum, sídlištní zástavbu a okrajovou obytnou a zemědělskou krajinu;
-- snímky `0` až `3` se místy prostorově překrývají, ale představují různé záběry;
-- soubor `0 titulní stránka.jpg` vizuálně neobsahuje titulní text ani okraj tištěné stránky, ale letecké panorama města;
-- název složky a souboru je proto veden jako archivní metadata, nikoli jako důkaz, že jde o reprodukce konkrétních knižních stran;
-- EXIF uvádí fotoaparát Sony DSC-WX7;
-- soubory `0`, `1` a `4` nesou datum 30. srpna 2013, soubory `2` a `3` datum 7. srpna 2013;
-- soubory `0` až `3` obsahují EXIF tag software `Picasa`, soubor `4.jpg` nikoli;
-- embedded data jsou evidována jako metadata souborů, ne jako nezávislý doklad autorství, vydání knihy nebo přesné provenience.
+- celkem v kolekci: **10 z 55 položek**;
+- všechny soubory dávky jsou binárně odlišné a přesně odpovídají Git blobům;
+- `5.jpg` a `6.jpg` zachycují částečně překrývající se centrální prostor se sakrálními stavbami, hlavní komunikací a vodními plochami;
+- `7.jpg` až `9.jpg` zachycují různé části okrajové obytné a zemědělské krajiny;
+- přesné názvy ulic, staveb, vodních ploch a železničního úseku nejsou bez mapového nebo dokumentárního podkladu přiřazeny;
+- EXIF uvádí Sony DSC-WX7 a data od 24. března 2012 do 28. září 2013;
+- `5.jpg` a `6.jpg` mají časy od sebe vzdálené deset sekund a prostorově se překrývají, což podporuje jejich pracovní zařazení do jedné fotografické sekvence;
+- pouze `5.jpg` obsahuje EXIF tag software `Picasa`;
+- metadata nejsou nezávislým dokladem autorství, přesné lokace, použití v knize ani práv.
 
-Nové otevřené ID `URB-U-0076` eviduje neověřený vztah souborů ke knize,
-bibliografickou identitu publikace, autora fotografií, držitele práv, přesné použití
-snímků a úplné mapové přiřazení záběrů. Samostatná rešerše je odložena do závěrečné fáze.
+Existující otevřené ID `URB-U-0076` bylo rozšířeno o položky `006–010`. Samostatná
+rešerše zůstává odložena do závěrečné fáze.
 
 Pracovní soubory:
 
 - `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml`;
-- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-01.yml`;
-- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-01.csv`;
-- `sources/index.d/urbanek-rychvald-vcera-dnes-01.yml`;
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-02.yml`;
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-02.csv`;
+- `sources/index.d/urbanek-rychvald-vcera-dnes-02.yml`;
 - `research/urbanek-archive/uncertainties/open-22.yml`.
 
 ## Dosud nezpracované skupiny
@@ -91,14 +90,14 @@ Pracovní soubory:
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
 | volné soubory přímo v kořeni | 6 | 0 | 6 |
-| zbytek kolekce Fotografie knihy Rychvald včera a dnes | 49 | 1 | 50 |
+| zbytek kolekce Fotografie knihy Rychvald včera a dnes | 44 | 1 | 45 |
 | Noviny 1938 České slovo | 33 | 2 | 35 |
 | Rychvald | 31 | 2 | 33 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **235** | **12** | **247** |
+| **Celkem** | **230** | **12** | **242** |
 
 Adresář `fotodokument` je částečně zpracovaný: podsložka `den po dešti` je dokončena,
 ale 43 položek přímo v nadřazeném adresáři zůstává nezpracovaných.
@@ -119,9 +118,9 @@ workflow odložení je nepřevádí do stavu `deferred`.
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 369 položek;
-- zbývá 247 položek;
-- kolekce „Fotografie knihy Rychvald včera a dnes“ je zpracována v rozsahu 5 z 55 položek;
+- zpracovaný rozsah je 374 položek;
+- zbývá 242 položek;
+- kolekce „Fotografie knihy Rychvald včera a dnes“ je zpracována v rozsahu 10 z 55 položek;
 - registr používá součty 41/32/3/76;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
@@ -130,10 +129,10 @@ workflow odložení je nepřevádí do stavu `deferred`.
 
 - Aktivní fáze: `full_archive_indexing`.
 - Úplný soupis aktuálního Git snapshotu: `completed`.
-- Zbývající položky: **247**.
+- Zbývající položky: **242**.
 - Revize otevřených nejistot: `deferred_until_full_archive_index_complete`.
 - Aktuální kolekce: `Fotografie knihy Rychvald včera a dnes`.
-- Dokončená dávka: 01, položky `001–005`.
-- Následující dávka: `5.jpg`, `6.jpg`, `7.jpg`, `8.jpg`, `9.jpg`.
+- Dokončené dávky: 01 a 02, položky `001–010`.
+- Následující dávka: `10.jpg`, `11.jpg`, `12.jpg`, `13.jpg`, `14.jpg`.
 - Technický `Thumbs.db` bude auditován až po dokončení všech 54 obrazových souborů.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

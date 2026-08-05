@@ -22,20 +22,28 @@ items:
   - urbanek-rychvald-vcera-dnes-013
   - urbanek-rychvald-vcera-dnes-014
   - urbanek-rychvald-vcera-dnes-015
+  - urbanek-rychvald-vcera-dnes-016
+  - urbanek-rychvald-vcera-dnes-017
+  - urbanek-rychvald-vcera-dnes-018
+  - urbanek-rychvald-vcera-dnes-019
+  - urbanek-rychvald-vcera-dnes-020
   question: Jaký je přesný vztah souborů v této složce ke knize Rychvald včera a dnes a kdo je autorem leteckých fotografií?
   known_facts:
   - Složka je archivně pojmenována Fotografie knihy Rychvald včera a dnes.
-  - Prvních patnáct zpracovaných souborů tvoří samostatné letecké fotografie bez viditelných okrajů knižních stran a bez čitelného
-    bibliografického textu.
+  - Prvních dvacet zpracovaných souborů tvoří samostatné letecké fotografie bez viditelných okrajů knižních stran a bez
+    čitelného bibliografického textu.
   - Soubor 0 titulní stránka.jpg obsahuje letecké panorama bez viditelného titulního nápisu.
   - Všechny dosud zpracované snímky mají EXIF Make SONY a Model DSC-WX7.
   - EXIF data dosud zpracovaných snímků sahají od 24. března 2012 do 28. září 2013.
-  - Soubory 0–3, 5.jpg, 10.jpg, 11.jpg a 13.jpg uvádějí software Picasa; ostatní dosud zpracované soubory tento tag nemají.
-  - Patnáct souborů má odlišné binární hashe; mezi dávkami 01 až 03 nebyla zjištěna přesná duplicita.
+  - Soubory 0–3, 5.jpg, 10.jpg, 11.jpg, 13.jpg a 18.jpg uvádějí software Picasa; 15.jpg a 17.jpg uvádějí PMB.
+  - Dvacet souborů má odlišné binární hashe; mezi dávkami 01 až 04 nebyla zjištěna přesná duplicita.
   - Snímky 5.jpg a 6.jpg se prostorově překrývají a jejich EXIF časy se liší o deset sekund.
   - Snímky 12.jpg a 13.jpg se prostorově překrývají a jejich EXIF časy se liší o pět sekund.
-  - Časová a obrazová návaznost podporuje pracovní zařazení uvedených dvojic do fotografických sekvencí, nikoli však identitu
-    autora nebo místa.
+  - Snímky 17.jpg a 15.jpg mají EXIF časy vzdálené 37 sekund a oba tag PMB, ale jednoznačný prostorový překryv nebyl
+    zjištěn.
+  - Soubor 19.jpg vizuálně zachycuje denní světlo, přestože EXIF DateTime uvádí 23:39:36; časové metadata proto nejsou
+    spolehlivým dokladem okamžiku expozice.
+  - Časová a obrazová návaznost podporuje pouze pracovní seskupení některých snímků, nikoli identitu autora nebo místa.
   unknown:
   - bibliographic_identity_authors_publisher_year_and_edition_of_the_book
   - whether_files_are_original_source_photographs_printed_page_reproductions_or_layout_assets
@@ -53,9 +61,12 @@ items:
   - research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-03.yml
   - research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-03.csv
   - sources/index.d/urbanek-rychvald-vcera-dnes-03.yml
+  - research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-04.yml
+  - research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-04.csv
+  - sources/index.d/urbanek-rychvald-vcera-dnes-04.yml
   handling: Keep open through indexing; extend source_items as further batches are processed. Resolve during final uncertainty
     review unless narrow verification becomes necessary for provenance or inventory.
   created_at: '2026-08-04'
   created_by: archive_indexing_batch_01
   last_updated_at: '2026-08-05'
-  last_updated_by: archive_indexing_batch_03
+  last_updated_by: archive_indexing_batch_04

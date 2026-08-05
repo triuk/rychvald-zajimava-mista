@@ -1,4 +1,4 @@
-schema_version: 9
+schema_version: 10
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
@@ -23,9 +23,9 @@ authoritative_files:
   ccs_thumbnail_audit: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
   latest_completed_collection: research/urbanek-archive/collections/boj-o-nabozenstvi.yml
   current_collection_overview: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml
-  current_batch_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-03.yml
-  current_batch_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-03.csv
-  current_batch_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-03.yml
+  current_batch_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-04.yml
+  current_batch_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-04.csv
+  current_batch_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-04.yml
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
@@ -35,9 +35,8 @@ pull_request:
   head: agent/import-urbanek-pilot
   merge_requested: false
 archive_scope:
-  full_source_root_inventory_status: completed_for_current_git_snapshot
+  inventory_status: completed_for_current_git_snapshot
   inventory_commit_basis: e94832c650dc15cf7e28b7affe66812f70bfd497
-  inventory_method: complete PR changed-file path enumeration filtered to source root
   scope_limit: Does not prove completeness outside files staged in the current Git branch.
   top_level_directories: 13
   loose_root_files: 6
@@ -45,29 +44,26 @@ archive_scope:
     content_files: 587
     technical_files: 29
     total_items: 616
-    processed_content_files: 362
+    processed_content_files: 367
     processed_technical_files: 17
-    processed_items: 379
-    remaining_content_files: 225
+    processed_items: 384
+    remaining_content_files: 220
     remaining_technical_files: 12
-    remaining_items: 237
+    remaining_items: 232
   completed_collections: 7
   in_progress_collections: 1
   partially_processed_top_level_directories: 1
   unprocessed_collection_groups: 7
-  inventory_file: research/urbanek-archive/archive-root-inventory.yml
 workflow:
   current_phase: full_archive_indexing
-  phase_order:
-  - full_archive_indexing
-  - final_uncertainty_review
+  phase_order: [full_archive_indexing, final_uncertainty_review]
   dedicated_uncertainty_resolution: deferred_until_full_archive_index_complete
+  final_review_trigger: all_616_current_snapshot_items_indexed_and_technical_files_audited
   during_indexing:
   - preserve_or_create_stable_uncertainty_ids
   - record_source_item_links_question_priority_and_evidence
   - do_not_run_dedicated_resolution_research
   - allow_only_narrow_verification_required_for_correct_inventory_or_provenance
-  final_review_trigger: all_616_current_snapshot_items_indexed_and_technical_files_audited
 pilot:
   status: completed
   scope_interpretation: processed_pilot_subset_not_whole_archive
@@ -77,328 +73,143 @@ pilot:
     technical_files: 15
     total_items: 159
     repo_verified_items: 159
-    repo_missing_items: 0
     missing_full_original_images_known_only_from_thumbnail_caches: 11
 ccs_collection:
   id: urbanek-ccs-history
-  name: Historie Církve československé v Rychvaldě ve fotografiích
   status: completed
   source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
-  totals:
-    subfolders: 10
-    content_files: 200
-    technical_files: 1
-    total_items: 201
+  totals: {subfolders: 10, content_files: 200, technical_files: 1, total_items: 201}
   progress:
     processed_items: 201
     repo_verified_items: 201
     visually_classified_items: 200
     source_indexed_items: 201
     remaining_items: 0
-    inventory_status: completed
-    visual_classification_status: completed_first_pass_for_content_files
-    ocr_status: completed_first_pass_for_content_files
     thumbnail_cache_audit_status: completed_structurally_incomplete_no_missing_source_filenames
-  completed_batches:
-  - number: 1
-    items: 001-005
-    id: construction-sequence-01
-  - number: 2
-    items: 006-010
-    id: opening-and-early-interior-02
-  - number: 3
-    items: 011-015
-    id: first-communion-council-and-bells-03
-  - number: 4
-    items: 016-020
-    id: murals-occupation-exteriors-and-organ-04
-  - number: 5
-    items: 021-025
-    id: wedding-reconstruction-and-bishop-05
-  - number: 6
-    items: 026-030
-    id: reconstructed-chancel-carpet-and-obsil-murals-06
-  - number: 7
-    items: 031-035
-    id: anniversary-and-postwar-communion-groups-07
-  - number: 8
-    items: 036-040
-    id: renewed-communion-councils-and-choir-08
-  - number: 9
-    items: 041-045
-    id: modern-choir-and-chrobacek-inauguration-09
-  - number: 10
-    items: 046-050
-    id: chrobacek-anniversary-baptism-and-hus-commemoration-10
-  - number: 11
-    items: 051-055
-    id: hus-commemoration-continuation-and-living-nativity-11
-  - number: 12
-    items: 056-060
-    id: living-nativity-concerts-and-vodicka-memorial-12
-  - number: 13
-    items: 061-065
-    id: clergy-portraits-and-vodicka-bogumski-visit-13
-  - number: 14
-    items: 066-070
-    id: fiftieth-anniversary-baptisms-and-stibor-welcome-14
-  - number: 15
-    items: 071-075
-    id: stibor-visit-sequence-and-groups-15
-  - number: 16
-    items: 076-080
-    id: stibor-council-and-chrobacek-election-opening-16
-  - number: 17
-    items: 081-085
-    id: chrobacek-family-and-congratulations-17
-  - number: 18
-    items: 086-090
-    id: chrobacek-ritual-and-wife-congratulation-18
-  - number: 19
-    items: 091-095
-    id: chrobacek-investiture-address-and-document-19
-  - number: 20
-    items: 096-100
-    id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation-20
-  - number: 21
-    items: 101-105
-    id: chrobacek-final-duplicate-and-ostravice-chapel-opening-21
-  - number: 22
-    items: 106-110
-    id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques-22
-  - number: 23
-    items: 111-115
-    id: ostravice-chapel-manager-service-old-and-new-bell-tower-23
-  - number: 24
-    items: 116-120
-    id: ostravice-2016-site-plaque-symbol-and-horsky-portrait-24
-  - number: 25
-    items: 121-125
-    id: ostravice-service-crowd-procession-costumes-banners-and-clergy-25
-  - number: 26
-    items: 126-130
-    id: ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
-  - number: 27
-    items: 131-135
-    id: ostravice-welcome-infant-reproductions-address-and-congregation-27
-  - number: 28
-    items: 136-140
-    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd-28
-  - number: 29
-    items: 141-145
-    id: ostravice-final-group-and-vodicka-funeral-opening-29
-  - number: 30
-    items: 146-150
-    id: vodicka-funeral-mourners-faculty-exit-and-salutes-30
-  - number: 31
-    items: 151-155
-    id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque-31
-  - number: 32
-    items: 156-160
-    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
-  - number: 33
-    items: 161-165
-    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession-33
-  - number: 34
-    items: 166-170
-    id: stibor-funeral-coffin-bearing-street-clergy-and-procession-34
-  - number: 35
-    items: 171-175
-    id: stibor-funeral-wreaths-clergy-coffin-and-civilian-procession-35
-  - number: 36
-    items: 176-180
-    id: bogumsky-doubrava-service-altar-congregation-and-rite-36
-  - number: 37
-    items: 181-185
-    id: ostravice-1969-ecumenical-service-altar-pulpit-and-clergy-37
-  - number: 38
-    items: 186-190
-    id: calendar-2015-cover-history-january-february-march-38
-  - number: 39
-    items: 191-195
-    id: calendar-2015-april-may-june-july-august-39
-  - number: 40
-    items: 196-200
-    id: calendar-2015-september-october-november-december-and-closing-40
+  completed_batch_count: 40
+  completed_batch_ids:
+  - construction-sequence-01
+  - opening-and-early-interior-02
+  - first-communion-council-and-bells-03
+  - murals-occupation-exteriors-and-organ-04
+  - wedding-reconstruction-and-bishop-05
+  - reconstructed-chancel-carpet-and-obsil-murals-06
+  - anniversary-and-postwar-communion-groups-07
+  - renewed-communion-councils-and-choir-08
+  - modern-choir-and-chrobacek-inauguration-09
+  - chrobacek-anniversary-baptism-and-hus-commemoration-10
+  - hus-commemoration-continuation-and-living-nativity-11
+  - living-nativity-concerts-and-vodicka-memorial-12
+  - clergy-portraits-and-vodicka-bogumski-visit-13
+  - fiftieth-anniversary-baptisms-and-stibor-welcome-14
+  - stibor-visit-sequence-and-groups-15
+  - stibor-council-and-chrobacek-election-opening-16
+  - chrobacek-family-and-congratulations-17
+  - chrobacek-ritual-and-wife-congratulation-18
+  - chrobacek-investiture-address-and-document-19
+  - chrobacek-folk-costume-sculpture-reproductions-address-and-congregation-20
+  - chrobacek-final-duplicate-and-ostravice-chapel-opening-21
+  - ostravice-chapel-welcome-cabin-bell-tower-and-plaques-22
+  - ostravice-chapel-manager-service-old-and-new-bell-tower-23
+  - ostravice-2016-site-plaque-symbol-and-horsky-portrait-24
+  - ostravice-service-crowd-procession-costumes-banners-and-clergy-25
+  - ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
+  - ostravice-welcome-infant-reproductions-address-and-congregation-27
+  - ostravice-outdoor-clergy-choir-costumes-address-and-crowd-28
+  - ostravice-final-group-and-vodicka-funeral-opening-29
+  - vodicka-funeral-mourners-faculty-exit-and-salutes-30
+  - vodicka-funeral-closing-altar-portrait-and-duplicate-plaque-31
+  - stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
+  - stibor-funeral-clergy-exit-steps-and-outdoor-procession-33
+  - stibor-funeral-coffin-bearing-street-clergy-and-procession-34
+  - stibor-funeral-wreaths-clergy-coffin-and-civilian-procession-35
+  - bogumsky-doubrava-service-altar-congregation-and-rite-36
+  - ostravice-1969-ecumenical-service-altar-pulpit-and-clergy-37
+  - calendar-2015-cover-history-january-february-march-38
+  - calendar-2015-april-may-june-july-august-39
+  - calendar-2015-september-october-november-december-and-closing-40
   latest_batch_files:
     inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-40.csv
     classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-40.yml
     source_index: sources/index.d/urbanek-ccs-40.yml
-  technical_files:
-  - path: 10 Kalendář 2015/Thumbs.db
-    audit_status: completed_structurally_incomplete_no_missing_source_filenames
+  technical_file:
+    path: 10 Kalendář 2015/Thumbs.db
     file_size_bytes: 70656
     git_blob_sha: 91d73b30448ce8f8aa02a8ed79dafee5d349f0c2
     sha256: 056cb436b5556dea975512e8ff00cd80ffb8eaa7ecbf7c3c4795e8f47831d037
-    catalog_source_filenames: 1.jpg–15.jpg
     missing_full_originals_evidenced: 0
-    report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
 boj_o_nabozenstvi_collection:
   id: urbanek-boj-o-nabozenstvi
-  name: Boj o náboženství v Rychvaldě
   status: completed
-  source_root: sources/osobni-archiv-jaromira-urbanka/Boj o náboženství v Rychvaldě
-  totals:
-    content_files: 3
-    technical_files: 1
-    total_items: 4
-  progress:
-    processed_items: 4
-    repo_verified_items: 4
-    visually_classified_items: 3
-    source_indexed_items: 4
-    remaining_items: 0
-    inventory_status: completed
-    visual_classification_status: completed_first_pass
-    text_review_status: completed_visible_text_summary
-    thumbnail_cache_audit_status: completed_three_catalog_entries_all_matched_no_missing_full_original
-  files:
-    inventory: research/urbanek-archive/collections/boj-o-nabozenstvi-inventory.csv
-    classification: research/urbanek-archive/collections/boj-o-nabozenstvi.yml
-    visible_text: research/urbanek-archive/ocr/boj-o-nabozenstvi-visible-text.md
-    source_index: sources/index.d/urbanek-boj-o-nabozenstvi.yml
-    technical_audit: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
+  totals: {content_files: 3, technical_files: 1, total_items: 4, processed_items: 4}
   uncertainty: URB-U-0075
 rychvald_vcera_dnes_collection:
   id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
-  name: Fotografie knihy Rychvald včera a dnes
   status: in_progress
   source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
-  totals:
-    content_files: 54
-    technical_files: 1
-    total_items: 55
+  totals: {content_files: 54, technical_files: 1, total_items: 55}
   progress:
-    processed_content_files: 15
+    processed_content_files: 20
     processed_technical_files: 0
-    processed_items: 15
-    repo_verified_items: 15
-    visually_classified_items: 15
-    source_indexed_items: 15
-    remaining_content_files: 39
+    processed_items: 20
+    repo_verified_items: 20
+    visually_classified_items: 20
+    source_indexed_items: 20
+    remaining_content_files: 34
     remaining_technical_files: 1
-    remaining_items: 40
+    remaining_items: 35
     technical_cache_audit_status: pending_after_all_content_batches
   completed_batches:
-  - number: 1
-    items: 001-005
-    filenames:
-    - 0 titulní stránka.jpg
-    - 1.jpg
-    - 2.jpg
-    - 3.jpg
-    - 4.jpg
-    id: aerial-views-center-housing-and-rural-edge-01
-  - number: 2
-    items: 006-010
-    filenames:
-    - 5.jpg
-    - 6.jpg
-    - 7.jpg
-    - 8.jpg
-    - 9.jpg
-    id: aerial-views-center-ponds-and-residential-outskirts-02
-  - number: 3
-    items: 011-015
-    filenames:
-    - 10.jpg
-    - 11.jpg
-    - 12.jpg
-    - 13.jpg
-    - 14.jpg
-    id: aerial-views-basins-courtyard-complex-ponds-and-service-halls-03
+  - {number: 1, items: 001-005, id: aerial-views-center-housing-and-rural-edge-01}
+  - {number: 2, items: 006-010, id: aerial-views-center-ponds-and-residential-outskirts-02}
+  - {number: 3, items: 011-015, id: aerial-views-basins-courtyard-complex-ponds-and-service-halls-03}
+  - {number: 4, items: 016-020, id: aerial-views-housing-main-roads-intersection-and-vehicle-yard-04}
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-03.csv
-    classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-03.yml
-    source_index: sources/index.d/urbanek-rychvald-vcera-dnes-03.yml
+    inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-04.csv
+    classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-04.yml
+    source_index: sources/index.d/urbanek-rychvald-vcera-dnes-04.yml
   interpretation:
-    folder_title_is_archival_metadata: true
-    zero_filename_does_not_visibly_show_title_text: true
-    exact_binary_duplicates_in_batch_01: 0
-    exact_binary_duplicates_in_batch_02: 0
-    exact_binary_duplicates_in_batch_03: 0
-    overlapping_but_distinct_aerial_views:
-    - items 001-004
-    - items 006-007
-    - items 013-014
-  open_uncertainties:
-  - URB-U-0076
+    exact_binary_duplicates_in_batches_01_04: 0
+    overlapping_but_distinct_aerial_views: [items_001-004, items_006-007, items_013-014]
+    same_session_without_established_overlap: items_016_and_018
+    exif_clock_conflict: item_020_daylight_scene_but_datetime_23_39_36
+  open_uncertainties: [URB-U-0076]
   next_batch:
-    number: 4
-    filenames:
-    - 15.jpg
-    - 16.jpg
-    - 17.jpg
-    - 18.jpg
-    - 19.jpg
+    number: 5
+    filenames: [20.jpg, 21.jpg, 22.jpg, 23.jpg, 24.jpg]
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
-  summary:
-    open: 41
-    in_progress: 0
-    deferred: 0
-    resolved: 32
-    not_actionable: 3
-    total: 76
+  summary: {open: 41, in_progress: 0, deferred: 0, resolved: 32, not_actionable: 3, total: 76}
   workflow_resolution_status: deferred_until_full_archive_index_complete
-  note: Workflow deferral does not change individual open items to deferred.
-  ccs_range: URB-U-0039..URB-U-0074
   archive_indexing_range: URB-U-0075..URB-U-0076
-  history:
-    boj_o_nabozenstvi_added:
-    - URB-U-0075
-    rychvald_vcera_dnes_batch_01_added:
-    - URB-U-0076
-    rychvald_vcera_dnes_batch_02_updated:
-    - URB-U-0076
-    rychvald_vcera_dnes_batch_03_updated:
-    - URB-U-0076
-  handling_rules:
-  - Archival names and folder labels are attribution metadata, not independent historical proof.
-  - Persons are not identified solely from facial appearance.
-  - Multiple reproductions of one photograph are not independent event evidence.
-  - EXIF metadata is preserved as file metadata but does not independently establish authorship, publication use or historical
-    event date.
-  - A folder name suggesting book use and a filename suggesting a title page do not establish page reproduction without visible
-    page structure or bibliographic evidence.
-  - Exact identities of buildings, roads, railways and water bodies in aerial images require map, caption, documentary or
-    user-supplied evidence.
+  latest_update: {batch: 4, items: [URB-U-0076]}
 consistency_review:
-  status: full_source_root_inventory_completed_rychvald_vcera_dnes_batch_03_completed_indexing_continues
+  status: batch_04_completed_indexing_continues
   verified_totals:
     archive_total_items: 616
-    archive_processed_items: 379
-    archive_remaining_items: 237
+    archive_processed_items: 384
+    archive_remaining_items: 232
     current_collection_total_items: 55
-    current_collection_processed_items: 15
-    current_collection_remaining_items: 40
-  ci_status:
-    checks_returned: 0
-    interpretation: no_reported_checks_not_a_successful_test_run
+    current_collection_processed_items: 20
+    current_collection_remaining_items: 35
+  ci_status: {checks_returned: 0, interpretation: no_reported_checks_not_a_successful_test_run}
 readiness:
   status: draft_pr_open_full_archive_indexing_in_progress
   blockers_for_merge:
-  - remaining_237_archive_items_not_yet_indexed
+  - remaining_232_archive_items_not_yet_indexed
   - user_review_and_explicit_merge_decision_pending
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
   - forty_one historical personal archival and technical questions remain open
   - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
-  - the exact relationship of the current aerial photographs to the named book and their rights provenance remains open as
-    URB-U-0076
+  - the exact relationship of current aerial photographs to the named book and their rights provenance remains open as URB-U-0076
+  - item 020 contains a daylight image whose EXIF clock value reports 23:39:36
 next_action:
   type: continue_current_collection_batch
   processing_status: ready
-  remaining_archive_items: 237
+  remaining_archive_items: 232
   collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
-  source_path: Fotografie knihy Rychvald včera a dnes
-  batch_number: 4
-  filenames:
-  - 15.jpg
-  - 16.jpg
-  - 17.jpg
-  - 18.jpg
-  - 19.jpg
-  remaining_collection_items_after_batch_03: 40
+  batch_number: 5
+  filenames: [20.jpg, 21.jpg, 22.jpg, 23.jpg, 24.jpg]
+  remaining_collection_items_after_batch_04: 35
   technical_audit: after all 54 content files
-  after_collection: Continue in stable source order while only registering uncertainties.

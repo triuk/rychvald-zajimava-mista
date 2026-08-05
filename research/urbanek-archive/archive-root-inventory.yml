@@ -6,8 +6,8 @@ snapshot:
   commit: e94832c650dc15cf7e28b7affe66812f70bfd497
   inventoried_at: '2026-08-04'
   method: complete PR changed-file path enumeration filtered to source_root
-  scope_note: Authoritative for files staged in the current Git branch snapshot; it does not prove that no additional files
-    exist outside Git.
+  scope_note: Authoritative for files staged in the current Git branch snapshot; it does not prove that no additional
+    files exist outside Git.
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 totals:
@@ -16,12 +16,12 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 362
+  processed_content_files: 367
   processed_technical_files: 17
-  processed_items: 379
-  remaining_content_files: 225
+  processed_items: 384
+  remaining_content_files: 220
   remaining_technical_files: 12
-  remaining_items: 237
+  remaining_items: 232
 status_summary:
   completed_collections: 7
   in_progress_collections: 1
@@ -76,13 +76,13 @@ groups:
   content_files: 54
   technical_files: 1
   total_items: 55
-  processed_items: 15
-  remaining_items: 40
+  processed_items: 20
+  remaining_items: 35
   status: in_progress
   overview: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml
-  latest_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-03.csv
-  latest_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-03.yml
-  latest_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-03.yml
+  latest_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-04.csv
+  latest_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-04.yml
+  latest_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-04.yml
 - order: 5
   id: urbanek-noviny-1938-ceske-slovo
   source_path: Noviny 1938 České slovo
@@ -198,13 +198,13 @@ groups:
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
   current_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
-  completed_batch: 3
+  completed_batch: 4
   next_batch_filenames:
-  - 15.jpg
-  - 16.jpg
-  - 17.jpg
-  - 18.jpg
-  - 19.jpg
+  - 20.jpg
+  - 21.jpg
+  - 22.jpg
+  - 23.jpg
+  - 24.jpg
   reason:
   - continue the selected collection in stable filename order
   - bounded five-image batches preserve reviewability

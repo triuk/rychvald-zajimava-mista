@@ -37,8 +37,8 @@ Podrobný přehled: `research/urbanek-archive/archive-root-inventory.yml`.
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 382 | 17 | **399** |
-| zbývá | 205 | 12 | **217** |
+| zpracováno | 387 | 17 | **404** |
+| zbývá | 200 | 12 | **212** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
 Dokončeno je sedm kolekcí; osmá je rozpracovaná:
@@ -52,7 +52,7 @@ Dokončeno je sedm kolekcí; osmá je rozpracovaná:
 | Nálet na Ostravu 1944 | 7 | 1 | 8 | dokončeno |
 | Historie Církve československé | 200 | 1 | 201 | dokončeno |
 | Boj o náboženství v Rychvaldě | 3 | 1 | 4 | dokončeno |
-| Fotografie knihy Rychvald včera a dnes | 35 z 54 | 0 z 1 | 35 z 55 | probíhá |
+| Fotografie knihy Rychvald včera a dnes | 40 z 54 | 0 z 1 | 40 z 55 | probíhá |
 
 Pilot tvoří prvních pět kolekcí a nepředstavuje celý archiv. Audity pilotních cache
 prokázaly 11 chybějících plných originálů dochovaných pouze jako náhledy.
@@ -61,33 +61,33 @@ prokázaly 11 chybějících plných originálů dochovaných pouze jako náhled
 
 Kolekce obsahuje 54 JPEGů a jeden technický soubor `Thumbs.db`.
 
-### Dávka 07 – soubory `30.jpg` až `34.jpg`
+### Dávka 08 – soubory `35.jpg` až `39.jpg`
 
 - zpracováno a Git-ověřeno: **5 obrazových položek**;
-- celkem v kolekci: **35 z 55 položek**;
-- všechny soubory dávky jsou binárně odlišné, neshodují se s dávkami 01 až 06 a přesně odpovídají Git blobům;
-- `30.jpg` zachycuje řidší obytnou zástavbu s místními komunikacemi, rozlehlými zahradami a vzdálenými většími bytovými domy;
-- `31.jpg` zachycuje rozptýlenou obytnou zástavbu kolem rozsáhlé louky, zakřivených místních komunikací a lesního okraje;
-- `32.jpg` zachycuje sklizené pole s mnoha obdélnými balíky, pásy stromů a ojedinčelé stavby;
-- `33.jpg` zachycuje modelářskou závodní dráhu s vyvýšeným stanovištěm, stany, vozidly a účastníky; v obraze je čitelný nápis `RC TEAM RYCHVALD`;
-- `34.jpg` zachycuje sportovní areál se šesti antukovými tenisovými kurty, okolní obytnou zástavbu, železniční trať a stožár vedení vysokého napětí;
-- přesné názvy lokalit, komunikací, sportovních areálů, událostí a dalších objektů nebyly bez mapového nebo dokumentárního podkladu přiřazeny;
-- EXIF uvádí Sony DSC-WX7 a data od 28. září 2012 do 5. října 2013;
-- `31.jpg` a dříve zpracované `26.jpg`, `28.jpg` a `29.jpg` mají EXIF časy v rozsahu tří minut a pěti sekund; pracovní zařazení do jedné fotografické relace je možné, ale jednoznačný prostorový překryv nebyl zjištěn;
-- `30.jpg` a dříve zpracované `19.jpg` mají časy vzdálené dvě minuty a 18 sekund a oba snímky zachycují denní světlo navzdory hodinovým údajům kolem 23:40; hodinová složka proto není spolehlivým časem expozice;
-- žádný soubor dávky nemá vyplněný EXIF tag software;
-- nápis `RC TEAM RYCHVALD` podporuje vztah obsahu snímku `33.jpg` k Rychvaldu, ale neprokazuje přesnou lokaci, použití v knize, organizátora události ani autora fotografie;
+- celkem v kolekci: **40 z 55 položek**;
+- všechny soubory dávky jsou binárně odlišné, neshodují se s dávkami 01 až 07 a přesně odpovídají Git blobům;
+- `35.jpg` zachycuje obytnou a rybniční krajinu s hlavními i místními komunikacemi, rodinnými domy, zahradami, několika vodními plochami a vzdálenými většími bytovými domy;
+- `36.jpg` zachycuje obytnou a zemědělskou krajinu s hlavní silnicí a křižovatkou, rodinnými domy, poli, loukami a několika rozsáhlými vodními plochami;
+- `37.jpg` zachycuje rozptýlenou obytnou zástavbu podél místní komunikace, sousedící s poli, loukami a rozsáhlým lesním okrajem;
+- `38.jpg` zachycuje sklizené pole, protáhlou vodní plochu lemovanou stromy a navazující zemědělskou a sídelní krajinu;
+- `39.jpg` zachycuje soustavu propojených rybníků nebo vodních nádrží rozdělených hrázemi, obklopenou loukami, poli a lesními pásy;
+- přesné názvy lokalit, komunikací, vodních ploch, staveb a vzdálených panoramat nebyly bez mapového nebo dokumentárního podkladu přiřazeny;
+- EXIF uvádí Sony DSC-WX7 a data od 9. června 2012 do 28. září 2013;
+- `38.jpg` a `39.jpg` mají stejné datum EXIF a časy vzdálené 20 minut a 31 sekund; podobný krajinný charakter dovoluje pracovní zařazení do jedné letové relace, ale jednoznačný prostorový překryv nebyl zjištěn;
+- `37.jpg` sdílí datum EXIF se snímky `26.jpg`, `28.jpg`, `29.jpg`, `31.jpg` a `34.jpg`; širší časová návaznost sama neprokazuje shodnou lokalitu ani bezprostřední sekvenci;
+- `35.jpg` viditelně zachycuje denní světlo, přesto EXIF uvádí čas `22:36:44`; hodinová složka proto není vedena jako spolehlivý čas expozice;
+- `36.jpg` uvádí software `PMB`, `38.jpg` a `39.jpg` `Picasa`; `35.jpg` a `37.jpg` tag software nemají;
 - metadata nejsou nezávislým dokladem autorství, přesné lokace, použití v knize ani práv.
 
-Existující otevřené ID `URB-U-0076` bylo rozšířeno o položky `031–035`. Samostatná
+Existující otevřené ID `URB-U-0076` bylo rozšířeno o položky `036–040`. Samostatná
 rešerše zůstává odložena do závěrečné fáze.
 
 Pracovní soubory:
 
 - `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml`;
-- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-07.yml`;
-- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-07.csv`;
-- `sources/index.d/urbanek-rychvald-vcera-dnes-07.yml`;
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-08.yml`;
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-08.csv`;
+- `sources/index.d/urbanek-rychvald-vcera-dnes-08.yml`;
 - `research/urbanek-archive/uncertainties/open-22.yml`.
 
 ## Dosud nezpracované skupiny
@@ -95,14 +95,14 @@ Pracovní soubory:
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
 | volné soubory přímo v kořeni | 6 | 0 | 6 |
-| zbytek kolekce Fotografie knihy Rychvald včera a dnes | 19 | 1 | 20 |
+| zbytek kolekce Fotografie knihy Rychvald včera a dnes | 14 | 1 | 15 |
 | Noviny 1938 České slovo | 33 | 2 | 35 |
 | Rychvald | 31 | 2 | 33 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **205** | **12** | **217** |
+| **Celkem** | **200** | **12** | **212** |
 
 Adresář `fotodokument` je částečně zpracovaný: podsložka `den po dešti` je dokončena,
 ale 43 položek přímo v nadřazeném adresáři zůstává nezpracovaných.
@@ -123,9 +123,9 @@ workflow odložení je nepřevádí do stavu `deferred`.
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 399 položek;
-- zbývá 217 položek;
-- kolekce „Fotografie knihy Rychvald včera a dnes“ je zpracována v rozsahu 35 z 55 položek;
+- zpracovaný rozsah je 404 položek;
+- zbývá 212 položek;
+- kolekce „Fotografie knihy Rychvald včera a dnes“ je zpracována v rozsahu 40 z 55 položek;
 - registr používá součty 41/32/3/76;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
@@ -134,10 +134,10 @@ workflow odložení je nepřevádí do stavu `deferred`.
 
 - Aktivní fáze: `full_archive_indexing`.
 - Úplný soupis aktuálního Git snapshotu: `completed`.
-- Zbývající položky: **217**.
+- Zbývající položky: **212**.
 - Revize otevřených nejistot: `deferred_until_full_archive_index_complete`.
 - Aktuální kolekce: `Fotografie knihy Rychvald včera a dnes`.
-- Dokončené dávky: 01 až 07, položky `001–035`.
-- Následující dávka: `35.jpg`, `36.jpg`, `37.jpg`, `38.jpg`, `39.jpg`.
+- Dokončené dávky: 01 až 08, položky `001–040`.
+- Následující dávka: `40.jpg`, `41.jpg`, `42.jpg`, `43.jpg`, `44.jpg`.
 - Technický `Thumbs.db` bude auditován až po dokončení všech 54 obrazových souborů.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

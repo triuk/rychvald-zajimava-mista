@@ -16,12 +16,12 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 392
+  processed_content_files: 397
   processed_technical_files: 17
-  processed_items: 409
-  remaining_content_files: 195
+  processed_items: 414
+  remaining_content_files: 190
   remaining_technical_files: 12
-  remaining_items: 207
+  remaining_items: 202
 status_summary:
   completed_collections: 7
   in_progress_collections: 1
@@ -76,13 +76,13 @@ groups:
   content_files: 54
   technical_files: 1
   total_items: 55
-  processed_items: 45
-  remaining_items: 10
+  processed_items: 50
+  remaining_items: 5
   status: in_progress
   overview: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml
-  latest_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-09.csv
-  latest_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-09.yml
-  latest_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-09.yml
+  latest_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-10.csv
+  latest_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-10.yml
+  latest_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-10.yml
 - order: 5
   id: urbanek-noviny-1938-ceske-slovo
   source_path: Noviny 1938 České slovo
@@ -99,7 +99,7 @@ groups:
   technical_files: 1
   total_items: 8
   processed_items: 8
-  remaining_items: 0
+  remainining_items: 0
   status: completed
   inventory: research/urbanek-archive/collections/nalet-na-ostravu-1944-inventory.csv
 - order: 7
@@ -152,7 +152,7 @@ groups:
     inventory: research/urbanek-archive/collections/den-po-desti-inventory.csv
   - id: urbanek-fotodokument-root
     source_path: fotodokument
-    scope: files directly in fotodokument, excluding den po dešti
+    scope: files directly in fotodokument, excluding den po de�hti
     content_files: 41
     technical_files: 2
     total_items: 43
@@ -198,13 +198,12 @@ groups:
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
   current_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
-  completed_batch: 9
+  completed_batch: 10
   next_batch_filenames:
-  - 45.jpg
-  - 46.jpg
-  - 47.jpg
-  - 48.jpg
-  - 49.jpg
+  - 50.jpg
+  - 51.jpg
+  - 52.jpg
+  - 53.jpg
   reason:
   - continue the selected collection in stable filename order
   - bounded five-image batches preserve reviewability

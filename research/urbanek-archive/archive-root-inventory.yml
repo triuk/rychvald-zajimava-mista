@@ -16,12 +16,12 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 377
+  processed_content_files: 382
   processed_technical_files: 17
-  processed_items: 394
-  remaining_content_files: 210
+  processed_items: 399
+  remaining_content_files: 205
   remaining_technical_files: 12
-  remaining_items: 222
+  remaining_items: 217
 status_summary:
   completed_collections: 7
   in_progress_collections: 1
@@ -76,13 +76,13 @@ groups:
   content_files: 54
   technical_files: 1
   total_items: 55
-  processed_items: 30
-  remaining_items: 25
+  processed_items: 35
+  remaining_items: 20
   status: in_progress
   overview: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml
-  latest_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-06.csv
-  latest_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-06.yml
-  latest_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-06.yml
+  latest_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-07.csv
+  latest_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-07.yml
+  latest_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-07.yml
 - order: 5
   id: urbanek-noviny-1938-ceske-slovo
   source_path: Noviny 1938 České slovo
@@ -198,13 +198,13 @@ groups:
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
   current_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
-  completed_batch: 6
+  completed_batch: 7
   next_batch_filenames:
-  - 30.jpg
-  - 31.jpg
-  - 32.jpg
-  - 33.jpg
-  - 34.jpg
+  - 35.jpg
+  - 36.jpg
+  - 37.jpg
+  - 38.jpg
+  - 39.jpg
   reason:
   - continue the selected collection in stable filename order
   - bounded five-image batches preserve reviewability

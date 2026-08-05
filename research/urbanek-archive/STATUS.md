@@ -37,8 +37,8 @@ Podrobný přehled: `research/urbanek-archive/archive-root-inventory.yml`.
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 357 | 17 | **374** |
-| zbývá | 230 | 12 | **242** |
+| zpracováno | 362 | 17 | **379** |
+| zbývá | 225 | 12 | **237** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
 Dokončeno je sedm kolekcí; osmá je rozpracovaná:
@@ -52,7 +52,7 @@ Dokončeno je sedm kolekcí; osmá je rozpracovaná:
 | Nálet na Ostravu 1944 | 7 | 1 | 8 | dokončeno |
 | Historie Církve československé | 200 | 1 | 201 | dokončeno |
 | Boj o náboženství v Rychvaldě | 3 | 1 | 4 | dokončeno |
-| Fotografie knihy Rychvald včera a dnes | 10 z 54 | 0 z 1 | 10 z 55 | probíhá |
+| Fotografie knihy Rychvald včera a dnes | 15 z 54 | 0 z 1 | 15 z 55 | probíhá |
 
 Pilot tvoří prvních pět kolekcí a nepředstavuje celý archiv. Audity pilotních cache
 prokázaly 11 chybějících plných originálů dochovaných pouze jako náhledy.
@@ -61,28 +61,30 @@ prokázaly 11 chybějících plných originálů dochovaných pouze jako náhled
 
 Kolekce obsahuje 54 JPEGů a jeden technický soubor `Thumbs.db`.
 
-### Dávka 02 – soubory `5.jpg` až `9.jpg`
+### Dávka 03 – soubory `10.jpg` až `14.jpg`
 
 - zpracováno a Git-ověřeno: **5 obrazových položek**;
-- celkem v kolekci: **10 z 55 položek**;
+- celkem v kolekci: **15 z 55 položek**;
 - všechny soubory dávky jsou binárně odlišné a přesně odpovídají Git blobům;
-- `5.jpg` a `6.jpg` zachycují částečně překrývající se centrální prostor se sakrálními stavbami, hlavní komunikací a vodními plochami;
-- `7.jpg` až `9.jpg` zachycují různé části okrajové obytné a zemědělské krajiny;
-- přesné názvy ulic, staveb, vodních ploch a železničního úseku nejsou bez mapového nebo dokumentárního podkladu přiřazeny;
-- EXIF uvádí Sony DSC-WX7 a data od 24. března 2012 do 28. září 2013;
-- `5.jpg` a `6.jpg` mají časy od sebe vzdálené deset sekund a prostorově se překrývají, což podporuje jejich pracovní zařazení do jedné fotografické sekvence;
-- pouze `5.jpg` obsahuje EXIF tag software `Picasa`;
+- `10.jpg` zachycuje provozní areál s několika obdélnými nádržemi, větší vodní plochou, silnicemi a železniční tratí;
+- `11.jpg` zachycuje rozsáhlý dvůrový komplex, řady menších staveb, komunikaci, samostatné domy a bytový dům;
+- `12.jpg` a `13.jpg` jsou překrývající se pohledy na vodní plochy oddělené železničním pásem a okolní sídelní krajinu;
+- `14.jpg` zachycuje provozní haly, zpevněné plochy, obytnou nebo zahrádkářskou zástavbu, zeleň a vodní plochu;
+- přesné názvy areálů, komunikací, železničního úseku a vodních ploch nejsou bez mapového nebo dokumentárního podkladu přiřazeny;
+- EXIF uvádí Sony DSC-WX7 a data od 7. srpna do 28. září 2013;
+- `12.jpg` a `13.jpg` mají časy vzdálené pět sekund a prostorově se překrývají, což podporuje jejich pracovní zařazení do jedné fotografické sekvence;
+- soubory `10.jpg`, `11.jpg` a `13.jpg` obsahují EXIF tag software `Picasa`;
 - metadata nejsou nezávislým dokladem autorství, přesné lokace, použití v knize ani práv.
 
-Existující otevřené ID `URB-U-0076` bylo rozšířeno o položky `006–010`. Samostatná
+Existující otevřené ID `URB-U-0076` bylo rozšířeno o položky `011–015`. Samostatná
 rešerše zůstává odložena do závěrečné fáze.
 
 Pracovní soubory:
 
 - `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml`;
-- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-02.yml`;
-- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-02.csv`;
-- `sources/index.d/urbanek-rychvald-vcera-dnes-02.yml`;
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-03.yml`;
+- `research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-03.csv`;
+- `sources/index.d/urbanek-rychvald-vcera-dnes-03.yml`;
 - `research/urbanek-archive/uncertainties/open-22.yml`.
 
 ## Dosud nezpracované skupiny
@@ -90,14 +92,14 @@ Pracovní soubory:
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
 | volné soubory přímo v kořeni | 6 | 0 | 6 |
-| zbytek kolekce Fotografie knihy Rychvald včera a dnes | 44 | 1 | 45 |
+| zbytek kolekce Fotografie knihy Rychvald včera a dnes | 39 | 1 | 40 |
 | Noviny 1938 České slovo | 33 | 2 | 35 |
 | Rychvald | 31 | 2 | 33 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **230** | **12** | **242** |
+| **Celkem** | **225** | **12** | **237** |
 
 Adresář `fotodokument` je částečně zpracovaný: podsložka `den po dešti` je dokončena,
 ale 43 položek přímo v nadřazeném adresáři zůstává nezpracovaných.
@@ -118,9 +120,9 @@ workflow odložení je nepřevádí do stavu `deferred`.
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 374 položek;
-- zbývá 242 položek;
-- kolekce „Fotografie knihy Rychvald včera a dnes“ je zpracována v rozsahu 10 z 55 položek;
+- zpracovaný rozsah je 379 položek;
+- zbývá 237 položek;
+- kolekce „Fotografie knihy Rychvald včera a dnes“ je zpracována v rozsahu 15 z 55 položek;
 - registr používá součty 41/32/3/76;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
@@ -129,10 +131,10 @@ workflow odložení je nepřevádí do stavu `deferred`.
 
 - Aktivní fáze: `full_archive_indexing`.
 - Úplný soupis aktuálního Git snapshotu: `completed`.
-- Zbývající položky: **242**.
+- Zbývající položky: **237**.
 - Revize otevřených nejistot: `deferred_until_full_archive_index_complete`.
 - Aktuální kolekce: `Fotografie knihy Rychvald včera a dnes`.
-- Dokončené dávky: 01 a 02, položky `001–010`.
-- Následující dávka: `10.jpg`, `11.jpg`, `12.jpg`, `13.jpg`, `14.jpg`.
+- Dokončené dávky: 01 až 03, položky `001–015`.
+- Následující dávka: `15.jpg`, `16.jpg`, `17.jpg`, `18.jpg`, `19.jpg`.
 - Technický `Thumbs.db` bude auditován až po dokončení všech 54 obrazových souborů.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

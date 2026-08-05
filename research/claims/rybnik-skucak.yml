@@ -30,3 +30,23 @@ claims:
   verification_status: verified
   confidence: high
   note: Stránka uvádí také aktuální vyhlašovací předpis, nařízení Moravskoslezského kraje č. 1/2018.
+- claim_id: rybnik-skucak-004
+  place_id: rybnik-skucak
+  statement: Slavnostní výlov Skučáku dne 27. října 2001 se stal podnětem k pravidelnému pořádání Rybářských slavností.
+  date_or_period: '2001-10-27'
+  source_id: kronika-2001-2010
+  locator: s. 12
+  supporting_excerpt: Úspěch akce podnítil rozhodnutí pořádat ji pravidelně i v příštích letech jako Rybářské slavnosti.
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: rybnik-skucak-005
+  place_id: rybnik-skucak
+  statement: V roce 2004 byl Skučák kvůli odbahnění vypuštěn a Rybí slavnosti byly proto přeneseny do centra města.
+  date_or_period: '2004'
+  source_id: kronika-2001-2010
+  locator: s. 33
+  supporting_excerpt: rybník Skučák […] byl letos kvůli odbahnění vypuštěn […] slavnost byla přesunuta
+  verification_status: verified
+  confidence: high
+  note: ''

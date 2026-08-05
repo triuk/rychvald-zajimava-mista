@@ -1,0 +1,22 @@
+place_id: materska-skola-podlesi
+claims:
+- claim_id: materska-skola-podlesi-001
+  place_id: materska-skola-podlesi
+  statement: Kronika v roce 2001 uvádí mateřskou školu na Podlesí jako jednu ze tří městských mateřských škol.
+  date_or_period: '2001'
+  source_id: kronika-2001-2010
+  locator: s. 9
+  supporting_excerpt: 'tři mateřské školky: na sídlišti, na Václavu a na Podlesí'
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: materska-skola-podlesi-002
+  place_id: materska-skola-podlesi
+  statement: Zrekonstruovaná mateřská škola na Podlesí byla znovu otevřena 21. září 2009.
+  date_or_period: '2009-09-21'
+  source_id: kronika-2001-2010
+  locator: s. 72
+  supporting_excerpt: Dne 21.9.2009 byla slavnostně odevzdána do opětovného užívání zrekonstruovaná mateřská školka na Podlesí
+  verification_status: verified
+  confidence: high
+  note: ''

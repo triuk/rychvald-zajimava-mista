@@ -10,3 +10,13 @@ claims:
   verification_status: verified
   confidence: high
   note: ''
+- claim_id: husuv-sbor-002
+  place_id: husuv-sbor
+  statement: Dne 14. října 2010 se v husitském kostele konal koncert Svatováclavského hudebního festivalu.
+  date_or_period: '2010-10-14'
+  source_id: kronika-2001-2010
+  locator: s. 87
+  supporting_excerpt: Ve čtvrtek 14. října se v husitském kostele konal jeden z koncertů tohoto cyklu
+  verification_status: verified
+  confidence: high
+  note: ''

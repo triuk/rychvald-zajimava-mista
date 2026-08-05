@@ -1,0 +1,22 @@
+place_id: kastanova-alej-mezi-kostely
+claims:
+- claim_id: kastanova-alej-mezi-kostely-001
+  place_id: kastanova-alej-mezi-kostely
+  statement: Kronika klade výsadbu kaštanové aleje od husitského ke katolickému kostelu na konec 19. století.
+  date_or_period: konec 19. století
+  source_id: kronika-2001-2010
+  locator: s. 54
+  supporting_excerpt: byly zde zasazeny koncem 19. století […] jako alej vedoucí ke škole
+  verification_status: verified
+  confidence: medium
+  note: Kdo alej vysadil, uvádí kronika pouze jako tradované tvrzení.
+- claim_id: kastanova-alej-mezi-kostely-002
+  place_id: kastanova-alej-mezi-kostely
+  statement: Staré kaštany v aleji mezi kostely byly pokáceny v září 2006; kronika jako důvod uvádí napadení klíněnkou jírovcovou.
+  date_or_period: 2006-09
+  source_id: kronika-2001-2010
+  locator: s. 54–55
+  supporting_excerpt: V září 2006 byly pokáceny staré kaštany v aleji vedoucí od husitského kostela směrem ke katolickému
+  verification_status: verified
+  confidence: high
+  note: ''

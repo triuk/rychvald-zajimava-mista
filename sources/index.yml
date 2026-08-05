@@ -139,6 +139,41 @@ sources:
   notes:
   - Dokument uvádí, že byl vytištěn v roce 2020 a obsahuje 150 číslovaných stran.
   - Jde o novodobě vysázený text, nikoli o obrazový sken rukopisné kroniky.
+- source_id: kronika-2001-2010
+  title: Kronika Rychvaldu 2001–2010
+  document_type: kronika_novodoby_tisteny_prepis
+  year: 2025
+  volume: null
+  issue: null
+  author: doc. RNDr. Tadeusz Siwek, CSc.
+  time_period:
+    from: '2001'
+    to: '2010'
+  file: sources/kroniky/Kronika-2001-2010-definitivni.pdf
+  file_size_bytes: 5847389
+  sha256: 40b891d4e43ac6e6689d76fd1c664317fe9538fce8cb398109fbb2767b48bb04
+  page_count: 87
+  digital_format: PDF
+  text_layer: present
+  readability:
+    status: good
+    note: Všech 87 stran je čitelných a má textovou vrstvu. Vizuálně byly zkontrolovány titulní strany a reprezentativní vnitřní
+      strany napříč všemi ročníky.
+  visual_content:
+    photographs: present
+    maps: not_detected
+    indexes: not_detected
+    method: Vizuální kontrola titulní strany a reprezentativních stran napříč dokumentem, kontrola obrazových objektů a celotextové
+      vyhledání výrazů pro mapy, obsah a rejstřík.
+  missing_pages:
+    status: not_detected
+    note: PDF má souvislou digitální posloupnost 87 stran; dokument na titulní straně uvádí, že obsahuje 87 číslovaných stran.
+  rights:
+    status: unclear
+    note: Kronikář je v dokumentu uveden; licence ani držitel publikačních práv nebyli ověřeni.
+  notes:
+  - Dokument uvádí, že byl vytištěn v roce 2025.
+  - Jde o novodobě vysázený text s vloženými fotografiemi, nikoli o obrazový sken rukopisné kroniky.
 - source_id: rz-2010-01
   title: Rychvaldský zpravodaj 2010/01 (leden)
   document_type: obecni_zpravodaj

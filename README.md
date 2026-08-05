@@ -24,9 +24,9 @@ _Bude doplněno po inventarizaci pramenů._
 
 | Část práce | Stav |
 |---|---|
-| Inventář nahraných pramenů | dokončen: 209 dokumentů; doplněny 3 oficiální webové zdroje |
-| Základní katalog míst | dokončen první průchod: 61 míst |
-| Evidence tvrzení | založeno 61 souborů; evidence zámku rozšířena pro pilotní článek |
+| Inventář nahraných pramenů | dokončen: 210 dokumentů; doplněny 3 oficiální webové zdroje |
+| Základní katalog míst | dokončen první průchod: 71 míst |
+| Evidence tvrzení | založeno 71 souborů; evidence zámku rozšířena pro pilotní článek |
 | Výběr pilotního místa | potvrzen Rychvaldský zámek |
 | Rozpracované články | 1 pilotní návrh: Rychvaldský zámek |
 

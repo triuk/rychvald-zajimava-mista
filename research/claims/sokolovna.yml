@@ -10,3 +10,23 @@ claims:
   verification_status: verified
   confidence: high
   note: ''
+- claim_id: sokolovna-002
+  place_id: sokolovna
+  statement: Při velké vodě 16. května 2010 zaplavila voda ze Stružky hřiště na Sokolovně.
+  date_or_period: '2010-05-16'
+  source_id: kronika-2001-2010
+  locator: s. 83
+  supporting_excerpt: zvedla hladina Stružky […] že opět zaplavila hřiště na Sokolovně
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: sokolovna-003
+  place_id: sokolovna
+  statement: Dne 3. července 2010 se v areálu Sokolovny konala šachová simultánka s velmistrem Robertem Cvekem.
+  date_or_period: '2010-07-03'
+  source_id: kronika-2001-2010
+  locator: s. 83
+  supporting_excerpt: 3. července 2010 konala v areálu Sokolovny simultánka s mezinárodním velmistrem Robertem Cvekem
+  verification_status: verified
+  confidence: high
+  note: ''

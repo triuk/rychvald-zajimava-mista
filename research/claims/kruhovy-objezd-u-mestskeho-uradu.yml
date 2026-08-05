@@ -1,0 +1,13 @@
+place_id: kruhovy-objezd-u-mestskeho-uradu
+claims:
+- claim_id: kruhovy-objezd-u-mestskeho-uradu-001
+  place_id: kruhovy-objezd-u-mestskeho-uradu
+  statement: Kruhový objezd na křižovatce Michálkovické a Orlovské ulice vedle městského úřadu byl vybudován v létě 2002 a
+    otevřen v září.
+  date_or_period: 2002-09
+  source_id: kronika-2001-2010
+  locator: s. 20
+  supporting_excerpt: vybudován kruhový objezd […] na křižovatce ulic Michálkovické a Orlovské vedle budovy Městského úřadu
+  verification_status: verified
+  confidence: high
+  note: ''

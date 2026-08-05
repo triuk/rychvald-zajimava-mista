@@ -9,7 +9,8 @@ claims:
   supporting_excerpt: zámek, jejž nechal postavit Bernard Barský z Baště v roce 1573
   verification_status: conflicting
   confidence: medium
-  note: Detail NPÚ a oficiální web města shodně uvádějí 1575–1577; `rz-2011-11`, s. 8 spojuje rok 1573 se získáním panství Burianem Barským.
+  note: Detail NPÚ a oficiální web města shodně uvádějí 1575–1577; `rz-2011-11`, s. 8 spojuje rok 1573 se získáním panství
+    Burianem Barským.
 - claim_id: rychvaldsky-zamek-002
   place_id: rychvaldsky-zamek
   statement: Textový přepis kroniky klade přestavbu nynějšího zámku do roku 1595.
@@ -19,11 +20,12 @@ claims:
   supporting_excerpt: Nynější zámek … vystavěn byl r. 1595 Bernardem Barským z Baště.
   verification_status: uncertain
   confidence: low
-  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu
-    proti obrazovému originálu. Dataci 1595 nepotvrdil detail NPÚ, web města ani odborný text Muzea Těšínska.
+  note: Tvrzení vychází z textového přepisu kroniky bez spolehlivých digitálních hranic stran; vyžaduje kontrolu proti obrazovému
+    originálu. Dataci 1595 nepotvrdil detail NPÚ, web města ani odborný text Muzea Těšínska.
 - claim_id: rychvaldsky-zamek-003
   place_id: rychvaldsky-zamek
-  statement: Památkový katalog eviduje rychvaldský zámek jako kulturní památku na čp. 1 a obsahuje jeho zákres do katastrální mapy.
+  statement: Památkový katalog eviduje rychvaldský zámek jako kulturní památku na čp. 1 a obsahuje jeho zákres do katastrální
+    mapy.
   date_or_period: stav ověřen 2026-07-17
   source_id: web-npu-rychvald-zamek
   locator: záhlaví záznamu a část s katastrální mapou
@@ -40,17 +42,21 @@ claims:
   supporting_excerpt: Renesanční čtyřkřídlý zámek vystavěl v letech 1575–77 Bernard Barský z Baště
   verification_status: verified
   confidence: high
-  note: Rozmezí nezávisle potvrzují `web-npu-rychvald-zamek-detail` a `web-mesto-rychvald-o-meste`; rok 1573 a údaj 1595 jsou v článku zachovány jako odlišné varianty.
+  note: Rozmezí nezávisle potvrzují `web-npu-rychvald-zamek-detail` a `web-mesto-rychvald-o-meste`; rok 1573 a údaj 1595 jsou
+    v článku zachovány jako odlišné varianty.
 - claim_id: rychvaldsky-zamek-013
   place_id: rychvaldsky-zamek
-  statement: Rychvaldský zpravodaj z listopadu 2011 klade výstavbu zámku do druhé poloviny 70. let 16. století poté, co Burian Barský získal panství roku 1573.
+  statement: Rychvaldský zpravodaj z listopadu 2011 klade výstavbu zámku do druhé poloviny 70. let 16. století poté, co Burian
+    Barský získal panství roku 1573.
   date_or_period: druhá polovina 70. let 16. století
   source_id: rz-2011-11
   locator: s. 8, článek „Rekonstrukce rychvaldského zámku je v plném proudu“
-  supporting_excerpt: byl vystavěn Bernardem Barským z Baště ve 2. polovině 70. let 16. století poté, co toto panství v roce 1573 získal […] jeho otec Burian Barský
+  supporting_excerpt: byl vystavěn Bernardem Barským z Baště ve 2. polovině 70. let 16. století poté, co toto panství v roce
+    1573 získal […] jeho otec Burian Barský
   verification_status: partially_verified
   confidence: medium
-  note: Výstavbu v druhé polovině 70. let potvrzují oficiální zdroje přesněji jako 1575–1577; údaj o získání panství roku 1573 zatím stojí na tomto zpravodaji.
+  note: Výstavbu v druhé polovině 70. let potvrzují oficiální zdroje přesněji jako 1575–1577; údaj o získání panství roku
+    1573 zatím stojí na tomto zpravodaji.
 - claim_id: rychvaldsky-zamek-005
   place_id: rychvaldsky-zamek
   statement: Zpravodaj popisuje zámek jako čtyřkřídlou stavbu s arkádovým nádvořím.
@@ -80,7 +86,8 @@ claims:
   supporting_excerpt: V roce 1988 se dokonce uvažovalo o demolici celého zámku.
   verification_status: verified
   confidence: high
-  note: Ověřeno v textové vrstvě a vizuálně na stránce PDF; úvahu o demolici potvrzuje také `web-mesto-rychvald-o-meste`, oddíl Památky. Podklad rozhodování zatím nebyl dohledán.
+  note: Ověřeno v textové vrstvě a vizuálně na stránce PDF; úvahu o demolici potvrzuje také `web-mesto-rychvald-o-meste`,
+    oddíl Památky. Podklad rozhodování zatím nebyl dohledán.
 - claim_id: rychvaldsky-zamek-008
   place_id: rychvaldsky-zamek
   statement: Pavel Šmíra koupil zámek roku 2009 a zahájil jeho celkovou rekonstrukci.
@@ -107,17 +114,20 @@ claims:
   date_or_period: doloženo v listopadu 2011
   source_id: rz-2011-11
   locator: s. 11, pokračování článku „Rekonstrukce rychvaldského zámku je v plném proudu“
-  supporting_excerpt: odhaleny například základy jedinečné černé kuchyně […] cenných klenutých sálů […] pozůstatků fresek a psaníčkových sgrafit
+  supporting_excerpt: odhaleny například základy jedinečné černé kuchyně […] cenných klenutých sálů […] pozůstatků fresek
+    a psaníčkových sgrafit
   verification_status: verified
   confidence: high
   note: Zpravodaj nálezy popisuje, ale samostatná památková zpráva zatím nebyla dohledána.
 - claim_id: rychvaldsky-zamek-011
   place_id: rychvaldsky-zamek
-  statement: V květnu 2025 byl zámek ve zpravodaji popsán jako hotel s kapacitou 39 hostů a jako areál pro svatby a firemní akce.
-  date_or_period: '2025-05'
+  statement: V květnu 2025 byl zámek ve zpravodaji popsán jako hotel s kapacitou 39 hostů a jako areál pro svatby a firemní
+    akce.
+  date_or_period: 2025-05
   source_id: rz-2025-05
   locator: s. 5, popisky fotografií
-  supporting_excerpt: Zámek teď funguje jako hotel […] s celkovou kapacitou 39 hostů. Areál zámku je ideálním místem pro pořádání svateb nebo firemních akcí.
+  supporting_excerpt: Zámek teď funguje jako hotel […] s celkovou kapacitou 39 hostů. Areál zámku je ideálním místem pro pořádání
+    svateb nebo firemních akcí.
   verification_status: verified
   confidence: high
   note: Jde o stav doložený v květnu 2025, nikoli o trvalou garanci provozu nebo přístupnosti.
@@ -133,7 +143,8 @@ claims:
   note: Nejnovější ručně ověřený doklad skutečného veřejného využití zámku.
 - claim_id: rychvaldsky-zamek-014
   place_id: rychvaldsky-zamek
-  statement: Detail Památkového katalogu popisuje objekt jako čtyřkřídlý dvojpodlažní renesanční zámek postavený v letech 1575–1577 Bernardem Barským z Baště.
+  statement: Detail Památkového katalogu popisuje objekt jako čtyřkřídlý dvojpodlažní renesanční zámek postavený v letech
+    1575–1577 Bernardem Barským z Baště.
   date_or_period: 1575–1577
   source_id: web-npu-rychvald-zamek-detail
   locator: oddíl „Anotace“
@@ -153,7 +164,8 @@ claims:
   note: Druhý oficiální zdroj shodný s detailem NPÚ.
 - claim_id: rychvaldsky-zamek-016
   place_id: rychvaldsky-zamek
-  statement: Oficiální web města uvádí, že se roku 1988 uvažovalo o demolici zámku a že poslední vlastník zahájil záchranné práce roku 2009.
+  statement: Oficiální web města uvádí, že se roku 1988 uvažovalo o demolici zámku a že poslední vlastník zahájil záchranné
+    práce roku 2009.
   date_or_period: 1988 / 2009
   source_id: web-mesto-rychvald-o-meste
   locator: oddíl „Památky“, odstavec o poválečném osudu zámku
@@ -171,3 +183,14 @@ claims:
   verification_status: verified
   confidence: high
   note: Podporuje obecné zařazení památky do poslední čtvrtiny 16. století, nikoli přesný rok výstavby.
+- claim_id: rychvaldsky-zamek-018
+  place_id: rychvaldsky-zamek
+  statement: Kronika vedená za rok 2010 uvádí, že se Pavel Šmíra stal novým majitelem zámku v tomto roce.
+  date_or_period: '2010'
+  source_id: kronika-2001-2010
+  locator: s. 85
+  supporting_excerpt: Zchátralý Stahrembergův zámek má od letošního roku nového majitele. Je jím pan Pavel Šmíra
+  verification_status: conflicting
+  confidence: high
+  note: Rozpor s `rz-2025-05`, s. 5 a `web-mesto-rychvald-o-meste`, které uvádějí rok 2009. Kronika podporuje rok 2010 přímo
+    v zápisu za tento rok.

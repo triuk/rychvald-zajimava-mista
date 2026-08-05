@@ -1,0 +1,12 @@
+place_id: skolici-stredisko-silma
+claims:
+- claim_id: skolici-stredisko-silma-001
+  place_id: skolici-stredisko-silma
+  statement: Školicí středisko Silma poblíž rybníku Cihelňák bylo slavnostně otevřeno v roce 2005.
+  date_or_period: '2005'
+  source_id: kronika-2001-2010
+  locator: s. 40
+  supporting_excerpt: slavnostní otevření školícího střediska Silma poblíž rybníku Cihelňák
+  verification_status: verified
+  confidence: high
+  note: ''

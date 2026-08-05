@@ -10,3 +10,14 @@ claims:
   verification_status: verified
   confidence: high
   note: ''
+- claim_id: potok-struzka-002
+  place_id: potok-struzka
+  statement: Dne 16. května 2010 se po vydatných deštích zvedla hladina Stružky a zaplavila hřiště Sokolovny a sklepy okolních
+    domů.
+  date_or_period: '2010-05-16'
+  source_id: kronika-2001-2010
+  locator: s. 83
+  supporting_excerpt: zvedla hladina Stružky […] zaplavila hřiště na Sokolovně a několik sklepů
+  verification_status: verified
+  confidence: high
+  note: ''

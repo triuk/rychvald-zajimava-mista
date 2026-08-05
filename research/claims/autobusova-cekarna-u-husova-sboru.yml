@@ -1,0 +1,13 @@
+place_id: autobusova-cekarna-u-husova-sboru
+claims:
+- claim_id: autobusova-cekarna-u-husova-sboru-001
+  place_id: autobusova-cekarna-u-husova-sboru
+  statement: V létě 2001 byla zbourána zděná, prosklená a vytápěná čekárna před husitským kostelem, která podle kroniky stála
+    30 let.
+  date_or_period: '2001'
+  source_id: kronika-2001-2010
+  locator: s. 11
+  supporting_excerpt: V létě byla zbourána velká zděná čekárna […] před husitským kostelem. Stála zde 30 let
+  verification_status: verified
+  confidence: high
+  note: Rok výstavby není v prameni uveden; přibližný rok 1971 je pouze odvozen z délky existence.

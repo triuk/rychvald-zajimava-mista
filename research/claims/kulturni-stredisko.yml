@@ -10,3 +10,24 @@ claims:
   verification_status: verified
   confidence: high
   note: ''
+- claim_id: kulturni-stredisko-002
+  place_id: kulturni-stredisko
+  statement: V srpnu 2006 začala rekonstrukce kulturního střediska; kronika uvádí také změnu názvu na Kulturní dům.
+  date_or_period: 2006-08
+  source_id: kronika-2001-2010
+  locator: s. 52
+  supporting_excerpt: V srpnu začala dlouho očekávaná rekonstrukce kulturního střediska […] z původního kulturního střediska
+    bude Kulturní dům.
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: kulturni-stredisko-003
+  place_id: kulturni-stredisko
+  statement: Dne 13. listopadu 2010 se v Kulturním středisku konala oslava sta let polského sborového zpěvu.
+  date_or_period: '2010-11-13'
+  source_id: kronika-2001-2010
+  locator: s. 86
+  supporting_excerpt: V sobotu 13. listopadu 2010 se konalo v Kulturním středisku vystoupení polského pěveckého sdružení Rychwałdzianie
+  verification_status: verified
+  confidence: high
+  note: ''

@@ -23,7 +23,7 @@ Sem zapisuj nevyřešené otázky, rozpory mezi prameny a informace vyžadujíc�
 
 ## Práva
 
-- U žádného z 209 dokumentů nebyla při inventarizaci ověřena licence umožňující další zveřejnění. U zpravodajů a městských dokumentů je uveden vydavatel Město Rychvald, což samo o sobě neurčuje autora jednotlivých textů a fotografií ani rozsah publikačních oprávnění.
+- U žádného z 210 dokumentů nebyla při inventarizaci ověřena licence umožňující další zveřejnění. U zpravodajů a městských dokumentů je uveden vydavatel Město Rychvald, což samo o sobě neurčuje autora jednotlivých textů a fotografií ani rozsah publikačních oprávnění.
 
 ## Rozpory zjištěné při katalogizaci míst
 
@@ -45,3 +45,10 @@ Sem zapisuj nevyřešené otázky, rozpory mezi prameny a informace vyžadujíc�
 - Zpravodaje obsahují obrazový materiál k zámku, kostelu sv. Anny, Skučáku, školám, mlýnům, Sokolovně a památníkům. Před převzetím do `images/` je nutné u každého snímku nebo kresby zjistit autora, datum, původ, držitele práv a licenci.
 - Kresby mlýnů na `rz-2011-09`, s. 14 jsou reprodukcemi děl Přemysla Pastuchy, nikoli automaticky volně použitelnými historickými fotografiemi.
 - U tvrzení převzatých pouze z textových přepisů kronik je stav nejvýše `partially_verified`, dokud nebude výňatek a lokátor porovnán s obrazovým originálem.
+
+## Rozpory a neurčené objekty z kroniky 2001–2010
+
+- **Rychvaldský zámek – rok změny vlastníka:** `kronika-2001-2010`, s. 85 uvádí v zápisu za rok 2010, že zámek má „od letošního roku“ nového majitele Pavla Šmíru. `rz-2025-05`, s. 5 a oficiální web města naopak uvádějí rok 2009. Je třeba dohledat kupní smlouvu, vklad do katastru nebo jiný primární doklad a rozlišit případné datum koupě, převzetí a zahájení prací.
+- **Opuštěná škola na Podlesí:** `kronika-2001-2010`, s. 52 zmiňuje dotaci na přestavbu opuštěné školy na Podlesí na sociální byty, ale školu nejmenuje. Bez dalšího dokladu ji nelze bezpečně ztotožnit s některou z již katalogizovaných škol.
+- **Budova obchodu Esam:** `kronika-2001-2010`, s. 54 uvádí, že kaštanová alej původně vedla ke škole, v jejíž budově byl roku 2006 obchod Esam. Pramen neuvádí číslo popisné; vztah ke škole u kostela čp. 404 nebo k jiné školní budově musí potvrdit mapa či katastrální pramen.
+- **Náměstí Míru a historické Návsí:** kronika označuje moderní centrální prostor jako Náměstí Míru, zatímco starší prameny pracují s názvem Návsí. Územní překryv obou lokalit nebyl ověřen.

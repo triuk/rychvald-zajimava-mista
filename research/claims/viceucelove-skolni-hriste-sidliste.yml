@@ -1,0 +1,13 @@
+place_id: viceucelove-skolni-hriste-sidliste
+claims:
+- claim_id: viceucelove-skolni-hriste-sidliste-001
+  place_id: viceucelove-skolni-hriste-sidliste
+  statement: Dne 16. září 2004 bylo po rekonstrukci otevřeno víceúčelové hřiště základní školy na sídlišti.
+  date_or_period: '2004-09-16'
+  source_id: kronika-2001-2010
+  locator: s. 32–33
+  supporting_excerpt: 16.9.2004 […] otevřeli nové školní hřiště, které po rekonstrukci má nyní parametry skutečného víceúčelového
+    sportoviště
+  verification_status: verified
+  confidence: high
+  note: ''

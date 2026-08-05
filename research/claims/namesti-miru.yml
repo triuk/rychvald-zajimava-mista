@@ -1,0 +1,22 @@
+place_id: namesti-miru
+claims:
+- claim_id: namesti-miru-001
+  place_id: namesti-miru
+  statement: Rybí slavnosti se poprvé konaly přímo na Náměstí Míru dne 3. října 2009.
+  date_or_period: '2009-10-03'
+  source_id: kronika-2001-2010
+  locator: s. 73
+  supporting_excerpt: Rybí slavnosti se v roce 2009 poprvé konaly přímo na Náměstí míru
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: namesti-miru-002
+  place_id: namesti-miru
+  statement: V roce 2010 se na náměstí konal kulturní program husitské pouti a následně také Rybí slavnosti.
+  date_or_period: '2010'
+  source_id: kronika-2001-2010
+  locator: s. 84–86
+  supporting_excerpt: na náměstí kulturní program […] V roce 2010 se [Rybí slavnosti] konaly […] opět na náměstí
+  verification_status: verified
+  confidence: high
+  note: ''

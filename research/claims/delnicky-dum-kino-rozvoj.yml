@@ -10,3 +10,14 @@ claims:
   verification_status: verified
   confidence: high
   note: ''
+- claim_id: delnicky-dum-kino-rozvoj-002
+  place_id: delnicky-dum-kino-rozvoj
+  statement: Vichřice dne 18. listopadu 2004 poškodila střechu Dělnického domu, v němž podle kroniky tehdy sídlila Rychvaldská
+    pekárna.
+  date_or_period: '2004-11-18'
+  source_id: kronika-2001-2010
+  locator: s. 33
+  supporting_excerpt: poškození střechy na budově Dělnického domu, ve kterém nyní sídlí Rychvaldská pekárna
+  verification_status: verified
+  confidence: high
+  note: ''

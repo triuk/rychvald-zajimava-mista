@@ -1,0 +1,12 @@
+place_id: dum-s-pecovatelskou-sluzbou-podlesi
+claims:
+- claim_id: dum-s-pecovatelskou-sluzbou-podlesi-001
+  place_id: dum-s-pecovatelskou-sluzbou-podlesi
+  statement: Dům s pečovatelskou službou na Podlesí byl slavnostně otevřen 30. dubna 2001.
+  date_or_period: '2001-04-30'
+  source_id: kronika-2001-2010
+  locator: s. 10
+  supporting_excerpt: 30. dubna 2001 byl na Podlesí slavnostně otevřen Dům s pečovatelskou službou
+  verification_status: verified
+  confidence: high
+  note: ''

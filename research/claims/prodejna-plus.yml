@@ -1,0 +1,22 @@
+place_id: prodejna-plus
+claims:
+- claim_id: prodejna-plus-001
+  place_id: prodejna-plus
+  statement: Stavba diskontní prodejny Plus v centru Rychvaldu byla zahájena v září 2006.
+  date_or_period: 2006-09
+  source_id: kronika-2001-2010
+  locator: s. 53
+  supporting_excerpt: V září byla zahájena stavba nového velkého obchodu […] v centru Rychvaldu
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: prodejna-plus-002
+  place_id: prodejna-plus
+  statement: Prodejna Plus byla otevřena 5. dubna 2007.
+  date_or_period: '2007-04-05'
+  source_id: kronika-2001-2010
+  locator: s. 59
+  supporting_excerpt: Ve čtvrtek 5. dubna 2007 byla […] otevřena prodejna Plus
+  verification_status: verified
+  confidence: high
+  note: ''

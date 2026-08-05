@@ -10,3 +10,13 @@ claims:
   verification_status: verified
   confidence: high
   note: ''
+- claim_id: zdravotni-stredisko-002
+  place_id: zdravotni-stredisko
+  statement: Dne 15. ledna 2001 byla v rekonstruované části zdravotního střediska otevřena nová pošta.
+  date_or_period: '2001-01-15'
+  source_id: kronika-2001-2010
+  locator: s. 9
+  supporting_excerpt: 15. ledna 2001 byla otevřena pošta v nově zrekonstruovaných prostorách části budovy zdravotního střediska
+  verification_status: verified
+  confidence: high
+  note: ''

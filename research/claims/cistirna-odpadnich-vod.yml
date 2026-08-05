@@ -1,0 +1,24 @@
+place_id: cistirna-odpadnich-vod
+claims:
+- claim_id: cistirna-odpadnich-vod-001
+  place_id: cistirna-odpadnich-vod
+  statement: Výstavba čistírny odpadních vod na parcele mezi středem města a Podkostelním rybníkem byla slavnostně zahájena
+    21. září 2001.
+  date_or_period: '2001-09-21'
+  source_id: kronika-2001-2010
+  locator: s. 11
+  supporting_excerpt: 21. září 2001 […] mezi středem města a Podkostelním rybníkem slavnostní zahájení výstavby čističky odpadních
+    vod
+  verification_status: verified
+  confidence: high
+  note: ''
+- claim_id: cistirna-odpadnich-vod-002
+  place_id: cistirna-odpadnich-vod
+  statement: Čistírna odpadních vod byla předána do užívání 31. ledna 2003; kronika uvádí cenu stavby 35 milionů Kč.
+  date_or_period: '2003-01-31'
+  source_id: kronika-2001-2010
+  locator: s. 27
+  supporting_excerpt: 31. ledna 2003 byla slavnostně předána do užívání čistička odpadních vod […] cena dosáhla 35 mil. Kč
+  verification_status: verified
+  confidence: high
+  note: ''

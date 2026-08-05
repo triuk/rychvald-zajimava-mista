@@ -76,7 +76,7 @@ Kolekce obsahuje 54 JPEGů a jeden technický soubor `Thumbs.db`.
 - `40.jpg` a `42.jpg` mají shodné datum, oba uvádějí software `Picasa` a jejich EXIF časy se liší o devět sekund; to podporuje jednu fotografickou sekvenci, ale prostorový překryv nebyl spolehlivě potvrzen;
 - `41.jpg` a dříve zpracované `33.jpg` mají EXIF časy vzdálené dvě minuty a 27 sekund, zachycují však odlišné areály a časová blízkost sama neprokazuje shodnou lokaci;
 - `43.jpg` a `44.jpg` se zřetelně prostorově překrývají, mají odlišné kompozice a binární hashe a jejich EXIF časy se liší o šest minut a 52 sekund;
-- oba překrývajícì se snímky `43.jpg` a `44.jpg` zachycují denní světlo navzdory hodinovým údajům kolem 23:40; hodinová složka proto není vedena jako spolehlivý čas expozice;
+- oba překrývající se snímky `43.jpg` a `44.jpg` zachycují denní světlo navzdory hodinovým údajům kolem 23:40; hodinová složka proto není vedena jako spolehlivý čas expozice;
 - `40.jpg` a `42.jpg` uvádějí software `Picasa`; `41.jpg`, `43.jpg` a `44.jpg` tag software nemají;
 - nápis `Hruška` je veden jako text v obraze, nikoli jako důkaz přesné pobočky, lokace, názvu akce, použití v knize nebo autorství;
 - metadata nejsou nezávislým dokladem autorství, přesné lokace, použití v knize ani práv.

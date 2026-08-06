@@ -1,25 +1,25 @@
-schema_version: 1
+schema_version: 2
 collection_id: urbanek-root-loose-files
 collection_title: Volné soubory přímo v kořeni archivu
 source_root: sources/osobni-archiv-jaromira-urbanka
 scope: loose files directly under source root
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
-status: in_progress
+status: completed
 totals:
   content_files: 6
   technical_files: 0
   total_items: 6
 progress:
-  processed_content_files: 5
+  processed_content_files: 6
   processed_technical_files: 0
-  processed_items: 5
-  repo_verified_items: 5
-  visually_classified_items: 5
-  source_indexed_items: 5
-  remaining_content_files: 1
+  processed_items: 6
+  repo_verified_items: 6
+  visually_classified_items: 6
+  source_indexed_items: 6
+  remaining_content_files: 0
   remaining_technical_files: 0
-  remaining_items: 1
+  remaining_items: 0
 completed_batches:
 - number: 1
   items: 001-005
@@ -33,6 +33,14 @@ completed_batches:
   inventory: research/urbanek-archive/collections/root-loose-files-inventory-01.csv
   classification: research/urbanek-archive/collections/root-loose-files-batch-01.yml
   source_index: sources/index.d/urbanek-root-loose-files-01.yml
+- number: 2
+  items: 006-006
+  filenames:
+  - img237 německý četník.jpg
+  id: uniformed-man-portrait-02
+  inventory: research/urbanek-archive/collections/root-loose-files-inventory-02.csv
+  classification: research/urbanek-archive/collections/root-loose-files-batch-02.yml
+  source_index: sources/index.d/urbanek-root-loose-files-02.yml
 interpretation_rules:
 - Visible newspaper title, issue date, number and page are transcribed as source content; embedded EXIF dates describe later
   digitization or postprocessing.
@@ -40,11 +48,15 @@ interpretation_rules:
   interpretation.
 - Persons in photographs are not identified from facial appearance.
 - The secret 1945 list is indexed at document level; personal data in its table are not reproduced in summary metadata.
+- A uniform and an archival filename suggesting nationality or service are insufficient to establish institutional affiliation,
+  rank, identity, date or place without documentary corroboration.
 open_uncertainties:
 - URB-U-0077
 - URB-U-0078
 - URB-U-0079
+- URB-U-0080
 next_step:
-  type: process_remaining_root_loose_file
-  filename: img237 německý četník.jpg
+  type: process_next_collection
+  group_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo
   status: ready

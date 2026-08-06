@@ -1,38 +1,91 @@
-schema_version: 1
-scope: open_items_0077_0079
+schema_version: 2
+scope: open_items_0077_0080
 items:
 - id: URB-U-0077
   status: open
   priority: medium
   collection: Volné soubory přímo v kořeni archivu
   type: photograph_location_date_and_provenance
-  source_items: [urbanek-root-loose-001]
-  question: Jaká stanice a lokalita je na reprodukci označené Nádraží, z jaké doby pochází a kdo je autorem či vydavatelem předlohy?
+  source_items:
+  - urbanek-root-loose-001
+  question: Jaká stanice a lokalita je na reprodukci označené „Nádraží“, z jaké doby pochází a kdo je autorem či vydavatelem
+    předlohy?
   known_facts:
-  - V obraze je čitelný tištěný popisek Nádraží.
-  - EXIF datum 2016 je metadata digitální reprodukce, nikoli historická datace scény.
-  unknown: [exact_station_and_locality, original_date, photographer_or_publisher, source_reference]
+  - V obraze je čitelný tištěný popisek „Nádraží“.
+  - Snímek zachycuje nízké budovy, komunikaci, vodní příkop či tok, sloupy a osoby.
+  - EXIF datum 2016 je metadata digitálního souboru, nikoli historická datace scény.
+  unknown:
+  - exact_station_and_locality
+  - original_capture_or_publication_date
+  - photographer_or_publisher
+  - source_publication_or_archive_reference
+  evidence:
+  - research/urbanek-archive/collections/root-loose-files-batch-01.yml
+  - sources/index.d/urbanek-root-loose-files-01.yml
 - id: URB-U-0078
   status: open
   priority: high
   collection: Volné soubory přímo v kořeni archivu
   type: historical_group_event_unit_date_and_provenance
-  source_items: [urbanek-root-loose-004]
-  question: Jaká událost, jednotka a přesné datum jsou zachyceny u tabule MĚSTO RYCHVALD a jaká je provenience fotografie?
+  source_items:
+  - urbanek-root-loose-004
+  question: Jaká událost, jednotka a přesné datum jsou zachyceny u tabule „MĚSTO RYCHVALD“ a jaká je provenience fotografie?
   known_facts:
   - Na fotografii je pět ozbrojených mužů v přilbách a uniformách.
-  - Na tabuli je čitelný nápis MĚSTO RYCHVALD.
-  - Archivní název není nezávislým důkazem data ani interpretace.
-  unknown: [exact_event_and_date, unit, identities, photographer_and_source]
+  - Na tabuli je čitelný nápis „MĚSTO RYCHVALD“.
+  - Archivní název obsahuje „9 X 1938 przed zajęciem Rychvaldu“, ale název není nezávislým důkazem data ani interpretace.
+  unknown:
+  - exact_event_and_date
+  - unit_and_institutional_affiliation
+  - identity_of_persons
+  - photographer_and_source_provenance
+  - meaning_of_all_sign_text
+  evidence:
+  - research/urbanek-archive/collections/root-loose-files-batch-01.yml
+  - sources/index.d/urbanek-root-loose-files-01.yml
 - id: URB-U-0079
   status: open
   priority: high
   collection: Volné soubory přímo v kořeni archivu
   type: official_document_archival_context_and_completeness
-  source_items: [urbanek-root-loose-005]
-  question: Jaký je archivní fond, spisová značka, účel, návaznost a úplnost tajného seznamu Okresního velitelství SNB ve Fryštátě z 10. července 1945?
+  source_items:
+  - urbanek-root-loose-005
+  question: Jaký je archivní fond, spisová značka, účel, návaznost a úplnost tajného seznamu Okresního velitelství SNB ve
+    Fryštátě z 10. července 1945?
   known_facts:
   - Dokument nese záhlaví Okresního velitelství SNB ve Fryštátě.
-  - Je datován 10. července 1945 a označen Tajné.
+  - Je datován 10. července 1945 a označen „Tajné!“.
+  - Nadpis jej popisuje jako seznam dosud zjištěných polských bojůvkářů bydlících v okrese.
   - Dochovaná fotografie zachycuje jednu stránku s očíslovanou tabulkou.
-  unknown: [archive_fond_and_file_reference, issuing_context, additional_pages_or_annexes, subsequent_use]
+  unknown:
+  - archive_fond_and_file_reference
+  - issuing_context_and_distribution
+  - whether_list_has_additional_pages_or_annexes
+  - subsequent_use_and_verification_status
+  evidence:
+  - research/urbanek-archive/collections/root-loose-files-batch-01.yml
+  - sources/index.d/urbanek-root-loose-files-01.yml
+- id: URB-U-0080
+  status: open
+  priority: medium
+  collection: Volné soubory přímo v kořeni archivu
+  type: uniformed_person_identity_service_date_place_and_provenance
+  source_items:
+  - urbanek-root-loose-006
+  question: Kdo je na portrétu, k jakému služebnímu sboru a instituci patřil, kdy a kde snímek vznikl a jaká je jeho provenience
+    a vazba k Rychvaldu?
+  known_facts:
+  - Obraz zachycuje jednoho muže v uniformě, čepici se štítkem, zapnuté blůze, opasku a vysokých botách.
+  - U pravého boku je tmavé pouzdro nebo brašna.
+  - Soubor neobsahuje EXIF metadata.
+  - Archivní název obsahuje označení „německý četník“, ale název není nezávislým důkazem národnosti, služby ani totožnosti.
+  unknown:
+  - identity_of_person
+  - nationality_and_exact_service
+  - rank_and_institutional_affiliation
+  - original_capture_date_and_place
+  - photographer_and_source_provenance
+  - relationship_to_rychvald
+  evidence:
+  - research/urbanek-archive/collections/root-loose-files-batch-02.yml
+  - sources/index.d/urbanek-root-loose-files-02.yml

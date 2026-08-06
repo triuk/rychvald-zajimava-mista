@@ -1,0 +1,42 @@
+schema_version: 1
+batch_id: uniformed-man-portrait-02
+collection_id: urbanek-root-loose-files
+batch_number: 2
+item_range: 006-006
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+items:
+- id: urbanek-root-loose-006
+  filename: img237 německý četník.jpg
+  doctype: historical_portrait_reproduction
+  class: historical_uniformed_man_studio_portrait
+  desc: Sepiově až azurově tónovaná reprodukce ateliérového portrétu jednoho uniformovaného muže v čepici se štítkem, zapnuté
+    blůze, opasku a vysokých botách; u pravého boku je tmavé pouzdro nebo brašna. Archivní název naznačuje německého četníka,
+    ale obraz sám nepotvrzuje národnost, služební sbor, hodnost, totožnost, datum, místo ani vazbu k Rychvaldu.
+  source_path: img237 německý četník.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/img237 německý četník.jpg
+  mime_type: image/jpeg
+  file_size_bytes: 31086
+  git_blob_sha: e0720b687eab3cd2901a86208ab4230b09ade1da
+  sha256: 14b81e217318f550a2e9afadd5a4952c9476735efc48ed8934df4102df0bfe02
+  drive_id: 18rzK1hSPyCNQq6K1TcWK2VrJF-Po4PUK
+  image:
+    width_px: 328
+    height_px: 545
+    color_mode: RGB
+  repo_status: verified
+  uncertainty_ids:
+  - URB-U-0080
+  capture_metadata:
+    exif_present: false
+    use: no_embedded_capture_metadata_available
+interpretation:
+- The archival filename is preserved as provenance metadata but is not treated as proof of nationality, service, rank, identity,
+  date, place or relationship to Rychvald.
+- Uniform details are described only at a visible-feature level; no institutional identification is made from clothing alone.
+duplicate_check:
+  exact_binary_duplicates_within_batch: 0
+  archive_tree_result: not_reasserted_in_this_batch
+  note: The source blob was verified against its repository path; no broader duplicate claim is made without a fresh complete
+    tree count.
+remaining_group_items: []

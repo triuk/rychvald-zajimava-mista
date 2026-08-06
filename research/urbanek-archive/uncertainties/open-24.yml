@@ -36,6 +36,9 @@ items:
   - urbanek-noviny-1938-ceske-slovo-028
   - urbanek-noviny-1938-ceske-slovo-029
   - urbanek-noviny-1938-ceske-slovo-030
+  - urbanek-noviny-1938-ceske-slovo-031
+  - urbanek-noviny-1938-ceske-slovo-032
+  - urbanek-noviny-1938-ceske-slovo-033
   question: Jaká je provenience fotografovaných novinových předloh, které stránky a vydání jsou v kolekci zastoupeny, je pořadí
     snímků úplné a jaká práva a okolnosti digitalizace se k souborům vztahují?
   known_facts:
@@ -68,10 +71,23 @@ items:
   - Na položkách 021–025 není úplné datum, ročník a číslo vydání; datace 10. a 14. října patří jednotlivým zprávám.
   - P1020299.JPG je výrazně rozostřený; bezpečně čitelný je pouze hlavní titulek „Němci lepší než Poláci“.
   - P1020300.JPG a P1020301.JPG zachycují stejnou novinovou stranu v širším a těsnějším výřezu a nejsou binárně totožné.
-  - P1020302.JPG a P1020303.JPG obsahují rubrikový nadpis „Zprávy z Těšínska“, ale bez dalšího se neurčují jako stejná fyzická strana nebo stejné vydání.
+  - P1020302.JPG a P1020303.JPG obsahují rubrikový nadpis „Zprávy z Těšínska“, ale bez dalšího se neurčují jako stejná fyzická
+    strana nebo stejné vydání.
   - P1020302.JPG přímo zmiňuje Orlovou, Petřvald, Karvinsko a Suchou; P1020303.JPG přímo zmiňuje nádraží v Orlové.
-  - Položky 026–030 mají EXIF DateTime z 15. února 2013 mezi 16:05:07 a 16:08:37 a fotoaparát Panasonic DMC-TZ3; položky 029–030 jsou portrétně orientovány.
+  - Položky 026–030 mají EXIF DateTime z 15. února 2013 mezi 16:05:07 a 16:08:37 a fotoaparát Panasonic DMC-TZ3; položky 029–030
+    jsou portrétně orientovány.
   - Na položkách 026–030 není úplné datum, ročník a číslo vydání; datace Praha 24. října patří jednotlivé zprávě.
+  - P1020304.JPG zobrazuje rubriku „Zprávy z Těšínska“ a přímo zmiňuje Doubravu; opakování rubrikového nadpisu proti položkám
+    029–030 samo nedokládá stejnou fyzickou stranu nebo vydání.
+  - P1020305.JPG obsahuje titulky „Které sňatky na Těšínsku musí býti znovu provedeny“ a „Nový jízdní řád autobusů ČSD Ostrava-Val.
+    Meziříčí“.
+  - P1020306.JPG obsahuje titulky „Protest uprchlíků z Petřvaldu“, „Žádají plebiscit v českých obcích, zabraných Poláky“ a
+    „České obce se dožadují práva sebeurčení“.
+  - Položky 031–033 mají EXIF DateTime z 15. února 2013 mezi 16:08:51 a 16:10:53 a fotoaparát Panasonic DMC-TZ3; položka 031
+    je portrétně orientována.
+  - Na položkách 031–033 není úplné datum, ročník a číslo vydání.
+  - Všech 33 obsahových JPEGů kolekce je po dávce 07 Git-ověřeno, vizuálně klasifikováno a zdrojově indexováno; zbývá audit
+    technických souborů Thumbs.db a ZbThumbnail.info.
   unknown:
   - physical_newspaper_source_and_archive_provenance
   - complete_issue_and_page_sequence
@@ -94,3 +110,5 @@ items:
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-05.yml
   - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-06.yml
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-06.yml
+  - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-07.yml
+  - sources/index.d/urbanek-noviny-1938-ceske-slovo-07.yml

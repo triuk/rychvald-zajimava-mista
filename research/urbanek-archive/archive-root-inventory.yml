@@ -16,12 +16,12 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 437
+  processed_content_files: 440
   processed_technical_files: 18
-  processed_items: 455
-  remaining_content_files: 150
+  processed_items: 458
+  remaining_content_files: 147
   remaining_technical_files: 11
-  remaining_items: 161
+  remaining_items: 158
 status_summary:
   completed_collections: 9
   in_progress_collections: 1
@@ -96,13 +96,13 @@ groups:
   content_files: 33
   technical_files: 2
   total_items: 35
-  processed_items: 30
-  remaining_items: 5
+  processed_items: 33
+  remaining_items: 2
   status: in_progress
   overview: research/urbanek-archive/collections/noviny-1938-ceske-slovo-overview.yml
-  latest_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-06.csv
-  latest_classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-06.yml
-  latest_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-06.yml
+  latest_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-07.csv
+  latest_classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-07.yml
+  latest_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-07.yml
 - order: 6
   id: urbanek-nalet-na-ostravu-1944
   source_path: Nálet na Ostravu 1944
@@ -210,19 +210,16 @@ groups:
 selection:
   completed_group_id: urbanek-root-loose-files
   current_group_id: urbanek-noviny-1938-ceske-slovo
-  current_batch: 6
+  current_batch: 7
   next_action:
-    type: process_collection_batch
+    type: audit_collection_technical_files
     source_path: Noviny 1938 České slovo
-    batch_number: 7
     filenames:
-    - P1020304.JPG
-    - P1020305.JPG
-    - P1020306.JPG
+    - Thumbs.db
+    - ZbThumbnail.info
   reason:
-  - the first thirty content files are indexed, Git-verified and visually classified
-  - continue in repository filename order; P1020282.JPG is absent from the current snapshot and is not inferred as a missing
-    original
+  - all thirty-three content JPEG files are indexed, Git-verified and visually classified
+  - audit the two remaining technical files before marking the collection completed
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

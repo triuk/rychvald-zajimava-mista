@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 35
 progress:
-  processed_content_files: 30
+  processed_content_files: 33
   processed_technical_files: 0
-  processed_items: 30
-  repo_verified_items: 30
-  visually_classified_items: 30
-  source_indexed_items: 30
-  remaining_content_files: 3
+  processed_items: 33
+  repo_verified_items: 33
+  visually_classified_items: 33
+  source_indexed_items: 33
+  remaining_content_files: 0
   remaining_technical_files: 2
-  remaining_items: 5
+  remaining_items: 2
 completed_batches:
 - number: 1
   items: 001-005
@@ -93,6 +93,16 @@ completed_batches:
   inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-06.csv
   classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-06.yml
   source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-06.yml
+- number: 7
+  items: 031-033
+  filenames:
+  - P1020304.JPG
+  - P1020305.JPG
+  - P1020306.JPG
+  id: doubrava-regional-news-tesin-marriages-transport-and-petrvald-refugee-protest-07
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-07.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-07.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-07.yml
 interpretation_rules:
 - Visible newspaper titles, dates, issue numbers and headlines are transcribed as printed wording; the historical claims within
   articles are not independently verified in this indexing pass.
@@ -113,8 +123,7 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 7
+  type: technical_audit
   filenames:
-  - P1020304.JPG
-  - P1020305.JPG
-  - P1020306.JPG
+  - Thumbs.db
+  - ZbThumbnail.info

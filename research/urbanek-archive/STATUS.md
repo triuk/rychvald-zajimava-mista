@@ -22,39 +22,37 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 440 | 18 | **458** |
-| zbývá | 147 | 11 | **158** |
+| zpracováno | 440 | 20 | **460** |
+| zbývá | 147 | 9 | **156** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je devět kolekcí. V kolekci `Noviny 1938 České slovo` je zpracováno všech 33 obsahových JPEGů; zbývají dva technické soubory.
+Dokončeno je deset kolekcí. Kolekce `Noviny 1938 České slovo` je uzavřena v rozsahu 35 z 35 položek.
 
-## Noviny 1938 České slovo – dávka 07
+## Noviny 1938 České slovo – technický audit
 
-Zpracovány byly poslední tři obsahové soubory `P1020304.JPG` až `P1020306.JPG`:
+Auditovány byly soubory `Thumbs.db` a `ZbThumbnail.info`:
 
-- `P1020304.JPG` – portrétní detail rubriky „Zprávy z Těšínska“ s několika krátkými zprávami vztahujícími se k Doubravě;
-- `P1020305.JPG` – články „Které sňatky na Těšínsku musí býti znovu provedeny“ a „Nový jízdní řád autobusů ČSD Ostrava-Val. Meziříčí“;
-- `P1020306.JPG` – články „Protest uprchlíků z Petřvaldu“, „Žádají plebiscit v českých obcích, zabraných Poláky“ a „České obce se dožadují práva sebeurčení“.
+- oba Drive soubory přesně odpovídají Git blobům;
+- `Thumbs.db` obsahuje 33 pojmenovaných náhledů odpovídajících 33 plným JPEGům a jeden samostatný náhled ikony složky;
+- `ZbThumbnail.info` obsahuje 33 jedinečných názvů JPEGů a 33 vložených náhledů;
+- množiny názvů v obou cache se přesně shodují s plnými JPEGy kolekce;
+- žádná cache neobsahuje `P1020282.JPG`, cache-only název ani náhled bez plného originálu;
+- technické soubory tedy nedokládají chybějící plný originál.
 
-Mezi třemi soubory dávky není přesná binární duplicita. `P1020304.JPG` opakuje rubrikový nadpis „Zprávy z Těšínska“, který se objevuje i na položkách 029 a 030; samotné opakování rubriky však nedokládá stejnou fyzickou stranu nebo vydání.
+`Thumbs.db` je CFB/OLE soubor verze 3 s katalogem verze 7. Má 34 JPEG streamů: 33 zdrojových náhledů a čtvercový náhled složky. `ZbThumbnail.info` má signaturu `zbex` a 33 JPEG náhledů o rozměrech 160 × 120 nebo 120 × 160 px.
 
-Na žádném snímku dávky není úplný masthead s datem, ročníkem a číslem vydání. Datum vydání se proto neodvozuje z obsahu ani z pořadí fotografií.
-
-Všechny tři JPEGy uvádějí fotoaparát Panasonic DMC-TZ3 a EXIF DateTime 15. února 2013 mezi 16:08:51 a 16:10:53. `P1020304.JPG` má rozměry 2304 × 3072 px; `P1020305.JPG` a `P1020306.JPG` mají 3072 × 2304 px. Metadata jsou vedena jako údaje o fotografování archivních předloh, nikoli jako datum vydání novin.
-
-Nejistota `URB-U-0081` byla rozšířena na položky 001–033. Počet nejistot se nezměnil.
+Nejistota `URB-U-0081` zůstává otevřená pro provenienci fyzických předloh, úplnost mimo aktuální snapshot, posloupnost stran a vydání, okolnosti digitalizace a práva. Technická část otázky chybějících souborů v cache byla uzavřena negativním výsledkem.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| Noviny 1938 České slovo – technický audit | 0 | 2 | 2 |
 | Rychvald | 31 | 2 | 33 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **147** | **11** | **158** |
+| **Celkem** | **147** | **9** | **156** |
 
 ## Registr nejistot
 
@@ -69,12 +67,11 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 458 položek;
-- zbývá 158 položek;
-- aktuální kolekce je zpracována v rozsahu 33 z 35 položek;
-- všechny tři Drive soubory přesně odpovídají Git blobům;
-- mezi třemi soubory dávky není přesná binární duplicita;
-- všech 33 obsahových JPEGů kolekce je Git-ověřeno, vizuálně klasifikováno a zdrojově indexováno;
+- zpracovaný rozsah je 460 položek;
+- zbývá 156 položek;
+- kolekce `Noviny 1938 České slovo` je zpracována v rozsahu 35 z 35 položek;
+- oba technické soubory přesně odpovídají Git blobům;
+- obě cache odkazují právě na 33 přítomných JPEGů a nedokládají další plný originál;
 - registr používá součty 46/32/3/81;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - absence hlášených CI status checks není úspěšně proběhlý test.
@@ -82,6 +79,6 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Aktuální krok
 
 - Aktivní fáze: `full_archive_indexing`.
-- Další krok: technický audit `Thumbs.db` a `ZbThumbnail.info`.
-- `P1020282.JPG` v aktuálním Git ani Drive snapshotu není; z mezery v číslování se bez důkazu neodvozuje chybějící originál.
+- Další skupina: `Rychvald`.
+- První dávka: `Budova úřadu 003.jpg`, `Budova úřadu 005.jpg`, `Cudlín 033.jpg`, `Cudlín 035.jpg` a `Cudlín 037.jpg`.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

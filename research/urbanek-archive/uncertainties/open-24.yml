@@ -88,6 +88,14 @@ items:
   - Na položkách 031–033 není úplné datum, ročník a číslo vydání.
   - Všech 33 obsahových JPEGů kolekce je po dávce 07 Git-ověřeno, vizuálně klasifikováno a zdrojově indexováno; zbývá audit
     technických souborů Thumbs.db a ZbThumbnail.info.
+  - Thumbs.db je platný CFB/OLE thumbnail cache s 33 katalogovými názvy JPEGů, které přesně odpovídají plným souborům kolekce;
+    další GUID položka je pouze náhled ikony složky.
+  - ZbThumbnail.info má signaturu zbex, obsahuje 33 jedinečných názvů JPEGů a 33 platných náhledů; množina názvů přesně odpovídá
+    plným souborům kolekce.
+  - Ani jedna technická cache neobsahuje název P1020282.JPG, cache-only název nebo náhled bez odpovídajícího plného souboru;
+    audit tedy nedokládá žádný chybějící plný originál.
+  - Technický audit uzavírá kolekci v rozsahu 35 z 35 položek, ale neřeší provenienci, posloupnost vydání a stran, úplnost
+    mimo aktuální snapshot ani práva.
   unknown:
   - physical_newspaper_source_and_archive_provenance
   - complete_issue_and_page_sequence
@@ -112,3 +120,5 @@ items:
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-06.yml
   - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-07.yml
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-07.yml
+  - research/urbanek-archive/reports/noviny-1938-ceske-slovo-technical-audit.md
+  - sources/index.d/urbanek-noviny-1938-ceske-slovo-technical.yml

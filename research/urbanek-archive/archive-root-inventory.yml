@@ -17,15 +17,15 @@ totals:
   technical_files: 29
   total_items: 616
   processed_content_files: 440
-  processed_technical_files: 18
-  processed_items: 458
+  processed_technical_files: 20
+  processed_items: 460
   remaining_content_files: 147
-  remaining_technical_files: 11
-  remaining_items: 158
+  remaining_technical_files: 9
+  remaining_items: 156
 status_summary:
-  completed_collections: 9
-  in_progress_collections: 1
-  partially_processed_top_level_directories: 2
+  completed_collections: 10
+  in_progress_collections: 0
+  partially_processed_top_level_directories: 1
   unprocessed_collection_groups: 5
   full_source_root_inventory: completed_for_current_git_snapshot
   full_archive_index: in_progress
@@ -96,13 +96,16 @@ groups:
   content_files: 33
   technical_files: 2
   total_items: 35
-  processed_items: 33
-  remaining_items: 2
-  status: in_progress
+  processed_items: 35
+  remaining_items: 0
+  status: completed
   overview: research/urbanek-archive/collections/noviny-1938-ceske-slovo-overview.yml
   latest_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-07.csv
   latest_classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-07.yml
   latest_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-07.yml
+  technical_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-technical-inventory.csv
+  technical_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-technical.yml
+  technical_audit: research/urbanek-archive/reports/noviny-1938-ceske-slovo-technical-audit.md
 - order: 6
   id: urbanek-nalet-na-ostravu-1944
   source_path: Nálet na Ostravu 1944
@@ -208,18 +211,22 @@ groups:
   status: completed
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
-  completed_group_id: urbanek-root-loose-files
-  current_group_id: urbanek-noviny-1938-ceske-slovo
-  current_batch: 7
+  completed_group_id: urbanek-noviny-1938-ceske-slovo
+  current_group_id: urbanek-rychvald
+  current_batch: 0
   next_action:
-    type: audit_collection_technical_files
-    source_path: Noviny 1938 České slovo
+    type: process_collection_batch
+    source_path: Rychvald
+    batch_number: 1
     filenames:
-    - Thumbs.db
-    - ZbThumbnail.info
+    - Budova úřadu 003.jpg
+    - Budova úřadu 005.jpg
+    - Cudlín 033.jpg
+    - Cudlín 035.jpg
+    - Cudlín 037.jpg
   reason:
-  - all thirty-three content JPEG files are indexed, Git-verified and visually classified
-  - audit the two remaining technical files before marking the collection completed
+  - the Noviny 1938 České slovo collection is completed in the current snapshot, including both technical cache files
+  - continue with the next repository group in deterministic filename order
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

@@ -5,21 +5,22 @@ source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
 drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
-status: in_progress
+status: completed
 totals:
   content_files: 33
   technical_files: 2
   total_items: 35
 progress:
   processed_content_files: 33
-  processed_technical_files: 0
-  processed_items: 33
-  repo_verified_items: 33
+  processed_technical_files: 2
+  processed_items: 35
+  repo_verified_items: 35
   visually_classified_items: 33
-  source_indexed_items: 33
+  source_indexed_items: 35
   remaining_content_files: 0
-  remaining_technical_files: 2
-  remaining_items: 2
+  remaining_technical_files: 0
+  remaining_items: 0
+  technical_audit_status: completed_no_missing_full_originals
 completed_batches:
 - number: 1
   items: 001-005
@@ -119,11 +120,38 @@ open_uncertainties:
 - URB-U-0081
 technical_files:
 - path: Thumbs.db
-  status: not_yet_audited
+  status: audit_completed_no_missing_full_originals
+  file_size_bytes: 132608
+  git_blob_sha: d8f7138ed11eb5131549f085cfff5d3d76986652
+  sha256: df1156f17c3c79b2892741be41d5e54a48e07c9a11498f1378d1534db106418b
+  drive_id: 1lYNM39TGU2fPm7-2D08KPRn6JhKsy2yj
+  catalog_entries_total: 34
+  source_filename_entries: 33
+  valid_jpeg_streams_total: 34
+  folder_preview_entries: 1
+  cache_only_source_names: 0
+  missing_full_originals_evidenced: 0
 - path: ZbThumbnail.info
-  status: not_yet_audited
-next_batch:
-  type: technical_audit
+  status: audit_completed_no_missing_full_originals
+  file_size_bytes: 246456
+  git_blob_sha: e3a0aae9c8fb6482818306c13a4929f709746703
+  sha256: ece09ea3e2611d1fc2e6804ae23a54735d5033dd0098a0f11b8e5063fbe8b002
+  drive_id: 1O_hFMBbjXqjYzQlnpzvdBFVsNztYGc31
+  file_signature: zbex
+  unique_source_filenames: 33
+  valid_jpeg_thumbnails: 33
+  cache_only_source_names: 0
+  missing_full_originals_evidenced: 0
+technical_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-technical-inventory.csv
+technical_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-technical.yml
+technical_audit: research/urbanek-archive/reports/noviny-1938-ceske-slovo-technical-audit.md
+next_collection:
+  id: urbanek-rychvald
+  source_path: Rychvald
+  batch_number: 1
   filenames:
-  - Thumbs.db
-  - ZbThumbnail.info
+  - Budova úřadu 003.jpg
+  - Budova úřadu 005.jpg
+  - Cudlín 033.jpg
+  - Cudlín 035.jpg
+  - Cudlín 037.jpg

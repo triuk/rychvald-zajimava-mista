@@ -1,10 +1,10 @@
 schema_version: 4
 summary:
-  open: 45
+  open: 46
   deferred: 0
   resolved: 32
   not_actionable: 3
-  total: 80
+  total: 81
 workflow_policy:
   current_phase: full_archive_indexing
   dedicated_resolution_research: deferred_until_full_archive_index_complete
@@ -43,6 +43,7 @@ open_files:
 - open-21.yml
 - open-22.yml
 - open-23.yml
+- open-24.yml
 closed_files:
 - closed-01a.yml
 - closed-01b.yml
@@ -123,3 +124,5 @@ rules:
   a printed-page reproduction or a layout asset.
 - A uniform, weapon, sidearm or archival filename suggesting nationality, police or military service is insufficient to establish
   identity, institutional affiliation, rank, date or place without explicit documentary evidence.
+- A modern photograph of a historical newspaper verifies the visible masthead, issue data and printed wording only; EXIF timestamps
+  describe the reproduction capture unless independently shown otherwise.

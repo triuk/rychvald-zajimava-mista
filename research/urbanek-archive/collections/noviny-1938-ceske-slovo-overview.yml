@@ -1,0 +1,59 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: in_progress
+totals:
+  content_files: 33
+  technical_files: 2
+  total_items: 35
+progress:
+  processed_content_files: 5
+  processed_technical_files: 0
+  processed_items: 5
+  repo_verified_items: 5
+  visually_classified_items: 5
+  source_indexed_items: 5
+  remaining_content_files: 28
+  remaining_technical_files: 2
+  remaining_items: 30
+completed_batches:
+- number: 1
+  items: 001-005
+  filenames:
+  - P1020273.JPG
+  - P1020274.JPG
+  - P1020275.JPG
+  - P1020276.JPG
+  - P1020277.JPG
+  id: title-card-munich-agreement-front-page-and-tesin-articles-01
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-01.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-01.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-01.yml
+interpretation_rules:
+- Visible newspaper titles, dates, issue numbers and headlines are transcribed as printed wording; the historical claims within
+  articles are not independently verified in this indexing pass.
+- EXIF DateTime values describe the modern photographic reproduction session and are not publication dates.
+- A repeated photograph of the same page is retained as a separate inventory item when its binary file and framing are distinct.
+- The handwritten title card is archival organization evidence only and does not prove that every following image concerns
+  Poland or belongs to one complete issue.
+- A gap in camera filename numbering is recorded as a sequence uncertainty, not as a missing full original without corroborating
+  cache or manifest evidence.
+open_uncertainties:
+- URB-U-0081
+technical_files:
+- path: Thumbs.db
+  status: not_yet_audited
+- path: ZbThumbnail.info
+  status: not_yet_audited
+next_batch:
+  number: 2
+  filenames:
+  - P1020278.JPG
+  - P1020279.JPG
+  - P1020280.JPG
+  - P1020281.JPG
+  - P1020283.JPG

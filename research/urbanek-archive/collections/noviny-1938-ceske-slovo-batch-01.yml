@@ -1,0 +1,260 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+batch_number: 1
+batch_id: title-card-munich-agreement-front-page-and-tesin-articles-01
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+  drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+  items:
+  - P1020273.JPG
+  - P1020274.JPG
+  - P1020275.JPG
+  - P1020276.JPG
+  - P1020277.JPG
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification and transcription of only clearly visible headings and issue data.
+- EXIF inspection; the 2013 camera timestamps are treated as reproduction-capture metadata, not as dates of the printed newspaper
+  content.
+- Exact binary duplicate check within the batch and visual-overlap check for repeated page captures.
+batch_findings:
+  general: Jedna ručně popsaná rozřaďovací cedulka a čtyři fotografie novinových stran vztahujících se k událostem po mnichovské
+    dohodě a k Těšínsku.
+  visible_issue_identification: 'Pouze P1020275.JPG přímo zobrazuje masthead a úplné údaje vydání: České slovo, sobota 1.
+    října 1938, ročník X, číslo 271. U ostatních stran není v aktuálním výřezu úplný masthead ani číslo strany.'
+  capture_session: Všech pět souborů uvádí fotoaparát Panasonic DMC-TZ3 a EXIF DateTime 2013-02-15 mezi 11:36:52 a 11:39:25.
+    Tyto časy popisují fotografování archivních předloh, nikoli vznik nebo vydání novin.
+  exact_binary_duplicates_within_batch: 0
+  visual_overlap: P1020274.JPG a P1020276.JPG zachycují stejnou část téže novinové strany v odlišně posunutém a přiblíženém
+    výřezu; mají rozdílné binární hashe a zůstávají samostatnými položkami.
+  sequence_note: Aktuální Git a Drive snapshot obsahuje po P1020281.JPG přímo P1020283.JPG; absence názvu P1020282.JPG sama
+    o sobě není důkazem chybějícího originálu a bude posouzena společně s technickými soubory kolekce.
+items:
+- id: urbanek-noviny-1938-ceske-slovo-001
+  filename: P1020273.JPG
+  git_blob_sha: 9d2717aace43b932c12cdb1da3711f14c5061e2a
+  sha256: 9c79df76d02f4f26febf95055328ebd5c332495a3c94343efd6c466a717d1a3d
+  file_size_bytes: 3446994
+  drive_id: 1GfyUsAww4VF9Oqf2pbUPKFsllQ7Kru1a
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:36:52'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie kartonové nebo papírové rozřaďovací cedulky s ručně psanými texty „Poláci“, „České slovo“
+    a „1938“ položené na vzorovaném podkladu.
+  visible_text:
+  - Poláci
+  - České slovo
+  - '1938'
+  classification:
+  - archival_title_card
+  - handwritten_label
+  - visible_text
+  - collection_divider
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - purpose_and_date_of_title_card
+  - author_of_handwriting
+  - relationship_between_label_wording_and_all_following_images
+  - rights_and_digitization_context
+- id: urbanek-noviny-1938-ceske-slovo-002
+  filename: P1020274.JPG
+  git_blob_sha: 03a8901c05cf83c7160166103dc1934f45266caa
+  sha256: 176028adb34f61f90c285ce3bc6d5ff57ac50ede6887741be1a7cb95b22a05c5
+  file_size_bytes: 3731171
+  drive_id: 17s-U5sIcOdEmFMXRzL0pqjlh95rOAFVC
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:37:58'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie části rozevřené novinové strany s nadpisy „Obsah mnichovské dohody čtyř“, „Zněmčelá území
+    máme odevzdat do 10. října“ a „Dohoda spojených velmocí o naší zemi a našem osudu“; pod nimi je čtyřsloupcový text s očíslovanými
+    body a dodatkovým prohlášením.
+  visible_text:
+  - Obsah mnichovské dohody čtyř
+  - Zněmčelá území máme odevzdat do 10. října
+  - Dohoda spojených velmocí o naší zemi a našem osudu
+  classification:
+  - newspaper_page
+  - munich_agreement
+  - territorial_cession
+  - visible_headlines
+  - historical_press
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - newspaper_issue_identity_from_this_image_alone
+  - page_number
+  - physical_source_provenance
+  - completeness_of_page
+  - rights_and_digitization_context
+- id: urbanek-noviny-1938-ceske-slovo-003
+  filename: P1020275.JPG
+  git_blob_sha: 7ad8068696367f92d57d2a237f75fd1ab528d06a
+  sha256: a2dbc72573414b949151c0dd8343e935b49de7f858eaa9b03ce7d2ff12068c2d
+  file_size_bytes: 3483864
+  drive_id: 16WQ4J5cCVALyZUuJjVgz36qYHWw79s5s
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:38:38'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie horní části titulní strany deníku České slovo. Viditelné údaje uvádějí sobotu 1. října 1938,
+    ročník X, číslo 271 a cenu 20 h; hlavní titul zní „Povedeme národ do nového života“ a nad ním je uvedeno „Projev generála
+    Syrového v osudné hodině státu“.
+  visible_text:
+  - České slovo
+  - Sobota 1. října 1938
+  - Ročník X. - Číslo 271.
+  - 20 h
+  - Projev generála Syrového v osudné hodině státu
+  - Povedeme národ do nového života
+  classification:
+  - newspaper_front_page
+  - ceske_slovo
+  - dated_issue
+  - general_syrovy_speech
+  - historical_press
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - physical_source_provenance
+  - completeness_of_front_page
+  - edition_or_regional_variant
+  - rights_and_digitization_context
+- id: urbanek-noviny-1938-ceske-slovo-004
+  filename: P1020276.JPG
+  git_blob_sha: 92e8a7317153fdc3b5be5660632f1b70bc60091a
+  sha256: 4a7a2cacba2b1bf13cf56c7d7274d6a1b97e154541d3984ccef76c934dd6c6b7
+  file_size_bytes: 3668789
+  drive_id: 1yhJr2IKhddHcyotmNE2MiILBJE2S3m2E
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:38:51'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Druhá fotografie téže části novinové strany jako u P1020274.JPG, pořízená v těsnějším a mírně posunutém
+    výřezu; zachycuje stejné nadpisy a čtyřsloupcový text podmínek mnichovské dohody.
+  visible_text:
+  - Obsah mnichovské dohody čtyř
+  - Zněmčelá území máme odevzdat do 10. října
+  - Dohoda spojených velmocí o naší zemi a našem osudu
+  classification:
+  - newspaper_page
+  - munich_agreement
+  - alternate_capture
+  - visual_overlap
+  - historical_press
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - newspaper_issue_identity_from_this_image_alone
+  - page_number
+  - physical_source_provenance
+  - reason_for_repeat_capture
+  - rights_and_digitization_context
+- id: urbanek-noviny-1938-ceske-slovo-005
+  filename: P1020277.JPG
+  git_blob_sha: c2f18b69c645ffce4bc439ad0fe08891a235cc04
+  sha256: 3a12f23432a8cbcb7f8bc42a52c4bf380ce25953819734dfe5ca8ea03c235839
+  file_size_bytes: 3369516
+  drive_id: 10PY_zBxZO5t_YKWgpQFfCcm2tb-Y_4ZC
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:39:25'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie části novinové strany se dvěma výraznými články. Horní nadpis zní „Československo odstoupí
+    Polsku část Těšínska“ s podtitulem „Jiné rozhodnutí vlády by vedlo k těžkým komplikacím“. Níže je článek „První lord admirality
+    proti Chamberlainovi“ uvedený mezititulkem „Úder politické bomby v Londýně“.
+  visible_text:
+  - Československo odstoupí Polsku část Těšínska
+  - Jiné rozhodnutí vlády by vedlo k těžkým komplikacím
+  - Úder politické bomby v Londýně
+  - První lord admirality proti Chamberlainovi
+  classification:
+  - newspaper_page
+  - tesin_territory
+  - poland
+  - british_politics
+  - visible_headlines
+  - historical_press
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - newspaper_issue_identity_from_this_image_alone
+  - page_number
+  - physical_source_provenance
+  - completeness_of_articles
+  - rights_and_digitization_context
+related_uncertainties:
+- URB-U-0081
+next_batch:
+  number: 2
+  filenames:
+  - P1020278.JPG
+  - P1020279.JPG
+  - P1020280.JPG
+  - P1020281.JPG
+  - P1020283.JPG

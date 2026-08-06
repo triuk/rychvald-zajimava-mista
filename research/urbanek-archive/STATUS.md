@@ -22,64 +22,71 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 407 | 18 | **425** |
-| zbývá | 180 | 11 | **191** |
+| zpracováno | 412 | 18 | **430** |
+| zbývá | 175 | 11 | **186** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je devět kolekcí. Skupina šesti volných souborů přímo v kořeni archivu je dokončena.
+Dokončeno je devět kolekcí. Kolekce `Noviny 1938 České slovo` je rozpracována v rozsahu 5 z 35 položek.
 
-## Volné soubory v kořeni – dokončení dávkou 02
+## Noviny 1938 České slovo – dávka 01
 
-V dávce 01 byly zpracovány položky `19.jpg`, `20Hlavička 27.10.1938.jpg`, `21zpráva 28.10.1938.jpg`, `9 X 1938 przed zajęciem Rychvaldu.png` a `IMG_0117 seznam bojůvkařů.jpg`.
+Zpracovány byly soubory `P1020273.JPG` až `P1020277.JPG`:
 
-Dávka 02 dokončila skupinu souborem:
+- `P1020273.JPG` – ručně popsaná rozřaďovací cedulka s texty „Poláci“, „České slovo“ a „1938“;
+- `P1020274.JPG` – novinová strana s nadpisem „Zněmčelá území máme odevzdat do 10. října“ a textem podmínek mnichovské dohody;
+- `P1020275.JPG` – titulní strana deníku *České slovo*, sobota 1. října 1938, ročník X, číslo 271, s hlavním titulkem „Povedeme národ do nového života“;
+- `P1020276.JPG` – druhý, těsnější záběr stejné části strany jako `P1020274.JPG`; soubory nejsou binárně totožné;
+- `P1020277.JPG` – články „Československo odstoupí Polsku část Těšínska“ a „První lord admirality proti Chamberlainovi“.
 
-- `img237 německý četník.jpg` – sepiově až azurově tónovaná reprodukce ateliérového portrétu jednoho uniformovaného muže v čepici se štítkem, zapnuté blůze, opasku a vysokých botách; u pravého boku je tmavé pouzdro nebo brašna. Archivní název není nezávislým důkazem národnosti, služebního sboru, hodnosti, totožnosti, data, místa ani vazby k Rychvaldu.
+Všech pět JPEGů má 3072 × 2304 px, uvádí fotoaparát Panasonic DMC-TZ3 a EXIF DateTime 15. února 2013 mezi 11:36:52 a 11:39:25. Metadata jsou vedena jako údaje o fotografování archivních novinových předloh, nikoli jako datum vydání.
 
-Soubor má 31 086 B, rozměry 328 × 545 px, neobsahuje EXIF metadata a přesně odpovídá blobu evidovanému ve větvi. Nově je vedena nejistota `URB-U-0080`.
+Nově je vedena nejistota `URB-U-0081` pro provenienci fyzických novin, úplnost vydání a stran, význam rozřaďovací cedulky, mezeru v pozdější filename posloupnosti, okolnosti digitalizace a práva.
 
-Pracovní soubory skupiny:
+Pracovní soubory kolekce:
 
-- `research/urbanek-archive/collections/root-loose-files-overview.yml`;
-- `research/urbanek-archive/collections/root-loose-files-batch-01.yml` a `root-loose-files-batch-02.yml`;
-- `research/urbanek-archive/collections/root-loose-files-inventory-01.csv` a `root-loose-files-inventory-02.csv`;
-- `sources/index.d/urbanek-root-loose-files-01.yml` a `urbanek-root-loose-files-02.yml`;
-- `research/urbanek-archive/uncertainties/open-23.yml`.
+- `research/urbanek-archive/collections/noviny-1938-ceske-slovo-overview.yml`;
+- `research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-01.yml`;
+- `research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-01.csv`;
+- `sources/index.d/urbanek-noviny-1938-ceske-slovo-01.yml`;
+- `research/urbanek-archive/uncertainties/open-24.yml`.
 
-## Dosud nezpracované skupiny
+## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| Noviny 1938 České slovo | 33 | 2 | 35 |
+| Noviny 1938 České slovo – zbývá | 28 | 2 | 30 |
 | Rychvald | 31 | 2 | 33 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **180** | **11** | **191** |
+| **Celkem** | **175** | **11** | **186** |
 
 ## Registr nejistot
 
-- `open`: 45;
+- `open`: 46;
 - `deferred`: 0;
 - `resolved`: 32;
 - `not_actionable`: 3;
-- celkem: 80.
+- celkem: 81.
 
 Systematické řešení nejistot je odloženo do závěrečné fáze. Položky zůstávají `open`; workflow odložení je nepřevádí do stavu `deferred`.
 
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 425 položek;
-- zbývá 191 položek;
-- kořenová skupina je zpracována v rozsahu 6 z 6 položek;
-- registr používá součty 45/32/3/80;
+- zpracovaný rozsah je 430 položek;
+- zbývá 186 položek;
+- aktuální kolekce je zpracována v rozsahu 5 z 35 položek;
+- mezi pěti soubory dávky není přesná binární duplicita;
+- `P1020274.JPG` a `P1020276.JPG` jsou překrývající se, ale odlišné fotografie stejné stránky;
+- registr používá součty 46/32/3/81;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - GitHub dosud nevrátil hlášené CI status checks; nejde tedy o úspěšně proběhlý test.
 
 ## Aktuální krok
 
 - Aktivní fáze: `full_archive_indexing`.
-- Následující skupina: `Noviny 1938 České slovo` (35 položek).
+- Další dávka: `P1020278.JPG`, `P1020279.JPG`, `P1020280.JPG`, `P1020281.JPG` a `P1020283.JPG`.
+- `P1020282.JPG` v aktuálním Git ani Drive snapshotu není; z mezery v číslování se bez důkazu neodvozuje chybějící originál.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

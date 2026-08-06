@@ -1,0 +1,35 @@
+schema_version: 1
+items:
+- id: URB-U-0081
+  status: open
+  priority: high
+  collection: Noviny 1938 České slovo
+  type: newspaper_reproduction_collection_provenance_completeness_sequence_and_rights
+  source_items:
+  - urbanek-noviny-1938-ceske-slovo-001
+  - urbanek-noviny-1938-ceske-slovo-002
+  - urbanek-noviny-1938-ceske-slovo-003
+  - urbanek-noviny-1938-ceske-slovo-004
+  - urbanek-noviny-1938-ceske-slovo-005
+  question: Jaká je provenience fotografovaných novinových předloh, které stránky a vydání jsou v kolekci zastoupeny, je pořadí
+    snímků úplné a jaká práva a okolnosti digitalizace se k souborům vztahují?
+  known_facts:
+  - Aktuální Git a Drive snapshot kolekce obsahuje 33 souborů JPEG a technické soubory Thumbs.db a ZbThumbnail.info.
+  - P1020273.JPG zachycuje ručně popsanou cedulku s texty „Poláci“, „České slovo“ a „1938“.
+  - P1020275.JPG přímo zobrazuje titul České slovo, datum sobota 1. října 1938, ročník X a číslo 271.
+  - P1020274.JPG a P1020276.JPG zachycují stejnou část novinové strany v odlišných výřezech a nejsou binárně totožné.
+  - Všechny položky první dávky mají EXIF DateTime z 15. února 2013 a fotoaparát Panasonic DMC-TZ3; metadata jsou proto vedena
+    jako údaje o reprodukčním fotografování, nikoli o vydání novin.
+  - Ve filename posloupnosti aktuálního snapshotu není P1020282.JPG; samotná mezera neprokazuje existenci chybějícího originálu.
+  unknown:
+  - physical_newspaper_source_and_archive_provenance
+  - complete_issue_and_page_sequence
+  - whether_all_photographs_belong_to_one_physical_volume_or_selection
+  - meaning_of_handwritten_title_card_and_scope_of_word_polaci
+  - whether_filename_gap_P1020282_represents_only_camera_sequence_gap_or_missing_archival_file
+  - photographer_and_digitization_circumstances
+  - copyright_and_reuse_rights
+  evidence:
+  - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-01.yml
+  - research/urbanek-archive/collections/noviny-1938-ceske-slovo-overview.yml
+  - sources/index.d/urbanek-noviny-1938-ceske-slovo-01.yml

@@ -1,4 +1,4 @@
-schema_version: 2
+schema_version: 3
 archive_id: urbanek-archive
 source_root: sources/osobni-archiv-jaromira-urbanka
 snapshot:
@@ -16,17 +16,17 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 407
+  processed_content_files: 412
   processed_technical_files: 18
-  processed_items: 425
-  remaining_content_files: 180
+  processed_items: 430
+  remaining_content_files: 175
   remaining_technical_files: 11
-  remaining_items: 191
+  remaining_items: 186
 status_summary:
   completed_collections: 9
-  in_progress_collections: 0
-  partially_processed_top_level_directories: 1
-  unprocessed_collection_groups: 6
+  in_progress_collections: 1
+  partially_processed_top_level_directories: 2
+  unprocessed_collection_groups: 5
   full_source_root_inventory: completed_for_current_git_snapshot
   full_archive_index: in_progress
 groups:
@@ -96,9 +96,13 @@ groups:
   content_files: 33
   technical_files: 2
   total_items: 35
-  processed_items: 0
-  remaining_items: 35
-  status: unprocessed
+  processed_items: 5
+  remaining_items: 30
+  status: in_progress
+  overview: research/urbanek-archive/collections/noviny-1938-ceske-slovo-overview.yml
+  latest_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-01.csv
+  latest_classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-01.yml
+  latest_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-01.yml
 - order: 6
   id: urbanek-nalet-na-ostravu-1944
   source_path: Nálet na Ostravu 1944
@@ -205,15 +209,22 @@ groups:
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
   completed_group_id: urbanek-root-loose-files
-  completed_batch: 2
   current_group_id: urbanek-noviny-1938-ceske-slovo
+  current_batch: 1
   next_action:
-    type: process_collection
+    type: process_collection_batch
     source_path: Noviny 1938 České slovo
-    total_items: 35
+    batch_number: 2
+    filenames:
+    - P1020278.JPG
+    - P1020279.JPG
+    - P1020280.JPG
+    - P1020281.JPG
+    - P1020283.JPG
   reason:
-  - all six loose root files are indexed and Git-verified
-  - continue in archive-root inventory order
+  - the first five content files are indexed, Git-verified and visually classified
+  - continue in repository filename order; P1020282.JPG is absent from the current snapshot and is not inferred as a missing
+    original
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

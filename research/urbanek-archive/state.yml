@@ -1,4 +1,4 @@
-schema_version: 16
+schema_version: 17
 project: urbanek-archive
 repository: triuk/rychvald-zajimava-mista
 branch: agent/import-urbanek-pilot
@@ -23,9 +23,9 @@ authoritative_files:
   ccs_thumbnail_audit: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
   latest_completed_collection: research/urbanek-archive/collections/boj-o-nabozenstvi.yml
   current_collection_overview: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml
-  current_batch_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-10.yml
-  current_batch_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-10.csv
-  current_batch_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-10.yml
+  current_batch_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-11.yml
+  current_batch_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-11.csv
+  current_batch_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-11.yml
 pull_request:
   number: 1
   url: https://github.com/triuk/rychvald-zajimava-mista/pull/1
@@ -44,12 +44,12 @@ archive_scope:
     content_files: 587
     technical_files: 29
     total_items: 616
-    processed_content_files: 397
+    processed_content_files: 401
     processed_technical_files: 17
-    processed_items: 414
-    remaining_content_files: 190
+    processed_items: 418
+    remaining_content_files: 186
     remaining_technical_files: 12
-    remaining_items: 202
+    remaining_items: 198
   completed_collections: 7
   in_progress_collections: 1
   partially_processed_top_level_directories: 1
@@ -162,16 +162,16 @@ rychvald_vcera_dnes_collection:
     technical_files: 1
     total_items: 55
   progress:
-    processed_content_files: 50
+    processed_content_files: 54
     processed_technical_files: 0
-    processed_items: 50
-    repo_verified_items: 50
-    visually_classified_items: 50
-    source_indexed_items: 50
-    remaining_content_files: 4
+    processed_items: 54
+    repo_verified_items: 54
+    visually_classified_items: 54
+    source_indexed_items: 54
+    remaining_content_files: 0
     remaining_technical_files: 1
-    remaining_items: 5
-    technical_cache_audit_status: pending_after_all_content_batches
+    remaining_items: 1
+    technical_cache_audit_status: ready_after_all_content_batches
   completed_batches:
   - number: 1
     items: 001-005
@@ -203,16 +203,23 @@ rychvald_vcera_dnes_collection:
   - number: 10
     items: 046-050
     id: aerial-views-pond-woodland-rural-housing-and-large-building-10
+  - number: 11
+    items: 051-054
+    id: aerial-views-agricultural-complex-roadside-buildings-and-pond-center-11
   latest_batch_files:
-    inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-10.csv
-    classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-10.yml
-    source_index: sources/index.d/urbanek-rychvald-vcera-dnes-10.yml
+    inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-11.csv
+    classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-11.yml
+    source_index: sources/index.d/urbanek-rychvald-vcera-dnes-11.yml
   interpretation:
     overlapping_but_distinct_aerial_views:
     - items_001-004
     - items_006-007
     - items_013-014
     - items_044-045
+    - items_033_and_051
+    - items_044_045_054
+    verified_same_session_with_overlap:
+    - items_033_and_051
     same_session_without_established_overlap:
     - items_016_and_018
     - items_027_029_030_032
@@ -237,6 +244,8 @@ rychvald_vcera_dnes_collection:
     - items_044_and_045
     - items_047_and_042_034
     - items_050_and_021_041_043
+    - items_026_028_052
+    - items_031_and_053
     similar_distant_skyline_without_verified_overlap: items_026_and_030
     exif_clock_conflicts:
     - item_020_daylight_scene_but_datetime_23_39_36
@@ -246,18 +255,15 @@ rychvald_vcera_dnes_collection:
     - item_045_daylight_scene_but_datetime_23_40_07
     - item_048_daylight_scene_but_datetime_00_13_15
     - item_049_daylight_scene_but_datetime_23_33_18
+    - item_053_daylight_scene_but_datetime_23_53_14
     visible_text_association: item_034_contains_rc_team_rychvald_banner_without_proving_exact_location_or_book_use
     visible_commercial_text_without_verified_location: item_042_contains_hruska_sign_without_proving_exact_branch_event_or_book_use
-    exact_binary_duplicates_in_batches_01_10: 0
+    exact_binary_duplicates_in_batches_01_11: 0
   open_uncertainties:
   - URB-U-0076
-  next_batch:
-    number: 11
-    filenames:
-    - 50.jpg
-    - 51.jpg
-    - 52.jpg
-    - 53.jpg
+  next_action:
+    type: technical_file_audit
+    filename: Thumbs.db
 uncertainties:
   registry: research/urbanek-archive/uncertainties/index.yml
   summary:
@@ -270,43 +276,38 @@ uncertainties:
   workflow_resolution_status: deferred_until_full_archive_index_complete
   archive_indexing_range: URB-U-0075..URB-U-0076
   latest_update:
-    batch: 10
+    batch: 11
     items:
     - URB-U-0076
 consistency_review:
-  status: batch_10_completed_indexing_continues
+  status: batch_11_completed_all_content_images_indexed_technical_audit_pending
   verified_totals:
     archive_total_items: 616
-    archive_processed_items: 414
-    archive_remaining_items: 202
+    archive_processed_items: 418
+    archive_remaining_items: 198
     current_collection_total_items: 55
-    current_collection_processed_items: 50
-    current_collection_remaining_items: 5
+    current_collection_processed_items: 54
+    current_collection_remaining_items: 1
   ci_status:
     checks_returned: 0
     interpretation: no_reported_checks_not_a_successful_test_run
 readiness:
   status: draft_pr_open_full_archive_indexing_in_progress
   blockers_for_merge:
-  - remaining_202_archive_items_not_yet_indexed
+  - remaining_198_archive_items_not_yet_indexed
   - user_review_and_explicit_merge_decision_pending
   non_blocking_known_issues:
   - eleven pilot full original images are missing; only thumbnails remain in caches
   - forty_one historical personal archival and technical questions remain open
   - the CČS calendar Thumbs.db is structurally incomplete, but it evidences no missing full original
   - the exact relationship of current aerial photographs to the named book and their rights provenance remains open as URB-U-0076
-  - items 020, 031, 036, 044, 045, 048 and 049 contain daylight images whose EXIF clock values are late-evening or near-midnight
+  - items 020, 031, 036, 044, 045, 048, 049 and 053 contain daylight images whose EXIF clock values are late-evening or near-midnight
     and are not reliable exposure times
 next_action:
-  type: continue_current_collection_batch
+  type: audit_current_collection_technical_file
   processing_status: ready
-  remaining_archive_items: 202
+  remaining_archive_items: 198
   collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
-  batch_number: 11
-  filenames:
-  - 50.jpg
-  - 51.jpg
-  - 52.jpg
-  - 53.jpg
-  remaining_collection_items_after_batch_10: 5
-  technical_audit: after all 54 content files
+  filename: Thumbs.db
+  remaining_collection_items_after_batch_11: 1
+  purpose: complete collection and determine whether the cache evidences missing source images

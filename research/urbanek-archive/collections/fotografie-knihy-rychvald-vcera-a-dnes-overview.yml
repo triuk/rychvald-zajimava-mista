@@ -10,15 +10,15 @@ totals:
   technical_files: 1
   total_items: 55
 progress:
-  processed_content_files: 50
+  processed_content_files: 54
   processed_technical_files: 0
-  processed_items: 50
-  repo_verified_items: 50
-  visually_classified_items: 50
-  source_indexed_items: 50
-  remaining_content_files: 4
+  processed_items: 54
+  repo_verified_items: 54
+  visually_classified_items: 54
+  source_indexed_items: 54
+  remaining_content_files: 0
   remaining_technical_files: 1
-  remaining_items: 5
+  remaining_items: 1
 completed_batches:
 - number: 1
   items: 001-005
@@ -140,6 +140,17 @@ completed_batches:
   inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-10.csv
   classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-10.yml
   source_index: sources/index.d/urbanek-rychvald-vcera-dnes-10.yml
+- number: 11
+  items: 051-054
+  filenames:
+  - 50.jpg
+  - 51.jpg
+  - 52.jpg
+  - 53.jpg
+  id: aerial-views-agricultural-complex-roadside-buildings-and-pond-center-11
+  inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-11.csv
+  classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-11.yml
+  source_index: sources/index.d/urbanek-rychvald-vcera-dnes-11.yml
 interpretation_rules:
 - Folder and filename wording is archival metadata, not independent proof of book publication, page placement, date, authorship
   or depicted location.
@@ -151,17 +162,16 @@ interpretation_rules:
   publication use or photographer.
 - Visible text Hruška in 41.jpg identifies a commercial sign in the image but does not independently establish the exact branch,
   event identity, depicted location, publication use or photographer.
-- Daylight scenes in 19.jpg, 30.jpg, 35.jpg, 43.jpg, 44.jpg, 47.jpg and 48.jpg conflict with late-evening or near-midnight
+- Daylight scenes in 19.jpg, 30.jpg, 35.jpg, 43.jpg, 44.jpg, 47.jpg, 48.jpg and 52.jpg conflict with late-evening or near-midnight
   EXIF clock values; those clock values are not treated as reliable exposure times.
+- Verified visual overlaps include 50.jpg with 32.jpg and 53.jpg with 43.jpg and 44.jpg; the distinct files and viewpoints
+  remain separately indexed.
 open_uncertainties:
 - URB-U-0076
-next_batch:
-  number: 11
-  filenames:
-  - 50.jpg
-  - 51.jpg
-  - 52.jpg
-  - 53.jpg
+next_step:
+  type: technical_file_audit
+  filename: Thumbs.db
+  status: ready
 technical_file:
   path: Thumbs.db
-  status: pending_final_collection_audit
+  status: ready_for_final_collection_audit

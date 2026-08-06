@@ -16,20 +16,27 @@ items:
   - urbanek-noviny-1938-ceske-slovo-008
   - urbanek-noviny-1938-ceske-slovo-009
   - urbanek-noviny-1938-ceske-slovo-010
-  question: Jaká je provenience fotografovaných novinových předloh, které stránky a vydání jsou v kolekci zastoupeny,
-    je pořadí snímků úplné a jaká práva a okolnosti digitalizace se k souborům vztahují?
+  - urbanek-noviny-1938-ceske-slovo-011
+  - urbanek-noviny-1938-ceske-slovo-012
+  - urbanek-noviny-1938-ceske-slovo-013
+  - urbanek-noviny-1938-ceske-slovo-014
+  - urbanek-noviny-1938-ceske-slovo-015
+  question: Jaká je provenience fotografovaných novinových předloh, které stránky a vydání jsou v kolekci zastoupeny, je pořadí
+    snímků úplné a jaká práva a okolnosti digitalizace se k souborům vztahují?
   known_facts:
   - Aktuální Git a Drive snapshot kolekce obsahuje 33 souborů JPEG a technické soubory Thumbs.db a ZbThumbnail.info.
   - P1020273.JPG zachycuje ručně popsanou cedulku s texty „Poláci“, „České slovo“ a „1938“.
   - P1020275.JPG přímo zobrazuje titul České slovo, datum sobota 1. října 1938, ročník X a číslo 271.
   - P1020274.JPG a P1020276.JPG zachycují stejnou část novinové strany v odlišných výřezech a nejsou binárně totožné.
   - P1020277.JPG a P1020278.JPG zachycují stejnou část novinové strany v širším a těsnějším výřezu a nejsou binárně totožné.
-  - Položky 001–010 mají EXIF DateTime z 15. února 2013 a fotoaparát Panasonic DMC-TZ3; metadata jsou vedena jako údaje
-    o reprodukčním fotografování, nikoli o vydání novin.
-  - Na položkách 006–010 není úplný masthead; viditelné datace 3. a 4. října patří jednotlivým zprávám a samy neurčují
+  - P1020286.JPG až P1020288.JPG jsou tři překrývající se fotografie téže novinové strany; P1020287.JPG a P1020288.JPG mají
+    téměř stejný výřez, ale nejsou binárně totožné.
+  - Položky 001–015 mají EXIF DateTime z 15. února 2013 a fotoaparát Panasonic DMC-TZ3; metadata jsou vedena jako údaje o
+    reprodukčním fotografování, nikoli o vydání novin.
+  - Na položkách 006–015 není úplný masthead; viditelné datace 3., 4. a 6. října patří jednotlivým zprávám a samy neurčují
     číslo vydání.
-  - Ve filename posloupnosti aktuálního snapshotu není P1020282.JPG; samotná mezera ani časový odstup před P1020283.JPG
-    neprokazují existenci chybějícího originálu.
+  - Ve filename posloupnosti aktuálního snapshotu není P1020282.JPG; samotná mezera ani časový odstup před P1020283.JPG neprokazují
+    existenci chybějícího originálu.
   unknown:
   - physical_newspaper_source_and_archive_provenance
   - complete_issue_and_page_sequence
@@ -41,6 +48,8 @@ items:
   evidence:
   - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-01.yml
   - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-02.yml
+  - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-03.yml
   - research/urbanek-archive/collections/noviny-1938-ceske-slovo-overview.yml
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-01.yml
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-02.yml
+  - sources/index.d/urbanek-noviny-1938-ceske-slovo-03.yml

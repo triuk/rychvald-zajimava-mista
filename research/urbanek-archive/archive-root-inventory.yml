@@ -6,8 +6,8 @@ snapshot:
   commit: e94832c650dc15cf7e28b7affe66812f70bfd497
   inventoried_at: '2026-08-04'
   method: complete PR changed-file path enumeration filtered to source_root
-  scope_note: Authoritative for files staged in the current Git branch snapshot; it does not prove that no additional
-    files exist outside Git.
+  scope_note: Authoritative for files staged in the current Git branch snapshot; it does not prove that no additional files
+    exist outside Git.
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 totals:
@@ -16,12 +16,12 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 417
+  processed_content_files: 422
   processed_technical_files: 18
-  processed_items: 435
-  remaining_content_files: 170
+  processed_items: 440
+  remaining_content_files: 165
   remaining_technical_files: 11
-  remaining_items: 181
+  remaining_items: 176
 status_summary:
   completed_collections: 9
   in_progress_collections: 1
@@ -96,13 +96,13 @@ groups:
   content_files: 33
   technical_files: 2
   total_items: 35
-  processed_items: 10
-  remaining_items: 25
+  processed_items: 15
+  remaining_items: 20
   status: in_progress
   overview: research/urbanek-archive/collections/noviny-1938-ceske-slovo-overview.yml
-  latest_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-02.csv
-  latest_classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-02.yml
-  latest_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-02.yml
+  latest_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-03.csv
+  latest_classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-03.yml
+  latest_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-03.yml
 - order: 6
   id: urbanek-nalet-na-ostravu-1944
   source_path: Nálet na Ostravu 1944
@@ -210,21 +210,21 @@ groups:
 selection:
   completed_group_id: urbanek-root-loose-files
   current_group_id: urbanek-noviny-1938-ceske-slovo
-  current_batch: 2
+  current_batch: 3
   next_action:
     type: process_collection_batch
     source_path: Noviny 1938 České slovo
-    batch_number: 3
+    batch_number: 4
     filenames:
-    - P1020284.JPG
-    - P1020285.JPG
-    - P1020286.JPG
-    - P1020287.JPG
-    - P1020288.JPG
+    - P1020289.JPG
+    - P1020290.JPG
+    - P1020291.JPG
+    - P1020292.JPG
+    - P1020293.JPG
   reason:
-  - the first ten content files are indexed, Git-verified and visually classified
-  - continue in repository filename order; P1020282.JPG is absent from the current snapshot and is not inferred as a
-    missing original
+  - the first fifteen content files are indexed, Git-verified and visually classified
+  - continue in repository filename order; P1020282.JPG is absent from the current snapshot and is not inferred as a missing
+    original
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

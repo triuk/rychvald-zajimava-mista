@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 35
 progress:
-  processed_content_files: 10
+  processed_content_files: 15
   processed_technical_files: 0
-  processed_items: 10
-  repo_verified_items: 10
-  visually_classified_items: 10
-  source_indexed_items: 10
-  remaining_content_files: 23
+  processed_items: 15
+  repo_verified_items: 15
+  visually_classified_items: 15
+  source_indexed_items: 15
+  remaining_content_files: 18
   remaining_technical_files: 2
-  remaining_items: 25
+  remaining_items: 20
 completed_batches:
 - number: 1
   items: 001-005
@@ -45,20 +45,30 @@ completed_batches:
   inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-02.csv
   classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-02.yml
   source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-02.yml
+- number: 3
+  items: 011-015
+  filenames:
+  - P1020284.JPG
+  - P1020285.JPG
+  - P1020286.JPG
+  - P1020287.JPG
+  - P1020288.JPG
+  id: tesin-refugees-occupied-industry-frystat-occupation-schools-and-european-news-03
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-03.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-03.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-03.yml
 interpretation_rules:
-- Visible newspaper titles, dates, issue numbers and headlines are transcribed as printed wording; the historical claims
-  within articles are not independently verified in this indexing pass.
+- Visible newspaper titles, dates, issue numbers and headlines are transcribed as printed wording; the historical claims within
+  articles are not independently verified in this indexing pass.
 - EXIF DateTime values describe the modern photographic reproduction session and are not publication dates.
-- A repeated photograph of the same page is retained as a separate inventory item when its binary file and framing are
-  distinct.
+- A repeated photograph of the same page is retained as a separate inventory item when its binary file and framing are distinct.
 - The handwritten title card is archival organization evidence only and does not prove that every following image concerns
   Poland or belongs to one complete issue.
 - A gap in camera filename numbering is recorded as a sequence uncertainty, not as a missing full original without corroborating
   cache or manifest evidence.
-- Datelines printed within individual reports are not treated as complete issue dates when the masthead and issue data
-  are outside the photographed crop.
-- Incidental newspapers visible beneath the indexed page are not treated as separate source items without a dedicated
-  photograph.
+- Datelines printed within individual reports are not treated as complete issue dates when the masthead and issue data are
+  outside the photographed crop.
+- Incidental newspapers visible beneath the indexed page are not treated as separate source items without a dedicated photograph.
 open_uncertainties:
 - URB-U-0081
 technical_files:
@@ -67,10 +77,10 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 3
+  number: 4
   filenames:
-  - P1020284.JPG
-  - P1020285.JPG
-  - P1020286.JPG
-  - P1020287.JPG
-  - P1020288.JPG
+  - P1020289.JPG
+  - P1020290.JPG
+  - P1020291.JPG
+  - P1020292.JPG
+  - P1020293.JPG

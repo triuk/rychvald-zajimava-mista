@@ -1,0 +1,38 @@
+schema_version: 1
+scope: open_items_0077_0079
+items:
+- id: URB-U-0077
+  status: open
+  priority: medium
+  collection: Volné soubory přímo v kořeni archivu
+  type: photograph_location_date_and_provenance
+  source_items: [urbanek-root-loose-001]
+  question: Jaká stanice a lokalita je na reprodukci označené Nádraží, z jaké doby pochází a kdo je autorem či vydavatelem předlohy?
+  known_facts:
+  - V obraze je čitelný tištěný popisek Nádraží.
+  - EXIF datum 2016 je metadata digitální reprodukce, nikoli historická datace scény.
+  unknown: [exact_station_and_locality, original_date, photographer_or_publisher, source_reference]
+- id: URB-U-0078
+  status: open
+  priority: high
+  collection: Volné soubory přímo v kořeni archivu
+  type: historical_group_event_unit_date_and_provenance
+  source_items: [urbanek-root-loose-004]
+  question: Jaká událost, jednotka a přesné datum jsou zachyceny u tabule MĚSTO RYCHVALD a jaká je provenience fotografie?
+  known_facts:
+  - Na fotografii je pět ozbrojených mužů v přilbách a uniformách.
+  - Na tabuli je čitelný nápis MĚSTO RYCHVALD.
+  - Archivní název není nezávislým důkazem data ani interpretace.
+  unknown: [exact_event_and_date, unit, identities, photographer_and_source]
+- id: URB-U-0079
+  status: open
+  priority: high
+  collection: Volné soubory přímo v kořeni archivu
+  type: official_document_archival_context_and_completeness
+  source_items: [urbanek-root-loose-005]
+  question: Jaký je archivní fond, spisová značka, účel, návaznost a úplnost tajného seznamu Okresního velitelství SNB ve Fryštátě z 10. července 1945?
+  known_facts:
+  - Dokument nese záhlaví Okresního velitelství SNB ve Fryštátě.
+  - Je datován 10. července 1945 a označen Tajné.
+  - Dochovaná fotografie zachycuje jednu stránku s očíslovanou tabulkou.
+  unknown: [archive_fond_and_file_reference, issuing_context, additional_pages_or_annexes, subsequent_use]

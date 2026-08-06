@@ -16,15 +16,15 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 401
+  processed_content_files: 406
   processed_technical_files: 18
-  processed_items: 419
-  remaining_content_files: 186
+  processed_items: 424
+  remaining_content_files: 181
   remaining_technical_files: 11
-  remaining_items: 197
+  remaining_items: 192
 status_summary:
   completed_collections: 8
-  in_progress_collections: 0
+  in_progress_collections: 1
   partially_processed_top_level_directories: 1
   unprocessed_collection_groups: 7
   full_source_root_inventory: completed_for_current_git_snapshot
@@ -37,9 +37,9 @@ groups:
   content_files: 6
   technical_files: 0
   total_items: 6
-  processed_items: 0
-  remaining_items: 6
-  status: selected_next
+  processed_items: 5
+  remaining_items: 1
+  status: in_progress
   files:
   - 19.jpg
   - 20Hlavička 27.10.1938.jpg
@@ -47,6 +47,10 @@ groups:
   - 9 X 1938 przed zajęciem Rychvaldu.png
   - IMG_0117 seznam bojůvkařů.jpg
   - img237 německý četník.jpg
+  overview: research/urbanek-archive/collections/root-loose-files-overview.yml
+  latest_inventory: research/urbanek-archive/collections/root-loose-files-inventory-01.csv
+  latest_classification: research/urbanek-archive/collections/root-loose-files-batch-01.yml
+  latest_source_index: sources/index.d/urbanek-root-loose-files-01.yml
 - order: 2
   id: urbanek-ccs-history
   source_path: 4 Historie  Církve Československé  v Rychvaldě ve fotografiích
@@ -200,20 +204,14 @@ groups:
   status: completed
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
-  completed_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
   current_group_id: urbanek-root-loose-files
-  next_batch_filenames:
-  - 19.jpg
-  - 20Hlavička 27.10.1938.jpg
-  - 21zpráva 28.10.1938.jpg
-  - 9 X 1938 przed zajęciem Rychvaldu.png
-  - IMG_0117 seznam bojůvkařů.jpg
-  remaining_in_group_after_batch:
-  - img237 německý četník.jpg
+  completed_batch: 1
+  next_action:
+    type: process_remaining_root_loose_file
+    filename: img237 německý četník.jpg
   reason:
-  - the previous collection is complete, including its technical cache audit
-  - continue in root-inventory order
-  - a five-item batch preserves reviewability
+  - five of six loose root files are now indexed and Git-verified
+  - complete the selected root group before moving to the next collection
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

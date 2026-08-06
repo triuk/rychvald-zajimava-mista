@@ -4,31 +4,50 @@ items:
   status: open
   priority: medium
   collection: Rychvald
-  type: collection_location_authorship_provenance_and_filename_semantics
+  type: collection_location_authorship_provenance_filename_semantics_and_historical_reproduction_identification
   source_items:
   - urbanek-rychvald-001
   - urbanek-rychvald-002
   - urbanek-rychvald-003
   - urbanek-rychvald-004
   - urbanek-rychvald-005
+  - urbanek-rychvald-006
+  - urbanek-rychvald-007
+  - urbanek-rychvald-008
+  - urbanek-rychvald-009
+  - urbanek-rychvald-010
   question: Jaká je přesná provenience, autorství a lokalizace fotografií v kolekci `Rychvald`, co znamená jméno `Cudlín`
-    v názvech souborů a jaký byl původní účel či publikační kontext této sady?
+    v názvech souborů, jaký byl původní účel či publikační kontext sady a které události, objekty, datace a významy popisků
+    zachycují historické reprodukce?
   known_facts:
   - Aktuální Git a Drive snapshot kolekce obsahuje 31 obrazových souborů a technické soubory Thumbs.db a ZbThumbnail.info.
-  - Budova úřadu 003.jpg a Budova úřadu 005.jpg přímo zobrazují nápis „MĚSTSKÝ ÚŘAD“, ale obraz neobsahuje čitelný název obce.
-  - Cudlín 033.jpg, Cudlín 035.jpg a Cudlín 037.jpg jsou tři časově navazující pohledy na tutéž upravenou veřejnou plochu.
-  - Všech pět souborů uvádí fotoaparát Panasonic DMC-FZ7; první dvojice má EXIF z 2. září 2008 a druhá trojice z 28. srpna
-    2009.
-  - Git snapshot ukazuje, že Budova úřadu 005.jpg a pozdější soubor Kopie - Budova úřadu 005.jpg mají totožný Git blob SHA.
-  - Název adresáře a názvy souborů jsou archivní metadata a samy neprokazují přesnou lokalitu ani fotografa.
+  - '`Budova úřadu 003.jpg` a `Budova úřadu 005.jpg` přímo zobrazují nápis „MĚSTSKÝ ÚŘAD“, ale obraz neobsahuje čitelný název
+    obce.'
+  - '`Cudlín 033.jpg`, `Cudlín 035.jpg` a `Cudlín 037.jpg` jsou tři časově navazující pohledy na tutéž upravenou veřejnou
+    plochu.'
+  - '`Cudlín 041.jpg` zachycuje interiér sakrální stavby s dekorovanými lavicemi, oltářem, krucifixem a nástěnnými malbami;
+    přesná stavba ani příležitost nejsou přímo označeny.'
+  - '`Kopie - Budova úřadu 005.jpg` je podle SHA-256 i Git blob SHA přesná binární kopie položky 002 a nepředstavuje další
+    nezávislý obrazový důkaz.'
+  - '`P1010066.JPG` až `P1010068.JPG` jsou moderní reprodukční fotografie starších fotografií či pohlednic, pořízené Panasonicem
+    DMC-TZ3 dne 28. února 2010.'
+  - '`P1010068.JPG` přímo zobrazuje rok „1909“ a popisek „ŠKOLY U.M.Š. V RYCHVALDĚ.“; ověřeno je znění popisku, nikoli význam
+    zkratky, úplná datace ani identita obou budov.'
+  - Název adresáře a názvy souborů jsou archivní metadata a samy neprokazují přesnou lokalitu, fotografa, událost ani historické
+    datum.
   unknown:
   - exact_location_of_each_scene
   - whether_all_scenes_are_in_Rychvald
-  - identity_and_function_of_glass_fronted_building_and_square
+  - identity_and_function_of_glass_fronted_building_square_and_sacral_interior
   - whether_Cudlin_is_photographer_editor_source_or_other_filename_label
+  - historical_events_people_dates_and_institutions_in_reproduced_images
+  - meaning_of_UMS_abbreviation_and_relationship_of_1909_to_both_school_images
+  - physical_source_provenance_and_reproduction_history
   - original_collection_purpose_and_publication_context
   - copyright_and_reuse_rights
   evidence:
   - research/urbanek-archive/collections/rychvald-batch-01.yml
+  - research/urbanek-archive/collections/rychvald-batch-02.yml
   - research/urbanek-archive/collections/rychvald-overview.yml
   - sources/index.d/urbanek-rychvald-01.yml
+  - sources/index.d/urbanek-rychvald-02.yml

@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 33
 progress:
-  processed_content_files: 5
+  processed_content_files: 10
   processed_technical_files: 0
-  processed_items: 5
-  repo_verified_items: 5
-  visually_classified_items: 5
-  source_indexed_items: 5
-  remaining_content_files: 26
+  processed_items: 10
+  repo_verified_items: 10
+  visually_classified_items: 10
+  source_indexed_items: 10
+  remaining_content_files: 21
   remaining_technical_files: 2
-  remaining_items: 28
+  remaining_items: 23
 completed_batches:
 - number: 1
   items: 001-005
@@ -33,14 +33,28 @@ completed_batches:
   inventory: research/urbanek-archive/collections/rychvald-inventory-01.csv
   classification: research/urbanek-archive/collections/rychvald-batch-01.yml
   source_index: sources/index.d/urbanek-rychvald-01.yml
+- number: 2
+  items: 006-010
+  filenames:
+  - Cudlín 041.jpg
+  - Kopie - Budova úřadu 005.jpg
+  - P1010066.JPG
+  - P1010067.JPG
+  - P1010068.JPG
+  id: sacral-interior-duplicate-office-and-historical-public-school-images-02
+  inventory: research/urbanek-archive/collections/rychvald-inventory-02.csv
+  classification: research/urbanek-archive/collections/rychvald-batch-02.yml
+  source_index: sources/index.d/urbanek-rychvald-02.yml
 interpretation_rules:
 - The folder title Rychvald and individual filenames are archival metadata, not independent proof of exact location, authorship
   or date.
-- Visible signs are transcribed as photographed wording; a generic sign such as MĚSTSKÝ ÚŘAD does not by itself identify the
-  municipality.
+- Visible signs and captions are transcribed as photographed wording; their underlying historical claims, abbreviations and
+  dates require corroboration.
 - EXIF timestamps are preserved as capture metadata and are not historical-event dates.
 - Exact binary duplicates under different filenames remain separate inventory items but count as one independent image.
 - The name Cudlín in a filename is not treated as a verified photographer credit without corroborating metadata or documentation.
+- People, events and institutional identities in historical photographs are not identified solely from appearance, uniforms,
+  costumes, flags or architecture.
 open_uncertainties:
 - URB-U-0082
 technical_files:
@@ -49,10 +63,10 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 2
+  number: 3
   filenames:
-  - Cudlín 041.jpg
-  - Kopie - Budova úřadu 005.jpg
-  - P1010066.JPG
-  - P1010067.JPG
-  - P1010068.JPG
+  - P1010069.JPG
+  - P1010070.JPG
+  - P1010071.JPG
+  - P1010072.JPG
+  - P1010114.JPG

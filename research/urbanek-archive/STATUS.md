@@ -22,35 +22,38 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 445 | 20 | **465** |
-| zbývá | 142 | 9 | **151** |
+| zpracováno | 450 | 20 | **470** |
+| zbývá | 137 | 9 | **146** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 5 z 33 položek.
+Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 10 z 33 položek.
 
-## Rychvald – dávka 01
+## Rychvald – dávka 02
 
-Zpracovány byly soubory `Budova úřadu 003.jpg`, `Budova úřadu 005.jpg`, `Cudlín 033.jpg`, `Cudlín 035.jpg` a `Cudlín 037.jpg`:
+Zpracovány byly soubory `Cudlín 041.jpg`, `Kopie - Budova úřadu 005.jpg`, `P1010066.JPG`, `P1010067.JPG` a `P1010068.JPG`:
 
-- první dva snímky zachycují dvě strany třípodlažní budovy s přímo čitelným nápisem „MĚSTSKÝ ÚŘAD“;
-- tři soubory `Cudlín` jsou časově těsně navazující pohledy na upravenou dlážděnou veřejnou plochu s prosklenou budovou, obchody, květinami, kamenným vodním či výtvarným prvkem a obytnými domy v pozadí;
-- mezi pěti soubory není přesná binární duplicita;
-- pozdější cesta `Kopie - Budova úřadu 005.jpg` má v Git stejný blob SHA jako `Budova úřadu 005.jpg` a bude vedena jako samostatná inventární položka, nikoli jako další nezávislý obrazový důkaz.
+- `Cudlín 041.jpg` zachycuje interiér sakrální stavby s uličkou mezi lavicemi zdobenými bílými květy a stuhami, oltářem, krucifixem a nástěnnými malbami;
+- `Kopie - Budova úřadu 005.jpg` je podle SHA-256 i Git blob SHA přesná binární kopie položky 002 a nepředstavuje další nezávislý obrazový důkaz;
+- `P1010066.JPG` je moderní reprodukce starší černobílé fotografie či pohlednice s formální veřejnou scénou před sakrální stavbou, uniformovanými řadami, prapory a davem;
+- `P1010067.JPG` je reprodukce skupinového snímku dětí a dospělých před provozovnami; čitelné jsou nápisy „Baťa a.s.“, „RESTAURACE“, „TEPLÁ A STUDENÁ JÍDLA“ a „PIVO“;
+- `P1010068.JPG` zachycuje desku se dvěma snímky školních budov, rokem „1909“ a popiskem „ŠKOLY U.M.Š. V RYCHVALDĚ.“.
 
-Všech pět souborů přesně odpovídá Drive i Git blobům. První dvojice má rozměry 2394 × 1796 px a EXIF z 2. září 2008; druhá trojice má 2048 × 1360 px a EXIF z 28. srpna 2009. Všechny uvádějí Panasonic DMC-FZ7.
+Všech pět souborů přesně odpovídá Drive i Git blobům. `Cudlín 041.jpg` uvádí Panasonic DMC-FZ7 a čas 28. srpna 2009 15:59:46. Přesná kopie úřadu zachovává metadata 2. září 2008. Soubory `P1010066.JPG` až `P1010068.JPG` uvádějí Panasonic DMC-TZ3 a časy 28. února 2010 mezi 12:34:50 a 12:37:29.
 
-Zařazení do adresáře `Rychvald` a jméno `Cudlín` jsou archivní metadata. Přesná lokalita veřejné plochy, význam jména `Cudlín`, autorství, původní účel sady a práva nejsou z obrazů samostatně prokázány; jsou vedeny pod `URB-U-0082`.
+Viditelný rok a popisek škol jsou evidovány doslovně. Bez dalšího neprokazují význam zkratky U.M.Š., datum obou fotografií ani přesnou identitu budov. Osoby, konkrétní události a historická data nejsou určovány pouze podle vzhledu, uniforem, krojů, praporů nebo architektury.
+
+Nejistota `URB-U-0082` byla rozšířena na položky 001–010. Nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| Rychvald – zbývá | 26 | 2 | 28 |
+| Rychvald – zbývá | 21 | 2 | 23 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **142** | **9** | **151** |
+| **Celkem** | **137** | **9** | **146** |
 
 ## Registr nejistot
 
@@ -65,12 +68,12 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 465 položek;
-- zbývá 151 položek;
-- kolekce `Rychvald` je zpracována v rozsahu 5 z 33 položek;
+- zpracovaný rozsah je 470 položek;
+- zbývá 146 položek;
+- kolekce `Rychvald` je zpracována v rozsahu 10 z 33 položek;
 - všech pět Drive souborů přesně odpovídá Git blobům;
-- mezi pěti soubory dávky není přesná binární duplicita;
-- známá přesná duplicita `Budova úřadu 005.jpg` / `Kopie - Budova úřadu 005.jpg` je evidována;
+- v dávce není přesná binární duplicita mezi pěti vybranými cestami;
+- položka 007 je potvrzený přesný duplikát položky 002;
 - registr používá součty 47/32/3/82;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - absence hlášených CI status checks není úspěšně proběhlý test.
@@ -78,5 +81,5 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Aktuální krok
 
 - Aktivní fáze: `full_archive_indexing`.
-- Další dávka: `Cudlín 041.jpg`, `Kopie - Budova úřadu 005.jpg`, `P1010066.JPG`, `P1010067.JPG` a `P1010068.JPG`.
+- Další dávka: `P1010069.JPG`, `P1010070.JPG`, `P1010071.JPG`, `P1010072.JPG` a `P1010114.JPG`.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

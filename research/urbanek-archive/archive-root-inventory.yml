@@ -16,12 +16,12 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 445
+  processed_content_files: 450
   processed_technical_files: 20
-  processed_items: 465
-  remaining_content_files: 142
+  processed_items: 470
+  remaining_content_files: 137
   remaining_technical_files: 9
-  remaining_items: 151
+  remaining_items: 146
 status_summary:
   completed_collections: 10
   in_progress_collections: 1
@@ -132,13 +132,13 @@ groups:
   content_files: 31
   technical_files: 2
   total_items: 33
-  processed_items: 5
-  remaining_items: 28
+  processed_items: 10
+  remaining_items: 23
   status: in_progress
   overview: research/urbanek-archive/collections/rychvald-overview.yml
-  latest_inventory: research/urbanek-archive/collections/rychvald-inventory-01.csv
-  latest_classification: research/urbanek-archive/collections/rychvald-batch-01.yml
-  latest_source_index: sources/index.d/urbanek-rychvald-01.yml
+  latest_inventory: research/urbanek-archive/collections/rychvald-inventory-02.csv
+  latest_classification: research/urbanek-archive/collections/rychvald-batch-02.yml
+  latest_source_index: sources/index.d/urbanek-rychvald-02.yml
 - order: 9
   id: urbanek-rychvaldske-vetrne-mlyny
   source_path: Rychvaldské větrné mlýny
@@ -217,19 +217,19 @@ groups:
 selection:
   completed_group_id: urbanek-noviny-1938-ceske-slovo
   current_group_id: urbanek-rychvald
-  current_batch: 1
+  current_batch: 2
   next_action:
     type: process_collection_batch
     source_path: Rychvald
-    batch_number: 2
+    batch_number: 3
     filenames:
-    - Cudlín 041.jpg
-    - Kopie - Budova úřadu 005.jpg
-    - P1010066.JPG
-    - P1010067.JPG
-    - P1010068.JPG
+    - P1010069.JPG
+    - P1010070.JPG
+    - P1010071.JPG
+    - P1010072.JPG
+    - P1010114.JPG
   reason:
-  - the first five content files are indexed, Git-verified and visually classified
+  - the first ten content files are indexed, Git-verified and visually classified
   - continue in deterministic repository filename order; exact duplicate paths remain separate inventory items
 rules:
 - Original paths and filenames are preserved.

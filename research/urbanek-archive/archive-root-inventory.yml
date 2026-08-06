@@ -17,14 +17,14 @@ totals:
   technical_files: 29
   total_items: 616
   processed_content_files: 401
-  processed_technical_files: 17
-  processed_items: 418
+  processed_technical_files: 18
+  processed_items: 419
   remaining_content_files: 186
-  remaining_technical_files: 12
-  remaining_items: 198
+  remaining_technical_files: 11
+  remaining_items: 197
 status_summary:
-  completed_collections: 7
-  in_progress_collections: 1
+  completed_collections: 8
+  in_progress_collections: 0
   partially_processed_top_level_directories: 1
   unprocessed_collection_groups: 7
   full_source_root_inventory: completed_for_current_git_snapshot
@@ -39,7 +39,7 @@ groups:
   total_items: 6
   processed_items: 0
   remaining_items: 6
-  status: unprocessed
+  status: selected_next
   files:
   - 19.jpg
   - 20Hlavička 27.10.1938.jpg
@@ -76,13 +76,16 @@ groups:
   content_files: 54
   technical_files: 1
   total_items: 55
-  processed_items: 54
-  remaining_items: 1
-  status: in_progress
+  processed_items: 55
+  remaining_items: 0
+  status: completed
   overview: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-overview.yml
   latest_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-inventory-11.csv
   latest_classification: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-batch-11.yml
   latest_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-11.yml
+  technical_inventory: research/urbanek-archive/collections/fotografie-knihy-rychvald-vcera-a-dnes-technical-inventory.csv
+  technical_source_index: sources/index.d/urbanek-rychvald-vcera-dnes-technical.yml
+  technical_audit: research/urbanek-archive/reports/fotografie-knihy-rychvald-vcera-a-dnes-thumbs-audit.md
 - order: 5
   id: urbanek-noviny-1938-ceske-slovo
   source_path: Noviny 1938 České slovo
@@ -197,14 +200,20 @@ groups:
   status: completed
   inventory: research/urbanek-archive/collections/clanky-z-ceskeho-slova-inventory.csv
 selection:
-  current_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
-  completed_batch: 11
-  next_action:
-    type: technical_file_audit
-    filename: Thumbs.db
+  completed_collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  current_group_id: urbanek-root-loose-files
+  next_batch_filenames:
+  - 19.jpg
+  - 20Hlavička 27.10.1938.jpg
+  - 21zpráva 28.10.1938.jpg
+  - 9 X 1938 przed zajęciem Rychvaldu.png
+  - IMG_0117 seznam bojůvkařů.jpg
+  remaining_in_group_after_batch:
+  - img237 německý četník.jpg
   reason:
-  - all 54 content images are now indexed in stable filename order
-  - technical Thumbs.db audit is the only remaining item in the collection
+  - the previous collection is complete, including its technical cache audit
+  - continue in root-inventory order
+  - a five-item batch preserves reviewability
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

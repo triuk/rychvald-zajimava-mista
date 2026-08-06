@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 35
 progress:
-  processed_content_files: 25
+  processed_content_files: 30
   processed_technical_files: 0
-  processed_items: 25
-  repo_verified_items: 25
-  visually_classified_items: 25
-  source_indexed_items: 25
-  remaining_content_files: 8
+  processed_items: 30
+  repo_verified_items: 30
+  visually_classified_items: 30
+  source_indexed_items: 30
+  remaining_content_files: 3
   remaining_technical_files: 2
-  remaining_items: 10
+  remaining_items: 5
 completed_batches:
 - number: 1
   items: 001-005
@@ -81,6 +81,18 @@ completed_batches:
   inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-05.csv
   classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-05.yml
   source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-05.yml
+- number: 6
+  items: 026-030
+  filenames:
+  - P1020299.JPG
+  - P1020300.JPG
+  - P1020301.JPG
+  - P1020302.JPG
+  - P1020303.JPG
+  id: german-polish-comparison-privoz-station-tesin-mines-regional-news-and-orlova-childbirth-06
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-06.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-06.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-06.yml
 interpretation_rules:
 - Visible newspaper titles, dates, issue numbers and headlines are transcribed as printed wording; the historical claims within
   articles are not independently verified in this indexing pass.
@@ -101,10 +113,8 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 6
+  number: 7
   filenames:
-  - P1020299.JPG
-  - P1020300.JPG
-  - P1020301.JPG
-  - P1020302.JPG
-  - P1020303.JPG
+  - P1020304.JPG
+  - P1020305.JPG
+  - P1020306.JPG

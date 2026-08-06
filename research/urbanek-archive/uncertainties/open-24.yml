@@ -31,6 +31,11 @@ items:
   - urbanek-noviny-1938-ceske-slovo-023
   - urbanek-noviny-1938-ceske-slovo-024
   - urbanek-noviny-1938-ceske-slovo-025
+  - urbanek-noviny-1938-ceske-slovo-026
+  - urbanek-noviny-1938-ceske-slovo-027
+  - urbanek-noviny-1938-ceske-slovo-028
+  - urbanek-noviny-1938-ceske-slovo-029
+  - urbanek-noviny-1938-ceske-slovo-030
   question: Jaká je provenience fotografovaných novinových předloh, které stránky a vydání jsou v kolekci zastoupeny, je pořadí
     snímků úplné a jaká práva a okolnosti digitalizace se k souborům vztahují?
   known_facts:
@@ -61,6 +66,12 @@ items:
   - Položky 021–025 mají EXIF DateTime z 15. února 2013 mezi 15:58:01 a 16:01:54 a fotoaparát Panasonic DMC-TZ3; P1020295.JPG
     je portrétně orientována.
   - Na položkách 021–025 není úplné datum, ročník a číslo vydání; datace 10. a 14. října patří jednotlivým zprávám.
+  - P1020299.JPG je výrazně rozostřený; bezpečně čitelný je pouze hlavní titulek „Němci lepší než Poláci“.
+  - P1020300.JPG a P1020301.JPG zachycují stejnou novinovou stranu v širším a těsnějším výřezu a nejsou binárně totožné.
+  - P1020302.JPG a P1020303.JPG obsahují rubrikový nadpis „Zprávy z Těšínska“, ale bez dalšího se neurčují jako stejná fyzická strana nebo stejné vydání.
+  - P1020302.JPG přímo zmiňuje Orlovou, Petřvald, Karvinsko a Suchou; P1020303.JPG přímo zmiňuje nádraží v Orlové.
+  - Položky 026–030 mají EXIF DateTime z 15. února 2013 mezi 16:05:07 a 16:08:37 a fotoaparát Panasonic DMC-TZ3; položky 029–030 jsou portrétně orientovány.
+  - Na položkách 026–030 není úplné datum, ročník a číslo vydání; datace Praha 24. října patří jednotlivé zprávě.
   unknown:
   - physical_newspaper_source_and_archive_provenance
   - complete_issue_and_page_sequence
@@ -81,3 +92,5 @@ items:
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-04.yml
   - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-05.yml
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-05.yml
+  - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-06.yml
+  - sources/index.d/urbanek-noviny-1938-ceske-slovo-06.yml

@@ -22,41 +22,41 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 432 | 18 | **450** |
-| zbývá | 155 | 11 | **166** |
+| zpracováno | 437 | 18 | **455** |
+| zbývá | 150 | 11 | **161** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je devět kolekcí. Kolekce `Noviny 1938 České slovo` je rozpracována v rozsahu 25 z 35 položek.
+Dokončeno je devět kolekcí. Kolekce `Noviny 1938 České slovo` je rozpracována v rozsahu 30 z 35 položek.
 
-## Noviny 1938 České slovo – dávka 05
+## Noviny 1938 České slovo – dávka 06
 
-Zpracovány byly soubory `P1020294.JPG` až `P1020298.JPG`:
+Zpracovány byly soubory `P1020299.JPG` až `P1020303.JPG`:
 
-- `P1020294.JPG` – těsnější záběr stejné strany jako `P1020293.JPG` s titulkem „Fryštát s okolím zabrán“;
-- `P1020295.JPG` – strana s částečným označením „ČESKÉ SLOVO“ a titulkem „Předposlední den polské okupace“;
-- `P1020296.JPG` – článek „Poslední den polského záboru na Těšínsku“ se samostatným mezititulkem „Jak se rozloučil Rychvald“;
-- `P1020297.JPG` – články „Sta lidí vypovídáno z Těšínska“, „Konsulární atašé v Ostravě“ a „Italie sleduje vývoj ve střední Evropě“;
-- `P1020298.JPG` – detail článku „Péče o uprchlíky z obsazeného území“.
+- `P1020299.JPG` – rozostřený výřez s bezpečně čitelným titulkem „Němci lepší než Poláci“;
+- `P1020300.JPG` – články „Přeplněné přívozské nádraží“, „Nový správce polského konsulátu v Ostravě“ a „Vojenský dozor na šachtách na Těšínsku“;
+- `P1020301.JPG` – těsnější záběr spodní části stejné strany s články o poslanci Sliwkovi, vojenském dozoru na šachtách a soupisu zaměstnanců v Ostravě;
+- `P1020302.JPG` – rubrika „Zprávy z Těšínska“ s přímými zmínkami Orlové, Petřvaldu, Karvinska a Suché;
+- `P1020303.JPG` – článek „Novorozeně ve vagoně“ s podtitulem „Radostná událost na nádraží v Orlové“.
 
-`P1020294.JPG` a `P1020293.JPG` jsou překrývající se, ale binárně odlišné fotografie stejné strany. U ostatních snímků nebyl bezpečně stanoven překryv stejné fyzické stránky.
+`P1020300.JPG` a `P1020301.JPG` jsou překrývající se, ale binárně odlišné fotografie stejné strany. Na `P1020302.JPG` a `P1020303.JPG` se opakuje rubrikový nadpis „Zprávy z Těšínska“, ale bez dalšího se neurčují jako stejná fyzická strana nebo stejné vydání.
 
-`P1020295.JPG` ukazuje částečné označení listu, ale nikoli úplné datum, ročník a číslo vydání. Datace Mor. Ostrava 10. října a Praha 14. října patří jednotlivým zprávám a nejsou bez dalšího převáděny na datum vydání.
+Na žádném snímku dávky není úplný masthead s datem, ročníkem a číslem vydání. Datace Praha 24. října a další časové údaje v textech patří jednotlivým zprávám a nejsou bez dalšího převáděny na datum vydání.
 
-Všech pět JPEGů uvádí fotoaparát Panasonic DMC-TZ3 a EXIF DateTime 15. února 2013 mezi 15:58:01 a 16:01:54. `P1020295.JPG` má rozměry 2304 × 3072 px; ostatní snímky mají 3072 × 2304 px. Metadata jsou vedena jako údaje o fotografování archivních předloh, nikoli jako datum vydání novin.
+Všech pět JPEGů uvádí fotoaparát Panasonic DMC-TZ3 a EXIF DateTime 15. února 2013 mezi 16:05:07 a 16:08:37. `P1020302.JPG` a `P1020303.JPG` mají rozměry 2304 × 3072 px; ostatní tři snímky mají 3072 × 2304 px. Metadata jsou vedena jako údaje o fotografování archivních předloh, nikoli jako datum vydání novin.
 
-Nejistota `URB-U-0081` byla rozšířena na položky 001–025. Mezi pěti soubory dávky není přesná binární duplicita.
+Nejistota `URB-U-0081` byla rozšířena na položky 001–030. Mezi pěti soubory dávky není přesná binární duplicita.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| Noviny 1938 České slovo – zbývá | 8 | 2 | 10 |
+| Noviny 1938 České slovo – zbývá | 3 | 2 | 5 |
 | Rychvald | 31 | 2 | 33 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **155** | **11** | **166** |
+| **Celkem** | **150** | **11** | **161** |
 
 ## Registr nejistot
 
@@ -71,12 +71,12 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 450 položek;
-- zbývá 166 položek;
-- aktuální kolekce je zpracována v rozsahu 25 z 35 položek;
+- zpracovaný rozsah je 455 položek;
+- zbývá 161 položek;
+- aktuální kolekce je zpracována v rozsahu 30 z 35 položek;
 - všech pět Drive souborů přesně odpovídá Git blobům;
 - mezi pěti soubory dávky není přesná binární duplicita;
-- `P1020294.JPG` je překrývající se, ale odlišný záběr stejné strany jako `P1020293.JPG`;
+- `P1020301.JPG` je těsnější, ale odlišný záběr stejné strany jako `P1020300.JPG`;
 - registr používá součty 46/32/3/81;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - absence hlášených CI status checks není úspěšně proběhlý test.
@@ -84,6 +84,7 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Aktuální krok
 
 - Aktivní fáze: `full_archive_indexing`.
-- Další dávka: `P1020299.JPG` až `P1020303.JPG`.
+- Další obsahová dávka: `P1020304.JPG`, `P1020305.JPG` a `P1020306.JPG`.
+- Po zpracování posledních tří JPEGů zbude technický audit `Thumbs.db` a `ZbThumbnail.info`.
 - `P1020282.JPG` v aktuálním Git ani Drive snapshotu není; z mezery v číslování se bez důkazu neodvozuje chybějící originál.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

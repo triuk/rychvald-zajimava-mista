@@ -1,0 +1,34 @@
+schema_version: 1
+items:
+- id: URB-U-0082
+  status: open
+  priority: medium
+  collection: Rychvald
+  type: collection_location_authorship_provenance_and_filename_semantics
+  source_items:
+  - urbanek-rychvald-001
+  - urbanek-rychvald-002
+  - urbanek-rychvald-003
+  - urbanek-rychvald-004
+  - urbanek-rychvald-005
+  question: Jaká je přesná provenience, autorství a lokalizace fotografií v kolekci `Rychvald`, co znamená jméno `Cudlín`
+    v názvech souborů a jaký byl původní účel či publikační kontext této sady?
+  known_facts:
+  - Aktuální Git a Drive snapshot kolekce obsahuje 31 obrazových souborů a technické soubory Thumbs.db a ZbThumbnail.info.
+  - Budova úřadu 003.jpg a Budova úřadu 005.jpg přímo zobrazují nápis „MĚSTSKÝ ÚŘAD“, ale obraz neobsahuje čitelný název obce.
+  - Cudlín 033.jpg, Cudlín 035.jpg a Cudlín 037.jpg jsou tři časově navazující pohledy na tutéž upravenou veřejnou plochu.
+  - Všech pět souborů uvádí fotoaparát Panasonic DMC-FZ7; první dvojice má EXIF z 2. září 2008 a druhá trojice z 28. srpna
+    2009.
+  - Git snapshot ukazuje, že Budova úřadu 005.jpg a pozdější soubor Kopie - Budova úřadu 005.jpg mají totožný Git blob SHA.
+  - Název adresáře a názvy souborů jsou archivní metadata a samy neprokazují přesnou lokalitu ani fotografa.
+  unknown:
+  - exact_location_of_each_scene
+  - whether_all_scenes_are_in_Rychvald
+  - identity_and_function_of_glass_fronted_building_and_square
+  - whether_Cudlin_is_photographer_editor_source_or_other_filename_label
+  - original_collection_purpose_and_publication_context
+  - copyright_and_reuse_rights
+  evidence:
+  - research/urbanek-archive/collections/rychvald-batch-01.yml
+  - research/urbanek-archive/collections/rychvald-overview.yml
+  - sources/index.d/urbanek-rychvald-01.yml

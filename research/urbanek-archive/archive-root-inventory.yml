@@ -16,17 +16,17 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 440
+  processed_content_files: 445
   processed_technical_files: 20
-  processed_items: 460
-  remaining_content_files: 147
+  processed_items: 465
+  remaining_content_files: 142
   remaining_technical_files: 9
-  remaining_items: 156
+  remaining_items: 151
 status_summary:
   completed_collections: 10
-  in_progress_collections: 0
-  partially_processed_top_level_directories: 1
-  unprocessed_collection_groups: 5
+  in_progress_collections: 1
+  partially_processed_top_level_directories: 2
+  unprocessed_collection_groups: 4
   full_source_root_inventory: completed_for_current_git_snapshot
   full_archive_index: in_progress
 groups:
@@ -132,9 +132,13 @@ groups:
   content_files: 31
   technical_files: 2
   total_items: 33
-  processed_items: 0
-  remaining_items: 33
-  status: unprocessed
+  processed_items: 5
+  remaining_items: 28
+  status: in_progress
+  overview: research/urbanek-archive/collections/rychvald-overview.yml
+  latest_inventory: research/urbanek-archive/collections/rychvald-inventory-01.csv
+  latest_classification: research/urbanek-archive/collections/rychvald-batch-01.yml
+  latest_source_index: sources/index.d/urbanek-rychvald-01.yml
 - order: 9
   id: urbanek-rychvaldske-vetrne-mlyny
   source_path: Rychvaldské větrné mlýny
@@ -213,20 +217,20 @@ groups:
 selection:
   completed_group_id: urbanek-noviny-1938-ceske-slovo
   current_group_id: urbanek-rychvald
-  current_batch: 0
+  current_batch: 1
   next_action:
     type: process_collection_batch
     source_path: Rychvald
-    batch_number: 1
+    batch_number: 2
     filenames:
-    - Budova úřadu 003.jpg
-    - Budova úřadu 005.jpg
-    - Cudlín 033.jpg
-    - Cudlín 035.jpg
-    - Cudlín 037.jpg
+    - Cudlín 041.jpg
+    - Kopie - Budova úřadu 005.jpg
+    - P1010066.JPG
+    - P1010067.JPG
+    - P1010068.JPG
   reason:
-  - the Noviny 1938 České slovo collection is completed in the current snapshot, including both technical cache files
-  - continue with the next repository group in deterministic filename order
+  - the first five content files are indexed, Git-verified and visually classified
+  - continue in deterministic repository filename order; exact duplicate paths remain separate inventory items
 rules:
 - Original paths and filenames are preserved.
 - Thumbs.db and ZbThumbnail.info are technical files and are not OCR-classified as ordinary images.

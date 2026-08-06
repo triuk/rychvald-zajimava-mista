@@ -1,10 +1,10 @@
 schema_version: 4
 summary:
-  open: 46
+  open: 47
   deferred: 0
   resolved: 32
   not_actionable: 3
-  total: 81
+  total: 82
 workflow_policy:
   current_phase: full_archive_indexing
   dedicated_resolution_research: deferred_until_full_archive_index_complete
@@ -44,6 +44,7 @@ open_files:
 - open-22.yml
 - open-23.yml
 - open-24.yml
+- open-25.yml
 closed_files:
 - closed-01a.yml
 - closed-01b.yml

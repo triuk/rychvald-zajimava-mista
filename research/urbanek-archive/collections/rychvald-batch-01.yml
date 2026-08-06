@@ -1,0 +1,231 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+batch_number: 1
+batch_id: municipal-office-and-central-public-space-01
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Rychvald
+  drive_folder_id: 1F5-qLV2yqg2i3RZkjHdDyN7Sg5ZHZREI
+  items:
+  - Budova úřadu 003.jpg
+  - Budova úřadu 005.jpg
+  - Cudlín 033.jpg
+  - Cudlín 035.jpg
+  - Cudlín 037.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without inferring exact location, authorship or building identity solely from folder and filenames.
+- EXIF inspection; embedded timestamps are preserved as capture metadata and are not treated as historical-event dates.
+- Exact binary duplicate check within the batch and against known same-collection repository paths.
+batch_findings:
+  general: Dvě fotografie zachycují exteriér budovy s přímo čitelným nápisem „MĚSTSKÝ ÚŘAD“. Tři fotografie pojmenované „Cudlín“
+    zachycují tutéž upravenou veřejnou plochu s prosklenou budovou, obchody, květinovou výsadbou a kamenným vodním či výtvarným
+    prvkem.
+  location_scope: Zařazení do adresáře Rychvald je archivní metadata. U prvních dvou snímků je ověřen pouze obecný nápis „MĚSTSKÝ
+    ÚŘAD“; přesná obec a u zbývajících tří snímků přesná lokalita a identita objektů nejsou z obrazu samostatně prokázány.
+  capture_sessions: Budova úřadu 003.jpg a 005.jpg byly podle EXIF pořízeny fotoaparátem Panasonic DMC-FZ7 dne 2008-09-02
+    v 08:58:51 a 09:01:46. Tři soubory Cudlín byly pořízeny týmž modelem dne 2009-08-28 mezi 15:55:29 a 15:56:43.
+  exact_binary_duplicates_within_batch: 0
+  known_cross_batch_duplicate: Git snapshot obsahuje pozdější cestu `Kopie - Budova úřadu 005.jpg` se stejným blob SHA jako
+    `Budova úřadu 005.jpg`; bude inventarizována jako samostatná položka, ale nikoli jako nezávislý obrazový důkaz.
+  sequence_note: Cudlín 033.jpg, 035.jpg a 037.jpg jsou tři binárně odlišné, časově těsně navazující pohledy na tutéž veřejnou
+    plochu.
+items:
+- id: urbanek-rychvald-001
+  filename: Budova úřadu 003.jpg
+  git_blob_sha: 2108bd68fb491fb2c24d382e93cd48a57eb5277e
+  sha256: fc7599f05718db0f4bf9dcfa30f980d560d4606a608ab9b38809c2605a59722d
+  file_size_bytes: 404057
+  drive_id: 1fG4LLJZxKISlvHj0uQkaVjUaPoNknm0h
+  dimensions_px:
+  - 2394
+  - 1796
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2008-09-02 08:58:51'
+    datetime_original: '2008-09-02 08:58:51'
+    datetime_digitized: '2008-09-02 08:58:51'
+    software: Ver.1.0
+  visual_description: Čelní až mírně šikmý pohled přes komunikaci na třípodlažní světlou budovu. Na pravé části fasády je
+    přímo čitelný nápis „MĚSTSKÝ ÚŘAD“; před budovou jsou keře, chodník a přechod pro chodce.
+  classification:
+  - modern_color_photograph
+  - municipal_office_exterior
+  - front_elevation
+  - visible_text_mestsky_urad
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - photographer_or_meaning_of_filename_prefix
+  - purpose_of_collection_and_original_publication_context
+  - copyright_and_reuse_rights
+  visible_text:
+  - MĚSTSKÝ ÚŘAD
+- id: urbanek-rychvald-002
+  filename: Budova úřadu 005.jpg
+  git_blob_sha: 21f8e9ae5f69d16ea127bc909ef37511e18ec580
+  sha256: a36411b50910c154dc4803f55ed190748a16028030121d248ea4e43b1c707778
+  file_size_bytes: 525938
+  drive_id: 1uNDOD4ba-mwcs7HGcPKyDbiP4W24ry08
+  dimensions_px:
+  - 2394
+  - 1796
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2008-09-02 09:01:46'
+    datetime_original: '2008-09-02 09:01:46'
+    datetime_digitized: '2008-09-02 09:01:46'
+    software: Ver.1.0
+  visual_description: Šikmý pohled na tutéž třípodlažní budovu z opačnějšího stanoviště. Nápis „MĚSTSKÝ ÚŘAD“ je čitelný na
+    vystupující boční části; v popředí jsou dopravní značky, chodník a upravená zeleň.
+  classification:
+  - modern_color_photograph
+  - municipal_office_exterior
+  - oblique_elevation
+  - visible_text_mestsky_urad
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - photographer_or_meaning_of_filename_prefix
+  - purpose_of_collection_and_original_publication_context
+  - copyright_and_reuse_rights
+  visible_text:
+  - MĚSTSKÝ ÚŘAD
+- id: urbanek-rychvald-003
+  filename: Cudlín 033.jpg
+  git_blob_sha: 14e4922399033ee8b3e58d6a86519d3f3d7e23bd
+  sha256: b4a3d6a028f6c57d4709939df2a2e84556240138a74a6df535338b517ca5a2c4
+  file_size_bytes: 724284
+  drive_id: 1I7OYkpegVLNEnfw7pTSnzzgVFDXyxsy9
+  dimensions_px:
+  - 2048
+  - 1360
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-08-28 15:55:29'
+    datetime_original: '2009-08-28 15:55:29'
+    datetime_digitized: '2009-08-28 15:55:29'
+    software: Ver.1.0
+  visual_description: Pohled přes rozlehlou dlážděnou plochu s květinovou výsadbou na nízký komplex s výrazným proskleným
+    vstupním rizalitem. Vpravo jsou menší provozovny a venkovní posezení; přesná identita objektu není z obrazu bezpečně určena.
+  classification:
+  - modern_color_photograph
+  - public_square_or_plaza
+  - glass_fronted_public_or_commercial_building
+  - flowering_planters
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - photographer_or_meaning_of_filename_prefix
+  - purpose_of_collection_and_original_publication_context
+  - copyright_and_reuse_rights
+- id: urbanek-rychvald-004
+  filename: Cudlín 035.jpg
+  git_blob_sha: 999e660672ba6a722ef317f2061e84d670c62fd8
+  sha256: 65e3a9597325406076e3b99f1e19d972d6f5146206ddc9aefcc935f177462085
+  file_size_bytes: 727723
+  drive_id: 1SztXOeKvZhJPiIDBqiIMHvHO1EAeNMrC
+  dimensions_px:
+  - 2048
+  - 1360
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-08-28 15:56:14'
+    datetime_original: '2009-08-28 15:56:14'
+    datetime_digitized: '2009-08-28 15:56:14'
+    software: Ver.1.0
+  visual_description: Navazující pohled na stejnou dlážděnou plochu. V popředí je kamenný vodní nebo výtvarný prvek a nádoby
+    s červenými květy; v pozadí prosklený vstup, venkovní posezení a řada obchodních jednotek.
+  classification:
+  - modern_color_photograph
+  - public_square_or_plaza
+  - stone_water_or_sculptural_feature
+  - commercial_frontage
+  - flowering_planters
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - photographer_or_meaning_of_filename_prefix
+  - purpose_of_collection_and_original_publication_context
+  - copyright_and_reuse_rights
+- id: urbanek-rychvald-005
+  filename: Cudlín 037.jpg
+  git_blob_sha: 4b6488f0d9edafb287e7bfcfd6d434547e04a2f3
+  sha256: 676fa2cbee25a3517f0cedb79f38bb96a11776316e26a8e982b0e393e55c8591
+  file_size_bytes: 715902
+  drive_id: 18_RkM4Ch3ZRoMTDwvTC6F3xSWhA0stHq
+  dimensions_px:
+  - 2048
+  - 1360
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-08-28 15:56:43'
+    datetime_original: '2009-08-28 15:56:43'
+    datetime_digitized: '2009-08-28 15:56:43'
+    software: Ver.1.0
+  visual_description: Třetí pohled na tutéž dlážděnou plochu a kamenný prvek, tentokrát směrem k parkovišti, zeleni a výškovým
+    obytným domům. Na dlažbě je výrazná dekorativní geometrická kompozice.
+  classification:
+  - modern_color_photograph
+  - public_square_or_plaza
+  - stone_water_or_sculptural_feature
+  - apartment_blocks_background
+  - decorative_paving
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - photographer_or_meaning_of_filename_prefix
+  - purpose_of_collection_and_original_publication_context
+  - copyright_and_reuse_rights
+related_uncertainties:
+- URB-U-0082
+next_batch:
+  number: 2
+  filenames:
+  - Cudlín 041.jpg
+  - Kopie - Budova úřadu 005.jpg
+  - P1010066.JPG
+  - P1010067.JPG
+  - P1010068.JPG

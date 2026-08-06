@@ -16,12 +16,12 @@ totals:
   content_files: 587
   technical_files: 29
   total_items: 616
-  processed_content_files: 427
+  processed_content_files: 432
   processed_technical_files: 18
-  processed_items: 445
-  remaining_content_files: 160
+  processed_items: 450
+  remaining_content_files: 155
   remaining_technical_files: 11
-  remaining_items: 171
+  remaining_items: 166
 status_summary:
   completed_collections: 9
   in_progress_collections: 1
@@ -96,13 +96,13 @@ groups:
   content_files: 33
   technical_files: 2
   total_items: 35
-  processed_items: 20
-  remaining_items: 15
+  processed_items: 25
+  remaining_items: 10
   status: in_progress
   overview: research/urbanek-archive/collections/noviny-1938-ceske-slovo-overview.yml
-  latest_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-04.csv
-  latest_classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-04.yml
-  latest_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-04.yml
+  latest_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-05.csv
+  latest_classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-05.yml
+  latest_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-05.yml
 - order: 6
   id: urbanek-nalet-na-ostravu-1944
   source_path: Nálet na Ostravu 1944
@@ -210,19 +210,19 @@ groups:
 selection:
   completed_group_id: urbanek-root-loose-files
   current_group_id: urbanek-noviny-1938-ceske-slovo
-  current_batch: 4
+  current_batch: 5
   next_action:
     type: process_collection_batch
     source_path: Noviny 1938 České slovo
-    batch_number: 5
+    batch_number: 6
     filenames:
-    - P1020294.JPG
-    - P1020295.JPG
-    - P1020296.JPG
-    - P1020297.JPG
-    - P1020298.JPG
+    - P1020299.JPG
+    - P1020300.JPG
+    - P1020301.JPG
+    - P1020302.JPG
+    - P1020303.JPG
   reason:
-  - the first twenty content files are indexed, Git-verified and visually classified
+  - the first twenty-five content files are indexed, Git-verified and visually classified
   - continue in repository filename order; P1020282.JPG is absent from the current snapshot and is not inferred as a missing
     original
 rules:

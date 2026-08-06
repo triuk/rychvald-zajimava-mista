@@ -26,6 +26,11 @@ items:
   - urbanek-noviny-1938-ceske-slovo-018
   - urbanek-noviny-1938-ceske-slovo-019
   - urbanek-noviny-1938-ceske-slovo-020
+  - urbanek-noviny-1938-ceske-slovo-021
+  - urbanek-noviny-1938-ceske-slovo-022
+  - urbanek-noviny-1938-ceske-slovo-023
+  - urbanek-noviny-1938-ceske-slovo-024
+  - urbanek-noviny-1938-ceske-slovo-025
   question: Jaká je provenience fotografovaných novinových předloh, které stránky a vydání jsou v kolekci zastoupeny, je pořadí
     snímků úplné a jaká práva a okolnosti digitalizace se k souborům vztahují?
   known_facts:
@@ -50,6 +55,12 @@ items:
     vydání. Viditelné datace 3., 4. a 6. října patří jednotlivým zprávám a samy neurčují číslo vydání.
   - Ve filename posloupnosti aktuálního snapshotu není P1020282.JPG; samotná mezera ani časový odstup před P1020283.JPG neprokazují
     existenci chybějícího originálu.
+  - P1020294.JPG je těsnější, ale binárně odlišný záběr stejné novinové strany jako P1020293.JPG.
+  - P1020295.JPG ukazuje částečné označení „ČESKÉ SLOVO“ a dataci zprávy Mor. Ostrava 10. října, ale nikoli úplné údaje vydání.
+  - P1020296.JPG obsahuje samostatný mezititulek „Jak se rozloučil Rychvald“; jde o textový výskyt v prameni.
+  - Položky 021–025 mají EXIF DateTime z 15. února 2013 mezi 15:58:01 a 16:01:54 a fotoaparát Panasonic DMC-TZ3; P1020295.JPG
+    je portrétně orientována.
+  - Na položkách 021–025 není úplné datum, ročník a číslo vydání; datace 10. a 14. října patří jednotlivým zprávám.
   unknown:
   - physical_newspaper_source_and_archive_provenance
   - complete_issue_and_page_sequence
@@ -68,3 +79,5 @@ items:
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-03.yml
   - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-04.yml
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-04.yml
+  - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-05.yml
+  - sources/index.d/urbanek-noviny-1938-ceske-slovo-05.yml

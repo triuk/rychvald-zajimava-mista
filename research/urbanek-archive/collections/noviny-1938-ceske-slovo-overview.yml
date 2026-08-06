@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 35
 progress:
-  processed_content_files: 20
+  processed_content_files: 25
   processed_technical_files: 0
-  processed_items: 20
-  repo_verified_items: 20
-  visually_classified_items: 20
-  source_indexed_items: 20
-  remaining_content_files: 13
+  processed_items: 25
+  repo_verified_items: 25
+  visually_classified_items: 25
+  source_indexed_items: 25
+  remaining_content_files: 8
   remaining_technical_files: 2
-  remaining_items: 15
+  remaining_items: 10
 completed_batches:
 - number: 1
   items: 001-005
@@ -69,6 +69,18 @@ completed_batches:
   inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-04.csv
   classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-04.yml
   source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-04.yml
+- number: 5
+  items: 021-025
+  filenames:
+  - P1020294.JPG
+  - P1020295.JPG
+  - P1020296.JPG
+  - P1020297.JPG
+  - P1020298.JPG
+  id: frystat-occupation-final-days-rychvald-expulsions-and-refugee-care-05
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-05.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-05.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-05.yml
 interpretation_rules:
 - Visible newspaper titles, dates, issue numbers and headlines are transcribed as printed wording; the historical claims within
   articles are not independently verified in this indexing pass.
@@ -89,10 +101,10 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 5
+  number: 6
   filenames:
-  - P1020294.JPG
-  - P1020295.JPG
-  - P1020296.JPG
-  - P1020297.JPG
-  - P1020298.JPG
+  - P1020299.JPG
+  - P1020300.JPG
+  - P1020301.JPG
+  - P1020302.JPG
+  - P1020303.JPG

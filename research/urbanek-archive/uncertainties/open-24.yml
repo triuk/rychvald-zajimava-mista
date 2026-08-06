@@ -21,6 +21,11 @@ items:
   - urbanek-noviny-1938-ceske-slovo-013
   - urbanek-noviny-1938-ceske-slovo-014
   - urbanek-noviny-1938-ceske-slovo-015
+  - urbanek-noviny-1938-ceske-slovo-016
+  - urbanek-noviny-1938-ceske-slovo-017
+  - urbanek-noviny-1938-ceske-slovo-018
+  - urbanek-noviny-1938-ceske-slovo-019
+  - urbanek-noviny-1938-ceske-slovo-020
   question: Jaká je provenience fotografovaných novinových předloh, které stránky a vydání jsou v kolekci zastoupeny, je pořadí
     snímků úplné a jaká práva a okolnosti digitalizace se k souborům vztahují?
   known_facts:
@@ -31,10 +36,18 @@ items:
   - P1020277.JPG a P1020278.JPG zachycují stejnou část novinové strany v širším a těsnějším výřezu a nejsou binárně totožné.
   - P1020286.JPG až P1020288.JPG jsou tři překrývající se fotografie téže novinové strany; P1020287.JPG a P1020288.JPG mají
     téměř stejný výřez, ale nejsou binárně totožné.
-  - Položky 001–015 mají EXIF DateTime z 15. února 2013 a fotoaparát Panasonic DMC-TZ3; metadata jsou vedena jako údaje o
-    reprodukčním fotografování, nikoli o vydání novin.
-  - Na položkách 006–015 není úplný masthead; viditelné datace 3., 4. a 6. října patří jednotlivým zprávám a samy neurčují
-    číslo vydání.
+  - P1020289.JPG a P1020290.JPG pokračují v překrývajících se detailech strany fotografované v P1020286.JPG až P1020288.JPG;
+    všechny soubory jsou binárně odlišné.
+  - P1020291.JPG opakuje článek „Zůstanou na Těšínsku české školy?“, ale má jiné sousední texty; bez dalšího se neurčuje jako
+    stejná fyzická strana nebo stejné vydání.
+  - P1020292.JPG přímo ukazuje označení „ČESKÉ SLOVO“ a „Strana 2.“, avšak datum, ročník a číslo vydání nejsou ve snímku viditelné.
+  - V těle článku na P1020292.JPG je mezi jmenovanými obcemi přímo čitelné jméno Rychvald; jde o textový výskyt v prameni,
+    nikoli o nezávislé ověření události.
+  - P1020292.JPG a P1020293.JPG jsou dvě odlišné téměř celostránkové fotografie s různými hlavními titulky a rozvržením.
+  - Položky 016–020 mají EXIF DateTime z 15. února 2013 mezi 15:54:52 a 15:57:48 a fotoaparát Panasonic DMC-TZ3; metadata
+    jsou vedena jako údaje o reprodukčním fotografování, nikoli o vydání novin.
+  - Na položkách 006–018 a 020 není úplný masthead; položka 019 ukazuje titul a číslo strany, nikoli datum, ročník nebo číslo
+    vydání. Viditelné datace 3., 4. a 6. října patří jednotlivým zprávám a samy neurčují číslo vydání.
   - Ve filename posloupnosti aktuálního snapshotu není P1020282.JPG; samotná mezera ani časový odstup před P1020283.JPG neprokazují
     existenci chybějícího originálu.
   unknown:
@@ -53,3 +66,5 @@ items:
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-01.yml
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-02.yml
   - sources/index.d/urbanek-noviny-1938-ceske-slovo-03.yml
+  - research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-04.yml
+  - sources/index.d/urbanek-noviny-1938-ceske-slovo-04.yml

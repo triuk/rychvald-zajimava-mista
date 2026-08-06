@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 35
 progress:
-  processed_content_files: 15
+  processed_content_files: 20
   processed_technical_files: 0
-  processed_items: 15
-  repo_verified_items: 15
-  visually_classified_items: 15
-  source_indexed_items: 15
-  remaining_content_files: 18
+  processed_items: 20
+  repo_verified_items: 20
+  visually_classified_items: 20
+  source_indexed_items: 20
+  remaining_content_files: 13
   remaining_technical_files: 2
-  remaining_items: 20
+  remaining_items: 15
 completed_batches:
 - number: 1
   items: 001-005
@@ -57,6 +57,18 @@ completed_batches:
   inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-03.csv
   classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-03.yml
   source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-03.yml
+- number: 4
+  items: 016-020
+  filenames:
+  - P1020289.JPG
+  - P1020290.JPG
+  - P1020291.JPG
+  - P1020292.JPG
+  - P1020293.JPG
+  id: frystat-occupation-polish-mayor-presidential-resignation-and-district-occupation-reports-04
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-04.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-04.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-04.yml
 interpretation_rules:
 - Visible newspaper titles, dates, issue numbers and headlines are transcribed as printed wording; the historical claims within
   articles are not independently verified in this indexing pass.
@@ -77,10 +89,10 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 4
+  number: 5
   filenames:
-  - P1020289.JPG
-  - P1020290.JPG
-  - P1020291.JPG
-  - P1020292.JPG
-  - P1020293.JPG
+  - P1020294.JPG
+  - P1020295.JPG
+  - P1020296.JPG
+  - P1020297.JPG
+  - P1020298.JPG

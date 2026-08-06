@@ -1,0 +1,186 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-noviny-1938-ceske-slovo-016
+  title: P1020289.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020289.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020289.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2349303
+  git_blob_sha: 1c7d83ea97206fa764ae46363e5f01061186a91c
+  sha256: 4f6fceeb3a72fa69894d454d8579794541450c790d78fbafab8ab5dc5c43b3f4
+  drive_id: 1LWwCu44nUv0EmNNK1TnsvISEqlYgAcBG
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: frystat_occupation_and_czech_schools_articles_alternate_capture
+  summary: Těsnější fotografie stejné části novinové strany jako P1020286.JPG. Zachycuje články „V sobotu se zahájí obsazování
+    Fryštátska“ s podtitulem „České obyvatelstvo zůstává na svých místech“ a „Zůstanou na Těšínsku české školy?“; nejde o
+    binární duplicitu.
+  visible_text:
+  - V sobotu se zahájí obsazování Fryštátska
+  - České obyvatelstvo zůstává na svých místech
+  - Zůstanou na Těšínsku české školy?
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:54:52'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-017
+  title: P1020290.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020290.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020290.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2243984
+  git_blob_sha: adb0c61b18f9ad994c9f2bcf4d21b744ae6ee38c
+  sha256: 1e167e9cb5466b99cfe683ce94e18f38207354a730ef7bf0677ee6b8cbcac861
+  drive_id: 11gwyhma7xNWtw4zje92SHNKZnsWo3R58
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: frystat_polish_mayor_and_british_military_service_articles
+  summary: Detail novinové strany s článkem „Fryštát už má polského starostu“ a navazujícím textem „V Anglii nebude povinná
+    vojenská služba“. U druhého článku je viditelná datace Londýn 6. října; úplné údaje vydání ve výřezu nejsou.
+  visible_text:
+  - Fryštát už má polského starostu
+  - V Anglii nebude povinná vojenská služba
+  - Londýn 6. října.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:55:54'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-018
+  title: P1020291.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020291.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020291.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3412082
+  git_blob_sha: 14cf265b490d17e0be3e022e8f4a0574281b4b61
+  sha256: cccd2c290484a0a50ddde6c7b0a2f80abe3c59822e000457ff5525f1b47ce99e
+  drive_id: 1-UaWSE2stYBC1ssanikqNHfxAeHBLhre
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: london_reaction_presidential_resignation_czech_schools_and_syrovy_cooper_articles
+  summary: Fotografie novinové části s články „Jak přijal Londýn odstoupení presidenta“, „Zůstanou na Těšínsku české školy?“
+    a „Generál Syrový poděkoval Cooperovi“. Článek o českých školách se v kolekci opakuje, ale zde má jiné sousední texty;
+    přesný vztah stránek nebo vydání není určen.
+  visible_text:
+  - Jak přijal Londýn odstoupení presidenta
+  - Zůstanou na Těšínsku české školy?
+  - STATEČNOST A DŮSTOJNOST V NEŠTĚSTÍ
+  - Generál Syrový poděkoval Cooperovi
+  - Londýn 6. října.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:56:24'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-019
+  title: P1020292.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020292.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020292.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3285534
+  git_blob_sha: 190d2a711b6a64c82f2e7b9bf90fba4039a68706
+  sha256: 3f99dede8154d1b8b17fd2dc250591612ab03189f4d23fb4ad18c9679087064e
+  drive_id: 131j-TMarwO3Vj7HhSr8d59oE0PDdikLS
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: ceske_slovo_page_two_frystat_district_occupation_and_monthly_events_review
+  summary: Fotografie téměř celé druhé strany listu s označením „ČESKÉ SLOVO“ a „Strana 2.“. Hlavní články nesou titulky „První
+    část fryštátského okresu obsazena“ a „Měsíc osvobození měsícem bolesti národa“; v těle prvního textu je mezi jmenovanými
+    obcemi uveden také Rychvald. Datum, ročník a číslo vydání nejsou ve snímku viditelné.
+  visible_text:
+  - Strana 2.
+  - ČESKÉ SLOVO
+  - První část fryštátského okresu obsazena
+  - Poláci včera zabrali Fryštát a sedm dalších obcí
+  - Měsíc osvobození měsícem bolesti národa
+  - Přehled událostí od 1. října do pátku
+  - Rychvald
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:57:05'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-020
+  title: P1020293.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020293.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020293.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3559267
+  git_blob_sha: c2a955156909e7b99214a4939adbd6bd64e6d5ba
+  sha256: 2efb8107ea2385e6a0d4011ae7f9d00f1f97a3a2d507a2c39fc0e22ac5c54084
+  drive_id: 1t9K5bLaF4kykXEhsE8vKPi8IFeQDqJLL
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: frystat_and_surroundings_occupation_and_military_withdrawal_report
+  summary: Fotografie téměř celé novinové strany s nadtitulkem „Včera v 10 hodin dopoledne“ a hlavním titulkem „Fryštát s
+    okolím zabrán“. Viditelné mezititulky zahrnují „Lidé touží po spravedlnosti“ a „Vojsko ustupuje z Fryštátu“; úplné údaje
+    vydání nejsou zachyceny.
+  visible_text:
+  - Včera v 10 hodin dopoledne
+  - Fryštát s okolím zabrán
+  - Lidé touží po spravedlnosti
+  - Vojsko ustupuje z Fryštátu
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:57:48'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081

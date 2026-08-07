@@ -22,38 +22,37 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 455 | 20 | **475** |
-| zbývá | 132 | 9 | **141** |
+| zpracováno | 460 | 20 | **480** |
+| zbývá | 127 | 9 | **136** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 15 z 33 položek.
+Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 20 z 33 položek.
 
-## Rychvald – dávka 03
+## Rychvald – dávka 04
 
-Zpracovány byly soubory `P1010069.JPG`, `P1010070.JPG`, `P1010071.JPG`, `P1010072.JPG` a `P1010114.JPG`:
+Zpracovány byly soubory `P1010115.JPG`, `P1010116.JPG`, `P1010117.JPG`, `Rychvald2009 003.jpg` a `Rychvald2009 004.jpg`:
 
-- `P1010069.JPG` je moderní reprodukce historické ilustrované vícepohledové pohlednice či karty s výrazným titulem „Pozdrowienie z Rychwaldu“; menší popisky nejsou přepisovány tam, kde není čtení zcela jisté;
-- `P1010070.JPG` je reprodukce starší černobílé fotografie či pohlednice velké sakrální stavby s věží a čitelným nápisem „PRAVDA VÍTĚZÍ“; přesná stavba, lokalita a datum nejsou určeny pouze podle architektury;
-- `P1010071.JPG` zachycuje dokumentární stránku s ručně kresleným místopisným plánem, číslem „- 14 -“ a nadpisem „Místopis kolem a po r. 1900.“;
-- `P1010072.JPG` zachycuje obdobnou stránku s číslem „- 14 -“ a nadpisem „Místopis před r. 1900.“;
-- `P1010114.JPG` zachycuje stránku rukopisného historického textu s číslem „- 25 -“; úplný kurzivní přepis a historická interpretace jsou odloženy, aby nebyly doplňovány nejisté znaky, jména či letopočty.
+- `P1010115.JPG` je fotografovaná rukopisná stránka s číslem „- 26 -“ a časovými rozsahy od 1715–1719 po 1894–1903; úplný kurzivní přepis a historická správnost údajů nejsou v této fázi ověřeny;
+- `P1010116.JPG` je fotografovaná rukopisná stránka s chronologicky řazenými místními událostmi a bezpečně čitelnými datovanými položkami z let 1920 až 1923; jednotlivé zápisy jsou evidovány jako obsah předlohy, nikoli jako nezávisle ověřené historické skutečnosti;
+- `P1010117.JPG` je fotografovaná rukopisná stránka s číslem „- 197 -“ a nadpisem „Škola živnostenská pokračovací.“; viditelné jsou mimo jiné roky 1912 a 1920;
+- `Rychvald2009 003.jpg` a `Rychvald2009 004.jpg` jsou dva odlišné barevné snímky téhož kamenného hřbitovního kříže s figurální výzdobou, pořízené z mírně odlišného záběru s odstupem 13 sekund. Slabý nápis či datace na podstavci nejsou bezpečně čitelné.
 
-Všech pět souborů přesně odpovídá Drive i Git blobům. Všechny uvádějí Panasonic DMC-TZ3. `P1010069.JPG` a `P1010070.JPG` mají metadata 28. února 2010 12:38:10 až 12:38:56, `P1010071.JPG` a `P1010072.JPG` 27. dubna 2010 11:11:45 až 11:12:51 a `P1010114.JPG` 1. září 2010 15:17:19. Tyto časy jsou evidovány jako metadata moderního zachycení, nikoli jako data historických předloh.
+Všech pět souborů přesně odpovídá raw souborům z Drive a Git blobům. `P1010115.JPG` až `P1010117.JPG` uvádějí Panasonic DMC-TZ3 a časy 1. září 2010 15:18:04 až 15:27:38. `Rychvald2009 003.jpg` a `Rychvald2009 004.jpg` uvádějí Panasonic DMC-FZ7 a časy 1. září 2009 09:15:37 a 09:15:50. Tyto časy jsou metadata moderního zachycení, nikoli data historických událostí nebo vzniku rukopisných předloh.
 
-Viditelné nadpisy, nápisy a čísla stran jsou evidovány doslovně pouze tam, kde je čtení bezpečné. Bez dalšího neprokazují autora, vydavatele, původní dataci, historickou přesnost ani přesnou identitu zobrazených objektů. Mezi pěti položkami dávky 03 není přesná binární duplicita.
+Mezi pěti položkami dávky 04 není přesná binární duplicita. Hřbitovní dvojice je evidována jako dva samostatné, téměř po sobě pořízené záběry stejného objektu.
 
-Nejistota `URB-U-0082` byla rozšířena na položky 001–015. Nová nejistota nevznikla.
+Nejistota `URB-U-0082` byla rozšířena na položky 001–020. Nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| Rychvald – zbývá | 16 | 2 | 18 |
+| Rychvald – zbývá | 11 | 2 | 13 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **132** | **9** | **141** |
+| **Celkem** | **127** | **9** | **136** |
 
 ## Registr nejistot
 
@@ -68,11 +67,12 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 475 položek;
-- zbývá 141 položek;
-- kolekce `Rychvald` je zpracována v rozsahu 15 z 33 položek;
-- všech pět Drive souborů dávky 03 přesně odpovídá Git blobům;
-- v dávce 03 není přesná binární duplicita mezi pěti vybranými cestami;
+- zpracovaný rozsah je 480 položek;
+- zbývá 136 položek;
+- kolekce `Rychvald` je zpracována v rozsahu 20 z 33 položek;
+- všech pět raw Drive souborů dávky 04 přesně odpovídá Git blobům;
+- v dávce 04 není přesná binární duplicita mezi pěti vybranými cestami;
+- položky 019 a 020 jsou dva rozdílné snímky stejného objektu, nikoli binární kopie;
 - dříve potvrzená položka 007 zůstává přesným duplikátem položky 002;
 - registr používá součty 47/32/3/82;
 - PR zůstává otevřený draft a není žádostí o sloučení;
@@ -81,5 +81,5 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Aktuální krok
 
 - Aktivní fáze: `full_archive_indexing`.
-- Další dávka: `P1010115.JPG`, `P1010116.JPG`, `P1010117.JPG`, `Rychvald2009 003.jpg` a `Rychvald2009 004.jpg`.
+- Další dávka: `Rychvald2009 005.jpg`, `Rychvald2009 008.jpg`, `Zp0707 090.jpg`, `Zp1109 005.jpg` a `Zp1109 082.jpg`.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

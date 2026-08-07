@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 33
 progress:
-  processed_content_files: 15
+  processed_content_files: 20
   processed_technical_files: 0
-  processed_items: 15
-  repo_verified_items: 15
-  visually_classified_items: 15
-  source_indexed_items: 15
-  remaining_content_files: 16
+  processed_items: 20
+  repo_verified_items: 20
+  visually_classified_items: 20
+  source_indexed_items: 20
+  remaining_content_files: 11
   remaining_technical_files: 2
-  remaining_items: 18
+  remaining_items: 13
 completed_batches:
 - number: 1
   items: 001-005
@@ -57,6 +57,18 @@ completed_batches:
   inventory: research/urbanek-archive/collections/rychvald-inventory-03.csv
   classification: research/urbanek-archive/collections/rychvald-batch-03.yml
   source_index: sources/index.d/urbanek-rychvald-03.yml
+- number: 4
+  items: 016-020
+  filenames:
+  - P1010115.JPG
+  - P1010116.JPG
+  - P1010117.JPG
+  - Rychvald2009 003.jpg
+  - Rychvald2009 004.jpg
+  id: handwritten-chronology-vocational-school-page-and-cemetery-monument-04
+  inventory: research/urbanek-archive/collections/rychvald-inventory-04.csv
+  classification: research/urbanek-archive/collections/rychvald-batch-04.yml
+  source_index: sources/index.d/urbanek-rychvald-04.yml
 interpretation_rules:
 - The folder title Rychvald and individual filenames are archival metadata, not independent proof of exact location, authorship or date.
 - Visible signs and captions are transcribed as photographed wording; their underlying historical claims, abbreviations and dates require corroboration.
@@ -64,7 +76,10 @@ interpretation_rules:
 - Exact binary duplicates under different filenames remain separate inventory items but count as one independent image.
 - The name Cudlín in a filename is not treated as a verified photographer credit without corroborating metadata or documentation.
 - People, events and institutional identities in historical photographs are not identified solely from appearance, uniforms, costumes, flags or architecture.
-- Headings and page numbers on photographed maps or manuscripts document the wording of the photographed source; they do not by themselves verify the historical accuracy, authorship or date of that source.
+- Headings and page numbers on photographed maps or manuscripts document the wording of the photographed source; they do not by themselves verify the historical
+  accuracy, authorship or date of that source.
+- Near-consecutive photographs of the same monument remain separate images unless binary identity is demonstrated; filename and folder context alone do
+  not establish monument identity or exact location.
 open_uncertainties:
 - URB-U-0082
 technical_files:
@@ -73,10 +88,10 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 4
+  number: 5
   filenames:
-  - P1010115.JPG
-  - P1010116.JPG
-  - P1010117.JPG
-  - Rychvald2009 003.jpg
-  - Rychvald2009 004.jpg
+  - Rychvald2009 005.jpg
+  - Rychvald2009 008.jpg
+  - Zp0707 090.jpg
+  - Zp1109 005.jpg
+  - Zp1109 082.jpg

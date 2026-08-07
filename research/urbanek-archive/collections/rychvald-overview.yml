@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 33
 progress:
-  processed_content_files: 10
+  processed_content_files: 15
   processed_technical_files: 0
-  processed_items: 10
-  repo_verified_items: 10
-  visually_classified_items: 10
-  source_indexed_items: 10
-  remaining_content_files: 21
+  processed_items: 15
+  repo_verified_items: 15
+  visually_classified_items: 15
+  source_indexed_items: 15
+  remaining_content_files: 16
   remaining_technical_files: 2
-  remaining_items: 23
+  remaining_items: 18
 completed_batches:
 - number: 1
   items: 001-005
@@ -45,16 +45,26 @@ completed_batches:
   inventory: research/urbanek-archive/collections/rychvald-inventory-02.csv
   classification: research/urbanek-archive/collections/rychvald-batch-02.yml
   source_index: sources/index.d/urbanek-rychvald-02.yml
+- number: 3
+  items: 011-015
+  filenames:
+  - P1010069.JPG
+  - P1010070.JPG
+  - P1010071.JPG
+  - P1010072.JPG
+  - P1010114.JPG
+  id: historical-postcard-sacral-building-local-history-maps-and-manuscript-page-03
+  inventory: research/urbanek-archive/collections/rychvald-inventory-03.csv
+  classification: research/urbanek-archive/collections/rychvald-batch-03.yml
+  source_index: sources/index.d/urbanek-rychvald-03.yml
 interpretation_rules:
-- The folder title Rychvald and individual filenames are archival metadata, not independent proof of exact location, authorship
-  or date.
-- Visible signs and captions are transcribed as photographed wording; their underlying historical claims, abbreviations and
-  dates require corroboration.
+- The folder title Rychvald and individual filenames are archival metadata, not independent proof of exact location, authorship or date.
+- Visible signs and captions are transcribed as photographed wording; their underlying historical claims, abbreviations and dates require corroboration.
 - EXIF timestamps are preserved as capture metadata and are not historical-event dates.
 - Exact binary duplicates under different filenames remain separate inventory items but count as one independent image.
 - The name Cudlín in a filename is not treated as a verified photographer credit without corroborating metadata or documentation.
-- People, events and institutional identities in historical photographs are not identified solely from appearance, uniforms,
-  costumes, flags or architecture.
+- People, events and institutional identities in historical photographs are not identified solely from appearance, uniforms, costumes, flags or architecture.
+- Headings and page numbers on photographed maps or manuscripts document the wording of the photographed source; they do not by themselves verify the historical accuracy, authorship or date of that source.
 open_uncertainties:
 - URB-U-0082
 technical_files:
@@ -63,10 +73,10 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 3
+  number: 4
   filenames:
-  - P1010069.JPG
-  - P1010070.JPG
-  - P1010071.JPG
-  - P1010072.JPG
-  - P1010114.JPG
+  - P1010115.JPG
+  - P1010116.JPG
+  - P1010117.JPG
+  - Rychvald2009 003.jpg
+  - Rychvald2009 004.jpg

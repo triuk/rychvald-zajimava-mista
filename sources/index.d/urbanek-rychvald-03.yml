@@ -1,0 +1,130 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-011
+  title: P1010069.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010069.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010069.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3244005
+  git_blob_sha: 4c32a408fe0612532f2eeb99b5d4a55d62d395ed
+  sha256: e9e0d9b28b8fa2501cce7da41719640bc1f0fd06ddb22374b2e7a7118ea82c0e
+  drive_id: 1H4ghGmTSpIi9UAE7vTfVU5HxLSMwFH1k
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image: {width_px: 3072, height_px: 2304, color_mode: RGB}
+  classification: [modern_reproduction_photograph, historical_multiview_postcard_or_card, architectural_and_settlement_vignettes, visible_rychvald_title]
+  summary: Barevná reprodukční fotografie historické ilustrované vícepohledové pohlednice či karty s výrazným titulem „Pozdrowienie z Rychwaldu“. Menší popisky nejsou přepisovány tam, kde čtení není zcela jisté; původní datum, autor a vydavatel nejsou ověřeni.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:38:10'
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids: [URB-U-0082]
+  visible_text: [Pozdrowienie z Rychwaldu]
+- source_id: urbanek-rychvald-012
+  title: P1010070.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010070.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010070.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3296258
+  git_blob_sha: 69733c2af9de5f910302565a1dd17a782c11797f
+  sha256: 411545b7c2bac488918579f9ee050116208d6c5c15ec265a1980b2c1d9657e9d
+  drive_id: 1EZSqYg4rGDFcQV9sfQNwcFbSFyVp2BZH
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image: {width_px: 3072, height_px: 2304, color_mode: RGB}
+  classification: [modern_reproduction_photograph, historical_black_and_white_sacral_building_image, towered_building, visible_inscription]
+  summary: Barevná reprodukční fotografie starší černobílé fotografie či pohlednice velké sakrální stavby s věží a čitelným nápisem „PRAVDA VÍTĚZÍ“. Přesná identita stavby, místo a historické datum nejsou určeny pouze podle architektury.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:38:56'
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids: [URB-U-0082]
+  visible_text: [PRAVDA VÍTĚZÍ]
+- source_id: urbanek-rychvald-013
+  title: P1010071.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010071.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010071.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3490976
+  git_blob_sha: 7a9d643ae31e660995ff2de0f35f747385f7254e
+  sha256: 96de847c9307e08c2d9d31d03234dfb3c77c80565956676f503c80f83c283f3b
+  drive_id: 1w59xqftcSACBlVOJZlJQiLZ0q3ISdZ1i
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image: {width_px: 2304, height_px: 3072, color_mode: RGB}
+  classification: [modern_reproduction_photograph, photographed_document_page, hand_drawn_local_history_map, visible_heading_and_page_number]
+  summary: Fotografovaná dokumentární stránka s ručně kresleným místopisným plánem, číslem „- 14 -“ a nadpisem „Místopis kolem a po r. 1900.“. Nadpis je evidován jako text předlohy, nikoli jako nezávisle ověřená datace obsahu.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-04-27 11:11:45'
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids: [URB-U-0082]
+  visible_text: ['- 14 -', 'Místopis kolem a po r. 1900.']
+- source_id: urbanek-rychvald-014
+  title: P1010072.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010072.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010072.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3351398
+  git_blob_sha: 5bc700e74bb647d018c50b3bad9bfa127e9f97be
+  sha256: d8a677d8d54a9a5b20245319af1d6e97559cd2c1a9b471ef63862ec7328d9369
+  drive_id: 1NzK-usJ-t7uoW2cpIYXVflxsbygvd_8p
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image: {width_px: 2304, height_px: 3072, color_mode: RGB}
+  classification: [modern_reproduction_photograph, photographed_document_page, hand_drawn_local_history_map, visible_heading_and_page_number]
+  summary: Fotografovaná dokumentární stránka s ručně kresleným místopisným plánem, číslem „- 14 -“ a nadpisem „Místopis před r. 1900.“. Nadpis je evidován jako text předlohy, nikoli jako nezávisle ověřená datace obsahu.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-04-27 11:12:51'
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids: [URB-U-0082]
+  visible_text: ['- 14 -', 'Místopis před r. 1900.']
+- source_id: urbanek-rychvald-015
+  title: P1010114.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010114.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010114.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2161607
+  git_blob_sha: d6276ecb6313ded01d12b743051e756d2eb2e220
+  sha256: 6d7f5479339e0928e8177bd8fe0556351ddbeb2bdca764bb85f541aed1f70bf6
+  drive_id: 1MhUzEJU3KSuuoaYM-_GtPygyAPGLG3q7
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image: {width_px: 2304, height_px: 3072, color_mode: RGB}
+  classification: [modern_reproduction_photograph, photographed_handwritten_document_page, local_history_manuscript, visible_page_number]
+  summary: Fotografovaná stránka rukopisného historického textu s několika odstavci a časovými rozsahy v levém okraji. Bezpečně je čitelné číslo stránky „- 25 -“; úplný kurzivní přepis a historická interpretace jsou odloženy.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-09-01 15:17:19'
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids: [URB-U-0082]
+  visible_text: ['- 25 -']

@@ -22,38 +22,38 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 450 | 20 | **470** |
-| zbývá | 137 | 9 | **146** |
+| zpracováno | 455 | 20 | **475** |
+| zbývá | 132 | 9 | **141** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 10 z 33 položek.
+Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 15 z 33 položek.
 
-## Rychvald – dávka 02
+## Rychvald – dávka 03
 
-Zpracovány byly soubory `Cudlín 041.jpg`, `Kopie - Budova úřadu 005.jpg`, `P1010066.JPG`, `P1010067.JPG` a `P1010068.JPG`:
+Zpracovány byly soubory `P1010069.JPG`, `P1010070.JPG`, `P1010071.JPG`, `P1010072.JPG` a `P1010114.JPG`:
 
-- `Cudlín 041.jpg` zachycuje interiér sakrální stavby s uličkou mezi lavicemi zdobenými bílými květy a stuhami, oltářem, krucifixem a nástěnnými malbami;
-- `Kopie - Budova úřadu 005.jpg` je podle SHA-256 i Git blob SHA přesná binární kopie položky 002 a nepředstavuje další nezávislý obrazový důkaz;
-- `P1010066.JPG` je moderní reprodukce starší černobílé fotografie či pohlednice s formální veřejnou scénou před sakrální stavbou, uniformovanými řadami, prapory a davem;
-- `P1010067.JPG` je reprodukce skupinového snímku dětí a dospělých před provozovnami; čitelné jsou nápisy „Baťa a.s.“, „RESTAURACE“, „TEPLÁ A STUDENÁ JÍDLA“ a „PIVO“;
-- `P1010068.JPG` zachycuje desku se dvěma snímky školních budov, rokem „1909“ a popiskem „ŠKOLY U.M.Š. V RYCHVALDĚ.“.
+- `P1010069.JPG` je moderní reprodukce historické ilustrované vícepohledové pohlednice či karty s výrazným titulem „Pozdrowienie z Rychwaldu“; menší popisky nejsou přepisovány tam, kde není čtení zcela jisté;
+- `P1010070.JPG` je reprodukce starší černobílé fotografie či pohlednice velké sakrální stavby s věží a čitelným nápisem „PRAVDA VÍTĚZÍ“; přesná stavba, lokalita a datum nejsou určeny pouze podle architektury;
+- `P1010071.JPG` zachycuje dokumentární stránku s ručně kresleným místopisným plánem, číslem „- 14 -“ a nadpisem „Místopis kolem a po r. 1900.“;
+- `P1010072.JPG` zachycuje obdobnou stránku s číslem „- 14 -“ a nadpisem „Místopis před r. 1900.“;
+- `P1010114.JPG` zachycuje stránku rukopisného historického textu s číslem „- 25 -“; úplný kurzivní přepis a historická interpretace jsou odloženy, aby nebyly doplňovány nejisté znaky, jména či letopočty.
 
-Všech pět souborů přesně odpovídá Drive i Git blobům. `Cudlín 041.jpg` uvádí Panasonic DMC-FZ7 a čas 28. srpna 2009 15:59:46. Přesná kopie úřadu zachovává metadata 2. září 2008. Soubory `P1010066.JPG` až `P1010068.JPG` uvádějí Panasonic DMC-TZ3 a časy 28. února 2010 mezi 12:34:50 a 12:37:29.
+Všech pět souborů přesně odpovídá Drive i Git blobům. Všechny uvádějí Panasonic DMC-TZ3. `P1010069.JPG` a `P1010070.JPG` mají metadata 28. února 2010 12:38:10 až 12:38:56, `P1010071.JPG` a `P1010072.JPG` 27. dubna 2010 11:11:45 až 11:12:51 a `P1010114.JPG` 1. září 2010 15:17:19. Tyto časy jsou evidovány jako metadata moderního zachycení, nikoli jako data historických předloh.
 
-Viditelný rok a popisek škol jsou evidovány doslovně. Bez dalšího neprokazují význam zkratky U.M.Š., datum obou fotografií ani přesnou identitu budov. Osoby, konkrétní události a historická data nejsou určovány pouze podle vzhledu, uniforem, krojů, praporů nebo architektury.
+Viditelné nadpisy, nápisy a čísla stran jsou evidovány doslovně pouze tam, kde je čtení bezpečné. Bez dalšího neprokazují autora, vydavatele, původní dataci, historickou přesnost ani přesnou identitu zobrazených objektů. Mezi pěti položkami dávky 03 není přesná binární duplicita.
 
-Nejistota `URB-U-0082` byla rozšířena na položky 001–010. Nová nejistota nevznikla.
+Nejistota `URB-U-0082` byla rozšířena na položky 001–015. Nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| Rychvald – zbývá | 21 | 2 | 23 |
+| Rychvald – zbývá | 16 | 2 | 18 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **137** | **9** | **146** |
+| **Celkem** | **132** | **9** | **141** |
 
 ## Registr nejistot
 
@@ -68,12 +68,12 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 470 položek;
-- zbývá 146 položek;
-- kolekce `Rychvald` je zpracována v rozsahu 10 z 33 položek;
-- všech pět Drive souborů přesně odpovídá Git blobům;
-- v dávce není přesná binární duplicita mezi pěti vybranými cestami;
-- položka 007 je potvrzený přesný duplikát položky 002;
+- zpracovaný rozsah je 475 položek;
+- zbývá 141 položek;
+- kolekce `Rychvald` je zpracována v rozsahu 15 z 33 položek;
+- všech pět Drive souborů dávky 03 přesně odpovídá Git blobům;
+- v dávce 03 není přesná binární duplicita mezi pěti vybranými cestami;
+- dříve potvrzená položka 007 zůstává přesným duplikátem položky 002;
 - registr používá součty 47/32/3/82;
 - PR zůstává otevřený draft a není žádostí o sloučení;
 - absence hlášených CI status checks není úspěšně proběhlý test.
@@ -81,5 +81,5 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Aktuální krok
 
 - Aktivní fáze: `full_archive_indexing`.
-- Další dávka: `P1010069.JPG`, `P1010070.JPG`, `P1010071.JPG`, `P1010072.JPG` a `P1010114.JPG`.
+- Další dávka: `P1010115.JPG`, `P1010116.JPG`, `P1010117.JPG`, `Rychvald2009 003.jpg` a `Rychvald2009 004.jpg`.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

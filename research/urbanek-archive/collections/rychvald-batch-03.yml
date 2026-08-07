@@ -1,0 +1,215 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+batch_number: 3
+batch_id: historical-postcard-sacral-building-local-history-maps-and-manuscript-page-03
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Rychvald
+  drive_folder_id: 1F5-qLV2yqg2i3RZkjHdDyN7Sg5ZHZREI
+  items:
+  - P1010069.JPG
+  - P1010070.JPG
+  - P1010071.JPG
+  - P1010072.JPG
+  - P1010114.JPG
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without identifying people, events, buildings or dates beyond explicit visible text and embedded metadata.
+- EXIF inspection; timestamps are treated as modern capture metadata, not dates of the historical scenes.
+- Exact binary duplicate check among the five selected paths and transcription of only clearly readable wording.
+batch_findings:
+  general: Pět moderních reprodukčních fotografií staršího obrazového či dokumentárního materiálu; jedna vícepohledová pohlednice, jeden snímek sakrální stavby, dvě fotografované místopisné mapy a jedna fotografovaná rukopisná stránka.
+  exact_binary_duplicates_within_batch: 0
+  capture_sessions: Soubory P1010069.JPG a P1010070.JPG uvádějí Panasonic DMC-TZ3 a časy 2010-02-28 12:38:10 až 12:38:56; P1010071.JPG a P1010072.JPG stejný přístroj a časy 2010-04-27 11:11:45 až 11:12:51; P1010114.JPG čas 2010-09-01 15:17:19.
+  visible_text_scope: Texty „Pozdrowienie z Rychwaldu“, „PRAVDA VÍTĚZÍ“, „Místopis kolem a po r. 1900.“ a „Místopis před r. 1900.“ jsou evidovány jako viditelné znění fotografovaných předloh. Bez dalšího neprokazují původní dataci, autora, vydavatele ani přesnou identitu zobrazených objektů.
+  manuscript_scope: U P1010114.JPG je bezpečně rozpoznána fotografovaná rukopisná stránka s číslem „- 25 -“; plný přepis kurzivního textu a historická interpretace jsou odloženy, aby nebyly doplňovány nejisté znaky či jména.
+items:
+- id: urbanek-rychvald-011
+  filename: P1010069.JPG
+  git_blob_sha: 4c32a408fe0612532f2eeb99b5d4a55d62d395ed
+  sha256: e9e0d9b28b8fa2501cce7da41719640bc1f0fd06ddb22374b2e7a7118ea82c0e
+  file_size_bytes: 3244005
+  drive_id: 1H4ghGmTSpIi9UAE7vTfVU5HxLSMwFH1k
+  dimensions_px: [3072, 2304]
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:38:10'
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Barevná reprodukční fotografie historické ilustrované vícepohledové pohlednice či karty. Výrazný titul zní „Pozdrowienie z Rychwaldu“; kolem jsou menší pohledy na zástavbu a architekturu a dekorativní znak s orlicí. Drobné popisky nejsou v této fázi přepisovány tam, kde jejich čtení není zcela jisté.
+  classification:
+  - modern_reproduction_photograph
+  - historical_multiview_postcard_or_card
+  - architectural_and_settlement_vignettes
+  - visible_rychvald_title
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_original_date_author_publisher_and_physical_source
+  - identity_and_date_of_individual_vignettes
+  - physical_source_provenance_and_reproduction_context
+  - original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - Pozdrowienie z Rychwaldu
+- id: urbanek-rychvald-012
+  filename: P1010070.JPG
+  git_blob_sha: 69733c2af9de5f910302565a1dd17a782c11797f
+  sha256: 411545b7c2bac488918579f9ee050116208d6c5c15ec265a1980b2c1d9657e9d
+  file_size_bytes: 3296258
+  drive_id: 1EZSqYg4rGDFcQV9sfQNwcFbSFyVp2BZH
+  dimensions_px: [3072, 2304]
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:38:56'
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Barevná reprodukční fotografie starší černobílé fotografie či pohlednice velké sakrální stavby s věží. Na průčelí či portiku je čitelný nápis „PRAVDA VÍTĚZÍ“. Přesná identita stavby, místo a historické datum nejsou určovány pouze podle architektury.
+  classification:
+  - modern_reproduction_photograph
+  - historical_black_and_white_sacral_building_image
+  - towered_building
+  - visible_inscription
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_building_identity_and_location
+  - historical_date_and_event_context
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - PRAVDA VÍTĚZÍ
+- id: urbanek-rychvald-013
+  filename: P1010071.JPG
+  git_blob_sha: 7a9d643ae31e660995ff2de0f35f747385f7254e
+  sha256: 96de847c9307e08c2d9d31d03234dfb3c77c80565956676f503c80f83c283f3b
+  file_size_bytes: 3490976
+  drive_id: 1w59xqftcSACBlVOJZlJQiLZ0q3ISdZ1i
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-04-27 11:11:45'
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografovaná dokumentární stránka s ručně kresleným místopisným plánem a řadou místních popisků. Stránka nese číslo „- 14 -“ a nadpis „Místopis kolem a po r. 1900.“. Nadpis je evidován jako text fotografované předlohy, nikoli jako nezávisle ověřená datace jejího obsahu.
+  classification:
+  - modern_reproduction_photograph
+  - photographed_document_page
+  - hand_drawn_local_history_map
+  - visible_heading_and_page_number
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - original_document_author_date_and_provenance
+  - historical_accuracy_and_dates_of_map_content
+  - exact_meaning_of_all_map_labels
+  - original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - '- 14 -'
+  - Místopis kolem a po r. 1900.
+- id: urbanek-rychvald-014
+  filename: P1010072.JPG
+  git_blob_sha: 5bc700e74bb647d018c50b3bad9bfa127e9f97be
+  sha256: d8a677d8d54a9a5b20245319af1d6e97559cd2c1a9b471ef63862ec7328d9369
+  file_size_bytes: 3351398
+  drive_id: 1NzK-usJ-t7uoW2cpIYXVflxsbygvd_8p
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-04-27 11:12:51'
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografovaná dokumentární stránka s ručně kresleným místopisným plánem a řadou místních popisků. Stránka nese číslo „- 14 -“ a nadpis „Místopis před r. 1900.“. Nadpis je evidován jako text fotografované předlohy, nikoli jako nezávisle ověřená datace jejího obsahu.
+  classification:
+  - modern_reproduction_photograph
+  - photographed_document_page
+  - hand_drawn_local_history_map
+  - visible_heading_and_page_number
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - original_document_author_date_and_provenance
+  - historical_accuracy_and_dates_of_map_content
+  - exact_meaning_of_all_map_labels
+  - original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - '- 14 -'
+  - Místopis před r. 1900.
+- id: urbanek-rychvald-015
+  filename: P1010114.JPG
+  git_blob_sha: d6276ecb6313ded01d12b743051e756d2eb2e220
+  sha256: 6d7f5479339e0928e8177bd8fe0556351ddbeb2bdca764bb85f541aed1f70bf6
+  file_size_bytes: 2161607
+  drive_id: 1MhUzEJU3KSuuoaYM-_GtPygyAPGLG3q7
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-09-01 15:17:19'
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografovaná stránka rukopisného historického textu s několika odstavci a časovými rozsahy v levém okraji. Bezpečně je čitelné číslo stránky „- 25 -“. Kurzivní jména, úplný text a jednotlivé letopočty nejsou v této fázi doplňovány z nejistého čtení.
+  classification:
+  - modern_reproduction_photograph
+  - photographed_handwritten_document_page
+  - local_history_manuscript
+  - visible_page_number
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - full_handwritten_transcription
+  - original_document_author_date_and_provenance
+  - historical_accuracy_of_manuscript_claims
+  - original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - '- 25 -'
+related_uncertainties:
+- URB-U-0082
+next_batch:
+  number: 4
+  filenames:
+  - P1010115.JPG
+  - P1010116.JPG
+  - P1010117.JPG
+  - Rychvald2009 003.jpg
+  - Rychvald2009 004.jpg

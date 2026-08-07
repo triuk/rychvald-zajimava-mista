@@ -1,0 +1,98 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: chrobacek-family-and-congratulations-17
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19 / soubory 5–9"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka pokračuje po obřadní části slavnosti rodinným skupinovým portrétem a
+    několika záběry gratulací či předávání květin duchovnímu s výrazným řetězem
+    nebo insignií. Archivní pořadí a opakující se prostředí podporují vztah k jedné
+    slavnosti, ale fotografie samy nepotvrzují jméno Gabriela Chrobáčka, rodinné
+    vztahy ani identity gratulantů. Název prvního souboru je useknut za „paní S“.
+
+items:
+  - id: urbanek-ccs-081
+    archival_filename: "5  Syn Jaromír snacha Milena,dcera Miluše, manželka a paní S.jpg"
+    visual_type: historical_black_and_white_family_group_portrait
+    description: >-
+      Skupinový portrét několika dospělých a dítěte v interiéru. Osoby stojí nebo
+      sedí těsně vedle sebe a dívají se k fotoaparátu.
+    identification:
+      status: partially_verified
+      archival_claim: "syn Jaromír, snacha Milena, dcera Miluše, manželka a paní S…"
+      verified_from_image: [adult_group, child, posed_indoor_portrait]
+      unverified: [all_person_identities, family_relationships, complete_name_after_S, exact_date, relationship_to_ceremony]
+    filename_note: "Název končí řetězcem ‚paní S‘; pokračování nebylo rekonstruováno."
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-082
+    archival_filename: "6.jpg"
+    visual_type: historical_black_and_white_congratulation_scene
+    description: >-
+      Duchovní s výrazným řetězem nebo insignií přijímá blahopřání či dar od ženy;
+      kolem stojí další účastníci slavnosti.
+    identification:
+      status: unverified
+      verified_from_image: [clergy_with_chain_or_insignia, female_congratulator, surrounding_participants]
+      unverified: [all_identities, exact_gesture_or_gift, offices, date, event_stage]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-083
+    archival_filename: "7.jpg"
+    visual_type: historical_black_and_white_flower_presentation
+    description: >-
+      Žena předává nebo drží květiny před duchovním s řetězem; další osoby stojí
+      v těsné skupině v pozadí.
+    identification:
+      status: unverified
+      verified_from_image: [flower_presentation, clergy_with_chain, formal_group]
+      unverified: [all_identities, relationship_between_people, exact_occasion, date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-084
+    archival_filename: "8.jpg"
+    visual_type: historical_black_and_white_congratulation_sequence
+    description: >-
+      Další záběr gratulačního aktu s duchovním, květinami a skupinou přihlížejících.
+      Prostředí a účastníci odpovídají předchozím snímkům dávky.
+    identification:
+      status: partially_verified
+      verified_from_image: [same_or_contiguous_congratulation_sequence, flowers, clergy, witnesses]
+      unverified: [exact_sequence_order, identities, offices, exact_date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-085
+    archival_filename: "9.jpg"
+    visual_type: historical_black_and_white_formal_congratulation_group
+    description: >-
+      Duchovní s řetězem nebo insignií stojí s květinami mezi několika dospělými;
+      snímek působí jako závěr nebo další fáze gratulací.
+    identification:
+      status: partially_verified
+      verified_from_image: [clergy_with_chain_or_insignia, flowers, formal_adult_group]
+      unverified: [all_identities, exact_event_stage, offices, date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+open_research_candidates:
+  - {id: URB-U-0062, subject: Chrobacek_election_appointment_family_and_congratulation_sequence}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-086 až urbanek-ccs-090. Dokončit obrazovou
+  posloupnost podsložky a následně ji porovnat s protokolem volby a jmenování,
+  programem slavnosti, personálními záznamy a úplnými popisky.

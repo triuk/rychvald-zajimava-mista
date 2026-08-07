@@ -1,0 +1,251 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+batch_number: 6
+batch_id: german-polish-comparison-privoz-station-tesin-mines-regional-news-and-orlova-childbirth-06
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+  drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+  items:
+  - P1020299.JPG
+  - P1020300.JPG
+  - P1020301.JPG
+  - P1020302.JPG
+  - P1020303.JPG
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification and transcription of only clearly visible headings, masthead elements and datelines.
+- EXIF inspection; the 2013 camera timestamps are treated as reproduction-capture metadata, not as dates of the printed newspaper
+  content.
+- Exact binary duplicate check within the batch and visual-overlap check against preceding items.
+batch_findings:
+  general: Pět fotografií novinových výřezů o německo-polském srovnání, uprchlické dopravě na přívozském nádraží, vojenském
+    dozoru na těšínských šachtách, místních zprávách z Těšínska a narození dítěte ve vagoně na nádraží v Orlové.
+  issue_identification: Na žádném z pěti snímků není úplný masthead s datem, ročníkem a číslem vydání. Datace Praha 24. října
+    a další časové údaje v textech patří jednotlivým zprávám a nejsou automaticky převáděny na datum vydání.
+  capture_session: Všechny soubory uvádějí Panasonic DMC-TZ3 a EXIF DateTime 2013-02-15 mezi 16:05:07 a 16:08:37. P1020302.JPG
+    a P1020303.JPG mají portrétní rozměry 2304 × 3072 px; ostatní tři snímky mají 3072 × 2304 px.
+  exact_binary_duplicates_within_batch: 0
+  visual_overlap: P1020301.JPG je těsnější a binárně odlišný záběr spodní části stejné novinové strany jako P1020300.JPG.
+    U P1020302.JPG a P1020303.JPG se opakuje rubrikový nadpis „Zprávy z Těšínska“, ale bez dalšího se neurčují jako stejná
+    fyzická strana nebo stejné vydání.
+  quality_note: P1020299.JPG je výrazně rozostřený; bezpečně se přepisuje pouze hlavní titulek „Němci lepší než Poláci“.
+  locality_note: P1020302.JPG přímo zmiňuje Orlovou, Petřvald, Karvinsko a Suchou. P1020303.JPG přímo váže článek k nádraží
+    v Orlové. Jde o textové výskyty v prameni, nikoli o nezávislé ověření popisovaných událostí.
+items:
+- id: urbanek-noviny-1938-ceske-slovo-026
+  filename: P1020299.JPG
+  visual_description: Rozostřená fotografie části novinové strany. Spolehlivě čitelný je hlavní titulek „Němci lepší než Poláci“;
+    drobnější podtitulek a tělo článku nejsou kvůli neostrosti bezpečně přepisovány.
+  visible_text:
+  - Němci lepší než Poláci
+  classification:
+  - newspaper_page_photograph
+  - german_polish_comparison_article
+  - out_of_focus_capture
+  git_blob_sha: 6ac020f4b930f1cb7c964d102f919791a4eab6ec
+  sha256: a18df313a61b48fc0c590cc3f4277adccbd0f7a347d4e9c32ab928ed78d04003
+  file_size_bytes: 2344086
+  drive_id: 1fBU9nS7tzmv5kYMriJd7Xyl1lQqxxGn4
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:05:07'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-027
+  filename: P1020300.JPG
+  visual_description: Fotografie větší části novinové strany s hlavním titulkem „Přeplněné přívozské nádraží“ a podtitulem
+    „Čeká se na uvolnění trati“. Dále jsou viditelné články „Nový správce polského konsulátu v Ostravě“, „Poslanec Sliwka
+    v Katovicích“ a „Vojenský dozor na šachtách na Těšínsku“.
+  visible_text:
+  - Nový správce polského konsulátu v Ostravě
+  - Praha 24. října.
+  - Přeplněné přívozské nádraží
+  - Čeká se na uvolnění trati
+  - Poslanec Sliwka v Katovicích
+  - Vojenský dozor na šachtách na Těšínsku
+  classification:
+  - newspaper_page_photograph
+  - přívoz_station_refugee_transport_article
+  - polish_consulate_article
+  - tesin_mines_military_supervision_article
+  git_blob_sha: 468d2f2b25806693fabfbee27936d277a3d67299
+  sha256: 934a9af797b9dd88c46d33e3316cb43b4e0006fc317c90505a6458e64add08bc
+  file_size_bytes: 3500545
+  drive_id: 14KP2vx-MDcAXaECQ0Ds2FIPi7GLYe-YM
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:06:41'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-028
+  filename: P1020301.JPG
+  visual_description: Těsnější fotografie spodní části stejné novinové strany jako P1020300.JPG. Zachycuje články „Poslanec
+    Sliwka v Katovicích“, „Vojenský dozor na šachtách na Těšínsku“ a „Soupis zaměstnanců v Ostravě přijatých po 1. květnu
+    1938“; nejde o binární duplicitu.
+  visible_text:
+  - Poslanec Sliwka v Katovicích
+  - Vojenský dozor na šachtách na Těšínsku
+  - Soupis zaměstnanců v Ostravě
+  - přijatých po 1. květnu 1938
+  classification:
+  - newspaper_page_photograph
+  - tesin_mines_military_supervision_article
+  - ostrava_employee_register_article
+  - alternate_page_capture
+  git_blob_sha: bd49e0a4b78db518d9efb186e890a6fac48e812c
+  sha256: 28b6c7fb26e32a41d892c2f9931e09ebb881a35f017bb7336d0facd6deed6694
+  file_size_bytes: 3430621
+  drive_id: 1aiYjMvxObko6cG9S3MqQF1Qf9Z4tMK88
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:06:54'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-029
+  filename: P1020302.JPG
+  visual_description: Portrétně orientovaná fotografie části novinové strany s rubrikou „Zprávy z Těšínska“. Text přímo zmiňuje
+    Orlovou, Petřvald, Karvinsko a Suchou a popisuje více krátkých místních zpráv; úplné údaje vydání nejsou zachyceny.
+  visible_text:
+  - Zprávy z Těšínska
+  - V Petřvaldě byly v noci na úterý demolovány dva domy.
+  - Orlová
+  - Karvinsku
+  - Suché
+  - Petřvaldu
+  classification:
+  - newspaper_page_photograph
+  - tesin_regional_news_column
+  - orlová_petřvald_karviná_suchá_reports
+  - portrait_page_capture
+  git_blob_sha: 5303f4a86188c245179526ffae1d1b8005a1812d
+  sha256: a3eeab28db8cfbc0cc57d337df03f4b388ad7e221c2f5816ce2bfa1260170d8a
+  file_size_bytes: 3365586
+  drive_id: 1KvifJK1bOZSFMPnBYu055S2dv3lcgvE-
+  dimensions_px:
+  - 2304
+  - 3072
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:07:26'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-030
+  filename: P1020303.JPG
+  visual_description: Portrétně orientovaný detail novinové strany s článkem „Novorozeně ve vagoně“ a podtitulem „Radostná
+    událost na nádraží v Orlové“. Pod článkem začíná další rubrika „Zprávy z Těšínska“; úplné údaje vydání nejsou zachyceny.
+  visible_text:
+  - Novorozeně ve vagoně
+  - Radostná událost na nádraží v Orlové
+  - Zprávy z Těšínska
+  classification:
+  - newspaper_page_photograph
+  - orlová_station_childbirth_article
+  - tesin_regional_news_column
+  - portrait_page_detail
+  git_blob_sha: 1a82b6b2e195eef32febe9b43e646e2a406c4748
+  sha256: e528ee525372932e8f0e8a600b8a3bcf1706a86e700582f1f0760353f22d0147
+  file_size_bytes: 2592061
+  drive_id: 1T2bkeDcuv64kHBQoDFhGrlT50aSwRdXl
+  dimensions_px:
+  - 2304
+  - 3072
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:08:37'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+related_uncertainties:
+- URB-U-0081
+next_batch:
+  number: 7
+  filenames:
+  - P1020304.JPG
+  - P1020305.JPG
+  - P1020306.JPG

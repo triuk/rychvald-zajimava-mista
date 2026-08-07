@@ -1,0 +1,248 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+batch_number: 2
+batch_id: sacral-interior-duplicate-office-and-historical-public-school-images-02
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Rychvald
+  drive_folder_id: 1F5-qLV2yqg2i3RZkjHdDyN7Sg5ZHZREI
+  items:
+  - Cudlín 041.jpg
+  - Kopie - Budova úřadu 005.jpg
+  - P1010066.JPG
+  - P1010067.JPG
+  - P1010068.JPG
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without identifying people, events, buildings or dates beyond explicit visible text and embedded
+  metadata.
+- EXIF inspection; timestamps are treated as modern capture metadata, not dates of the historical scenes.
+- Exact binary duplicate check within the collection and transcription of only clearly readable wording.
+batch_findings:
+  general: Jeden moderní interiér sakrální stavby, jedna přesná kopie již inventarizovaného snímku městského úřadu a tři moderní
+    reprodukce historických fotografií či pohlednic s veřejnou událostí, skupinou před provozovnami a školními budovami.
+  exact_binary_duplicates_within_batch: 0
+  cross_batch_exact_duplicate: '`Kopie - Budova úřadu 005.jpg` je bitově totožná s položkou 002 `Budova úřadu 005.jpg`; obě
+    cesty zůstávají v inventáři, ale představují jeden obrazový pramen.'
+  capture_sessions: '`Cudlín 041.jpg` uvádí Panasonic DMC-FZ7 a čas 2009-08-28 15:59:46. Přesná kopie úřadu zachovává EXIF
+    2008-09-02 09:01:46. Soubory P1010066.JPG až P1010068.JPG uvádějí Panasonic DMC-TZ3 a časy 2010-02-28 12:34:50 až 12:37:29.'
+  visible_caption_scope: Nápis „ŠKOLY U.M.Š. V RYCHVALDĚ.“ a rok „1909“ jsou ověřeny jako viditelný text na fotografované
+    desce. Neprokazují bez dalšího význam zkratky, datum obou fotografií ani úplnou provenienci.
+  historical_identification_scope: Osoby, konkrétní události, přesné historické datum a lokalita reprodukovaných fotografií
+    nejsou určovány pouze podle vzhledu, davu, uniforem, krojů nebo architektury.
+items:
+- id: urbanek-rychvald-006
+  filename: Cudlín 041.jpg
+  git_blob_sha: 08e913a7eb0f4163c97a35609c972053648d3413
+  sha256: ea981044754b79c272e9761fdfe0a6e8e88b8a6b971ec5bce0298688d492bce6
+  file_size_bytes: 602960
+  drive_id: 1FtmESIbzuXMMYxoW7YeoChPn5leo5otc
+  dimensions_px:
+  - 2048
+  - 1360
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-08-28 15:59:46'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná fotografie interiéru sakrální stavby. Středem vede ulička mezi dřevěnými lavicemi zdobenými
+    bílými květy a stuhami; za oltářem je krucifix a po stranách nástěnné malby. Přesná stavba, obec ani příležitost výzdoby
+    nejsou z obrazu samostatně prokázány.
+  classification:
+  - modern_color_photograph
+  - sacral_interior
+  - decorated_pews
+  - altar_crucifix_and_wall_murals
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - historical_event_date_and_people
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+- id: urbanek-rychvald-007
+  filename: Kopie - Budova úřadu 005.jpg
+  git_blob_sha: 21f8e9ae5f69d16ea127bc909ef37511e18ec580
+  sha256: a36411b50910c154dc4803f55ed190748a16028030121d248ea4e43b1c707778
+  file_size_bytes: 525938
+  drive_id: 1nt5ii9TQ7CExfqPAQaXZzzAQbNQmfiOr
+  dimensions_px:
+  - 2394
+  - 1796
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2008-09-02 09:01:46'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Přesná binární kopie souboru `Budova úřadu 005.jpg` (položka 002). Zachycuje šikmý pohled na třípodlažní
+    budovu s nápisem „MĚSTSKÝ ÚŘAD“; samostatná cesta zůstává inventární položkou, ale nepředstavuje další nezávislý obrazový
+    důkaz.
+  classification:
+  - modern_color_photograph
+  - municipal_office_exterior
+  - exact_binary_duplicate
+  - duplicate_inventory_path
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - historical_event_date_and_people
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - MĚSTSKÝ ÚŘAD
+  duplicate_of: urbanek-rychvald-002
+- id: urbanek-rychvald-008
+  filename: P1010066.JPG
+  git_blob_sha: d84195010d7da4dac347be93b6aff922aaafaaaa
+  sha256: ab8144dd8fea61ac197ee67ca8b901a857398ac4157a9b2be0c026735ff63f8a
+  file_size_bytes: 3488444
+  drive_id: 1zQyAqqStN53zfwgPTtdUvXKiVN4ucBPN
+  dimensions_px:
+  - 2304
+  - 3072
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:34:50'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná reprodukční fotografie poškozené černobílé fotografie nebo pohlednice. Před velkou sakrální
+    stavbou prochází po koberci skupina mužů mezi dvěma řadami uniformovaných osob; v pozadí je početný dav, prapory a nápis
+    „PRODEJNA“. Událost, osoby, místo ani datum nejsou na snímku doloženy popiskem.
+  classification:
+  - modern_reproduction_photograph
+  - historical_black_and_white_event_image
+  - formal_procession_or_reception
+  - uniformed_lines_flags_and_crowd
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - historical_event_date_and_people
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - PRODEJNA
+- id: urbanek-rychvald-009
+  filename: P1010067.JPG
+  git_blob_sha: b134ef2c4a98c93e771ee7b600dcae2a4dc8a05a
+  sha256: 65520d5c54a3cec89ff5ede4139622ef6f3991067f2efe5236274877c9c776ca
+  file_size_bytes: 3487696
+  drive_id: 1vVAvGxuEw9OZmVMF8qFdbohTubqvoDfN
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:36:29'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná reprodukční fotografie černobílé fotografie nebo pohlednice. Před provozovnami stojí početná
+    skupina dětí a dospělých, část v krojovém oděvu, s prapory a standarty. Čitelné jsou nápisy „Baťa a.s.“, „RESTAURACE“,
+    „TEPLÁ A STUDENÁ JÍDLA“ a „PIVO“; přesná událost, místo a datum nejsou přímo uvedeny.
+  classification:
+  - modern_reproduction_photograph
+  - historical_black_and_white_group_image
+  - children_adults_costumes_and_flags
+  - commercial_street_frontage
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - historical_event_date_and_people
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - Baťa a.s.
+  - RESTAURACE
+  - TEPLÁ A STUDENÁ JÍDLA
+  - PIVO
+- id: urbanek-rychvald-010
+  filename: P1010068.JPG
+  git_blob_sha: 66e5f99d53a7994d7c9c75e9b5a2973ff82fccc8
+  sha256: 7199828ce721671118674faaea1eaf8402ff9212cdd37fcf3d18003c5a630729
+  file_size_bytes: 3332457
+  drive_id: 1meZ-cYlSN0LxNURBgCCTRj5bznTWejIM
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:37:29'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná reprodukční fotografie výstavní či archivní desky se dvěma staršími snímky školních budov. Pod
+    levým snímkem je viditelný rok „1909“ a pod dvojicí nápis „ŠKOLY U.M.Š. V RYCHVALDĚ.“. Viditelný text se eviduje doslovně;
+    zkratka U.M.Š., datace obou snímků a přesná identita budov nejsou bez dalšího vykládány.
+  classification:
+  - modern_reproduction_photograph
+  - historical_school_photograph_display
+  - two_school_building_images
+  - visible_caption_rychvald
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - historical_event_date_and_people
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - '1909'
+  - ŠKOLY U.M.Š. V RYCHVALDĚ.
+related_uncertainties:
+- URB-U-0082
+next_batch:
+  number: 3
+  filenames:
+  - P1010069.JPG
+  - P1010070.JPG
+  - P1010071.JPG
+  - P1010072.JPG
+  - P1010114.JPG

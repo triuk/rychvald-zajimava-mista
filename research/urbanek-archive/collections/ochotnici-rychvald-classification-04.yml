@@ -1,0 +1,179 @@
+collection_id: urbanek-ochotnici
+batch_id: classification-04
+status: completed
+scope: urbanek-ochotnici-031..urbanek-ochotnici-040
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+technical_items: 2
+document_text_candidates: 3
+photographs_without_ocr: 5
+
+items:
+  - id: urbanek-ochotnici-031
+    source_path: Ochotníci rychvald/ZbThumbnail.info
+    visual_type: technical_thumbnail_cache
+    classification_status: not_applicable
+    ocr:
+      document_text: not_applicable
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-032
+    source_path: Ochotníci rychvald/večer třikr.jpg
+    visual_type: scanned_theatre_program_cast_page
+    primary_title: "Večer tříkrálový neboli Cokoli chcete"
+    organization: "Osvětová beseda Rychvald"
+    author: "William Shakespeare"
+    description: >-
+      Vnitřní strana programu s překladatelem, režisérem, hudbou, výtvarníkem a
+      úplným seznamem postav a představitelů. Obsahuje také údaj o ději a technické
+      poznámky k souboru.
+    grouping:
+      group_id: vecer-trikralovy-program
+      role: cast_and_credits_page
+      preceding_id: urbanek-ochotnici-033
+    ocr:
+      document_text: candidate_full_structured
+      scene_text: not_applicable
+      note: Přepis zachovat jako titulní údaje, tvůrčí tým a tabulku role–představitel.
+
+  - id: urbanek-ochotnici-033
+    source_path: Ochotníci rychvald/vecere trikralovy.jpg
+    visual_type: scanned_theatre_program_cover
+    primary_title: "Večer tříkrálový"
+    organization: "Osvětová beseda v Rychvaldě"
+    author: "William Shakespeare"
+    description: >-
+      Titulní strana programu s grafickou koláží tří postav z inscenace.
+    grouping:
+      group_id: vecer-trikralovy-program
+      role: cover
+      next_id: urbanek-ochotnici-032
+    ocr:
+      document_text: candidate_short
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-034
+    source_path: Ochotníci rychvald/Suder Pešková Zabloudil.jpg
+    visual_type: historical_stage_photograph
+    description: Tři postavy v kostýmech v jevištní scéně.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: stage_scene_three_characters
+    identification:
+      status: unverified_filename_based
+      archival_label: "Suder, Pešková, Zabloudil"
+      note: Jména jsou převzata pouze z názvu souboru; osoby nebyly určovány podle tváří.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-035
+    source_path: Ochotníci rychvald/Sylvie Kravalová - Irena Marcalíková.jpg
+    visual_type: historical_stage_or_backstage_photograph
+    description: Dvě osoby v kostýmech z inscenace stojící vedle sebe.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: posed_two_characters
+    identification:
+      status: unverified_filename_based
+      archival_label: "Sylvie Kravalová – Irena Marcalíková"
+      note: Jména jsou převzata pouze z názvu souboru.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-036
+    source_path: Ochotníci rychvald/Thumbs.db
+    visual_type: technical_thumbnail_cache
+    repo_status: drive_listed_repo_missing
+    classification_status: audit_completed
+    audit_report: research/urbanek-archive/reports/ochotnici-rychvald-thumbnail-cache.md
+    ocr:
+      document_text: not_applicable
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-037
+    source_path: Ochotníci rychvald/Peška.jpg
+    visual_type: historical_stage_photograph
+    description: Samostatný portrét mužské postavy v kostýmu na jevišti.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: character_portrait
+    identification:
+      status: unverified_filename_based
+      archival_label: "Peška"
+      note: Příjmení je převzato z názvu souboru.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-038
+    source_path: Ochotníci rychvald/Olivie - Eva Močkořová.jpg
+    visual_type: historical_stage_photograph
+    description: Postava v historizujícím kostýmu v jevištní scéně.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: character_portrait
+    identification:
+      status: unverified_filename_based
+      archival_label: "Olivie – Eva Močkořová"
+      note: Role a jméno jsou převzaty z názvu souboru.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ochotnici-039
+    source_path: Ochotníci rychvald/posledni noc  program.jpg
+    visual_type: scanned_theatre_program
+    primary_title: "Poslední noc v roce"
+    organization: "Osvětová beseda Rychvald"
+    author: "Ardi Liives"
+    translator: "Otakar Fencl"
+    director: "Bořivoj Peška"
+    stage_design: "Oldřich Matějík"
+    description: >-
+      Jednostránkový program hry o třech dějstvích s tvůrčími údaji, obsazením a
+      poznámkou, že děj se odehrává v místnosti bufetu na dálnici v Tallinu.
+    grouping:
+      group_id: posledni-noc-v-roce
+      role: complete_program
+    ocr:
+      document_text: candidate_full_structured
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-040
+    source_path: Ochotníci rychvald/Orsino- Oldřich Kuboš.jpg
+    visual_type: historical_stage_photograph
+    description: Mužská postava v historizujícím kostýmu v jevištní scéně.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: character_portrait
+    identification:
+      status: unverified_filename_based
+      archival_label: "Orsino – Oldřich Kuboš"
+      note: Role a jméno jsou převzaty z názvu souboru.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+groups:
+  - group_id: vecer-trikralovy-program
+    ordered_members: [urbanek-ochotnici-033, urbanek-ochotnici-032]
+    status: two_page_program_confirmed
+  - group_id: vecer-trikralovy-stage-photographs
+    added_members:
+      - urbanek-ochotnici-034
+      - urbanek-ochotnici-035
+      - urbanek-ochotnici-037
+      - urbanek-ochotnici-038
+      - urbanek-ochotnici-040
+  - group_id: posledni-noc-v-roce
+    members: [urbanek-ochotnici-039]
+
+next_action:
+  type: visually_classify_collection_batch
+  batch_ids: urbanek-ochotnici-041..urbanek-ochotnici-050
+  instruction: >-
+    Classify role photographs, program scans, award material and production images
+    in items 041 through 050. Continue separating archival filename labels from
+    independently visible evidence and mark all document-text candidates before OCR.

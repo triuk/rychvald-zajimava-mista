@@ -1,0 +1,182 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: bogumsky-doubrava-service-altar-congregation-and-rite-36
+status: completed_first_visual_pass
+git_attachment: finalized
+item_count: 5
+source_scope: 8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav / archivní soubory 1 až 5
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Položky 176 až 180 tvoří obrazově souvislou sérii jedné bohoslužby nebo bezprostředně navazujícího církevního
+    obřadu ve stejném interiéru. Zachycují několik osob v dlouhých tmavých oděvech u oltáře pod krucifixem, kalich a knihy,
+    gesto se vzpaženýma rukama, shromáždění v lodi a na galerii, prapor nebo korouhev, řečníka u pultu a obřadní úkon mezi
+    dvěma muži u oltáře. Archivní název připisuje sérii faráři Leonardu Bogumskému, Doubravě a neznámým oslavám, ale fotografie
+    samy nepotvrzují osobu, místo, datum, účel slavnosti ani přesný liturgický úkon.
+  basis:
+  - full_image_visual_review
+  - cross_image_sequence_comparison
+  - embedded_metadata_inspection
+  - exact_git_blob_verification
+  - binary_duplicate_screening
+  related_open_items:
+  - URB-U-0068
+items:
+- id: urbanek-ccs-176
+  archival_filename: 1.jpg
+  dimensions_px:
+  - 1488
+  - 1044
+  visual_type: historical_church_service_clergy_at_altar_with_crucifix_chalice_and_bowl
+  description: Čtyři muži v dlouhých tmavých oděvech stojí za oltářem pod velkým krucifixem. Na oltáři jsou kalich, otevřená
+    kniha a široká nádoba; muž uprostřed drží mezi prsty malý světlý předmět.
+  verified_from_image:
+  - four_robed_men_at_altar
+  - large_crucifix
+  - chalice
+  - open_book
+  - wide_bowl_or_container
+  - small_light_object_held_by_central_man
+  unverified:
+  - event_identity
+  - Leonard_Bogumsky_identity_or_presence
+  - Doubrava_location
+  - celebration_type
+  - exact_liturgical_action
+  - person_identities_and_offices
+  - date
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0068
+- id: urbanek-ccs-177
+  archival_filename: 2.jpg
+  dimensions_px:
+  - 996
+  - 1464
+  visual_type: historical_robed_officiant_with_raised_hands_at_altar
+  description: Muž v dlouhém tmavém oděvu a světlé štole stojí uprostřed za oltářem se vzpaženýma rukama. Za ním je krucifix
+    s čitelným označením INRI; na oltáři jsou kalich a otevřená kniha.
+  verified_from_image:
+  - central_robed_man_with_raised_hands
+  - two_other_robed_men
+  - crucifix
+  - INRI_inscription
+  - chalice
+  - open_book
+  - altar
+  unverified:
+  - event_identity
+  - Leonard_Bogumsky_identity_or_presence
+  - Doubrava_location
+  - celebration_type
+  - meaning_of_gesture
+  - person_identities_and_offices
+  - date
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0068
+- id: urbanek-ccs-178
+  archival_filename: 3.jpg
+  dimensions_px:
+  - 1014
+  - 1506
+  visual_type: historical_church_congregation_processional_banner_and_robed_clergy
+  description: Interiér kostela je zaplněn shromážděním v přízemí i na galerii. Uličkou procházejí nejméně dva muži v dlouhých
+    tmavých oděvech a světlých štolách; v levém popředí je velká textilní korouhev nebo prapor. Na galerii je znak připomínající
+    chí-ró a na stěně kruhový znak s křížem, lodí nebo vlnami.
+  verified_from_image:
+  - crowded_ground_floor_congregation
+  - occupied_gallery
+  - two_robed_men_in_aisle
+  - large_textile_banner_or_standard
+  - chi_rho_like_symbol
+  - circular_cross_boat_or_waves_emblem
+  unverified:
+  - event_identity
+  - Leonard_Bogumsky_identity_or_presence
+  - Doubrava_location
+  - celebration_type
+  - banner_organization_and_meaning
+  - exact_symbol_identification
+  - person_identities_and_roles
+  - date
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0068
+- id: urbanek-ccs-179
+  archival_filename: 4.jpg
+  dimensions_px:
+  - 966
+  - 1464
+  visual_type: historical_robed_speaker_at_lectern_with_chalice_textile
+  description: Muž v dlouhém tmavém oděvu a světlé štole stojí u řečnického nebo liturgického pultu. Na pultu visí světlá
+    textilie se znakem kalicha a několika řádky jen částečně čitelného textu.
+  verified_from_image:
+  - single_robed_speaker
+  - light_stole
+  - lectern_or_pulpit
+  - hanging_textile
+  - chalice_motif
+  - partially_legible_multiline_text
+  unverified:
+  - person_identity
+  - Leonard_Bogumsky_identity
+  - Doubrava_location
+  - event_identity_and_date
+  - complete_textile_inscription
+  - speech_or_sermon_content
+  - office_and_role
+  - photographer
+  metadata:
+    embedded_date: absent
+  ocr:
+    scene_text_status: partial_and_uncertain
+    note: Jednotlivá písmena jsou viditelná, ale úplné znění nelze spolehlivě přepsat.
+  uncertainty_ids:
+  - URB-U-0068
+- id: urbanek-ccs-180
+  archival_filename: 5.jpg
+  dimensions_px:
+  - 977
+  - 1463
+  visual_type: historical_altar_rite_between_two_robed_men
+  description: Dva muži v dlouhých tmavých oděvech stojí u oltáře pod krucifixem. Starší muž přibližuje ruku nebo malý předmět
+    k ústům mladšího muže se zdobenou světlou štolou; na oltáři je otevřená kniha a vedle stojí vysoká svíce.
+  verified_from_image:
+  - two_robed_men_at_altar
+  - hand_or_small_object_near_younger_mans_mouth
+  - decorated_light_stole
+  - crucifix
+  - open_book
+  - tall_candle
+  unverified:
+  - exact_liturgical_rite
+  - whether_action_is_communion
+  - person_identities
+  - Leonard_Bogumsky_identity_or_presence
+  - Doubrava_location
+  - event_identity_and_date
+  - offices_and_roles
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0068
+duplicate_assessment:
+  exact_binary_duplicates_within_batch: none
+  note: Všech pět souborů má odlišný Git blob SHA. Opakující se interiér, oltář a osoby ukazují na jednu obrazovou sekvenci,
+    nikoli pět nezávislých potvrzení archivního popisu.
+subfolder_completion:
+  subfolder: 8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav
+  content_files: 5
+  processed_items: 5
+  status: completed_first_visual_pass_and_blob_verification
+next_action: Zpracovat urbanek-ccs-181 až 185, tedy 1.jpg až 5.jpg v podsložce 9 V r. 1969 se konala v evangelickém chrámu
+  na Ostravici ekumenick.

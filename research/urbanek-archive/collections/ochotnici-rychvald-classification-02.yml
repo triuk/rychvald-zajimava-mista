@@ -1,0 +1,232 @@
+collection_id: urbanek-ochotnici
+batch_id: classification-02
+status: completed
+scope: urbanek-ochotnici-011..urbanek-ochotnici-020
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+image_items: 10
+document_text_candidates: 8
+scene_text_candidates: 1
+photographs_without_ocr: 1
+
+items:
+  - id: urbanek-ochotnici-011
+    source_path: Ochotníci rychvald/Kroměříž 1.jpg
+    visual_type: scanned_newspaper_page
+    primary_masthead: "Kroměřížská Jiskra – Okresní noviny"
+    printed_date: "1960-05-17"
+    primary_heading: "Zpravodajství celostátní soutěže vesnických souborů v Kroměříži"
+    description: >-
+      Celá zvláštní novinová stránka věnovaná celostátní soutěži vesnických
+      divadelních souborů. Hlavní článek „Tážaly a jejich soubor“ doplňují kratší
+      texty „Večer družby“ a „Úspěch ochotníků z Vysočiny“.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: contextual_newspaper_page
+    ocr:
+      document_text: candidate_full_split_by_article
+      scene_text: not_applicable
+      note: Jednotlivé články přepisovat odděleně, nikoli jako jeden souvislý text.
+
+  - id: urbanek-ochotnici-012
+    source_path: Ochotníci rychvald/Kroměříž 2.jpg
+    visual_type: scanned_newspaper_page
+    printed_page: 2
+    primary_title: "Rychvald a Shakespeare v Kroměříži"
+    primary_author: "Rudolf Děbnárik, člen ústrednej poroty"
+    description: >-
+      Novinová strana s hlavním článkem o rychvaldském uvedení Večera tříkrálového
+      a několika dalšími samostatnými zprávami. V pravé dolní části je blok krátkých
+      výroků „Co řekli o představení Večer tříkrálový“.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: primary_rychvald_newspaper_page
+    subitems_detected:
+      - "Rychvald a Shakespeare v Kroměříži"
+      - "Pěkné přivítání"
+      - "Přijďte i vy"
+      - "8 hodin"
+      - "Potkáváte je"
+      - "O BARTOUŠOVU"
+      - "Co řekli o představení Večer tříkrálový"
+    ocr:
+      document_text: candidate_full_split_by_article
+      scene_text: not_applicable
+      note: >-
+        Hlavní článek, krátké zprávy a jednotlivé citované výroky musí být vedeny
+        jako samostatné textové jednotky podle fyzické sazby.
+
+  - id: urbanek-ochotnici-013
+    source_path: Ochotníci rychvald/img216.jpg
+    visual_type: scanned_event_program_or_poster
+    primary_title: "Celostátní soutěž vesnických divadelních souborů"
+    printed_date_range: "1960-05-13/1960-05-19"
+    description: >-
+      Program celostátní soutěže v Kroměříži. Pro 15. května uvádí Osvětovou
+      besedu v Rychvaldě a Shakespearův „Večer tříkrálový“.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: complete_program
+    ocr:
+      document_text: candidate_full_structured
+      scene_text: not_applicable
+      note: Přepis zachovat jako chronologický program s daty, soubory a tituly her.
+
+  - id: urbanek-ochotnici-014
+    source_path: Ochotníci rychvald/img210.jpg
+    visual_type: scanned_magazine_page_with_photographs
+    primary_title: "Vesničtí ochotníci se představují"
+    author_and_photographer: "Text a snímky Josef Lecián"
+    description: >-
+      Časopisecká strana o přehlídce roku 1960. Text zmiňuje rychvaldský soubor a
+      Večer tříkrálový. Jedna fotografie má popisek s osobami B. Peška, L. Smetana
+      a E. Močkořová.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: complete_article_with_captioned_photographs
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+      note: Přepsat článek i jednotlivé fotografické popisky, ale osoby neověřovat jen obrazem.
+
+  - id: urbanek-ochotnici-015
+    source_path: Ochotníci rychvald/img205.jpg
+    visual_type: photographed_book_spread
+    visible_pages: [44, 45]
+    description: >-
+      Knižní dvoustrana. V horní levé části končí předchozí text o rychvaldském
+      ochotnickém divadle; následuje samostatný článek A. Heřmánka „Episody při
+      sčítání lidu 1910“ a na pravé straně začíná text bratří A. a S. Pěničkových
+      „Hospodářský přehled“.
+    grouping:
+      group_id: historical-book-pages-40-45
+      role: sequence_end_and_composite_spread
+      previous_id: urbanek-ochotnici-016
+    ocr:
+      document_text: candidate_split_by_article
+      scene_text: not_applicable
+      note: >-
+        Nejprve dokončit pokračující divadelní text z předchozích stran; články
+        „Episody při sčítání lidu 1910“ a „Hospodářský přehled“ vést odděleně.
+
+  - id: urbanek-ochotnici-016
+    source_path: Ochotníci rychvald/img204.jpg
+    visual_type: photographed_book_spread
+    visible_pages: [42, 43]
+    description: >-
+      Souvislé pokračování historického textu o rychvaldském ochotnickém divadle,
+      M.O.L., repertoáru a činnosti v letech 1917–1918. Text navazuje z položky 017
+      a pokračuje do položky 015.
+    grouping:
+      group_id: historical-book-pages-40-45
+      role: middle_spread
+      previous_id: urbanek-ochotnici-017
+      next_id: urbanek-ochotnici-015
+    ocr:
+      document_text: candidate_full_sequence_part
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-017
+    source_path: Ochotníci rychvald/img203.jpg
+    visual_type: photographed_book_spread
+    visible_pages: [40, 41]
+    description: >-
+      Dvoustrana obsahuje konec předchozího textu „Založení Tělocvičné jednoty
+      Sokol v Rychvaldě“ a začátek článku Bohdana Horáka „Vzpomínky na Rychvald za
+      války“, který pokračuje do položek 016 a 015.
+    grouping:
+      group_id: historical-book-pages-40-45
+      role: sequence_start_and_composite_spread
+      next_id: urbanek-ochotnici-016
+    ocr:
+      document_text: candidate_split_and_sequence_start
+      scene_text: not_applicable
+      note: Konec sokolského textu oddělit od nového článku Bohdana Horáka.
+
+  - id: urbanek-ochotnici-018
+    source_path: Ochotníci rychvald/div. kroužek.jpg
+    visual_type: historical_group_photograph
+    printed_or_written_date: "1923"
+    description: >-
+      Historická skupinová fotografie dospělých a dětí. Dítě vpředu drží tabulku
+      pravděpodobně označující divadelní kroužek I. odboru S.M.O.L. v Rychvaldě.
+      V pravém dolním rohu je ateliérová značka.
+    grouping:
+      group_id: historical-divadelni-krouzek-1923
+      role: primary_group_photo
+    identification:
+      status: unverified
+      note: Osoby nejsou na fotografii jmenovitě určeny.
+    ocr:
+      document_text: not_applicable
+      scene_text: candidate_selective
+      candidate_text:
+        - location: board_center_front
+          text_candidate: "DIV. KROUŽEK / I. odb. / S.M.O.L. / v Rychvaldě"
+          confidence: medium
+        - location: bottom_center
+          text_candidate: "1923"
+          confidence: high
+        - location: bottom_right
+          text_candidate: "ATELIER KRIŠKOVSKÝ, RADVANICE"
+          confidence: medium
+      note: Přesné znění tabulky a ateliérové značky ověřit při samostatném OCR scény.
+
+  - id: urbanek-ochotnici-019
+    source_path: Ochotníci rychvald/Článek v čas. Těšínsko.jpg
+    visual_type: scanned_article_continuation
+    author_visible: "Bořivoj Peška"
+    description: >-
+      Pokračování článku o rychvaldském ochotnickém divadle. Text hodnotí Večer
+      tříkrálový, účast v Kroměříži, otázku Hronova, další inscenace „Poslední noc
+      v roce“ a „Slavnost lampiónů“ a pozdější útlum souboru. Začátek článku na této
+      straně chybí.
+    grouping:
+      group_id: tesinsko-article-borivoj-peska
+      role: continuation_or_final_page
+      probable_related_id: urbanek-ochotnici-028
+    ocr:
+      document_text: candidate_after_pairing
+      scene_text: not_applicable
+      note: Nezahajovat samostatný OCR, dokud nebude ověřena návaznost s položkou 028.
+
+  - id: urbanek-ochotnici-020
+    source_path: Ochotníci rychvald/Zabloudil Pešková.jpg
+    visual_type: historical_stage_photograph
+    description: >-
+      Dva herci v kostýmech na jevišti, pravděpodobně z inscenace Večer tříkrálový.
+      Jména jsou odvozena pouze z názvu souboru a souvisejících archivních popisků.
+    grouping:
+      group_id: vecer-trikralovy-stage-photographs
+      role: stage_scene
+    identification:
+      status: unverified_filename_based
+      candidate_people: [Libor Zabloudil, Pešková]
+      note: Křestní jméno Peškové ani role nejsou potvrzeny samotným obrazem.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+groups:
+  - group_id: kromeriz-celostatni-prehlidka
+    added_members: [urbanek-ochotnici-011, urbanek-ochotnici-012, urbanek-ochotnici-013, urbanek-ochotnici-014]
+    existing_members: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-009, urbanek-ochotnici-010]
+  - group_id: historical-book-pages-40-45
+    ordered_members: [urbanek-ochotnici-017, urbanek-ochotnici-016, urbanek-ochotnici-015]
+    note: Některé dvoustrany obsahují hranici dvou nebo tří samostatných článků.
+  - group_id: historical-divadelni-krouzek-1923
+    members: [urbanek-ochotnici-018]
+  - group_id: tesinsko-article-borivoj-peska
+    members: [urbanek-ochotnici-019]
+    probable_future_member: urbanek-ochotnici-028
+  - group_id: vecer-trikralovy-stage-photographs
+    members: [urbanek-ochotnici-020]
+    note: Další související fotografie se očekávají v následujících dávkách.
+
+next_action:
+  type: visually_classify_collection_batch
+  batch_ids: urbanek-ochotnici-021..urbanek-ochotnici-030
+  instruction: >-
+    Classify the second exhibition-panel image, theatre-role photographs, press
+    clippings, the first page of the Těšínsko article and the remaining Zabloudil
+    photographs. Confirm article pairing and group stage photographs before OCR.

@@ -1,0 +1,83 @@
+schema_version: 1
+items:
+- id: URB-U-0082
+  status: open
+  priority: medium
+  collection: Rychvald
+  type: collection_location_authorship_provenance_filename_semantics_and_historical_reproduction_identification
+  source_items:
+  - urbanek-rychvald-001
+  - urbanek-rychvald-002
+  - urbanek-rychvald-003
+  - urbanek-rychvald-004
+  - urbanek-rychvald-005
+  - urbanek-rychvald-006
+  - urbanek-rychvald-007
+  - urbanek-rychvald-008
+  - urbanek-rychvald-009
+  - urbanek-rychvald-010
+  - urbanek-rychvald-011
+  - urbanek-rychvald-012
+  - urbanek-rychvald-013
+  - urbanek-rychvald-014
+  - urbanek-rychvald-015
+  - urbanek-rychvald-016
+  - urbanek-rychvald-017
+  - urbanek-rychvald-018
+  - urbanek-rychvald-019
+  - urbanek-rychvald-020
+  question: Jaká je přesná provenience, autorství a lokalizace fotografií v kolekci `Rychvald`, co znamená jméno `Cudlín` v názvech souborů, jaký byl původní účel
+    či publikační kontext sady a které události, objekty, datace a významy popisků zachycují historické reprodukce?
+  known_facts:
+  - Aktuální Git a Drive snapshot kolekce obsahuje 31 obrazových souborů a technické soubory Thumbs.db a ZbThumbnail.info.
+  - '`Budova úřadu 003.jpg` a `Budova úřadu 005.jpg` přímo zobrazují nápis „MĚSTSKÝ ÚŘAD“, ale obraz neobsahuje čitelný název obce.'
+  - '`Cudlín 033.jpg`, `Cudlín 035.jpg` a `Cudlín 037.jpg` jsou tři časově navazující pohledy na tutéž upravenou veřejnou plochu.'
+  - '`Cudlín 041.jpg` zachycuje interiér sakrální stavby s dekorovanými lavicemi, oltářem, krucifixem a nástěnnými malbami; přesná stavba ani příležitost nejsou přímo
+    označeny.'
+  - '`Kopie - Budova úřadu 005.jpg` je podle SHA-256 i Git blob SHA přesná binární kopie položky 002 a nepředstavuje další nezávislý obrazový důkaz.'
+  - '`P1010066.JPG` až `P1010068.JPG` jsou moderní reprodukční fotografie starších fotografií či pohlednic, pořízené Panasonicem DMC-TZ3 dne 28. února 2010.'
+  - '`P1010068.JPG` přímo zobrazuje rok „1909“ a popisek „ŠKOLY U.M.Š. V RYCHVALDĚ.“; ověřeno je znění popisku, nikoli význam zkratky, úplná datace ani identita obou
+    budov.'
+  - '`P1010069.JPG` je moderní reprodukční fotografie historické vícepohledové pohlednice či karty s výrazným textem „Pozdrowienie z Rychwaldu“; původní datum, autor,
+    vydavatel a identita jednotlivých pohledů nejsou ověřeny.'
+  - '`P1010070.JPG` je moderní reprodukce starší černobílé fotografie či pohlednice sakrální stavby s věží a viditelným nápisem „PRAVDA VÍTĚZÍ“; přesná stavba, lokalita
+    a datum nejsou přímo doloženy.'
+  - '`P1010071.JPG` a `P1010072.JPG` jsou fotografované dokumentární stránky s ručně kreslenými místopisnými plány, číslem „- 14 -“ a nadpisy „Místopis kolem a po
+    r. 1900.“ a „Místopis před r. 1900.“; nadpisy jsou evidovány jako znění předlohy, nikoli jako nezávisle ověřené datace obsahu.'
+  - '`P1010114.JPG` je fotografovaná stránka rukopisného historického textu s číslem „- 25 -“; úplný kurzivní přepis, autorství, provenience a historická přesnost
+    textu nejsou zatím ověřeny.'
+  - '`P1010115.JPG` pokračuje v rukopisné místněhistorické sekvenci stránkou „- 26 -“ a bezpečně čitelnými časovými rozsahy od 1715–1719 po 1894–1903; historická
+    správnost a úplný přepis nejsou ověřeny.'
+  - '`P1010116.JPG` je fotografovaná rukopisná chronologie s bezpečně čitelnými datovanými položkami z let 1920 až 1923; jednotlivé zápisy jsou evidovány jako obsah
+    předlohy, nikoli jako nezávisle ověřené historické skutečnosti.'
+  - '`P1010117.JPG` je fotografovaná rukopisná stránka „- 197 -“ s nadpisem „Škola živnostenská pokračovací.“ a viditelnými roky 1912 a 1920; autorství, provenience
+    a historická správnost textu nejsou ověřeny.'
+  - '`Rychvald2009 003.jpg` a `Rychvald2009 004.jpg` jsou dva odlišné snímky téhož kamenného hřbitovního kříže s figurální výzdobou, pořízené Panasonicem DMC-FZ7
+    dne 1. září 2009 s odstupem 13 sekund; slabý nápis či datace na podstavci nejsou bezpečně čitelné.'
+  - Název adresáře a názvy souborů jsou archivní metadata a samy neprokazují přesnou lokalitu, fotografa, událost ani historické datum.
+  unknown:
+  - exact_location_of_each_scene
+  - whether_all_scenes_are_in_Rychvald
+  - identity_and_function_of_glass_fronted_building_square_and_sacral_interiors_or_buildings
+  - whether_Cudlin_is_photographer_editor_source_or_other_filename_label
+  - historical_events_people_dates_and_institutions_in_reproduced_images
+  - meaning_of_UMS_abbreviation_and_relationship_of_1909_to_both_school_images
+  - original_date_author_publisher_and_individual_vignette_identity_for_P1010069
+  - exact_building_identity_location_and_historical_date_for_P1010070
+  - authorship_provenance_historical_accuracy_and_label_meanings_of_P1010071_and_P1010072_maps
+  - full_transcription_authorship_provenance_and_historical_accuracy_of_P1010114_and_P1010115_manuscript_pages
+  - full_transcription_authorship_provenance_and_historical_accuracy_of_P1010116_and_P1010117_chronology_and_school_pages
+  - exact_identity_location_date_inscription_and_commemorative_context_of_Rychvald2009_003_and_004_monument
+  - physical_source_provenance_and_reproduction_history
+  - original_collection_purpose_and_publication_context
+  - copyright_and_reuse_rights
+  evidence:
+  - research/urbanek-archive/collections/rychvald-batch-01.yml
+  - research/urbanek-archive/collections/rychvald-batch-02.yml
+  - research/urbanek-archive/collections/rychvald-batch-03.yml
+  - research/urbanek-archive/collections/rychvald-batch-04.yml
+  - research/urbanek-archive/collections/rychvald-overview.yml
+  - sources/index.d/urbanek-rychvald-01.yml
+  - sources/index.d/urbanek-rychvald-02.yml
+  - sources/index.d/urbanek-rychvald-03.yml
+  - sources/index.d/urbanek-rychvald-04.yml

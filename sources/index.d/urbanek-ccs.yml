@@ -1,0 +1,137 @@
+schema_version: 1
+scope: urbanek-ccs-history
+collection:
+  source_id: urbanek-ccs-history
+  title: Historie Církve československé v Rychvaldě ve fotografiích
+  document_type: archival_photograph_collection
+  source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
+  attribution: "Z osobního archivu p. Jaromíra Urbánka."
+  rights:
+    status: unknown
+    note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni.
+  scope:
+    subfolders: 10
+    content_files: 200
+    technical_files: 1
+    total_items: 201
+  processing_status: in_progress
+  overview: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-overview.yml
+
+sources:
+  - source_id: urbanek-ccs-001
+    title: Bohoslužba a položení základního kamene – archivní označení
+    document_type: historical_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/1  Bohoslužba a položení zákl. kamene.jpg"
+    file_size_bytes: 787680
+    git_blob_sha: 179174b706e26605aaaa760b45b146f65fef4595
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: good_with_physical_wear
+      note: Hlavní výjev je čitelný; fotografie vykazuje běžné stopy stáří a reprodukce.
+    visual_content:
+      photographs: single_historical_scene
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Název události pochází z archivního názvu souboru a není sám o sobě nezávislým historickým důkazem.
+      - Vizuálně je doloženo velké obřadní shromáždění u aktivního staveniště a základů.
+
+  - source_id: urbanek-ccs-002
+    title: Výstavba Husova sboru – první stavební snímek
+    document_type: historical_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/2  Z výstavby 1.jpg"
+    file_size_bytes: 753238
+    git_blob_sha: 3a4eef125775ade2484a085deedb47948b60cd75
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: good_with_physical_damage
+      note: Stavba a osoby jsou čitelné; fotografie má trhliny a poškozené okraje.
+    visual_content:
+      photographs: single_historical_scene
+      scene_text: present_partial
+      method: Vizuální kontrola celého obrazu a zvětšení staveništní tabule.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Čitelná část tabule zní „STAVBU HUSOVA SBORU ČESKOSL. CÍRKVE …“.
+      - Úplný název provádějící firmy zatím není bezpečně přepsán.
+
+  - source_id: urbanek-ccs-003
+    title: Výstavba Husova sboru – druhý stavební snímek
+    document_type: historical_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/3  Z výstavby 2.jpg"
+    file_size_bytes: 824259
+    git_blob_sha: 3b76d1036e2b7a8787698aa169bbe72fa18c38c6
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: good_with_physical_damage
+      note: Stavební fáze je dobře patrná; předloha má přehyby, trhliny a poškozené okraje.
+    visual_content:
+      photographs: single_historical_scene
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Obrazově jde o tutéž stavební sekvenci jako urbanek-ccs-002 až 005.
+
+  - source_id: urbanek-ccs-004
+    title: Výstavba Husova sboru – skupina před pokročilou stavbou
+    document_type: historical_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/4  Z výstavby 3.jpg"
+    file_size_bytes: 470466
+    git_blob_sha: 055abceda811617abb958c93e3e08af611cab41b
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: variable_due_to_damage
+      note: Budova a skupina jsou rozeznatelné; fotografický obraz je výrazně fyzicky poškozen.
+    visual_content:
+      photographs: single_historical_group_scene
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Totožnost jednotlivých osob není ověřena.
+
+  - source_id: urbanek-ccs-005
+    title: Husův sbor před dokončením – archivní označení
+    document_type: historical_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/5  Před dokončením.jpg"
+    file_size_bytes: 484807
+    git_blob_sha: 1aaa0a2da6a9133399b635dbfe48869139ec8f9f
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: good_with_surface_damage
+      note: Architektura je dobře čitelná; obraz má škrábance a skvrny.
+    visual_content:
+      photographs: single_historical_architectural_scene
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - V pravém pozadí je další věž, jejíž identita není ověřena.
+
+indexing_note: >-
+  Tento shard je autoritativním zdrojovým indexem rozpracované velké archivní
+  kolekce. Položky se doplňují po dávkách současně s vizuální kontrolou a Git
+  blob verifikací. Centrální sources/index.yml zůstává autoritativní pro dosavadní
+  samostatné dokumenty a internetové zdroje.

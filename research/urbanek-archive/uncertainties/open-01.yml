@@ -1,0 +1,24 @@
+schema_version: 1
+scope: open_items_0008
+items:
+  - id: URB-U-0008
+    status: open
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: historical_image_identification
+    source_items: [urbanek-mlyny-010]
+    question: "Jaký mlýn, místo a období zachycuje historická fotografie?"
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml
+    review_note: >-
+      Uživatel snímek dne 2026-07-21 nepoznal. Současné porovnání s rychvaldskými
+      záznamy databáze Povětrník ani archivní metadata nepřinesly identifikaci.
+      Nejde o důvod k uzavření; fotografie může být určena z dalších dosud
+      nezpracovaných pramenů.
+    next_action: >-
+      Po zpracování dalších archivních kolekcí znovu porovnat s regionálními
+      fotografiemi, kronikami, popisky, mapami a databází Povětrník. Prověřit také,
+      zda jde o referenční fotografii objektu mimo Rychvald.
+    reopen_triggers:
+      - new_archive_batch_processed
+      - matching_historical_photograph_found
+      - new_caption_or_source_note_available

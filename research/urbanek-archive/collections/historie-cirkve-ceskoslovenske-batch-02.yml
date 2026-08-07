@@ -1,0 +1,133 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: opening-and-early-interior-02
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / položky 6–10"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka navazuje na stavební sekvenci dokončenou v položkách 1–5. Obsahuje
+    exteriér dokončeného sboru při početném venkovním shromáždění, dva pohledy
+    na rané uspořádání kněžiště a dvě slavnostní bohoslužebné události v témže
+    interiéru. Datum 6. 7. 1925, desetileté výročí, rok 1937, označení tryzny za
+    T. G. Masaryka a jméno faráře Vodičky pocházejí z archivních názvů souborů
+    a v této dávce nejsou nezávisle ověřeny.
+  basis:
+    - visual_architectural_continuity
+    - repeated_interior_features
+    - archival_sequence
+
+items:
+  - id: urbanek-ccs-006
+    visual_type: historical_black_and_white_architectural_event_photograph_reproduction
+    description: >-
+      Dokončená světlá podélná budova s vysokou věží, mansardově tvarovanou
+      střechou věžního přístavku a řadou vysokých oken. Před budovou a na ochozu
+      věže se shromáždilo větší množství osob; v popředí jsou povozy, jízdní kola,
+      trámy a neupravený terén.
+    subject_tags: [completed_church, tower, crowd, outdoor_ceremony, bicycles, carts]
+    identification:
+      status: partially_verified
+      archival_claim: "den otevření 6. 7. 1925"
+      verified_from_image: [same_building_as_construction_sequence, completed_building, large_public_gathering]
+      unverified: [exact_event, exact_date, identities_of_participants]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ccs-007
+    visual_type: historical_black_and_white_interior_photograph_reproduction
+    description: >-
+      Čelní pohled přes řady lavic na původní kněžiště. Stěny jsou ve spodní
+      části pokryty výrazným geometrickým vzorem, uprostřed je jednoduchý oltář,
+      vysoký dekorativní svícen nebo světelný prvek, závěsné lustry a křtitelnice
+      vpravo. Nad oltářem je dekorativní pás s textem, který je v dochované
+      reprodukci stranově převrácený a málo čitelný.
+    subject_tags: [church_interior, pews, altar, geometric_wall_pattern, chandeliers, baptismal_font]
+    identification:
+      status: partially_verified
+      archival_claim: původní interiér Husova sboru
+      verified_from_image: [same_interior_as_urbanek-ccs-009, early_interior_configuration]
+      unverified: [exact_date, exact_wording_of_motto]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_unreadable
+        location: decorative ribbon above altar
+        note: >-
+          Text je v obraze stranově převrácený a reprodukce nemá dostatečnou
+          čitelnost pro bezpečný doslovný přepis. Nesmí být rekonstruován odhadem.
+
+  - id: urbanek-ccs-008
+    visual_type: historical_black_and_white_clerical_portrait_detail_reproduction
+    description: >-
+      Detail kněžiště s duchovním v popředí. Za ním je kříž, svíce, květinová
+      výzdoba a rozměrný malovaný náboženský výjev s několika postavami; po
+      stranách jsou dřevěné rámové nebo policové prvky s menšími obrazy.
+    subject_tags: [clergy_portrait, altar_detail, crucifix, candles, religious_painting, floral_decoration]
+    identification:
+      status: partially_verified
+      archival_claim: obraz za oltářem
+      verified_from_image: [altar_background_painting, clergy_member_present]
+      unverified: [identity_of_clergy, author_and_subject_of_painting, exact_date]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ccs-009
+    visual_type: historical_black_and_white_crowded_service_photograph_reproduction
+    description: >-
+      Zaplněný interiér sboru fotografovaný z vyvýšeného místa směrem ke
+      kněžišti. Před oltářem stojí duchovní, vpravo jsou prapory a mezi účastníky
+      převažují lidé ve slavnostním oděvu; původní geometrická výzdoba stěn se
+      shoduje s položkou urbanek-ccs-007.
+    subject_tags: [crowded_church_service, clergy, congregation, flags, early_church_interior]
+    identification:
+      status: partially_verified
+      archival_claim: slavnostní bohoslužby k deseti letům CČS
+      verified_from_image: [large_ceremonial_service, same_interior_as_urbanek-ccs-007]
+      unverified: [event_identity, exact_date, identities_of_clergy_and_participants]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_safely_readable
+
+  - id: urbanek-ccs-010
+    visual_type: historical_black_and_white_memorial_group_photograph_reproduction
+    description: >-
+      Ceremoniální skupina v kněžišti kolem květinami a svícemi obklopeného
+      ústředního portrétu nebo busty. V popředí stojí dva uniformovaní muži se
+      zbraněmi nebo ceremoniálními holemi, za nimi další uniformované osoby a
+      duchovní. Na spodním okraji je částečně dochovaný fotografický ateliérový
+      otisk.
+    subject_tags: [memorial_ceremony, clergy, uniformed_guard, portrait_or_bust, candles, flowers]
+    identification:
+      status: partially_verified
+      archival_claim: "1937 – tryzna za TGM; farář Vodička"
+      verified_from_image: [formal_memorial_arrangement, uniformed_honor_guard, clergy_present]
+      unverified: [identity_of_commemorated_person, exact_date, identity_of_clergy, identity_of_uniformed_units]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_partial
+        location: bottom photographic imprint
+        transcription: "FOTO KŘÍŽKOVSKÝ – RYCHVALD – …"
+        note: Pravá část otisku je oříznutá a nelze ji bezpečně doplnit.
+
+open_research_candidates:
+  - question: Je datum otevření sboru 6. července 1925 doloženo nezávislým textovým pramenem?
+    status: candidate_pending_cross_source_review
+  - question: Jak přesně zní stranově převrácený nápis nad oltářem na urbanek-ccs-007?
+    status: candidate_pending_better_copy_or_parallel_photo
+  - question: Kdo vytvořil obraz za oltářem a jaký výjev zachycuje?
+    status: candidate_pending_later_collection_comparison
+  - question: Potvrzuje jiný pramen, že urbanek-ccs-010 zachycuje tryznu za T. G. Masaryka roku 1937 a faráře Karla Vodičku?
+    status: candidate_pending_cross_source_review
+
+next_action: >-
+  Pokračovat položkami 11–15. Archivní datace a jména porovnávat s pozdějšími
+  popisky, kronikami a dalšími fotografiemi; stabilní nejistotu založit až tehdy,
+  zůstane-li otázka po vnitřním porovnání kolekce podstatná a nevyřešená.

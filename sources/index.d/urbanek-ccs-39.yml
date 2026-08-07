@@ -1,0 +1,192 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-39
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři, grafik, vydavatel a držitelé práv kalendáře
+  i vložených fotografií nejsou ověřeni.
+sources:
+- source_id: urbanek-ccs-191
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář
+    2015/6.jpg
+  file_size_bytes: 11004518
+  git_blob_sha: 8da137a7405c6d1511da083de89b02cf3ad28b9c
+  sha256: 1cac880d8e07b0321385e28982f046764d08e3b898c18fc9febda9bda6566374
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px:
+  - 2385
+  - 3354
+  text_layer: absent
+  embedded_metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář duben 2015 – zvony a veřejná prohlídka věže
+  document_type: modern_commemorative_calendar_month_page_with_historical_and_modern_photographs
+  readability:
+    status: good
+    note: Grafika, měsíční kalendář, hlavní popisky a fotografie jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle
+      ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Jde o moderní sazební stránku výročního kalendáře; čitelné popisky potvrzují znění publikované stránky, nikoli automaticky
+    historickou správnost tvrzení.
+  - Strana převážně obsahuje reprodukce fotografií už evidovaných v dřívějších položkách; nejde o nové nezávislé obrazové
+    doklady.
+  - EXIF Artist a XPAuthor uvádějí pouze řetězec Marta; úplná identita ani autorství nejsou tímto metadatovým údajem nezávisle
+    potvrzeny.
+  - Souvisí s URB-U-0073.
+- source_id: urbanek-ccs-192
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář
+    2015/7.jpg
+  file_size_bytes: 11784074
+  git_blob_sha: cd8e1f1d1a438dba969de31f42b01687c7fc1f02
+  sha256: 43354e7fc47349d96bac2a5e7279a886ea8450a72dfa514ee3fcc539855f95ff
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px:
+  - 2385
+  - 3354
+  text_layer: absent
+  embedded_metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář květen 2015 – pěvecké sbory 1933 a 1990
+  document_type: modern_commemorative_calendar_month_page_with_historical_and_modern_photographs
+  readability:
+    status: good
+    note: Grafika, měsíční kalendář, hlavní popisky a fotografie jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle
+      ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Jde o moderní sazební stránku výročního kalendáře; čitelné popisky potvrzují znění publikované stránky, nikoli automaticky
+    historickou správnost tvrzení.
+  - Strana převážně obsahuje reprodukce fotografií už evidovaných v dřívějších položkách; nejde o nové nezávislé obrazové
+    doklady.
+  - EXIF Artist a XPAuthor uvádějí pouze řetězec Marta; úplná identita ani autorství nejsou tímto metadatovým údajem nezávisle
+    potvrzeny.
+  - Souvisí s URB-U-0073.
+- source_id: urbanek-ccs-193
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář
+    2015/8.jpg
+  file_size_bytes: 13734322
+  git_blob_sha: 86cb25ef15a69f83d428acd2c283cd7e73210d1e
+  sha256: 749bc7ab4507a2e39bf250b4cde44c2be372613ab11884aa883de5e29c537148
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px:
+  - 2385
+  - 3354
+  text_layer: absent
+  embedded_metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář červen 2015 – skupiny prvního přijímání
+  document_type: modern_commemorative_calendar_month_page_with_historical_and_modern_photographs
+  readability:
+    status: good
+    note: Grafika, měsíční kalendář, hlavní popisky a fotografie jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle
+      ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Jde o moderní sazební stránku výročního kalendáře; čitelné popisky potvrzují znění publikované stránky, nikoli automaticky
+    historickou správnost tvrzení.
+  - Strana převážně obsahuje reprodukce fotografií už evidovaných v dřívějších položkách; nejde o nové nezávislé obrazové
+    doklady.
+  - EXIF Artist a XPAuthor uvádějí pouze řetězec Marta; úplná identita ani autorství nejsou tímto metadatovým údajem nezávisle
+    potvrzeny.
+  - Souvisí s URB-U-0073.
+- source_id: urbanek-ccs-194
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář
+    2015/9.jpg
+  file_size_bytes: 12682867
+  git_blob_sha: 85b72388613eb13cde373f3dc1451cdefd7c8315
+  sha256: f5015878078071417cf80906334b2c94665c93f8cb4caf3fbb59c641d3090c03
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px:
+  - 2385
+  - 3354
+  text_layer: absent
+  embedded_metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář červenec 2015 – připomínka Jana Husa
+  document_type: modern_commemorative_calendar_month_page_with_historical_and_modern_photographs
+  readability:
+    status: good
+    note: Grafika, měsíční kalendář, hlavní popisky a fotografie jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle
+      ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Jde o moderní sazební stránku výročního kalendáře; čitelné popisky potvrzují znění publikované stránky, nikoli automaticky
+    historickou správnost tvrzení.
+  - Strana převážně obsahuje reprodukce fotografií už evidovaných v dřívějších položkách; nejde o nové nezávislé obrazové
+    doklady.
+  - EXIF Artist a XPAuthor uvádějí pouze řetězec Marta; úplná identita ani autorství nejsou tímto metadatovým údajem nezávisle
+    potvrzeny.
+  - Souvisí s URB-U-0073.
+- source_id: urbanek-ccs-195
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář
+    2015/10.jpg
+  file_size_bytes: 11549089
+  git_blob_sha: f3efdf28856e5c751861f0f61afbc98ac852e154
+  sha256: ca886815d2e73a94e2faf205cfc4db93907324076ef6b30d804be3f1c386a0e0
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px:
+  - 2385
+  - 3354
+  text_layer: absent
+  embedded_metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář srpen 2015 – svatba, křtiny a přijímání
+  document_type: modern_commemorative_calendar_month_page_with_historical_and_modern_photographs
+  readability:
+    status: good
+    note: Grafika, měsíční kalendář, hlavní popisky a fotografie jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle
+      ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Jde o moderní sazební stránku výročního kalendáře; čitelné popisky potvrzují znění publikované stránky, nikoli automaticky
+    historickou správnost tvrzení.
+  - Strana převážně obsahuje reprodukce fotografií už evidovaných v dřívějších položkách; nejde o nové nezávislé obrazové
+    doklady.
+  - EXIF Artist a XPAuthor uvádějí pouze řetězec Marta; úplná identita ani autorství nejsou tímto metadatovým údajem nezávisle
+    potvrzeny.
+  - Souvisí s URB-U-0073.

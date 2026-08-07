@@ -1,0 +1,258 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+batch_number: 5
+batch_id: frystat-occupation-final-days-rychvald-expulsions-and-refugee-care-05
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+  drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+  items:
+  - P1020294.JPG
+  - P1020295.JPG
+  - P1020296.JPG
+  - P1020297.JPG
+  - P1020298.JPG
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification and transcription of only clearly visible headings, masthead elements and datelines.
+- EXIF inspection; the 2013 camera timestamps are treated as reproduction-capture metadata, not as dates of the printed newspaper
+  content.
+- Exact binary duplicate check within the batch and visual-overlap check against preceding items.
+batch_findings:
+  general: Pět fotografií novinových stran a výřezů o posledních dnech polského záboru Těšínska, převzetí Fryštátu, rozloučení
+    Rychvaldu, vypovídání českých obyvatel a péči o uprchlíky v Moravské Ostravě.
+  issue_identification: P1020295.JPG ukazuje částečné označení „ČESKÉ SLOVO“, ale bez data, ročníku a čísla vydání. Datace
+    Mor. Ostrava 10. října a Praha 14. října jsou součástí jednotlivých zpráv a nejsou automaticky převáděny na datum vydání.
+  capture_session: Všechny soubory uvádějí Panasonic DMC-TZ3 a EXIF DateTime 2013-02-15 mezi 15:58:01 a 16:01:54. P1020295.JPG
+    má portrétní rozměry 2304 × 3072 px; ostatní čtyři snímky mají 3072 × 2304 px.
+  exact_binary_duplicates_within_batch: 0
+  visual_overlap: P1020294.JPG je těsnější a binárně odlišný záběr stejné novinové strany jako P1020293.JPG z předchozí dávky.
+    U ostatních snímků nebyl v rámci dosud zpracovaných položek bezpečně stanoven překryv stejné fyzické strany.
+  rychvald_note: P1020296.JPG obsahuje samostatný mezititulek „Jak se rozloučil Rychvald“. Jde o přímý textový výskyt v prameni,
+    nikoli o nezávislé ověření události popisované článkem.
+items:
+- id: urbanek-noviny-1938-ceske-slovo-021
+  filename: P1020294.JPG
+  visual_description: Těsnější fotografie téže novinové strany jako P1020293.JPG. Zachycuje nadtitulek „Včera v 10 hodin dopoledne“,
+    hlavní titulek „Fryštát s okolím zabrán“ a mezititulek „Vojsko ustupuje z Fryštátu“; nejde o binární duplicitu.
+  visible_text:
+  - Včera v 10 hodin dopoledne
+  - Fryštát s okolím zabrán
+  - Lidé touží po spravedlnosti
+  - Vojsko ustupuje z Fryštátu
+  classification:
+  - newspaper_page_photograph
+  - frystat_and_surroundings_occupation_report
+  - military_withdrawal_article
+  - alternate_page_capture
+  git_blob_sha: 8a6ca60581b8e038ba966f8ab3d4ab12732fe7af
+  sha256: 5866cb74615bd9aad9ec136414a85ceb8b0879e9165de604c2c2314fa1b91c30
+  file_size_bytes: 3443871
+  drive_id: 18VZ6nkHlpcFjwQGYLKNCUZtbOSmuXFZK
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:58:01'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-022
+  filename: P1020295.JPG
+  visual_description: Fotografie větší části novinové strany s částečným označením „ČESKÉ SLOVO“ a hlavním titulkem „Předposlední
+    den polské okupace“. Úvod zprávy obsahuje dataci „Mor. Ostrava 10. října“, ale datum, ročník a číslo vydání v mastheadu
+    viditelné nejsou.
+  visible_text:
+  - ČESKÉ SLOVO
+  - Předposlední den polské okupace
+  - Mor. Ostrava 10. října.
+  - Naprostý chlad v Petřvaldě
+  - Orlová se srdečně loučí s našimi vojáky
+  - Rumunský tisk o nás
+  classification:
+  - newspaper_page_photograph
+  - partial_masthead_visible
+  - polish_occupation_final_days_article
+  - petřvald_and_orlová_reports
+  git_blob_sha: 890b3d120d9d31a12b19d01d62fdd96d986e8fa3
+  sha256: d6d44dac4154fade75eb9ea431ff29eea032bd0cdb9122d3ef9dc16a52dd5133
+  file_size_bytes: 3353724
+  drive_id: 1SdyUJpKakgbG9KydpEw6ky75Zr2IW9Km
+  dimensions_px:
+  - 2304
+  - 3072
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:59:11'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-023
+  filename: P1020296.JPG
+  visual_description: Fotografie novinové strany s hlavním titulkem „Poslední den polského záboru na Těšínsku“ a podtitulem
+    „Do včerejšího poledne obsazen zbytek fryštátského a českotěšínského okresu“. Samostatný mezititulek „Jak se rozloučil
+    Rychvald“ přímo váže text pramene k Rychvaldu.
+  visible_text:
+  - Poslední den polského záboru na Těšínsku
+  - DO VČEREJŠÍHO POLEDNE OBSAZEN ZBYTEK FRYŠTÁTSKÉHO A ČESKOTĚŠÍNSKÉHO OKRESU
+  - Jak se rozloučil Rychvald
+  - Český Petřvald zabrán
+  - Poláci se usazují na dobrých místech
+  - Finanční stráž již funguje
+  classification:
+  - newspaper_page_photograph
+  - polish_annexation_final_day_article
+  - rychvald_section_heading
+  - petřvald_section_heading
+  - frystat_and_czech_tesin_district_report
+  git_blob_sha: 4e76e5b0058b22ac50e52520975022548dfa8e3b
+  sha256: 7d8eb5f2d4367ca19aead816239b3b8fe3aaf4cbfea17c0daeb8b8c620ff1b6d
+  file_size_bytes: 3301098
+  drive_id: 1TRZx3YLmN9GUhhpPc-tCzzDsGjARNs56
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:00:29'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-024
+  filename: P1020297.JPG
+  visual_description: Fotografie části novinové strany s hlavním titulkem „Sta lidí vypovídáno z Těšínska“ a podtitulem „Polské
+    úřady postupují dále proti českým lidem“. Dále je viditelný článek „Konsulární atašé v Ostravě“ s datací Praha 14. října
+    a titulek „Italie sleduje vývoj ve střední Evropě“.
+  visible_text:
+  - Sta lidí vypovídáno z Těšínska
+  - Polské úřady postupují dále proti českým lidem
+  - Konsulární atašé v Ostravě
+  - Praha 14. října. -ČTK.
+  - Italie sleduje vývoj ve střední Evropě
+  classification:
+  - newspaper_page_photograph
+  - tesin_expulsions_article
+  - polish_authorities_article
+  - ostrava_consular_attache_article
+  - central_europe_press_article
+  git_blob_sha: 5d867107c74df14f2a6130b423e01fa9144600e7
+  sha256: 7605f9f4e62fff8391641b3807ef545dfdac3083e3fcd9d2a3ec77304ee96136
+  file_size_bytes: 3452197
+  drive_id: 1keJqH6KK5KHqiEBGLonaSE63Q3MEnqk6
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:01:21'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-025
+  filename: P1020298.JPG
+  visual_description: Detail novinové strany s článkem „Péče o uprchlíky z obsazeného území“ a podtitulem „Kde se mají uprchlíci
+    hlásit v Mor. Ostravě“. Výřez popisuje místní výbor a místa péče a ubytování; úplné údaje vydání nejsou zachyceny.
+  visible_text:
+  - Péče o uprchlíky z obsazeného území
+  - Kde se mají uprchlíci hlásit v Mor. Ostravě
+  classification:
+  - newspaper_page_photograph
+  - refugee_care_article
+  - moravian_ostrava_registration_article
+  - page_detail_capture
+  git_blob_sha: 1149f5c2f4f2a83c967ef8b0ce2a699443834b45
+  sha256: 9d3a721053c8ec25f4707852d36b033455d94792eea0427fed8ad76affeba55b
+  file_size_bytes: 3514119
+  drive_id: 1UE8pCAnoLrXNTZEcW23ZWNoPtTentnK1
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:01:54'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+related_uncertainties:
+- URB-U-0081
+next_batch:
+  number: 6
+  filenames:
+  - P1020299.JPG
+  - P1020300.JPG
+  - P1020301.JPG
+  - P1020302.JPG
+  - P1020303.JPG

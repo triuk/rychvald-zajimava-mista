@@ -1,0 +1,148 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+batch_number: 7
+batch_id: doubrava-regional-news-tesin-marriages-transport-and-petrvald-refugee-protest-07
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+  drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+  items:
+  - P1020304.JPG
+  - P1020305.JPG
+  - P1020306.JPG
+  content_files: 3
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification and transcription of only clearly visible headings and locality names.
+- EXIF inspection; the 2013 camera timestamps are treated as reproduction-capture metadata, not as dates of the printed newspaper
+  content.
+- Exact binary duplicate check within the batch and visual-overlap check against preceding items.
+batch_findings:
+  general: Tři poslední obsahové fotografie kolekce zachycují regionální zprávy z Doubravy, článek o opakování některých sňatků
+    na Těšínsku, autobusový jízdní řád a protest uprchlíků z Petřvaldu.
+  issue_identification: Na žádném ze tří snímků není úplný masthead s datem, ročníkem a číslem vydání. Datum vydání proto
+    není odvozováno z obsahu ani z pořadí fotografií.
+  capture_session: Všechny soubory uvádějí Panasonic DMC-TZ3 a EXIF DateTime 2013-02-15 mezi 16:08:51 a 16:10:53. P1020304.JPG
+    má portrétní rozměry 2304 × 3072 px; P1020305.JPG a P1020306.JPG mají 3072 × 2304 px.
+  exact_binary_duplicates_within_batch: 0
+  visual_overlap: Mezi třemi soubory dávky ani proti bezprostředně předcházejícím položkám nebyl bezpečně stanoven překryv
+    stejné fyzické strany. P1020304.JPG opakuje rubrikový nadpis „Zprávy z Těšínska“, který se objevuje i na položkách 029
+    a 030, ale to samo nedokládá stejnou stranu nebo vydání.
+  locality_note: P1020304.JPG přímo zmiňuje Doubravu a P1020306.JPG Petřvald. Jde o textové výskyty v prameni, nikoli o nezávislé
+    ověření popisovaných událostí.
+  content_completion: Po této dávce je vizuálně klasifikováno a zdrojově indexováno všech 33 JPEGů kolekce. Zbývají dva technické
+    soubory Thumbs.db a ZbThumbnail.info.
+items:
+- id: urbanek-noviny-1938-ceske-slovo-031
+  filename: P1020304.JPG
+  visual_description: Portrétní detail novinového sloupce s rubrikovým nadpisem „Zprávy z Těšínska“. Text přináší několik
+    krátkých zpráv vztahujících se k Doubravě; mimo jiné zmiňuje místní správu, školy, ceny, restauraci Národního domu a odstraňování
+    českých tabulek.
+  visible_text:
+  - Zprávy z Těšínska
+  - Doubrava
+  classification:
+  - newspaper_page_photograph
+  - tesin_regional_news_column
+  - doubrava_local_reports
+  - portrait_capture
+  git_blob_sha: 1d77822a12195e92b6282d856fe7a8c37bc3432b
+  sha256: 08f91b249fdf7834f015aee317bb7381b13a2e3a9ec82de70faa9c1d136a7b16
+  file_size_bytes: 2486256
+  drive_id: 1Jpzz8hg8uESPx9XK1gmbTGfyMJtyKAEK
+  dimensions_px:
+  - 2304
+  - 3072
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:08:51'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified: &id001
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified: &id002
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-032
+  filename: P1020305.JPG
+  visual_description: Fotografie části novinové strany s článkem „Které sňatky na Těšínsku musí býti znovu provedeny“ a oznámením
+    „Nový jízdní řád autobusů ČSD Ostrava-Val. Meziříčí“. Vlevo jsou viditelné drobné inzeráty.
+  visible_text:
+  - Které sňatky na Těšínsku musí býti znovu provedeny
+  - Nový jízdní řád autobusů ČSD Ostrava-Val. Meziříčí
+  classification:
+  - newspaper_page_photograph
+  - tesin_marriage_validity_article
+  - czechoslovak_state_railways_bus_timetable
+  - advertisements_visible
+  git_blob_sha: 7092a33bc86acc39f3eec0ecd470f9760d9df678
+  sha256: 5ca2391f9b4f5b72f93935d2418b7db6608a531db4db885e142fd3dfc7cdf7aa
+  file_size_bytes: 2510931
+  drive_id: 1OukWCCCdY3047c7Bf31016VgNaGMr-Bc
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:10:08'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified: *id001
+  unverified: *id002
+- id: urbanek-noviny-1938-ceske-slovo-033
+  filename: P1020306.JPG
+  visual_description: Fotografie části novinové strany s hlavním titulkem „Protest uprchlíků z Petřvaldu“, podtitulem „Žádají
+    plebiscit v českých obcích, zabraných Poláky“ a mezititulkem „České obce se dožadují práva sebeurčení“. V pravém sloupci
+    je nadpis „Volání českých lidí“.
+  visible_text:
+  - Protest uprchlíků z Petřvaldu
+  - Žádají plebiscit v českých obcích, zabraných Poláky
+  - České obce se dožadují práva sebeurčení
+  - Volání českých lidí
+  classification:
+  - newspaper_page_photograph
+  - petrvald_refugee_protest_article
+  - plebiscite_demand_article
+  - self_determination_article
+  git_blob_sha: 874c2421a5476cded6d6f23509910c1089841279
+  sha256: 86947814ad55b94599e783f05f4283b1ab6f7ea3927dd67b9aeab624595589d6
+  file_size_bytes: 2498650
+  drive_id: 1n1jTQv7kIXWpFkwxE_yrT6ryQq8QgEIc
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:10:53'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  verified: *id001
+  unverified: *id002
+related_uncertainties:
+- URB-U-0081
+next_action:
+  type: audit_collection_technical_files
+  filenames:
+  - Thumbs.db
+  - ZbThumbnail.info

@@ -1,0 +1,117 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-34
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-166
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/11.jpg
+  file_size_bytes: 188380
+  git_blob_sha: eb6117edd96d1f71f879fa8b777ca18d0e6b998f
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Zdobená rakev nesená davem z prostoru vstupu
+  document_type: historical_funeral_coffin_exit_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; snímek neobsahuje bezpečně čitelný identifikační text.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Souvisí s URB-U-0071.
+  - Archivní zařazení k pohřbu Ferdinanda Stibora a říjnu 1956 vyžaduje nezávislé ověření.
+- source_id: urbanek-ccs-167
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/12.jpg
+  file_size_bytes: 212307
+  git_blob_sha: ff3a81e75722e66e5f5ddbe23dd43dbe1fdb7a71
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Tři osoby s řetězy a medailony kráčející ulicí
+  document_type: historical_chain_bearing_clergy_like_street_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; snímek neobsahuje bezpečně čitelný identifikační text.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Souvisí s URB-U-0071.
+  - Archivní zařazení k pohřbu Ferdinanda Stibora a říjnu 1956 vyžaduje nezávislé ověření.
+- source_id: urbanek-ccs-168
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/13.jpg
+  file_size_bytes: 247526
+  git_blob_sha: 4ec7a19af327ef89684b5640b455314c4307b7ba
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Skupina osob v dlouhých oděvech v uličním průvodu
+  document_type: historical_funeral_robed_group_street_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; snímek neobsahuje bezpečně čitelný identifikační text.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Souvisí s URB-U-0071.
+  - Archivní zařazení k pohřbu Ferdinanda Stibora a říjnu 1956 vyžaduje nezávislé ověření.
+- source_id: urbanek-ccs-169
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/14.jpg
+  file_size_bytes: 285611
+  git_blob_sha: 86b50dee8aaf72adacacae71a84fe6dd8862292e
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Zdobená rakev nesená ulicí
+  document_type: historical_funeral_coffin_street_procession_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; snímek neobsahuje bezpečně čitelný identifikační text.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Souvisí s URB-U-0071.
+  - Archivní zařazení k pohřbu Ferdinanda Stibora a říjnu 1956 vyžaduje nezávislé ověření.
+- source_id: urbanek-ccs-170
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/15.jpg
+  file_size_bytes: 292747
+  git_blob_sha: 7135c1c1bf0f461089264c766565f5e09eaa391c
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Delší uliční průvod duchovních a civilních účastníků
+  document_type: historical_funeral_long_street_procession_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; snímek neobsahuje bezpečně čitelný identifikační text.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Souvisí s URB-U-0071.
+  - Archivní zařazení k pohřbu Ferdinanda Stibora a říjnu 1956 vyžaduje nezávislé ověření.

@@ -1,0 +1,126 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-22
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: >-
+  Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv
+  jednotlivých fotografií nejsou ověřeni.
+sources:
+  - source_id: urbanek-ccs-106
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/5.jpg
+    file_size_bytes: 594971
+    git_blob_sha: c1e616fbc10b22589d8a74361b312a8651c987ab
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Uvítání biskupa zástupcem MNV – text vložený do fotografie
+    document_type: historical_captioned_MNV_bishop_welcome_photograph_reproduction
+    readability: {status: good, note: "Obě osoby, kytice a celý vložený popisek jsou čitelné."}
+    visual_content:
+      photographs: single_historical_MNV_bishop_welcome
+      scene_text: transcribed
+      method: Vizuální kontrola celého obrazu a ruční přepis textu.
+    scene_text:
+      text: Uvítání br.biskupa zástupcem MNV
+      status: transcribed
+      note: Přepis znění je obrazově ověřen; historická tvrzení popisku vyžadují další pramen.
+    notes:
+      - Popisek je čitelný, ale identita zástupce MNV a biskupa ani událost nejsou samostatně ověřeny.
+      - Souvisí s URB-U-0070.
+  - source_id: urbanek-ccs-107
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/5a chatka na Ostravici.jpg
+    file_size_bytes: 42217
+    git_blob_sha: 242ffc49cc3caac715df7b3d806800edd7d26f47
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Dřevěná chatka na Ostravici – archivní označení
+    document_type: modern_color_hillside_wooden_cabin_photograph
+    readability: {status: fair_due_to_low_resolution, note: "Stavba a její základní konstrukční znaky jsou čitelné, ale soubor má nízké rozlišení."}
+    visual_content:
+      photographs: single_modern_hillside_wooden_cabin_exterior
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Označení chatka na Ostravici pochází z archivního názvu.
+      - Není zatím prokázáno, zda jde o kapli, vedlejší objekt nebo jinou stavbu.
+      - Souvisí s URB-U-0069.
+  - source_id: urbanek-ccs-108
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/5 b Winklerova zvonička.jpg
+    file_size_bytes: 94939
+    git_blob_sha: 71e3cd5926113839c6fca4db9f839cca8ce37fed
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Stará dřevěná konstrukce označená jako Winklerova zvonička
+    document_type: modern_color_old_timber_bell_tower_photograph
+    readability: {status: good, note: "Dřevěná věžová konstrukce, plošina a lavice jsou dobře čitelné."}
+    visual_content:
+      photographs: single_modern_old_timber_tower_close_view
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    comparison_relation:
+      related_item: urbanek-ccs-102
+      assessment: Pravděpodobně tentýž typ a objekt věžové konstrukce v pozdějším barevném záběru.
+    notes:
+      - Označení Winklerova zvonička pochází z archivního názvu.
+      - Konstrukce pravděpodobně odpovídá věži na urbanek-ccs-102, ale zvon není zřetelně viditelný.
+      - Souvisí s URB-U-0069.
+  - source_id: urbanek-ccs-109
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/5 c.jpg
+    file_size_bytes: 154146
+    git_blob_sha: 2d4a1655b10d637549ea57a23b6790e39a8945f0
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Pamětní deska Husovy kaple a Winklerovy zvonice
+    document_type: modern_color_memorial_plaque_photograph
+    readability: {status: good, note: "Hlavní text pamětní desky a znak kalicha s křížem jsou dobře čitelné."}
+    visual_content:
+      photographs: single_modern_Hus_chapel_memorial_plaque
+      scene_text: transcribed
+      method: Vizuální kontrola celého obrazu a ruční přepis textu.
+    scene_text:
+      text: |-
+        HUSOVA KAPLE
+        S WINKLEROVOU ZVONICÍ
+        KAPLE CÍRKVE ČESKOSLOVENSKÉ HUSITSKÉ
+        BYLA POSTAVENA A SLAVNOSTNĚ OTEVŘENA
+        V ROCE 1937 PRVNÍM OSTRAVSKÝM
+        BISKUPEM FERDINANDEM STIBOREM
+      status: transcribed
+      note: Přepis znění je obrazově ověřen; historická tvrzení nápisu vyžadují další pramen.
+    notes:
+      - Deska uvádí rok 1937, prvního ostravského biskupa Ferdinanda Stibora a označení Winklerova zvonice.
+      - Znění je ověřeno, historická správnost a doba vzniku desky nikoli.
+      - Souvisí s URB-U-0069.
+  - source_id: urbanek-ccs-110
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/5 d.jpg
+    file_size_bytes: 64843
+    git_blob_sha: e8e190d7f9cae887f461a462945e2be350d5f4d5
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    title: Stavební pamětní deska Husovy kaple s daty a jmény
+    document_type: modern_color_construction_plaque_photograph
+    readability: {status: good, note: "Celý hlavní nápis včetně dat a jmen je dobře čitelný."}
+    visual_content:
+      photographs: single_modern_Hus_chapel_construction_plaque
+      scene_text: transcribed
+      method: Vizuální kontrola celého obrazu a ruční přepis textu.
+    scene_text:
+      text: |-
+        HUSOVA KAPLE DIECÉSE OSTRAVSKÉ CČS.
+        VYSTAVĚNA 21. 3. – 4. 7. 1937 ZA BISKUPA
+        FERDINANDA STIBORA
+        A PŘEDS. PROPAG. SBORU
+        BOHUMÍRA LIŠKY
+        DLE NÁVRHU ARCH. ING.
+        ALFREDA FARNÍKA
+        Z DARŮ OBĚTAVÝCH PŘÍSLUŠNÍKŮ CČS.
+      status: transcribed
+      note: Přepis znění je obrazově ověřen; historická tvrzení nápisu vyžadují další pramen.
+    notes:
+      - Deska uvádí období 21. 3.–4. 7. 1937, Ferdinanda Stibora, Bohumíra Lišku, architekta Alfreda Farníka a financování z darů příslušníků CČS.
+      - Znění je ověřeno, historická správnost, funkce osob a doba vzniku desky nikoli.
+      - Souvisí s URB-U-0069.

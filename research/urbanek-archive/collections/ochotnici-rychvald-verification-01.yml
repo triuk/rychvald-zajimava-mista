@@ -1,0 +1,20 @@
+collection_id: urbanek-ochotnici
+batch_id: verification-01
+status: completed
+scope: urbanek-ochotnici-001..urbanek-ochotnici-010
+verified_count: 10
+missing_count: 0
+items:
+  - {id: urbanek-ochotnici-001, git_blob_sha: ec23e3c5e63daa661fef614457872fe5a2873a20}
+  - {id: urbanek-ochotnici-002, git_blob_sha: aaf11bd852498ceb1bd1ced47b988b5539e092fe}
+  - {id: urbanek-ochotnici-003, git_blob_sha: 9621fd34cd32900dec486863c20533ae20623f4b}
+  - {id: urbanek-ochotnici-004, git_blob_sha: 5728d7db6e96503cbde3c508c83e72c43ee4108c}
+  - {id: urbanek-ochotnici-005, git_blob_sha: 8e5fce64be08338d13d5234e9241cd27e7492a35}
+  - {id: urbanek-ochotnici-006, git_blob_sha: 80f2184b749d1fe7d937b4820c33a33552b81e43}
+  - {id: urbanek-ochotnici-007, git_blob_sha: 70f2e59af85e9564c099cfc83b14530e923435f9}
+  - {id: urbanek-ochotnici-008, git_blob_sha: 0cd7cc6354e33796861dba4bd3f7c54b18d90e72}
+  - {id: urbanek-ochotnici-009, git_blob_sha: 9d2cd62942f160896a5d43d036dd6cece5d670cb}
+  - {id: urbanek-ochotnici-010, git_blob_sha: b64440ae9a53c18272a608dbd6b5a57cd8d90542}
+notes:
+  - Všech deset souborů je ve větvi pod přesným původním názvem a cestou.
+  - Obsahová klasifikace ani OCR nebyly v této dávce prováděny.

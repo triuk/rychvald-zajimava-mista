@@ -1,0 +1,295 @@
+collection_id: urbanek-mlyny
+collection_name: Rychvaldské větrné mlýny
+source_root: sources/osobni-archiv-jaromira-urbanka/Rychvaldské větrné mlýny
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+status: classification_in_progress
+
+classification_rules:
+  original_files_modified: false
+  filename_claims_verified: false
+  machine_descriptions_status: machine_unverified
+  ocr_categories:
+    - document_text
+    - scene_text
+
+batches:
+  - batch_id: root-images
+    scope: Obrazové soubory přímo v kořeni kolekce
+    status: completed
+    item_count: 11
+    document_text_candidates: 0
+    scene_text_candidates: 0
+
+items:
+  - id: urbanek-mlyny-001
+    source_path: Rychvaldské větrné mlýny/P1010663.JPG
+    visual_type: contemporary_digital_photograph
+    captured_at: "2011-11-22T11:40:54"
+    date_basis: exif_datetime_original
+    description: >-
+      Téměř čelní záběr malé dřevěné kůlny s kovovým větrným kolem na střeše.
+      Část lopatek kola je poškozená nebo chybí.
+    subject_tags: [wooden_shed, roof_mounted_wind_wheel, damaged_rotor]
+    visual_sequence_group: shed-wind-wheel-2011-11-22
+    identification:
+      status: verified
+      verified_name: větrný mlýnek s turbínou
+      same_object_as: [urbanek-mlyny-002, urbanek-mlyny-008]
+      verified_location: "Potoční 564, 735 32 Rychvald"
+      coordinates: [49.8470979, 18.3603469]
+      basis: [user_visual_confirmation, exact_visual_match_with_povetrnik_record]
+      external_catalog:
+        database: Povětrník
+        record_id: 176
+        catalog_number: "mlýnek 49"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/176
+      note: Databázová fotografie je oříznutou verzí archivního souboru Potoční 564.jpg.
+      verification: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-002
+    source_path: Rychvaldské větrné mlýny/P1010662.JPG
+    visual_type: contemporary_digital_photograph
+    captured_at: "2011-11-22T11:40:53"
+    date_basis: exif_datetime_original
+    description: >-
+      Záběr stejné malé dřevěné kůlny a poškozeného kovového větrného kola jako
+      urbanek-mlyny-001, pořízený o jednu sekundu dříve z nepatrně odlišné pozice.
+    subject_tags: [wooden_shed, roof_mounted_wind_wheel, damaged_rotor]
+    visual_sequence_group: shed-wind-wheel-2011-11-22
+    identification:
+      status: verified
+      verified_name: větrný mlýnek s turbínou
+      same_object_as: [urbanek-mlyny-001, urbanek-mlyny-008]
+      verified_location: "Potoční 564, 735 32 Rychvald"
+      coordinates: [49.8470979, 18.3603469]
+      basis: [user_visual_confirmation, exact_visual_match_with_povetrnik_record]
+      external_catalog:
+        database: Povětrník
+        record_id: 176
+        catalog_number: "mlýnek 49"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/176
+      note: Databázová fotografie je oříznutou verzí archivního souboru Potoční 564.jpg.
+      verification: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-003
+    source_path: Rychvaldské větrné mlýny/P1010661.JPG
+    visual_type: contemporary_digital_photograph
+    captured_at: "2011-11-22T11:39:49"
+    date_basis: exif_datetime_original
+    description: >-
+      Detail dvojice kruhových mlýnských kamenů nebo obdobného kamenného mlecího
+      zařízení na dřevěném podstavci uvnitř dřevěného objektu.
+    subject_tags: [millstones, grinding_equipment, wooden_interior]
+    visual_sequence_group: shed-wind-wheel-2011-11-22
+    identification:
+      status: partially_verified
+      note: Vztah k předchozím dvěma fotografiím podporuje časová návaznost EXIF, nikoli samostatný doklad místa.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-004
+    source_path: Rychvaldské větrné mlýny/P1010447.jpg
+    visual_type: contemporary_digital_photograph
+    captured_at: "2011-03-20T12:08:45"
+    date_basis: exif_datetime_original
+    description: >-
+      Detail venkovního mlecího soustrojí se dvěma kamennými koly a kovovými
+      ozubenými převody. Na převodech stojí voda.
+    subject_tags: [millstones, gears, transmission, outdoor_equipment]
+    visual_sequence_group: geared-millstone-mechanism-2011-03-20
+    identification:
+      status: verified
+      verified_name: větrný mlýn u Hebdy
+      functional_relation: confirmed_same_device_as_wind_wheel
+      verified_location: "U Skučáku 54, 735 32 Rychvald"
+      coordinates: [49.8669433, 18.3910689]
+      basis: [user_confirmation, exact_visual_match_with_povetrnik_record, specialist_database_technology_description]
+      external_catalog:
+        database: Povětrník
+        record_id: 175
+        catalog_number: "mlýnek 48"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/175
+      correction_note: Dřívější inference Polní 1275 je překonaná a pro lokalizaci objektu se nepoužívá.
+      verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-005
+    source_path: Rychvaldské větrné mlýny/P1010446.jpg
+    visual_type: contemporary_digital_photograph
+    captured_at: "2011-03-20T12:06:40"
+    date_basis: exif_datetime_original
+    description: >-
+      Širší záběr stejného venkovního mlecího soustrojí jako urbanek-mlyny-004;
+      jsou vidět mlýnské kameny, dva velké ozubené převody, hřídele a nosná konstrukce.
+    subject_tags: [millstones, gears, transmission, outdoor_equipment]
+    visual_sequence_group: geared-millstone-mechanism-2011-03-20
+    identification:
+      status: verified
+      verified_name: větrný mlýn u Hebdy
+      functional_relation: confirmed_same_device_as_wind_wheel
+      verified_location: "U Skučáku 54, 735 32 Rychvald"
+      coordinates: [49.8669433, 18.3910689]
+      basis: [user_confirmation, exact_visual_match_with_povetrnik_record, specialist_database_technology_description]
+      external_catalog:
+        database: Povětrník
+        record_id: 175
+        catalog_number: "mlýnek 48"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/175
+      correction_note: Dřívější inference Polní 1275 je překonaná a pro lokalizaci objektu se nepoužívá.
+      verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-006
+    source_path: Rychvaldské větrné mlýny/P1010445.jpg
+    visual_type: contemporary_digital_photograph
+    captured_at: "2011-03-20T12:06:13"
+    date_basis: exif_datetime_original
+    description: >-
+      Celkový záběr vysoké příhradové kovové konstrukce s vícelopatkovým větrným
+      kolem. Zařízení stojí vedle hospodářského nebo obytného objektu.
+    subject_tags: [metal_tower, multi_blade_wind_wheel, rural_structure]
+    visual_sequence_group: geared-millstone-mechanism-2011-03-20
+    identification:
+      status: verified
+      verified_name: větrný mlýn u Hebdy
+      functional_relation: confirmed_same_device_as_millstone_mechanism
+      verified_location: "U Skučáku 54, 735 32 Rychvald"
+      coordinates: [49.8669433, 18.3910689]
+      basis: [user_confirmation, exact_visual_match_with_povetrnik_record, specialist_database_technology_description]
+      external_catalog:
+        database: Povětrník
+        record_id: 175
+        catalog_number: "mlýnek 48"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/175
+      correction_note: Dřívější inference Polní 1275 je překonaná a pro lokalizaci objektu se nepoužívá.
+      verification: research/urbanek-archive/verifications/urb-u-0005-hebda-location.md
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-007
+    source_path: Rychvaldské větrné mlýny/mlýn na podlesí.JPG
+    visual_type: contemporary_digital_photograph
+    captured_at: "2010-10-31T10:35:56"
+    date_basis: exif_datetime_original
+    description: >-
+      Dřevěný hospodářský objekt částečně zakrytý stromy; nad střechou je na kovové
+      konstrukci vidět velké poškozené nebo neúplné větrné kolo.
+    subject_tags: [wooden_building, wind_wheel, trees, damaged_rotor]
+    identification:
+      status: verified
+      verified_name: větrný mlýnek s turbínou
+      archival_name: mlýn na Podlesí
+      verified_location: "U Školky 344, 735 32 Rychvald"
+      coordinates: [49.8516111, 18.3718333]
+      basis: [exact_visual_match_with_povetrnik_record, user_confirmation]
+      external_catalog:
+        database: Povětrník
+        record_id: 229
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/229
+      duplicate_thumbnail_name: P1010269.JPG
+      verification: research/urbanek-archive/verifications/urb-u-0003-0006-podlesi-povetrnik-229.md
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-008
+    source_path: Rychvaldské větrné mlýny/Potoční 564.jpg
+    visual_type: contemporary_digital_photograph
+    captured_at: "2011-11-13T15:09:13"
+    date_basis: exif_datetime_original
+    description: >-
+      Malá dřevěná kůlna s poškozeným kovovým větrným kolem na střeše, fotografovaná
+      zespodu. Jde o stejný objekt jako na urbanek-mlyny-001 a 002.
+    subject_tags: [wooden_shed, roof_mounted_wind_wheel, damaged_rotor]
+    visual_relation_group: shed-wind-wheel-confirmed-same-object
+    identification:
+      status: verified
+      verified_name: větrný mlýnek s turbínou
+      same_object_as: [urbanek-mlyny-001, urbanek-mlyny-002]
+      verified_location: "Potoční 564, 735 32 Rychvald"
+      coordinates: [49.8470979, 18.3603469]
+      basis: [user_visual_confirmation, original_filename, exact_visual_match_with_povetrnik_record]
+      external_catalog:
+        database: Povětrník
+        record_id: 176
+        catalog_number: "mlýnek 49"
+        url: http://www.povetrnik.cz/vetrne-mlyny/detail/176
+      note: Základní fotografie databázového záznamu je oříznutou verzí tohoto archivního souboru.
+      verification: research/urbanek-archive/verifications/urb-u-0004-potocni-564.md
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-010
+    source_path: Rychvaldské větrné mlýny/Větrný mlýn.jpg
+    visual_type: historical_photograph_reproduction
+    captured_at: null
+    date_basis: not_available
+    description: >-
+      Černobílá nebo sépiová historická fotografie dřevěného větrného mlýna se
+      čtyřmi křídly. V okolí jsou nízké venkovské stavby.
+    subject_tags: [historical_windmill, wooden_mill, four_sails, rural_buildings]
+    identification:
+      status: unverified
+      note: Název neuvádí konkrétní mlýn a datace ani místo nejsou doloženy.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-011
+    source_path: Rychvaldské větrné mlýny/obrazek mlyn bez ramecku.jpg
+    visual_type: historical_photograph_reproduction
+    captured_at: null
+    date_basis: not_available
+    description: >-
+      Historický nebo reprodukovaný snímek malé dřevěné stavby s jednoduchým
+      větrným kolem na střeše, stojící v otevřeném terénu.
+    subject_tags: [historical_small_windmill, wooden_structure, roof_wind_wheel]
+    visual_derivative_group: kakaluv-mlyn-historical-image
+    exact_duplicate_ids: [urbanek-mlyny-021]
+    identification:
+      status: verified_by_archive_owner_confirmation
+      verified_name: Kakalův mlýn
+      basis: [user_archive_knowledge]
+      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+      note: Přesná poloha, datace, vlastník a technické vybavení zůstávají neověřené.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-012
+    source_path: Rychvaldské větrné mlýny/Kakalův mlýn.jpg
+    visual_type: cropped_historical_photograph_reproduction
+    captured_at: null
+    date_basis: not_available
+    description: >-
+      Výřez stejného historického obrazu jako urbanek-mlyny-011, zaměřený na malou
+      dřevěnou stavbu a větrné kolo na střeše.
+    subject_tags: [historical_small_windmill, wooden_structure, roof_wind_wheel, crop]
+    visual_derivative_group: kakaluv-mlyn-historical-image
+    exact_duplicate_ids: [urbanek-mlyny-022, urbanek-mlyny-039]
+    identification:
+      status: verified_by_archive_owner_confirmation
+      verified_name: Kakalův mlýn
+      basis: [original_filename, user_archive_knowledge]
+      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+      note: Jde o výřez téhož historického snímku; přesná poloha, datace, vlastník a technologie zůstávají neověřené.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+open_questions:
+  - Určit konkrétní mlýn, místo a období na historické fotografii urbanek-mlyny-010.

@@ -1,0 +1,130 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: wedding-reconstruction-and-bishop-05
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / archivní soubory 23–27"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka obsahuje tři snímky svatebního obřadu, celkový pohled na interiér směrem
+    ke kůru a venkovní skupinovou fotografii. Shoda oděvů, prostředí a pořadí
+    souborů podporuje pracovní hypotézu, že první tři obrazy tvoří jednu svatební
+    sérii, ale totožnost osob, přesné datum a rok 1948 nejsou obrazem samostatně
+    doloženy. Interiérový snímek ukazuje varhanní píšťaly na kůru při starším
+    uspořádání a výzdobě sálu. Jméno biskupa Ferdinanda Stibora, návštěva Rychvaldu
+    a rok 1948 u posledního snímku pocházejí z archivního názvu.
+  basis:
+    - visual_interior_continuity
+    - clothing_and_event_continuity
+    - archival_sequence
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-021
+    archival_filename: "23  svatba v r. 1948 před rekonstrukcí.jpg"
+    visual_type: historical_black_and_white_wedding_ceremony_photograph_reproduction
+    description: >-
+      Pohled z lavic do kněžiště během svatebního obřadu. Před oltářem stojí pár
+      ve svatebním oděvu a další osoba; vlevo je duchovní obrácený zády k fotoaparátu.
+      Stěny mají starší výraznou geometrickou výzdobu známou z předchozích snímků.
+    subject_tags: [wedding_ceremony, clergy, bride_and_groom, altar, early_interior, geometric_wall_pattern]
+    identification:
+      status: partially_verified
+      archival_claim: "svatba v roce 1948 před rekonstrukcí"
+      verified_from_image: [wedding_ceremony, early_interior_configuration, clergy_present]
+      unverified: [exact_date, year_1948, identities_of_couple, clergy_identity, reconstruction_context]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0048]
+
+  - id: urbanek-ccs-022
+    archival_filename: "24  Svatba v r. 1948 ještě v kostele před rekonstrukcí.jpg"
+    visual_type: historical_black_and_white_wedding_group_photograph_reproduction
+    description: >-
+      Svatební pár a další slavnostně oblečené osoby stojí v interiéru sboru.
+      V pozadí jsou obloukové průchody, balkon a část staršího zařízení kněžiště.
+      Snímek pravděpodobně navazuje na urbanek-ccs-021, což však není doloženo
+      jmenným popiskem.
+    subject_tags: [wedding_group, bride_and_groom, attendants, church_interior, balcony]
+    identification:
+      status: partially_verified
+      archival_claim: "svatba v roce 1948 před rekonstrukcí"
+      verified_from_image: [wedding_group, early_interior_configuration]
+      unverified: [same_wedding_as_urbanek_ccs_021, exact_date, year_1948, participant_identities]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0048]
+
+  - id: urbanek-ccs-023
+    archival_filename: "25  Svatba v r. 1948.jpg"
+    visual_type: historical_black_and_white_wedding_rite_detail_photograph_reproduction
+    description: >-
+      Detail svatebního obřadu se dvěma páry nebo párem a svědky. Duchovní drží
+      knihu a spojuje nebo přijímá ruce ženy stojící vpravo od ženicha. V pozadí
+      je další žena v závoji a interiér sboru.
+    subject_tags: [wedding_rite, clergy, bride_and_groom, witnesses, liturgical_book]
+    identification:
+      status: partially_verified
+      archival_claim: "svatba v roce 1948"
+      verified_from_image: [wedding_rite, clergy_present, multiple_ceremonial_participants]
+      unverified: [same_wedding_as_urbanek_ccs_021_and_022, exact_date, year_1948, identities_and_roles]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0048]
+
+  - id: urbanek-ccs-024
+    archival_filename: "26  1948, před rekonstrukcí.Na kůru jsou již nové varhany, a.jpg"
+    visual_type: historical_black_and_white_church_interior_architectural_photograph_reproduction
+    description: >-
+      Celkový pohled z kněžiště směrem k zadnímu vstupu a kůru. Interiér má
+      oboustranné balkony, vysoké sloupy, několik lustrů a starší dekorativní
+      úpravu stěn a stropu. Za středním obloukem kůru jsou viditelné varhanní píšťaly.
+    subject_tags: [church_interior, organ_loft, organ_pipes, balconies, chandeliers, pre_reconstruction_state]
+    identification:
+      status: partially_verified
+      archival_claim: "rok 1948; interiér před rekonstrukcí; na kůru již nové varhany"
+      verified_from_image: [organ_pipes_present, early_interior_configuration, view_toward_organ_loft]
+      unverified: [exact_date, year_1948, organ_newness, exact_reconstruction_sequence, nature_of_later_reconstruction]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0046, URB-U-0049]
+
+  - id: urbanek-ccs-025
+    archival_filename: "27  V r. 1948 navštívil Rychvald biskup Ferdinand Stibor.jpg"
+    visual_type: historical_black_and_white_large_outdoor_group_photograph_reproduction
+    description: >-
+      Velká skupina dospělých a dětí fotografovaná venku. V přední řadě klečí
+      dívky v jednotných slavnostních nebo lidových krojích; mezi dospělými je
+      několik osob v duchovním oděvu. V pozadí jsou domy a listnaté stromy.
+    subject_tags: [large_group, clergy, children, folk_costumes, outdoor_event, residential_background]
+    identification:
+      status: partially_verified
+      archival_claim: "návštěva biskupa Ferdinanda Stibora v Rychvaldě roku 1948"
+      verified_from_image: [large_ceremonial_group, clergy_present, costumed_children]
+      unverified: [event_identity, exact_date, year_1948, Ferdinand_Stibor_identity, identities_of_all_participants, exact_location]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0050]
+
+open_research_candidates:
+  - id: URB-U-0048
+    subject: wedding_series_date_and_person_identification
+  - id: URB-U-0049
+    subject: interior_reconstruction_chronology_and_relation_to_new_organ
+  - id: URB-U-0050
+    subject: Ferdinand_Stibor_visit_event_date_and_group_identification
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-026 až urbanek-ccs-030. Svatební sérii porovnat
+  s matrikami a rodinnými fotografiemi; interiérový stav s dalšími pohledy před a po
+  rekonstrukci; skupinovou návštěvu s pozdější samostatnou kolekcí věnovanou
+  Ferdinandu Stiborovi. Žádnou osobu neidentifikovat pouze podle obličeje.

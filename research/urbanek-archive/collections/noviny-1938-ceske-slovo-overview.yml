@@ -1,0 +1,157 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: completed
+totals:
+  content_files: 33
+  technical_files: 2
+  total_items: 35
+progress:
+  processed_content_files: 33
+  processed_technical_files: 2
+  processed_items: 35
+  repo_verified_items: 35
+  visually_classified_items: 33
+  source_indexed_items: 35
+  remaining_content_files: 0
+  remaining_technical_files: 0
+  remaining_items: 0
+  technical_audit_status: completed_no_missing_full_originals
+completed_batches:
+- number: 1
+  items: 001-005
+  filenames:
+  - P1020273.JPG
+  - P1020274.JPG
+  - P1020275.JPG
+  - P1020276.JPG
+  - P1020277.JPG
+  id: title-card-munich-agreement-front-page-and-tesin-articles-01
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-01.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-01.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-01.yml
+- number: 2
+  items: 006-010
+  filenames:
+  - P1020278.JPG
+  - P1020279.JPG
+  - P1020280.JPG
+  - P1020281.JPG
+  - P1020283.JPG
+  id: tesin-cession-polish-claims-plebiscite-frystat-protest-and-occupation-02
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-02.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-02.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-02.yml
+- number: 3
+  items: 011-015
+  filenames:
+  - P1020284.JPG
+  - P1020285.JPG
+  - P1020286.JPG
+  - P1020287.JPG
+  - P1020288.JPG
+  id: tesin-refugees-occupied-industry-frystat-occupation-schools-and-european-news-03
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-03.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-03.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-03.yml
+- number: 4
+  items: 016-020
+  filenames:
+  - P1020289.JPG
+  - P1020290.JPG
+  - P1020291.JPG
+  - P1020292.JPG
+  - P1020293.JPG
+  id: frystat-occupation-polish-mayor-presidential-resignation-and-district-occupation-reports-04
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-04.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-04.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-04.yml
+- number: 5
+  items: 021-025
+  filenames:
+  - P1020294.JPG
+  - P1020295.JPG
+  - P1020296.JPG
+  - P1020297.JPG
+  - P1020298.JPG
+  id: frystat-occupation-final-days-rychvald-expulsions-and-refugee-care-05
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-05.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-05.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-05.yml
+- number: 6
+  items: 026-030
+  filenames:
+  - P1020299.JPG
+  - P1020300.JPG
+  - P1020301.JPG
+  - P1020302.JPG
+  - P1020303.JPG
+  id: german-polish-comparison-privoz-station-tesin-mines-regional-news-and-orlova-childbirth-06
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-06.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-06.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-06.yml
+- number: 7
+  items: 031-033
+  filenames:
+  - P1020304.JPG
+  - P1020305.JPG
+  - P1020306.JPG
+  id: doubrava-regional-news-tesin-marriages-transport-and-petrvald-refugee-protest-07
+  inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-inventory-07.csv
+  classification: research/urbanek-archive/collections/noviny-1938-ceske-slovo-batch-07.yml
+  source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-07.yml
+interpretation_rules:
+- Visible newspaper titles, dates, issue numbers and headlines are transcribed as printed wording; the historical claims within
+  articles are not independently verified in this indexing pass.
+- EXIF DateTime values describe the modern photographic reproduction session and are not publication dates.
+- A repeated photograph of the same page is retained as a separate inventory item when its binary file and framing are distinct.
+- The handwritten title card is archival organization evidence only and does not prove that every following image concerns
+  Poland or belongs to one complete issue.
+- A gap in camera filename numbering is recorded as a sequence uncertainty, not as a missing full original without corroborating
+  cache or manifest evidence.
+- Datelines printed within individual reports are not treated as complete issue dates when the masthead and issue data are
+  outside the photographed crop.
+- Incidental newspapers visible beneath the indexed page are not treated as separate source items without a dedicated photograph.
+open_uncertainties:
+- URB-U-0081
+technical_files:
+- path: Thumbs.db
+  status: audit_completed_no_missing_full_originals
+  file_size_bytes: 132608
+  git_blob_sha: d8f7138ed11eb5131549f085cfff5d3d76986652
+  sha256: df1156f17c3c79b2892741be41d5e54a48e07c9a11498f1378d1534db106418b
+  drive_id: 1lYNM39TGU2fPm7-2D08KPRn6JhKsy2yj
+  catalog_entries_total: 34
+  source_filename_entries: 33
+  valid_jpeg_streams_total: 34
+  folder_preview_entries: 1
+  cache_only_source_names: 0
+  missing_full_originals_evidenced: 0
+- path: ZbThumbnail.info
+  status: audit_completed_no_missing_full_originals
+  file_size_bytes: 246456
+  git_blob_sha: e3a0aae9c8fb6482818306c13a4929f709746703
+  sha256: ece09ea3e2611d1fc2e6804ae23a54735d5033dd0098a0f11b8e5063fbe8b002
+  drive_id: 1O_hFMBbjXqjYzQlnpzvdBFVsNztYGc31
+  file_signature: zbex
+  unique_source_filenames: 33
+  valid_jpeg_thumbnails: 33
+  cache_only_source_names: 0
+  missing_full_originals_evidenced: 0
+technical_inventory: research/urbanek-archive/collections/noviny-1938-ceske-slovo-technical-inventory.csv
+technical_source_index: sources/index.d/urbanek-noviny-1938-ceske-slovo-technical.yml
+technical_audit: research/urbanek-archive/reports/noviny-1938-ceske-slovo-technical-audit.md
+next_collection:
+  id: urbanek-rychvald
+  source_path: Rychvald
+  batch_number: 1
+  filenames:
+  - Budova úřadu 003.jpg
+  - Budova úřadu 005.jpg
+  - Cudlín 033.jpg
+  - Cudlín 035.jpg
+  - Cudlín 037.jpg

@@ -1,0 +1,20 @@
+schema_version: 1
+scope: closed_item_0029
+items:
+  - id: URB-U-0029
+    status: resolved
+    priority: medium
+    collection: Ochotníci rychvald
+    type: known_missing_page_continuation
+    source_items: [urbanek-ochotnici-015-c]
+    question: "Kde je pokračování článku Hospodářský přehled po slově Dřívějšímu po- na straně 45?"
+    resolution: >-
+      Článek začíná na straně 45 a pokračoval na nezachycené straně 46.
+      Archivní série obsahuje pouze strany 40 až 45; další kontrolované snímky
+      zachycují jiné dokumenty. Pokračování ani dokončení rozděleného slova
+      nelze z dostupných podkladů bezpečně rekonstruovat. Uživatel rozhodl
+      položku uzavřít jako známé chybějící pokračování bez dalšího hledání.
+    evidence: research/urbanek-archive/ocr/urbanek-ochotnici-015-c-document-text.md
+    resolved_at: 2026-07-22
+    resolved_by: user_scope_decision_after_archive_sequence_check
+    confidence: verified_missing_continuation

@@ -1,0 +1,235 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 5 Kaple CČS na Ostravici / archivní soubory 15 až 19
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Dávka pokračuje historickou slavnostní sérií u kaple. Položka 127 zachycuje velmi početné shromáždění před kaplí
+    a navazuje na venkovní bohoslužbu a průvod z předchozí dávky. Položky 126, 128, 129 a 130 zachycují duchovní při projevech,
+    čtení nebo předávání listiny v interiéru či v otevřeném vstupu kaple. Opakované prostředí, oděvy a insignie podporují
+    souvislost se stejným slavnostním okruhem, nikoli přesné datum nebo identitu osob. Archivní název položky 128 uvádí „Vlevo
+    Leonard Bugumský“, ale v levé části je několik mužů; přesný referent názvu a osoba vyžadují dokumentární ověření.
+  basis:
+  - full_image_visual_review
+  - architectural_and_personnel_cross_image_comparison
+  - archival_sequence
+  - verified_repo_files
+  related_open_items:
+  - URB-U-0059
+  - URB-U-0068
+items:
+- id: urbanek-ccs-126
+  archival_filename: 15.jpg
+  dimensions_px:
+  - 1500
+  - 990
+  visual_type: historical_black_and_white_indoor_clergy_address_with_congregation
+  description: V interiéru kaple stojí před oltářním nebo řečnickým prostorem muž v tmavém duchovním oděvu s výrazným řetězem
+    či insignií a drží list papíru. Za ním stojí další duchovní u pultu; vpravo sedí několik duchovních s řetězy nebo insigniemi
+    a vlevo je viditelná část shromáždění.
+  subject_tags:
+  - clergy
+  - indoor_service
+  - paper
+  - lectern_or_altar
+  - chains_or_insignia
+  - seated_clergy
+  - congregation
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - multiple_clergy_like_attires
+    - central_standing_man_with_chain_or_insignia_and_paper
+    - second_standing_clergy_at_lectern_or_altar
+    - several_seated_clergy
+    - congregation_at_left
+    unverified:
+    - all_person_identities
+    - exact_offices
+    - exact_action_and_speech
+    - event
+    - date
+    - location
+    - relationship_to_items_121_to_125_and_127_to_130
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-127
+  archival_filename: 16 Před kapličkou.jpg
+  dimensions_px:
+  - 1578
+  - 978
+  visual_type: historical_black_and_white_large_crowd_before_chapel
+  description: Velmi početné venkovní shromáždění dospělých a dětí na svahu nebo prostranství před kaplí. Část žen má šátky,
+    někteří lidé drží deštníky a na okrajích jsou viditelné vysoké prapory nebo jejich žerdi. V popředí stojí několik mužů,
+    z nichž nejméně jeden má duchovní oděv.
+  subject_tags:
+  - large_crowd
+  - adults
+  - children
+  - headscarves
+  - umbrellas
+  - banners_or_poles
+  - clergy_foreground
+  - before_chapel_claim
+  identification:
+    status: partially_verified
+    archival_claim: Před kapličkou
+    verified_from_image:
+    - very_large_outdoor_crowd
+    - adults_and_children
+    - headscarves
+    - umbrellas
+    - banner_or_standard_edges
+    - clergy_like_man_in_foreground
+    unverified:
+    - exact_site
+    - exact_event
+    - date
+    - all_person_identities
+    - banner_organizations
+    - relationship_to_items_122_to_126_and_128_to_130
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-128
+  archival_filename: 17 Vlevo Leonard Bugumský.jpg
+  dimensions_px:
+  - 1566
+  - 984
+  visual_type: historical_black_and_white_clergy_before_open_chapel_altar
+  description: V otevřeném vstupu kaple stojí před oltářem s kalichem, svícny a květinami muž v duchovním oděvu s výrazným
+    řetězem nebo insignií a gestikuluje či promlouvá. Kolem něj stojí početná skupina dalších duchovních. V levé části obrazu
+    je více mužů.
+  subject_tags:
+  - open_chapel
+  - altar
+  - chalice
+  - candles
+  - flowers
+  - central_clergy
+  - chain_or_insignia
+  - multiple_clergy
+  - Leonard_Bugumsky_claim
+  identification:
+    status: partially_verified
+    archival_claim: Vlevo Leonard Bugumský
+    verified_from_image:
+    - open_chapel_entrance
+    - altar_with_chalice_candles_and_flowers
+    - central_chain_bearing_clergy
+    - multiple_other_clergy
+    - several_men_in_left_part
+    unverified:
+    - which_left_person_caption_refers_to
+    - Leonard_Bugumsky_identity
+    - authoritative_name_spelling
+    - all_other_person_identities_and_offices
+    - exact_event
+    - date
+    - relationship_to_items_062_064_065_and_126_127_129_130
+  caption_ambiguity_note: V levé části je několik osob; bez původní anotace nelze bezpečně určit, koho přesně výraz „vlevo“
+    označuje.
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0068
+  - URB-U-0070
+- id: urbanek-ccs-129
+  archival_filename: 18.jpg
+  dimensions_px:
+  - 1667
+  - 1169
+  visual_type: historical_black_and_white_two_clergy_with_document
+  description: Dva muži v tmavém duchovním oděvu s řetězy nebo insigniemi stojí proti sobě. Nižší muž s knírem drží světlý
+    složený dokument nebo několik listů, vyšší muž s brýlemi stojí těsně proti němu. V pozadí jsou další duchovní.
+  subject_tags:
+  - two_clergy
+  - chains_or_insignia
+  - document_or_papers
+  - mustache
+  - glasses
+  - possible_presentation
+  - background_clergy
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - two_facing_clergy_like_men
+    - both_with_chain_or_insignia
+    - light_folded_document_or_papers
+    - additional_clergy_in_background
+    unverified:
+    - all_person_identities
+    - exact_offices
+    - document_content
+    - whether_action_is_presentation_handover_or_reading
+    - event
+    - date
+    - relationship_to_items_126_128_and_130
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-130
+  archival_filename: 19.jpg
+  dimensions_px:
+  - 966
+  - 1590
+  visual_type: historical_black_and_white_clergy_address_with_seated_clergy
+  description: Vysoký stojící muž v tmavém duchovním oděvu s výrazným řetězem nebo insignií gestikuluje rukama a zřejmě promlouvá.
+    Vlevo sedí starší muž s brýlemi a podobným řetězem, který drží otevřenou složku nebo knihu. Za nimi sedí další duchovní
+    v tmavých i světlém oděvu.
+  subject_tags:
+  - standing_clergy
+  - address_or_speech
+  - chain_or_insignia
+  - seated_clergy
+  - open_folder_or_book
+  - multiple_clergy
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - standing_chain_bearing_clergy_gesturing
+    - seated_chain_bearing_clergy_with_open_folder_or_book
+    - several_background_clergy
+    - one_light_robed_person
+    unverified:
+    - all_person_identities
+    - exact_offices
+    - speech_content
+    - event
+    - date
+    - relationship_to_items_126_128_and_129
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+open_research_candidates:
+- id: URB-U-0070
+  subject: Ostravice_historical_service_crowd_clergy_addresses_document_sequence_and_participants
+- id: URB-U-0068
+  subject: Leonard_Bogumski_or_Bugumsky_identity_and_ambiguous_left_caption
+next_action: 'Pokračovat položkami urbanek-ccs-131 až urbanek-ccs-135 v podsložce Kaple CČS na Ostravici: soubory 20.jpg,
+  21.jpg, 22.jpg, 23.jpg a 24.jpg. Porovnat pokračování slavnostní série s položkami 126 až 130; osoby neurčovat pouze podle
+  vzhledu.'

@@ -1,0 +1,131 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation-20
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19 / archivní soubory 20–24"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Pět snímků pokračuje v závěrečné části slavnostní série. Zachycují gratulaci
+    krojované ženy nebo dívky s kyticí, předání světlé plastiky duchovnímu s řetězem,
+    další vystoupení duchovního s listem papíru a stojící shromáždění v lavicích.
+    Urbanek-ccs-097 a 098 jsou odlišné reprodukce nebo výřezy téže původní fotografie
+    a přesné vizuální porovnání potvrzuje, že stejnou předlohu používá také dřívější
+    urbanek-ccs-046. Tři soubory jsou proto tři archivní položky, ale jen jeden
+    nezávislý obrazový záznam. Fotografie samy neurčují jména, datum, úřady, původ
+    kroje, osobu předávajícího ani námět a provenienci plastiky.
+  basis:
+    - full_image_visual_review
+    - exact_cross_batch_visual_comparison
+    - repeated_clergy_congregation_and_interior
+    - archival_sequence
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-096
+    archival_filename: "20.jpg"
+    visual_type: historical_black_and_white_folk_costume_congratulation
+    description: >-
+      Žena nebo dívka v bohatě zdobeném lidovém kroji drží velkou kytici a stojí
+      proti duchovnímu v tmavém oděvu s výrazným řetězem nebo insignií. V pozadí
+      je početné shromáždění.
+    subject_tags: [folk_costume, bouquet, congratulation_or_presentation, clergy, chain_or_insignia, congregation]
+    identification:
+      status: partially_verified
+      verified_from_image: [costumed_female_person, large_bouquet, clergy_with_chain_or_insignia, congregation]
+      unverified: [all_identities, costume_region_and_meaning, exact_gesture, role_in_ceremony, date, location]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-097
+    archival_filename: "21.jpg"
+    visual_type: historical_black_and_white_sculpture_presentation_tight_reproduction
+    description: >-
+      Užší svislá reprodukce zachycuje muže v obleku vedle duchovního s výrazným
+      řetězem nebo insignií. Duchovní drží světlou plastiku sedící či zahalené postavy;
+      mezi oběma muži je kytice. Obraz je vytištěn s širokým světlým okrajem.
+    subject_tags: [civilian_man, clergy, chain_or_insignia, sculpture, bouquet, presentation, archival_reproduction]
+    identification:
+      status: partially_verified
+      verified_from_image: [civilian_man, clergy_with_chain_or_insignia, light_sculpture, bouquet, print_border]
+      unverified: [person_identities, presenter_role, sculpture_subject_author_and_provenance, exact_occasion, date]
+    duplicate_relation:
+      same_underlying_photograph_as: [urbanek-ccs-046, urbanek-ccs-098]
+      verification: exact_visual_comparison
+      evidentiary_note: "Samostatný soubor, nikoli nezávislý záběr události."
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-098
+    archival_filename: "22.jpg"
+    visual_type: historical_black_and_white_sculpture_presentation_wide_reproduction
+    description: >-
+      Širší vodorovná reprodukce stejné původní fotografie jako urbanek-ccs-097 a
+      urbanek-ccs-046. Muž v obleku stojí vedle duchovního s řetězem, který drží
+      světlou plastiku; mezi nimi je kytice a vlevo i vpravo jsou viditelní účastníci.
+    subject_tags: [civilian_man, clergy, chain_or_insignia, sculpture, bouquet, audience, archival_reproduction]
+    identification:
+      status: partially_verified
+      verified_from_image: [civilian_man, clergy_with_chain_or_insignia, light_sculpture, bouquet, audience]
+      unverified: [person_identities, presenter_role, sculpture_subject_author_and_provenance, exact_occasion, date]
+    duplicate_relation:
+      same_underlying_photograph_as: [urbanek-ccs-046, urbanek-ccs-097]
+      verification: exact_visual_comparison
+      evidentiary_note: "Samostatný soubor, nikoli nezávislý záběr události."
+    correction_note: >-
+      Na třech reprodukcích není samostatná listina spolehlivě rozeznatelná.
+      Dřívější popis urbanek-ccs-046 byl v tomto bodě opraven.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-099
+    archival_filename: "23.jpg"
+    visual_type: historical_black_and_white_clergy_address_with_paper
+    description: >-
+      Duchovní s výrazným řetězem nebo insignií stojí na stupních před oltářním
+      prostorem a drží v obou rukou list papíru. Vlevo je pult nebo kazatelna,
+      vpravo sedí další účastníci a duchovní.
+    subject_tags: [clergy, chain_or_insignia, paper, address_or_reading, chancel_steps, lectern_or_pulpit]
+    identification:
+      status: partially_verified
+      verified_from_image: [standing_clergy_with_chain_or_insignia, held_paper, steps, lectern_or_pulpit, seated_participants]
+      unverified: [speaker_identity, paper_content, whether_reading_or_speaking, office, date, exact_sequence_position]
+    ocr: {document_text: not_applicable, scene_text: not_readable}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-100
+    archival_filename: "24.jpg"
+    visual_type: historical_black_and_white_standing_congregation
+    description: >-
+      Početné smíšené shromáždění stojí v dřevěných lavicích. V zadní části interiéru
+      je viditelný prapor nebo žerď zakončená křížem. Stejné prostředí a opakující se
+      účastníci spojují snímek s urbanek-ccs-080, kde je přední řada zachycena vsedě.
+    subject_tags: [standing_congregation, wooden_pews, church_interior, banner_or_standard, ceremony_phase]
+    identification:
+      status: partially_verified
+      verified_from_image: [large_mixed_congregation, standing_people, wooden_pews, banner_or_standard_with_cross]
+      unverified: [participant_identities, reason_for_standing, exact_ritual_phase, event_identity, date]
+    sequence_relation:
+      related_item: urbanek-ccs-080
+      assessment: "Pravděpodobně stejné shromáždění v jiné fázi obřadu."
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+open_research_candidates:
+  - {id: URB-U-0062, subject: Chrobacek_investiture_folk_costume_sculpture_reproductions_address_and_congregation}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-101 až urbanek-ccs-105. Urbanek-ccs-101 uzavře
+  Chrobáčkovu podsložku souborem „25 S rychvaldskými občany.jpg“; položky 102–105
+  otevřou podsložku „5 Kaple CČS na Ostravici“ soubory 1–4. Po uzavření Chrobáčkovy
+  podsložky porovnat celou sérii s protokolem volby a jmenování, programem slavnosti,
+  kronikou, personálními záznamy a záznamem o plastice.

@@ -1,0 +1,177 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: stibor-funeral-coffin-bearing-street-clergy-and-procession-34
+status: completed_first_visual_pass
+git_attachment: finalized
+item_count: 5
+source_scope: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956 / archivní soubory 11 až 15
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Položky 166 až 170 pokračují v pohřební venkovní sekvenci. Položky 166 a 169 zachycují tutéž nebo bezprostředně
+    navazující část průvodu s bohatě zdobenou uzavřenou rakví nesenou několika muži v dlouhých tmavých oděvech. Položky 167
+    a 168 zachycují skupiny osob s řetězy a medailony kráčející ulicí a položka 170 širší průvod s duchovními a civilními
+    účastníky. Obrazová návaznost podporuje jednu událost, ale sama nepotvrzuje Ferdinanda Stibora, říjen 1956, přesné místo,
+    identity a úřady osob ani úplnou trasu a program pohřbu.
+  basis:
+  - full_image_visual_review
+  - cross_image_sequence_comparison
+  - embedded_metadata_inspection
+  - exact_git_blob_verification
+  - binary_duplicate_screening
+  related_open_items:
+  - URB-U-0071
+items:
+- id: urbanek-ccs-166
+  archival_filename: 11.jpg
+  dimensions_px:
+  - 1536
+  - 1032
+  visual_type: historical_decorated_coffin_carried_through_crowded_entrance
+  description: Bohatě zdobená uzavřená rakev je nesena několika muži v dlouhých tmavých oděvech z prostoru vstupu nebo sloupové
+    předsíně. Kolem stojí početný dav civilních i podobně oděných účastníků.
+  verified_from_image:
+  - decorated_closed_coffin
+  - multiple_coffin_bearers
+  - crowded_entrance_or_portico
+  - robed_and_civilian_attendees
+  unverified:
+  - deceased_identity
+  - Ferdinand_Stibor_connection
+  - exact_event_stage
+  - bearer_identities_and_offices
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-167
+  archival_filename: 12.jpg
+  dimensions_px:
+  - 1026
+  - 1614
+  visual_type: historical_three_chain_bearing_robed_men_walking_on_street
+  description: Tři muži v dlouhých tmavých oděvech s výraznými řetězy a medailony kráčejí ulicí. Nejméně dva drží knihu, desky
+    nebo jiný obdélný předmět. V pozadí jsou domy, vegetace a dopravní značka.
+  verified_from_image:
+  - three_robed_men
+  - three_chains_or_medallions
+  - held_rectangular_objects
+  - street_houses_and_vegetation
+  - traffic_sign
+  unverified:
+  - event_identity
+  - Ferdinand_Stibor_connection
+  - person_identities
+  - offices
+  - insignia_meaning
+  - held_object_function
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-168
+  archival_filename: 13.jpg
+  dimensions_px:
+  - 1578
+  - 1008
+  visual_type: historical_robed_funeral_group_walking_along_street
+  description: Několik mužů v dlouhých tmavých oděvech kráčí v rozestupech ulicí; více osob má řetěz s medailonem. V pozadí
+    jsou civilní přihlížející, kočárek, automobil, domy a sloupy vedení.
+  verified_from_image:
+  - multiple_robed_men_walking
+  - several_chains_or_medallions
+  - civilian_onlookers
+  - baby_carriage
+  - automobile
+  - street_and_houses
+  unverified:
+  - event_identity
+  - Ferdinand_Stibor_connection
+  - person_identities
+  - offices
+  - insignia_meaning
+  - procession_order
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-169
+  archival_filename: 14.jpg
+  dimensions_px:
+  - 1608
+  - 1032
+  visual_type: historical_decorated_coffin_carried_along_street
+  description: Bohatě zdobená uzavřená rakev je nesena ulicí několika muži v dlouhých tmavých oděvech. Další podobně oděné
+    osoby jdou vedle nebo za rakví; některé drží knihy či desky.
+  verified_from_image:
+  - decorated_closed_coffin
+  - multiple_coffin_bearers
+  - street_procession
+  - additional_robed_attendants
+  - held_books_or_folders
+  unverified:
+  - deceased_identity
+  - Ferdinand_Stibor_connection
+  - bearer_and_attendant_identities
+  - offices
+  - held_object_function
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_item: urbanek-ccs-166
+    assessment: Stejná nebo velmi podobná zdobená rakev a navazující nesení; odlišný záběr, nikoli binární duplikát.
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-170
+  archival_filename: 15.jpg
+  dimensions_px:
+  - 1656
+  - 1037
+  visual_type: historical_long_funeral_procession_with_robed_and_civilian_participants
+  description: Delší průvod postupuje ulicí. V čele a první části jsou muži v dlouhých tmavých oděvech, u několika jsou viditelné
+    světlé znaky připomínající kalich nebo medailon; za nimi následují civilní účastníci. V průvodu je také vysoká tyč nebo
+    žerď nejasné funkce.
+  verified_from_image:
+  - long_street_procession
+  - multiple_robed_men
+  - several_chalice_like_or_medallion_emblems
+  - civilian_participants
+  - tall_pole_or_staff
+  - houses_and_utility_poles
+  unverified:
+  - event_identity
+  - Ferdinand_Stibor_connection
+  - person_identities
+  - offices
+  - emblem_meaning
+  - pole_or_staff_function
+  - full_procession_order
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+duplicate_assessment:
+  exact_binary_duplicates_within_batch: none
+  note: Všech pět souborů má odlišný Git blob SHA. Položky 166 a 169 jsou rozdílné záběry stejné nebo bezprostředně navazující
+    situace s rakví.
+next_action: Zpracovat urbanek-ccs-171 až 175, tedy 16.jpg až 20.jpg ve stejné podsložce.

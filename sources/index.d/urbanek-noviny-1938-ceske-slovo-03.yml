@@ -1,0 +1,176 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-noviny-1938-ceske-slovo-011
+  title: P1020284.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020284.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020284.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3438366
+  git_blob_sha: 3a32f3aa6fefd6b901953b3ce73bf82acb2e3cae
+  sha256: 24d005a4be5d61101517e191c587ba8eb4277d54f4f9a40f1f59baba86cce0e7
+  drive_id: 1bGVZH1WKAEj-tXH_JLPB-xtnZX3DaNwk
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: tesin_refugees_article_silesian_ostrava_accommodation_article
+  summary: Fotografie novinového výřezu s článkem „Uprchlíci z Těšínska do Slezské Ostravy“ a podtitulem „Ubytování hlavně
+    v soukromí“. Text pojednává o ubytování lidí, kteří opustili obsazované části Těšínska; úplné údaje vydání nejsou ve výřezu
+    viditelné.
+  visible_text:
+  - Uprchlíci z Těšínska do Slezské Ostravy
+  - Ubytování hlavně v soukromí
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:52:23'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-012
+  title: P1020285.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020285.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020285.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2744679
+  git_blob_sha: 19b743af9e4cecdbca2d07db7936bcc4e9e6d2a8
+  sha256: 017ec960eba1f5d81f206e279604e2361aa411d05fefea76bc23727676b9ca04
+  drive_id: 12SPcofBHeX_xhnUtbLRTg6ocBmmqRL2n
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: occupied_territory_industry_article_polish_administration_article
+  summary: Fotografie novinového výřezu s článkem „Poláci nepřeruší výrobu v obsazeném území“. Úvod nese dataci „Varšava 4.
+    října. ČTK. (Pat.)“; jde o dataci zprávy, nikoli samostatně ověřené datum vydání.
+  visible_text:
+  - Poláci nepřeruší výrobu v obsazeném území
+  - Varšava 4. října. ČTK. (Pat.)
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:53:40'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-013
+  title: P1020286.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020286.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020286.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3493828
+  git_blob_sha: 854c887f3ae9d0438f8c8c9ebbff826785079e60
+  sha256: bf4887de4f9a4751b2eb877ed5909838e914f25cfa6ae9717e89710faddbb230
+  drive_id: 1HkLgP5mRbPdkgfbCOMQgAW-MgoB2KyXS
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: frystat_occupation_article_czech_population_article_czech_schools_article
+  summary: Širší fotografie novinové strany s hlavním článkem „V sobotu se zahájí obsazování Fryštátska“, podtitulem „České
+    obyvatelstvo zůstává na svých místech“ a navazujícím článkem „Zůstanou na Těšínsku české školy?“.
+  visible_text:
+  - V sobotu se zahájí obsazování Fryštátska
+  - České obyvatelstvo zůstává na svých místech
+  - Zůstanou na Těšínsku české školy?
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:54:32'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-014
+  title: P1020287.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020287.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020287.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3461488
+  git_blob_sha: 7295e137c50e80b25fd318627e15103411b313a8
+  sha256: 4056d461d10171a10d1d4b1bfdacd12da7381bf683d28e54f38a6f1f54472c58
+  drive_id: 1ohOClkFThtbwTHxEXKdaaLdt0lXSUWb6
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: czech_schools_article_france_demobilization_article_valencia_bombing_article_alternate_page_capture
+  summary: Těsnější fotografie spodní části stejné novinové strany jako P1020286.JPG. Viditelné jsou články „Zůstanou na Těšínsku
+    české školy?“, „Demobilisace ve Francii“ a „Bombardování Valencie“; poslední dva mají v textu dataci 6. října.
+  visible_text:
+  - Zůstanou na Těšínsku české školy?
+  - Demobilisace ve Francii
+  - Bombardování Valencie
+  - Paříž 6. října. ČTK.
+  - Valencie 6. října.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:54:37'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-015
+  title: P1020288.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020288.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020288.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 1979729
+  git_blob_sha: 625fac109f25fce1d61431031cbb840976dc2b3f
+  sha256: dd5f144e3aaf0b1584fab0157865baa68be2074ea0b4ea0103a2185d1ff9d6f4
+  drive_id: 1jmPc191sTTpamfC07IvYOcXXwsl713Mu
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: czech_schools_article_france_demobilization_article_valencia_bombing_article_alternate_page_capture
+  summary: Druhá, mírně posunutá a těsněji oříznutá fotografie téže spodní části strany jako P1020287.JPG. Zachycuje stejné
+    články o českých školách na Těšínsku, demobilisaci ve Francii a bombardování Valencie; soubory nejsou binárně totožné.
+  visible_text:
+  - Zůstanou na Těšínsku české školy?
+  - Demobilisace ve Francii
+  - Bombardování Valencie
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:54:45'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081

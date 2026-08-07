@@ -1,0 +1,108 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+collection_title: Fotografie knihy Rychvald včera a dnes
+batch: 11
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights:
+  status: unknown
+  permission_for_project: confirmed
+source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+sources:
+- source_id: urbanek-rychvald-vcera-dnes-051
+  title: 50.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/50.jpg
+  file_size_bytes: 2716827
+  drive_id: 1ElNe4a0fau_rGy4_vsUwTOz9XA6HDFK3
+  git_blob_sha: 72c5747f8c63560239b15eaa38466a0282ff5816
+  sha256: 220d9f5a489e18b0d2543525318599cf4919b72acadad5488488ffaa1e1c82f1
+  dimensions_px:
+  - 4546
+  - 2659
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-30 17:42:15'
+    software: null
+  description: Šikmý letecký pohled na rozsáhlý zemědělský nebo provozní areál s několika dlouhými halami, otevřenými přístřešky,
+    manipulačními plochami a skladovaným materiálem; areál je obklopen sklizenými poli s balíky, lesním porostem a přístupovou
+    komunikací.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-052
+  title: 51.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/51.jpg
+  file_size_bytes: 723285
+  drive_id: 1RC9sCrTCY68KEumJEyYqHhHM56wE6CRv
+  git_blob_sha: 7b1156f82b932b3d7b2dabbf1eaf0babef4acfe3
+  sha256: 4dd95b5c0bce0f26f8e0e0f7aedee915e5d9b728ba5b30924a4f68cc2f2d3c81
+  dimensions_px:
+  - 2071
+  - 1175
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-04-25 15:15:46'
+    software: null
+  description: Šikmý letecký pohled na nízkou budovu u hlavní komunikace a boční ulice, s venkovním posezením, zpevněným prostorem
+    pro vozidla a upravenou zahradou; při hlavní silnici je vyznačený zastávkový prostor a v sousedství stojí rodinný dům
+    se zahradou.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-053
+  title: 52.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/52.jpg
+  file_size_bytes: 546485
+  drive_id: 1RTtvpFSLPpIGrAp3vPV2sBoz1bzYPBrn
+  git_blob_sha: f71738972a1e946d6e4b497724ab7b7bbaeb1424
+  sha256: 99cc241021bd8d340fbcde46f35723a9ad06438a44156cf97054f0eee5800999
+  dimensions_px:
+  - 1853
+  - 985
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2012-09-28 23:53:14'
+    software: Picasa
+  description: Šikmý letecký pohled na rozsáhlou vícekřídlou budovu kolem otevřeného dvora, s parkovacími a příjezdovými plochami,
+    upravenou zahradou a menšími vedlejšími stavbami; bezprostřední okolí tvoří pole a místní komunikace.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-054
+  title: 53.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/53.jpg
+  file_size_bytes: 1408198
+  drive_id: 1WttjltnL4dNy7K-tIIvPsb1rI3vpOtLA
+  git_blob_sha: dd4455249065dac4219030c0c70ff226f4692b63
+  sha256: 73c8cb781ac929420bf59583fc04d792f41c35019204cbd3b6d8c7650f36fc58
+  dimensions_px:
+  - 4412
+  - 2021
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2012-03-24 05:19:45'
+    software: null
+  description: Široký šikmý letecký pohled přes soustavu vodních ploch na sídelní centrum s kostelní věží, vícepodlažními
+    obytnými nebo veřejnými budovami, komunikacemi a navazující rozptýlenou zástavbou v zemědělské krajině.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.

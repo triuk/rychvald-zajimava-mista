@@ -1,0 +1,286 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque-31
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1) / archivní soubory 10 až 14
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Dávka uzavírá šestou podsložku. Položka 151 zachycuje další venkovní situaci před vstupem Husovy československé
+    bohoslovecké fakulty v Praze s civilními, duchovními a uniformovanými účastníky. Položka 152 zachycuje ženu v tmavém oděvu
+    doprovázenou dvěma muži na schodech téhož vstupu; identity ani přesný vztah osob nejsou obrazem určeny. Položka 153 ukazuje
+    oltář s velkým krucifixem, svícemi, květinami a malým rámovaným portrétem s černou stuhou; umístění v Rychvaldě pochází
+    z archivního názvu. Položka 154 je bližší záběr stejného pietního uspořádání a portrétu, jehož identifikace jako Karla
+    Vodičky pochází z archivního názvu. Položka 155 je přesný binární duplikát urbanek-ccs-059 pod jinou archivní cestou.
+    Deska čitelně uvádí jména, životní data a role Karla Vodičky a jméno a životní data Libuše Vodičkové. Text desky dokládá
+    znění nápisu, nikoli sám o sobě historickou správnost údajů. Fotografické metadata položky 155 uvádějí pořízení 14. října
+    2010; nejde o datum instalace desky.
+  basis:
+  - full_image_visual_review
+  - cross_image_sequence_comparison
+  - manual_document_text_transcription
+  - embedded_metadata_inspection
+  - exact_git_blob_duplicate_comparison
+  - verified_repo_files
+  related_open_items:
+  - URB-U-0067
+items:
+- id: urbanek-ccs-151
+  archival_filename: 10.jpg
+  dimensions_px:
+  - 1422
+  - 930
+  visual_type: historical_black_and_white_funeral_participants_outside_faculty_entrance
+  description: Venkovní záběr před vstupem známým z položek 148 až 150. Uprostřed stojí několik osob v uniformách, z nichž
+    nejméně dvě mají na hrudi dekorace; kolem nich jsou osoby v civilním oděvu a několik osob v dlouhých tmavých oděvech.
+    Ve dveřích a na schodech stojí další účastníci. Horní deska fakulty je viditelná, ale na tomto snímku rozostřená.
+  subject_tags:
+  - funeral_exit_sequence
+  - faculty_entrance
+  - uniformed_people
+  - visible_decorations
+  - dark_robed_people
+  - civilian_attendees
+  - Husova_Ceskoslovenska_bohoslovecka_fakulta
+  - funeral_of_Karel_Vodicka_claim
+  - June_1970_claim
+  identification:
+    status: partially_verified
+    archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+    verified_from_image:
+    - same_entrance_as_items_148_to_150
+    - multiple_uniformed_people
+    - visible_decorations_on_at_least_two_uniforms
+    - multiple_dark_robed_people
+    - civilian_attendees_on_steps_and_in_doorway
+    - faculty_sign_present_but_blurred
+    unverified:
+    - deceased_identity
+    - all_person_identities_and_roles
+    - uniformed_organizations
+    - whether_any_official_honor_guard
+    - meaning_of_decorations
+    - exact_event_date
+    - exact_street_address
+    - photographer
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: present_but_not_retranscribed
+      note: Horní deska je rozostřená; spolehlivý přepis stejné desky je u urbanek-ccs-148.
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0067
+- id: urbanek-ccs-152
+  archival_filename: 11.jpg
+  dimensions_px:
+  - 930
+  - 1428
+  visual_type: historical_black_and_white_woman_supported_by_two_men_at_faculty_entrance
+  description: Na schodech širokého vstupu stojí žena v tmavých šatech a tmavé pokrývce hlavy mezi dvěma muži v oblecích;
+    oba ji drží nebo podpírají za paže. V pozadí je několik osob v dlouhých tmavých oděvech a další účastníci. Snímek neobsahuje
+    čitelný text.
+  subject_tags:
+  - funeral_exit_sequence
+  - woman_in_dark_clothing
+  - two_men_in_suits
+  - physical_support
+  - dark_robed_people
+  - building_entrance
+  - funeral_of_Karel_Vodicka_claim
+  - June_1970_claim
+  identification:
+    status: partially_verified
+    archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+    verified_from_image:
+    - woman_between_two_men
+    - both_men_holding_or_supporting_her_arms
+    - multiple_dark_robed_people_in_background
+    - same_entrance_sequence_as_items_148_to_151
+    unverified:
+    - all_person_identities
+    - relationship_between_three_central_people
+    - reason_for_physical_support
+    - emotional_or_medical_state
+    - exact_event_date
+    - exact_address
+    - photographer
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0067
+- id: urbanek-ccs-153
+  archival_filename: 12  Před oltářem v Rychvaldě.jpg
+  dimensions_px:
+  - 912
+  - 1404
+  visual_type: historical_black_and_white_altar_crucifix_candles_and_memorial_portrait
+  description: Čelní pohled na oltářní prostor s velkým krucifixem, paprskovou výzdobou a oblačnými motivy. Na oltáři a před
+    ním jsou svíce, květiny, rostliny, kalich se symbolem kříže a malý rámovaný portrét s černou smuteční stuhou. Archivní
+    název lokalizuje scénu před oltář v Rychvaldě; obraz sám místo textově neurčuje.
+  subject_tags:
+  - altar
+  - large_crucifix
+  - radiating_background
+  - candles
+  - flowers
+  - chalice_and_cross_symbol
+  - framed_portrait
+  - black_mourning_ribbon
+  - Rychvald_location_claim
+  - Karel_Vodicka_memorial_context_claim
+  identification:
+    status: partially_verified
+    archival_context_claim: před oltářem v Rychvaldě
+    verified_from_image:
+    - altar_arrangement
+    - large_crucifix
+    - candles_and_flowers
+    - chalice_with_cross_symbol
+    - framed_male_portrait_with_black_ribbon
+    - same_memorial_arrangement_as_item_154
+    unverified:
+    - exact_church_and_location
+    - portrait_identity
+    - portrait_date_and_photographer
+    - occasion_and_date_of_display
+    - relationship_to_funeral_images_142_to_152
+    - photographer_of_archival_reproduction
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_item: urbanek-ccs-154
+    assessment: Širší a bližší záběr stejného pietního uspořádání; nejde o binární duplicitu.
+  uncertainty_ids:
+  - URB-U-0067
+- id: urbanek-ccs-154
+  archival_filename: 13  Fotografie Karla Vodičky.jpg
+  dimensions_px:
+  - 1446
+  - 924
+  visual_type: historical_black_and_white_framed_portrait_with_mourning_ribbon_before_altar
+  description: Bližší záběr na rámovaný portrét muže s černou smuteční stuhou, položený mezi dvěma svícny a květinami před
+    oltářem. Na oltáři je kalich se symbolem kříže. Archivní název označuje portrét jako fotografii Karla Vodičky; samotný
+    vzhled osoby identitu nepotvrzuje.
+  subject_tags:
+  - framed_male_portrait
+  - black_mourning_ribbon
+  - candles
+  - flowers
+  - altar
+  - chalice_and_cross_symbol
+  - Karel_Vodicka_portrait_claim
+  identification:
+    status: partially_verified
+    archival_context_claim: fotografie Karla Vodičky
+    verified_from_image:
+    - framed_male_portrait
+    - black_mourning_ribbon
+    - two_candles
+    - flowers
+    - altar_with_chalice_and_cross_symbol
+    - same_memorial_arrangement_as_item_153
+    unverified:
+    - portrait_identity
+    - portrait_date
+    - portrait_photographer
+    - original_portrait_provenance
+    - display_date_and_occasion
+    - exact_location
+    - photographer_of_archival_reproduction
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_item: urbanek-ccs-153
+    assessment: Bližší záběr stejného pietního uspořádání; nejde o binární duplicitu.
+  uncertainty_ids:
+  - URB-U-0067
+- id: urbanek-ccs-155
+  archival_filename: 14  Pamětní deska v kostele v Rychvaldě, za níž jsou uloženy.JPG
+  dimensions_px:
+  - 3072
+  - 2304
+  visual_type: modern_color_memorial_plaque_exact_duplicate
+  description: Barevná fotografie světlé obdélné pamětní desky se zlatým nápisem a čtyřmi tmavými upevňovacími prvky. Deska
+    uvádí jména Karel Vodička a Libuše Vodičková, jejich životní data a u Karla Vodičky role prvního faráře zdejší náboženské
+    obce, budovatele sboru a spoluzakladatele Církve československé husitské. Soubor je bitově totožný s urbanek-ccs-059.
+  subject_tags:
+  - memorial_plaque
+  - Karel_Vodicka
+  - Libuse_Vodickova
+  - birth_and_death_dates
+  - first_pastor_inscription
+  - church_builder_inscription
+  - cofounder_inscription
+  - exact_binary_duplicate
+  - Rychvald_church_location_claim
+  - hidden_content_behind_plaque_incomplete_claim
+  identification:
+    status: partially_verified
+    archival_context_claim: pamětní deska v kostele v Rychvaldě, za níž jsou uloženy [neuvedený předmět nebo obsah]
+    verified_from_image:
+    - fully_readable_plaque_inscription
+    - names_Karel_Vodicka_and_Libuse_Vodickova
+    - dates_as_inscribed
+    - roles_as_inscribed
+    - exact_binary_identity_with_urbanek_ccs_059
+    unverified:
+    - historical_accuracy_of_dates_and_roles
+    - plaque_installation_date_and_author
+    - exact_location_in_church
+    - what_is_behind_the_plaque
+    - whether_any_remains_urns_or_other_objects_are_behind_it
+    - relationship_of_Libuse_Vodickova
+    - photographer_identity
+  ocr:
+    document_text:
+      status: manually_transcribed
+      text: 'KAREL VODIČKA
+
+        * 2. 8. 1890  + 12. 6. 1970
+
+        PRVNÍ FARÁŘ ZDEJŠÍ NÁBOŽENSKÉ OBCE
+
+        BUDOVATEL TOHOTO SBORU
+
+        SPOLUZAKLADATEL CÍRKVE ČESKOSLOVENSKÉ
+
+        HUSITSKÉ
+
+        LIBUŠE VODIČKOVÁ
+
+        * 23. 3. 1900  + 21. 9. 1973'
+      note: Přepis zachycuje znění desky. Nejde o nezávislé ověření historické správnosti údajů.
+    scene_text: not_applicable
+  metadata:
+    embedded_datetime: '2010-10-14 17:45:12'
+    camera_make: Panasonic
+    camera_model: DMC-TZ3
+    note: Metadata dokládají pořízení digitální fotografie, nikoli instalaci desky.
+  duplicate_relation:
+    duplicate_of: urbanek-ccs-059
+    type: exact_binary_duplicate
+    shared_git_blob_sha: a5781859d0d64384fff6d1c55a9e9100539ec22d
+    independent_event_evidence: false
+  uncertainty_ids:
+  - URB-U-0067
+validation:
+  repo_blob_sha_verified_for_all_items: true
+  original_paths_preserved: true
+  original_filenames_preserved: true
+  new_uncertainty_ids_created: 0
+  updated_uncertainty_ids:
+  - URB-U-0067
+  folder_completed: 6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)

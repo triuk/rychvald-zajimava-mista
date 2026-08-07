@@ -1,0 +1,42 @@
+schema_version: 1
+scope: closed_items_0003_0006
+items:
+  - id: URB-U-0003
+    status: resolved
+    priority: low
+    collection: Rychvaldské větrné mlýny
+    type: image_identification
+    source_items: [urbanek-mlyny-009]
+    question: "Co zachycuje obnovený náhled P1010269.JPG?"
+    evidence: research/urbanek-archive/reports/rychvaldske-vetrne-mlyny-thumbnail-cache.md
+    resolution: >-
+      Uživatel potvrdil a obrazové porovnání ověřilo, že náhled P1010269.JPG z Thumbs.db
+      je duplicitní zmenšeninou dochovaného souboru mlýn na podlesí.JPG. Nejde o další
+      chybějící obrazový výjev.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0003-0006-podlesi-povetrnik-229.md
+    resolved_at: 2026-07-21
+    resolved_by: user_confirmation_and_exact_visual_comparison
+    confidence: verified
+  - id: URB-U-0006
+    status: resolved
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: location_identification
+    source_items: [urbanek-mlyny-007]
+    question: "Který objekt je v názvu souboru označen jako mlýn na Podlesí?"
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml
+    resolution: >-
+      Archivní soubor mlýn na podlesí.JPG zachycuje větrný mlýnek s turbínou na adrese
+      U Školky 344, 735 32 Rychvald, evidovaný v databázi Povětrník jako záznam 229.
+      Obrazová shoda budovy, stožáru, turbíny a stromů je jednoznačná.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0003-0006-podlesi-povetrnik-229.md
+    resolved_at: 2026-07-21
+    resolved_by: specialist_database_and_exact_visual_comparison
+    confidence: verified
+    location:
+      address: "U Školky 344, 735 32 Rychvald"
+      latitude: 49.8516111
+      longitude: 18.3718333
+    external_reference:
+      url: http://www.povetrnik.cz/vetrne-mlyny/detail/229
+      record_id: 229

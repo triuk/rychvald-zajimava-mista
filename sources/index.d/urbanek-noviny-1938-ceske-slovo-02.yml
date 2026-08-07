@@ -1,0 +1,185 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-noviny-1938-ceske-slovo-006
+  title: P1020278.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020278.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020278.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 1998848
+  git_blob_sha: 703f7a6533bb5a3183ee6b03ec75545055348f0d
+  sha256: 8835361cea36473a478e90e01cf507c87a4e9b1d00d29fc9b4134f047316caf8
+  drive_id: 1qFDzteXYOMvCwixbxX5Q3APLNsgaWNWw
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: tesin_cession_and_british_admiralty_articles_alternate_capture
+  summary: Těsněji oříznutá fotografie stejné části novinové strany, která je širším záběrem zachycena v P1020277.JPG.
+    Viditelné jsou články „Československo odstoupí Polsku část Těšínska“ a „První lord admirality proti Chamberlainovi“;
+    soubory mají odlišné rámování i binární hashe.
+  visible_text:
+  - Československo odstoupí Polsku část Těšínska
+  - Jiné rozhodnutí vlády by vedlo k těžkým komplikacím
+  - Úder politické bomby v Londýně
+  - První lord admirality proti Chamberlainovi
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:40:06'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-007
+  title: P1020279.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020279.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020279.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 1990066
+  git_blob_sha: a7f7d7e7e1228e53bac8f68d434dd7653e84debd
+  sha256: e2367636666343292db47bca9e8617969c5bc14c6e624de44248d58df0729fed
+  drive_id: 1UfVhuWE3HaM1-9SSMFLq8XGsTr6M-IVL
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: polish_claims_cernak_and_berlin_commission_articles
+  summary: Fotografie části novinové strany s hlavním článkem „Má Polsko nároky na české obce?“ a dalšími texty „Slovenský
+    ministr Černák hrozí demisí“, „Mnoho otázek před berlínskou komisí“ a „Radiopřístroje budou vráceny“. V článcích
+    jsou viditelné datace Praha, Bratislava a Londýn 3. října, úplné údaje vydání však ve výřezu nejsou.
+  visible_text:
+  - Má Polsko nároky na české obce?
+  - Mnichovská konference a chybný polský postup na českém Těšínsku
+  - Slovenský ministr Černák hrozí demisí
+  - Mnoho otázek před berlínskou komisí
+  - Radiopřístroje budou vráceny
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:41:10'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-008
+  title: P1020280.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020280.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020280.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2221353
+  git_blob_sha: a4ca2153eaae09957270fb251f2d495b2004e24a
+  sha256: 40a8cf2c0aaace5f5be9b9a81cae334998cc95fc457971cb9448d63c89777c4b
+  drive_id: 18p71a3tf8sS3zVsou3WP5JxA2wUHh8Lx
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: plebiscite_frystat_protest_and_mining_district_articles
+  summary: Fotografie části novinové strany s články „Jak bude proveden plebiscit“, „České Fryštátsko protestuje proti
+    připojení k Polsku“ a „Horníkům a koksárům ostravsko-karvinského revíru“. Podtitulek prostředního článku uvádí manifestaci
+    za účasti 20.000 občanů v Orlové.
+  visible_text:
+  - Jak bude proveden plebiscit
+  - Plebiscit do konce listopadu - opce do půl roku
+  - České Fryštátsko protestuje proti připojení k Polsku
+  - Obrovská manifestace za účasti 20.000 občanů v Orlové
+  - Horníkům a koksárům ostravsko-karvinského revíru
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:41:55'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-009
+  title: P1020281.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020281.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020281.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2221909
+  git_blob_sha: 1e43e77ef1ea288368a1a93f3333d85e752fa2e4
+  sha256: 5b058432613f77a3ae55e353adde252d4f64ddc3663c2881b1cea1b032104283
+  drive_id: 1r1hLFe2pWiobkP3kWCEZ7v1AgKAuC3jw
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: tesin_border_situation_article
+  summary: Detail spodní části novinové strany s článkem „Situace na polsko-čs. hranici na Těšínsku“ a podtitulem „Jak
+    velké území dosud obsadilo polské vojsko“. Pod okrajem listu jsou viditelné další volně položené tiskoviny; jejich
+    obsah není samostatně indexován.
+  visible_text:
+  - Situace na polsko-čs. hranici na Těšínsku
+  - Jak velké území dosud obsadilo polské vojsko
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:42:08'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-010
+  title: P1020283.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020283.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020283.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3401373
+  git_blob_sha: 9cbca737cd6bea8d5fe983054571aa8e016d557d
+  sha256: 8b4985c940ea277549a0b5c70415d7a04beb2a3f8f31563f1f2577177b9bb29a
+  drive_id: 1xCujqXhdgwDuE-GRwCqF26KS-XcSym9t
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: continued_tesin_occupation_and_malhomme_articles
+  summary: Fotografie části novinové strany s článkem „Poláci pokračují v obsazování těšínského území“ a podtitulem „Včera
+    jsme odevzdali Polákům Třinecko a Jablunkovsko“. Dále jsou viditelné nadpisy „Francie zase ve finančních nesnázích“
+    a „Malhomme se vrátil na Těšínsko“. V textech je datace 4. října, úplné číslo vydání ale výřez neobsahuje.
+  visible_text:
+  - Poláci pokračují v obsazování těšínského území
+  - Včera jsme odevzdali Polákům Třinecko a Jablunkovsko
+  - Francie zase ve finančních nesnázích
+  - Malhomme se vrátil na Těšínsko
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:51:36'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081

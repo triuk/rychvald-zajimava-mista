@@ -1,0 +1,129 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+batch: 6
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights:
+  status: unknown
+  permission_for_project: confirmed
+source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+sources:
+- source_id: urbanek-rychvald-vcera-dnes-026
+  title: 25.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/25.jpg
+  file_size_bytes: 2520659
+  drive_id: 1Rgw5b_QaOJxZurp7h3WfmU0dGDteQ1A8
+  git_blob_sha: 712da133684b413b60af84d3fa0a27af88a7d989
+  sha256: d26e084ea4b02c4cfeea6e72fc7938a8e70123922bdec2bafef3d74f02649267
+  dimensions_px:
+  - 4546
+  - 2381
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-04-25 15:47:00'
+    software: null
+  description: Šikmý letecký pohled na rozptýlenou obytnou zástavbu mezi zahradami, loukami a poli; v popředí jsou místní
+    cesta a rodinné domy, v dálce souvislejší sídelní a průmyslové panorama.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-027
+  title: 26.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/26.jpg
+  file_size_bytes: 2825155
+  drive_id: 1Ie79fA4jvukfBnSoyG7MXa-f2xWD7o0k
+  git_blob_sha: 74a8fc047398e782352a0dcfc91f685e8179b8cc
+  sha256: 68913b08470dda1d78cf7a98cc15716cb3c0a6be35c56830c5c6c1679af6935a
+  dimensions_px:
+  - 4515
+  - 2516
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:12:18'
+    software: null
+  description: Šikmý letecký pohled na rozptýlenou obytnou oblast s několika navazujícími místními komunikacemi, rodinnými
+    domy, zahradami, menšími obdělávanými plochami a širokým travnatým pásem v popředí.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-028
+  title: 27.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/27.jpg
+  file_size_bytes: 2837598
+  drive_id: 1ju0ZPkIJosAb_OFts2tp2XgD6TD8jVpW
+  git_blob_sha: f8e408ed2e278bca08d437af61e18964c70670df
+  sha256: c4027197594dcd2624e263814ad9dba58ea4203ad3fb08d21495bafeb0dca8ef
+  dimensions_px:
+  - 4566
+  - 2997
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-04-25 15:39:10'
+    software: null
+  description: Šikmý letecký pohled na velké zemědělské plochy oddělené pásy stromů, navazující rozptýlenou obytnou zástavbu,
+    místní komunikace a několik vodních ploch na horním okraji záběru.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-029
+  title: 28.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/28.jpg
+  file_size_bytes: 3312638
+  drive_id: 1vPTR-3lMOjcDeJ7C6M-ha8XExuA-Uige
+  git_blob_sha: 5c22b013bf164bfe4b75e6696a689af3c0c5be3c
+  sha256: b20eef998eda22c2ef453180064b772eae7d29edf1d9f5c7b49e5dab35548e15
+  dimensions_px:
+  - 4577
+  - 2387
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:13:31'
+    software: Picasa
+  description: Šikmý letecký pohled na obytnou část rozloženou podél průjezdní komunikace a vedlejších cest; zástavba sousedí
+    s rozsáhlým lesním porostem, zahradami a menšími zemědělskými plochami.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-030
+  title: 29.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/29.jpg
+  file_size_bytes: 2914308
+  drive_id: 1gR67KCIA5v4QjJIMeoVFsWcHlGQ8rK3i
+  git_blob_sha: 0759f7021007f65bdb02429b0ab3036cb0a765d2
+  sha256: 3d6e13d2c7f75000c9244cca565ad95306dbdf59e6e61863f77f12a4d308138b
+  dimensions_px:
+  - 4505
+  - 2495
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:14:59'
+    software: null
+  description: Šikmý letecký pohled na silniční křižovatku u pásu lesa, okolní rodinné domy, zahrady, louky a rozptýlenou
+    zástavbu; v dálce je viditelné průmyslové a obytné panorama.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.

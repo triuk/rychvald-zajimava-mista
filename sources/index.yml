@@ -7318,3 +7318,202 @@ web_sources:
     note: Autor a instituce jsou uvedeni, licence pro další zveřejnění textu a fotografií však nebyla nalezena.
   notes:
   - Odborný text datuje erbovní desky na rychvaldském kostele a zámku obecně do konce 16. století.
+
+- source_id: web-povetrnik-rychvald-mlynek-48
+  title: Rychvald – větrný mlýnek s turbínou, katalogové číslo mlýnek 48
+  document_type: odborna_online_databaze_technickeho_dedictvi
+  institution: Povětrník.cz – databáze větrných mlýnů a čerpadel v českých zemích
+  url: http://www.povetrnik.cz/vetrne-mlyny/detail/175
+  accessed: '2026-07-21'
+  time_period:
+    from: '1910'
+    to: '2026-07-21'
+    note: Databáze uvádí vznik přibližně roku 1910; datum přístupu vymezuje stav online záznamu.
+  file: null
+  page_count: null
+  digital_format: HTML
+  readability:
+    status: good_via_http
+    note: Detailová stránka byla načtena přes HTTP; text, mapové souřadnice a základní fotografie byly zkontrolovány.
+  visual_content:
+    photographs: present
+    maps: present
+    indexes: not_applicable
+    method: Přesné obrazové porovnání základní fotografie databáze s archivním souborem P1010445.JPG.
+  missing_pages:
+    status: not_applicable
+    note: Online databázový záznam nemá stránkování.
+  rights:
+    status: unclear
+    note: Text a fotografie byly použity pouze pro ověření; oprávnění k jejich dalšímu zveřejnění nebylo ověřeno.
+  notes:
+  - Ověřuje URB-U-0005 jako záznam 175, katalogové číslo mlýnek 48, adresu U Skučáku 54 a GPS 49.8669433, 18.3910689.
+  - Opravuje dřívější překonanou inferenci Polní 1275.
+- source_id: web-povetrnik-rychvald-mlynek-49
+  title: Rychvald – větrný mlýnek s turbínou, katalogové číslo mlýnek 49
+  document_type: odborna_online_databaze_technickeho_dedictvi
+  institution: Povětrník.cz – databáze větrných mlýnů a čerpadel v českých zemích
+  url: http://www.povetrnik.cz/vetrne-mlyny/detail/176
+  accessed: '2026-07-21'
+  time_period:
+    from: '1901'
+    to: '2026-07-21'
+    note: Databáze uvádí vznik po roce 1900; datum přístupu vymezuje stav online záznamu.
+  file: null
+  page_count: null
+  digital_format: HTML
+  readability:
+    status: good_via_http
+    note: Detailová stránka byla načtena přes HTTP; text, mapové souřadnice a základní fotografie byly zkontrolovány.
+  visual_content:
+    photographs: present
+    maps: present
+    indexes: not_applicable
+    method: Základní fotografie databáze byla porovnána s archivním souborem Potoční 564.jpg a shledána jeho oříznutou verzí.
+  missing_pages:
+    status: not_applicable
+    note: Online databázový záznam nemá stránkování.
+  rights:
+    status: unclear
+    note: Text a fotografie byly použity pouze pro ověření; oprávnění k jejich dalšímu zveřejnění nebylo ověřeno.
+  notes:
+  - Ověřuje URB-U-0004 jako záznam 176, katalogové číslo mlýnek 49, adresu Potoční 564 a GPS 49.8470979, 18.3603469.
+
+- source_id: web-povetrnik-rychvald-u-skolky-344
+  title: Rychvald – větrný mlýnek s turbínou U Školky 344
+  document_type: odborna_online_databaze_technickeho_dedictvi
+  institution: Povětrník.cz – databáze větrných mlýnů a čerpadel v českých zemích
+  url: http://www.povetrnik.cz/vetrne-mlyny/detail/229
+  accessed: '2026-07-21'
+  time_period:
+    from: '1901'
+    to: '2026-07-21'
+    note: Databáze uvádí vznik po roce 1900 a rozebrání v roce 2014.
+  file: null
+  page_count: null
+  digital_format: HTML
+  readability:
+    status: good_via_http
+    note: Text, GPS a základní fotografie byly zkontrolovány.
+  visual_content:
+    photographs: present
+    maps: present
+    indexes: not_applicable
+    method: Základní fotografie byla porovnána s archivním souborem mlýn na podlesí.JPG.
+  missing_pages:
+    status: not_applicable
+  rights:
+    status: unclear
+    note: Záznam a fotografie byly použity pouze k ověření.
+  notes:
+    - Ověřuje URB-U-0006 jako adresu U Školky 344 a GPS 49.8516111, 18.3718333.
+    - Potvrzuje, že náhled P1010269.JPG odpovídá dochovanému souboru mlýn na podlesí.JPG.
+
+- source_id: web-familysearch-rychvald-historical-records
+  title: Rychvald – matriky a sčítací operáty
+  document_type: online_archivni_katalog
+  institution: FamilySearch / Zemský archiv v Opavě
+  urls:
+    census: https://www.familysearch.org/search/catalog/2156783
+    church_records: https://www.familysearch.org/cs/search/catalog/2780537
+  accessed: '2026-07-21'
+  time_period:
+    from: '1784'
+    to: '1952'
+  file: null
+  digital_format: catalog_and_digitized_images
+  readability:
+    status: catalog_verified_images_not_reviewed
+    note: Katalogové rozsahy byly ověřeny; jednotlivé obrazové jednotky nebyly pro rodinu Kakalů ručně prohledány.
+  rights:
+    status: access_may_require_login_or_familysearch_center
+  notes:
+    - Potenciální další pramen pro dohledání rodiny Kakalů, čísla domu a období existence mlýnku.
+    - Není použit jako důkaz konkrétního tvrzení o Kakalovu mlýnu.
+
+- source_id: web-commons-rychvald-kostel-sv-anny-interier
+  title: Rychvald, kostel svaté Anny, interiér, oltář
+  document_type: online_photograph
+  institution: Wikimedia Commons
+  url: https://commons.wikimedia.org/wiki/File:Rychvald,_kostel_svaté_Anny,_interiér,_oltář.jpg
+  accessed: '2026-07-21'
+  digital_format: HTML/JPEG
+  rights:
+    status: CC-BY-SA-4.0
+  notes:
+    - Použito k obrazové identifikaci archivního souboru 304interier.JPG.
+
+- source_id: web-farnost-rychvald-kostel-sv-anny
+  title: Naše společenství – historie kostela sv. Anny
+  document_type: official_parish_webpage
+  institution: Římskokatolická farnost Rychvald
+  url: https://farnostrychvald.cz/nase-spolecenstvi/
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: unclear
+  notes:
+    - Uvádí původ hlavního neogotického oltáře v roce 1895.
+
+- source_id: web-npu-rychvald-kostel-sv-anny
+  title: Kostel sv. Anny v Rychvaldě
+  document_type: official_heritage_catalog
+  institution: Národní památkový ústav
+  url: https://pamatkovykatalog.cz/kostel-sv-anny-12895366
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: official_catalog
+  notes:
+    - Katalogové číslo 1000133204; dokumentace interiéru je vedena na parcele č. 305.
+
+- source_id: web-ruian-rychvald-bohuminska-339
+  title: Adresní místo Bohumínská 339, Rychvald
+  document_type: official_address_register
+  institution: RÚIAN / VDP
+  url: https://2z3yffk.257.cz/vdp/ruian/adresnimista?cisDom=&cisOr=&kodOb=599107&kodVo=2961&nespravny=&ohradaId=&page=4&pscAp=&search=&sort=&typSo=
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: official_public_data
+  notes:
+    - Potvrzuje současné adresní místo č.p. 339 v ulici Bohumínská a kód adresního místa 14232618.
+    - Nepotvrzuje historickou polohu mlýnku.
+
+- source_id: web-csu-rso-rychvald-339
+  title: Stavební objekt Rychvald č.p. 339
+  document_type: official_building_register
+  institution: Český statistický úřad – Registr sčítacích obvodů a budov
+  url: https://apl2.czso.cz/irso4/budlist.jsp?b=21&hkodcis=51&kod=599107&kodcis=51&kodpol=nnnnnn&stranka=2&trideni=4
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: official_public_data
+  notes:
+    - Uvádí stavební objekt č.p. 339, ulici Bohumínská, kód RÚIAN 14141329 a kód RSO 1023646226.
+
+- source_id: web-finance-rychvald-bohuminska-339
+  title: Bohumínská 339, Rychvald – základní údaje a souřadnice
+  document_type: derived_public_register_page
+  institution: Finance.cz
+  url: https://rejstriky.finance.cz/adresa-rychvald-bohuminska-339-0-14232618
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: unclear
+  notes:
+    - Uvádí souřadnice adresního místa 49.870736388889, 18.375305277778.
+    - Použito pouze jako lokalizační kandidát pro URB-U-0038.
+
+- source_id: web-povetrnik-horni-datyne-record-198
+  title: Vratimov – Horní Datyně, replika mlýnku z U Školky 344
+  document_type: specialist_online_database
+  institution: Povětrník.cz
+  url: http://www.povetrnik.cz/vetrne-mlyny/detail/198
+  accessed: '2026-07-21'
+  digital_format: HTML
+  rights:
+    status: unclear
+  notes:
+    - Záznam byl prověřen a vyloučen jako identifikace mlýnku u č.p. 339.
+    - Týká se repliky podle jiného rychvaldského mlýnku z U Školky 344.

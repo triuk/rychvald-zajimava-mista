@@ -1,0 +1,224 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+collection_title: Fotografie knihy Rychvald včera a dnes
+batch_number: 6
+batch_id: aerial-views-dispersed-housing-fields-woodland-and-road-junctions-06
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+  items:
+  - 25.jpg
+  - 26.jpg
+  - 27.jpg
+  - 28.jpg
+  - 29.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without external historical verification.
+- EXIF inspection; embedded dates are preserved as file metadata, not treated as independent proof of publication use or authorship.
+- Exact binary duplicate check within the batch and against previously indexed files in the collection.
+batch_findings:
+  general: Pět samostatných šikmých leteckých pohledů na rozptýlenou obytnou a zemědělskou krajinu, místní komunikace, silniční
+    křižovatky, lesní porosty a vzdálená sídelní nebo průmyslová panoramata.
+  folder_title_interpretation: Název složky zůstává archivním údajem. Ani tato dávka neobsahuje viditelné okraje knižních
+    stran nebo bibliografický text.
+  metadata_sessions:
+  - 26.jpg, 28.jpg a 29.jpg mají EXIF časy 2013-09-28 11:12:18, 11:13:31 a 11:14:59. Časový rozsah dvě minuty a 41 sekund
+    podporuje pracovní zařazení do jedné fotografické relace, ale nebyl zjištěn jednoznačný prostorový překryv.
+  - 27.jpg a 25.jpg mají EXIF časy 2013-04-25 15:39:10 a 15:47:00. Shodné datum a odstup sedm minut a 50 sekund mohou odpovídat
+    jedné letové relaci, samy však neprokazují bezprostřední obrazovou sekvenci.
+  - Pouze 28.jpg uvádí software Picasa; ostatní soubory dávky nemají vyplněný tag software.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_against_batches_01_05: 0
+  visual_overlap: Jednoznačný prostorový překryv nebyl zjištěn. Soubory 25.jpg a 29.jpg obsahují podobně působící vzdálené
+    průmyslové a obytné panorama, ale bez ověřeného společného orientačního bodu se nevedou jako překrývající se záběry.
+  text_content: V obrazech není čitelný souvislý knižní text ani bibliografický údaj.
+items:
+- id: urbanek-rychvald-vcera-dnes-026
+  filename: 25.jpg
+  git_blob_sha: 712da133684b413b60af84d3fa0a27af88a7d989
+  sha256: d26e084ea4b02c4cfeea6e72fc7938a8e70123922bdec2bafef3d74f02649267
+  dimensions_px:
+  - 4546
+  - 2381
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-04-25 15:47:00'
+    software: null
+  visual_description: Šikmý letecký pohled na rozptýlenou obytnou zástavbu mezi zahradami, loukami a poli; v popředí jsou
+    místní cesta a rodinné domy, v dálce souvislejší sídelní a průmyslové panorama.
+  classification:
+  - aerial_photograph
+  - dispersed_housing
+  - local_road
+  - gardens
+  - grassland
+  - agricultural_land
+  - distant_settlement
+  - distant_industrial_skyline
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_identity_of_distant_skyline
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-027
+  filename: 26.jpg
+  git_blob_sha: 74a8fc047398e782352a0dcfc91f685e8179b8cc
+  sha256: 68913b08470dda1d78cf7a98cc15716cb3c0a6be35c56830c5c6c1679af6935a
+  dimensions_px:
+  - 4515
+  - 2516
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:12:18'
+    software: null
+  visual_description: Šikmý letecký pohled na rozptýlenou obytnou oblast s několika navazujícími místními komunikacemi, rodinnými
+    domy, zahradami, menšími obdělávanými plochami a širokým travnatým pásem v popředí.
+  classification:
+  - aerial_photograph
+  - dispersed_housing
+  - local_road_network
+  - detached_housing
+  - gardens
+  - small_cultivated_plots
+  - grassland
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_identity_of_visible_buildings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-028
+  filename: 27.jpg
+  git_blob_sha: f8e408ed2e278bca08d437af61e18964c70670df
+  sha256: c4027197594dcd2624e263814ad9dba58ea4203ad3fb08d21495bafeb0dca8ef
+  dimensions_px:
+  - 4566
+  - 2997
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-04-25 15:39:10'
+    software: null
+  visual_description: Šikmý letecký pohled na velké zemědělské plochy oddělené pásy stromů, navazující rozptýlenou obytnou
+    zástavbu, místní komunikace a několik vodních ploch na horním okraji záběru.
+  classification:
+  - aerial_photograph
+  - large_agricultural_fields
+  - tree_belts
+  - dispersed_housing
+  - local_roads
+  - water_bodies
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_identity_of_water_bodies
+  - exact_road_identity
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-029
+  filename: 28.jpg
+  git_blob_sha: 5c22b013bf164bfe4b75e6696a689af3c0c5be3c
+  sha256: b20eef998eda22c2ef453180064b772eae7d29edf1d9f5c7b49e5dab35548e15
+  dimensions_px:
+  - 4577
+  - 2387
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:13:31'
+    software: Picasa
+  visual_description: Šikmý letecký pohled na obytnou část rozloženou podél průjezdní komunikace a vedlejších cest; zástavba
+    sousedí s rozsáhlým lesním porostem, zahradami a menšími zemědělskými plochami.
+  classification:
+  - aerial_photograph
+  - main_road
+  - residential_area
+  - local_roads
+  - detached_housing
+  - gardens
+  - woodland
+  - small_agricultural_plots
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_identity_of_visible_buildings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-030
+  filename: 29.jpg
+  git_blob_sha: 0759f7021007f65bdb02429b0ab3036cb0a765d2
+  sha256: 3d6e13d2c7f75000c9244cca565ad95306dbdf59e6e61863f77f12a4d308138b
+  dimensions_px:
+  - 4505
+  - 2495
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:14:59'
+    software: null
+  visual_description: Šikmý letecký pohled na silniční křižovatku u pásu lesa, okolní rodinné domy, zahrady, louky a rozptýlenou
+    zástavbu; v dálce je viditelné průmyslové a obytné panorama.
+  classification:
+  - aerial_photograph
+  - road_intersection
+  - woodland
+  - detached_housing
+  - gardens
+  - grassland
+  - dispersed_housing
+  - distant_industrial_and_residential_skyline
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_identity_of_distant_skyline
+  - photographer_and_rights
+related_uncertainties:
+- URB-U-0076
+next_batch:
+  number: 7
+  filenames:
+  - 30.jpg
+  - 31.jpg
+  - 32.jpg
+  - 33.jpg
+  - 34.jpg

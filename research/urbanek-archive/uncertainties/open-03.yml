@@ -1,0 +1,25 @@
+schema_version: 1
+scope: open_item_0036
+items:
+  - id: URB-U-0036
+    status: open
+    priority: high
+    collection: Rychvaldské větrné mlýny
+    type: location_and_history_identification
+    related_resolved_items: [URB-U-0007]
+    source_items: [urbanek-mlyny-011, urbanek-mlyny-012, urbanek-mlyny-021, urbanek-mlyny-022, urbanek-mlyny-039]
+    question: "Kde přesně Kakalův mlýn stál, komu patřil, kdy existoval a jaké měl technické vybavení?"
+    known_fact: "Identita historického obrazu jako Kakalův mlýn byla potvrzena v URB-U-0007."
+    evidence: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+    unresolved_attributes: [exact_location, house_number, owner_identity, construction_date, disappearance_date, technology]
+    next_action: >-
+      Po zpracování dalších archivních kolekcí znovu prohledat OCR, popisky, kroniky,
+      zpravodaje, mapy, adresáře, sčítací operáty a fotografie na výrazy Kakal, Kakalův,
+      mlýn a větrný mlýnek. Porovnat případné nové snímky s potvrzeným historickým obrazem
+      a s databází Povětrník. Položku neuzavírat pouze negativním výsledkem dílčího hledání.
+    reopen_triggers:
+      - new_archive_batch_processed
+      - new_ocr_or_transcription_available
+      - new_map_or_address_record_available
+      - new_family_or_owner_reference_available
+      - matching_historical_photograph_found

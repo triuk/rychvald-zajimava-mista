@@ -1,0 +1,150 @@
+schema_version: 1
+scope: ccs_batch_05_open_items_updated_through_batch_16
+items:
+  - id: URB-U-0048
+    status: open
+    priority: medium
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: wedding_event_date_and_person_identification
+    source_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-023]
+    question: >-
+      Zachycují všechny tři fotografie tutéž svatbu, konala se skutečně roku 1948,
+      kdy přesně proběhla a kdo jsou novomanželé, svědci, další účastníci a duchovní?
+    known_facts:
+      - "Všechny tři snímky zachycují svatební obřad nebo svatební skupinu v témže typu interiéru sboru."
+      - "Oděvy a pořadí souborů podporují pracovní hypotézu jedné obrazové série."
+      - "Na jednom snímku je obřad u oltáře, na druhém svatební skupina a na třetím detail obřadního úkonu."
+      - "Rok 1948 a označení stavu před rekonstrukcí pocházejí z archivních názvů souborů."
+    unresolved_attributes:
+      - whether_all_three_images_show_same_wedding
+      - exact_wedding_date
+      - independent_confirmation_of_year_1948
+      - identities_of_newlyweds
+      - identities_and_roles_of_attendants_or_witnesses
+      - clergy_identity
+      - relation_to_interior_reconstruction_chronology
+    next_action: >-
+      Porovnat snímky s matrikou sňatků, církevní kronikou, rodinnými alby,
+      svatebními oznámeními a popsanými paralelními fotografiemi. Identifikace osob
+      musí vycházet z popisku, dokumentu nebo svědectví, nikoli pouze z obličeje.
+    reopen_triggers:
+      - marriage_register_found
+      - church_chronicle_entry_found
+      - captioned_parallel_photo_found
+      - wedding_announcement_found
+      - participant_or_family_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
+      - sources/index.d/urbanek-ccs-05.yml
+
+  - id: URB-U-0049
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: interior_reconstruction_chronology
+    related_open_items: [URB-U-0043, URB-U-0046, URB-U-0051, URB-U-0052, URB-U-0053]
+    source_items: [urbanek-ccs-021, urbanek-ccs-022, urbanek-ccs-024, urbanek-ccs-026, urbanek-ccs-027, urbanek-ccs-028, urbanek-ccs-029, urbanek-ccs-030]
+    question: >-
+      Jaká rekonstrukce interiéru proběhla kolem let 1948–1949, kdy začala a skončila,
+      co přesně změnila a v jakém pořadí souvisela s instalací varhan, doplněním
+      koberců a pozdější figurální výzdobou čelní stěny?
+    known_facts:
+      - "Urbanek-ccs-024 zachycuje starší podobu interiéru s balkony, dekorativní výzdobou a varhanními píšťalami na kůru."
+      - "Svatební snímky urbanek-ccs-021 a 022 zachycují stejnou nebo velmi podobnou starší výzdobu kněžiště."
+      - "Urbanek-ccs-026 zachycuje výrazně zjednodušené kněžiště s křížem a novým pravoúhlým oltářem, bez pozdějších bočních maleb."
+      - "Urbanek-ccs-027 zachycuje tentýž rekonstruovaný stav při zaplněné bohoslužbě."
+      - "Urbanek-ccs-028 dokládá pozdější doplnění několika vzorovaných koberců."
+      - "Urbanek-ccs-029 a 030 dokládají ještě pozdější trojdílnou figurální výzdobu čelní stěny."
+      - "Obrazová posloupnost bezpečně prokazuje relativní pořadí stavů, nikoli automaticky roky 1948, 1949 a 1957 uvedené v názvech."
+    unresolved_attributes:
+      - exact_reconstruction_start_date
+      - exact_reconstruction_completion_date
+      - independent_confirmation_of_years_1948_and_1949
+      - architectural_and_decorative_scope
+      - chronology_relative_to_organ_installation
+      - chronology_and_date_of_carpet_installation
+      - chronology_relative_to_front_wall_murals
+      - contractor_architect_or_artist
+      - funding_and_approval
+      - date_and_character_of_formal_reopening
+    next_action: >-
+      Sestavit úplnou obrazovou chronologii všech pohledů interiéru a porovnat ji
+      s účty, zápisy rady starších, stavební dokumentací, kronikou, záznamy o
+      varhanách a podklady k nástěnným malbám. Relativní pořadí obrazů je doloženo;
+      absolutní roky a rozsah prací vyžadují textový pramen.
+    reopen_triggers:
+      - dated_pre_or_post_reconstruction_photo_found
+      - construction_invoice_or_plan_found
+      - church_council_minutes_found
+      - organ_installation_record_found
+      - formal_reopening_program_found
+      - carpet_invoice_or_donation_found
+      - mural_invoice_or_restoration_record_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
+      - sources/index.d/urbanek-ccs-05.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml
+      - sources/index.d/urbanek-ccs-06.yml
+
+  - id: URB-U-0050
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: Ferdinand_Stibor_visit_bread_and_salt_event_date_full_sequence_council_and_people
+    source_items: [urbanek-ccs-025, urbanek-ccs-070, urbanek-ccs-071, urbanek-ccs-072, urbanek-ccs-073, urbanek-ccs-074, urbanek-ccs-075, urbanek-ccs-076]
+    question: >-
+      Zachycují všechny fotografie jednu návštěvu biskupa Ferdinanda Stibora v Rychvaldě
+      roku 1948, při jaké příležitosti proběhla, jak na sebe navazovalo uvítání chlebem
+      a solí, venkovní skupiny, setkání před oltářem, společné fotografování s dětmi a
+      sedmičlenná skupina označená jako rada starších, kde se části konaly a kdo jsou
+      host, duchovní, krojované osoby, děti, členové rady a další účastníci?
+    known_facts:
+      - "Urbanek-ccs-025 zachycuje velkou venkovní skupinu dospělých a dětí; mezi dospělými jsou osoby v duchovním oděvu a v přední řadě dívky v jednotných slavnostních nebo lidových krojích."
+      - "Jméno Ferdinanda Stibora, návštěva Rychvaldu a rok 1948 u urbanek-ccs-025 pocházejí z archivního názvu souboru."
+      - "Urbanek-ccs-070 zachycuje venkovní uvítání: žena v lidovém nebo slavnostním kroji nese tác s chlebem a malou miskou nebo nádobkou ke staršímu muži v kabátu."
+      - "Urbanek-ccs-071 a 072 zachycují tutéž nebo bezprostředně navazující venkovní skupinu z odlišných záběrů; opakují se účastníci a oděvy."
+      - "Urbanek-ccs-073 zachycuje menší skupinu dospělých a duchovních před oltářem v interiéru sboru."
+      - "Urbanek-ccs-074 je další formální skupinový snímek duchovních a civilních účastníků."
+      - "Urbanek-ccs-075 zachycuje velkou společnou skupinu dospělých, duchovních a dětí."
+      - "Urbanek-ccs-076 zachycuje sedm sedících dospělých; uprostřed je duchovní s výrazným řetězem nebo insignií a kyticí, po stranách civilně oblečení muži a jedna žena se šátkem."
+      - "Název urbanek-ccs-076 označuje skupinu jako biskupa Stibora s radou starších a obsahuje pouze fragmenty jmen ‚Herman, nn,Trant. Šm‘; chybějící části nebyly rekonstruovány."
+      - "Celá sedmisouborová podsložka je nyní vizuálně zpracována; soudržnost série podporují pořadí, prostředí a opakující se osoby, nikoli však sama o sobě identita hosta, datum nebo funkce."
+    unresolved_attributes:
+      - confirmation_of_Ferdinand_Stibor_identity_on_each_image
+      - exact_visit_date
+      - independent_confirmation_of_year_1948
+      - exact_event_or_liturgical_occasion
+      - whether_items_025_and_070_to_076_show_same_visit
+      - exact_sequence_of_welcome_outdoor_groups_altar_and_group_photographs
+      - exact_locations_and_route
+      - identities_of_clergy
+      - identity_of_older_welcomed_guest
+      - identity_and_group_affiliation_of_bread_and_salt_presenter
+      - identities_of_adult_participants
+      - identities_and_group_affiliation_of_costumed_children
+      - council_of_elders_status_and_membership_of_item_076
+      - left_to_right_identity_order_on_item_076
+      - full_names_and_spelling_behind_Herman_nn_Trant_and_Sm_fragments
+      - full_visit_program_and_sequence
+    next_action: >-
+      Porovnat celou dokončenou podsložku s církevní kronikou, zápisy rady starších,
+      návštěvními protokoly, dobovým tiskem, programem slavnosti a popsanými skupinovými
+      snímky. Získat úplný původní popisek položky 076. Osoby neidentifikovat pouze podle
+      obličejů, polohy ve skupině ani fragmentů jmen bez dalšího dokladu.
+    reopen_triggers:
+      - church_chronicle_visit_entry_found
+      - church_council_minutes_found
+      - dated_press_report_found
+      - visit_program_or_protocol_found
+      - complete_item_076_caption_found
+      - captioned_parallel_photo_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
+      - sources/index.d/urbanek-ccs-05.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
+      - sources/index.d/urbanek-ccs-14.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-15.yml
+      - sources/index.d/urbanek-ccs-15.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-16.yml
+      - sources/index.d/urbanek-ccs-16.yml

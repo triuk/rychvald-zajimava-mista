@@ -1,0 +1,76 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-18
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-086
+    title: Obřadní položení ruky na skloněného duchovního
+    document_type: historical_black_and_white_ritual_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/10.jpg"
+    file_size_bytes: 220193
+    git_blob_sha: 37c4ea3dc7a45b70737f0112011fae807210592d
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Postavy, kniha, svíce a gesto ruky jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_black_and_white_ritual_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Přesný rituál ani osoby nejsou obrazem určeny.", "Souvisí s URB-U-0062."]
+
+  - source_id: urbanek-ccs-087
+    title: Duchovní u oltáře s knihou a kalichem
+    document_type: historical_black_and_white_altar_ceremony_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/11.jpg"
+    file_size_bytes: 214588
+    git_blob_sha: 7add942016d2332daa2906e2e3a980801d7d6c94
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Oltář, otevřená kniha, kalich a duchovní jsou dobře čitelní."}
+    visual_content: {photographs: single_historical_black_and_white_altar_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Úřady osob ani obsah čtení nejsou ověřeny.", "Souvisí s URB-U-0062."]
+
+  - source_id: urbanek-ccs-088
+    title: Detail skupiny duchovních s kalichem a otevřenou knihou
+    document_type: historical_black_and_white_clergy_closeup
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/12.jpg"
+    file_size_bytes: 198731
+    git_blob_sha: 853c7990479892fc6c93c0eab1bd10b64830faa0
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Tváře, duchovní oděvy, kalich a kniha jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_black_and_white_clergy_closeup, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Otevřená ústa mohou znamenat zpěv nebo recitaci; přesný úkon není doložen.", "Souvisí s URB-U-0062."]
+
+  - source_id: urbanek-ccs-089
+    title: Duchovní s kalichem před oltářem
+    document_type: historical_black_and_white_chalice_ritual_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/13.jpg"
+    file_size_bytes: 251003
+    git_blob_sha: 4c834029fe14454aedee354f7bb51d03c524296e
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Držený kalich, řetěz nebo insignie, oltář a knihy jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_black_and_white_chalice_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Význam úkonu s kalichem není obrazem určen.", "Souvisí s URB-U-0062."]
+
+  - source_id: urbanek-ccs-090
+    title: Gratulace archivně označená jako gratulace manželce
+    document_type: historical_black_and_white_congratulation_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/14  Gratulace manželce.jpg"
+    file_size_bytes: 228705
+    git_blob_sha: 1b2331dbcb210106d66d36b62f642017893b8ce7
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Duchovní, čtyři ženy a gesto pozdravu nebo předání jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_black_and_white_congratulation_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {datetime: absent}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Rodinný vztah manželky pochází pouze z archivního názvu.", "Souvisí s URB-U-0062."]

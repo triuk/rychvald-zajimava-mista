@@ -1,0 +1,107 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: modern-choir-and-chrobacek-inauguration-09
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 1 Od položení základního kamene. Histotie rychvaldského kostela / archivní soubory 43–47
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Dávka dokumentuje novodobý pěvecký sbor a hudebníky při jednom či více vystoupeních v interiéru Husova sboru a velkou
+    historickou skupinu spojovanou archivním názvem s inaugurací Gabriela Chrobáčka. Obrazy potvrzují sbor, dirigenta, nástroje, varhany,
+    skupinové uspořádání a biskupskou insignii, nikoli přesná data, jména, funkce, události ani vzájemnou časovou vazbu snímků. Název
+    souboru 47 je useknut v identifikačně významné části. Pozdější Git kontrola prokázala, že urbanek-ccs-045 je přesnou binární kopií
+    urbanek-ccs-101 v Chrobáčkově podsložce.
+  basis:
+  - visual_performance_content
+  - repeated_church_interior
+  - archival_sequence
+  - verified_repo_files
+  - embedded_capture_metadata_review
+  - exact_git_blob_comparison
+items:
+- id: urbanek-ccs-041
+  archival_filename: 43  Pěvecký sbor  2001.jpg
+  visual_type: modern_color_choir_performance_photograph
+  description: Smíšený pěvecký sbor zpívá z notových desek v interiéru s čelní figurální výzdobou. V popředí jsou částečně zachyceni
+    další účastníci a hudebník s dechovým nástrojem.
+  subject_tags: [choir, singing, sheet_music, church_interior, year_2001_claim]
+  identification:
+    status: partially_verified
+    archival_claim: pěvecký sbor roku 2001
+    verified_from_image: [mixed_choir_singing, music_folders, church_interior, accompanying_musician_partially_visible]
+    unverified: [exact_date, year_2001, event_identity, choir_official_name, conductor_identity, singer_identities, repertoire, relationship_to_items_042_044]
+  ocr: {document_text: not_applicable, scene_text: not_detected}
+  capture_metadata: {status: no_usable_event_dating_metadata}
+  uncertainty_ids: [URB-U-0061]
+- id: urbanek-ccs-042
+  archival_filename: 44  Pěvecký sbor se sbormistrem p. Dajčem.jpg
+  visual_type: modern_color_choir_and_chamber_ensemble_performance
+  description: Smíšený sbor vystupuje s komorním souborem zahrnujícím smyčcové a dechové nástroje. Vpravo stojí dirigent. Za hudebníky
+    je ozdobený jehličnatý strom, který naznačuje vánoční období, nikoli však sám o sobě přesnou událost.
+  subject_tags: [choir, conductor, chamber_ensemble, strings, winds, decorated_tree, Dajc_claim]
+  identification:
+    status: partially_verified
+    archival_claim: pěvecký sbor se sbormistrem panem Dajčem
+    verified_from_image: [mixed_choir, conductor, chamber_ensemble, decorated_evergreen_tree, church_interior]
+    unverified: [exact_date, event_identity, Christmas_event_interpretation, Dajc_full_name_and_identity, Dajc_role, performer_identities, repertoire, relationship_to_items_041_044]
+  ocr: {document_text: not_applicable, scene_text: not_detected}
+  capture_metadata: {status: no_usable_event_dating_metadata}
+  uncertainty_ids: [URB-U-0061]
+- id: urbanek-ccs-043
+  archival_filename: 45  Členové pěveckého sboru.jpg
+  visual_type: modern_color_choir_member_group_portrait
+  description: Skupinový portrét více než dvou desítek dospělých a jednoho dítěte před čelní stěnou s krucifixem. Ve skupině je žena
+    s liturgickou štólou nesoucí motiv červeného kalicha.
+  subject_tags: [choir_members_claim, group_portrait, clergy_woman, chalice_symbol, child]
+  identification:
+    status: partially_verified
+    archival_claim: členové pěveckého sboru
+    verified_from_image: [large_mixed_group, one_child, female_liturgical_person, red_chalice_motif, church_chancel]
+    unverified: [exact_date, occasion, choir_membership_of_each_person, all_person_identities, clergy_identity, relationship_to_items_041_042_044]
+  ocr: {document_text: not_applicable, scene_text: not_detected}
+  capture_metadata:
+    exif_datetime: '2014-09-08 10:11:29'
+    interpretation: Datum dokládá digitální pořízení nebo reprodukci souboru, nikoli vznik zachycené události.
+  uncertainty_ids: [URB-U-0061]
+- id: urbanek-ccs-044
+  archival_filename: 46  U varhan p. uč. Dziadziová.jpg
+  visual_type: modern_color_organ_and_violin_performance_photograph
+  description: Žena sedí u varhanního hracího stolu, vpravo hraje mladá žena na housle a za varhanicí je další mladá žena. V pozadí
+    jsou viditelné varhanní píšťaly; v popředí jsou částečně zachyceni posluchači.
+  subject_tags: [organ, organist, violin, accompanist, audience, Dziadziova_claim]
+  identification:
+    status: partially_verified
+    archival_claim: u varhan paní učitelka Dziadziová
+    verified_from_image: [female_organist, female_violinist, organ_console, organ_pipes, audience_foreground]
+    unverified: [exact_date, event_identity, Dziadziova_full_name_and_identity, teacher_title_and_institution, violinist_identity, third_woman_identity, repertoire, relationship_to_items_041_043]
+  ocr: {document_text: not_applicable, scene_text: not_detected}
+  capture_metadata: {status: no_usable_event_dating_metadata}
+  uncertainty_ids: [URB-U-0061]
+- id: urbanek-ccs-045
+  archival_filename: 47  Na inauguraci biskupa Gabriela Chrobáčka přijelo z Rychv.jpg
+  visual_type: historical_black_and_white_large_inauguration_group_claim
+  description: Velká formální skupina několika desítek dospělých a dětí před monumentálním vstupem do budovy. Uprostřed přední řady
+    sedí duchovní s výrazným řetězem nebo insignií a po jeho stranách dvě ženy; jedna drží kytici.
+  subject_tags: [inauguration_claim, Gabriel_Chrobacek_claim, bishop, chain_or_insignia, Rychvald_delegation_claim, large_group, truncated_caption, exact_duplicate]
+  identification:
+    status: partially_verified
+    archival_claim: na inauguraci biskupa Gabriela Chrobáčka přijelo z Rychv…
+    verified_from_image: [large_formal_group, central_clergy_with_chain_or_insignia, adults_and_children, monumental_entrance, bouquet]
+    unverified: [exact_date, inauguration_identity, episcopal_office, Gabriel_Chrobacek_identity, location_and_building, Rychvald_delegation_status, participant_count, all_person_identities, complete_original_caption]
+  duplicate_relation:
+    exact_binary_duplicate_of: urbanek-ccs-101
+    verification: identical_git_blob_sha
+    git_blob_sha: d220a75fd2a69f43b2089c126488bbda84bea476
+    evidentiary_note: Dvě archivní cesty, ale jediný nezávislý obrazový záznam.
+  ocr: {document_text: not_applicable, scene_text: not_detected}
+  capture_metadata: {status: no_usable_event_dating_metadata}
+  filename_note: Název končí useknutým řetězcem ‚Rychv‘; pokračování nebylo rekonstruováno.
+  uncertainty_ids: [URB-U-0062]
+open_research_candidates:
+- {id: URB-U-0061, subject: modern_choir_events_2001_Dajc_Dziadziova_members_and_sequence}
+- {id: URB-U-0062, subject: Gabriel_Chrobacek_inauguration_date_location_Rychvald_delegation_caption_and_exact_duplicate}
+next_action: Sborovou sérii porovnat s programy, kronikou, členskými seznamy a personálními záznamy; inaugurační skupinu s dokumenty
+  o volbě a uvedení Gabriela Chrobáčka. Urbanek-ccs-045 a 101 evidovat jako dvě archivní položky, ale jediný nezávislý obraz. Osoby
+  neurčovat pouze podle vzhledu a useknutý název nedoplňovat odhadem.

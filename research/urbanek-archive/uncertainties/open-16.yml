@@ -1,0 +1,105 @@
+schema_version: 1
+scope: ccs_batch_13_open_items_updated_through_batch_36
+items:
+- id: URB-U-0068
+  status: open
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: Leonard_Bogumski_Bogumsky_Bugumsky_name_identity_service_spouse_garden_visits_Ostravice_caption_and_Doubrava_unknown_service
+  related_open_items:
+  - URB-U-0063
+  - URB-U-0064
+  - URB-U-0067
+  - URB-U-0070
+  source_items:
+  - urbanek-ccs-062
+  - urbanek-ccs-064
+  - urbanek-ccs-065
+  - urbanek-ccs-128
+  - urbanek-ccs-176
+  - urbanek-ccs-177
+  - urbanek-ccs-178
+  - urbanek-ccs-179
+  - urbanek-ccs-180
+  question: Jaká je správná úřední podoba jména Leonard Bogumski, Bogumský nebo Bugumský, kdy a kde působil jako farář, je
+    duchovní na portrétu skutečně on, která osoba na skupinových snímcích je Bogumský a která jeho manželka, kde byla zahrada,
+    kdy přesně návštěvy proběhly a koho přesně označuje archivní název „Vlevo Leonard Bugumský“ na fotografii slavnosti u
+    kaple na Ostravici? Zachycují položky 176 až 180 skutečně Leonarda Bogumského v Doubravě, kdy a při jaké slavnosti nebo
+    bohoslužbě vznikly, kdo jsou ostatní účastníci a jaký přesný liturgický úkon je zachycen?
+  known_facts:
+  - Urbanek-ccs-062 zachycuje muže v duchovním oděvu a světlé štole, který čte z otevřené knihy za liturgickým stolem se znakem
+    kalicha a kříže.
+  - Jméno Leonard Bogumski a funkce faráře pocházejí z archivního názvu urbanek-ccs-062.
+  - Urbanek-ccs-064 zachycuje širší skupinu, jejíž přední řadu tvoří dvě sedící ženy a dva sedící muži.
+  - Urbanek-ccs-065 zachycuje stejné čtyři sedící osoby samostatně před zahradním plotem.
+  - Archivní názvy tvrdí, že jde o faráře Vodičku a Bogumského s manželkami a že zahradní snímek vznikl u faráře Bogumského.
+  - Název druhé podsložky uvádí návštěvu faráře Vodičky v letech 1965 a 1970; jde o archivní metadata, nikoli potvrzenou dataci
+    jednotlivých snímků.
+  - Archiv používá pravopisné varianty Bogumski a Bogumský; urbanek-ccs-128 používá podobu Bugumský.
+  - Urbanek-ccs-128 zachycuje otevřený vstup kaple, oltář s kalichem, svícny a květinami, centrálního duchovního s řetězem
+    a početnou skupinu dalších duchovních.
+  - Archivní název urbanek-ccs-128 zní „Vlevo Leonard Bugumský“.
+  - V levé části urbanek-ccs-128 je několik mužů, takže bez původní anotace nelze bezpečně určit, kterou osobu výraz „vlevo“
+    označuje.
+  - Urbanek-ccs-128 neobsahuje použitelné embedded datum.
+  - Archivní název osmé podsložky připisuje položky 176 až 180 faráři Leonardu Bogumskému v Doubravě při neznámých oslavách;
+    jde o archivní atribuci.
+  - Položky 176, 177 a 180 zachycují stejný oltář pod krucifixem, kalich, knihy a opakující se osoby v dlouhých tmavých oděvech.
+  - Položka 178 zachycuje zaplněný interiér s galerií, velkou korouhví nebo praporem, dvěma duchovními v uličce a několika
+    symboly.
+  - Položka 179 zachycuje duchovního u pultu s textilií se znakem kalicha a pouze částečně čitelným textem.
+  - Položka 180 zachycuje ruku nebo malý předmět přibližovaný k ústům mladšího duchovního; přesný liturgický úkon není obrazově
+    určen.
+  - Všechny položky 176 až 180 mají odlišné Git blob SHA a žádná nemá použitelné embedded datum.
+  unresolved_attributes:
+  - authoritative_name_spelling_and_full_titles
+  - portrait_identity
+  - birth_death_and_biographical_data
+  - exact_clerical_service_places_and_dates
+  - relationship_to_Rychvald_Ostravice_and_Doubrava_congregations
+  - identity_and_biography_of_spouse
+  - mapping_of_four_seated_people
+  - identities_of_larger_group
+  - garden_owner_location_and_address
+  - exact_date_of_each_group_image
+  - whether_1965_and_1970_represent_two_visits
+  - exact_anniversary_or_event_context
+  - relationship_to_baptisms_and_fiftieth_anniversary_series
+  - exact_person_referred_to_by_left_caption_on_item_128
+  - independent_confirmation_of_presence_at_Ostravice_chapel_event
+  - relationship_of_item_128_to_items_126_127_129_130_and_historical_procession
+  - independent_confirmation_that_items_176_to_180_show_Leonard_Bogumsky
+  - exact_Doubrava_church_or_congregation_location
+  - exact_date_and_purpose_of_Doubrava_service_or_celebration
+  - identities_and_roles_of_other_clergy
+  - exact_liturgical_rite_and_sequence
+  - meaning_and_organizational_context_of_banner_and_wall_symbols
+  - complete_transcription_and_meaning_of_lectern_textile
+  - relationship_of_items_176_to_180_to_item_062_and_other_Bogumsky_images
+  - photographer_and_original_provenance_of_Doubrava_series
+  next_action: Hledat personální schematismy a církevní adresáře, sborovou a obecní kroniku, zápisy rady starších, programy
+    návštěv roku 1965 a 1970, program a seznam duchovních ostravické slavnosti, kroniku a archiv náboženské obce v Doubravě,
+    dobové programy bohoslužeb a oslav, rodinné prameny, životopis a další popsané fotografie. Porovnat interiér položek 176
+    až 180 s doloženými fotografiemi doubravského chrámu. Pravopis jména, osoby, místo ani přesný liturgický úkon neurčovat
+    pouze podle archivního pořadí, polohy v obraze, tváře, oděvu nebo gesta.
+  reopen_triggers:
+  - clergy_personnel_record_found
+  - authoritative_name_source_found
+  - 1965_or_1970_visit_program_found
+  - church_or_municipal_chronicle_entry_found
+  - Ostravice_event_program_or_clergy_list_found
+  - Doubrava_congregation_chronicle_or_service_record_found
+  - Doubrava_church_interior_comparison_found
+  - service_program_or_anniversary_notice_found
+  - spouse_or_family_identification_provided
+  - garden_or_parsonage_address_confirmed
+  - captioned_parallel_photo_found
+  - participant_identification_provided
+  - photographer_or_original_caption_found
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-13.yml
+  - sources/index.d/urbanek-ccs-13.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-26.yml
+  - sources/index.d/urbanek-ccs-26.yml
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-36.yml
+  - sources/index.d/urbanek-ccs-36.yml

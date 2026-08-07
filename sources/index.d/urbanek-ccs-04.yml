@@ -1,0 +1,86 @@
+schema_version: 1
+scope: urbanek-ccs-history
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; jednotliví autoři a držitelé práv nejsou ověřeni. Neznámá práva."
+
+sources:
+  - source_id: urbanek-ccs-016
+    title: Nástěnná malba spojovaná s Cyrilem a Metodějem, archivní označení
+    document_type: modern_color_documentation_of_mural
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/17  V r. 1932 byly namalovány obrazy nad balkony.Cyril a Met.jpg"
+    file_size_bytes: 8375983
+    git_blob_sha: c6b599ad17866e20e13c1ca039d91f44a4be8b49
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good_with_surface_cracks, note: "Výjev je čitelný; povrch malby je popraskaný."}
+    visual_content: {photographs: mural_documentation, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Datace 1932, autor, přesný námět a umístění jsou vedeny v URB-U-0043."
+
+  - source_id: urbanek-ccs-017
+    title: Nástěnná malba spojovaná s Janem Husem před upálením, archivní označení
+    document_type: modern_color_documentation_of_mural
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/17a  Jan Hus před upálením na hranici v r. 1415.jpg"
+    file_size_bytes: 8255625
+    git_blob_sha: 557e94fcfbe8fe0a40ceb21fb0a45f956cd55df5
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good_with_surface_cracks, note: "Výjev je čitelný; povrch malby je popraskaný."}
+    visual_content: {photographs: mural_documentation, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Identifikace výjevu, autor, datace malby a historie zachování jsou vedeny v URB-U-0043."
+
+  - source_id: urbanek-ccs-018
+    title: Husův sbor bez jasně viditelného hesla a kalicha, archivní označení
+    document_type: historical_architectural_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/19  Za polské okupace byl kostel zbaven hesla a kalicha.jpg"
+    file_size_bytes: 318772
+    git_blob_sha: da1c553a3033374e86fb6cb2b2b602b7d14608d1
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good_with_spots, note: "Architektura je čitelná; předloha má skvrny a drobné poškození."}
+    visual_content: {photographs: single_historical_architectural_scene, scene_text: not_detected, method: "Vizuální kontrola fasády a věže."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Okupační souvislost, odstraněné prvky a jejich obnova jsou vedeny v URB-U-0044."
+
+  - source_id: urbanek-ccs-019
+    title: Upravené prostranství před Husovým sborem, archivní označení
+    document_type: historical_architectural_and_landscape_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/21  Před kostelem byla za německé okupace provedana takováto.jpg"
+    file_size_bytes: 180463
+    git_blob_sha: e4043f06f45c3b8560f067cc770761f03d18c721
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Budova, zahradní úprava a automobil jsou čitelné."}
+    visual_content: {photographs: single_historical_architectural_landscape_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Datace, autor úpravy a vztah k německé okupaci jsou vedeny v URB-U-0045."
+
+  - source_id: urbanek-ccs-020
+    title: Skupina před varhanními píšťalami, archivní označení roku 1946
+    document_type: historical_indoor_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/22   1946 nová varhany. Rada starších    a zástupci  MNV při.jpg"
+    file_size_bytes: 204745
+    git_blob_sha: e8f0bc2c11136d210c6f02a314350160ad007763
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Skupina a varhanní píšťaly jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_indoor_group_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Rok, nové varhany, výrobce, událost a identity osob jsou vedeny v URB-U-0046."
+
+archive_sequence_note:
+  uncertainty_ref: URB-U-0047
+  observed_filenames: ["15", "17", "17a", "19", "21", "22"]
+  note: "Mezery v číslování samy o sobě neprokazují chybějící obrazové soubory."

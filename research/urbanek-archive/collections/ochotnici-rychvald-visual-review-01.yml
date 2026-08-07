@@ -1,0 +1,70 @@
+collection_id: urbanek-ochotnici
+review_batch: visual-review-01
+status: completed
+reviewed_at: 2026-07-21
+method: full_line_by_line_visual_comparison
+items_reviewed:
+  - urbanek-ochotnici-032
+  - urbanek-ochotnici-033
+  - urbanek-ochotnici-013
+  - urbanek-ochotnici-023
+  - urbanek-ochotnici-039
+  - urbanek-ochotnici-042
+  - urbanek-ochotnici-047
+outputs:
+  - research/urbanek-archive/ocr/urbanek-ochotnici-032-033-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-013-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-023-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-039-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-042-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-047-document-text.md
+results:
+  visually_verified_items: 7
+  files_with_textual_or_structural_corrections: 3
+  files_confirmed_without_textual_correction: 3
+  files_with_typographic_only_correction: 1
+corrections:
+  - output: research/urbanek-archive/ocr/urbanek-ochotnici-032-033-document-text.md
+    type: layout_semantics
+    before: "ve službách vévodových bylo připojeno pouze k Valentinovi"
+    after: "společné označení Valentina a Curia je vedeno odděleně podle fyzické sazby"
+  - output: research/urbanek-archive/ocr/urbanek-ochotnici-013-document-text.md
+    type: transcription_error
+    before: "KLÍPERA"
+    after: "KLICPERA"
+    evidence: "Název souboru je na plakátu zřetelně vysázen bez dlouhého í."
+  - output: research/urbanek-archive/ocr/urbanek-ochotnici-023-document-text.md
+    type: non_text_symbol
+    before: "odrážky mezi městy"
+    after: "dekorativní ornamenty"
+  - output: research/urbanek-archive/ocr/urbanek-ochotnici-047-document-text.md
+    type: typography_and_resolved_reading
+    changes:
+      - "potvrzeno číslo jednací 9272/60-sl."
+      - "datum zachováno jako 23.6.1960"
+      - "spojovníky v záhlaví zachovány podle předlohy"
+confirmed_without_textual_correction:
+  - research/urbanek-archive/ocr/urbanek-ochotnici-039-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-042-document-text.md
+  - research/urbanek-archive/ocr/urbanek-ochotnici-023-document-text.md
+open_uncertainties_preserved:
+  - URB-U-0026
+notes:
+  - Rukopisné podpisy na čestném uznání nebyly doplněny odhadem.
+  - Vizuální ověření tisku není nezávislým historickým ověřením osobních jmen nebo událostí.
+next_action:
+  type: second_visual_review_group
+  group_id: kromeriz-celostatni-prehlidka
+  primary_items:
+    - urbanek-ochotnici-001
+    - urbanek-ochotnici-004
+    - urbanek-ochotnici-010
+    - urbanek-ochotnici-011
+    - urbanek-ochotnici-012
+    - urbanek-ochotnici-014
+    - urbanek-ochotnici-027
+  verification_only_items: [urbanek-ochotnici-009]
+  instruction: >-
+    Compare each article and caption line by line with its primary source image. Keep
+    item 009 only as a verification detail for item 010. Record layout boundaries,
+    damaged or cropped text and every correction in a second visual-review batch.

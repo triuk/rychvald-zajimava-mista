@@ -1,0 +1,166 @@
+collection_id: urbanek-ceske-slovo
+batch_id: grouping-04
+status: completed
+scope: urbanek-ceske-slovo-032..urbanek-ceske-slovo-037
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+machine_assessment_status: machine_unverified
+
+batch_summary:
+  image_items: 6
+  multi_image_continued_articles: 1
+  single_article_or_roundup_clippings: 3
+  masthead_page_crops: 1
+  complete_primary_text_units: 5
+  partial_secondary_items: 1
+
+items:
+  - id: urbanek-ceske-slovo-032
+    source_path: "Články z Českého slova/31 a.jpg"
+    item_type: continued_article_part
+    article_group: mile-klopoty
+    sequence: 1
+    primary_content:
+      headline: "„Milé klopoty“"
+      subheadline: "Jak si posuzují polské časopisy situaci na Těšínsku"
+      completeness: continues_in_next_image
+      topic_tags: [polsky_tisk, situace_na_tesinsku, okupace, hospodarstvi, kritika_polske_spravy]
+    continuation:
+      next_id: urbanek-ceske-slovo-033
+      basis: sentence_continues_across_physical_crop_and_matching_layout
+    ocr_plan:
+      document_text: transcribe_jointly_with_next_image
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-033
+    source_path: "Články z Českého slova/31 b.jpg"
+    item_type: continued_article_part
+    article_group: mile-klopoty
+    sequence: 2
+    primary_content:
+      headline: null
+      completeness: concluding_part
+      topic_tags: [polsky_tisk, situace_na_tesinsku, doprava, trinec, jablunkov, petrvald]
+    continuation:
+      previous_id: urbanek-ceske-slovo-032
+      basis: begins_mid_sentence_and_completes_article
+    ocr_plan:
+      document_text: transcribe_jointly_with_previous_image
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-034
+    source_path: Články z Českého slova/32.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Které sňatky na Těšínsku musí býti znovu provedeny"
+      completeness: complete
+      topic_tags: [snatky, tesinsko, rimsko_katolicka_cirkev, evangelicka_cirkev, ceskoslovenska_cirkev, polske_narizeni]
+      signature: "-voj-"
+    grouping:
+      group_id: pravni-a-spravni-zmeny-na-tesinsku
+      role: complete_short_article
+    ocr_plan: {document_text: full_transcription, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-035
+    source_path: Články z Českého slova/33.jpg
+    item_type: news_roundup_clipping_with_damaged_area
+    primary_content:
+      headline: "Zprávy z Těšínska"
+      completeness: near_complete_with_physical_damage
+      structure: brief_items_separated_by_dashes
+      topic_tags: [doubrava, komisari, ceske_skoly, ceny, citrony, narodni_dum, sokol, pojistovny]
+      damaged_region:
+        location: lower_middle
+        effect: several_words_or_lines_lost_or_obscured
+    grouping:
+      group_id: kratke-zpravy-z-tesinska
+      role: news_roundup
+    ocr_plan:
+      document_text: transcribe_visible_text_and_mark_lacuna
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-036
+    source_path: Články z Českého slova/34.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Protest uprchlíků z Petřvaldu"
+      subheadline: "Žádají plebiscit v českých obcích, zabraných Poláky"
+      completeness: complete
+      topic_tags: [petrvald, uprchlici, protest, plebiscit, zabor_polskem]
+      signature: "-jš-"
+    grouping:
+      group_id: protesty-a-uprchlici-z-tesinska
+      role: complete_article
+    ocr_plan: {document_text: full_transcription, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-037
+    source_path: Články z Českého slova/35.jpg
+    item_type: newspaper_masthead_and_article_crop
+    bibliographic_context:
+      newspaper: České slovo – pondělník
+      printed_date: 1938-10-31
+      printed_date_text: "31. října 1938"
+      volume: "10"
+      issue: "301"
+      price: "20 h"
+    subitems:
+      - sub_id: urbanek-ceske-slovo-037-a
+        item_type: masthead
+        completeness: complete_masthead_crop
+        ocr_plan: full_short_transcription
+      - sub_id: urbanek-ceske-slovo-037-b
+        headline: "Beck pro spolupráci s Československem"
+        subheadline: "Proč Polsko podporuje maďarské požadavky"
+        dateline: "Varšava 30. října"
+        completeness: complete_short_article
+        agency: ČTK
+        topic_tags: [jozef_beck, ceskoslovensko, polsko, madarske_pozadavky, podkarpatska_rus]
+        ocr_plan: full_transcription
+      - sub_id: urbanek-ceske-slovo-037-c
+        visible_section_label: "Nedělní ohlas"
+        visible_headline: "Úmluvy gentlemanů"
+        completeness: beginning_and_right_edge_only
+        topic_tags: [berlin, rim, politicka_osa]
+        ocr_plan: visible_fragment_only
+    grouping:
+      group_id: ceske-slovo-1938-10-31-masthead-and-articles
+      role: masthead_plus_complete_primary_article_and_partial_adjacent_article
+    ocr_plan:
+      document_text: separate_by_subitem
+      scene_text: not_applicable
+
+groups:
+  - group_id: mile-klopoty
+    type: one_article_across_two_images
+    members: [urbanek-ceske-slovo-032, urbanek-ceske-slovo-033]
+    article_title: "„Milé klopoty“"
+  - group_id: pravni-a-spravni-zmeny-na-tesinsku
+    type: thematic_group
+    members: [urbanek-ceske-slovo-034]
+  - group_id: kratke-zpravy-z-tesinska
+    type: thematic_group_of_roundups
+    members: [urbanek-ceske-slovo-035]
+  - group_id: protesty-a-uprchlici-z-tesinska
+    type: local_article
+    members: [urbanek-ceske-slovo-036]
+  - group_id: ceske-slovo-1938-10-31-masthead-and-articles
+    type: physical_page_header_crop
+    members: [urbanek-ceske-slovo-037]
+
+collection_grouping_status:
+  image_items_grouped: 37
+  total_image_items: 37
+  complete: true
+  files:
+    - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-01.yml
+    - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-02.yml
+    - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-03.yml
+    - research/urbanek-archive/collections/clanky-z-ceskeho-slova-grouping-04.yml
+
+next_action:
+  type: ocr_document_group
+  suggested_group: ceske-slovo-1938-10-01-masthead
+  instruction: >-
+    Begin OCR in small article-level commits. First transcribe the short masthead item
+    urbanek-ceske-slovo-001 and then proceed with urbanek-ceske-slovo-002 as a
+    separate article. Preserve printed spelling and mark uncertain characters.

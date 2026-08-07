@@ -1,0 +1,97 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+source_root: sources/osobni-archiv-jaromira-urbanka/Rychvald
+drive_folder_id: 1F5-qLV2yqg2i3RZkjHdDyN7Sg5ZHZREI
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: in_progress
+totals:
+  content_files: 31
+  technical_files: 2
+  total_items: 33
+progress:
+  processed_content_files: 20
+  processed_technical_files: 0
+  processed_items: 20
+  repo_verified_items: 20
+  visually_classified_items: 20
+  source_indexed_items: 20
+  remaining_content_files: 11
+  remaining_technical_files: 2
+  remaining_items: 13
+completed_batches:
+- number: 1
+  items: 001-005
+  filenames:
+  - Budova úřadu 003.jpg
+  - Budova úřadu 005.jpg
+  - Cudlín 033.jpg
+  - Cudlín 035.jpg
+  - Cudlín 037.jpg
+  id: municipal-office-and-central-public-space-01
+  inventory: research/urbanek-archive/collections/rychvald-inventory-01.csv
+  classification: research/urbanek-archive/collections/rychvald-batch-01.yml
+  source_index: sources/index.d/urbanek-rychvald-01.yml
+- number: 2
+  items: 006-010
+  filenames:
+  - Cudlín 041.jpg
+  - Kopie - Budova úřadu 005.jpg
+  - P1010066.JPG
+  - P1010067.JPG
+  - P1010068.JPG
+  id: sacral-interior-duplicate-office-and-historical-public-school-images-02
+  inventory: research/urbanek-archive/collections/rychvald-inventory-02.csv
+  classification: research/urbanek-archive/collections/rychvald-batch-02.yml
+  source_index: sources/index.d/urbanek-rychvald-02.yml
+- number: 3
+  items: 011-015
+  filenames:
+  - P1010069.JPG
+  - P1010070.JPG
+  - P1010071.JPG
+  - P1010072.JPG
+  - P1010114.JPG
+  id: historical-postcard-sacral-building-local-history-maps-and-manuscript-page-03
+  inventory: research/urbanek-archive/collections/rychvald-inventory-03.csv
+  classification: research/urbanek-archive/collections/rychvald-batch-03.yml
+  source_index: sources/index.d/urbanek-rychvald-03.yml
+- number: 4
+  items: 016-020
+  filenames:
+  - P1010115.JPG
+  - P1010116.JPG
+  - P1010117.JPG
+  - Rychvald2009 003.jpg
+  - Rychvald2009 004.jpg
+  id: handwritten-chronology-vocational-school-page-and-cemetery-monument-04
+  inventory: research/urbanek-archive/collections/rychvald-inventory-04.csv
+  classification: research/urbanek-archive/collections/rychvald-batch-04.yml
+  source_index: sources/index.d/urbanek-rychvald-04.yml
+interpretation_rules:
+- The folder title Rychvald and individual filenames are archival metadata, not independent proof of exact location, authorship or date.
+- Visible signs and captions are transcribed as photographed wording; their underlying historical claims, abbreviations and dates require corroboration.
+- EXIF timestamps are preserved as capture metadata and are not historical-event dates.
+- Exact binary duplicates under different filenames remain separate inventory items but count as one independent image.
+- The name Cudlín in a filename is not treated as a verified photographer credit without corroborating metadata or documentation.
+- People, events and institutional identities in historical photographs are not identified solely from appearance, uniforms, costumes, flags or architecture.
+- Headings and page numbers on photographed maps or manuscripts document the wording of the photographed source; they do not by themselves verify the historical
+  accuracy, authorship or date of that source.
+- Near-consecutive photographs of the same monument remain separate images unless binary identity is demonstrated; filename and folder context alone do
+  not establish monument identity or exact location.
+open_uncertainties:
+- URB-U-0082
+technical_files:
+- path: Thumbs.db
+  status: not_yet_audited
+- path: ZbThumbnail.info
+  status: not_yet_audited
+next_batch:
+  number: 5
+  filenames:
+  - Rychvald2009 005.jpg
+  - Rychvald2009 008.jpg
+  - Zp0707 090.jpg
+  - Zp1109 005.jpg
+  - Zp1109 082.jpg

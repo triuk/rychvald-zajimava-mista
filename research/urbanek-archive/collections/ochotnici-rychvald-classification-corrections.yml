@@ -1,0 +1,25 @@
+collection_id: urbanek-ochotnici
+status: active_corrections
+basis: detailed_ocr_review
+
+book_pages_40_45:
+  source_items: [urbanek-ochotnici-017, urbanek-ochotnici-016, urbanek-ochotnici-015]
+  text_units:
+    - id: urbanek-ochotnici-017-a
+      title: "Založení tělocvičné jednoty „Sokol“ v Rychvaldě"
+      completeness: complete_article
+      output: research/urbanek-archive/ocr/urbanek-ochotnici-017-a-document-text.md
+    - id: urbanek-ochotnici-015-017-bohdan-horak
+      title: "Vzpomínky na Rychvald za války"
+      completeness: complete_article_pages_40_44
+      output: research/urbanek-archive/ocr/urbanek-ochotnici-015-017-bohdan-horak-document-text.md
+    - id: urbanek-ochotnici-015-b
+      title: "Episody při sčítání lidu 1910"
+      completeness: complete_article_pages_44_45
+      output: research/urbanek-archive/ocr/urbanek-ochotnici-015-b-document-text.md
+    - id: urbanek-ochotnici-015-c
+      title: "Hospodářský přehled"
+      completeness: beginning_only
+      ending: "Dřívějšímu po-"
+      uncertainty: URB-U-0029
+      output: research/urbanek-archive/ocr/urbanek-ochotnici-015-c-document-text.md

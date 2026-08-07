@@ -1,0 +1,108 @@
+schema_version: 1
+collection_id: urbanek-ceske-slovo
+purpose: >-
+  Autoritativní korekce seskupení zjištěné při druhé vizuální kontrole. V případě
+  rozporu mají tyto záznamy přednost před původními grouping-01 až grouping-04.
+
+corrections:
+  - parent_image_id: urbanek-ceske-slovo-004
+    reviewed_at: 2026-07-20
+    reason: Druhá řádková a strukturální kontrola složeného výstřižku.
+    original_subitems:
+      - urbanek-ceske-slovo-004-a
+      - urbanek-ceske-slovo-004-b
+      - urbanek-ceske-slovo-004-c
+    corrected_subitems:
+      - id: urbanek-ceske-slovo-004-a
+        type: complete_article
+        headline: "Má Polsko nároky na české obce?"
+      - id: urbanek-ceske-slovo-004-b
+        type: complete_article
+        headline: "Slovenský ministr Černák hrozí demisí"
+      - id: urbanek-ceske-slovo-004-b2
+        type: complete_short_article_without_printed_headline
+        working_title: "Čeští železničáři na Slovensku"
+        begins_with: "Bratislava 3. října. (er)"
+        note: >-
+          V prvním OCR průchodu byla tato samostatně datovaná zpráva chybně ponechána
+          uvnitř textové jednotky 004-b.
+      - id: urbanek-ceske-slovo-004-c
+        type: headline_only_fragment
+        headline: "Mnoho otázek před berlínskou komisí"
+        note: Tělo článku není na obraze zachyceno.
+
+  - parent_image_id: urbanek-ceske-slovo-007
+    reviewed_at: 2026-07-20
+    reason: Spodní nadpis patří jinému článku než hlavní text.
+    corrected_subitems:
+      - id: urbanek-ceske-slovo-007
+        type: complete_article
+        headline: "Poláci pokračují v obsazování těšínského území"
+      - id: urbanek-ceske-slovo-007-b
+        type: headline_only_fragment
+        headline: "Malhomme se vrátil"
+        note: Tělo sousedního článku leží mimo obraz.
+
+  - parent_image_id: urbanek-ceske-slovo-010
+    reviewed_at: 2026-07-20
+    reason: Horní oříznutý řádek je konec samostatného předchozího článku.
+    corrected_subitems:
+      - id: urbanek-ceske-slovo-010
+        type: complete_article
+        headline: "V sobotu se zahájí obsazování Fryštátska"
+      - id: urbanek-ceske-slovo-010-b
+        type: unidentified_ending_fragment
+        readable_signature: "-vk-"
+        note: Nadpis a souvislý text předchozího článku nejsou zachyceny.
+
+  - parent_image_id: urbanek-ceske-slovo-019
+    reviewed_at: 2026-07-21
+    reason: Horní zakončení se signaturou patří jinému článku než hlavní text o šachtách.
+    corrected_subitems:
+      - id: urbanek-ceske-slovo-019
+        type: complete_article
+        headline: "Vojenský dozor na šachtách na Těšínsku"
+      - id: urbanek-ceske-slovo-019-b
+        type: unidentified_ending_fragment
+        visible_text: "…cích. -bi-"
+        note: Nadpis, začátek slova a souvislý text předchozího článku nejsou zachyceny.
+
+reviewed_items:
+  - urbanek-ceske-slovo-001
+  - urbanek-ceske-slovo-002
+  - urbanek-ceske-slovo-003
+  - urbanek-ceske-slovo-004-a
+  - urbanek-ceske-slovo-004-b
+  - urbanek-ceske-slovo-004-b2
+  - urbanek-ceske-slovo-004-c
+  - urbanek-ceske-slovo-005
+  - urbanek-ceske-slovo-006
+  - urbanek-ceske-slovo-007
+  - urbanek-ceske-slovo-007-b
+  - urbanek-ceske-slovo-008
+  - urbanek-ceske-slovo-009
+  - urbanek-ceske-slovo-010
+  - urbanek-ceske-slovo-010-b
+  - urbanek-ceske-slovo-011
+  - urbanek-ceske-slovo-012
+  - urbanek-ceske-slovo-013
+  - urbanek-ceske-slovo-014
+  - urbanek-ceske-slovo-015
+  - urbanek-ceske-slovo-016-a
+  - urbanek-ceske-slovo-016-b
+  - urbanek-ceske-slovo-017-a
+  - urbanek-ceske-slovo-017-b
+  - urbanek-ceske-slovo-017-c
+  - urbanek-ceske-slovo-017-d
+  - urbanek-ceske-slovo-018
+  - urbanek-ceske-slovo-019
+  - urbanek-ceske-slovo-019-b
+  - urbanek-ceske-slovo-020
+  - urbanek-ceske-slovo-021-a
+  - urbanek-ceske-slovo-021-b
+  - urbanek-ceske-slovo-022-a
+  - urbanek-ceske-slovo-022-b
+  - urbanek-ceske-slovo-022-c
+  - urbanek-ceske-slovo-022-d
+  - urbanek-ceske-slovo-023-a
+  - urbanek-ceske-slovo-023-b

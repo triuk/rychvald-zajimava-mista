@@ -1,0 +1,34 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+collection_title: Fotografie knihy Rychvald včera a dnes
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-vcera-dnes-055
+  title: Thumbs.db
+  collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+  source_path: Fotografie knihy Rychvald včera a dnes/Thumbs.db
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/Thumbs.db
+  document_type: windows_thumbnail_cache
+  mime_type: application/octet-stream
+  file_size_bytes: 203264
+  git_blob_sha: 994155fade2d4f2472cb8b77976262b767ab38f4
+  sha256: 86a9e6592075496d6302389198300e09623f104c3a74a593a93ffca2107d8ff8
+  drive_id: 1tH47HgF21oE69wvCOytZSMnNgJczU-0q
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  classification: technical_thumbnail_cache
+  audit_report: research/urbanek-archive/reports/fotografie-knihy-rychvald-vcera-a-dnes-thumbs-audit.md
+  cache_summary:
+    cfb_major_version: 3
+    sector_size_bytes: 512
+    mini_sector_size_bytes: 64
+    catalog_version: 7
+    catalog_entries: 54
+    target_thumbnail_width_px: 96
+    target_thumbnail_height_px: 96
+    valid_jpeg_streams: 54
+    duplicate_thumbnail_streams: 0
+    cache_only_source_names: 0
+    missing_full_originals_evidenced: 0

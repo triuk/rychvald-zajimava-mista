@@ -1,0 +1,11 @@
+collection_id: urbanek-ochotnici
+batch_id: verification-07
+status: completed
+verified_count: 3
+missing_count: 0
+items:
+- [urbanek-ochotnici-061, 516b6a0d1e37edc694143ad557451db01eb939ee]
+- [urbanek-ochotnici-062, 9bfd2949bf00008372aedc4c2cbfe3538dec6ff9]
+- [urbanek-ochotnici-063, dbb2d1c057e34a9176c8e501c670d86461a1a9a2]
+notes:
+- Binární dokument DOC je přítomen pod přesným původním názvem.

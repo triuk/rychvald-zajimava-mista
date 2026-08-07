@@ -1,0 +1,276 @@
+collection_id: urbanek-ceske-slovo
+batch_id: grouping-03
+status: completed
+scope: urbanek-ceske-slovo-022..urbanek-ceske-slovo-031
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+machine_assessment_status: machine_unverified
+
+batch_summary:
+  image_items: 10
+  single_article_or_roundup_clippings: 5
+  composite_clippings: 4
+  photographic_caption_items: 1
+  document_text_candidates: 10
+  scene_text_candidates: 1
+  chronology_warning: >-
+    Dávka zahrnuje nejméně období od 12. do 29. října 1938. Číselné názvy
+    pravděpodobně vyjadřují pracovní pořadí výstřižků, nikoli přesnou chronologii.
+
+items:
+  - id: urbanek-ceske-slovo-022
+    source_path: Články z Českého slova/21.jpg
+    item_type: newspaper_page_crop_with_multiple_articles
+    bibliographic_context:
+      newspaper: České slovo
+      printed_date: 1938-10-12
+      printed_date_text: "12. října 1938"
+      issue: "281"
+      page: "2"
+    subitems:
+      - sub_id: urbanek-ceske-slovo-022-a
+        headline: "Polský zábor českých obcí dokončen"
+        subheadline: "Velké stížnosti na chování polských úředníků – Dojemné loučení českých lidí v Bohumíně s českým vojskem"
+        completeness: complete_or_near_complete
+        internal_subheads:
+          - "Jak se prováděl zábor Bohumínska"
+          - "Polské obavy o Bohumínsko"
+          - "Němci zatýkáni v Českém Těšíně"
+          - "Vnucení správci na dolech"
+          - "Finanční stráž u nových hranic"
+        topic_tags: [bohuminsko, rychvald, petrvald, polsky_zabor, polska_sprava, ceske_obyvatelstvo]
+        ocr_plan: full_transcription_preserve_subheads
+      - sub_id: urbanek-ceske-slovo-022-b
+        headline: "Zásobování Ostravy potravinami zajištěno"
+        subheadline: "Nedostatek byl zaviněn obyvatelstvem a je přechodného rázu"
+        completeness: complete_or_near_complete
+        topic_tags: [ostrava, zasobovani, potraviny, cukr, maso, doprava]
+        ocr_plan: full_transcription
+      - sub_id: urbanek-ceske-slovo-022-c
+        visible_headline: "Mléčný vlak do Mor. Ostravy"
+        completeness: headline_and_beginning_only
+        ocr_plan: visible_fragment_only
+      - sub_id: urbanek-ceske-slovo-022-d
+        visible_headline: "Dvě ultimata Arabů"
+        completeness: headline_and_beginning_only
+        ocr_plan: visible_fragment_only
+    grouping:
+      group_id: ceske-slovo-1938-10-12-page-2
+      role: physical_page_crop_four_items
+    ocr_plan:
+      document_text: separate_transcripts_by_subitem
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-023
+    source_path: Články z Českého slova/22.jpg
+    item_type: composite_newspaper_clipping
+    subitems:
+      - sub_id: urbanek-ceske-slovo-023-a
+        headline: "Na Těšínsku propouštěni dělníci i úředníci"
+        subheadline: "Řada osob vyhoštěna na ústní rozkaz z obsazeného území"
+        completeness: complete
+        topic_tags: [propousteni, delnici, urednici, vyhostovani, tesinsko, doly]
+        signature: "-vb-"
+        ocr_plan: full_transcription
+      - sub_id: urbanek-ceske-slovo-023-b
+        headline: "Svinovské nádraží neutrální"
+        subheadline: "Dohoda o provozu na svinovském nádraží"
+        dateline: "Mor. Ostrava 13. října"
+        agency: ČTK
+        completeness: complete_or_near_complete
+        topic_tags: [svinov_vitkovice, polanka_nad_odrou, neutralni_puda, zeleznice]
+        ocr_plan: full_transcription
+    grouping:
+      group_id: pracovni-a-dopravni-dusledky-zaboru
+      role: two_separate_articles_on_one_clipping
+    ocr_plan:
+      document_text: separate_transcripts_by_subitem
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-024
+    source_path: Články z Českého slova/23.jpg
+    item_type: news_roundup_clipping
+    primary_content:
+      headline: "Zprávy z Těšínska"
+      completeness: complete
+      internal_briefs:
+        - lead: "Co nového v Lazích"
+          topic_tags: [lazy, polska_sprava, skoly, vyhostovani]
+        - lead: "Žold u nás a v Polsku"
+          topic_tags: [vojensky_zold, ceskoslovensko, polsko]
+        - lead: "Kotas z Doubravy starostou Orlové"
+          topic_tags: [orlova, doubrava, starosta]
+        - lead: "Na trhu v Orlové nedostatek zboží"
+          topic_tags: [orlova, trh, nedostatek_zbozi, ceny]
+      signature: "-bi-"
+    grouping:
+      group_id: kratke-zpravy-z-tesinska
+      role: complete_news_roundup
+    ocr_plan:
+      document_text: full_transcription_preserve_brief_boundaries
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-025
+    source_path: Články z Českého slova/24.jpg
+    item_type: newspaper_photographs_with_caption
+    primary_content:
+      photographs: 2
+      upper_photo_description: Českoslovenští a polští styční důstojníci při předávání posledního úseku fryštátského okresu.
+      lower_photo_description: Obě komise styčných důstojníků v ulici v Rychvaldě.
+      completeness: complete_captioned_photo_item
+    caption_text: >-
+      Naši a polští styční důstojníci. Nahoře naše vojenská komise, která
+      odevzdávala Polákům poslední úsek fryštátského okresu. Na tabulce je vidět
+      nápis »Městys Rychvald«. Dole pak jsou obě komise styčných důstojníků,
+      našich i polských v Rychvaldě.
+    grouping:
+      group_id: predani-uzemi-v-rychvalde-fotodokumentace
+      role: captioned_two_photo_item
+    ocr_plan:
+      document_text: full_caption_transcription
+      scene_text:
+        status: machine_unverified
+        transcription: "Městys Rychvald"
+        location: upper_photo_right_side_oval_sign
+        purpose: confirms_location_named_in_caption
+    notes:
+      - Nápis je čitelný nejen v popisku, ale omezeně také přímo na vyfotografované tabuli.
+      - Identifikace osob na fotografiích není z tohoto výstřižku možná.
+
+  - id: urbanek-ceske-slovo-026
+    source_path: Články z Českého slova/25.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Modlitby Čechů na hřbitově"
+      subheadline: "Několik tisíc věřících na hřbitově v Rychvaldě"
+      completeness: complete_or_near_complete
+      topic_tags: [rychvald, hrbitov, kostel, mse, polska_okupace, verici]
+    grouping:
+      group_id: rychvald-za-polskeho-zaboru
+      role: complete_article
+    ocr_plan: {document_text: full_transcription, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-027
+    source_path: Články z Českého slova/26.jpg
+    item_type: composite_newspaper_clipping
+    subitems:
+      - sub_id: urbanek-ceske-slovo-027-a
+        headline: "Zasedání smíšené čs.-polské komise"
+        subheadline: "Bude zahájeno v úterý v Praze"
+        completeness: complete_or_near_complete
+        topic_tags: [ceskoslovensko_polska_komise, tesinsko, vyhostovani, propousteni]
+        signature: "-vb-"
+        ocr_plan: full_transcription
+      - sub_id: urbanek-ceske-slovo-027-b
+        headline: "Konsulární úředník pro obsazené Těšínsko"
+        subheadline: "Žádost ve Varšavě"
+        completeness: complete_or_near_complete
+        topic_tags: [konsularni_urad, obsazene_tesinsko, varsava]
+        ocr_plan: full_transcription
+    grouping:
+      group_id: diplomaticka-a-konsularni-jednani
+      role: two_articles_with_interleaved_page_layout
+    notes:
+      - Pravý sloupec pokračuje v horním článku vedle druhého článku umístěného dole vlevo; pořadí musí být při OCR zachováno podle sazby.
+    ocr_plan:
+      document_text: separate_transcripts_by_subitem_follow_column_layout
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-028
+    source_path: Články z Českého slova/27.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Jednání o Češích na Těšínsku"
+      subheadline: "Diplomatické akce u delimitační komise a ve Varšavě"
+      completeness: complete
+      topic_tags: [cesi_na_tesinsku, diplomaticka_jednani, vyhostovani, propousteni, varsava]
+      signature: "-vb-"
+    grouping:
+      group_id: diplomaticka-a-konsularni-jednani
+      role: complete_article
+    ocr_plan: {document_text: full_transcription, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-029
+    source_path: Články z Českého slova/28.jpg
+    item_type: composite_newspaper_clipping
+    subitems:
+      - sub_id: urbanek-ceske-slovo-029-a
+        headline: "Zprávy z Těšínska"
+        completeness: complete_news_roundup
+        structure: brief_items_separated_by_dashes
+        topic_tags: [ceske_skoly, polske_skoly, noviny, ceny, dul_zofie, sport, polstina]
+        ocr_plan: full_transcription_preserve_brief_separators
+      - sub_id: urbanek-ceske-slovo-029-b
+        headline: "Hledá se nezvěstný"
+        completeness: complete_short_notice
+        person: "Miloslav Baron"
+        note: Uveden jako žák II. třídy české spolkové reálky ve Fryštátě, nezvěstný od 26. září.
+        signature: "-úř-"
+        ocr_plan: full_transcription
+    grouping:
+      group_id: kratke-zpravy-z-tesinska
+      role: roundup_plus_separate_missing_person_notice
+    ocr_plan:
+      document_text: separate_transcripts_by_subitem
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-030
+    source_path: Články z Českého slova/29.jpg
+    item_type: news_roundup_clipping
+    primary_content:
+      headline: "Zprávy z Těšínska"
+      completeness: complete
+      structure: brief_items_separated_by_dashes
+      topic_tags: [batovy_prodejny, ceny_obuvi, propousteni, bohumín, orlova, polska_policie, zivotni_podminky]
+    grouping:
+      group_id: kratke-zpravy-z-tesinska
+      role: complete_news_roundup
+    ocr_plan:
+      document_text: full_transcription_preserve_brief_separators
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-031
+    source_path: Články z Českého slova/30.jpg
+    item_type: single_article_clipping
+    primary_content:
+      page_number_candidate: "1875"
+      headline: "V Polsku střelba do Ukrajinců"
+      subheadline: "Mrtví a ranění"
+      dateline: "Řím 29. října"
+      completeness: complete
+      topic_tags: [polsko, ukrajinci, vychodni_halic, podkarpatska_rus, madarsko, nasili]
+    grouping:
+      group_id: zahranicni-souvisejici-zpravy
+      role: complete_article_not_directly_about_rychvald_or_tesinsko
+    ocr_plan: {document_text: full_transcription, scene_text: not_applicable}
+
+groups:
+  - group_id: ceske-slovo-1938-10-12-page-2
+    type: physical_newspaper_page_crop
+    members: [urbanek-ceske-slovo-022]
+  - group_id: pracovni-a-dopravni-dusledky-zaboru
+    type: thematic_group
+    members: [urbanek-ceske-slovo-023]
+  - group_id: kratke-zpravy-z-tesinska
+    type: thematic_group_of_roundups
+    members: [urbanek-ceske-slovo-024, urbanek-ceske-slovo-029, urbanek-ceske-slovo-030]
+  - group_id: predani-uzemi-v-rychvalde-fotodokumentace
+    type: captioned_photographic_item
+    members: [urbanek-ceske-slovo-025]
+  - group_id: rychvald-za-polskeho-zaboru
+    type: local_rychvald_article
+    members: [urbanek-ceske-slovo-026]
+  - group_id: diplomaticka-a-konsularni-jednani
+    type: thematic_group
+    members: [urbanek-ceske-slovo-027, urbanek-ceske-slovo-028]
+  - group_id: zahranicni-souvisejici-zpravy
+    type: broader_context
+    members: [urbanek-ceske-slovo-031]
+
+next_action:
+  type: group_document_images
+  batch_ids: urbanek-ceske-slovo-032..urbanek-ceske-slovo-037
+  instruction: >-
+    Inspect 31 a.jpg, 31 b.jpg and 32.jpg through 35.jpg. Determine whether 31 a
+    and 31 b form a single continued item, then record all remaining article
+    boundaries and completeness before OCR.

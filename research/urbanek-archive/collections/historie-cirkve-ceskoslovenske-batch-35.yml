@@ -1,0 +1,187 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: stibor-funeral-wreaths-clergy-coffin-and-civilian-procession-35
+status: completed_first_visual_pass
+git_attachment: finalized
+item_count: 5
+source_scope: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956 / archivní soubory 16 až 20
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: 'Položky 171 až 175 uzavírají dvacetisnímkovou podsložku. Zachycují pokračování uličního průvodu: skupiny nesoucí
+    několik velkých květinových věnců, osoby v dlouhých tmavých oděvech s knihami nebo deskami, širší pohled na průvod s nesenou
+    zdobenou rakví, bližší záběr stejné nebo bezprostředně navazující situace a početný civilní zástup. Obrazová návaznost
+    podporuje jednu událost, ale sama nepotvrzuje Ferdinanda Stibora, říjen 1956, přesné místo, identitu rakve, osoby, organizace
+    ani úplnou trasu a program.'
+  basis:
+  - full_image_visual_review
+  - cross_image_sequence_comparison
+  - embedded_metadata_inspection
+  - exact_git_blob_verification
+  - binary_duplicate_screening
+  related_open_items:
+  - URB-U-0071
+items:
+- id: urbanek-ccs-171
+  archival_filename: 16.jpg
+  dimensions_px:
+  - 1572
+  - 984
+  visual_type: historical_elevated_view_of_procession_with_multiple_flower_wreaths
+  description: Vyšší pohled na ulici. V průvodu kráčí několik oddělených skupin mužů nesoucích velké květinové věnce; za nimi
+    pokračují další účastníci. Podél starší zástavby jsou jednotliví přihlížející a kočárek.
+  verified_from_image:
+  - elevated_street_view
+  - multiple_large_flower_wreaths
+  - several_wreath_bearing_groups
+  - additional_procession_participants
+  - older_buildings
+  - baby_carriage
+  unverified:
+  - event_identity
+  - Ferdinand_Stibor_connection
+  - wreath_donors_or_organizations
+  - participant_identities
+  - procession_order
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-172
+  archival_filename: 17.jpg
+  dimensions_px:
+  - 1559
+  - 966
+  visual_type: historical_robed_participants_walking_with_books_or_folders
+  description: Skupina osob v dlouhých tmavých oděvech kráčí ulicí; několik z nich drží knihy, desky nebo jiné obdélné předměty.
+    V pozadí jsou civilní účastníci včetně žen a dítěte.
+  verified_from_image:
+  - multiple_robed_participants
+  - several_held_books_folders_or_rectangular_objects
+  - street_procession
+  - civilian_attendees
+  - women_and_child_in_background
+  unverified:
+  - event_identity
+  - Ferdinand_Stibor_connection
+  - person_identities
+  - offices
+  - held_object_function
+  - procession_order
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-173
+  archival_filename: 18.jpg
+  dimensions_px:
+  - 1590
+  - 972
+  visual_type: historical_wide_procession_with_robed_column_and_carried_coffin
+  description: Široký vyvýšený pohled na ulici. Vpředu jde dlouhá řada osob v dlouhých tmavých oděvech, několik s řetězy nebo
+    medailony. Za nimi je nesena zdobená uzavřená rakev a následuje početný zástup.
+  verified_from_image:
+  - wide_elevated_street_view
+  - long_robed_column
+  - several_chains_or_medallions
+  - decorated_closed_coffin_carried_by_group
+  - large_following_crowd
+  - same_street_building_context
+  unverified:
+  - deceased_identity
+  - Ferdinand_Stibor_connection
+  - participant_and_bearer_identities
+  - offices
+  - insignia_meaning
+  - exact_procession_order
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-174
+  archival_filename: 19.jpg
+  dimensions_px:
+  - 1584
+  - 1020
+  visual_type: historical_close_elevated_view_of_decorated_coffin_and_followers
+  description: Bližší vyvýšený záběr zdobené uzavřené rakve nesené několika osobami v dlouhých tmavých oděvech. Za rakví kráčí
+    civilní účastníci a další osoby v tmavém oblečení.
+  verified_from_image:
+  - decorated_closed_coffin
+  - multiple_coffin_bearers
+  - robed_participants
+  - civilian_followers
+  - same_street_building_context
+  unverified:
+  - deceased_identity
+  - Ferdinand_Stibor_connection
+  - bearer_and_follower_identities
+  - offices
+  - exact_relation_to_items_166_169_173
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_items:
+    - urbanek-ccs-166
+    - urbanek-ccs-169
+    - urbanek-ccs-173
+    assessment: Další odlišný záběr stejné nebo bezprostředně navazující části průvodu s rakví; nejde o binární duplicitu.
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-175
+  archival_filename: 20.jpg
+  dimensions_px:
+  - 1554
+  - 966
+  visual_type: historical_dense_civilian_funeral_procession_following_on_street
+  description: Vyvýšený pohled na početný civilní zástup kráčející ulicí. Přítomni jsou muži, ženy a děti; mnoho žen má šátky
+    na hlavě. Jedna osoba drží světlý list nebo dokument. Rakev v tomto výřezu viditelná není.
+  verified_from_image:
+  - dense_civilian_crowd_walking
+  - men_women_and_children
+  - many_headscarves
+  - one_held_light_sheet_or_document
+  - same_street_building_context
+  - coffin_not_visible_in_frame
+  unverified:
+  - event_identity
+  - Ferdinand_Stibor_connection
+  - participant_identities
+  - held_document_content_or_function
+  - position_relative_to_coffin
+  - route
+  - date
+  - location
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+duplicate_assessment:
+  exact_binary_duplicates_within_batch: none
+  note: Všech pět souborů má odlišný Git blob SHA. Položky 173 a 174 a dřívější záběry rakve jsou navazující fotografie jedné
+    sekvence, nikoli nezávislé potvrzení archivního popisu.
+subfolder_completion:
+  subfolder: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956
+  content_files: 20
+  processed_items: 20
+  status: completed_first_visual_pass_and_blob_verification
+next_action: Zpracovat urbanek-ccs-176 až 180, tedy 1.jpg až 5.jpg v podsložce 8 Farář Leonard Bogumský v Doubravě u příležitosti
+  neznámých oslav.

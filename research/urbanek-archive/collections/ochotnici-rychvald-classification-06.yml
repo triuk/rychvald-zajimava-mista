@@ -1,0 +1,202 @@
+collection_id: urbanek-ochotnici
+batch_id: classification-06
+status: completed
+scope: urbanek-ochotnici-051..urbanek-ochotnici-063
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+document_files: 1
+photographs_without_ocr: 12
+
+items:
+  - id: urbanek-ochotnici-051
+    source_path: Ochotníci rychvald/Fabiano - Václav Válek.jpg
+    visual_type: historical_stage_photograph
+    description: Mužská postava v historizujícím kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: character_portrait}
+    identification:
+      status: conflicting_archive_metadata
+      archival_filename_label: "Fabiano – Václav Válek"
+      conflicting_program_record: "Fabiano – Radomír Jurdin"
+      uncertainty: URB-U-0026
+      note: Osoba nebyla určována podle tváře; rozpor mezi názvem souboru a programem zůstává otevřený.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-052
+    source_path: Ochotníci rychvald/Glacová.jpg
+    visual_type: historical_stage_photograph
+    description: Tři ženy v jednotných kostýmech se zvířaty nebo přepravkami v jevištní scéně.
+    grouping: {group_id: unidentified-production-photographs, role: stage_scene_three_characters}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Glacová"
+      note: Název uvádí pouze jedno příjmení a neidentifikuje ostatní osoby ani inscenaci.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-053
+    source_path: Ochotníci rychvald/Hudebníci Václav Bialek Oldřich Gřibek.jpg
+    visual_type: historical_stage_or_backstage_photograph
+    description: Tři kostýmovaní hudebníci s houslemi, kytarou a klarinetem; další osoba stojí v pozadí.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: musicians}
+    identification:
+      status: incomplete_filename_based
+      archival_label: "Hudebníci – Václav Bialek, Oldřich Gřibek"
+      note: Název uvádí dvě jména, fotografie však zachycuje více osob; další osoby nejsou určeny.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-054
+    source_path: Ochotníci rychvald/img356.jpg
+    visual_type: historical_costume_portrait
+    description: Muž v dlouhém kostýmu a klobouku stojící venku v zahradě.
+    grouping:
+      group_id: bohus-koci-historical-portrait
+      role: standalone_source_image
+      related_document_id: urbanek-ochotnici-007
+    visual_equivalence:
+      status: same_historical_photograph_as_embedded_chronicle_image
+      related_id: urbanek-ochotnici-007
+    identification:
+      status: document_label_based
+      candidate_name: "Bohuš Koci"
+      evidence: "Popisek pod vloženou fotografií na kronikové straně 261: Bohuš Koci, první herec a režiser zde."
+      note: Identifikace vychází z doprovodného dokumentu, nikoli z rozpoznání tváře.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-055
+    source_path: "Ochotníci rychvald/Dámy a husaři- Řehoř a Hanka Jaromír Suder a Alice Kubošová.jpg"
+    visual_type: historical_stage_photograph
+    description: Dvě postavy v kostýmech v jevištní scéně z jiné inscenace než Večer tříkrálový.
+    grouping: {group_id: damy-a-husari, role: stage_scene_two_characters}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Dámy a husaři – Řehoř a Hanka – Jaromír Suder a Alice Kubošová"
+      note: Titul, role a jména jsou převzaty z názvu souboru.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-056
+    source_path: Ochotníci rychvald/Irena Marcalíková.jpg
+    visual_type: historical_stage_or_backstage_photograph
+    description: Kostýmovaná osoba zachycená samostatně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Irena Marcalíková"
+      note: Jméno je převzato z názvu souboru; role není v názvu uvedena.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-057
+    source_path: Ochotníci rychvald/Dvořan -Miroslav Glac.jpg
+    visual_type: historical_stage_photograph
+    description: Mužská postava v kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: supporting_character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Dvořan – Miroslav Glac"
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-058
+    source_path: Ochotníci rychvald/Dvorní dáma - Alice Kubošová.jpg
+    visual_type: historical_stage_photograph
+    description: Ženská postava v kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: supporting_character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Dvorní dáma – Alice Kubošová"
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-059
+    source_path: Ochotníci rychvald/Divadelní soubor Osvět. besedy.jpg
+    visual_type: historical_cast_group_photograph
+    description: >-
+      Skupinová fotografie početného divadelního souboru na jevišti; většina osob je
+      v kostýmech odpovídajících fotografické sérii Večera tříkrálového.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: probable_ensemble_group_photo}
+    identification:
+      status: probable_collection_context
+      archival_label: "Divadelní soubor Osvětové besedy"
+      note: Jednotlivé osoby nejsou na snímku jmenovitě identifikovány.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-060
+    source_path: Ochotníci rychvald/Curio- Ladislav Vybranec.jpg
+    visual_type: historical_stage_photograph
+    description: Mužská postava v kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Curio – Ladislav Vybranec"
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-061
+    source_path: Ochotníci rychvald/112 let ochotnických souborů v.doc
+    visual_type: born_digital_word_document
+    document_title_metadata: "112 let ochotnických souborů v Rychvaldu"
+    created_at_metadata: "2014-04-19T08:04:00"
+    last_saved_at_metadata: "2014-04-20T10:02:00"
+    word_count_metadata: 592
+    description: >-
+      Jednostránkový souhrnný text o rychvaldském ochotnickém divadle od roku 1902
+      do roku 2014. Text odkazuje na malou výstavku v předsálí kulturního domu,
+      plánovanou do 17. května 2014, a pravděpodobně sloužil jako její průvodní text.
+    grouping:
+      group_id: exhibition-source-text-2014
+      role: primary_native_document
+      related_panels: [urbanek-ochotnici-002, urbanek-ochotnici-021]
+    text_processing:
+      document_text: candidate_native_text_extraction
+      method: extract_from_original_doc_without_ocr
+      note: >-
+        Použít parser podporující středoevropskou znakovou sadu; první technický
+        náhled přes antiword vykázal chybné mapování části české diakritiky.
+    ocr: {scene_text: not_applicable}
+
+  - id: urbanek-ochotnici-062
+    source_path: Ochotníci rychvald/Biřic - Miroslav Glac.jpg
+    visual_type: historical_stage_photograph
+    description: Mužská postava v kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: supporting_character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Biřic – Miroslav Glac"
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+  - id: urbanek-ochotnici-063
+    source_path: Ochotníci rychvald/Antonio - Mir. Neborák.jpg
+    visual_type: historical_stage_photograph
+    description: Mužská postava v kostýmu v jevištní scéně.
+    grouping: {group_id: vecer-trikralovy-stage-photographs, role: character_portrait}
+    identification:
+      status: unverified_filename_based
+      archival_label: "Antonio – Mir. Neborák"
+      note: Zkratka křestního jména je zachována podle názvu souboru.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+
+groups:
+  - group_id: vecer-trikralovy-stage-photographs
+    added_members: [urbanek-ochotnici-051, urbanek-ochotnici-053, urbanek-ochotnici-056, urbanek-ochotnici-057, urbanek-ochotnici-058, urbanek-ochotnici-059, urbanek-ochotnici-060, urbanek-ochotnici-062, urbanek-ochotnici-063]
+  - group_id: unidentified-production-photographs
+    members: [urbanek-ochotnici-052]
+  - group_id: bohus-koci-historical-portrait
+    members: [urbanek-ochotnici-054]
+    documentary_reference: urbanek-ochotnici-007
+  - group_id: damy-a-husari
+    members: [urbanek-ochotnici-055]
+  - group_id: exhibition-source-text-2014
+    members: [urbanek-ochotnici-061]
+    related_panels: [urbanek-ochotnici-002, urbanek-ochotnici-021]
+
+collection_classification_status:
+  classified_items: 63
+  total_inventory_items: 63
+  standard_image_items_classified: 60
+  document_files_classified: 1
+  technical_items_audited: 2
+  complete: true
+
+next_action:
+  type: create_document_processing_plan
+  collection: Ochotníci rychvald
+  instruction: >-
+    Consolidate document groups and define the extraction/OCR order. Start with native
+    extraction of item 061, then short structured programs and awards, followed by
+    grouped articles and handwritten chronicle sequences. Do not OCR exhibition-panel
+    overviews where higher-quality individual sources exist.

@@ -1,0 +1,32 @@
+schema_version: 1
+scope: open_item_0075
+items:
+- id: URB-U-0075
+  status: open
+  priority: medium
+  collection: Boj o náboženství v Rychvaldě
+  type: manuscript_source_volume_page_and_sequence_identification
+  source_items:
+  - urbanek-boj-o-nabozenstvi-001
+  - urbanek-boj-o-nabozenstvi-002
+  - urbanek-boj-o-nabozenstvi-003
+  question: Z jakého přesného rukopisného svazku a stran pocházejí tři fotografované stránky a je zachycený oddíl úplný?
+  known:
+  - three_images_form_a_continuous_text_sequence
+  - visible_heading_Nabozensky_prevrat_v_Rychvalde
+  - EXIF_and_cache_catalog_confirm_capture_order_899_900_901
+  - thumbnail_cache_contains_no_additional_source_filename
+  unresolved:
+  - exact_manuscript_or_chronicle_volume
+  - archive_reference_or_call_number
+  - author_and_date_of_manuscript_entry
+  - page_numbers
+  - completeness_against_preceding_and_following_pages
+  - independent_verification_of_historical_claims
+  evidence:
+  - research/urbanek-archive/collections/boj-o-nabozenstvi.yml
+  - research/urbanek-archive/ocr/boj-o-nabozenstvi-visible-text.md
+  - research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
+  created_at: '2026-08-04'
+  created_by: archive_indexing
+  resolution_policy: defer_dedicated_research_until_full_archive_index_complete

@@ -1,0 +1,49 @@
+schema_version: 1
+scope: open_item_0038
+items:
+  - id: URB-U-0038
+    status: open
+    priority: high
+    collection: Rychvaldské větrné mlýny
+    type: historical_location_and_context
+    related_resolved_items: [URB-U-0010]
+    source_items: [urbanek-mlyny-036, urbanek-mlyny-037, urbanek-mlyny-038]
+    question: "Kde přesně stál mlýnek označený jako zařízení za domem č. 339 a kdo jej vlastnil nebo provozoval?"
+    known_facts:
+      - "Náčrt a obě fotografie zachycují stejné zařízení."
+      - "Náčrt obsahuje text údaje o mlýnku za domem č. 339."
+      - "Současné č.p. 339 je Bohumínská 339, Rychvald, parcela st. 548."
+    candidate_current_location:
+      address: "Bohumínská 339, 735 32 Rychvald"
+      address_place_code_ruian: 14232618
+      building_code_ruian: 14141329
+      parcel: "st. 548"
+      latitude: 49.8707364
+      longitude: 18.3753053
+      confidence: unverified_historical_continuity
+    excluded_comparison:
+      database: Povětrník
+      record_id: 198
+      reason: "Záznam se týká repliky v Horních Datyních podle jiného rychvaldského mlýnku z U Školky 344."
+      url: http://www.povetrnik.cz/vetrne-mlyny/detail/198
+    unresolved_attributes:
+      - exact_historical_location
+      - continuity_of_house_number_339
+      - relation_to_current_parcel_st_548
+      - owner_or_operator_identity
+      - construction_date
+      - disappearance_date
+      - technology_and_use
+    next_action: >-
+      Po zpracování dalších archivních dávek prověřit kroniky, adresáře, sčítací operáty,
+      historické mapy, letecké snímky a rodinné materiály na spojení domu č. 339 s mlýnkem.
+      Porovnat okolní stavby a vegetaci na fotografiích s historickými snímky lokality.
+      Současnou adresu Bohumínská 339 nepovažovat za ověřené historické stanoviště bez
+      dalšího nezávislého dokladu.
+    reopen_triggers:
+      - new_archive_batch_processed
+      - historical_map_or_aerial_found
+      - house_number_339_record_found
+      - owner_or_family_name_found
+      - matching_building_or_landscape_photo_found
+    evidence: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md

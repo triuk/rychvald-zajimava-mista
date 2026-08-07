@@ -1,0 +1,103 @@
+collection_id: urbanek-ochotnici
+batch_id: visual-review-02
+status: completed
+reviewed_at: 2026-07-21
+scope: kromeriz-1960-articles
+reviewed_source_items:
+  - urbanek-ochotnici-001
+  - urbanek-ochotnici-004
+  - urbanek-ochotnici-009
+  - urbanek-ochotnici-010
+  - urbanek-ochotnici-011
+  - urbanek-ochotnici-012
+  - urbanek-ochotnici-014
+  - urbanek-ochotnici-027
+reviewed_output_files: 7
+source_items_reviewed: 8
+visually_verified_outputs: 6
+visually_verified_with_lacuna_outputs: 1
+
+items:
+  - id: urbanek-ochotnici-001
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-001-document-text.md
+    status: visually_verified
+    result: no_text_change
+    notes:
+      - Ověřen nadpis, všech pět textových bloků, podpis autora a strana 147.
+      - Fotografie nemá viditelný samostatný popisek.
+
+  - id: urbanek-ochotnici-004
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-004-document-text.md
+    status: visually_verified_with_lacuna
+    result: preserved_physical_truncation
+    uncertainty: URB-U-0032
+    notes:
+      - Ověřen hlavní článek, oba fotografické popisky i všechen zachovaný text výsledkového bloku.
+      - Spodní pokračování výsledkového bloku leží mimo zdrojový obraz.
+
+  - id: urbanek-ochotnici-010
+    verification_detail: urbanek-ochotnici-009
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-010-document-text.md
+    status: visually_verified
+    result: no_text_change
+    notes:
+      - Položka 009 byla použita jen k ověření spodních odstavců, podpisu a fotografického popisku.
+      - Nesouvisející pravá stránka nebyla zahrnuta.
+
+  - id: urbanek-ochotnici-011
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-011-document-text.md
+    status: visually_verified
+    result: no_text_change
+    notes:
+      - Ověřena hlavička, datum a všechny tři fyzicky samostatné články.
+
+  - id: urbanek-ochotnici-012
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-012-document-text.md
+    status: visually_verified
+    result: corrected_text
+    corrections:
+      - {from: Rudolf Debnárik, to: Rudolf Děbnárik, reason: tištěná diakritika v podpisu}
+      - {from: zvýťazí, to: zvíťazí, reason: tištěná podoba slovesa}
+    notes:
+      - Krátké zprávy a čtyři výroky zůstaly oddělené podle sazby.
+      - Tištěný tvar z Rychlova nebyl opravován odhadem.
+
+  - id: urbanek-ochotnici-014
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-014-document-text.md
+    status: visually_verified
+    result: no_text_change
+    notes:
+      - Ověřen celý článek, kredit Text a snímky: Josef Lecián a jediný tištěný fotografický popisek.
+      - Ruční červené podtržení není součástí tištěného textu.
+
+  - id: urbanek-ochotnici-027
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-027-document-text.md
+    status: visually_verified
+    result: structural_correction
+    corrections:
+      - Odstavec Náš obrázek je… zůstal pouze v hlavním textu a nebyl podruhé přepsán jako samostatný popisek.
+    notes:
+      - Fotografie zmiňovaná článkem není v dochovaném výstřižku přítomna.
+      - Pozdější červené podtržení zůstává oddělenou grafickou anotací.
+
+summary:
+  text_corrections: 2
+  structural_corrections: 1
+  new_uncertainties: [URB-U-0032]
+  unchanged_outputs: [urbanek-ochotnici-001, urbanek-ochotnici-010, urbanek-ochotnici-011, urbanek-ochotnici-014]
+
+next_action:
+  type: second_visual_review_batch
+  collection: Ochotníci rychvald
+  items:
+    - urbanek-ochotnici-019
+    - urbanek-ochotnici-028
+    - urbanek-ochotnici-017
+    - urbanek-ochotnici-016
+    - urbanek-ochotnici-015
+    - urbanek-ochotnici-061
+  instruction: >-
+    Verify the two-page Těšínsko article, all text units from book pages 40–45 and
+    the native DOC extraction. Preserve physical article boundaries, keep the
+    Ofélie/Olivie conflict and missing page-46 continuation open, and compare the
+    native DOC text against a visual rendering before changing its status.

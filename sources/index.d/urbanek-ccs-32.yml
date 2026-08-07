@@ -1,0 +1,120 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-32
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-156
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/1   Ferdinand Stibor ještě v r. 1956.jpg
+  file_size_bytes: 263617
+  git_blob_sha: 062d9ad219a4a2f28d4b93b139adc7a4ec3096f5
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Portrét staršího muže v exteriéru
+  document_type: historical_outdoor_portrait_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Jméno Ferdinand Stibor a rok 1956 pocházejí z archivního názvu.
+  - Osoba nebyla identifikována podle obličeje.
+  - Souvisí s URB-U-0071.
+- source_id: urbanek-ccs-157
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/2  V radvanickém Husově sboru.jpg
+  file_size_bytes: 211195
+  git_blob_sha: 271b87cd03b9b2b4afc4c586214edcc79707d908
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Otevřená rakev před oltářem se svícemi a stojícími účastníky
+  document_type: historical_funeral_interior_open_coffin_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: partial_inscription_fragments
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Archivní název lokalizuje snímek do radvanického Husova sboru; obraz sám lokalizaci nezávisle nepotvrzuje.
+  - Spolehlivě jsou čitelné pouze krajní fragmenty „Bude“ a „Boží“; prostřední panel nebyl domyšlen.
+  - Souvisí s URB-U-0071.
+- source_id: urbanek-ccs-158
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/3  U rakve se střídala čestná stráž.jpg
+  file_size_bytes: 277409
+  git_blob_sha: c6c281308120d3be7b096fdfcdf566fbd8e73cb1
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Detail otevřené rakve a stojících účastníků
+  document_type: historical_funeral_vigil_open_coffin_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: wreath_ribbon_text_unreadable
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Přítomnost stojících osob je viditelná; oficiální status čestné stráže ani střídání osob fotografie samo nedokládá.
+  - Text na stuhách věnců není bezpečně čitelný.
+  - Souvisí s URB-U-0071.
+- source_id: urbanek-ccs-159
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/4.jpg
+  file_size_bytes: 184070
+  git_blob_sha: 5e63b908ecae67e5a28208e9e8df7816379a107d
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Osoby v dlouhých tmavých oděvech a civilní účastníci na schodech
+  document_type: historical_funeral_clergy_and_mourners_outside_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Výrazné řetězy nebo medailony jsou obrazově viditelné, ale samy neurčují úřad ani identitu.
+  - Souvisí s URB-U-0071.
+- source_id: urbanek-ccs-160
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa
+    br. Ferdinanda Stibora v říjnu 1956/5.jpg
+  file_size_bytes: 178255
+  git_blob_sha: b2afdfbf002e209ed32021dd8cdc99d343fccef3
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Shromáždění s prapory před vstupem
+  document_type: historical_funeral_crowd_with_flags_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; drobný text je zaznamenán pouze tam, kde je spolehlivě rozpoznatelný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: banner_text_unreadable
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Prapory a korouhve jsou viditelné; jejich organizace, texty a znaky nejsou bezpečně určeny.
+  - Souvisí s URB-U-0071.

@@ -1,0 +1,278 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956 / archivní soubory 1 až 5
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: 'Dávka otevírá sedmou podsložku, kterou archivní název připisuje pohřbu biskupa Ferdinanda Stibora v říjnu 1956.
+    Položka 156 je samostatný venkovní portrét staršího muže; jméno a rok pocházejí pouze z názvu souboru. Položky 157 a 158
+    zachycují stejný pohřební interiér s otevřenou rakví, viditelným tělem, vysokými svícemi, květinami a několika stojícími
+    účastníky. Umístění v radvanickém Husově sboru a označení účastníků jako čestné stráže jsou archivní tvrzení, která obraz
+    sám plně nepotvrzuje. Položky 159 a 160 zachycují navazující venkovní situaci před vstupem: skupinu osob v dlouhých tmavých
+    oděvech s výraznými řetězy nebo medailony, civilní účastníky a následně početné shromáždění s prapory. Identity, úřady,
+    organizace praporů, přesné datum, místo a sled obřadu zůstávají neověřeny.'
+  basis:
+  - full_image_visual_review
+  - cross_image_sequence_comparison
+  - manual_scene_text_review
+  - embedded_metadata_inspection
+  - exact_git_blob_verification
+  related_open_items:
+  - URB-U-0071
+items:
+- id: urbanek-ccs-156
+  archival_filename: 1   Ferdinand Stibor ještě v r. 1956.jpg
+  dimensions_px:
+  - 966
+  - 1523
+  visual_type: historical_black_and_white_outdoor_portrait_of_older_man
+  description: Svislý portrét staršího muže v tmavém saku, světlé košili a kravatě, fotografovaného venku před stromy nebo
+    keři. Muž je zachycen od pasu vzhůru a dívá se mimo osu fotoaparátu. Obraz neobsahuje čitelný identifikační text.
+  subject_tags:
+  - portrait
+  - older_man
+  - outdoor_foliage
+  - Ferdinand_Stibor_claim
+  - year_1956_claim
+  identification:
+    status: partially_verified
+    archival_claim: Ferdinand Stibor ještě v roce 1956
+    verified_from_image:
+    - older_male_subject
+    - dark_suit
+    - shirt_and_tie
+    - outdoor_foliage_background
+    unverified:
+    - Ferdinand_Stibor_identity
+    - year_1956
+    - exact_date_and_place
+    - relationship_to_funeral_sequence
+    - photographer
+    - original_provenance
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-157
+  archival_filename: 2  V radvanickém Husově sboru.jpg
+  dimensions_px:
+  - 1026
+  - 1602
+  visual_type: historical_black_and_white_funeral_interior_open_coffin_altar_and_candles
+  description: Vyšší pohled do chrámového interiéru. Před oltářem je otevřená rakev s viditelným tělem a rukama složenýma
+    na hrudi, obklopená vysokými svícemi, květinami a několika stojícími muži. Nad oltářem jsou tři plastiky v obloukovém
+    výklenku a na tmavém závěsu znak kalicha s knihou. Na třech panelech pod plastikami jsou krajní slova částečně čitelná;
+    spolehlivě lze rozeznat fragmenty „Bude“ a „Boží“, prostřední text není bezpečně přepsán.
+  subject_tags:
+  - funeral_interior
+  - open_coffin
+  - deceased_visible
+  - altar
+  - tall_candles
+  - flowers
+  - standing_attendants
+  - three_statues
+  - chalice_and_book_symbol
+  - Radvanice_Hus_congregation_claim
+  - Ferdinand_Stibor_funeral_claim
+  - October_1956_claim
+  identification:
+    status: partially_verified
+    archival_claim: v radvanickém Husově sboru; pohřeb biskupa Ferdinanda Stibora v říjnu 1956
+    verified_from_image:
+    - church_or_congregation_interior
+    - open_coffin_with_visible_body
+    - hands_folded_on_chest
+    - altar
+    - multiple_tall_candles
+    - flowers
+    - several_standing_men
+    - three_statues_above_altar
+    - chalice_and_book_symbol_on_backdrop
+    unverified:
+    - deceased_identity
+    - Ferdinand_Stibor_identity
+    - Radvanice_location
+    - exact_building
+    - exact_funeral_date
+    - October_1956
+    - all_attendant_identities_and_roles
+    - photographer
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: partial_manually_checked
+      reliably_readable_fragments:
+      - Bude
+      - Boží
+      note: Prostřední panel a úplná věta nejsou z dostupného rozlišení bezpečně čitelné; text nebyl doplněn odhadem.
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_item: urbanek-ccs-158
+    assessment: Stejný interiér, rakev a výzdoba z jiného úhlu; nejde o binární duplicitu.
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-158
+  archival_filename: 3  U rakve se střídala čestná stráž.jpg
+  dimensions_px:
+  - 1608
+  - 990
+  visual_type: historical_black_and_white_open_coffin_with_robed_and_uniformed_attendants
+  description: Čelní bližší záběr stejné otevřené rakve a výzdoby jako na položce 157. Po stranách stojí dva muži v dlouhých
+    tmavých oděvech, z nichž pravý má na hrudi výrazný kříž; za nimi stojí další muži, nejméně dva s čepicemi nebo uniformními
+    prvky. Rakev obklopují vysoké svíce, květiny a rostliny. Text na stuhách věnců není spolehlivě čitelný.
+  subject_tags:
+  - funeral_vigil
+  - open_coffin
+  - deceased_visible
+  - robed_attendants
+  - cross_on_garment
+  - uniform_like_caps
+  - tall_candles
+  - flowers
+  - honor_guard_claim
+  - Ferdinand_Stibor_funeral_claim
+  - October_1956_claim
+  identification:
+    status: partially_verified
+    archival_claim: u rakve se střídala čestná stráž; pohřeb biskupa Ferdinanda Stibora v říjnu 1956
+    verified_from_image:
+    - same_open_coffin_and_interior_as_item_157
+    - two_foreground_men_in_long_dark_garments
+    - cross_visible_on_right_foreground_garment
+    - additional_men_behind
+    - at_least_two_caps_or_uniform_like_elements
+    - candles_flowers_and_plants
+    unverified:
+    - deceased_identity
+    - Ferdinand_Stibor_identity
+    - formal_honor_guard_status
+    - whether_attendants_rotated
+    - attendant_identities_and_organizations
+    - clerical_or_official_roles
+    - exact_date_and_location
+    - wreath_ribbon_text
+    - photographer
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: present_but_not_reliably_transcribed
+      note: Na stuhách věnců jsou části textu, ale z dostupného obrazu nejsou bezpečně čitelné.
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_item: urbanek-ccs-157
+    assessment: Stejná rakev a výzdoba, bližší a vodorovný záběr; nejde o binární duplicitu.
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-159
+  archival_filename: 4.jpg
+  dimensions_px:
+  - 1050
+  - 1590
+  visual_type: historical_black_and_white_clergy_and_mourners_on_entrance_steps
+  description: Svislý venkovní záběr na schody a vstup do budovy. V popředí a ve dveřích stojí větší počet mužů v dlouhých
+    tmavých oděvech; nejméně čtyři mají výrazné řetězy s medailony nebo insigniemi. Po stranách jsou civilní účastníci, včetně
+    žen a dětí. Přesný okamžik průvodu nebo obřadu nelze ze snímku určit.
+  subject_tags:
+  - building_entrance
+  - steps
+  - multiple_clergy_like_garments
+  - chains_or_medallions
+  - civilian_mourners
+  - women_and_children
+  - funeral_procession_claim
+  - Ferdinand_Stibor_funeral_claim
+  - October_1956_claim
+  identification:
+    status: partially_verified
+    archival_context_claim: pohřeb biskupa Ferdinanda Stibora v říjnu 1956
+    verified_from_image:
+    - building_entrance_and_steps
+    - multiple_men_in_long_dark_garments
+    - at_least_four_prominent_chains_or_medallions
+    - civilian_attendees
+    - women_and_children_present
+    unverified:
+    - event_identity
+    - exact_funeral_stage
+    - Ferdinand_Stibor_connection
+    - all_person_identities_and_offices
+    - meaning_of_chains_or_medallions
+    - exact_date
+    - exact_location
+    - photographer
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_item: urbanek-ccs-160
+    assessment: Navazující venkovní situace před stejným nebo velmi podobným vstupem; odlišný snímek.
+  uncertainty_ids:
+  - URB-U-0071
+- id: urbanek-ccs-160
+  archival_filename: 5.jpg
+  dimensions_px:
+  - 1572
+  - 1014
+  visual_type: historical_black_and_white_funeral_crowd_with_flags_outside_entrance
+  description: Široký venkovní záběr na početné shromáždění před vstupem do budovy. Několik mužů drží vysoké prapory nebo
+    korouhve; na jednom zakončení je křížovitý symbol. V popředí a na schodech stojí civilní účastníci, mnoho žen má šátky
+    na hlavě. Nápisy a znaky na praporech nejsou bezpečně čitelné.
+  subject_tags:
+  - crowd
+  - flags_or_banners
+  - cross_like_finial
+  - building_entrance
+  - headscarved_women
+  - funeral_procession_claim
+  - Ferdinand_Stibor_funeral_claim
+  - October_1956_claim
+  identification:
+    status: partially_verified
+    archival_context_claim: pohřeb biskupa Ferdinanda Stibora v říjnu 1956
+    verified_from_image:
+    - large_outdoor_crowd
+    - multiple_flags_or_banners
+    - cross_like_finial_on_one_pole
+    - building_entrance
+    - many_headscarved_women
+    unverified:
+    - event_identity
+    - Ferdinand_Stibor_connection
+    - flag_and_banner_organizations
+    - banner_text_and_symbols
+    - exact_procession_sequence
+    - exact_date
+    - exact_location
+    - all_person_identities
+    - photographer
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: present_but_not_reliably_transcribed
+      note: Na praporech jsou tmavé nápisy nebo znaky, ale nejsou z dostupného obrazu bezpečně čitelné.
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_item: urbanek-ccs-159
+    assessment: Stejná nebo bezprostředně navazující venkovní sekvence; nejde o binární duplicitu.
+  uncertainty_ids:
+  - URB-U-0071
+open_research_candidates:
+- id: URB-U-0071
+  subject: Ferdinand_Stibor_funeral_identity_date_Radvanice_honor_guard_clergy_flags_and_sequence
+next_action: Pokračovat položkami urbanek-ccs-161 až urbanek-ccs-165, tedy soubory 6 až 10 v téže podsložce. Celou pohřební
+  sérii porovnat s nekrologem, smutečním oznámením, programem pohřbu, církevní kronikou, dobovým tiskem a materiály radvanického
+  Husova sboru. Osoby, úřady, čestnou stráž a organizace praporů neurčovat pouze podle vzhledu, oděvu, postoje nebo archivního
+  pořadí.

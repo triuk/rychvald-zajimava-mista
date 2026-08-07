@@ -1,0 +1,66 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-17
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-081
+    title: Rodinný skupinový portrét s useknutým archivním popiskem
+    document_type: historical_black_and_white_group_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/5  Syn Jaromír snacha Milena,dcera Miluše, manželka a paní S.jpg"
+    file_size_bytes: 241649
+    git_blob_sha: df5043baad9bec97a5f28143e7f6ee397ee5984d
+    digital_format: JPEG
+    text_layer: absent
+    visual_content: {photographs: single_historical_family_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Jména a rodinné vztahy pocházejí z archivního názvu.", "Useknuté pokračování za paní S nebylo rekonstruováno.", "Souvisí s URB-U-0062."]
+
+  - source_id: urbanek-ccs-082
+    title: Gratulace duchovnímu s insignií
+    document_type: historical_black_and_white_ceremonial_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/6.jpg"
+    file_size_bytes: 208308
+    git_blob_sha: aff610502f55f0f8e86f78181a46711ff4b5e535
+    digital_format: JPEG
+    text_layer: absent
+    visual_content: {photographs: single_congratulation_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Přesný úkon, osoby a úřady nejsou obrazem určeny.", "Souvisí s URB-U-0062."]
+
+  - source_id: urbanek-ccs-083
+    title: Předávání květin při slavnosti
+    document_type: historical_black_and_white_ceremonial_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/7.jpg"
+    file_size_bytes: 246230
+    git_blob_sha: d5a747716f30074c6434eda3c46e3f0a7948d4d1
+    digital_format: JPEG
+    text_layer: absent
+    visual_content: {photographs: single_flower_presentation_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Identita předávající ženy ani duchovního není nezávisle ověřena.", "Souvisí s URB-U-0062."]
+
+  - source_id: urbanek-ccs-084
+    title: Pokračování gratulačního aktu
+    document_type: historical_black_and_white_ceremonial_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/8.jpg"
+    file_size_bytes: 208342
+    git_blob_sha: d6dd5e95a9f07931047648be752ae7c17ea000d9
+    digital_format: JPEG
+    text_layer: absent
+    visual_content: {photographs: single_congratulation_sequence_image, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Obrazová návaznost podporuje společnou sérii, nikoli jména a přesné pořadí.", "Souvisí s URB-U-0062."]
+
+  - source_id: urbanek-ccs-085
+    title: Formální skupina s květinami
+    document_type: historical_black_and_white_ceremonial_group_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19/9.jpg"
+    file_size_bytes: 243637
+    git_blob_sha: d0f70ce783a848ed85400f2d2e8b638f445111db
+    digital_format: JPEG
+    text_layer: absent
+    visual_content: {photographs: single_formal_congratulation_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes: ["Insignie sama neurčuje konkrétní úřad.", "Souvisí s URB-U-0062."]

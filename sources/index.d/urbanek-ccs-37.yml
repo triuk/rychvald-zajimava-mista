@@ -1,0 +1,127 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-37
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-181
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/9 V r. 1969
+    se konala v evangelickém chrámu na Ostravici ekumenick/1.jpg
+  file_size_bytes: 217069
+  git_blob_sha: d98b379d9fa5a8b2c94d39c88856684c6096382b
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Řečník v duchovním oděvu před oltářem
+  document_type: historical_ecumenical_service_altar_speaker_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; identifikační archivní tvrzení nejsou v obrazu nezávisle potvrzena.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: partially_readable
+    method: Vizuální kontrola celého obrazu a porovnání série.
+  notes:
+  - Archivní název podsložky připisuje událost roku 1969, evangelickému chrámu na Ostravici a ekumenickému charakteru; obraz
+    sám tvrzení nezávisle nepotvrzuje.
+  - Osoby, denominace ani úřady nebyly určovány pouze podle vzhledu nebo oděvu.
+  - Souvisí s URB-U-0072.
+- source_id: urbanek-ccs-182
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/9 V r. 1969
+    se konala v evangelickém chrámu na Ostravici ekumenick/2.jpg
+  file_size_bytes: 194061
+  git_blob_sha: 1787adc278fb6fc213ac55dd881bf9bccd2939de
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Duchovní s brýlemi čte z knihy před oltářem
+  document_type: historical_ecumenical_service_clergy_reading_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; identifikační archivní tvrzení nejsou v obrazu nezávisle potvrzena.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: partially_readable
+    method: Vizuální kontrola celého obrazu a porovnání série.
+  notes:
+  - Archivní název podsložky připisuje událost roku 1969, evangelickému chrámu na Ostravici a ekumenickému charakteru; obraz
+    sám tvrzení nezávisle nepotvrzuje.
+  - Osoby, denominace ani úřady nebyly určovány pouze podle vzhledu nebo oděvu.
+  - Souvisí s URB-U-0072.
+- source_id: urbanek-ccs-183
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/9 V r. 1969
+    se konala v evangelickém chrámu na Ostravici ekumenick/3.jpg
+  file_size_bytes: 206037
+  git_blob_sha: b2c529e9de45e26256618d2240030b6b3aaeb2ec
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Postava zády k oltáři s částečně čitelným biblickým textem
+  document_type: historical_ecumenical_service_altar_back_view_and_biblical_text_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; identifikační archivní tvrzení nejsou v obrazu nezávisle potvrzena.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: partially_readable
+    method: Vizuální kontrola celého obrazu a porovnání série.
+  notes:
+  - Archivní název podsložky připisuje událost roku 1969, evangelickému chrámu na Ostravici a ekumenickému charakteru; obraz
+    sám tvrzení nezávisle nepotvrzuje.
+  - Osoby, denominace ani úřady nebyly určovány pouze podle vzhledu nebo oděvu.
+  - Souvisí s URB-U-0072.
+- source_id: urbanek-ccs-184
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/9 V r. 1969
+    se konala v evangelickém chrámu na Ostravici ekumenick/4.jpg
+  file_size_bytes: 190825
+  git_blob_sha: 3f28629dda8562c44c20fe4e92d6dc5fc2f62fce
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Duchovní u vyvýšené dřevěné kazatelny
+  document_type: historical_ecumenical_service_pulpit_preacher_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; identifikační archivní tvrzení nejsou v obrazu nezávisle potvrzena.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected_or_not_reliably_readable
+    method: Vizuální kontrola celého obrazu a porovnání série.
+  notes:
+  - Archivní název podsložky připisuje událost roku 1969, evangelickému chrámu na Ostravici a ekumenickému charakteru; obraz
+    sám tvrzení nezávisle nepotvrzuje.
+  - Osoby, denominace ani úřady nebyly určovány pouze podle vzhledu nebo oděvu.
+  - Souvisí s URB-U-0072.
+- source_id: urbanek-ccs-185
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/9 V r. 1969
+    se konala v evangelickém chrámu na Ostravici ekumenick/5.jpg
+  file_size_bytes: 206873
+  git_blob_sha: 64aa8078492ccfd123f6c5be2195b71357d92edf
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Druhý záběr duchovního s brýlemi při čtení před oltářem
+  document_type: historical_ecumenical_service_clergy_reading_second_view_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; identifikační archivní tvrzení nejsou v obrazu nezávisle potvrzena.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: partially_readable
+    method: Vizuální kontrola celého obrazu a porovnání série.
+  notes:
+  - Archivní název podsložky připisuje událost roku 1969, evangelickému chrámu na Ostravici a ekumenickému charakteru; obraz
+    sám tvrzení nezávisle nepotvrzuje.
+  - Osoby, denominace ani úřady nebyly určovány pouze podle vzhledu nebo oděvu.
+  - Souvisí s URB-U-0072.

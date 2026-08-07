@@ -1,0 +1,112 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: murals-occupation-exteriors-and-organ-04
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / následujících pět dochovaných souborů 17, 17a, 19, 21 a 22"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka obsahuje dvě barevné dokumentační fotografie nástěnných maleb, dva
+    historické exteriéry sboru a skupinovou fotografii před varhanními píšťalami.
+    Obrazově lze popsat výjevy, podobu budovy, zahradní úpravu a přítomnost varhan;
+    data 1932 a 1946, konkrétní okupační zásahy, autorství maleb, identita osob a
+    historie varhan vycházejí z archivních názvů a vyžadují další prameny.
+  sequence_note: >-
+    Číslování dochovaných souborů po položce 15 pokračuje 17, 17a, 19, 21 a 22.
+    Samotné mezery neprokazují chybějící originály; otázka je vedena v URB-U-0047.
+
+items:
+  - id: urbanek-ccs-016
+    visual_type: modern_color_documentation_of_mural
+    description: >-
+      Široká nástěnná malba s dvojicí výrazných duchovních postav uprostřed,
+      skupinou lidí vlevo a dvojicí slavnostně oděných postav s doprovodem vpravo.
+      Jedna ústřední postava drží dvojramenný kříž. Na malbě jsou patrné praskliny.
+    subject_tags: [mural, clergy_figures, double_cross, historical_religious_scene, wall_cracks]
+    identification:
+      status: partially_verified
+      archival_claim: "obrazy nad balkony namalované roku 1932 – Cyril a Metoděj"
+      verified_from_image: [large_religious_mural, two_central_clerical_figures, double_cross, multi_figure_scene]
+      unverified: [exact_subject, artist, creation_date, original_location, conservation_history]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_refs: [URB-U-0043]
+
+  - id: urbanek-ccs-017
+    visual_type: modern_color_documentation_of_mural
+    description: >-
+      Nástěnná malba s modlící se vousatou postavou v tmavém oděvu uprostřed,
+      kůlem a připraveným prostorem vlevo, ozbrojenými osobami a duchovními
+      hodnostáři po stranách a městskou siluetou v pozadí. Povrch je popraskaný.
+    subject_tags: [mural, martyrdom_scene, praying_figure, clergy, soldiers, city_background, wall_cracks]
+    identification:
+      status: partially_verified
+      archival_claim: "Jan Hus před upálením na hranici v roce 1415"
+      verified_from_image: [religious_or_historical_execution_scene, central_praying_figure, stake_like_element, assembled_clergy_and_guards]
+      unverified: [exact_subject_identity, artist, creation_date, original_location, conservation_history]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_refs: [URB-U-0043]
+
+  - id: urbanek-ccs-018
+    visual_type: historical_black_and_white_architectural_photograph_reproduction
+    description: >-
+      Čelní šikmý pohled na Husův sbor s věží, portikem a boční lodí. Fasáda věže
+      je bez jasně rozpoznatelného nápisu nebo kalichového symbolu; jejich dřívější
+      podobu ani příčinu absence nelze z jediného snímku určit.
+    subject_tags: [church_exterior, tower, portico, absent_or_unreadable_symbol, occupation_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "za polské okupace byl kostel zbaven hesla a kalicha"
+      verified_from_image: [same_church_building, tower_facade_without_clearly_visible_motto_or_chalice]
+      unverified: [exact_date, prior_wording_and_symbol_form, removal_actor, occupation_context, restoration_date]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_refs: [URB-U-0044]
+
+  - id: urbanek-ccs-019
+    visual_type: historical_black_and_white_architectural_and_landscape_photograph_reproduction
+    description: >-
+      Vyvýšený pohled na sbor a upravené prostranství před vstupem s geometrickými
+      záhony, cestami a středovým kruhovým nebo oválným záhonem. V popředí je
+      dobový automobil a sloup veřejného osvětlení.
+    subject_tags: [church_exterior, landscaped_forecourt, geometric_garden, period_car, street_lamp, occupation_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "úprava před kostelem za německé okupace"
+      verified_from_image: [landscaped_forecourt, geometric_beds, period_vehicle, same_church_building]
+      unverified: [exact_date, commissioning_authority, relation_to_german_occupation, designer, duration_of_layout]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_refs: [URB-U-0045]
+
+  - id: urbanek-ccs-020
+    visual_type: historical_black_and_white_indoor_group_photograph_reproduction
+    description: >-
+      Skupina více než dvaceti mužů v oblecích ve třech úrovních před vysokými
+      varhanními píšťalami a dřevěným zábradlím. Jednotlivé osoby ani účel
+      shromáždění nejsou z obrazu identifikovatelné.
+    subject_tags: [organ_pipes, male_group, formal_portrait, church_interior, council_candidate, municipal_representatives_candidate]
+    identification:
+      status: partially_verified
+      archival_claim: "1946 – nové varhany; rada starších a zástupci MNV"
+      verified_from_image: [organ_pipes_present, formal_male_group, church_interior]
+      unverified: [exact_date, new_organ_installation, organ_builder, event_identity, council_members, municipal_representatives]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_refs: [URB-U-0046]
+
+open_research_refs: [URB-U-0043, URB-U-0044, URB-U-0045, URB-U-0046, URB-U-0047]
+next_action: >-
+  Pokračovat dalšími pěti dochovanými soubory. Malby porovnat s pozdějšími
+  interiéry a výročními texty; exteriéry s předchozími a následnými fotografiemi;
+  varhany s inventáři, účty, výrobními štítky a dalšími snímky kůru.

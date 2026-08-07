@@ -1,0 +1,186 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-noviny-1938-ceske-slovo-021
+  title: P1020294.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020294.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020294.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3443871
+  git_blob_sha: 8a6ca60581b8e038ba966f8ab3d4ab12732fe7af
+  sha256: 5866cb74615bd9aad9ec136414a85ceb8b0879e9165de604c2c2314fa1b91c30
+  drive_id: 18VZ6nkHlpcFjwQGYLKNCUZtbOSmuXFZK
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: frystat_and_surroundings_occupation_report_alternate_capture
+  summary: Těsnější fotografie téže novinové strany jako P1020293.JPG. Zachycuje nadtitulek „Včera v 10 hodin dopoledne“,
+    hlavní titulek „Fryštát s okolím zabrán“ a mezititulek „Vojsko ustupuje z Fryštátu“; nejde o binární duplicitu.
+  visible_text:
+  - Včera v 10 hodin dopoledne
+  - Fryštát s okolím zabrán
+  - Lidé touží po spravedlnosti
+  - Vojsko ustupuje z Fryštátu
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:58:01'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-022
+  title: P1020295.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020295.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020295.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3353724
+  git_blob_sha: 890b3d120d9d31a12b19d01d62fdd96d986e8fa3
+  sha256: d6d44dac4154fade75eb9ea431ff29eea032bd0cdb9122d3ef9dc16a52dd5133
+  drive_id: 1SdyUJpKakgbG9KydpEw6ky75Zr2IW9Km
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  classification: partial_ceske_slovo_page_polish_occupation_final_days_petřvald_and_orlová_reports
+  summary: Fotografie větší části novinové strany s částečným označením „ČESKÉ SLOVO“ a hlavním titulkem „Předposlední den
+    polské okupace“. Úvod zprávy obsahuje dataci „Mor. Ostrava 10. října“, ale datum, ročník a číslo vydání v mastheadu viditelné
+    nejsou.
+  visible_text:
+  - ČESKÉ SLOVO
+  - Předposlední den polské okupace
+  - Mor. Ostrava 10. října.
+  - Naprostý chlad v Petřvaldě
+  - Orlová se srdečně loučí s našimi vojáky
+  - Rumunský tisk o nás
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:59:11'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-023
+  title: P1020296.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020296.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020296.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3301098
+  git_blob_sha: 4e76e5b0058b22ac50e52520975022548dfa8e3b
+  sha256: 7d8eb5f2d4367ca19aead816239b3b8fe3aaf4cbfea17c0daeb8b8c620ff1b6d
+  drive_id: 1TRZx3YLmN9GUhhpPc-tCzzDsGjARNs56
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: polish_annexation_final_day_rychvald_petřvald_and_district_report
+  summary: Fotografie novinové strany s hlavním titulkem „Poslední den polského záboru na Těšínsku“ a podtitulem „Do včerejšího
+    poledne obsazen zbytek fryštátského a českotěšínského okresu“. Samostatný mezititulek „Jak se rozloučil Rychvald“ přímo
+    váže text pramene k Rychvaldu.
+  visible_text:
+  - Poslední den polského záboru na Těšínsku
+  - DO VČEREJŠÍHO POLEDNE OBSAZEN ZBYTEK FRYŠTÁTSKÉHO A ČESKOTĚŠÍNSKÉHO OKRESU
+  - Jak se rozloučil Rychvald
+  - Český Petřvald zabrán
+  - Poláci se usazují na dobrých místech
+  - Finanční stráž již funguje
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:00:29'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-024
+  title: P1020297.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020297.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020297.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3452197
+  git_blob_sha: 5d867107c74df14f2a6130b423e01fa9144600e7
+  sha256: 7605f9f4e62fff8391641b3807ef545dfdac3083e3fcd9d2a3ec77304ee96136
+  drive_id: 1keJqH6KK5KHqiEBGLonaSE63Q3MEnqk6
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: tesin_expulsions_polish_authorities_ostrava_consular_attache_and_central_europe_articles
+  summary: Fotografie části novinové strany s hlavním titulkem „Sta lidí vypovídáno z Těšínska“ a podtitulem „Polské úřady
+    postupují dále proti českým lidem“. Dále je viditelný článek „Konsulární atašé v Ostravě“ s datací Praha 14. října a titulek
+    „Italie sleduje vývoj ve střední Evropě“.
+  visible_text:
+  - Sta lidí vypovídáno z Těšínska
+  - Polské úřady postupují dále proti českým lidem
+  - Konsulární atašé v Ostravě
+  - Praha 14. října. -ČTK.
+  - Italie sleduje vývoj ve střední Evropě
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:01:21'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-025
+  title: P1020298.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020298.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020298.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3514119
+  git_blob_sha: 1149f5c2f4f2a83c967ef8b0ce2a699443834b45
+  sha256: 9d3a721053c8ec25f4707852d36b033455d94792eea0427fed8ad76affeba55b
+  drive_id: 1UE8pCAnoLrXNTZEcW23ZWNoPtTentnK1
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: refugee_care_and_moravian_ostrava_registration_article
+  summary: Detail novinové strany s článkem „Péče o uprchlíky z obsazeného území“ a podtitulem „Kde se mají uprchlíci hlásit
+    v Mor. Ostravě“. Výřez popisuje místní výbor a místa péče a ubytování; úplné údaje vydání nejsou zachyceny.
+  visible_text:
+  - Péče o uprchlíky z obsazeného území
+  - Kde se mají uprchlíci hlásit v Mor. Ostravě
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:01:54'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081

@@ -1,0 +1,56 @@
+schema_version: 1
+scope: ccs_batch_37_open_items
+items:
+- id: URB-U-0072
+  status: open
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: Ostravice_1969_evangelical_church_ecumenical_service_identity_date_location_clergy_liturgy_and_text
+  related_open_items:
+  - URB-U-0069
+  - URB-U-0070
+  source_items:
+  - urbanek-ccs-181
+  - urbanek-ccs-182
+  - urbanek-ccs-183
+  - urbanek-ccs-184
+  - urbanek-ccs-185
+  question: Jak nezávisle ověřit, zda položky 181 až 185 zachycují ekumenickou bohoslužbu roku 1969 v evangelickém chrámu
+    na Ostravici, jaké je přesné datum, místo, program, zúčastněné církve a identity i úřady jednotlivých duchovních?
+  known_facts:
+  - Všech pět snímků pochází ze stejného nebo velmi podobného interiéru a tvoří bezprostředně navazující bohoslužebnou sekvenci.
+  - Položky 181, 182, 183 a 185 zachycují stejný oltář s figurálním obrazem, sochami, svícemi, květinami a textilním čelem.
+  - Položka 184 zachycuje muže v duchovním oděvu u vyvýšené dřevěné kazatelny nebo pultu.
+  - Položky 182 a 185 zachycují téhož nebo velmi pravděpodobně téhož muže s brýlemi při čtení z otevřené knihy; jde o různé
+    záběry.
+  - Na oltářní textilii je čitelný biblický odkaz 1 Petr 4,11, ale úplný text je zčásti zakryt a nebyl rekonstruován.
+  - Archivní název tvrdí rok 1969, evangelický chrám na Ostravici a ekumenickou událost; jde o archivní atribuci.
+  - Všech pět položek má odlišné Git blob SHA a žádná nemá použitelné embedded datum.
+  unresolved_attributes:
+  - independent_confirmation_of_1969
+  - exact_event_date_name_and_program
+  - exact_evangelical_church_name_address_and_interior
+  - independent_confirmation_of_Ostravice_location
+  - ecumenical_character_and_participating_denominations
+  - identities_titles_offices_and_denominations_of_all_clergy
+  - mapping_of_people_across_items_181_to_185
+  - sermon_reading_and_liturgy_contents
+  - complete_exact_transcription_and_source_of_altar_textile
+  - altar_painting_statues_pulpit_and_textile_provenance
+  - relationship_to_URB_U_0069_and_URB_U_0070
+  - photographers_and_original_caption_provenance
+  next_action: Hledat program ekumenické bohoslužby roku 1969, kroniku evangelického sboru a obce Ostravice, církevní tisk,
+    dobové pozvánky, seznam zúčastněných duchovních, popsané paralelní fotografie a dokumentaci interiéru. Rok, místo, denominace
+    ani osoby neurčovat pouze podle archivního názvu, oděvu nebo tváře.
+  reopen_triggers:
+  - dated_ecumenical_service_program_found
+  - evangelical_congregation_chronicle_found
+  - church_interior_identification_found
+  - denominational_press_report_found
+  - captioned_parallel_photo_found
+  - participant_or_clergy_identification_provided
+  - altar_textile_or_interior_inventory_found
+  - photographer_or_original_caption_found
+  evidence:
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-37.yml
+  - sources/index.d/urbanek-ccs-37.yml

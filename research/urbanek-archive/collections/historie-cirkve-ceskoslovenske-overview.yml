@@ -1,0 +1,304 @@
+schema_version: 2
+collection_id: urbanek-ccs-history
+collection_name: Historie Církve československé v Rychvaldě ve fotografiích
+source_root: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: completed
+scope:
+  subfolders: 10
+  content_files: 200
+  technical_files: 1
+  total_items: 201
+  pilot_relation: next_archive_batch_not_in_pilot_totals
+repository:
+  branch: agent/import-urbanek-pilot
+  original_files_staged: true
+  original_paths_preserved: true
+  original_filenames_preserved: true
+  full_blob_verification: completed
+subfolders:
+- order: 1
+  name: 1 Od položení základního kamene. Histotie rychvaldského kostela
+  content_files: 63
+  technical_files: 0
+- order: 2
+  name: 2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50
+  content_files: 6
+  technical_files: 0
+- order: 3
+  name: 3 Biskup Ferdinand Stibor v Rychvaldě
+  content_files: 7
+  technical_files: 0
+- order: 4
+  name: 4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19
+  content_files: 25
+  technical_files: 0
+- order: 5
+  name: 5 Kaple CČS na Ostravici
+  content_files: 40
+  technical_files: 0
+- order: 6
+  name: 6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky. Husova Č (1)
+  content_files: 14
+  technical_files: 0
+- order: 7
+  name: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956
+  content_files: 20
+  technical_files: 0
+- order: 8
+  name: 8 Farář Leonard Bogumský v Doubravě u příležitosti neznámých oslav
+  content_files: 5
+  technical_files: 0
+- order: 9
+  name: 9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenick
+  content_files: 5
+  technical_files: 0
+- order: 10
+  name: 10 Kalendář 2015
+  content_files: 15
+  technical_files: 1
+technical_files:
+- source_path: 10 Kalendář 2015/Thumbs.db
+  type: windows_thumbnail_cache
+  audit_status: completed_structurally_incomplete_no_missing_source_filenames
+  file_size_bytes: 70656
+  git_blob_sha: 91d73b30448ce8f8aa02a8ed79dafee5d349f0c2
+  sha256: 056cb436b5556dea975512e8ff00cd80ffb8eaa7ecbf7c3c4795e8f47831d037
+  catalog_source_filenames: 1.jpg–15.jpg
+  missing_full_originals_evidenced: 0
+  report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
+source_index_shards:
+- sources/index.d/urbanek-ccs.yml
+- sources/index.d/urbanek-ccs-02.yml
+- sources/index.d/urbanek-ccs-03.yml
+- sources/index.d/urbanek-ccs-04.yml
+- sources/index.d/urbanek-ccs-05.yml
+- sources/index.d/urbanek-ccs-06.yml
+- sources/index.d/urbanek-ccs-07.yml
+- sources/index.d/urbanek-ccs-08.yml
+- sources/index.d/urbanek-ccs-09.yml
+- sources/index.d/urbanek-ccs-10.yml
+- sources/index.d/urbanek-ccs-11.yml
+- sources/index.d/urbanek-ccs-12.yml
+- sources/index.d/urbanek-ccs-13.yml
+- sources/index.d/urbanek-ccs-14.yml
+- sources/index.d/urbanek-ccs-15.yml
+- sources/index.d/urbanek-ccs-16.yml
+- sources/index.d/urbanek-ccs-17.yml
+- sources/index.d/urbanek-ccs-18.yml
+- sources/index.d/urbanek-ccs-19.yml
+- sources/index.d/urbanek-ccs-20.yml
+- sources/index.d/urbanek-ccs-21.yml
+- sources/index.d/urbanek-ccs-22.yml
+- sources/index.d/urbanek-ccs-23.yml
+- sources/index.d/urbanek-ccs-24.yml
+- sources/index.d/urbanek-ccs-25.yml
+- sources/index.d/urbanek-ccs-26.yml
+- sources/index.d/urbanek-ccs-27.yml
+- sources/index.d/urbanek-ccs-28.yml
+- sources/index.d/urbanek-ccs-29.yml
+- sources/index.d/urbanek-ccs-30.yml
+- sources/index.d/urbanek-ccs-31.yml
+- sources/index.d/urbanek-ccs-32.yml
+- sources/index.d/urbanek-ccs-33.yml
+- sources/index.d/urbanek-ccs-34.yml
+- sources/index.d/urbanek-ccs-35.yml
+- sources/index.d/urbanek-ccs-36.yml
+- sources/index.d/urbanek-ccs-37.yml
+- sources/index.d/urbanek-ccs-38.yml
+- sources/index.d/urbanek-ccs-39.yml
+- sources/index.d/urbanek-ccs-40.yml
+- sources/index.d/urbanek-ccs-technical.yml
+batch_file_patterns:
+  inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-inventory-{NN}.csv
+  classification: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-{NN}.yml
+  source_index: sources/index.d/urbanek-ccs-{NN}.yml
+  exceptions:
+    batch_01_source_index: sources/index.d/urbanek-ccs.yml
+processing:
+  inventory_status: completed
+  visual_classification_status: completed_first_pass_for_content_files
+  ocr_status: completed_first_pass_for_content_files
+  thumbnail_cache_audit_status: completed_structurally_incomplete_no_missing_source_filenames
+  processed_items: 201
+  repo_verified_items: 201
+  visually_classified_items: 200
+  source_indexed_items: 201
+  remaining_items: 0
+  completed_batches:
+  - number: 1
+    items: 001-005
+    id: construction-sequence-01
+  - number: 2
+    items: 006-010
+    id: opening-and-early-interior-02
+  - number: 3
+    items: 011-015
+    id: first-communion-council-and-bells-03
+  - number: 4
+    items: 016-020
+    id: murals-occupation-exteriors-and-organ-04
+  - number: 5
+    items: 021-025
+    id: wedding-reconstruction-and-bishop-05
+  - number: 6
+    items: 026-030
+    id: reconstructed-chancel-carpet-and-obsil-murals-06
+  - number: 7
+    items: 031-035
+    id: anniversary-and-postwar-communion-groups-07
+  - number: 8
+    items: 036-040
+    id: renewed-communion-councils-and-choir-08
+  - number: 9
+    items: 041-045
+    id: modern-choir-and-chrobacek-inauguration-09
+  - number: 10
+    items: 046-050
+    id: chrobacek-anniversary-baptism-and-hus-commemoration-10
+  - number: 11
+    items: 051-055
+    id: hus-commemoration-continuation-and-living-nativity-11
+  - number: 12
+    items: 056-060
+    id: living-nativity-concerts-and-vodicka-memorial-12
+  - number: 13
+    items: 061-065
+    id: clergy-portraits-and-vodicka-bogumski-visit-13
+  - number: 14
+    items: 066-070
+    id: fiftieth-anniversary-baptisms-and-stibor-welcome-14
+  - number: 15
+    items: 071-075
+    id: stibor-visit-sequence-and-groups-15
+  - number: 16
+    items: 076-080
+    id: stibor-council-and-chrobacek-election-opening-16
+  - number: 17
+    items: 081-085
+    id: chrobacek-family-and-congratulations-17
+  - number: 18
+    items: 086-090
+    id: chrobacek-ritual-and-wife-congratulation-18
+  - number: 19
+    items: 091-095
+    id: chrobacek-investiture-address-and-document-19
+  - number: 20
+    items: 096-100
+    id: chrobacek-folk-costume-sculpture-reproductions-address-and-congregation-20
+  - number: 21
+    items: 101-105
+    id: chrobacek-final-duplicate-and-ostravice-chapel-opening-21
+  - number: 22
+    items: 106-110
+    id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques-22
+  - number: 23
+    items: 111-115
+    id: ostravice-chapel-manager-service-old-and-new-bell-tower-23
+  - number: 24
+    items: 116-120
+    id: ostravice-2016-site-plaque-symbol-and-horsky-portrait-24
+  - number: 25
+    items: 121-125
+    id: ostravice-service-crowd-procession-costumes-banners-and-clergy-25
+  - number: 26
+    items: 126-130
+    id: ostravice-chapel-clergy-crowd-bogumski-document-and-address-26
+  - number: 27
+    items: 131-135
+    id: ostravice-welcome-infant-reproductions-address-and-congregation-27
+  - number: 28
+    items: 136-140
+    id: ostravice-outdoor-clergy-choir-costumes-address-and-crowd-28
+  - number: 29
+    items: 141-145
+    id: ostravice-final-group-and-vodicka-funeral-opening-29
+  - number: 30
+    items: 146-150
+    id: vodicka-funeral-mourners-faculty-exit-and-salutes-30
+  - number: 31
+    items: 151-155
+    id: vodicka-funeral-closing-altar-portrait-and-duplicate-plaque-31
+  - number: 32
+    items: 156-160
+    id: stibor-funeral-portrait-radvanice-vigil-clergy-and-flags-32
+  - number: 33
+    items: 161-165
+    id: stibor-funeral-clergy-exit-steps-and-outdoor-procession-33
+  - number: 34
+    items: 166-170
+    id: stibor-funeral-coffin-bearing-street-clergy-and-procession-34
+  - number: 35
+    items: 171-175
+    id: stibor-funeral-wreaths-clergy-coffin-and-civilian-procession-35
+  - number: 36
+    items: 176-180
+    id: bogumsky-doubrava-service-altar-congregation-and-rite-36
+  - number: 37
+    items: 181-185
+    id: ostravice-1969-ecumenical-service-altar-pulpit-and-clergy-37
+  - number: 38
+    items: 186-190
+    id: calendar-2015-cover-history-january-february-march-38
+  - number: 39
+    items: 191-195
+    id: calendar-2015-april-may-june-july-august-39
+  - number: 40
+    items: 196-200
+    id: calendar-2015-september-october-november-december-and-closing-40
+  open_uncertainties_from_collection:
+  - URB-U-0039
+  - URB-U-0040
+  - URB-U-0041
+  - URB-U-0042
+  - URB-U-0043
+  - URB-U-0044
+  - URB-U-0045
+  - URB-U-0046
+  - URB-U-0047
+  - URB-U-0048
+  - URB-U-0049
+  - URB-U-0050
+  - URB-U-0051
+  - URB-U-0052
+  - URB-U-0053
+  - URB-U-0054
+  - URB-U-0055
+  - URB-U-0056
+  - URB-U-0057
+  - URB-U-0058
+  - URB-U-0059
+  - URB-U-0060
+  - URB-U-0061
+  - URB-U-0062
+  - URB-U-0063
+  - URB-U-0064
+  - URB-U-0065
+  - URB-U-0066
+  - URB-U-0067
+  - URB-U-0068
+  - URB-U-0069
+  - URB-U-0070
+  - URB-U-0071
+  - URB-U-0072
+  - URB-U-0073
+  next_items: []
+  technical_audit_files:
+    inventory: research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-technical-inventory.csv
+    source_index: sources/index.d/urbanek-ccs-technical.yml
+    report: research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
+rules:
+- Filenames and folder names are archival metadata, not independent historical proof.
+- Visual descriptions may be verified from the image; named persons, dates and events remain unverified until corroborated.
+- Persons are not identified solely from facial appearance.
+- Multiple archival reproductions of the same photograph are separate files but not independent event evidence.
+- Exact binary duplicates under different paths are separate inventory items but only one independent image record.
+- Chains, medallions, armbands, chalice-like emblems, headwear, books, banners, liturgical gestures or procession position
+  do not independently establish an office, organization or role.
+- A readable biblical quotation or reference verifies visible wording only, not the date, place, denomination or character
+  of the photographed event.
+- Modern commemorative calendar pages are secondary compilations; readable text and reused images verify page content only,
+  not the underlying historical claims.
+- A thumbnail-cache filename or image is evidence of a missing full original only when it cannot be matched to a present source
+  file; an incomplete cache stream alone is not such evidence.

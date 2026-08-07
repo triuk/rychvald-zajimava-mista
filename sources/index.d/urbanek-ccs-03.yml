@@ -1,0 +1,86 @@
+schema_version: 1
+scope: urbanek-ccs-history
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; jednotliví autoři a držitelé práv nejsou ověřeni. Neznámá práva."
+
+sources:
+  - source_id: urbanek-ccs-011
+    title: První svaté přijímání – skupina chlapců a duchovní, archivní označení
+    document_type: historical_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/11  První svaté přijímání chlepci a farář Vodička.jpg"
+    file_size_bytes: 584834
+    git_blob_sha: 9494fef348ab651f14a4401aff20af6ad8be23d6
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Skupina a architektura jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_group_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Název události a jméno duchovního pocházejí z archivního názvu souboru."
+      - "Datace a totožnost osob jsou evidovány v URB-U-0039."
+
+  - source_id: urbanek-ccs-012
+    title: První svaté přijímání – skupina dívek a duchovní, archivní označení
+    document_type: historical_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/12  První svaté přijímání dívky a farář Vodička.jpg"
+    file_size_bytes: 630209
+    git_blob_sha: 01e94dc7bc7ea3559f65e3c30d92a974f542de4d
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Skupina a architektura jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_group_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Název události a jméno duchovního pocházejí z archivního názvu souboru."
+      - "Datace, vztah k položce 011 a totožnost osob jsou evidovány v URB-U-0039."
+
+  - source_id: urbanek-ccs-013
+    title: Deset let CČS v Rychvaldě – skupina rady starších, archivní označení
+    document_type: historical_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/13  10 let CČS rada starších 1930.jpg"
+    file_size_bytes: 1627236
+    git_blob_sha: b65cf690e37e255bc379d0e322223a8651dfda5b
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good_with_faded_caption, note: "Osoby jsou čitelné; spodní popisek je částečně setřený."}
+    visual_content: {photographs: single_historical_group_scene, scene_text: present_partial, method: "Vizuální kontrola obrazu a zvětšení spodního popisku."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Popisek podporuje vztah k desetiletí CČS v Rychvaldě a rok 1930."
+      - "Úplný přepis a totožnost osob jsou evidovány v URB-U-0040."
+
+  - source_id: urbanek-ccs-014
+    title: Letopočet 1920 na zvonu
+    document_type: modern_color_detail_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/14  Na zvonech je letopočel 1920.JPG"
+    file_size_bytes: 2045039
+    git_blob_sha: e0a94f8d2bfa0ea719d6742bd485e68579899ea6
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Plastický letopočet je dobře čitelný."}
+    visual_content: {photographs: single_technical_detail, scene_text: present_verified, method: "Vizuální kontrola detailu zvonu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Obrazově ověřený text je 1920."
+      - "Význam letopočtu, výrobce a historie zvonu jsou evidovány v URB-U-0041."
+
+  - source_id: urbanek-ccs-015
+    title: Zvonová stolice a mechanismus zvonění
+    document_type: modern_color_technical_interior_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/15  zvony byly původně na ruční zvonění.JPG"
+    file_size_bytes: 2911606
+    git_blob_sha: bcf68869f4dcf5edb7ddd726f0a0f66912687cda
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Tři zvony a nosná konstrukce jsou dobře čitelné."}
+    visual_content: {photographs: single_technical_interior_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - "Tvrzení o původním ručním zvonění není samotnou fotografií časově doloženo."
+      - "Identita zvonů je vedena v URB-U-0041 a historie mechanismu v URB-U-0042."

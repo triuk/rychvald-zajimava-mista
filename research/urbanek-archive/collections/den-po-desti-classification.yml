@@ -1,0 +1,159 @@
+collection_id: urbanek-den-po-desti
+status: completed
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+inventory_items: 10
+image_items: 8
+technical_items: 2
+document_text_candidates: 0
+scene_text_required: 0
+
+items:
+  - id: urbanek-den-po-desti-001
+    source_path: fotodokument/den po dešti/P1020840.JPG
+    visual_type: contemporary_documentary_photograph
+    dimensions: [3072, 2304]
+    exif_datetime: "2014-08-05T20:55:05"
+    description: >-
+      Večerní pohled podél místní komunikace. Po vozovce teče nebo stojí souvislý
+      světlý pás dešťové vody; vlevo je okrajově zachycena osoba. Přesné místo a
+      příčina odtoku nejsou z obrazu bezpečně určitelné.
+    grouping: {group_id: rainfall-event-2014-08-05, role: single_overview}
+    text: {document_text: not_applicable, scene_text: not_required}
+
+  - id: urbanek-den-po-desti-002
+    source_path: fotodokument/den po dešti/P1020842.JPG
+    visual_type: contemporary_documentary_photograph
+    dimensions: [2304, 3072]
+    exif_datetime: "2014-08-24T11:30:43"
+    description: >-
+      Podélný pohled po úzké obytné komunikaci se zbytkovým proudem nebo pásem vody
+      uprostřed vozovky. Jde o první dochovaný plný snímek souvislé série.
+    grouping:
+      group_id: rainfall-event-2014-08-24
+      role: sequence_start_current
+      missing_predecessor: P1020841.JPG
+    text: {document_text: not_applicable, scene_text: not_required}
+
+  - id: urbanek-den-po-desti-003
+    source_path: fotodokument/den po dešti/P1020843.JPG
+    visual_type: contemporary_documentary_photograph
+    dimensions: [3072, 2304]
+    exif_datetime: "2014-08-24T11:32:18"
+    description: >-
+      Velká mělká kaluž u napojení nezpevněné nebo rozestavěné příjezdové cesty na
+      místní komunikaci, vedle rozestavěného objektu a oplocení.
+    grouping: {group_id: rainfall-event-2014-08-24, role: pooled_water_at_side_access}
+    text: {document_text: not_applicable, scene_text: not_required}
+
+  - id: urbanek-den-po-desti-004
+    source_path: fotodokument/den po dešti/P1020844.JPG
+    visual_type: contemporary_documentary_photograph
+    dimensions: [2304, 3072]
+    exif_datetime: "2014-08-24T11:32:33"
+    description: >-
+      Pohled místní komunikací směrem k příčnému napojení. V několika nízkých místech
+      leží voda napříč vozovkou; v dálce jsou dopravní značky a reklamní banner.
+    grouping: {group_id: rainfall-event-2014-08-24, role: overview_toward_junction}
+    text:
+      document_text: not_applicable
+      scene_text: incidental_not_required
+      visible_incidental_text: "FORT-REALITY"
+
+  - id: urbanek-den-po-desti-005
+    source_path: fotodokument/den po dešti/P1020845.JPG
+    visual_type: contemporary_documentary_photograph
+    dimensions: [2304, 3072]
+    exif_datetime: "2014-08-24T11:32:38"
+    description: >-
+      Užší nebo přiblížený pohled stejným směrem jako položka 004. Dokumentuje vodu
+      v příčných sníženinách vozovky a napojení na komunikaci v pozadí.
+    grouping:
+      group_id: rainfall-event-2014-08-24
+      role: detail_toward_junction
+      related_id: urbanek-den-po-desti-004
+    text:
+      document_text: not_applicable
+      scene_text: incidental_not_required
+      visible_incidental_text: "FORT-REALITY"
+
+  - id: urbanek-den-po-desti-006
+    source_path: fotodokument/den po dešti/P1020846.JPG
+    visual_type: contemporary_documentary_photograph
+    dimensions: [2304, 3072]
+    exif_datetime: "2014-08-24T11:33:56"
+    description: >-
+      Pohled opačným nebo navazujícím směrem podél obytné komunikace. Voda vytváří
+      nepravidelný podélný pás po okraji a středu vozovky.
+    grouping: {group_id: rainfall-event-2014-08-24, role: reverse_or_continuing_view}
+    text: {document_text: not_applicable, scene_text: not_required}
+
+  - id: urbanek-den-po-desti-007
+    source_path: fotodokument/den po dešti/P1020847.JPG
+    visual_type: contemporary_documentary_photograph
+    dimensions: [2304, 3072]
+    exif_datetime: "2014-08-24T11:34:35"
+    description: >-
+      Detail mělkého odtoku nebo stojící vody podél okraje vozovky a travnatého
+      pásu. Snímek uzavírá dochovanou sekvenci z 24. srpna 2014.
+    grouping: {group_id: rainfall-event-2014-08-24, role: sequence_end_detail}
+    text: {document_text: not_applicable, scene_text: not_required}
+
+  - id: urbanek-den-po-desti-008
+    source_path: fotodokument/den po dešti/P1040200.JPG
+    visual_type: contemporary_infrastructure_documentation
+    dimensions: [3072, 2304]
+    exif_datetime: "2015-03-18T13:57:11"
+    description: >-
+      Samostatný denní snímek odvodňovacího nebo propustkového místa u hlavní
+      komunikace: příkop či otvor pod krajnicí, navazující nezpevněná plocha a liniový
+      žlab. Povrch je převážně suchý a snímek nepatří ke dvěma srpnovým událostem.
+    grouping: {group_id: drainage-context-2015-03-18, role: infrastructure_context}
+    text: {document_text: not_applicable, scene_text: not_required}
+
+  - id: urbanek-den-po-desti-009
+    source_path: fotodokument/den po dešti/Thumbs.db
+    visual_type: technical_thumbnail_cache
+    repo_status: drive_listed_repo_missing
+    audit_report: research/urbanek-archive/reports/den-po-desti-thumbnail-cache.md
+    text: {document_text: not_applicable, scene_text: not_applicable}
+
+  - id: urbanek-den-po-desti-010
+    source_path: fotodokument/den po dešti/ZbThumbnail.info
+    visual_type: technical_thumbnail_cache
+    repo_status: repo_verified
+    text: {document_text: not_applicable, scene_text: not_applicable}
+
+groups:
+  - group_id: rainfall-event-2014-08-05
+    members: [urbanek-den-po-desti-001]
+  - group_id: rainfall-event-2014-08-24
+    known_missing_member:
+      filename: P1020841.JPG
+      source: Thumbs.db
+      catalog_timestamp: "2014-08-24T09:30:26"
+      note: Čas cache je v jiné časové bázi než EXIF, ale pořadí jej klade před P1020842.JPG.
+    ordered_current_members:
+      - urbanek-den-po-desti-002
+      - urbanek-den-po-desti-003
+      - urbanek-den-po-desti-004
+      - urbanek-den-po-desti-005
+      - urbanek-den-po-desti-006
+      - urbanek-den-po-desti-007
+  - group_id: drainage-context-2015-03-18
+    members: [urbanek-den-po-desti-008]
+
+collection_result:
+  classification_complete: true
+  ocr_required: false
+  exact_location_verified: false
+  multiple_events_confirmed_by_exif: true
+  open_uncertainties: [URB-U-0033, URB-U-0034]
+
+next_action:
+  type: close_collection_and_inventory_next
+  next_collection: Nálet na Ostravu 1944
+  instruction: >-
+    Mark den po dešti classification complete without starting OCR. Preserve the
+    missing P1020841.JPG uncertainty, then inventory and verify the Nálet na Ostravu
+    1944 collection before visual grouping.

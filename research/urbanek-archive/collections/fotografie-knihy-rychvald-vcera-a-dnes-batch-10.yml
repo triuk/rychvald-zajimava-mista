@@ -1,0 +1,239 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+collection_title: Fotografie knihy Rychvald včera a dnes
+batch_number: 10
+batch_id: aerial-views-pond-woodland-rural-housing-and-large-building-10
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+  items:
+  - 45.jpg
+  - 46.jpg
+  - 47.jpg
+  - 48.jpg
+  - 49.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without external historical verification.
+- EXIF inspection; embedded dates are preserved as file metadata, not treated as independent proof of publication use or authorship.
+- Exact binary duplicate check within the batch and against previously indexed files in the collection.
+batch_findings:
+  general: Pět samostatných šikmých leteckých pohledů na rybniční a mokřadní krajinu, obytnou zástavbu u lesního okraje, rozptýlené
+    venkovské osídlení, izolovanou skupinu domů mezi poli a rozsáhlou vícekřídlou budovu u hlavní komunikace.
+  folder_title_interpretation: Název složky zůstává archivním údajem. Ani tato dávka neobsahuje viditelné okraje knižních
+    stran nebo bibliografický text.
+  metadata_sessions:
+  - 46.jpg a dříve zpracované 41.jpg mají EXIF časy 2013-10-05 15:20:10 a 15:27:02. Odstup šest minut a 52 sekund může odpovídat
+    jedné letové relaci, ale snímky zachycují odlišný typ zástavby a prostorový překryv nebyl zjištěn.
+  - 49.jpg a dříve zpracované 20.jpg mají EXIF časy 2013-08-07 18:01:16 a 18:02:00. Odstup 44 sekund podporuje jednu fotografickou
+    sekvenci, ale jednoznačný společný orientační bod nebyl potvrzen. Do stejného širšího časového bloku patří také 40.jpg
+    a 42.jpg.
+  - 47.jpg má EXIF čas 2012-11-11 00:13:15, zatímco dříve zpracované 43.jpg a 44.jpg uvádějí časy 2012-11-10 kolem 23:40.
+    Všechny tři obrazy zachycují denní světlo a prostorový překryv 47.jpg s touto dvojicí nebyl zjištěn; hodinové údaje proto
+    nepodporují spolehlivé časové řazení.
+  - 48.jpg viditelně zachycuje denní světlo, přesto EXIF uvádí 23:33:18. Hodinová složka se proto vede jako nespolehlivá metadata,
+    nikoli jako prokázaný čas expozice.
+  - Žádný soubor dávky 10 nemá vyplněný EXIF tag software.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_against_batches_01_09: 0
+  visual_overlap: Mezi soubory dávky ani proti lokálně porovnávaným dříve zpracovaným snímkům nebyl potvrzen jednoznačný prostorový
+    překryv. Časová blízkost některých dvojic proto zůstává pouze metadatačním vodítkem.
+  text_content: V obrazech není čitelný souvislý knižní text ani bibliografický údaj.
+items:
+- id: urbanek-rychvald-vcera-dnes-046
+  filename: 45.jpg
+  git_blob_sha: e7256830d08dd396dff5912d05d1fee5900a423e
+  sha256: 8aefc05595386a10471fee3bdc52f015c5662b21d878abfd4ff84ceb02115121
+  dimensions_px:
+  - 4536
+  - 2536
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-03-05 06:02:45'
+    software: null
+  visual_description: Šikmý letecký pohled na rozsáhlou vodní plochu s protáhlými porostlými ostrůvky nebo poloostrovy, rákosinami
+    a mokřadním pobřežím; v popředí vede zakřivená komunikace kolem rodinných domů a zahrad, v dálce navazuje zemědělská a
+    sídelní krajina.
+  classification:
+  - aerial_photograph
+  - large_water_body
+  - wooded_islets_or_peninsulas
+  - reedbeds
+  - wetland_margin
+  - curved_road
+  - detached_housing
+  - gardens
+  - agricultural_land
+  - distant_settlement
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_water_body_identity
+  - whether_landforms_are_islands_or_peninsulas
+  - exact_road_identity
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-047
+  filename: 46.jpg
+  git_blob_sha: f0f312edf0de43405be75cfa12a2c03bde82d1e0
+  sha256: de9782b56341b996930ca64b0bfd77359257223b5dbedb89629ab149e280c49b
+  dimensions_px:
+  - 4546
+  - 2515
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-10-05 15:20:10'
+    software: null
+  visual_description: Šikmý letecký pohled na obytnou čtvrť s rodinnými domy, rozlehlými zahradami a sítí místních komunikací,
+    která bezprostředně sousedí s rozsáhlým souvislým lesním porostem.
+  classification:
+  - aerial_photograph
+  - residential_neighborhood
+  - detached_housing
+  - gardens
+  - local_roads
+  - woodland_edge
+  - dense_woodland
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identities
+  - exact_identity_of_visible_buildings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-048
+  filename: 47.jpg
+  git_blob_sha: 63b7dc169663872d58bada2e373560a0055fe24b
+  sha256: 91c271579615db37e29510794aa35230afa680bc94ba43b1c67b9dafa7de5005
+  dimensions_px:
+  - 4525
+  - 2453
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2012-11-11 00:13:15'
+    software: null
+  visual_description: Šikmý letecký pohled na rozptýlenou až liniovou venkovskou zástavbu podél místních komunikací, s rodinnými
+    domy, zahradami, loukami, poli a pásy podzimně zbarvených stromů; v dálce jsou větší sídelní nebo provozní budovy.
+  classification:
+  - aerial_photograph
+  - dispersed_linear_settlement
+  - detached_housing
+  - gardens
+  - local_roads
+  - agricultural_land
+  - fields
+  - grassland
+  - autumn_tree_belts
+  - distant_larger_buildings
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identities
+  - exact_identity_of_distant_buildings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-049
+  filename: 48.jpg
+  git_blob_sha: bc3cec436869f5418e71c85d9b1da4eaed48109a
+  sha256: 98c2b009913ad2083826e70fb0d87edc9d76a8976911551b051269dcb1238a03
+  dimensions_px:
+  - 3876
+  - 1938
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2012-09-30 23:33:18'
+    software: null
+  visual_description: Šikmý letecký pohled na menší izolovanou skupinu rodinných domů a oplocených zahrad, přístupnou úzkou
+    komunikací a sevřenou mezi rozsáhlými obdělávanými poli a souvislým lesním okrajem.
+  classification:
+  - aerial_photograph
+  - isolated_housing_cluster
+  - detached_housing
+  - fenced_gardens
+  - narrow_access_road
+  - cultivated_fields
+  - agricultural_land
+  - woodland_edge
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_identity_of_visible_buildings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-050
+  filename: 49.jpg
+  git_blob_sha: 2e3c2a102219866939e6cadb3bcbb14ab7825f0e
+  sha256: 13ff671477dc133acefcf7296f56ec38730b2b2716916dfb0198f46b81b30cbe
+  dimensions_px:
+  - 4144
+  - 2237
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-07 18:01:16'
+    software: null
+  visual_description: Šikmý letecký pohled na rozsáhlou vícekřídlou budovu přibližně dvorního půdorysu se světlou fasádou
+    a tmavou střechou, stojící u hlavní komunikace a křižovatky; okolí tvoří pole, další obytné budovy a vodní plocha při
+    levém okraji.
+  classification:
+  - aerial_photograph
+  - large_multiwing_building
+  - courtyard_form
+  - main_road
+  - road_intersection
+  - agricultural_fields
+  - nearby_water_body
+  - residential_buildings
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_building_identity_and_function
+  - exact_road_identity
+  - exact_water_body_identity
+  - photographer_and_rights
+related_uncertainties:
+- URB-U-0076
+next_batch:
+  number: 11
+  filenames:
+  - 50.jpg
+  - 51.jpg
+  - 52.jpg
+  - 53.jpg

@@ -1,0 +1,21 @@
+collection_id: urbanek-ceske-slovo
+batch_id: verification-01
+status: completed
+scope: urbanek-ceske-slovo-001 až urbanek-ceske-slovo-011
+verified_count: 11
+missing_count: 0
+items:
+  - {id: urbanek-ceske-slovo-001, git_blob_sha: e112c74438dee6da27e01860f93f4e584ccee8ee}
+  - {id: urbanek-ceske-slovo-002, git_blob_sha: afba0f84ea7a1ca327bb9fd5cad9607876f35898}
+  - {id: urbanek-ceske-slovo-003, git_blob_sha: 84d1a3f00a64e472d63d6faf995dfeeba720e6dd}
+  - {id: urbanek-ceske-slovo-004, git_blob_sha: 5581e87d01a85a31aefe7acc790b4e1a0b82c9d3}
+  - {id: urbanek-ceske-slovo-005, git_blob_sha: ea31298078b910e1ea6493269174c03e5ed86593}
+  - {id: urbanek-ceske-slovo-006, git_blob_sha: bb352928ab9a1e64c1ba8cf066aec5b11bc12db6}
+  - {id: urbanek-ceske-slovo-007, git_blob_sha: 8a72ca68bd21c1df64bc095850a6f82974b24b06}
+  - {id: urbanek-ceske-slovo-008, git_blob_sha: 55ddaea4decac95cb132f2f8487e18afb6a3d941}
+  - {id: urbanek-ceske-slovo-009, git_blob_sha: e12b159db5ec196f896256648257677a31e57720}
+  - {id: urbanek-ceske-slovo-010, git_blob_sha: 7ce29cfce3b84608072257d4d986cb1264726224}
+  - {id: urbanek-ceske-slovo-011, git_blob_sha: 5d261a250dfbd71eb8dd48f079fdcba0d07fa545}
+notes:
+  - Přesné původní názvy včetně mezer a diakritiky byly zachovány.
+  - Obsahová klasifikace ani OCR v této ověřovací dávce nebyly prováděny.

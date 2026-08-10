@@ -22,37 +22,38 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 460 | 20 | **480** |
-| zbývá | 127 | 9 | **136** |
+| zpracováno | 465 | 20 | **485** |
+| zbývá | 122 | 9 | **131** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 20 z 33 položek.
+Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 25 z 33 položek.
 
-## Rychvald – dávka 04
+## Rychvald – dávka 05
 
-Zpracovány byly soubory `P1010115.JPG`, `P1010116.JPG`, `P1010117.JPG`, `Rychvald2009 003.jpg` a `Rychvald2009 004.jpg`:
+Zpracovány byly soubory `Rychvald2009 005.jpg`, `Rychvald2009 008.jpg`, `Zp0707 090.jpg`, `Zp1109 005.jpg` a `Zp1109 082.jpg`:
 
-- `P1010115.JPG` je fotografovaná rukopisná stránka s číslem „- 26 -“ a časovými rozsahy od 1715–1719 po 1894–1903; úplný kurzivní přepis a historická správnost údajů nejsou v této fázi ověřeny;
-- `P1010116.JPG` je fotografovaná rukopisná stránka s chronologicky řazenými místními událostmi a bezpečně čitelnými datovanými položkami z let 1920 až 1923; jednotlivé zápisy jsou evidovány jako obsah předlohy, nikoli jako nezávisle ověřené historické skutečnosti;
-- `P1010117.JPG` je fotografovaná rukopisná stránka s číslem „- 197 -“ a nadpisem „Škola živnostenská pokračovací.“; viditelné jsou mimo jiné roky 1912 a 1920;
-- `Rychvald2009 003.jpg` a `Rychvald2009 004.jpg` jsou dva odlišné barevné snímky téhož kamenného hřbitovního kříže s figurální výzdobou, pořízené z mírně odlišného záběru s odstupem 13 sekund. Slabý nápis či datace na podstavci nejsou bezpečně čitelné.
+- `Rychvald2009 005.jpg` zachycuje moderní světlou budovu se vstupem pod širokou stříškou, částečně zakrytou vzrostlou zelení; přesná instituce a lokalita nejsou z obrazu určeny;
+- `Rychvald2009 008.jpg` zachycuje malou červenou dřevěnou sakrálně působící stavbu s křížem na štítu vedle mohutného stromu; přesná identita, zasvěcení a datace nejsou určeny;
+- `Zp0707 090.jpg` zachycuje vícepatrovou světlou budovu s červenou taškovou střechou, vikýři a řadou balkonů; funkce a přesná identita budovy nejsou z obrazu samostatně doloženy;
+- `Zp1109 005.jpg` zachycuje sportovní areál s oválnou běžeckou dráhou, travnatou plochou, fotbalovou brankou, osvětlením a oploceným víceúčelovým hřištěm;
+- `Zp1109 082.jpg` zachycuje oranžovo-žlutou budovu s rampou a oploceným venkovním prostorem s dětskými herními prvky. Přítomné osoby nejsou identifikovány a funkce budovy není domýšlena.
 
-Všech pět souborů přesně odpovídá raw souborům z Drive a Git blobům. `P1010115.JPG` až `P1010117.JPG` uvádějí Panasonic DMC-TZ3 a časy 1. září 2010 15:18:04 až 15:27:38. `Rychvald2009 003.jpg` a `Rychvald2009 004.jpg` uvádějí Panasonic DMC-FZ7 a časy 1. září 2009 09:15:37 a 09:15:50. Tyto časy jsou metadata moderního zachycení, nikoli data historických událostí nebo vzniku rukopisných předloh.
+Všech pět lokálních raw souborů přesně odpovídá Git blobům a velikostem evidovaným v repozitáři; položky byly současně dohledány v kanonické složce na Drive. Všechny uvádějí Panasonic DMC-FZ7. EXIF časy jsou 11. června 2007 15:18:10, 1. září 2009 09:17:26 a 09:18:39, 23. září 2009 15:20:20 a 26. září 2009 15:38:27. Tyto časy jsou metadata moderního fotografického zachycení, nikoli historická data objektů.
 
-Mezi pěti položkami dávky 04 není přesná binární duplicita. Hřbitovní dvojice je evidována jako dva samostatné, téměř po sobě pořízené záběry stejného objektu.
+Mezi pěti položkami dávky 05 není přesná binární duplicita.
 
-Nejistota `URB-U-0082` byla rozšířena na položky 001–020. Nová nejistota nevznikla.
+Nejistota `URB-U-0082` byla rozšířena na položky 001–025. Nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| Rychvald – zbývá | 11 | 2 | 13 |
+| Rychvald – zbývá | 6 | 2 | 8 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **127** | **9** | **136** |
+| **Celkem** | **122** | **9** | **131** |
 
 ## Registr nejistot
 
@@ -67,12 +68,11 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 480 položek;
-- zbývá 136 položek;
-- kolekce `Rychvald` je zpracována v rozsahu 20 z 33 položek;
-- všech pět raw Drive souborů dávky 04 přesně odpovídá Git blobům;
-- v dávce 04 není přesná binární duplicita mezi pěti vybranými cestami;
-- položky 019 a 020 jsou dva rozdílné snímky stejného objektu, nikoli binární kopie;
+- zpracovaný rozsah je 485 položek;
+- zbývá 131 položek;
+- kolekce `Rychvald` je zpracována v rozsahu 25 z 33 položek;
+- pět lokálních raw souborů dávky 05 přesně odpovídá Git blobům a velikostem a jejich názvy/identity byly ověřeny v kanonické Drive složce;
+- v dávce 05 není přesná binární duplicita mezi pěti vybranými cestami;
 - dříve potvrzená položka 007 zůstává přesným duplikátem položky 002;
 - registr používá součty 47/32/3/82;
 - PR zůstává otevřený draft a není žádostí o sloučení;
@@ -81,5 +81,5 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Aktuální krok
 
 - Aktivní fáze: `full_archive_indexing`.
-- Další dávka: `Rychvald2009 005.jpg`, `Rychvald2009 008.jpg`, `Zp0707 090.jpg`, `Zp1109 005.jpg` a `Zp1109 082.jpg`.
+- Další dávka: `Zp1109 340.jpg`, `Zp1109 379.jpg`, `Zp1109 382.jpg`, `Zp1109 390.jpg` a `zzz-satiny 255.jpg`.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

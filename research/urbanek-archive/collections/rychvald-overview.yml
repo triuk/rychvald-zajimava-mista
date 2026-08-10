@@ -11,15 +11,15 @@ totals:
   technical_files: 2
   total_items: 33
 progress:
-  processed_content_files: 25
+  processed_content_files: 30
   processed_technical_files: 0
-  processed_items: 25
-  repo_verified_items: 25
-  visually_classified_items: 25
-  source_indexed_items: 25
-  remaining_content_files: 6
+  processed_items: 30
+  repo_verified_items: 30
+  visually_classified_items: 30
+  source_indexed_items: 30
+  remaining_content_files: 1
   remaining_technical_files: 2
-  remaining_items: 8
+  remaining_items: 3
 completed_batches:
 - number: 1
   items: 001-005
@@ -81,6 +81,18 @@ completed_batches:
   inventory: research/urbanek-archive/collections/rychvald-inventory-05.csv
   classification: research/urbanek-archive/collections/rychvald-batch-05.yml
   source_index: sources/index.d/urbanek-rychvald-05.yml
+- number: 6
+  items: 026-030
+  filenames:
+  - Zp1109 340.jpg
+  - Zp1109 379.jpg
+  - Zp1109 382.jpg
+  - Zp1109 390.jpg
+  - zzz-satiny 255.jpg
+  id: railway-nature-reserve-waterbody-equipment-and-cemetery-context-06
+  inventory: research/urbanek-archive/collections/rychvald-inventory-06.csv
+  classification: research/urbanek-archive/collections/rychvald-batch-06.yml
+  source_index: sources/index.d/urbanek-rychvald-06.yml
 interpretation_rules:
 - The folder title Rychvald and individual filenames are archival metadata, not independent proof of exact location, authorship or date.
 - Visible signs and captions are transcribed as photographed wording; their underlying historical claims, abbreviations and dates require corroboration.
@@ -95,6 +107,10 @@ interpretation_rules:
   alone do not establish monument identity or exact location.
 - Modern buildings and facilities in batch 05 are described by visible form and features only; filename, folder context and appearance alone do
   not establish exact institution, function or location.
+- The visible wording on item 027 establishes the photographed labels “PŘÍRODNÍ REZERVACE” and “Přírodní rezervace Skučák”; it does not by itself
+  establish historical designation dates or the full legal/management context.
+- Item 030 is linked to items 019 and 020 as the same monument by distinctive visible form and details; this cross-image match does not by itself
+  establish the monument's formal identity, date or exact cemetery.
 open_uncertainties:
 - URB-U-0082
 technical_files:
@@ -103,10 +119,6 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 6
+  number: 7
   filenames:
-  - Zp1109 340.jpg
-  - Zp1109 379.jpg
-  - Zp1109 382.jpg
-  - Zp1109 390.jpg
-  - zzz-satiny 255.jpg
+  - zzz-satiny 258.jpg

@@ -31,6 +31,11 @@ items:
   - urbanek-rychvald-023
   - urbanek-rychvald-024
   - urbanek-rychvald-025
+  - urbanek-rychvald-026
+  - urbanek-rychvald-027
+  - urbanek-rychvald-028
+  - urbanek-rychvald-029
+  - urbanek-rychvald-030
   question: Jaká je přesná provenience, autorství a lokalizace fotografií v kolekci `Rychvald`, co znamená jméno `Cudlín` v názvech souborů, jaký
     byl původní účel či publikační kontext sady a které události, objekty, datace a významy popisků zachycují historické reprodukce?
   known_facts:
@@ -73,6 +78,15 @@ items:
   - '`Zp1109 082.jpg` zachycuje oranžovo-žlutou budovu s rampou a oploceným venkovním prostorem s dětskými herními prvky; přítomné osoby nejsou
     identifikovány a funkce budovy není domýšlena.'
   - Název adresáře a názvy souborů jsou archivní metadata a samy neprokazují přesnou lokalitu, fotografa, událost ani historické datum.
+  - '`Zp1109 340.jpg` zachycuje jednokolejnou železniční trať, cihlovou budovu těsně u koleje a železniční vozidlo v dálce; přesná lokalita a
+    funkce budovy nejsou na snímku čitelně označeny.'
+  - '`Zp1109 379.jpg` přímo zobrazuje informační označení s bezpečně čitelnými texty „PŘÍRODNÍ REZERVACE“ a „Přírodní rezervace Skučák“ před vodní
+    plochou s vodními ptáky.'
+  - '`Zp1109 382.jpg` a `Zp1109 390.jpg` jsou dva odlišné záběry stejného zařízení u vodní plochy s řadou kulatých nádob či kádí, malými čluny
+    a na širším záběru také zeleným mechanickým zařízením; funkce zařízení není domýšlena.'
+  - '`zzz-satiny 255.jpg` je širší hřbitovní pohled, na němž je podle shodných výrazných tvarových detailů tentýž kamenný kříž jako na položkách
+    019 a 020; přítomné osoby nejsou identifikovány a přesný hřbitov ani historická identita pomníku nejsou tímto vizuálním spojením samy o sobě
+    doloženy.'
   unknown:
   - exact_location_of_each_scene
   - whether_all_scenes_are_in_Rychvald
@@ -90,6 +104,9 @@ items:
   - physical_source_provenance_and_reproduction_history
   - original_collection_purpose_and_publication_context
   - copyright_and_reuse_rights
+  - exact_railway_location_building_identity_function_and_rail_vehicle_context_for_Zp1109_340
+  - function_ownership_and_management_context_of_waterside_equipment_in_Zp1109_382_and_390_and_exact_relation_of_those_views_to_reserve_boundaries
+  - formal_identity_exact_cemetery_historical_date_and_inscription_of_monument_shared_by_Rychvald2009_003_004_and_zzz_satiny_255
   evidence:
   - research/urbanek-archive/collections/rychvald-batch-01.yml
   - research/urbanek-archive/collections/rychvald-batch-02.yml
@@ -102,3 +119,5 @@ items:
   - sources/index.d/urbanek-rychvald-03.yml
   - sources/index.d/urbanek-rychvald-04.yml
   - sources/index.d/urbanek-rychvald-05.yml
+  - research/urbanek-archive/collections/rychvald-batch-06.yml
+  - sources/index.d/urbanek-rychvald-06.yml

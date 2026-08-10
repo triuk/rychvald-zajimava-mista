@@ -28,18 +28,18 @@ method:
 - Safe transcription of clearly readable wording and cautious recording of partial signage; unreadable text is not reconstructed.
 - Exact binary duplicate check among the five selected paths.
 batch_findings:
-  general: 'PĖ� černobílých archivních obrazů: budova s nápisem „SBĚRNA“, další neidentifikovaná větší zděná budova, pouliční
+  general: 'Pět černobílých archivních obrazů: budova s nápisem „SBĚRNA“, další neidentifikovaná větší zděná budova, pouliční
     průvod s vlajkami, veřejné shromáždění podél ulice s viditelnými symboly srpu a kladiva a skupinový snímek na jevišti
     v kostýmech.'
   exact_binary_duplicates_within_batch: 0
-  metadata_scope: Žádný z pĖ�i JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani
     způsob vzniku digitalizace.
   visible_text_scope: Na img065.jpg je bezpečně čitelné „SBĚRNA“. Na img068.jpg je na směrové tabuli čitelné číslo „5“ a pouze
     začátek názvu „OSTR…“; celý místní název není bezpečně rekonstruován.
   symbol_scope: Na nejméně dvou vlajkách na img068.jpg jsou zřetelně viditelné symboly srpu a kladiva. Eviduje se pouze vizuálně
-    doložení symbol; z něj samotného se neurčuje přesní organizátor, příslušnost účastníků ani název události.
-  identity_scope: Nápis „SBĚRNA“ dokládá dobové označení funkce na img065.jpg, nikoli přesnou instituci nebo předmĖ� sběru.
-    Události na img067.jpg a img068.jpg, jejich vzájemní vztah a skupina či inscenace na img070.jpg zůstávají bez dalšího
+    doložený symbol; z něj samotného se neurčuje přesný organizátor, příslušnost účastníků ani název události.
+  identity_scope: Nápis „SBĚRNA“ dokládá dobové označení funkce na img065.jpg, nikoli přesnou instituci nebo předmět sběru.
+    Události na img067.jpg a img068.jpg, jejich vzájemný vztah a skupina či inscenace na img070.jpg zůstávají bez dalšího
     pramene neidentifikované.
 items:
 - id: urbanek-fotodokument-root-026

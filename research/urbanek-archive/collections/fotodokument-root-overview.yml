@@ -13,15 +13,15 @@ totals:
   technical_files: 2
   total_items: 43
 progress:
-  processed_content_files: 5
+  processed_content_files: 10
   processed_technical_files: 0
-  processed_items: 5
-  repo_verified_items: 5
-  visually_classified_items: 5
-  source_indexed_items: 5
-  remaining_content_files: 36
+  processed_items: 10
+  repo_verified_items: 10
+  visually_classified_items: 10
+  source_indexed_items: 10
+  remaining_content_files: 31
   remaining_technical_files: 2
-  remaining_items: 38
+  remaining_items: 33
 completed_batches:
 - number: 1
   items: 001-005
@@ -35,10 +35,24 @@ completed_batches:
   inventory: research/urbanek-archive/collections/fotodokument-root-inventory-01.csv
   classification: research/urbanek-archive/collections/fotodokument-root-batch-01.yml
   source_index: sources/index.d/urbanek-fotodokument-root-01.yml
+- number: 2
+  items: 006-010
+  filenames:
+  - img041.jpg
+  - img042.jpg
+  - img043.jpg
+  - img044.jpg
+  - img045.jpg
+  id: buildings-school-exhibition-group-and-sacral-exterior-02
+  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-02.csv
+  classification: research/urbanek-archive/collections/fotodokument-root-batch-02.yml
+  source_index: sources/index.d/urbanek-fotodokument-root-02.yml
 interpretation_rules:
 - The folder title fotodokument and imgNNN filenames are archival metadata, not independent proof of location, date, photographer or subject identity.
 - Architectural appearance may be described, but building identity, function, ownership and historical date require corroborating evidence.
 - Absence of EXIF metadata does not establish the age of the original photograph or the date and method of digitization.
+- Readable banner wording verifies the visible text only; it does not independently identify every person, exact event date, exact building or
+  full circumstances.
 - Exact binary duplicates remain separate archive paths but only one independent image if such a duplicate is demonstrated.
 open_uncertainties:
 - URB-U-0083
@@ -48,10 +62,10 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 2
+  number: 3
   filenames:
-  - img041.jpg
-  - img042.jpg
-  - img043.jpg
-  - img044.jpg
-  - img045.jpg
+  - img047.jpg
+  - img048.jpg
+  - img049.jpg
+  - img050.jpg
+  - img052.jpg

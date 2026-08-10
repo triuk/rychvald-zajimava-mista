@@ -12,29 +12,31 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 476 | 22 | **498** |
-| zbývá | 111 | 7 | **118** |
+| zpracováno | 481 | 22 | **503** |
+| zbývá | 106 | 7 | **113** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
 Dokončeno je **11 kolekcí**. Aktivní je kořenová část `fotodokument` mimo již dokončenou podsložku `den po dešti`.
 
-## fotodokument – dávka 01
+## fotodokument – dávka 02
 
-Zpracovány byly `img036.jpg` až `img040.jpg`. Jde o pět černobíle působících obrazů exteriérů různých staveb: neomítnutou cihlovou budovu, dřevěnou stavbu mezi stromy, přízemní světlou stavbu se zahradou, větší stavbu zčásti zakrytou vegetací a roubenou či srubově konstruovanou stavbu.
+Zpracovány byly `img041.jpg` až `img045.jpg`. Dávka obsahuje tři exteriéry různých staveb, skupinový portrét před budovou a exteriér stavby se sakrální architekturou.
 
 Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Mezi pěti položkami není přesná binární duplicita. Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata.
 
-Přesná identita, funkce, lokalita, historická datace ani vlastník staveb nejsou z architektonického vzhledu nebo pořadí názvů souborů domýšleny. Pro tyto otázky vznikla nejistota `URB-U-0083`.
+Na `img044.jpg` je bezpečně čitelný banner **„VÝSTAVA 60 let školy V RYCHVALDĚ NA PODLESÍ“**. Spodní údaje banneru nejsou dostatečně čitelné pro spolehlivou dataci a nejsou rekonstruovány. Osoby na skupinovém snímku nejsou identifikovány. Na `img042.jpg` je fasádní znak a tabulka, ale její text není bezpečně čitelný.
+
+Nejistota `URB-U-0083` byla rozšířena na položky 001–010 a nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| fotodokument mimo `den po dešti` | 36 | 2 | 38 |
+| fotodokument mimo `den po dešti` | 31 | 2 | 33 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **111** | **7** | **118** |
+| **Celkem** | **106** | **7** | **113** |
 
 ## Registr nejistot
 
@@ -45,12 +47,12 @@ Přesná identita, funkce, lokalita, historická datace ani vlastník staveb nej
 
 ## Aktuální krok
 
-Druhá dávka kořenové části `fotodokument`:
+Třetí dávka kořenové části `fotodokument`:
 
-- `img041.jpg`;
-- `img042.jpg`;
-- `img043.jpg`;
-- `img044.jpg`;
-- `img045.jpg`.
+- `img047.jpg`;
+- `img048.jpg`;
+- `img049.jpg`;
+- `img050.jpg`;
+- `img052.jpg`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

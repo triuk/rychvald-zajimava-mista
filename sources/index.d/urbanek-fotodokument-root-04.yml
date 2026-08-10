@@ -1,0 +1,162 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-fotodokument-root-016
+  title: img053.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img053.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img053.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 479023
+  git_blob_sha: c3e2e7755032912bca143ac3a1fc9ebc14dd010e
+  sha256: 8f81856aa18a5c967734d038b31207088940bf83a7ecf36aff417edbc132e1ae
+  drive_id: 18ZYNolXtAqW2eMlQ06MkHJ47-ItQHTNw
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1500
+    height_px: 2028
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - mature_tree
+  - meadow_or_grassland
+  - unidentified_location
+  summary: Černobílý záběr výrazného vzrostlého stromu na travnaté ploše či louce, s další vegetací a nenápadným oplocením
+    v pozadí. Druh stromu, přesná lokalita, důvod dokumentace ani datace nejsou z fotografie samotné určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-017
+  title: img054.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img054.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img054.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 356025
+  git_blob_sha: 55ef23f2f4630b95afd966c1de2c1659969bec14
+  sha256: 25e7c8f8e2ce9a8ae118052cd2e3f14c76c4b54c5995c3d210ee24ae78148df9
+  drive_id: 1StYbrfvphXKm1xa5Jj9uwP6WSfhIAGJm
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1008
+    height_px: 1590
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - mature_leafless_tree
+  - unpaved_road
+  - wooded_landscape
+  - unidentified_location
+  summary: Černobílý záběr mohutného bezlistého stromu u nezpevněné cesty; za ním pokračuje pás dalších stromů a svažitý terén.
+    Druh stromu, přesná lokalita, účel dokumentace a datace nejsou z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-018
+  title: img057.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img057.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img057.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 222510
+  git_blob_sha: 65345c09423a37aeb542ebb3778e972090dc5f3b
+  sha256: 2d2e6b80b72eedcb2230e6a3b75f31ce697da5e2949e833760657bc5186370b6
+  drive_id: 1VKILzkBHX5xnixz5slZGOYdCIyGaPTZ2
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1572
+    height_px: 1002
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - sacral_architecture
+  - tower_with_spire
+  - circular_dial_or_feature
+  - unidentified_location
+  summary: Černobílý pohled přes několik budov na vysokou věž se štíhlou jehlancovou střechou, kruhovým ciferníkem či obdobným
+    kruhovým prvkem a vysokým obloukovým otvorem. Architektura působí sakrálně, přesný název stavby, denominace, lokalita
+    a datace však nejsou z fotografie samotné určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-019
+  title: img058.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img058.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img058.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 438161
+  git_blob_sha: c9ee7fc076dd6aaa944e9e859ce6ef2984cbba86
+  sha256: 3b0504bf578435d770129d58d6f41f8118b36c93305f4dbc45f66505ee4f675d
+  drive_id: 19bfjVeBAGefNRSDndt_nDHrDa3isu1oW
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2022
+    height_px: 1512
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - settlement_panorama
+  - prominent_towers
+  - sacral_architecture_possible
+  - earthworks_foreground
+  - unidentified_location
+  summary: Černobílý vyvýšený pohled přes zástavbu a stromy. Vpravo dominuje vysoká světlá věž s otevřenou horní částí a střechou,
+    v dálce vlevo je další štíhlá věž se špičatou střechou. V popředí je nezastavěná či zemními pracemi narušená plocha. Přesná
+    lokalita, identita staveb, vztah k věži na img057.jpg a datace nejsou z fotografie samotné určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-020
+  title: img059.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img059.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img059.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 208727
+  git_blob_sha: 5547666c953487b45edf46528bd14dd69d95601c
+  sha256: 03a2dcd17ba671c61bf054f8c029e4a858538e36fd63cbe9715d9c2cb06501ab
+  drive_id: 1T5PPdaqk6_apA3J5tK6xCejRTmJUOpT8
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1572
+    height_px: 1013
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - rural_building_cluster
+  - field_foreground
+  - unidentified_buildings
+  - unidentified_location
+  summary: Černobílý pohled přes otevřené pole na skupinu několika budov se sedlovými střechami a okolními stromy. Přesná
+    lokalita, funkce jednotlivých staveb, vlastnictví a datace nejsou z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083

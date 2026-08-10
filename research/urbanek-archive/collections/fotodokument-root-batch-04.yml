@@ -1,0 +1,202 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 4
+batch_id: trees-sacral-towers-and-rural-landscape-04
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items:
+  - img053.jpg
+  - img054.jpg
+  - img057.jpg
+  - img058.jpg
+  - img059.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection.
+- First visual classification without inferring exact locality, historical date, building identity, tree species or institutional
+  affiliation from appearance alone.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: 'Pět archivních obrazů: dva krajinářské snímky výrazných stromů, jeden pohled na věž se sakrální architekturou,
+    jeden širší pohled na zástavbu se dvěma výraznými věžemi a jeden venkovský stavební celek přes pole.'
+  exact_binary_duplicates_within_batch: 0
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani
+    způsob vzniku digitalizace.
+  visible_text_scope: Na žádném z pěti snímků není bezpečně čitelný text, který by určoval lokalitu, objekt nebo datum.
+  identity_scope: Sakrální charakter věžové architektury je popsán pouze podle viditelných stavebních znaků. Přesný název,
+    denominace, lokalita ani vztah mezi věží na img057.jpg a vzdálenou špičatou věží na img058.jpg nejsou bez dalšího pramene
+    tvrzeny.
+items:
+- id: urbanek-fotodokument-root-016
+  filename: img053.jpg
+  git_blob_sha: c3e2e7755032912bca143ac3a1fc9ebc14dd010e
+  sha256: 8f81856aa18a5c967734d038b31207088940bf83a7ecf36aff417edbc132e1ae
+  file_size_bytes: 479023
+  drive_id: 18ZYNolXtAqW2eMlQ06MkHJ47-ItQHTNw
+  dimensions_px:
+  - 1500
+  - 2028
+  mode: RGB
+  exif:
+    present: false
+  visual_description: Černobílý záběr výrazného vzrostlého stromu na travnaté ploše či louce, s další vegetací a nenápadným
+    oplocením v pozadí. Druh stromu, přesná lokalita, důvod dokumentace ani datace nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - mature_tree
+  - meadow_or_grassland
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - tree_species_and_reason_for_documentation
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-017
+  filename: img054.jpg
+  git_blob_sha: 55ef23f2f4630b95afd966c1de2c1659969bec14
+  sha256: 25e7c8f8e2ce9a8ae118052cd2e3f14c76c4b54c5995c3d210ee24ae78148df9
+  file_size_bytes: 356025
+  drive_id: 1StYbrfvphXKm1xa5Jj9uwP6WSfhIAGJm
+  dimensions_px:
+  - 1008
+  - 1590
+  mode: RGB
+  exif:
+    present: false
+  visual_description: Černobílý záběr mohutného bezlistého stromu u nezpevněné cesty; za ním pokračuje pás dalších stromů
+    a svažitý terén. Druh stromu, přesná lokalita, účel dokumentace a datace nejsou z obrazu samotného určeny.
+  classification:
+  - monochrome_archival_image
+  - mature_leafless_tree
+  - unpaved_road
+  - wooded_landscape
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - tree_species_and_reason_for_documentation
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-018
+  filename: img057.jpg
+  git_blob_sha: 65345c09423a37aeb542ebb3778e972090dc5f3b
+  sha256: 2d2e6b80b72eedcb2230e6a3b75f31ce697da5e2949e833760657bc5186370b6
+  file_size_bytes: 222510
+  drive_id: 1VKILzkBHX5xnixz5slZGOYdCIyGaPTZ2
+  dimensions_px:
+  - 1572
+  - 1002
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý pohled přes několik budov na vysokou věž se štíhlou jehlancovou střechou, kruhovým ciferníkem
+    či obdobným kruhovým prvkem a vysokým obloukovým otvorem. Architektura působí sakrálně, přesný název stavby, denominace,
+    lokalita a datace však nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - sacral_architecture
+  - tower_with_spire
+  - circular_dial_or_feature
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - exact_sacral_building_identity_and_denomination
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-019
+  filename: img058.jpg
+  git_blob_sha: c9ee7fc076dd6aaa944e9e859ce6ef2984cbba86
+  sha256: 3b0504bf578435d770129d58d6f41f8118b36c93305f4dbc45f66505ee4f675d
+  file_size_bytes: 438161
+  drive_id: 19bfjVeBAGefNRSDndt_nDHrDa3isu1oW
+  dimensions_px:
+  - 2022
+  - 1512
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý vyvýšený pohled přes zástavbu a stromy. Vpravo dominuje vysoká světlá věž s otevřenou horní
+    částí a střechou, v dálce vlevo je další štíhlá věž se špičatou střechou. V popředí je nezastavěná či zemními pracemi
+    narušená plocha. Přesná lokalita, identita staveb, vztah k věži na img057.jpg a datace nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - settlement_panorama
+  - prominent_towers
+  - sacral_architecture_possible
+  - earthworks_foreground
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - exact_identity_and_function_of_visible_towers_and_buildings
+  - relationship_to_tower_visible_in_img057
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-020
+  filename: img059.jpg
+  git_blob_sha: 5547666c953487b45edf46528bd14dd69d95601c
+  sha256: 03a2dcd17ba671c61bf054f8c029e4a858538e36fd63cbe9715d9c2cb06501ab
+  file_size_bytes: 208727
+  drive_id: 1T5PPdaqk6_apA3J5tK6xCejRTmJUOpT8
+  dimensions_px:
+  - 1572
+  - 1013
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý pohled přes otevřené pole na skupinu několika budov se sedlovými střechami a okolními stromy.
+    Přesná lokalita, funkce jednotlivých staveb, vlastnictví a datace nejsou z obrazu samotného určeny.
+  classification:
+  - monochrome_archival_image
+  - rural_building_cluster
+  - field_foreground
+  - unidentified_buildings
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - building_functions_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected

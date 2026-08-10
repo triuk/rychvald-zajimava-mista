@@ -1,0 +1,33 @@
+schema_version: 1
+items:
+- id: URB-U-0083
+  status: open
+  priority: medium
+  collection: fotodokument
+  type: root_fotodocument_building_location_date_identity_provenance_and_rights
+  source_items:
+  - urbanek-fotodokument-root-001
+  - urbanek-fotodokument-root-002
+  - urbanek-fotodokument-root-003
+  - urbanek-fotodokument-root-004
+  - urbanek-fotodokument-root-005
+  question: Jaká je přesná lokalizace, datace, identita a původní funkce staveb na kořenových fotografiích kolekce `fotodokument`, kdo snímky pořídil nebo digitalizoval, jaká je provenience výběru a jaká práva se k souborům vztahují?
+  known_facts:
+  - Kořenová část `fotodokument` mimo podsložku `den po dešti` obsahuje v aktuálním Git snapshotu 41 JPEGů a technické soubory Thumbs.db a ZbThumbnail.info.
+  - První dávku tvoří img036.jpg až img040.jpg a všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři.
+  - Všech pět položek první dávky zobrazuje exteriéry staveb a mezi pěti soubory není přesná binární duplicita.
+  - Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata; z této absence se neodvozuje datum originálu ani digitalizace.
+  - Na snímcích není bezpečně čitelné označení, které by samo určovalo adresu, název objektu, funkci nebo datum.
+  - Název složky a posloupnost imgNNN jsou archivní metadata a samy neprokazují lokalitu, autora ani historickou dataci.
+  unknown:
+  - exact_location_of_each_scene
+  - exact_identity_function_and_ownership_of_each_building
+  - date_of_original_photographs
+  - digitization_date_and_method
+  - photographer_and_source_provenance
+  - original_selection_or_collection_purpose
+  - copyright_and_reuse_rights
+  evidence:
+  - research/urbanek-archive/collections/fotodokument-root-batch-01.yml
+  - research/urbanek-archive/collections/fotodokument-root-overview.yml
+  - sources/index.d/urbanek-fotodokument-root-01.yml

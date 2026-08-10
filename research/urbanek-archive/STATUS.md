@@ -12,49 +12,45 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 471 | 22 | **493** |
-| zbývá | 116 | 7 | **123** |
+| zpracováno | 476 | 22 | **498** |
+| zbývá | 111 | 7 | **118** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **11 kolekcí**. Kolekce `Rychvald` je dokončena v rozsahu **33 z 33 položek**.
+Dokončeno je **11 kolekcí**. Aktivní je kořenová část `fotodokument` mimo již dokončenou podsložku `den po dešti`.
 
-## Rychvald – dokončení kolekce
+## fotodokument – dávka 01
 
-V sedmi obsahových dávkách bylo zpracováno všech 31 JPEGů. Následný technický audit uzavřel také `Thumbs.db` a `ZbThumbnail.info`.
+Zpracovány byly `img036.jpg` až `img040.jpg`. Jde o pět černobíle působících obrazů exteriérů různých staveb: neomítnutou cihlovou budovu, dřevěnou stavbu mezi stromy, přízemní světlou stavbu se zahradou, větší stavbu zčásti zakrytou vegetací a roubenou či srubově konstruovanou stavbu.
 
-`Thumbs.db` je CFB/OLE cache s katalogem verze 7. Obsahuje 31 pojmenovaných náhledů plných JPEGů a jednu položku náhledu složky. `ZbThumbnail.info` se signaturou `zbex` obsahuje 31 JPEG náhledů a názvy všech 31 plných obrazových souborů. Ani jedna cache nedokládá další nebo chybějící plný originál.
+Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Mezi pěti položkami není přesná binární duplicita. Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata.
 
-V obou cache se projevuje známá binární duplicita položek 002 a 007 (`Budova úřadu 005.jpg` a `Kopie - Budova úřadu 005.jpg`). Nejde o nový samostatný obrazový pramen.
-
-Technické soubory byly ověřeny proti Drive i Git blobům. Podrobný audit je v `research/urbanek-archive/reports/rychvald-technical-audit.md`.
-
-Nejistota `URB-U-0082` zůstává otevřená pro provenienci, autorství, lokalizaci, původní účel sady a práva; technický audit nevytvořil novou nejistotu.
+Přesná identita, funkce, lokalita, historická datace ani vlastník staveb nejsou z architektonického vzhledu nebo pořadí názvů souborů domýšleny. Pro tyto otázky vznikla nejistota `URB-U-0083`.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| fotodokument mimo `den po dešti` | 41 | 2 | 43 |
+| fotodokument mimo `den po dešti` | 36 | 2 | 38 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **116** | **7** | **123** |
+| **Celkem** | **111** | **7** | **118** |
 
 ## Registr nejistot
 
-- `open`: 47;
+- `open`: 48;
 - `resolved`: 32;
 - `not_actionable`: 3;
-- celkem: 82.
+- celkem: 83.
 
 ## Aktuální krok
 
-Další skupinou je `fotodokument` mimo již dokončenou podsložku `den po dešti`. První dávku tvoří v deterministickém pořadí:
+Druhá dávka kořenové části `fotodokument`:
 
-- `img036.jpg`;
-- `img037.jpg`;
-- `img038.jpg`;
-- `img039.jpg`;
-- `img040.jpg`.
+- `img041.jpg`;
+- `img042.jpg`;
+- `img043.jpg`;
+- `img044.jpg`;
+- `img045.jpg`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

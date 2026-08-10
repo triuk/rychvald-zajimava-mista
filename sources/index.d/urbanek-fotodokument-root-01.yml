@@ -1,0 +1,149 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-fotodokument-root-001
+  title: img036.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img036.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img036.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 232505
+  git_blob_sha: 7d3f5982709ea866f4e1f98d2cd554d15c6a6e93
+  sha256: 30f85fb844cec43303ede257df34fdd99c6a79c964f3f9dfc81f11c46f39b18d
+  drive_id: 1QTvFwBgNSRxgEwmyF-m-qnFQ4sKmotzl
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1398
+    height_px: 966
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - brick_building_exterior
+  - unidentified_building
+  summary: Černobílý záběr neomítnuté zděné budovy z cihel se sedlovými střechami, komínem, obloukově zakončeným otvorem ve štítu a řadou oken. Na snímku není bezpečně čitelné označení, které by umožňovalo určit přesnou budovu, funkci, lokalitu nebo datum.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-002
+  title: img037.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img037.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img037.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 233818
+  git_blob_sha: f0a0a7033d2d6fc14fab81434bf1702f1e6a1f25
+  sha256: ca6b6262cf234aef272f792235b7c5a79d1a9ace6c2267fb1df3dcdaca3f891d
+  drive_id: 1OcSJ2eGteIFkYskaLdgjHOAEc9Oe8ate
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1314
+    height_px: 977
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - wooden_building_exterior
+  - trees_and_yard
+  - unidentified_building
+  summary: Černobílý záběr dřevěné či převážně dřevěné stavby se strmou střechou mezi stromy; v okolí jsou další menší konstrukce. Přesná funkce, lokalita a datace nejsou z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-003
+  title: img038.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img038.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img038.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 554206
+  git_blob_sha: aff2e4f44a6f86c9c006e993967e09e4cae3e25e
+  sha256: eff927d3ec8301c2ebcea024c3cf4e38332ad02a963ef05d8619317a3c53fe4a
+  drive_id: 1a8br6TGCKK3XPjSK4OgcNVHcZpGjvYhl
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2034
+    height_px: 1404
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - single_storey_building_exterior
+  - garden_and_fence
+  - unidentified_building
+  summary: Černobílý záběr přízemní světlé stavby se střechou, komínem a krytým vstupem či verandou, obklopené zahradou, stromy a oplocením. Přesná identita, funkce, lokalita a datace nejsou z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-004
+  title: img039.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img039.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img039.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 710851
+  git_blob_sha: c50572a9bcd6d196c63705351145833eed2be497
+  sha256: 8009812266b4d2dd0177e8c0a6ef8e3580bd76b88391213e8df903b92b37fa47
+  drive_id: 1_4Orpa1_TbYFxK3HWgUcaok7q21MjC4E
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2016
+    height_px: 1487
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - large_building_exterior
+  - vegetation_obscured
+  - unidentified_building
+  summary: Černobílý, mírně neostrý záběr větší stavby s vysokou střechou a komínem, z velké části zakryté stromy a další vegetací. Přesná konstrukce, funkce, lokalita a datace nejsou z obrazu samotného bezpečně určitelné.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-005
+  title: img040.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img040.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img040.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 568715
+  git_blob_sha: 3de9731b2e9a4089149d7d65f7880cfc98f1043d
+  sha256: 820d7326e007eb8c1be1a8c727f7d68137dc313363e32e2ec8ce00ea756f3552
+  drive_id: 1S-XGVfkUkyf0naHTm9Vq77TviBF-U6dw
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2033
+    height_px: 1379
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - log_or_timber_building_exterior
+  - steep_roof
+  - unidentified_building
+  summary: Černobílý záběr roubené nebo srubově konstruované stavby se strmou střechou, zděným komínem, malými okny a přilehlou dřevěnou částí. Přesná funkce, lokalita a datace nejsou z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083

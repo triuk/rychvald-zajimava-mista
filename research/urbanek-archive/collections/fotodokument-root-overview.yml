@@ -1,0 +1,57 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+parent_collection_id: urbanek-fotodokument
+source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+scope: direct files excluding completed den po dešti subfolder
+drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: in_progress
+totals:
+  content_files: 41
+  technical_files: 2
+  total_items: 43
+progress:
+  processed_content_files: 5
+  processed_technical_files: 0
+  processed_items: 5
+  repo_verified_items: 5
+  visually_classified_items: 5
+  source_indexed_items: 5
+  remaining_content_files: 36
+  remaining_technical_files: 2
+  remaining_items: 38
+completed_batches:
+- number: 1
+  items: 001-005
+  filenames:
+  - img036.jpg
+  - img037.jpg
+  - img038.jpg
+  - img039.jpg
+  - img040.jpg
+  id: unidentified-building-exteriors-01
+  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-01.csv
+  classification: research/urbanek-archive/collections/fotodokument-root-batch-01.yml
+  source_index: sources/index.d/urbanek-fotodokument-root-01.yml
+interpretation_rules:
+- The folder title fotodokument and imgNNN filenames are archival metadata, not independent proof of location, date, photographer or subject identity.
+- Architectural appearance may be described, but building identity, function, ownership and historical date require corroborating evidence.
+- Absence of EXIF metadata does not establish the age of the original photograph or the date and method of digitization.
+- Exact binary duplicates remain separate archive paths but only one independent image if such a duplicate is demonstrated.
+open_uncertainties:
+- URB-U-0083
+technical_files:
+- path: Thumbs.db
+  status: not_yet_audited
+- path: ZbThumbnail.info
+  status: not_yet_audited
+next_batch:
+  number: 2
+  filenames:
+  - img041.jpg
+  - img042.jpg
+  - img043.jpg
+  - img044.jpg
+  - img045.jpg

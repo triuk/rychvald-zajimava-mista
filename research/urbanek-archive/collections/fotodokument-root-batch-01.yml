@@ -1,0 +1,194 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 1
+batch_id: unidentified-building-exteriors-01
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items:
+  - img036.jpg
+  - img037.jpg
+  - img038.jpg
+  - img039.jpg
+  - img040.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection.
+- First visual classification without inferring building identity, function, location or date from architecture or filename sequence alone.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: 'Pět černobíle působících archivních obrazů exteriérů různých staveb: neomítnutá cihlová budova, dřevěná stavba mezi stromy, přízemní
+    světlá stavba se zahradou, větší stavba zakrytá vegetací a roubená či srubově konstruovaná stavba.'
+  exact_binary_duplicates_within_batch: 0
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani způsob vzniku digitalizace.
+  visible_text_scope: Na žádném z pěti snímků není bezpečně čitelné označení, které by samo určovalo objekt, adresu, funkci nebo datum.
+  identity_scope: Architektonický vzhled a pořadí názvů img036–img040 nejsou používány jako důkaz přesné lokality, vlastníka, účelu stavby nebo období.
+items:
+- id: urbanek-fotodokument-root-001
+  filename: img036.jpg
+  git_blob_sha: 7d3f5982709ea866f4e1f98d2cd554d15c6a6e93
+  sha256: 30f85fb844cec43303ede257df34fdd99c6a79c964f3f9dfc81f11c46f39b18d
+  file_size_bytes: 232505
+  drive_id: 1QTvFwBgNSRxgEwmyF-m-qnFQ4sKmotzl
+  dimensions_px:
+  - 1398
+  - 966
+  mode: RGB
+  exif:
+    present: false
+  visual_description: Černobílý záběr neomítnuté zděné budovy z cihel se sedlovými střechami, komínem, obloukově zakončeným otvorem ve štítu a řadou oken. Na snímku není bezpečně čitelné označení, které by umožňovalo určit přesnou budovu, funkci, lokalitu nebo datum.
+  classification:
+  - monochrome_archival_image
+  - brick_building_exterior
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-002
+  filename: img037.jpg
+  git_blob_sha: f0a0a7033d2d6fc14fab81434bf1702f1e6a1f25
+  sha256: ca6b6262cf234aef272f792235b7c5a79d1a9ace6c2267fb1df3dcdaca3f891d
+  file_size_bytes: 233818
+  drive_id: 1OcSJ2eGteIFkYskaLdgjHOAEc9Oe8ate
+  dimensions_px:
+  - 1314
+  - 977
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý záběr dřevěné či převážně dřevěné stavby se strmou střechou mezi stromy; v okolí jsou další menší konstrukce. Přesná funkce, lokalita a datace nejsou z obrazu samotného určeny.
+  classification:
+  - monochrome_archival_image
+  - wooden_building_exterior
+  - trees_and_yard
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-003
+  filename: img038.jpg
+  git_blob_sha: aff2e4f44a6f86c9c006e993967e09e4cae3e25e
+  sha256: eff927d3ec8301c2ebcea024c3cf4e38332ad02a963ef05d8619317a3c53fe4a
+  file_size_bytes: 554206
+  drive_id: 1a8br6TGCKK3XPjSK4OgcNVHcZpGjvYhl
+  dimensions_px:
+  - 2034
+  - 1404
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý záběr přízemní světlé stavby se střechou, komínem a krytým vstupem či verandou, obklopené zahradou, stromy a oplocením. Přesná identita, funkce, lokalita a datace nejsou z obrazu samotného určeny.
+  classification:
+  - monochrome_archival_image
+  - single_storey_building_exterior
+  - garden_and_fence
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-004
+  filename: img039.jpg
+  git_blob_sha: c50572a9bcd6d196c63705351145833eed2be497
+  sha256: 8009812266b4d2dd0177e8c0a6ef8e3580bd76b88391213e8df903b92b37fa47
+  file_size_bytes: 710851
+  drive_id: 1_4Orpa1_TbYFxK3HWgUcaok7q21MjC4E
+  dimensions_px:
+  - 2016
+  - 1487
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý, mírně neostrý záběr větší stavby s vysokou střechou a komínem, z velké části zakryté stromy a další vegetací. Přesná konstrukce, funkce, lokalita a datace nejsou z obrazu samotného bezpečně určitelné.
+  classification:
+  - monochrome_archival_image
+  - large_building_exterior
+  - vegetation_obscured
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-005
+  filename: img040.jpg
+  git_blob_sha: 3de9731b2e9a4089149d7d65f7880cfc98f1043d
+  sha256: 820d7326e007eb8c1be1a8c727f7d68137dc313363e32e2ec8ce00ea756f3552
+  file_size_bytes: 568715
+  drive_id: 1S-XGVfkUkyf0naHTm9Vq77TviBF-U6dw
+  dimensions_px:
+  - 2033
+  - 1379
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý záběr roubené nebo srubově konstruované stavby se strmou střechou, zděným komínem, malými okny a přilehlou dřevěnou částí. Přesná funkce, lokalita a datace nejsou z obrazu samotného určeny.
+  classification:
+  - monochrome_archival_image
+  - log_or_timber_building_exterior
+  - steep_roof
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+related_uncertainties:
+- URB-U-0083
+next_batch:
+  number: 2
+  filenames:
+  - img041.jpg
+  - img042.jpg
+  - img043.jpg
+  - img044.jpg
+  - img045.jpg

@@ -26,34 +26,36 @@ items:
   - urbanek-fotodokument-root-018
   - urbanek-fotodokument-root-019
   - urbanek-fotodokument-root-020
+  - urbanek-fotodokument-root-021
+  - urbanek-fotodokument-root-022
+  - urbanek-fotodokument-root-023
+  - urbanek-fotodokument-root-024
+  - urbanek-fotodokument-root-025
   question: Jaká je přesná lokalizace, datace a identita staveb, krajinářských objektů a dalších motivů v kořenové části kolekce
     `fotodokument`, jaké jsou jejich funkce tam, kde nejsou přímo doloženy čitelným nápisem, kdo jsou osoby na skupinových
     a dalších snímcích, kdo fotografie pořídil nebo digitalizoval, jaká je provenience výběru a jaká práva se k souborům vztahují?
   known_facts:
   - Kořenová část `fotodokument` mimo podsložku `den po dešti` obsahuje v aktuálním Git snapshotu 41 JPEGů a technické soubory
     Thumbs.db a ZbThumbnail.info.
-  - První čtyři dávky zahrnují položky urbanek-fotodokument-root-001 až -020; všech dvacet zpracovaných raw souborů z kanonické
+  - Prvních pět dávek zahrnuje položky urbanek-fotodokument-root-001 až -025; všech 25 zpracovaných raw souborů z kanonické
     Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
-  - Mezi pěti soubory dávky 04 není přesná binární duplicita a žádný z nich neobsahuje použitelná EXIF metadata.
-  - img053.jpg zobrazuje výrazný vzrostlý strom na travnaté ploše; druh stromu, lokalita, účel dokumentace a datace nejsou
-    určeny.
-  - img054.jpg zobrazuje mohutný bezlistý strom u nezpevněné cesty v krajině; druh stromu, lokalita, účel dokumentace a datace
+  - Mezi pěti soubory dávky 05 není přesná binární duplicita a žádný z nich neobsahuje použitelná EXIF metadata.
+  - img060.jpg zobrazuje starší dům a menší dřevěné stavby přes travnatý svah; přesná lokalita, funkce, vlastnictví a datace
     nejsou určeny.
-  - img057.jpg zobrazuje věž se štíhlou střechou a kruhovým ciferníkem či obdobným prvkem; architektura je popsatelná jako
-    sakrální, ale přesný objekt, denominace, lokalita a datum nejsou určeny.
-  - img058.jpg je vyvýšený pohled přes zástavbu se dvěma výraznými věžemi. Vztah vzdálené špičaté věže k věži na img057.jpg
-    není bez dalšího pramene potvrzen.
-  - img059.jpg zobrazuje skupinu několika budov přes otevřené pole; funkce, lokalita, vlastnictví a datace nejsou určeny.
-  - img047.jpg nese bezpečně čitelné dvojjazyčné nápisy „OVOCE-ZELENINA / OWOCE-JARZYNY“ a „MLÉKÁRNA / MLECZARNIA“, české
-    „POTRAVINY-LAHŮDKY“ a číslo 70.
-  - img050.jpg nese bezpečně čitelný nápis „KULTURNÍ DŮM“ a na jednom fasádním emblému písmena „ROH“.
-  - img044.jpg zobrazuje skupinu dospělých osob před budovou a banner s bezpečně čitelným textem „VÝSTAVA 60 let školy V RYCHVALDĚ
-    NA PODLESÍ“.
+  - img061.jpg zobrazuje nízkou podlouhlou utilitárně působící stavbu s komíny a vícetabulkovým oknem; přesná funkce, provozovatel,
+    lokalita a datace nejsou určeny.
+  - img062.jpg zobrazuje podlouhlou přízemní budovu s taškovou střechou a středovým vikýřovým či štítovým prvkem; identita,
+    funkce a lokalita nejsou určeny.
+  - img063.jpg je široký krajinný pohled na pole, louky a zástavbu; výrazná lineární trasa se sloupy není bez dalšího podkladu
+    přiřazena konkrétnímu druhu infrastruktury.
+  - img064.jpg zobrazuje zvlněnou zemědělskou krajinu s rozptýlenými domy, zahradami či sady a zakřivenou cestou; přesná lokalita
+    a datace nejsou určeny.
   - Název složky a posloupnost imgNNN jsou archivní metadata a samy neprokazují lokalitu, autora ani historickou dataci.
   unknown:
   - exact_location_of_each_scene
   - exact_identity_ownership_and_institutional_context_of_buildings
   - building_function_where_not_explicitly_supported_by_readable_signage
+  - exact_type_and_context_of_linear_infrastructure_in_img063
   - tree_species_and_reason_for_documentation_in_img053_and_img054
   - exact_identity_and_denomination_of_sacral_architecture
   - relationship_between_towers_visible_in_img057_and_img058
@@ -71,8 +73,10 @@ items:
   - research/urbanek-archive/collections/fotodokument-root-batch-02.yml
   - research/urbanek-archive/collections/fotodokument-root-batch-03.yml
   - research/urbanek-archive/collections/fotodokument-root-batch-04.yml
+  - research/urbanek-archive/collections/fotodokument-root-batch-05.yml
   - research/urbanek-archive/collections/fotodokument-root-overview.yml
   - sources/index.d/urbanek-fotodokument-root-01.yml
   - sources/index.d/urbanek-fotodokument-root-02.yml
   - sources/index.d/urbanek-fotodokument-root-03.yml
   - sources/index.d/urbanek-fotodokument-root-04.yml
+  - sources/index.d/urbanek-fotodokument-root-05.yml

@@ -13,15 +13,15 @@ totals:
   technical_files: 2
   total_items: 43
 progress:
-  processed_content_files: 20
+  processed_content_files: 25
   processed_technical_files: 0
-  processed_items: 20
-  repo_verified_items: 20
-  visually_classified_items: 20
-  source_indexed_items: 20
-  remaining_content_files: 21
+  processed_items: 25
+  repo_verified_items: 25
+  visually_classified_items: 25
+  source_indexed_items: 25
+  remaining_content_files: 16
   remaining_technical_files: 2
-  remaining_items: 23
+  remaining_items: 18
 completed_batches:
 - number: 1
   items: 001-005
@@ -71,6 +71,18 @@ completed_batches:
   inventory: research/urbanek-archive/collections/fotodokument-root-inventory-04.csv
   classification: research/urbanek-archive/collections/fotodokument-root-batch-04.yml
   source_index: sources/index.d/urbanek-fotodokument-root-04.yml
+- number: 5
+  items: 021-025
+  filenames:
+  - img060.jpg
+  - img061.jpg
+  - img062.jpg
+  - img063.jpg
+  - img064.jpg
+  id: rural-buildings-and-settlement-landscapes-05
+  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-05.csv
+  classification: research/urbanek-archive/collections/fotodokument-root-batch-05.yml
+  source_index: sources/index.d/urbanek-fotodokument-root-05.yml
 interpretation_rules:
 - The folder title fotodokument and imgNNN filenames are archival metadata, not independent proof of location, date, photographer
   or subject identity.
@@ -81,6 +93,7 @@ interpretation_rules:
 - Readable banner or shop wording verifies the visible text only; partially legible text is not reconstructed.
 - Visible sacral architectural features support a descriptive classification only; exact building, denomination, location
   and inter-image identity require corroboration.
+- Linear landscape features are not assigned a specific infrastructure type unless directly supported.
 - Exact binary duplicates remain separate archive paths but only one independent image if such a duplicate is demonstrated.
 open_uncertainties:
 - URB-U-0083
@@ -90,10 +103,10 @@ technical_files:
 - path: ZbThumbnail.info
   status: not_yet_audited
 next_batch:
-  number: 5
+  number: 6
   filenames:
-  - img060.jpg
-  - img061.jpg
-  - img062.jpg
-  - img063.jpg
-  - img064.jpg
+  - img065.jpg
+  - img066.jpg
+  - img067.jpg
+  - img068.jpg
+  - img070.jpg

@@ -4,7 +4,7 @@ items:
   status: open
   priority: medium
   collection: fotodokument
-  type: root_fotodocument_location_date_building_landscape_and_person_identity_provenance_and_rights
+  type: root_fotodocument_location_date_building_landscape_event_and_person_identity_provenance_and_rights
   source_items:
   - urbanek-fotodokument-root-001
   - urbanek-fotodokument-root-002
@@ -31,35 +31,50 @@ items:
   - urbanek-fotodokument-root-023
   - urbanek-fotodokument-root-024
   - urbanek-fotodokument-root-025
-  question: Jaká je přesná lokalizace, datace a identita staveb, krajinářských objektů a dalších motivů v kořenové části kolekce
-    `fotodokument`, jaké jsou jejich funkce tam, kde nejsou přímo doloženy čitelným nápisem, kdo jsou osoby na skupinových
-    a dalších snímcích, kdo fotografie pořídil nebo digitalizoval, jaká je provenience výběru a jaká práva se k souborům vztahují?
+  - urbanek-fotodokument-root-026
+  - urbanek-fotodokument-root-027
+  - urbanek-fotodokument-root-028
+  - urbanek-fotodokument-root-029
+  - urbanek-fotodokument-root-030
+  question: Jaká je přesná lokalizace, datace a identita staveb, krajinářských objektů, veřejných událostí a dalších motivů
+    v kořenové části kolekce `fotodokument`, jaké jsou jejich funkce tam, kde nejsou přímo doloženy čitelným nápisem, jaký
+    je kontext průvodů a shromáždění, kdo jsou osoby na skupinových a dalších snímcích, kdo fotografie pořídil nebo digitalizoval,
+    jaká je provenience výběru a jaká práva se k souborům vztahují?
   known_facts:
   - Kořenová část `fotodokument` mimo podsložku `den po dešti` obsahuje v aktuálním Git snapshotu 41 JPEGů a technické soubory
     Thumbs.db a ZbThumbnail.info.
-  - Prvních pět dávek zahrnuje položky urbanek-fotodokument-root-001 až -025; všech 25 zpracovaných raw souborů z kanonické
+  - Prvních šest dávek zahrnuje položky urbanek-fotodokument-root-001 až -030; všech 30 zpracovaných raw souborů z kanonické
     Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
-  - Mezi pěti soubory dávky 05 není přesná binární duplicita a žádný z nich neobsahuje použitelná EXIF metadata.
-  - img060.jpg zobrazuje starší dům a menší dřevěné stavby přes travnatý svah; přesná lokalita, funkce, vlastnictví a datace
-    nejsou určeny.
-  - img061.jpg zobrazuje nízkou podlouhlou utilitárně působící stavbu s komíny a vícetabulkovým oknem; přesná funkce, provozovatel,
-    lokalita a datace nejsou určeny.
-  - img062.jpg zobrazuje podlouhlou přízemní budovu s taškovou střechou a středovým vikýřovým či štítovým prvkem; identita,
-    funkce a lokalita nejsou určeny.
-  - img063.jpg je široký krajinný pohled na pole, louky a zástavbu; výrazná lineární trasa se sloupy není bez dalšího podkladu
-    přiřazena konkrétnímu druhu infrastruktury.
-  - img064.jpg zobrazuje zvlněnou zemědělskou krajinu s rozptýlenými domy, zahradami či sady a zakřivenou cestou; přesná lokalita
+  - Mezi pěti soubory dávky 06 není přesná binární duplicita a žádný z nich neobsahuje použitelná EXIF metadata.
+  - img065.jpg nese bezpečně čitelný nápis „SBĚRNA“; nápis dokládá dobové označení funkce, nikoli přesnou instituci, předmět
+    sběru, provozovatele, lokalitu nebo datum.
+  - img066.jpg zobrazuje větší starší zděnou budovu s řadou vysokých oken a schodišti ke vstupům; funkce, vlastnictví, lokalita
     a datace nejsou určeny.
+  - img067.jpg zachycuje průvod či organizovaný veřejný pochod s větším množstvím osob a několika velkými vlajkami nebo prapory;
+    událost, organizace, osoby, trasa a datum nejsou určeny.
+  - img068.jpg zachycuje početné veřejné shromáždění podél ulice. Na nejméně dvou vlajkách jsou zřetelně viditelné symboly
+    srpu a kladiva. Symbolika sama není používána k určení organizátora nebo příslušnosti účastníků.
+  - Na směrové tabuli na img068.jpg je čitelné číslo 5 a pouze začátek názvu „OSTR…“; celý místní název není bezpečně rekonstruován.
+  - img070.jpg je skupinový snímek na jevišti; část osob má divadelní či historizující kostýmy a jsou viditelné hudební nástroje.
+    Inscenace nebo událost, soubor, místo, datum a identity osob nejsou určeny.
+  - img060.jpg až img064.jpg zachycují stavby a krajinné pohledy; přesné lokality, funkce a datace nebyly z vizuálního vzhledu
+    dovozovány.
   - Název složky a posloupnost imgNNN jsou archivní metadata a samy neprokazují lokalitu, autora ani historickou dataci.
   unknown:
   - exact_location_of_each_scene
   - exact_identity_ownership_and_institutional_context_of_buildings
   - building_function_where_not_explicitly_supported_by_readable_signage
+  - exact_institution_collection_type_and_operator_of_img065_sberna
+  - exact_event_date_title_organizer_and_participant_context_of_img067_and_img068
+  - relationship_between_events_or_scenes_in_img067_and_img068
+  - meaning_and_affiliation_of_flags_beyond_directly_visible_symbols
+  - full_destination_name_on_partial_direction_sign_in_img068
+  - exact_performance_or_event_title_ensemble_venue_and_context_of_img070
+  - identities_of_people_in_photographs
   - exact_type_and_context_of_linear_infrastructure_in_img063
   - tree_species_and_reason_for_documentation_in_img053_and_img054
   - exact_identity_and_denomination_of_sacral_architecture
   - relationship_between_towers_visible_in_img057_and_img058
-  - identities_of_people_in_photographs
   - exact_event_date_and_context_of_img044
   - full_text_of_partially_legible_signage_where_not_safely_readable
   - architectural_history_and_date_of_img052_gateway
@@ -74,9 +89,11 @@ items:
   - research/urbanek-archive/collections/fotodokument-root-batch-03.yml
   - research/urbanek-archive/collections/fotodokument-root-batch-04.yml
   - research/urbanek-archive/collections/fotodokument-root-batch-05.yml
+  - research/urbanek-archive/collections/fotodokument-root-batch-06.yml
   - research/urbanek-archive/collections/fotodokument-root-overview.yml
   - sources/index.d/urbanek-fotodokument-root-01.yml
   - sources/index.d/urbanek-fotodokument-root-02.yml
   - sources/index.d/urbanek-fotodokument-root-03.yml
   - sources/index.d/urbanek-fotodokument-root-04.yml
   - sources/index.d/urbanek-fotodokument-root-05.yml
+  - sources/index.d/urbanek-fotodokument-root-06.yml

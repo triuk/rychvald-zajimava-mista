@@ -36,57 +36,28 @@ items:
   - urbanek-rychvald-028
   - urbanek-rychvald-029
   - urbanek-rychvald-030
-  question: Jaká je přesná provenience, autorství a lokalizace fotografií v kolekci `Rychvald`, co znamená jméno `Cudlín` v názvech souborů, jaký
-    byl původní účel či publikační kontext sady a které události, objekty, datace a významy popisků zachycují historické reprodukce?
+  - urbanek-rychvald-031
+  question: Jaká je přesná provenience, autorství a lokalizace fotografií v kolekci `Rychvald`, co znamená jméno `Cudlín` v názvech souborů, jaký byl původní účel či publikační kontext sady a které události, objekty, datace a významy popisků zachycují historické reprodukce?
   known_facts:
   - Aktuální Git a Drive snapshot kolekce obsahuje 31 obrazových souborů a technické soubory Thumbs.db a ZbThumbnail.info.
   - '`Budova úřadu 003.jpg` a `Budova úřadu 005.jpg` přímo zobrazují nápis „MĚSTSKÝ ÚŘAD“, ale obraz neobsahuje čitelný název obce.'
   - '`Cudlín 033.jpg`, `Cudlín 035.jpg` a `Cudlín 037.jpg` jsou tři časově navazující pohledy na tutéž upravenou veřejnou plochu.'
-  - '`Cudlín 041.jpg` zachycuje interiér sakrální stavby s dekorovanými lavicemi, oltářem, krucifixem a nástěnnými malbami; přesná stavba ani
-    příležitost nejsou přímo označeny.'
-  - '`Kopie - Budova úřadu 005.jpg` je podle SHA-256 i Git blob SHA přesná binární kopie položky 002 a nepředstavuje další nezávislý obrazový
-    důkaz.'
-  - '`P1010066.JPG` až `P1010068.JPG` jsou moderní reprodukční fotografie starších fotografií či pohlednic, pořízené Panasonicem DMC-TZ3 dne 28.
-    února 2010.'
-  - '`P1010068.JPG` přímo zobrazuje rok „1909“ a popisek „ŠKOLY U.M.Š. V RYCHVALDĚ.“; ověřeno je znění popisku, nikoli význam zkratky, úplná datace
-    ani identita obou budov.'
-  - '`P1010069.JPG` je moderní reprodukční fotografie historické vícepohledové pohlednice či karty s výrazným textem „Pozdrowienie z Rychwaldu“;
-    původní datum, autor, vydavatel a identita jednotlivých pohledů nejsou ověřeny.'
-  - '`P1010070.JPG` je moderní reprodukce starší černobílé fotografie či pohlednice sakrální stavby s věží a viditelným nápisem „PRAVDA VÍTĚZÍ“;
-    přesná stavba, lokalita a datum nejsou přímo doloženy.'
-  - '`P1010071.JPG` a `P1010072.JPG` jsou fotografované dokumentární stránky s ručně kreslenými místopisnými plány, číslem „- 14 -“ a nadpisy
-    „Místopis kolem a po r. 1900.“ a „Místopis před r. 1900.“; nadpisy jsou evidovány jako znění předlohy, nikoli jako nezávisle ověřené datace
-    obsahu.'
-  - '`P1010114.JPG` je fotografovaná stránka rukopisného historického textu s číslem „- 25 -“; úplný kurzivní přepis, autorství, provenience a
-    historická přesnost textu nejsou zatím ověřeny.'
-  - '`P1010115.JPG` pokračuje v rukopisné místněhistorické sekvenci stránkou „- 26 -“ a bezpečně čitelnými časovými rozsahy od 1715–1719 po 1894–1903;
-    historická správnost a úplný přepis nejsou ověřeny.'
-  - '`P1010116.JPG` je fotografovaná rukopisná chronologie s bezpečně čitelnými datovanými položkami z let 1920 až 1923; jednotlivé zápisy jsou
-    evidovány jako obsah předlohy, nikoli jako nezávisle ověřené historické skutečnosti.'
-  - '`P1010117.JPG` je fotografovaná rukopisná stránka „- 197 -“ s nadpisem „Škola živnostenská pokračovací.“ a viditelnými roky 1912 a 1920;
-    autorství, provenience a historická správnost textu nejsou ověřeny.'
-  - '`Rychvald2009 003.jpg` a `Rychvald2009 004.jpg` jsou dva odlišné snímky téhož kamenného hřbitovního kříže s figurální výzdobou, pořízené
-    Panasonicem DMC-FZ7 dne 1. září 2009 s odstupem 13 sekund; slabý nápis či datace na podstavci nejsou bezpečně čitelné.'
-  - '`Rychvald2009 005.jpg` zachycuje moderní světlou budovu bez bezpečně čitelného názvu; přesná instituce, funkce a lokalita nejsou z obrazu
-    určeny.'
-  - '`Rychvald2009 008.jpg` zachycuje malou červenou dřevěnou sakrálně působící stavbu s křížem na štítu vedle mohutného stromu; přesná identita,
-    zasvěcení, datace a lokalita nejsou určeny.'
-  - '`Zp0707 090.jpg` zachycuje vícepatrovou světlou budovu s červenou taškovou střechou, vikýři a balkony; funkce a přesná identita budovy nejsou
-    z obrazu samostatně doloženy.'
-  - '`Zp1109 005.jpg` zachycuje sportovní areál s běžeckou dráhou, travnatou plochou, brankou, osvětlením a oploceným víceúčelovým hřištěm; přesný
-    název a lokalita nejsou čitelně označeny.'
-  - '`Zp1109 082.jpg` zachycuje oranžovo-žlutou budovu s rampou a oploceným venkovním prostorem s dětskými herními prvky; přítomné osoby nejsou
-    identifikovány a funkce budovy není domýšlena.'
+  - '`Cudlín 041.jpg` zachycuje interiér sakrální stavby; přesná stavba ani příležitost nejsou přímo označeny.'
+  - '`Kopie - Budova úřadu 005.jpg` je podle SHA-256 i Git blob SHA přesná binární kopie položky 002.'
+  - '`P1010066.JPG` až `P1010068.JPG` jsou moderní reprodukční fotografie starších fotografií či pohlednic, pořízené Panasonicem DMC-TZ3 dne 28. února 2010.'
+  - '`P1010068.JPG` přímo zobrazuje rok „1909“ a popisek „ŠKOLY U.M.Š. V RYCHVALDĚ.“; význam zkratky, úplná datace ani identita obou budov nejsou ověřeny.'
+  - '`P1010069.JPG` je moderní reprodukční fotografie historické vícepohledové pohlednice s výrazným textem „Pozdrowienie z Rychwaldu“.'
+  - '`P1010070.JPG` je moderní reprodukce starší černobílé fotografie či pohlednice sakrální stavby s věží a viditelným nápisem „PRAVDA VÍTĚZÍ“.'
+  - '`P1010071.JPG` a `P1010072.JPG` jsou fotografované dokumentární stránky s ručně kreslenými místopisnými plány, číslem „- 14 -“ a nadpisy „Místopis kolem a po r. 1900.“ a „Místopis před r. 1900.“.'
+  - '`P1010114.JPG` až `P1010117.JPG` jsou fotografované rukopisné místněhistorické stránky; úplný přepis, autorství, provenience a historická přesnost nejsou ověřeny.'
+  - '`Rychvald2009 003.jpg` a `Rychvald2009 004.jpg` jsou dva odlišné snímky téhož kamenného hřbitovního kříže s figurální výzdobou pořízené s odstupem 13 sekund.'
+  - '`Rychvald2009 005.jpg`, `Rychvald2009 008.jpg`, `Zp0707 090.jpg`, `Zp1109 005.jpg` a `Zp1109 082.jpg` zachycují moderní stavby či areály, jejichž přesná identita nebo funkce není z obrazu samotného doložena.'
+  - '`Zp1109 340.jpg` zachycuje jednokolejnou železniční trať, cihlovou budovu těsně u koleje a železniční vozidlo v dálce.'
+  - '`Zp1109 379.jpg` přímo zobrazuje informační označení „PŘÍRODNÍ REZERVACE“ a „Přírodní rezervace Skučák“.'
+  - '`Zp1109 382.jpg` a `Zp1109 390.jpg` jsou dva odlišné záběry stejného zařízení u vodní plochy; funkce zařízení není domýšlena.'
+  - '`zzz-satiny 255.jpg` je širší hřbitovní pohled, na němž je podle shodných výrazných tvarových detailů tentýž kamenný kříž jako na položkách 019 a 020.'
+  - '`zzz-satiny 258.jpg` je další barevný hřbitovní pohled pořízený Panasonicem DMC-FZ7 dne 2. listopadu 2009 v 14:17:12; časově a tematicky navazuje na položku 030. Nápisy na náhrobcích nejsou používány k identifikaci osob.'
   - Název adresáře a názvy souborů jsou archivní metadata a samy neprokazují přesnou lokalitu, fotografa, událost ani historické datum.
-  - '`Zp1109 340.jpg` zachycuje jednokolejnou železniční trať, cihlovou budovu těsně u koleje a železniční vozidlo v dálce; přesná lokalita a
-    funkce budovy nejsou na snímku čitelně označeny.'
-  - '`Zp1109 379.jpg` přímo zobrazuje informační označení s bezpečně čitelnými texty „PŘÍRODNÍ REZERVACE“ a „Přírodní rezervace Skučák“ před vodní
-    plochou s vodními ptáky.'
-  - '`Zp1109 382.jpg` a `Zp1109 390.jpg` jsou dva odlišné záběry stejného zařízení u vodní plochy s řadou kulatých nádob či kádí, malými čluny
-    a na širším záběru také zeleným mechanickým zařízením; funkce zařízení není domýšlena.'
-  - '`zzz-satiny 255.jpg` je širší hřbitovní pohled, na němž je podle shodných výrazných tvarových detailů tentýž kamenný kříž jako na položkách
-    019 a 020; přítomné osoby nejsou identifikovány a přesný hřbitov ani historická identita pomníku nejsou tímto vizuálním spojením samy o sobě
-    doloženy.'
   unknown:
   - exact_location_of_each_scene
   - whether_all_scenes_are_in_Rychvald
@@ -97,27 +68,29 @@ items:
   - original_date_author_publisher_and_individual_vignette_identity_for_P1010069
   - exact_building_identity_location_and_historical_date_for_P1010070
   - authorship_provenance_historical_accuracy_and_label_meanings_of_P1010071_and_P1010072_maps
-  - full_transcription_authorship_provenance_and_historical_accuracy_of_P1010114_and_P1010115_manuscript_pages
-  - full_transcription_authorship_provenance_and_historical_accuracy_of_P1010116_and_P1010117_chronology_and_school_pages
+  - full_transcription_authorship_provenance_and_historical_accuracy_of_P1010114_to_P1010117_manuscript_pages
   - exact_identity_location_date_inscription_and_commemorative_context_of_Rychvald2009_003_and_004_monument
   - exact_identity_function_location_and_context_of_batch_05_buildings_sacral_structure_sports_ground_and_playground_site
+  - exact_railway_location_building_identity_function_and_rail_vehicle_context_for_Zp1109_340
+  - function_ownership_and_management_context_of_waterside_equipment_in_Zp1109_382_and_390
+  - formal_identity_exact_cemetery_historical_date_and_inscription_of_monument_shared_by_Rychvald2009_003_004_and_zzz_satiny_255
+  - exact_cemetery_identity_and_historical_context_of_zzz_satiny_258
   - physical_source_provenance_and_reproduction_history
   - original_collection_purpose_and_publication_context
   - copyright_and_reuse_rights
-  - exact_railway_location_building_identity_function_and_rail_vehicle_context_for_Zp1109_340
-  - function_ownership_and_management_context_of_waterside_equipment_in_Zp1109_382_and_390_and_exact_relation_of_those_views_to_reserve_boundaries
-  - formal_identity_exact_cemetery_historical_date_and_inscription_of_monument_shared_by_Rychvald2009_003_004_and_zzz_satiny_255
   evidence:
   - research/urbanek-archive/collections/rychvald-batch-01.yml
   - research/urbanek-archive/collections/rychvald-batch-02.yml
   - research/urbanek-archive/collections/rychvald-batch-03.yml
   - research/urbanek-archive/collections/rychvald-batch-04.yml
   - research/urbanek-archive/collections/rychvald-batch-05.yml
+  - research/urbanek-archive/collections/rychvald-batch-06.yml
+  - research/urbanek-archive/collections/rychvald-batch-07.yml
   - research/urbanek-archive/collections/rychvald-overview.yml
   - sources/index.d/urbanek-rychvald-01.yml
   - sources/index.d/urbanek-rychvald-02.yml
   - sources/index.d/urbanek-rychvald-03.yml
   - sources/index.d/urbanek-rychvald-04.yml
   - sources/index.d/urbanek-rychvald-05.yml
-  - research/urbanek-archive/collections/rychvald-batch-06.yml
   - sources/index.d/urbanek-rychvald-06.yml
+  - sources/index.d/urbanek-rychvald-07.yml

@@ -1,0 +1,44 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-031
+  title: zzz-satiny 258.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/zzz-satiny 258.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/zzz-satiny 258.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 688289
+  git_blob_sha: eda2f4c11852f5e88f753a4174ffa4952fb14005
+  sha256: 384521f1a47c5bf14e47445feb8950594d8735c58e8b48d43d0252f11abe50e2
+  drive_id: 1YnZlzk34N0wLNLMjBLeHEENItO--6LsV
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - cemetery_scene
+  - graves_and_headstones
+  - floral_decoration
+  - inscriptions_present_not_used_for_person_identification
+  summary: Barevná fotografie hřbitova s několika řadami kamenných hrobů a náhrobků, květinovou výzdobou a vzrostlými stromy. Nápisy na náhrobcích nejsou používány k identifikaci osob; přesná lokalita a historický kontext nejsou z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-11-02 14:17:12'
+    datetime_original: '2009-11-02 14:17:12'
+    datetime_digitized: '2009-11-02 14:17:12'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  related_capture:
+  - urbanek-rychvald-030
+  relation: same_day_cemetery_photo_sequence

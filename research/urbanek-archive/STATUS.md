@@ -22,37 +22,34 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 470 | 20 | **490** |
-| zbývá | 117 | 9 | **126** |
+| zpracováno | 471 | 20 | **491** |
+| zbývá | 116 | 9 | **125** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je deset kolekcí. Kolekce `Rychvald` je rozpracována v rozsahu 30 z 33 položek.
+Dokončeno je deset kolekcí. Kolekce `Rychvald` má zpracováno všech **31 obsahových souborů**; zbývají dva technické soubory.
 
-## Rychvald – dávka 06
+## Rychvald – dávka 07
 
-Zpracovány byly soubory `Zp1109 340.jpg`, `Zp1109 379.jpg`, `Zp1109 382.jpg`, `Zp1109 390.jpg` a `zzz-satiny 255.jpg`:
+Zpracován byl poslední obsahový soubor `zzz-satiny 258.jpg`.
 
-- `Zp1109 340.jpg` zachycuje jednokolejnou železniční trať, cihlovou budovu těsně vedle koleje a železniční vozidlo v dálce; přesná lokalita a funkce budovy nejsou z obrazu určovány;
-- `Zp1109 379.jpg` zachycuje vodní plochu a informační označení s bezpečně čitelnými texty „PŘÍRODNÍ REZERVACE“ a „Přírodní rezervace Skučák“;
-- `Zp1109 382.jpg` a `Zp1109 390.jpg` jsou dva rozdílné záběry stejného zařízení u vodní plochy s řadou kulatých nádob či kádí a malými čluny; širší záběr obsahuje také zelené mechanické zařízení. Funkce zařízení není podle vzhledu domýšlena;
-- `zzz-satiny 255.jpg` je široký hřbitovní pohled. Podle shodných výrazných tvarových detailů je v ose cesty zachycen tentýž kamenný kříž jako na položkách 019 a 020, nyní v širším kontextu. Přítomné osoby nejsou identifikovány a přesná identita hřbitova či historická datace pomníku zůstávají neověřeny.
+Snímek zachycuje několik řad hrobů a náhrobků s květinovou výzdobou a vzrostlými stromy. Nápisy na náhrobcích nejsou používány k identifikaci osob. Přesná identita hřbitova ani historický kontext nejsou z obrazu samotného určeny.
 
-Všech pět raw souborů bylo staženo z kanonické Drive složky a jejich velikost i vypočtený Git blob SHA přesně odpovídají souborům v repozitáři. Všechny uvádějí Panasonic DMC-FZ7. První čtyři mají EXIF časy 21. října 2009 od 15:29:22 do 15:47:28, poslední snímek 2. listopadu 2009 14:10:36. Tyto časy jsou metadata moderního fotografického zachycení, nikoli historická data zobrazených objektů.
+Raw soubor z kanonické Drive složky má 688 289 B a jeho vypočtený Git blob SHA `eda2f4c11852f5e88f753a4174ffa4952fb14005` přesně odpovídá souboru v repozitáři. SHA-256 je `384521f1a47c5bf14e47445feb8950594d8735c58e8b48d43d0252f11abe50e2`.
 
-Mezi pěti položkami dávky 06 není přesná binární duplicita. Položky 028 a 029 jsou samostatné záběry stejného zařízení; položka 030 je samostatný širší záběr téhož pomníku jako položky 019 a 020.
+EXIF uvádí Panasonic DMC-FZ7 a čas `2009-11-02 14:17:12`; jde o metadata moderního fotografického zachycení, nikoli historickou dataci hřbitova nebo náhrobků. Časově a tematicky snímek navazuje na položku 030 pořízenou téhož dne v 14:10:36.
 
-Nejistota `URB-U-0082` byla rozšířena na položky 001–030. Nová nejistota nevznikla.
+Nejistota `URB-U-0082` byla rozšířena na položky 001–031. Nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| Rychvald – zbývá | 1 | 2 | 3 |
+| Rychvald – zbývá | 0 | 2 | 2 |
 | fotodokument mimo `den po dešti` | 41 | 2 | 43 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **117** | **9** | **126** |
+| **Celkem** | **116** | **9** | **125** |
 
 ## Registr nejistot
 
@@ -62,18 +59,15 @@ Nejistota `URB-U-0082` byla rozšířena na položky 001–030. Nová nejistota 
 - `not_actionable`: 3;
 - celkem: 82.
 
-Systematické řešení nejistot je odloženo do závěrečné fáze. Položky zůstávají `open`; workflow odložení je nepřevádí do stavu `deferred`.
+Systematické řešení nejistot je odloženo do závěrečné fáze.
 
 ## Kontrola konzistence
 
 - součet skupin v kořenovém inventáři je 616 položek;
-- zpracovaný rozsah je 490 položek;
-- zbývá 126 položek;
-- kolekce `Rychvald` je zpracována v rozsahu 30 z 33 položek;
-- všech pět raw Drive souborů dávky 06 přesně odpovídá Git blobům a velikostem;
-- v dávce 06 není přesná binární duplicita mezi pěti vybranými cestami;
-- položky 028 a 029 jsou dva rozdílné snímky stejného zařízení u vodní plochy;
-- položka 030 zobrazuje v širším kontextu tentýž kamenný kříž jako položky 019 a 020;
+- zpracovaný rozsah je 491 položek;
+- zbývá 125 položek;
+- kolekce `Rychvald` má zpracováno 31 z 33 položek, tedy všechny obsahové soubory;
+- raw Drive soubor dávky 07 přesně odpovídá Git blobu a velikosti;
 - dříve potvrzená položka 007 zůstává přesným duplikátem položky 002;
 - registr používá součty 47/32/3/82;
 - PR zůstává otevřený draft a není žádostí o sloučení;
@@ -82,6 +76,6 @@ Systematické řešení nejistot je odloženo do závěrečné fáze. Položky z
 ## Aktuální krok
 
 - Aktivní fáze: `full_archive_indexing`.
-- Další obsahová dávka kolekce `Rychvald`: `zzz-satiny 258.jpg`.
-- Po posledním obsahovém souboru zbývá audit technických souborů `Thumbs.db` a `ZbThumbnail.info`.
+- Auditovat technické soubory `Thumbs.db` a `ZbThumbnail.info` v kolekci `Rychvald`.
+- Po jejich auditu bude kolekce `Rychvald` dokončena a lze přejít na další nezpracovanou skupinu.
 - PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

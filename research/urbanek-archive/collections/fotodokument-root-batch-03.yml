@@ -1,0 +1,195 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 3
+batch_id: bilingual-shop-buildings-cultural-house-and-decorated-gateway-03
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items:
+  - img047.jpg
+  - img048.jpg
+  - img049.jpg
+  - img050.jpg
+  - img052.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive folder metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection.
+- First visual classification without inferring exact location, historical date, ownership or person identity from appearance alone.
+- Safe transcription of clearly readable facade and shop text; partially legible signage is not reconstructed.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: 'Pět archivních obrazů: obchodní budova s česko-polskými nápisy, dva další neidentifikované stavební exteriéry, budova označená nápisem „KULTURNÍ DŮM“ a detail bohatě zdobeného průjezdního portálu.'
+  exact_binary_duplicates_within_batch: 0
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani způsob vzniku digitalizace.
+  visible_text_scope: Na img047.jpg jsou bezpečně čitelné „OVOCE-ZELENINA / OWOCE-JARZYNY“, „MLÉKÁRNA / MLECZARNIA“, české „POTRAVINY-LAHŮDKY“ a číslo 70; nečitelná polská řádka pod pravým nápisem není rekonstruována. Na img050.jpg je bezpečně čitelné „KULTURNÍ DŮM“ a na jednom emblému písmena „ROH“.
+  identity_scope: Viditelné nápisy jsou evidovány jako textový údaj pramene. Nápis „KULTURNÍ DŮM“ dokládá označení/funkci této budovy v okamžiku zachycení, ale sám neprokazuje přesnou lokalitu, oficiální název, provozovatele ani datum snímku.
+items:
+- id: urbanek-fotodokument-root-011
+  filename: img047.jpg
+  git_blob_sha: 71d2d34ee9cf7b89ff656990ec924dbd557c772d
+  sha256: d73fb68c3bf42363ab252dfad2010a416d4bc7e5e19120e99a9082b5565fd8cc
+  file_size_bytes: 922388
+  drive_id: 19kKBNXTlElE3lUjW3PVo-Qm3lk4RxVf5
+  dimensions_px:
+  - 2454
+  - 1974
+  mode: RGB
+  exif:
+    present: false
+  visual_description: Černobílý záběr dvoupodlažní obchodní budovy s výlohami. Bezpečně čitelné jsou dvojjazyčné nápisy „OVOCE-ZELENINA / OWOCE-JARZYNY“ a „MLÉKÁRNA / MLECZARNIA“, dále český nápis „POTRAVINY-LAHŮDKY“ a číslo 70. Polská řádka pod pravým nápisem není zapisována, protože není dostatečně čitelná. Přesná lokalita, vlastník a datace nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - commercial_building_exterior
+  - bilingual_czech_polish_signage
+  - building_number_70
+  - unidentified_location
+  unverified:
+  - exact_location_and_building_identity
+  - shop_ownership_and_institutional_context
+  - full_text_of_partially_legible_rightmost_polish_sign
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-012
+  filename: img048.jpg
+  git_blob_sha: d60410216a641c4ddc0cae69b5f9d82569ce7959
+  sha256: 3a067183c6071af15441eda48fd60a1a11c6ec9dbffb10afd4ed5b6a438e86a5
+  file_size_bytes: 705061
+  drive_id: 1RyWtHMbiCmqLiTJDl6SGISRSyPHl-g5D
+  dimensions_px:
+  - 2478
+  - 1674
+  mode: RGB
+  exif:
+    present: false
+  visual_description: Černobílý záběr dlouhé přízemní omítnuté budovy s valbovou střechou, řadou komínů a vysokými okny. Nad jedním vstupem je tabulka, jejíž text není bezpečně čitelný. Přesná identita, funkce, lokalita a datace nejsou z obrazu samotného určeny.
+  classification:
+  - monochrome_archival_image
+  - single_storey_building_exterior
+  - multiple_chimneys
+  - unreadable_facade_notice
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - facade_notice_text
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-013
+  filename: img049.jpg
+  git_blob_sha: 7c9723e6bc16327b5e23eedef8c63483be3c6b07
+  sha256: b3445655434b10d6d3ee5145fe286b09c33f2be613e63abfe5b76d7139fdca00
+  file_size_bytes: 1000857
+  drive_id: 1Vj1zcLacC-SRyyuVTSkFwmgkIMDyJLZ3
+  dimensions_px:
+  - 2454
+  - 2232
+  mode: RGB
+  exif:
+    present: false
+  visual_description: Černobílý záběr rozsáhlejší zděné stavby s plechovou střechou a navazující vyšší hmotou. U levého vstupu je několik osob; podél boční stěny leží nebo stojí dřevěné konstrukce či lavice. Identita osob, přesná funkce, lokalita a datace nejsou určeny.
+  classification:
+  - monochrome_archival_image
+  - large_building_exterior
+  - people_near_entrance
+  - unidentified_building
+  - unidentified_people
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - identities_of_visible_people
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-014
+  filename: img050.jpg
+  git_blob_sha: 5c00b3007eb9468cf597e06abd74c0a981ebb57d
+  sha256: fec9975d840df91bfcf975a2fc7a441d07361bb39fc0025e031ffc8c9f6ee891
+  file_size_bytes: 819126
+  drive_id: 1WLXkZ4lSBnPdVJpqFfr5vrFnXEyS1W-w
+  dimensions_px:
+  - 2448
+  - 1980
+  mode: RGB
+  exif:
+    present: false
+  visual_description: Černobílý záběr větší budovy s bezpečně čitelným fasádním nápisem „KULTURNÍ DŮM“. Ve štítu jsou viditelné také emblémy, z nichž jeden nese písmena „ROH“, a na střeše jsou antény a dvojice reproduktorů. Nápis dokládá označení/funkci budovy jako kulturního domu v okamžiku zachycení; přesná lokalita, oficiální název, provozovatel a datace snímku nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - cultural_house_exterior
+  - visible_kulturni_dum_sign
+  - visible_roh_letters
+  - roof_loudspeakers_and_antennas
+  - unverified_location
+  unverified:
+  - exact_location_and_official_building_identity
+  - operator_ownership_and_institutional_context
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-015
+  filename: img052.jpg
+  git_blob_sha: 37f2fce3c3197f5c1e57a68b4c1b477e57340fb3
+  sha256: c163b79392fbbbb8c72f1bf5470d4d3035680cfdf542def95f7e026a70896808
+  file_size_bytes: 390222
+  drive_id: 1cWhdPcS64ggLMmZ2-Evrq6a7B9e73RUP
+  dimensions_px:
+  - 990
+  - 1482
+  mode: RGB
+  exif:
+    present: false
+  visual_description: Černobílý detail bohatě zdobeného kamenného či omítaného průjezdního portálu s půlkruhovým obloukem, reliéfní rostlinnou ornamentikou, rozetami a figurální hlavou v horním trojúhelném poli. Průjezdem je vidět dvůr nebo další zástavba a drobná postava. Přesná stavba, lokalita, stáří portálu ani identita osoby nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - ornate_arched_gateway
+  - architectural_detail
+  - relief_ornament
+  - unidentified_location
+  unverified:
+  - exact_location_and_building_identity
+  - architectural_date_and_history
+  - identity_of_visible_person
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected

@@ -12,31 +12,33 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 481 | 22 | **503** |
-| zbývá | 106 | 7 | **113** |
+| zpracováno | 486 | 22 | **508** |
+| zbývá | 101 | 7 | **108** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
 Dokončeno je **11 kolekcí**. Aktivní je kořenová část `fotodokument` mimo již dokončenou podsložku `den po dešti`.
 
-## fotodokument – dávka 02
+## fotodokument – dávka 03
 
-Zpracovány byly `img041.jpg` až `img045.jpg`. Dávka obsahuje tři exteriéry různých staveb, skupinový portrét před budovou a exteriér stavby se sakrální architekturou.
+Zpracovány byly `img047.jpg`, `img048.jpg`, `img049.jpg`, `img050.jpg` a `img052.jpg`. Dávka obsahuje obchodní budovu s česko-polskými nápisy, dva další neidentifikované stavební exteriéry, budovu označenou nápisem `KULTURNÍ DŮM` a detail bohatě zdobeného průjezdního portálu.
 
 Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Mezi pěti položkami není přesná binární duplicita. Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata.
 
-Na `img044.jpg` je bezpečně čitelný banner **„VÝSTAVA 60 let školy V RYCHVALDĚ NA PODLESÍ“**. Spodní údaje banneru nejsou dostatečně čitelné pro spolehlivou dataci a nejsou rekonstruovány. Osoby na skupinovém snímku nejsou identifikovány. Na `img042.jpg` je fasádní znak a tabulka, ale její text není bezpečně čitelný.
+Na `img047.jpg` jsou bezpečně čitelné `OVOCE-ZELENINA / OWOCE-JARZYNY`, `MLÉKÁRNA / MLECZARNIA`, české `POTRAVINY-LAHŮDKY` a číslo `70`. Nečitelná polská řádka pod pravým nápisem není rekonstruována.
 
-Nejistota `URB-U-0083` byla rozšířena na položky 001–010 a nová nejistota nevznikla.
+Na `img050.jpg` je bezpečně čitelné `KULTURNÍ DŮM` a na jednom emblému písmena `ROH`. Nápis dokládá označení/funkci budovy jako kulturního domu v okamžiku zachycení; přesná lokalita, oficiální název instituce, provozovatel a datace nejsou z fotografie samotné určeny.
+
+Nejistota `URB-U-0083` byla rozšířena na položky 001–015; nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| fotodokument mimo `den po dešti` | 31 | 2 | 33 |
+| fotodokument mimo `den po dešti` | 26 | 2 | 28 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **106** | **7** | **113** |
+| **Celkem** | **101** | **7** | **108** |
 
 ## Registr nejistot
 
@@ -47,12 +49,12 @@ Nejistota `URB-U-0083` byla rozšířena na položky 001–010 a nová nejistota
 
 ## Aktuální krok
 
-Třetí dávka kořenové části `fotodokument`:
+Čtvrtá dávka kořenové části `fotodokument`:
 
-- `img047.jpg`;
-- `img048.jpg`;
-- `img049.jpg`;
-- `img050.jpg`;
-- `img052.jpg`.
+- `img053.jpg`;
+- `img054.jpg`;
+- `img057.jpg`;
+- `img058.jpg`;
+- `img059.jpg`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

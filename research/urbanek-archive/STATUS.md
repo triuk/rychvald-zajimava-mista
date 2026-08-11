@@ -12,33 +12,31 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 581 | 27 | **608** |
-| zbývá | 6 | 2 | **8** |
+| zpracováno | 586 | 27 | **613** |
+| zbývá | 1 | 2 | **3** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **25/33**.
+Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **30/33**.
 
-## popopo – dávka 05
+## popopo – dávka 06
 
-Zpracovány byly `P1010764.JPG`, `P1010765a.jpg`, `P1010791.JPG`, `P1010791a.jpg` a `img129.jpg`. Všechny raw soubory přesně odpovídají velikostem a Git blobům v repozitáři; předchozí shoda blob SHA v indexovaných source záznamech nebyla nalezena.
+Zpracovány byly `img178a.jpg`, `img267.jpg`, `img678.jpg`, `img691.jpg` a `img698a.jpg`. Raw soubory mají přesně stejnou velikost a recomputovaný Git blob SHA jako příslušné cesty v repozitáři; v dávce není binární duplicita.
 
-`P1010764.JPG` zobrazuje památník s čitelnými nápisy `PAMÁTCE OBĚTEM NĚMECKÉ PERSEKUCE 1939–1945`, `PADLÝM BRATŘÍM 1914–1918`, `VAŠÍ PAMÁTCE VĚRNI ZŮSTANEME!` a viditelným `1948`. Jde o text objektu; historická a biografická tvrzení desky nejsou v této fázi nezávisle ověřena.
+`img178a.jpg` je historický skupinový portrét s praporem `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` a tabulkou `1929`. Sdílí tyto prvky a obecný digitální čas `2012:04:17 11:42:56` s dříve indexovaným `8205.jpg`; jde o silnou korespondenci, nikoli doloženou binární identitu.
 
-`P1010765a.jpg` je reprodukce historické fotografie otevřeného dřevěného altánu; přesná lokalita, funkce a datum nejsou určeny.
+`img267.jpg` zachycuje dvě vícepodlažní budovy u komunikace. `img678.jpg` je reprodukce starší fotografie zástavby za poli či zahradami. Přesné lokality a identity staveb nejsou určeny.
 
-`P1010791.JPG` a `P1010791a.jpg` jsou přímo obrazově ověřené dvě různě zpracované reprezentace stejné rukopisné stránky `-272-`. Nejsou binárně totožné, ale nepředstavují dva různé rukopisné obsahy. Viditelné jsou mimo jiné `1. IX. 1912`, `170 dětí` a `40.000 K`; jde o obsah rukopisu, ne samostatně ověřené historické skutečnosti.
+`img691.jpg` obsahuje tištěný popisek `Warrant Officer Fridolín Gemrod (RO) relaxuje v létě 1944 na výškovce stroje Mosquito NF Mk.XVII (WM-G) na základně Castle Camps.` Jde o tvrzení popisku reprodukce; biografické a leteckohistorické údaje nejsou v této fázi nezávisle ověřeny.
 
-`img129.jpg` je historická fotografie nízké budovy se strmou střechou a dvěma komíny; přesná identita, funkce, lokalita a datum nejsou určeny.
+`img698a.jpg` je skupinový portrét s nápisem k 20letému jubileu II. odboru Slezské Matice osvěty lidové v Rychvaldě a viditelným `1910–1930`. Má stejné rozměry a obecný digitální čas jako dříve indexovaný `8206.jpg` a zobrazuje korespondující motiv; přesný vztah obou souborů zůstává k ověření.
 
-Čtyři soubory dávky obsahují pouze obecný EXIF DateTime z 22.–23. dubna 2012, nikoli DateTimeOriginal; `img129.jpg` EXIF nemá. Žádný z pěti nemá GPS.
-
-Nejistota `URB-U-0087` byla rozšířena na položky 001–025; nová nejistota nevznikla.
+Nejistota `URB-U-0087` byla rozšířena na položky 001–030; nová nejistota nevznikla.
 
 ## Zbývající položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| popopo | 6 | 2 | **8** |
+| popopo | 1 | 2 | **3** |
 
 ## Registr nejistot
 
@@ -49,14 +47,12 @@ Nejistota `URB-U-0087` byla rozšířena na položky 001–025; nová nejistota 
 
 ## Aktuální krok
 
-Šestá dávka `popopo`:
+Závěrečná dávka `popopo`:
 
-- `img178a.jpg`;
-- `img267.jpg`;
-- `img678.jpg`;
-- `img691.jpg`;
-- `img698a.jpg`.
+- `mlyn_0001a.jpg`;
+- `Thumbs.db`;
+- `ZbThumbnail.info`.
 
-Poté zbude závěrečná trojice `mlyn_0001a.jpg`, `Thumbs.db`, `ZbThumbnail.info`.
+Po jejím dokončení bude celý aktuální snapshot 616 položek indexován a technické soubory auditovány.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

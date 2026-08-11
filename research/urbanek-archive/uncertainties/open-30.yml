@@ -31,22 +31,28 @@ items:
   - urbanek-popopo-023
   - urbanek-popopo-024
   - urbanek-popopo-025
-  question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `popopo`, včetně osob, událostí, staveb, provozoven, škol, památníků a rukopisných pramenů; jaký je vztah archivních názvů a viditelných nápisů k původu obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
+  - urbanek-popopo-026
+  - urbanek-popopo-027
+  - urbanek-popopo-028
+  - urbanek-popopo-029
+  - urbanek-popopo-030
+  question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `popopo`, včetně osob, událostí, staveb, provozoven, škol, památníků, rukopisných a publikovaných pramenů; jaký je vztah archivních názvů a viditelných nápisů k původu obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
   known_facts:
-  - Po dávce 05 je ověřeno a indexováno prvních 25 z 31 obsahových položek; technické cache ještě nejsou auditovány.
-  - Detailní přímo ověřené popisy položek 001–020 jsou zachovány v dávkách 01–04 a příslušných source indexech.
-  - P1010764.JPG zobrazuje památník s čitelnými nápisy `PAMÁTCE OBĚTEM NĚMECKÉ PERSEKUCE 1939–1945`, `PADLÝM BRATŘÍM 1914–1918`, `VAŠÍ PAMÁTCE VĚRNI ZŮSTANEME!` a viditelným `1948`; historická a biografická tvrzení nápisu nejsou zatím nezávisle ověřena.
-  - P1010765a.jpg je reprodukce historické fotografie otevřeného dřevěného altánu; lokalita, funkce a datum nejsou určeny.
-  - P1010791.JPG a P1010791a.jpg jsou dvě různě zpracované reprezentace stejné rukopisné stránky `-272-`; geometrie a text jsou shodné, soubory nejsou binárně totožné. Viditelné jsou mimo jiné `1. IX. 1912`, `170 dětí` a `40.000 K`.
-  - img129.jpg je historická fotografie nízké budovy se strmou střechou a dvěma komíny; přesná identita, lokalita a datum nejsou určeny.
-  - U čtyř souborů dávky 05 je pouze obecný EXIF DateTime z 22.–23. dubna 2012, nikoli DateTimeOriginal; img129.jpg EXIF nemá. Žádný soubor dávky 05 nemá GPS.
+  - Po dávce 06 je ověřeno a indexováno 30 z 31 obsahových položek; technické cache ještě nejsou auditovány.
+  - Detailní přímo ověřené popisy položek 001–025 jsou zachovány v dávkách 01–05 a příslušných source indexech.
+  - img178a.jpg obsahuje `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` a `1929`; s dříve indexovaným 8205.jpg sdílí bannerový motiv a generic EXIF DateTime `2012:04:17 11:42:56`, ale binární identita ani processing history nejsou doloženy.
+  - img267.jpg zachycuje dvě vícepodlažní budovy u komunikace; přesná adresa a funkce nejsou určeny.
+  - img678.jpg je reprodukce starší fotografie zástavby za poli či zahradami; lokalita a datum nejsou určeny.
+  - img691.jpg má tištěný popisek, který zobrazeného muže označuje jako Warrant Officer Fridolína Gemroda (RO) a uvádí léto 1944, Mosquito NF Mk.XVII (WM-G) a Castle Camps. Jde o tvrzení popisku, nikoli nezávisle ověřenou biografii.
+  - img698a.jpg obsahuje text k 20letému jubileu II. odboru Slezské Matice osvěty lidové v Rychvaldě a `1910–1930`; s dříve indexovaným 8206.jpg sdílí rozměry, generic EXIF DateTime `2012:04:23 10:06:03` a korespondující skupinový motiv, ale přesný vztah není určen.
   unknown:
   - exact_identities_locations_dates_and_histories_of_described_people_events_buildings_landscape_objects_and_memorials
-  - historical_accuracy_of_visible_memorial_and_manuscript_claims
-  - exact_manuscript_volume_title_authorship_page_context_and_full_transcription
-  - processing_history_of_P1010791_and_P1010791a
+  - historical_accuracy_of_visible_memorial_manuscript_caption_and_anniversary_claims
+  - identity_and_biography_of_Fridolin_Gemrod_and_accuracy_of_img691_caption
+  - exact_relationship_and_processing_history_between_img178a_and_8205
+  - exact_relationship_and_processing_history_between_img698a_and_8206
   - relationships_between_items_beyond_direct_visual_or_textual_evidence
-  - original_photograph_manuscript_and_collage_provenance
+  - original_photograph_manuscript_publication_and_collage_provenance
   - photographer_and_digitizer_identity
   - copyright_and_reuse_rights
   evidence:
@@ -55,9 +61,11 @@ items:
   - research/urbanek-archive/collections/popopo-batch-03.yml
   - research/urbanek-archive/collections/popopo-batch-04.yml
   - research/urbanek-archive/collections/popopo-batch-05.yml
+  - research/urbanek-archive/collections/popopo-batch-06.yml
   - research/urbanek-archive/collections/popopo-overview.yml
   - sources/index.d/urbanek-popopo-01.yml
   - sources/index.d/urbanek-popopo-02.yml
   - sources/index.d/urbanek-popopo-03.yml
   - sources/index.d/urbanek-popopo-04.yml
   - sources/index.d/urbanek-popopo-05.yml
+  - sources/index.d/urbanek-popopo-06.yml

@@ -1,0 +1,100 @@
+schema_version: 1
+collection_id: urbanek-popopo
+collection_title: popopo
+batch_number: 6
+batch_id: national-socialist-group-buildings-airman-caption-and-matrix-anniversary-06
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/popopo
+  drive_folder_id: 1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR
+  items: [img178a.jpg, img267.jpg, img678.jpg, img691.jpg, img698a.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Raw Drive files were compared by byte size and recomputed Git blob SHA with repository paths.
+- SHA-256, dimensions, color mode, EXIF and GPS fields were inspected.
+- Visible captions and inscriptions are recorded as source-visible text; their historical claims are not independently promoted to fact during phase-1 indexing.
+- Similarity to previously indexed images is recorded only as correspondence unless direct image identity is demonstrated.
+- Exact binary duplicate check within the batch and repository search for matching Git blob SHA in indexed source records.
+batch_findings:
+  exact_binary_duplicates_within_batch: 0
+  matching_prior_index_blob_sha_found: 0
+  metadata_scope: img178a.jpg contains Canon generic EXIF DateTime `2012:04:17 11:42:56`; img698a.jpg contains Canon generic EXIF DateTime `2012:04:23 10:06:03`; DateTimeOriginal is absent in both. img267.jpg, img678.jpg and img691.jpg have no EXIF. No item contains GPS.
+  correspondence_scope: img178a.jpg shares banner wording, visible year 1929 and the same generic digital timestamp with previously indexed 8205.jpg. img698a.jpg shares dimensions 2614x1945, generic digital timestamp `2012:04:23 10:06:03`, the group-anniversary motif and `1910–1930` with previously indexed 8206.jpg. These correspondences do not by themselves establish binary identity or exact processing history.
+  visible_text_scope: img178a.jpg includes `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` and `1929`. img691.jpg contains the printed caption `Warrant Officer Fridolín Gemrod (RO) relaxuje v létě 1944 na výškovce stroje Mosquito NF Mk.XVII (WM-G) na základně Castle Camps.` img698a.jpg includes `JUB. 20. LET`, `TRVÁNÍ II. ODB. SLEZSKÉ`, `MAT. OSV. LID. V RYCHVALDĚ` and `1910–1930`.
+items:
+- id: urbanek-popopo-026
+  filename: img178a.jpg
+  git_blob_sha: 0e9bf5eea67fb2f79c0043647a3526b3a9a6de90
+  sha256: 84175914b4f2eaaf49f1ac6d8d9bd6b5eb94f045e41bf2b121e6d9a8d43edda0
+  file_size_bytes: 1369336
+  drive_id: 1MtrQFeEztL0xf7lJIwDHTfDYReCMR_ww
+  dimensions_px: [2622, 1788]
+  mode: RGB
+  exif: {present: true, make: Canon, model: null, datetime: '2012:04:17 11:42:56', datetime_original: null, gps_present: false}
+  visual_description: Skupinový historický portrét dospělých a dětí před budovou s praporem. Bezpečně čitelné jsou `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` a na tabulce `1929`. Osoby, událost a přesná lokalita nejsou určeny.
+  classification: [archival_group_photograph, organizational_banner, readable_rychvald, visible_year_1929, adults_and_children]
+  related_evidence: {previous_source: urbanek-unused-book-calendar-photographs-022, relationship: strong_correspondence_not_binary_identity}
+  unverified: [exact_event_and_location, identities_of_people, exact_organizational_context, relationship_and_processing_history_relative_to_8205, original_photograph_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-027
+  filename: img267.jpg
+  git_blob_sha: 28645d2925bca8e58908501980944de7a2e7be86
+  sha256: 55bb69ecc8f101a6b7a895e0b0641273ca909f4f828d42aa74a96819117e0359
+  file_size_bytes: 215060
+  drive_id: 1uN-HvIVPGx58IbgXJPhPSFliHx6fFOqG
+  dimensions_px: [1458, 1014]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Barevná fotografie dvou moderněji působících vícepodlažních budov u místní komunikace. Přesná adresa, funkce, vlastnictví a datum snímku nejsou určeny.
+  classification: [color_building_photograph, multi_storey_buildings, roadside_setting, unidentified_location_and_function]
+  unverified: [exact_address_building_identity_function_and_history, capture_date, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-028
+  filename: img678.jpg
+  git_blob_sha: 99e493892f25d955132b14e66769b508f281358d
+  sha256: 74aacfc853b6662bf910b9daba919e3e2de21adf8473a58691918641d2d6364f
+  file_size_bytes: 272535
+  drive_id: 1JZCxsi4ZWmlG0N9AtMDpLxfUIEu0nZxO
+  dimensions_px: [1350, 1014]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Reprodukce starší fotografie zástavby na okraji polí či zahrad, s řadou menších domů a hospodářskou stavbou v popředí. Přesná lokalita, datum a identity staveb nejsou určeny.
+  classification: [archival_settlement_photograph, houses, agricultural_foreground, unidentified_location_and_date]
+  unverified: [exact_location_date_and_building_identities, original_photograph_provenance, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-popopo-029
+  filename: img691.jpg
+  git_blob_sha: 4bab2f080cb210a0302c7460f52a3183f5c5a0fa
+  sha256: b1523aa1ce9679873ff65262fad08085e43f2448851048a231626c609fa2a2d8
+  file_size_bytes: 271316
+  drive_id: 15TGkVoDM_3z1Wbu-g1LvYK_RPTa0zcBN
+  dimensions_px: [1080, 954]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Reprodukce publikované černobílé fotografie muže sedícího u letounu s českým tištěným popiskem, který jej označuje jako Warrant Officer Fridolína Gemroda (RO) a uvádí léto 1944, Mosquito NF Mk.XVII (WM-G) a základnu Castle Camps.
+  classification: [published_photograph_reproduction, airman, aircraft, printed_caption, caption_names_Fridolin_Gemrod]
+  visible_text: {safe_transcription: 'Warrant Officer Fridolín Gemrod (RO) relaxuje v létě 1944 na výškovce stroje Mosquito NF Mk.XVII (WM-G) na základně Castle Camps.', scope_note: 'Jde o tvrzení tištěného popisku reprodukce; biografické a leteckohistorické údaje nejsou v této fázi nezávisle ověřeny.'}
+  unverified: [identity_of_depicted_person_beyond_caption, accuracy_of_caption_date_aircraft_and_location, publication_source_and_page, original_photograph_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-030
+  filename: img698a.jpg
+  git_blob_sha: 557cf26ac1a74ad576d0e53df05f92007de2552d
+  sha256: 31b906c2de1c33e90d17d30574f8c103bd898bb379f537d9f6444e3677a337d4
+  file_size_bytes: 2295341
+  drive_id: 1KIX6EiVqQ1Y1Uhfl1eT31bztuF1FSOLg
+  dimensions_px: [2614, 1945]
+  mode: RGB
+  exif: {present: true, make: Canon, model: null, datetime: '2012:04:23 10:06:03', datetime_original: null, gps_present: false}
+  visual_description: Velký skupinový historický portrét před cihlovou budovou, s prapory a nápisem k dvacetiletému jubileu II. odboru Slezské Matice osvěty lidové v Rychvaldě; přímo viditelné je `1910–1930`. Osoby a přesný událostní kontext nejsou určeny.
+  classification: [archival_group_photograph, anniversary_inscription, Slezska_Matice_osvety_lidove_text, readable_rychvald, visible_1910_1930, unidentified_people]
+  related_evidence: {previous_source: urbanek-unused-book-calendar-photographs-023, relationship: strong_correspondence_not_binary_identity}
+  unverified: [exact_event_and_organization_context, identities_of_people, exact_location, relationship_and_processing_history_relative_to_8206, original_photograph_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, dimensions, color mode and stated metadata fields
+related_uncertainties: [URB-U-0087]
+next_batch:
+  number: 7
+  filenames: [mlyn_0001a.jpg, Thumbs.db, ZbThumbnail.info]

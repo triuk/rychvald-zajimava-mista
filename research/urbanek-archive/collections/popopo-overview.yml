@@ -7,23 +7,23 @@ attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 status: in_progress
 totals: {content_files: 31, technical_files: 2, total_items: 33}
-progress: {processed_content_files: 25, processed_technical_files: 0, processed_items: 25, repo_verified_items: 25, visually_classified_items: 25, source_indexed_items: 25, remaining_content_files: 6, remaining_technical_files: 2, remaining_items: 8}
+progress: {processed_content_files: 30, processed_technical_files: 0, processed_items: 30, repo_verified_items: 30, visually_classified_items: 30, source_indexed_items: 30, remaining_content_files: 1, remaining_technical_files: 2, remaining_items: 3}
 completed_batches:
 - {number: 1, items: 001-005, filenames: [916.jpg, Josef Gemrot.jpg, P1010066a.jpg, P1010067.JPG, P1010068.JPG], id: ceremony-portrait-street-crowds-and-school-postcard-01, inventory: research/urbanek-archive/collections/popopo-inventory-01.csv, classification: research/urbanek-archive/collections/popopo-batch-01.yml, source_index: sources/index.d/urbanek-popopo-01.yml}
 - {number: 2, items: 006-010, filenames: [P1010328.JPG, P1010330.JPG, P1010411.JPG, P1010738.JPG, P1010740.JPG], id: residential-buildings-and-vaulted-interior-02, inventory: research/urbanek-archive/collections/popopo-inventory-02.csv, classification: research/urbanek-archive/collections/popopo-batch-02.yml, source_index: sources/index.d/urbanek-popopo-02.yml}
 - {number: 3, items: 011-015, filenames: [P1010741.JPG, P1010743a.jpg, P1010744.JPG, P1010746.JPG, P1010747a.jpg], id: brick-vaults-stove-tree-lined-roads-and-crucifix-03, inventory: research/urbanek-archive/collections/popopo-inventory-03.csv, classification: research/urbanek-archive/collections/popopo-batch-03.yml, source_index: sources/index.d/urbanek-popopo-03.yml}
 - {number: 4, items: 016-020, filenames: [P1010748a.jpg, P1010749.JPG, P1010752.JPG, P1010754.JPG, P1010755a.jpg], id: crucifix-detail-tree-settlement-and-sokol-memorial-building-04, inventory: research/urbanek-archive/collections/popopo-inventory-04.csv, classification: research/urbanek-archive/collections/popopo-batch-04.yml, source_index: sources/index.d/urbanek-popopo-04.yml}
 - {number: 5, items: 021-025, filenames: [P1010764.JPG, P1010765a.jpg, P1010791.JPG, P1010791a.jpg, img129.jpg], id: persecution-memorial-bandstand-manuscript-page-and-building-05, inventory: research/urbanek-archive/collections/popopo-inventory-05.csv, classification: research/urbanek-archive/collections/popopo-batch-05.yml, source_index: sources/index.d/urbanek-popopo-05.yml}
+- {number: 6, items: 026-030, filenames: [img178a.jpg, img267.jpg, img678.jpg, img691.jpg, img698a.jpg], id: national-socialist-group-buildings-airman-caption-and-matrix-anniversary-06, inventory: research/urbanek-archive/collections/popopo-inventory-06.csv, classification: research/urbanek-archive/collections/popopo-batch-06.yml, source_index: sources/index.d/urbanek-popopo-06.yml}
 interpretation_rules:
 - Folder and filenames are archival metadata, not independent proof of identity, date or place.
 - EXIF DateTimeOriginal and generic DateTime are technical digital-file metadata only.
-- Visible inscriptions and manuscript dates are source content; underlying historical claims require verification.
-- A memorial inscription verifies wording on the object, not independently its historical claims.
+- Visible inscriptions, captions and manuscript dates are source content; underlying historical claims require verification.
 - Persons are not identified from appearance alone.
-- Direct visual/structural comparison may establish that two files represent the same underlying photographed object/page while retaining both archive files.
+- Similar metadata and imagery are recorded as correspondence unless direct source comparison establishes the same underlying image.
 - Exact binary duplicates under different paths remain separate inventory items but one independent image evidence where demonstrated.
 open_uncertainties: [URB-U-0087]
 technical_files:
 - {path: Thumbs.db, status: not_yet_audited}
 - {path: ZbThumbnail.info, status: not_yet_audited}
-next_batch: {number: 6, filenames: [img178a.jpg, img267.jpg, img678.jpg, img691.jpg, img698a.jpg]}
+next_batch: {number: 7, filenames: [mlyn_0001a.jpg, Thumbs.db, ZbThumbnail.info]}

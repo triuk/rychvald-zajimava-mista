@@ -12,47 +12,33 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 586 | 27 | **613** |
-| zbývá | 1 | 2 | **3** |
+| zpracováno | **587** | **29** | **616** |
+| zbývá | 0 | 0 | **0** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **30/33**.
+**Všech 15 kolekcí aktuálního Git snapshotu je zpracováno.** Kolekce `popopo` je dokončena 33/33. Tím je první úplný inventární a indexační průchod aktuálním snapshotem uzavřen.
 
-## popopo – dávka 06
+## popopo – závěrečná dávka 07
 
-Zpracovány byly `img178a.jpg`, `img267.jpg`, `img678.jpg`, `img691.jpg` a `img698a.jpg`. Raw soubory mají přesně stejnou velikost a recomputovaný Git blob SHA jako příslušné cesty v repozitáři; v dávce není binární duplicita.
+Zpracovány byly `mlyn_0001a.jpg`, `Thumbs.db` a `ZbThumbnail.info`. Všechny tři raw soubory mají přesně stejnou velikost a přepočtený Git blob SHA jako příslušné cesty v repozitáři.
 
-`img178a.jpg` je historický skupinový portrét s praporem `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` a tabulkou `1929`. Sdílí tyto prvky a obecný digitální čas `2012:04:17 11:42:56` s dříve indexovaným `8205.jpg`; jde o silnou korespondenci, nikoli doloženou binární identitu.
+`mlyn_0001a.jpg` je digitální reprodukce archivní fotografie většího stavebního komplexu. EXIF uvádí Canon MP610 series, MP Navigator EX 1.0 a obecný DateTime `2012:04:18 09:02:04`; DateTimeOriginal ani GPS nejsou přítomny. Název souboru je pouze archivní atribuce a sám o sobě nedokládá, že zobrazený objekt je mlýn.
 
-`img267.jpg` zachycuje dvě vícepodlažní budovy u komunikace. `img678.jpg` je reprodukce starší fotografie zástavby za poli či zahradami. Přesné lokality a identity staveb nejsou určeny.
+`Thumbs.db` je OLE/Compound File cache. Její Catalog obsahuje 57 názvů JPEGů plus jeden zvláštní GUID-like záznam; všech 31 současných JPEGů kolekce je zastoupeno. **26 názvů nemá v aktuální složce samostatný plný soubor.** Přímým porovnáním thumbnailů je 10 těchto názvů variantou stejného podkladového obrazu, který je v kolekci dochován pod jiným názvem. Po jejich odečtení cache dokládá **16 odlišných obrazových obsahů, jejichž plný originál v aktuálním snapshotu chybí**.
 
-`img691.jpg` obsahuje tištěný popisek `Warrant Officer Fridolín Gemrod (RO) relaxuje v létě 1944 na výškovce stroje Mosquito NF Mk.XVII (WM-G) na základně Castle Camps.` Jde o tvrzení popisku reprodukce; biografické a leteckohistorické údaje nejsou v této fázi nezávisle ověřeny.
+`ZbThumbnail.info` začíná `zbex`, obsahuje všech 57 názvů JPEGů známých z `Thumbs.db` a 57 přímo dekódovatelných JPEG/JFIF proudů. Nález chybějících názvů je tedy podpořen dvěma různými technickými cache soubory.
 
-`img698a.jpg` je skupinový portrét s nápisem k 20letému jubileu II. odboru Slezské Matice osvěty lidové v Rychvaldě a viditelným `1910–1930`. Má stejné rozměry a obecný digitální čas jako dříve indexovaný `8206.jpg` a zobrazuje korespondující motiv; přesný vztah obou souborů zůstává k ověření.
-
-Nejistota `URB-U-0087` byla rozšířena na položky 001–030; nová nejistota nevznikla.
-
-## Zbývající položky
-
-| Skupina | Obsahové | Technické | Celkem |
-|---|---:|---:|---:|
-| popopo | 1 | 2 | **3** |
+Pro 16 chybějících plných originálů byla založena nová nejistota `URB-U-0088`. Cache-only odkazy nejsou připočítány k 616 položkám aktuálního snapshotu.
 
 ## Registr nejistot
 
-- `open`: 52;
+- `open`: 53;
 - `resolved`: 32;
 - `not_actionable`: 3;
-- celkem: 87.
+- celkem: 88.
 
-## Aktuální krok
+## Další fáze
 
-Závěrečná dávka `popopo`:
-
-- `mlyn_0001a.jpg`;
-- `Thumbs.db`;
-- `ZbThumbnail.info`.
-
-Po jejím dokončení bude celý aktuální snapshot 616 položek indexován a technické soubory auditovány.
+Úplná indexace aktuálního snapshotu je dokončena. Následujícím krokem je závěrečná kontrola registru nejistot, prioritizace a teprve poté jejich systematické řešení. Automaticky je nyní neuzavírám ani neslučuji.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

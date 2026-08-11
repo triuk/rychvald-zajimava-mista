@@ -1,20 +1,17 @@
-schema_version: 4
+schema_version: 5
 summary:
-  open: 52
+  open: 53
   deferred: 0
   resolved: 32
   not_actionable: 3
-  total: 87
+  total: 88
 workflow_policy:
-  current_phase: full_archive_indexing
-  dedicated_resolution_research: deferred_until_full_archive_index_complete
-  status_semantics: Workflow deferral does not move open items to the deferred count.
-  during_indexing:
-  - create_or_preserve_stable_uncertainty_id
-  - record_source_items_question_evidence_and_priority
-  - do_not_close_items_by_guesswork_or_incidental_search
-  - perform_only_narrow_verification_required_for_correct_inventory_or_provenance
+  current_phase: full_archive_index_complete
+  dedicated_resolution_research: ready_for_final_review_and_prioritization
+  status_semantics: Workflow deferral during indexing does not move open items to the deferred count.
+  indexing_result: All 616 items in the current Git snapshot are indexed and all 29 technical files are audited.
   final_review_trigger: full_source_root_inventory_and_index_completed
+  final_review_trigger_status: reached
   final_review_actions:
   - validate_all_source_links
   - deduplicate_only_identical_questions_without_losing_history
@@ -50,6 +47,7 @@ open_files:
 - open-28.yml
 - open-29.yml
 - open-30.yml
+- open-31.yml
 closed_files:
 - closed-01a.yml
 - closed-01b.yml
@@ -75,7 +73,7 @@ closed_files:
 - closed-20.yml
 - closed-21.yml
 rules:
-- A thumbnail in Thumbs.db without a standalone full file means the full original is missing; visually verified duplicate thumbnails do not represent additional missing image content.
+- A thumbnail in Thumbs.db without a standalone full file means the full original is missing; visually verified duplicate or same-underlying-image thumbnail variants do not represent additional missing image content.
 - When one part of a question is resolved but other material attributes remain unknown, keep the resolved finding closed and create a linked open item for the unresolved attributes.
 - Incidental surrounding content captured outside the intended clipping scope is not treated as a separate document or identification task.
 - A documented physical or cropping lacuna may be closed when all surviving text is transcribed and the missing content is not to remain an ongoing search task; the gap must remain explicitly marked and must never be reconstructed by guesswork.

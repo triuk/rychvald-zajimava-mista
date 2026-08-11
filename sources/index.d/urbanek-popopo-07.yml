@@ -1,0 +1,51 @@
+schema_version: 1
+collection_id: urbanek-popopo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-popopo-031
+  title: mlyn_0001a.jpg
+  source_path: popopo/mlyn_0001a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/mlyn_0001a.jpg
+  source_role: content
+  document_type: archival_building_photograph_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 763033
+  git_blob_sha: f83c5d8de775f6e5b7ab8a2fec581a61d17afc42
+  sha256: 6f9258b1b53b5c56067fb8d0138ebdd35a7cb55f49fcc3be215caae7d8d3444a
+  drive_id: 1IUNA2I5y9rJiKqWHhO6ykVnkQmOtstA1
+  repo_status: verified
+  image: {width_px: 2358, height_px: 1590, color_mode: RGB}
+  summary: Digitální reprodukce archivní fotografie většího stavebního komplexu mezi vegetací; přesná identita, funkce, lokalita a historická datace nejsou určeny. Filename `mlyn_0001a.jpg` je archivní atribuce a sám o sobě nedokládá funkci stavby.
+  capture_metadata: {exif_present: true, make: Canon, model: 'MP610 series', software: 'MP Navigator EX 1.0', datetime: '2012:04:18 09:02:04', datetime_original: null, gps_present: false, use: reproduction_file_metadata_not_historical_scene_date}
+  relationship: {same_underlying_image_as_cached_missing_name: mlyn_0001.jpg}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-032
+  title: Thumbs.db
+  source_path: popopo/Thumbs.db
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/Thumbs.db
+  source_role: technical
+  document_type: technical_thumbnail_cache
+  mime_type: application/octet-stream
+  file_size_bytes: 218624
+  git_blob_sha: 5cb748d284bcc2a84a3d8c7524f0e5905ff61039
+  sha256: 147993ca920bfc9bbf5cb2b0cc70b515aae22626524e1fbd773653dcab7c62bf
+  drive_id: 1nVj_YBUhfNjblTCG8_VZLXY_mS7fBI7t
+  repo_status: verified
+  technical_summary: OLE/Compound File thumbnail cache with a Catalog of 57 JPEG filenames plus one special record. All 31 current collection JPEG names are represented; 26 names lack a current standalone full file. Ten of those 26 thumbnails are directly verified as variants of a current underlying image, leaving 16 distinct cache-only image contents with missing full originals.
+  missing_full_original_names: [P1010069.JPG, P1010745.JPG, img248a.jpg, 8006.jpg, 8006a.jpg, 8014.jpg, 8172.JPG, img248.jpg, P1010750.JPG, P1010751.JPG, silma.jpg, img075.jpg, P1010765.JPG, img706.jpg, img707a.jpg, img707.jpg]
+  uncertainty_ids: [URB-U-0088]
+- source_id: urbanek-popopo-033
+  title: ZbThumbnail.info
+  source_path: popopo/ZbThumbnail.info
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/ZbThumbnail.info
+  source_role: technical
+  document_type: technical_thumbnail_cache
+  mime_type: application/octet-stream
+  file_size_bytes: 581247
+  git_blob_sha: b8cc4630ced8730036414392644b71b9f8352e87
+  sha256: 1b1482e3edc529cf703475b2cb2ca4f0b9c4d024bdad92c8be508aad5a117286
+  drive_id: 1cMSttxFvFGHSyHFr7bhcmQm5jvVccttB
+  repo_status: verified
+  technical_summary: Binary cache beginning with `zbex`, containing all 57 JPEG filename references found in Thumbs.db and 57 directly decodable JPEG/JFIF image streams. It independently corroborates the filename population and the existence of cached image content for names absent as full standalone files.
+  uncertainty_ids: [URB-U-0088]

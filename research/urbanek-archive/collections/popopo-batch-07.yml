@@ -1,0 +1,77 @@
+schema_version: 1
+collection_id: urbanek-popopo
+collection_title: popopo
+batch_number: 7
+batch_id: archival-building-and-thumbnail-cache-evidence-07
+status: completed
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/popopo
+  drive_folder_id: 1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR
+  items: [mlyn_0001a.jpg, Thumbs.db, ZbThumbnail.info]
+  content_files: 1
+  technical_files: 2
+method:
+- Fresh Drive folder metadata and raw-file downloads were used for all three files.
+- Downloaded byte sizes and recomputed Git blob SHA values were compared with the repository paths.
+- SHA-256, dimensions, color mode, EXIF and GPS fields were inspected for mlyn_0001a.jpg.
+- Thumbs.db was parsed from its OLE/Compound File Binary structure, including FAT, mini-FAT, directory, Catalog stream and numbered thumbnail streams.
+- ZbThumbnail.info was inspected by binary signature, UTF-16 filename references and directly decodable embedded JPEG/JFIF streams.
+- Cached thumbnails were compared directly with the 31 current collection JPEGs and with one another so missing filenames are not automatically counted as separate missing image contents when they represent the same underlying image.
+- Cache files are derivative technical records. Their references prove missing full originals under the project cache rule but are not added to the 616-item current Git snapshot inventory.
+batch_findings:
+  exact_binary_duplicates_within_batch: 0
+  mlyn_scope: mlyn_0001a.jpg is a digital reproduction of a monochrome/sepia archival photograph showing a substantial multi-part building complex among vegetation. The archival filename is not used as proof that the depicted building is a mill. Exact identity, function, locality and historical date remain unverified.
+  mlyn_metadata: Canon MP610 series; MP Navigator EX 1.0; generic EXIF DateTime `2012:04:18 09:02:04`; DateTimeOriginal absent; GPS absent. These are technical reproduction metadata only.
+  thumbs_db_scope: Thumbs.db has OLE/CFB magic `D0 CF 11 E0 A1 B1 1A E1`. Its Catalog contains 58 records: one GUID-like special record and 57 `.jpg` filename records. All 58 numbered thumbnail streams contain directly decodable JPEG data after the cache stream prefix. All 31 current collection JPEG names are represented; 26 filename records have no standalone full file in the current folder.
+  missing_name_scope: The 26 missing standalone names are [P1010069.JPG, P1010743.JPG, P1010745.JPG, P1010747.JPG, P1010748.JPG, img248a.jpg, 8006.jpg, 8006a.jpg, 8014.jpg, 8172.JPG, img178.jpg, img248.jpg, mlyn_0001.jpg, P1010750.JPG, P1010751.JPG, P1010755.JPG, P1010754a.jpg, silma.jpg, img075.jpg, img698.jpg, P1010066.JPG, P1010763.JPG, P1010765.JPG, img706.jpg, img707a.jpg, img707.jpg].
+  same_underlying_image_variants: Direct thumbnail comparison establishes ten missing-name variants as the same underlying image as a current file: P1010743.JPG ↔ P1010743a.jpg; P1010747.JPG ↔ P1010747a.jpg; P1010748.JPG ↔ P1010748a.jpg; img178.jpg ↔ img178a.jpg; mlyn_0001.jpg ↔ mlyn_0001a.jpg; P1010755.JPG ↔ P1010755a.jpg; P1010754a.jpg ↔ P1010754.JPG; img698.jpg ↔ img698a.jpg; P1010066.JPG ↔ P1010066a.jpg; P1010763.JPG ↔ P1010764.JPG. These are not counted as additional missing image contents.
+  distinct_missing_content_scope: After those ten correspondences, 16 cache-only thumbnail image contents remain without a current standalone full image: [P1010069.JPG, P1010745.JPG, img248a.jpg, 8006.jpg, 8006a.jpg, 8014.jpg, 8172.JPG, img248.jpg, P1010750.JPG, P1010751.JPG, silma.jpg, img075.jpg, P1010765.JPG, img706.jpg, img707a.jpg, img707.jpg]. Their thumbnails are visually distinct as image records; images of the same building or subject from different viewpoints remain distinct photographs.
+  zbthumbnail_scope: ZbThumbnail.info begins with ASCII magic `zbex`, contains all 57 JPEG filename references found in the Thumbs.db catalog and contains 57 JFIF start signatures. Each of the 57 streams is directly decodable as a JPEG when read from its JPEG marker. Thus it independently corroborates the filename population represented by Thumbs.db.
+items:
+- id: urbanek-popopo-031
+  filename: mlyn_0001a.jpg
+  item_type: content
+  git_blob_sha: f83c5d8de775f6e5b7ab8a2fec581a61d17afc42
+  sha256: 6f9258b1b53b5c56067fb8d0138ebdd35a7cb55f49fcc3be215caae7d8d3444a
+  file_size_bytes: 763033
+  drive_id: 1IUNA2I5y9rJiKqWHhO6ykVnkQmOtstA1
+  dimensions_px: [2358, 1590]
+  mode: RGB
+  exif: {present: true, make: Canon, model: 'MP610 series', software: 'MP Navigator EX 1.0', datetime: '2012:04:18 09:02:04', datetime_original: null, gps_present: false}
+  visual_description: Digitální reprodukce monochromatické až sépiově působící archivní fotografie rozsáhlejšího stavebního komplexu mezi vegetací, s vyšší střední částí a delším nižším křídlem. Název souboru `mlyn_0001a.jpg` je pouze archivní metadata a sám o sobě nedokládá funkci stavby.
+  classification: [archival_building_photograph_reproduction, multi_part_building_complex, filename_suggests_mlyn_only, unidentified_building_and_location]
+  relationship: {same_underlying_image_as_cached_missing_name: mlyn_0001.jpg, evidence: direct_thumbnail_correspondence}
+  unverified: [exact_building_identity_function_and_location, historical_date_and_history, meaning_of_filename_mlyn, original_photograph_provenance, photographer_and_digitizer, copyright_and_reuse_rights]
+- id: urbanek-popopo-032
+  filename: Thumbs.db
+  item_type: technical
+  git_blob_sha: 5cb748d284bcc2a84a3d8c7524f0e5905ff61039
+  sha256: 147993ca920bfc9bbf5cb2b0cc70b515aae22626524e1fbd773653dcab7c62bf
+  file_size_bytes: 218624
+  drive_id: 1nVj_YBUhfNjblTCG8_VZLXY_mS7fBI7t
+  mime_type: application/octet-stream
+  technical_description: OLE/Compound File thumbnail cache. Catalog contains one special GUID-like record and 57 JPEG filename records; all 31 current JPEG names plus 26 names without standalone full files. Direct thumbnail comparison reduces those 26 names to 16 distinct missing image contents after ten same-underlying-image variant correspondences are excluded.
+  classification: [technical_cache, ole_compound_file, catalog_filename_index, embedded_jpeg_thumbnails, missing_full_original_evidence]
+  unverified: [generating_application_and_version, cache_creation_and_update_history, locations_and_metadata_of_sixteen_missing_full_originals]
+- id: urbanek-popopo-033
+  filename: ZbThumbnail.info
+  item_type: technical
+  git_blob_sha: b8cc4630ced8730036414392644b71b9f8352e87
+  sha256: 1b1482e3edc529cf703475b2cb2ca4f0b9c4d024bdad92c8be508aad5a117286
+  file_size_bytes: 581247
+  drive_id: 1cMSttxFvFGHSyHFr7bhcmQm5jvVccttB
+  mime_type: application/octet-stream
+  technical_description: Binary thumbnail/index cache beginning with `zbex`; it contains all 57 JPEG filename references present in the Thumbs.db catalog and 57 directly decodable embedded JPEG/JFIF streams. It independently corroborates the cache filename population including all 26 names without current standalone full files.
+  classification: [technical_cache, zbex_signature, filename_reference_index, embedded_jpeg_data, missing_full_original_evidence]
+  unverified: [exact_generating_application_and_version, cache_creation_and_update_history, exact_internal_record_schema]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw-file byte size equals repository file size
+- downloaded raw-file Git blob SHA equals repository blob SHA
+- SHA-256 of downloaded raw file
+related_uncertainties:
+- URB-U-0087 applies to content item urbanek-popopo-031
+- URB-U-0088 applies to technical cache items urbanek-popopo-032 and urbanek-popopo-033

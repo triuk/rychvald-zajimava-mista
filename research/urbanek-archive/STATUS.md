@@ -12,34 +12,34 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 517 | 24 | **541** |
-| zbývá | 70 | 5 | **75** |
+| zpracováno | 522 | 24 | **546** |
+| zbývá | 65 | 5 | **70** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
 Dokončeno je **12 kolekcí**. Aktivní je kolekce `fotografie, které nebyl použité pro knihu ani kalendář`.
 
-## fotografie, které nebyl použité pro knihu ani kalendář – dávka 01
+## fotografie, které nebyl použité pro knihu ani kalendář – dávka 02
 
-Zpracovány byly `045.jpg`, `093.JPG`, `134.jpg`, `164.jpg` a `2011cIsenburgové z Birsteinu.jpg`. Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Mezi pěti položkami není přesná binární duplicita.
+Zpracovány byly `2061.JPG`, `2063.JPG`, `2069.jpg`, `209.jpg` a `327a.jpg`. Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Mezi pěti položkami není přesná binární duplicita uvnitř dávky.
 
-`045.jpg` je digitální reprodukce starší kreslené mapy s německými a latinskými popisky; bezpečně čitelné jsou mimo jiné `Mähren` a `Oder Fluvius`. Přesný název, autor a historická datace mapy nejsou z obrazu určeny. EXIF DateTimeOriginal `2010:12:13 05:58:19` je evidován jako technické metadata digitální reprodukce, nikoli jako datum mapy.
+`2061.JPG` zobrazuje zděné schodiště do podzemního či suterénního prostoru; EXIF uvádí Canon EOS 400D DIGITAL a DateTimeOriginal `2012:01:16 08:41:32`. `2063.JPG` zobrazuje odlomené barevně upravené fragmenty s částečnými znaky; stejný model fotoaparátu a DateTimeOriginal `2012:01:16 08:59:13`. Přesná stavba, lokalita, funkce schodiště, materiál, původ, stáří a význam fragmentů nejsou určeny.
 
-`093.JPG` zobrazuje vysokou věž stavby se sakrální architekturou, ciferníky hodin, štíhlou červenou střechou a křížem. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:27 15:22:13`; přesná stavba, denominace a lokalita nejsou určeny.
+`2069.jpg` je digitální reprodukce situačního plánu. Bezpečně čitelné jsou mimo jiné `Vodovod pro velkostatek v Rychvaldě.`, `Situace.`, měřítko `1:2880`, `Ing. M. Rosický, Orlová.`, místní popisky `Heřmanice` a `Rychvald`, označení `Závod pro stavbu vodovodů ING. MIROSLAV ROSICKÝ ORLOVA` a datace `Orlová, v červnu 1934.`. Viditelná datace je údaj samotného plánu; EXIF DateTimeOriginal `2012:03:11 10:37:36` je evidován odděleně jako metadata digitálního snímku/reprodukce.
 
-`134.jpg` zobrazuje hřbitov s centrálním kamenným křížem a několika návštěvníky. EXIF uvádí Panasonic DMC-FZ7 a DateTimeOriginal `2009:11:02 14:10:36`. `164.jpg` zachycuje početné venkovní shromáždění kolem hořící hranice z polen; EXIF uvádí výrobce Canon a DateTimeOriginal `2012:03:15 09:39:23`. Přesný hřbitov, monument, událost, místo ani osoby nejsou z obrazů samotných určeny.
+`209.jpg` zachycuje několik osob provádějících zemní práce s nástroji kolem velkého zaobleného kamene; přesná činnost, událost, lokalita, datum a osoby nejsou určeny.
 
-`2011cIsenburgové z Birsteinu.jpg` je heraldické vyobrazení korunovaného štítu s modrým středovým polem a žlutým lvem. Část názvu souboru `Isenburgové z Birsteinu` je evidována pouze jako archivní atribuce; obraz sám bez dalšího pramene identitu držitele erbu nepotvrzuje. Tento JPEG neobsahuje EXIF. Žádný z pěti souborů dávky neobsahuje GPS údaje.
+`327a.jpg` je přesná binární duplicita dříve indexovaného `fotodokument/img041.jpg` (`urbanek-fotodokument-root-006`): shoduje se velikost, Git blob SHA `1d9cc6086818160982d6854da7b6d6857292019b` i SHA-256 `a20b389ac31ff0c253a0e9be238961a9173cbf5cd994d1e1bce5d6967d2ba922`. Obě archivní cesty se zachovávají, ale obraz se nepovažuje za dva nezávislé důkazy.
 
-Pro kolekci vznikla nová nejistota `URB-U-0084`; systematické určování staveb, mapy, události, heraldického motivu a osob zůstává podle workflow odloženo do závěrečné fáze.
+Nejistota `URB-U-0084` byla rozšířena na položky 001–010; nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| fotografie, které nebyl použité pro knihu ani kalendář | 23 | 1 | 24 |
+| fotografie, které nebyl použité pro knihu ani kalendář | 18 | 1 | 19 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **70** | **5** | **75** |
+| **Celkem** | **65** | **5** | **70** |
 
 ## Registr nejistot
 
@@ -50,12 +50,12 @@ Pro kolekci vznikla nová nejistota `URB-U-0084`; systematické určování stav
 
 ## Aktuální krok
 
-Druhá dávka kolekce `fotografie, které nebyl použité pro knihu ani kalendář`:
+Třetí dávka kolekce `fotografie, které nebyl použité pro knihu ani kalendář`:
 
-- `2061.JPG`;
-- `2063.JPG`;
-- `2069.jpg`;
-- `209.jpg`;
-- `327a.jpg`.
+- `333.jpg`;
+- `367.jpg`;
+- `369.jpg`;
+- `5005a.jpg`;
+- `5011b.jpg`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

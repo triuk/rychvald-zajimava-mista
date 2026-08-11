@@ -12,33 +12,31 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 561 | 27 | **588** |
-| zbývá | 26 | 2 | **28** |
+| zpracováno | 566 | 27 | **593** |
+| zbývá | 21 | 2 | **23** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **5/33**.
+Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **10/33**.
 
-## popopo – dávka 01
+## popopo – dávka 02
 
-Zpracovány byly `916.jpg`, `Josef Gemrot.jpg`, `P1010066a.jpg`, `P1010067.JPG` a `P1010068.JPG`. Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Nebyla nalezena předchozí shoda Git blob SHA v dosud indexovaných source záznamech.
+Zpracovány byly `P1010328.JPG`, `P1010330.JPG`, `P1010411.JPG`, `P1010738.JPG` a `P1010740.JPG`. U celé dávky byla použita čerstvě dohledaná Drive ID; raw soubory přesně odpovídají velikostem a Git blobům v repozitáři. Nebyla nalezena předchozí shoda Git blob SHA v dosud indexovaných source záznamech.
 
-`916.jpg` zachycuje historickou scénu s otevřeným automobilem, velkým davem a výzdobou; bezpečně čitelný je nápis `PEKÁRNA`. Přesná událost, místo, datum a osoby nejsou určeny.
+Všech pět JPEGů uvádí Panasonic DMC-TZ3 a DateTimeOriginal: `2010:11:07 15:51:40`, `2010:11:09 15:24:00`, `2011:01:13 15:45:07`, `2012:04:10 12:04:42` a `2012:04:10 12:11:20`. Žádný nemá GPS. Tyto hodnoty jsou technická metadata digitálního snímku, nikoli důkaz stáří nebo historické datace zobrazených staveb.
 
-`Josef Gemrot.jpg` je portrét muže v uniformně působícím oděvu. Jméno v názvu souboru je evidováno pouze jako archivní atribuce, nikoli jako nezávislé potvrzení identity.
+`P1010328.JPG` a `P1010330.JPG` zachycují stavební zástavbu v prostředí místních komunikací a otevřenějšího terénu. Přesná lokalita, funkce a vlastnictví staveb se z obrazu samotného neurčují.
 
-`P1010066a.jpg` zachycuje reprodukci slavnostně působící městské scény s davem, prapory a sakrálně působící stavbou. `P1010067.JPG` zachycuje dav před provozovnami; bezpečně čitelné jsou `Baťa`, `MODNÍ ZÁVOD KREJČOVSKÝ`, `RESTAURACE` a `TEPLÁ A STUDENÁ JÍDLA`.
+`P1010411.JPG` zobrazuje dvoupodlažní omítanou budovu. Na fasádě i na malé tabulce u vstupu je bezpečně čitelné číslo `1187`; samo o sobě se nepoužívá k doplnění adresy.
 
-`P1010068.JPG` je koláž dvou školních budov. Bezpečně čitelné jsou `ŠKOLY U.M.Š. V RYCHVALDĚ.`, `ŠKOLA` a údaj `1909`; tento údaj je evidován jako viditelný obsah reprodukce, nikoli automaticky jako technicky ověřené datum fotografie nebo stavby.
+`P1010738.JPG` zobrazuje dvoupodlažní oranžově omítanou budovu s valbovou střechou a nízkou přístavbou. `P1010740.JPG` zachycuje světlý klenutý interiér s kovovými dvířky či uzávěry ve zdivu. Přesná funkce interiéru, objekt, lokalita a vztah k ostatním snímkům nejsou určeny.
 
-`P1010066a.jpg`, `P1010067.JPG` a `P1010068.JPG` mají Panasonic DMC-TZ3 a DateTimeOriginal 28. února 2010 v časech 12:34:50, 12:36:29 a 12:37:29. Tyto časy jsou technická metadata digitálního snímání, ne historická data zobrazených scén. Žádný z pěti souborů neobsahuje GPS.
-
-Pro obsah kolekce vznikla nejistota `URB-U-0087`.
+Nejistota `URB-U-0087` byla rozšířena na položky 001–010; nová nejistota nevznikla.
 
 ## Zbývající položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| popopo | 26 | 2 | **28** |
+| popopo | 21 | 2 | **23** |
 
 ## Registr nejistot
 
@@ -49,12 +47,12 @@ Pro obsah kolekce vznikla nejistota `URB-U-0087`.
 
 ## Aktuální krok
 
-Druhá dávka `popopo`:
+Třetí dávka `popopo`:
 
-- `P1010328.JPG`;
-- `P1010330.JPG`;
-- `P1010411.JPG`;
-- `P1010738.JPG`;
-- `P1010740.JPG`.
+- `P1010741.JPG`;
+- `P1010743a.jpg`;
+- `P1010744.JPG`;
+- `P1010746.JPG`;
+- `P1010747a.jpg`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

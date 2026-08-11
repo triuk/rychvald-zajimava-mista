@@ -11,27 +11,42 @@ items:
   - urbanek-popopo-003
   - urbanek-popopo-004
   - urbanek-popopo-005
+  - urbanek-popopo-006
+  - urbanek-popopo-007
+  - urbanek-popopo-008
+  - urbanek-popopo-009
+  - urbanek-popopo-010
   question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `popopo`, včetně zobrazených osob, veřejných událostí, staveb, provozoven, škol a dalších institucí; jaký je vztah archivních názvů a viditelných nápisů k původu obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
   known_facts:
   - Kolekce má v aktuálním snapshotu 31 obsahových JPEGů a technické soubory Thumbs.db a ZbThumbnail.info.
-  - První dávka zahrnuje 916.jpg, `Josef Gemrot.jpg`, P1010066a.jpg, P1010067.JPG a P1010068.JPG; všech pět raw souborů přesně odpovídá kanonické Drive složce, velikostem a Git blobům.
+  - Po dávce 02 je ověřeno a indexováno prvních 10 obsahových položek; všechny raw soubory přesně odpovídají kanonickým Drive souborům, velikostem a Git blobům.
   - 916.jpg zobrazuje historickou scénu s otevřeným automobilem, velkým davem a výzdobou; bezpečně čitelný je nápis `PEKÁRNA`. Přesná událost, místo a osoby nejsou určeny.
   - `Josef Gemrot.jpg` je portrét muže v uniformně působícím oděvu. Jméno `Josef Gemrot` je pouze archivní atribuce filename a nezávisle nepotvrzuje identitu osoby.
   - P1010066a.jpg zachycuje starší fotografii slavnostně působící městské scény s velkým davem, prapory a sakrálně působící stavbou; přesný kontext není určen.
   - P1010067.JPG zachycuje uliční scénu s davem před provozovnami; bezpečně čitelné jsou `Baťa`, `MODNÍ ZÁVOD KREJČOVSKÝ`, `RESTAURACE` a `TEPLÁ A STUDENÁ JÍDLA`.
   - P1010068.JPG je obrazová koláž dvou školních budov; bezpečně čitelné jsou `ŠKOLY U.M.Š. V RYCHVALDĚ.`, `ŠKOLA` a viditelný údaj `1909`. Význam zkratky, přesné školy a vztah údaje 1909 k obrazu nejsou určeny.
-  - P1010066a.jpg, P1010067.JPG a P1010068.JPG mají Panasonic DMC-TZ3 a DateTimeOriginal 28. února 2010 v časech 12:34:50, 12:36:29 a 12:37:29; tyto časy jsou technická metadata digitálního snímání, nikoli historická data zobrazených scén. Žádný z pěti souborů neobsahuje GPS.
+  - P1010328.JPG zobrazuje větší světlý stavební komplex u místní komunikace; přesná adresa, funkce, vlastník a historie nejsou určeny.
+  - P1010330.JPG zobrazuje skupinu staveb na okraji zástavby s komunikací a zemědělskou plochou v pozadí; přesná lokalita a identity staveb nejsou určeny.
+  - P1010411.JPG zobrazuje dvoupodlažní omítanou budovu; na fasádě i tabulce u vstupu je přímo čitelné `1187`. Toto číslo není samo o sobě používáno k doplnění adresy.
+  - P1010738.JPG zobrazuje dvoupodlažní oranžově omítanou budovu s valbovou střechou a nízkou přístavbou; přesná lokalita, funkce a historie nejsou určeny.
+  - P1010740.JPG zobrazuje klenutý interiér se dvěma sadami kovových dvířek či uzávěrů ve zdivu; přesná funkce, objekt, lokalita a vztah k ostatním snímkům nejsou určeny.
+  - P1010066a.jpg, P1010067.JPG a P1010068.JPG mají Panasonic DMC-TZ3 a DateTimeOriginal 28. února 2010. Všech pět položek dávky 02 má Panasonic DMC-TZ3 a DateTimeOriginal od 7. listopadu 2010 do 10. dubna 2012. Tyto časy jsou technická metadata digitálních snímků a nejsou používány jako historická data nebo důkaz stáří staveb.
+  - Žádná z prvních deseti položek nemá GPS metadata.
   unknown:
   - exact_event_location_date_and_people_in_916
   - identity_of_person_attributed_by_filename_as_Josef_Gemrot
   - exact_event_location_building_organization_and_people_in_P1010066a
   - exact_location_event_business_owners_and_people_in_P1010067
   - meaning_of_UMS_and_exact_school_identities_locations_and_date_context_in_P1010068
+  - exact_locations_functions_ownership_and_history_of_buildings_in_P1010328_P1010330_P1010411_P1010738
+  - exact_function_building_location_age_and_relationship_of_vaulted_interior_in_P1010740
   - relationships_between_items_beyond_direct_source_evidence
   - original_photograph_and_collage_provenance
   - photographer_and_digitizer_identity
   - copyright_and_reuse_rights
   evidence:
   - research/urbanek-archive/collections/popopo-batch-01.yml
+  - research/urbanek-archive/collections/popopo-batch-02.yml
   - research/urbanek-archive/collections/popopo-overview.yml
   - sources/index.d/urbanek-popopo-01.yml
+  - sources/index.d/urbanek-popopo-02.yml

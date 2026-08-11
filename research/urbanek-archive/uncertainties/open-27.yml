@@ -26,31 +26,41 @@ items:
   - urbanek-unused-book-calendar-photographs-018
   - urbanek-unused-book-calendar-photographs-019
   - urbanek-unused-book-calendar-photographs-020
+  - urbanek-unused-book-calendar-photographs-021
+  - urbanek-unused-book-calendar-photographs-022
+  - urbanek-unused-book-calendar-photographs-023
+  - urbanek-unused-book-calendar-photographs-024
+  - urbanek-unused-book-calendar-photographs-025
   question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `fotografie, které nebyl použité pro knihu ani kalendář`, včetně identity map, plánů, staveb, školních a jiných institucí, monumentů, veřejných událostí, technických či stavebních fragmentů, hmotných artefaktů, nástěnných maleb, heraldických motivů a osob; jaký je vztah archivních názvů souborů, viditelných datací a EXIF údajů k původu jednotlivých obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
   known_facts:
   - Kolekce obsahuje v aktuálním Git snapshotu 28 obsahových souborů a jeden technický soubor Thumbs.db.
-  - První čtyři dávky zahrnují položky urbanek-unused-book-calendar-photographs-001 až -020; všech dvacet raw souborů z kanonické Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
+  - Prvních pět dávek zahrnuje položky urbanek-unused-book-calendar-photographs-001 až -025; všech 25 raw souborů z kanonické Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
   - 045.jpg je digitální reprodukce starší kreslené mapy; bezpečně čitelné jsou mimo jiné popisky „Mähren“ a „Oder Fluvius“. EXIF DateTimeOriginal `2010:12:13 05:58:19` je technické metadata reprodukce, nikoli historická datace mapy.
   - 093.JPG zobrazuje věž stavby se sakrální architekturou; EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:27 15:22:13`. Přesná stavba, denominace a lokalita nejsou určeny.
   - 134.jpg zobrazuje hřbitov s centrálním kamenným křížem; EXIF uvádí Panasonic DMC-FZ7 a DateTimeOriginal `2009:11:02 14:10:36`. Přesný hřbitov a monument nejsou určeny.
-  - 164.jpg zobrazuje početné venkovní shromáždění kolem hořící hranice z polen; EXIF uvádí výrobce Canon a DateTimeOriginal `2012:03:15 09:39:23`. Přesná událost, místo a osoby nejsou určeny.
+  - 164.jpg zobrazuje početné venkovní shromáždění kolem hořící hranice z polen; EXIF DateTimeOriginal je `2012:03:15 09:39:23`. Přesná událost, místo a osoby nejsou určeny.
   - 2011cIsenburgové z Birsteinu.jpg zobrazuje korunovaný heraldický štít; archivní název souboru obsahuje atribuci „Isenburgové z Birsteinu“, ale obraz samotný ji nezávisle nepotvrzuje.
   - 2061.JPG zobrazuje zděné schodiště do podzemního či suterénního prostoru; EXIF uvádí Canon EOS 400D DIGITAL a DateTimeOriginal `2012:01:16 08:41:32`. Přesná stavba, lokalita a funkce nejsou určeny.
   - 2063.JPG zobrazuje odlomené barevně upravené fragmenty s částečnými znaky; EXIF uvádí Canon EOS 400D DIGITAL a DateTimeOriginal `2012:01:16 08:59:13`. Materiál, původ, význam znaků, stáří a stavební kontext nejsou určeny.
-  - 2069.jpg je reprodukce situačního plánu s čitelným titulkem „Vodovod pro velkostatek v Rychvaldě.“, měřítkem `1:2880`, místními popisky „Heřmanice“ a „Rychvald“ a datací „Orlová, v červnu 1934.“. EXIF DateTimeOriginal je `2012:03:11 10:37:36`; viditelná datace plánu a digitální metadata jsou evidovány odděleně.
+  - 2069.jpg je reprodukce situačního plánu s titulkem „Vodovod pro velkostatek v Rychvaldě.“, měřítkem `1:2880`, popisky „Heřmanice“ a „Rychvald“ a datací „Orlová, v červnu 1934.“. EXIF DateTimeOriginal `2012:03:11 10:37:36` je evidován odděleně jako technické metadata digitální reprodukce.
   - 209.jpg zobrazuje několik osob provádějících zemní práce kolem velkého zaobleného kamene; přesná činnost, účel kamene, událost, lokalita, datum a osoby nejsou určeny.
   - 327a.jpg je přesná binární duplicita dříve indexovaného `fotodokument/img041.jpg` (`urbanek-fotodokument-root-006`), se shodnou velikostí, Git blob SHA a SHA-256; obě archivní cesty zůstávají zachovány, ale nepředstavují dva nezávislé obrazové důkazy.
   - 333.jpg zobrazuje starší přízemní budovu se sedlovou střechou, plotem a stromy; přesná identita, funkce, vlastnictví, lokalita a datace nejsou určeny.
   - 367.jpg zobrazuje upravený obdélný venkovní areál s cestami, stromy a budovou v pozadí; přesný druh a účel areálu, budova, lokalita a datace nejsou určeny.
-  - 369.jpg zobrazuje dřevěný dům se skupinou osob, zahradními či hospodářskými konstrukcemi, vodní plochou nebo zaplavenou prohlubní a malým větrným kolem. Obsahuje obecný EXIF DateTime `2012:05:30 10:40:00` a údaj `Adobe Photoshop 7.0 CE`, ale ne DateTimeOriginal; tento údaj není používán jako historická datace scény.
-  - Na 5005a.jpg je na tabuli bezpečně čitelné „Pětitřídní škola v Rychvaldě“. EXIF DateTimeOriginal je `2012:03:15 16:52:47`; přesná škola, budova, osoby, ročník a historická datace fotografie nejsou z tohoto údaje určeny.
-  - Na 5011b.jpg je nad skupinou bezpečně čitelný zápis `1928/29`; bez dalšího pramene není automaticky považován za technicky ověřené datum expozice fotografie. Identity a role osob nejsou určeny.
+  - 369.jpg zobrazuje dřevěný dům se skupinou osob, vodní plochou nebo zaplavenou prohlubní a malým větrným kolem. Obsahuje obecný EXIF DateTime `2012:05:30 10:40:00` a údaj `Adobe Photoshop 7.0 CE`, ale ne DateTimeOriginal.
+  - Na 5005a.jpg je bezpečně čitelné „Pětitřídní škola v Rychvaldě“. EXIF DateTimeOriginal je `2012:03:15 16:52:47`; přesná škola, budova, osoby, ročník a historická datace nejsou určeny.
+  - Na 5011b.jpg je bezpečně čitelný zápis `1928/29`; bez dalšího pramene není automaticky považován za technicky ověřené datum expozice fotografie.
   - 5048.jpg zobrazuje rozsáhlý zemní odkryv či prohlubeň s budovami na horním okraji; přesný účel zásahu, lokalita, budovy a datace nejsou určeny.
-  - 7147.jpg zobrazuje nízkou stavbu s dlouhým krytým venkovním prostorem v prostředí stromů. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:28 15:22:55`; přesná funkce, název, vlastnictví a lokalita nejsou určeny.
+  - 7147.jpg zobrazuje nízkou stavbu s krytým venkovním prostorem v prostředí stromů. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:28 15:22:55`; přesná funkce, název, vlastnictví a lokalita nejsou určeny.
   - 7185.JPG zobrazuje dva kamenné kruhové prvky s radiálními drážkami a středovými otvory. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2011:11:15 12:20:52`; přesná funkce, původ, stáří a kontext nejsou určeny.
   - 73.jpg zobrazuje poškozenou malovanou vrstvu na omítce či zdivu. EXIF uvádí Canon PowerShot G5 a DateTimeOriginal `2005:08:04 09:02:04`; přesný námět, objekt, lokalita, autorství a historická datace malby nejsou určeny.
-  - 74.tif je nekomprimovaný RGB TIFF 3463×3479 px s uloženým rozlišením 600 dpi. Zobrazuje fragment poškozené nástěnné malby s lidskou postavou a popsanými či malovanými plochami. Přesný námět, identita postavy, objekt, lokalita, autorství, datace a vztah k 73.jpg nejsou určeny.
-  - Žádný z prvních dvaceti souborů neobsahuje GPS údaje.
+  - 74.tif je nekomprimovaný RGB TIFF 3463×3479 px s uloženým rozlišením 600 dpi. Zobrazuje fragment poškozené nástěnné malby s lidskou postavou; vztah k 73.jpg není bez dalšího podkladu tvrzen.
+  - 75.tif je nekomprimovaný RGB TIFF 3507×3507 px s uloženým rozlišením 600 dpi. Zobrazuje fragment poškozené nástěnné malby s koňským povozem a architekturou; přesný vztah k 73.jpg a 74.tif není určen.
+  - Na 8205.jpg jsou bezpečně čitelné „STRANA NÁR. SOCIALISTICKÁ“, „RYCHVALD“ a rok `1929`. EXIF DateTimeOriginal je `2012:04:17 11:42:56`; osoby a přesný organizační a událostní kontext nejsou určeny.
+  - Na 8206.jpg je bezpečně čitelné `1910–1930` a z horního organizačního nápisu pouze závěr `… V RYCHVALDĚ`; celý nápis se nerekonstruuje. EXIF DateTimeOriginal je `2012:04:23 10:06:03`.
+  - P1020271aaaaddd.jpg zobrazuje architektonický detail s obloukovou nikou; z rytého nápisu je bezpečně čitelné pouze `ANNO`. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2012:11:20 12:05:04`.
+  - ggg.tif zobrazuje rozsáhlou podlouhlou vícepodlažní budovu s mnoha okny a valbovou střechou. Obsahuje obecný DateTime `2010:11:26 09:44:21` a software `Microsoft Windows Photo Gallery 6.0.6000.16386`, ale ne DateTimeOriginal.
+  - Žádný z prvních 25 souborů neobsahuje GPS údaje.
   - Archivní název složky a názvy souborů jsou evidovány jako archivní metadata, nikoli jako samostatný důkaz identity, data, lokality nebo předchozího publikačního využití.
   unknown:
   - exact_identity_title_author_date_and_source_of_map_in_045
@@ -60,12 +70,11 @@ items:
   - identities_of_people_visible_in_photographs
   - exact_event_title_purpose_location_and_participant_context_of_164
   - exact_armiger_and_heraldic_identity_of_2011c_image
-  - meaning_of_2011c_filename_prefix
   - exact_building_location_function_and_history_for_2061
   - material_origin_meaning_age_and_building_context_of_2063_fragments
   - original_plan_provenance_completeness_project_scope_realization_and_georeferencing_for_2069
   - exact_activity_event_purpose_location_and_people_in_209
-  - exact_location_identity_function_ownership_and_date_of_buildings_in_327a_img041_and_333
+  - exact_location_identity_function_ownership_and_date_of_buildings_in_327a_img041_333_ggg
   - exact_facility_type_function_location_and_date_of_367
   - exact_location_building_identity_people_and_function_of_wind_wheel_or_water_feature_in_369
   - exact_school_building_people_roles_year_and_context_of_5005a
@@ -73,9 +82,11 @@ items:
   - exact_excavation_type_purpose_location_buildings_and_date_of_5048
   - exact_identity_function_ownership_and_location_of_building_in_7147
   - exact_type_function_origin_age_and_use_context_of_stone_elements_in_7185
-  - exact_subject_building_location_authorship_date_and_restoration_history_of_wall_paintings_in_73_and_74
-  - exact_relationship_between_73_and_74
-  - identity_and_role_of_figure_and_interpretation_of_surface_writing_in_74
+  - exact_subject_building_location_authorship_date_and_restoration_history_of_wall_paintings_in_73_74_75
+  - exact_relationship_between_73_74_and_75
+  - identities_and_organizational_event_context_of_groups_in_8205_and_8206
+  - relationship_of_visible_1929_and_1910_1930_to_historical_dates_and_organization_history
+  - exact_building_location_function_full_inscription_and_architectural_date_of_P1020271aaaaddd
   - relationship_of_archival_filename_claims_to_source_provenance
   - interpretation_of_exif_timestamps_beyond_technical_image_metadata
   - photographer_and_digitizer_identity
@@ -86,9 +97,11 @@ items:
   - research/urbanek-archive/collections/unused-book-calendar-photographs-batch-02.yml
   - research/urbanek-archive/collections/unused-book-calendar-photographs-batch-03.yml
   - research/urbanek-archive/collections/unused-book-calendar-photographs-batch-04.yml
+  - research/urbanek-archive/collections/unused-book-calendar-photographs-batch-05.yml
   - research/urbanek-archive/collections/unused-book-calendar-photographs-overview.yml
   - sources/index.d/urbanek-unused-book-calendar-photographs-01.yml
   - sources/index.d/urbanek-unused-book-calendar-photographs-02.yml
   - sources/index.d/urbanek-unused-book-calendar-photographs-03.yml
   - sources/index.d/urbanek-unused-book-calendar-photographs-04.yml
+  - sources/index.d/urbanek-unused-book-calendar-photographs-05.yml
   - sources/index.d/urbanek-fotodokument-root-02.yml

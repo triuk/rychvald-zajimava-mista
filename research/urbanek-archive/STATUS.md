@@ -12,34 +12,36 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 532 | 24 | **556** |
-| zbývá | 55 | 5 | **60** |
+| zpracováno | 537 | 24 | **561** |
+| zbývá | 50 | 5 | **55** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
 Dokončeno je **12 kolekcí**. Aktivní je kolekce `fotografie, které nebyl použité pro knihu ani kalendář`.
 
-## fotografie, které nebyl použité pro knihu ani kalendář – dávka 04
+## fotografie, které nebyl použité pro knihu ani kalendář – dávka 05
 
-Zpracovány byly `5048.jpg`, `7147.jpg`, `7185.JPG`, `73.jpg` a `74.tif`. Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Uvnitř dávky není přesná binární duplicita a žádný z pěti Git blob SHA nebyl nalezen v dosud indexovaných source záznamech.
+Zpracovány byly `75.tif`, `8205.jpg`, `8206.jpg`, `P1020271aaaaddd.jpg` a `ggg.tif`. Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Uvnitř dávky není přesná binární duplicita a žádný z pěti Git blob SHA nebyl nalezen v dosud indexovaných source záznamech.
 
-`5048.jpg` zachycuje rozsáhlý zemní odkryv či prohlubeň s odkrytými svahy, hromadami materiálu a budovami na horním okraji; přesný účel, lokalita a datace nejsou určeny.
+`75.tif` je nekomprimovaný RGB TIFF 3507×3507 px s uloženým rozlišením 600 dpi. Zachycuje silně poškozenou nástěnnou malbu s dochovanými motivy koňského povozu a architektury. Přesný námět, objekt, lokalita, autorství, datace a vztah k `73.jpg` a `74.tif` nejsou určeny.
 
-`7147.jpg` zobrazuje nízkou podlouhlou stavbu s krytým venkovním prostorem v prostředí vzrostlých stromů. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:28 15:22:55`; přesná funkce, název, vlastnictví a lokalita nejsou určeny.
+Na `8205.jpg` jsou bezpečně čitelné `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` a rok `1929`. EXIF DateTimeOriginal je `2012:04:17 11:42:56`. Osoby, přesný organizační a událostní kontext a vztah k jiným snímkům se stejnou formulací nejsou z obrazu samotného určeny.
 
-`7185.JPG` zachycuje dvojici kamenných kruhových prvků s radiálními drážkami a středovými otvory. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2011:11:15 12:20:52`; přesná funkce, původ, stáří a vztah ke konkrétnímu provozu či stavbě nejsou určeny.
+Na `8206.jpg` je bezpečně čitelné `1910–1930` a z horního organizačního nápisu pouze závěr `… V RYCHVALDĚ`; celý nápis není rekonstruován. EXIF DateTimeOriginal je `2012:04:23 10:06:03`. Viditelné datumové údaje jsou evidovány jako obsah pramene, nikoli automaticky jako technická data expozice.
 
-`73.jpg` a `74.tif` oba zachycují silně poškozené malované vrstvy na zdivu či omítce. `73.jpg` má EXIF Canon PowerShot G5 a DateTimeOriginal `2005:08:04 09:02:04`. `74.tif` je nekomprimovaný RGB TIFF 3463×3479 px s uloženým rozlišením 600 dpi a bez EXIF; pro vizuální kontrolu byla použita pouze lokální odvozená PNG kopie. Přesný vztah obou snímků, objekt, lokalita, námět, autorství a datace nejsou z podobnosti motivu ani z pořadí názvů dovozovány.
+`P1020271aaaaddd.jpg` zobrazuje architektonický detail s obloukovou nikou; z rytého nápisu je bezpečně čitelné pouze `ANNO`. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2012:11:20 12:05:04`. Další znaky nápisu nejsou rekonstruovány.
 
-Nejistota `URB-U-0084` byla rozšířena na položky 001–020; nová nejistota nevznikla.
+`ggg.tif` zobrazuje rozsáhlou podlouhlou vícepodlažní budovu s mnoha pravidelnými okny a vysokou valbovou střechou. Obsahuje obecný DateTime `2010:11:26 09:44:21` a software `Microsoft Windows Photo Gallery 6.0.6000.16386`, ale ne DateTimeOriginal; tato metadata nejsou používána jako historická datace budovy.
+
+Nejistota `URB-U-0084` byla rozšířena na položky 001–025; nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| fotografie, které nebyl použité pro knihu ani kalendář | 8 | 1 | 9 |
+| fotografie, které nebyl použité pro knihu ani kalendář | 3 | 1 | 4 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **55** | **5** | **60** |
+| **Celkem** | **50** | **5** | **55** |
 
 ## Registr nejistot
 
@@ -50,12 +52,11 @@ Nejistota `URB-U-0084` byla rozšířena na položky 001–020; nová nejistota 
 
 ## Aktuální krok
 
-Pátá dávka kolekce `fotografie, které nebyl použité pro knihu ani kalendář`:
+Šestá a závěrečná dávka kolekce `fotografie, které nebyl použité pro knihu ani kalendář`:
 
-- `75.tif`;
-- `8205.jpg`;
-- `8206.jpg`;
-- `P1020271aaaaddd.jpg`;
-- `ggg.tif`.
+- `img010aa.jpg`;
+- `img037.jpg`;
+- `img724.jpg`;
+- `Thumbs.db`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

@@ -1,0 +1,88 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-unused-book-calendar-photographs-021
+  title: 75.tif
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/75.tif
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/75.tif
+  document_type: wall_painting_documentation
+  mime_type: image/tiff
+  file_size_bytes: 36897352
+  git_blob_sha: 2a66f32e1888f0d3ca68a7993d698e05f895490f
+  sha256: 8e67c2b91ecd476cdd64b589422e784b1a0c5fdb85378d8c84fcde97f0123643
+  drive_id: 1nlwIJmbbCQ1jLsEu7_ZrhMHrsuDRguwN
+  repo_status: verified
+  image: {width_px: 3507, height_px: 3507, color_mode: RGB, format: TIFF}
+  classification: [tiff_documentation_image, damaged_wall_painting, horse_drawn_carriage_motif, architectural_motifs, unidentified_artwork, unidentified_location]
+  summary: Silně poškozená nástěnná malba s dochovanými motivy koňského povozu a architektury; přesný námět, objekt, lokalita, autorství, datace a vztah k 73.jpg a 74.tif nejsou určeny.
+  capture_metadata: {exif_present: false, gps_present: false, tiff_compression: none, x_resolution_dpi: 600, y_resolution_dpi: 600}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-022
+  title: 8205.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/8205.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/8205.jpg
+  document_type: archival_group_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 1165684
+  git_blob_sha: cda9aa01e657bdc3439eba26453beb86b747c6e7
+  sha256: 81b2f945a06ee362587ed3242db52beb4893a065d9b4a3b7c03908c663adb513
+  drive_id: 1c1ui2eEo-CgiUyynRCV9VQghfQ8KDKbN
+  repo_status: verified
+  image: {width_px: 2341, height_px: 1597, color_mode: RGB}
+  classification: [monochrome_archival_group_photograph, organizational_banner, readable_text_rychvald, visible_year_1929, adults_and_children, unidentified_people]
+  summary: Skupinový portrét dospělých a dětí s praporem nesoucím `STRANA NÁR. SOCIALISTICKÁ` a `RYCHVALD`; na tabulce je rok `1929`. Osoby a přesný organizační a událostní kontext nejsou určeny.
+  capture_metadata: {exif_present: true, make: Canon, model: null, datetime_original: '2012:04:17 11:42:56', gps_present: false, use: digital_image_timestamp_not_historical_scene_date}
+  visible_text: {safe_transcription: ['STRANA NÁR. SOCIALISTICKÁ', 'RYCHVALD', '1929'], scope_note: 'Viditelný obsah pramene; rok není bez dalšího podkladu automaticky technickým datem expozice.'}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-023
+  title: 8206.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/8206.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/8206.jpg
+  document_type: archival_group_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2332867
+  git_blob_sha: 63bc50205f92a6940d15dedf957ca04e4c12f283
+  sha256: 221523167e2483bdb369753d8ac253f9b2f2712c94662785331fdc6e55177db5
+  drive_id: 1n2m-EVYANuIVOySvOxgNaW4lkl9dYyAw
+  repo_status: verified
+  image: {width_px: 2614, height_px: 1945, color_mode: RGB}
+  classification: [monochrome_archival_group_photograph, large_group, banners, visible_date_range_1910_1930, partial_rychvald_text, unidentified_people]
+  summary: Velký skupinový portrét s několika prapory; bezpečně čitelné je `1910–1930` a z horního organizačního nápisu pouze závěr `… V RYCHVALDĚ`. Celý nápis, osoby a kontext nejsou určeny.
+  capture_metadata: {exif_present: true, make: Canon, model: null, datetime_original: '2012:04:23 10:06:03', gps_present: false, use: digital_image_timestamp_not_historical_scene_date}
+  visible_text: {safe_transcription: ['1910–1930', '… V RYCHVALDĚ'], scope_note: 'Horní organizační nápis je pouze částečně čitelný a není rekonstruován.'}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-024
+  title: P1020271aaaaddd.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/P1020271aaaaddd.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/P1020271aaaaddd.jpg
+  document_type: architectural_detail
+  mime_type: image/jpeg
+  file_size_bytes: 335488
+  git_blob_sha: 18586d3143bef010cd910a0f44b991d6b6265e60
+  sha256: 6d8646a09060c53eada6a8b674dd4a192790d15df32425ae7a2ca408f867d40a
+  drive_id: 1vSeqfqyrMCdOfAleYxo7J0uDpxCBvpn8
+  repo_status: verified
+  image: {width_px: 1010, height_px: 1278, color_mode: RGB}
+  classification: [color_documentation_image, architectural_detail, arched_niche, carved_or_incised_inscription, readable_word_anno, unidentified_building, unidentified_location]
+  summary: Architektonický detail s hlubokou obloukovou nikou a rytým nápisem; bezpečně čitelné je pouze `ANNO`, další znaky nejsou rekonstruovány.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2012:11:20 12:05:04', gps_present: false}
+  visible_text: {safe_transcription: 'ANNO', scope_note: 'Další ryté znaky nejsou dostatečně čitelné pro bezpečný přepis.'}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-025
+  title: ggg.tif
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/ggg.tif
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/ggg.tif
+  document_type: archival_building_reproduction
+  mime_type: image/tiff
+  file_size_bytes: 14557284
+  git_blob_sha: e261328f6c12764be26f44c46fd3d0e5c5b85748
+  sha256: 066bc91be31d23594073b4d5f78a580bb81c67301807a8de8fcc3998e7dcd303
+  drive_id: 12n3Mfddsl5WrRut82bF8bcyQc8yBq5zj
+  repo_status: verified
+  image: {width_px: 3504, height_px: 2352, color_mode: RGB, format: TIFF}
+  classification: [tiff_archival_reproduction, large_multi_storey_building_exterior, many_windows, hipped_roof, unidentified_building, unidentified_location]
+  summary: Černobílý exteriér rozsáhlé podlouhlé vícepodlažní budovy s mnoha pravidelnými okny a vysokou valbovou střechou; přesná identita, funkce, vlastnictví, lokalita a historická datace nejsou určeny.
+  capture_metadata: {exif_present: true, datetime: '2010:11:26 09:44:21', datetime_original: null, software: 'Microsoft Windows Photo Gallery 6.0.6000.16386', gps_present: false, use: general_file_metadata_not_historical_scene_date}
+  uncertainty_ids: [URB-U-0084]

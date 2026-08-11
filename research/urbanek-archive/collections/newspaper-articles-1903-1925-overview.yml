@@ -8,17 +8,18 @@ rights: unknown
 status: in_progress
 totals: {content_files: 16, technical_files: 2, total_items: 18}
 progress:
-  processed_content_files: 5
+  processed_content_files: 10
   processed_technical_files: 0
-  processed_items: 5
-  repo_verified_items: 5
-  visually_classified_items: 5
-  source_indexed_items: 5
-  remaining_content_files: 11
+  processed_items: 10
+  repo_verified_items: 10
+  visually_classified_items: 10
+  source_indexed_items: 10
+  remaining_content_files: 6
   remaining_technical_files: 2
-  remaining_items: 13
+  remaining_items: 8
 completed_batches:
 - {number: 1, items: 001-005, filenames: [img970.jpg, img971.jpg, img972.jpg, img975.jpg, img976.jpg], id: obrana-slezska-1912-schooling-and-rychvald-clippings-01, inventory: research/urbanek-archive/collections/newspaper-articles-1903-1925-inventory-01.csv, classification: research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-01.yml, source_index: sources/index.d/urbanek-newspaper-articles-1903-1925-01.yml}
+- {number: 2, items: 006-010, filenames: [img979.jpg, img983.jpg, img984.jpg, img985.jpg, img987.jpg], id: rychvald-schooling-minority-law-and-municipal-election-clippings-02, inventory: research/urbanek-archive/collections/newspaper-articles-1903-1925-inventory-02.csv, classification: research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-02.yml, source_index: sources/index.d/urbanek-newspaper-articles-1903-1925-02.yml}
 interpretation_rules:
 - The folder title and filenames are archival metadata and are not independent proof of publication date, article identity, page sequence, physical provenance or completeness.
 - Printed masthead dates, issue numbers, periodical titles and article headings are direct source content of the photographed/reproduced newspaper material.
@@ -32,5 +33,5 @@ technical_files:
 - {path: Thumbs.db, status: not_yet_audited}
 - {path: ZbThumbnail.info, status: not_yet_audited}
 next_batch:
-  number: 2
-  filenames: [img979.jpg, img983.jpg, img984.jpg, img985.jpg, img987.jpg]
+  number: 3
+  filenames: [img989.jpg, img990.jpg, img991.jpg, img992.jpg, img993.jpg]

@@ -1,0 +1,87 @@
+schema_version: 1
+collection_id: urbanek-newspaper-articles-1903-1925
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-newspaper-articles-1903-1925-006
+  title: img979.jpg
+  source_path: novinové články 1903 - 1925/img979.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img979.jpg
+  document_type: newspaper_local_report_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 987871
+  git_blob_sha: a91ce2e20bc90172e4afa7adbeb21a642e0b656a
+  sha256: 5925421755debe2febc61a3c1178d4363dd64f57c368be8bab19013724c25abd
+  drive_id: 1DixgIemTg8gVkep9skpTmdd0QIMpTjK_
+  repo_status: verified
+  image: {width_px: 2597, height_px: 1853, color_mode: RGB}
+  classification: [newspaper_reproduction, issue_number_39_visible, correspondence_section, rychvald_local_report, school_enrolment_topic, missing_visible_issue_date]
+  summary: Výřez s `Číslo 39.`, záhlavími `Dopisy.` a `Rychvald.` a textem o zápisu do škol; datum vydání není z výřezu bezpečně doloženo.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-007
+  title: img983.jpg
+  source_path: novinové články 1903 - 1925/img983.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img983.jpg
+  document_type: newspaper_article_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 697097
+  git_blob_sha: e165e16d10fd3c5c681a7c42069956eb151973b4
+  sha256: 9c7c463bc883ffdb48249fa5df15157653302c2f49acdc671ca74a2cfc5121e2
+  drive_id: 1wAIB86WkqF2UZRRjJ7VJdVtN_rUCxz8s
+  repo_status: verified
+  image: {width_px: 1012, height_px: 2305, color_mode: RGB}
+  classification: [newspaper_reproduction, political_column, minority_schooling_article, readable_text_rychvald, direct_continuation_to_img984]
+  summary: Článek se záhlavími `Politická hlídka.` a `Zákon o menšinovém školství.`; text zmiňuje Rychvald a přímo pokračuje na img984.jpg.
+  capture_metadata: {exif_present: false, gps_present: false}
+  relationship: {direct_text_continuation_to: urbanek-newspaper-articles-1903-1925-008}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-008
+  title: img984.jpg
+  source_path: novinové články 1903 - 1925/img984.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img984.jpg
+  document_type: newspaper_article_continuation_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 499028
+  git_blob_sha: 93807e597bab4ebb15b679334edf835261fd4fc0
+  sha256: 51d9b15a1756e200d434722f48d3c48e3a0295604307bb65dff20f7f803dba1d
+  drive_id: 1JoAPbk-lwrahE2xfbykLaQJ4d1CBjVJy
+  repo_status: verified
+  image: {width_px: 993, height_px: 1602, color_mode: RGB}
+  classification: [newspaper_reproduction, article_continuation, direct_continuation_from_img983, minority_schooling_topic, readable_text_rychvald]
+  summary: Přímé pokračování článku z img983.jpg, doložené překrývajícím se textem na hranici obou výřezů.
+  capture_metadata: {exif_present: false, gps_present: false}
+  relationship: {direct_text_continuation_from: urbanek-newspaper-articles-1903-1925-007}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-009
+  title: img985.jpg
+  source_path: novinové články 1903 - 1925/img985.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img985.jpg
+  document_type: newspaper_page_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 2578447
+  git_blob_sha: 488a2d392fd004c8fd371eee9b87a0fbeadae4d3
+  sha256: f794560ce3642863af2bbae83afb98bd96f5b86084d38d46cdac4a3a26e864c9
+  drive_id: 1d_ZQhbf79Whl-TbfIYyPUmUKmPEomTMM
+  repo_status: verified
+  image: {width_px: 2514, height_px: 2814, color_mode: RGB}
+  classification: [newspaper_reproduction, slezan, visible_date_1912_03_08, year_II, municipal_election_article, rychvald]
+  summary: `SLEZAN`, `Ročník II.`, `V Pol. Ostravě, dne 8. března 1912.` a článek `Obecní volby v Rychvaldě.`.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-010
+  title: img987.jpg
+  source_path: novinové články 1903 - 1925/img987.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img987.jpg
+  document_type: newspaper_masthead_and_article_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 1224776
+  git_blob_sha: caef8254b5b63b8e846cbb4677bfb568034ae137
+  sha256: 8843081bae33a2ea2dbd3020c3b553714eec02af9029d2471a2798cf2b1d3e61
+  drive_id: 10oQBWIEVX9h4Mma-ZA9s9_rXBMCEUddV
+  repo_status: verified
+  image: {width_px: 3150, height_px: 1038, color_mode: RGB}
+  classification: [newspaper_reproduction, obrana_slezska, visible_date_1912_03_29, year_III, local_election_article, rychvald]
+  summary: `OBRANA SLEZSKA`, `V Orlové, 29. března 1912.`, `III. ročník.` a záhlaví `Haličské volby v Rychvaldě.`; číslo vydání není kvůli částečnému překrytí přepisováno.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0085]

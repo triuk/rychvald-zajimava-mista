@@ -12,48 +12,50 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 512 | 24 | **536** |
-| zbývá | 75 | 5 | **80** |
+| zpracováno | 517 | 24 | **541** |
+| zbývá | 70 | 5 | **75** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **12 kolekcí**. Kořenová část `fotodokument` mimo již dříve dokončenou podsložku `den po dešti` je po dávce 09 kompletně zpracována.
+Dokončeno je **12 kolekcí**. Aktivní je kolekce `fotografie, které nebyl použité pro knihu ani kalendář`.
 
-## fotodokument – dávka 09 a dokončení kolekce
+## fotografie, které nebyl použité pro knihu ani kalendář – dávka 01
 
-Zpracovány byly `img343.jpg`, `Thumbs.db` a `ZbThumbnail.info`. Tím je kořenová část `fotodokument` dokončena na **43 z 43 položek**: 41 obsahových JPEGů a dva technické cache soubory.
+Zpracovány byly `045.jpg`, `093.JPG`, `134.jpg`, `164.jpg` a `2011cIsenburgové z Birsteinu.jpg`. Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Mezi pěti položkami není přesná binární duplicita.
 
-Všechny tři raw soubory z kanonické Drive složky přesně odpovídají velikostem a Git blobům v repozitáři.
+`045.jpg` je digitální reprodukce starší kreslené mapy s německými a latinskými popisky; bezpečně čitelné jsou mimo jiné `Mähren` a `Oder Fluvius`. Přesný název, autor a historická datace mapy nejsou z obrazu určeny. EXIF DateTimeOriginal `2010:12:13 05:58:19` je evidován jako technické metadata digitální reprodukce, nikoli jako datum mapy.
 
-`img343.jpg` zachycuje viditelně poškozenou či zřícenou mostově působící konstrukci nad menším vodním tokem nebo příkopem. Přesná identita, lokalita, příčina stavu, datace a vztah k `img206.jpg` nebo `img216.jpg` nejsou z fotografie samotné určeny. JPEG neobsahuje použitelná EXIF metadata.
+`093.JPG` zobrazuje vysokou věž stavby se sakrální architekturou, ciferníky hodin, štíhlou červenou střechou a křížem. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:27 15:22:13`; přesná stavba, denominace a lokalita nejsou určeny.
 
-`Thumbs.db` byl ověřen jako technická OLE/Compound Document cache s odkazy na názvy archivních JPEGů a s vloženými JPEGovými obrazovými daty. Obsahuje 54 různých odkazů `imgNNN.jpg`: 39 odpovídá aktuálním kořenovým JPEGům a 15 názvů v aktuálním kořenovém Git snapshotu není. Tento rozdíl se neeviduje jako důkaz přesunu či smazání souborů.
+`134.jpg` zobrazuje hřbitov s centrálním kamenným křížem a několika návštěvníky. EXIF uvádí Panasonic DMC-FZ7 a DateTimeOriginal `2009:11:02 14:10:36`. `164.jpg` zachycuje početné venkovní shromáždění kolem hořící hranice z polen; EXIF uvádí výrobce Canon a DateTimeOriginal `2012:03:15 09:39:23`. Přesný hřbitov, monument, událost, místo ani osoby nejsou z obrazů samotných určeny.
 
-`ZbThumbnail.info` je technická binární cache s 41 různými odkazy `imgNNN.jpg`, které přesně odpovídají aktuálním 41 kořenovým JPEGům, a se 41 přímo dekódovatelnými JPEGovými obrazovými proudy. Oba cache soubory jsou evidovány jako odvozené technické položky, nikoli jako další nezávislé historické obrazové prameny.
+`2011cIsenburgové z Birsteinu.jpg` je heraldické vyobrazení korunovaného štítu s modrým středovým polem a žlutým lvem. Část názvu souboru `Isenburgové z Birsteinu` je evidována pouze jako archivní atribuce; obraz sám bez dalšího pramene identitu držitele erbu nepotvrzuje. Tento JPEG neobsahuje EXIF. Žádný z pěti souborů dávky neobsahuje GPS údaje.
 
-Nejistota `URB-U-0083` byla rozšířena na obsahovou položku 041; technické položky 042–043 do historické nejistoty přidány nebyly. Nová nejistota nevznikla.
+Pro kolekci vznikla nová nejistota `URB-U-0084`; systematické určování staveb, mapy, události, heraldického motivu a osob zůstává podle workflow odloženo do závěrečné fáze.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
+| fotografie, které nebyl použité pro knihu ani kalendář | 23 | 1 | 24 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **75** | **5** | **80** |
+| **Celkem** | **70** | **5** | **75** |
 
 ## Registr nejistot
 
-- `open`: 48;
+- `open`: 49;
 - `resolved`: 32;
 - `not_actionable`: 3;
-- celkem: 83.
+- celkem: 84.
 
 ## Aktuální krok
 
-Zahájit kolekci `fotografie, které nebyl použité pro knihu ani kalendář`:
+Druhá dávka kolekce `fotografie, které nebyl použité pro knihu ani kalendář`:
 
-- 28 obsahových souborů;
-- 1 technický soubor;
-- Drive složka `17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g`.
+- `2061.JPG`;
+- `2063.JPG`;
+- `2069.jpg`;
+- `209.jpg`;
+- `327a.jpg`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

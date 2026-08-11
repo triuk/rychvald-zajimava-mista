@@ -1,0 +1,44 @@
+schema_version: 1
+items:
+- id: URB-U-0084
+  status: open
+  priority: medium
+  collection: fotografie, které nebyl použité pro knihu ani kalendář
+  type: unused_book_calendar_photographs_subject_location_date_event_person_artifact_map_provenance_and_rights
+  source_items:
+  - urbanek-unused-book-calendar-photographs-001
+  - urbanek-unused-book-calendar-photographs-002
+  - urbanek-unused-book-calendar-photographs-003
+  - urbanek-unused-book-calendar-photographs-004
+  - urbanek-unused-book-calendar-photographs-005
+  question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `fotografie, které nebyl použité pro knihu ani kalendář`, včetně identity map, staveb, monumentů, veřejných událostí, heraldických motivů a osob; jaký je vztah archivních názvů souborů a EXIF údajů k původu jednotlivých obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
+  known_facts:
+  - Kolekce obsahuje v aktuálním Git snapshotu 28 obsahových souborů a jeden technický soubor Thumbs.db.
+  - První dávka zahrnuje 045.jpg, 093.JPG, 134.jpg, 164.jpg a 2011cIsenburgové z Birsteinu.jpg; všech pět raw souborů z kanonické Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
+  - Mezi pěti soubory první dávky není přesná binární duplicita.
+  - 045.jpg je digitální reprodukce starší kreslené mapy; bezpečně čitelné jsou mimo jiné popisky „Mähren“ a „Oder Fluvius“. Přesný název, autor a historická datace mapy nejsou určeny.
+  - 045.jpg obsahuje EXIF DateTimeOriginal `2010:12:13 05:58:19`; tento údaj je evidován jako metadata digitální reprodukce a není používán jako historická datace mapy.
+  - 093.JPG zobrazuje věž stavby se sakrální architekturou, ciferníky hodin, červenou jehlancovou střechou a křížem. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:27 15:22:13`; přesná stavba, denominace a lokalita nejsou určeny.
+  - 134.jpg zobrazuje hřbitov s centrálním kamenným křížem a návštěvníky. EXIF uvádí Panasonic DMC-FZ7 a DateTimeOriginal `2009:11:02 14:10:36`; přesný hřbitov, monument a osoby nejsou určeny.
+  - 164.jpg zobrazuje početné venkovní shromáždění kolem hořící hranice z polen. EXIF uvádí výrobce Canon a DateTimeOriginal `2012:03:15 09:39:23`; přesná událost, místo a osoby nejsou určeny.
+  - 2011cIsenburgové z Birsteinu.jpg zobrazuje korunovaný heraldický štít s modrým středovým polem a žlutým lvem. Archivní název souboru obsahuje atribuci „Isenburgové z Birsteinu“, ale obraz samotný ji nezávisle nepotvrzuje.
+  - Žádný z pěti souborů první dávky neobsahuje GPS údaje.
+  - Archivní název složky a názvy souborů jsou evidovány jako archivní metadata, nikoli jako samostatný důkaz identity, data, lokality nebo předchozího publikačního využití.
+  unknown:
+  - exact_identity_title_author_date_and_source_of_map_in_045
+  - exact_geographic_scope_and_historical_context_of_map_in_045
+  - exact_identity_denomination_and_location_of_sacral_building_in_093
+  - exact_cemetery_location_and_identity_history_of_central_crucifix_in_134
+  - identities_of_people_visible_in_134
+  - exact_event_title_purpose_location_and_participant_context_of_164
+  - exact_armiger_and_heraldic_identity_of_2011c_image
+  - meaning_of_2011c_filename_prefix
+  - relationship_of_archival_filename_claim_to_source_provenance
+  - interpretation_of_exif_timestamps_beyond_technical_image_metadata
+  - photographer_and_digitizer_identity
+  - original_selection_and_reason_for_non_use_in_book_or_calendar
+  - copyright_and_reuse_rights
+  evidence:
+  - research/urbanek-archive/collections/unused-book-calendar-photographs-batch-01.yml
+  - research/urbanek-archive/collections/unused-book-calendar-photographs-overview.yml
+  - sources/index.d/urbanek-unused-book-calendar-photographs-01.yml

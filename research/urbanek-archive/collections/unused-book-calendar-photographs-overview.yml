@@ -1,0 +1,38 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+collection_title: fotografie, které nebyl použité pro knihu ani kalendář
+source_root: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář
+drive_folder_id: 17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: in_progress
+totals: {content_files: 28, technical_files: 1, total_items: 29}
+progress:
+  processed_content_files: 5
+  processed_technical_files: 0
+  processed_items: 5
+  repo_verified_items: 5
+  visually_classified_items: 5
+  source_indexed_items: 5
+  remaining_content_files: 23
+  remaining_technical_files: 1
+  remaining_items: 24
+completed_batches:
+- {number: 1, items: 001-005, filenames: [045.jpg, 093.JPG, 134.jpg, 164.jpg, 2011cIsenburgové z Birsteinu.jpg], id: map-church-cemetery-gathering-and-heraldic-image-01, inventory: research/urbanek-archive/collections/unused-book-calendar-photographs-inventory-01.csv, classification: research/urbanek-archive/collections/unused-book-calendar-photographs-batch-01.yml, source_index: sources/index.d/urbanek-unused-book-calendar-photographs-01.yml}
+interpretation_rules:
+- The folder title and filenames are archival metadata; they may preserve an archival attribution but are not independent proof of subject identity, date, place, authorship or prior publication history.
+- EXIF DateTimeOriginal is recorded as technical image metadata. For reproductions of older material it describes the digital image workflow rather than the historical date of the depicted source unless independently corroborated.
+- EXIF camera make/model and timestamp do not establish the identity or location of the photographed subject.
+- Absence of GPS metadata means no geographic location is inferred from EXIF.
+- Sacral architectural appearance supports descriptive classification only; exact building identity, denomination and location require corroboration.
+- Persons are not identified from facial appearance alone.
+- A crowd around a fire or other visible activity is described without assigning a specific event title, custom, organization or purpose unless directly supported.
+- Heraldic motifs are described visually; an archival filename naming a family or person is retained as archival attribution but does not independently establish the armiger.
+- Readable map wording verifies visible labels only. Exact map identity, historical date, authorship and interpretation require source-level corroboration.
+- Exact binary duplicates under different archive paths remain separate inventory items but constitute one independent image where duplication is demonstrated.
+open_uncertainties: [URB-U-0084]
+technical_files:
+- {path: Thumbs.db, status: not_yet_audited}
+next_batch:
+  number: 2
+  filenames: [2061.JPG, 2063.JPG, 2069.jpg, 209.jpg, 327a.jpg]

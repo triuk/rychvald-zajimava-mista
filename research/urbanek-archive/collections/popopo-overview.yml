@@ -1,0 +1,36 @@
+schema_version: 1
+collection_id: urbanek-popopo
+collection_title: popopo
+source_root: sources/osobni-archiv-jaromira-urbanka/popopo
+drive_folder_id: 1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: in_progress
+totals: {content_files: 31, technical_files: 2, total_items: 33}
+progress:
+  processed_content_files: 5
+  processed_technical_files: 0
+  processed_items: 5
+  repo_verified_items: 5
+  visually_classified_items: 5
+  source_indexed_items: 5
+  remaining_content_files: 26
+  remaining_technical_files: 2
+  remaining_items: 28
+completed_batches:
+- {number: 1, items: 001-005, filenames: [916.jpg, Josef Gemrot.jpg, P1010066a.jpg, P1010067.JPG, P1010068.JPG], id: ceremony-portrait-street-crowds-and-school-postcard-01, inventory: research/urbanek-archive/collections/popopo-inventory-01.csv, classification: research/urbanek-archive/collections/popopo-batch-01.yml, source_index: sources/index.d/urbanek-popopo-01.yml}
+interpretation_rules:
+- The folder title `popopo` and filenames are archival metadata only and do not independently establish subject, date, location, identity or intended grouping.
+- A personal name in a filename is an archival attribution, not independent proof of the depicted person's identity.
+- EXIF DateTimeOriginal is recorded as digital capture metadata and is not used as the historical date of reproduced archival material.
+- Persons are not identified from facial appearance alone.
+- Uniform-like clothing, flags, public ceremony, architecture and business signage support descriptive classification only; exact event, organization, rank, place and date require corroboration.
+- Visible inscriptions and dates are source content; they do not automatically prove the historical date or institutional identity claimed or implied by the image.
+- Exact binary duplicates under different archive paths remain separate inventory items but constitute one independent source image where duplication is demonstrated.
+open_uncertainties: [URB-U-0087]
+technical_files:
+- {path: Thumbs.db, status: not_yet_audited}
+- {path: ZbThumbnail.info, status: not_yet_audited}
+next_batch:
+  number: 2
+  filenames: [P1010328.JPG, P1010330.JPG, P1010411.JPG, P1010738.JPG, P1010740.JPG]

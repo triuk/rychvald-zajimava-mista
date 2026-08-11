@@ -1,0 +1,101 @@
+schema_version: 1
+collection_id: urbanek-popopo
+collection_title: popopo
+batch_number: 1
+batch_id: ceremony-portrait-street-crowds-and-school-postcard-01
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/popopo
+  drive_folder_id: 1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR
+  items: [916.jpg, Josef Gemrot.jpg, P1010066a.jpg, P1010067.JPG, P1010068.JPG]
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical collection folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, dimensions, color mode, EXIF and GPS-field inspection.
+- First visual/text classification without identifying people, exact events or places from appearance alone.
+- Archival filenames are preserved as archival attribution only; a personal name in a filename is not treated as independent identity proof.
+- EXIF DateTimeOriginal values describe digital image capture metadata and are not used as dates of the historical scenes or reproduced photographs.
+- Exact binary duplicate check within the batch and repository search for matching Git blob SHA in already indexed source records.
+batch_findings:
+  exact_binary_duplicates_within_batch: 0
+  matching_prior_index_blob_sha_found: 0
+  exif_scope: 916.jpg and `Josef Gemrot.jpg` contain no EXIF. P1010066a.jpg, P1010067.JPG and P1010068.JPG identify Panasonic DMC-TZ3 and contain DateTimeOriginal `2010:02:28 12:34:50`, `2010:02:28 12:36:29` and `2010:02:28 12:37:29`; none contains GPS. These timestamps are technical metadata of the digital reproductions/captures, not historical dates of the depicted material.
+items:
+- id: urbanek-popopo-001
+  filename: 916.jpg
+  git_blob_sha: fa178d27c765a17fe39ab97ddfcb35b48f88ef4c
+  sha256: 9c90b80e43b5c6164cc476a81aa10f3fe4f919a8689153093c8843ac7a2158d8
+  file_size_bytes: 2425465
+  drive_id: 1jP9Xhp4uOX9XGbGUEJGKFouxOxNjYpiC
+  dimensions_px: [2639, 1985]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce historické černobílé scény s otevřeným automobilem, početným davem a bohatou výzdobou v městském prostoru. Na budově je bezpečně čitelné `PEKÁRNA`. Přesná událost, místo, datum a osoby nejsou určeny.
+  classification: [archival_photograph_reproduction, open_automobile, large_crowd, ceremonial_decoration, bakery_sign, unidentified_event_location_and_people]
+  visible_text: {safe_transcription: 'PEKÁRNA', scope_note: 'Viditelný nápis na budově; nepostačuje k přesné lokalizaci.'}
+  unverified: [exact_event_location_and_date, identities_and_roles_of_people, building_and_business_identity, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-002
+  filename: Josef Gemrot.jpg
+  git_blob_sha: d351b308ff9c2098be25c7caf30bd28371714429
+  sha256: 7355c4341f28a188e380e0bcb148cb859eea146a0aab2c595834d3f7c4fb0cdd
+  file_size_bytes: 487982
+  drive_id: 1UP5QImagSVsF5kwk9nujDJoxYNiYoY-8
+  dimensions_px: [1494, 1104]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Černobílá reprodukce portrétu muže v uniformně působícím oděvu a čepici. Archivní filename zní `Josef Gemrot.jpg`; toto jméno je evidováno jako archivní atribuce, nikoli jako nezávisle potvrzená identita zobrazené osoby.
+  classification: [portrait_reproduction, male_person, uniform_like_clothing, archival_filename_person_attribution, identity_unverified]
+  archival_attribution: {filename_person_name: 'Josef Gemrot', evidence_level: archival_filename_only}
+  unverified: [person_identity, organization_service_rank_and_date, location_and_event_context, original_photograph_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-003
+  filename: P1010066a.jpg
+  git_blob_sha: 57d4d088d5e9f683db88e1cac23560b512102e2b
+  sha256: 54d817eb800c44f301608a28e304d44df96fa6d32aa6f49725ece2f2b4d55b97
+  file_size_bytes: 1704517
+  drive_id: 1eOeSxvWL_erjXrlqOqumZox6DSi27eON
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:02:28 12:34:50', gps_present: false}
+  visual_description: Digitální fotografie starší černobílé fotografie zachycující slavnostně působící městskou scénu s velkým davem, liniemi uniformně působících osob, skupinou mužů v popředí, prapory a výraznou sakrálně působící stavbou v pozadí. Přesná událost, místo, instituce a osoby nejsou určeny.
+  classification: [photograph_of_archival_photograph, large_public_gathering, ceremonial_scene, flags, sacral_architecture_in_background, unidentified_event_location_and_people]
+  unverified: [exact_event_location_and_historical_date, exact_building_identity, organization_and_people, source_of_original_photograph, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-popopo-004
+  filename: P1010067.JPG
+  git_blob_sha: b134ef2c4a98c93e771ee7b600dcae2a4dc8a05a
+  sha256: 65520d5c54a3cec89ff5ede4139622ef6f3991067f2efe5236274877c9c776ca
+  file_size_bytes: 3487696
+  drive_id: 1vNjeq90Z5fK8zwRPKhM8afmuB1Tn9K1i
+  dimensions_px: [3072, 2304]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:02:28 12:36:29', gps_present: false}
+  visual_description: Digitální fotografie starší černobílé fotografie s velkou skupinou lidí a dětí před řadou provozoven. Bezpečně čitelné jsou mimo jiné `Baťa`, `MODNÍ ZÁVOD KREJČOVSKÝ`, `RESTAURACE` a `TEPLÁ A STUDENÁ JÍDLA`. Přesná událost, místo, názvy ostatních provozoven a osoby nejsou určeny.
+  classification: [photograph_of_archival_photograph, street_crowd, children_and_adults, business_frontages, readable_business_signage, unidentified_event_and_location]
+  visible_text: {safe_transcription: ['Baťa', 'MODNÍ ZÁVOD KREJČOVSKÝ', 'RESTAURACE', 'TEPLÁ A STUDENÁ JÍDLA'], scope_note: 'Přepisují se jen bezpečně čitelné části nápisů; neúplná vlastní jména se nerozvíjejí.'}
+  unverified: [exact_location_event_and_historical_date, exact_business_owners_and_full_signage, identities_of_people, source_of_original_photograph, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-popopo-005
+  filename: P1010068.JPG
+  git_blob_sha: 66e5f99d53a7994d7c9c75e9b5a2973ff82fccc8
+  sha256: 7199828ce721671118674faaea1eaf8402ff9212cdd37fcf3d18003c5a630729
+  file_size_bytes: 3332457
+  drive_id: 1gmCX8bRRvBS8tPlTVTv-Nv_J-M38WPif
+  dimensions_px: [3072, 2304]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:02:28 12:37:29', gps_present: false}
+  visual_description: Digitální fotografie historické obrazové koláže se dvěma školními budovami a skupinami lidí. Bezpečně čitelný hlavní nápis je `ŠKOLY U.M.Š. V RYCHVALDĚ.`; na jedné budově je `ŠKOLA` a na levém obrazu je viditelný rukopisný údaj `1909`. Přesná identita obou škol, význam zkratky, historie a vztah údaje 1909 k obrazu nejsou automaticky určeny.
+  classification: [photograph_of_historical_school_collage, two_school_buildings, group_photographs, readable_rychvald_caption, visible_1909, institutional_identity_unverified]
+  visible_text: {safe_transcription: ['ŠKOLY U.M.Š. V RYCHVALDĚ.', 'ŠKOLA', '1909'], scope_note: 'Údaj 1909 je viditelný obsah reprodukce, nikoli automaticky technicky ověřené datum fotografie nebo stavby.'}
+  unverified: [meaning_of_UMS_abbreviation, exact_school_identities_and_locations, relation_of_1909_to_source, identities_of_people, original_collage_and_photograph_provenance, photographer_or_digitizer, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, dimensions, color mode and stated metadata fields
+related_uncertainties: [URB-U-0087]
+next_batch:
+  number: 2
+  filenames: [P1010328.JPG, P1010330.JPG, P1010411.JPG, P1010738.JPG, P1010740.JPG]

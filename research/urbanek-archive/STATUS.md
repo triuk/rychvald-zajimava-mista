@@ -12,45 +12,49 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 556 | 27 | **583** |
-| zbývá | 31 | 2 | **33** |
+| zpracováno | 561 | 27 | **588** |
+| zbývá | 26 | 2 | **28** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **14 kolekcí**. Kolekce `novinové články 1903 - 1925` je kompletně zpracována **18/18**. Zbývá jediná skupina `popopo`.
+Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **5/33**.
 
-## novinové články 1903 - 1925 – dávka 04 a dokončení kolekce
+## popopo – dávka 01
 
-Zpracovány byly `img995.jpg`, `Thumbs.db` a `ZbThumbnail.info`. Všechny tři raw soubory přesně odpovídají velikostem a Git blobům v repozitáři.
+Zpracovány byly `916.jpg`, `Josef Gemrot.jpg`, `P1010066a.jpg`, `P1010067.JPG` a `P1010068.JPG`. Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Nebyla nalezena předchozí shoda Git blob SHA v dosud indexovaných source záznamech.
 
-`img995.jpg` nemá EXIF ani GPS. Přímý vizuální a textový překryv s `img993.jpg` dokládá, že zachycuje stejnou stránku/sekci `OSTRAVSKÝ DENNÍK` s článkem `Boj—česko-polský.`, pouze ve větším vertikálním rozsahu.
+`916.jpg` zachycuje historickou scénu s otevřeným automobilem, velkým davem a výzdobou; bezpečně čitelný je nápis `PEKÁRNA`. Přesná událost, místo, datum a osoby nejsou určeny.
 
-`Thumbs.db` je OLE/Compound Document. Katalog obsahuje 34 pojmenovaných `.jpg` záznamů a jeden zvláštní GUID záznam; všech 35 thumbnail datových streamů obsahuje přímo dekódovatelné JPEG obrázky. V katalogu jsou všechna současná jména 16 samostatných JPEGů, ale také **18 názvů bez samostatného plného souboru**.
+`Josef Gemrot.jpg` je portrét muže v uniformně působícím oděvu. Jméno v názvu souboru je evidováno pouze jako archivní atribuce, nikoli jako nezávislé potvrzení identity.
 
-Šest z těchto 18 chybějících názvů má pixelově identický náhled s některým dochovaným JPEGem. U zbývajících jsou tři dvojice navzájem identických náhledů. Po odečtení těchto duplicit cache dokládá **9 odlišných obrazových obsahů bez samostatného plného souboru**.
+`P1010066a.jpg` zachycuje reprodukci slavnostně působící městské scény s davem, prapory a sakrálně působící stavbou. `P1010067.JPG` zachycuje dav před provozovnami; bezpečně čitelné jsou `Baťa`, `MODNÍ ZÁVOD KREJČOVSKÝ`, `RESTAURACE` a `TEPLÁ A STUDENÁ JÍDLA`.
 
-`ZbThumbnail.info` začíná `zbex` a obsahuje 26 unikátních `.jpg` referencí: všech 16 současných názvů a deset chybějících názvů. Tyto reference nezávisle pokrývají stejných 9 odlišných chybějících obsahů. Kvůli rozdílné interní struktuře se u tohoto souboru nezapisuje silnější tvrzení o přesném počtu samostatně dekódovatelných vložených JPEGů.
+`P1010068.JPG` je koláž dvou školních budov. Bezpečně čitelné jsou `ŠKOLY U.M.Š. V RYCHVALDĚ.`, `ŠKOLA` a údaj `1909`; tento údaj je evidován jako viditelný obsah reprodukce, nikoli automaticky jako technicky ověřené datum fotografie nebo stavby.
 
-Pro tento archivní deficit vznikla samostatná nejistota `URB-U-0086`. Nejistota `URB-U-0085` byla rozšířena na poslední obsahovou položku `img995.jpg`.
+`P1010066a.jpg`, `P1010067.JPG` a `P1010068.JPG` mají Panasonic DMC-TZ3 a DateTimeOriginal 28. února 2010 v časech 12:34:50, 12:36:29 a 12:37:29. Tyto časy jsou technická metadata digitálního snímání, ne historická data zobrazených scén. Žádný z pěti souborů neobsahuje GPS.
 
-## Zbývající skupiny a položky
+Pro obsah kolekce vznikla nejistota `URB-U-0087`.
+
+## Zbývající položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| popopo | 31 | 2 | **33** |
+| popopo | 26 | 2 | **28** |
 
 ## Registr nejistot
 
-- `open`: 51;
+- `open`: 52;
 - `resolved`: 32;
 - `not_actionable`: 3;
-- celkem: 86.
+- celkem: 87.
 
 ## Aktuální krok
 
-Zahájit poslední kolekci `popopo`:
+Druhá dávka `popopo`:
 
-- 31 obsahových souborů;
-- 2 technické soubory;
-- Drive složka `1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR`.
+- `P1010328.JPG`;
+- `P1010330.JPG`;
+- `P1010411.JPG`;
+- `P1010738.JPG`;
+- `P1010740.JPG`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

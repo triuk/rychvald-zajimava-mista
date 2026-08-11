@@ -1,0 +1,67 @@
+schema_version: 1
+collection_id: urbanek-popopo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-popopo-021
+  title: P1010764.JPG
+  source_path: popopo/P1010764.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010764.JPG
+  document_type: memorial_photograph
+  file_size_bytes: 3478486
+  git_blob_sha: 9ab5d2af955606b2734fd21836f540d465b11e54
+  sha256: 8cc13a6971e7a1910fd50f13492dbd84c5a63a6743cba5a1a67c2a1660c44460
+  drive_id: 1JjRIB-7GNzbWo5pbaeYeyvxJPMogrpQ0
+  summary: Památník s nápisem obětem německé persekuce 1939–1945 a padlým 1914–1918; viditelný také rok 1948. Historická tvrzení nápisu nejsou v této fázi nezávisle ověřena.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:22 16:10:59', datetime_original: null, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-022
+  title: P1010765a.jpg
+  source_path: popopo/P1010765a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010765a.jpg
+  document_type: historical_bandstand_photograph_reproduction
+  file_size_bytes: 179006
+  git_blob_sha: be3c21b4c34d4a56163978f69e69a2ab2f7c4d5b
+  sha256: ed34f13f4527e8d6efe1185836d36a7728e3cbbbbda6472f390510ac677ee2cb
+  drive_id: 197zMxEs52tdfNNftaNJ0X71gOFjqJVFZ
+  summary: Historická fotografie otevřeného dřevěného altánu; přesná lokalita, funkce a datum nejsou určeny.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:22 16:22:42', datetime_original: null, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-023
+  title: P1010791.JPG
+  source_path: popopo/P1010791.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010791.JPG
+  document_type: photographed_manuscript_page
+  file_size_bytes: 3452898
+  git_blob_sha: 114e7faca6c7d8b6804c3e2d5f82eb26cf14a75b
+  sha256: 9d81c64beef180be3ed978ad614cea7d049ba8398cfd0e1333c7eee9b5bd2a8d
+  drive_id: 1kKuKtmDVETM2aIwisRNobI25HpD2cEU2
+  summary: Rukopisná stránka `-272-` o školní stavbě; viditelné jsou mimo jiné `1. IX. 1912`, `170 dětí` a `40.000 K`.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:23 12:06:25', datetime_original: null, gps_present: false}
+  relationship: {same_underlying_manuscript_page_as: urbanek-popopo-024}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-024
+  title: P1010791a.jpg
+  source_path: popopo/P1010791a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010791a.jpg
+  document_type: processed_variant_of_photographed_manuscript_page
+  file_size_bytes: 1740928
+  git_blob_sha: f4f24cdad9a2c7ee735c7f85170b37449c91d1ac
+  sha256: ba04f06b7b8cdf2bb9eedddb8b351e3deb83d9ae99af9f0a187349468b88f671
+  drive_id: 1kTGqCY9kLi8jpS0mKq13vrHH5mZIs4ch
+  summary: Obrazově zpracovaná varianta stejné rukopisné stránky 272 jako P1010791.JPG; není binární duplicitou, ale nepředstavuje samostatný rukopisný obsah.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:23 12:06:25', datetime_original: null, gps_present: false}
+  relationship: {same_underlying_manuscript_page_as: urbanek-popopo-023}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-025
+  title: img129.jpg
+  source_path: popopo/img129.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/img129.jpg
+  document_type: archival_building_photograph
+  file_size_bytes: 144638
+  git_blob_sha: 28236e45374d991555a29b148916be903c322962
+  sha256: 8fcb06f3f52d475021f523d16bd97052973c1b1a86f796a9a41098b2a6e58b1e
+  drive_id: 1hXkfe2ZTXWcZ9x0aHqPNPL1-LxbnWRo9
+  summary: Historická fotografie nízké budovy se strmou střechou a dvěma komíny; identita, funkce, lokalita a datum nejsou určeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0087]

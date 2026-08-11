@@ -12,31 +12,33 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 576 | 27 | **603** |
-| zbývá | 11 | 2 | **13** |
+| zpracováno | 581 | 27 | **608** |
+| zbývá | 6 | 2 | **8** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **20/33**.
+Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **25/33**.
 
-## popopo – dávka 04
+## popopo – dávka 05
 
-Zpracovány byly `P1010748a.jpg`, `P1010749.JPG`, `P1010752.JPG`, `P1010754.JPG` a `P1010755a.jpg`. Všechny raw soubory přesně odpovídají velikostem a Git blobům v repozitáři; v dosud indexovaných source záznamech nebyla nalezena předchozí shoda Git blob SHA.
+Zpracovány byly `P1010764.JPG`, `P1010765a.jpg`, `P1010791.JPG`, `P1010791a.jpg` a `img129.jpg`. Všechny raw soubory přesně odpovídají velikostem a Git blobům v repozitáři; předchozí shoda blob SHA v indexovaných source záznamech nebyla nalezena.
 
-Všech pět souborů uvádí Panasonic DMC-TZ3 a pouze obecný EXIF DateTime, nikoli DateTimeOriginal. Hodnoty sahají od 10. do 17. dubna 2012; žádný soubor nemá GPS. Tyto hodnoty jsou evidovány pouze jako technická metadata souboru.
+`P1010764.JPG` zobrazuje památník s čitelnými nápisy `PAMÁTCE OBĚTEM NĚMECKÉ PERSEKUCE 1939–1945`, `PADLÝM BRATŘÍM 1914–1918`, `VAŠÍ PAMÁTCE VĚRNI ZŮSTANEME!` a viditelným `1948`. Jde o text objektu; historická a biografická tvrzení desky nejsou v této fázi nezávisle ověřena.
 
-`P1010748a.jpg` je přímým obrazovým srovnáním doložen jako alternativní záběr či upravená reprodukce stejného krucifixu jako `P1010747a.jpg`; čitelné je `I.N.R.I.`.
+`P1010765a.jpg` je reprodukce historické fotografie otevřeného dřevěného altánu; přesná lokalita, funkce a datum nejsou určeny.
 
-`P1010749.JPG` zobrazuje výrazný starý listnatý strom u komunikace a elektrického vedení. `P1010752.JPG` zachycuje okraj zástavby s několika vzrostlými stromy a budovami. Přesná lokalita, identita a status těchto objektů nejsou určeny.
+`P1010791.JPG` a `P1010791a.jpg` jsou přímo obrazově ověřené dvě různě zpracované reprezentace stejné rukopisné stránky `-272-`. Nejsou binárně totožné, ale nepředstavují dva různé rukopisné obsahy. Viditelné jsou mimo jiné `1. IX. 1912`, `170 dětí` a `40.000 K`; jde o obsah rukopisu, ne samostatně ověřené historické skutečnosti.
 
-`P1010754.JPG` zobrazuje větší budovu s restauračními nápisy a pamětní deskou; bezpečně čitelné jsou `RESTAURACE`, `PENZION` a `PIVNICE`. `P1010755a.jpg` je přímo doložený detail pamětní desky na této budově. Čitelné jsou `PAMÁTCE RODINY EICHENBAUMŮ`, `V TÉTO BUDOVĚ`, `19. LISTOPADU 1905`, `BYL ZALOŽEN`, `SOKOL RYCHVALD` a `1949`. Jde o znění pamětní desky; historické tvrzení není v této fázi nezávisle ověřeno.
+`img129.jpg` je historická fotografie nízké budovy se strmou střechou a dvěma komíny; přesná identita, funkce, lokalita a datum nejsou určeny.
 
-Nejistota `URB-U-0087` byla rozšířena na položky 001–020; nová nejistota nevznikla.
+Čtyři soubory dávky obsahují pouze obecný EXIF DateTime z 22.–23. dubna 2012, nikoli DateTimeOriginal; `img129.jpg` EXIF nemá. Žádný z pěti nemá GPS.
+
+Nejistota `URB-U-0087` byla rozšířena na položky 001–025; nová nejistota nevznikla.
 
 ## Zbývající položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| popopo | 11 | 2 | **13** |
+| popopo | 6 | 2 | **8** |
 
 ## Registr nejistot
 
@@ -47,12 +49,14 @@ Nejistota `URB-U-0087` byla rozšířena na položky 001–020; nová nejistota 
 
 ## Aktuální krok
 
-Pátá dávka `popopo`:
+Šestá dávka `popopo`:
 
-- `P1010764.JPG`;
-- `P1010765a.jpg`;
-- `P1010791.JPG`;
-- `P1010791a.jpg`;
-- `img129.jpg`.
+- `img178a.jpg`;
+- `img267.jpg`;
+- `img678.jpg`;
+- `img691.jpg`;
+- `img698a.jpg`.
+
+Poté zbude závěrečná trojice `mlyn_0001a.jpg`, `Thumbs.db`, `ZbThumbnail.info`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

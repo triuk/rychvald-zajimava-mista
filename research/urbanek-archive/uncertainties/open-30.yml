@@ -26,30 +26,27 @@ items:
   - urbanek-popopo-018
   - urbanek-popopo-019
   - urbanek-popopo-020
-  question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `popopo`, včetně zobrazených osob, veřejných událostí, staveb, provozoven, škol a dalších institucí; jaký je vztah archivních názvů a viditelných nápisů k původu obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
+  - urbanek-popopo-021
+  - urbanek-popopo-022
+  - urbanek-popopo-023
+  - urbanek-popopo-024
+  - urbanek-popopo-025
+  question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `popopo`, včetně osob, událostí, staveb, provozoven, škol, památníků a rukopisných pramenů; jaký je vztah archivních názvů a viditelných nápisů k původu obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
   known_facts:
-  - Kolekce má 31 obsahových JPEGů a technické soubory Thumbs.db a ZbThumbnail.info; po dávce 04 je ověřeno a indexováno prvních 20 obsahových položek.
-  - Dávky 01–03 dokumentují historické reprodukce, portrét s archivním jménem, školní koláž, několik staveb, klenuté interiéry, stromořadí a krucifix; jejich přesná identita a lokalizace zůstává otevřená.
-  - P1010748a.jpg zachycuje tentýž krucifix jako P1010747a.jpg; vztah je doložen přímou obrazovou korespondencí. Čitelné je `I.N.R.I.`.
-  - P1010749.JPG zobrazuje výrazný starý listnatý strom u komunikace a elektrického vedení; přesná lokalita, druh, stáří a případný památkový status nejsou určeny.
-  - P1010752.JPG zobrazuje okraj zástavby s několika vzrostlými stromy a budovami; přesná lokalita, identity staveb a význam stromů nejsou určeny.
-  - P1010754.JPG zobrazuje větší budovu s restauračními nápisy a pamětní deskou; bezpečně čitelné jsou `RESTAURACE`, `PENZION` a `PIVNICE`. Přesná adresa a úplný obchodní název nejsou doplňovány.
-  - P1010755a.jpg je přímo doložený detail pamětní desky na budově z P1010754.JPG. Čitelné jsou `PAMÁTCE RODINY EICHENBAUMŮ`, `V TÉTO BUDOVĚ`, `19. LISTOPADU 1905`, `BYL ZALOŽEN`, `SOKOL RYCHVALD` a `1949`. Historické tvrzení pamětní desky není v této fázi považováno za nezávisle ověřené.
-  - Všech pět položek dávky 04 uvádí Panasonic DMC-TZ3 a pouze obecný EXIF DateTime, nikoli DateTimeOriginal; hodnoty jsou od 10. do 17. dubna 2012. Žádný soubor nemá GPS. Tyto údaje nejsou používány jako historická datace.
+  - Po dávce 05 je ověřeno a indexováno prvních 25 z 31 obsahových položek; technické cache ještě nejsou auditovány.
+  - Detailní přímo ověřené popisy položek 001–020 jsou zachovány v dávkách 01–04 a příslušných source indexech.
+  - P1010764.JPG zobrazuje památník s čitelnými nápisy `PAMÁTCE OBĚTEM NĚMECKÉ PERSEKUCE 1939–1945`, `PADLÝM BRATŘÍM 1914–1918`, `VAŠÍ PAMÁTCE VĚRNI ZŮSTANEME!` a viditelným `1948`; historická a biografická tvrzení nápisu nejsou zatím nezávisle ověřena.
+  - P1010765a.jpg je reprodukce historické fotografie otevřeného dřevěného altánu; lokalita, funkce a datum nejsou určeny.
+  - P1010791.JPG a P1010791a.jpg jsou dvě různě zpracované reprezentace stejné rukopisné stránky `-272-`; geometrie a text jsou shodné, soubory nejsou binárně totožné. Viditelné jsou mimo jiné `1. IX. 1912`, `170 dětí` a `40.000 K`.
+  - img129.jpg je historická fotografie nízké budovy se strmou střechou a dvěma komíny; přesná identita, lokalita a datum nejsou určeny.
+  - U čtyř souborů dávky 05 je pouze obecný EXIF DateTime z 22.–23. dubna 2012, nikoli DateTimeOriginal; img129.jpg EXIF nemá. Žádný soubor dávky 05 nemá GPS.
   unknown:
-  - exact_event_location_date_and_people_in_916
-  - identity_of_person_attributed_by_filename_as_Josef_Gemrot
-  - exact_event_location_building_organization_and_people_in_P1010066a
-  - exact_location_event_business_owners_and_people_in_P1010067
-  - meaning_of_UMS_and_exact_school_identities_locations_and_date_context_in_P1010068
-  - exact_locations_functions_ownership_and_history_of_buildings_and_interiors_in_items_006_to_012
-  - exact_routes_locations_and_relationship_of_tree_lined_roads
-  - exact_location_age_authorship_and_history_of_crucifix_in_items_015_016
-  - exact_location_age_and_status_of_tree_in_P1010749_and_trees_in_P1010752
-  - exact_address_business_identity_ownership_and_history_of_building_in_P1010754
-  - historical_accuracy_context_authorship_and_installation_history_of_memorial_plaque_in_P1010755a
-  - relationships_between_items_beyond_direct_source_evidence
-  - original_photograph_and_collage_provenance
+  - exact_identities_locations_dates_and_histories_of_described_people_events_buildings_landscape_objects_and_memorials
+  - historical_accuracy_of_visible_memorial_and_manuscript_claims
+  - exact_manuscript_volume_title_authorship_page_context_and_full_transcription
+  - processing_history_of_P1010791_and_P1010791a
+  - relationships_between_items_beyond_direct_visual_or_textual_evidence
+  - original_photograph_manuscript_and_collage_provenance
   - photographer_and_digitizer_identity
   - copyright_and_reuse_rights
   evidence:
@@ -57,8 +54,10 @@ items:
   - research/urbanek-archive/collections/popopo-batch-02.yml
   - research/urbanek-archive/collections/popopo-batch-03.yml
   - research/urbanek-archive/collections/popopo-batch-04.yml
+  - research/urbanek-archive/collections/popopo-batch-05.yml
   - research/urbanek-archive/collections/popopo-overview.yml
   - sources/index.d/urbanek-popopo-01.yml
   - sources/index.d/urbanek-popopo-02.yml
   - sources/index.d/urbanek-popopo-03.yml
   - sources/index.d/urbanek-popopo-04.yml
+  - sources/index.d/urbanek-popopo-05.yml

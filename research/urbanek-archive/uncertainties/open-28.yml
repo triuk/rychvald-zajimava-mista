@@ -16,21 +16,30 @@ items:
   - urbanek-newspaper-articles-1903-1925-008
   - urbanek-newspaper-articles-1903-1925-009
   - urbanek-newspaper-articles-1903-1925-010
+  - urbanek-newspaper-articles-1903-1925-011
+  - urbanek-newspaper-articles-1903-1925-012
+  - urbanek-newspaper-articles-1903-1925-013
+  - urbanek-newspaper-articles-1903-1925-014
+  - urbanek-newspaper-articles-1903-1925-015
   question: Jaké jsou přesné bibliografické údaje, stránky, úplnost, vzájemná návaznost a provenience novinových reprodukcí ve složce `novinové články 1903 - 1925`; které články a výřezy patří k týmž číslům či textovým sekvencím, kdo pořídil reprodukce a jaká práva se k nim vztahují; a které historické údaje obsažené v článcích lze později nezávisle doložit?
   known_facts:
   - Kolekce obsahuje 16 obsahových JPEGů a technické soubory Thumbs.db a ZbThumbnail.info.
-  - Dávky 01 a 02 zahrnují prvních 10 obsahových položek; všech deset raw souborů bylo ověřeno proti kanonické Drive složce, velikostem a Git blobům.
+  - Po dávce 03 je ověřeno a indexováno 15 obsahových položek; všechny raw soubory byly porovnány s kanonickou Drive složkou, velikostmi a Git bloby.
   - img970.jpg reprodukuje `OBRANA SLEZSKA`, číslo 17, `V Orlové, 26. dubna 1912.`, `III. ročník.`, a začátek článku `Naše stanovisko.`, `III.`, `3. Školství.`.
   - img971.jpg se tištěným textem přímo překrývá s koncem textu viditelného na img970.jpg a pokračuje ve stejném článkovém textu.
   - img972.jpg reprodukuje masthead `OBRANA SLEZSKA`, číslo 30, `V Orlové, 26. července 1912.`, `III. ročník.`.
   - img975.jpg je výřez s bezpečně čitelným záhlavím `Z Rychvaldu.`; masthead, číslo a datum vydání ve výřezu nejsou zachyceny.
   - img976.jpg reprodukuje masthead `OBRANA SLEZSKA`, číslo 40, `V Orlové, 4. října 1912.`, `III. ročník.`.
-  - img971.jpg, img972.jpg a img976.jpg obsahují obecný EXIF DateTime z 29. května 2013, ale ne DateTimeOriginal; tato metadata nejsou používána jako datum historického periodika.
-  - img979.jpg obsahuje bezpečně čitelné `Číslo 39.`, `Dopisy.` a `Rychvald.` a text o zápisu do škol; datum vydání není z tohoto výřezu bezpečně doloženo.
-  - img983.jpg obsahuje `Politická hlídka.` a `Zákon o menšinovém školství.`; text přímo zmiňuje Rychvald. img984.jpg na tento text přímo navazuje, což je doloženo překrývající se větou na hranici obou výřezů.
+  - img979.jpg obsahuje `Číslo 39.`, `Dopisy.` a `Rychvald.` a text o zápisu do škol; datum vydání není z tohoto výřezu bezpečně doloženo.
+  - img983.jpg obsahuje `Politická hlídka.` a `Zákon o menšinovém školství.`; img984.jpg na tento text přímo navazuje, což dokládá překrývající se věta.
   - img985.jpg reprodukuje `SLEZAN`, `Ročník II.`, `V Pol. Ostravě, dne 8. března 1912.` a článek `Obecní volby v Rychvaldě.`.
-  - img987.jpg reprodukuje `OBRANA SLEZSKA`, `V Orlové, 29. března 1912.`, `III. ročník.` a záhlaví `Haličské volby v Rychvaldě.`; číslo vydání není kvůli částečnému překrytí bezpečně přepisováno.
-  - Žádný soubor dávky 02 neobsahuje EXIF ani GPS údaje.
+  - img987.jpg reprodukuje `OBRANA SLEZSKA`, `V Orlové, 29. března 1912.`, `III. ročník.` a záhlaví `Haličské volby v Rychvaldě.`.
+  - img989.jpg je výřez dalšího textu o volbách v Rychvaldě a obsahuje větu `V sobotu 23. března konaly se volby kostelního výboru v Rychvaldě.`; masthead a vydání v tomto výřezu chybí.
+  - img990.jpg reprodukuje `OBRANA SLEZSKA`, číslo 28, `V Orlové, 12. července 1912.`, `III. ročník.` a začátek článku `Volební listiny jsou v Rychvaldě podruhé vyloženy.`.
+  - img991.jpg se přímo překrývá s článkem na img990.jpg. Poslední řádek img991.jpg končí `česko-pol-` a img992.jpg začíná `ské zgody!`, čímž je přímo doložena další návaznost textu.
+  - img992.jpg nese také označení `Strana 2.` a pokračuje v tématu rychvaldských voleb a volebních seznamů.
+  - img993.jpg reprodukuje `OSTRAVSKÝ DENNÍK`, `Ročník VI.`, `V Mor. Ostravě, ve čtvrtek dne 18. října 1906.`, `Číslo 238.` a záhlaví `Boj—česko-polský.`; text zmiňuje Rychvald.
+  - img989.jpg obsahuje obecný EXIF DateTime `2013:05:29 14:39:53`, ale ne DateTimeOriginal. Ostatní soubory dávky 03 EXIF neobsahují. Žádný soubor dávky 03 nemá GPS údaje.
   - Tištěná tvrzení článků jsou evidována jako obsah dobového pramene, nikoli jako nezávisle ověřené historické skutečnosti.
   unknown:
   - exact_physical_originals_and_page_numbers
@@ -45,6 +54,8 @@ items:
   evidence:
   - research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-01.yml
   - research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-02.yml
+  - research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-03.yml
   - research/urbanek-archive/collections/newspaper-articles-1903-1925-overview.yml
   - sources/index.d/urbanek-newspaper-articles-1903-1925-01.yml
   - sources/index.d/urbanek-newspaper-articles-1903-1925-02.yml
+  - sources/index.d/urbanek-newspaper-articles-1903-1925-03.yml

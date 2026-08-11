@@ -1,0 +1,50 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-fotodokument-root-041
+  title: img343.jpg
+  source_path: fotodokument/img343.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img343.jpg
+  source_role: content
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 547643
+  git_blob_sha: aca291a76affae886dff8c1cb70e87be3452bef9
+  sha256: bdb101e6a9ed0a653b1d02ae99710aea974a31d5e493fe51d5886a99b8f9ef8e
+  drive_id: 1Ovmt-YtTQ6g1Lr1DRwThLx92Cze052mQ
+  repo_status: verified
+  image: {width_px: 1458, height_px: 906, color_mode: L}
+  classification: [monochrome_archival_image, damaged_or_collapsed_bridge_like_structure, watercourse_or_ditch, unidentified_infrastructure, unidentified_location]
+  summary: Černobílý archivní snímek viditelně poškozené či zřícené mostově působící konstrukce nad menším vodním tokem nebo příkopem. Přesná stavba, lokalita, příčina poškození, datace a vztah k dalším mostním motivům nejsou určeny.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-042
+  title: Thumbs.db
+  source_path: fotodokument/Thumbs.db
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/Thumbs.db
+  source_role: technical
+  document_type: technical_thumbnail_cache
+  mime_type: application/octet-stream
+  file_size_bytes: 255488
+  git_blob_sha: 761d7074152331883210317caaccc0128c3c51bf
+  sha256: 8f83bcdbc1846db6b4f74e88fd2ef5369405e70bab0fe2337ac2296771dd0b74
+  drive_id: 1rzzpWs60I4ON9w4COqd9LgYNDs4-5HCK
+  repo_status: verified
+  technical_summary: OLE/Compound Document cache s odkazy na 54 různých názvů imgNNN.jpg a s vloženými JPEGovými obrazovými daty. Je evidována jako odvozený technický soubor, nikoli jako nezávislý historický obrazový pramen.
+  uncertainty_ids: []
+- source_id: urbanek-fotodokument-root-043
+  title: ZbThumbnail.info
+  source_path: fotodokument/ZbThumbnail.info
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/ZbThumbnail.info
+  source_role: technical
+  document_type: technical_thumbnail_cache
+  mime_type: application/octet-stream
+  file_size_bytes: 687252
+  git_blob_sha: 80637cc6a49d6f76a8b8a07a8542ddda48d6a411
+  sha256: c57edb1bbdcf273ed7e5e4e97772a93f6a83dbb6760798fb4e25c2ea30fabf33
+  drive_id: 15GTQG5UyRmtizQNiW_QWDGBkPS9jcw7y
+  repo_status: verified
+  technical_summary: Binární cache s 41 různými odkazy imgNNN.jpg přesně odpovídajícími aktuálním 41 kořenovým JPEGům a se 41 přímo dekódovatelnými JPEGovými obrazovými proudy. Je evidována jako odvozený technický soubor, nikoli jako nezávislý historický obrazový pramen.
+  uncertainty_ids: []

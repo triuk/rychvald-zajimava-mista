@@ -7,18 +7,18 @@ scope: direct files excluding completed den po dešti subfolder
 drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
-status: in_progress
+status: completed
 totals: {content_files: 41, technical_files: 2, total_items: 43}
 progress:
-  processed_content_files: 40
-  processed_technical_files: 0
-  processed_items: 40
-  repo_verified_items: 40
-  visually_classified_items: 40
-  source_indexed_items: 40
-  remaining_content_files: 1
-  remaining_technical_files: 2
-  remaining_items: 3
+  processed_content_files: 41
+  processed_technical_files: 2
+  processed_items: 43
+  repo_verified_items: 43
+  visually_classified_items: 41
+  source_indexed_items: 43
+  remaining_content_files: 0
+  remaining_technical_files: 0
+  remaining_items: 0
 completed_batches:
 - {number: 1, items: 001-005, filenames: [img036.jpg, img037.jpg, img038.jpg, img039.jpg, img040.jpg], id: unidentified-building-exteriors-01, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-01.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-01.yml, source_index: sources/index.d/urbanek-fotodokument-root-01.yml}
 - {number: 2, items: 006-010, filenames: [img041.jpg, img042.jpg, img043.jpg, img044.jpg, img045.jpg], id: buildings-school-exhibition-group-and-sacral-exterior-02, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-02.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-02.yml, source_index: sources/index.d/urbanek-fotodokument-root-02.yml}
@@ -28,6 +28,7 @@ completed_batches:
 - {number: 6, items: 026-030, filenames: [img065.jpg, img066.jpg, img067.jpg, img068.jpg, img070.jpg], id: collection-point-building-public-gatherings-and-stage-group-06, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-06.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-06.yml, source_index: sources/index.d/urbanek-fotodokument-root-06.yml}
 - {number: 7, items: 031-035, filenames: [img176.jpg, img178.jpg, img196.jpg, img197.jpg, img200.jpg], id: building-exteriors-organizational-group-school-and-gastwirtschaft-07, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-07.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-07.yml, source_index: sources/index.d/urbanek-fotodokument-root-07.yml}
 - {number: 8, items: 036-040, filenames: [img201.jpg, img202.jpg, img203.jpg, img206.jpg, img216.jpg], id: building-groups-beer-sign-badge-and-damaged-bridge-scenes-08, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-08.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-08.yml, source_index: sources/index.d/urbanek-fotodokument-root-08.yml}
+- {number: 9, items: 041-043, filenames: [img343.jpg, Thumbs.db, ZbThumbnail.info], id: collapsed-bridge-image-and-thumbnail-cache-files-09, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-09.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-09.yml, source_index: sources/index.d/urbanek-fotodokument-root-09.yml}
 interpretation_rules:
 - The folder title fotodokument and imgNNN filenames are archival metadata, not independent proof of location, date, photographer or subject identity.
 - Architectural appearance may be described, but building identity, ownership and historical date require corroborating evidence.
@@ -38,11 +39,11 @@ interpretation_rules:
 - Visible political symbols and organizational wording are recorded descriptively; they do not by themselves establish event context, participant identity or a formal historical interpretation beyond the visible source wording.
 - Visible uniform-like clothing is described without assigning service, rank or affiliation.
 - Similar visual subject matter in separate photographs does not establish that they show the same site, structure or event.
+- Technical thumbnail/cache files are derivative technical records and are not counted as independent historical image evidence.
+- Filename references inside a cache do not by themselves prove deletion, relocation, chronology or original folder membership.
 - Exact binary duplicates remain separate archive paths but only one independent image if such a duplicate is demonstrated.
 open_uncertainties: [URB-U-0083]
 technical_files:
-- {path: Thumbs.db, status: not_yet_audited}
-- {path: ZbThumbnail.info, status: not_yet_audited}
-next_batch:
-  number: 9
-  filenames: [img343.jpg, Thumbs.db, ZbThumbnail.info]
+- {path: Thumbs.db, status: audited_technical_cache, source_id: urbanek-fotodokument-root-042}
+- {path: ZbThumbnail.info, status: audited_technical_cache, source_id: urbanek-fotodokument-root-043}
+next_batch: null

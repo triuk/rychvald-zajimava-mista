@@ -46,11 +46,15 @@ items:
   - urbanek-fotodokument-root-038
   - urbanek-fotodokument-root-039
   - urbanek-fotodokument-root-040
+  - urbanek-fotodokument-root-041
   question: Jaká je přesná lokalizace, datace a identita staveb, krajinářských objektů, veřejných událostí, organizací, hmotných artefaktů, infrastruktury a dalších motivů v kořenové části kolekce `fotodokument`, jaké jsou jejich funkce tam, kde nejsou přímo doloženy čitelným nápisem, jaký je kontext průvodů, shromáždění a skupinových snímků, kdo jsou osoby na fotografiích, kdo fotografie pořídil nebo digitalizoval, jaká je provenience výběru a jaká práva se k souborům vztahují?
   known_facts:
   - Kořenová část `fotodokument` mimo podsložku `den po dešti` obsahuje v aktuálním Git snapshotu 41 JPEGů a technické soubory Thumbs.db a ZbThumbnail.info.
-  - Prvních osm dávek zahrnuje položky urbanek-fotodokument-root-001 až -040; všech 40 zpracovaných raw souborů z kanonické Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
-  - Mezi pěti soubory dávky 08 není přesná binární duplicita a žádný z nich neobsahuje použitelná EXIF metadata.
+  - Všech 41 obsahových JPEGů v devíti dávkách bylo ověřeno proti kanonické Drive složce, velikostem a Git blobům v repozitáři; oba technické cache soubory byly v dávce 09 ověřeny stejným způsobem a samostatně technicky auditovány.
+  - img343.jpg zachycuje viditelně poškozenou či zřícenou mostově působící konstrukci nad menším vodním tokem nebo příkopem. Přesná identita, lokalita, příčina stavu, datace a vztah k img206.jpg nebo img216.jpg nejsou určeny.
+  - img343.jpg neobsahuje použitelná EXIF metadata.
+  - Thumbs.db je technická OLE/Compound Document cache s odkazy na 54 různých názvů imgNNN.jpg a s vloženými JPEGovými obrazovými daty; 39 názvů odpovídá aktuálním kořenovým JPEGům a 15 názvů v aktuálním kořenovém Git snapshotu není. Tato skutečnost sama neprokazuje přesun či smazání souborů.
+  - ZbThumbnail.info je technická binární cache s 41 různými odkazy imgNNN.jpg přesně odpovídajícími aktuálním 41 kořenovým JPEGům a se 41 přímo dekódovatelnými JPEGovými obrazovými proudy.
   - img201.jpg zobrazuje skupinu dospělých a dětí před větší budovou a dva koně zapřažené do vozu; úzký nápis nad vstupem není bezpečně čitelný.
   - img202.jpg zobrazuje skupinu před dřevěnou budovou s bezpečně čitelným nápisem „Českobudějovické akciové pivo“. Nápis je evidován jako textový údaj pramene a sám neurčuje přesnou provozovnu, provozovatele, lokalitu ani datum.
   - img203.jpg je barevný detail odznaku či znaku se stuhami. Bezpečně čitelné jsou texty „ČESKÝ ČL. SPOLEK“, „VLASTIMIL“ a „V RYCHVALDĚ 1893“.
@@ -69,6 +73,8 @@ items:
   - relationship_of_visible_year_1893_in_img203_to_artifact_or_organization_history
   - exact_structure_infrastructure_location_and_condition_context_of_img206_and_img216
   - relationship_between_img206_and_img216
+  - exact_structure_identity_location_damage_context_and_date_of_img343
+  - relationship_between_img343_and_img206_or_img216
   - exact_organization_and_event_context_of_img178_beyond_visible_wording
   - relationship_of_visible_year_1929_in_img178_to_capture_date
   - exact_school_identity_and_location_in_img197
@@ -102,6 +108,7 @@ items:
   - research/urbanek-archive/collections/fotodokument-root-batch-06.yml
   - research/urbanek-archive/collections/fotodokument-root-batch-07.yml
   - research/urbanek-archive/collections/fotodokument-root-batch-08.yml
+  - research/urbanek-archive/collections/fotodokument-root-batch-09.yml
   - research/urbanek-archive/collections/fotodokument-root-overview.yml
   - sources/index.d/urbanek-fotodokument-root-01.yml
   - sources/index.d/urbanek-fotodokument-root-02.yml
@@ -111,3 +118,4 @@ items:
   - sources/index.d/urbanek-fotodokument-root-06.yml
   - sources/index.d/urbanek-fotodokument-root-07.yml
   - sources/index.d/urbanek-fotodokument-root-08.yml
+  - sources/index.d/urbanek-fotodokument-root-09.yml

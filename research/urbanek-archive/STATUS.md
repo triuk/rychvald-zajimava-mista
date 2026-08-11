@@ -12,35 +12,34 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 511 | 22 | **533** |
-| zbývá | 76 | 7 | **83** |
+| zpracováno | 512 | 24 | **536** |
+| zbývá | 75 | 5 | **80** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **11 kolekcí**. Aktivní je kořenová část `fotodokument` mimo již dokončenou podsložku `den po dešti`.
+Dokončeno je **12 kolekcí**. Kořenová část `fotodokument` mimo již dříve dokončenou podsložku `den po dešti` je po dávce 09 kompletně zpracována.
 
-## fotodokument – dávka 08
+## fotodokument – dávka 09 a dokončení kolekce
 
-Zpracovány byly `img201.jpg`, `img202.jpg`, `img203.jpg`, `img206.jpg` a `img216.jpg`. Dávka obsahuje skupinu před větší budovou s koňským povozem, skupinu před dřevěnou budovou s pivním nápisem, detail odznaku či znaku se stuhami a dva snímky poškozených nebo rozebíraných mostově působících konstrukcí.
+Zpracovány byly `img343.jpg`, `Thumbs.db` a `ZbThumbnail.info`. Tím je kořenová část `fotodokument` dokončena na **43 z 43 položek**: 41 obsahových JPEGů a dva technické cache soubory.
 
-Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Mezi pěti položkami není přesná binární duplicita. Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata.
+Všechny tři raw soubory z kanonické Drive složky přesně odpovídají velikostem a Git blobům v repozitáři.
 
-Na `img202.jpg` je bezpečně čitelný nápis `Českobudějovické akciové pivo`. Je evidován jako viditelný text pramene; bez dalšího podkladu z něj není určována přesná provozovna, provozovatel, lokalita ani datum.
+`img343.jpg` zachycuje viditelně poškozenou či zřícenou mostově působící konstrukci nad menším vodním tokem nebo příkopem. Přesná identita, lokalita, příčina stavu, datace a vztah k `img206.jpg` nebo `img216.jpg` nejsou z fotografie samotné určeny. JPEG neobsahuje použitelná EXIF metadata.
 
-Na `img203.jpg` jsou bezpečně čitelné texty `ČESKÝ ČL. SPOLEK`, `VLASTIMIL` a `V RYCHVALDĚ 1893`. Zkratka `ČL.` není rozepisována a rok `1893` není bez dalšího pramene vykládán jako datum výroby předmětu ani datum pořízení fotografie.
+`Thumbs.db` byl ověřen jako technická OLE/Compound Document cache s odkazy na názvy archivních JPEGů a s vloženými JPEGovými obrazovými daty. Obsahuje 54 různých odkazů `imgNNN.jpg`: 39 odpovídá aktuálním kořenovým JPEGům a 15 názvů v aktuálním kořenovém Git snapshotu není. Tento rozdíl se neeviduje jako důkaz přesunu či smazání souborů.
 
-Na `img201.jpg` není úzký nápis nad vstupem bezpečně čitelný. `img206.jpg` a `img216.jpg` zachycují mostově působící konstrukce se sutí či poškozením; jejich přesná identita, lokalita, důvod stavu, datace a vzájemný vztah nejsou z fotografií samotných určeny.
+`ZbThumbnail.info` je technická binární cache s 41 různými odkazy `imgNNN.jpg`, které přesně odpovídají aktuálním 41 kořenovým JPEGům, a se 41 přímo dekódovatelnými JPEGovými obrazovými proudy. Oba cache soubory jsou evidovány jako odvozené technické položky, nikoli jako další nezávislé historické obrazové prameny.
 
-Nejistota `URB-U-0083` byla rozšířena na položky 001–040; nová nejistota nevznikla.
+Nejistota `URB-U-0083` byla rozšířena na obsahovou položku 041; technické položky 042–043 do historické nejistoty přidány nebyly. Nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| fotodokument mimo `den po dešti` | 1 | 2 | 3 |
 | fotografie, které nebyl použité pro knihu ani kalendář | 28 | 1 | 29 |
 | novinové články 1903–1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **76** | **7** | **83** |
+| **Celkem** | **75** | **5** | **80** |
 
 ## Registr nejistot
 
@@ -51,10 +50,10 @@ Nejistota `URB-U-0083` byla rozšířena na položky 001–040; nová nejistota 
 
 ## Aktuální krok
 
-Devátá a závěrečná dávka kořenové části `fotodokument`:
+Zahájit kolekci `fotografie, které nebyl použité pro knihu ani kalendář`:
 
-- `img343.jpg`;
-- `Thumbs.db`;
-- `ZbThumbnail.info`.
+- 28 obsahových souborů;
+- 1 technický soubor;
+- Drive složka `17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

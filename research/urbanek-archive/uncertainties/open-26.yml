@@ -4,7 +4,7 @@ items:
   status: open
   priority: medium
   collection: fotodokument
-  type: root_fotodocument_location_date_building_landscape_event_and_person_identity_provenance_and_rights
+  type: root_fotodocument_location_date_building_landscape_event_organization_and_person_identity_provenance_and_rights
   source_items:
   - urbanek-fotodokument-root-001
   - urbanek-fotodokument-root-002
@@ -36,34 +36,34 @@ items:
   - urbanek-fotodokument-root-028
   - urbanek-fotodokument-root-029
   - urbanek-fotodokument-root-030
-  question: Jaká je přesná lokalizace, datace a identita staveb, krajinářských objektů, veřejných událostí a dalších motivů
-    v kořenové části kolekce `fotodokument`, jaké jsou jejich funkce tam, kde nejsou přímo doloženy čitelným nápisem, jaký
-    je kontext průvodů a shromáždění, kdo jsou osoby na skupinových a dalších snímcích, kdo fotografie pořídil nebo digitalizoval,
-    jaká je provenience výběru a jaká práva se k souborům vztahují?
+  - urbanek-fotodokument-root-031
+  - urbanek-fotodokument-root-032
+  - urbanek-fotodokument-root-033
+  - urbanek-fotodokument-root-034
+  - urbanek-fotodokument-root-035
+  question: Jaká je přesná lokalizace, datace a identita staveb, krajinářských objektů, veřejných událostí, organizací a dalších motivů v kořenové části kolekce `fotodokument`, jaké jsou jejich funkce tam, kde nejsou přímo doloženy čitelným nápisem, jaký je kontext průvodů, shromáždění a skupinových snímků, kdo jsou osoby na fotografiích, kdo fotografie pořídil nebo digitalizoval, jaká je provenience výběru a jaká práva se k souborům vztahují?
   known_facts:
-  - Kořenová část `fotodokument` mimo podsložku `den po dešti` obsahuje v aktuálním Git snapshotu 41 JPEGů a technické soubory
-    Thumbs.db a ZbThumbnail.info.
-  - Prvních šest dávek zahrnuje položky urbanek-fotodokument-root-001 až -030; všech 30 zpracovaných raw souborů z kanonické
-    Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
-  - Mezi pěti soubory dávky 06 není přesná binární duplicita a žádný z nich neobsahuje použitelná EXIF metadata.
-  - img065.jpg nese bezpečně čitelný nápis „SBĚRNA“; nápis dokládá dobové označení funkce, nikoli přesnou instituci, předmět
-    sběru, provozovatele, lokalitu nebo datum.
-  - img066.jpg zobrazuje větší starší zděnou budovu s řadou vysokých oken a schodišti ke vstupům; funkce, vlastnictví, lokalita
-    a datace nejsou určeny.
-  - img067.jpg zachycuje průvod či organizovaný veřejný pochod s větším množstvím osob a několika velkými vlajkami nebo prapory;
-    událost, organizace, osoby, trasa a datum nejsou určeny.
-  - img068.jpg zachycuje početné veřejné shromáždění podél ulice. Na nejméně dvou vlajkách jsou zřetelně viditelné symboly
-    srpu a kladiva. Symbolika sama není používána k určení organizátora nebo příslušnosti účastníků.
-  - Na směrové tabuli na img068.jpg je čitelné číslo 5 a pouze začátek názvu „OSTR…“; celý místní název není bezpečně rekonstruován.
-  - img070.jpg je skupinový snímek na jevišti; část osob má divadelní či historizující kostýmy a jsou viditelné hudební nástroje.
-    Inscenace nebo událost, soubor, místo, datum a identity osob nejsou určeny.
-  - img060.jpg až img064.jpg zachycují stavby a krajinné pohledy; přesné lokality, funkce a datace nebyly z vizuálního vzhledu
-    dovozovány.
+  - Kořenová část `fotodokument` mimo podsložku `den po dešti` obsahuje v aktuálním Git snapshotu 41 JPEGů a technické soubory Thumbs.db a ZbThumbnail.info.
+  - Prvních sedm dávek zahrnuje položky urbanek-fotodokument-root-001 až -035; všech 35 zpracovaných raw souborů z kanonické Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
+  - Mezi pěti soubory dávky 07 není přesná binární duplicita a žádný z nich neobsahuje použitelná EXIF metadata.
+  - img176.jpg zobrazuje starší dům se strmou sedlovou střechou a kombinací omítaných a dřevěných částí; přesná identita, lokalita, funkce a datace nejsou určeny.
+  - img178.jpg je skupinový snímek s praporem nesoucím bezpečně čitelné texty „STRANA NÁR. SOCIALISTICKÁ“ a „RYCHVALD“; na tabulce před skupinou je zřetelně čitelný rok „1929“.
+  - Viditelný rok 1929 na img178.jpg je evidován jako údaj pramene; bez dalšího podkladu není automaticky považován za technicky ověřené datum expozice fotografie.
+  - img196.jpg zobrazuje starší dům s poškozenou či chybějící omítkou na štítu, dřevěným plotem a několika osobami; budova, osoby, lokalita a datum nejsou určeny.
+  - img197.jpg zobrazuje skupinu před budovou s bezpečně čitelným nápisem „NÁRODNÍ ŠKOLA“, který dokládá dobové školní označení budovy; přesná škola a lokalita nejsou určeny.
+  - img200.jpg zobrazuje skupinu před budovou na zasněženém prostranství; z oříznutého německého nápisu je bezpečně čitelné slovo „Gastwirtschaft“. Předcházející část názvu není rekonstruována.
+  - Uniformní oděv jedné osoby na img200.jpg není používán k určení konkrétní složky, hodnosti nebo organizační příslušnosti.
+  - V dřívějších dávkách byly přímo doloženy mimo jiné texty „SBĚRNA“, „KULTURNÍ DŮM“, dvojjazyčné obchodní nápisy a banner „VÝSTAVA 60 let školy V RYCHVALDĚ NA PODLESÍ“; přesné kontexty zůstávají tam, kde nejsou pramenem doloženy, otevřené.
   - Název složky a posloupnost imgNNN jsou archivní metadata a samy neprokazují lokalitu, autora ani historickou dataci.
   unknown:
   - exact_location_of_each_scene
   - exact_identity_ownership_and_institutional_context_of_buildings
   - building_function_where_not_explicitly_supported_by_readable_signage
+  - exact_organization_and_event_context_of_img178_beyond_visible_wording
+  - relationship_of_visible_year_1929_in_img178_to_capture_date
+  - exact_school_identity_and_location_in_img197
+  - full_text_business_identity_and_location_of_img200_gastwirtschaft_sign
+  - identity_rank_and_affiliation_of_uniformed_person_in_img200
   - exact_institution_collection_type_and_operator_of_img065_sberna
   - exact_event_date_title_organizer_and_participant_context_of_img067_and_img068
   - relationship_between_events_or_scenes_in_img067_and_img068
@@ -90,6 +90,7 @@ items:
   - research/urbanek-archive/collections/fotodokument-root-batch-04.yml
   - research/urbanek-archive/collections/fotodokument-root-batch-05.yml
   - research/urbanek-archive/collections/fotodokument-root-batch-06.yml
+  - research/urbanek-archive/collections/fotodokument-root-batch-07.yml
   - research/urbanek-archive/collections/fotodokument-root-overview.yml
   - sources/index.d/urbanek-fotodokument-root-01.yml
   - sources/index.d/urbanek-fotodokument-root-02.yml
@@ -97,3 +98,4 @@ items:
   - sources/index.d/urbanek-fotodokument-root-04.yml
   - sources/index.d/urbanek-fotodokument-root-05.yml
   - sources/index.d/urbanek-fotodokument-root-06.yml
+  - sources/index.d/urbanek-fotodokument-root-07.yml

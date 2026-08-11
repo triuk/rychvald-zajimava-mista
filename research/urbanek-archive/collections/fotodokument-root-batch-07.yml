@@ -1,0 +1,96 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 7
+batch_id: building-exteriors-organizational-group-school-and-gastwirtschaft-07
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items: [img176.jpg, img178.jpg, img196.jpg, img197.jpg, img200.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection.
+- First visual classification without inferring exact locality, historical date, building identity, organization, business, person identity or uniform affiliation beyond directly visible wording and attire.
+- Safe transcription of clearly readable wording; cropped or uncertain text is not reconstructed.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: Pět archivních obrazů – dva starší domovní exteriéry, skupinový snímek s organizačním praporem, skupina před školní budovou a skupina před budovou s částečným německým nápisem.
+  exact_binary_duplicates_within_batch: 0
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani způsob vzniku digitalizace.
+  visible_text_scope: Na img178.jpg jsou bezpečně čitelné texty „STRANA NÁR. SOCIALISTICKÁ“, „RYCHVALD“ a rok „1929“. Na img197.jpg je bezpečně čitelné „NÁRODNÍ ŠKOLA“. Na img200.jpg je z oříznutého německého nápisu bezpečně čitelné pouze slovo „Gastwirtschaft“; předcházející část názvu není rekonstruována.
+  identity_scope: Čitelné texty jsou evidovány jako údaje pramene. Nejsou z nich bez dalšího podkladu odvozovány identity osob, přesný oficiální název organizace, přesná škola, provozovna, lokalita, vlastnictví ani historická datace fotografie. Uniformní oděv na img200.jpg není používán k určení konkrétní složky nebo funkce.
+items:
+- id: urbanek-fotodokument-root-031
+  filename: img176.jpg
+  git_blob_sha: 527a8c30f518d9dc733734f1a5ded237183150f3
+  sha256: b52b8eeb90b6160bcc841bb0e0f0318dfbb0698c4ad54db9e5947fab19af9a83
+  file_size_bytes: 372144
+  drive_id: 1ZsRZ9NF2_gn-r55NqQS4esvijzjyulv1
+  dimensions_px: [1314, 936]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílá archivní reprodukce exteriéru staršího domu se strmou sedlovou střechou, částečně dřevěným štítem, omítanými stěnami a navazující hrubou či poškozenou částí zdiva. Přesná lokalita, identita objektu, funkce, vlastnictví a datace nejsou z fotografie samotné určeny.
+  classification: [monochrome_archival_image, house_exterior, steep_gable_roof, mixed_masonry_and_timber, unidentified_location]
+  unverified: [exact_location_and_building_identity, building_function_and_ownership, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-032
+  filename: img178.jpg
+  git_blob_sha: f532e290487cc04423779df9e0ff21c553d1053a
+  sha256: db675140ff0d76b16e95afc3ab6bd7b353b38f15bd1cb4ac31b09acb32666080
+  file_size_bytes: 982049
+  drive_id: 1GTJ5PNFSviUjIXQpV6kLAHhd2UxumNtJ
+  dimensions_px: [2622, 1788]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílý skupinový snímek dospělých a dětí před zděnou budovou. Za skupinou je prapor s bezpečně čitelnými slovy „STRANA NÁR. SOCIALISTICKÁ“ a „RYCHVALD“; na tabulce před dětmi je zřetelně čitelný rok „1929“. Další zkratky na tabulce nejsou přepisovány. Identity osob, přesný název a kontext organizace, přesné místo budovy a vztah roku 1929 k okamžiku pořízení fotografie zůstávají bez dalšího pramene neověřené.
+  classification: [monochrome_archival_image, group_portrait, organizational_banner, readable_text_rychvald, visible_year_1929, unidentified_people]
+  unverified: [identities_of_visible_people, exact_organization_name_and_event_context_beyond_visible_wording, exact_building_and_location, relationship_of_visible_year_1929_to_capture_date, date_of_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-033
+  filename: img196.jpg
+  git_blob_sha: 7e7b3619105e9560cb70780db08d781dcb283aec
+  sha256: d3f5bec9254ef25de7ecdaac2a0daea5a16074ac883a5c76bc700669d0d39db9
+  file_size_bytes: 365191
+  drive_id: 1_THa8oGTFqMBUo3xVTsEW1QtohL3-EKa
+  dimensions_px: [1541, 935]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílý archivní snímek většího přízemního domu se sedlovou střechou a omítaným štítem, na němž je výrazná plocha chybějící či poškozené omítky. Před domem je dřevěný plot a několik osob. Přesná lokalita, identita a funkce domu, osoby a datace nejsou určeny.
+  classification: [monochrome_archival_image, house_exterior, damaged_or_missing_plaster, wooden_fence, people_present, unidentified_location]
+  unverified: [exact_location_and_building_identity, building_function_and_ownership, identities_of_visible_people, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-034
+  filename: img197.jpg
+  git_blob_sha: 412685698b45fb7a1fa36f53f249a7a9f9d60c16
+  sha256: b4c15156c7c1849a2180f1938d639e41e661ba5fb6452dc28a8c2e278f1c9d6a
+  file_size_bytes: 346904
+  drive_id: 1zrYmRRIZVgfXbWXBEggGpGDBMa71Xv9d
+  dimensions_px: [1614, 1013]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílý skupinový snímek dospělých a dítěte před omítanou budovou. Nad vstupem je bezpečně čitelný nápis „NÁRODNÍ ŠKOLA“, který dokládá dobové označení školní funkce budovy. Přesná škola, lokalita, datum, důvod setkání a identity osob nejsou z fotografie samotné určeny.
+  classification: [monochrome_archival_image, group_portrait, school_building_exterior, readable_sign_narodni_skola, unidentified_people, unidentified_location]
+  unverified: [exact_school_and_location, event_or_visit_context, identities_of_visible_people, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-035
+  filename: img200.jpg
+  git_blob_sha: 7ed7bc5a2bffba4fb3c05f49fd4b8556d526d6f1
+  sha256: aa2cf7a4903da3aa560406dd4646c9ed61fb3b17ba3cab7d760957aed3b06271
+  file_size_bytes: 233393
+  drive_id: 1zsWftNvSKgXJk8T7HKr2rm2wa3gkVzTJ
+  dimensions_px: [833, 1205]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílý snímek několika dospělých a dětí před budovou na zasněženém prostranství; jeden z dospělých má uniformní oděv, jeho příslušnost ani funkce nejsou určovány. Na fasádě je částečně oříznutý německý nápis, z něhož je bezpečně čitelné slovo „Gastwirtschaft“; předcházející část názvu není rekonstruována. Přesná lokalita, provozovna, osoby a datace nejsou určeny.
+  classification: [monochrome_archival_image, group_portrait, partial_german_signage, readable_word_gastwirtschaft, snow, uniformed_person_visible, unidentified_people, unidentified_location]
+  unverified: [full_text_of_cropped_sign, exact_business_building_and_location, identity_and_affiliation_of_uniformed_person, identities_of_visible_people, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, visible scene, listed image dimensions and color mode
+- absence of EXIF entries in the JPEG metadata inspected

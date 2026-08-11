@@ -8,119 +8,38 @@ drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
 status: in_progress
-totals:
-  content_files: 41
-  technical_files: 2
-  total_items: 43
+totals: {content_files: 41, technical_files: 2, total_items: 43}
 progress:
-  processed_content_files: 30
+  processed_content_files: 35
   processed_technical_files: 0
-  processed_items: 30
-  repo_verified_items: 30
-  visually_classified_items: 30
-  source_indexed_items: 30
-  remaining_content_files: 11
+  processed_items: 35
+  repo_verified_items: 35
+  visually_classified_items: 35
+  source_indexed_items: 35
+  remaining_content_files: 6
   remaining_technical_files: 2
-  remaining_items: 13
+  remaining_items: 8
 completed_batches:
-- number: 1
-  items: 001-005
-  filenames:
-  - img036.jpg
-  - img037.jpg
-  - img038.jpg
-  - img039.jpg
-  - img040.jpg
-  id: unidentified-building-exteriors-01
-  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-01.csv
-  classification: research/urbanek-archive/collections/fotodokument-root-batch-01.yml
-  source_index: sources/index.d/urbanek-fotodokument-root-01.yml
-- number: 2
-  items: 006-010
-  filenames:
-  - img041.jpg
-  - img042.jpg
-  - img043.jpg
-  - img044.jpg
-  - img045.jpg
-  id: buildings-school-exhibition-group-and-sacral-exterior-02
-  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-02.csv
-  classification: research/urbanek-archive/collections/fotodokument-root-batch-02.yml
-  source_index: sources/index.d/urbanek-fotodokument-root-02.yml
-- number: 3
-  items: 011-015
-  filenames:
-  - img047.jpg
-  - img048.jpg
-  - img049.jpg
-  - img050.jpg
-  - img052.jpg
-  id: bilingual-shop-buildings-cultural-house-and-decorated-gateway-03
-  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-03.csv
-  classification: research/urbanek-archive/collections/fotodokument-root-batch-03.yml
-  source_index: sources/index.d/urbanek-fotodokument-root-03.yml
-- number: 4
-  items: 016-020
-  filenames:
-  - img053.jpg
-  - img054.jpg
-  - img057.jpg
-  - img058.jpg
-  - img059.jpg
-  id: trees-sacral-towers-and-rural-landscape-04
-  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-04.csv
-  classification: research/urbanek-archive/collections/fotodokument-root-batch-04.yml
-  source_index: sources/index.d/urbanek-fotodokument-root-04.yml
-- number: 5
-  items: 021-025
-  filenames:
-  - img060.jpg
-  - img061.jpg
-  - img062.jpg
-  - img063.jpg
-  - img064.jpg
-  id: rural-buildings-and-settlement-landscapes-05
-  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-05.csv
-  classification: research/urbanek-archive/collections/fotodokument-root-batch-05.yml
-  source_index: sources/index.d/urbanek-fotodokument-root-05.yml
-- number: 6
-  items: 026-030
-  filenames:
-  - img065.jpg
-  - img066.jpg
-  - img067.jpg
-  - img068.jpg
-  - img070.jpg
-  id: collection-point-building-public-gatherings-and-stage-group-06
-  inventory: research/urbanek-archive/collections/fotodokument-root-inventory-06.csv
-  classification: research/urbanek-archive/collections/fotodokument-root-batch-06.yml
-  source_index: sources/index.d/urbanek-fotodokument-root-06.yml
+- {number: 1, items: 001-005, filenames: [img036.jpg, img037.jpg, img038.jpg, img039.jpg, img040.jpg], id: unidentified-building-exteriors-01, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-01.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-01.yml, source_index: sources/index.d/urbanek-fotodokument-root-01.yml}
+- {number: 2, items: 006-010, filenames: [img041.jpg, img042.jpg, img043.jpg, img044.jpg, img045.jpg], id: buildings-school-exhibition-group-and-sacral-exterior-02, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-02.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-02.yml, source_index: sources/index.d/urbanek-fotodokument-root-02.yml}
+- {number: 3, items: 011-015, filenames: [img047.jpg, img048.jpg, img049.jpg, img050.jpg, img052.jpg], id: bilingual-shop-buildings-cultural-house-and-decorated-gateway-03, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-03.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-03.yml, source_index: sources/index.d/urbanek-fotodokument-root-03.yml}
+- {number: 4, items: 016-020, filenames: [img053.jpg, img054.jpg, img057.jpg, img058.jpg, img059.jpg], id: trees-sacral-towers-and-rural-landscape-04, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-04.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-04.yml, source_index: sources/index.d/urbanek-fotodokument-root-04.yml}
+- {number: 5, items: 021-025, filenames: [img060.jpg, img061.jpg, img062.jpg, img063.jpg, img064.jpg], id: rural-buildings-and-settlement-landscapes-05, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-05.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-05.yml, source_index: sources/index.d/urbanek-fotodokument-root-05.yml}
+- {number: 6, items: 026-030, filenames: [img065.jpg, img066.jpg, img067.jpg, img068.jpg, img070.jpg], id: collection-point-building-public-gatherings-and-stage-group-06, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-06.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-06.yml, source_index: sources/index.d/urbanek-fotodokument-root-06.yml}
+- {number: 7, items: 031-035, filenames: [img176.jpg, img178.jpg, img196.jpg, img197.jpg, img200.jpg], id: building-exteriors-organizational-group-school-and-gastwirtschaft-07, inventory: research/urbanek-archive/collections/fotodokument-root-inventory-07.csv, classification: research/urbanek-archive/collections/fotodokument-root-batch-07.yml, source_index: sources/index.d/urbanek-fotodokument-root-07.yml}
 interpretation_rules:
-- The folder title fotodokument and imgNNN filenames are archival metadata, not independent proof of location, date, photographer
-  or subject identity.
+- The folder title fotodokument and imgNNN filenames are archival metadata, not independent proof of location, date, photographer or subject identity.
 - Architectural appearance may be described, but building identity, ownership and historical date require corroborating evidence.
-- A clearly readable facade sign may verify the wording and, where explicit, the contemporaneous advertised function or designation
-  of the building; it does not by itself establish exact location, official institution name, operator, ownership or date.
+- A clearly readable facade sign may verify the wording and, where explicit, the contemporaneous advertised function or designation of the building; it does not by itself establish exact location, official institution name, operator, ownership or date.
 - Absence of EXIF metadata does not establish the age of the original photograph or the date and method of digitization.
-- Readable banner or shop wording verifies the visible text only; partially legible text is not reconstructed.
-- Visible sacral architectural features support a descriptive classification only; exact building, denomination, location
-  and inter-image identity require corroboration.
-- Linear landscape features are not assigned a specific infrastructure type unless directly supported.
-- Visible political symbols are recorded descriptively; they do not by themselves establish the organizer, participant affiliation,
-  event title or date.
+- Readable banner or shop wording verifies the visible text only; partially legible or cropped text is not reconstructed.
+- Visible political symbols and organizational wording are recorded descriptively; they do not by themselves establish event context, participant identity or a formal historical interpretation beyond the visible source wording.
+- Visible uniform-like clothing is described without assigning service, rank or affiliation.
 - Exact binary duplicates remain separate archive paths but only one independent image if such a duplicate is demonstrated.
-open_uncertainties:
-- URB-U-0083
+open_uncertainties: [URB-U-0083]
 technical_files:
-- path: Thumbs.db
-  status: not_yet_audited
-- path: ZbThumbnail.info
-  status: not_yet_audited
+- {path: Thumbs.db, status: not_yet_audited}
+- {path: ZbThumbnail.info, status: not_yet_audited}
 next_batch:
-  number: 7
-  filenames:
-  - img176.jpg
-  - img178.jpg
-  - img196.jpg
-  - img197.jpg
-  - img200.jpg
+  number: 8
+  filenames: [img201.jpg, img202.jpg, img203.jpg, img206.jpg, img216.jpg]

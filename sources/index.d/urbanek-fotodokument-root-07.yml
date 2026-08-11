@@ -1,0 +1,85 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-fotodokument-root-031
+  title: img176.jpg
+  source_path: fotodokument/img176.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img176.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 372144
+  git_blob_sha: 527a8c30f518d9dc733734f1a5ded237183150f3
+  sha256: b52b8eeb90b6160bcc841bb0e0f0318dfbb0698c4ad54db9e5947fab19af9a83
+  drive_id: 1ZsRZ9NF2_gn-r55NqQS4esvijzjyulv1
+  repo_status: verified
+  image: {width_px: 1314, height_px: 936, color_mode: RGB}
+  classification: [monochrome_archival_image, house_exterior, steep_gable_roof, mixed_masonry_and_timber, unidentified_location]
+  summary: Černobílá archivní reprodukce staršího domu se strmou sedlovou střechou, částečně dřevěným štítem a omítanými stěnami. Přesná lokalita, identita, funkce a datace nejsou určeny.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-032
+  title: img178.jpg
+  source_path: fotodokument/img178.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img178.jpg
+  document_type: group_portrait_with_organizational_banner
+  mime_type: image/jpeg
+  file_size_bytes: 982049
+  git_blob_sha: f532e290487cc04423779df9e0ff21c553d1053a
+  sha256: db675140ff0d76b16e95afc3ab6bd7b353b38f15bd1cb4ac31b09acb32666080
+  drive_id: 1GTJ5PNFSviUjIXQpV6kLAHhd2UxumNtJ
+  repo_status: verified
+  image: {width_px: 2622, height_px: 1788, color_mode: RGB}
+  classification: [monochrome_archival_image, group_portrait, organizational_banner, readable_text_rychvald, visible_year_1929, unidentified_people]
+  summary: Skupinový snímek s praporem nesoucím bezpečně čitelné texty „STRANA NÁR. SOCIALISTICKÁ“ a „RYCHVALD“; na tabulce před skupinou je zřetelně čitelný rok „1929“. Osoby, přesný organizační kontext, budova a vztah roku k datu expozice zůstávají neověřené.
+  capture_metadata: {exif_present: false, use: visible_year_not_assumed_capture_date}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-033
+  title: img196.jpg
+  source_path: fotodokument/img196.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img196.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 365191
+  git_blob_sha: 7e7b3619105e9560cb70780db08d781dcb283aec
+  sha256: d3f5bec9254ef25de7ecdaac2a0daea5a16074ac883a5c76bc700669d0d39db9
+  drive_id: 1_THa8oGTFqMBUo3xVTsEW1QtohL3-EKa
+  repo_status: verified
+  image: {width_px: 1541, height_px: 935, color_mode: RGB}
+  classification: [monochrome_archival_image, house_exterior, damaged_or_missing_plaster, wooden_fence, people_present, unidentified_location]
+  summary: Starší dům s poškozenou či chybějící omítkou na štítu, dřevěným plotem a několika osobami; budova, osoby, lokalita a datum nejsou určeny.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-034
+  title: img197.jpg
+  source_path: fotodokument/img197.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img197.jpg
+  document_type: group_portrait_at_school_building
+  mime_type: image/jpeg
+  file_size_bytes: 346904
+  git_blob_sha: 412685698b45fb7a1fa36f53f249a7a9f9d60c16
+  sha256: b4c15156c7c1849a2180f1938d639e41e661ba5fb6452dc28a8c2e278f1c9d6a
+  drive_id: 1zrYmRRIZVgfXbWXBEggGpGDBMa71Xv9d
+  repo_status: verified
+  image: {width_px: 1614, height_px: 1013, color_mode: RGB}
+  classification: [monochrome_archival_image, group_portrait, school_building_exterior, readable_sign_narodni_skola, unidentified_people, unidentified_location]
+  summary: Skupina před budovou s bezpečně čitelným nápisem „NÁRODNÍ ŠKOLA“. Nápis dokládá dobové školní označení budovy; přesná škola, lokalita, datum, důvod setkání a osoby nejsou určeny.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-035
+  title: img200.jpg
+  source_path: fotodokument/img200.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img200.jpg
+  document_type: group_portrait_with_partial_german_signage
+  mime_type: image/jpeg
+  file_size_bytes: 233393
+  git_blob_sha: 7ed7bc5a2bffba4fb3c05f49fd4b8556d526d6f1
+  sha256: aa2cf7a4903da3aa560406dd4646c9ed61fb3b17ba3cab7d760957aed3b06271
+  drive_id: 1zsWftNvSKgXJk8T7HKr2rm2wa3gkVzTJ
+  repo_status: verified
+  image: {width_px: 833, height_px: 1205, color_mode: RGB}
+  classification: [monochrome_archival_image, group_portrait, partial_german_signage, readable_word_gastwirtschaft, snow, uniformed_person_visible, unidentified_people, unidentified_location]
+  summary: Skupina před budovou na zasněženém prostranství; z oříznutého německého nápisu je bezpečně čitelné slovo „Gastwirtschaft“. Předcházející část názvu není rekonstruována a uniformní oděv jedné osoby není používán k určení příslušnosti či funkce.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]

@@ -1,0 +1,98 @@
+schema_version: 1
+collection_id: urbanek-popopo
+collection_title: popopo
+batch_number: 3
+batch_id: brick-vaults-stove-tree-lined-roads-and-crucifix-03
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/popopo
+  drive_folder_id: 1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR
+  items: [P1010741.JPG, P1010743a.jpg, P1010744.JPG, P1010746.JPG, P1010747a.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Raw Drive files were downloaded and compared by byte size and Git blob SHA with the repository path.
+- SHA-256, dimensions, color mode, EXIF and GPS-field inspection was performed on every file.
+- First visual classification records only directly visible architectural, landscape and devotional features and safe inscriptions.
+- Similar interiors, roads or close EXIF timestamps do not establish that separate images depict the same site or route.
+- EXIF DateTimeOriginal is recorded as technical capture metadata and is not used as evidence of historical age, object origin or site identity.
+- Exact binary duplicate check within the batch and repository search for matching Git blob SHA in already indexed source records.
+batch_findings:
+  exact_binary_duplicates_within_batch: 0
+  matching_prior_index_blob_sha_found: 0
+  exif_scope: Všech pět JPEGů uvádí Panasonic DMC-TZ3, software `Ver.1.0` a DateTimeOriginal dne 10. dubna 2012: P1010741.JPG `12:12:30`, P1010743a.jpg `12:17:44`, P1010744.JPG `12:26:57`, P1010746.JPG `12:31:06`, P1010747a.jpg `12:38:09`. Žádný soubor neobsahuje GPS údaje.
+  visible_text_scope: Na P1010747a.jpg je na krucifixu bezpečně čitelné `I.N.R.I.`. Další identifikační text v dávce nebyl bezpečně zjištěn.
+items:
+- id: urbanek-popopo-011
+  filename: P1010741.JPG
+  git_blob_sha: 6a86ce8c026c0aadb0f9d304c013f5219a317115
+  sha256: 2482d6cfe8b9c0d004cac4aad558418f3023b546a1bfe0c8694c9a8f513232d7
+  file_size_bytes: 2408744
+  drive_id: 1cbxKyWr8vBqrABj-fBMBPepLQTX0hn3e
+  dimensions_px: [3072, 2304]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime_original: '2012:04:10 12:12:30', gps_present: false}
+  visual_description: Barevná fotografie rozsáhlého neomítnutého cihelného klenutého interiéru s více valenými klenbami, nikami či otvory a tmavým průchodem. Přesná funkce, objekt, lokalita, stáří a vztah k jiným interiérům v kolekci nejsou určeny.
+  classification: [color_photograph, brick_vaulted_interior, multiple_vaults, masonry_openings, unidentified_function_and_location]
+  unverified: [exact_building_room_function_and_location, construction_date_and_history, relationship_to_other_interior_images, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-012
+  filename: P1010743a.jpg
+  git_blob_sha: 4dd56f1710f45aedcc1819981ca1bf8620167cb5
+  sha256: d90680ea0907d29919d70f921f8b4abb18645295f5d7d19a088efb91f867841d
+  file_size_bytes: 1118759
+  drive_id: 10zLHjw2LN6M30HRcNKBE7iakjf4xAkor
+  dimensions_px: [3072, 2304]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime_original: '2012:04:10 12:17:44', gps_present: false}
+  visual_description: Barevná fotografie světlého klenutého interiéru s velkým zděným topeništěm či pecí a masivní dřevěnou konstrukcí v popředí. Přesná funkce zařízení, objekt, lokalita, stáří a vztah k ostatním interiérům nejsou určeny.
+  classification: [color_photograph, vaulted_interior, masonry_hearth_or_oven, heavy_timber_structure, unidentified_function_and_location]
+  unverified: [exact_device_and_room_function, exact_building_and_location, construction_date_and_history, relationship_to_other_interior_images, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-013
+  filename: P1010744.JPG
+  git_blob_sha: d2e10f950d42c226c372c8f61b849aca858f01ba
+  sha256: edc3e44166614455bad88f448bfe495deaca8425132c5651a6d7e5ba75ed2d69
+  file_size_bytes: 3479803
+  drive_id: 1P3HuugaQXGsesPJA3FypLKtiyQA3PGBa
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime_original: '2012:04:10 12:26:57', gps_present: false}
+  visual_description: Barevná fotografie úzké asfaltové komunikace lemované stromořadím, vedoucí mezi otevřenými plochami a poli. Přesná trasa, lokalita a historický význam nejsou určeny.
+  classification: [color_photograph, tree_lined_road, agricultural_landscape, unidentified_route_and_location]
+  unverified: [exact_road_route_and_location, historical_context, relationship_to_other_road_image, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-014
+  filename: P1010746.JPG
+  git_blob_sha: 0238429e6b3c7a89d38ff6ea60199aa8f185af6a
+  sha256: 34bfd2bb5e5b92f98b7e8164d65d0543d59be9340c5b1cec89053dc6744947a4
+  file_size_bytes: 3704597
+  drive_id: 1V_NsHLXTM-XWsNOmTGymURqFnK4aOSBi
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime_original: '2012:04:10 12:31:06', gps_present: false}
+  visual_description: Barevná fotografie dlouhé přímé asfaltové komunikace lemované pravidelným stromořadím mezi poli a otevřenou krajinou. Přesná trasa, lokalita a vztah k P1010744.JPG nejsou určeny.
+  classification: [color_photograph, straight_tree_lined_road, agricultural_landscape, unidentified_route_and_location]
+  unverified: [exact_road_route_and_location, historical_context, relationship_to_P1010744, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-015
+  filename: P1010747a.jpg
+  git_blob_sha: 04e9c6c619bf2d94b4ae71e5367384289e5caf41
+  sha256: fe421a11b36e8ea883ba35573054b84738f3e600741ecb936f95fd3d0b6784a2
+  file_size_bytes: 1316340
+  drive_id: 1DUM4QSFcl82nE_0oWPmuiwgsZHjt9fKr
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime_original: '2012:04:10 12:38:09', gps_present: false}
+  visual_description: Barevná fotografie venkovního dřevěného krucifixu s korpusem Krista, krycí obloukovou stříškou a květinovou výzdobou. Na tabulce nad postavou je bezpečně čitelné `I.N.R.I.`. Přesná lokalita, stáří, autorství, zasvěcení a historie objektu nejsou určeny.
+  classification: [color_photograph, wayside_crucifix, wooden_cross, corpus, visible_INRI, unidentified_location]
+  visible_text: {safe_transcription: 'I.N.R.I.', scope_note: 'Viditelný nápis na krucifixu; nepostačuje k určení přesné lokality ani data.'}
+  unverified: [exact_location_and_object_identity, construction_or_installation_date, authorship_dedication_and_history, photographer_and_source_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, dimensions, color mode and stated EXIF/GPS fields
+related_uncertainties: [URB-U-0087]
+next_batch:
+  number: 4
+  filenames: [P1010748a.jpg, P1010749.JPG, P1010752.JPG, P1010754.JPG, P1010755a.jpg]

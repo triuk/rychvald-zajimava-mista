@@ -16,29 +16,33 @@
 | zbývá | 0 | 0 | **0** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-**Všech 15 kolekcí aktuálního Git snapshotu je zpracováno.** Kolekce `popopo` je dokončena 33/33. Tím je první úplný inventární a indexační průchod aktuálním snapshotem uzavřen.
+**Všech 15 kolekcí aktuálního Git snapshotu je zpracováno.** První úplný inventární a indexační průchod je uzavřen.
 
-## popopo – závěrečná dávka 07
+## Revize registru nejistot
 
-Zpracovány byly `mlyn_0001a.jpg`, `Thumbs.db` a `ZbThumbnail.info`. Všechny tři raw soubory mají přesně stejnou velikost a přepočtený Git blob SHA jako příslušné cesty v repozitáři.
+Bylo ručně projito všech **53 otevřených položek**. Nebyla nalezena žádná dvojice, kterou by bylo bezpečné sloučit jako totožnou otázku bez ztráty samostatných nevyřešených atributů nebo historie evidence.
 
-`mlyn_0001a.jpg` je digitální reprodukce archivní fotografie většího stavebního komplexu. EXIF uvádí Canon MP610 series, MP Navigator EX 1.0 a obecný DateTime `2012:04:18 09:02:04`; DateTimeOriginal ani GPS nejsou přítomny. Název souboru je pouze archivní atribuce a sám o sobě nedokládá, že zobrazený objekt je mlýn.
+Původní pole `priority:` se nemění. Nad registrem je nově zavedeno pořadí výzkumných vln popsané v `research/urbanek-archive/reports/uncertainty-prioritization-review-2026-08-11.md`.
 
-`Thumbs.db` je OLE/Compound File cache. Její Catalog obsahuje 57 názvů JPEGů plus jeden zvláštní GUID-like záznam; všech 31 současných JPEGů kolekce je zastoupeno. **26 názvů nemá v aktuální složce samostatný plný soubor.** Přímým porovnáním thumbnailů je 10 těchto názvů variantou stejného podkladového obrazu, který je v kolekci dochován pod jiným názvem. Po jejich odečtení cache dokládá **16 odlišných obrazových obsahů, jejichž plný originál v aktuálním snapshotu chybí**.
+Výzkumná vlna 1 obsahuje 15 přímo rychvaldských a projektově významných položek: `URB-U-0036`, `URB-U-0038`, `URB-U-0044`, `URB-U-0049`, `URB-U-0053`, `URB-U-0062`, `URB-U-0063`, `URB-U-0065`, `URB-U-0067`, `URB-U-0075`, `URB-U-0077`, `URB-U-0078`, `URB-U-0079`, `URB-U-0081`, `URB-U-0085`.
 
-`ZbThumbnail.info` začíná `zbex`, obsahuje všech 57 názvů JPEGů známých z `Thumbs.db` a 57 přímo dekódovatelných JPEG/JFIF proudů. Nález chybějících názvů je tedy podpořen dvěma různými technickými cache soubory.
+Paralelní technická větev obnovy plných originálů: `URB-U-0086` a `URB-U-0088`.
 
-Pro 16 chybějících plných originálů byla založena nová nejistota `URB-U-0088`. Cache-only odkazy nejsou připočítány k 616 položkám aktuálního snapshotu.
+Široké průřezové položky `URB-U-0073`, `URB-U-0076`, `URB-U-0082`, `URB-U-0083`, `URB-U-0084` a `URB-U-0087` se nemají uzavírat globálním tvrzením; mají být řešeny po konkrétních a doložitelných atributech.
 
-## Registr nejistot
+## Registr
 
 - `open`: 53;
 - `resolved`: 32;
 - `not_actionable`: 3;
 - celkem: 88.
 
-## Další fáze
+## Aktivní výzkum
 
-Úplná indexace aktuálního snapshotu je dokončena. Následujícím krokem je závěrečná kontrola registru nejistot, prioritizace a teprve poté jejich systematické řešení. Automaticky je nyní neuzavírám ani neslučuji.
+Aktivní je `URB-U-0036`: **Kakalův mlýn — přesná poloha, vlastník, období existence a technické vybavení**.
+
+Identita historického obrazu jako Kakalův mlýn je již uzavřena pod `URB-U-0007`. Nové hledání nesmí zaměňovat jiné doložené rychvaldské mlýny (např. Skýbův parní/elektrický mlýn) za Kakalův mlýn jen na základě společného místního kontextu.
+
+Negativní výsledek hledání není důvodem k uzavření nevyřešených atributů.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

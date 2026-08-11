@@ -56,35 +56,60 @@ items:
       - "Urbanek-ccs-028 dokládá pozdější doplnění několika vzorovaných koberců."
       - "Urbanek-ccs-029 a 030 dokládají ještě pozdější trojdílnou figurální výzdobu čelní stěny."
       - "Obrazová posloupnost bezpečně prokazuje relativní pořadí stavů, nikoli automaticky roky 1948, 1949 a 1957 uvedené v názvech."
+      - "Rychvaldský zpravodaj 4/1993 v seriálu Miroslava Neboráka `Významné pamětihodnosti Rychvaldu` uvádí, že po druhé světové válce byl rekonstruován oltář; dominantou výsledné úpravy je dřevěný kříž s ukřižovaným Kristovým tělem z patinované sádry."
+      - "Tentýž místní sekundární pramen uvádí nové varhany z Krnova do provozu dne 23. 6. 1946 za 300 000 Kčs."
+      - "Tentýž pramen připisuje čelní biblické malby Janu Obšilovi z Ostravy a starší postranní malby Antonínu Hanušovi z Hrušova (1931); nalezená pasáž však nedatuje Obšilovy malby rokem 1957."
+    partially_resolved_attributes:
+      relative_visual_sequence:
+        value: old_interior_then_simplified_chancel_then_carpets_then_front_wall_murals
+        status: directly_verified_from_images
+      postwar_altar_reconstruction:
+        value: reconstruction_after_second_world_war
+        status: independently_supported_by_local_secondary_source
+      organ_put_into_operation:
+        date: 1946-06-23
+        provenance: new_organ_from_Krnov
+        cost: 300000_Kcs
+        status: independently_supported_by_Rychvald_zpravodaj_4_1993
+      front_wall_mural_artist:
+        value: Jan_Obsil_of_Ostrava
+        status: independently_attributed_by_Rychvald_zpravodaj_4_1993
+      older_side_mural_artist_and_date:
+        value: Antonin_Hanus_of_Hrusov_1931
+        status: independently_attributed_by_Rychvald_zpravodaj_4_1993
     unresolved_attributes:
       - exact_reconstruction_start_date
       - exact_reconstruction_completion_date
-      - independent_confirmation_of_years_1948_and_1949
-      - architectural_and_decorative_scope
-      - chronology_relative_to_organ_installation
-      - chronology_and_date_of_carpet_installation
-      - chronology_relative_to_front_wall_murals
-      - contractor_architect_or_artist
-      - funding_and_approval
+      - independent_confirmation_of_year_1949
+      - full_architectural_and_decorative_scope_beyond_altar
+      - contractor_architect_or_other_builder
+      - funding_approval_and_accounts
+      - date_and_provenance_of_carpet_installation
+      - independent_confirmation_of_year_1957_for_front_wall_murals
+      - mural_commissioning_and_technique
       - date_and_character_of_formal_reopening
+      - exact_relationship_of_visible_organ_pipes_on_urbanek_ccs_024_to_1946_instrument
     next_action: >-
-      Sestavit úplnou obrazovou chronologii všech pohledů interiéru a porovnat ji
-      s účty, zápisy rady starších, stavební dokumentací, kronikou, záznamy o
-      varhanách a podklady k nástěnným malbám. Relativní pořadí obrazů je doloženo;
-      absolutní roky a rozsah prací vyžadují textový pramen.
+      Hledat zápisy rady starších, stavební dokumentaci, účty a program slavnostního
+      znovuotevření, které mohou potvrdit přesný rok 1949 a rozsah rekonstrukce.
+      Pro koberce hledat inventář nebo darovací/účetní záznam; pro Obšilovy malby
+      zvlášť ověřit archivně uváděný rok 1957. Datum 23. 6. 1946 používat jako
+      textově doložené uvedení nových varhan z Krnova do provozu, nikoli automaticky
+      jako identifikaci všech viditelných píšťal na nedatovaných fotografiích.
     reopen_triggers:
       - dated_pre_or_post_reconstruction_photo_found
       - construction_invoice_or_plan_found
       - church_council_minutes_found
-      - organ_installation_record_found
       - formal_reopening_program_found
       - carpet_invoice_or_donation_found
       - mural_invoice_or_restoration_record_found
+      - primary_organ_record_found
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-05.yml
       - sources/index.d/urbanek-ccs-05.yml
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml
       - sources/index.d/urbanek-ccs-06.yml
+      - research/urbanek-archive/verifications/urb-u-0049-interior-reconstruction-chronology-recheck-2026-08-11.md
 
   - id: URB-U-0050
     status: open

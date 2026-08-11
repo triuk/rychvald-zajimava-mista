@@ -95,12 +95,23 @@ items:
       - "Centrální výzdoba obklopuje kříž paprsky, oblaky a znakem kalicha s křížem."
       - "Barevný snímek má EXIF datum 28. srpna 2009 a dokládá, že výzdoba byla tehdy zachována."
       - "Rok 1957, označení akademického malíře a příjmení Obšil pocházejí z archivních názvů."
+      - "Rychvaldský zpravodaj 4/1993 výslovně připisuje průčelní nástěnné malby znázorňující biblické výjevy akademickému malíři Janu Obšilovi z Ostravy."
+      - "Encyklopedie města Ostravy a Ostravské muzeum identifikují Jana Obšila (1908–1983) jako akademického malíře, scénografa a pedagoga s rozsáhlou tvorbou nástěnných maleb a dalších církevních realizací v Moravskoslezském kraji."
+      - "Ve veřejně dostupném neúplném výčtu církevních realizací Ostravského muzea Rychvald není výslovně uveden; muzeum však uvádí, že katalog `Tři obzory Jana Obšila` obsahuje výčet návrhů a realizací interiérů církevního prostoru."
     verified_scene_text:
       - "NENARODÍ-LI SE KDO Z VODY A Z DUCHA, NEMŮŽE VEJÍTI DO KRÁLOVSTVÍ BOŽÍHO. JAN 3,5"
       - "KRISTUS VSTAL Z MRTVÝCH JAKO PRVNÍ Z TĚCH, KDOŽ ZESNULI. I KOR 15,20"
+    partially_resolved_attributes:
+      artist_full_name_and_identity:
+        value: "Jan Obšil (25. 12. 1908 Hustopeče – 13. 4. 1983 Ostrava), akademický malíř, scénograf a pedagog"
+        status: independently_verified_by_institutional_sources
+      confirmation_of_Obsil_attribution:
+        value: "průčelní biblické malby Husova sboru v Rychvaldě – Jan Obšil z Ostravy"
+        status: independently_supported_by_Rychvald_zpravodaj_4_1993
+      church_art_practice:
+        value: "rozsáhlá tvorba nástěnných maleb a dalších církevních realizací v regionu"
+        status: independently_verified_by_Ostravske_muzeum_and_Ostrava_encyclopedia
     unresolved_attributes:
-      - artist_full_name_and_identity
-      - confirmation_of_Obsil_attribution
       - exact_creation_date
       - independent_confirmation_of_year_1957
       - technique_and_materials
@@ -108,13 +119,18 @@ items:
       - preparatory_design_or_iconographic_source
       - restoration_repainting_and_color_change_history
       - current_conservation_status_after_2009
-      - relation_to_earlier_murals_in_URB_U_0043
+      - direct_listing_of_Rychvald_in_artist_catalogue_or_estate
+      - relation_to_earlier_murals_in_URB_U_0043_beyond_distinct_layer
     next_action: >-
-      Hledat signaturu, účet, smlouvu, kroniku, restaurátorský průzkum a plné jméno
-      malíře. Porovnat barevnost a poškození na dalších snímcích a důsledně odlišit
-      tyto malby na čelní stěně od starších maleb nad balkony vedených v URB-U-0043.
+      Prověřit katalog Lenky Černíkové `Tři obzory Jana Obšila` (Ostravské muzeum,
+      2015), který podle muzea obsahuje výčet církevních realizací, a hledat Rychvald
+      v autorově pozůstalosti, smlouvách, účtech nebo kronice. Samostatně ověřit
+      archivně uváděný rok 1957. Pro techniku a restaurátorskou historii hledat
+      restaurátorský průzkum nebo stavební dokumentaci; nepřebírat techniku z jiných
+      Obšilových kostelních realizací.
     reopen_triggers:
-      - artist_signature_or_full_name_found
+      - artist_catalogue_checked_for_Rychvald
+      - artist_signature_or_estate_record_found
       - 1957_chronicle_or_invoice_found
       - restoration_report_found
       - later_color_photo_found
@@ -122,3 +138,5 @@ items:
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-06.yml
       - sources/index.d/urbanek-ccs-06.yml
+      - research/urbanek-archive/verifications/urb-u-0049-interior-reconstruction-chronology-recheck-2026-08-11.md
+      - research/urbanek-archive/verifications/urb-u-0053-jan-obsil-front-murals-recheck-2026-08-11.md

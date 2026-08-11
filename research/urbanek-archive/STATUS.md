@@ -46,7 +46,15 @@ Díky stejnému prameni je datum uvedení nových varhan do provozu zúženo na 
 
 Místní zpravodaj z roku 1993 výslovně připisuje průčelní biblické malby **Janu Obšilovi z Ostravy**. Encyklopedie města Ostravy a Ostravské muzeum nezávisle potvrzují Jana Obšila (1908–1983) jako akademického malíře s rozsáhlou tvorbou nástěnných maleb a dalších církevních realizací v regionu.
 
-Archivně uváděný rok **1957** se zatím nezávisle potvrdit nepodařilo. Veřejný web Ostravského muzea Rychvald ve svém neúplném výčtu realizací nejmenuje; vhodným dalším pramenem je muzejní katalog `Tři obzory Jana Obšila`, který má obsahovat výčet realizací církevních interiérů.
+Archivně uváděný rok **1957** se zatím nezávisle potvrdit nepodařilo. Veřejný web Ostravského muzea Rychvald ve svém neúplném výčtu realizací nejmenuje; vhodným dalším pramenem je muzejní katalog `Tři obzory Jana Obšila`.
+
+### URB-U-0062 — Gabriel Chrobáček
+
+Městská publikace `Rychvald 1305–2005` uvádí **Gabriela Chrobáčka (1897–1962)** jako rychvaldského rodáka, faráře CČSH v Rychvaldě v letech **1945–1953** a pozdějšího biskupa v Ostravě. Oficiální historie olomoucké diecéze CČSH jej nezávisle označuje za **posledního biskupa samostatné ostravské diecéze**, která končila roku **1962**.
+
+Archivní podsložka však zůstává fyzicky pojmenována `4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19`; úplnější kopie názvu nebyla v připojeném Drive nalezena.
+
+Existuje důležitý pramenný konflikt: rychvaldský článek CČSH z roku 2025 jmenuje za války faráře Gabriela Chrobáčka, ale poválečné ustanovení a volbu biskupem roku **1954** připisuje `Karlu Chrobáčkovi`. Starší městská publikace, archivní složka i historie olomoucké diecéze podporují Gabriela jako rychvaldského faráře a ostravského biskupa, ale žádný nalezený nezávislý pramen zatím výslovně nepřiřadil **rok 1954 Gabrielovi**. Konflikt se proto zachovává a `Karel` se automaticky neopravuje na `Gabriel`.
 
 ### URB-U-0086 a URB-U-0088 — chybějící plné originály
 
@@ -61,6 +69,6 @@ Exact-name hledání všech cache doložených názvů v připojeném Google Dri
 
 ## Další aktivní cíl
 
-`URB-U-0062`: **volba, jmenování a inaugurace Gabriela Chrobáčka a související obrazová série**.
+`URB-U-0063`: **50. výročí CČS v Rychvaldě roku 1970 a identifikace hostů a účastníků**.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

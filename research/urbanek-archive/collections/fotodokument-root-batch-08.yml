@@ -1,0 +1,97 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 8
+batch_id: building-groups-beer-sign-badge-and-damaged-bridge-scenes-08
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items: [img201.jpg, img202.jpg, img203.jpg, img206.jpg, img216.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection.
+- First visual classification without inferring exact locality, historical date, building or business identity, organization identity beyond directly visible wording, artifact age or purpose, infrastructure identity, person identity or inter-image relationship from appearance alone.
+- Safe transcription of clearly readable wording; unreadable wording is not reconstructed and abbreviations are not expanded without corroboration.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: Pět archivních obrazů – skupina před větší budovou s koňským povozem, skupina před dřevěnou budovou s pivním nápisem, detail odznaku či znaku se stuhami a dva snímky mostově působících konstrukcí se sutí nebo poškozením.
+  exact_binary_duplicates_within_batch: 0
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani způsob vzniku digitalizace.
+  visible_text_scope: Na img202.jpg je bezpečně čitelné „Českobudějovické akciové pivo“. Na img203.jpg jsou bezpečně čitelné „ČESKÝ ČL. SPOLEK“, „VLASTIMIL“ a „V RYCHVALDĚ 1893“. Úzký nápis nad vstupem na img201.jpg není bezpečně čitelný.
+  identity_scope: Čitelné texty a rok jsou evidovány jako údaje pramene. Zkratka „ČL.“ není rozepisována a rok „1893“ není bez dalšího pramene vykládán jako datum výroby předmětu ani datum pořízení fotografie. Z pivního nápisu se neurčuje přesná provozovna, provozovatel, lokalita ani datum.
+  scene_relationship_scope: img206.jpg a img216.jpg oba zachycují mostově působící konstrukce se sutí či poškozením. Jejich přesná identita, lokalita, důvod stavu, datace a vzájemný vztah nejsou z obrazů samotných určeny.
+items:
+- id: urbanek-fotodokument-root-036
+  filename: img201.jpg
+  git_blob_sha: dcf50b2a99c8523efb74e8e740a9e914825d4dec
+  sha256: 6a22fd43ac1949419a83f675e28c529058a87caf8a607e9738758f27013b87bc
+  file_size_bytes: 1220441
+  drive_id: 1enqAEQigAMqM2YGgwBdZzSNxms6FMMpj
+  dimensions_px: [1932, 1379]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílý archivní snímek větší budovy se sedlovými taškovými střechami, komíny a kontrastními tmavými pásy na světlé fasádě. Před budovou stojí skupina dospělých a dětí a vpravo dva koně zapřažení do vozu. Úzký nápis nad vstupem není bezpečně čitelný. Přesná budova, funkce, lokalita, osoby a datace nejsou určeny.
+  classification: [monochrome_archival_image, building_exterior, group_portrait, horse_drawn_wagon, unreadable_facade_sign, unidentified_people, unidentified_location]
+  unverified: [exact_location_and_building_identity, building_function_ownership_and_context, full_text_of_facade_sign, identities_of_visible_people, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-037
+  filename: img202.jpg
+  git_blob_sha: 2c2f8595876accab70a13d91fd4ad88c2ba870c2
+  sha256: c6a7196ff9503ec1e39810df8985b38390d82d22e6d2ef3182b5ff9dfe19133b
+  file_size_bytes: 2112014
+  drive_id: 1wo789m510m86oUccd2tVsTGaVWkv3oyt
+  dimensions_px: [2621, 1890]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílý archivní snímek skupiny dospělých a dětí před jednoduchou dřevěnou budovou. Nad vstupem je bezpečně čitelný nápis „Českobudějovické akciové pivo“. V okolí jsou další nízké stavby a dvůr. Nápis je zapisován jako viditelný text; přesná provozovna, provozovatel, lokalita, osoby a datace nejsou určeny.
+  classification: [monochrome_archival_image, wooden_building_exterior, group_portrait, readable_beer_sign, unidentified_business, unidentified_people, unidentified_location]
+  unverified: [exact_business_building_and_location, operator_ownership_and_context, identities_of_visible_people, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-038
+  filename: img203.jpg
+  git_blob_sha: e44a1db5233392c4067ca947f39508ea871a8571
+  sha256: d2d2039711656e8bbd33c883a44f142f7152f74411f77172a59c8a10088ea806
+  file_size_bytes: 511033
+  drive_id: 1V_UTmIGOy_bc9m9Nbw11j2A71kZZKhQH
+  dimensions_px: [1176, 1740]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Barevný detail kovového odznaku či znaku s červeno-bílými stuhami a třásněmi na červeném podkladu. Bezpečně čitelné jsou nápisy „ČESKÝ ČL. SPOLEK“, „VLASTIMIL“ a „V RYCHVALDĚ 1893“. Zkratka „ČL.“ není rozepisována a rok 1893 není bez dalšího pramene vykládán jako datum výroby předmětu nebo pořízení fotografie.
+  classification: [color_documentation_image, badge_or_emblem, red_white_ribbons, readable_text_vlastimil, readable_text_rychvald, visible_year_1893]
+  unverified: [expansion_and_exact_context_of_visible_abbreviation, exact_official_organization_identity, artifact_type_age_manufacture_and_use_context, relationship_of_visible_year_1893_to_artifact_history, date_of_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-039
+  filename: img206.jpg
+  git_blob_sha: 8398e81d40fd6199428cee541c0219e5108fb78d
+  sha256: 1e6b2bd542bb1cd05e496e79e07a032b3bef9aaa619f469aaacfa0ab8e3bfd89
+  file_size_bytes: 105326
+  drive_id: 1SfoeSuSyd8vftd4JQfT2fdlcSVeFmCHw
+  dimensions_px: [875, 600]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílý snímek tří dospělých osob v prostoru s kamením či sutí vedle mostově působící konstrukce s horním zábradlím; v pravém dolním okraji jsou viditelné kolejnice či kolej. Přesná stavba nebo infrastruktura, lokalita, důvod stavu, osoby a datace nejsou určeny.
+  classification: [monochrome_archival_image, people_present, rubble, bridge_like_structure, visible_rail_track, unidentified_infrastructure, unidentified_location]
+  unverified: [exact_structure_infrastructure_and_location, cause_and_context_of_visible_condition, identities_of_visible_people, relationship_to_img216, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-040
+  filename: img216.jpg
+  git_blob_sha: 4f497b8f66401cc99eedf6ea4df18037bb7db925
+  sha256: c5f8963b852db03e67902c3d1efa33d9ebcadc5a2f05c2db6f069c05c24977b0
+  file_size_bytes: 91426
+  drive_id: 1jurJqZFeWO_2dPH6PCKfNfFwc4QBE4pj
+  dimensions_px: [894, 606]
+  mode: RGB
+  exif: {present: false}
+  visual_description: Černobílý snímek poškozené či rozebrané zděné nebo betonové mostově působící konstrukce nad vodou nebo terénní prohlubní; několik osob stojí na horní části a v pozadí je dům. Přesná stavba, lokalita, příčina poškození nebo rozebrání, osoby a datum nejsou určeny.
+  classification: [monochrome_archival_image, damaged_or_dismantled_structure, bridge_like_structure, rubble, people_on_structure, house_in_background, unidentified_infrastructure, unidentified_location]
+  unverified: [exact_structure_infrastructure_and_location, cause_and_context_of_visible_condition, identities_of_visible_people, relationship_to_img206, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, visible scene, listed image dimensions and color mode
+- absence of EXIF entries in the JPEG metadata inspected

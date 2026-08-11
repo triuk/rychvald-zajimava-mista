@@ -5,22 +5,23 @@ source_root: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 19
 drive_folder_id: 1OOe829hkaoHoNRs0HyajQROhknLD_aeg
 attribution: Z osobního archivu p. Jaromíra Urbánka.
 rights: unknown
-status: in_progress
+status: completed
 totals: {content_files: 16, technical_files: 2, total_items: 18}
 progress:
-  processed_content_files: 15
-  processed_technical_files: 0
-  processed_items: 15
-  repo_verified_items: 15
-  visually_classified_items: 15
-  source_indexed_items: 15
-  remaining_content_files: 1
-  remaining_technical_files: 2
-  remaining_items: 3
+  processed_content_files: 16
+  processed_technical_files: 2
+  processed_items: 18
+  repo_verified_items: 18
+  visually_classified_items: 16
+  source_indexed_items: 18
+  remaining_content_files: 0
+  remaining_technical_files: 0
+  remaining_items: 0
 completed_batches:
 - {number: 1, items: 001-005, filenames: [img970.jpg, img971.jpg, img972.jpg, img975.jpg, img976.jpg], id: obrana-slezska-1912-schooling-and-rychvald-clippings-01, inventory: research/urbanek-archive/collections/newspaper-articles-1903-1925-inventory-01.csv, classification: research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-01.yml, source_index: sources/index.d/urbanek-newspaper-articles-1903-1925-01.yml}
 - {number: 2, items: 006-010, filenames: [img979.jpg, img983.jpg, img984.jpg, img985.jpg, img987.jpg], id: rychvald-schooling-minority-law-and-municipal-election-clippings-02, inventory: research/urbanek-archive/collections/newspaper-articles-1903-1925-inventory-02.csv, classification: research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-02.yml, source_index: sources/index.d/urbanek-newspaper-articles-1903-1925-02.yml}
 - {number: 3, items: 011-015, filenames: [img989.jpg, img990.jpg, img991.jpg, img992.jpg, img993.jpg], id: rychvald-elections-voter-lists-and-ostrava-daily-clippings-03, inventory: research/urbanek-archive/collections/newspaper-articles-1903-1925-inventory-03.csv, classification: research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-03.yml, source_index: sources/index.d/urbanek-newspaper-articles-1903-1925-03.yml}
+- {number: 4, items: 016-018, filenames: [img995.jpg, Thumbs.db, ZbThumbnail.info], id: ostravsky-dennik-overlap-and-thumbnail-caches-04, inventory: research/urbanek-archive/collections/newspaper-articles-1903-1925-inventory-04.csv, classification: research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-04.yml, source_index: sources/index.d/urbanek-newspaper-articles-1903-1925-04.yml}
 interpretation_rules:
 - The folder title and filenames are archival metadata and are not independent proof of publication date, article identity, page sequence, physical provenance or completeness.
 - Printed masthead dates, issue numbers, periodical titles and article headings are direct source content of the photographed/reproduced newspaper material.
@@ -28,11 +29,18 @@ interpretation_rules:
 - Generic EXIF DateTime without DateTimeOriginal is recorded only as digital-file metadata and is not used as the newspaper issue date or historical event date.
 - Separate image files are linked as parts of one textual sequence only when direct printed-text overlap or another explicit source-level relation demonstrates it; numeric filename sequence alone is insufficient.
 - Cropped or missing masthead/page data are left unresolved and are not reconstructed from neighboring filenames alone.
+- Technical thumbnail/cache files are derivative records and are not counted as independent historical image evidence.
+- A thumbnail cache record for a filename without a standalone full file proves a missing full original under the archive workflow; pixel-identical thumbnail duplicates do not add separate missing image content.
 - Exact binary duplicates under different archive paths remain separate inventory items but constitute one independent source image where duplication is demonstrated.
-open_uncertainties: [URB-U-0085]
+open_uncertainties: [URB-U-0085, URB-U-0086]
 technical_files:
-- {path: Thumbs.db, status: not_yet_audited}
-- {path: ZbThumbnail.info, status: not_yet_audited}
-next_batch:
-  number: 4
-  filenames: [img995.jpg, Thumbs.db, ZbThumbnail.info]
+- {path: Thumbs.db, status: audited_technical_cache, source_id: urbanek-newspaper-articles-1903-1925-017}
+- {path: ZbThumbnail.info, status: audited_technical_cache, source_id: urbanek-newspaper-articles-1903-1925-018}
+cache_gap_summary:
+  missing_standalone_filenames_in_thumbs_catalog: 18
+  missing_names_pixel_identical_to_current_standalone_thumbnails: 6
+  missing_only_thumbnail_duplicate_pairs: 3
+  additional_distinct_missing_thumbnail_contents: 9
+  zbthumbnail_unique_jpeg_filename_references: 26
+  zbthumbnail_missing_filename_references: 10
+next_batch: null

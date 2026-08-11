@@ -12,47 +12,45 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 555 | 25 | **580** |
-| zbývá | 32 | 4 | **36** |
+| zpracováno | 556 | 27 | **583** |
+| zbývá | 31 | 2 | **33** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **13 kolekcí**. Aktivní je kolekce `novinové články 1903 - 1925`.
+Dokončeno je **14 kolekcí**. Kolekce `novinové články 1903 - 1925` je kompletně zpracována **18/18**. Zbývá jediná skupina `popopo`.
 
-## novinové články 1903 - 1925 – dávka 03
+## novinové články 1903 - 1925 – dávka 04 a dokončení kolekce
 
-Zpracovány byly `img989.jpg`, `img990.jpg`, `img991.jpg`, `img992.jpg` a `img993.jpg`. Všech pět raw souborů přesně odpovídá velikostem a Git blobům v repozitáři. `img989.jpg` má pouze obecný EXIF DateTime `2013:05:29 14:39:53` a výrobce Canon; DateTimeOriginal chybí. Ostatní čtyři soubory EXIF nemají a žádný z pěti souborů neobsahuje GPS údaje.
+Zpracovány byly `img995.jpg`, `Thumbs.db` a `ZbThumbnail.info`. Všechny tři raw soubory přesně odpovídají velikostem a Git blobům v repozitáři.
 
-`img989.jpg` je výřez textu o volbách v Rychvaldě; bezpečně čitelná je mimo jiné věta `V sobotu 23. března konaly se volby kostelního výboru v Rychvaldě.`. Masthead, číslo a datum vydání v tomto výřezu chybí.
+`img995.jpg` nemá EXIF ani GPS. Přímý vizuální a textový překryv s `img993.jpg` dokládá, že zachycuje stejnou stránku/sekci `OSTRAVSKÝ DENNÍK` s článkem `Boj—česko-polský.`, pouze ve větším vertikálním rozsahu.
 
-`img990.jpg` reprodukuje `OBRANA SLEZSKA`, číslo 28, dataci `V Orlové, 12. července 1912.`, `III. ročník.` a začátek článku `Volební listiny jsou v Rychvaldě podruhé vyloženy.`. `img991.jpg` se s touto částí přímo překrývá a zachycuje detail téhož textu.
+`Thumbs.db` je OLE/Compound Document. Katalog obsahuje 34 pojmenovaných `.jpg` záznamů a jeden zvláštní GUID záznam; všech 35 thumbnail datových streamů obsahuje přímo dekódovatelné JPEG obrázky. V katalogu jsou všechna současná jména 16 samostatných JPEGů, ale také **18 názvů bez samostatného plného souboru**.
 
-Na konci `img991.jpg` je rozdělené `česko-pol-`; `img992.jpg` začíná `ské zgody!`, takže textová návaznost je přímo doložena. `img992.jpg` obsahuje také označení `Strana 2.`.
+Šest z těchto 18 chybějících názvů má pixelově identický náhled s některým dochovaným JPEGem. U zbývajících jsou tři dvojice navzájem identických náhledů. Po odečtení těchto duplicit cache dokládá **9 odlišných obrazových obsahů bez samostatného plného souboru**.
 
-`img993.jpg` reprodukuje `OSTRAVSKÝ DENNÍK`, `Ročník VI.`, `V Mor. Ostravě, ve čtvrtek dne 18. října 1906.`, `Číslo 238.` a záhlaví `Boj—česko-polský.`; viditelný text zmiňuje Rychvald.
+`ZbThumbnail.info` začíná `zbex` a obsahuje 26 unikátních `.jpg` referencí: všech 16 současných názvů a deset chybějících názvů. Tyto reference nezávisle pokrývají stejných 9 odlišných chybějících obsahů. Kvůli rozdílné interní struktuře se u tohoto souboru nezapisuje silnější tvrzení o přesném počtu samostatně dekódovatelných vložených JPEGů.
 
-Tištěná tvrzení článků zůstávají evidována jako obsah dobového pramene, nikoli jako nezávisle ověřené skutečnosti. Nejistota `URB-U-0085` byla rozšířena na položky 001–015; nová nejistota nevznikla.
+Pro tento archivní deficit vznikla samostatná nejistota `URB-U-0086`. Nejistota `URB-U-0085` byla rozšířena na poslední obsahovou položku `img995.jpg`.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| novinové články 1903 - 1925 | 1 | 2 | 3 |
-| popopo | 31 | 2 | 33 |
-| **Celkem** | **32** | **4** | **36** |
+| popopo | 31 | 2 | **33** |
 
 ## Registr nejistot
 
-- `open`: 50;
+- `open`: 51;
 - `resolved`: 32;
 - `not_actionable`: 3;
-- celkem: 85.
+- celkem: 86.
 
 ## Aktuální krok
 
-Čtvrtá a závěrečná dávka kolekce `novinové články 1903 - 1925`:
+Zahájit poslední kolekci `popopo`:
 
-- `img995.jpg`;
-- `Thumbs.db`;
-- `ZbThumbnail.info`.
+- 31 obsahových souborů;
+- 2 technické soubory;
+- Drive složka `1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

@@ -1,0 +1,51 @@
+schema_version: 1
+collection_id: urbanek-newspaper-articles-1903-1925
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-newspaper-articles-1903-1925-016
+  title: img995.jpg
+  source_path: novinové články 1903 - 1925/img995.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img995.jpg
+  source_role: content
+  document_type: newspaper_page_overlap_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 2105037
+  git_blob_sha: ced6271084df60756ba2290c378f95ee578d983a
+  sha256: f69d356a4b14f030b765f73ccf39ea2a7b2a7e57822f1a5ce2b9ac4e3124fd88
+  drive_id: 1EHjMEn2arddskLn-P5cZAumMxlxo09D0
+  repo_status: verified
+  image: {width_px: 2466, height_px: 3467, color_mode: RGB}
+  classification: [newspaper_reproduction, ostravsky_denik, article_boj_cesko_polsky, direct_overlap_with_img993, readable_text_rychvald]
+  summary: Překrývající se reprodukce stejné stránky/sekce `OSTRAVSKÝ DENNÍK` jako img993.jpg, s článkem `Boj—česko-polský.` a delším zachycením textu směrem dolů.
+  capture_metadata: {exif_present: false, gps_present: false}
+  relationship: {direct_visual_and_text_overlap_with: urbanek-newspaper-articles-1903-1925-015}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-017
+  title: Thumbs.db
+  source_path: novinové články 1903 - 1925/Thumbs.db
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/Thumbs.db
+  source_role: technical
+  document_type: technical_thumbnail_cache
+  mime_type: application/octet-stream
+  file_size_bytes: 124416
+  git_blob_sha: e9757435c7f433a7bbd4ce887cd4fccec2afe445
+  sha256: 1f3c5380a9c72ef7cbdf52b098d9d4998f1a50de20087fc5cad6a73fc32598bf
+  drive_id: 1UruSTX3FxgkhYD7MJJt9EyIINIkzRguB
+  repo_status: verified
+  technical_summary: OLE/Compound Document cache with 34 JPEG filename records and 35 directly decoded JPEG thumbnail streams. Eighteen names lack standalone full files; exact thumbnail identity shows that these correspond to 9 additional distinct missing image contents beyond the current standalone JPEGs.
+  uncertainty_ids: [URB-U-0086]
+- source_id: urbanek-newspaper-articles-1903-1925-018
+  title: ZbThumbnail.info
+  source_path: novinové články 1903 - 1925/ZbThumbnail.info
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/ZbThumbnail.info
+  source_role: technical
+  document_type: technical_thumbnail_index
+  mime_type: application/octet-stream
+  file_size_bytes: 1087006
+  git_blob_sha: fed687878a107de697873acc31164de992133e06
+  sha256: dbd28cb2cb90fd7b8450041b8e16eda09635068f443c6ee6f7d08bd02284acbc
+  drive_id: 1Qkv32F6lRSOvYN57R9OTQ2me02GhhNQu
+  repo_status: verified
+  technical_summary: Binary `zbex` data with 26 unique JPEG filename references: all 16 current standalone names plus ten missing names. These references independently correspond to the same 9 distinct missing thumbnail contents established from Thumbs.db; generating software is not inferred.
+  uncertainty_ids: [URB-U-0086]

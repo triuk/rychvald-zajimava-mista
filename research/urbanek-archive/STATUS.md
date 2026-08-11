@@ -22,13 +22,25 @@
 
 Bylo ručně projito všech **53 otevřených položek**. Nebyla nalezena žádná dvojice, kterou by bylo bezpečné sloučit jako totožnou otázku bez ztráty samostatných nevyřešených atributů nebo historie evidence.
 
-Původní pole `priority:` se nemění. Nad registrem je nově zavedeno pořadí výzkumných vln popsané v `research/urbanek-archive/reports/uncertainty-prioritization-review-2026-08-11.md`.
+Původní pole `priority:` se nemění. Výzkumné pořadí je popsáno v `research/urbanek-archive/reports/uncertainty-prioritization-review-2026-08-11.md`.
 
-Výzkumná vlna 1 obsahuje 15 přímo rychvaldských a projektově významných položek: `URB-U-0036`, `URB-U-0038`, `URB-U-0044`, `URB-U-0049`, `URB-U-0053`, `URB-U-0062`, `URB-U-0063`, `URB-U-0065`, `URB-U-0067`, `URB-U-0075`, `URB-U-0077`, `URB-U-0078`, `URB-U-0079`, `URB-U-0081`, `URB-U-0085`.
+## První výzkumný checkpoint
 
-Paralelní technická větev obnovy plných originálů: `URB-U-0086` a `URB-U-0088`.
+### URB-U-0036 — Kakalův mlýn
 
-Široké průřezové položky `URB-U-0073`, `URB-U-0076`, `URB-U-0082`, `URB-U-0083`, `URB-U-0084` a `URB-U-0087` se nemají uzavírat globálním tvrzením; mají být řešeny po konkrétních a doložitelných atributech.
+Po dokončení celého indexu proběhla nová kontrola textového korpusu, veřejného webu a dostupnosti primárních genealogických fondů. Nebyl nalezen bezpečný údaj o přesné poloze, čp., vlastníkovi, dataci ani technologii Kakalova mlýna.
+
+Kronikářské údaje o mlýně Antonína Skýby jsou vedeny jako jiný objekt. Obecná retrospektivní zmínka o domkářských větrnících a mlýncích pro tajné šrotování dokládá pouze dobový místní kontext a není používána jako identifikace Kakalova mlýna.
+
+FamilySearch katalog potvrzuje pro Rychvald sčítání 1921 a evidence obyvatel 1896–1938 vhodné pro dohledání čp., domácnosti a povolání. Ruční kontrola příslušných obrazových jednotek zůstává dalším primárním krokem. `URB-U-0036` zůstává open.
+
+### URB-U-0086 a URB-U-0088 — chybějící plné originály
+
+V aktuálně připojeném Google Drive byly samostatně vyhledány všechny cache doložené názvové varianty reprezentující 9 odlišných chybějících novinových obrazových obsahů a všech 16 odlišných chybějících obsahů `popopo`.
+
+**Nebyl nalezen žádný exact-name soubor.** Obě položky zůstávají open; další hledání má směřovat na přejmenované obrazové shody a jiná úložiště nebo zálohy, nikoli opakovat stejné názvové dotazy.
+
+Podrobný záznam je v `research/urbanek-archive/verifications/cache-recovery-drive-name-search-2026-08-11.md`.
 
 ## Registr
 
@@ -37,12 +49,8 @@ Paralelní technická větev obnovy plných originálů: `URB-U-0086` a `URB-U-0
 - `not_actionable`: 3;
 - celkem: 88.
 
-## Aktivní výzkum
+## Další aktivní cíl
 
-Aktivní je `URB-U-0036`: **Kakalův mlýn — přesná poloha, vlastník, období existence a technické vybavení**.
-
-Identita historického obrazu jako Kakalův mlýn je již uzavřena pod `URB-U-0007`. Nové hledání nesmí zaměňovat jiné doložené rychvaldské mlýny (např. Skýbův parní/elektrický mlýn) za Kakalův mlýn jen na základě společného místního kontextu.
-
-Negativní výsledek hledání není důvodem k uzavření nevyřešených atributů.
+Další položkou první vlny je `URB-U-0038`: **větrný mlýnek za domem čp. 339 — přesný vlastník, poloha, datace a historie**.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

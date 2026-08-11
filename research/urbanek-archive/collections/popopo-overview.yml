@@ -8,32 +8,34 @@ rights: unknown
 status: in_progress
 totals: {content_files: 31, technical_files: 2, total_items: 33}
 progress:
-  processed_content_files: 15
+  processed_content_files: 20
   processed_technical_files: 0
-  processed_items: 15
-  repo_verified_items: 15
-  visually_classified_items: 15
-  source_indexed_items: 15
-  remaining_content_files: 16
+  processed_items: 20
+  repo_verified_items: 20
+  visually_classified_items: 20
+  source_indexed_items: 20
+  remaining_content_files: 11
   remaining_technical_files: 2
-  remaining_items: 18
+  remaining_items: 13
 completed_batches:
 - {number: 1, items: 001-005, filenames: [916.jpg, Josef Gemrot.jpg, P1010066a.jpg, P1010067.JPG, P1010068.JPG], id: ceremony-portrait-street-crowds-and-school-postcard-01, inventory: research/urbanek-archive/collections/popopo-inventory-01.csv, classification: research/urbanek-archive/collections/popopo-batch-01.yml, source_index: sources/index.d/urbanek-popopo-01.yml}
 - {number: 2, items: 006-010, filenames: [P1010328.JPG, P1010330.JPG, P1010411.JPG, P1010738.JPG, P1010740.JPG], id: residential-buildings-and-vaulted-interior-02, inventory: research/urbanek-archive/collections/popopo-inventory-02.csv, classification: research/urbanek-archive/collections/popopo-batch-02.yml, source_index: sources/index.d/urbanek-popopo-02.yml}
 - {number: 3, items: 011-015, filenames: [P1010741.JPG, P1010743a.jpg, P1010744.JPG, P1010746.JPG, P1010747a.jpg], id: brick-vaults-stove-tree-lined-roads-and-crucifix-03, inventory: research/urbanek-archive/collections/popopo-inventory-03.csv, classification: research/urbanek-archive/collections/popopo-batch-03.yml, source_index: sources/index.d/urbanek-popopo-03.yml}
+- {number: 4, items: 016-020, filenames: [P1010748a.jpg, P1010749.JPG, P1010752.JPG, P1010754.JPG, P1010755a.jpg], id: crucifix-detail-tree-settlement-and-sokol-memorial-building-04, inventory: research/urbanek-archive/collections/popopo-inventory-04.csv, classification: research/urbanek-archive/collections/popopo-batch-04.yml, source_index: sources/index.d/urbanek-popopo-04.yml}
 interpretation_rules:
 - The folder title `popopo` and filenames are archival metadata only and do not independently establish subject, date, location, identity or intended grouping.
 - A personal name in a filename is an archival attribution, not independent proof of the depicted person's identity.
-- EXIF DateTimeOriginal is recorded as digital capture metadata and is not used as the historical date of reproduced archival material or as evidence of building age.
+- EXIF DateTimeOriginal and generic DateTime are recorded separately as digital-file metadata; neither is used as a historical date of reproduced material or as evidence of building age.
 - Persons are not identified from facial appearance alone.
-- Uniform-like clothing, flags, public ceremony, architecture, room form, landscape form and business signage support descriptive classification only; exact event, organization, rank, place, building function and date require corroboration.
+- Uniform-like clothing, flags, public ceremony, architecture, room form, landscape form and signage support descriptive classification only; exact event, organization, place, building function and date require corroboration.
 - Visible inscriptions, house-like numbers and dates are source content; they do not automatically prove a full address, historical date or institutional identity.
-- Similar architecture, landscape form or close EXIF times alone do not establish that separate files depict the same physical site or route.
+- A memorial inscription verifies the wording on the object; historical claims contained in it remain subject to independent verification.
+- Similar architecture, landscape form or close EXIF times alone do not establish that separate files depict the same site or route; direct visual correspondence may establish a same-object/detail relationship where demonstrable.
 - Exact binary duplicates under different archive paths remain separate inventory items but constitute one independent source image where duplication is demonstrated.
 open_uncertainties: [URB-U-0087]
 technical_files:
 - {path: Thumbs.db, status: not_yet_audited}
 - {path: ZbThumbnail.info, status: not_yet_audited}
 next_batch:
-  number: 4
-  filenames: [P1010748a.jpg, P1010749.JPG, P1010752.JPG, P1010754.JPG, P1010755a.jpg]
+  number: 5
+  filenames: [P1010764.JPG, P1010765a.jpg, P1010791.JPG, P1010791a.jpg, img129.jpg]

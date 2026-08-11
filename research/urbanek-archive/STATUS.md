@@ -12,31 +12,31 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 571 | 27 | **598** |
-| zbývá | 16 | 2 | **18** |
+| zpracováno | 576 | 27 | **603** |
+| zbývá | 11 | 2 | **13** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **15/33**.
+Dokončeno je **14 kolekcí**. Aktivní je poslední kolekce `popopo`, zpracováno **20/33**.
 
-## popopo – dávka 03
+## popopo – dávka 04
 
-Zpracovány byly `P1010741.JPG`, `P1010743a.jpg`, `P1010744.JPG`, `P1010746.JPG` a `P1010747a.jpg`. Všech pět raw souborů přesně odpovídá velikostem a Git blobům v repozitáři a v dosud indexovaných source záznamech nebyla nalezena předchozí shoda Git blob SHA.
+Zpracovány byly `P1010748a.jpg`, `P1010749.JPG`, `P1010752.JPG`, `P1010754.JPG` a `P1010755a.jpg`. Všechny raw soubory přesně odpovídají velikostem a Git blobům v repozitáři; v dosud indexovaných source záznamech nebyla nalezena předchozí shoda Git blob SHA.
 
-Všech pět JPEGů uvádí Panasonic DMC-TZ3 a DateTimeOriginal dne 10. dubna 2012 mezi 12:12:30 a 12:38:09. Žádný nemá GPS. Tyto údaje jsou technická metadata digitálních snímků a nejsou používány jako důkaz společné lokality, totožnosti objektů nebo jejich historického stáří.
+Všech pět souborů uvádí Panasonic DMC-TZ3 a pouze obecný EXIF DateTime, nikoli DateTimeOriginal. Hodnoty sahají od 10. do 17. dubna 2012; žádný soubor nemá GPS. Tyto hodnoty jsou evidovány pouze jako technická metadata souboru.
 
-`P1010741.JPG` zachycuje rozsáhlý neomítnutý cihelný klenutý interiér. `P1010743a.jpg` zachycuje jiný světlý klenutý interiér se zděným topeništěm či pecí a masivní dřevěnou konstrukcí. Jejich vzájemný vztah ani přesná funkce či objekt nejsou určeny.
+`P1010748a.jpg` je přímým obrazovým srovnáním doložen jako alternativní záběr či upravená reprodukce stejného krucifixu jako `P1010747a.jpg`; čitelné je `I.N.R.I.`.
 
-`P1010744.JPG` a `P1010746.JPG` zachycují stromořadí podél asfaltových komunikací mezi otevřenými plochami či poli. Podobnost motivu ani blízké EXIF časy nejsou považovány za důkaz stejné trasy.
+`P1010749.JPG` zobrazuje výrazný starý listnatý strom u komunikace a elektrického vedení. `P1010752.JPG` zachycuje okraj zástavby s několika vzrostlými stromy a budovami. Přesná lokalita, identita a status těchto objektů nejsou určeny.
 
-`P1010747a.jpg` zobrazuje venkovní dřevěný krucifix s korpusem a obloukovou stříškou; bezpečně čitelné je `I.N.R.I.`. Přesná lokalita, stáří, autorství a historie objektu nejsou určeny.
+`P1010754.JPG` zobrazuje větší budovu s restauračními nápisy a pamětní deskou; bezpečně čitelné jsou `RESTAURACE`, `PENZION` a `PIVNICE`. `P1010755a.jpg` je přímo doložený detail pamětní desky na této budově. Čitelné jsou `PAMÁTCE RODINY EICHENBAUMŮ`, `V TÉTO BUDOVĚ`, `19. LISTOPADU 1905`, `BYL ZALOŽEN`, `SOKOL RYCHVALD` a `1949`. Jde o znění pamětní desky; historické tvrzení není v této fázi nezávisle ověřeno.
 
-Nejistota `URB-U-0087` byla rozšířena na položky 001–015; nová nejistota nevznikla.
+Nejistota `URB-U-0087` byla rozšířena na položky 001–020; nová nejistota nevznikla.
 
 ## Zbývající položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| popopo | 16 | 2 | **18** |
+| popopo | 11 | 2 | **13** |
 
 ## Registr nejistot
 
@@ -47,12 +47,12 @@ Nejistota `URB-U-0087` byla rozšířena na položky 001–015; nová nejistota 
 
 ## Aktuální krok
 
-Čtvrtá dávka `popopo`:
+Pátá dávka `popopo`:
 
-- `P1010748a.jpg`;
-- `P1010749.JPG`;
-- `P1010752.JPG`;
-- `P1010754.JPG`;
-- `P1010755a.jpg`.
+- `P1010764.JPG`;
+- `P1010765a.jpg`;
+- `P1010791.JPG`;
+- `P1010791a.jpg`;
+- `img129.jpg`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

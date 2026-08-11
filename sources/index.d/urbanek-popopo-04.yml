@@ -1,0 +1,74 @@
+schema_version: 1
+collection_id: urbanek-popopo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-popopo-016
+  title: P1010748a.jpg
+  source_path: popopo/P1010748a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010748a.jpg
+  document_type: wayside_crucifix_alternate_view
+  file_size_bytes: 1333397
+  git_blob_sha: 567b7e6c52ac33c964ffd7a6423e94aadef3c7ac
+  sha256: 999c95fc71ca4c894e0840d8d06885c9db3706e3c5bb59570ca534f124482ce6
+  drive_id: 1sulSEUAkDrtG9PI5-x-oPqfGC_uGUS8S
+  image: {width_px: 2304, height_px: 3072, color_mode: RGB}
+  summary: Alternativní záběr stejného krucifixu jako P1010747a.jpg; čitelné `I.N.R.I.`.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:10 12:38:17', datetime_original: null, gps_present: false}
+  relationship: {same_photographed_object_as: urbanek-popopo-015}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-017
+  title: P1010749.JPG
+  source_path: popopo/P1010749.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010749.JPG
+  document_type: mature_tree_photograph
+  file_size_bytes: 3479902
+  git_blob_sha: 808cd5d0ad7bd819142175905f73f468978cbd4f
+  sha256: 2cfd26b3cb7ad62ca46fa8562063b6ea21d871d4566ca5b59437696995610dc6
+  drive_id: 12RdWgHtnupncnYANb6aaNdv4oh62VvKM
+  image: {width_px: 2304, height_px: 3072, color_mode: RGB}
+  summary: Výrazný starý listnatý strom u komunikace a elektrického vedení; přesná lokalita a status nejsou určeny.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:10 12:52:07', datetime_original: null, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-018
+  title: P1010752.JPG
+  source_path: popopo/P1010752.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010752.JPG
+  document_type: settlement_and_trees_photograph
+  file_size_bytes: 3349753
+  git_blob_sha: 774bc6e06f60708b4d78abd0c52b423be2dfb1b0
+  sha256: 6c59f8ac19c478555d946b4552c65c42eb30c02f4d62324878581c16cbeb11a9
+  drive_id: 1kGKC5QpUv9eCAs565iQq7KdOYrmvVeBq
+  image: {width_px: 3072, height_px: 2304, color_mode: RGB}
+  summary: Okraj zástavby přes travnatou plochu s několika vzrostlými stromy a budovami; přesná lokalita není určena.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:13 14:41:22', datetime_original: null, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-019
+  title: P1010754.JPG
+  source_path: popopo/P1010754.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010754.JPG
+  document_type: restaurant_building_photograph
+  file_size_bytes: 3142958
+  git_blob_sha: 19dcaad5621703b7bb7239094e516ff0ef2f75c3
+  sha256: b268eda55297faa5bc68557e2e4e6efccf2e79ca15d8b241bee4799fb415263c
+  drive_id: 1NLVc3Lmi3UQvXljGbwhxhxFvB2FYgp6x
+  image: {width_px: 3072, height_px: 2304, color_mode: RGB}
+  summary: Větší budova s restauračními nápisy a pamětní deskou; bezpečně čitelné `RESTAURACE`, `PENZION`, `PIVNICE`.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:17 15:53:55', datetime_original: null, gps_present: false}
+  relationship: {memorial_plaque_detail_in: urbanek-popopo-020}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-020
+  title: P1010755a.jpg
+  source_path: popopo/P1010755a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010755a.jpg
+  document_type: memorial_plaque_photograph
+  file_size_bytes: 1131620
+  git_blob_sha: bb813b813798352a536abc586295bf0168462e95
+  sha256: 1e34e2ad53272b274cbddb2b1f2b8d4e9cb6642a5789912a39aabe9fb181c30f
+  drive_id: 1zidCJ7-yXSlpLoVq1Ae-ppTDfSB6gC4F
+  image: {width_px: 2360, height_px: 1772, color_mode: RGB}
+  summary: Detail pamětní desky na budově z P1010754.JPG; nápis připomíná rodinu Eichenbaumů a uvádí založení Sokola Rychvald 19. listopadu 1905; vpravo je `1949`. Historické tvrzení není v této fázi nezávisle ověřeno.
+  visible_text: {safe_transcription: ['PAMÁTCE RODINY EICHENBAUMŮ', 'V TÉTO BUDOVĚ', '19. LISTOPADU 1905', 'BYL ZALOŽEN', 'SOKOL RYCHVALD', '1949']}
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime: '2012:04:17 15:54:44', datetime_original: null, gps_present: false}
+  relationship: {plaque_on_building_in: urbanek-popopo-019}
+  uncertainty_ids: [URB-U-0087]

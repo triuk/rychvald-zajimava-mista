@@ -56,6 +56,16 @@ Archivní podsložka však zůstává fyzicky pojmenována `4 Slavnostní volba 
 
 Existuje důležitý pramenný konflikt: rychvaldský článek CČSH z roku 2025 jmenuje za války faráře Gabriela Chrobáčka, ale poválečné ustanovení a volbu biskupem roku **1954** připisuje `Karlu Chrobáčkovi`. Starší městská publikace, archivní složka i historie olomoucké diecéze podporují Gabriela jako rychvaldského faráře a ostravského biskupa, ale žádný nalezený nezávislý pramen zatím výslovně nepřiřadil **rok 1954 Gabrielovi**. Konflikt se proto zachovává a `Karel` se automaticky neopravuje na `Gabriel`.
 
+### URB-U-0063 — 50. výročí CČS v Rychvaldě roku 1970
+
+Dobově blízká rychvaldská kronika, městská publikace `Rychvald 1305–2005` a oficiální text CČSH shodně kotví vznik místní Církve československé k **11. 4. 1920 na Fojtství**. Předmět archivně uváděného 50. výročí je proto bezpečně určen jako **50. výročí založení/ustavení místní CČS v Rychvaldě**. Přesný den vlastní oslavy roku 1970 zatím potvrzen není.
+
+Useknutý filename `přijel farář Kare…` se textově nedoplňuje. Nadřazená podsložka však identifikuje sérii jako návštěvu faráře Vodičky v letech 1965 a 1970 a dobové/městské prameny potvrzují prvního rychvaldského faráře jako **Karla Vodičku**. Identita osoby je tedy zúžena konvergentními prameny, nikoli rekonstrukcí filename.
+
+`Biskup Marceluch` je autoritativně zúžen na **Leo Marcelucha**. Oficiální historie CČSH uvádí jeho volbu roku 1962, administrativní sloučení ostravské a olomoucké diecéze na počátku jeho episkopátu a výkon úřadu do roku 1988. V roce 1970 tedy byl úřadujícím biskupem rozšířené olomoucké diecéze. Konkrétní osobu na fotografii nadále spojuje s Marceluchem archivní filename, nikoli identifikace podle obličeje.
+
+Inventář fondu Diecézní rady CČS(H) Olomouc navíc ukazuje konkrétní primární cíle v Národním archivu: korespondenci s NO Rychvald 1962–1980 (inv. 1448, karton 167), Marceluchovu korespondenci a fotografický soubor `Rychvald, 7 kusů`, 1970–1987 (karton 272).
+
 ### URB-U-0086 a URB-U-0088 — chybějící plné originály
 
 Exact-name hledání všech cache doložených názvů v připojeném Google Drive skončilo bez shody. Další směr je obrazová shoda pod jinými názvy nebo jiné úložiště/záloha.
@@ -69,6 +79,6 @@ Exact-name hledání všech cache doložených názvů v připojeném Google Dri
 
 ## Další aktivní cíl
 
-`URB-U-0063`: **50. výročí CČS v Rychvaldě roku 1970 a identifikace hostů a účastníků**.
+`URB-U-0065`: **obnovená tradice husovské hranice — kdo ji obnovil, kdy, jak souvisí průvod a hranice a jak dlouho tradice pokračovala**.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

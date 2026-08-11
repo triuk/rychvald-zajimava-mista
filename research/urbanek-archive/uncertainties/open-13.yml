@@ -17,19 +17,42 @@ items:
       - "Urbanek-ccs-047 zachycuje v kněžišti tři muže v duchovním oděvu a jednoho muže v obleku."
       - "Duchovní vlevo na urbanek-ccs-047 má výrazný řetěz nebo insignii a drží kytici; další osoba také drží kytici."
       - "Na oltáři urbanek-ccs-047 je viditelný kalich a květinová výzdoba."
-      - "Rok 1970 a formulace o 50. výročí založení CČS v Rychvaldě pocházejí z archivního názvu urbanek-ccs-047 a z názvu druhé podsložky."
+      - "Archivní název urbanek-ccs-047 uvádí rok 1970 a 50. výročí založení CČS v Rychvaldě."
+      - "Dobově blízká rychvaldská kronika uvádí `Založení církve čsl. 11. 4. 1920` a v oddílu o náboženských poměrech popisuje první schůzi na Fojtství 11. dubna 1920."
+      - "Městská publikace Rychvald 1305–2005 a oficiální článek CČSH z roku 2025 nezávisle uvádějí založení/ustavení místní Církve československé na Fojtství dne 11. 4. 1920."
       - "Urbanek-ccs-066 zachycuje dítě podávající ruku ústřednímu duchovnímu s kyticí a knihami nebo složkou."
-      - "Název urbanek-ccs-066 končí řetězcem ‚Kare‘; pokračování jména v dochovaném názvu chybí."
+      - "Název urbanek-ccs-066 končí řetězcem `Kare`; pokračování jména v dochovaném názvu chybí a filename se textově nerekonstruuje."
+      - "Nadřazená podsložka 066/067 se jmenuje `Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50`; rychvaldská kronika a Rychvald 1305–2005 uvádějí prvního rychvaldského faráře CČS jako Karla Vodičku. Tato konvergence identifikuje osobu `Kare…` jako Karla Vodičku, nikoli však chybějící doslovný text filename."
       - "Urbanek-ccs-067 je širší reprodukce přesně téhož fotografického obrazu jako urbanek-ccs-066 a navíc ukazuje vlevo holohlavého duchovního s řetězem nebo insignií a vpravo muže v obleku s kyticí."
       - "Geometrické porovnání urbanek-ccs-066 a 067 nalezlo 306 konzistentních shod, z nichž 96,8 % odpovídá jednomu modelu výřezu a změny měřítka; nejde tedy o dva nezávislé okamžiky."
       - "Archivní název urbanek-ccs-067 označuje levého duchovního jako biskupa Marcelucha; obraz neobsahuje jméno ani úřad."
+      - "Oficiální historie olomoucké diecéze CČSH uvádí, že po smrti Františka M. Hníka roku 1962 byl zvolen Leo Marceluch, na počátku jeho episkopátu byly ostravská a olomoucká diecéze administrativně sloučeny se sídlem v Olomouci a Marceluchův episkopát trval do roku 1988."
+      - "Online kopie inventáře fondu Diecézní rada CČS(H) Olomouc uvádí přímo relevantní primární jednotky: korespondenci s NO Rychvald 1962–1980 (inv. 1448, karton 167), volbu a instalaci Leo Marcelucha 1962 (inv. 1829, karton 225), jeho služební korespondenci 1962–1987 (inv. 1833, karton 226) a fotografický soubor Rychvald, 7 kusů, 1970–1987 (karton 272)."
+    partially_resolved_attributes:
+      anniversary_subject_and_starting_event:
+        value: "50. výročí založení/ustavení Církve československé v Rychvaldě; zakládající schůze na Fojtství 11. 4. 1920"
+        status: independently_supported_by_contemporary_local_chronicle_city_history_and_official_CCSH_text
+      Kare_person_identity:
+        value: "Karel Vodička, první rychvaldský farář CČS"
+        status: convergent_archival_context_plus_independent_local_personnel_history
+        scope_note: "Identita osoby je zúžena; fyzicky useknutý filename se nedoplňuje a zůstává `Kare…`."
+      Marceluch_authoritative_identity:
+        value: "Leo Marceluch"
+        status: independently_verified_by_official_CCSH_diocesan_history
+      Marceluch_episcopal_office_in_1970:
+        value: "biskup administrativně sloučené a územně rozšířené olomoucké diecéze CČSH"
+        status: independently_verified_by_official_CCSH_diocesan_history
+      Marceluch_episcopate_endpoint:
+        value: 1988
+        status: independently_verified_by_official_CCSH_diocesan_history
     unresolved_attributes:
-      - exact_event_date
-      - exact_anniversary_subject_and_starting_event
-      - independent_confirmation_of_year_1970
-      - complete_Kare_name_and_identity
-      - Marceluch_authoritative_name_spelling_identity_and_episcopal_office
-      - identities_and_roles_of_clergy_and_other_guests
+      - exact_event_date_in_1970
+      - independent_period_confirmation_that_items_047_066_067_are_from_same_anniversary_event
+      - complete_literal_filename_text_after_Kare
+      - Karel_Vodicka_exact_role_and_visit_program_in_1970
+      - direct_documentary_identification_of_left_clergy_in_item_067_as_Leo_Marceluch
+      - central_clergy_identity_in_items_066_067
+      - identities_and_roles_of_other_clergy_and_guests
       - identity_and_meaning_of_each_chain_or_insignia
       - exact_service_ceremony_welcome_and_program
       - identities_of_children_and_welcoming_participants
@@ -37,16 +60,20 @@ items:
       - relationship_between_items_047_066_067_and_other_1970_visit_images
       - relationship_to_Chrobacek_Vodicka_Bogumski_and_baptism_series
     next_action: >-
-      Hledat výroční program, sborovou a obecní kroniku, zápisy rady starších, dobový
-      tisk, návštěvní protokoly, personální prameny k Marceluchovi a osobě Kare…, seznam
-      hostů a další popsané fotografie z roku 1970. Urbanek-ccs-066 a 067 počítat jako
-      dvě archivní reprodukce jednoho fotografického obrazu, nikoli dva doklady události.
+      Primárně prověřit fond Diecézní rady CČS(H) Olomouc v Národním archivu:
+      inv. č. 1448 (korespondence s NO Rychvald 1962–1980, karton 167), případně
+      Marceluchovu korespondenci inv. č. 1833 a fotografický soubor Rychvald 1970–1987
+      v kartonu 272. Hledat program, přesné datum, seznam hostů a popisy fotografií.
+      Useknutý filename `Kare…` ponechat doslova; Karel Vodička je identifikace osoby
+      z konvergentních pramenů, nikoli rekonstruovaný text názvu souboru.
     reopen_triggers:
       - anniversary_program_found
       - church_or_municipal_chronicle_entry_found
+      - National_Archive_Rychvald_correspondence_reviewed
+      - National_Archive_Rychvald_photographs_reviewed
       - dated_press_report_found
       - complete_Kare_caption_found
-      - Marceluch_personnel_record_found
+      - Marceluch_personnel_or_visit_record_found
       - council_minutes_found
       - participant_identification_provided
     evidence:
@@ -54,6 +81,7 @@ items:
       - sources/index.d/urbanek-ccs-10.yml
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
       - sources/index.d/urbanek-ccs-14.yml
+      - research/urbanek-archive/verifications/urb-u-0063-1970-anniversary-marceluch-recheck-2026-08-11.md
 
   - id: URB-U-0064
     status: open

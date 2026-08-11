@@ -1,0 +1,90 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+collection_title: fotografie, které nebyl použité pro knihu ani kalendář
+batch_number: 6
+batch_id: commemorative-collage-wayside-shrine-procession-and-thumbnail-cache-06
+status: completed
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář
+  drive_folder_id: 17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g
+  items: [img010aa.jpg, img037.jpg, img724.jpg, Thumbs.db]
+  content_files: 3
+  technical_files: 1
+method:
+- Drive metadata verification and raw-file download from the canonical collection folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, dimensions, color mode, EXIF and GPS-field inspection for the three JPEGs.
+- Binary OLE/Compound Document inspection of Thumbs.db, including directory-stream parsing, current filename-reference matching and direct decoding of embedded JPEG streams.
+- Safe transcription of clearly readable wording; visual attire and decorative motifs are not used alone to assign a specific organization or identify people.
+- The technical cache is treated as a derivative technical record, not as additional independent historical image evidence.
+- Exact binary duplicate check within the batch and search for matching Git blob SHA in already indexed source records.
+batch_findings:
+  general: Tři obsahové obrazy – dekorativní koláž několika mužských portrétů s bezpečně čitelným mottem, drobná sloupková sakrální stavba a černobílý průvod či skupina osob na komunikaci – a jeden technický thumbnail cache soubor.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_with_prior_index_found: 0
+  exif_scope: img010aa.jpg obsahuje Canon a DateTimeOriginal `2013:06:28 09:55:14`; model není použitelně vyplněn. img037.jpg a img724.jpg EXIF neobsahují. Žádný z trojice JPEGů neobsahuje GPS údaje.
+  visible_text_scope: Na img010aa.jpg je bezpečně čitelné `Bližnímu k ochraně, vlasti k oslavě!`. Další drobný text v dekorativní kompozici není v této první inventarizační fázi přepisován.
+  identity_scope: Motto, oděv a dekorativní prvky na img010aa.jpg jsou evidovány jako vizuální údaje pramene; bez dalšího podkladu z nich není určována přesná organizace ani osoby.
+  thumbs_db_scope: Thumbs.db je OLE/Compound Document cache. Obsahuje odkazy na všech 28 současných obsahových názvů této kolekce a 28 datových streamů s JPEG náhledy; všech 28 vložených JPEGů bylo přímo dekódováno. Cache je evidována jako odvozený technický soubor a náhledy nejsou počítány jako další nezávislé historické obrazy.
+items:
+- id: urbanek-unused-book-calendar-photographs-026
+  filename: img010aa.jpg
+  item_type: content
+  git_blob_sha: 8fab70c6d7a9bb5029662d5d78254275e445c513
+  sha256: 0e93eef8a07239ea93201cbf1cc7c48a4876e7cce5c0bf48552d322bd6f61d47
+  file_size_bytes: 795335
+  drive_id: 18JxZdjft6y3C2FOabD_cYHJKpgBzDjOp
+  dimensions_px: [941, 1266]
+  mode: RGB
+  exif: {present: true, make: Canon, model: null, datetime_original: '2013:06:28 09:55:14', gps_present: false}
+  visual_description: Dekorativní historizující koláž několika mužských portrétů, doplněná ornamentálními a nástrojově působícími motivy. Nahoře je bezpečně čitelné motto `Bližnímu k ochraně, vlasti k oslavě!`. Přesná organizace, období původních portrétů a osoby nejsou určeny.
+  classification: [archival_collage_reproduction, multiple_male_portraits, decorative_tools_and_emblems, readable_motto, unidentified_context]
+  visible_text: {safe_transcription: 'Bližnímu k ochraně, vlasti k oslavě!', scope_note: 'Motto je viditelný obsah pramene; není samo o sobě používáno k určení přesné organizace nebo osob.'}
+  unverified: [exact_organization_and_context, people_in_portraits, date_and_source_of_original_portraits, author_and_date_of_collage, photographer_or_digitizer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-027
+  filename: img037.jpg
+  item_type: content
+  git_blob_sha: f6d984cf1b376b0b7fce093006816af7fe3a7b45
+  sha256: 141f75e1a2b59aa20904adf22f4d178aa93d5b54f7db6c2e136edfb76413ee00
+  file_size_bytes: 171901
+  drive_id: 1jc6a27yzbrOqXLyZuNgXg7Prkjt6vYap
+  dimensions_px: [725, 1024]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Barevná fotografie drobné bílé sloupkové sakrálně působící stavby s nízkou červenou stříškou a křížovým prvkem nahoře, stojící u komunikace mezi stromy. Přesný typ, zasvěcení, lokalita, stáří a historie objektu nejsou určeny.
+  classification: [color_photograph, wayside_sacral_structure, pillar_or_shrine, cross_element, roadside_setting, unidentified_location]
+  unverified: [exact_object_type_dedication_identity_and_location, construction_date_and_history, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-028
+  filename: img724.jpg
+  item_type: content
+  git_blob_sha: d920d7bb91eead11a401c04e149b14b94961fc58
+  sha256: 8527766fbb6db0654eb8c7029266f5b2f62215b5ff7d1dcb816ff65671d4bf09
+  file_size_bytes: 214186
+  drive_id: 1GwbVjGi1EzGFcbHwNvghtYuhhwY4bfEx
+  dimensions_px: [1554, 984]
+  mode: L
+  exif: {present: false, gps_present: false}
+  visual_description: Černobílý archivní snímek skupiny osob postupujících po komunikaci v řadách. Přesný název a účel průvodu či události, organizace, lokalita, datum a osoby nejsou určeny.
+  classification: [monochrome_archival_image, procession_or_group_walk, people_in_rows, unidentified_event, unidentified_location]
+  unverified: [exact_event_title_purpose_and_organization, people_in_scene, exact_location_and_route, historical_date, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-029
+  filename: Thumbs.db
+  item_type: technical
+  git_blob_sha: 40402388fc67197ab86212ade070030f9aec42c1
+  sha256: bdc8dde24a360fbd8aa5d0855322265d6b760f50aa06a8e555eab23cebb97849
+  file_size_bytes: 114688
+  drive_id: 1GPL7uZ6Cw4mdecbJYXNqVcT2-GXR9s4t
+  mime_type: application/octet-stream
+  technical_description: OLE/Compound Document thumbnail cache odkazující na všech 28 současných obsahových názvů kolekce. Obsahuje 28 datových streamů s JPEG náhledy; všech 28 vložených JPEGů bylo přímo dekódováno. Soubor je derivativní technická položka, nikoli další nezávislý historický obrazový pramen.
+  classification: [technical_cache, ole_compound_document, embedded_jpeg_thumbnails, filename_reference_index]
+  unverified: [generating_application_and_version, creation_and_update_history]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256 of downloaded raw file
+related_uncertainties:
+- URB-U-0084 applies to content items urbanek-unused-book-calendar-photographs-026 through -028 only

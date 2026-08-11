@@ -12,36 +12,33 @@
 
 | Stav | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| zpracováno | 537 | 24 | **561** |
-| zbývá | 50 | 5 | **55** |
+| zpracováno | 540 | 25 | **565** |
+| zbývá | 47 | 4 | **51** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-Dokončeno je **12 kolekcí**. Aktivní je kolekce `fotografie, které nebyl použité pro knihu ani kalendář`.
+Dokončeno je **13 kolekcí**. Kolekce `fotografie, které nebyl použité pro knihu ani kalendář` je po šesté dávce kompletně zpracována.
 
-## fotografie, které nebyl použité pro knihu ani kalendář – dávka 05
+## fotografie, které nebyl použité pro knihu ani kalendář – dávka 06 a dokončení kolekce
 
-Zpracovány byly `75.tif`, `8205.jpg`, `8206.jpg`, `P1020271aaaaddd.jpg` a `ggg.tif`. Všech pět raw souborů z kanonické Drive složky přesně odpovídá velikostem a Git blobům v repozitáři. Uvnitř dávky není přesná binární duplicita a žádný z pěti Git blob SHA nebyl nalezen v dosud indexovaných source záznamech.
+Zpracovány byly `img010aa.jpg`, `img037.jpg`, `img724.jpg` a `Thumbs.db`. Tím je kolekce dokončena na **29 z 29 položek**: 28 obsahových souborů a jeden technický cache soubor. Všechny čtyři raw soubory z kanonické Drive složky přesně odpovídají velikostem a Git blobům v repozitáři.
 
-`75.tif` je nekomprimovaný RGB TIFF 3507×3507 px s uloženým rozlišením 600 dpi. Zachycuje silně poškozenou nástěnnou malbu s dochovanými motivy koňského povozu a architektury. Přesný námět, objekt, lokalita, autorství, datace a vztah k `73.jpg` a `74.tif` nejsou určeny.
+`img010aa.jpg` je dekorativní koláž několika mužských portrétů. Bezpečně čitelné je motto `Bližnímu k ochraně, vlasti k oslavě!`; EXIF uvádí Canon a DateTimeOriginal `2013:06:28 09:55:14`. Přesná organizace, období původních portrétů a osoby nejsou určeny.
 
-Na `8205.jpg` jsou bezpečně čitelné `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` a rok `1929`. EXIF DateTimeOriginal je `2012:04:17 11:42:56`. Osoby, přesný organizační a událostní kontext a vztah k jiným snímkům se stejnou formulací nejsou z obrazu samotného určeny.
+`img037.jpg` zobrazuje drobnou bílou sloupkovou sakrálně působící stavbu s červenou stříškou a křížovým prvkem u komunikace. Přesný typ, zasvěcení, lokalita, stáří a historie objektu nejsou určeny.
 
-Na `8206.jpg` je bezpečně čitelné `1910–1930` a z horního organizačního nápisu pouze závěr `… V RYCHVALDĚ`; celý nápis není rekonstruován. EXIF DateTimeOriginal je `2012:04:23 10:06:03`. Viditelné datumové údaje jsou evidovány jako obsah pramene, nikoli automaticky jako technická data expozice.
+`img724.jpg` zachycuje skupinu osob postupujících po komunikaci v řadách. Přesný název a účel průvodu či události, organizace, lokalita, datum a osoby nejsou určeny.
 
-`P1020271aaaaddd.jpg` zobrazuje architektonický detail s obloukovou nikou; z rytého nápisu je bezpečně čitelné pouze `ANNO`. EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2012:11:20 12:05:04`. Další znaky nápisu nejsou rekonstruovány.
+`Thumbs.db` byl auditován jako OLE/Compound Document thumbnail cache. Odkazuje na všech 28 současných obsahových názvů kolekce a obsahuje 28 datových streamů s JPEG náhledy; všech 28 vložených JPEGů bylo přímo dekódováno. Cache je evidována jako odvozená technická položka, nikoli jako dalších 28 nezávislých historických obrazových pramenů.
 
-`ggg.tif` zobrazuje rozsáhlou podlouhlou vícepodlažní budovu s mnoha pravidelnými okny a vysokou valbovou střechou. Obsahuje obecný DateTime `2010:11:26 09:44:21` a software `Microsoft Windows Photo Gallery 6.0.6000.16386`, ale ne DateTimeOriginal; tato metadata nejsou používána jako historická datace budovy.
-
-Nejistota `URB-U-0084` byla rozšířena na položky 001–025; nová nejistota nevznikla.
+Nejistota `URB-U-0084` nyní pokrývá všech 28 obsahových položek kolekce; technický `Thumbs.db` do historické nejistoty přidán nebyl. Nová nejistota nevznikla.
 
 ## Zbývající skupiny a položky
 
 | Skupina | Obsahové | Technické | Celkem |
 |---|---:|---:|---:|
-| fotografie, které nebyl použité pro knihu ani kalendář | 3 | 1 | 4 |
-| novinové články 1903–1925 | 16 | 2 | 18 |
+| novinové články 1903 - 1925 | 16 | 2 | 18 |
 | popopo | 31 | 2 | 33 |
-| **Celkem** | **50** | **5** | **55** |
+| **Celkem** | **47** | **4** | **51** |
 
 ## Registr nejistot
 
@@ -52,11 +49,10 @@ Nejistota `URB-U-0084` byla rozšířena na položky 001–025; nová nejistota 
 
 ## Aktuální krok
 
-Šestá a závěrečná dávka kolekce `fotografie, které nebyl použité pro knihu ani kalendář`:
+Zahájit kolekci `novinové články 1903 - 1925`:
 
-- `img010aa.jpg`;
-- `img037.jpg`;
-- `img724.jpg`;
-- `Thumbs.db`.
+- 16 obsahových souborů;
+- 2 technické soubory;
+- Drive složka `1OOe829hkaoHoNRs0HyajQROhknLD_aeg`.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

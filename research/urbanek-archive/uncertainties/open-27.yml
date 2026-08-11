@@ -4,7 +4,7 @@ items:
   status: open
   priority: medium
   collection: fotografie, které nebyl použité pro knihu ani kalendář
-  type: unused_book_calendar_photographs_subject_location_date_event_person_artifact_map_plan_provenance_and_rights
+  type: unused_book_calendar_photographs_subject_location_date_event_person_artifact_map_plan_school_provenance_and_rights
   source_items:
   - urbanek-unused-book-calendar-photographs-001
   - urbanek-unused-book-calendar-photographs-002
@@ -16,28 +16,38 @@ items:
   - urbanek-unused-book-calendar-photographs-008
   - urbanek-unused-book-calendar-photographs-009
   - urbanek-unused-book-calendar-photographs-010
-  question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `fotografie, které nebyl použité pro knihu ani kalendář`, včetně identity map, plánů, staveb, monumentů, veřejných událostí, technických či stavebních fragmentů, heraldických motivů a osob; jaký je vztah archivních názvů souborů a EXIF údajů k původu jednotlivých obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
+  - urbanek-unused-book-calendar-photographs-011
+  - urbanek-unused-book-calendar-photographs-012
+  - urbanek-unused-book-calendar-photographs-013
+  - urbanek-unused-book-calendar-photographs-014
+  - urbanek-unused-book-calendar-photographs-015
+  question: Jaká je přesná identita, lokalizace, historická datace a kontext obrazových materiálů ve složce `fotografie, které nebyl použité pro knihu ani kalendář`, včetně identity map, plánů, staveb, školních a jiných institucí, monumentů, veřejných událostí, technických či stavebních fragmentů, heraldických motivů a osob; jaký je vztah archivních názvů souborů, viditelných datací a EXIF údajů k původu jednotlivých obrazů, kdo materiály pořídil nebo digitalizoval a jaká práva se k nim vztahují?
   known_facts:
   - Kolekce obsahuje v aktuálním Git snapshotu 28 obsahových souborů a jeden technický soubor Thumbs.db.
-  - První dvě dávky zahrnují položky urbanek-unused-book-calendar-photographs-001 až -010; všech deset raw souborů z kanonické Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
+  - První tři dávky zahrnují položky urbanek-unused-book-calendar-photographs-001 až -015; všech patnáct raw souborů z kanonické Drive složky bylo ověřeno proti velikostem a Git blobům v repozitáři.
   - 045.jpg je digitální reprodukce starší kreslené mapy; bezpečně čitelné jsou mimo jiné popisky „Mähren“ a „Oder Fluvius“. EXIF DateTimeOriginal `2010:12:13 05:58:19` je technické metadata reprodukce, nikoli historická datace mapy.
   - 093.JPG zobrazuje věž stavby se sakrální architekturou; EXIF uvádí Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:27 15:22:13`. Přesná stavba, denominace a lokalita nejsou určeny.
   - 134.jpg zobrazuje hřbitov s centrálním kamenným křížem; EXIF uvádí Panasonic DMC-FZ7 a DateTimeOriginal `2009:11:02 14:10:36`. Přesný hřbitov a monument nejsou určeny.
   - 164.jpg zobrazuje početné venkovní shromáždění kolem hořící hranice z polen; EXIF uvádí výrobce Canon a DateTimeOriginal `2012:03:15 09:39:23`. Přesná událost, místo a osoby nejsou určeny.
-  - 2011cIsenburgové z Birsteinu.jpg zobrazuje korunovaný heraldický štít s modrým středovým polem a žlutým lvem. Archivní název souboru obsahuje atribuci „Isenburgové z Birsteinu“, ale obraz samotný ji nezávisle nepotvrzuje.
+  - 2011cIsenburgové z Birsteinu.jpg zobrazuje korunovaný heraldický štít; archivní název souboru obsahuje atribuci „Isenburgové z Birsteinu“, ale obraz samotný ji nezávisle nepotvrzuje.
   - 2061.JPG zobrazuje zděné schodiště do podzemního či suterénního prostoru; EXIF uvádí Canon EOS 400D DIGITAL a DateTimeOriginal `2012:01:16 08:41:32`. Přesná stavba, lokalita a funkce nejsou určeny.
   - 2063.JPG zobrazuje odlomené barevně upravené fragmenty s částečnými znaky; EXIF uvádí Canon EOS 400D DIGITAL a DateTimeOriginal `2012:01:16 08:59:13`. Materiál, původ, význam znaků, stáří a stavební kontext nejsou určeny.
-  - 2069.jpg je reprodukce situačního plánu s bezpečně čitelným titulkem „Vodovod pro velkostatek v Rychvaldě.“, měřítkem `1:2880`, místními popisky „Heřmanice“ a „Rychvald“ a datací „Orlová, v červnu 1934.“. EXIF DateTimeOriginal je `2012:03:11 10:37:36`; viditelná datace plánu a digitální metadata jsou evidovány odděleně.
+  - 2069.jpg je reprodukce situačního plánu s čitelným titulkem „Vodovod pro velkostatek v Rychvaldě.“, měřítkem `1:2880`, místními popisky „Heřmanice“ a „Rychvald“ a datací „Orlová, v červnu 1934.“. EXIF DateTimeOriginal je `2012:03:11 10:37:36`; viditelná datace plánu a digitální metadata jsou evidovány odděleně.
   - 209.jpg zobrazuje několik osob provádějících zemní práce kolem velkého zaobleného kamene; přesná činnost, účel kamene, událost, lokalita, datum a osoby nejsou určeny.
   - 327a.jpg je přesná binární duplicita dříve indexovaného `fotodokument/img041.jpg` (`urbanek-fotodokument-root-006`), se shodnou velikostí, Git blob SHA a SHA-256; obě archivní cesty zůstávají zachovány, ale nepředstavují dva nezávislé obrazové důkazy.
-  - Žádný z prvních deseti souborů neobsahuje GPS údaje.
+  - 333.jpg zobrazuje starší přízemní budovu se sedlovou střechou, plotem a stromy; přesná identita, funkce, vlastnictví, lokalita a datace nejsou určeny.
+  - 367.jpg zobrazuje upravený obdélný venkovní areál s cestami, stromy a budovou v pozadí; přesný druh a účel areálu, budova, lokalita a datace nejsou určeny.
+  - 369.jpg zobrazuje dřevěný dům se skupinou osob, zahradními či hospodářskými konstrukcemi, vodní plochou nebo zaplavenou prohlubní a malým větrným kolem. Obsahuje obecný EXIF DateTime `2012:05:30 10:40:00` a údaj `Adobe Photoshop 7.0 CE`, ale ne DateTimeOriginal; tento údaj není používán jako historická datace scény.
+  - Na 5005a.jpg je na tabuli bezpečně čitelné „Pětitřídní škola v Rychvaldě“. EXIF DateTimeOriginal je `2012:03:15 16:52:47`; přesná škola, budova, osoby, ročník a historická datace fotografie nejsou z tohoto údaje určeny.
+  - Na 5011b.jpg je nad skupinou bezpečně čitelný zápis `1928/29`; bez dalšího pramene není automaticky považován za technicky ověřené datum expozice fotografie. Identity a role osob nejsou určeny.
+  - Žádný z prvních patnácti souborů neobsahuje GPS údaje.
   - Archivní název složky a názvy souborů jsou evidovány jako archivní metadata, nikoli jako samostatný důkaz identity, data, lokality nebo předchozího publikačního využití.
   unknown:
   - exact_identity_title_author_date_and_source_of_map_in_045
   - exact_geographic_scope_and_historical_context_of_map_in_045
   - exact_identity_denomination_and_location_of_sacral_building_in_093
   - exact_cemetery_location_and_identity_history_of_central_crucifix_in_134
-  - identities_of_people_visible_in_134
+  - identities_of_people_visible_in_photographs
   - exact_event_title_purpose_location_and_participant_context_of_164
   - exact_armiger_and_heraldic_identity_of_2011c_image
   - meaning_of_2011c_filename_prefix
@@ -45,7 +55,11 @@ items:
   - material_origin_meaning_age_and_building_context_of_2063_fragments
   - original_plan_provenance_completeness_project_scope_realization_and_georeferencing_for_2069
   - exact_activity_event_purpose_location_and_people_in_209
-  - exact_location_identity_function_ownership_and_date_of_building_in_327a_and_duplicate_img041
+  - exact_location_identity_function_ownership_and_date_of_buildings_in_327a_img041_and_333
+  - exact_facility_type_function_location_and_date_of_367
+  - exact_location_building_identity_people_and_function_of_wind_wheel_or_water_feature_in_369
+  - exact_school_building_people_roles_year_and_context_of_5005a
+  - exact_people_roles_building_and_meaning_of_1928_29_on_5011b
   - relationship_of_archival_filename_claims_to_source_provenance
   - interpretation_of_exif_timestamps_beyond_technical_image_metadata
   - photographer_and_digitizer_identity
@@ -54,7 +68,9 @@ items:
   evidence:
   - research/urbanek-archive/collections/unused-book-calendar-photographs-batch-01.yml
   - research/urbanek-archive/collections/unused-book-calendar-photographs-batch-02.yml
+  - research/urbanek-archive/collections/unused-book-calendar-photographs-batch-03.yml
   - research/urbanek-archive/collections/unused-book-calendar-photographs-overview.yml
   - sources/index.d/urbanek-unused-book-calendar-photographs-01.yml
   - sources/index.d/urbanek-unused-book-calendar-photographs-02.yml
+  - sources/index.d/urbanek-unused-book-calendar-photographs-03.yml
   - sources/index.d/urbanek-fotodokument-root-02.yml

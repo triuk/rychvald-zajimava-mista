@@ -26,6 +26,15 @@ items:
       record_id: 198
       reason: "Záznam se týká repliky v Horních Datyních podle jiného rychvaldského mlýnku z U Školky 344."
       url: http://www.povetrnik.cz/vetrne-mlyny/detail/198
+    post_index_recheck:
+      date: 2026-08-11
+      result: no_historical_location_owner_or_date_resolved
+      findings:
+        - Současné registry potvrzují Bohumínskou 339 a parcelu st. 548 pouze jako dnešní stav; historická kontinuita čp. 339 není doložena.
+        - Stabilní katastr Rychvaldu z roku 1836 je příliš časný na přímé ztotožnění pozdějšího čp. 339 s dnešní parcelou.
+        - Dostupný textový korpus neobsahuje bezpečný historický údaj o vlastníkovi/provozovateli čp. 339 ve spojení s mlýnkem.
+        - Rychvaldské sčítací operáty 1921 a evidence obyvatel jsou vhodný primární pramen, ale potřebná obrazová úroveň nebyla v této relaci bezpečně přečtena.
+      evidence: research/urbanek-archive/verifications/urb-u-0038-house-339-recheck-2026-08-11.md
     unresolved_attributes:
       - exact_historical_location
       - continuity_of_house_number_339
@@ -35,15 +44,16 @@ items:
       - disappearance_date
       - technology_and_use
     next_action: >-
-      Po zpracování dalších archivních dávek prověřit kroniky, adresáře, sčítací operáty,
-      historické mapy, letecké snímky a rodinné materiály na spojení domu č. 339 s mlýnkem.
-      Porovnat okolní stavby a vegetaci na fotografiích s historickými snímky lokality.
-      Současnou adresu Bohumínská 339 nepovažovat za ověřené historické stanoviště bez
-      dalšího nezávislého dokladu.
+      Ručně projít rychvaldské sčítací operáty 1921 a evidence obyvatel podle čp. 339.
+      Nalezeného vlastníka domu nespojovat automaticky s mlýnkem bez dalšího explicitního důkazu.
+      Porovnat historickou stavbu/parcela s fotografiemi a mapami. Současnou adresu Bohumínská 339
+      nepovažovat za ověřené historické stanoviště bez nezávislého dokladu kontinuity.
     reopen_triggers:
-      - new_archive_batch_processed
       - historical_map_or_aerial_found
       - house_number_339_record_found
       - owner_or_family_name_found
       - matching_building_or_landscape_photo_found
-    evidence: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      - census_or_inhabitant_register_image_reviewed
+    evidence:
+      - research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      - research/urbanek-archive/verifications/urb-u-0038-house-339-recheck-2026-08-11.md

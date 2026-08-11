@@ -16,31 +16,27 @@
 | zbývá | 0 | 0 | **0** |
 | celý aktuální snapshot | **587** | **29** | **616** |
 
-**Všech 15 kolekcí aktuálního Git snapshotu je zpracováno.** První úplný inventární a indexační průchod je uzavřen.
+**Všech 15 kolekcí aktuálního Git snapshotu je zpracováno.** Probíhá systematické řešení prioritizovaných nejistot.
 
-## Revize registru nejistot
-
-Bylo ručně projito všech **53 otevřených položek**. Nebyla nalezena žádná dvojice, kterou by bylo bezpečné sloučit jako totožnou otázku bez ztráty samostatných nevyřešených atributů nebo historie evidence.
-
-Původní pole `priority:` se nemění. Výzkumné pořadí je popsáno v `research/urbanek-archive/reports/uncertainty-prioritization-review-2026-08-11.md`.
-
-## První výzkumný checkpoint
+## Výzkumné checkpointy
 
 ### URB-U-0036 — Kakalův mlýn
 
-Po dokončení celého indexu proběhla nová kontrola textového korpusu, veřejného webu a dostupnosti primárních genealogických fondů. Nebyl nalezen bezpečný údaj o přesné poloze, čp., vlastníkovi, dataci ani technologii Kakalova mlýna.
+Přesná poloha, čp., vlastník, datace ani technologie zatím nebyly bezpečně doloženy. Jiný kronikářsky doložený mlýn Antonína Skýby se neslučuje s Kakalovým mlýnem. Prioritním dalším pramenem jsou rychvaldské sčítací operáty a evidence obyvatel.
 
-Kronikářské údaje o mlýně Antonína Skýby jsou vedeny jako jiný objekt. Obecná retrospektivní zmínka o domkářských větrnících a mlýncích pro tajné šrotování dokládá pouze dobový místní kontext a není používána jako identifikace Kakalova mlýna.
+### URB-U-0038 — mlýnek za domem čp. 339
 
-FamilySearch katalog potvrzuje pro Rychvald sčítání 1921 a evidence obyvatel 1896–1938 vhodné pro dohledání čp., domácnosti a povolání. Ruční kontrola příslušných obrazových jednotek zůstává dalším primárním krokem. `URB-U-0036` zůstává open.
+Dnešní registry potvrzují `Bohumínská 339`, parcelu `st. 548`, ale **historická kontinuita čp. 339 není doložena**. Dostupný korpus ani veřejné webové zdroje neposkytly vlastníka/provozovatele ani jisté historické stanoviště. Položka zůstává open; dnešní souřadnice se nepoužívají jako historická poloha.
+
+### URB-U-0044 — Husův sbor za polské okupace
+
+Dílčím ověřením bylo bezpečně zpřesněno heslo na `Pravda vítězí`. Redakční článek CČSH/Českého zápasu z roku 2024 nezávisle potvrzuje uzavření sboru za polské okupace a jeho katolické vysvěcení v srpnu 1939.
+
+Tvrzení, že byly kalich a heslo při okupaci skutečně strženy, je výslovně publikováno CČSH, ale historický text sám identifikuje Jaromíra Urbánka jako autora příslušného souhrnu. Proto toto zveřejnění není považováno za nezávislý druhý pramen k samotnému fasádnímu zásahu. Přesný den, původce a poválečná obnova zůstávají otevřené.
 
 ### URB-U-0086 a URB-U-0088 — chybějící plné originály
 
-V aktuálně připojeném Google Drive byly samostatně vyhledány všechny cache doložené názvové varianty reprezentující 9 odlišných chybějících novinových obrazových obsahů a všech 16 odlišných chybějících obsahů `popopo`.
-
-**Nebyl nalezen žádný exact-name soubor.** Obě položky zůstávají open; další hledání má směřovat na přejmenované obrazové shody a jiná úložiště nebo zálohy, nikoli opakovat stejné názvové dotazy.
-
-Podrobný záznam je v `research/urbanek-archive/verifications/cache-recovery-drive-name-search-2026-08-11.md`.
+Exact-name hledání všech cache doložených názvů v připojeném Google Drive skončilo bez shody. Další směr je obrazová shoda pod jinými názvy nebo jiné úložiště/záloha.
 
 ## Registr
 
@@ -51,6 +47,6 @@ Podrobný záznam je v `research/urbanek-archive/verifications/cache-recovery-dr
 
 ## Další aktivní cíl
 
-Další položkou první vlny je `URB-U-0038`: **větrný mlýnek za domem čp. 339 — přesný vlastník, poloha, datace a historie**.
+`URB-U-0049`: **chronologie poválečné rekonstrukce interiéru Husova sboru a přiřazení jednotlivých zásahů**.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

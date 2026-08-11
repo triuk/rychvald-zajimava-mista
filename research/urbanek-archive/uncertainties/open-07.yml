@@ -53,25 +53,39 @@ items:
       - "Fotografie zachycuje sbor bez jasně viditelného hesla nebo kalichového symbolu na fasádě věže."
       - "Archivní název připisuje odstranění období polské okupace."
       - "Jediný snímek neukazuje původní podobu prvků ani proces jejich odstranění."
+      - "Výroční kalendář 2015 přímo zobrazuje současné průčelí s heslem `PRAVDA VÍTĚZÍ` a znakem kalicha s křížem."
+      - "Redakční text CČSH/Českého zápasu 34/2024 nezávisle potvrzuje uzavření Husova sboru za polské okupace a jeho katolické vysvěcení v srpnu 1939."
+      - "Článek CČSH `Je nám 100 let!` z roku 2025 výslovně tvrdí stržení kalicha a hesla `Pravda vítězí` a poválečné obnovení původní podoby, zároveň však uvádí, že historický souhrn při 90. výročí sepsal Jaromír Urbánek; tvrzení o stržení proto není považováno za nezávislý druhý pramen."
+    partially_resolved_attributes:
+      motto_wording:
+        value: "Pravda vítězí"
+        status: verified_for_current_postwar_facade_and_consistent_official_text
+      polish_occupation_closure_context:
+        status: independently_corroborated
+        scope: "uzavření sboru za polské okupace a katolické vysvěcení v srpnu 1939"
     unresolved_attributes:
       - exact_date_of_removal
       - responsible_authority_or_actor
-      - exact_wording_of_motto
-      - original_form_and_location_of_chalice
-      - whether_elements_were_removed_or_only_obscured
+      - independent_period_confirmation_that_elements_were_removed_not_only_obscured
+      - original_preoccupation_form_and_exact_location_of_chalice
+      - independent_preoccupation_confirmation_of_exact_motto_presence
       - restoration_date_and_method
-      - independent_confirmation_of_polish_occupation_context
+      - primary_archival_documentation_of_facade_alteration
     next_action: >-
-      Porovnat předokupační a poválečné exteriéry, kroniky, obecní a církevní
-      zápisy, okupační nařízení a zprávy o poválečné obnově. Nepoužívat příčinnou
-      vazbu k polskému záboru jako ověřený fakt bez nezávislého textového dokladu.
+      Hledat předokupační exteriér s bezpečně čitelným heslem a kalichem,
+      dobový okupační příkaz nebo církevní/obecní zápis o zásahu a poválečný záznam
+      o obnově fasády. Publikované tvrzení z Urbánkova historického souhrnu evidovat,
+      ale nepovažovat za nezávislé potvrzení pouze proto, že bylo později otištěno CČSH.
     reopen_triggers:
       - preoccupation_photo_found
       - wartime_chronicle_or_order_found
       - postwar_restoration_record_found
       - matching_captioned_photo_found
+      - independent_period_source_found
     evidence:
       - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-04.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-38.yml
+      - research/urbanek-archive/verifications/urb-u-0044-husuv-sbor-occupation-facade-recheck-2026-08-11.md
       - sources/index.d/urbanek-ccs-04.yml
 
   - id: URB-U-0045

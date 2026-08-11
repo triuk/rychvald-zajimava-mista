@@ -1,0 +1,36 @@
+schema_version: 1
+collection_id: urbanek-newspaper-articles-1903-1925
+collection_title: novinové články 1903 - 1925
+source_root: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925
+drive_folder_id: 1OOe829hkaoHoNRs0HyajQROhknLD_aeg
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: in_progress
+totals: {content_files: 16, technical_files: 2, total_items: 18}
+progress:
+  processed_content_files: 5
+  processed_technical_files: 0
+  processed_items: 5
+  repo_verified_items: 5
+  visually_classified_items: 5
+  source_indexed_items: 5
+  remaining_content_files: 11
+  remaining_technical_files: 2
+  remaining_items: 13
+completed_batches:
+- {number: 1, items: 001-005, filenames: [img970.jpg, img971.jpg, img972.jpg, img975.jpg, img976.jpg], id: obrana-slezska-1912-schooling-and-rychvald-clippings-01, inventory: research/urbanek-archive/collections/newspaper-articles-1903-1925-inventory-01.csv, classification: research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-01.yml, source_index: sources/index.d/urbanek-newspaper-articles-1903-1925-01.yml}
+interpretation_rules:
+- The folder title and filenames are archival metadata and are not independent proof of publication date, article identity, page sequence, physical provenance or completeness.
+- Printed masthead dates, issue numbers, periodical titles and article headings are direct source content of the photographed/reproduced newspaper material.
+- Historical assertions printed in an article are preserved as claims of the printed source and are not automatically treated as independently verified facts.
+- Generic EXIF DateTime without DateTimeOriginal is recorded only as digital-file metadata and is not used as the newspaper issue date or historical event date.
+- Separate image files are linked as parts of one textual sequence only when direct printed-text overlap or another explicit source-level relation demonstrates it; numeric filename sequence alone is insufficient.
+- Cropped or missing masthead/page data are left unresolved and are not reconstructed from neighboring filenames alone.
+- Exact binary duplicates under different archive paths remain separate inventory items but constitute one independent source image where duplication is demonstrated.
+open_uncertainties: [URB-U-0085]
+technical_files:
+- {path: Thumbs.db, status: not_yet_audited}
+- {path: ZbThumbnail.info, status: not_yet_audited}
+next_batch:
+  number: 2
+  filenames: [img979.jpg, img983.jpg, img984.jpg, img985.jpg, img987.jpg]

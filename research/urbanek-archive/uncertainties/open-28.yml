@@ -1,0 +1,39 @@
+schema_version: 1
+items:
+- id: URB-U-0085
+  status: open
+  priority: medium
+  collection: novinové články 1903 - 1925
+  type: historical_newspaper_issue_article_page_sequence_provenance_claims_and_rights
+  source_items:
+  - urbanek-newspaper-articles-1903-1925-001
+  - urbanek-newspaper-articles-1903-1925-002
+  - urbanek-newspaper-articles-1903-1925-003
+  - urbanek-newspaper-articles-1903-1925-004
+  - urbanek-newspaper-articles-1903-1925-005
+  question: Jaké jsou přesné bibliografické údaje, stránky, úplnost, vzájemná návaznost a provenience novinových reprodukcí ve složce `novinové články 1903 - 1925`; které články a výřezy patří k týmž číslům či textovým sekvencím, kdo pořídil reprodukce a jaká práva se k nim vztahují; a které historické údaje obsažené v článcích lze později nezávisle doložit?
+  known_facts:
+  - Kolekce obsahuje 16 obsahových JPEGů a technické soubory Thumbs.db a ZbThumbnail.info.
+  - První dávka zahrnuje img970.jpg, img971.jpg, img972.jpg, img975.jpg a img976.jpg; všech pět raw souborů bylo ověřeno proti kanonické Drive složce, velikostem a Git blobům.
+  - img970.jpg reprodukuje `OBRANA SLEZSKA`, číslo 17, `V Orlové, 26. dubna 1912.`, `III. ročník.`, a začátek článku `Naše stanovisko.`, `III.`, `3. Školství.`.
+  - img971.jpg se tištěným textem přímo překrývá s koncem textu viditelného na img970.jpg a pokračuje ve stejném článkovém textu.
+  - img972.jpg reprodukuje masthead `OBRANA SLEZSKA`, číslo 30, `V Orlové, 26. července 1912.`, `III. ročník.`.
+  - img975.jpg je výřez s bezpečně čitelným záhlavím `Z Rychvaldu.`; masthead, číslo a datum vydání ve výřezu nejsou zachyceny.
+  - img976.jpg reprodukuje masthead `OBRANA SLEZSKA`, číslo 40, `V Orlové, 4. října 1912.`, `III. ročník.`.
+  - img971.jpg, img972.jpg a img976.jpg obsahují obecný EXIF DateTime z 29. května 2013, ale ne DateTimeOriginal; tato metadata nejsou používána jako datum historického periodika.
+  - Žádný soubor první dávky neobsahuje GPS údaje.
+  - Tištěná tvrzení článků jsou evidována jako obsah dobového pramene, nikoli jako nezávisle ověřené historické skutečnosti.
+  unknown:
+  - exact_physical_originals_and_page_numbers
+  - full_issue_and_date_for_img975_crop
+  - completeness_and_exact_article_boundaries
+  - relationships_between_other_separate_images_without_direct_text_overlap
+  - original_copy_and_reproduction_provenance
+  - photographer_or_digitizer_identity
+  - interpretation_of_generic_exif_datetime_for_digitization_history
+  - independent_verification_of_historical_claims_printed_in_articles
+  - copyright_and_reuse_rights
+  evidence:
+  - research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-01.yml
+  - research/urbanek-archive/collections/newspaper-articles-1903-1925-overview.yml
+  - sources/index.d/urbanek-newspaper-articles-1903-1925-01.yml

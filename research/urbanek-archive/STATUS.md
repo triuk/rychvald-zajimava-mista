@@ -90,6 +90,18 @@ Pohřební fotografie 142–152 jsou událostně dobře slučitelné s nezávisl
 
 `URB-U-0067` zůstává open: stále chybí nezávislý životopis a role Libuše Vodičkové, přesné mapování osob na návštěvních snímcích 064/065, identifikace uniformovaných a dalších účastníků, historická podoba adresy v roce 1970 a nezávislá datace pietního portrétu 153/154.
 
+### URB-U-0075 — „Náboženský převrat v Rychvaldě“
+
+Nová vizuální kontrola potvrzuje, že `P1010899.JPG` začíná samostatným nadpisem **`Náboženský převrat v Rychvaldě.`**, `P1010900.JPG` přímo pokračuje v neukončené větě a `P1010901.JPG` končí úplnou větou s velkou prázdnou plochou pod textem. Samotný oddíl lze proto s vysokou jistotou považovat za **fotograficky úplný od nadpisu po textový konec**. Neznámé zůstává jeho zasazení v širším rukopisném svazku.
+
+Sousední fotoaparátová čísla `P1010897.JPG`, `P1010898.JPG` a `P1010902.JPG` nebyla v připojeném Google Drive nalezena a `Thumbs.db` ve stejné složce eviduje jen tři známé snímky. To neprokazuje, že okolní fotografie nikdy neexistovaly, ale současný připojený archiv je nedokládá.
+
+Text byl porovnán s obecní Pamětní knihou 1922–1935. Ta popisuje stejné osoby a události — Ferdinanda Niemce, Jana Rainocha, přechod roku 1920 a Karla Vodičku — ale **jiným zněním a členěním**. Fotografované tři stránky proto nelze prostě označit za stránky této obecní kroniky.
+
+Obecní Pamětní kniha zároveň uvádí mezi Škramlíkovými zdroji školní kroniky/vlastní dokumenty a při školských sporech odkazuje na **`paměti správy školy`**. Antonín Škramlík je v ní doložen jako předseda Národního a plebiscitního výboru. Fotografovaný rukopis mluví v první osobě množného čísla z perspektivy účastníků těchto událostí a věnuje se škole a náboženství. **Paměti nebo kronika správy české školy spojené s Antonínem Škramlíkem jsou proto významným kandidátem na zdrojovou třídu, nikoli potvrzeným konkrétním svazkem či autorstvím.**
+
+Čísla stran, titulní list, signatura, autor a dnešní fyzické uložení svazku zůstávají otevřené; na fotografovaných listech není bezpečně čitelné stránkování.
+
 ### URB-U-0086 a URB-U-0088 — chybějící plné originály
 
 Exact-name hledání všech cache doložených názvů v připojeném Google Drive skončilo bez shody. Další směr je obrazová shoda pod jinými názvy nebo jiné úložiště/záloha.
@@ -103,6 +115,6 @@ Exact-name hledání všech cache doložených názvů v připojeném Google Dri
 
 ## Další aktivní cíl
 
-`URB-U-0075`: **přesný rukopisný svazek a úplnost oddílu `Náboženský převrat v Rychvaldě`**.
+`URB-U-0077`: **identifikace historické reprodukce označené `Nádraží` — přesná stanice, lokalita, datace a provenience**.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

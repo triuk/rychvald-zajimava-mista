@@ -1,5 +1,5 @@
-schema_version: 1
-scope: open_item_0075
+schema_version: 2
+scope: open_item_0075_researched_2026_08_12
 items:
 - id: URB-U-0075
   status: open
@@ -11,22 +11,76 @@ items:
   - urbanek-boj-o-nabozenstvi-002
   - urbanek-boj-o-nabozenstvi-003
   question: Z jakého přesného rukopisného svazku a stran pocházejí tři fotografované stránky a je zachycený oddíl úplný?
-  known:
-  - three_images_form_a_continuous_text_sequence
-  - visible_heading_Nabozensky_prevrat_v_Rychvalde
-  - EXIF_and_cache_catalog_confirm_capture_order_899_900_901
-  - thumbnail_cache_contains_no_additional_source_filename
+  known_facts:
+  - Tři obrazy tvoří souvislou textovou posloupnost P1010899.JPG → P1010900.JPG → P1010901.JPG.
+  - První fotografovaná stránka začíná nahoře samostatným nadpisem `Náboženský převrat v Rychvaldě.`; před nadpisem na fotografované straně není pokračující text.
+  - Druhá stránka přímo pokračuje v neukončené větě první a třetí přímo pokračuje v neukončené větě druhé.
+  - Třetí stránka končí úplnou větou o Karlu Vodičkovi a pod posledním řádkem zůstává výrazná prázdná plocha až k dolnímu okraji listu; není vidět pokračování textu.
+  - Obrazová struktura proto dovoluje s vysokou jistotou považovat samotný oddíl `Náboženský převrat v Rychvaldě` za zachycený celý od nadpisu po textový konec.
+  - EXIF potvrzuje rychlou fotografickou posloupnost 4. 6. 2012 od 11:05:40 do 11:06:36; jde o data digitální reprodukce, nikoli historického zápisu.
+  - Thumbs.db obsahuje pouze tři katalogové položky odpovídající 899/900/901 a nedokládá další chybějící soubor ve stejné složce.
+  - Samostatné hledání P1010897.JPG, P1010898.JPG a P1010902.JPG v připojeném Google Drive skončilo bez shody; obecnější hledání P10109 vrátilo pouze dostupnou část této série.
+  - Obecní Pamětní kniha 1922–1935 popisuje Ferdinanda Niemce, Jana Rainocha, předání kostela/fary 1. 5. 1920 a Karla Vodičku, ale její znění a členění nejsou diplomaticky totožné s fotografovaným oddílem.
+  - Přesný nadpis `Náboženský převrat v Rychvaldě` nebyl v dostupné textové vrstvě obecní Pamětní knihy 1922–1935 nalezen; tematická shoda proto sama neidentifikuje fotografované stránky jako tuto obecní kroniku.
+  - Obecní Pamětní kniha uvádí, že Antonín Škramlík čerpal ze školních kronik a vlastních dokumentů, a v jeho životopisném oddílu odkazuje při školských sporech na `paměti správy školy`.
+  - Tatáž obecní kronika dokládá Antonína Škramlíka jako předsedu Národního a plebiscitního výboru v Rychvaldě po roce 1918.
+  - Fotografovaný rukopis používá první osobu množného čísla z perspektivy českých účastníků národních/plebiscitních událostí a podrobně se věnuje škole a výuce náboženství.
+  - Paměti nebo kronika správy české školy spojené s Antonínem Škramlíkem jsou proto podloženým kandidátem na zdrojovou třídu rukopisu, nikoli doloženým přesným svazkem ani autorstvím.
+  partially_resolved_attributes:
+    sequence:
+      value: P1010899.JPG → P1010900.JPG → P1010901.JPG
+      status: directly_verified_from_text_continuity_EXIF_and_cache_order
+    section_start:
+      value: P1010899.JPG begins the section with the visible heading `Náboženský převrat v Rychvaldě.`
+      status: directly_verified_from_image
+    section_end:
+      value: P1010901.JPG ends with a complete sentence followed by substantial blank page area
+      status: directly_verified_from_image
+    section_completeness:
+      value: photographed section is very likely complete from heading to textual endpoint
+      status: high_confidence_direct_visual_and_textual_structure
+      scope_note: This does not prove completeness of the wider manuscript volume or identify adjacent sections.
+    municipal_chronicle_identity:
+      value: not textually identical to the 1922–1935 municipal memorial book despite overlapping events and people
+      status: direct_text_comparison
+    school_memoir_candidate:
+      value: school-administration memoir/chronicle associated with Antonín Škramlík is a plausible source class
+      status: contextual_candidate_not_confirmed_identification
+      scope_note: Based on municipal-chronicle references to school memoirs, Škramlík's documented National/Plebiscite Committee role, and the manuscript's first-person participant voice; no title page, signature or catalogue record confirms it.
+    adjacent_camera_files_connected_drive:
+      value: P1010897.JPG, P1010898.JPG and P1010902.JPG not found
+      status: exact_name_search_negative_in_connected_Google_Drive
   unresolved:
   - exact_manuscript_or_chronicle_volume
+  - institution_that_created_or_kept_volume
   - archive_reference_or_call_number
-  - author_and_date_of_manuscript_entry
+  - current_physical_repository
+  - author_of_entry
+  - date_of_manuscript_entry
   - page_numbers
-  - completeness_against_preceding_and_following_pages
-  - independent_verification_of_historical_claims
+  - title_and_content_of_immediately_preceding_section
+  - title_and_content_of_immediately_following_section
+  - completeness_of_digital_documentation_of_entire_volume
+  - whether_adjacent_camera_images_exist_outside_connected_Drive
+  - independent_verification_of_all_historical_claims
+  next_action: >-
+    Hledat katalogový nebo fyzický záznam školní kroniky/pamětí správy české školy u kostela, zejména materiál spojený s Antonínem
+    Škramlíkem a obdobím 1918–1920. Porovnat titulní list, vazbu, rukopis a sousední oddíly; teprve poté přiřadit konkrétní svazek,
+    autora a čísla stran. Samotný oddíl lze zatím považovat za fotograficky úplný, ale širší svazek nikoli.
+  reopen_triggers:
+  - title_page_or_binding_identification_found
+  - school_chronicle_catalog_record_found
+  - Antonin_Skramlik_manuscript_comparison_found
+  - adjacent_pages_found
+  - page_numbers_found
+  - archival_call_number_found
+  - exact_text_parallel_found
   evidence:
   - research/urbanek-archive/collections/boj-o-nabozenstvi.yml
   - research/urbanek-archive/ocr/boj-o-nabozenstvi-visible-text.md
   - research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md
+  - research/urbanek-archive/verifications/urb-u-0075-manuscript-source-recheck-2026-08-12.md
   created_at: '2026-08-04'
   created_by: archive_indexing
-  resolution_policy: defer_dedicated_research_until_full_archive_index_complete
+  last_researched_at: '2026-08-12'
+  resolution_policy: dedicated_research_active_preserve_unconfirmed_source_identity

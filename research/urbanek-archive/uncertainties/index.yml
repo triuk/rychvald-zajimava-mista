@@ -50,7 +50,7 @@ resolution_plan:
   - URB-U-0084
   - URB-U-0087
   dependent_followup_count: 30
-  current_target: URB-U-0036
+  current_target: URB-U-0077
 open_files:
 - open-01.yml
 - open-03.yml

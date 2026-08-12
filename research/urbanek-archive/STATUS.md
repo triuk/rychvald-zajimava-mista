@@ -102,6 +102,18 @@ Obecní Pamětní kniha zároveň uvádí mezi Škramlíkovými zdroji školní 
 
 Čísla stran, titulní list, signatura, autor a dnešní fyzické uložení svazku zůstávají otevřené; na fotografovaných listech není bezpečně čitelné stránkování.
 
+### URB-U-0077 — „Nádraží“ / Ozvajch u Skučáku
+
+Nově nalezený zdrojový LyX dokument knihy **`Rychvald včera a dnes ve fotografii`** obsahuje v kapitole `Železniční nádraží` podklad `363.jpg` s popiskem: `„Nádraží“ u železničního přejezdu u rybníku Skučák známé pod názvem „Ozvajch“ (z německého Ausweiche – výhybna). Nejstarší dochovaný obrázek asi z počátku 20. století.`
+
+Kořenový archivní `19.jpg` byl přímo geometricky porovnán s knižními železničními snímky 363–367. S `363.jpg` má **3142 kvalitních feature shod a přibližně 3140 RANSAC inlierů**; po zarovnání je transformace prakticky jen několikapixelový posun a korelace překryvu je **0,9981**. Ostatní železniční kandidáti mají jen jednotky shod. `19.jpg` a `363.jpg` jsou tedy dvě digitální reprezentace **téhož historického obrazu**.
+
+Lokalita je tím bezpečně určena jako **výhybna / „Nádraží“ u přejezdu u rybníku Skučák, místně Ozvajch**, nikoli `Rychvald-místo` ani `Rychvald-zámek`. Starší obecní Pamětní kniha nezávisle rozlišuje `Rychvald-zastávka` zvanou `Vyhýbka` od obou ostatních stanic a uvádí její zrušení roku 1916.
+
+Nejpřesnější nalezená datace historického snímku zůstává Urbánkovo přibližné **`asi z počátku 20. století`**. EXIF kořenového souboru 2016 a knižního podkladu 2012 jsou metadata digitálních kopií.
+
+Jaromír Urbánek je bezpečně doložen jako autor/editorský sestavovatel knižního kontextu, jehož text je datován **květen 2012**. Původní fotograf ani individuální zdroj snímku ale znám není: Urbánek uvádí více archivů, kronik a občanské poskytovatele společně a výslovně píše, že u mnoha fotografií již autora nelze určit. `URB-U-0077` proto zůstává open už především kvůli původní provenienci a přesnějšímu datu.
+
 ### URB-U-0086 a URB-U-0088 — chybějící plné originály
 
 Exact-name hledání všech cache doložených názvů v připojeném Google Drive skončilo bez shody. Další směr je obrazová shoda pod jinými názvy nebo jiné úložiště/záloha.
@@ -115,6 +127,6 @@ Exact-name hledání všech cache doložených názvů v připojeném Google Dri
 
 ## Další aktivní cíl
 
-`URB-U-0077`: **identifikace historické reprodukce označené `Nádraží` — přesná stanice, lokalita, datace a provenience**.
+`URB-U-0078`: **pět ozbrojených mužů u tabule `MĚSTO RYCHVALD` — přesná událost, datum, jednotka a provenience fotografie**.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

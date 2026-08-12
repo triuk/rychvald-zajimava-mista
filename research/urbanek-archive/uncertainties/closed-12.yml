@@ -1,0 +1,21 @@
+schema_version: 1
+scope: closed_item_0021
+items:
+  - id: URB-U-0021
+    status: resolved
+    priority: high
+    collection: Články z Českého slova
+    type: known_cropping_lacuna
+    source_items: [urbanek-ceske-slovo-022-a]
+    question: "Jaký text spojuje nedokončenou větu v části Polské obavy o Bohumínsko s blokem začínajícím čs. národnosti?"
+    resolution: >-
+      Uživatel rozhodl položku uzavřít jako známou ořezovou lakunu. Archivní
+      fotografie zachycuje pouze horní část novinové strany: první sloupec končí
+      nedokončenou větou a druhý sloupec začíná uprostřed jiného bloku. Chybějící
+      spodní část sloupce nelze ze zachovaného obrazu rekonstruovat. Veškerý
+      dochovaný text je přepsán, mezera zůstává výslovně označena a nesmí být
+      doplňována odhadem.
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-022-a-document-text.md
+    resolved_at: 2026-07-22
+    resolved_by: user_scope_decision
+    confidence: verified_cropping_lacuna

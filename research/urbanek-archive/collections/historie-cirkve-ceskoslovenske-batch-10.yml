@@ -1,0 +1,150 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: chrobacek-anniversary-baptism-and-hus-commemoration-10
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / archivní soubory 48–52"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka dokumentuje předání plastiky duchovnímu s biskupskou insignií, výroční
+    shromáždění v kněžišti, křestní obřad a dva novodobé záběry husovské vzpomínky.
+    Obrazy potvrzují viditelné obřady, osoby, předměty a prostředí, nikoli přesná
+    data, identity nebo institucionální významy uvedené v názvech. Metadata dvou
+    souborů nejsou spolehlivou datací události a jeden archivní název je useknutý.
+    Pozdější přesné porovnání s urbanek-ccs-097 a 098 potvrdilo, že urbanek-ccs-046
+    je další reprodukcí téže původní fotografie; samostatná listina na ní není
+    spolehlivě rozeznatelná.
+  basis:
+    - full_image_visual_review
+    - embedded_metadata_review
+    - archival_sequence
+    - verified_repo_files
+    - exact_cross_batch_visual_comparison
+
+items:
+  - id: urbanek-ccs-046
+    archival_filename: "48  Br. farář Gabriel Chrobáček se stal biskupem.jpg"
+    visual_type: historical_black_and_white_episcopal_presentation_scene
+    description: >-
+      Dva muži stojí v interiéru před publikem. Duchovní v tmavém rouchu s výrazným
+      řetězem drží světlou plastiku sedící či zahalené postavy; muž v obleku stojí
+      vedle něj a mezi oběma je kytice. Samostatná listina není na dostupných
+      reprodukcích spolehlivě rozeznatelná.
+    subject_tags: [Gabriel_Chrobacek_claim, bishop_claim, chain_or_insignia, presentation, sculpture, bouquet]
+    identification:
+      status: partially_verified
+      archival_claim: "bratr farář Gabriel Chrobáček se stal biskupem"
+      verified_from_image: [clergy_with_chain_or_insignia, civilian_man, light_sculpture, bouquet, audience]
+      unverified: [exact_date, event_identity, Gabriel_Chrobacek_identity, episcopal_office, presenter_identity, sculpture_subject_and_provenance, relation_to_inauguration_group]
+    duplicate_relation:
+      same_underlying_photograph_as: [urbanek-ccs-097, urbanek-ccs-098]
+      verification: exact_visual_comparison
+      evidentiary_note: "Samostatný soubor, nikoli nezávislý záběr události."
+    correction_note: >-
+      Původní první průchod uváděl listinu. Porovnání tří reprodukcí ukázalo, že
+      samostatný dokument nelze bezpečně oddělit od plastiky, jejího podstavce
+      nebo drapérie; údaj byl proto odstraněn.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_readable
+    capture_metadata: {status: no_usable_event_dating_metadata}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-047
+    archival_filename: "49  V r. 1970 u příležitosti 50. výročí zal. CČS v Rychvaldě.jpg"
+    visual_type: historical_black_and_white_anniversary_chancel_group
+    description: >-
+      V kněžišti stojí tři muži v duchovním oděvu a jeden muž v obleku. Duchovní
+      vlevo má řetěz nebo insignii a drží kytici; další osoba drží kytici. Na oltáři
+      je viditelný kalich a květinová výzdoba.
+    subject_tags: [year_1970_claim, fiftieth_anniversary_claim, clergy, bishop_chain, bouquets, chalice, church_chancel]
+    identification:
+      status: partially_verified
+      archival_claim: "roku 1970 při 50. výročí založení CČS v Rychvaldě"
+      verified_from_image: [three_clergy_like_men, one_civilian_man, chain_or_insignia, bouquets, altar_chalice, decorated_chancel]
+      unverified: [exact_date, exact_anniversary_subject, independent_confirmation_of_year_1970, identities_and_roles, service_or_ceremony_type, attendance_and_program]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    capture_metadata: {status: no_usable_event_dating_metadata}
+    uncertainty_ids: [URB-U-0063]
+
+  - id: urbanek-ccs-048
+    archival_filename: "50  křtiny v r.1970 V brejlích farář Vodička..jpg"
+    visual_type: historical_black_and_white_baptism_scene
+    description: >-
+      Žena drží zavinuté dítě před duchovním s knihou nebo obřadním textem. Mezi
+      nimi stojí vysoká křestní svíce. V pozadí jsou další dospělí a nejméně dva
+      duchovní; jeden z mužů v pozadí má brýle.
+    subject_tags: [baptism, infant, baptismal_candle, clergy, year_1970_claim, Vodicka_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "křtiny roku 1970; farář Vodička je muž v brýlích"
+      verified_from_image: [woman_holding_infant, clergy_officiant, tall_ceremonial_candle, additional_clergy_and_adults, glasses_visible_on_background_man]
+      unverified: [exact_date, independent_confirmation_of_year_1970, event_and_family_identity, Vodicka_identity_and_position, officiant_identity, infant_and_parent_identities, relation_to_anniversary_visit]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    capture_metadata:
+      exif_datetime_original: "2014-09-01 11:31:58"
+      interpretation: "Datum dokládá digitalizaci nebo reprodukci historické fotografie, nikoli křest roku 1970."
+    uncertainty_ids: [URB-U-0064]
+
+  - id: urbanek-ccs-049
+    archival_filename: "51  Tradici pálení hranice s obrazem Jana Husa obnovila far..jpg"
+    visual_type: modern_color_commemorative_bonfire_scene
+    description: >-
+      Na travnaté ploše hoří hranice z polen, na jejímž vrcholu je černobílý portrét
+      nebo obraz mužské postavy. Kolem stojí početný dav a vpravo žena v černém
+      liturgickém oděvu.
+    subject_tags: [Jan_Hus_claim, commemorative_bonfire, crowd, female_clergy, restored_tradition_claim, truncated_caption]
+    identification:
+      status: partially_verified
+      archival_claim: "tradici pálení hranice s obrazem Jana Husa obnovila far…"
+      verified_from_image: [burning_log_pyre, mounted_monochrome_portrait, large_crowd, female_liturgical_person, grassy_setting]
+      unverified: [exact_date, portrait_identity, event_identity, initiator_identity, meaning_and_history_of_restoration, participant_identities, complete_original_caption, relationship_to_procession]
+    ocr:
+      document_text: not_applicable
+      scene_text: portrait_without_readable_text
+    capture_metadata:
+      exif_datetime_original: "2012-03-15 09:39:23"
+      interpretation: >-
+        Datum je v rozporu s plně olistěnou letní scénou a bez dalšího zdroje není
+        spolehlivým datem události; může jít o nesprávné nastavení nebo reprodukci.
+    filename_note: "Název je useknutý za řetězcem ‚far‘; pokračování nebylo rekonstruováno."
+    uncertainty_ids: [URB-U-0065]
+
+  - id: urbanek-ccs-050
+    archival_filename: "52  Průvod od kostela. Vzpomínka na Jana Husa.JPG"
+    visual_type: modern_color_church_procession_photograph
+    description: >-
+      Průvod vychází podél kostela po silnici. V čele jdou dvě ženy, jedna v černém
+      liturgickém oděvu s červeným znakem; za nimi kráčejí hasiči v zásahových
+      oděvech a další účastníci. V pozadí je částečně viditelná kostelní věž.
+    subject_tags: [Jan_Hus_commemoration_claim, procession, church, female_clergy, firefighters, community_participants]
+    identification:
+      status: partially_verified
+      archival_claim: "průvod od kostela při vzpomínce na Jana Husa"
+      verified_from_image: [road_procession, two_women_leading, female_liturgical_person, firefighters_in_gear, church_tower, civilian_participants]
+      unverified: [exact_date, exact_event_identity, procession_route, leader_identities, firefighter_role, participant_identities, relationship_to_bonfire_image]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    capture_metadata: {status: no_usable_event_dating_metadata}
+    uncertainty_ids: [URB-U-0065]
+
+open_research_candidates:
+  - {id: URB-U-0062, subject: Gabriel_Chrobacek_episcopal_appointment_inauguration_and_presentation}
+  - {id: URB-U-0063, subject: fiftieth_anniversary_1970_exact_context_and_people}
+  - {id: URB-U-0064, subject: baptism_1970_Vodicka_family_and_clergy}
+  - {id: URB-U-0065, subject: restored_Jan_Hus_bonfire_tradition_procession_date_people_and_caption}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-051 až urbanek-ccs-055. Husovskou sérii dále
+  porovnat s následujícími soubory, kronikou, programy a obecním zpravodajem;
+  Chrobáčkovu biskupskou roli s protokoly volby a inaugurace a výročí s dobovým
+  programem. Osoby neurčovat pouze podle vzhledu a useknutý název nedoplňovat odhadem.

@@ -1,0 +1,193 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-006
+  title: Cudlín 041.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Cudlín 041.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Cudlín 041.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 602960
+  git_blob_sha: 08e913a7eb0f4163c97a35609c972053648d3413
+  sha256: ea981044754b79c272e9761fdfe0a6e8e88b8a6b971ec5bce0298688d492bce6
+  drive_id: 1FtmESIbzuXMMYxoW7YeoChPn5leo5otc
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - sacral_interior
+  - decorated_pews
+  - altar_crucifix_and_wall_murals
+  summary: Barevná fotografie interiéru sakrální stavby. Středem vede ulička mezi dřevěnými lavicemi zdobenými bílými květy
+    a stuhami; za oltářem je krucifix a po stranách nástěnné malby. Přesná stavba, obec ani příležitost výzdoby nejsou z obrazu
+    samostatně prokázány.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-08-28 15:59:46'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-007
+  title: Kopie - Budova úřadu 005.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Kopie - Budova úřadu 005.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Kopie - Budova úřadu 005.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 525938
+  git_blob_sha: 21f8e9ae5f69d16ea127bc909ef37511e18ec580
+  sha256: a36411b50910c154dc4803f55ed190748a16028030121d248ea4e43b1c707778
+  drive_id: 1nt5ii9TQ7CExfqPAQaXZzzAQbNQmfiOr
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2394
+    height_px: 1796
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - municipal_office_exterior
+  - exact_binary_duplicate
+  - duplicate_inventory_path
+  summary: Přesná binární kopie souboru `Budova úřadu 005.jpg` (položka 002). Zachycuje šikmý pohled na třípodlažní budovu
+    s nápisem „MĚSTSKÝ ÚŘAD“; samostatná cesta zůstává inventární položkou, ale nepředstavuje další nezávislý obrazový důkaz.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2008-09-02 09:01:46'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - MĚSTSKÝ ÚŘAD
+  duplicate_of: urbanek-rychvald-002
+  evidence_weight: separate_inventory_path_but_not_independent_image_evidence
+- source_id: urbanek-rychvald-008
+  title: P1010066.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010066.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010066.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3488444
+  git_blob_sha: d84195010d7da4dac347be93b6aff922aaafaaaa
+  sha256: ab8144dd8fea61ac197ee67ca8b901a857398ac4157a9b2be0c026735ff63f8a
+  drive_id: 1zQyAqqStN53zfwgPTtdUvXKiVN4ucBPN
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  classification:
+  - modern_reproduction_photograph
+  - historical_black_and_white_event_image
+  - formal_procession_or_reception
+  - uniformed_lines_flags_and_crowd
+  summary: Barevná reprodukční fotografie poškozené černobílé fotografie nebo pohlednice. Před velkou sakrální stavbou prochází
+    po koberci skupina mužů mezi dvěma řadami uniformovaných osob; v pozadí je početný dav, prapory a nápis „PRODEJNA“. Událost,
+    osoby, místo ani datum nejsou na snímku doloženy popiskem.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:34:50'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - PRODEJNA
+- source_id: urbanek-rychvald-009
+  title: P1010067.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010067.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010067.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3487696
+  git_blob_sha: b134ef2c4a98c93e771ee7b600dcae2a4dc8a05a
+  sha256: 65520d5c54a3cec89ff5ede4139622ef6f3991067f2efe5236274877c9c776ca
+  drive_id: 1vVAvGxuEw9OZmVMF8qFdbohTubqvoDfN
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification:
+  - modern_reproduction_photograph
+  - historical_black_and_white_group_image
+  - children_adults_costumes_and_flags
+  - commercial_street_frontage
+  summary: Barevná reprodukční fotografie černobílé fotografie nebo pohlednice. Před provozovnami stojí početná skupina dětí
+    a dospělých, část v krojovém oděvu, s prapory a standarty. Čitelné jsou nápisy „Baťa a.s.“, „RESTAURACE“, „TEPLÁ A STUDENÁ
+    JÍDLA“ a „PIVO“; přesná událost, místo a datum nejsou přímo uvedeny.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:36:29'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - Baťa a.s.
+  - RESTAURACE
+  - TEPLÁ A STUDENÁ JÍDLA
+  - PIVO
+- source_id: urbanek-rychvald-010
+  title: P1010068.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010068.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010068.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3332457
+  git_blob_sha: 66e5f99d53a7994d7c9c75e9b5a2973ff82fccc8
+  sha256: 7199828ce721671118674faaea1eaf8402ff9212cdd37fcf3d18003c5a630729
+  drive_id: 1meZ-cYlSN0LxNURBgCCTRj5bznTWejIM
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification:
+  - modern_reproduction_photograph
+  - historical_school_photograph_display
+  - two_school_building_images
+  - visible_caption_rychvald
+  summary: Barevná reprodukční fotografie výstavní či archivní desky se dvěma staršími snímky školních budov. Pod levým snímkem
+    je viditelný rok „1909“ a pod dvojicí nápis „ŠKOLY U.M.Š. V RYCHVALDĚ.“. Viditelný text se eviduje doslovně; zkratka U.M.Š.,
+    datace obou snímků a přesná identita budov nejsou bez dalšího vykládány.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-02-28 12:37:29'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - '1909'
+  - ŠKOLY U.M.Š. V RYCHVALDĚ.

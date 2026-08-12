@@ -1,0 +1,236 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-welcome-infant-reproductions-address-and-congregation-27
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 5 Kaple CČS na Ostravici / archivní soubory 20 až 24
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: 'Dávka pokračuje historickou slavnostní sérií. Položka 131 zachycuje ženu ve zdobeném oděvu s kyticí před duchovním
+    s řetězem nebo insignií. Položky 132 a 133 jsou dvě různé archivní reprodukce téhož podkladového záběru: muž v obleku
+    stojí vedle duchovního, který drží zavinuté dítě a kytici; položka 133 zachovává širší okolí. Jde o dva soubory, ale pouze
+    jeden nezávislý obrazový doklad. Položka 134 zachycuje další projev duchovního s papírem a položka 135 zaplněný interiér
+    s účastníky v dřevěných lavicích. Snímky podporují společný slavnostní okruh, nikoli přesné datum, účel dětského úkonu
+    nebo identity osob.'
+  basis:
+  - full_image_visual_review
+  - same_underlying_photograph_comparison
+  - architectural_and_personnel_cross_image_comparison
+  - archival_sequence
+  - verified_repo_files
+  related_open_items:
+  - URB-U-0059
+  - URB-U-0068
+items:
+- id: urbanek-ccs-131
+  archival_filename: 20.jpg
+  dimensions_px:
+  - 960
+  - 1584
+  visual_type: historical_black_and_white_welcome_by_woman_in_decorated_dress
+  description: Muž v tmavém duchovním oděvu s výrazným řetězem nebo insignií stojí proti ženě ve zdobeném oděvu se zástěrou
+    a šátkem nebo límcem. Žena drží velkou kytici; v pozadí jsou další účastníci.
+  subject_tags:
+  - clergy
+  - chain_or_insignia
+  - woman_in_decorated_dress
+  - bouquet
+  - welcome_or_congratulation
+  - indoor_gathering
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - male_clergy_like_attire
+    - chain_or_insignia
+    - woman_in_decorated_dress
+    - large_bouquet
+    - background_participants
+    unverified:
+    - all_person_identities
+    - exact_costume_or_group
+    - exact_action
+    - event
+    - date
+    - location
+    - relationship_to_items_104_105_106_111_112_and_121_to_135
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-132
+  archival_filename: 21.jpg
+  dimensions_px:
+  - 972
+  - 1572
+  visual_type: historical_black_and_white_cropped_reproduction_clergy_holding_infant
+  description: Muž v obleku stojí vedle duchovního v tmavém oděvu s výrazným řetězem nebo insignií. Duchovní drží zavinuté
+    malé dítě a současně kytici nebo květiny. Záběr je úzký a má široký bílý okraj.
+  subject_tags:
+  - civilian_man
+  - clergy
+  - chain_or_insignia
+  - swaddled_infant
+  - bouquet
+  - cropped_reproduction
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - adult_man_in_suit
+    - male_clergy_like_attire
+    - chain_or_insignia
+    - swaddled_small_child
+    - flowers
+    - narrow_cropped_print
+    unverified:
+    - all_person_identities
+    - child_identity
+    - parent_or_guardian_relationship
+    - whether_action_is_baptism_welcome_blessing_or_other
+    - event
+    - date
+    - location
+  reproduction_relation:
+    same_underlying_photograph_as: urbanek-ccs-133
+    assessment: Položky zachycují tentýž okamžik a uspořádání osob; 132 je užší reprodukce s bílým okrajem.
+    evidence_independence: one_independent_image_record
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-133
+  archival_filename: 22.jpg
+  dimensions_px:
+  - 1662
+  - 1182
+  visual_type: historical_black_and_white_wider_reproduction_clergy_holding_infant
+  description: Širší reprodukce stejného záběru jako položka 132. Muž v obleku stojí vedle duchovního s řetězem nebo insignií,
+    který drží zavinuté dítě a květiny. Vlevo a v pozadí jsou viditelní další účastníci.
+  subject_tags:
+  - civilian_man
+  - clergy
+  - chain_or_insignia
+  - swaddled_infant
+  - bouquet
+  - wider_reproduction
+  - audience
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - adult_man_in_suit
+    - male_clergy_like_attire
+    - chain_or_insignia
+    - swaddled_small_child
+    - flowers
+    - additional_background_participants
+    unverified:
+    - all_person_identities
+    - child_identity
+    - parent_or_guardian_relationship
+    - whether_action_is_baptism_welcome_blessing_or_other
+    - event
+    - date
+    - location
+  reproduction_relation:
+    same_underlying_photograph_as: urbanek-ccs-132
+    assessment: Položka zachovává širší okolí téhož podkladového záběru jako 132.
+    evidence_independence: one_independent_image_record
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-134
+  archival_filename: 23.jpg
+  dimensions_px:
+  - 954
+  - 1590
+  visual_type: historical_black_and_white_clergy_address_with_paper
+  description: Duchovní v dlouhém tmavém oděvu s výrazným řetězem nebo insignií stojí na vyvýšeném místě a drží list papíru.
+    Za ním sedí další osoby, pravděpodobně duchovní, u pultu nebo oltářního prostoru.
+  subject_tags:
+  - standing_clergy
+  - chain_or_insignia
+  - paper
+  - address_or_reading
+  - raised_chancel
+  - seated_clergy
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - standing_clergy_like_man
+    - chain_or_insignia
+    - paper
+    - raised_floor_or_chancel
+    - seated_background_people
+    - pulpit_or_altar_furniture
+    unverified:
+    - all_person_identities
+    - exact_office
+    - speech_or_document_content
+    - event
+    - date
+    - location
+    - relationship_to_items_126_129_130_and_131_to_135
+  ocr:
+    document_text: not_applicable
+    scene_text: not_detected
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+- id: urbanek-ccs-135
+  archival_filename: 24.jpg
+  dimensions_px:
+  - 1548
+  - 954
+  visual_type: historical_black_and_white_full_congregation_in_wooden_pews
+  description: Zaplněný interiér s dospělými účastníky stojícími nebo sedícími v jednoduchých dřevěných lavicích. V zadní
+    části je vysoká žerď s ozdobným zakončením nebo prapor; několik osob drží knihy či zpěvníky.
+  subject_tags:
+  - large_congregation
+  - wooden_pews
+  - indoor_service
+  - books_or_hymnals
+  - banner_or_standard_pole
+  identification:
+    status: partially_verified
+    verified_from_image:
+    - dense_indoor_congregation
+    - wooden_pews
+    - adults
+    - some_books_or_hymnals
+    - tall_pole_or_standard_at_back
+    unverified:
+    - exact_building
+    - exact_service
+    - event
+    - date
+    - congregation_identity
+    - banner_or_standard_ownership
+    - relationship_to_items_121_122_127_and_131_to_134
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: visually_checked_not_readable
+      note: Případné texty na knihách nebo zadním praporu nejsou bezpečně čitelné.
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0070
+open_research_candidates:
+- id: URB-U-0070
+  subject: Ostravice_historical_welcome_infant_service_addresses_congregation_and_event_context
+- id: URB-U-0059
+  subject: possible_Horsky_context_without_facial_identification
+next_action: 'Pokračovat položkami urbanek-ccs-136 až urbanek-ccs-140 v podsložce Kaple CČS na Ostravici: soubory 25.jpg,
+  26.jpg, 27.jpg, 28.jpg a 29.jpg. Porovnat další záběry slavnosti s položkami 131 až 135; osoby neurčovat pouze podle vzhledu.'

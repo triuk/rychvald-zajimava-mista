@@ -1,0 +1,231 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+collection_title: Fotografie knihy Rychvald včera a dnes
+batch_number: 7
+batch_id: aerial-views-residential-landscape-harvested-field-rc-track-and-tennis-courts-07
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+  items:
+  - 30.jpg
+  - 31.jpg
+  - 32.jpg
+  - 33.jpg
+  - 34.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without external historical verification.
+- EXIF inspection; embedded dates are preserved as file metadata, not treated as independent proof of publication use or authorship.
+- Exact binary duplicate check within the batch and against previously indexed files in the collection.
+batch_findings:
+  general: Pět samostatných leteckých pohledů na obytnou krajinu, sklizené pole, modelářskou závodní dráhu a tenisový areál.
+  folder_title_interpretation: Název složky zůstává archivním údajem. Ani tato dávka neobsahuje viditelné okraje knižních
+    stran nebo bibliografický text.
+  metadata_sessions:
+  - 31.jpg má EXIF čas 2013-09-28 11:11:54; spolu s dříve zpracovanými 26.jpg, 28.jpg a 29.jpg leží v časovém rozsahu tři
+    minuty a pět sekund. To podporuje pracovní zařazení do jedné fotografické relace, ale jednoznačný prostorový překryv nebyl
+    zjištěn.
+  - 30.jpg a dříve zpracované 19.jpg mají EXIF časy 2012-09-28 23:41:54 a 23:39:36. Oba obrazy zachycují denní světlo, takže
+    hodinové údaje jsou vedeny jako společná metadata s pravděpodobně nesprávnou hodinovou složkou, nikoli jako spolehlivý
+    čas expozice.
+  - Žádný soubor dávky nemá vyplněný EXIF tag software.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_against_batches_01_06: 0
+  visual_overlap: Jednoznačný prostorový překryv nebyl zjištěn. Snímky 30.jpg a 31.jpg zachycují podobný typ obytné krajiny,
+    ale mají odlišné kompozice a bez společného ověřeného orientačního bodu se nevedou jako překrývající se záběry.
+  text_content: Soubor 33.jpg obsahuje čitelný nápis „RC TEAM RYCHVALD“. Jde o text v obraze, nikoli bibliografický údaj nebo
+    důkaz použití fotografie v knize.
+items:
+- id: urbanek-rychvald-vcera-dnes-031
+  filename: 30.jpg
+  git_blob_sha: eeae24e203c5bb32d911e5efbfdb6bd51ba0a1fd
+  sha256: 8e0c6eef36e71cd97cbc80dc3aba2d49877151ccaeea1321b2b7741e6bba388c
+  dimensions_px:
+  - 4463
+  - 2463
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2012-09-28 23:41:54'
+    software: null
+  visual_description: Šikmý letecký pohled na řidší obytnou zástavbu s místními komunikacemi, rodinnými domy, rozlehlými zahradami
+    a travnatými pozemky; v dálce navazuje hustší sídelní zástavba a několik výškových nebo větších bytových domů.
+  classification:
+  - aerial_photograph
+  - residential_area
+  - local_roads
+  - detached_housing
+  - gardens
+  - grassland
+  - distant_settlement
+  - distant_apartment_blocks
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_identity_of_distant_buildings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-032
+  filename: 31.jpg
+  git_blob_sha: 393877e17a5c200b539c4e388dc30533d882c8de
+  sha256: b3ada0679017152949b1a6b02fbb3d7b19b3f4b312c8aabb039cba5b7dca9038
+  dimensions_px:
+  - 4546
+  - 2463
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:11:54'
+    software: null
+  visual_description: Šikmý letecký pohled na rozptýlenou obytnou zástavbu kolem rozsáhlé louky nebo travnatého pozemku, se
+    zakřivenými místními komunikacemi, zahradami a souvislým lesním okrajem; zástavba pokračuje do vzdáleného sídelního panoramatu.
+  classification:
+  - aerial_photograph
+  - dispersed_housing
+  - grassland
+  - local_roads
+  - gardens
+  - woodland_edge
+  - distant_settlement
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_identity_of_visible_buildings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-033
+  filename: 32.jpg
+  git_blob_sha: 57736adba879e67014baebe4f1892e3a5e7ea4f0
+  sha256: 71331e25b02f76d3f5c660ca56545441ef25bafb29e81c61d47ef5eeae6f4e93
+  dimensions_px:
+  - 4577
+  - 2583
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-30 17:42:38'
+    software: null
+  visual_description: Široký šikmý letecký pohled na sklizené pole s mnoha pravidelně rozmístěnými obdélnými balíky; okraje
+    zemědělské plochy lemují pásy stromů, lesní porost a ojedinęlé stavby.
+  classification:
+  - aerial_photograph
+  - harvested_field
+  - rectangular_bales
+  - agricultural_land
+  - tree_belts
+  - woodland_edge
+  - scattered_buildings
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - crop_and_bale_material
+  - exact_identity_of_edge_buildings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-034
+  filename: 33.jpg
+  git_blob_sha: abcfc8aa6196d4559d97bd5f6e4bf7cd62ef015f
+  sha256: 877d628bd76c5e8b0770645e019e063927d2619a5caefdcbe1438ea7de3d8bf4
+  dimensions_px:
+  - 4454
+  - 2525
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-10-05 15:29:29'
+    software: null
+  visual_description: Téměř svislý letecký pohled na modelářskou závodní dráhu vyznačenou na travnaté ploše, s vyvýšeným stanovištěm,
+    stany, zaparkovanými vozidly a účastníky; na konstrukci je čitelný nápis „RC TEAM RYCHVALD“ a areál sousedí s rodinnými
+    domy a zahradami.
+  classification:
+  - aerial_photograph
+  - model_car_racing_track
+  - temporary_event_setup
+  - driver_stand
+  - event_tents
+  - parked_vehicles
+  - participants
+  - visible_text_rc_team_rychvald
+  - adjacent_housing
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  - visible text RC TEAM RYCHVALD
+  unverified:
+  - exact_event_name_and_date
+  - exact_location
+  - whether_rc_team_rychvald_was_organizer_or_participant
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-035
+  filename: 34.jpg
+  git_blob_sha: eb1b359debea914ed7458bb00230ab042cb1d9cc
+  sha256: 8ef93d9bdb4f156b518bc77d2dd873daae16db0883636a4b363b86ce3065540b
+  dimensions_px:
+  - 4464
+  - 2474
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:23:25'
+    software: null
+  visual_description: Šikmý letecký pohled na sportovní areál se šesti antukovými tenisovými kurty a několika hráči; kolem
+    jsou travnaté plochy, obytná zástavba, hustá zeleň, železniční trať a stožár vedení vysokého napětí.
+  classification:
+  - aerial_photograph
+  - tennis_complex
+  - six_clay_courts
+  - players_visible
+  - grassland
+  - residential_area
+  - railway
+  - power_line_pylon
+  - woodland
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_sports_complex_name_and_location
+  - exact_railway_section
+  - exact_power_line_identity
+  - photographer_and_rights
+related_uncertainties:
+- URB-U-0076
+next_batch:
+  number: 8
+  filenames:
+  - 35.jpg
+  - 36.jpg
+  - 37.jpg
+  - 38.jpg
+  - 39.jpg

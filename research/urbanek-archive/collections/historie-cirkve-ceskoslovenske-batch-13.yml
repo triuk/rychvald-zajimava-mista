@@ -1,0 +1,134 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: clergy-portraits-and-vodicka-bogumski-visit-13
+status: completed_first_visual_pass
+item_count: 5
+source_scope: >-
+  První podsložka – archivní soubory 61 až 63; druhá podsložka
+  „Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50“ – soubory 1 a 2.
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Tři samostatné portrétní nebo obřadní fotografie jsou archivně označeny jmény
+    Gabriela Chrobáčka, Leonarda Bogumského a Jany Šilerové. Obrazy potvrzují pouze
+    duchovní oděv, liturgické prostředí a insignie; jména, tituly a úřady vyžadují
+    dokumentární potvrzení. Dva následující snímky zachycují tutéž čtveřici sedících
+    osob, jednou uvnitř širší skupiny a jednou samostatně v zahradě. Archivní názvy
+    je spojují s faráři Vodičkou a Bogumským a jejich manželkami, ale jednotlivé osoby
+    nelze přiřadit pouze podle vzhledu a datum 1965 či 1970 není z obrazu zjistitelné.
+  basis:
+    - visual_review
+    - cross_image_group_comparison
+    - archival_sequence
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-061
+    archival_filename: "61  Biskup Gabriel Chrobáček.jpg"
+    visual_type: historical_black_and_white_senior_clergy_at_communion_table
+    dimensions_pixels: [1301, 1764]
+    description: >-
+      Černobílá fotografie muže v tmavém duchovním oděvu s výrazným řetězem nebo
+      insignií. Stojí za stolem s kalichem, otevřenými knihami a listinami; v pozadí
+      jsou další muži v duchovním oděvu.
+    subject_tags: [clergy, chain_or_insignia, chalice, liturgical_books, ceremony, Gabriel_Chrobacek_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "biskup Gabriel Chrobáček"
+      verified_from_image: [male_clergy, prominent_chain_or_insignia, chalice, books_and_documents, other_clergy]
+      unverified: [person_identity, episcopal_title, date, location, ceremony, chain_meaning, relationship_to_items_045_046]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-062
+    archival_filename: "62  Farář Leonard Bogumski.jpg"
+    visual_type: historical_black_and_white_clergy_reading_at_chancel
+    dimensions_pixels: [1044, 1620]
+    description: >-
+      Muž v tmavém duchovním oděvu a světlé štole čte z otevřené knihy za dřevěným
+      liturgickým stolem nebo oltářem. Na jeho čelní straně je znak kalicha s křížem;
+      v pozadí je květinová výzdoba a figurální nástěnná malba.
+    subject_tags: [clergy, white_stole, liturgical_book, chalice_emblem, chancel, Leonard_Bogumski_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "farář Leonard Bogumski"
+      verified_from_image: [male_clergy, white_stole, open_book, chalice_with_cross_emblem, decorated_chancel]
+      unverified: [person_identity, exact_name_spelling, clerical_tenure, date, occasion, location, relationship_to_items_064_065]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0068]
+
+  - id: urbanek-ccs-063
+    archival_filename: "63  Biskupka Mgr Jana Šilerová.jpg"
+    visual_type: modern_color_female_senior_clergy_portrait
+    dimensions_pixels: [672, 834]
+    description: >-
+      Barevný portrét ženy v tmavém duchovním oděvu, bílé štóle s červeným kalichem
+      a dalšími symboly a s výrazným řetězem nebo insignií. Stojí před neutrálním
+      architektonickým pozadím.
+    subject_tags: [female_clergy, stole, red_chalice, chain_or_insignia, portrait, Jana_Silerova_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "biskupka Mgr. Jana Šilerová"
+      verified_from_image: [female_clergy, liturgical_stole, red_chalice_symbol, prominent_chain_or_insignia]
+      unverified: [person_identity, academic_title, episcopal_office, portrait_date, location, chain_meaning, relationship_to_items_036_038_039_043]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0058]
+
+  - id: urbanek-ccs-064
+    archival_filename: "1  Faráři Vodička a Bogumský s manželkami.jpg"
+    source_subfolder: "2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50"
+    visual_type: historical_black_and_white_clergy_families_and_congregation_group
+    dimensions_pixels: [1566, 996]
+    description: >-
+      Skupinový snímek více než deseti dospělých. V přední řadě sedí dvě ženy a dva
+      muži v oblecích; za nimi stojí převážně ženy a několik dalších osob. Žádný
+      čitelný nápis ani jednoznačný identifikační znak osob není přítomen.
+    subject_tags: [group_portrait, clergy_families_claim, Vodicka_claim, Bogumsky_claim, spouses_claim, congregation]
+    identification:
+      status: partially_verified
+      archival_claim: "faráři Vodička a Bogumský s manželkami"
+      verified_from_image: [large_adult_group, two_seated_women, two_seated_men, posed_group]
+      unverified: [all_person_identities, mapping_of_two_clergy_and_spouses, exact_date, occasion, 1965_or_1970, exact_location]
+    relationship_to_item_065: >-
+      Stejné čtyři sedící osoby jsou zachyceny také na urbanek-ccs-065; jde o samostatný
+      záběr, nikoli o prostý výřez tohoto souboru.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0067, URB-U-0068]
+
+  - id: urbanek-ccs-065
+    archival_filename: "2  U faráře Bogumského v zahradě.jpg"
+    source_subfolder: "2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50"
+    visual_type: historical_black_and_white_four_person_garden_group
+    dimensions_pixels: [1566, 1008]
+    description: >-
+      Dvě ženy a dva muži sedí v jedné řadě před dřevěným plotem v zahradním prostředí.
+      Jde o tutéž čtveřici a stejné usazení jako v přední řadě urbanek-ccs-064, ale
+      fotografie byla pořízena jako samostatný záběr bez stojící skupiny.
+    subject_tags: [four_person_group, garden, Vodicka_claim, Bogumsky_claim, spouses_claim, visit]
+    identification:
+      status: partially_verified
+      archival_claim: "u faráře Bogumského v zahradě"
+      verified_from_image: [two_seated_women, two_seated_men, garden_fence, same_four_people_as_item_064]
+      unverified: [all_person_identities, host_identity, garden_location, exact_date, occasion, 1965_or_1970, relationship_of_women_to_clergy]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0067, URB-U-0068]
+
+open_research_candidates:
+  - {id: URB-U-0058, subject: Jana_Silerova_identity_service_episcopal_role_and_portrait}
+  - {id: URB-U-0062, subject: Gabriel_Chrobacek_identity_episcopal_office_and_portrait}
+  - {id: URB-U-0067, subject: Karel_and_Libuse_Vodicka_identity_biography_portrait_and_visit}
+  - {id: URB-U-0068, subject: Leonard_Bogumski_identity_service_spouse_and_visit}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-066 až urbanek-ccs-070: zbývající čtyři snímky
+  druhé podsložky a první snímek podsložky „Biskup Ferdinand Stibor v Rychvaldě“.
+  Porovnat skupiny a křtiny s výročními událostmi roku 1970 a ověřit osoby v kronice,
+  personálních pramenech a úplných popiscích.

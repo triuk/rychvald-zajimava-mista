@@ -1,0 +1,21 @@
+schema_version: 1
+scope: closed_item_0031
+items:
+  - id: URB-U-0031
+    status: resolved
+    priority: high
+    collection: Ochotníci rychvald
+    type: corrected_handwritten_date_reading
+    source_items: [urbanek-ochotnici-003]
+    question: "Jaké datum je napsáno pod souhrnem seznamu her Miroslava Neboráka?"
+    resolution: >-
+      Správné čtení je 23. února 1980. Původní přepis 29. února 1960 a následné
+      mezistupňové čtení 23. února 1960 byly chybné. Při maximálním zvětšení má
+      třetí číslice roku dvě uzavřené smyčky odpovídající rukopisné osmičce.
+      Uživatel potvrdil, že položky a souhrn do roku 1961 jsou správné a list nebyl
+      dodatečně doplňován. Datum 23. února 1980 je proto chronologicky konzistentní
+      a původní datovací rozpor zaniká.
+    evidence_added: research/urbanek-archive/ocr/urbanek-ochotnici-003-b-document-text.md
+    resolved_at: 2026-07-22
+    resolved_by: enlarged_visual_review_and_user_confirmation
+    confidence: verified

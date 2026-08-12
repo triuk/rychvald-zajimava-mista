@@ -1,0 +1,22 @@
+schema_version: 1
+collection_id: urbanek-ochotnici
+corrections:
+  - source_item: urbanek-ochotnici-051
+    file: "Ochotníci rychvald/Fabiano - Václav Válek.jpg"
+    classification: cast_alternate_portrait
+    role: Fabiano
+    person: Václav Válek
+    relation_to_program_cast: alternate_to_Radomir_Jurdin
+    status: verified_by_user_confirmation
+    note: >-
+      Václav Válek alternoval Radomíra Jurdina v roli Fabiana. Přesné reprízy,
+      v nichž jednotliví představitelé nastoupili, nejsou doloženy.
+    evidence: research/urbanek-archive/verifications/urb-u-0026-vaclav-valek-research.md
+  - source_item: urbanek-ochotnici-025
+    file: "Ochotníci rychvald/Viola a Fabiano - Sylvie Kravalová a Radomír Jurdin.jpg"
+    classification: program_cast_scene_photo
+    role: Fabiano
+    person: Radomír Jurdin
+    relation_to_alternate: alternated_by_Vaclav_Valek
+    status: verified
+    evidence: research/urbanek-archive/verifications/urb-u-0026-vaclav-valek-research.md

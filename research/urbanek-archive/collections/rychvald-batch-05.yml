@@ -1,0 +1,228 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+batch_number: 5
+batch_id: modern-buildings-small-sacral-structure-sports-and-playground-05
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Rychvald
+  drive_folder_id: 1F5-qLV2yqg2i3RZkjHdDyN7Sg5ZHZREI
+  items:
+  - Rychvald2009 005.jpg
+  - Rychvald2009 008.jpg
+  - Zp0707 090.jpg
+  - Zp1109 005.jpg
+  - Zp1109 082.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file verification against repository Git blob SHA and byte size.
+- First visual classification without identifying people, institutions, buildings or locations beyond explicit visible evidence.
+- EXIF inspection; timestamps are treated as modern capture metadata, not dates of construction or historical events.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: 'Pět moderních barevných fotografií: dvě stavby různého charakteru, jedna vícepatrová budova, sportovní areál a budova s oploceným
+    prostorem a dětskými herními prvky.'
+  exact_binary_duplicates_within_batch: 0
+  capture_sessions: Rychvald2009 005.jpg a Rychvald2009 008.jpg uvádějí Panasonic DMC-FZ7 dne 2009-09-01 v 09:17:26 a 09:18:39. Zp0707 090.jpg
+    uvádí tentýž model dne 2007-06-11 15:18:10; Zp1109 005.jpg a Zp1109 082.jpg dne 2009-09-23 15:20:20 a 2009-09-26 15:38:27.
+  identity_scope: Názvy souborů a adresáře se nepoužívají jako důkaz přesné lokality či funkce staveb. Instituce, konkrétní objekty ani osoby
+    nejsou identifikovány podle vzhledu.
+  visible_text_scope: Na vybraných snímcích není bezpečně čitelný název instituce či objektu, který by sám umožnil přesnou identifikaci.
+items:
+- id: urbanek-rychvald-021
+  filename: Rychvald2009 005.jpg
+  git_blob_sha: 69ddcf21d94f5f00021b94802a4666bfc52a1ce8
+  sha256: 9adfbc7c985b2010e35905ad0700b8b41fa83d543a4543c960bd4c0671c7137d
+  file_size_bytes: 670913
+  drive_id: 1IbMi7ARZIKfeDez8frzB-qizRPbhZq8h
+  dimensions_px:
+  - 2048
+  - 1360
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-01 09:17:26'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná fotografie moderní světlé budovy se vstupem pod širokou plochou stříškou, částečně zakryté vzrostlou zelení. Na
+    snímku není bezpečně čitelný název ani jiné označení, které by dovolovalo z obrazu samotného určit přesnou instituci nebo lokalitu.
+  classification:
+  - modern_color_photograph
+  - modern_building_exterior
+  - landscaped_greenery
+  - unidentified_institution_or_function
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - local raw file byte size equals repository file size
+  - local raw file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_building_identity_and_function
+  - exact_location_unless_explicitly_visible
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+- id: urbanek-rychvald-022
+  filename: Rychvald2009 008.jpg
+  git_blob_sha: 2b9b352172e24b1077ac04b13531d18b3c6d337a
+  sha256: 7c4be6f1f2a21092af9e89da3aed48e7f154c0e850b38f7609805af6fa45fcb8
+  file_size_bytes: 664236
+  drive_id: 13Gc-GQ_axclHhH6wcsu380G4bz8PRKVq
+  dimensions_px:
+  - 1360
+  - 2048
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-01 09:18:39'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná fotografie malé červené dřevěné sakrálně působící stavby s křížem na štítu a obloukovým nadsvětlíkem nad dveřmi,
+    stojící vedle mohutného stromu. Přesná identita, zasvěcení, datace a lokalita stavby nejsou ze snímku samostatně určeny.
+  classification:
+  - modern_color_photograph
+  - small_sacral_structure
+  - cross_on_gable
+  - mature_tree
+  - unidentified_structure
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - local raw file byte size equals repository file size
+  - local raw file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_structure_identity_dedication_and_date
+  - exact_location_unless_explicitly_visible
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+- id: urbanek-rychvald-023
+  filename: Zp0707 090.jpg
+  git_blob_sha: 1e222adba606a23d646fb1b6100d50af2fcfb7d7
+  sha256: b3c05eefd89ed19677f65078228cc522c425bba02bca250adafc16766af99175
+  file_size_bytes: 1944882
+  drive_id: 1kzmjlbB6rnhZaCAubuz2OAzrc5w51oLp
+  dimensions_px:
+  - 2816
+  - 2112
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2007-06-11 15:18:10'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná fotografie rozsáhlejší vícepatrové světlé budovy s červenou taškovou střechou, vikýři a řadou balkonů. Před budovou
+    je travnatá plocha, komunikace, strom a několik automobilů. Z obrazu není bezpečně určena funkce ani přesná identita budovy.
+  classification:
+  - modern_color_photograph
+  - multi_storey_building_exterior
+  - balconies
+  - red_tile_roof
+  - unidentified_building_function
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - local raw file byte size equals repository file size
+  - local raw file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_building_identity_and_function
+  - exact_location_unless_explicitly_visible
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+- id: urbanek-rychvald-024
+  filename: Zp1109 005.jpg
+  git_blob_sha: aae14e690663756d951ad6420b26e46878d30a5b
+  sha256: 89e5c5c1a4ceb4c56d15d090d1721877831173fdffda96b639ef68664d257721
+  file_size_bytes: 739104
+  drive_id: 1SMFfJCWIRBlVllbUWcXigIqAHEw9zV22
+  dimensions_px:
+  - 2048
+  - 1360
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-23 15:20:20'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná fotografie sportovního areálu s oválnou běžeckou dráhou, travnatou plochou, fotbalovou brankou, osvětlením a oploceným
+    víceúčelovým hřištěm v popředí. Přesný název a lokalita areálu nejsou na snímku čitelně označeny.
+  classification:
+  - modern_color_photograph
+  - sports_ground
+  - running_track
+  - football_goal
+  - fenced_multiuse_court
+  - floodlights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - local raw file byte size equals repository file size
+  - local raw file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_sports_facility_identity_and_name
+  - exact_location_unless_explicitly_visible
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+- id: urbanek-rychvald-025
+  filename: Zp1109 082.jpg
+  git_blob_sha: 27b096a2477b70616bfff736e2ef1776d78591f3
+  sha256: 3fc10cbb970f347b78b1c595abba901bff795c051c80b70ee45ea522e9c4c996
+  file_size_bytes: 689838
+  drive_id: 12ekIx_qH4SQIFHtZhe0kCHqGUjCX6gOu
+  dimensions_px:
+  - 2048
+  - 1360
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-26 15:38:27'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná fotografie oranžovo-žluté budovy s centrálním vstupem, rampou a oploceným venkovním prostorem s dětskými herními
+    prvky. Na schodišti a v areálu jsou osoby; jejich identita se neurčuje. Funkce a přesný název budovy nejsou z obrazu samotného bezpečně doloženy.
+  classification:
+  - modern_color_photograph
+  - building_exterior
+  - accessible_ramp
+  - fenced_playground
+  - people_present_not_identified
+  - unidentified_institution_or_function
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - local raw file byte size equals repository file size
+  - local raw file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_building_identity_and_function
+  - exact_location_unless_explicitly_visible
+  - identity_of_people
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+related_uncertainties:
+- URB-U-0082
+next_batch:
+  number: 6
+  filenames:
+  - Zp1109 340.jpg
+  - Zp1109 379.jpg
+  - Zp1109 382.jpg
+  - Zp1109 390.jpg
+  - zzz-satiny 255.jpg

@@ -1,0 +1,131 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: stibor-council-and-chrobacek-election-opening-16
+status: completed_first_visual_pass
+item_count: 5
+source_scope: >-
+  Poslední soubor podsložky 3 Biskup Ferdinand Stibor v Rychvaldě a první čtyři
+  soubory podsložky 4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    První snímek uzavírá sérii návštěvy archivně připisované Ferdinandu Stiborovi
+    sedmičlennou venkovní skupinou označenou jako rada starších. Název obsahuje pouze
+    fragmenty několika jmen a končí řetězcem Šm. Zbývající čtyři snímky otevírají
+    souvislou interiérovou sérii slavnostního církevního shromáždění: skupinu duchovních
+    s řetězy nebo insigniemi, jednotlivého řečníka s listinou, obřad u oltáře a zaplněnou
+    loď. Obrazová návaznost podporuje jednu událost, ale nepotvrzuje jméno Gabriela
+    Chrobáčka, rok, přesný úkon ani role jednotlivých osob.
+  basis:
+    - visual_review
+    - archival_sequence
+    - repeated_interior_and_participants
+    - exact_repository_paths_confirmed
+    - git_blob_sha_computed_from_unchanged_source_bytes
+
+items:
+  - id: urbanek-ccs-076
+    archival_filename: "6 Biskup Stibor s radou starších. Zleva Herman, nn,Trant. Šm.jpg"
+    visual_type: historical_black_and_white_outdoor_council_group
+    description: >-
+      Sedm dospělých sedí v řadě venku před ulicí s rodinnými domy a holými stromy.
+      Uprostřed sedí muž v tmavém duchovním oděvu s výrazným řetězem nebo insignií a
+      drží velkou kytici. Po jeho stranách jsou civilně oblečení muži a jedna žena se
+      šátkem na hlavě.
+    subject_tags: [outdoor_group, clergy, chain_or_insignia, bouquet, council_of_elders_claim, truncated_names]
+    identification:
+      status: partially_verified
+      archival_claim: "biskup Stibor s radou starších; zleva Herman, neznámý, Trant a Šm…"
+      verified_from_image: [seven_seated_adults, central_clergy, chain_or_insignia, bouquet, residential_street, one_headscarved_woman]
+      unverified:
+        - Ferdinand_Stibor_identity
+        - council_of_elders_status
+        - exact_date_and_place
+        - identities_and_order_of_all_seven_people
+        - full_forms_and_spelling_of_Herman_Trant_and_Sm_fragment
+        - relationship_to_items_070_to_075
+    filename_note: >-
+      Dochovaný archivní název obsahuje fragmenty „Herman, nn,Trant. Šm“; chybějící
+      části jmen nebyly rekonstruovány.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0050]
+
+  - id: urbanek-ccs-077
+    archival_filename: "1.jpg"
+    visual_type: historical_black_and_white_clergy_group_with_insignia
+    description: >-
+      Čtyři duchovní stojí nebo sedí v popředí interiéru. Všichni mají výrazné řetězy
+      nebo insignie; muž vlevo drží otevřenou velkou knihu a muž vpravo menší uzavřenou
+      knihu. Za nimi jsou další duchovní a civilní účastníci.
+    subject_tags: [clergy_group, chains_or_insignia, books, formal_ceremony, Chrobacek_election_folder]
+    identification:
+      status: partially_verified
+      archival_claim: "součást slavnostní volby a jmenování biskupem Gabriela Chrobáčka"
+      verified_from_image: [four_foreground_clergy, four_chains_or_insignia, open_book, closed_book, additional_attendees]
+      unverified: [event_date, event_place, Gabriel_Chrobacek_identity, identities_and_offices_of_clergy, meaning_of_insignia, precise_ceremonial_moment]
+    ocr: {document_text: not_applicable, scene_text: no_readable_text}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-078
+    archival_filename: "2.jpg"
+    visual_type: historical_black_and_white_clergy_reader_with_documents
+    description: >-
+      Muž v tmavém duchovním oděvu a kulatých brýlích stojí v profilu a drží několik
+      listů nebo složený dokument. V tmavém pozadí je skupina dalších přihlížejících.
+    subject_tags: [clergy, reader_or_speaker, papers, ceremony, audience]
+    identification:
+      status: partially_verified
+      archival_claim: "součást slavnostní volby a jmenování biskupem Gabriela Chrobáčka"
+      verified_from_image: [single_foreground_clergy, round_glasses, held_documents, background_attendees]
+      unverified: [person_identity, document_content, speech_or_reading_function, exact_event_stage, date_and_place]
+    ocr: {document_text: not_applicable, scene_text: no_readable_text}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-079
+    archival_filename: "3.jpg"
+    visual_type: historical_black_and_white_altar_ceremony
+    description: >-
+      Tři duchovní stojí za oltářem. Prostřední má výrazný řetěz s přívěskem ve tvaru
+      kalicha nebo podobného znaku. Na oltáři jsou kalich, několik knih a květiny;
+      vpravo stojí další duchovní u otevřené knihy na pultu a v pozadí jsou další osoby.
+    subject_tags: [altar, clergy, chalice, books, chain_or_insignia, ceremonial_service]
+    identification:
+      status: partially_verified
+      archival_claim: "součást slavnostní volby a jmenování biskupem Gabriela Chrobáčka"
+      verified_from_image: [three_main_clergy, chain_with_chalice_like_pendant, altar_chalice, books, lectern, additional_clergy]
+      unverified: [Gabriel_Chrobacek_identity, officiants_and_roles, exact_liturgy_or_appointment_act, insignia_meaning, date_and_location]
+    ocr: {document_text: not_applicable, scene_text: no_readable_text}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-080
+    archival_filename: "4.jpg"
+    visual_type: historical_black_and_white_crowded_service_with_dignitaries
+    description: >-
+      Široký pohled do zaplněného interiéru. V přední oddělené řadě sedí několik mužů,
+      z nichž nejméně dva vpravo mají výrazné řetězy nebo insignie. Za nimi je početné
+      publikum, včetně mnoha žen se šátky na hlavě.
+    subject_tags: [crowded_service, audience, clergy_or_dignitaries, chains_or_insignia, church_interior]
+    identification:
+      status: partially_verified
+      archival_claim: "součást slavnostní volby a jmenování biskupem Gabriela Chrobáčka"
+      verified_from_image: [large_attendance, separated_front_row, at_least_two_chain_bearers, many_headscarved_women]
+      unverified: [event_identity, attendance_count, identities_and_offices_of_front_row, Gabriel_Chrobacek_identity, date, location, program]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+open_research_candidates:
+  - {id: URB-U-0050, subject: Ferdinand_Stibor_visit_council_members_names_date_and_sequence}
+  - {id: URB-U-0062, subject: Gabriel_Chrobacek_election_appointment_inauguration_people_date_and_ritual_sequence}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-081 až urbanek-ccs-085, tedy soubory 5 až 9
+  v podsložce volby a jmenování Gabriela Chrobáčka. Soubor 5 má useknutý popisek se
+  jmény rodinných příslušníků a musí být zaznamenán bez domýšlení pokračování.

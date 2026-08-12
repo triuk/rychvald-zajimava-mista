@@ -1,0 +1,128 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-36
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-176
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/8 Farář Leonard
+    Bogumský v Doubravě u příležitosti neznámých oslav/1.jpg
+  file_size_bytes: 188802
+  git_blob_sha: 8025eb5a42c1dc180bf81f8f4be775f446ddc93e
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Duchovní u oltáře s krucifixem, kalichem a knihou
+  document_type: historical_church_service_clergy_at_altar_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; spolehlivý identifikační text nebyl zjištěn.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected_or_not_reliably_readable
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Archivní název podsložky připisuje sérii faráři Leonardu Bogumskému v Doubravě při neznámých oslavách; obraz sám tvrzení
+    nezávisle nepotvrzuje.
+  - Osoby, úřady ani přesný obřad nebyly určovány pouze podle vzhledu, oděvu nebo gesta.
+  - Souvisí s URB-U-0068.
+- source_id: urbanek-ccs-177
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/8 Farář Leonard
+    Bogumský v Doubravě u příležitosti neznámých oslav/2.jpg
+  file_size_bytes: 209630
+  git_blob_sha: 4738493e1e1c5c19005369a53042c912f98f674e
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Duchovní se vzpaženýma rukama u oltáře
+  document_type: historical_church_service_officiant_raised_hands_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; na krucifixu je čitelné označení INRI.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: INRI_readable
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Archivní název podsložky připisuje sérii faráři Leonardu Bogumskému v Doubravě při neznámých oslavách; obraz sám tvrzení
+    nezávisle nepotvrzuje.
+  - Osoby, úřady ani přesný obřad nebyly určovány pouze podle vzhledu, oděvu nebo gesta.
+  - Souvisí s URB-U-0068.
+- source_id: urbanek-ccs-178
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/8 Farář Leonard
+    Bogumský v Doubravě u příležitosti neznámých oslav/3.jpg
+  file_size_bytes: 168688
+  git_blob_sha: 2c70e09c4ee30751ec8f0f9130b48460257d4d78
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Shromáždění, korouhev a duchovní v interiéru kostela
+  document_type: historical_church_congregation_processional_banner_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; viditelné symboly samy neurčují organizaci ani událost.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: symbols_visible_without_reliable_identifying_text
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Archivní název podsložky připisuje sérii faráři Leonardu Bogumskému v Doubravě při neznámých oslavách; obraz sám tvrzení
+    nezávisle nepotvrzuje.
+  - Osoby, úřady ani přesný obřad nebyly určovány pouze podle vzhledu, oděvu nebo gesta.
+  - Souvisí s URB-U-0068.
+- source_id: urbanek-ccs-179
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/8 Farář Leonard
+    Bogumský v Doubravě u příležitosti neznámých oslav/4.jpg
+  file_size_bytes: 195906
+  git_blob_sha: f513eaffb930e4b8baf4223621f0a25b15d82a1e
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Duchovní u řečnického pultu s textilií se znakem kalicha
+  document_type: historical_church_speaker_lectern_photograph
+  readability:
+    status: fair
+    note: Hlavní obrazové prvky jsou čitelné, text na závěsné textilii je však rozostřený a pouze částečný.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: partial_and_uncertain
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Archivní název podsložky připisuje sérii faráři Leonardu Bogumskému v Doubravě při neznámých oslavách; obraz sám tvrzení
+    nezávisle nepotvrzuje.
+  - Text na závěsné textilii nebyl úplně přepsán, protože část znaků je neostrá a nejednoznačná.
+  - Osoby, úřady ani přesný obřad nebyly určovány pouze podle vzhledu, oděvu nebo gesta.
+  - Souvisí s URB-U-0068.
+- source_id: urbanek-ccs-180
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/8 Farář Leonard
+    Bogumský v Doubravě u příležitosti neznámých oslav/5.jpg
+  file_size_bytes: 181318
+  git_blob_sha: d293c0142718278d2fe8db2e1a9a606cc037ce38
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Obřadní úkon mezi dvěma duchovními u oltáře
+  document_type: historical_church_altar_rite_photograph
+  readability:
+    status: good
+    note: Hlavní obrazové prvky jsou čitelné; přesný obřadní úkon nelze určit pouze z fotografie.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected_or_not_reliably_readable
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Archivní název podsložky připisuje sérii faráři Leonardu Bogumskému v Doubravě při neznámých oslavách; obraz sám tvrzení
+    nezávisle nepotvrzuje.
+  - Osoby, úřady ani přesný obřad nebyly určovány pouze podle vzhledu, oděvu nebo gesta.
+  - Souvisí s URB-U-0068.

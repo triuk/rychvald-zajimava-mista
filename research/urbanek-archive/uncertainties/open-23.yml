@@ -1,0 +1,134 @@
+schema_version: 3
+scope: open_items_0077_0080
+items:
+- id: URB-U-0077
+  status: open
+  priority: medium
+  collection: Volné soubory přímo v kořeni archivu
+  type: photograph_location_date_and_provenance
+  source_items:
+  - urbanek-root-loose-001
+  question: Jaká stanice a lokalita je na reprodukci označené „Nádraží“, z jaké doby pochází a kdo je autorem či vydavatelem předlohy?
+  known_facts:
+  - V obraze je čitelný tištěný popisek `Nádraží`.
+  - Snímek zachycuje nízké budovy, komunikaci, vodní příkop či tok, sloupy a osoby.
+  - EXIF datum 2016 je metadata digitálního souboru, nikoli historická datace scény.
+  - V připojeném Google Drive byl nalezen zdrojový LyX dokument Jaromíra Urbánka `Rychvald včera a dnes ve fotografii`, datovaný v textu `V Rychvaldu, květen 2012`.
+  - LyX dokument v kapitole `Železniční nádraží` odkazuje na obraz `14. část průmysl a železniční zastávky/363.jpg` s explicitním popiskem `„Nádraží“ u železničního přejezdu u rybníku Skučák známé pod názvem „Ozvajch“ (z německého Ausweiche – výhybna). Nejstarší dochovaný obrázek asi z počátku 20. století.`
+  - Přímé SIFT/RANSAC porovnání kořenového `19.jpg` s knižním `363.jpg` dalo 3142 kvalitních shod a přibližně 3140 geometricky konzistentních inlierů; po zarovnání je transformace prakticky jen posun asi +3 px / −7 px a korelace překryvu je 0,9981.
+  - Kořenový `19.jpg` a knižní `363.jpg` jsou tedy dvě digitální reprezentace téhož podkladového historického obrazu, nikoli jen podobná scéna.
+  - Srovnávací knižní obrazy 365, 366 a 367 jsou v LyXu explicitně označeny jako `Rychvald místo` nebo `Rychvald zámek` a s kořenovým `19.jpg` se geometricky neshodují.
+  - Starší obecní Pamětní kniha nezávisle rozlišuje Rychvald-zámek, Rychvald-místo a Rychvald-zastávka zvanou `Vyhýbka`, kterou uvádí jako zrušenou roku 1916.
+  - Urbánkův knižní text rozlišuje stejné tři body a lokalitu u Skučáku označuje jako `Ozvajch` z německého `Ausweiche`.
+  - Nejlepší explicitní datace samotného historického snímku je Urbánkův popisek `asi z počátku 20. století`; rok zrušení výhybky sám o sobě není přesným datem fotografie.
+  - Urbánek v úvodu knihy uvádí, že použité historické fotografie získával z více archivů, kronik a od občanů a že u mnoha již není možné určit autora; `363.jpg` nemá individuální kredit.
+  - Historický železniční snímek na straně 29 publikace `Rychvald 1305–2005` není totožný s kořenovým `19.jpg`.
+  - Stejnojmenný `19.jpg` ve složce `Fotografie knihy Rychvald včera a dnes` je moderní barevný letecký snímek a s kořenovým souborem nesouvisí.
+  partially_resolved_attributes:
+    exact_station_and_locality:
+      value: '„Nádraží“ / výhybna u železničního přejezdu u rybníku Skučák, místně Ozvajch, z německého Ausweiche'
+      status: directly_supported_by_exact_image_match_to_book_asset_and_explicit_Urbanek_caption
+    relationship_to_book_asset:
+      value: 'root loose 19.jpg and book asset 14. část průmysl a železniční zastávky/363.jpg are the same underlying historical image'
+      status: directly_verified_by_geometric_image_matching
+    original_capture_or_publication_date:
+      value: 'asi z počátku 20. století'
+      status: approximate_local_secondary_caption_not_exact_date
+    later_publication_context:
+      value: 'Jaromír Urbánek, Rychvald včera a dnes ve fotografii; source text dated Rychvald, May 2012'
+      status: directly_supported_by_source_LyX_document
+  unknown:
+  - exact_original_capture_date
+  - original_photographer
+  - original_negative_postcard_or_print_carrier
+  - first_publication_or_first_known_use
+  - exact_archive_collection_or_private_provider_from_which_Urbanek_obtained_this_image
+  - archive_reference_or_inventory_number
+  - whether_hornicky_klub_used_the_exact_same_image_and_its_source_chain
+  next_action: >-
+    Hledat starší individuálně popsanou kopii stejného obrazu v Chrobáčkových fotoalbech, MÚ Rychvald, SOkA Karviná nebo jiném
+    zdroji, který uvádí autora či signaturu. Lokalitu už nepovažovat za otevřenou: přímá shoda s knižním `363.jpg` ji bezpečně
+    určuje jako Ozvajch/výhybnu u Skučáku. Dataci zachovat pouze jako přibližnou `asi z počátku 20. století`.
+  evidence:
+  - research/urbanek-archive/collections/root-loose-files-batch-01.yml
+  - sources/index.d/urbanek-root-loose-files-01.yml
+  - research/urbanek-archive/verifications/urb-u-0077-railway-station-recheck-2026-08-12.md
+- id: URB-U-0078
+  status: open
+  priority: high
+  collection: Volné soubory přímo v kořeni archivu
+  type: historical_group_event_unit_date_and_provenance
+  source_items:
+  - urbanek-root-loose-004
+  question: Jaká událost, jednotka a přesné datum jsou zachyceny u tabule „MĚSTO RYCHVALD“ a jaká je provenience fotografie?
+  known_facts:
+  - Nová přímá vizuální kontrola zdrojového PNG potvrzuje čtyři viditelné ozbrojené muže v přilbách a uniformách; starší evidence `pět` byla chybným přepočtem a je tímto opravena.
+  - Na tabuli je čitelný nápis `MĚSTO RYCHVALD`.
+  - Archivní název obsahuje `9 X 1938 przed zajęciem Rychvaldu`, ale filename je pouze archivní atribuce a není nezávislým důkazem přesného data, události ani institucionální příslušnosti osob.
+  - Samotný vzhled uniformy, přilby nebo výzbroje se nepoužívá jako dostatečný důkaz jednotky, národnosti, hodnosti ani totožnosti.
+  partially_resolved_attributes:
+    visible_person_count:
+      value: 4
+      status: directly_observed_in_source_image_recheck_2026_08_12
+    visible_place_sign:
+      value: MĚSTO RYCHVALD
+      status: directly_readable_in_source_image
+  unknown:
+  - exact_event_and_date
+  - unit_and_institutional_affiliation
+  - identity_of_persons
+  - photographer_and_source_provenance
+  - original_carrier_or_publication_context
+  - exact_location_of_sign_within_or_at_boundary_of_Rychvald
+  next_action: >-
+    Hledat přímý obrazový nebo dokumentární protějšek fotografie: dobový tisk a obrazové fondy z října 1938, popsané kopie
+    v místních archivech a publikacích a případně vojenské či policejní dokumenty, které spojují konkrétní jednotku s místem a
+    datem. Datum 9. 10. 1938 ani jednotku nepřebírat pouze z filename nebo vzhledu uniformy.
+  evidence:
+  - research/urbanek-archive/collections/root-loose-files-batch-01.yml
+  - sources/index.d/urbanek-root-loose-files-01.yml
+  - research/urbanek-archive/verifications/urb-u-0078-preparation-recheck-2026-08-12.md
+- id: URB-U-0079
+  status: open
+  priority: high
+  collection: Volné soubory přímo v kořeni archivu
+  type: official_document_archival_context_and_completeness
+  source_items:
+  - urbanek-root-loose-005
+  question: Jaký je archivní fond, spisová značka, účel, návaznost a úplnost tajného seznamu Okresního velitelství SNB ve Fryštátě z 10. července 1945?
+  known_facts:
+  - Dokument nese záhlaví Okresního velitelství SNB ve Fryštátě.
+  - Je datován 10. července 1945 a označen „Tajné!“.
+  - Nadpis jej popisuje jako seznam dosud zjištěných polských bojůvkářů bydlících v okrese.
+  - Dochovaná fotografie zachycuje jednu stránku s očíslovanou tabulkou.
+  unknown:
+  - archive_fond_and_file_reference
+  - issuing_context_and_distribution
+  - whether_list_has_additional_pages_or_annexes
+  - subsequent_use_and_verification_status
+  evidence:
+  - research/urbanek-archive/collections/root-loose-files-batch-01.yml
+  - sources/index.d/urbanek-root-loose-files-01.yml
+- id: URB-U-0080
+  status: open
+  priority: medium
+  collection: Volné soubory přímo v kořeni archivu
+  type: uniformed_person_identity_service_date_place_and_provenance
+  source_items:
+  - urbanek-root-loose-006
+  question: Kdo je na portrétu, k jakému služebnímu sboru a instituci patřil, kdy a kde snímek vznikl a jaká je jeho provenience a vazba k Rychvaldu?
+  known_facts:
+  - Obraz zachycuje jednoho muže v uniformě, čepici se štítkem, zapnuté blůze, opasku a vysokých botách.
+  - U pravého boku je tmavé pouzdro nebo brašna.
+  - Soubor neobsahuje EXIF metadata.
+  - Archivní název obsahuje označení „německý četník“, ale název není nezávislým důkazem národnosti, služby ani totožnosti.
+  unknown:
+  - identity_of_person
+  - nationality_and_exact_service
+  - rank_and_institutional_affiliation
+  - original_capture_date_and_place
+  - photographer_and_source_provenance
+  - relationship_to_rychvald
+  evidence:
+  - research/urbanek-archive/collections/root-loose-files-batch-02.yml
+  - sources/index.d/urbanek-root-loose-files-02.yml

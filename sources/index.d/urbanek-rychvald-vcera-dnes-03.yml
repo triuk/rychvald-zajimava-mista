@@ -1,0 +1,129 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+batch: 3
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights:
+  status: unknown
+  permission_for_project: confirmed
+source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+sources:
+- source_id: urbanek-rychvald-vcera-dnes-011
+  title: 10.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/10.jpg
+  file_size_bytes: 1595421
+  drive_id: 1DRbio9ado3m0vTSiJfUFsoZSzRabmUHk
+  git_blob_sha: 981340cfd4e368ea14d0664892dd0ce59082edc9
+  sha256: 2735f3d5e1025a9f8abe09ffe4e69d99800df42bb2c11e6156f82a2582b69f65
+  dimensions_px:
+  - 3348
+  - 1710
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:09:09'
+    software: Picasa
+  description: Šikmý letecký pohled na smíšený provozní areál u silniční křižovatky; viditelné jsou menší obdélné nádrže,
+    větší vodní plocha, několik provozních budov, komunikace, železniční trať a okolní pole.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-012
+  title: 11.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/11.jpg
+  file_size_bytes: 1620514
+  drive_id: 15K9yB3mPCwQfevLTxxjqx2SWkjIV_Mq3
+  git_blob_sha: 5df99817adb0d9ade23875fdbbaf1267341db86b
+  sha256: 468c44947739aa8ec5da26e857995dbed97ab0fab3b70bdfd963082df16ceeba
+  dimensions_px:
+  - 3386
+  - 1963
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-07 18:55:40'
+    software: Picasa
+  description: Šikmý letecký pohled na rozsáhlý uzavřený areál s oranžovými střechami a vnitřním dvorem, navazující řady menších
+    jednotných staveb, hlavní komunikaci, samostatné domy a podlouhlý bytový dům.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-013
+  title: 12.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/12.jpg
+  file_size_bytes: 2682082
+  drive_id: 1snAWck99oDdcPQ5xVP0TxR_wHLmqUa01
+  git_blob_sha: de13fd9fffd8a28cb5ba069cbffe88786e35eee3
+  sha256: 37b00dd789f3cd1c2dc000db34f7f78f508453a6cef1f5c4b0ff55988bf05fba
+  dimensions_px:
+  - 4577
+  - 2535
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-07 18:04:26'
+    software: null
+  description: Široký šikmý letecký pohled na velkou vodní plochu s vegetovanými břehy a ostrůvky; po úzkém pásu mezi vodními
+    plochami vede železniční trať, za ní je rozptýlená zástavba, zeleň, pole a v dálce výrazná věžová stavba.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-014
+  title: 13.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/13.jpg
+  file_size_bytes: 2200350
+  drive_id: 1GsVaSDS5URMzoXHiiuzrhuA8m4R3IMMJ
+  git_blob_sha: a34574729f2ce79c5e31c00a5d57bf7ae495c17c
+  sha256: b1ba6af95d039d126ca01891be894759d2c2fca00b2ab1c6b66636359ae1c96d
+  dimensions_px:
+  - 3557
+  - 2166
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-07 18:04:21'
+    software: Picasa
+  description: Šikmý letecký pohled na dvě vodní plochy oddělené pásem se železniční tratí; nalevo vede zakřivená silnice
+    kolem rozptýlené zástavby, v pozadí je širší sídelní krajina a vzdálené městské panorama.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.
+- source_id: urbanek-rychvald-vcera-dnes-015
+  title: 14.jpg
+  document_type: letecka_fotografie
+  file: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes/14.jpg
+  file_size_bytes: 2586006
+  drive_id: 1UXQf820faYylJXo7iYFOWKzVv_vD65aP
+  git_blob_sha: 0e11c191068c850e58cfe8b2571f24e5165ce1ef
+  sha256: fd62ca46d8681f41f54fc1db73c3bce94647a873243f02217a255ae2697740de
+  dimensions_px:
+  - 3928
+  - 2042
+  digital_format: JPEG
+  text_layer: not_applicable
+  embedded_metadata:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-30 16:51:52'
+    software: null
+  description: Šikmý letecký pohled na několik podlouhlých provozních hal a zpevněné plochy, přilehlé komunikace, zahrádkářskou
+    nebo rodinnou zástavbu, hustou zeleň a velkou vodní plochu v pozadí.
+  notes:
+  - Archival folder and filename wording is not independent proof of publication use or depicted-location identity.
+  - EXIF date is embedded file metadata.
+  - First visual pass completed; dedicated provenance and location research deferred.

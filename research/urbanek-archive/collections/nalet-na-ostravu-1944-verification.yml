@@ -1,0 +1,20 @@
+collection_id: urbanek-nalet
+status: completed
+source_items: 8
+subfolders: 0
+image_files: 7
+technical_thumbnail_caches: 1
+repo_verified_items: 8
+repo_missing_items: 0
+items:
+  - [urbanek-nalet-001, repo_verified, 73d998d15f324127b40abf115135ec7ed02687f6]
+  - [urbanek-nalet-002, repo_verified, 8eea73a9212cfcd30ac6269534ca5df293f366ab]
+  - [urbanek-nalet-003, repo_verified, 3fc5b6c5981243092273b21582d1a8c2828837a8]
+  - [urbanek-nalet-004, repo_verified, 2bcb56c4ff26deea41be91c402fe052afa4ecaa4]
+  - [urbanek-nalet-005, repo_verified, 5c65ad769e8820f2a04698fec72f512cf5b92406]
+  - [urbanek-nalet-006, repo_verified, c5d288b29d9e60b91640b79c47d81d2026f75a54]
+  - [urbanek-nalet-007, repo_verified, 837ff924376c5c9342aac67f3e90db292b1f64f4]
+  - [urbanek-nalet-008, repo_verified, 4fbead38600f057441e0529ac1ad039fa4b2e52d]
+notes:
+  - Všech osm položek je ve větvi pod přesnými původními cestami.
+  - Thumbs.db je technická cache a není určen ke standardní klasifikaci ani OCR.

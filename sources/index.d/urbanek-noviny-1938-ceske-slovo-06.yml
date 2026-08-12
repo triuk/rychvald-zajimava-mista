@@ -1,0 +1,182 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-noviny-1938-ceske-slovo-026
+  title: P1020299.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020299.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020299.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2344086
+  git_blob_sha: 6ac020f4b930f1cb7c964d102f919791a4eab6ec
+  sha256: a18df313a61b48fc0c590cc3f4277adccbd0f7a347d4e9c32ab928ed78d04003
+  drive_id: 1fBU9nS7tzmv5kYMriJd7Xyl1lQqxxGn4
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: german_polish_comparison_article_out_of_focus_capture
+  summary: Rozostřená fotografie části novinové strany. Spolehlivě čitelný je hlavní titulek „Němci lepší než Poláci“; drobnější
+    podtitulek a tělo článku nejsou kvůli neostrosti bezpečně přepisovány.
+  visible_text:
+  - Němci lepší než Poláci
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:05:07'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-027
+  title: P1020300.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020300.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020300.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3500545
+  git_blob_sha: 468d2f2b25806693fabfbee27936d277a3d67299
+  sha256: 934a9af797b9dd88c46d33e3316cb43b4e0006fc317c90505a6458e64add08bc
+  drive_id: 14KP2vx-MDcAXaECQ0Ds2FIPi7GLYe-YM
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: přívoz_station_refugees_polish_consulate_and_tesin_mines_articles
+  summary: Fotografie větší části novinové strany s hlavním titulkem „Přeplněné přívozské nádraží“ a podtitulem „Čeká se na
+    uvolnění trati“. Dále jsou viditelné články „Nový správce polského konsulátu v Ostravě“, „Poslanec Sliwka v Katovicích“
+    a „Vojenský dozor na šachtách na Těšínsku“.
+  visible_text:
+  - Nový správce polského konsulátu v Ostravě
+  - Praha 24. října.
+  - Přeplněné přívozské nádraží
+  - Čeká se na uvolnění trati
+  - Poslanec Sliwka v Katovicích
+  - Vojenský dozor na šachtách na Těšínsku
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:06:41'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-028
+  title: P1020301.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020301.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020301.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3430621
+  git_blob_sha: bd49e0a4b78db518d9efb186e890a6fac48e812c
+  sha256: 28b6c7fb26e32a41d892c2f9931e09ebb881a35f017bb7336d0facd6deed6694
+  drive_id: 1aiYjMvxObko6cG9S3MqQF1Qf9Z4tMK88
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification: tesin_mines_and_ostrava_employee_register_alternate_page_capture
+  summary: Těsnější fotografie spodní části stejné novinové strany jako P1020300.JPG. Zachycuje články „Poslanec Sliwka v
+    Katovicích“, „Vojenský dozor na šachtách na Těšínsku“ a „Soupis zaměstnanců v Ostravě přijatých po 1. květnu 1938“; nejde
+    o binární duplicitu.
+  visible_text:
+  - Poslanec Sliwka v Katovicích
+  - Vojenský dozor na šachtách na Těšínsku
+  - Soupis zaměstnanců v Ostravě
+  - přijatých po 1. květnu 1938
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:06:54'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-029
+  title: P1020302.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020302.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020302.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3365586
+  git_blob_sha: 5303f4a86188c245179526ffae1d1b8005a1812d
+  sha256: a3eeab28db8cfbc0cc57d337df03f4b388ad7e221c2f5816ce2bfa1260170d8a
+  drive_id: 1KvifJK1bOZSFMPnBYu055S2dv3lcgvE-
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  classification: tesin_regional_news_orlová_petřvald_karviná_suchá_reports
+  summary: Portrétně orientovaná fotografie části novinové strany s rubrikou „Zprávy z Těšínska“. Text přímo zmiňuje Orlovou,
+    Petřvald, Karvinsko a Suchou a popisuje více krátkých místních zpráv; úplné údaje vydání nejsou zachyceny.
+  visible_text:
+  - Zprávy z Těšínska
+  - V Petřvaldě byly v noci na úterý demolovány dva domy.
+  - Orlová
+  - Karvinsku
+  - Suché
+  - Petřvaldu
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:07:26'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081
+- source_id: urbanek-noviny-1938-ceske-slovo-030
+  title: P1020303.JPG
+  collection_id: urbanek-noviny-1938-ceske-slovo
+  source_path: Noviny 1938 České slovo/P1020303.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo/P1020303.JPG
+  document_type: newspaper_page_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 2592061
+  git_blob_sha: 1a82b6b2e195eef32febe9b43e646e2a406c4748
+  sha256: e528ee525372932e8f0e8a600b8a3bcf1706a86e700582f1f0760353f22d0147
+  drive_id: 1T2bkeDcuv64kHBQoDFhGrlT50aSwRdXl
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  classification: orlová_station_childbirth_and_tesin_regional_news_article
+  summary: Portrétně orientovaný detail novinové strany s článkem „Novorozeně ve vagoně“ a podtitulem „Radostná událost na
+    nádraží v Orlové“. Pod článkem začíná další rubrika „Zprávy z Těšínska“; úplné údaje vydání nejsou zachyceny.
+  visible_text:
+  - Novorozeně ve vagoně
+  - Radostná událost na nádraží v Orlové
+  - Zprávy z Těšínska
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 16:08:37'
+    software: Ver.1.0
+    use: modern_reproduction_capture_metadata_not_newspaper_publication_date
+  uncertainty_ids:
+  - URB-U-0081

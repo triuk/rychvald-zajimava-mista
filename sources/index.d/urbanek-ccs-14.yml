@@ -1,0 +1,86 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-14
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-066
+    title: Výřez přivítání duchovního dítětem při archivně tvrzeném výročí roku 1970
+    document_type: historical_black_and_white_cropped_ceremonial_welcome
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50/3  K 50. výročí  zal církve ČSL v r. 1970  přijel farář Kare.jpg"
+    file_size_bytes: 169599
+    git_blob_sha: 7525eb29343c4f2737c53639926ef65f822a943a
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Ústřední duchovní, děti, kytice a knihy jsou čitelné; obraz je těsným výřezem širší reprodukce."}
+    visual_content: {photographs: cropped_version_of_urbanek_ccs_067, scene_text: not_detected, method: "Vizuální kontrola a geometrické porovnání obrazových bodů."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Soubor je samostatnou archivní položkou, ale nikoli druhým nezávislým fotografickým okamžikem.
+      - Název končí řetězcem Kare a nebyl doplněn odhadem.
+      - Souvisí s URB-U-0063.
+
+  - source_id: urbanek-ccs-067
+    title: Širší přivítání nejmenšími s archivním označením biskupa Marcelucha
+    document_type: historical_black_and_white_ceremonial_welcome
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50/4  Přivítání nejmenšími. Vlevo biskup  Marceluch.jpg"
+    file_size_bytes: 187429
+    git_blob_sha: 9c97a11bf99abb46f3bb44985f6a2e7e91d05dcb
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Dva duchovní, dítě, muž v obleku, knihy, insignie a kytice jsou dobře čitelné."}
+    visual_content: {photographs: full_version_of_urbanek_ccs_066, scene_text: not_detected, method: "Vizuální kontrola a geometrické porovnání obrazových bodů."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno Marceluch, biskupský titul a osoby pocházejí z archivního názvu.
+      - Pravopis jména a úřad vyžadují textový pramen.
+      - Souvisí s URB-U-0063.
+
+  - source_id: urbanek-ccs-068
+    title: Křestní obřad archivně spojovaný s trojími křtinami
+    document_type: historical_black_and_white_multiple_family_baptism_scene
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50/5  U této příležitosti proběhly troje křtiny.jpg"
+    file_size_bytes: 148496
+    git_blob_sha: bdc8e38d95b476be49fb34f5480547fa4d6931dc
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Jeden kojenec, duchovní, křestní svíce a více rodinných skupin jsou čitelné."}
+    visual_content: {photographs: single_historical_baptism_scene_with_multiple_groups, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Obraz sám neprokazuje přesný počet tří křtů.
+      - Rodiny, dítě a duchovní nejsou identifikováni.
+      - Souvisí s URB-U-0064.
+
+  - source_id: urbanek-ccs-069
+    title: Neidentifikovaná rodina při křestním obřadu
+    document_type: historical_black_and_white_baptism_family_scene
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50/6  Kdo byli tito křtěnc..jpg"
+    file_size_bytes: 152187
+    git_blob_sha: 560075a747cb037e876abc7b42fa789dc1b5a603
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Kojenec, žena, dva muži, duchovní s řetězem a zaplněný interiér jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_baptism_family_before_senior_clergy, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Archivní název sám klade otázku totožnosti křtěnců.
+      - Rodinné role ani duchovní nelze určit pouze podle polohy a vzhledu.
+      - Souvisí s URB-U-0064.
+
+  - source_id: urbanek-ccs-070
+    title: Uvítání chlebem a solí v archivním kontextu návštěvy Ferdinanda Stibora
+    document_type: historical_black_and_white_outdoor_bread_and_salt_welcome
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/3 Biskup Ferdinand Stibor v Rychvaldě/1   Uvítání  chlebem a solí.jpg"
+    file_size_bytes: 214903
+    git_blob_sha: 41c82ee34625febe247fb3698e3f3ab18ddf6523
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Krojovaná žena, tác s chlebem a solí, starší host, duchovní a dav jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_outdoor_bread_and_salt_welcome, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Ferdinand Stibor, Rychvald a případný rok 1948 pocházejí z archivní struktury a dřívějšího souboru, nikoli z obrazu.
+      - Vztah k velké skupinové fotografii urbanek-ccs-025 zůstává otevřený.
+      - Souvisí s URB-U-0050.

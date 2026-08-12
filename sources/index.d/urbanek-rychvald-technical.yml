@@ -1,0 +1,61 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-032
+  title: Thumbs.db
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Thumbs.db
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Thumbs.db
+  document_type: windows_thumbnail_cache
+  mime_type: application/octet-stream
+  file_size_bytes: 118784
+  git_blob_sha: 0c3f5c8ea878fc6b97fb69c8eef9bfc2571cfb8a
+  sha256: 454a4259547fc55f23645817d415b42a170f433b5fafd7481cc8fb66b15fc6c1
+  drive_id: 1CfKmAAQVtb0rD4U_Wm_i3ULqCMNaO62D
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  classification: technical_thumbnail_cache
+  audit_report: research/urbanek-archive/reports/rychvald-technical-audit.md
+  cache_summary:
+    cfb_major_version: 3
+    sector_size_bytes: 512
+    mini_sector_size_bytes: 64
+    catalog_version: 7
+    catalog_entries_total: 32
+    source_filename_entries: 31
+    folder_preview_entries: 1
+    valid_jpeg_streams_total: 32
+    source_thumbnail_streams: 31
+    duplicate_thumbnail_streams: 1
+    duplicate_reason: source_items_002_and_007_are_bitwise_identical
+    cache_only_source_names: 0
+    missing_full_originals_evidenced: 0
+- source_id: urbanek-rychvald-033
+  title: ZbThumbnail.info
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/ZbThumbnail.info
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/ZbThumbnail.info
+  document_type: zbex_thumbnail_cache_index
+  mime_type: application/octet-stream
+  file_size_bytes: 199546
+  git_blob_sha: b21c21108d8b2222263c64dd21867d1f6819076c
+  sha256: f2248e577904f5b87d7d9a7cebb8c2e4b4603ccd188daf3ef86d9ffd7eeea21b
+  drive_id: 1UNA35ideuDwdP7yTkZH9KBsUExLHnI7Q
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  classification: technical_thumbnail_cache_index
+  audit_report: research/urbanek-archive/reports/rychvald-technical-audit.md
+  cache_summary:
+    file_signature: zbex
+    source_filename_entries: 31
+    valid_jpeg_thumbnails: 31
+    unique_jpeg_thumbnails: 30
+    duplicate_thumbnail_streams: 1
+    duplicate_reason: source_items_002_and_007_are_bitwise_identical
+    cache_only_source_names: 0
+    missing_full_originals_evidenced: 0

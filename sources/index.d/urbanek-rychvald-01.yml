@@ -1,0 +1,187 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-001
+  title: Budova úřadu 003.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Budova úřadu 003.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Budova úřadu 003.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 404057
+  git_blob_sha: 2108bd68fb491fb2c24d382e93cd48a57eb5277e
+  sha256: fc7599f05718db0f4bf9dcfa30f980d560d4606a608ab9b38809c2605a59722d
+  drive_id: 1fG4LLJZxKISlvHj0uQkaVjUaPoNknm0h
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2394
+    height_px: 1796
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - municipal_office_exterior
+  - front_elevation
+  - visible_text_mestsky_urad
+  summary: Čelní až mírně šikmý pohled přes komunikaci na třípodlažní světlou budovu. Na pravé části fasády je přímo čitelný
+    nápis „MĚSTSKÝ ÚŘAD“; před budovou jsou keře, chodník a přechod pro chodce.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2008-09-02 08:58:51'
+    datetime_original: '2008-09-02 08:58:51'
+    software: Ver.1.0
+    use: capture_metadata_not_independent_proof_of_location_authorship_or_historical_event
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - MĚSTSKÝ ÚŘAD
+- source_id: urbanek-rychvald-002
+  title: Budova úřadu 005.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Budova úřadu 005.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Budova úřadu 005.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 525938
+  git_blob_sha: 21f8e9ae5f69d16ea127bc909ef37511e18ec580
+  sha256: a36411b50910c154dc4803f55ed190748a16028030121d248ea4e43b1c707778
+  drive_id: 1uNDOD4ba-mwcs7HGcPKyDbiP4W24ry08
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2394
+    height_px: 1796
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - municipal_office_exterior
+  - oblique_elevation
+  - visible_text_mestsky_urad
+  summary: Šikmý pohled na tutéž třípodlažní budovu z opačnějšího stanoviště. Nápis „MĚSTSKÝ ÚŘAD“ je čitelný na vystupující
+    boční části; v popředí jsou dopravní značky, chodník a upravená zeleň.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2008-09-02 09:01:46'
+    datetime_original: '2008-09-02 09:01:46'
+    software: Ver.1.0
+    use: capture_metadata_not_independent_proof_of_location_authorship_or_historical_event
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - MĚSTSKÝ ÚŘAD
+- source_id: urbanek-rychvald-003
+  title: Cudlín 033.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Cudlín 033.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Cudlín 033.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 724284
+  git_blob_sha: 14e4922399033ee8b3e58d6a86519d3f3d7e23bd
+  sha256: b4a3d6a028f6c57d4709939df2a2e84556240138a74a6df535338b517ca5a2c4
+  drive_id: 1I7OYkpegVLNEnfw7pTSnzzgVFDXyxsy9
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - public_square_or_plaza
+  - glass_fronted_public_or_commercial_building
+  - flowering_planters
+  summary: Pohled přes rozlehlou dlážděnou plochu s květinovou výsadbou na nízký komplex s výrazným proskleným vstupním rizalitem.
+    Vpravo jsou menší provozovny a venkovní posezení; přesná identita objektu není z obrazu bezpečně určena.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-08-28 15:55:29'
+    datetime_original: '2009-08-28 15:55:29'
+    software: Ver.1.0
+    use: capture_metadata_not_independent_proof_of_location_authorship_or_historical_event
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-004
+  title: Cudlín 035.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Cudlín 035.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Cudlín 035.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 727723
+  git_blob_sha: 999e660672ba6a722ef317f2061e84d670c62fd8
+  sha256: 65e3a9597325406076e3b99f1e19d972d6f5146206ddc9aefcc935f177462085
+  drive_id: 1SztXOeKvZhJPiIDBqiIMHvHO1EAeNMrC
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - public_square_or_plaza
+  - stone_water_or_sculptural_feature
+  - commercial_frontage
+  - flowering_planters
+  summary: Navazující pohled na stejnou dlážděnou plochu. V popředí je kamenný vodní nebo výtvarný prvek a nádoby s červenými
+    květy; v pozadí prosklený vstup, venkovní posezení a řada obchodních jednotek.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-08-28 15:56:14'
+    datetime_original: '2009-08-28 15:56:14'
+    software: Ver.1.0
+    use: capture_metadata_not_independent_proof_of_location_authorship_or_historical_event
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-005
+  title: Cudlín 037.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Cudlín 037.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Cudlín 037.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 715902
+  git_blob_sha: 4b6488f0d9edafb287e7bfcfd6d434547e04a2f3
+  sha256: 676fa2cbee25a3517f0cedb79f38bb96a11776316e26a8e982b0e393e55c8591
+  drive_id: 18_RkM4Ch3ZRoMTDwvTC6F3xSWhA0stHq
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - public_square_or_plaza
+  - stone_water_or_sculptural_feature
+  - apartment_blocks_background
+  - decorative_paving
+  summary: Třetí pohled na tutéž dlážděnou plochu a kamenný prvek, tentokrát směrem k parkovišti, zeleni a výškovým obytným
+    domům. Na dlažbě je výrazná dekorativní geometrická kompozice.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-08-28 15:56:43'
+    datetime_original: '2009-08-28 15:56:43'
+    software: Ver.1.0
+    use: capture_metadata_not_independent_proof_of_location_authorship_or_historical_event
+  uncertainty_ids:
+  - URB-U-0082

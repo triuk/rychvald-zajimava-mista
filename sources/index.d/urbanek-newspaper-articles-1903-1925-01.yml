@@ -1,0 +1,86 @@
+schema_version: 1
+collection_id: urbanek-newspaper-articles-1903-1925
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-newspaper-articles-1903-1925-001
+  title: img970.jpg
+  source_path: novinové články 1903 - 1925/img970.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img970.jpg
+  document_type: newspaper_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 2588784
+  git_blob_sha: e07b4dbf5cda0904de254975de6aa5cc97488520
+  sha256: e644e95562a7681d4a4b0cb4b16b719ad0e141aaf52b6fdecd83293bdf95b762
+  drive_id: 1caQnHuYWDogmBXiGBIDBrQgwJC357dwE
+  repo_status: verified
+  image: {width_px: 3011, height_px: 2430, color_mode: RGB}
+  classification: [newspaper_reproduction, obrana_slezska, issue_17, visible_date_1912_04_26, article_schooling, readable_text_rychvald]
+  summary: Reprodukce horní části `OBRANA SLEZSKA`, číslo 17, Orlová 26. dubna 1912, III. ročník, s článkem `Naše stanovisko. III. 3. Školství.` a viditelnými odkazy na Rychvald.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-002
+  title: img971.jpg
+  source_path: novinové články 1903 - 1925/img971.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img971.jpg
+  document_type: newspaper_article_fragment
+  mime_type: image/jpeg
+  file_size_bytes: 2316716
+  git_blob_sha: f62465321711a9ba8a780e90e8b2fa403bc4b880
+  sha256: 8b31a5b970d17b3b7b5a34c085e64d7147aea2094b46a2339f41787c36d8fd7c
+  drive_id: 1b-9hgKe-8G5P9uERUSpdmKa_eRTsfuL1
+  repo_status: verified
+  image: {width_px: 2842, height_px: 2008, color_mode: RGB}
+  classification: [newspaper_reproduction, article_text_fragment, direct_text_overlap_with_img970, schooling_and_nationality_topic, readable_text_rychvald]
+  summary: Výřez novinového textu, který se přímo textově překrývá s koncem článku na img970.jpg a pokračuje v tématu školství a národnostních otázek.
+  capture_metadata: {exif_present: true, make: Canon, model: null, datetime: '2013:05:29 14:30:23', datetime_original: null, gps_present: false, use: general_file_metadata_not_newspaper_issue_date}
+  relationship: {direct_text_overlap_with: urbanek-newspaper-articles-1903-1925-001}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-003
+  title: img972.jpg
+  source_path: novinové články 1903 - 1925/img972.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img972.jpg
+  document_type: newspaper_masthead_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 837447
+  git_blob_sha: 8005c035f3967f8a8eea4ed0ece08b922c5107aa
+  sha256: 62ee63f7bdb61bea01e36290d39422ba34e1ad8735f42491cf6ee7f09eab7568
+  drive_id: 1qWbJTIbXN-h9KM0Cqt18SUhFaKIIEljV
+  repo_status: verified
+  image: {width_px: 2870, height_px: 823, color_mode: RGB}
+  classification: [newspaper_masthead_reproduction, obrana_slezska, issue_30, visible_date_1912_07_26]
+  summary: Masthead `OBRANA SLEZSKA`, číslo 30, Orlová 26. července 1912, III. ročník.
+  capture_metadata: {exif_present: true, make: Canon, model: null, datetime: '2013:05:29 14:31:45', datetime_original: null, gps_present: false, use: general_file_metadata_not_newspaper_issue_date}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-004
+  title: img975.jpg
+  source_path: novinové články 1903 - 1925/img975.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img975.jpg
+  document_type: newspaper_clipping_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 1596532
+  git_blob_sha: f3f58302245e00c8124e753206ca159817b2dbe8
+  sha256: 66905444fd714e9fba587b6baa7f02ecf1221ee0d5da1fb8e0abae8eb5ae02fa
+  drive_id: 1Pa7AnCkUQjsLf5-58NzF0wmsZrWSr6Yx
+  repo_status: verified
+  image: {width_px: 1391, height_px: 3467, color_mode: L}
+  classification: [newspaper_clipping_reproduction, article_heading_z_rychvaldu, school_topic, municipal_topic, missing_issue_header_in_crop]
+  summary: Novinový výřez se záhlavím `Z Rychvaldu.`; viditelný text se věnuje otázce české školy a obecní správy, ale číslo a datum vydání ve výřezu chybí.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0085]
+- source_id: urbanek-newspaper-articles-1903-1925-005
+  title: img976.jpg
+  source_path: novinové články 1903 - 1925/img976.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925/img976.jpg
+  document_type: newspaper_masthead_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 866315
+  git_blob_sha: f1f6c3515975c41d62703e4a13d6ad6009296769
+  sha256: 86464730c51ea81047e5272d39e4d0687dc548bd9553874117d221e9143eea58
+  drive_id: 11EVWcocZcgbS9NKl0fB4wdc-Dia3gErg
+  repo_status: verified
+  image: {width_px: 2787, height_px: 738, color_mode: RGB}
+  classification: [newspaper_masthead_reproduction, obrana_slezska, issue_40, visible_date_1912_10_04]
+  summary: Masthead `OBRANA SLEZSKA`, číslo 40, Orlová 4. října 1912, III. ročník.
+  capture_metadata: {exif_present: true, make: Canon, model: null, datetime: '2013:05:29 14:32:38', datetime_original: null, gps_present: false, use: general_file_metadata_not_newspaper_issue_date}
+  uncertainty_ids: [URB-U-0085]

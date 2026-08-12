@@ -1,0 +1,113 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: chrobacek-investiture-address-and-document-19
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "4 Slavnostní volba a jmenování biskupem Gabriela Chrobáčka v r. 19 / archivní soubory 15–19"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Pět snímků pokračuje ve slavnostní obřadní posloupnosti. Zachycují vystoupení
+    duchovního před shromážděním, fyzické nasazení řetězu nebo insignie skloněnému
+    duchovnímu, společný úkon u oltáře s kalichem a otevřenou knihou, setkání s listinou
+    nebo složeným dokumentem a následné vystoupení duchovního s již nasazeným řetězem.
+    Obrazová návaznost podporuje jeden investiční či jmenovací celek, ale fotografie samy
+    neurčují jména, úřady, datum, právní význam insignie ani přesné znění dokumentu.
+  basis:
+    - visual_sequence_comparison
+    - repeated_clergy_and_interior
+    - archival_sequence
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-091
+    archival_filename: "15.jpg"
+    visual_type: historical_black_and_white_clergy_address_before_assembly
+    description: >-
+      V interiéru stojí na vyvýšeném stupni duchovní s výrazným řetězem nebo insignií.
+      Za ním je další duchovní u pultu nebo kazatelny, po stranách sedí několik duchovních
+      s podobnými řetězy a vlevo je část shromáždění.
+    subject_tags: [clergy, address, raised_platform, lectern_or_pulpit, chains_or_insignia, assembly]
+    identification:
+      status: partially_verified
+      verified_from_image: [multiple_clergy, standing_clergy_with_chain_or_insignia, raised_platform, lectern_or_pulpit, seated_clergy, assembly]
+      unverified: [speaker_identity, speech_content, offices, exact_ritual_phase, date, location]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-092
+    archival_filename: "16.jpg"
+    visual_type: historical_black_and_white_chain_or_insignia_investiture
+    description: >-
+      Stojící duchovní drží oběma rukama řetěz nebo insignii nad hlavou skloněného
+      duchovního a zjevně mu ji nasazuje kolem krku. V pozadí přihlížejí další účastníci
+      a u levého okraje je vysoká svíce.
+    subject_tags: [clergy, chain_or_insignia, investiture_like_act, bowed_recipient, candle, ceremony]
+    identification:
+      status: partially_verified
+      verified_from_image: [standing_clergy, bowed_clergy, chain_or_insignia_being_placed, tall_candle, witnesses]
+      unverified: [person_identities, exact_office, legal_or_liturgical_meaning, date, sequence_position]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-093
+    archival_filename: "17.jpg"
+    visual_type: historical_black_and_white_two_clergy_at_altar
+    description: >-
+      Dva hlavní duchovní s výraznými řetězy nebo insigniemi stojí vedle sebe za oltářem
+      či stolem. Před nimi je kalich, otevřená kniha na pultu a další svazky; v pozadí
+      přihlíží početná skupina osob.
+    subject_tags: [clergy, altar, two_chain_bearers, chalice, open_book, congregation]
+    identification:
+      status: partially_verified
+      verified_from_image: [two_main_clergy_with_chains_or_insignia, altar_or_table, chalice, open_book, background_group]
+      unverified: [person_identities, offices, exact_liturgical_act, document_or_book_content, date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-094
+    archival_filename: "18.jpg"
+    visual_type: historical_black_and_white_clergy_document_exchange
+    description: >-
+      Dva duchovní stojí proti sobě. Nižší muž s řetězem nebo insignií drží složený list
+      či dokument, zatímco vyšší muž k němu natahuje pravou ruku. V pozadí stojí další
+      duchovní s řetězem a několik žen.
+    subject_tags: [clergy, folded_document, greeting_or_exchange, chains_or_insignia, witnesses]
+    identification:
+      status: partially_verified
+      verified_from_image: [two_facing_clergy, folded_document, extended_hand, additional_chain_bearer, women_in_background]
+      unverified: [person_identities, whether_document_is_being_presented, document_content, exact_gesture, offices, date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+  - id: urbanek-ccs-095
+    archival_filename: "19.jpg"
+    visual_type: historical_black_and_white_clergy_address_after_investiture
+    description: >-
+      Stojící duchovní s výrazným řetězem nebo insignií má ruce spojené před tělem a
+      otevřená ústa, patrně při proslovu, modlitbě nebo zpěvu. Vedle něj sedí další
+      duchovní s řetězem, který drží otevřenou složku či knihu; v pozadí jsou další osoby.
+    subject_tags: [clergy, address_or_prayer, chain_or_insignia, open_folder_or_book, seated_clergy, witnesses]
+    identification:
+      status: partially_verified
+      verified_from_image: [standing_clergy_with_chain_or_insignia, joined_hands, open_mouth, seated_chain_bearer, open_folder_or_book, background_group]
+      unverified: [person_identities, whether_speech_prayer_or_singing, spoken_text, offices, date, sequence_position]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0062]
+
+open_research_candidates:
+  - {id: URB-U-0062, subject: Chrobacek_election_appointment_investiture_document_family_and_delegation}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-096 až urbanek-ccs-100, tedy soubory 20–24.
+  Po dokončení celé podsložky porovnat obrazovou posloupnost s protokolem volby a
+  jmenování, programem slavnosti, kronikou, textem listiny a personálními záznamy.
+  Osoby, úřady a význam insignie neurčovat pouze podle vzhledu.

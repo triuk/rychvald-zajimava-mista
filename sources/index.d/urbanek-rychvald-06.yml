@@ -1,0 +1,197 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-026
+  title: Zp1109 340.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Zp1109 340.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Zp1109 340.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 708487
+  git_blob_sha: 155d1691c3c0c9ca22d19697c0f1c1c018cfb022
+  sha256: af89d487b3a928898b1bc74e49c153ec1079439874291bfb33c8e8775dd64d5d
+  drive_id: 1EwnETDhEORM70RY3x_Iwu5Uumo_wT-58
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - railway_track
+  - trackside_brick_building
+  - rail_vehicle
+  - unidentified_railway_location_or_building
+  summary: Barevná fotografie jednokolejné železniční tratě s cihlovou budovou těsně vedle koleje a železničním vozidlem v dálce. Na snímku není
+    bezpečně čitelné označení stanice, zastávky ani budovy; přesná funkce objektu a lokalita proto nejsou určeny pouze podle vzhledu.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-10-21 15:29:22'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-027
+  title: Zp1109 379.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Zp1109 379.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Zp1109 379.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 684127
+  git_blob_sha: b7df4de4400f3f71de891226647c1fe3e8a3ccb7
+  sha256: fe1e6977ee44451cc607d246f3212a4313bf090bc1f2dd23882d18cdfc8ff81c
+  drive_id: 1jSW2hB6CsDHFe9lZgNhVlrhk_uopIm_9
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - nature_reserve_sign
+  - water_body
+  - water_birds
+  - visible_place_name_skucak
+  summary: Barevná fotografie vodní plochy s informačním označením přírodní rezervace v popředí a početným výskytem vodních ptáků. Na tabulích
+    jsou bezpečně čitelné texty „PŘÍRODNÍ REZERVACE“ a „Přírodní rezervace Skučák“; eviduje se přímo zobrazené označení, nikoli další údaje, které
+    na menším textu nejsou bezpečně čitelné.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-10-21 15:44:58'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - PŘÍRODNÍ REZERVACE
+  - Přírodní rezervace Skučák
+- source_id: urbanek-rychvald-028
+  title: Zp1109 382.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Zp1109 382.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Zp1109 382.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 690924
+  git_blob_sha: e3524700eb8694381528d6612efd9db8fd753cc3
+  sha256: 58fec5352f278953f5abf3343e3eeef5a9a5a06e6a5dd3bee94d9e417269b22d
+  drive_id: 1oOUl42cejsi365ddFQwlA_J1QJfP5hUT
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - water_body
+  - waterside_platform
+  - round_containers_or_tubs
+  - small_boat
+  - same_subject_sequence
+  summary: Barevná fotografie vodní plochy a nízké pobřežní či plovoucí konstrukce s řadou velkých kulatých nádob nebo kádí a malým člunem. Funkce
+    zařízení se z obrazu samotného neurčuje. Snímek je součástí krátké fotografické sekvence s položkou 029, která zobrazuje stejné zařízení z
+    širšího úhlu.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-10-21 15:46:00'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  same_subject_as: urbanek-rychvald-029
+  relation: distinct_view_of_same_waterside_equipment
+- source_id: urbanek-rychvald-029
+  title: Zp1109 390.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Zp1109 390.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Zp1109 390.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 566741
+  git_blob_sha: a25d1b59e1a2eb0286ebbddf9a743eaf641f9210
+  sha256: fa1b55a224c9960aab25e49108942bbbd6ae70a44bab0985957036165bc74c94
+  drive_id: 1ipqTUoCvi3kpMOQbFsP-N3cpYexBCz-C
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - water_body
+  - waterside_platform
+  - round_containers_or_tubs
+  - mechanical_equipment
+  - small_boats
+  - same_subject_sequence
+  summary: 'Širší barevný záběr stejné vodní plochy a zařízení jako na položce 028: na nízké konstrukci je řada kulatých nádob či kádí, vedle
+    zelené mechanické zařízení a malé čluny. Přesná funkce zařízení není podle vzhledu domýšlena.'
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-10-21 15:47:28'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  same_subject_as: urbanek-rychvald-028
+  relation: distinct_wider_view_of_same_waterside_equipment
+- source_id: urbanek-rychvald-030
+  title: zzz-satiny 255.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/zzz-satiny 255.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/zzz-satiny 255.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 692462
+  git_blob_sha: d776b18236089f7c78ae7769782fae6a7a6e3c26
+  sha256: c45164b7bc9b8afab5bb11aa2374f6d79f8856db1ad04cd3d3b8942d8927ebc6
+  drive_id: 1cuY2Lx1BWHK7Tg5lGouL0kvxnBZgW5r_
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - cemetery_scene
+  - stone_crucifix_monument
+  - people_present_not_identified
+  - cross_batch_same_monument_context_view
+  summary: Široký barevný pohled na hřbitov s hroby, náhrobky, květinovou výzdobou a několika osobami. V ose hlavní cesty stojí vysoký kamenný
+    kříž s figurou ukřižovaného Krista a figurální nikou; podle shodných výrazných tvarových detailů jde o tentýž pomník zachycený zblízka na
+    položkách 019 a 020. Osoby nejsou identifikovány a přesný hřbitov, identita ani datace pomníku zůstávají bez dalšího pramene neověřeny.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-11-02 14:10:36'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  same_subject_as:
+  - urbanek-rychvald-019
+  - urbanek-rychvald-020
+  relation: wider_context_view_of_same_monument

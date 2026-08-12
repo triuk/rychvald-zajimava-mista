@@ -1,0 +1,101 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+collection_title: fotografie, které nebyl použité pro knihu ani kalendář
+batch_number: 4
+batch_id: earthwork-building-stone-elements-and-wall-painting-fragments-04
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář
+  drive_folder_id: 17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g
+  items: [5048.jpg, 7147.jpg, 7185.JPG, 73.jpg, 74.tif]
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical collection folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, dimensions, color mode, format, EXIF and GPS-field inspection.
+- 74.tif was inspected visually through a locally generated downscaled PNG derivative; the original TIFF remained unchanged on Drive and in Git.
+- First visual classification without inferring exact locality, excavation purpose, building identity or function, stone-object function, artwork identity, person identity, historical date or relationship between the wall-painting images from appearance or filename sequence alone.
+- Exact binary duplicate check within the batch and search for matching Git blob SHA in already indexed source records.
+batch_findings:
+  general: Pět obrazových souborů – rozsáhlý zemní odkryv či prohlubeň s budovami na horním okraji, nízká stavba s krytým venkovním prostorem v lesním prostředí, dvojice kamenných kruhových prvků s radiálními drážkami, poškozená nástěnná malba a detail jiné či související poškozené nástěnné malby s lidskou postavou.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_with_prior_index_found: 0
+  exif_scope: 5048.jpg a 74.tif neobsahují EXIF. 7147.jpg obsahuje Panasonic DMC-TZ3 a DateTimeOriginal `2010:10:28 15:22:55`; 7185.JPG obsahuje Panasonic DMC-TZ3 a DateTimeOriginal `2011:11:15 12:20:52`; 73.jpg obsahuje Canon PowerShot G5 a DateTimeOriginal `2005:08:04 09:02:04`. Žádný z pěti souborů neobsahuje GPS údaje.
+  tiff_scope: 74.tif je nekomprimovaný RGB TIFF o rozměrech 3463×3479 px a rozlišení uloženém jako 600 dpi; tyto technické údaje neurčují historický původ zobrazené malby.
+  relationship_scope: 73.jpg a 74.tif oba zachycují poškozené malované vrstvy na zdivu či omítce. Jejich přesný vzájemný vztah, objekt, lokalita, autorství, námět a datace nejsou z obrazů samotných určeny.
+items:
+- id: urbanek-unused-book-calendar-photographs-016
+  filename: 5048.jpg
+  git_blob_sha: f1cf4833f5b910f579b03781d4554dd2a14cdd35
+  sha256: a8ef3a0fd8f1567fbaebe5ca07ea7cee218e27f7242a939748618f18d0a371fc
+  file_size_bytes: 342510
+  drive_id: 1HWYIPMdHmVZqOuYHkkkEIBcXKjSyaoHP
+  dimensions_px: [1577, 1001]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Černobílý archivní záběr rozsáhlého zemního odkryvu, prohlubně či terénního zářezu s odkrytými svahy a hromadami zeminy nebo horniny. Na horním okraji stojí několik budov. Přesný účel zásahu, lokalita, identita budov a datace nejsou určeny.
+  classification: [monochrome_archival_image, large_earthwork_or_excavation, exposed_slopes, material_piles, buildings_on_rim, unidentified_location]
+  unverified: [exact_excavation_type_purpose_and_history, exact_location, identity_and_function_of_visible_buildings, historical_date, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-017
+  filename: 7147.jpg
+  git_blob_sha: 6c69b53d964921014f86707942a024fab78a5322
+  sha256: 783e362f9a7aa13035d84192bf218d150844c7ffa02718a3a9fbd969750cedae
+  file_size_bytes: 1860016
+  drive_id: 1lMPh2pmg_ql84kr7sxOM2UWH6uImtlXS
+  dimensions_px: [2818, 1807]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:10:28 15:22:55', gps_present: false}
+  visual_description: Barevná fotografie nízké podlouhlé stavby v prostředí vzrostlých stromů. Stavba má dřevěnou část, navazující omítanou vyšší část, několik komínů a dlouhé kryté venkovní průčelí s řadou jednoduchých sedacích prvků či stolků. Přesná funkce, název, vlastnictví a lokalita nejsou určeny.
+  classification: [color_photograph, low_building_exterior, wooded_setting, covered_outdoor_area, benches_or_small_tables, unidentified_building, unidentified_location]
+  unverified: [exact_building_identity_function_operator_ownership_and_location, historical_context, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-018
+  filename: 7185.JPG
+  git_blob_sha: fb3a50c2b898a5049a460017e56342f5300e69cd
+  sha256: 18b6e3df8c3157524db0a7a0298203a4f52646d9b9f75f040a9cbd62f758aa30
+  file_size_bytes: 2149024
+  drive_id: 1cJyrsTYPMXmr659YOP-_JPiKWMmt8Pw9
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2011:11:15 12:20:52', gps_present: false}
+  visual_description: Barevná dokumentační fotografie dvou kamenných kruhových prvků s výraznými radiálními drážkami a středovými otvory; jeden je zasazen nebo opřen v hranolovém kamenném bloku. Přesná funkce, původ, stáří, lokalita a vztah k určitému provozu nebo stavbě nejsou určeny.
+  classification: [color_documentation_image, circular_stone_elements, radial_grooves, central_holes, millstone_like_form, unidentified_artifact_context]
+  unverified: [exact_object_type_and_function, origin_location_and_ownership, age_and_use_history, relationship_to_specific_building_or_industry, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-019
+  filename: 73.jpg
+  git_blob_sha: bcad18d3f51cec206b46c31fdcab24c061aba481
+  sha256: 49943e4cd0ae953da765290655c05c95a46dd55ef112e99fe9071ab63eaa09cb
+  file_size_bytes: 932148
+  drive_id: 17krbBdnNy4y3qYftVJpk4a0HH0WERTAT
+  dimensions_px: [1944, 2592]
+  mode: RGB
+  exif: {present: true, make: Canon, model: Canon PowerShot G5, datetime_original: '2005:08:04 09:02:04', gps_present: false}
+  visual_description: Barevná dokumentační fotografie rozsáhle poškozené malované vrstvy na omítce či zdivu, místy překryté novější povrchovou úpravou. Dochovány jsou fragmenty červených, šedých a dalších tvarů; přesný námět, objekt, lokalita, autorství a datace malby nejsou určeny.
+  classification: [color_documentation_image, damaged_wall_painting, exposed_plaster_layers, fragmentary_painted_motifs, unidentified_artwork, unidentified_location]
+  unverified: [exact_subject_and_iconography, exact_building_and_location, authorship_date_and_restoration_history, relationship_to_74_tif, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-020
+  filename: 74.tif
+  git_blob_sha: 259451552954e8a06868f836c297edb600e1d2c5
+  sha256: 9c3a3354863a76f06ca9065d504d52ece5dbbb3f20ba56da693b73c3df9292ba
+  file_size_bytes: 36143536
+  drive_id: 1cupo2nHbpw97q-ohgEZjMhe60Ysfmfzk
+  dimensions_px: [3463, 3479]
+  mode: RGB
+  format: TIFF
+  exif: {present: false, gps_present: false}
+  tiff_metadata: {compression: none, x_resolution_dpi: 600, y_resolution_dpi: 600}
+  visual_description: Vysokorozlišovací reprodukce fragmentu silně poškozené nástěnné malby s lidskou postavou v tmavém pokrývkovém či kloboukovém prvku, částí oděvu a okolními malovanými či později popsanými plochami. Přesná identita postavy, námět, objekt, lokalita, autorství, datace a vztah k 73.jpg nejsou určeny.
+  classification: [tiff_documentation_image, damaged_wall_painting, human_figure, fragmentary_artwork, surface_inscriptions_or_graffiti, unidentified_subject, unidentified_location]
+  unverified: [identity_and_role_of_depicted_figure, exact_subject_and_iconography, exact_building_and_location, authorship_date_and_restoration_history, interpretation_and_date_of_surface_writing, relationship_to_73_jpg, photographer_or_digitizer_and_source_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, visible scene, listed dimensions, format and color mode
+related_uncertainties: [URB-U-0084]
+next_batch:
+  number: 5
+  filenames: [75.tif, 8205.jpg, 8206.jpg, P1020271aaaaddd.jpg, ggg.tif]

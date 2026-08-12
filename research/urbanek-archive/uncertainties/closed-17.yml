@@ -1,0 +1,21 @@
+schema_version: 1
+scope: closed_item_0028
+items:
+  - id: URB-U-0028
+    status: resolved
+    priority: medium
+    collection: Ochotníci rychvald
+    type: erroneous_character_name_in_retrospective_article
+    source_items: [urbanek-ochotnici-019, urbanek-ochotnici-028, urbanek-ochotnici-032, urbanek-ochotnici-033, urbanek-ochotnici-038]
+    question: "Je postava Evy Močkořové Olivie, nebo Ofélie?"
+    resolution: >-
+      Správně je Olivie. Tištěný program Večera tříkrálového uvádí
+      „Olivie, dcera hraběte — Eva Močkořová“ a archivní fotografie je
+      pojmenována „Olivie - Eva Močkořová.jpg“. Ofélie je postava z Hamleta,
+      nikoli z Večera tříkrálového. Podoba „Ofélie“ v retrospektivním článku
+      Bořivoje Pešky je proto autorský nebo tiskový omyl; v doslovném přepisu
+      článku zůstává zachována a je výslovně opravena v poznámce.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0028-olivie-ofelie.md
+    resolved_at: 2026-07-22
+    resolved_by: printed_program_archival_filename_and_play_text
+    confidence: verified

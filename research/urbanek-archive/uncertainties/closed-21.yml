@@ -1,0 +1,37 @@
+schema_version: 1
+scope: closed_item_0074
+items:
+- id: URB-U-0074
+  status: resolved
+  priority: high
+  collection: Historie Církve československé v Rychvaldě ve fotografiích
+  type: bell_material_and_wartime_requisition
+  related_open_items:
+  - URB-U-0041
+  - URB-U-0042
+  source_items:
+  - urbanek-ccs-014
+  - urbanek-ccs-015
+  - urbanek-ccs-191
+  question: Z jakého materiálu jsou zvony Husova sboru v Rychvaldě a byly za války rekvírovány?
+  resolution: Místní historický souhrn zveřejněný Církví československou husitskou v roce 2025 výslovně uvádí, že
+    zvony nebyly zabaveny pro vojenské účely, protože jsou ocelové, nikoli ze zvonoviny. Kalendář 2015 nezávisle
+    v rámci téhož místního archivního okruhu označuje dva zvony ve věži jako ocelové. Pro pracovní syntézu je proto
+    možné s uvedením zdroje používat tvrzení, že hlavní věžové zvony jsou ocelové a válečné rekvizici unikly. Nejde
+    o metalurgické měření ani primární inventární doklad.
+  scope_of_resolution:
+  - steel_material_of_main_tower_bells_as_reported_by_local_historical_sources
+  - non_requisition_for_military_use_as_reported_by_CCSH
+  not_resolved:
+  - meaning_and_independent_confirmation_of_year_1920
+  - bell_maker_or_foundry
+  - full_inscriptions
+  - donor_or_provenance
+  - casting_and_installation_dates
+  - names_and_exact_placement_of_all_bells
+  - whether_all_visible_bells_form_one_original_set
+  - later_repairs_replacements_and_ringing_mechanism
+  evidence: research/urbanek-archive/verifications/urb-u-0074-rychvald-bells-material-and-wartime-requisition.md
+  resolved_at: '2026-07-28'
+  resolved_by: documentary_source_review
+  confidence: corroborated_local_secondary_sources

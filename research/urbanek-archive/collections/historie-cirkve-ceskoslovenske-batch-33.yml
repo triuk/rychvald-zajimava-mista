@@ -1,0 +1,85 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: stibor-funeral-clergy-exit-steps-and-outdoor-procession-33
+status: completed_first_visual_pass
+git_attachment: finalized
+item_count: 5
+source_scope: 7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956 / archivní soubory 6 až 10
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Položky 161 až 163 zachycují navazující záběry vstupu a schodiště s osobami v dlouhých
+    tmavých oděvech, civilními účastníky, řetězy, medailony a znaky připomínajícími kalich.
+    Položky 164 a 165 zachycují navazující venkovní pohyb mezi shromážděním. Obrazová
+    soudržnost podporuje jednu sekvenci, ale sama nepotvrzuje Ferdinanda Stibora, říjen 1956,
+    přesné místo, úřady osob, význam znaků ani sled obřadu.
+  basis:
+    - full_image_visual_review
+    - cross_image_sequence_comparison
+    - embedded_metadata_inspection
+    - exact_git_blob_verification
+    - binary_duplicate_screening
+  related_open_items: [URB-U-0071]
+items:
+  - id: urbanek-ccs-161
+    archival_filename: 6.jpg
+    dimensions_px: [1044, 1620]
+    visual_type: historical_clergy_like_group_descending_steps
+    description: >-
+      Z budovy sestupuje početná skupina mužů v dlouhých tmavých oděvech. Na několika
+      oděvech jsou světlé znaky připomínající kalich nebo medailon. Po stranách stojí
+      civilní účastníci; vpravo je žena se světlou páskou na paži a tmavým křížovitým znakem.
+    verified_from_image: [building_entrance, steps, multiple_robed_men, light_emblems, civilian_attendees, armband_with_cross_like_mark]
+    unverified: [event_identity, Ferdinand_Stibor_connection, offices, emblem_meaning, armband_organization, date, location, photographer]
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0071]
+  - id: urbanek-ccs-162
+    archival_filename: 7.jpg
+    dimensions_px: [972, 1572]
+    visual_type: historical_chain_bearing_robed_men_descending_steps
+    description: >-
+      Dva muži v dlouhých tmavých oděvech s výraznými řetězy a oválnými medailony sestupují
+      po schodech; za nimi jsou další podobně oděvené osoby a po stranách civilní účastníci.
+    verified_from_image: [same_entrance_sequence, two_chain_bearing_robed_men, oval_medallions, additional_robed_people, civilian_attendees]
+    unverified: [event_identity, Ferdinand_Stibor_connection, identities, offices, insignia_meaning, date, location, photographer]
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0071]
+  - id: urbanek-ccs-163
+    archival_filename: 8.jpg
+    dimensions_px: [1572, 1008]
+    visual_type: historical_crowd_lining_entrance_steps
+    description: >-
+      Široký pohled na zaplněné schodiště. Civilní účastníci a muži v dlouhých tmavých
+      oděvech stojí po obou stranách, zatímco střed zůstává převážně volný.
+    verified_from_image: [same_entrance_sequence, large_crowd, multiple_robed_men, civilian_attendees, mostly_open_central_passage]
+    unverified: [event_identity, Ferdinand_Stibor_connection, formal_corridor_purpose, identities, roles, date, location, photographer]
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0071]
+  - id: urbanek-ccs-164
+    archival_filename: 9.jpg
+    dimensions_px: [1590, 995]
+    visual_type: historical_two_chain_bearing_robed_men_walking_with_crowd
+    description: >-
+      Dva muži v dlouhých tmavých oděvech s řetězy a medailony kráčejí mezi početným
+      shromážděním. Muž vpravo drží světlou knihu, desky nebo složku.
+    verified_from_image: [two_chain_bearing_robed_men, held_book_folder_or_document, mixed_age_crowd, trees_pole_and_houses]
+    unverified: [event_identity, Ferdinand_Stibor_connection, identities, offices, held_item_function, route, date, location, photographer]
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0071]
+  - id: urbanek-ccs-165
+    archival_filename: 10.jpg
+    dimensions_px: [1008, 1608]
+    visual_type: historical_robed_men_with_chalice_like_emblems_walking_outdoors
+    description: >-
+      Dva muži v tmavých dlouhých oděvech mají na hrudi velké světlé znaky připomínající
+      kalich; levý má tmavou pokrývku hlavy. Za nimi stojí převážně civilní účastníci.
+    verified_from_image: [two_robed_men, two_large_chalice_like_emblems, dark_headwear, civilian_attendees]
+    unverified: [event_identity, Ferdinand_Stibor_connection, identities, offices, emblem_meaning, headwear_significance, route, date, location, photographer]
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0071]
+duplicate_assessment:
+  exact_binary_duplicates_within_batch: none
+  note: Všech pět souborů má odlišný Git blob SHA; jde o navazující záběry, nikoli pět nezávislých důkazů archivního popisu.
+next_action: Zpracovat urbanek-ccs-166 až 170, tedy 11.jpg až 15.jpg ve stejné podsložce.

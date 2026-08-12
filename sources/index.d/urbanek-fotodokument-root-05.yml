@@ -1,0 +1,168 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-fotodokument-root-021
+  title: img060.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img060.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img060.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 268982
+  git_blob_sha: 80a3e55cfc570980d176d96a38238280b60e6d48
+  sha256: 06d83296700178e182739ef163ae98137c682241849a349cdd559ccd69368e2e
+  drive_id: 1LXduESO17KtCFGuz3ZQuTkmQzQF__JUN
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1578
+    height_px: 1014
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - rural_building_cluster
+  - meadow_foreground
+  - trees_and_fence
+  - unidentified_location
+  summary: Černobílý pohled přes travnatý svah na starší omítnutý dům se sedlovou střechou, částečně krytý stromy, a několik
+    menších dřevěných hospodářsky působících staveb či přístřešků. Přesná lokalita, funkce jednotlivých staveb, vlastnictví
+    a datace nejsou z fotografie samotné určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-022
+  title: img061.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img061.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img061.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 174817
+  git_blob_sha: 3d92b7f85dfb5bfb13a6f154e1a573d43f54ef62
+  sha256: 92a68cc2b0b5e4ba936cfa9fa62c79f08a6ade8108d81404f0c678d72e0abcd1
+  drive_id: 1aEwIJ9tt6jPgVZ0DnXeH9-WV3IMAZUhy
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1578
+    height_px: 1014
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - low_utilitarian_building_exterior
+  - chimneys
+  - multi_pane_window
+  - unidentified_function
+  - unidentified_location
+  summary: Černobílý záběr nízké podlouhlé lehké či dřevěné stavby s komíny, velkým vícetabulkovým oknem a přístřeškem; v
+    popředí je jednoduchá kovová konstrukce a komunikace. Stavba působí utilitárně, její přesná funkce, provozovatel, lokalita
+    a datace však nejsou z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-023
+  title: img062.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img062.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img062.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 202389
+  git_blob_sha: e22fd57a06f63638b7076134078e35e115cc07a3
+  sha256: 525895e92992e545d587bc3d58c7fa497ec9a51416bc34b4b874d33fcddff95b
+  drive_id: 1xAQQeAZ7MOAWQJuT1lFySwMX6UAhbUes
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1578
+    height_px: 1014
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - single_storey_building_exterior
+  - tiled_roof
+  - central_dormer_or_gable
+  - unidentified_building
+  - unidentified_location
+  summary: Černobílý čelní pohled přes komunikaci na podlouhlou přízemní omítnutou budovu s taškovou střechou, řadou oken
+    a dveří a středovým vikýřovým či štítovým prvkem s dřevěnými okenicemi. Přesná identita, funkce, vlastnictví, lokalita
+    a datace nejsou určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-024
+  title: img063.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img063.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img063.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 519182
+  git_blob_sha: 2882f65504cd76d9e667410b2e5f274f0d7808a9
+  sha256: 581034cb64298499b45640cc764c9c451133be5d7146c21dd55d5bc19fc2e481
+  drive_id: 1r9mSRhJ4u3UCNiityqxMwGRnmFuXfXaZ
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2003
+    height_px: 1416
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - rural_landscape
+  - fields_and_meadows
+  - scattered_settlement
+  - linear_infrastructure_with_poles
+  - unidentified_location
+  summary: Černobílý široký krajinný pohled přes pole a louky na rozptýlenou zástavbu mezi stromy. Středem scény vede výrazná
+    lineární trasa se sloupy; její přesný druh není bez dalšího podkladu určován. Přesná lokalita a datace nejsou z fotografie
+    samotné určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-025
+  title: img064.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img064.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img064.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 355212
+  git_blob_sha: d2b32824a38fb487708943598b8a197e4064402e
+  sha256: fdbc52dac1a48ac521817ffa754bebffb6cac4b5a4b35983f63b38608384396f
+  drive_id: 1TbildlLGOsBSdLv6IDooqTsdeiei-spP
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2034
+    height_px: 1422
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - rural_landscape
+  - scattered_houses
+  - fields_and_orchards
+  - curving_road
+  - unidentified_location
+  summary: Černobílý krajinný pohled na zvlněnou zemědělskou krajinu s rozptýlenými domy, zahradami či sady, poli a zakřivenou
+    cestou. Přesná lokalita, identita jednotlivých staveb a datace nejsou z fotografie samotné určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083

@@ -1,0 +1,73 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 9
+batch_id: collapsed-bridge-image-and-thumbnail-cache-files-09
+status: completed
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items: [img343.jpg, Thumbs.db, ZbThumbnail.info]
+  content_files: 1
+  technical_files: 2
+method:
+- Drive metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection for img343.jpg.
+- Binary signature, filename-reference and embedded-JPEG inspection for the two technical cache files.
+- Technical cache files are treated as derivative technical records, not as additional independent historical image evidence.
+- No generating application, deleted-file history, exact locality, infrastructure identity, cause of damage, historical date or inter-image relationship is inferred beyond directly supported evidence.
+batch_findings:
+  general: Jedna černobílá archivní fotografie viditelně poškozené či zřícené mostově působící konstrukce a dva technické soubory s náhledovými obrazovými daty.
+  exact_binary_duplicates_within_batch: 0
+  img343_metadata_scope: img343.jpg neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani způsob vzniku digitalizace.
+  img343_scene_scope: img343.jpg zachycuje viditelně poškozenou či zřícenou mostově působící konstrukci nad menším vodním tokem nebo příkopem. Přesná identita, lokalita, příčina stavu, datace a vztah k img206.jpg nebo img216.jpg nejsou z fotografie samotné určeny.
+  thumbs_db_scope: Thumbs.db má signaturu OLE/Compound Document, obsahuje odkazy na 54 různých názvů imgNNN.jpg a JPEGová obrazová data. Z aktuálních 41 kořenových JPEGů odkazuje na 39; současně obsahuje 15 názvů, které v aktuálním kořenovém Git snapshotu nejsou. Tento rozdíl je evidován pouze jako vlastnost cache a není vykládán jako důkaz přesunu či smazání souborů.
+  zbthumbnail_scope: ZbThumbnail.info obsahuje 41 různých odkazů na názvy imgNNN.jpg, které přesně odpovídají aktuálním 41 kořenovým JPEGům, a 41 přímo dekódovatelných JPEGových obrazových proudů.
+items:
+- id: urbanek-fotodokument-root-041
+  filename: img343.jpg
+  item_type: content
+  git_blob_sha: aca291a76affae886dff8c1cb70e87be3452bef9
+  sha256: bdb101e6a9ed0a653b1d02ae99710aea974a31d5e493fe51d5886a99b8f9ef8e
+  file_size_bytes: 547643
+  drive_id: 1Ovmt-YtTQ6g1Lr1DRwThLx92Cze052mQ
+  dimensions_px: [1458, 906]
+  mode: L
+  exif: {present: false}
+  visual_description: Černobílý archivní snímek viditelně poškozené či zřícené mostově působící konstrukce nad menším vodním tokem nebo příkopem. Vpravo je kamenná opěra či pilíř a konstrukce vozovky či zábradlí je výrazně deformovaná. Přesná stavba, lokalita, příčina poškození, datace a vztah k dalším mostním motivům v kolekci nejsou určeny.
+  classification: [monochrome_archival_image, damaged_or_collapsed_bridge_like_structure, watercourse_or_ditch, unidentified_infrastructure, unidentified_location]
+  unverified: [exact_structure_identity_and_location, cause_and_context_of_damage, relationship_to_img206_and_img216, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-fotodokument-root-042
+  filename: Thumbs.db
+  item_type: technical
+  git_blob_sha: 761d7074152331883210317caaccc0128c3c51bf
+  sha256: 8f83bcdbc1846db6b4f74e88fd2ef5369405e70bab0fe2337ac2296771dd0b74
+  file_size_bytes: 255488
+  drive_id: 1rzzpWs60I4ON9w4COqd9LgYNDs4-5HCK
+  mime_type: application/octet-stream
+  technical_description: OLE/Compound Document cache s odkazy na názvy archivních JPEGů a vloženými JPEGovými obrazovými daty. Obsahuje 54 různých odkazů imgNNN.jpg; 39 z nich odpovídá současným kořenovým JPEGům a 15 názvů v aktuálním kořenovém Git snapshotu není.
+  classification: [technical_cache, ole_compound_document, embedded_jpeg_data, filename_reference_index]
+  unverified: [generating_application_and_version, creation_and_update_history, meaning_of_names_not_present_in_current_root_snapshot]
+- id: urbanek-fotodokument-root-043
+  filename: ZbThumbnail.info
+  item_type: technical
+  git_blob_sha: 80637cc6a49d6f76a8b8a07a8542ddda48d6a411
+  sha256: c57edb1bbdcf273ed7e5e4e97772a93f6a83dbb6760798fb4e25c2ea30fabf33
+  file_size_bytes: 687252
+  drive_id: 15GTQG5UyRmtizQNiW_QWDGBkPS9jcw7y
+  mime_type: application/octet-stream
+  technical_description: Binární cache obsahující 41 různých odkazů imgNNN.jpg, které přesně odpovídají aktuálním 41 kořenovým JPEGům, a 41 přímo dekódovatelných JPEGových obrazových proudů.
+  classification: [technical_cache, embedded_jpeg_data, filename_reference_index]
+  unverified: [generating_application_and_version, creation_and_update_history]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256 of downloaded raw file
+related_uncertainties:
+- URB-U-0083 applies to content item urbanek-fotodokument-root-041 only

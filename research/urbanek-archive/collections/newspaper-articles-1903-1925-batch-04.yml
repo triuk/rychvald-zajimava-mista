@@ -1,0 +1,75 @@
+schema_version: 1
+collection_id: urbanek-newspaper-articles-1903-1925
+collection_title: novinové články 1903 - 1925
+batch_number: 4
+batch_id: ostravsky-dennik-overlap-and-thumbnail-caches-04
+status: completed
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925
+  drive_folder_id: 1OOe829hkaoHoNRs0HyajQROhknLD_aeg
+  items: [img995.jpg, Thumbs.db, ZbThumbnail.info]
+  content_files: 1
+  technical_files: 2
+method:
+- Raw Drive download and exact byte-size/Git-blob comparison with the repository for all three files.
+- SHA-256, dimensions, color mode, EXIF and GPS-field inspection for img995.jpg.
+- Direct binary parsing of Thumbs.db as an OLE/Compound Document, including its Catalog stream, directory streams, MiniFAT/FAT chains and embedded JPEG decoding.
+- Direct byte-level inspection of ZbThumbnail.info, including magic bytes, UTF-16 filename references and embedded JFIF start signatures; no generating application is inferred from the filename or format.
+- Thumbnail pixel identity is used only to distinguish duplicate cache representations from additional missing image content.
+- Printed historical assertions remain claims of the printed source and are not promoted to independently verified facts during phase-1 indexing.
+batch_findings:
+  img995_scope: img995.jpg is an overlapping photographic reproduction of the same `OSTRAVSKÝ DENNÍK` page/section visible in img993.jpg. It repeats the masthead fragment and `Boj—česko-polský.` article while extending farther downward. The direct visual/text overlap establishes the relationship; it is not inferred from filename order.
+  exact_binary_duplicates_within_batch: 0
+  exif_scope: img995.jpg contains no EXIF and no GPS metadata.
+  thumbs_db_scope: Thumbs.db is an OLE/Compound Document. Its Catalog stream contains one GUID-like special record and 34 `.jpg` filename records. The compound document has 35 thumbnail data streams; all 35 contain JPEG data that was directly decoded. All 16 currently present standalone JPEG filenames occur in the catalog.
+  thumbs_db_missing_names: Eighteen catalog filenames have no standalone full file in the current folder: `img965.jpg`, `img963.jpg`, `img964.jpg`, `img967.jpg`, `img968.jpg`, `img969.jpg`, `aaaa.jpg`, `img968aaaaa.jpg`, `img971aaaaa.jpg`, `img972aaa.jpg`, `img976aa.jpg`, `img983aaa.jpg`, `img988.jpg`, `img989aaa.jpg`, `img997.jpg`, `img999.jpg`, `img961.jpg`, `img962.jpg`.
+  thumbs_db_duplicate_thumbnail_scope: Six missing-name thumbnails are pixel-identical to currently present standalone-image thumbnails: `aaaa.jpg` ↔ `img984.jpg`, `img971aaaaa.jpg` ↔ `img971.jpg`, `img972aaa.jpg` ↔ `img972.jpg`, `img976aa.jpg` ↔ `img976.jpg`, `img983aaa.jpg` ↔ `img983.jpg`, `img989aaa.jpg` ↔ `img989.jpg`. Among the remaining missing names, `img963.jpg` ↔ `img997.jpg`, `img968.jpg` ↔ `img968aaaaa.jpg`, and `img961.jpg` ↔ `img962.jpg` are pixel-identical thumbnail pairs. Therefore the cache proves 18 missing standalone filenames but only 9 additional distinct thumbnail-image contents not represented by the 16 current standalone JPEGs.
+  zbthumbnail_scope: ZbThumbnail.info begins with magic bytes `zbex`. It contains 26 unique `.jpg` filename references: all 16 current standalone JPEG names plus ten names without standalone files: `img962.jpg`, `img963.jpg`, `img964.jpg`, `img965.jpg`, `img967.jpg`, `img968.jpg`, `img969.jpg`, `img988.jpg`, `img997.jpg`, `img999.jpg`. A byte scan finds 26 JFIF start signatures; 20 decode directly as standalone JPEGs from the marker, while six are not independently decodable by that method, so no stronger embedded-image count is claimed. These ten missing-name references independently cover the same 9 distinct missing thumbnail contents established from Thumbs.db, because the Thumbs.db thumbnails for `img963.jpg` and `img997.jpg` are pixel-identical.
+items:
+- id: urbanek-newspaper-articles-1903-1925-016
+  filename: img995.jpg
+  item_type: content
+  git_blob_sha: ced6271084df60756ba2290c378f95ee578d983a
+  sha256: f69d356a4b14f030b765f73ccf39ea2a7b2a7e57822f1a5ce2b9ac4e3124fd88
+  file_size_bytes: 2105037
+  drive_id: 1EHjMEn2arddskLn-P5cZAumMxlxo09D0
+  dimensions_px: [2466, 3467]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce části stejné novinové strany `OSTRAVSKÝ DENNÍK`, která je zachycena na img993.jpg; oproti img993.jpg sahá výrazně níže do textu článku `Boj—česko-polský.`. Přímý překryv mastheadu, záhlaví i prvních odstavců dokládá, že jde o překrývající se reprodukce téže stránky/sekce.
+  classification: [newspaper_reproduction, ostravsky_denik, article_boj_cesko_polsky, direct_overlap_with_img993, readable_text_rychvald]
+  relationship: {direct_visual_and_text_overlap_with: urbanek-newspaper-articles-1903-1925-015}
+  unverified: [exact_physical_original_and_page_number, full_article_extent, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-017
+  filename: Thumbs.db
+  item_type: technical
+  git_blob_sha: e9757435c7f433a7bbd4ce887cd4fccec2afe445
+  sha256: 1f3c5380a9c72ef7cbdf52b098d9d4998f1a50de20087fc5cad6a73fc32598bf
+  file_size_bytes: 124416
+  drive_id: 1UruSTX3FxgkhYD7MJJt9EyIINIkzRguB
+  mime_type: application/octet-stream
+  technical_description: OLE/Compound Document thumbnail cache with 34 JPEG filename catalog records plus one special GUID-like record and 35 directly decoded JPEG thumbnail streams. It proves 18 catalog filenames without current standalone files; thumbnail identity reduces these to 9 additional distinct missing image contents beyond the current 16 standalone JPEGs.
+  classification: [technical_cache, ole_compound_document, catalog_stream, embedded_jpeg_thumbnails, missing_full_original_evidence]
+  uncertainty_ids: [URB-U-0086]
+- id: urbanek-newspaper-articles-1903-1925-018
+  filename: ZbThumbnail.info
+  item_type: technical
+  git_blob_sha: fed687878a107de697873acc31164de992133e06
+  sha256: dbd28cb2cb90fd7b8450041b8e16eda09635068f443c6ee6f7d08bd02284acbc
+  file_size_bytes: 1087006
+  drive_id: 1Qkv32F6lRSOvYN57R9OTQ2me02GhhNQu
+  mime_type: application/octet-stream
+  technical_description: Binary thumbnail/index data beginning with `zbex`, containing 26 unique JPEG filename references. Ten referenced names lack standalone files and independently corroborate the 9 distinct missing thumbnail contents demonstrated by Thumbs.db. The generating application and version are not inferred.
+  classification: [technical_cache, zbex_magic, filename_reference_index, embedded_jfif_data, missing_full_original_correspondence]
+  uncertainty_ids: [URB-U-0086]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256 of downloaded raw file
+related_uncertainties:
+- URB-U-0085 applies to content item urbanek-newspaper-articles-1903-1925-016
+- URB-U-0086 applies to the missing-full-original evidence in technical items 017 and 018

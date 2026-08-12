@@ -1,0 +1,118 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-26
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-126
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/15.jpg
+  file_size_bytes: 231694
+  git_blob_sha: 6f9529c2fe675031ca0c68c13f4cb91c0af82f36
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Duchovní při projevu nebo čtení v interiéru kaple
+  document_type: historical_black_and_white_indoor_clergy_service_photograph
+  readability:
+    status: good
+    note: Duchovní, list papíru, pult a část shromáždění jsou dobře čitelné.
+  visual_content:
+    photographs: single_indoor_clergy_address_scene
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Obraz nepodporuje identifikaci osob ani přesnou povahu projevu.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-127
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/16 Před kapličkou.jpg
+  file_size_bytes: 261337
+  git_blob_sha: cdfe3d4b246a64195473d9c174b7ac3e54d57b74
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Velké shromáždění před kaplí – archivní označení
+  document_type: historical_black_and_white_large_crowd_before_chapel_photograph
+  readability:
+    status: good
+    note: Dav, děti, šátky, deštníky a okraje praporů jsou čitelné.
+  visual_content:
+    photographs: single_large_outdoor_crowd
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Umístění před kapličkou pochází z archivního názvu.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-128
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/17 Vlevo Leonard Bugumský.jpg
+  file_size_bytes: 210938
+  git_blob_sha: 77ea523d65fa5006b4ca832e00071e24d5db3ac7
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Duchovní před otevřenou kaplí; archivní označení Leonarda Bugumského vlevo
+  document_type: historical_black_and_white_open_chapel_clergy_photograph
+  readability:
+    status: good
+    note: Oltář, centrální duchovní a skupina dalších duchovních jsou dobře čitelné.
+  visual_content:
+    photographs: single_open_chapel_clergy_scene
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - V levé části je několik mužů; přesný referent názvu „Vlevo Leonard Bugumský“ není jednoznačný.
+  - Jméno a osoba vyžadují dokumentární ověření.
+  - Souvisí s URB-U-0068 a URB-U-0070.
+- source_id: urbanek-ccs-129
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/18.jpg
+  file_size_bytes: 415921
+  git_blob_sha: 5a0415d4cc136a8411dd321177bc7ce784e1761e
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Dva duchovní s listinou nebo papíry
+  document_type: historical_black_and_white_two_clergy_document_scene_photograph
+  readability:
+    status: good
+    note: Oba duchovní, jejich řetězy a světlý dokument jsou dobře čitelné.
+  visual_content:
+    photographs: single_two_clergy_document_scene
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Přesná povaha úkonu a obsah dokumentu nejsou obrazem určeny.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-130
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/19.jpg
+  file_size_bytes: 219730
+  git_blob_sha: a7ea1f508767eacc1806d6b7a7b90f4eb25af325
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Projev stojícího duchovního před dalšími duchovními
+  document_type: historical_black_and_white_clergy_address_photograph
+  readability:
+    status: good
+    note: Stojící i sedící duchovní, řetězy a otevřená složka nebo kniha jsou dobře čitelné.
+  visual_content:
+    photographs: single_clergy_address_with_seated_clergy
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Osoby, funkce a obsah projevu nejsou obrazem určeny.
+  - Souvisí s URB-U-0070.

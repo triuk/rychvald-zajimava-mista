@@ -1,0 +1,21 @@
+schema_version: 1
+scope: closed_item_0010
+items:
+  - id: URB-U-0010
+    status: resolved
+    priority: high
+    collection: Rychvaldské větrné mlýny
+    type: document_group_identification
+    source_items: [urbanek-mlyny-036, urbanek-mlyny-037, urbanek-mlyny-038]
+    question: "Patří náčrt a fotografie k mlýnku u domu č. 339 a kde dům stál?"
+    resolution_scope: device_group_and_archival_house_number_only
+    resolution: >-
+      Uživatel po společném zobrazení potvrdil, že náčrt img605.jpg a historické
+      fotografie img603.jpg a img604.jpg zachycují stejné zařízení. Náčrt je přímo
+      označuje jako údaje o mlýnku za domem č. 339. Přesná historická poloha domu a
+      zařízení však nebyla nezávisle ověřena a je oddělena do URB-U-0038.
+    evidence_added: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+    resolved_at: 2026-07-21
+    resolved_by: user_confirmation_and_visual_comparison
+    confidence: verified_for_document_group
+    linked_open_item: URB-U-0038

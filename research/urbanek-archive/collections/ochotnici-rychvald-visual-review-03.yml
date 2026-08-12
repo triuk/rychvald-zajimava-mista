@@ -1,0 +1,113 @@
+collection_id: urbanek-ochotnici
+batch_id: visual-review-03
+status: completed
+reviewed_at: 2026-07-21
+scope: tesinsko-book-pages-and-native-doc
+reviewed_source_items:
+  - urbanek-ochotnici-019
+  - urbanek-ochotnici-028
+  - urbanek-ochotnici-015
+  - urbanek-ochotnici-016
+  - urbanek-ochotnici-017
+  - urbanek-ochotnici-061
+source_items_reviewed: 6
+reviewed_output_files: 6
+visually_verified_outputs: 5
+visually_verified_with_lacuna_outputs: 1
+
+items:
+  - ids: [urbanek-ochotnici-028, urbanek-ochotnici-019]
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-019-028-document-text.md
+    status: visually_verified
+    result: corrected_text
+    corrections:
+      - {from: Třasořítka, to: Třasořitka, reason: tištěná krátká samohláska}
+      - {from: maskování, to: maskovaní, reason: tištěné označení herců}
+    confirmed:
+      - direct_page_continuation_at_roz_pustile
+      - complete_printed_article
+      - printed_photo_caption
+      - complete_handwritten_dedication
+    preserved_uncertainty: URB-U-0028
+    notes:
+      - Tištěná podoba Ofélie nebyla sjednocena s programovým údajem Olivie.
+      - Podoby Adri Liivese, O. Matějíčkem a incenacemi jsou skutečně vytištěné.
+
+  - id: urbanek-ochotnici-017
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-017-a-document-text.md
+    status: visually_verified
+    result: typographic_correction
+    corrections:
+      - Doplněna závěrečná tečka vytištěného nadpisu.
+    confirmed:
+      - complete_independent_article
+      - printed_forms_bezperactva_and_vykoupal_v_kyselce_a_Labi
+
+  - ids: [urbanek-ochotnici-017, urbanek-ochotnici-016, urbanek-ochotnici-015]
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-015-017-bohdan-horak-document-text.md
+    status: visually_verified
+    result: no_text_change
+    confirmed:
+      - complete_article_pages_40_to_44
+      - physical_page_transitions
+      - printed_form_zaplasil
+      - printed_forms_rdouseneho_cestvi_and_Reinochovi
+
+  - id: urbanek-ochotnici-015
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-015-b-document-text.md
+    status: visually_verified
+    result: no_text_change
+    confirmed:
+      - complete_article_pages_44_to_45
+      - printed_person_and_place_forms
+      - physical_transition_inside_quotation
+
+  - id: urbanek-ochotnici-015
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-015-c-document-text.md
+    status: visually_verified_with_lacuna
+    result: typographic_correction
+    corrections:
+      - Doplněna závěrečná tečka vytištěného nadpisu.
+    confirmed:
+      - all_visible_text_on_page_45
+      - physical_end_at_split_word_po
+    preserved_uncertainty: URB-U-0029
+
+  - id: urbanek-ochotnici-061
+    output: research/urbanek-archive/ocr/urbanek-ochotnici-061-document-text.md
+    status: native_extracted_visually_verified
+    result: whitespace_normalization_only
+    confirmed:
+      - all_words_and_punctuation_match_visual_rendering
+      - Czech_diacritics_preserved
+      - one_content_page
+    rendering_note: >-
+      LibreOffice produced one populated page and a blank trailing page although the
+      document metadata reports one page. The blank page contains no text.
+
+summary:
+  text_corrections: 2
+  typographic_title_corrections: 2
+  whitespace_normalizations: 1
+  new_uncertainties: []
+  resolved_uncertainties: []
+  unchanged_open_uncertainties: [URB-U-0028, URB-U-0029]
+
+next_action:
+  type: second_visual_review_batch
+  collection: Ochotníci rychvald
+  items:
+    - urbanek-ochotnici-005
+    - urbanek-ochotnici-006
+    - urbanek-ochotnici-007
+    - urbanek-ochotnici-008
+    - urbanek-ochotnici-003
+  outputs:
+    - research/urbanek-archive/ocr/urbanek-ochotnici-006-007-008-document-text.md
+    - research/urbanek-archive/ocr/urbanek-ochotnici-003-a-document-text.md
+    - research/urbanek-archive/ocr/urbanek-ochotnici-003-b-document-text.md
+  instruction: >-
+    Perform enlarged second review of the handwritten chronicle pages 260-262 and
+    both parts of Miroslav Neborak's handwritten activity table. Resolve only forms
+    supported by the handwriting or corroborating archive documents; keep the date
+    conflict and genuinely unreadable entries open.

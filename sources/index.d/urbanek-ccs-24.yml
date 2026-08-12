@@ -1,0 +1,156 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-24
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-116
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/8c.jpg
+  file_size_bytes: 964805
+  git_blob_sha: 85fa40d13d7e8f938f97f7f00d09e958eb5ab115
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Celkový pohled na kapli a novou zvonici dne 2. října 2016 podle EXIF
+  document_type: modern_color_chapel_and_new_bell_tower_site_photograph
+  readability:
+    status: good
+    note: Kaple, nová zvonice, pamětní deska a střešní znak jsou dobře čitelné.
+  visual_content:
+    photographs: single_modern_overall_chapel_and_new_tower_view
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu a EXIF.
+  capture_metadata:
+    exif_datetime_original: '2016-10-02 14:05:52'
+    camera: myPhone FUN4
+    software: Windows Photo Editor 10.0.10011.16384
+  notes:
+  - EXIF podporuje stav areálu k okamžiku pořízení, nikoli datum výstavby.
+  - Jedna vzdálená osoba není identifikována.
+  - Souvisí s URB-U-0069.
+- source_id: urbanek-ccs-117
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/IMG_20161002_140624.jpg
+  file_size_bytes: 726613
+  git_blob_sha: b26ec4f3572ea4e4c6eeec5a520d5cd3150b9a46
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Čelní pohled na kapli s pamětní deskou a znakem kříže a kalicha
+  document_type: modern_color_chapel_front_facade_photograph
+  readability:
+    status: good
+    note: Průčelí, široký tmavý vstup, deska a střešní znak jsou dobře čitelné.
+  visual_content:
+    photographs: single_modern_chapel_front_facade
+    scene_text: plaque_present_not_transcribed_from_overall_view
+    method: Vizuální kontrola celého obrazu a EXIF.
+  capture_metadata:
+    exif_datetime_original: '2016-10-02 14:06:26'
+    camera: myPhone FUN4
+    software: Windows Photo Editor 10.0.10011.16384
+  notes:
+  - Vzniklo 34 sekund po položce 116.
+  - Souvisí s URB-U-0069.
+- source_id: urbanek-ccs-118
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/IMG_20161002_140644.jpg
+  file_size_bytes: 1436772
+  git_blob_sha: ac929b5729bc2ecb12146da2092b6ab530ffaee3
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Detail pamětní desky Husovy kaple a Winklerovy zvonice
+  document_type: modern_color_close_up_memorial_plaque_photograph
+  readability:
+    status: good
+    note: Celý hlavní nápis a znak jsou dobře čitelné; drobná značka vlevo dole zůstává nejistá.
+  visual_content:
+    photographs: single_modern_close_up_of_same_plaque_as_item_109
+    scene_text: transcribed
+    method: Vizuální kontrola, ruční přepis a porovnání s položkou 109.
+  scene_text:
+    text: 'HUSOVA KAPLE
+
+      S WINKLEROVOU ZVONICÍ
+
+      KAPLE CÍRKVE ČESKOSLOVENSKÉ HUSITSKÉ
+
+      BYLA POSTAVENA A SLAVNOSTNĚ OTEVŘENA
+
+      V ROCE 1937 PRVNÍM OSTRAVSKÝM
+
+      BISKUPEM FERDINANDEM STIBOREM'
+    status: transcribed
+    note: Historická tvrzení nápisu vyžadují další pramen.
+  same_object_relation:
+    same_physical_inscription_as: urbanek-ccs-109
+    evidentiary_note: Druhá fotografie stejné desky není druhým nezávislým nápisem.
+  capture_metadata:
+    exif_datetime_original: '2016-10-02 14:06:45'
+    camera: myPhone FUN4
+    software: Windows Photo Editor 10.0.10011.16384
+  notes:
+  - Souvisí s URB-U-0069.
+- source_id: urbanek-ccs-119
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/IMG_20161002_140659.jpg
+  file_size_bytes: 452418
+  git_blob_sha: 2e8d7330dc9569325a25ffe9e8d1f57210c72c04
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Detail kovového střešního znaku kříže a kalicha
+  document_type: modern_color_roof_symbol_detail_photograph
+  readability:
+    status: good
+    note: Kříž, stylizovaný kalich a způsob osazení nad střechou jsou čitelné.
+  visual_content:
+    photographs: single_modern_cross_and_chalice_roof_symbol_detail
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu a EXIF.
+  capture_metadata:
+    exif_datetime_original: '2016-10-02 14:07:01'
+    camera: myPhone FUN4
+    software: Windows Photo Editor 10.0.10011.16384
+  notes:
+  - Vzniklo 16 sekund po položce 118 a uzavírá souvislou sérii 116–119.
+  - Autor, datum a provenience znaku nejsou ověřeny.
+  - Souvisí s URB-U-0069.
+- source_id: urbanek-ccs-120
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/9  biskup dr Horský v r. 1945 - 1946.jpg
+  file_size_bytes: 454406
+  git_blob_sha: aa1077a94b497a916eae19ed84841f7692f49f6e
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Duchovní s kyticí označený vloženým popiskem jako Biskup dr.Horský
+  document_type: historical_captioned_clergy_portrait_with_bouquet
+  readability:
+    status: good
+    note: Osoba, kytice, insignie s kalichem a celý vložený popisek jsou čitelné.
+  visual_content:
+    photographs: single_historical_captioned_male_clergy_portrait
+    scene_text: transcribed
+    method: Vizuální kontrola celého obrazu a ruční přepis vloženého popisku.
+  scene_text:
+    text: Biskup dr.Horský
+    status: transcribed
+    note: Znění je ověřené; osoba, titul a úřad vyžadují dokumentární potvrzení.
+  notes:
+  - Rozmezí 1945–1946 pochází pouze z archivního názvu.
+  - Portrét může být paralelním pramenem k useknutému popisku urbanek-ccs-037, nikoli automatickou identifikací osoby.
+  - Souvisí s URB-U-0059.

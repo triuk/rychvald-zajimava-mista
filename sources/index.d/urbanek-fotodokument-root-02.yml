@@ -1,0 +1,161 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-fotodokument-root-006
+  title: img041.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img041.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img041.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 587865
+  git_blob_sha: 1d9cc6086818160982d6854da7b6d6857292019b
+  sha256: a20b389ac31ff0c253a0e9be238961a9173cbf5cd994d1e1bce5d6967d2ba922
+  drive_id: 1LoxjhE2qpHxIBV1kXUqhqpuib_5WsfIw
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1992
+    height_px: 1380
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - building_exterior
+  - yard_and_fence
+  - unidentified_building
+  summary: Černobílý záběr staršího stavebního areálu s nízkou omítnutou budovou, tmavým dřevěným štítem či nástavbou, oplocením a vzrostlými
+    listnatými stromy bez listí; další stavba je částečně viditelná v pozadí. Přesná funkce, lokalita a datace nejsou z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-007
+  title: img042.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img042.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img042.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 350817
+  git_blob_sha: 8187608c0feb0dddef0504e8029efdc663b1ff56
+  sha256: aed605959dc252388e530aafb129602f2da4c2707139b32f42cae0dcaa313d11
+  drive_id: 1TsCG9VDLkQ5us0hoP9OewZ8nPcS3GtDw
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1902
+    height_px: 1272
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - single_storey_building_exterior
+  - facade_emblem_and_notice
+  - unidentified_building
+  summary: Černobílý záběr podlouhlé přízemní budovy se svislým obkladem, sedlovou taškovou střechou, několika okny a zděným suterénem. Na průčelí
+    je heraldicky působící znak a světlá informační tabulka; text tabulky není bezpečně čitelný. Přesná identita, funkce, lokalita a datace nejsou
+    z obrazu samotného určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-008
+  title: img043.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img043.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img043.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 177722
+  git_blob_sha: 9eebfbf6b0dc1cd672837b1a74160bd83a6aef12
+  sha256: 2436d457aca41f58cb5091a559c3154cf63779c9719829547abcba336c9abb0a
+  drive_id: 18Ge4rKtekiAWokCJJlZklVjE2W9vS8Ay
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1590
+    height_px: 1020
+    color_mode: L
+  classification:
+  - monochrome_archival_image
+  - multi_storey_building_exterior
+  - small_roof_turret
+  - unidentified_building
+  summary: Černobílý záběr větší dvoupodlažní budovy s pravidelnými řadami oken, jednoduchou fasádou a úzkou věžičkou či střešním nástavcem na
+    jednom konci; navazuje na ni nižší boční část. Přesná funkce, název, lokalita a datace nejsou z architektury samotné určeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-009
+  title: img044.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img044.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img044.jpg
+  document_type: monochrome_archival_group_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 437246
+  git_blob_sha: 8255f7e593a979630a21d422278a068ef79aa180
+  sha256: 59fc9252fba632a190d434ead8eded55d76eb068bdc570bd2a703d62d4b55099
+  drive_id: 1Qb591cslo08Bqn5Dc87HHdfm7fDwIByP
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2088
+    height_px: 1494
+    color_mode: L
+  classification:
+  - monochrome_archival_group_photograph
+  - group_portrait
+  - school_exhibition_banner
+  - rychvald_podlesi_textual_reference
+  - unidentified_people
+  summary: Černobílý skupinový portrét dospělých mužů a žen před budovou. Vlevo za skupinou je banner s bezpečně čitelným textem „VÝSTAVA 60 let
+    školy V RYCHVALDĚ NA PODLESÍ“. Spodní část banneru obsahuje další, jen částečně čitelné údaje; přesná datace se proto nezapisuje. Osoby na
+    snímku nejsou identifikovány.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+  visible_text:
+    safe_transcription: VÝSTAVA 60 let školy V RYCHVALDĚ NA PODLESÍ
+    scope_note: Jde o text viditelný na banneru v prameni; spodní údaje nejsou bezpečně čitelné a nejsou rekonstruovány.
+- source_id: urbanek-fotodokument-root-010
+  title: img045.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img045.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img045.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 1132750
+  git_blob_sha: 2219a35332e023f6be3c8eb5f8d176bee02d179e
+  sha256: 884234975d9177edd0cc7bc5370e691b29e2ed7a39781c5df22a5cdd67f77fe8
+  drive_id: 1OkYUsoEurB2Lf18sD8WSTs1ppM2PPbGC
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2039
+    height_px: 2477
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - sacral_architecture_exterior
+  - tower_and_nave
+  - unidentified_building
+  summary: 'Černobíle působící vertikální záběr stavby se sakrální architekturou: vysoká hranolová věž s polygonálně zakončenou střechou a lucernou,
+    obloukovými otvory, navazující lodí a krytým vstupem. Přesný název, denominace, lokalita a datace nejsou z obrazu samotného určeny.'
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083

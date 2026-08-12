@@ -1,0 +1,50 @@
+schema_version: 1
+items:
+- id: URB-U-0085
+  status: open
+  priority: medium
+  collection: novinové články 1903 - 1925
+  type: historical_newspaper_issue_article_page_sequence_provenance_claims_and_rights
+  source_items:
+  - urbanek-newspaper-articles-1903-1925-001
+  - urbanek-newspaper-articles-1903-1925-002
+  - urbanek-newspaper-articles-1903-1925-003
+  - urbanek-newspaper-articles-1903-1925-004
+  - urbanek-newspaper-articles-1903-1925-005
+  - urbanek-newspaper-articles-1903-1925-006
+  - urbanek-newspaper-articles-1903-1925-007
+  - urbanek-newspaper-articles-1903-1925-008
+  - urbanek-newspaper-articles-1903-1925-009
+  - urbanek-newspaper-articles-1903-1925-010
+  - urbanek-newspaper-articles-1903-1925-011
+  - urbanek-newspaper-articles-1903-1925-012
+  - urbanek-newspaper-articles-1903-1925-013
+  - urbanek-newspaper-articles-1903-1925-014
+  - urbanek-newspaper-articles-1903-1925-015
+  - urbanek-newspaper-articles-1903-1925-016
+  question: Jaké jsou přesné bibliografické údaje, stránky, úplnost, vzájemná návaznost a provenience novinových reprodukcí ve složce `novinové články 1903 - 1925`; které články a výřezy patří k týmž číslům či textovým sekvencím, kdo pořídil reprodukce a jaká práva se k nim vztahují; a které historické údaje obsažené v článcích lze později nezávisle doložit?
+  known_facts:
+  - Kolekce je po čtyřech dávkách kompletně indexována: 16 obsahových JPEGů a technické soubory Thumbs.db a ZbThumbnail.info.
+  - Prvních 15 obsahových položek a jejich přímo doložené návaznosti jsou popsány v dávkách 01–03.
+  - img995.jpg nemá EXIF ani GPS a přímo se obrazově i textově překrývá s img993.jpg: jde o reprodukci stejné stránky/sekce `OSTRAVSKÝ DENNÍK` s článkem `Boj—česko-polský.`, přičemž img995.jpg zachycuje delší část textu směrem dolů.
+  - Tištěná tvrzení článků jsou evidována jako obsah dobového pramene, nikoli jako nezávisle ověřené historické skutečnosti.
+  unknown:
+  - exact_physical_originals_and_page_numbers
+  - full_issue_and_date_for_crops_without_visible_masthead_data
+  - completeness_and_exact_article_boundaries
+  - relationships_between_other_separate_images_without_direct_text_overlap
+  - original_copy_and_reproduction_provenance
+  - photographer_or_digitizer_identity
+  - interpretation_of_generic_exif_datetime_for_digitization_history
+  - independent_verification_of_historical_claims_printed_in_articles
+  - copyright_and_reuse_rights
+  evidence:
+  - research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-01.yml
+  - research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-02.yml
+  - research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-03.yml
+  - research/urbanek-archive/collections/newspaper-articles-1903-1925-batch-04.yml
+  - research/urbanek-archive/collections/newspaper-articles-1903-1925-overview.yml
+  - sources/index.d/urbanek-newspaper-articles-1903-1925-01.yml
+  - sources/index.d/urbanek-newspaper-articles-1903-1925-02.yml
+  - sources/index.d/urbanek-newspaper-articles-1903-1925-03.yml
+  - sources/index.d/urbanek-newspaper-articles-1903-1925-04.yml

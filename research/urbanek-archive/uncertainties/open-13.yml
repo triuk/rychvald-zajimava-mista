@@ -1,0 +1,224 @@
+schema_version: 1
+scope: ccs_batch_10_open_items_updated_through_batch_14
+items:
+  - id: URB-U-0063
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: fiftieth_anniversary_1970_exact_context_Kare_Marceluch_people_and_program
+    related_open_items: [URB-U-0054, URB-U-0059, URB-U-0062, URB-U-0064, URB-U-0068]
+    source_items: [urbanek-ccs-047, urbanek-ccs-066, urbanek-ccs-067]
+    question: >-
+      Kdy přesně a při jaké události se konalo padesáté výročí uváděné rokem 1970,
+      čeho bylo výročí, kdo byli přítomní duchovní a další hosté, jak znělo celé jméno
+      useknuté po řetězci „Kare“, kdo byl archivně označený biskup Marceluch, jaká je
+      správná podoba jeho jména a úřadu a jaký byl program a rozsah oslav?
+    known_facts:
+      - "Urbanek-ccs-047 zachycuje v kněžišti tři muže v duchovním oděvu a jednoho muže v obleku."
+      - "Duchovní vlevo na urbanek-ccs-047 má výrazný řetěz nebo insignii a drží kytici; další osoba také drží kytici."
+      - "Na oltáři urbanek-ccs-047 je viditelný kalich a květinová výzdoba."
+      - "Archivní název urbanek-ccs-047 uvádí rok 1970 a 50. výročí založení CČS v Rychvaldě."
+      - "Dobově blízká rychvaldská kronika uvádí `Založení církve čsl. 11. 4. 1920` a v oddílu o náboženských poměrech popisuje první schůzi na Fojtství 11. dubna 1920."
+      - "Městská publikace Rychvald 1305–2005 a oficiální článek CČSH z roku 2025 nezávisle uvádějí založení/ustavení místní Církve československé na Fojtství dne 11. 4. 1920."
+      - "Urbanek-ccs-066 zachycuje dítě podávající ruku ústřednímu duchovnímu s kyticí a knihami nebo složkou."
+      - "Název urbanek-ccs-066 končí řetězcem `Kare`; pokračování jména v dochovaném názvu chybí a filename se textově nerekonstruuje."
+      - "Nadřazená podsložka 066/067 se jmenuje `Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50`; rychvaldská kronika a Rychvald 1305–2005 uvádějí prvního rychvaldského faráře CČS jako Karla Vodičku. Tato konvergence identifikuje osobu `Kare…` jako Karla Vodičku, nikoli však chybějící doslovný text filename."
+      - "Urbanek-ccs-067 je širší reprodukce přesně téhož fotografického obrazu jako urbanek-ccs-066 a navíc ukazuje vlevo holohlavého duchovního s řetězem nebo insignií a vpravo muže v obleku s kyticí."
+      - "Geometrické porovnání urbanek-ccs-066 a 067 nalezlo 306 konzistentních shod, z nichž 96,8 % odpovídá jednomu modelu výřezu a změny měřítka; nejde tedy o dva nezávislé okamžiky."
+      - "Archivní název urbanek-ccs-067 označuje levého duchovního jako biskupa Marcelucha; obraz neobsahuje jméno ani úřad."
+      - "Oficiální historie olomoucké diecéze CČSH uvádí, že po smrti Františka M. Hníka roku 1962 byl zvolen Leo Marceluch, na počátku jeho episkopátu byly ostravská a olomoucká diecéze administrativně sloučeny se sídlem v Olomouci a Marceluchův episkopát trval do roku 1988."
+      - "Online kopie inventáře fondu Diecézní rada CČS(H) Olomouc uvádí přímo relevantní primární jednotky: korespondenci s NO Rychvald 1962–1980 (inv. 1448, karton 167), volbu a instalaci Leo Marcelucha 1962 (inv. 1829, karton 225), jeho služební korespondenci 1962–1987 (inv. 1833, karton 226) a fotografický soubor Rychvald, 7 kusů, 1970–1987 (karton 272)."
+    partially_resolved_attributes:
+      anniversary_subject_and_starting_event:
+        value: "50. výročí založení/ustavení Církve československé v Rychvaldě; zakládající schůze na Fojtství 11. 4. 1920"
+        status: independently_supported_by_contemporary_local_chronicle_city_history_and_official_CCSH_text
+      Kare_person_identity:
+        value: "Karel Vodička, první rychvaldský farář CČS"
+        status: convergent_archival_context_plus_independent_local_personnel_history
+        scope_note: "Identita osoby je zúžena; fyzicky useknutý filename se nedoplňuje a zůstává `Kare…`."
+      Marceluch_authoritative_identity:
+        value: "Leo Marceluch"
+        status: independently_verified_by_official_CCSH_diocesan_history
+      Marceluch_episcopal_office_in_1970:
+        value: "biskup administrativně sloučené a územně rozšířené olomoucké diecéze CČSH"
+        status: independently_verified_by_official_CCSH_diocesan_history
+      Marceluch_episcopate_endpoint:
+        value: 1988
+        status: independently_verified_by_official_CCSH_diocesan_history
+    unresolved_attributes:
+      - exact_event_date_in_1970
+      - independent_period_confirmation_that_items_047_066_067_are_from_same_anniversary_event
+      - complete_literal_filename_text_after_Kare
+      - Karel_Vodicka_exact_role_and_visit_program_in_1970
+      - direct_documentary_identification_of_left_clergy_in_item_067_as_Leo_Marceluch
+      - central_clergy_identity_in_items_066_067
+      - identities_and_roles_of_other_clergy_and_guests
+      - identity_and_meaning_of_each_chain_or_insignia
+      - exact_service_ceremony_welcome_and_program
+      - identities_of_children_and_welcoming_participants
+      - invited_guests_and_attendance
+      - relationship_between_items_047_066_067_and_other_1970_visit_images
+      - relationship_to_Chrobacek_Vodicka_Bogumski_and_baptism_series
+    next_action: >-
+      Primárně prověřit fond Diecézní rady CČS(H) Olomouc v Národním archivu:
+      inv. č. 1448 (korespondence s NO Rychvald 1962–1980, karton 167), případně
+      Marceluchovu korespondenci inv. č. 1833 a fotografický soubor Rychvald 1970–1987
+      v kartonu 272. Hledat program, přesné datum, seznam hostů a popisy fotografií.
+      Useknutý filename `Kare…` ponechat doslova; Karel Vodička je identifikace osoby
+      z konvergentních pramenů, nikoli rekonstruovaný text názvu souboru.
+    reopen_triggers:
+      - anniversary_program_found
+      - church_or_municipal_chronicle_entry_found
+      - National_Archive_Rychvald_correspondence_reviewed
+      - National_Archive_Rychvald_photographs_reviewed
+      - dated_press_report_found
+      - complete_Kare_caption_found
+      - Marceluch_personnel_or_visit_record_found
+      - council_minutes_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+      - sources/index.d/urbanek-ccs-10.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
+      - sources/index.d/urbanek-ccs-14.yml
+      - research/urbanek-archive/verifications/urb-u-0063-1970-anniversary-marceluch-recheck-2026-08-11.md
+
+  - id: URB-U-0064
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: anniversary_baptisms_number_Vodicka_families_clergy_and_register
+    related_open_items: [URB-U-0050, URB-U-0063, URB-U-0067, URB-U-0068]
+    source_items: [urbanek-ccs-048, urbanek-ccs-068, urbanek-ccs-069]
+    question: >-
+      Kdy se křtiny konaly, šlo při výroční návštěvě skutečně o tři křty, komu byly
+      děti křtěny, kdo jsou rodiče, kmotři a ostatní účastníci, kteří duchovní obřady
+      vedli, který z nich je farář Vodička a jak jednotlivé fotografie a rodiny souvisejí?
+    known_facts:
+      - "Urbanek-ccs-048 zachycuje ženu se zavinutým dítětem před duchovním, který má v rukou knihu nebo obřadní text."
+      - "Mezi nimi na urbanek-ccs-048 stojí vysoká křestní svíce a v pozadí jsou další dospělí a nejméně dva duchovní."
+      - "Jeden muž v pozadí urbanek-ccs-048 má brýle; archivní název označuje muže v brýlích jako faráře Vodičku."
+      - "EXIF datum 1. září 2014 u urbanek-ccs-048 dokládá digitalizaci nebo reprodukci, nikoli křtiny roku 1970."
+      - "Urbanek-ccs-068 zachycuje jeden jasně viditelný kojenec, ženu, obřad vedoucího duchovního, vysokou křestní svíci a několik dalších rodinných a duchovních skupin."
+      - "Archivní název urbanek-ccs-068 tvrdí, že při této příležitosti proběhly troje křtiny; jediný snímek přesný počet tří samostatných křtů neprokazuje."
+      - "Urbanek-ccs-069 zachycuje jinou nebo jinak postavenou rodinnou skupinu: ženu s kojencem, dva muže v oblecích a duchovního fotografovaného zezadu s výrazným řetězem nebo insignií."
+      - "Archivní název urbanek-ccs-069 sám klade otázku totožnosti křtěnců."
+      - "Společný interiér, archivní pořadí a obřadní charakter podporují souvislost urbanek-ccs-048, 068 a 069 s jednou výroční sérií, ale neurčují přesné rodiny, pořadí ani počet obřadů."
+    unresolved_attributes:
+      - exact_baptism_date
+      - independent_confirmation_of_year_1970
+      - independent_confirmation_of_three_baptisms
+      - number_of_distinct_infants_and_families_across_images
+      - infant_parent_and_godparent_identities
+      - Vodicka_identity_and_position_in_each_image
+      - identities_of_officiating_clergy
+      - identity_and_role_of_chain_bearing_clergy
+      - identities_of_other_clergy_and_participants
+      - baptism_register_entries
+      - relationship_between_images_048_068_069
+      - relationship_to_anniversary_or_clergy_visit
+    next_action: >-
+      Hledat matriku křtů, sborovou a obecní kroniku, rodinná alba, návštěvní a výroční
+      program roku 1970 a popsané paralelní fotografie. Počet tří křtů nepřebírat jako
+      obrazově potvrzený a faráře Vodičku ani jiné duchovní neurčovat podle vzhledu,
+      brýlí, řetězu nebo polohy.
+    reopen_triggers:
+      - baptism_register_entries_found
+      - three_baptisms_documented
+      - family_identification_provided
+      - clergy_visit_program_found
+      - captioned_parallel_photo_found
+      - Vodicka_or_other_clergy_personnel_record_found
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+      - sources/index.d/urbanek-ccs-10.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-14.yml
+      - sources/index.d/urbanek-ccs-14.yml
+
+  - id: URB-U-0065
+    status: open
+    priority: high
+    collection: Historie Církve československé v Rychvaldě ve fotografiích
+    type: restored_Jan_Hus_bonfire_tradition_procession_date_people_and_caption
+    related_open_items: [URB-U-0058, URB-U-0061]
+    source_items: [urbanek-ccs-049, urbanek-ccs-050, urbanek-ccs-051, urbanek-ccs-052, urbanek-ccs-053, urbanek-ccs-054]
+    question: >-
+      Kdy a kým byla obnovena tradice husovské hranice, jak zněl celý useknutý
+      popisek, zachycují oba průvodové snímky a série hranice stejný ročník, kdo jsou
+      vedoucí osoby, hudebníci, hasiči a ostatní účastníci, jaká byla trasa a jak
+      dlouho tradice pokračovala?
+    known_facts:
+      - "Urbanek-ccs-049 zachycuje hořící hranici z polen s černobílým portrétem nebo obrazem mužské postavy, početný dav a ženu v černém liturgickém oděvu."
+      - "Archivní název urbanek-ccs-049 identifikuje portrét jako Jana Husa a tvrdí obnovení tradice, ale končí useknutým řetězcem `far.`."
+      - "EXIF datum 15. března 2012 u urbanek-ccs-049 je v rozporu s plně olistěnou letní scénou a není spolehlivou datací události."
+      - "Urbanek-ccs-050 zachycuje průvod podél kostela vedený dvěma ženami, za nimiž kráčejí hasiči v zásahovém oděvu a další účastníci."
+      - "Urbanek-ccs-051 zachycuje muže s českou vlajkou, dechovou hudbu a další část venkovního průvodu."
+      - "Urbanek-ccs-052 zachycuje nezapálenou hranici z polen s připevněným kresleným portrétem a okolním davem."
+      - "Urbanek-ccs-053 zachycuje stejnou konstrukci a portrét při hoření v detailu."
+      - "Urbanek-ccs-054 zachycuje tutéž hořící hranici v širokém pohledu s početným davem a několika hasiči."
+      - "Přesné obrazové porovnání potvrzuje, že urbanek-ccs-052, 053 a 054 tvoří posloupnost téže hranice před zapálením a při hoření."
+      - "Rychvaldská kronika k roku 1969 přímo dokládá Husovu oslavu k 600. výročí narození Jana Husa: po dechovém koncertu před MNV se průvod odebral na sokolské cvičiště, kde byla za setmění zapálena hranice; pořadatelem byla Národní fronta a projev pronesl Svatoslav Čechovský."
+      - "Navazující rychvaldská kronika přímo datuje Husovu oslavu na Sokolovně s pálením hranice k 4. 7. 1970; projev pronesl předseda Národní fronty Vítězslav Gruščík."
+      - "Kronika 1989–2000 označuje rychvaldskou husitskou pouť roku 1990 již jako tradiční, ale samotný zápis roku 1990 neurčuje osobu, která obnovila pálení hranice."
+      - "Dne 5. 7. 1993 je přímo doloženo tradiční symbolické pálení hranice: průvod vyšel od Husova sboru v 17.00 na hřiště Sokola Rychvald; následující den se konala tradiční pouť."
+      - "Tentýž kronikářský oddíl uvádí, že v roce 1993 stála již osm let v čele náboženské obce farářka Jana Šilerová a její působení církev viditelně aktivizovalo; výslovné tvrzení, že právě ona obnovila hranici, ale nalezený text neobsahuje."
+      - "Rok 1997 přímo dokládá další pálení hranice 5. července, tentokrát na zahradě hasičské zbrojnice, narušené povodňovým deštěm."
+      - "Rychvaldský zpravodaj 4/1998 uvádí, že 5. července se účastníci `jako každý rok` v 17 hodin vydají od Husova sboru na místní Sokolovnu k pálení hranice; průvod toho roku měli doprovázet trubači z německého Dessau."
+      - "Kronika 2001–2010 opakovaně dokládá pokračování husitské pouti a pálení hranice nejméně do roku 2007."
+      - "Vztah urbanek-ccs-050 a 051 ke stejnému průvodu a vztah průvodu k hranici z téhož ročníku zůstávají pracovní hypotézou."
+      - "Urbanek-ccs-050 až 054 nemají použitelná embedded metadata pro dataci události."
+    partially_resolved_attributes:
+      pre_1989_precedent:
+        value: "1969: dechový koncert před MNV, průvod na sokolské cvičiště a Husova hranice; 4. 7. 1970: Husova oslava s hranicí na Sokolovně"
+        status: directly_supported_by_contemporary_local_chronicles
+      modern_route_and_time:
+        value: "5. 7. 1993 a znovu 5. 7. 1998 v 17.00: průvod od Husova sboru na Sokolovnu / hřiště Sokola, následovaný pálením hranice"
+        status: independently_supported_by_municipal_chronicle_and_1998_local_newsletter
+      modern_documented_duration:
+        value: "opakovaná moderní tradice přímo doložena 1993, 1997, 1998 a dále v kronice nejméně do 2007"
+        status: independently_supported_by_municipal_chronicles_and_local_newsletter
+        scope_note: "Doložené body neprokazují nepřerušenou každoroční řadu ani kontinuitu od roku 1970."
+      Jana_Silerova_context:
+        value: "Jana Šilerová byla roku 1993 již osm let v čele rychvaldské náboženské obce CČSH a její působení ji podle kroniky viditelně aktivizovalo; v dalších ročnících je doložena jako účastnice církevní podoby tradice"
+        status: independently_supported_context_not_restoration_authorship
+        scope_note: "Je silnou kontextovou kandidátkou pro useknuté `obnovila far..`, ale nalezené prameny výslovně nepotvrzují, že právě ona tradici obnovila."
+    unresolved_attributes:
+      - exact_date_of_each_archival_image
+      - whether_procession_images_050_and_051_show_same_event
+      - whether_procession_and_bonfire_show_same_year
+      - exact_restoration_year
+      - person_or_institution_responsible_for_restoration
+      - complete_original_caption_after_far
+      - whether_truncated_far_meant_farka_Jana_Silerova
+      - portrait_identity_and_origin_beyond_archival_attribution
+      - event_program_and_religious_civic_context_for_archival_images
+      - exact_procession_route_for_archival_images
+      - brass_band_identity_on_item_051
+      - flag_bearer_identity
+      - firefighter_role_unit_and_persons
+      - leader_and_participant_identities
+      - exact_attendance_count
+      - uninterrupted_frequency_between_documented_years
+      - continuity_between_1969_1970_civic_events_and_post_1989_modern_tradition
+      - interpretation_of_conflicting_EXIF_date
+    next_action: >-
+      Zaměřit další hledání na roky 1990–1992 a na církevní kroniku či zápisy rady starších,
+      kde může být výslovně uvedeno první novodobé obnovení a jeho iniciátor. Hledat také
+      úplnou kopii filename/popisku 049 a datované paralelní fotografie, které by umožnily
+      přiřadit archivní barevnou sérii konkrétnímu ročníku. Jméno Jany Šilerové ani celý
+      text za `far.` nedoplňovat bez explicitního pramene.
+    reopen_triggers:
+      - dated_1990_1992_Hus_commemoration_record_found
+      - explicit_restoration_statement_found
+      - church_council_or_congregation_chronicle_found
+      - complete_filename_or_caption_found
+      - dated_parallel_photo_found
+      - fire_brigade_record_found
+      - brass_band_record_found
+      - participant_identification_provided
+    evidence:
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-10.yml
+      - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-batch-11.yml
+      - sources/index.d/urbanek-ccs-10.yml
+      - sources/index.d/urbanek-ccs-11.yml
+      - research/urbanek-archive/verifications/urb-u-0065-hus-bonfire-tradition-recheck-2026-08-12.md

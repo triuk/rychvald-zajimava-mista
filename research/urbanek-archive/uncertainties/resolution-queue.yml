@@ -1,0 +1,138 @@
+schema_version: 1
+generated: 2026-08-12
+purpose: resolution_ready_work_queue
+project: urbanek-archive
+repository: triuk/rychvald-zajimava-mista
+branch: agent/import-urbanek-pilot
+basis:
+  full_index_complete: true
+  indexed_items: 616
+  content_files: 587
+  technical_files: 29
+  completed_collections: 15
+  remaining_index_items: 0
+  open_uncertainties_reviewed: 53
+  duplicate_review_complete: true
+  safe_exact_duplicate_open_questions_found: false
+  prioritization_review: research/urbanek-archive/reports/uncertainty-prioritization-review-2026-08-11.md
+readiness:
+  state: ready
+  current_phase: uncertainty_resolution
+  active_wave: 1
+  current_target: URB-U-0078
+  indexing_must_not_resume_without_new_archive_snapshot: true
+  preserve_stable_uncertainty_ids: true
+  preserve_original_files: true
+resolution_semantics:
+  - Source-visible facts, archival attribution, later secondary interpretation and inference must remain distinguishable.
+  - An archival filename or folder label is evidence of archival attribution only unless independently corroborated.
+  - Persons are never identified solely from facial appearance; uniforms, weapons and poses are not sufficient to establish unit, nationality, rank or identity.
+  - During an open research checkpoint, safely resolved subattributes may be recorded under `partially_resolved_attributes` while material unknowns remain explicit.
+  - Before closing an item whose original question still contains material unresolved attributes, either resolve them or decompose them into a linked open item so no uncertainty is silently lost.
+  - Negative search results narrow the search path but do not by themselves resolve a historical attribute.
+  - Exact binary duplicates are separate inventory items but one independent piece of image evidence.
+wave_1:
+  targeted_local_total: 15
+  research_checkpointed_open:
+    - URB-U-0036
+    - URB-U-0038
+    - URB-U-0044
+    - URB-U-0049
+    - URB-U-0053
+    - URB-U-0062
+    - URB-U-0063
+    - URB-U-0065
+    - URB-U-0067
+    - URB-U-0075
+    - URB-U-0077
+  active:
+    - URB-U-0078
+  queued_next:
+    - URB-U-0079
+    - URB-U-0081
+    - URB-U-0085
+  note: >-
+    `research_checkpointed_open` means that a dedicated source check has already added useful evidence, not that the item is resolved.
+    All listed IDs remain governed by their current registry status.
+current_target_plan:
+  id: URB-U-0078
+  topic: ozbrojená skupina u tabule MĚSTO RYCHVALD archivně spojovaná s říjnem 1938
+  corrected_visual_fact: four_visible_persons_not_five
+  primary_search_routes:
+    - exact_or_near_exact_image_match_in_local_publications_albums_and_archives
+    - contemporary_press_October_1938_Rychvald_image_or_caption
+    - military_or_police_documentation_only_when_it_can_be_linked_to_the_scene
+    - provenance_chain_original_carrier_archive_signature_photographer_or_publisher
+  forbidden_shortcuts:
+    - do_not_confirm_9_October_1938_from_filename_alone
+    - do_not_assign_unit_or_nationality_from_uniform_appearance_alone
+    - do_not_identify_people_from_faces_alone
+  verification: research/urbanek-archive/verifications/urb-u-0078-preparation-recheck-2026-08-12.md
+queued_target_plans:
+  URB-U-0079:
+    topic: tajný seznam Okresního velitelství SNB Fryštát z 10. 7. 1945
+    primary_search_routes:
+      - archive_fond_and_inventory_reference
+      - document_series_and_adjacent_pages_or_annexes
+      - issuing_context_distribution_and_subsequent_use
+  URB-U-0081:
+    topic: fotografovaná vydání a stránky Českého slova z roku 1938
+    primary_search_routes:
+      - masthead_issue_date_and_page_identification
+      - textual_continuity_between_photographed_fragments
+      - bibliographic_catalogue_or_digitized_issue_match
+  URB-U-0085:
+    topic: novinové výstřižky 1903-1925
+    primary_search_routes:
+      - periodical_title_issue_date_page_match
+      - exact_text_or_headline_search
+      - provenance_and_relationship_between_standalone_images_and_cache_references
+parallel_archive_recovery:
+  ids:
+    - URB-U-0086
+    - URB-U-0088
+  status: exact_name_drive_search_complete_no_matches
+  next_routes:
+    - image_similarity_under_different_filename
+    - alternate_storage_or_backup
+    - older_archive_export_or_local_copy
+cross_cutting_decompose_before_closure:
+  - URB-U-0073
+  - URB-U-0076
+  - URB-U-0082
+  - URB-U-0083
+  - URB-U-0084
+  - URB-U-0087
+dependent_followup:
+  count: 30
+  ids:
+    - URB-U-0008
+    - URB-U-0037
+    - URB-U-0039
+    - URB-U-0040
+    - URB-U-0041
+    - URB-U-0042
+    - URB-U-0043
+    - URB-U-0045
+    - URB-U-0046
+    - URB-U-0047
+    - URB-U-0048
+    - URB-U-0050
+    - URB-U-0051
+    - URB-U-0052
+    - URB-U-0054
+    - URB-U-0055
+    - URB-U-0056
+    - URB-U-0057
+    - URB-U-0058
+    - URB-U-0059
+    - URB-U-0060
+    - URB-U-0061
+    - URB-U-0064
+    - URB-U-0066
+    - URB-U-0068
+    - URB-U-0069
+    - URB-U-0070
+    - URB-U-0071
+    - URB-U-0072
+    - URB-U-0080

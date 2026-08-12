@@ -1,0 +1,90 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-12
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-056
+    title: Postavy živého betléma – archivně označené jako místní ochotníci
+    document_type: modern_color_living_nativity_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/56  Postavy v živém betlému hrají místní ochotníci.JPG"
+    file_size_bytes: 1474991
+    git_blob_sha: 722afe5f5777c99c601563ac8beb982bb4974588
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Kostýmy, živé dítě, diváci a venkovní prostředí jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_color_living_nativity_close_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {camera: "SONY DCR-HC96E", datetime: "2008-12-06 16:04:44", interpretation: "Technické datum vyžaduje potvrzení jako datum veřejné události."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Obraz potvrzuje živé dítě, nikoli identitu místních ochotníků.
+      - Jde o jiné embedded datum než u urbanek-ccs-055.
+      - Souvisí s URB-U-0066.
+
+  - source_id: urbanek-ccs-057
+    title: Koncert připisovaný Svatováclavskému festivalu
+    document_type: modern_color_large_choir_concert_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/57  Koncerty v rámci Svatováclavského festivalu.JPG"
+    file_size_bytes: 3896508
+    git_blob_sha: 6e23d04d827a4ace7d1797d84663c5d9f73803c1
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Sbor, dirigent, notový pult a publikum jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_color_large_mixed_choir_concert, scene_text: no_new_identifying_text, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {camera: "NIKON D3100", datetime: "2011-06-12 17:02:40"}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Festival, sbor, dirigent a program nejsou obrazem identifikovány.
+      - Stejný fotoaparát a den jako urbanek-ccs-058.
+      - Souvisí s URB-U-0061.
+
+  - source_id: urbanek-ccs-058
+    title: Dětský hudební soubor archivně připisovaný adventnímu koncertu a místní ZUŠ
+    document_type: modern_color_child_music_ensemble_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/58  Na adventních koncertech vystupují také děti mísní ZUŠ.JPG"
+    file_size_bytes: 63373
+    git_blob_sha: 2c2532b1abe34176dad35abbfe0c681a25004524
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: fair, note: "Soubor má malé rozlišení, ale soubor dětí, nástroje a publikum jsou čitelné."}
+    visual_content: {photographs: single_modern_color_child_and_youth_music_ensemble, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    embedded_metadata: {camera: "NIKON D3100", datetime: "2011-06-12 16:13:05", conflict: "Červnové datum je v rozporu s archivním označením adventního koncertu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Místní ZUŠ ani adventní kontext nejsou obrazem ověřeny.
+      - Stejný fotoaparát a den jako urbanek-ccs-057 silně ukazují na společnou akci.
+      - Souvisí s URB-U-0061.
+
+  - source_id: urbanek-ccs-059
+    title: Pamětní deska Karla a Libuše Vodičkových
+    document_type: modern_color_memorial_plaque_documentation
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/59  V e vstupní hale kostela jsou za touto pam. deskou umíst.JPG"
+    file_size_bytes: 1728220
+    git_blob_sha: a5781859d0d64384fff6d1c55a9e9100539ec22d
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Celý dochovaný nápis desky je čitelný; název souboru je useknutý."}
+    visual_content: {photographs: single_memorial_plaque, scene_text: manually_transcribed_in_batch_file, method: "Vizuální kontrola a ruční přepis."}
+    embedded_metadata: {camera: "Panasonic DMC-TZ3", datetime: "2010-10-14 17:45:12"}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Nápis je primární doklad obsahu desky, nikoli automatické potvrzení všech biografických tvrzení.
+      - Popisek končí slovem umíst a nesmí být domýšlen.
+      - Souvisí s URB-U-0067.
+
+  - source_id: urbanek-ccs-060
+    title: Portrét archivně připisovaný prvnímu faráři ThDr. Karlu Vodičkovi
+    document_type: historical_black_and_white_clergy_portrait
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/60  První farář ThDr Karel Vodička.jpg"
+    file_size_bytes: 150783
+    git_blob_sha: f9cfc077e5a3cdd078398dd13e56dd7e9c1c961f
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Portrét a duchovní oděv jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_male_clergy_portrait, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno, titul a funkce pocházejí z archivního názvu.
+      - Osobu nelze identifikovat pouze podle obličeje; porovnat s dokumentárními prameny.
+      - Souvisí s URB-U-0067.

@@ -1,0 +1,67 @@
+schema_version: 1
+collection_id: urbanek-popopo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-popopo-026
+  title: img178a.jpg
+  source_path: popopo/img178a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/img178a.jpg
+  document_type: archival_group_photograph
+  file_size_bytes: 1369336
+  git_blob_sha: 0e9bf5eea67fb2f79c0043647a3526b3a9a6de90
+  sha256: 84175914b4f2eaaf49f1ac6d8d9bd6b5eb94f045e41bf2b121e6d9a8d43edda0
+  drive_id: 1MtrQFeEztL0xf7lJIwDHTfDYReCMR_ww
+  summary: Skupinový portrét s praporem `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` a tabulkou s rokem `1929`; osoby, událost a lokalita nejsou určeny.
+  capture_metadata: {exif_present: true, make: Canon, datetime: '2012:04:17 11:42:56', datetime_original: null, gps_present: false}
+  related_evidence: {source_id: urbanek-unused-book-calendar-photographs-022, relationship: strong_correspondence_not_binary_identity}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-027
+  title: img267.jpg
+  source_path: popopo/img267.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/img267.jpg
+  document_type: building_photograph
+  file_size_bytes: 215060
+  git_blob_sha: 28645d2925bca8e58908501980944de7a2e7be86
+  sha256: 55bb69ecc8f101a6b7a895e0b0641273ca909f4f828d42aa74a96819117e0359
+  drive_id: 1uN-HvIVPGx58IbgXJPhPSFliHx6fFOqG
+  summary: Dvě vícepodlažní budovy u komunikace; přesná adresa, funkce, vlastnictví a datum nejsou určeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-028
+  title: img678.jpg
+  source_path: popopo/img678.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/img678.jpg
+  document_type: archival_settlement_photograph
+  file_size_bytes: 272535
+  git_blob_sha: 99e493892f25d955132b14e66769b508f281358d
+  sha256: 74aacfc853b6662bf910b9daba919e3e2de21adf8473a58691918641d2d6364f
+  drive_id: 1JZCxsi4ZWmlG0N9AtMDpLxfUIEu0nZxO
+  summary: Starší fotografie zástavby za poli či zahradami; přesná lokalita, datum a identity staveb nejsou určeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-029
+  title: img691.jpg
+  source_path: popopo/img691.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/img691.jpg
+  document_type: published_airman_photograph_reproduction
+  file_size_bytes: 271316
+  git_blob_sha: 4bab2f080cb210a0302c7460f52a3183f5c5a0fa
+  sha256: b1523aa1ce9679873ff65262fad08085e43f2448851048a231626c609fa2a2d8
+  drive_id: 15TGkVoDM_3z1Wbu-g1LvYK_RPTa0zcBN
+  summary: Reprodukce fotografie muže u letounu; tištěný popisek jej označuje jako Warrant Officer Fridolína Gemroda (RO) a uvádí léto 1944, Mosquito NF Mk.XVII (WM-G) a Castle Camps. Údaje popisku nejsou v této fázi nezávisle ověřeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-030
+  title: img698a.jpg
+  source_path: popopo/img698a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/img698a.jpg
+  document_type: archival_anniversary_group_photograph
+  file_size_bytes: 2295341
+  git_blob_sha: 557cf26ac1a74ad576d0e53df05f92007de2552d
+  sha256: 31b906c2de1c33e90d17d30574f8c103bd898bb379f537d9f6444e3677a337d4
+  drive_id: 1KIX6EiVqQ1Y1Uhfl1eT31bztuF1FSOLg
+  summary: Skupinový portrét s nápisem k 20letému jubileu II. odboru Slezské Matice osvěty lidové v Rychvaldě a `1910–1930`; osoby a přesný kontext nejsou určeny.
+  capture_metadata: {exif_present: true, make: Canon, datetime: '2012:04:23 10:06:03', datetime_original: null, gps_present: false}
+  related_evidence: {source_id: urbanek-unused-book-calendar-photographs-023, relationship: strong_correspondence_not_binary_identity}
+  uncertainty_ids: [URB-U-0087]

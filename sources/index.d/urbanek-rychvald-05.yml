@@ -1,0 +1,181 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-021
+  title: Rychvald2009 005.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Rychvald2009 005.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Rychvald2009 005.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 670913
+  git_blob_sha: 69ddcf21d94f5f00021b94802a4666bfc52a1ce8
+  sha256: 9adfbc7c985b2010e35905ad0700b8b41fa83d543a4543c960bd4c0671c7137d
+  drive_id: 1IbMi7ARZIKfeDez8frzB-qizRPbhZq8h
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - modern_building_exterior
+  - landscaped_greenery
+  - unidentified_institution_or_function
+  summary: Barevná fotografie moderní světlé budovy se vstupem pod širokou plochou stříškou, částečně zakryté vzrostlou zelení. Na snímku není
+    bezpečně čitelný název ani jiné označení, které by dovolovalo z obrazu samotného určit přesnou instituci nebo lokalitu.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-01 09:17:26'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-022
+  title: Rychvald2009 008.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Rychvald2009 008.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Rychvald2009 008.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 664236
+  git_blob_sha: 2b9b352172e24b1077ac04b13531d18b3c6d337a
+  sha256: 7c4be6f1f2a21092af9e89da3aed48e7f154c0e850b38f7609805af6fa45fcb8
+  drive_id: 13Gc-GQ_axclHhH6wcsu380G4bz8PRKVq
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1360
+    height_px: 2048
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - small_sacral_structure
+  - cross_on_gable
+  - mature_tree
+  - unidentified_structure
+  summary: Barevná fotografie malé červené dřevěné sakrálně působící stavby s křížem na štítu a obloukovým nadsvětlíkem nad dveřmi, stojící vedle
+    mohutného stromu. Přesná identita, zasvěcení, datace a lokalita stavby nejsou ze snímku samostatně určeny.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-01 09:18:39'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-023
+  title: Zp0707 090.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Zp0707 090.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Zp0707 090.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 1944882
+  git_blob_sha: 1e222adba606a23d646fb1b6100d50af2fcfb7d7
+  sha256: b3c05eefd89ed19677f65078228cc522c425bba02bca250adafc16766af99175
+  drive_id: 1kzmjlbB6rnhZaCAubuz2OAzrc5w51oLp
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2816
+    height_px: 2112
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - multi_storey_building_exterior
+  - balconies
+  - red_tile_roof
+  - unidentified_building_function
+  summary: Barevná fotografie rozsáhlejší vícepatrové světlé budovy s červenou taškovou střechou, vikýři a řadou balkonů. Před budovou je travnatá
+    plocha, komunikace, strom a několik automobilů. Z obrazu není bezpečně určena funkce ani přesná identita budovy.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2007-06-11 15:18:10'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-024
+  title: Zp1109 005.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Zp1109 005.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Zp1109 005.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 739104
+  git_blob_sha: aae14e690663756d951ad6420b26e46878d30a5b
+  sha256: 89e5c5c1a4ceb4c56d15d090d1721877831173fdffda96b639ef68664d257721
+  drive_id: 1SMFfJCWIRBlVllbUWcXigIqAHEw9zV22
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - sports_ground
+  - running_track
+  - football_goal
+  - fenced_multiuse_court
+  - floodlights
+  summary: Barevná fotografie sportovního areálu s oválnou běžeckou dráhou, travnatou plochou, fotbalovou brankou, osvětlením a oploceným víceúčelovým
+    hřištěm v popředí. Přesný název a lokalita areálu nejsou na snímku čitelně označeny.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-23 15:20:20'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-025
+  title: Zp1109 082.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Zp1109 082.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Zp1109 082.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 689838
+  git_blob_sha: 27b096a2477b70616bfff736e2ef1776d78591f3
+  sha256: 3fc10cbb970f347b78b1c595abba901bff795c051c80b70ee45ea522e9c4c996
+  drive_id: 12ekIx_qH4SQIFHtZhe0kCHqGUjCX6gOu
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2048
+    height_px: 1360
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - building_exterior
+  - accessible_ramp
+  - fenced_playground
+  - people_present_not_identified
+  - unidentified_institution_or_function
+  summary: Barevná fotografie oranžovo-žluté budovy s centrálním vstupem, rampou a oploceným venkovním prostorem s dětskými herními prvky. Na
+    schodišti a v areálu jsou osoby; jejich identita se neurčuje. Funkce a přesný název budovy nejsou z obrazu samotného bezpečně doloženy.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-26 15:38:27'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082

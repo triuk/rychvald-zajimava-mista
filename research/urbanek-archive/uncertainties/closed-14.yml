@@ -1,0 +1,18 @@
+schema_version: 1
+scope: closed_item_0023
+items:
+  - id: URB-U-0023
+    status: not_actionable
+    priority: low
+    collection: Články z Českého slova
+    type: incidental_surrounding_content
+    source_items: [urbanek-ceske-slovo-019-b]
+    question: "Ke kterému článku patří zakončení zachované pouze jako …cích. -bi- na horním okraji 18.jpg?"
+    resolution: >-
+      Uživatel potvrdil, že horní proužek je pouze spodní okraj předchozího článku
+      zachycený na fotografii navíc. Není součástí cílového výstřižku ani samostatným
+      předmětem zpracování a nemá se dále identifikovat nebo přepisovat.
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-019-b-document-text.md
+    resolved_at: 2026-07-22
+    resolved_by: user_scope_clarification
+    confidence: verified

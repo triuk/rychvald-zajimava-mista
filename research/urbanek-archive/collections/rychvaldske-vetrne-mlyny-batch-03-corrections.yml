@@ -1,0 +1,18 @@
+schema_version: 1
+collection_id: urbanek-mlyny
+batch_id: millstones-and-house-339
+corrections:
+  - source_item: urbanek-mlyny-039
+    field: collection_relevance.status
+    previous: probable_misfiled_or_reference_copy
+    corrected: misfiled_exact_duplicate
+    reason: >-
+      Uživatel potvrdil, že obraz Kakalova mlýna a mlýnek za domem č. 339
+      zachycují různé objekty a soubor ve složce č.p. 339 je chybně zařazený.
+    evidence: research/urbanek-archive/verifications/urb-u-0011-misfiled-kakal-copy.md
+  - source_item: urbanek-mlyny-039
+    field: collection_relevance.note
+    corrected: >-
+      Chybně zařazená přesná kopie obrazu Kakalova mlýna. Nemá věcnou
+      souvislost s mlýnkem za domem č. 339; původní archivní cesta se zachovává.
+    evidence: research/urbanek-archive/verifications/urb-u-0011-misfiled-kakal-copy.md

@@ -1,0 +1,227 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: calendar-2015-september-october-november-december-and-closing-40
+status: completed_first_visual_pass
+git_attachment: finalized
+item_count: 5
+source_scope: 10 Kalendář 2015 / archivní soubory 11 až 15
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Položky 196 až 200 uzavírají výroční kalendář 2015: měsíce září až prosinec a
+    závěrečnou textovou stranu. Měsíční strany znovu používají dříve evidované
+    fotografie nástěnných maleb, interiéru, okupačně změněného průčelí, koncertů a
+    duchovních. Některé vložené snímky nemají bezpečně přiřazenou samostatnou položku.
+    Závěrečná strana výslovně děkuje Jaromíru Urbánkovi, obsahuje podpis čitelný jako
+    Jana Šilerová a údaj „zpracováno: fa. Grafik Aja“. Tyto údaje částečně zpřesňují
+    provenienci kalendáře, ale samy neurčují vydavatele, tiskárnu, právní subjekt,
+    úplné autorství ani držitele práv.
+  basis:
+  - full_page_visual_review
+  - enlarged_text_review
+  - cross_collection_image_comparison
+  - embedded_metadata_inspection
+  - exact_git_blob_verification
+  - binary_duplicate_screening
+  related_open_items:
+  - URB-U-0043
+  - URB-U-0044
+  - URB-U-0046
+  - URB-U-0053
+  - URB-U-0058
+  - URB-U-0061
+  - URB-U-0062
+  - URB-U-0067
+  - URB-U-0068
+  - URB-U-0073
+items:
+- id: urbanek-ccs-196
+  archival_filename: 11.jpg
+  dimensions_px: [2385, 3354]
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_september_page_wall_murals
+  description: >-
+    Zářijová strana se dvěma reprodukcemi historických nástěnných maleb a novodobým
+    barevným pohledem na čelní stěnu s obrazy křtu Ježíše a zjevení vzkříšeného
+    Krista. Popisky připisují dvě starší malby akademickému malíři Hanusovi roku 1932
+    a obrazy na čelní stěně akademickému malíři Obšilovi roku 1957.
+  verified_from_page:
+  - month_September_2015
+  - captions_Upaleni_Mistra_Jana_Husa_1415_and_Cyril_a_Metodej_u_knizete_Rostislava_863
+  - captions_Jezisuv_krest_v_Jordane_and_Zjeveni_vzkriseneho_Krista
+  - printed_claim_Hanus_1932
+  - printed_claim_Obsil_1957
+  reused_image_relations:
+  - relation: visually_reuses_or_crops
+    source_items: [urbanek-ccs-017, urbanek-ccs-016, urbanek-ccs-030]
+    note: Horní, prostřední a dolní obraz odpovídají dříve evidovaným malbám a novodobému interiéru.
+  unverified:
+  - independent_confirmation_of_1932_and_1957
+  - full_identity_training_and_authorship_of_Hanus_and_Obsil
+  - exact_technique_commission_and_conservation_history
+  - embedded_photo_authors_and_editing_history
+  - historical_accuracy_of_calendar_captions
+  metadata:
+    artist: Corel Corporation
+    xp_author: Corel Corporation
+    embedded_date: absent
+    interpretation: >-
+      Řetězec Corel Corporation je vložené technické metadata; nepotvrzuje osobní
+      autorství ani vydavatelskou odpovědnost.
+  uncertainty_ids: [URB-U-0073, URB-U-0043, URB-U-0053]
+- id: urbanek-ccs-197
+  archival_filename: 12.jpg
+  dimensions_px: [2385, 3354]
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_october_page_occupation_and_reconsecration_claims
+  description: >-
+    Říjnová strana s historickým exteriérem věže bez viditelného hesla a kalicha a
+    s interiérovým oltářem se sochou Panny Marie. Text tvrdí odstranění hesla
+    „Pravda vítězí“ a symbolického kalicha po okupaci roku 1938 a neoprávněné
+    přesvěcení Husova sboru na římskokatolický v srpnu 1939.
+  verified_from_page:
+  - month_October_2015
+  - printed_claim_removal_after_occupation_1938
+  - printed_phrase_Pravda_vitezi
+  - printed_claim_reconsecration_August_1939
+  - church_tower_without_clearly_visible_motto_or_chalice
+  - altar_with_Marian_statue
+  reused_image_relations:
+  - relation: visually_reuses
+    source_items: [urbanek-ccs-018]
+    note: Horní exteriér odpovídá dříve evidované fotografii průčelí bez čitelných symbolů.
+  - relation: additional_embedded_photo_unmapped
+    note: Spodní oltářní fotografie nebyla mezi samostatnými položkami bezpečně přiřazena.
+  unverified:
+  - independent_confirmation_of_occupation_actor_and_1938
+  - removal_date_and_original_symbol_configuration
+  - independent_confirmation_of_August_1939_reconsecration
+  - legal_and_denominational_character_of_claimed_reconsecration
+  - altar_location_date_and_provenance
+  - embedded_photo_authors_and_editing_history
+  metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+    interpretation: Metadatové jméno samo nepotvrzuje identitu ani autorskou roli.
+  uncertainty_ids: [URB-U-0073, URB-U-0044]
+- id: urbanek-ccs-198
+  archival_filename: 13.jpg
+  dimensions_px: [2385, 3354]
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_november_page_concerts_music_school_and_organ
+  description: >-
+    Listopadová strana se smíšeným sborem, dětským smyčcovým souborem a detailním
+    záběrem ženy u třímanuálového varhanního hracího stolu. Popisky zmiňují
+    Svatováclavský festival, Rychvaldské kulturní jaro, adventní koncert dětí místní
+    základní umělecké školy a třímanuálové varhany z roku 1946.
+  verified_from_page:
+  - month_November_2015
+  - printed_claim_Svatovaclavsky_festival_and_Rychvaldske_kulturni_jaro
+  - printed_claim_advent_concert_local_art_school
+  - printed_claim_three_manual_organ_from_1946
+  - mixed_choir_child_string_ensemble_and_female_organist
+  reused_image_relations:
+  - relation: visually_reuses
+    source_items: [urbanek-ccs-057, urbanek-ccs-058]
+    note: Horní a prostřední fotografie odpovídají dříve evidovaným koncertním snímkům.
+  - relation: additional_embedded_photo_unmapped
+    note: Dolní detail varhan a varhanice není shodný s urbanek-ccs-044 a nebyl bezpečně přiřazen.
+  unverified:
+  - exact_event_names_dates_programs_and_performers
+  - school_choir_conductor_and_organist_identities
+  - advent_context_in_light_of_existing_metadata_conflict
+  - independent_confirmation_of_organ_year_and_three_manual_configuration
+  - embedded_photo_authors_and_editing_history
+  metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+    interpretation: Metadatové jméno samo nepotvrzuje identitu ani autorskou roli.
+  uncertainty_ids: [URB-U-0073, URB-U-0061, URB-U-0046]
+- id: urbanek-ccs-199
+  archival_filename: 14.jpg
+  dimensions_px: [2385, 3354]
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_december_page_clergy_portraits
+  description: >-
+    Prosincová strana se čtyřmi portréty a popisky označujícími Karla Vodičku jako
+    prvního faráře, Gabriela Chrobáčka jako faráře od roku 1945 a biskupa od roku
+    1954, Leonarda Bogumského jako třetího faráře a Janu Šilerovou jako farářku a od
+    roku 1999 biskupku olomoucké diecéze.
+  verified_from_page:
+  - month_December_2015
+  - printed_names_Karel_Vodicka_Gabriel_Chrobacek_Leonard_Bogumsky_Jana_Silerova
+  - printed_claims_first_and_third_pastor
+  - printed_years_1945_1954_1999
+  - four_clergy_portraits
+  reused_image_relations:
+  - relation: visually_reuses
+    source_items: [urbanek-ccs-060, urbanek-ccs-061, urbanek-ccs-062, urbanek-ccs-063]
+    note: Čtyři portréty odpovídají dříve evidovaným samostatným položkám.
+  unverified:
+  - independent_confirmation_of_person_identifications
+  - exact_titles_tenures_offices_and_diocese
+  - independent_confirmation_of_1945_1954_1999
+  - portrait_dates_photographers_and_original_sources
+  - caption_authorship_and_fact_checking
+  metadata:
+    artist: Pavla
+    xp_author: Pavla
+    embedded_date: absent
+    interpretation: Metadatové jméno samo nepotvrzuje identitu ani autorskou roli.
+  uncertainty_ids: [URB-U-0073, URB-U-0067, URB-U-0062, URB-U-0068, URB-U-0058]
+- id: urbanek-ccs-200
+  archival_filename: 15.jpg
+  dimensions_px: [2385, 3354]
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_closing_text_and_partial_credits
+  description: >-
+    Závěrečná textová strana shrnuje tři připomínaná výročí roku 2015, vysvětluje
+    záměr zveřejnit historická fakta a fotografie, vyzývá čtenáře k určování osob a
+    rodopisnému pátrání, děkuje Jaromíru Urbánkovi a dalším spolupracovníkům a
+    obsahuje podpis čitelný jako Jana Šilerová. Dole je údaj „zpracováno:
+    fa. Grafik Aja“.
+  verified_from_page:
+  - closing_heading_Slovo_na_zaver_roku_i_kalendare
+  - printed_claim_600_years_since_Jan_Hus_execution
+  - printed_claim_95_years_CCS_in_Rychvald
+  - printed_claim_90_years_Hus_congregation_building
+  - acknowledgement_Jaromir_Urbanek_and_other_collaborators
+  - handwritten_signature_reading_Jana_Silerova
+  - processing_credit_fa_Grafik_Aja
+  - statement_some_photographs_published_for_first_time
+  - statement_some_photo_years_unknown
+  attribution_assessment:
+    status: partial_credit_found
+    conclusion: >-
+      Strana dokládá jméno podepsané osoby, poděkování Jaromíru Urbánkovi a
+      produkční údaj Grafik Aja. Neobsahuje jednoznačnou plnou tiráž a nerozlišuje
+      přesně autora textu, editora, grafika, vydavatele, tiskárnu a držitele práv.
+  unverified:
+  - legal_identity_and_role_of_Grafik_Aja
+  - whether_Jana_Silerova_authored_or_edited_entire_calendar
+  - publisher_printer_print_run_and_distribution
+  - bibliography_and_source_list
+  - rights_for_text_design_and_photographs
+  - independent_confirmation_of_anniversary_claims
+  metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+    interpretation: Metadatové jméno samo nepotvrzuje identitu ani autorskou roli.
+  uncertainty_ids: [URB-U-0073]
+duplicate_review:
+  status: no_binary_duplicates_within_batch
+  git_blob_shas:
+  - 659c0c2c81af84a686a3a6b9e80a08613f20efed
+  - 266f9de709152a903c402a488cad1914890256a9
+  - a1e38f036d3d34481631cfce3511bb023c234585
+  - 1e7b2b3ae9ebd3b495fcb0742ade4bc5552d4b76
+  - 4e8f8621bbd9d0335241c5c3172cdfa669178560
+next_action: >-
+  Auditovat technický soubor 10 Kalendář 2015/Thumbs.db, porovnat jeho náhledy s
+  patnácti kalendářovými JPEGy a ověřit, zda cache neodkazuje na chybějící samostatné
+  obrazové podklady.

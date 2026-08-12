@@ -1,0 +1,24 @@
+schema_version: 1
+scope: open_item_0037
+items:
+  - id: URB-U-0037
+    status: open
+    priority: low
+    collection: Rychvaldské větrné mlýny
+    type: archival_context_identification
+    related_resolved_items: [URB-U-0009]
+    source_items: [urbanek-mlyny-018]
+    question: "Proč je fotografie interiéru kostela sv. Anny uložena ve složce Mlýn u Kakalů a co znamená číslo 304 v názvu 304interier.JPG?"
+    known_fact: "Fotografie byla v URB-U-0009 ověřena jako interiér kostela svaté Anny v Rychvaldě."
+    evidence: research/urbanek-archive/verifications/urb-u-0009-kostel-svate-anny.md
+    unresolved_attributes: [folder_relation, meaning_of_304, possible_house_or_person_reference]
+    next_action: >-
+      Po zpracování dalších archivních kolekcí prohledat popisky, adresáře, mapy,
+      sčítací operáty, rodinné materiály a další fotografie na spojení čísel 304,
+      rodiny Kakalů a kostela sv. Anny. Originální soubor nepřesouvat ani nepřejmenovávat.
+      Položku neuzavírat pouze negativním výsledkem dílčího hledání.
+    reopen_triggers:
+      - new_archive_batch_processed
+      - new_caption_or_filename_context_available
+      - house_number_304_reference_found
+      - Kakal_family_church_relation_found

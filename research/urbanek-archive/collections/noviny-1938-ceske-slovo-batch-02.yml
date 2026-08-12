@@ -1,0 +1,254 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+batch_number: 2
+batch_id: tesin-cession-polish-claims-plebiscite-frystat-protest-and-occupation-02
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+  drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+  items:
+  - P1020278.JPG
+  - P1020279.JPG
+  - P1020280.JPG
+  - P1020281.JPG
+  - P1020283.JPG
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification and transcription of only clearly visible headings and datelines.
+- EXIF inspection; the 2013 camera timestamps are treated as reproduction-capture metadata, not as dates of the printed
+  newspaper content.
+- Exact binary duplicate check within the batch and visual-overlap check against the preceding batch.
+batch_findings:
+  general: Pět fotografií článkových výřezů věnovaných odstoupení a obsazování Těšínska, polským nárokům, plebiscitu
+    a protestům ve Fryštátsku.
+  issue_identification: Na žádném z pěti snímků není úplný masthead s datem, ročníkem a číslem vydání. Viditelné datace
+    3. a 4. října jsou datace jednotlivých zpráv a nejsou automaticky převáděny na datum vydání.
+  capture_session: P1020278.JPG až P1020281.JPG mají EXIF DateTime 2013-02-15 mezi 11:40:06 a 11:42:08. P1020283.JPG
+    má stejné datum a zařízení, ale čas 15:51:36; nejde tedy o souvislou dvouminutovou sérii.
+  exact_binary_duplicates_within_batch: 0
+  visual_overlap: P1020278.JPG zachycuje v těsnějším výřezu stejnou část strany jako položka 005 (P1020277.JPG). Soubory
+    mají rozdílné binární hashe a zůstávají samostatnými položkami.
+  filename_sequence_note: P1020282.JPG není v aktuálním Git ani Drive snapshotu. Časový odstup před P1020283.JPG je evidován,
+    ale bez technického důkazu se nevykládá jako chybějící archivní originál.
+items:
+- id: urbanek-noviny-1938-ceske-slovo-006
+  filename: P1020278.JPG
+  git_blob_sha: 703f7a6533bb5a3183ee6b03ec75545055348f0d
+  sha256: 8835361cea36473a478e90e01cf507c87a4e9b1d00d29fc9b4134f047316caf8
+  file_size_bytes: 1998848
+  drive_id: 1qFDzteXYOMvCwixbxX5Q3APLNsgaWNWw
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:40:06'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Těsněji oříznutá fotografie stejné části novinové strany, která je širším záběrem zachycena v P1020277.JPG.
+    Viditelné jsou články „Československo odstoupí Polsku část Těšínska“ a „První lord admirality proti Chamberlainovi“;
+    soubory mají odlišné rámování i binární hashe.
+  visible_text:
+  - Československo odstoupí Polsku část Těšínska
+  - Jiné rozhodnutí vlády by vedlo k těžkým komplikacím
+  - Úder politické bomby v Londýně
+  - První lord admirality proti Chamberlainovi
+  classification:
+  - newspaper_page_photograph
+  - tesin_cession_article
+  - british_admiralty_article
+  - alternate_page_capture
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-007
+  filename: P1020279.JPG
+  git_blob_sha: a7f7d7e7e1228e53bac8f68d434dd7653e84debd
+  sha256: e2367636666343292db47bca9e8617969c5bc14c6e624de44248d58df0729fed
+  file_size_bytes: 1990066
+  drive_id: 1UfVhuWE3HaM1-9SSMFLq8XGsTr6M-IVL
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:41:10'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie části novinové strany s hlavním článkem „Má Polsko nároky na české obce?“ a dalšími
+    texty „Slovenský ministr Černák hrozí demisí“, „Mnoho otázek před berlínskou komisí“ a „Radiopřístroje budou vráceny“.
+    V článcích jsou viditelné datace Praha, Bratislava a Londýn 3. října, úplné údaje vydání však ve výřezu nejsou.
+  visible_text:
+  - Má Polsko nároky na české obce?
+  - Mnichovská konference a chybný polský postup na českém Těšínsku
+  - Slovenský ministr Černák hrozí demisí
+  - Mnoho otázek před berlínskou komisí
+  - Radiopřístroje budou vráceny
+  classification:
+  - newspaper_page_photograph
+  - tesin_border_article
+  - slovak_political_article
+  - berlin_commission_article
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-008
+  filename: P1020280.JPG
+  git_blob_sha: a4ca2153eaae09957270fb251f2d495b2004e24a
+  sha256: 40a8cf2c0aaace5f5be9b9a81cae334998cc95fc457971cb9448d63c89777c4b
+  file_size_bytes: 2221353
+  drive_id: 18p71a3tf8sS3zVsou3WP5JxA2wUHh8Lx
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:41:55'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie části novinové strany s články „Jak bude proveden plebiscit“, „České Fryštátsko protestuje
+    proti připojení k Polsku“ a „Horníkům a koksárům ostravsko-karvinského revíru“. Podtitulek prostředního článku uvádí
+    manifestaci za účasti 20.000 občanů v Orlové.
+  visible_text:
+  - Jak bude proveden plebiscit
+  - Plebiscit do konce listopadu - opce do půl roku
+  - České Fryštátsko protestuje proti připojení k Polsku
+  - Obrovská manifestace za účasti 20.000 občanů v Orlové
+  - Horníkům a koksárům ostravsko-karvinského revíru
+  classification:
+  - newspaper_page_photograph
+  - plebiscite_article
+  - frystat_region_protest_article
+  - mining_district_appeal
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-009
+  filename: P1020281.JPG
+  git_blob_sha: 1e43e77ef1ea288368a1a93f3333d85e752fa2e4
+  sha256: 5b058432613f77a3ae55e353adde252d4f64ddc3663c2881b1cea1b032104283
+  file_size_bytes: 2221909
+  drive_id: 1r1hLFe2pWiobkP3kWCEZ7v1AgKAuC3jw
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 11:42:08'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Detail spodní části novinové strany s článkem „Situace na polsko-čs. hranici na Těšínsku“ a podtitulem
+    „Jak velké území dosud obsadilo polské vojsko“. Pod okrajem listu jsou viditelné další volně položené tiskoviny;
+    jejich obsah není samostatně indexován.
+  visible_text:
+  - Situace na polsko-čs. hranici na Těšínsku
+  - Jak velké území dosud obsadilo polské vojsko
+  classification:
+  - newspaper_page_photograph
+  - tesin_border_situation_article
+  - loose_newspaper_stack_visible
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-010
+  filename: P1020283.JPG
+  git_blob_sha: 9cbca737cd6bea8d5fe983054571aa8e016d557d
+  sha256: 8b4985c940ea277549a0b5c70415d7a04beb2a3f8f31563f1f2577177b9bb29a
+  file_size_bytes: 3401373
+  drive_id: 1xCujqXhdgwDuE-GRwCqF26KS-XcSym9t
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:51:36'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie části novinové strany s článkem „Poláci pokračují v obsazování těšínského území“ a podtitulem
+    „Včera jsme odevzdali Polákům Třinecko a Jablunkovsko“. Dále jsou viditelné nadpisy „Francie zase ve finančních nesnázích“
+    a „Malhomme se vrátil na Těšínsko“. V textech je datace 4. října, úplné číslo vydání ale výřez neobsahuje.
+  visible_text:
+  - Poláci pokračují v obsazování těšínského území
+  - Včera jsme odevzdali Polákům Třinecko a Jablunkovsko
+  - Francie zase ve finančních nesnázích
+  - Malhomme se vrátil na Těšínsko
+  classification:
+  - newspaper_page_photograph
+  - tesin_occupation_article
+  - trinec_and_jablunkov_article
+  - malhomme_article
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+related_uncertainties:
+- URB-U-0081
+next_batch:
+  number: 3
+  filenames:
+  - P1020284.JPG
+  - P1020285.JPG
+  - P1020286.JPG
+  - P1020287.JPG
+  - P1020288.JPG

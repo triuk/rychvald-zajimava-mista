@@ -1,0 +1,34 @@
+schema_version: 1
+scope: closed_item_0004
+items:
+  - id: URB-U-0004
+    status: resolved
+    priority: medium
+    collection: Rychvaldské větrné mlýny
+    type: object_location_identification
+    source_items: [urbanek-mlyny-001, urbanek-mlyny-002, urbanek-mlyny-008]
+    question: "Jde o stejný objekt a odpovídá mu adresa Potoční 564?"
+    evidence: research/urbanek-archive/collections/rychvaldske-vetrne-mlyny.yml
+    resolution: >-
+      Všechny tři archivní fotografie zachycují stejný větrný mlýnek s turbínou.
+      Databáze Povětrník jej eviduje jako záznam 176, katalogové číslo mlýnek 49,
+      na adrese Potoční 564 v Rychvaldu a uvádí objektové souřadnice
+      49.8470979, 18.3603469. Základní databázová fotografie je oříznutou verzí
+      archivního souboru Potoční 564.jpg, takže identita i lokalizace jsou ověřeny.
+    evidence_added: >-
+      Uživatelské vizuální porovnání tří archivních fotografií; přesná obrazová shoda
+      s databázovým záznamem Povětrník 176; technický a lokalizační popis v
+      research/urbanek-archive/verifications/urb-u-0004-potocni-564.md;
+      http://www.povetrnik.cz/vetrne-mlyny/detail/176.
+    resolved_at: 2026-07-21
+    resolved_by: user_visual_confirmation_and_povetrnik_database_verification
+    confidence: verified
+    verified_location:
+      address: "Potoční 564, 735 32 Rychvald"
+      latitude: 49.8470979
+      longitude: 18.3603469
+    external_catalog:
+      database: Povětrník
+      record_id: 176
+      catalog_number: "mlýnek 49"
+      url: http://www.povetrnik.cz/vetrne-mlyny/detail/176

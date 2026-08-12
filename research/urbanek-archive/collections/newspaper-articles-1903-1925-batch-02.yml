@@ -1,0 +1,106 @@
+schema_version: 1
+collection_id: urbanek-newspaper-articles-1903-1925
+collection_title: novinové články 1903 - 1925
+batch_number: 2
+batch_id: rychvald-schooling-minority-law-and-municipal-election-clippings-02
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925
+  drive_folder_id: 1OOe829hkaoHoNRs0HyajQROhknLD_aeg
+  items: [img979.jpg, img983.jpg, img984.jpg, img985.jpg, img987.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Fresh Drive filename search followed by raw-file download for each item.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository path.
+- SHA-256, dimensions, color mode, EXIF and GPS-field inspection.
+- First visual/text classification of photographed newspaper material; only directly visible masthead data, headings and wording are recorded.
+- Printed historical assertions are preserved as claims of the printed source and are not promoted to independently verified facts during phase-1 indexing.
+- Relationships between separate images are recorded only where direct printed-text overlap demonstrates continuity.
+- Exact binary duplicate check within the batch and repository search for matching Git blob SHA in indexed source records.
+batch_findings:
+  general: Pět fotografických reprodukcí historických novinových výřezů vztahujících se k Rychvaldu, školství a obecním volbám; dva soubory tvoří přímo doloženou textovou sekvenci.
+  exact_binary_duplicates_within_batch: 0
+  matching_prior_index_blob_sha_found: 0
+  exif_scope: Žádný z pěti JPEGů neobsahuje EXIF ani GPS údaje.
+  relationship_scope: img984.jpg přímo pokračuje v textu viditelném na konci img983.jpg; návaznost je doložena překrývající se větou na hranici obou výřezů. U ostatních souborů není vztah k sousedním archivním číslům odvozován z názvu souboru.
+  visible_text_scope: img979.jpg obsahuje `Číslo 39.`, `Dopisy.` a `Rychvald.`; datum vydání z tohoto výřezu není bezpečně doloženo. img983.jpg obsahuje `Politická hlídka.` a `Zákon o menšinovém školství.`. img985.jpg obsahuje masthead `SLEZAN`, `Ročník II.`, `V Pol. Ostravě, dne 8. března 1912.` a záhlaví `Obecní volby v Rychvaldě.`. img987.jpg obsahuje masthead `OBRANA SLEZSKA`, `V Orlové, 29. března 1912.`, `III. ročník.` a záhlaví `Haličské volby v Rychvaldě.`.
+items:
+- id: urbanek-newspaper-articles-1903-1925-006
+  filename: img979.jpg
+  git_blob_sha: a91ce2e20bc90172e4afa7adbeb21a642e0b656a
+  sha256: 5925421755debe2febc61a3c1178d4363dd64f57c368be8bab19013724c25abd
+  file_size_bytes: 987871
+  drive_id: 1DixgIemTg8gVkep9skpTmdd0QIMpTjK_
+  dimensions_px: [2597, 1853]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce dvou navazujících novinových sloupců. Vpravo nahoře je bezpečně čitelné `Číslo 39.`; vlevo jsou záhlaví `Dopisy.` a `Rychvald.`. Text se týká zápisu do škol a uvádí počty žáků a školní lokality v Rychvaldě. Datum vydání není v tomto výřezu bezpečně doloženo.
+  classification: [newspaper_reproduction, issue_number_39_visible, correspondence_section, rychvald_local_report, school_enrolment_topic, missing_visible_issue_date]
+  visible_text: {safe_transcription: ['Číslo 39.', 'Dopisy.', 'Rychvald.'], scope_note: 'Tištěný obsah reprodukovaného periodika; datum vydání se z tohoto výřezu nedoplňuje.'}
+  unverified: [periodical_title_if_masthead_is_only_partially_visible, issue_date, exact_page_number_and_article_extent, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-007
+  filename: img983.jpg
+  git_blob_sha: e165e16d10fd3c5c681a7c42069956eb151973b4
+  sha256: 9c7c463bc883ffdb48249fa5df15157653302c2f49acdc671ca74a2cfc5121e2
+  file_size_bytes: 697097
+  drive_id: 1wAIB86WkqF2UZRRjJ7VJdVtN_rUCxz8s
+  dimensions_px: [1012, 2305]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce novinového sloupce se záhlavími `Politická hlídka.` a `Zákon o menšinovém školství.`. Text přímo zmiňuje Rychvald a spor kolem stavby třetí české školy. Konec výřezu přechází do textu, který pokračuje na img984.jpg.
+  classification: [newspaper_reproduction, political_column, minority_schooling_article, readable_text_rychvald, direct_continuation_to_img984]
+  visible_text: {safe_transcription: ['Politická hlídka.', 'Zákon o menšinovém školství.'], scope_note: 'Tištěná záhlaví článku; skutková tvrzení textu nejsou v této fázi nezávisle ověřována.'}
+  relationship: {direct_text_continuation_to: urbanek-newspaper-articles-1903-1925-008, evidence: 'Konec textu na img983.jpg se překrývá se začátkem img984.jpg.'}
+  unverified: [periodical_issue_date_and_page, exact_article_beginning_and_end, original_copy_provenance, article_authorship_beyond_visible_print, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-008
+  filename: img984.jpg
+  git_blob_sha: 93807e597bab4ebb15b679334edf835261fd4fc0
+  sha256: 51d9b15a1756e200d434722f48d3c48e3a0295604307bb65dff20f7f803dba1d
+  file_size_bytes: 499028
+  drive_id: 1JoAPbk-lwrahE2xfbykLaQJ4d1CBjVJy
+  dimensions_px: [993, 1602]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce pokračování novinového sloupce bez mastheadu. Začátek textu se přímo překrývá s koncem img983.jpg a dále pokračuje v argumentaci o menšinovém školství; text zmiňuje Rychvald.
+  classification: [newspaper_reproduction, article_continuation, direct_continuation_from_img983, minority_schooling_topic, readable_text_rychvald]
+  relationship: {direct_text_continuation_from: urbanek-newspaper-articles-1903-1925-007, evidence: 'Začátek textu na img984.jpg se překrývá s koncem img983.jpg.'}
+  unverified: [periodical_issue_date_and_page, exact_article_end, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-009
+  filename: img985.jpg
+  git_blob_sha: 488a2d392fd004c8fd371eee9b87a0fbeadae4d3
+  sha256: f794560ce3642863af2bbae83afb98bd96f5b86084d38d46cdac4a3a26e864c9
+  file_size_bytes: 2578447
+  drive_id: 1d_ZQhbf79Whl-TbfIYyPUmUKmPEomTMM
+  dimensions_px: [2514, 2814]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce novinové strany s výrazným mastheadem `SLEZAN`. Bezpečně čitelné jsou `Ročník II.`, `V Pol. Ostravě, dne 8. března 1912.` a záhlaví článku `Obecní volby v Rychvaldě.`. Článek obsahuje tištěné údaje o volebních seznamech a obecních volbách.
+  classification: [newspaper_reproduction, slezan, visible_date_1912_03_08, year_II, municipal_election_article, rychvald]
+  visible_text: {safe_transcription: ['SLEZAN', 'Ročník II.', 'V Pol. Ostravě, dne 8. března 1912.', 'Obecní volby v Rychvaldě.'], scope_note: 'Tištěné bibliografické a článkové údaje reprodukovaného periodika.'}
+  unverified: [issue_number_if_not_visible, exact_page_number_and_article_extent, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-010
+  filename: img987.jpg
+  git_blob_sha: caef8254b5b63b8e846cbb4677bfb568034ae137
+  sha256: 8843081bae33a2ea2dbd3020c3b553714eec02af9029d2471a2798cf2b1d3e61
+  file_size_bytes: 1224776
+  drive_id: 10oQBWIEVX9h4Mma-ZA9s9_rXBMCEUddV
+  dimensions_px: [3150, 1038]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce mastheadu `OBRANA SLEZSKA` a začátku článku. Bezpečně čitelné jsou `V Orlové, 29. března 1912.`, `III. ročník.` a záhlaví `Haličské volby v Rychvaldě.`. Číslo vydání není v tomto výřezu přepisováno, protože je částečně překryto spodním výřezem.
+  classification: [newspaper_reproduction, obrana_slezska, visible_date_1912_03_29, year_III, local_election_article, rychvald]
+  visible_text: {safe_transcription: ['OBRANA SLEZSKA', 'V Orlové, 29. března 1912.', 'III. ročník.', 'Haličské volby v Rychvaldě.'], scope_note: 'Číslo vydání není kvůli částečnému překrytí bezpečně přepisováno.'}
+  unverified: [issue_number, exact_page_number_and_article_extent, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive search and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, dimensions, color mode, EXIF absence and GPS absence
+related_uncertainties: [URB-U-0085]
+next_batch:
+  number: 3
+  filenames: [img989.jpg, img990.jpg, img991.jpg, img992.jpg, img993.jpg]

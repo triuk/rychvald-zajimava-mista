@@ -1,0 +1,231 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 6
+batch_id: collection-point-building-public-gatherings-and-stage-group-06
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items:
+  - img065.jpg
+  - img066.jpg
+  - img067.jpg
+  - img068.jpg
+  - img070.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection.
+- First visual classification without inferring exact locality, historical date, building identity, event identity, organizational
+  affiliation or person identity from appearance alone.
+- Safe transcription of clearly readable wording and cautious recording of partial signage; unreadable text is not reconstructed.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: 'Pět černobílých archivních obrazů: budova s nápisem „SBĚRNA“, další neidentifikovaná větší zděná budova, pouliční
+    průvod s vlajkami, veřejné shromáždění podél ulice s viditelnými symboly srpu a kladiva a skupinový snímek na jevišti
+    v kostýmech.'
+  exact_binary_duplicates_within_batch: 0
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani
+    způsob vzniku digitalizace.
+  visible_text_scope: Na img065.jpg je bezpečně čitelné „SBĚRNA“. Na img068.jpg je na směrové tabuli čitelné číslo „5“ a pouze
+    začátek názvu „OSTR…“; celý místní název není bezpečně rekonstruován.
+  symbol_scope: Na nejméně dvou vlajkách na img068.jpg jsou zřetelně viditelné symboly srpu a kladiva. Eviduje se pouze vizuálně
+    doložený symbol; z něj samotného se neurčuje přesný organizátor, příslušnost účastníků ani název události.
+  identity_scope: Nápis „SBĚRNA“ dokládá dobové označení funkce na img065.jpg, nikoli přesnou instituci nebo předmět sběru.
+    Události na img067.jpg a img068.jpg, jejich vzájemný vztah a skupina či inscenace na img070.jpg zůstávají bez dalšího
+    pramene neidentifikované.
+items:
+- id: urbanek-fotodokument-root-026
+  filename: img065.jpg
+  git_blob_sha: 22cd389fb1cf6170f9fc9958c746fd81c9c4409f
+  sha256: d2c209740965a5a1472320352526736d0e4346a75e2ce1c1ae9a5f6b450b51fa
+  file_size_bytes: 464029
+  drive_id: 13FzuG0Ts_RLqpEq7N2BseY9_bTD_GVUw
+  dimensions_px:
+  - 1584
+  - 1002
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý exteriér menší stavby napojené na větší dvoupodlažní budovu. U vstupu je bezpečně čitelný
+    nápis „SBĚRNA“; menší tabulka pod ním není dostatečně čitelná. Nápis dokládá dobové označení sběrny, ale přesná instituce,
+    předmět sběru, provozovatel, lokalita a datace nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - building_exterior
+  - collection_point_signage
+  - readable_sign_sberna
+  - unidentified_location
+  unverified:
+  - exact_location_and_building_identity
+  - exact_institution_collection_type_operator_and_ownership
+  - full_text_of_small_notice_below_sign
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-027
+  filename: img066.jpg
+  git_blob_sha: e31c70dbc20d8375f7a2317db197089271522605
+  sha256: 273b684c5f22ffe01a166db15342ca1f3b0e9a54fc076bb6c2bc7eaa7125e2f6
+  file_size_bytes: 584786
+  drive_id: 1dcyrcfohEp3tkjaPInYGF5VmMBWi2XhR
+  dimensions_px:
+  - 1584
+  - 1002
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý exteriér větší starší zděné budovy s podélnou řadou vysokých oken, schodišti ke vstupům a
+    výrazným štítem. Na fasádě je drobný znak či tabulka, ale bez bezpečně čitelného textu. Přesná identita, funkce, vlastnictví,
+    lokalita a datace nejsou určeny.
+  classification:
+  - monochrome_archival_image
+  - large_masonry_building_exterior
+  - multiple_tall_windows
+  - unreadable_facade_marker
+  - unidentified_building
+  - unidentified_location
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_operator_and_ownership
+  - facade_marker_or_plaque_content
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-028
+  filename: img067.jpg
+  git_blob_sha: 6051c6c5812fac52755b5a1d641c241fa4f3bab6
+  sha256: a9d336863a93dda48de95a5200c087d934be5d2e437f20de647f100753912bfb
+  file_size_bytes: 563233
+  drive_id: 1ufsk4bGSv8-eLVYlpRBE5omfB4ZLTyTw
+  dimensions_px:
+  - 2051
+  - 1487
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý záběr průvodu či organizovaného veřejného pochodu po silnici v obytné zástavbě. V čele a za
+    ním jde větší skupina osob s několika velkými vlajkami či prapory; vpravo u cesty stojí drobný pomníkový či sloupový objekt.
+    Přesná událost, organizace, osoby, lokalita a datace nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - public_procession_or_parade
+  - flags_and_banners
+  - people_in_street
+  - roadside_monument_or_column
+  - unidentified_event
+  - unidentified_people
+  - unidentified_location
+  unverified:
+  - exact_event_and_organizational_context
+  - identities_of_visible_people
+  - meaning_and_affiliation_of_flags
+  - exact_location_and_route
+  - identity_of_roadside_monument_or_column
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-029
+  filename: img068.jpg
+  git_blob_sha: a6c0ad9b1cd5103edd3088a11f409313745377cf
+  sha256: b914897faaf0de69b9b2277eb380e85c6b419aa27996c6bf9b4bdb33e35aa9fd
+  file_size_bytes: 438144
+  drive_id: 1xtouun3w8Te7owPWkKqZeuCDFKzX3LOu
+  dimensions_px:
+  - 2052
+  - 1506
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý pohled ulicí při veřejném shromáždění či očekávání průvodu. Po obou stranách komunikace stojí
+    početný dav; na budovách a podél ulice jsou vlajky, přičemž na nejméně dvou jsou zřetelně viditelné symboly srpu a kladiva.
+    Vpravo je směrová tabule s číslem „5“ a jen částečně čitelným místním názvem začínajícím „OSTR…“; celý název není bezpečně
+    přepsán. Přesná událost, politická či organizační příslušnost účastníků, lokalita a datace nejsou určeny.
+  classification:
+  - monochrome_archival_image
+  - public_street_gathering
+  - crowd
+  - flags
+  - visible_hammer_and_sickle_symbols
+  - partial_direction_sign
+  - unidentified_event
+  - unidentified_people
+  - unidentified_location
+  unverified:
+  - exact_event_and_organizational_context
+  - political_or_organizational_affiliation_of_participants
+  - identities_of_visible_people
+  - full_text_and_destination_of_partial_direction_sign
+  - relationship_to_img067_event
+  - exact_location
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-030
+  filename: img070.jpg
+  git_blob_sha: e64c9e16d28bcfd6a070a1603885cdcbfd83a53e
+  sha256: 0d6b904709f551e1a01a4ec408307bb2b7e823bf8a6dffb0c836bce0ec1374fa
+  file_size_bytes: 460151
+  drive_id: 11HbxWPsXeoPOUtbokCNPVxT4Duz2qTPg
+  dimensions_px:
+  - 1998
+  - 1355
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý skupinový snímek na jevišti. Část osob má divadelní či historizující kostýmy, část civilní
+    oděv; viditelné jsou také hudební nástroje. Přesná inscenace nebo událost, soubor, místo, datum a identity osob nejsou
+    z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - group_portrait
+  - stage
+  - theatrical_or_historical_costumes
+  - musical_instruments
+  - unidentified_performance_or_event
+  - unidentified_people
+  unverified:
+  - exact_performance_or_event_title_and_context
+  - theatre_or_ensemble_identity
+  - identities_of_visible_people
+  - exact_venue_and_location
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected

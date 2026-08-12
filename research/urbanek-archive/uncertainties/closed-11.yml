@@ -1,0 +1,19 @@
+schema_version: 1
+scope: closed_item_0020
+items:
+  - id: URB-U-0020
+    status: resolved
+    priority: medium
+    collection: Články z Českého slova
+    type: known_physical_lacuna
+    source_items: [urbanek-ceske-slovo-020]
+    question: "Jaký text nebo celá krátká zpráva chybí mezi zprávou o dr. Benetkovi a zprávou o footballových hřištích?"
+    resolution: >-
+      Uživatel rozhodl položku uzavřít jako známou, ale nepodstatnou fyzickou lakunu.
+      Mezi dvěma zachovanými zprávami je poškozený úsek předlohy, jehož znění ani
+      rozsah nelze ze snímku určit. Veškerý dochovaný čitelný text byl přepsán;
+      chybějící obsah se nedoplňuje odhadem a nebude dále veden jako otevřený úkol.
+    evidence: research/urbanek-archive/ocr/urbanek-ceske-slovo-020-document-text.md
+    resolved_at: 2026-07-22
+    resolved_by: user_scope_decision
+    confidence: verified_physical_lacuna

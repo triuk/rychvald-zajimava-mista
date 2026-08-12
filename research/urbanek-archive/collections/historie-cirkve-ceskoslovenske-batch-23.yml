@@ -1,0 +1,147 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-chapel-manager-service-old-and-new-bell-tower-23
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 5 Kaple CČS na Ostravici / archivní soubory 6, 7, 8, 8a a 8b
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka rozšiřuje slavnostní sérii o uvítání duchovního archivně označeného jako biskup
+    správcem Husitské kaple a o celkový záběr z bohoslužeb před otevřeným vstupem kaple.
+    Další tři snímky dokumentují starou dřevěnou zvonici se zavěšeným zvonem a novou
+    dřevěnou zvonici ze dvou úhlů. Archivní název urbanek-ccs-114 tvrdí, že stará zvonice
+    byla roku 2016 demontována a nahrazena novou. EXIF položek 114 a 115 uvádí pořízení
+    2. října 2016 v rozmezí 39 sekund, což podporuje, že nová konstrukce existovala
+    nejpozději tohoto dne, nikoli však přesné datum demontáže, stavby nebo předání.
+  basis:
+  - full_image_visual_review
+  - manual_scene_text_transcription
+  - architectural_cross_batch_comparison
+  - embedded_EXIF_review
+  - verified_repo_files
+items:
+- id: urbanek-ccs-111
+  archival_filename: 6.jpg
+  visual_type: historical_black_and_white_captioned_chapel_manager_bishop_welcome
+  description: >-
+    Tři dospělí muži stojí u vstupu nebo v interiéru stavby. Vlevo je muž v obleku a
+    brýlích, uprostřed k němu zády k fotoaparátu stojí muž v tmavém duchovním oděvu
+    s řetězem nebo insignií a vpravo další muž s brýlemi držící tmavou složku. Mezi
+    ústředními dvěma osobami je kytice. Ve spodní části je vložen psaný popisek.
+  subject_tags: [civilian_man, clergy, chain_or_insignia, bouquet, chapel_manager_claim, bishop_claim, welcome, embedded_caption]
+  identification:
+    status: partially_verified
+    archival_caption_claim: Uvítání br.biskupa správcem Husitské kaple
+    verified_from_image: [three_adult_men, central_male_clergy_in_dark_robe, chain_or_insignia, civilian_man_in_suit_and_glasses, third_man_with_folder, bouquet, caption_strip]
+    unverified: [all_person_identities, bishop_identity_and_office, chapel_manager_identity_and_role, exact_event, date, location, relationship_to_items_104_to_106_and_112]
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: transcribed
+      text: Uvítání br.biskupa správcem Husitské kaple
+      note: Ruční přepis čitelného vloženého popisku; jeho historická tvrzení vyžadují nezávislé ověření.
+  metadata: {embedded_date: absent}
+  uncertainty_ids: [URB-U-0070]
+- id: urbanek-ccs-112
+  archival_filename: 7.jpg
+  visual_type: historical_black_and_white_captioned_outdoor_chapel_service
+  description: >-
+    Početný dav dospělých stojí před široce otevřeným vstupem do kaple. Uvnitř je
+    viditelný oltář nebo liturgický stůl se svícny a dalšími předměty. Ve spodní části
+    je vložen popisek.
+  subject_tags: [congregation, chapel_entrance, altar, candlesticks, outdoor_service_claim, embedded_caption]
+  identification:
+    status: partially_verified
+    archival_caption_claim: Záběr z bohoslužeb
+    verified_from_image: [large_adult_crowd, open_chapel_entrance, altar_or_liturgical_table, candlesticks, caption_strip]
+    unverified: [exact_service_identity, date, location, officiants, participant_identities, relationship_to_items_104_to_106_and_111]
+  ocr:
+    document_text: not_applicable
+    scene_text:
+      status: transcribed
+      text: Záběr z bohoslužeb
+      note: Ruční přepis čitelného vloženého popisku; přesná bohoslužba, datum a účastníci nejsou obrazem určeni.
+  metadata: {embedded_date: absent}
+  uncertainty_ids: [URB-U-0070]
+- id: urbanek-ccs-113
+  archival_filename: 8  Winklerova zvonička.jpg
+  visual_type: historical_black_and_white_old_timber_bell_tower_with_crowd
+  description: >-
+    Vysokou otevřenou dřevěnou věžovou konstrukci tvoří několik svislých trámů. V horní
+    části je mezi trámy viditelný zavěšený zvon nebo zřetelně zvonovitý předmět. Pod
+    konstrukcí a v popředí stojí početný dav.
+  subject_tags: [Winkler_bell_tower_claim, old_timber_tower, visible_hanging_bell, crowd, historical_black_and_white]
+  identification:
+    status: partially_verified
+    archival_claim: Winklerova zvonička
+    verified_from_image: [tall_open_timber_tower, multiple_vertical_posts, hanging_bell_or_bell_shaped_object, large_crowd]
+    unverified: [tower_identity, Winkler_name_and_role, construction_date, bell_identity_and_history, exact_event_and_date, relationship_to_items_102_and_108]
+  comparison_relation:
+    related_items: [urbanek-ccs-102, urbanek-ccs-108, urbanek-ccs-114, urbanek-ccs-115]
+    assessment: >-
+      Stará konstrukce odpovídá základním typem věži na položkách 102 a 108. Nová
+      konstrukce na 114 a 115 má výrazně masivnější sloupy a odlišné provedení, takže
+      obrazy podporují stavební změnu, nikoli samy o sobě přesný rok nebo proces výměny.
+  ocr: {document_text: not_applicable, scene_text: not_detected}
+  metadata: {embedded_date: absent}
+  uncertainty_ids: [URB-U-0069]
+- id: urbanek-ccs-114
+  archival_filename: 8a  V r. 2016 byla stará zvonička demontována a nahrazena novou.jpg
+  visual_type: modern_color_new_timber_bell_tower_full_view
+  description: >-
+    Na kamenné a betonové plošině se schody stojí nová vysoká dřevěná zvonice tvořená
+    čtyřmi masivními svislými sloupy, širokou plochou stříškou a vysokou kovovou tyčí
+    zakončenou kruhovým symbolem. Pod stříškou je viditelný zavěšený zvon.
+  subject_tags: [new_timber_bell_tower, visible_bell, year_2016_claim, replacement_claim, stone_platform, stairs, roof, metal_rod_symbol]
+  identification:
+    status: partially_verified
+    archival_claim: V roce 2016 byla stará zvonička demontována a nahrazena novou
+    verified_from_image: [new_appearing_massive_timber_tower, four_vertical_columns, wide_roof, hanging_bell, tall_metal_rod_with_circular_symbol, stone_and_concrete_platform, stairs]
+    unverified: [exact_demolition_date, exact_construction_and_completion_dates, builder_architect_and_funder, whether_old_tower_was_demolished_or_dismantled, whether_same_bell_was_reused, official_replacement_or_dedication]
+  capture_metadata:
+    camera_make: myPhone_FUN4
+    camera_model: myPhone FUN4
+    exif_datetime_original: '2016-10-02 14:04:23'
+    exif_datetime_digitized: '2016-10-02 14:04:23'
+    file_datetime: '2016-10-03 09:09:40'
+    software: Windows Photo Editor 10.0.10011.16384
+    interpretation: Pokud byly hodiny fotoaparátu správné, nová zvonice byla fotografována 2. října 2016; metadata sama neurčují datum demontáže nebo dokončení.
+  ocr: {document_text: not_applicable, scene_text: not_detected}
+  uncertainty_ids: [URB-U-0069]
+- id: urbanek-ccs-115
+  archival_filename: 8b.jpg
+  visual_type: modern_color_new_timber_bell_tower_low_angle_detail
+  description: >-
+    Nová dřevěná zvonice je zachycena z nízkého úhlu. Viditelné jsou masivní svislé
+    sloupy, široká stříška, zavěšený zvon, vysoká kovová tyč s kruhovým symbolem a
+    svislé lano nebo táhlo vedené podél konstrukce.
+  subject_tags: [new_timber_bell_tower, visible_bell, low_angle, rope_or_pull_line, roof, metal_rod_symbol, same_session_as_item_114]
+  identification:
+    status: partially_verified
+    verified_from_image: [same_new_tower_type_as_item_114, massive_vertical_columns, wide_roof, hanging_bell, metal_rod_with_circular_symbol, vertical_rope_or_pull_line]
+    unverified: [builder_architect_and_funder, construction_and_dedication_dates, bell_identity, whether_same_bell_was_reused, exact_function_of_rope_and_symbol]
+  capture_metadata:
+    camera_make: myPhone_FUN4
+    camera_model: myPhone FUN4
+    exif_datetime_original: '2016-10-02 14:05:02'
+    exif_datetime_digitized: '2016-10-02 14:05:02'
+    file_datetime: '2016-10-03 09:10:52'
+    software: Windows Photo Editor 10.0.10011.16384
+    interpretation: Čas je o 39 sekund pozdější než u položky 114 a podporuje společné fotografické sezení 2. října 2016.
+  comparison_relation:
+    related_item: urbanek-ccs-114
+    assessment: Stejná nová zvonice zachycená z jiného úhlu během stejného fotografického sezení.
+  ocr: {document_text: not_applicable, scene_text: not_detected}
+  uncertainty_ids: [URB-U-0069]
+open_research_candidates:
+- {id: URB-U-0069, subject: Ostravice_old_and_new_bell_tower_2016_replacement_bell_continuity_and_builders}
+- {id: URB-U-0070, subject: Ostravice_chapel_manager_bishop_welcome_and_service_sequence}
+next_action: >-
+  Pokračovat položkami urbanek-ccs-116 až urbanek-ccs-120 v podsložce Kaple CČS na Ostravici:
+  soubory 8c.jpg, IMG_20161002_140624.jpg, IMG_20161002_140644.jpg,
+  IMG_20161002_140659.jpg a 9  biskup dr Horský v r. 1945 - 1946.jpg. Porovnat první
+  čtyři moderní snímky s položkami 114 a 115 a ověřit, zda dále dokumentují novou
+  zvonici a její okolí; historickou osobu na položce 120 neurčovat pouze podle vzhledu.

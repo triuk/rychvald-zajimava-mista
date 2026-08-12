@@ -1,0 +1,85 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-fotodokument-root-036
+  title: img201.jpg
+  source_path: fotodokument/img201.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img201.jpg
+  document_type: archival_building_group_image
+  mime_type: image/jpeg
+  file_size_bytes: 1220441
+  git_blob_sha: dcf50b2a99c8523efb74e8e740a9e914825d4dec
+  sha256: 6a22fd43ac1949419a83f675e28c529058a87caf8a607e9738758f27013b87bc
+  drive_id: 1enqAEQigAMqM2YGgwBdZzSNxms6FMMpj
+  repo_status: verified
+  image: {width_px: 1932, height_px: 1379, color_mode: RGB}
+  classification: [monochrome_archival_image, building_exterior, group_portrait, horse_drawn_wagon, unreadable_facade_sign, unidentified_people, unidentified_location]
+  summary: Skupina dospělých a dětí před větší budovou; vpravo jsou dva koně zapřažení do vozu. Úzký nápis nad vstupem není bezpečně čitelný a přesná budova, funkce, lokalita, osoby a datace nejsou určeny.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-037
+  title: img202.jpg
+  source_path: fotodokument/img202.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img202.jpg
+  document_type: group_portrait_at_wooden_building_with_beer_sign
+  mime_type: image/jpeg
+  file_size_bytes: 2112014
+  git_blob_sha: 2c2f8595876accab70a13d91fd4ad88c2ba870c2
+  sha256: c6a7196ff9503ec1e39810df8985b38390d82d22e6d2ef3182b5ff9dfe19133b
+  drive_id: 1wo789m510m86oUccd2tVsTGaVWkv3oyt
+  repo_status: verified
+  image: {width_px: 2621, height_px: 1890, color_mode: RGB}
+  classification: [monochrome_archival_image, wooden_building_exterior, group_portrait, readable_beer_sign, unidentified_business, unidentified_people, unidentified_location]
+  summary: Skupina před dřevěnou budovou s bezpečně čitelným nápisem „Českobudějovické akciové pivo“. Přesná provozovna, provozovatel, lokalita, osoby a datace nejsou určeny.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-038
+  title: img203.jpg
+  source_path: fotodokument/img203.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img203.jpg
+  document_type: photographed_badge_or_emblem_with_ribbons
+  mime_type: image/jpeg
+  file_size_bytes: 511033
+  git_blob_sha: e44a1db5233392c4067ca947f39508ea871a8571
+  sha256: d2d2039711656e8bbd33c883a44f142f7152f74411f77172a59c8a10088ea806
+  drive_id: 1V_UTmIGOy_bc9m9Nbw11j2A71kZZKhQH
+  repo_status: verified
+  image: {width_px: 1176, height_px: 1740, color_mode: RGB}
+  classification: [color_documentation_image, badge_or_emblem, red_white_ribbons, readable_text_vlastimil, readable_text_rychvald, visible_year_1893]
+  summary: Detail odznaku či znaku se stuhami s bezpečně čitelnými texty „ČESKÝ ČL. SPOLEK“, „VLASTIMIL“ a „V RYCHVALDĚ 1893“. Zkratka ani význam roku nejsou bez dalšího pramene rozvíjeny.
+  capture_metadata: {exif_present: false, use: visible_year_not_assumed_manufacture_or_capture_date}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-039
+  title: img206.jpg
+  source_path: fotodokument/img206.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img206.jpg
+  document_type: archival_bridge_like_structure_with_rubble
+  mime_type: image/jpeg
+  file_size_bytes: 105326
+  git_blob_sha: 8398e81d40fd6199428cee541c0219e5108fb78d
+  sha256: 1e6b2bd542bb1cd05e496e79e07a032b3bef9aaa619f469aaacfa0ab8e3bfd89
+  drive_id: 1SfoeSuSyd8vftd4JQfT2fdlcSVeFmCHw
+  repo_status: verified
+  image: {width_px: 875, height_px: 600, color_mode: RGB}
+  classification: [monochrome_archival_image, people_present, rubble, bridge_like_structure, visible_rail_track, unidentified_infrastructure, unidentified_location]
+  summary: Tři osoby v prostoru se sutí u mostově působící konstrukce; v pravém dolním okraji je viditelná kolej. Přesná infrastruktura, lokalita, důvod stavu, osoby, datum a vztah k img216.jpg nejsou určeny.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]
+- source_id: urbanek-fotodokument-root-040
+  title: img216.jpg
+  source_path: fotodokument/img216.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img216.jpg
+  document_type: archival_damaged_bridge_like_structure
+  mime_type: image/jpeg
+  file_size_bytes: 91426
+  git_blob_sha: 4f497b8f66401cc99eedf6ea4df18037bb7db925
+  sha256: c5f8963b852db03e67902c3d1efa33d9ebcadc5a2f05c2db6f069c05c24977b0
+  drive_id: 1jurJqZFeWO_2dPH6PCKfNfFwc4QBE4pj
+  repo_status: verified
+  image: {width_px: 894, height_px: 606, color_mode: RGB}
+  classification: [monochrome_archival_image, damaged_or_dismantled_structure, bridge_like_structure, rubble, people_on_structure, house_in_background, unidentified_infrastructure, unidentified_location]
+  summary: Poškozená či rozebraná mostově působící konstrukce se sutí a několika osobami; přesná infrastruktura, lokalita, příčina stavu, datum a vztah k img206.jpg nejsou určeny.
+  capture_metadata: {exif_present: false, use: no_capture_date_inferred}
+  uncertainty_ids: [URB-U-0083]

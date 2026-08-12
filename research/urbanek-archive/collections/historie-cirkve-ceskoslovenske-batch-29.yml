@@ -1,0 +1,267 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-final-group-and-vodicka-funeral-opening-29
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 5 Kaple CČS na Ostravici / archivní soubor 30; 6 Červen 1970. Pohřeb br. faráře ThDr Karla 
+  Vodičky.  Husova Č (1) / archivní soubory 1 až 4
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Položka 141 uzavírá ostravickou podsložku velkým skupinovým portrétem před vstupem do budovy. Archivní název
+    snímek přibližně datuje do roku 1947 a označuje jej jako zájezd Rychvaldských s biskupem; obraz sám potvrzuje
+    pouze skupinu dospělých a dětí, nikoli datum, místo, účel cesty ani identitu biskupa. Položky 142 až 145 otevírají
+    novou pohřební sérii v témže chrámovém interiéru. Zachycují rakev pod velkým krucifixem, květiny, věnce a svíce;
+    první dva záběry také uniformované muže stojící u rakve a druhý záběr početné shromáždění. Na položkách 144
+    a 145 stojí u rakve čtyři osoby v dlouhých tmavých oděvech. Název podsložky připisuje sérii pohřbu faráře ThDr.
+    Karla Vodičky v červnu 1970, avšak tato atribuce není obrazem samostatně potvrzena.
+  basis:
+    - full_image_visual_review
+    - cross_image_interior_comparison
+    - archival_filename_and_folder_context
+    - embedded_metadata_inspection
+    - verified_repo_files
+  related_open_items:
+    - URB-U-0067
+    - URB-U-0070
+items:
+  - id: urbanek-ccs-141
+    archival_filename: 30  Fotografie asi z r. 1947. Zájezd Rychvaldských  s biskup.jpg
+    dimensions_px:
+      - 1518
+      - 1020
+    visual_type: historical_black_and_white_large_group_portrait_outside_building
+    description: >-
+      Velký skupinový portrét několika desítek dospělých a dětí před širokým vstupem do budovy. V přední řadě sedí
+      dva muži, kolem nich stojí ženy, muži a několik dětí; u pravé části sedící dvojice je viditelná vycházková
+      hůl. Obraz neobsahuje jednoznačný znak, podle něhož by bylo možné určit biskupa, místo nebo přesné datum.
+    subject_tags:
+      - large_group_portrait
+      - adults
+      - children
+      - building_entrance
+      - two_seated_men
+      - walking_cane
+      - excursion_claim
+      - bishop_claim
+      - circa_1947_claim
+    identification:
+      status: partially_verified
+      archival_claim: fotografie asi z roku 1947; zájezd Rychvaldských s biskupem
+      verified_from_image:
+        - large_mixed_age_group
+        - adults_and_children
+        - two_seated_men_in_front
+        - building_entrance
+        - visible_walking_cane
+      unverified:
+        - exact_date
+        - location
+        - event_or_excursion_purpose
+        - all_person_identities
+        - presence_and_identity_of_bishop
+        - relationship_to_items_121_to_140
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    metadata:
+      embedded_date: absent
+    uncertainty_ids:
+      - URB-U-0070
+  - id: urbanek-ccs-142
+    archival_filename: 1.jpg
+    dimensions_px:
+      - 948
+      - 1398
+    visual_type: historical_black_and_white_funeral_coffin_wreaths_and_uniformed_men
+    description: >-
+      Svislý záběr chrámového interiéru s rakví pod velkým krucifixem. Rakev obklopují četné květiny, věnce a vysoké
+      svíce. Po stranách stojí čtyři uniformovaní muži; dva v popředí mají na stejnokrojích viditelné dekorace nebo
+      medaile. Na stuhách věnců je částečně viditelný text, který není z celého obrazu spolehlivě čitelný.
+    subject_tags:
+      - coffin
+      - funeral_interior
+      - crucifix
+      - wreaths
+      - flowers
+      - candles
+      - uniformed_men_beside_coffin
+      - medals_or_decorations
+      - funeral_of_Karel_Vodicka_claim
+      - June_1970_claim
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - coffin_in_church_interior
+        - large_crucifix
+        - many_wreaths_and_flowers
+        - tall_candles
+        - four_uniformed_men
+        - visible_uniform_decorations
+      unverified:
+        - deceased_identity
+        - exact_event_and_date
+        - church_identity_and_location
+        - whether_uniformed_men_form_an_official_honor_guard
+        - all_person_identities
+        - wreath_ribbon_text
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: present_but_not_reliably_readable
+        note: Stuhy věnců obsahují částečné nápisy; z celého snímku nebyl proveden spolehlivý přepis.
+    metadata:
+      embedded_date: absent
+    uncertainty_ids:
+      - URB-U-0067
+  - id: urbanek-ccs-143
+    archival_filename: 2.jpg
+    dimensions_px:
+      - 1452
+      - 918
+    visual_type: historical_black_and_white_wide_funeral_service_with_congregation
+    description: >-
+      Široký pohled do téhož chrámového interiéru. Uprostřed před kněžištěm stojí rakev s věnci a květinami, po
+      jejích stranách dva viditelní uniformovaní strážní. Lavice jsou zaplněny početným shromážděním; další osoby
+      v tmavých oděvech sedí po obou stranách kněžiště a jedna postava stojí u oltáře.
+    subject_tags:
+      - coffin
+      - funeral_service
+      - large_congregation
+      - church_interior
+      - uniformed_men_beside_coffin
+      - wreaths
+      - flowers
+      - crucifix
+      - funeral_of_Karel_Vodicka_claim
+      - June_1970_claim
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - same_church_interior_as_item_142
+        - coffin_with_wreaths_and_flowers
+        - two_visible_uniformed_guards
+        - large_seated_congregation
+        - groups_seated_beside_chancel
+        - person_at_altar
+        - large_crucifix
+      unverified:
+        - deceased_identity
+        - exact_event_and_date
+        - church_identity_and_location
+        - whether_uniformed_men_form_an_official_honor_guard
+        - identities_and_roles_of_people_beside_chancel
+        - person_at_altar_identity_and_role
+        - all_congregation_identities
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    metadata:
+      embedded_date: absent
+    uncertainty_ids:
+      - URB-U-0067
+  - id: urbanek-ccs-144
+    archival_filename: 3.jpg
+    dimensions_px:
+      - 1428
+      - 912
+    visual_type: historical_black_and_white_funeral_coffin_with_four_dark_robed_participants
+    description: >-
+      Bližší čelní záběr rakve pod krucifixem, obklopené květinami, věnci a svícemi. Po stranách stojí čtyři dospělé
+      osoby v dlouhých tmavých oděvech nebo pláštích. Snímek neobsahuje jména ani jednoznačné znaky určující jejich
+      funkci.
+    subject_tags:
+      - coffin
+      - funeral_interior
+      - four_dark_robed_participants
+      - crucifix
+      - wreaths
+      - flowers
+      - candles
+      - funeral_of_Karel_Vodicka_claim
+      - June_1970_claim
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - same_church_interior_as_items_142_143
+        - coffin
+        - four_adults_in_long_dark_garments
+        - large_crucifix
+        - wreaths_and_flowers
+        - candles
+      unverified:
+        - deceased_identity
+        - exact_event_and_date
+        - church_identity_and_location
+        - identities_of_four_participants
+        - clerical_or_ceremonial_roles
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    metadata:
+      embedded_date: absent
+    uncertainty_ids:
+      - URB-U-0067
+  - id: urbanek-ccs-145
+    archival_filename: 4.jpg
+    dimensions_px:
+      - 1446
+      - 954
+    visual_type: historical_black_and_white_side_funeral_view_with_dark_robed_procession
+    description: >-
+      Boční pohled na rakev s květinami a vysokými svícemi. Vedle rakve stojí v řadě čtyři dospělé osoby v dlouhých
+      tmavých oděvech nebo pláštích; vpravo sedí další účastníci obřadu. Obraz sám neurčuje jména ani přesný liturgický
+      nebo organizační úkol stojících osob.
+    subject_tags:
+      - coffin
+      - funeral_interior
+      - four_dark_robed_participants
+      - seated_mourners
+      - flowers
+      - wreaths
+      - tall_candles
+      - funeral_of_Karel_Vodicka_claim
+      - June_1970_claim
+    identification:
+      status: partially_verified
+      archival_context_claim: červen 1970; pohřeb faráře ThDr. Karla Vodičky
+      verified_from_image:
+        - same_church_interior_as_items_142_to_144
+        - coffin
+        - four_adults_in_long_dark_garments
+        - flowers_and_wreaths
+        - tall_candles
+        - seated_attendees_at_right
+      unverified:
+        - deceased_identity
+        - exact_event_and_date
+        - church_identity_and_location
+        - identities_of_four_participants
+        - clerical_or_ceremonial_roles
+        - exact_stage_of_funeral_rite
+        - photographer
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    metadata:
+      embedded_date: absent
+    uncertainty_ids:
+      - URB-U-0067
+open_research_candidates:
+  - id: URB-U-0070
+    subject: Ostravice_group_excursion_date_location_bishop_and_participants
+  - id: URB-U-0067
+    subject: Vodicka_funeral_identity_date_location_honor_guard_participants_and_rite
+next_action: >-
+  Pokračovat položkami urbanek-ccs-146 až urbanek-ccs-150, tedy soubory `5.jpg` až `9.jpg` v podsložce `6 Červen
+  1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)`. Zachovat odlišení archivní atribuce pohřbu od obrazově
+  ověřitelných znaků a osoby, uniformovanou organizaci ani liturgické role neurčovat pouze podle vzhledu.

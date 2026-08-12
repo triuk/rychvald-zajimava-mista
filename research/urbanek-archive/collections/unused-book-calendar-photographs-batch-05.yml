@@ -1,0 +1,103 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+collection_title: fotografie, které nebyl použité pro knihu ani kalendář
+batch_number: 5
+batch_id: wall-painting-groups-architectural-detail-and-large-building-05
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář
+  drive_folder_id: 17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g
+  items: [75.tif, 8205.jpg, 8206.jpg, P1020271aaaaddd.jpg, ggg.tif]
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical collection folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, dimensions, color mode, format, EXIF and GPS-field inspection.
+- TIFF files were inspected visually through locally generated downscaled PNG derivatives; originals remained unchanged.
+- Safe transcription of clearly readable source wording; partially legible organizational text and carved inscription are not reconstructed or expanded.
+- Exact binary duplicate check within the batch and search for matching Git blob SHA in already indexed source records.
+batch_findings:
+  general: Pět obrazových souborů – fragment poškozené nástěnné malby s koňským povozem a architekturou, skupinový portrét s praporem a rokem 1929, velký skupinový portrét s částečně čitelným organizačním nápisem a údajem 1910–1930, architektonický detail s rytým nápisem a černobílý exteriér rozsáhlé vícepodlažní budovy.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_with_prior_index_found: 0
+  exif_scope: 75.tif neobsahuje EXIF. 8205.jpg má Canon a DateTimeOriginal `2012:04:17 11:42:56`; 8206.jpg má Canon a DateTimeOriginal `2012:04:23 10:06:03`; P1020271aaaaddd.jpg má Panasonic DMC-TZ3 a DateTimeOriginal `2012:11:20 12:05:04`. ggg.tif obsahuje obecný DateTime `2010:11:26 09:44:21` a software `Microsoft Windows Photo Gallery 6.0.6000.16386`, ale ne DateTimeOriginal. Žádný soubor neobsahuje GPS údaje.
+  visible_text_scope: Na 8205.jpg jsou bezpečně čitelné `STRANA NÁR. SOCIALISTICKÁ`, `RYCHVALD` a rok `1929`. Na 8206.jpg je bezpečně čitelné `1910–1930` a horní organizační nápis je pouze částečně čitelný; nerozepisuje se. Na P1020271aaaaddd.jpg je z rytého nápisu bezpečně čitelné pouze `ANNO`; další znaky nejsou rekonstruovány.
+  dating_scope: Rok 1929 a rozsah 1910–1930 jsou evidovány jako viditelný obsah fotografických pramenů. Nejsou automaticky ztotožněny s technickým datem expozice. EXIF a obecná metadata digitálních souborů jsou evidována odděleně.
+  relationship_scope: 75.tif zachycuje poškozenou malovanou vrstvu podobně jako 73.jpg a 74.tif, ale přesný vzájemný vztah všech tří souborů není bez dalšího podkladu tvrzen.
+items:
+- id: urbanek-unused-book-calendar-photographs-021
+  filename: 75.tif
+  git_blob_sha: 2a66f32e1888f0d3ca68a7993d698e05f895490f
+  sha256: 8e67c2b91ecd476cdd64b589422e784b1a0c5fdb85378d8c84fcde97f0123643
+  file_size_bytes: 36897352
+  drive_id: 1nlwIJmbbCQ1jLsEu7_ZrhMHrsuDRguwN
+  dimensions_px: [3507, 3507]
+  mode: RGB
+  format: TIFF
+  exif: {present: false, gps_present: false}
+  tiff_metadata: {compression: none, x_resolution_dpi: 600, y_resolution_dpi: 600}
+  visual_description: Vysokorozlišovací reprodukce silně poškozené nástěnné malby; dochované části zahrnují koňský povoz, architektonické prvky a další fragmentární motivy. Přesný námět, objekt, lokalita, autorství, datace a vztah k 73.jpg a 74.tif nejsou určeny.
+  classification: [tiff_documentation_image, damaged_wall_painting, horse_drawn_carriage_motif, architectural_motifs, unidentified_artwork, unidentified_location]
+  unverified: [exact_subject_and_iconography, exact_building_and_location, authorship_date_and_restoration_history, relationship_to_73_and_74, photographer_or_digitizer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-022
+  filename: 8205.jpg
+  git_blob_sha: cda9aa01e657bdc3439eba26453beb86b747c6e7
+  sha256: 81b2f945a06ee362587ed3242db52beb4893a065d9b4a3b7c03908c663adb513
+  file_size_bytes: 1165684
+  drive_id: 1c1ui2eEo-CgiUyynRCV9VQghfQ8KDKbN
+  dimensions_px: [2341, 1597]
+  mode: RGB
+  exif: {present: true, make: Canon, model: null, datetime_original: '2012:04:17 11:42:56', gps_present: false}
+  visual_description: Černobílý skupinový portrét dospělých a dětí před budovou. Prapor nese bezpečně čitelné `STRANA NÁR. SOCIALISTICKÁ` a `RYCHVALD`; na tabulce před dětmi je viditelný rok `1929`. Osoby, přesný organizační a událostní kontext a vztah k jiným snímkům se stejnou formulací nejsou určeny.
+  classification: [monochrome_archival_group_photograph, organizational_banner, readable_text_rychvald, visible_year_1929, adults_and_children, unidentified_people]
+  unverified: [identities_of_visible_people, exact_organization_and_event_context, relationship_to_other_banner_images, relationship_of_visible_year_to_capture_date, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-023
+  filename: 8206.jpg
+  git_blob_sha: 63bc50205f92a6940d15dedf957ca04e4c12f283
+  sha256: 221523167e2483bdb369753d8ac253f9b2f2712c94662785331fdc6e55177db5
+  file_size_bytes: 2332867
+  drive_id: 1n2m-EVYANuIVOySvOxgNaW4lkl9dYyAw
+  dimensions_px: [2614, 1945]
+  mode: RGB
+  exif: {present: true, make: Canon, model: null, datetime_original: '2012:04:23 10:06:03', gps_present: false}
+  visual_description: Černobílý velký skupinový portrét dospělých a dětí před cihlovou budovou s několika prapory. Dole je bezpečně čitelné `1910–1930`; horní organizační nápis obsahuje čitelný závěr `… V RYCHVALDĚ`, ale celý text není bezpečně rekonstruován. Identity osob a přesný organizační či jubilejní kontext nejsou určeny.
+  classification: [monochrome_archival_group_photograph, large_group, banners, visible_date_range_1910_1930, partial_rychvald_text, unidentified_people]
+  unverified: [full_upper_inscription_and_organization_identity, exact_anniversary_or_event_context, identities_of_visible_people, relationship_of_1910_1930_to_event_or_organization_history, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-024
+  filename: P1020271aaaaddd.jpg
+  git_blob_sha: 18586d3143bef010cd910a0f44b991d6b6265e60
+  sha256: 6d8646a09060c53eada6a8b674dd4a192790d15df32425ae7a2ca408f867d40a
+  file_size_bytes: 335488
+  drive_id: 1vSeqfqyrMCdOfAleYxo7J0uDpxCBvpn8
+  dimensions_px: [1010, 1278]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2012:11:20 12:05:04', gps_present: false}
+  visual_description: Barevná dokumentační fotografie architektonického detailu s hlubokou obloukovou nikou a dekorativním profilovaným rámem. Pod nikou je rytý nápis, z něhož je bezpečně čitelné pouze `ANNO`; další znaky nejsou rekonstruovány. Přesný objekt, lokalita, funkce niky, plný nápis a datace nejsou určeny.
+  classification: [color_documentation_image, architectural_detail, arched_niche, carved_or_incised_inscription, readable_word_anno, unidentified_building, unidentified_location]
+  unverified: [exact_building_and_location, function_and_history_of_niche, full_inscription_and_date, architectural_date, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-025
+  filename: ggg.tif
+  git_blob_sha: e261328f6c12764be26f44c46fd3d0e5c5b85748
+  sha256: 066bc91be31d23594073b4d5f78a580bb81c67301807a8de8fcc3998e7dcd303
+  file_size_bytes: 14557284
+  drive_id: 12n3Mfddsl5WrRut82bF8bcyQc8yBq5zj
+  dimensions_px: [3504, 2352]
+  mode: RGB
+  format: TIFF
+  exif: {present: true, datetime: '2010:11:26 09:44:21', datetime_original: null, software: 'Microsoft Windows Photo Gallery 6.0.6000.16386', gps_present: false}
+  visual_description: Černobílý exteriér rozsáhlé podlouhlé vícepodlažní budovy s mnoha pravidelně rozmístěnými okny a vysokou valbovou střechou. Přesná identita, funkce, vlastnictví, lokalita a historická datace nejsou určeny.
+  classification: [tiff_archival_reproduction, large_multi_storey_building_exterior, many_windows, hipped_roof, unidentified_building, unidentified_location]
+  unverified: [exact_building_identity_function_ownership_and_location, historical_date, meaning_of_general_datetime_for_file_history, photographer_or_digitizer_and_source_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, visible scene, listed dimensions, format and color mode
+related_uncertainties: [URB-U-0084]
+next_batch:
+  number: 6
+  filenames: [img010aa.jpg, img037.jpg, img724.jpg, Thumbs.db]

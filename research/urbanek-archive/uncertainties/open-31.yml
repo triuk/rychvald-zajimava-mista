@@ -1,0 +1,35 @@
+schema_version: 1
+items:
+- id: URB-U-0088
+  status: open
+  priority: high
+  collection: popopo
+  type: missing_full_originals_proven_by_thumbnail_caches
+  source_items:
+  - urbanek-popopo-032
+  - urbanek-popopo-033
+  question: Kde jsou plné originály 16 odlišných obrazových obsahů doložených technickými cache `Thumbs.db` a `ZbThumbnail.info`, ale nepřítomných jako samostatné soubory v aktuální kolekci `popopo`; lze dohledat jejich plné rozlišení, metadata, provenienci a vztah k dochovaným obrazovým materiálům?
+  known_facts:
+  - Thumbs.db má signaturu OLE/Compound File Binary a byl přímo parsován přes jeho FAT, mini-FAT, adresář, Catalog stream a číslované thumbnail streamy.
+  - Catalog obsahuje 58 záznamů: jeden GUID-like zvláštní záznam a 57 `.jpg` filename záznamů. Všech 58 odpovídajících thumbnail streamů obsahuje přímo dekódovatelná JPEG data po cache prefixu.
+  - Všech 31 současných samostatných JPEG názvů kolekce je v Catalogu zastoupeno.
+  - Dvacet šest názvů nemá v aktuální složce samostatný plný soubor: `P1010069.JPG`, `P1010743.JPG`, `P1010745.JPG`, `P1010747.JPG`, `P1010748.JPG`, `img248a.jpg`, `8006.jpg`, `8006a.jpg`, `8014.jpg`, `8172.JPG`, `img178.jpg`, `img248.jpg`, `mlyn_0001.jpg`, `P1010750.JPG`, `P1010751.JPG`, `P1010755.JPG`, `P1010754a.jpg`, `silma.jpg`, `img075.jpg`, `img698.jpg`, `P1010066.JPG`, `P1010763.JPG`, `P1010765.JPG`, `img706.jpg`, `img707a.jpg`, `img707.jpg`.
+  - Přímé vizuální porovnání thumbnailů dokládá, že deset z těchto chybějících názvů je variantou stejného podkladového obrazu, který je v současné kolekci dochován: `P1010743.JPG` ↔ `P1010743a.jpg`; `P1010747.JPG` ↔ `P1010747a.jpg`; `P1010748.JPG` ↔ `P1010748a.jpg`; `img178.jpg` ↔ `img178a.jpg`; `mlyn_0001.jpg` ↔ `mlyn_0001a.jpg`; `P1010755.JPG` ↔ `P1010755a.jpg`; `P1010754a.jpg` ↔ `P1010754.JPG`; `img698.jpg` ↔ `img698a.jpg`; `P1010066.JPG` ↔ `P1010066a.jpg`; `P1010763.JPG` ↔ `P1010764.JPG`. Tyto názvy proto nejsou počítány jako další chybějící obrazové obsahy.
+  - Po odečtení těchto deseti variant zůstává 16 vizuálně odlišných cache-only obrazových obsahů bez současného samostatného plného souboru: `P1010069.JPG`, `P1010745.JPG`, `img248a.jpg`, `8006.jpg`, `8006a.jpg`, `8014.jpg`, `8172.JPG`, `img248.jpg`, `P1010750.JPG`, `P1010751.JPG`, `silma.jpg`, `img075.jpg`, `P1010765.JPG`, `img706.jpg`, `img707a.jpg`, `img707.jpg`.
+  - ZbThumbnail.info začíná magic bytes `zbex`, obsahuje všech 57 JPEG filename references známých z Thumbs.db a obsahuje 57 JFIF start signatures; všech 57 obrazových proudů je při čtení od JPEG markeru přímo dekódovatelných.
+  - Cache-only obrazové reference jsou odvozený technický důkaz a nejsou přičítány k 616 položkám aktuálního Git snapshotu.
+  - Dne 2026-08-11 bylo v aktuálně připojeném Google Drive jednotlivě vyhledáno všech 16 názvů odlišných cache-only obsahů; žádný exact-name soubor nebyl nalezen.
+  unknown:
+  - location_of_full_originals_for_sixteen_distinct_missing_image_contents
+  - whether_full_originals_survive_under_different_names_or_in_other_storage
+  - original_resolution_exact_file_metadata_and_processing_history
+  - provenance_and_digitization_history
+  - exact_relationship_of_cache_only_images_to_current_archive_materials
+  - generating_application_and_version_for_cache_files
+  - copyright_and_reuse_rights
+  evidence:
+  - research/urbanek-archive/collections/popopo-batch-07.yml
+  - research/urbanek-archive/collections/popopo-overview.yml
+  - sources/index.d/urbanek-popopo-07.yml
+  - research/urbanek-archive/verifications/cache-recovery-drive-name-search-2026-08-11.md
+  next_action: Hledat obrazové shody pod jinými názvy a prověřit další zálohy nebo úložiště; neopakovat již vyčerpané exact-name hledání v aktuálně připojeném Drive.

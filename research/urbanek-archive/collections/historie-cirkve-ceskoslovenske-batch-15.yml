@@ -1,0 +1,100 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: stibor-visit-sequence-and-groups-15
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "3 Biskup Ferdinand Stibor v Rychvaldě / soubory 2, 2a, 3, 4 a 5"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Pět fotografií rozšiřuje archivní sérii návštěvy připisované Ferdinandu Stiborovi.
+    Soubory 2 a 2a zachycují tutéž nebo bezprostředně navazující venkovní situaci z
+    rozdílného záběru. Následují skupinové snímky před oltářem a velká společná
+    fotografie s dětmi. Soudržnost série podporuje pořadí, prostředí a opakující se
+    účastníci; jméno hosta, datum, funkce a identity osob však fotografie samy nepotvrzují.
+  basis: [visual_sequence_comparison, archival_folder_context, repeated_people_and_clothing, verified_repo_files]
+
+items:
+  - id: urbanek-ccs-071
+    archival_filename: "2.jpg"
+    visual_type: historical_black_and_white_outdoor_visit_group
+    description: >-
+      Venkovní skupinová scéna s několika dospělými, včetně mužů v duchovním oděvu,
+      soustředěných kolem hlavního hosta. Jde o pokračování uvítací série.
+    identification:
+      status: partially_verified
+      archival_claim: "součást návštěvy biskupa Ferdinanda Stibora v Rychvaldě"
+      verified_from_image: [outdoor_group, clergy_present, formal_visit_context]
+      unverified: [Ferdinand_Stibor_identity, exact_date, location, occasion, participant_identities]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent_or_not_relied_upon}
+    uncertainty_ids: [URB-U-0050]
+
+  - id: urbanek-ccs-072
+    archival_filename: "2a.jpg"
+    visual_type: historical_black_and_white_outdoor_visit_alternate_view
+    description: >-
+      Alternativní venkovní záběr stejné nebo bezprostředně navazující skupiny.
+      Opakují se oděvy a účastníci; kompozice se liší.
+    identification:
+      status: partially_verified
+      verified_from_image: [outdoor_group, repeated_people_and_clothing, alternate_view]
+      unverified: [whether_exact_same_moment, guest_identity, date, participant_identities]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent_or_not_relied_upon}
+    uncertainty_ids: [URB-U-0050]
+
+  - id: urbanek-ccs-073
+    archival_filename: "3  Před oltářem.jpg"
+    visual_type: historical_black_and_white_group_before_altar
+    description: >-
+      Menší skupina dospělých v interiéru sboru před oltářem. Mezi účastníky jsou
+      osoby v duchovním oděvu; soubor má nízké rozlišení.
+    identification:
+      status: partially_verified
+      archival_claim: "před oltářem"
+      verified_from_image: [church_interior, altar, group_of_adults, clergy_present]
+      unverified: [guest_identity, exact_date, service_or_event, participant_identities]
+    ocr: {document_text: not_applicable, scene_text: no_identifying_text}
+    metadata: {embedded_date: absent_or_not_relied_upon}
+    uncertainty_ids: [URB-U-0050]
+
+  - id: urbanek-ccs-074
+    archival_filename: "4.jpg"
+    visual_type: historical_black_and_white_formal_visit_group
+    description: >-
+      Formální skupinový snímek dospělých spojený archivním pořadím s návštěvní sérií.
+      Přítomni jsou duchovní i civilní účastníci.
+    identification:
+      status: partially_verified
+      verified_from_image: [formal_group, clergy_and_lay_participants]
+      unverified: [event_identity, exact_location, guest_identity, participant_names_and_roles]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent_or_not_relied_upon}
+    uncertainty_ids: [URB-U-0050]
+
+  - id: urbanek-ccs-075
+    archival_filename: "5   Společná fotografie také s dětmi.jpg"
+    visual_type: historical_black_and_white_large_group_with_children
+    description: >-
+      Velká společná fotografie dospělých a dětí. Ve skupině jsou duchovní, civilní
+      účastníci a početná dětská část; archivní název výslovně zmiňuje děti.
+    identification:
+      status: partially_verified
+      archival_claim: "společná fotografie také s dětmi"
+      verified_from_image: [large_group, adults, children, clergy_present]
+      unverified: [Ferdinand_Stibor_identity, date, event, child_group_affiliation, all_person_identities]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent_or_not_relied_upon}
+    uncertainty_ids: [URB-U-0050]
+
+open_research_candidates:
+  - {id: URB-U-0050, subject: Ferdinand_Stibor_visit_date_sequence_location_and_people}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-076 až urbanek-ccs-080. Nejprve zpracovat poslední
+  soubor podsložky 3 a poté přesně ověřit první čtyři soubory podsložky 4. Celou
+  Stiborovu sérii porovnat s kronikou, návštěvním programem a dobovým tiskem.

@@ -1,0 +1,96 @@
+schema_version: 1
+collection_id: urbanek-boj-o-nabozenstvi
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-boj-o-nabozenstvi-001
+  title: P1010899.JPG
+  collection_id: urbanek-boj-o-nabozenstvi
+  source_path: Boj o náboženství v Rychvaldě/P1010899.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Boj o náboženství v Rychvaldě/P1010899.JPG
+  document_type: photographed_handwritten_manuscript_page
+  mime_type: image/jpeg
+  file_size_bytes: 3177912
+  git_blob_sha: 7c16fef94dd42a5f76c1d63353fba13ace09849b
+  sha256: ce873df0e366b723fd58b9371e087558cb3bf2645fe97de7d0de138e85b791d8
+  drive_id: 1xMod1arEP2DJs20_Q266DGDWJaxRtAA9
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  capture_metadata:
+    camera: Panasonic DMC-TZ3
+    datetime: 2012:06:04 11:05:40
+    use: capture_sequence_only_not_event_date
+  classification: photographed_manuscript_page
+  uncertainty_ids:
+  - URB-U-0075
+- source_id: urbanek-boj-o-nabozenstvi-002
+  title: P1010900.JPG
+  collection_id: urbanek-boj-o-nabozenstvi
+  source_path: Boj o náboženství v Rychvaldě/P1010900.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Boj o náboženství v Rychvaldě/P1010900.JPG
+  document_type: photographed_handwritten_manuscript_page
+  mime_type: image/jpeg
+  file_size_bytes: 3177617
+  git_blob_sha: d1c2b027577cecffbbcccf5bcdd44931c9012a6e
+  sha256: f372093bc83d1f431433c13fd82ff32306850c37209a8f392aeea9b093439d1d
+  drive_id: 1rYY_9gaoVir5ZrF0V6O5N68r6po3ljcw
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  capture_metadata:
+    camera: Panasonic DMC-TZ3
+    datetime: 2012:06:04 11:06:04
+    use: capture_sequence_only_not_event_date
+  classification: photographed_manuscript_page
+  uncertainty_ids:
+  - URB-U-0075
+- source_id: urbanek-boj-o-nabozenstvi-003
+  title: P1010901.JPG
+  collection_id: urbanek-boj-o-nabozenstvi
+  source_path: Boj o náboženství v Rychvaldě/P1010901.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Boj o náboženství v Rychvaldě/P1010901.JPG
+  document_type: photographed_handwritten_manuscript_page
+  mime_type: image/jpeg
+  file_size_bytes: 3238387
+  git_blob_sha: cac4687b3b7ca99f988ec728410285ed5d342406
+  sha256: 053deac027c32336f88b8be189c218ad339fe0efab157395362efaf0721f5938
+  drive_id: 1rJ0A2dBm35w2Kg_8GkVCepObp_DRAbKT
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  capture_metadata:
+    camera: Panasonic DMC-TZ3
+    datetime: 2012:06:04 11:06:36
+    use: capture_sequence_only_not_event_date
+  classification: photographed_manuscript_page
+  uncertainty_ids:
+  - URB-U-0075
+- source_id: urbanek-boj-o-nabozenstvi-004
+  title: Thumbs.db
+  collection_id: urbanek-boj-o-nabozenstvi
+  source_path: Boj o náboženství v Rychvaldě/Thumbs.db
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Boj o náboženství v Rychvaldě/Thumbs.db
+  document_type: windows_thumbnail_cache
+  mime_type: application/octet-stream
+  file_size_bytes: 10752
+  git_blob_sha: 851ca380ea17a719b05d5cffd5b8ebaad462dbdd
+  sha256: 56948ec4331d112ae5f4605c0eca21501614e9db7eda986c5ce3104f918ce699
+  drive_id: 1EG6QKs7nFBSwHroOKpP1qwijBvk5P6GO
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  classification: technical_thumbnail_cache
+  audit_report: research/urbanek-archive/reports/boj-o-nabozenstvi-thumbs-audit.md

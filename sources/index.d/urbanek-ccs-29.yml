@@ -1,0 +1,124 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-29
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: >-
+  Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+  - source_id: urbanek-ccs-141
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve 
+      fotografiích/5 Kaple CČS na Ostravici/30  Fotografie asi z r. 1947. Zájezd Rychvaldských  s biskup.jpg
+    file_size_bytes: 256745
+    git_blob_sha: cd6a3c1ea344c687f83203520424ef9e793470ac
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+    title: Velký skupinový portrét před vstupem do budovy
+    document_type: historical_large_group_portrait_photograph
+    readability:
+      status: good
+      note: Skupina, vstup do budovy a hlavní obrazové prvky jsou čitelné; snímek neobsahuje identifikační 
+        text.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Archivní název uvádí přibližný rok 1947 a zájezd Rychvaldských s biskupem; obraz tyto atributy 
+        samostatně nepotvrzuje.
+      - Souvisí s URB-U-0070.
+  - source_id: urbanek-ccs-142
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve 
+      fotografiích/6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/1.jpg
+    file_size_bytes: 262275
+    git_blob_sha: dae84fa0c5ee7861e3412f663f91aee48da3167b
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+    title: Rakev, věnce a čtyři uniformovaní muži pod krucifixem
+    document_type: historical_funeral_uniformed_men_beside_coffin_photograph
+    readability:
+      status: good
+      note: Rakev, výzdoba a uniformované osoby jsou čitelné; nápisy na stuhách věnců nejsou spolehlivě 
+        čitelné.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: present_but_not_reliably_readable
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Název podsložky připisuje snímek pohřbu Karla Vodičky v červnu 1970; jde o archivní atribuci.
+      - Souvisí s URB-U-0067.
+  - source_id: urbanek-ccs-143
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve 
+      fotografiích/6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/2.jpg
+    file_size_bytes: 201178
+    git_blob_sha: 84365cb4f83e81ac56442d4caafc629b669ecd26
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+    title: Široký pohled na pohřební obřad s uniformovanými muži a shromážděním
+    document_type: historical_funeral_service_congregation_photograph
+    readability:
+      status: good
+      note: Chrámový interiér, rakev, stráž a shromáždění jsou čitelné; identifikační text není přítomen.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Název podsložky připisuje snímek pohřbu Karla Vodičky v červnu 1970; obraz sám neurčuje zemřelého ani 
+        datum.
+      - Souvisí s URB-U-0067.
+  - source_id: urbanek-ccs-144
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve 
+      fotografiích/6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/3.jpg
+    file_size_bytes: 171671
+    git_blob_sha: b2e81f04bf847dd11ff52fa0f6f531b9b2af352e
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+    title: Rakev se čtyřmi osobami v dlouhých tmavých oděvech
+    document_type: historical_funeral_dark_robed_participants_photograph
+    readability:
+      status: good
+      note: Rakev, čtyři stojící osoby, krucifix a výzdoba jsou čitelné; funkce ani identity osob z obrazu 
+        nevyplývají.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Název podsložky připisuje snímek pohřbu Karla Vodičky v červnu 1970; jde o archivní atribuci.
+      - Souvisí s URB-U-0067.
+  - source_id: urbanek-ccs-145
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve 
+      fotografiích/6 Červen 1970. Pohřeb br. faráře ThDr Karla Vodičky.  Husova Č (1)/4.jpg
+    file_size_bytes: 186321
+    git_blob_sha: f1be5358f87b903fae035697ff25a6fa7def1829
+    digital_format: JPEG
+    text_layer: absent
+    rights:
+      status: unknown
+      note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+    title: Boční pohled na rakev a čtyři účastníky v tmavých oděvech
+    document_type: historical_funeral_side_view_photograph
+    readability:
+      status: good
+      note: Rakev, stojící osoby, květiny, svíce a sedící účastníci jsou čitelní; identifikační text není 
+        přítomen.
+    visual_content:
+      photographs: single_historical_photograph_reproduction
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    notes:
+      - Přesné role čtyř stojících osob nelze určit pouze podle oděvu a polohy.
+      - Souvisí s URB-U-0067.

@@ -1,0 +1,209 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-1969-ecumenical-service-altar-pulpit-and-clergy-37
+status: completed_first_visual_pass
+git_attachment: finalized
+item_count: 5
+source_scope: 9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenick / archivní soubory 1 až 5
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: Položky 181 až 185 tvoří obrazově souvislou sekvenci jedné bohoslužby nebo bezprostředně navazujícího církevního
+    obřadu ve stejném interiéru. Čtyři záběry zachycují oltář s figurálním obrazem, svícemi, květinami a textilií s částečně
+    čitelným biblickým textem a odkazem 1 Petr 4,11; další snímek zachycuje kazatele u vyvýšené dřevěné kazatelny. Archivní
+    název připisuje událost roku 1969, evangelickému chrámu na Ostravici a ekumenickému charakteru, ale fotografie samy nepotvrzují
+    rok, přesné místo, denominace, jména účastníků ani program.
+  basis:
+  - full_image_visual_review
+  - cross_image_sequence_comparison
+  - embedded_metadata_inspection
+  - exact_git_blob_verification
+  - binary_duplicate_screening
+  - scene_text_review
+  related_open_items:
+  - URB-U-0072
+items:
+- id: urbanek-ccs-181
+  archival_filename: 1.jpg
+  dimensions_px:
+  - 1008
+  - 1488
+  visual_type: historical_robed_speaker_at_altar_with_stole_book_and_religious_art
+  description: Muž v dlouhém tmavém oděvu a světlé štole zakončené kříži stojí před oltářem. V levé ruce drží knihu nebo desky
+    a pravou rukou gestikuluje. Za ním jsou svíce, květiny, dvě světlé sochy a velký figurální obraz.
+  verified_from_image:
+  - single_robed_man
+  - light_stole_with_crosses
+  - held_book_or_folder
+  - hand_gesture
+  - altar
+  - candles
+  - flowers
+  - two_light_statues
+  - large_figurative_painting
+  unverified:
+  - event_identity
+  - independent_confirmation_of_1969
+  - ecumenical_character
+  - evangelical_church_identity
+  - Ostravice_location
+  - person_identity
+  - denomination_and_office
+  - speech_or_rite
+  - date
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0072
+- id: urbanek-ccs-182
+  archival_filename: 2.jpg
+  dimensions_px:
+  - 1062
+  - 1500
+  visual_type: historical_bespectacled_robed_man_reading_at_altar
+  description: Starší muž s brýlemi v dlouhém tmavém oděvu a světlé štole se dvěma kříži čte z otevřené knihy před stejným
+    oltářem. V pozadí jsou svíce, květiny, sochy a figurální obraz.
+  verified_from_image:
+  - bespectacled_robed_man
+  - light_stole_with_crosses
+  - open_book
+  - same_altar_context
+  - candles
+  - flowers
+  - statues
+  - figurative_painting
+  unverified:
+  - event_identity
+  - independent_confirmation_of_1969
+  - ecumenical_character
+  - evangelical_church_identity
+  - Ostravice_location
+  - person_identity
+  - denomination_and_office
+  - text_being_read
+  - date
+  - photographer
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_items:
+    - urbanek-ccs-185
+    assessment: Tentýž nebo velmi pravděpodobně tentýž muž je zachycen při čtení také na položce 185; jde o odlišný záběr,
+      nikoli binární duplicitu.
+  uncertainty_ids:
+  - URB-U-0072
+- id: urbanek-ccs-183
+  archival_filename: 3.jpg
+  dimensions_px:
+  - 1068
+  - 1494
+  visual_type: historical_robed_man_seen_from_back_at_altar_with_biblical_text
+  description: Muž v dlouhém tmavém oděvu stojí zády k fotoaparátu před oltářem. Po stranách jsou částečně viditelní další
+    sedící muži. Na oltářní textilii jsou viditelné části českého biblického textu a odkaz 1 Petr 4,11, střední část však
+    zakrývá postava.
+  verified_from_image:
+  - robed_man_seen_from_back
+  - altar
+  - partially_visible_seated_men
+  - partial_Czech_biblical_text
+  - reference_1_Petr_4_11
+  - same_figurative_painting_and_statues
+  unverified:
+  - complete_exact_text_transcription
+  - event_identity
+  - independent_confirmation_of_1969
+  - ecumenical_character
+  - evangelical_church_identity
+  - Ostravice_location
+  - person_identities
+  - denominations_and_offices
+  - exact_liturgical_action
+  - date
+  - photographer
+  metadata:
+    embedded_date: absent
+  scene_text:
+    status: partially_readable
+    verified: Odkaz 1 Petr 4,11 je čitelný; souvislý úplný text je zčásti zakryt a nebyl rekonstruován.
+  uncertainty_ids:
+  - URB-U-0072
+- id: urbanek-ccs-184
+  archival_filename: 4.jpg
+  dimensions_px:
+  - 1056
+  - 1494
+  visual_type: historical_robed_preacher_at_elevated_wooden_pulpit
+  description: Muž v tmavém oděvu a světlé štole stojí u vyvýšené dřevěné kazatelny nebo pultu a drží otevřenou knihu či listy.
+    Za ním je vysoká tmavá stříška a vlevo členěné okno.
+  verified_from_image:
+  - robed_man
+  - light_stole
+  - open_book_or_notes
+  - elevated_wooden_pulpit
+  - dark_canopy
+  - mullioned_window
+  unverified:
+  - event_identity
+  - independent_confirmation_of_1969
+  - ecumenical_character
+  - evangelical_church_identity
+  - Ostravice_location
+  - person_identity
+  - denomination_and_office
+  - sermon_content
+  - exact_relation_to_altar_sequence
+  - date
+  - photographer
+  metadata:
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0072
+- id: urbanek-ccs-185
+  archival_filename: 5.jpg
+  dimensions_px:
+  - 1062
+  - 1494
+  visual_type: historical_bespectacled_robed_man_reading_at_altar_second_view
+  description: Starší muž s brýlemi v dlouhém tmavém oděvu a světlé štole se dvěma kříži čte z otevřené knihy před oltářem.
+    Jde o jiný okamžik nebo záběr stejné situace jako na položce 182.
+  verified_from_image:
+  - bespectacled_robed_man
+  - light_stole_with_crosses
+  - open_book
+  - same_altar_context
+  - partial_altar_textile
+  - candles
+  - flowers
+  - statues
+  - figurative_painting
+  unverified:
+  - event_identity
+  - independent_confirmation_of_1969
+  - ecumenical_character
+  - evangelical_church_identity
+  - Ostravice_location
+  - person_identity
+  - denomination_and_office
+  - text_being_read
+  - date
+  - photographer
+  metadata:
+    embedded_date: absent
+  comparison_relation:
+    related_items:
+    - urbanek-ccs-182
+    assessment: Odlišný záběr téhož nebo velmi pravděpodobně téhož čtenáře a stejného oltáře; nejde o binární duplicitu.
+  uncertainty_ids:
+  - URB-U-0072
+duplicate_assessment:
+  exact_binary_duplicates_within_batch: none
+  note: Všech pět souborů má odlišný Git blob SHA. Položky 182 a 185 jsou různé záběry stejné osoby a situace, nikoli nezávislá
+    potvrzení archivního popisu.
+subfolder_completion:
+  subfolder: 9 V r. 1969 se konala v evangelickém chrámu na Ostravici ekumenick
+  content_files: 5
+  processed_items: 5
+  status: completed_first_visual_pass_and_blob_verification
+next_action: Zpracovat urbanek-ccs-186 až 190, tedy 1.jpg až 5.jpg v podsložce 10 Kalendář 2015.

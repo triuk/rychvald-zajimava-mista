@@ -1,0 +1,61 @@
+schema_version: 1
+batch_id: root-loose-historical-station-newspapers-rychvald-sign-and-snb-list-01
+collection_id: urbanek-root-loose-files
+batch_number: 1
+item_range: 001-005
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+items:
+- id: urbanek-root-loose-001
+  filename: 19.jpg
+  classification: historical_scene_reproduction_labeled_railway_station
+  file_size_bytes: 391828
+  git_blob_sha: 1175b9067dad410adcf28056d4d1d4e640844ef4
+  sha256: b3b75d8824ba8c4bfd33f680cb458aac81da231e44786fc9dc767181b928f1e5
+  drive_id: 1sssiptjXg57wQOBNIwvFNTSwBq1Es3gu
+  image: {width_px: 979, height_px: 688, color_mode: RGB}
+  finding: Černobílá historická reprodukce s tištěným popiskem Nádraží; přesná stanice, lokalita, datace, autor a vydavatel nejsou doloženy.
+  uncertainty_ids: [URB-U-0077]
+- id: urbanek-root-loose-002
+  filename: 20Hlavička 27.10.1938.jpg
+  classification: photographed_newspaper_header_and_front_page_section
+  file_size_bytes: 3674940
+  git_blob_sha: 4c8dee7b605f1ccf87332ee29d4f262eaa489166
+  sha256: 87fe6fe1b5a51edbb340aa0b536c487e8d64efae15b70c5a7621d097ba7e15f6
+  drive_id: 1op_ACVAWkNBIMd6CynQTu7rAFtrm6dLS
+  image: {width_px: 3414, height_px: 2466, color_mode: RGB}
+  finding: Horní část listu České slovo z 27. října 1938, ročník X, číslo 297.
+- id: urbanek-root-loose-003
+  filename: 21zpráva 28.10.1938.jpg
+  classification: photographed_newspaper_page
+  file_size_bytes: 4614852
+  git_blob_sha: 624c053fde3cf7130e66e917b16ba1eb048a3862
+  sha256: 8224f8c27b4185338da7fb96e84eeb0aac1bac1bb2ec0c461229f259965e12be
+  drive_id: 11X3yPyEOXCZyGRYIbDHCyf9KOoRxf0ZR
+  image: {width_px: 3425, height_px: 2454, color_mode: RGB}
+  finding: Strana 6 listu České slovo z 28. října 1938, číslo 298, s hlavním článkem Od pondělka se létá do Prahy.
+- id: urbanek-root-loose-004
+  filename: 9 X 1938 przed zajęciem Rychvaldu.png
+  classification: historical_uniformed_group_at_rychvald_sign
+  file_size_bytes: 40007
+  git_blob_sha: f173d2e75688a4caf5c79a9534b37c3927b1f6f2
+  sha256: f31481fa1665fc4a1e727f1b535a6149d109aff39b51cfce83db33d1d962c9c7
+  drive_id: 13Z8g0XU4r2t_iAvXQEbGCs7E-yS6pfWQ
+  image: {width_px: 439, height_px: 309, color_mode: P}
+  finding: Pět ozbrojených mužů v uniformách u tabule s čitelným nápisem MĚSTO RYCHVALD; archivní název není nezávislým důkazem data, události ani jednotky.
+  uncertainty_ids: [URB-U-0078]
+- id: urbanek-root-loose-005
+  filename: IMG_0117 seznam bojůvkařů.jpg
+  classification: photographed_secret_snb_list
+  file_size_bytes: 118473
+  git_blob_sha: c25f3676e838e8d5c728bf4b81e985385b8d6d50
+  sha256: 28a3c4758ed369cbce1f67f8605328ebaeb9817c85a5702bdf69ed2002820643
+  drive_id: 101_K92xzzCFRePI-i6NbLrfyUY3sLdZH
+  image: {width_px: 667, height_px: 1000, color_mode: RGB}
+  finding: Tajný jednostránkový seznam Okresního velitelství SNB ve Fryštátě datovaný 10. července 1945; osobní údaje nejsou v souhrnném indexu přepisovány.
+  uncertainty_ids: [URB-U-0079]
+duplicate_check:
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_in_archive_tree: 0
+remaining_group_items:
+- img237 německý četník.jpg

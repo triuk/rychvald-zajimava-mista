@@ -1,0 +1,208 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-rychvald-016
+  title: P1010115.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010115.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010115.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 1930960
+  git_blob_sha: 3c39ba48f14fae8f4e82b5393fc1f36996307799
+  sha256: a5fd4d82b82c65601d6b99af05276cc945e95c67656b8666774130a6d7c96571
+  drive_id: 1210cjkHudL9NMCKo9BgZRnUcXL6Ir17M
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  classification:
+  - modern_reproduction_photograph
+  - photographed_handwritten_document_page
+  - local_history_manuscript
+  - chronological_ownership_notes
+  - visible_page_number
+  summary: Fotografovaná stránka rukopisného historického textu s číslem „- 26 -“ a časovými rozsahy v levém okraji. Stránka pokračuje v chronologickém přehledu držitelů
+    či vlastníků; úplný kurzivní přepis, identita všech osob a historická přesnost údajů nejsou v této fázi ověřeny.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-09-01 15:18:04'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - '- 26 -'
+  - 1715-1719
+  - 1719-1746
+  - 1746-1749
+  - 1749-1787
+  - 1787-1828
+  - 1828-1859
+  - 1859-1894
+  - 1894-1903
+- source_id: urbanek-rychvald-017
+  title: P1010116.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010116.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010116.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3359097
+  git_blob_sha: 60e86c74d2ffa0e2533783117bfa85ee2c81b2cc
+  sha256: 2a274f3e9de5b47b7767c56b9a8e3aa200e4e4d614c95cb11921298548d9bf85
+  drive_id: 17ax1ll6CS8sGbkX9YIyS8GuoHR1vmrdZ
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 3072
+    height_px: 2304
+    color_mode: RGB
+  classification:
+  - modern_reproduction_photograph
+  - photographed_handwritten_document_page
+  - chronological_local_history_notes
+  - dated_entries_1920_to_1923
+  summary: Fotografovaná rukopisná stránka s chronologicky řazenými místními událostmi. V levém sloupci jsou bezpečně čitelné datované položky z let 1920 až 1923;
+    text jednotlivých záznamů se eviduje jako obsah rukopisné předlohy, nikoli jako nezávisle ověřený historický fakt.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-09-01 15:19:53'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - 2. V. 20
+  - 16. V. 20
+  - 28. VII. 20
+  - 29. V. 21
+  - 26. III. 22
+  - 23. VIII. 22
+  - 9. I. 23
+  - 18. II. 23
+  - 14. V. 23
+  - 9. VI. 23
+  - 10. VII. 23
+  - 20. VII. 23
+  - 16. IX. 23
+- source_id: urbanek-rychvald-018
+  title: P1010117.JPG
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/P1010117.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/P1010117.JPG
+  document_type: modern_reproduction_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 3428153
+  git_blob_sha: ffadd8bfb4f779fab15c0a65d69dc8dfe04abca2
+  sha256: 4c801f3473297aeb8e50d6c4f0a0a7eb682a3199dddf97a1705f5a7bcbb21e5d
+  drive_id: 1twS8ncEh8DTIxSGYvC63tdWiAujFZP3K
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2304
+    height_px: 3072
+    color_mode: RGB
+  classification:
+  - modern_reproduction_photograph
+  - photographed_handwritten_document_page
+  - local_history_manuscript
+  - vocational_continuation_school_section
+  - visible_heading_and_page_number
+  summary: Fotografovaná rukopisná stránka místněhistorického textu s číslem „- 197 -“ a nadpisem „Škola živnostenská pokračovací.“. Text zmiňuje mimo jiné roky 1912
+    a 1920; nadpis, letopočty a další rukopisný obsah jsou evidovány jako znění předlohy a nejsou samy o sobě historickým ověřením.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-09-01 15:27:38'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  visible_text:
+  - '- 197 -'
+  - Škola živnostenská pokračovací.
+  - '1912'
+  - '1920'
+- source_id: urbanek-rychvald-019
+  title: Rychvald2009 003.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Rychvald2009 003.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Rychvald2009 003.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 619909
+  git_blob_sha: 3ed24f792c1baac666491d0d2595c1667417467e
+  sha256: e09e3cfba5e270234e47a67afb0d79199233c5e306067cc3ab5072c2c6c9910d
+  drive_id: 1EqYOQcdNBy22GSuI-aQFJ8aXID8dLaKt
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1360
+    height_px: 2048
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - cemetery_scene
+  - stone_crucifix_monument
+  - same_subject_sequence
+  summary: Barevná fotografie kamenného hřbitovního kříže s figurou ukřižovaného Krista a menší figurou v nice pod křížem. V okolí jsou hroby, náhrobky a květinová
+    výzdoba. Slabý nápis či datace na podstavci nejsou bezpečně čitelné; přesný hřbitov, identita pomníku a jeho datace proto nejsou z obrazu samostatně určeny.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-01 09:15:37'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+- source_id: urbanek-rychvald-020
+  title: Rychvald2009 004.jpg
+  collection_id: urbanek-rychvald
+  source_path: Rychvald/Rychvald2009 004.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/Rychvald/Rychvald2009 004.jpg
+  document_type: modern_color_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 621708
+  git_blob_sha: c1d5198de659f125fea4747fd6c09f0ac8b71afb
+  sha256: 21a97fee5214ec63c775eb1c98dc99ae76d9bef6a5d4cc440717cf26fff1a3e5
+  drive_id: 1WY2DNPj-z5Uh635N2X6oTzjoDnToqKCv
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 1360
+    height_px: 2048
+    color_mode: RGB
+  classification:
+  - modern_color_photograph
+  - cemetery_scene
+  - stone_crucifix_monument
+  - near_consecutive_capture_of_same_monument
+  summary: Druhý barevný snímek téhož kamenného hřbitovního kříže jako položka 019, pořízený o 13 sekund později z mírně odlišného záběru. Jde o samostatný obrazový
+    soubor, nikoli binární kopii. Slabý nápis či datace na podstavci zůstávají bezpečně nečitelné.
+  capture_metadata:
+    exif_present: true
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-01 09:15:50'
+    software: Ver.1.0
+    use: capture_metadata_not_historical_event_date
+  uncertainty_ids:
+  - URB-U-0082
+  same_subject_as: urbanek-rychvald-019
+  relation: near_consecutive_distinct_capture

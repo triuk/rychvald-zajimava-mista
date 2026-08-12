@@ -1,0 +1,246 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+collection_title: Fotografie knihy Rychvald včera a dnes
+batch_number: 5
+batch_id: aerial-views-industrial-complex-rural-settlement-and-large-building-05
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+  items:
+  - 20.jpg
+  - 21.jpg
+  - 22.jpg
+  - 23.jpg
+  - 24.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without external historical verification.
+- EXIF inspection; embedded dates are preserved as file metadata, not treated as independent proof of publication use
+  or authorship.
+- Exact binary duplicate check within the batch and against previously indexed files in the collection.
+batch_findings:
+  general: Pět samostatných šikmých leteckých pohledů na průmyslový nebo servisní komplex u vodních ploch, zemědělskou
+    a obytnou krajinu, rozvojové nebo stavební plochy, rozsáhlý vícekřídlý budovní komplex a rozptýlenou okrajovou zástavbu.
+  folder_title_interpretation: Název složky zůstává archivním údajem. Ani tato dávka neobsahuje viditelné okraje knižních
+    stran nebo bibliografický text.
+  metadata_sessions:
+  - 22.jpg a 23.jpg mají EXIF časy 2013-08-30 17:25:54 a 17:22:54, tedy odstup tří minut. Časová blízkost podporuje pracovní
+    zařazení do jedné letecké relace, ale jednoznačný prostorový překryv nebyl zjištěn.
+  - 21.jpg má EXIF čas 2013-08-30 16:56:48, tedy stejné datum jako 22.jpg a 23.jpg; samotné datum neprokazuje shodné
+    místo ani bezprostřední sekvenci.
+  - 20.jpg má EXIF čas 2013-08-07 18:02:00 a tag software Picasa.
+  - 24.jpg má EXIF čas 2013-09-28 11:19:31 a nemá vyplněný tag software.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_against_batches_01_04: 0
+  visual_overlap: V dávce nebyl zjištěn jednoznačný prostorový překryv. Snímky 21.jpg, 22.jpg a 24.jpg zachycují podobný
+    typ rozptýlené obytné a zemědělské krajiny, ale jejich identita místa není bez dalšího podkladu prokázána.
+  text_content: V obrazech není čitelný souvislý knižní text ani bibliografický údaj.
+items:
+- id: urbanek-rychvald-vcera-dnes-021
+  filename: 20.jpg
+  git_blob_sha: a5f1e9fdb8803465299719d7ced5506a4b654f1f
+  sha256: c9cd19a099b06c1d9fc18f836355f5a0c7aa50e3b2f474616693b9fed03c7eab
+  dimensions_px:
+  - 2560
+  - 1435
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-07 18:02:00'
+    software: Picasa
+  visual_description: Šikmý letecký pohled na rozsáhlý průmyslový nebo servisní komplex s několika výrobními halami,
+    vícepodlažní budovou, vnitřními komunikacemi, parkovacími plochami a vysokým komínem; za areálem jsou velké vodní
+    plochy a vzdálená průmyslová a obytná krajina.
+  classification:
+  - aerial_photograph
+  - industrial_or_service_complex
+  - production_halls
+  - multi_storey_building
+  - chimney
+  - internal_roads
+  - parking_area
+  - water_bodies
+  - distant_industrial_and_urban_skyline
+  - agricultural_land
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_name_and_function_of_complex
+  - exact_identity_of_water_bodies
+  - exact_identity_of_distant_industrial_area
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-022
+  filename: 21.jpg
+  git_blob_sha: a83e5bb265a830954dca6b99dad9609dd20d8d80
+  sha256: 36781a08a2d0130ef60075669b3876e4e88602c95e4e9c4fc2d51bfb2b26c4c5
+  dimensions_px:
+  - 4474
+  - 1969
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-30 16:56:48'
+    software: null
+  visual_description: Široký šikmý letecký pohled na zemědělskou a obytnou krajinu s velkými poli, místními komunikacemi,
+    rozptýlenými rodinnými domy, skupinami stromů a vedením vysokého napětí; v dálce jsou další sídla a průmyslové nebo
+    městské panorama.
+  classification:
+  - aerial_photograph
+  - agricultural_landscape
+  - large_fields
+  - local_roads
+  - dispersed_housing
+  - woodland
+  - power_lines
+  - distant_settlement
+  - distant_industrial_or_urban_skyline
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_power_line_route
+  - exact_identity_of_distant_skyline
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-023
+  filename: 22.jpg
+  git_blob_sha: e867a653c5b4fb5702a7584a973ef9c3fe9244f6
+  sha256: 844286fd6081571c0e002747e977cc749c3a7f44cdb54ddcdd6a1bbeff656e8f
+  dimensions_px:
+  - 4525
+  - 2294
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-30 17:25:54'
+    software: null
+  visual_description: Šikmý letecký pohled na obytnou část s průjezdní komunikací, navazujícími místními cestami, rodinnými
+    domy a zahradami; v popředí je soubor novějších budov a několik obdélných zpevněných nebo stavebně připravených ploch,
+    kolem jsou pole a vzrostlá zeleň.
+  classification:
+  - aerial_photograph
+  - residential_area
+  - main_road
+  - local_road_network
+  - road_intersection
+  - detached_housing
+  - gardens
+  - newer_buildings
+  - construction_or_development_areas
+  - agricultural_land
+  - woodland
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_function_of_newer_buildings
+  - exact_status_and_function_of_rectangular_areas
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-024
+  filename: 23.jpg
+  git_blob_sha: c84f56f81694f47b57cece5a0c950ee304450a6c
+  sha256: afa2458eb34697463d3c8de6648ae1f79743c9d23b2992197a16aeb2b6c3cca4
+  dimensions_px:
+  - 4556
+  - 2505
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-30 17:22:54'
+    software: null
+  visual_description: Šikmý téměř svislý letecký pohled na rozsáhlý vícekřídlý budovní komplex s oranžovými střechami,
+    balkony, samostatným podlouhlým křídlem, příjezdovými komunikacemi a malou parkovací plochou; bezprostředně sousedí
+    s polem, rodinnými domy a zahradami.
+  classification:
+  - aerial_photograph
+  - large_building_complex
+  - multi_wing_building
+  - balconies
+  - separate_long_building
+  - access_roads
+  - parking_area
+  - agricultural_field
+  - detached_housing
+  - gardens
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_identity_and_function_of_building_complex
+  - exact_relationship_between_building_wings
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-025
+  filename: 24.jpg
+  git_blob_sha: 984dd401c618c3c6e32fc6d3fbb6f9b760a13b60
+  sha256: 578175e261cecb5cff9959539c0f3d226d3044b057c40df60004523278a7fce8
+  dimensions_px:
+  - 4557
+  - 2749
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:19:31'
+    software: null
+  visual_description: Široký šikmý letecký pohled na rozptýlenou obytnou a zemědělskou krajinu s křivolakými místními
+    cestami, rodinnými domy, zahradami, loukami, poli a menšími lesními celky; v dálce je souvislejší sídelní a městské
+    panorama.
+  classification:
+  - aerial_photograph
+  - dispersed_housing
+  - local_road_network
+  - detached_housing
+  - gardens
+  - grassland
+  - agricultural_land
+  - woodland
+  - distant_urban_skyline
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_road_identity
+  - exact_identity_of_distant_skyline
+  - photographer_and_rights
+related_uncertainties:
+- URB-U-0076
+next_batch:
+  number: 6
+  filenames:
+  - 25.jpg
+  - 26.jpg
+  - 27.jpg
+  - 28.jpg
+  - 29.jpg

@@ -1,0 +1,120 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: construction-sequence-01
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / položky 1–5"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+sequence_assessment:
+  status: partially_verified
+  conclusion: >-
+    Pět snímků tvoří souvislou dokumentační řadu od shromáždění u základů přes
+    několik fází zděné stavby až po téměř dokončenou budovu s věží. Přímý
+    scénický text na položce urbanek-ccs-002 označuje stavbu jako Husův sbor
+    Československé církve. Přesné datum jednotlivých záběrů ani totožnost osob
+    nejsou v této dávce nezávisle ověřeny.
+  basis:
+    - visual_architectural_continuity
+    - archival_sequence
+    - visible_construction_sign_on_urbanek-ccs-002
+
+items:
+  - id: urbanek-ccs-001
+    visual_type: historical_black_and_white_photograph_reproduction
+    description: >-
+      Rozsáhlé venkovní shromáždění u rozestavěných základů. Uprostřed stojí
+      duchovní nebo řečník před improvizovaným obřadním prostorem; v pozadí jsou
+      bednění, stavební materiál, nízké hospodářské stavby a venkovská zástavba.
+    subject_tags: [crowd, ceremony, building_foundations, construction_site, clergy]
+    identification:
+      status: partially_verified
+      archival_claim: bohoslužba a položení základního kamene
+      verified_from_image: [large_ceremonial_gathering, active_construction_site, visible_foundations]
+      unverified: [exact_event_name, exact_date, identities_of_participants]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ccs-002
+    visual_type: historical_black_and_white_construction_photograph_reproduction
+    description: >-
+      Zděná budova ve výstavbě obklopená dřevěným lešením; věž je vytažena výše
+      než obvodové zdivo. Na stavbě a před ní stojí skupiny pracovníků nebo
+      návštěvníků. Na levé části lešení je informační tabule.
+    subject_tags: [church_construction, masonry, timber_scaffolding, tower, workers, construction_sign]
+    identification:
+      status: partially_verified
+      verified_from_image: [same_building_sequence, church_building_under_construction]
+      unverified: [exact_date, contractor_identity, identities_of_people]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_partial
+        location: left side of scaffolding
+        transcription: "STAVBU HUSOVA SBORU ČESKOSL. CÍRKVE …"
+        uncertain_remainder: >-
+          Spodní část pravděpodobně uvádí provádějící firmu a další údaje, ale
+          současný obraz nestačí k bezpečnému úplnému přepisu.
+
+  - id: urbanek-ccs-003
+    visual_type: historical_black_and_white_construction_photograph_reproduction
+    description: >-
+      Ranější fáze stavby s vyzděnými obvodovými stěnami, rozestavěnou věží a
+      odkrytými svislými konstrukčními prvky. Na stavbě a před ní pózují skupiny
+      osob; v popředí leží stavební materiál.
+    subject_tags: [church_construction, masonry_walls, tower_scaffolding, group_portrait, construction_material]
+    identification:
+      status: partially_verified
+      verified_from_image: [same_building_sequence]
+      unverified: [exact_date, construction_stage_date, identities_of_people]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ccs-004
+    visual_type: historical_black_and_white_construction_group_photograph_reproduction
+    description: >-
+      Pokročilá fáze stavby se zastřešenou hlavní lodí a věží dosud obklopenou
+      lešením. V popředí pózuje početná skupina mužů a žen; fotografie je fyzicky
+      poškozená a nalepená na světlém podkladu.
+    subject_tags: [church_construction, roof_completed, tower_scaffolding, group_portrait, damaged_print]
+    identification:
+      status: partially_verified
+      verified_from_image: [same_building_sequence, advanced_construction_stage]
+      unverified: [exact_date, group_identity, individual_identities]
+    physical_condition:
+      status: visibly_damaged
+      note: Trhliny, přehyby a chybějící nebo poškozené části fotografického obrazu.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-ccs-005
+    visual_type: historical_black_and_white_construction_photograph_reproduction
+    description: >-
+      Téměř dokončená podélná kostelní budova se střechou, vysokými okny a věží;
+      lešení zůstává zejména kolem věže a části průčelí. V pravém pozadí je vidět
+      věž dalšího kostela nebo obdobné výrazné stavby.
+    subject_tags: [church_near_completion, tower_scaffolding, long_nave, surrounding_settlement, distant_spire]
+    identification:
+      status: partially_verified
+      verified_from_image: [same_building_sequence, near_completion_stage]
+      unverified: [exact_date, identity_of_distant_spire]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+open_research_candidates:
+  - question: Jaké je přesné datum položení základního kamene a jednotlivých etap výstavby?
+    status: candidate_pending_cross_source_review
+  - question: Která firma je uvedena na staveništní tabuli a jak zní její úplný text?
+    status: candidate_pending_higher_resolution_review
+  - question: Jaká věž je vidět v pravém pozadí snímku urbanek-ccs-005?
+    status: candidate_pending_visual_and_map_comparison
+
+next_action: >-
+  Pokračovat položkami 6–10; zároveň porovnat první stavební sekvenci s dalšími
+  archivními texty a teprve poté založit stabilní nejistoty pro otázky, které
+  zůstanou podstatné a nevyřešené.

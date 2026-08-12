@@ -1,0 +1,100 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+collection_title: fotografie, které nebyl použité pro knihu ani kalendář
+batch_number: 1
+batch_id: map-church-cemetery-gathering-and-heraldic-image-01
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář
+  drive_folder_id: 17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g
+  items: [045.jpg, 093.JPG, 134.jpg, 164.jpg, 2011cIsenburgové z Birsteinu.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical collection folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode, EXIF and GPS-field inspection.
+- First visual classification without inferring exact locality, building identity, event identity, person identity, heraldic attribution, historical date or relationship to other archive materials from appearance or filename alone.
+- EXIF DateTimeOriginal values are recorded as technical image metadata; they are not automatically treated as the historical date of a depicted map, building, monument or event.
+- Archival filenames are preserved as metadata and are not treated as independent proof of subject identity or date.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: Pět obrazových souborů – reprodukce starší mapy s německými a latinskými popisky, fotografie věže stavby se sakrální architekturou, hřbitovní scéna s centrálním křížem, početné venkovní shromáždění kolem hořící hranice a heraldické vyobrazení korunovaného štítu.
+  exact_binary_duplicates_within_batch: 0
+  exif_scope: Čtyři z pěti JPEGů obsahují EXIF DateTimeOriginal; žádný z pěti neobsahuje GPS údaje. Hodnoty jsou evidovány jako technická metadata digitálních souborů, nikoli jako samostatný důkaz historické datace zobrazeného motivu nebo události.
+  visible_text_scope: Na 045.jpg jsou bezpečně čitelné mimo jiné mapové popisky „Mähren“ a „Oder Fluvius“. Další drobné historické popisky nejsou v této první inventarizační fázi plošně přepisovány. Na ostatních čtyřech snímcích nebyl pro identifikaci použit žádný bezpečně čitelný text v obraze.
+  filename_scope: Název `2011cIsenburgové z Birsteinu.jpg` je archivní metadata. Z obrazu samotného není bez dalšího pramene potvrzeno, komu heraldické vyobrazení náleží ani zda část `2011c` představuje datum, pořadové označení nebo jiný archivní údaj.
+items:
+- id: urbanek-unused-book-calendar-photographs-001
+  filename: 045.jpg
+  git_blob_sha: b04b3c7b0999ee4e5fdc2f2775474737f36a8985
+  sha256: 2084aef9c913c3faeba446df3384957670717b906265e482ebf5026349fbc617
+  file_size_bytes: 2117096
+  drive_id: 1j9_Xj2vR-zWi2i97slEk89Tnw0p1qcVJ
+  dimensions_px: [1912, 1420]
+  mode: RGB
+  exif: {present: true, datetime_original: '2010:12:13 05:58:19', gps_present: false}
+  visual_description: Barevná digitální reprodukce starší kreslené mapy nebo mapového vyobrazení s řekami, pásy terénu, schematickými sídly a kostelními či věžovými symboly. Bezpečně čitelné jsou mimo jiné popisky „Mähren“ a „Oder Fluvius“. Přesný název, autor, datace, vydání, měřítko a vztah k jednotlivým archivním tématům nejsou z tohoto výřezu určeny.
+  classification: [historical_map_reproduction, hand_drawn_map, german_and_latin_labels, settlement_symbols, river_labels]
+  unverified: [exact_map_identity_title_author_date_and_source, exact_geographic_scope_and_relevance_of_each_label, meaning_of_exif_datetime_for_reproduction_history, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-002
+  filename: 093.JPG
+  git_blob_sha: 9889ee4b8d86010bf8ed738ca6fc199b110ff97d
+  sha256: fafd49581d15ed5cc7a3e90ba73dc66e87a083e069170c36e5c7311f41ba9a59
+  file_size_bytes: 3624326
+  drive_id: 1HBi6WJ0Og8BZmLi7Tu9KnPYK2vqedfOU
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:10:27 15:22:13', gps_present: false}
+  visual_description: Barevná fotografie vysoké světlé věže stavby se sakrální architekturou, ciferníky hodin a štíhlou červenou jehlancovou střechou zakončenou křížem; vpravo za hlavní věží je menší věžička. Přesný název stavby, denominace a lokalita nejsou z obrazu samotného určeny.
+  classification: [color_photograph, sacral_architecture_exterior, clock_tower, spire_with_cross, unidentified_building, unidentified_location]
+  unverified: [exact_building_identity_denomination_and_location, event_or_documentation_context, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-003
+  filename: 134.jpg
+  git_blob_sha: d776b18236089f7c78ae7769782fae6a7a6e3c26
+  sha256: c45164b7bc9b8afab5bb11aa2374f6d79f8856db1ad04cd3d3b8942d8927ebc6
+  file_size_bytes: 692462
+  drive_id: 1oNYpnySIGUFuNiUlIPeroNdCd2ysSJzo
+  dimensions_px: [2048, 1360]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-FZ7, datetime_original: '2009:11:02 14:10:36', gps_present: false}
+  visual_description: Barevná fotografie hřbitova s řadami hrobů a pomníků. V ose cesty stojí vysoký kamenný kříž s postavou ukřižovaného Krista a menší výklenkovou částí pod křížem; na snímku je několik návštěvníků. Přesný hřbitov, identita monumentu a osoby nejsou určeny.
+  classification: [color_photograph, cemetery, central_crucifix_monument, graves_and_memorials, people_present, unidentified_location]
+  unverified: [exact_cemetery_and_location, identity_history_and_inscriptions_of_central_monument, identities_of_visible_people, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-004
+  filename: 164.jpg
+  git_blob_sha: cff852acba76e004cacda2597a23c377d8ef352e
+  sha256: 5c7550f7bae5d48da18dabc50e7bdbc718a74fba26fee2e389778b1da881de1a
+  file_size_bytes: 539210
+  drive_id: 1myAJgheO0Ml4XfXdOBDgEbFOKLAevpOP
+  dimensions_px: [1452, 906]
+  mode: RGB
+  exif: {present: true, make: Canon, model: null, datetime_original: '2012:03:15 09:39:23', gps_present: false}
+  visual_description: Barevná fotografie početného venkovního shromáždění na travnaté ploše kolem hořící hranice sestavené z polen. Přítomni jsou dospělí i děti; přesný název či účel události, místo a identity osob nejsou z obrazu samotného určeny.
+  classification: [color_photograph, outdoor_public_gathering, burning_log_pile, crowd, adults_and_children, unidentified_event, unidentified_location]
+  unverified: [exact_event_title_purpose_and_context, exact_location, identities_and_roles_of_visible_people, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-005
+  filename: 2011cIsenburgové z Birsteinu.jpg
+  git_blob_sha: 52df355711855e5c92fd2be2cd45607a007cde59
+  sha256: 2b80462743b9bd6b44d8cb42873e627a8474ca99990689c06704fb6a7337febf
+  file_size_bytes: 726700
+  drive_id: 1lNIjFG4tsgPwrZNY-4WQJVWwsiTO8Djy
+  dimensions_px: [1170, 1602]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  archival_filename_claim: Isenburgové z Birsteinu
+  visual_description: Barevné heraldické vyobrazení korunovaného štítu. Uprostřed je modré pole se žlutým lvem, po stranách jsou vodorovné černé a světlé pruhy. V samotném obraze není bezpečně čitelný text určující držitele erbu. Archivní název souboru není používán jako nezávislý důkaz heraldické identity.
+  classification: [heraldic_image, crowned_shield, lion_motif, striped_fields, archival_filename_attribution_unverified]
+  unverified: [exact_armiger_and_heraldic_identity, source_and_date_of_illustration, meaning_of_2011c_filename_prefix, relationship_to_rychvald_history, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, visible scene, listed dimensions and color mode
+related_uncertainties: [URB-U-0084]
+next_batch:
+  number: 2
+  filenames: [2061.JPG, 2063.JPG, 2069.jpg, 209.jpg, 327a.jpg]

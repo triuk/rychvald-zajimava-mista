@@ -1,0 +1,143 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: reconstructed-chancel-carpet-and-obsil-murals-06
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / archivní soubory 28–32"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka obrazově dokumentuje nejméně tři po sobě jdoucí stavy kněžiště:
+    zjednodušený stav po výrazné stavební nebo výtvarné úpravě, tentýž prostor při
+    slavnostní bohoslužbě, pozdější doplnění koberců a nakonec figurální výzdobu
+    čelní stěny dochovanou také na novodobém barevném snímku. Roky 1949 a 1957,
+    označení rekonstrukce a příjmení Obšil pocházejí z archivních názvů souborů.
+    Biblické nápisy na urbanek-ccs-030 jsou obrazově čitelné.
+  basis:
+    - repeated_architectural_features
+    - visual_change_sequence
+    - readable_scene_text
+    - archival_sequence
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-026
+    archival_filename: "28  1949 , rekonstruované kněžiště.jpg"
+    visual_type: historical_black_and_white_chancel_architectural_photograph_reproduction
+    description: >-
+      Čelní pohled na výrazně zjednodušené kněžiště. V hlubokém obloukovém výklenku
+      je velký kříž s korpusem, před ním jednoduchý pravoúhlý oltář se znakem kalicha.
+      Boční stěny jsou bez figurálních maleb a stupně nejsou pokryty celoplošným kobercem.
+    subject_tags: [reconstructed_chancel, crucifix, altar, chalice_symbol, bare_walls, architectural_state]
+    identification:
+      status: partially_verified
+      archival_claim: "rekonstruované kněžiště roku 1949"
+      verified_from_image: [simplified_chancel_state, crucifix_and_altar_configuration, absence_of_later_side_murals]
+      unverified: [exact_date, year_1949, exact_reconstruction_scope, responsible_designer_or_builder]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0049]
+
+  - id: urbanek-ccs-027
+    archival_filename: "29  1949 Slavnostní bohoslužby po rekonstrukci  bohoslužby s.jpg"
+    visual_type: historical_black_and_white_crowded_service_photograph_reproduction
+    description: >-
+      Zaplněný sbor při bohoslužbě v témže zjednodušeném kněžišti jako na
+      urbanek-ccs-026. Za oltářem stojí tři duchovní nebo obřadní osoby, v lavicích
+      je početné shromáždění a vlevo je prapor. Na dveřích je tabule s čísly 15 a 8,
+      její slovní popisky nejsou bezpečně čitelné.
+    subject_tags: [post_reconstruction_service, congregation, clergy, flag, hymn_board, reconstructed_chancel]
+    identification:
+      status: partially_verified
+      archival_claim: "slavnostní bohoslužby po rekonstrukci roku 1949"
+      verified_from_image: [large_service, same_chancel_state_as_urbanek_ccs_026, three_officiants]
+      unverified: [exact_date, year_1949, event_purpose, identities_of_officiants, meaning_of_board_numbers]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_partial
+        location: board on left door
+        transcription: "[nečitelné] 15 / [nečitelné] 8"
+        note: Slovní označení nelze bezpečně přepsat.
+    uncertainty_ids: [URB-U-0049, URB-U-0051]
+
+  - id: urbanek-ccs-028
+    archival_filename: "30  pozdeji bylo kněžiště opatřeno kobercem.jpg"
+    visual_type: historical_black_and_white_liturgical_event_photograph_reproduction
+    description: >-
+      Detail kněžiště se stejným křížem a oltářem. Stupně, plocha kolem oltáře a
+      přední část jsou pokryty několika vzorovanými koberci. Za oltářem stojí dva
+      duchovní, další osoba v rouchu čte nebo promlouvá před oltářem.
+    subject_tags: [carpeted_chancel, clergy, liturgical_event, crucifix, altar, interior_change]
+    identification:
+      status: partially_verified
+      archival_claim: "kněžiště bylo později opatřeno kobercem"
+      verified_from_image: [carpeted_steps_and_chancel, same_basic_chancel_configuration, three_clergy_or_officiants]
+      unverified: [date_of_carpet_installation, donor_or_supplier, event_identity, participant_identities]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0049, URB-U-0052]
+
+  - id: urbanek-ccs-029
+    archival_filename: "31  V r. 1957 byly na čelní stěnu nakresleny obrazy ak. malí.jpg"
+    visual_type: historical_black_and_white_decorated_chancel_photograph_reproduction
+    description: >-
+      Celkový pohled na kněžiště po doplnění figurální výzdoby. Vlevo je výjev
+      křtu Ježíše, vpravo setkání vzkříšeného Krista se ženou a kolem centrálního
+      kříže je oblačný a paprskový motiv. Pod bočními obrazy jsou textové nápisy.
+    subject_tags: [wall_murals, baptism_of_Jesus, risen_Christ_scene, crucifix, biblical_inscriptions, congregation]
+    identification:
+      status: partially_verified
+      archival_claim: "obrazy byly nakresleny roku 1957 akademickým malířem"
+      verified_from_image: [three_part_front_wall_decoration, baptism_scene, resurrection_scene, biblical_text_present]
+      unverified: [exact_creation_date, year_1957, artist_identity, technique, commissioning_context]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: partially_readable_better_copy_available
+        note: Přesnější přepis je veden u urbanek-ccs-030.
+    uncertainty_ids: [URB-U-0053]
+
+  - id: urbanek-ccs-030
+    archival_filename: "32  Současný interiér s kresbami Obšila.jpg"
+    visual_type: modern_color_church_interior_documentation_photograph
+    description: >-
+      Barevný čelní pohled na interiér se stejnou trojdílnou výzdobou jako na
+      urbanek-ccs-029. Vlevo je křest Ježíše, vpravo vzkříšený Kristus se ženou,
+      uprostřed kříž obklopený paprsky a oblaky. Lavice jsou slavnostně vyzdobeny květinami.
+    subject_tags: [modern_interior, wall_murals, baptism_of_Jesus, risen_Christ, crucifix, wedding_decoration]
+    identification:
+      status: partially_verified
+      archival_claim: "současný interiér s kresbami Obšila"
+      verified_from_image: [same_murals_as_urbanek_ccs_029, mural_subjects, readable_biblical_inscriptions, modern_color_documentation]
+      unverified: [artist_full_identity, exact_creation_date, whether_Obsil_attribution_is_correct, date_represented_by_word_soucasny]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_readable
+        transcriptions:
+          - location: left mural
+            text: "NENARODÍ-LI SE KDO Z VODY A Z DUCHA, NEMŮŽE VEJÍTI DO KRÁLOVSTVÍ BOŽÍHO. JAN 3,5"
+          - location: right mural
+            text: "KRISTUS VSTAL Z MRTVÝCH JAKO PRVNÍ Z TĚCH, KDOŽ ZESNULI. I KOR 15,20"
+        note: Přepis zachovává čitelné znění nápisů; interpunkce je podána souvisle podle řádků na stěně.
+    uncertainty_ids: [URB-U-0053]
+
+open_research_candidates:
+  - id: URB-U-0051
+    subject: post_reconstruction_service_date_purpose_and_participants
+  - id: URB-U-0052
+    subject: chancel_carpet_installation_date_provenance_and_event
+  - id: URB-U-0053
+    subject: Obsil_mural_artist_identity_date_technique_and_history
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-031 až urbanek-ccs-035. Rekonstrukční stavy
+  zapojit do URB-U-0049, událost na urbanek-ccs-027 vést samostatně, kobercovou
+  úpravu dohledat v inventářích a výzdobu připisovanou Obšilovi ověřit podle účtů,
+  kroniky, signatury nebo restaurátorských podkladů.

@@ -1,0 +1,101 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+collection_title: fotografie, které nebyl použité pro knihu ani kalendář
+batch_number: 3
+batch_id: rural-buildings-landscaped-area-school-group-and-1928-29-group-03
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář
+  drive_folder_id: 17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g
+  items: [333.jpg, 367.jpg, 369.jpg, 5005a.jpg, 5011b.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical collection folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode, EXIF and GPS-field inspection.
+- First visual classification without inferring exact locality, building identity, facility type, event identity, school identity, person identity or historical date from appearance alone.
+- Safe transcription of clearly readable wording and year notation in the photographed source; visible source wording is not automatically treated as independently verified historical fact or technical capture date.
+- Exact binary duplicate check within the batch and search for matching Git blob SHA in already indexed source records.
+batch_findings:
+  general: Pět obrazových souborů – starší venkovská či hospodářská budova, upravený obdélný venkovní areál s budovou v pozadí, širší venkovská scéna s dřevěným domem a skupinou osob, velký skupinový snímek dětí a dospělého před budovou a skupinový portrét dospělých s viditelným zápisem `1928/29`.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_with_prior_index_found: 0
+  exif_scope: 333.jpg, 367.jpg a 5011b.jpg neobsahují EXIF. 369.jpg obsahuje obecný EXIF `DateTime` `2012:05:30 10:40:00` a údaj `Adobe Photoshop 7.0 CE`, ale ne DateTimeOriginal. 5005a.jpg obsahuje EXIF DateTimeOriginal `2012:03:15 16:52:47`; model fotoaparátu není použitelně vyplněn. Žádný z pěti souborů neobsahuje GPS údaje.
+  visible_text_scope: Na tabuli před skupinou na 5005a.jpg je bezpečně čitelné `Pětitřídní škola v Rychvaldě`. Na 5011b.jpg je nad skupinou bezpečně čitelný zápis `1928/29`. Tyto údaje jsou evidovány jako viditelný obsah fotografického pramene.
+  dating_scope: Zápis `1928/29` na 5011b.jpg není bez dalšího pramene automaticky ztotožněn s technicky ověřeným datem expozice fotografie. EXIF DateTimeOriginal 5005a.jpg a obecný EXIF DateTime 369.jpg jsou evidovány jako metadata digitálních souborů, nikoli jako historická datace zobrazených scén.
+items:
+- id: urbanek-unused-book-calendar-photographs-011
+  filename: 333.jpg
+  git_blob_sha: 8567c49cc53d76ced8ec94ae656be8518f65d0a5
+  sha256: 86a729b1907431b76cb5fd531122ab8978b8dd9043e077d951210d3793e1dea9
+  file_size_bytes: 421619
+  drive_id: 1e-YStBlQtTkB3-wLi4Tk9uoqQUTNwWd4
+  dimensions_px: [1590, 1008]
+  mode: L
+  exif: {present: false, gps_present: false}
+  visual_description: Černobílý záběr starší přízemní budovy se strmou sedlovou střechou, kombinací omítaných a dřevěných částí, plotem a stromy v okolí. Přesná stavba, funkce, vlastnictví, lokalita a datace nejsou určeny.
+  classification: [monochrome_archival_image, rural_or_farm_building_exterior, gable_roof, yard_and_fence, unidentified_building, unidentified_location]
+  unverified: [exact_building_identity_function_ownership_and_location, construction_and_photograph_date, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-012
+  filename: 367.jpg
+  git_blob_sha: 4d5a15a599ce68b468e662ebef5cb893957a3a02
+  sha256: 8a550e508011c0b5a121501ce3712bc824c4b3f38c742d85911c11b1c0f74faa
+  file_size_bytes: 127673
+  drive_id: 1R3UOUo5SbjtgUQdT_-DUyL-_IygDmRYL
+  dimensions_px: [960, 702]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Černobíle působící reprodukce venkovního obdélného upraveného areálu s nízkými konstrukcemi či lemováním, cestami, stromy a větší budovou v pozadí. Přesný druh areálu, účel, budova, lokalita a datace nejsou z obrazu samotného určeny.
+  classification: [monochrome_archival_reproduction, landscaped_rectangular_outdoor_area, paths_and_trees, building_in_background, unidentified_facility, unidentified_location]
+  unverified: [exact_facility_type_and_function, exact_building_and_location, date_of_original_photograph_and_digitization, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-013
+  filename: 369.jpg
+  git_blob_sha: eeb8a4c7515edc41ae0f92c416f3073feb512639
+  sha256: 5e2ff43d1fc3106f777af0601a51787838ab899fd097104972ec93d6d11e0057
+  file_size_bytes: 598195
+  drive_id: 1oD0kr1h5FrnRnoPpPz6_qgDlZHhk12N3
+  dimensions_px: [1811, 602]
+  mode: RGB
+  exif: {present: true, datetime: '2012:05:30 10:40:00', datetime_original: null, software: 'Adobe Photoshop 7.0 CE', gps_present: false}
+  visual_description: Široká tónovaná archivní reprodukce dřevěného domu se skupinou dospělých a dětí, hospodářskými či zahradními konstrukcemi, vodní plochou nebo zaplavenou prohlubní a malým větrným kolem v pozadí. Přesná lokalita, identita domu, funkce zařízení, osoby a historická datace nejsou určeny.
+  classification: [toned_archival_reproduction, wooden_house_exterior, group_portrait, rural_yard, small_wind_wheel, water_or_flooded_depression, unidentified_people, unidentified_location]
+  unverified: [exact_location_and_building_identity, exact_function_of_wind_wheel_and_water_feature, identities_of_visible_people, historical_date_and_original_source, meaning_of_exif_datetime_for_editing_history, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-014
+  filename: 5005a.jpg
+  git_blob_sha: 483e27f622a037fd16add54e363f9953346b7301
+  sha256: 317ea8e9ab3912224d276f1c30d44092d9e61f1efd154101c4cb676acd97f6ce
+  file_size_bytes: 800814
+  drive_id: 1p1Q-2pJBNCI11tOW1AFnnSHXRDgucIb_
+  dimensions_px: [1812, 1274]
+  mode: RGB
+  exif: {present: true, make: Canon, model: null, datetime_original: '2012:03:15 16:52:47', gps_present: false}
+  visual_description: Tónovaný skupinový portrét většího počtu dětí a jednoho dospělého před budovou. Uprostřed je prapor a na tabuli před skupinou je bezpečně čitelné `Pětitřídní škola v Rychvaldě`. Osoby, přesná budova, okolnosti a historická datace fotografie nejsou z obrazu samotného určeny.
+  classification: [toned_archival_group_photograph, school_group, children_and_adult, banner, readable_text_petitridni_skola_v_rychvalde, unidentified_people]
+  visible_text: {safe_transcription: 'Pětitřídní škola v Rychvaldě', scope_note: 'Text viditelný na tabuli v prameni; sám neurčuje přesnou budovu, osoby, ročník ani datum fotografie.'}
+  unverified: [exact_school_building_and_location, identities_and_roles_of_visible_people, event_or_school_year_context, historical_date_of_original_photograph, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-unused-book-calendar-photographs-015
+  filename: 5011b.jpg
+  git_blob_sha: af8b53fb54f076198b2d65c982e786a57f232ec1
+  sha256: 102d15918309990bb052f7c919c50469e40b841fed5f18e2b42fedff198b3506
+  file_size_bytes: 448015
+  drive_id: 1oZHgVtz58-_L2817r5sYrjHfsY7eVN7N
+  dimensions_px: [1625, 1008]
+  mode: L
+  exif: {present: false, gps_present: false}
+  visual_description: Černobílý skupinový portrét devíti dospělých před omítanou budovou. Nad skupinou je rukou psaný zápis `1928/29`. Identity osob, jejich role, přesná budova, význam zápisu a vztah k datu expozice fotografie nejsou bez dalšího pramene určeny.
+  classification: [monochrome_archival_group_photograph, adult_group_portrait, visible_year_notation_1928_29, unidentified_people, unidentified_building]
+  visible_text: {safe_transcription: '1928/29', scope_note: 'Viditelný zápis na prameni; bez dalšího podkladu není automaticky považován za technicky ověřené datum expozice.'}
+  unverified: [identities_and_roles_of_visible_people, exact_building_and_location, meaning_of_visible_1928_29_notation, relationship_of_notation_to_capture_date, photographer_and_source_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, visible scene, listed dimensions and color mode
+related_uncertainties: [URB-U-0084]
+next_batch:
+  number: 4
+  filenames: [5048.jpg, 7147.jpg, 7185.JPG, 73.jpg, 74.tif]

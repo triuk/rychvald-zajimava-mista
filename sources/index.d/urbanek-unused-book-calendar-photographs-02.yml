@@ -1,0 +1,89 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-unused-book-calendar-photographs-006
+  title: 2061.JPG
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/2061.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/2061.JPG
+  document_type: masonry_stairwell_documentation
+  mime_type: image/jpeg
+  file_size_bytes: 4814057
+  git_blob_sha: a6e1a30ebbe4e13f2f4ce45040b655b6e6cefc4e
+  sha256: 11c8711bca23c704a83cffa50064aa80721c6baa2d4cc9e538848f56b985b6ad
+  drive_id: 1IZai4dhZHWiaB5A5arBNoW1lGttEOp02
+  repo_status: verified
+  image: {width_px: 2592, height_px: 3888, color_mode: RGB}
+  classification: [color_photograph, masonry_stairwell, cellar_or_underground_space, brick_arch, unidentified_building, unidentified_location]
+  summary: Úzké zděné schodiště do podzemního či suterénního prostoru s cihelným obloukem; přesná stavba, lokalita, funkce a důvod dokumentace nejsou určeny.
+  capture_metadata: {exif_present: true, make: Canon, model: Canon EOS 400D DIGITAL, datetime_original: '2012:01:16 08:41:32', gps_present: false}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-007
+  title: 2063.JPG
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/2063.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/2063.JPG
+  document_type: painted_fragment_documentation
+  mime_type: image/jpeg
+  file_size_bytes: 2284556
+  git_blob_sha: 7926ca634b9e226deb490b0de2403a30af192789
+  sha256: 9b00fd24d6f076e377b0b78e34b310973e79863623fda8365efad64be7cd7ebb
+  drive_id: 1ZB5IafcS7-zSa3OiZV74msa7L8BMxdrM
+  repo_status: verified
+  image: {width_px: 2953, height_px: 2660, color_mode: RGB}
+  classification: [color_documentation_image, painted_fragments, detached_material_fragments, partial_marks_or_symbols, unidentified_provenance]
+  summary: Několik odlomených barevně upravených fragmentů s částečnými znaky; přesný materiál, původ, význam, stáří a stavební kontext nejsou určeny.
+  capture_metadata: {exif_present: true, make: Canon, model: Canon EOS 400D DIGITAL, datetime_original: '2012:01:16 08:59:13', gps_present: false}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-008
+  title: 2069.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/2069.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/2069.jpg
+  document_type: engineering_plan_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 460763
+  git_blob_sha: eb56617de1c20f52af7f91f1bf14c1508f48270f
+  sha256: b571cf3ffdcea6e4395c731afe15c7366e2fb2f1b363ff1ae579876194877f3f
+  drive_id: 1DioGxo-wm0NMvJikjLoTw0oxNb25t6cY
+  repo_status: verified
+  image: {width_px: 837, height_px: 1061, color_mode: RGB}
+  classification: [engineering_plan_reproduction, water_supply_plan, readable_text_rychvald, readable_text_hermanice, visible_date_june_1934, scale_1_2880]
+  summary: Reprodukce situačního plánu s titulkem `Vodovod pro velkostatek v Rychvaldě.` a datací `Orlová, v červnu 1934.`; viditelné jsou také místní popisky `Heřmanice` a `Rychvald`.
+  capture_metadata: {exif_present: true, make: Canon, model: null, datetime_original: '2012:03:11 10:37:36', gps_present: false, use: digital_image_timestamp_distinct_from_visible_plan_date}
+  visible_text:
+    safe_transcription: ['Vodovod pro velkostatek v Rychvaldě.', 'Situace.', '1:2880', 'Ing. M. Rosický, Orlová.', 'Heřmanice', 'Rychvald', 'Závod pro stavbu vodovodů ING. MIROSLAV ROSICKÝ ORLOVA', 'Orlová, v červnu 1934.']
+    scope_note: Čitelný obsah reprodukovaného plánu; realizace, úplnost a širší historický kontext nejsou v této fázi nezávisle ověřovány.
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-009
+  title: 209.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/209.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/209.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 420691
+  git_blob_sha: e92929399720fd80c1894d716c0ef170c495ad84
+  sha256: 9adee34b2b12e1e1a807c60e85870472180082821a71f4ca714c6ae1b15db4df
+  drive_id: 1T5aKxixibVB3GPCWCAcNcKrztUkTOLSi
+  repo_status: verified
+  image: {width_px: 1500, height_px: 1044, color_mode: RGB}
+  classification: [monochrome_archival_image, group_activity, ground_work, shovels_and_tools, large_stone, residential_background, unidentified_event, unidentified_people, unidentified_location]
+  summary: Několik osob provádí zemní práce s nástroji kolem velkého zaobleného kamene; přesná činnost, událost, účel kamene, lokalita, datum a osoby nejsou určeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-010
+  title: 327a.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/327a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/327a.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 587865
+  git_blob_sha: 1d9cc6086818160982d6854da7b6d6857292019b
+  sha256: a20b389ac31ff0c253a0e9be238961a9173cbf5cd994d1e1bce5d6967d2ba922
+  drive_id: 1FmwNbVf869nBQdT82Ge1s4MwOMBEDGE4
+  repo_status: verified
+  image: {width_px: 1992, height_px: 1380, color_mode: L}
+  classification: [monochrome_archival_image, building_exterior, yard_and_fence, unidentified_building, exact_binary_duplicate]
+  summary: Starší stavební areál s nízkou omítnutou budovou, tmavým dřevěným štítem, oplocením a stromy; soubor je přesná binární duplicita dříve indexovaného `fotodokument/img041.jpg`.
+  capture_metadata: {exif_present: false, gps_present: false}
+  exact_duplicate_of: {source_id: urbanek-fotodokument-root-006, repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img041.jpg}
+  uncertainty_ids: [URB-U-0084]

@@ -1,0 +1,126 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: renewed-communion-councils-and-choir-08
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / archivní soubory 38–42"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka dokumentuje malou slavnostní skupinu dětí s duchovní, tři generačně
+    odlišné skupinové fotografie spojované s radou starších a velký smíšený pěvecký
+    sbor. Obraz potvrzuje složení a uspořádání skupin, nikoli jména, funkce nebo data
+    uvedená v archivních názvech. Dva názvy jsou useknuté právě v identifikačně
+    podstatné části a nebyly doplněny odhadem.
+  basis:
+    - visual_group_composition
+    - repeated_exterior_setting
+    - archival_sequence
+    - verified_repo_files
+
+items:
+  - id: urbanek-ccs-036
+    archival_filename: "38  Farářka  Jana Šilerová obnovila slavnostní první přijímá.jpg"
+    visual_type: historical_black_and_white_small_communion_group
+    description: >-
+      Malá venkovní skupina dětí různého věku před budovou. Za dětmi stojí žena v
+      liturgickém oděvu. Část snímku je přeexponovaná a některé osoby se překrývají.
+    subject_tags: [children, clergy_woman, first_communion_claim, small_group, renewed_tradition_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "farářka Jana Šilerová obnovila slavnostní první přijímání"
+      verified_from_image: [small_child_group, female_clergy_or_liturgical_person_present, outdoor_setting]
+      unverified: [exact_date, Jana_Silerova_identity, exact_event_identity, meaning_and_timing_of_restoration, child_identities, complete_original_caption]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    filename_note: "Název končí useknutým řetězcem ‚přijímá‘; pokračování nebylo rekonstruováno."
+    uncertainty_ids: [URB-U-0058]
+
+  - id: urbanek-ccs-037
+    archival_filename: "39  Rada starších asi v r. 1945-46 sedící čtvrtý zprava bisk.jpg"
+    visual_type: historical_black_and_white_formal_council_group
+    description: >-
+      Formální venkovní skupina přibližně dvou desítek dospělých ve dvou řadách.
+      Ve skupině jsou muži i ženy; několik mužů v přední řadě má oděv nebo límec
+      spojitelný s duchovní funkcí, přesnou roli však obraz sám neurčuje.
+    subject_tags: [council_claim, adults, clergy_present, formal_group, postwar_period_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "rada starších asi roku 1945–1946 a čtvrtý sedící zprava označený useknutým slovem bisk…"
+      verified_from_image: [formal_adult_group, mixed_gender_membership, several_clergy_like_attires]
+      unverified: [exact_date, council_role_of_all_people, identity_of_fourth_seated_from_right, intended_bisk_word, all_person_identities, occasion]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    filename_note: "Název je useknut za řetězcem ‚bisk‘; nelze bezpečně určit, zda následovalo biskup, jméno nebo delší formulace."
+    uncertainty_ids: [URB-U-0059]
+
+  - id: urbanek-ccs-038
+    archival_filename: "40  Rada starších a členové sboru  26. 4.1970.jpg"
+    visual_type: historical_black_and_white_council_and_congregation_group
+    description: >-
+      Venkovní skupina více než dvou desítek dospělých před budovou. V přední řadě
+      sedí několik osob v tmavém duchovním oděvu; jedna ústřední osoba má výrazný
+      řetěz nebo závěsnou insignii. Přítomni jsou muži i ženy.
+    subject_tags: [council_claim, congregation_members_claim, clergy, insignia, dated_group_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "rada starších a členové sboru dne 26. dubna 1970"
+      verified_from_image: [large_mixed_adult_group, several_clergy, central_chain_or_insignia, exterior_building]
+      unverified: [independent_confirmation_of_date, event_or_occasion, council_membership, clergy_identities, all_person_identities, meaning_of_insignia]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0059]
+
+  - id: urbanek-ccs-039
+    archival_filename: "41  Rada starších s farářkou Janou Šilerovou, rok není určen.jpg"
+    visual_type: historical_black_and_white_small_council_group
+    description: >-
+      Neformálnější venkovní skupina třinácti dospělých ve dvou řadách u budovy a
+      zahrady. Skupina zahrnuje muže i ženy; z obrazu nelze bezpečně určit jejich
+      funkce ani duchovní osobu.
+    subject_tags: [council_claim, Jana_Silerova_claim, adults, undated_group, garden_setting]
+    identification:
+      status: partially_verified
+      archival_claim: "rada starších s farářkou Janou Šilerovou, rok neurčen"
+      verified_from_image: [thirteen_adults, mixed_gender_group, outdoor_garden_setting]
+      unverified: [exact_date, council_role, Jana_Silerova_identity, all_person_identities, occasion, relationship_to_other_council_photos]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_ids: [URB-U-0059]
+
+  - id: urbanek-ccs-040
+    archival_filename: "42  Pěvecký sbor s p. Šlachtou a Far. Vodičkou. 1933.jpg"
+    visual_type: historical_black_and_white_large_mixed_choir_group
+    description: >-
+      Velká formální skupina mužů a žen před budovou, uspořádaná ve třech řadách.
+      Dva muži sedí uprostřed přední řady; jeden drží světlý list s velmi slabě
+      viditelným kresleným znakem připomínajícím lyru nebo sborový emblém.
+    subject_tags: [choir_claim, mixed_choir, formal_group, emblem_or_lyre, Slachta_claim, Vodicka_claim, year_1933_claim]
+    identification:
+      status: partially_verified
+      archival_claim: "pěvecký sbor s panem Šlachtou a farářem Vodičkou roku 1933"
+      verified_from_image: [large_mixed_formal_group, two_central_seated_men, held_emblem_sheet]
+      unverified: [exact_date, year_1933, choir_identity, Slachta_identity_and_role, Vodicka_identity, member_identities, meaning_and_text_of_held_sheet]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_not_readable
+        note: "Na drženém listu je slabý kreslený znak; případný text není čitelný."
+    uncertainty_ids: [URB-U-0060]
+
+open_research_candidates:
+  - {id: URB-U-0058, subject: renewed_first_communion_date_Jana_Silerova_and_children}
+  - {id: URB-U-0059, subject: council_group_chronology_membership_persons_and_truncated_bishop_caption}
+  - {id: URB-U-0060, subject: choir_1933_Slachta_Vodicka_members_and_emblem}
+
+next_action: >-
+  Pokračovat položkami urbanek-ccs-041 až urbanek-ccs-045. Skupiny rady starších
+  porovnat později s členskými seznamy, zápisy a dalšími popsanými fotografiemi;
+  osoby neurčovat pouze podle vzhledu.

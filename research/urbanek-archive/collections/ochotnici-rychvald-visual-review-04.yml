@@ -1,0 +1,44 @@
+collection_id: urbanek-ochotnici
+batch_id: visual-review-04
+status: completed
+reviewed_at: 2026-07-21
+source_items: [urbanek-ochotnici-003, urbanek-ochotnici-005, urbanek-ochotnici-006, urbanek-ochotnici-007, urbanek-ochotnici-008]
+outputs:
+  - path: research/urbanek-archive/ocr/urbanek-ochotnici-006-007-008-document-text.md
+    status: visually_verified_handwriting
+    corrections:
+      - "[oknem?] -> z okna přesunovány"
+      - "[ve stáří?] -> zkusil své štěstí"
+      - "[náleželi?] po -> rojili se"
+      - "Wolflovy -> Wölflovy"
+      - "Šílec?, Hlausová?, Löwenberger? -> Šílec, Hlausová, Löwenberger"
+      - "Otýlie -> Otílie"
+    resolved_uncertainty: URB-U-0030
+  - path: research/urbanek-archive/ocr/urbanek-ochotnici-003-a-document-text.md
+    status: visually_verified_handwriting
+    corrections:
+      - "Jak město má radost -> Jak městečko má radost"
+      - "Rychtářka?, Jiříček?, Filejda? -> Rychtářka, Jiříček, Filejda"
+      - "Schönpflüger? -> Schönpflügerová"
+      - "Havlka? -> Havlka"
+      - "Grabovský? -> Grabovski"
+      - "1960–1961 -> 1959–1961"
+  - path: research/urbanek-archive/ocr/urbanek-ochotnici-003-b-document-text.md
+    status: visually_verified_handwriting_with_open_date_conflict
+    corrections:
+      - "Hospůdka u Markýty? -> Hospůdka u Markýty"
+      - "Nevyzraje na Kašpárka stará baba Hastrmanka? -> bez otazníku"
+      - "Liives? -> Liivese"
+      - "podpis -> M. Neborák"
+    confirmed: [38_her, 110_predstaveni, datum_29_unora_1960]
+    preserved_uncertainty: URB-U-0031
+summary:
+  resolved_uncertainties: [URB-U-0030]
+  narrowed_open_uncertainties: [URB-U-0031]
+next_action:
+  type: second_visual_review_batch
+  items: [urbanek-ochotnici-018, urbanek-ochotnici-002, urbanek-ochotnici-021]
+  outputs:
+    - research/urbanek-archive/ocr/urbanek-ochotnici-018-scene-text.md
+    - research/urbanek-archive/ocr/urbanek-ochotnici-002-021-scene-text.md
+  instruction: Verify selective scene text without duplicating embedded document OCR, then reconcile collection completion.

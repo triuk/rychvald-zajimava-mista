@@ -1,0 +1,260 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+batch_number: 4
+batch_id: frystat-occupation-polish-mayor-presidential-resignation-and-district-occupation-reports-04
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+  drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+  items:
+  - P1020289.JPG
+  - P1020290.JPG
+  - P1020291.JPG
+  - P1020292.JPG
+  - P1020293.JPG
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification and transcription of only clearly visible headings, masthead elements and datelines.
+- EXIF inspection; the 2013 camera timestamps are treated as reproduction-capture metadata, not as dates of the printed newspaper
+  content.
+- Exact binary duplicate check within the batch and visual-overlap check against preceding items.
+batch_findings:
+  general: Pět fotografií novinových výřezů a celých stran o obsazování Fryštátska, polském starostovi, londýnské reakci na
+    odstoupení presidenta, českých školách a převzetí Fryštátu s okolím.
+  issue_identification: P1020292.JPG přímo ukazuje označení „ČESKÉ SLOVO“ a „Strana 2.“, ale datum, ročník ani číslo vydání
+    nejsou viditelné. U ostatních snímků úplný masthead chybí. Datace Londýn 6. října patří jednotlivým zprávám a není automaticky
+    převáděna na datum vydání.
+  capture_session: Všechny soubory mají EXIF DateTime 2013-02-15 mezi 15:54:52 a 15:57:48 a uvádějí Panasonic DMC-TZ3.
+  exact_binary_duplicates_within_batch: 0
+  visual_overlap: P1020289.JPG a P1020290.JPG pokračují v překrývajících se detailech stránky fotografované v P1020286.JPG
+    až P1020288.JPG; všechny soubory jsou binárně odlišné. P1020291.JPG opakuje článek „Zůstanou na Těšínsku české školy?“,
+    ale má jiné sousední texty, proto se bez dalšího neurčuje jako stejná fyzická strana nebo stejné vydání.
+  full_page_note: P1020292.JPG a P1020293.JPG jsou dvě odlišné téměř celostránkové fotografie s různými hlavními titulky a
+    rozvržením.
+  rychvald_note: V těle článku na P1020292.JPG je přímo čitelné jméno Rychvald; jde o textový výskyt v prameni, nikoli o nezávislé
+    ověření popisované události.
+items:
+- id: urbanek-noviny-1938-ceske-slovo-016
+  filename: P1020289.JPG
+  git_blob_sha: 1c7d83ea97206fa764ae46363e5f01061186a91c
+  sha256: 4f6fceeb3a72fa69894d454d8579794541450c790d78fbafab8ab5dc5c43b3f4
+  file_size_bytes: 2349303
+  drive_id: 1LWwCu44nUv0EmNNK1TnsvISEqlYgAcBG
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:54:52'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Těsnější fotografie stejné části novinové strany jako P1020286.JPG. Zachycuje články „V sobotu se zahájí
+    obsazování Fryštátska“ s podtitulem „České obyvatelstvo zůstává na svých místech“ a „Zůstanou na Těšínsku české školy?“;
+    nejde o binární duplicitu.
+  visible_text:
+  - V sobotu se zahájí obsazování Fryštátska
+  - České obyvatelstvo zůstává na svých místech
+  - Zůstanou na Těšínsku české školy?
+  classification:
+  - newspaper_page_photograph
+  - frystat_occupation_article
+  - czech_schools_article
+  - alternate_page_capture
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-017
+  filename: P1020290.JPG
+  git_blob_sha: adb0c61b18f9ad994c9f2bcf4d21b744ae6ee38c
+  sha256: 1e167e9cb5466b99cfe683ce94e18f38207354a730ef7bf0677ee6b8cbcac861
+  file_size_bytes: 2243984
+  drive_id: 11gwyhma7xNWtw4zje92SHNKZnsWo3R58
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:55:54'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Detail novinové strany s článkem „Fryštát už má polského starostu“ a navazujícím textem „V Anglii nebude
+    povinná vojenská služba“. U druhého článku je viditelná datace Londýn 6. října; úplné údaje vydání ve výřezu nejsou.
+  visible_text:
+  - Fryštát už má polského starostu
+  - V Anglii nebude povinná vojenská služba
+  - Londýn 6. října.
+  classification:
+  - newspaper_page_photograph
+  - polish_mayor_article
+  - british_military_service_article
+  - page_detail_capture
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-018
+  filename: P1020291.JPG
+  git_blob_sha: 14cf265b490d17e0be3e022e8f4a0574281b4b61
+  sha256: cccd2c290484a0a50ddde6c7b0a2f80abe3c59822e000457ff5525f1b47ce99e
+  file_size_bytes: 3412082
+  drive_id: 1-UaWSE2stYBC1ssanikqNHfxAeHBLhre
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:56:24'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie novinové části s články „Jak přijal Londýn odstoupení presidenta“, „Zůstanou na Těšínsku
+    české školy?“ a „Generál Syrový poděkoval Cooperovi“. Článek o českých školách se v kolekci opakuje, ale zde má jiné sousední
+    texty; přesný vztah stránek nebo vydání není určen.
+  visible_text:
+  - Jak přijal Londýn odstoupení presidenta
+  - Zůstanou na Těšínsku české školy?
+  - STATEČNOST A DŮSTOJNOST V NEŠTĚSTÍ
+  - Generál Syrový poděkoval Cooperovi
+  - Londýn 6. října.
+  classification:
+  - newspaper_page_photograph
+  - presidential_resignation_reaction_article
+  - czech_schools_article
+  - syrovy_cooper_article
+  - repeated_article_different_context
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-019
+  filename: P1020292.JPG
+  git_blob_sha: 190d2a711b6a64c82f2e7b9bf90fba4039a68706
+  sha256: 3f99dede8154d1b8b17fd2dc250591612ab03189f4d23fb4ad18c9679087064e
+  file_size_bytes: 3285534
+  drive_id: 131j-TMarwO3Vj7HhSr8d59oE0PDdikLS
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:57:05'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie téměř celé druhé strany listu s označením „ČESKÉ SLOVO“ a „Strana 2.“. Hlavní články nesou
+    titulky „První část fryštátského okresu obsazena“ a „Měsíc osvobození měsícem bolesti národa“; v těle prvního textu je
+    mezi jmenovanými obcemi uveden také Rychvald. Datum, ročník a číslo vydání nejsou ve snímku viditelné.
+  visible_text:
+  - Strana 2.
+  - ČESKÉ SLOVO
+  - První část fryštátského okresu obsazena
+  - Poláci včera zabrali Fryštát a sedm dalších obcí
+  - Měsíc osvobození měsícem bolesti národa
+  - Přehled událostí od 1. října do pátku
+  - Rychvald
+  classification:
+  - newspaper_full_page_photograph
+  - frystat_district_occupation_report
+  - monthly_events_review
+  - rychvald_named_in_body_text
+  - page_two_visible
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-020
+  filename: P1020293.JPG
+  git_blob_sha: c2a955156909e7b99214a4939adbd6bd64e6d5ba
+  sha256: 2efb8107ea2385e6a0d4011ae7f9d00f1f97a3a2d507a2c39fc0e22ac5c54084
+  file_size_bytes: 3559267
+  drive_id: 1t9K5bLaF4kykXEhsE8vKPi8IFeQDqJLL
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:57:48'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie téměř celé novinové strany s nadtitulkem „Včera v 10 hodin dopoledne“ a hlavním titulkem
+    „Fryštát s okolím zabrán“. Viditelné mezititulky zahrnují „Lidé touží po spravedlnosti“ a „Vojsko ustupuje z Fryštátu“;
+    úplné údaje vydání nejsou zachyceny.
+  visible_text:
+  - Včera v 10 hodin dopoledne
+  - Fryštát s okolím zabrán
+  - Lidé touží po spravedlnosti
+  - Vojsko ustupuje z Fryštátu
+  classification:
+  - newspaper_full_page_photograph
+  - frystat_and_surroundings_occupation_report
+  - military_withdrawal_report
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+related_uncertainties:
+- URB-U-0081
+next_batch:
+  number: 5
+  filenames:
+  - P1020294.JPG
+  - P1020295.JPG
+  - P1020296.JPG
+  - P1020297.JPG
+  - P1020298.JPG

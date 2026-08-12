@@ -1,0 +1,122 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-23
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni.
+sources:
+- source_id: urbanek-ccs-111
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/6.jpg
+  file_size_bytes: 412612
+  git_blob_sha: c8c02abe6793be16cc2f2c3dbcbcfc9e1f1afcb4
+  digital_format: JPEG
+  text_layer: absent
+  rights: {status: unknown, note: 'Z osobního archivu p. Jaromíra Urbánka; neznámá práva.'}
+  title: Uvítání biskupa správcem Husitské kaple – text vložený do fotografie
+  document_type: historical_captioned_chapel_manager_bishop_welcome_photograph_reproduction
+  readability: {status: good, note: 'Tři osoby, kytice a celý vložený popisek jsou čitelné.'}
+  visual_content:
+    photographs: single_historical_chapel_manager_bishop_welcome
+    scene_text: transcribed
+    method: Vizuální kontrola celého obrazu a ruční přepis textu.
+  scene_text:
+    text: Uvítání br.biskupa správcem Husitské kaple
+    status: transcribed
+    note: Přepis znění je obrazově ověřen; identity a funkce vyžadují další pramen.
+  notes:
+  - Identita správce kaple a biskupa ani přesná událost nejsou samostatně ověřeny.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-112
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/7.jpg
+  file_size_bytes: 361343
+  git_blob_sha: d8b718e85ba3d0a17bbc86b0a4a129954b0e039a
+  digital_format: JPEG
+  text_layer: absent
+  rights: {status: unknown, note: 'Z osobního archivu p. Jaromíra Urbánka; neznámá práva.'}
+  title: Záběr z bohoslužeb před otevřeným vstupem kaple
+  document_type: historical_captioned_outdoor_chapel_service_photograph_reproduction
+  readability: {status: good, note: 'Dav, otevřený vstup, oltář a celý vložený popisek jsou čitelné.'}
+  visual_content:
+    photographs: single_historical_outdoor_chapel_service_and_congregation
+    scene_text: transcribed
+    method: Vizuální kontrola celého obrazu a ruční přepis textu.
+  scene_text:
+    text: Záběr z bohoslužeb
+    status: transcribed
+    note: Přepis znění je obrazově ověřen; přesná bohoslužba, datum a účastníci nejsou určeni.
+  notes:
+  - Souvislost s uvítacími snímky 104–106 a 111 není zatím dokumentárně potvrzena.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-113
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/8  Winklerova zvonička.jpg
+  file_size_bytes: 405120
+  git_blob_sha: 02a876d893e6363cf0d4d0062fb7e31c87ea16ed
+  digital_format: JPEG
+  text_layer: absent
+  rights: {status: unknown, note: 'Z osobního archivu p. Jaromíra Urbánka; neznámá práva.'}
+  title: Stará dřevěná Winklerova zvonička se zavěšeným zvonem – archivní označení
+  document_type: historical_old_timber_bell_tower_with_crowd_photograph_reproduction
+  readability: {status: good, note: 'Dřevěné trámy, zavěšený zvonovitý předmět a dav jsou čitelné.'}
+  visual_content:
+    photographs: single_historical_old_timber_bell_tower_with_crowd
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu a zvětšeného výřezu horní části.
+  comparison_relation:
+    related_items: [urbanek-ccs-102, urbanek-ccs-108, urbanek-ccs-114, urbanek-ccs-115]
+    assessment: Položky podporují posloupnost staré subtilní a nové masivní dřevěné konstrukce; přesný rok a proces výměny vyžadují dokumentární potvrzení.
+  notes:
+  - Označení Winklerova zvonička pochází z archivního názvu.
+  - V horní části je viditelný zavěšený zvon nebo zřetelně zvonovitý předmět.
+  - Souvisí s URB-U-0069.
+- source_id: urbanek-ccs-114
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/8a  V r. 2016 byla stará zvonička demontována a nahrazena novou.jpg
+  file_size_bytes: 944194
+  git_blob_sha: db6ea94988ad8b5c9edc756ab1d2326754c642d4
+  digital_format: JPEG
+  text_layer: absent
+  rights: {status: unknown, note: 'Z osobního archivu p. Jaromíra Urbánka; neznámá práva.'}
+  title: Nová dřevěná zvonice – archivní tvrzení o náhradě roku 2016
+  document_type: modern_color_new_timber_bell_tower_photograph
+  readability: {status: good, note: 'Celá nová konstrukce, zvon, stříška, horní symbol a plošina jsou dobře čitelné.'}
+  visual_content:
+    photographs: single_modern_new_timber_bell_tower_full_view
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu a EXIF metadat.
+  capture_metadata:
+    camera_make: myPhone_FUN4
+    camera_model: myPhone FUN4
+    exif_datetime_original: '2016-10-02 14:04:23'
+    exif_datetime_digitized: '2016-10-02 14:04:23'
+    file_datetime: '2016-10-03 09:09:40'
+    software: Windows Photo Editor 10.0.10011.16384
+    interpretation: Pokud byly hodiny fotoaparátu správné, nová zvonice existovala a byla fotografována 2. října 2016; přesný den demontáže a dokončení z toho neplyne.
+  notes:
+  - Rok 2016 a tvrzení o demontáži a náhradě pocházejí z archivního názvu a jsou podpořeny, nikoli plně prokázány, EXIF datem nové konstrukce.
+  - Souvisí s URB-U-0069.
+- source_id: urbanek-ccs-115
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS na Ostravici/8b.jpg
+  file_size_bytes: 1070456
+  git_blob_sha: 48afff1c4a1ecc0b6652e3877db9a276166a723e
+  digital_format: JPEG
+  text_layer: absent
+  rights: {status: unknown, note: 'Z osobního archivu p. Jaromíra Urbánka; neznámá práva.'}
+  title: Nová dřevěná zvonice z nízkého úhlu
+  document_type: modern_color_new_timber_bell_tower_low_angle_photograph
+  readability: {status: good, note: 'Sloupy, stříška, zavěšený zvon, horní symbol a svislé lano jsou dobře čitelné.'}
+  visual_content:
+    photographs: single_modern_new_timber_bell_tower_low_angle_detail
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu a EXIF metadat.
+  capture_metadata:
+    camera_make: myPhone_FUN4
+    camera_model: myPhone FUN4
+    exif_datetime_original: '2016-10-02 14:05:02'
+    exif_datetime_digitized: '2016-10-02 14:05:02'
+    file_datetime: '2016-10-03 09:10:52'
+    software: Windows Photo Editor 10.0.10011.16384
+    interpretation: Snímek vznikl podle EXIF o 39 sekund později než položka 114 a podporuje společné fotografické sezení.
+  comparison_relation:
+    related_item: urbanek-ccs-114
+    assessment: Stejná nová zvonice zachycená z jiného úhlu během stejného fotografického sezení.
+  notes:
+  - Identita zvonu, jeho původ a případné přenesení ze staré zvonice nejsou ověřeny.
+  - Souvisí s URB-U-0069.

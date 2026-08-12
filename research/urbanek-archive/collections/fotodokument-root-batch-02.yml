@@ -1,0 +1,200 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 2
+batch_id: buildings-school-exhibition-group-and-sacral-exterior-02
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items:
+  - img041.jpg
+  - img042.jpg
+  - img043.jpg
+  - img044.jpg
+  - img045.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive folder listing, metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection.
+- First visual classification without inferring building identity, function, date or person identity from appearance alone.
+- Safe transcription of clearly readable banner text; partially legible lower banner data are not reconstructed.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: 'Pět archivních obrazů: tři exteriéry různých staveb, skupinový portrét před budovou s bannerem k výstavě 60 let školy v Rychvaldě
+    na Podlesí a exteriér stavby se sakrální architekturou.'
+  exact_binary_duplicates_within_batch: 0
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani způsob vzniku digitalizace.
+  visible_text_scope: Na img044.jpg je bezpečně čitelné „VÝSTAVA 60 let školy V RYCHVALDĚ NA PODLESÍ“. Spodní údaje banneru nejsou dostatečně
+    čitelné pro spolehlivou dataci. Na img042.jpg je tabulka a znak, ale text tabulky není bezpečně čitelný.
+  identity_scope: Čitelný banner je evidován jako textový údaj pramene. Sám o sobě neidentifikuje osoby, přesnou dataci, přesnou budovu ani všechny
+    okolnosti události. U ostatních staveb se identita, funkce a lokalita nedovozují z architektury.
+items:
+- id: urbanek-fotodokument-root-006
+  filename: img041.jpg
+  git_blob_sha: 1d9cc6086818160982d6854da7b6d6857292019b
+  sha256: a20b389ac31ff0c253a0e9be238961a9173cbf5cd994d1e1bce5d6967d2ba922
+  file_size_bytes: 587865
+  drive_id: 1LoxjhE2qpHxIBV1kXUqhqpuib_5WsfIw
+  dimensions_px:
+  - 1992
+  - 1380
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý záběr staršího stavebního areálu s nízkou omítnutou budovou, tmavým dřevěným štítem či nástavbou, oplocením a
+    vzrostlými listnatými stromy bez listí; další stavba je částečně viditelná v pozadí. Přesná funkce, lokalita a datace nejsou z obrazu samotného
+    určeny.
+  classification:
+  - monochrome_archival_image
+  - building_exterior
+  - yard_and_fence
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-007
+  filename: img042.jpg
+  git_blob_sha: 8187608c0feb0dddef0504e8029efdc663b1ff56
+  sha256: aed605959dc252388e530aafb129602f2da4c2707139b32f42cae0dcaa313d11
+  file_size_bytes: 350817
+  drive_id: 1TsCG9VDLkQ5us0hoP9OewZ8nPcS3GtDw
+  dimensions_px:
+  - 1902
+  - 1272
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý záběr podlouhlé přízemní budovy se svislým obkladem, sedlovou taškovou střechou, několika okny a zděným suterénem.
+    Na průčelí je heraldicky působící znak a světlá informační tabulka; text tabulky není bezpečně čitelný. Přesná identita, funkce, lokalita
+    a datace nejsou z obrazu samotného určeny.
+  classification:
+  - monochrome_archival_image
+  - single_storey_building_exterior
+  - facade_emblem_and_notice
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - facade_notice_text
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-008
+  filename: img043.jpg
+  git_blob_sha: 9eebfbf6b0dc1cd672837b1a74160bd83a6aef12
+  sha256: 2436d457aca41f58cb5091a559c3154cf63779c9719829547abcba336c9abb0a
+  file_size_bytes: 177722
+  drive_id: 18Ge4rKtekiAWokCJJlZklVjE2W9vS8Ay
+  dimensions_px:
+  - 1590
+  - 1020
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý záběr větší dvoupodlažní budovy s pravidelnými řadami oken, jednoduchou fasádou a úzkou věžičkou či střešním nástavcem
+    na jednom konci; navazuje na ni nižší boční část. Přesná funkce, název, lokalita a datace nejsou z architektury samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - multi_storey_building_exterior
+  - small_roof_turret
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - building_function_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-009
+  filename: img044.jpg
+  git_blob_sha: 8255f7e593a979630a21d422278a068ef79aa180
+  sha256: 59fc9252fba632a190d434ead8eded55d76eb068bdc570bd2a703d62d4b55099
+  file_size_bytes: 437246
+  drive_id: 1Qb591cslo08Bqn5Dc87HHdfm7fDwIByP
+  dimensions_px:
+  - 2088
+  - 1494
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý skupinový portrét dospělých mužů a žen před budovou. Vlevo za skupinou je banner s bezpečně čitelným textem „VÝSTAVA
+    60 let školy V RYCHVALDĚ NA PODLESÍ“. Spodní část banneru obsahuje další, jen částečně čitelné údaje; přesná datace se proto nezapisuje. Osoby
+    na snímku nejsou identifikovány.
+  classification:
+  - monochrome_archival_group_photograph
+  - group_portrait
+  - school_exhibition_banner
+  - rychvald_podlesi_textual_reference
+  - unidentified_people
+  unverified:
+  - identities_of_people
+  - exact_event_date
+  - exact_physical_location_and_building_identity
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+  - 'visible banner wording: VÝSTAVA 60 let školy V RYCHVALDĚ NA PODLESÍ'
+- id: urbanek-fotodokument-root-010
+  filename: img045.jpg
+  git_blob_sha: 2219a35332e023f6be3c8eb5f8d176bee02d179e
+  sha256: 884234975d9177edd0cc7bc5370e691b29e2ed7a39781c5df22a5cdd67f77fe8
+  file_size_bytes: 1132750
+  drive_id: 1OkYUsoEurB2Lf18sD8WSTs1ppM2PPbGC
+  dimensions_px:
+  - 2039
+  - 2477
+  mode: RGB
+  exif:
+    present: false
+  visual_description: 'Černobíle působící vertikální záběr stavby se sakrální architekturou: vysoká hranolová věž s polygonálně zakončenou střechou
+    a lucernou, obloukovými otvory, navazující lodí a krytým vstupem. Přesný název, denominace, lokalita a datace nejsou z obrazu samotného určeny.'
+  classification:
+  - monochrome_archival_image
+  - sacral_architecture_exterior
+  - tower_and_nave
+  - unidentified_building
+  unverified:
+  - exact_location_and_building_identity
+  - denomination_and_building_function
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected

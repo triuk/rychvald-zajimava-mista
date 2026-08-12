@@ -1,0 +1,154 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-40
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: >-
+  Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři vložených fotografií,
+  vydavatel, tiskárna a držitelé práv nejsou plně ověřeni. Závěrečná strana uvádí
+  podpis čitelný jako Jana Šilerová a údaj „zpracováno: fa. Grafik Aja“.
+sources:
+- source_id: urbanek-ccs-196
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář 2015/11.jpg
+  file_size_bytes: 11696469
+  git_blob_sha: 659c0c2c81af84a686a3a6b9e80a08613f20efed
+  sha256: 823faf77fddebbfb92d1dcd8c6a52bda8e8a793af10d873a2bad7b0b07f38bdf
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px: [2385, 3354]
+  text_layer: absent
+  embedded_metadata:
+    artist: Corel Corporation
+    xp_author: Corel Corporation
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář září 2015 – nástěnné malby
+  document_type: modern_commemorative_calendar_month_page_with_historical_and_modern_photographs
+  readability:
+    status: good
+    note: Grafika, popisky a text jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Čitelné texty potvrzují znění publikované stránky, nikoli automaticky historickou správnost tvrzení.
+  - EXIF Artist a XPAuthor jsou pouze vložené metadatové řetězce a samy neurčují autorskou odpovědnost.
+  - Souvisí s URB-U-0073.
+- source_id: urbanek-ccs-197
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář 2015/12.jpg
+  file_size_bytes: 11884478
+  git_blob_sha: 266f9de709152a903c402a488cad1914890256a9
+  sha256: c563b329979546fe5eeba99784efd1ac660632ffe18c02fa15a30a09f39708b0
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px: [2385, 3354]
+  text_layer: absent
+  embedded_metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář říjen 2015 – okupační zásahy a římskokatolické užívání
+  document_type: modern_commemorative_calendar_month_page_with_historical_photographs
+  readability:
+    status: good
+    note: Grafika, popisky a text jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Čitelné texty potvrzují znění publikované stránky, nikoli automaticky historickou správnost tvrzení.
+  - EXIF Artist a XPAuthor jsou pouze vložené metadatové řetězce a samy neurčují autorskou odpovědnost.
+  - Souvisí s URB-U-0073.
+- source_id: urbanek-ccs-198
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář 2015/13.jpg
+  file_size_bytes: 12137679
+  git_blob_sha: a1e38f036d3d34481631cfce3511bb023c234585
+  sha256: 6b3ad23781a6e52d69fe09b6510370a7f3037cdda0bcd21f91064953fc0ef395
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px: [2385, 3354]
+  text_layer: absent
+  embedded_metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář listopad 2015 – koncerty, ZUŠ a varhany
+  document_type: modern_commemorative_calendar_month_page_with_concert_photographs
+  readability:
+    status: good
+    note: Grafika, popisky a text jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Čitelné texty potvrzují znění publikované stránky, nikoli automaticky historickou správnost tvrzení.
+  - EXIF Artist a XPAuthor jsou pouze vložené metadatové řetězce a samy neurčují autorskou odpovědnost.
+  - Souvisí s URB-U-0073.
+- source_id: urbanek-ccs-199
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář 2015/14.jpg
+  file_size_bytes: 12623207
+  git_blob_sha: 1e7b2b3ae9ebd3b495fcb0742ade4bc5552d4b76
+  sha256: d27f8b91088e36285cc848d8f5a7e02bf52756dee0a0d905209742611f643cb3
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px: [2385, 3354]
+  text_layer: absent
+  embedded_metadata:
+    artist: Pavla
+    xp_author: Pavla
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Kalendář prosinec 2015 – portréty duchovních
+  document_type: modern_commemorative_calendar_month_page_with_clergy_portraits
+  readability:
+    status: good
+    note: Grafika, popisky a text jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle ověřována.
+  visual_content:
+    photographs: calendar_page_or_composite_with_photographs
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Čitelné texty potvrzují znění publikované stránky, nikoli automaticky historickou správnost tvrzení.
+  - EXIF Artist a XPAuthor jsou pouze vložené metadatové řetězce a samy neurčují autorskou odpovědnost.
+  - Souvisí s URB-U-0073.
+- source_id: urbanek-ccs-200
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář 2015/15.jpg
+  file_size_bytes: 10760277
+  git_blob_sha: 4e8f8621bbd9d0335241c5c3172cdfa669178560
+  sha256: 585b4ae4a7348c9860906f0f3074daad558c3f91f46e2b3a956ae2f07c48c07d
+  digital_format: JPEG
+  color_mode: CMYK
+  dimensions_px: [2385, 3354]
+  text_layer: absent
+  embedded_metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  title: Závěrečná strana kalendáře 2015 s poděkováním a produkčním údajem
+  document_type: modern_commemorative_calendar_closing_text_and_partial_credits
+  readability:
+    status: good
+    note: Grafika, popisky a text jsou čitelné; historická tvrzení nebyla touto dávkou nezávisle ověřována.
+  visual_content:
+    photographs: none
+    scene_text: readable
+    method: Vizuální kontrola celé stránky a zvětšených výřezů.
+  notes:
+  - Čitelné texty potvrzují znění publikované stránky, nikoli automaticky historickou správnost tvrzení.
+  - EXIF Artist a XPAuthor jsou pouze vložené metadatové řetězce a samy neurčují autorskou odpovědnost.
+  - Souvisí s URB-U-0073.

@@ -1,0 +1,147 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-chapel-welcome-cabin-bell-tower-and-plaques-22
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 5 Kaple CČS na Ostravici / archivní soubory 5, 5a, 5 b, 5 c a 5 d
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka pokračuje slavnostní sérií uvítáním duchovního archivně označeného jako biskup
+    zástupcem MNV a dále dokumentuje moderní podobu dřevěné chatky, staré dřevěné věžové
+    konstrukce označené jako Winklerova zvonička a dvou pamětních desek. Konstrukce na
+    urbanek-ccs-108 odpovídá typem a proporcemi věži vedle kaple na historickém snímku
+    urbanek-ccs-102, což podporuje vztah k témuž objektu, ale samo neurčuje jeho funkci,
+    dataci ani osobu Winklera. Desky na urbanek-ccs-109 a 110 obsahují čitelné údaje o
+    roce 1937, Ferdinandu Stiborovi, Bohumíru Liškovi a Alfredu Farníkovi. Ověřeno je
+    znění nápisů, nikoli bez dalšího jejich historická správnost.
+  basis:
+    - full_image_visual_review
+    - manual_scene_text_transcription
+    - architectural_cross_batch_comparison
+    - verified_repo_files
+    - embedded_metadata_review
+items:
+  - id: urbanek-ccs-106
+    archival_filename: 5.jpg
+    visual_type: historical_black_and_white_captioned_MNV_bishop_welcome
+    description: >-
+      Dva muži stojí proti sobě v interiéru. Vlevo je muž v obleku, vpravo muž v tmavém
+      duchovním oděvu s brýlemi a výrazným řetězem nebo insignií; mezi nimi je kytice.
+      Ve spodní části fotografie je vložen psaný popisek.
+    subject_tags: [civilian_man, clergy, glasses, chain_or_insignia, bouquet, MNV_claim, bishop_claim, welcome, embedded_caption]
+    identification:
+      status: partially_verified
+      archival_caption_claim: Uvítání br.biskupa zástupcem MNV
+      verified_from_image: [civilian_man_in_suit, male_clergy_in_dark_robe, glasses, chain_or_insignia, bouquet, caption_strip]
+      unverified: [all_person_identities, MNV_representative_identity_and_role, bishop_identity_and_office, exact_event, date, location, relationship_to_items_104_and_105]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: transcribed
+        text: Uvítání br.biskupa zástupcem MNV
+        note: Ruční přepis čitelného textu v obraze; historická tvrzení popisku vyžadují nezávislé ověření.
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0070]
+  - id: urbanek-ccs-107
+    archival_filename: 5a chatka na Ostravici.jpg
+    visual_type: modern_color_hillside_wooden_cabin_exterior
+    description: >-
+      Na zalesněném svahu stojí nízká obdélná stavba obložená tmavými dřevěnými prkny.
+      Má sedlovou střechu, komín, několik bílých okenic a betonovou nebo omítanou spodní část.
+    subject_tags: [wooden_cabin, hillside, dark_timber_cladding, gable_roof, chimney, white_shutters, Ostravice_claim]
+    identification:
+      status: partially_verified
+      archival_claim: chatka na Ostravici
+      verified_from_image: [low_rectangular_building, dark_timber_cladding, gable_roof, chimney, white_shutters, sloping_wooded_setting]
+      unverified: [building_identity, relationship_to_chapel, exact_location, construction_date, use, ownership, image_date]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0069]
+  - id: urbanek-ccs-108
+    archival_filename: 5 b Winklerova zvonička.jpg
+    visual_type: modern_color_old_timber_bell_tower_close_view
+    description: >-
+      Na kamenné nebo betonové plošině stojí vysoká otevřená dřevěná věžová konstrukce
+      tvořená několika svislými trámy a plochou stříškou. Nad střechou pokračuje dlouhá
+      kovová tyč zakončená okem; před konstrukcí jsou venkovní lavice. Samotný zvon není
+      v obraze zřetelně rozeznatelný.
+    subject_tags: [Winkler_bell_tower_claim, timber_tower, roof, metal_rod, outdoor_benches, stone_platform, modern_color]
+    identification:
+      status: partially_verified
+      archival_claim: Winklerova zvonička
+      verified_from_image: [tall_open_timber_tower, flat_or_shallow_roof, long_metal_rod_with_loop, stone_or_concrete_platform, outdoor_benches]
+      unverified: [tower_identity, Winkler_name_and_role, bell_presence_or_absence, tower_function, construction_date, relationship_to_item_102, image_date]
+    comparison_relation:
+      related_item: urbanek-ccs-102
+      assessment: >-
+        Konstrukce odpovídá typem, svislými trámy, stříškou a horní tyčí věži na historickém
+        exteriéru; pravděpodobně jde o tentýž objekt v pozdější době.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0069]
+  - id: urbanek-ccs-109
+    archival_filename: 5 c.jpg
+    visual_type: modern_color_Hus_chapel_memorial_plaque
+    description: >-
+      Tmavá kamenná pamětní deska na světlé stěně nese znak kalicha s křížem a víceřádkový
+      nápis o Husově kapli, Winklerově zvonici, roce 1937 a Ferdinandu Stiborovi.
+    subject_tags: [memorial_plaque, Hus_chapel, Winkler_bell_tower, year_1937_inscription, Ferdinand_Stibor_inscription, Czechoslovak_Hussite_Church, chalice_and_cross_symbol]
+    identification:
+      status: partially_verified
+      verified_from_image: [dark_stone_plaque, chalice_and_cross_symbol, readable_main_inscription]
+      unverified: [date_and_author_of_plaque, historical_accuracy_of_inscription, exact_site, meaning_of_small_lower_left_mark]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: transcribed
+        text: |-
+          HUSOVA KAPLE
+          S WINKLEROVOU ZVONICÍ
+          KAPLE CÍRKVE ČESKOSLOVENSKÉ HUSITSKÉ
+          BYLA POSTAVENA A SLAVNOSTNĚ OTEVŘENA
+          V ROCE 1937 PRVNÍM OSTRAVSKÝM
+          BISKUPEM FERDINANDEM STIBOREM
+        note: Ruční přepis čitelného textu v obraze; historická tvrzení nápisu vyžadují nezávislé ověření.
+    inscription_evidence_note: Čitelnost potvrzuje znění nápisu, nikoli automaticky historickou správnost uvedených údajů.
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0069]
+  - id: urbanek-ccs-110
+    archival_filename: 5 d.jpg
+    visual_type: modern_color_Hus_chapel_construction_plaque
+    description: >-
+      Tmavá obdélná pamětní deska na světlé stěně nese víceřádkový nápis s daty
+      21. 3.–4. 7. 1937, jmény Ferdinand Stibor, Bohumír Liška a Alfred Farník a údajem
+      o darech příslušníků CČS.
+    subject_tags: [construction_plaque, Hus_chapel, construction_dates_inscription, Ferdinand_Stibor_inscription, Bohumir_Liska_inscription, Alfred_Farnik_inscription, Czechoslovak_Church, donations_inscription]
+    identification:
+      status: partially_verified
+      verified_from_image: [dark_rectangular_plaque, readable_inscription, dates_and_names_visibly_inscribed]
+      unverified: [date_and_author_of_plaque, historical_accuracy_of_inscription, exact_site, Ferdinand_Stibor_role, Bohumir_Liska_identity_and_role, Alfred_Farnik_identity_and_architectural_authorship, meaning_of_construction_date_range]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: transcribed
+        text: |-
+          HUSOVA KAPLE DIECÉSE OSTRAVSKÉ CČS.
+          VYSTAVĚNA 21. 3. – 4. 7. 1937 ZA BISKUPA
+          FERDINANDA STIBORA
+          A PŘEDS. PROPAG. SBORU
+          BOHUMÍRA LIŠKY
+          DLE NÁVRHU ARCH. ING.
+          ALFREDA FARNÍKA
+          Z DARŮ OBĚTAVÝCH PŘÍSLUŠNÍKŮ CČS.
+        note: Ruční přepis čitelného textu v obraze; historická tvrzení nápisu vyžadují nezávislé ověření.
+    inscription_evidence_note: Čitelnost potvrzuje znění nápisu, nikoli automaticky historickou správnost uvedených údajů.
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0069]
+open_research_candidates:
+  - {id: URB-U-0069, subject: Ostravice_chapel_cabin_Winkler_bell_tower_plaques_dates_people_and_architecture}
+  - {id: URB-U-0070, subject: Ostravice_chapel_bishop_welcome_by_MNV_representative}
+next_action: >-
+  Pokračovat položkami urbanek-ccs-111 až urbanek-ccs-115 v podsložce Kaple CČS na Ostravici:
+  soubory 6.jpg, 7.jpg, 8  Winklerova zvonička.jpg, 8a  V r. 2016 byla stará zvonička
+  demontována a nahrazena novou.jpg a 8b.jpg. Porovnat další stavební stavy s položkami
+  102, 107 a 108 a zvlášť ověřit tvrzení o výměně zvoničky roku 2016.

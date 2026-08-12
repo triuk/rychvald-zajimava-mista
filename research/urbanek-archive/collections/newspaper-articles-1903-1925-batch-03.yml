@@ -1,0 +1,107 @@
+schema_version: 1
+collection_id: urbanek-newspaper-articles-1903-1925
+collection_title: novinové články 1903 - 1925
+batch_number: 3
+batch_id: rychvald-elections-voter-lists-and-ostrava-daily-clippings-03
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/novinové články 1903 - 1925
+  drive_folder_id: 1OOe829hkaoHoNRs0HyajQROhknLD_aeg
+  items: [img989.jpg, img990.jpg, img991.jpg, img992.jpg, img993.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Raw Drive download from the canonical collection folder and byte-size/Git-blob comparison with the repository.
+- SHA-256, dimensions, color mode, EXIF and GPS-field inspection.
+- First visual/text classification of photographed newspaper material using only directly visible bibliographic data, headings and wording.
+- Printed historical assertions remain claims of the printed source and are not promoted to independently verified facts during phase-1 indexing.
+- Relationships between separate images are recorded only where direct overlapping or split printed text demonstrates continuity.
+- Exact binary duplicate check within the batch and repository search for matching Git blob SHA in indexed source records.
+batch_findings:
+  general: Pět historických novinových reprodukcí vztahujících se k rychvaldským volbám, volebním seznamům a česko-polskému tématu; tři soubory vytvářejí přímo doloženou obrazovou/textovou sekvenci kolem článku o volebních seznamech.
+  exact_binary_duplicates_within_batch: 0
+  matching_prior_index_blob_sha_found: 0
+  exif_scope: img989.jpg obsahuje výrobce Canon a obecný EXIF DateTime `2013:05:29 14:39:53`, ale ne DateTimeOriginal; model není použitelně vyplněn. Ostatní čtyři soubory EXIF neobsahují. Žádný z pěti souborů neobsahuje GPS údaje.
+  relationship_scope: img990.jpg a img991.jpg zachycují překrývající se část téhož tištěného článku `Volební listiny jsou v Rychvaldě podruhé vyloženy.`. img991.jpg končí rozděleným slovem `česko-pol-` a img992.jpg začíná `ské zgody!`, čímž je přímo doloženo pokračování textu.
+  visible_text_scope: img990.jpg obsahuje `OBRANA SLEZSKA`, `číslo 28.`, `V Orlové, 12. července 1912.`, `III. ročník.` a záhlaví `Volební listiny jsou v Rychvaldě podruhé vyloženy.`. img993.jpg obsahuje `OSTRAVSKÝ DENNÍK`, `Ročník VI.`, `V Mor. Ostravě, ve čtvrtek dne 18. října 1906.`, `Číslo 238.` a záhlaví `Boj—česko-polský.`.
+items:
+- id: urbanek-newspaper-articles-1903-1925-011
+  filename: img989.jpg
+  git_blob_sha: 70874402480d06dabaefea30dd4cf814ebf96c60
+  sha256: 4aeabb667d27426e4304ffd16ec28f024fb0ba4be6e407412730a11455e68db4
+  file_size_bytes: 2111401
+  drive_id: 1mD7mPpb2n0V-FLuOuD_K28qTcMa8zfn8
+  dimensions_px: [1018, 3427]
+  mode: RGB
+  exif: {present: true, make: Canon, model: null, datetime: '2013:05:29 14:39:53', datetime_original: null, gps_present: false}
+  visual_description: Fotografická reprodukce dlouhého novinového sloupce věnovaného volbám v Rychvaldě; přímo čitelné jsou mimo jiné formulace `V sobotu 23. března konaly se volby kostelního výboru v Rychvaldě.` a další text o průběhu hlasování. Masthead, číslo a datum vydání na tomto výřezu nejsou zachyceny.
+  classification: [newspaper_reproduction, rychvald_election_report, church_committee_election_topic, missing_visible_masthead_and_issue_data]
+  visible_text: {safe_transcription: 'V sobotu 23. března konaly se volby kostelního výboru v Rychvaldě.', scope_note: 'Tištěné tvrzení dobového článku; není v této fázi nezávisle ověřováno.'}
+  unverified: [periodical_title_issue_date_and_page, exact_article_beginning_and_end, original_copy_provenance, historical_claims_in_article, meaning_of_generic_exif_datetime_for_digitization_history, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-012
+  filename: img990.jpg
+  git_blob_sha: c45a97a77676eff1f6ed879642c18c2d478a471f
+  sha256: 4b7039911e03be54624aec6bef4549552a4b6a7fbba0d999c1d941d607c1494e
+  file_size_bytes: 2203565
+  drive_id: 1LLj434K1vClu5Wtg1K-h2GQpf3WOarc2
+  dimensions_px: [2933, 2262]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce horní části novinové strany `OBRANA SLEZSKA`. Bezpečně čitelné jsou číslo 28, Orlová 12. července 1912 a III. ročník. Vpravo dole začíná článek `Volební listiny jsou v Rychvaldě podruhé vyloženy.`; jeho úvod se překrývá s img991.jpg.
+  classification: [newspaper_reproduction, obrana_slezska, issue_28, visible_date_1912_07_12, year_III, voter_lists_article, direct_overlap_with_img991]
+  visible_text: {safe_transcription: ['OBRANA SLEZSKA', 'číslo 28.', 'V Orlové, 12. července 1912.', 'III. ročník.', 'Volební listiny jsou v Rychvaldě podruhé vyloženy.'], scope_note: 'Tištěné bibliografické a článkové údaje reprodukovaného periodika.'}
+  relationship: {direct_text_overlap_with: urbanek-newspaper-articles-1903-1925-013}
+  unverified: [exact_page_number_and_article_extent, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-013
+  filename: img991.jpg
+  git_blob_sha: e5fa08025862dc98338170e73fdd5201f9cdffdf
+  sha256: 1768e2c085e6d652977c5b8275f85de6f318da72c72d40f5973cc716e1028ddf
+  file_size_bytes: 837460
+  drive_id: 1lB4-McpH9m_ucf_vWdA87aqqM5lRpysm
+  dimensions_px: [1061, 1505]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografický detail článku `Volební listiny jsou v Rychvaldě podruhé vyloženy.`. Začátek se překrývá s výřezem na img990.jpg. Poslední řádek hlavního článku končí `česko-pol-`, které přímo pokračuje na začátku img992.jpg jako `ské zgody!`.
+  classification: [newspaper_reproduction, voter_lists_article, direct_overlap_with_img990, direct_continuation_to_img992, rychvald]
+  visible_text: {safe_transcription: 'Volební listiny jsou v Rychvaldě podruhé vyloženy.', scope_note: 'Přímo viditelné záhlaví článku.'}
+  relationship: {direct_text_overlap_with: urbanek-newspaper-articles-1903-1925-012, direct_text_continuation_to: urbanek-newspaper-articles-1903-1925-014}
+  unverified: [exact_page_number_and_article_extent, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-014
+  filename: img992.jpg
+  git_blob_sha: da1850c29dc6da442dcbee0c97d677b642ee6263
+  sha256: 91890557e272c980ff820f79316bbf6db75d1ab5bcefbbbad16cc8975da1db80
+  file_size_bytes: 1831186
+  drive_id: 12Aj5qMNeQE6y6uENh4yiHurWWWS_TfkB
+  dimensions_px: [1235, 3072]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce druhé strany či další části novinového textu. První viditelný fragment `ské zgody!` přímo dokončuje rozdělené `česko-pol-` na konci img991.jpg. Následující text pokračuje v tématu rychvaldských voleb a volebních seznamů.
+  classification: [newspaper_reproduction, article_continuation, direct_continuation_from_img991, rychvald_election_and_voter_lists_topic, page_marker_strana_2]
+  visible_text: {safe_transcription: ['Strana 2.', 'ské zgody!'], scope_note: 'Začátek textu přímo dokončuje rozdělené slovo z img991.jpg.'}
+  relationship: {direct_text_continuation_from: urbanek-newspaper-articles-1903-1925-013}
+  unverified: [periodical_issue_and_date_for_this_page_crop, exact_article_end, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-newspaper-articles-1903-1925-015
+  filename: img993.jpg
+  git_blob_sha: 3cdb26c4af0be7dbcaebb96c49052470c33f551a
+  sha256: 176b257a7de6494bac98499e45ef94561324d50bfb36f476b0e2796fbd50af37
+  file_size_bytes: 1141275
+  drive_id: 17bFGh6Ozf7QqxWnj4b-zixCP7SVHQJHN
+  dimensions_px: [3294, 1667]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Fotografická reprodukce horní části novin `OSTRAVSKÝ DENNÍK`. Bezpečně čitelné jsou ročník VI, Moravská Ostrava 18. října 1906, číslo 238 a záhlaví `Boj—česko-polský.`. Viditelný text přímo zmiňuje Rychvald a sčítání lidu.
+  classification: [newspaper_reproduction, ostravsky_denik, issue_238, visible_date_1906_10_18, year_VI, czech_polish_topic, readable_text_rychvald]
+  visible_text: {safe_transcription: ['OSTRAVSKÝ DENNÍK', 'Ročník VI.', 'V Mor. Ostravě, ve čtvrtek dne 18. října 1906.', 'Číslo 238.', 'Boj—česko-polský.'], scope_note: 'Tištěné bibliografické a článkové údaje reprodukovaného periodika.'}
+  unverified: [exact_page_number_and_article_extent, original_copy_provenance, historical_claims_in_article, photographer_or_digitizer, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, dimensions, color mode and stated metadata fields
+related_uncertainties: [URB-U-0085]
+next_batch:
+  number: 4
+  filenames: [img995.jpg, Thumbs.db, ZbThumbnail.info]

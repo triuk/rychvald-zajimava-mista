@@ -1,0 +1,105 @@
+schema_version: 1
+collection_id: urbanek-popopo
+collection_title: popopo
+batch_number: 4
+batch_id: crucifix-detail-tree-settlement-and-sokol-memorial-building-04
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/popopo
+  drive_folder_id: 1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR
+  items: [P1010748a.jpg, P1010749.JPG, P1010752.JPG, P1010754.JPG, P1010755a.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Raw Drive files were downloaded and compared by byte size and Git blob SHA with the repository path.
+- SHA-256, dimensions, color mode, EXIF and GPS-field inspection was performed on every file.
+- First visual classification records only directly visible landscape, architecture, signage and inscription evidence.
+- Direct image-feature correspondence is used to record scene/detail relationships only where the photographed object is demonstrably the same; sequence or EXIF proximity alone is insufficient.
+- Generic EXIF DateTime values without DateTimeOriginal are recorded only as file metadata and not as historical or object dates.
+- Memorial inscription wording is recorded as source-visible text; historical assertions contained in the inscription are not independently verified during phase-1 indexing.
+- Exact binary duplicate check within the batch and repository search for matching Git blob SHA in already indexed source records.
+batch_findings:
+  exact_binary_duplicates_within_batch: 0
+  matching_prior_index_blob_sha_found: 0
+  exif_scope: Všech pět souborů uvádí Panasonic DMC-TZ3 a software `Ver.1.0`, ale obsahují pouze obecný EXIF DateTime, nikoli DateTimeOriginal. Hodnoty jsou: P1010748a.jpg `2012:04:10 12:38:17`, P1010749.JPG `2012:04:10 12:52:07`, P1010752.JPG `2012:04:13 14:41:22`, P1010754.JPG `2012:04:17 15:53:55`, P1010755a.jpg `2012:04:17 15:54:44`. Žádný soubor neobsahuje GPS údaje.
+  relationship_scope: P1010748a.jpg je alternativní záběr či upravená reprodukce stejného krucifixu jako P1010747a.jpg; přímá obrazová shoda je doložena rozsáhlou korespondencí detailů. P1010755a.jpg je detail pamětní desky umístěné na budově zachycené v P1010754.JPG; vztah je doložen přímo vizuální shodou fasády a desky.
+  visible_text_scope: Na P1010748a.jpg je `I.N.R.I.`. Na P1010754.JPG jsou bezpečně čitelné mimo jiné `RESTAURACE`, `PENZION` a `PIVNICE`. P1010755a.jpg nese nápis `PAMÁTCE RODINY EICHENBAUMŮ`, `V TÉTO BUDOVĚ`, `19. LISTOPADU 1905`, `BYL ZALOŽEN`, `SOKOL RYCHVALD` a `1949`.
+items:
+- id: urbanek-popopo-016
+  filename: P1010748a.jpg
+  git_blob_sha: 567b7e6c52ac33c964ffd7a6423e94aadef3c7ac
+  sha256: 999c95fc71ca4c894e0840d8d06885c9db3706e3c5bb59570ca534f124482ce6
+  file_size_bytes: 1333397
+  drive_id: 1sulSEUAkDrtG9PI5-x-oPqfGC_uGUS8S
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:10 12:38:17', datetime_original: null, gps_present: false}
+  visual_description: Alternativní záběr či upravená reprodukce stejného venkovního dřevěného krucifixu jako P1010747a.jpg. Viditelné jsou korpus, oblouková stříška, květinová výzdoba a `I.N.R.I.`. Přesná lokalita a historie objektu nejsou určeny.
+  classification: [color_photograph, wayside_crucifix, same_object_as_P1010747a, visible_INRI, unidentified_location]
+  visible_text: {safe_transcription: 'I.N.R.I.'}
+  relationship: {same_photographed_object_as: urbanek-popopo-015, evidence: direct_visual_feature_correspondence}
+  unverified: [exact_location_and_object_identity, construction_or_installation_date, authorship_dedication_and_history, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-017
+  filename: P1010749.JPG
+  git_blob_sha: 808cd5d0ad7bd819142175905f73f468978cbd4f
+  sha256: 2cfd26b3cb7ad62ca46fa8562063b6ea21d871d4566ca5b59437696995610dc6
+  file_size_bytes: 3479902
+  drive_id: 12RdWgHtnupncnYANb6aaNdv4oh62VvKM
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:10 12:52:07', datetime_original: null, gps_present: false}
+  visual_description: Barevná fotografie výrazného starého listnatého stromu u komunikace a elektrického vedení, v pozadí s dalšími stromy. Přesná lokalita, druh či památkový status stromu a jeho historie nejsou určeny.
+  classification: [color_photograph, mature_tree, roadside_setting, utility_lines, unidentified_location]
+  unverified: [exact_location, tree_identity_species_age_or_memorial_status, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-018
+  filename: P1010752.JPG
+  git_blob_sha: 774bc6e06f60708b4d78abd0c52b423be2dfb1b0
+  sha256: 6c59f8ac19c478555d946b4552c65c42eb30c02f4d62324878581c16cbeb11a9
+  file_size_bytes: 3349753
+  drive_id: 1kGKC5QpUv9eCAs565iQq7KdOYrmvVeBq
+  dimensions_px: [3072, 2304]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:13 14:41:22', datetime_original: null, gps_present: false}
+  visual_description: Barevná fotografie okraje zástavby přes travnatou plochu, s několika vzrostlými stromy a různými budovami v pozadí. Přesná lokalita, identity staveb a význam stromů nejsou určeny.
+  classification: [color_photograph, settlement_edge, mature_trees, multiple_buildings, grassland, unidentified_location]
+  unverified: [exact_location, building_identities_functions_and_history, tree_identity_or_status, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-019
+  filename: P1010754.JPG
+  git_blob_sha: 19dcaad5621703b7bb7239094e516ff0ef2f75c3
+  sha256: b268eda55297faa5bc68557e2e4e6efccf2e79ca15d8b241bee4799fb415263c
+  file_size_bytes: 3142958
+  drive_id: 1NLVc3Lmi3UQvXljGbwhxhxFvB2FYgp6x
+  dimensions_px: [3072, 2304]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:17 15:53:55', datetime_original: null, gps_present: false}
+  visual_description: Barevná fotografie větší omítané budovy u komunikace s restauračním vstupem, reklamními nápisy a tmavou pamětní deskou na fasádě. Bezpečně čitelné jsou mimo jiné `RESTAURACE`, `PENZION` a `PIVNICE`. Přesná adresa, název podniku, vlastnictví a historie budovy nejsou určeny pouze z tohoto celkového záběru.
+  classification: [color_photograph, large_building, restaurant_signage, memorial_plaque_visible, roadside_setting, exact_address_unverified]
+  visible_text: {safe_transcription: ['RESTAURACE', 'PENZION', 'PIVNICE'], scope_note: 'Přepisují se jen bezpečně čitelné obecné nápisy; úplný obchodní název není rekonstruován.'}
+  relationship: {memorial_plaque_detail_in: urbanek-popopo-020}
+  unverified: [exact_address_and_business_identity, building_ownership_and_history_beyond_visible_inscription, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-020
+  filename: P1010755a.jpg
+  git_blob_sha: bb813b813798352a536abc586295bf0168462e95
+  sha256: 1e34e2ad53272b274cbddb2b1f2b8d4e9cb6642a5789912a39aabe9fb181c30f
+  file_size_bytes: 1131620
+  drive_id: 1zidCJ7-yXSlpLoVq1Ae-ppTDfSB6gC4F
+  dimensions_px: [2360, 1772]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:17 15:54:44', datetime_original: null, gps_present: false}
+  visual_description: Detail tmavé pamětní desky zasazené do fasády budovy zachycené na P1010754.JPG. Nápis připomíná rodinu Eichenbaumů a uvádí, že v této budově byl 19. listopadu 1905 založen Sokol Rychvald; vpravo je rok `1949`. Jde o text pamětní desky, nikoli v této fázi nezávisle ověřenou historickou skutečnost.
+  classification: [color_photograph, memorial_plaque, Eichenbaum_family_inscription, Sokol_Rychvald_inscription, visible_dates_1905_and_1949, same_building_as_P1010754]
+  visible_text: {safe_transcription: ['PAMÁTCE RODINY EICHENBAUMŮ', 'V TÉTO BUDOVĚ', '19. LISTOPADU 1905', 'BYL ZALOŽEN', 'SOKOL RYCHVALD', '1949'], scope_note: 'Přepis pamětního nápisu; historická tvrzení vyžadují pozdější pramenné ověření.'}
+  relationship: {plaque_on_building_in: urbanek-popopo-019, evidence: direct_visual_correspondence}
+  unverified: [historical_accuracy_and_context_of_inscription, plaque_authorship_installation_date_and_history, exact_building_address_and_ownership, photographer_and_source_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, dimensions, color mode and stated EXIF/GPS fields
+related_uncertainties: [URB-U-0087]
+next_batch:
+  number: 5
+  filenames: [P1010764.JPG, P1010765a.jpg, P1010791.JPG, P1010791a.jpg, img129.jpg]

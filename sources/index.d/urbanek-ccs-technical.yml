@@ -1,0 +1,53 @@
+schema_version: 1
+scope: urbanek-ccs-history-technical-files
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autorská a databázová práva nejsou ověřena.
+sources:
+- source_id: urbanek-ccs-tech-001
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/10 Kalendář
+    2015/Thumbs.db
+  source_path: 10 Kalendář 2015/Thumbs.db
+  drive_id: 1UR9-TOX20gexQsxgM_o-oFxiV4wVOEiM
+  file_size_bytes: 70656
+  git_blob_sha: 91d73b30448ce8f8aa02a8ed79dafee5d349f0c2
+  sha256: 056cb436b5556dea975512e8ff00cd80ffb8eaa7ecbf7c3c4795e8f47831d037
+  media_type: application/octet-stream
+  digital_format: OLE_CFB_Windows_Thumbs_db
+  document_type: windows_thumbnail_cache
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka.; neznámá práva.
+  audit:
+    status: completed_structurally_incomplete_no_missing_source_filenames
+    catalog_record_count: 16
+    catalog_jpeg_filenames:
+    - 1.jpg
+    - 2.jpg
+    - 3.jpg
+    - 4.jpg
+    - 5.jpg
+    - 6.jpg
+    - 7.jpg
+    - 8.jpg
+    - 9.jpg
+    - 10.jpg
+    - 11.jpg
+    - 12.jpg
+    - 13.jpg
+    - 14.jpg
+    - 15.jpg
+    internal_guid_entries:
+    - '{A42CD7B6-E9B9-4D02-B7A6-288B71AD28BA}'
+    fully_decoded_page_thumbnails: 14
+    partially_available_page_thumbnails: 1
+    partial_thumbnail_filename: 15.jpg
+    folder_composite_thumbnails: 1
+    additional_source_filenames_found: 0
+    missing_full_originals_evidenced: 0
+    structural_note: CFB chains reference one MiniFAT sector and six root mini-stream sectors beyond EOF; the 15.jpg thumbnail
+      stream is incomplete.
+    conclusion: Cache catalogues exactly the fifteen present calendar JPEGs and does not evidence any missing full original.
+  evidence:
+  - research/urbanek-archive/reports/historie-cirkve-ceskoslovenske-thumbs-audit.md
+  - research/urbanek-archive/collections/historie-cirkve-ceskoslovenske-technical-inventory.csv

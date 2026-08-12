@@ -1,0 +1,275 @@
+collection_id: urbanek-mlyny
+batch_id: millstones-and-house-339
+status: completed
+source_folders:
+  - Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny
+  - Rychvaldské větrné mlýny/Mlýn u domku č. pop. 339
+item_count: 14
+new_visual_inspections: 13
+exact_duplicates_reused: 1
+document_text_candidates: 3
+scene_text_candidates: 2
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+items:
+  - id: urbanek-mlyny-023
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010652.JPG
+    visual_type: photographed_information_sheet_detail
+    dimensions: [3072, 2304]
+    captured_at: "2011-11-15T12:33:25"
+    date_basis: exif_datetime_original
+    description: Detail spodní části poškozeného informačního listu o historii a typech větrných mlýnů.
+    document_group: kouzlo-vetrnych-mlynu-jan-doubek
+    related_full_view_id: urbanek-mlyny-024
+    ocr:
+      document_text: machine_unverified
+      transcript_path: research/urbanek-archive/ocr/urbanek-mlyny-024-document-text.md
+      role: supplementary_detail_for_verification
+      scene_text: not_applicable
+    identification:
+      status: partially_verified
+      note: Název a autor jsou čitelné na úplnějším snímku urbanek-mlyny-024.
+
+  - id: urbanek-mlyny-024
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010651.JPG
+    visual_type: photographed_information_sheet
+    dimensions: [2304, 3072]
+    captured_at: "2011-11-15T12:33:07"
+    date_basis: exif_datetime_original
+    description: Celý poškozený informační list „Kouzlo větrných mlýnů“ od Jana Doubka se třemi fotografiemi a textem.
+    document_group: kouzlo-vetrnych-mlynu-jan-doubek
+    ocr:
+      document_text: machine_unverified
+      transcript_path: research/urbanek-archive/ocr/urbanek-mlyny-024-document-text.md
+      scene_text: not_applicable
+    identification:
+      status: verified_visual
+      note: Název „Kouzlo větrných mlýnů“ a jméno Jan Doubek jsou přímo čitelné na listu; historická tvrzení uvnitř listu nejsou ověřena.
+
+  - id: urbanek-mlyny-025
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010650.JPG
+    visual_type: contemporary_digital_photograph_of_museum_exhibit
+    dimensions: [2304, 3072]
+    captured_at: "2011-11-15T12:24:42"
+    date_basis: exif_datetime_original
+    description: Menší mlecí stroj s dřevěnou násypkou, kruhovým mlecím tělesem, velkou řemenicí a nádobou pod výsypkou.
+    subject_tags: [grain_grinder, hopper, pulley, museum_exhibit]
+    identification:
+      status: unverified
+      note: Přesný typ, výrobce a původ zařízení nejsou z fotografie bezpečně čitelné.
+    ocr:
+      document_text: not_applicable
+      scene_text: present_but_not_legible
+      note: Doprovodné muzejní štítky v pozadí jsou příliš malé pro spolehlivý přepis.
+
+  - id: urbanek-mlyny-026
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010649.JPG
+    visual_type: contemporary_digital_photograph_of_museum_exhibit
+    dimensions: [3072, 2304]
+    captured_at: "2011-11-15T12:24:09"
+    date_basis: exif_datetime_original
+    description: Dřevěný model větrného mlýna německého nebo sloupového typu se čtyřmi mřížovými křídly.
+    subject_tags: [windmill_model, four_sails, museum_exhibit]
+    identification:
+      status: unverified
+      note: Konkrétní předloha modelu není na snímku bezpečně určena.
+    ocr:
+      document_text: not_applicable
+      scene_text: detected_truncated_not_transcribed
+      note: Pravá část doprovodného panelu je oříznutá; viditelné fragmenty nestačí k souvislému spolehlivému přepisu.
+
+  - id: urbanek-mlyny-027
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010648.JPG
+    visual_type: contemporary_digital_photograph_of_museum_exhibit
+    dimensions: [2304, 3072]
+    captured_at: "2011-11-15T12:20:52"
+    date_basis: exif_datetime_original
+    description: Dva kamenné mlecí prvky; vpředu kruhový kámen s radiálním rýhováním a za ním hranatý blok s kruhovou pracovní plochou.
+    subject_tags: [millstones, carved_stone, museum_exhibit]
+    identification:
+      status: partially_verified
+      note: Jde zjevně o mlecí kameny, jejich stáří, původ a konkrétní použití nejsou doloženy.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-028
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010647.JPG
+    visual_type: contemporary_digital_photograph_of_museum_exhibit
+    dimensions: [2304, 3072]
+    captured_at: "2011-11-15T12:20:10"
+    date_basis: exif_datetime_original
+    description: Rozměrnější dřevěná konstrukce s dvojicí mlýnských kamenů, závěsnými háky a dalším nářadím v muzejní expozici.
+    subject_tags: [millstones, wooden_frame, lifting_hooks, museum_exhibit]
+    identification:
+      status: unverified
+      note: Přesný typ mechanismu a původ exponátu nejsou z fotografie určeny.
+    ocr:
+      document_text: not_applicable
+      scene_text: machine_unverified
+      transcription:
+        - text: "Výroba mouky z obilí"
+          location: panel_v_pozadi_vpravo
+          confidence: high
+      note: Zbytek panelu je příliš malý a částečně zakrytý pro spolehlivý přepis.
+
+  - id: urbanek-mlyny-029
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010646.JPG
+    visual_type: contemporary_digital_photograph_of_museum_exhibit
+    dimensions: [2304, 3072]
+    captured_at: "2011-11-15T12:19:58"
+    date_basis: exif_datetime_original
+    description: Ruční kamenný mlýnek v dřevěné skříni s otočnou horní částí, klikou a boční výsypkou.
+    subject_tags: [hand_mill, millstone, crank, wooden_box, museum_exhibit]
+    identification:
+      status: partially_verified
+      note: Funkce ručního mletí je patrná z konstrukce, konkrétní původ a datace nejsou doloženy.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-030
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010645.JPG
+    visual_type: contemporary_digital_photograph_of_museum_exhibit
+    dimensions: [2304, 3072]
+    captured_at: "2011-11-15T12:19:38"
+    date_basis: exif_datetime_original
+    description: Ručně poháněné mlecí zařízení na dřevěném rámu s dvojicí kamenných částí, klikou a spodní pracovní nebo odkládací plochou.
+    subject_tags: [hand_mill, millstone, crank, wooden_frame, museum_exhibit]
+    identification:
+      status: unverified
+      note: Přesná konstrukční funkce jednotlivých částí a původ exponátu nebyly ověřeny.
+    ocr:
+      document_text: not_applicable
+      scene_text: present_but_not_legible
+      note: Panel v pozadí je zachycen příliš malý a neúplný.
+
+  - id: urbanek-mlyny-031
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010587.JPG
+    visual_type: contemporary_digital_photograph
+    dimensions: [3072, 2304]
+    captured_at: "2011-08-23T13:11:03"
+    date_basis: exif_datetime_original
+    description: Tři kamenné mlecí prvky položené venku u stěny; vlevo kruhový kámen, uprostřed hranatý blok s kruhovou prohlubní a vpravo menší kruhový kámen.
+    subject_tags: [millstones, outdoor_storage, carved_stone]
+    visual_sequence_group: outdoor-millstones-2011-08-23
+    identification:
+      status: partially_verified
+      note: Funkce mlecích kamenů je pravděpodobná, původ a stáří nejsou doloženy.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-032
+    source_path: Rychvaldské větrné mlýny/mlýnské kameny a ruční mlýny/P1010586.JPG
+    visual_type: contemporary_digital_photograph
+    dimensions: [3072, 2304]
+    captured_at: "2011-08-23T13:10:53"
+    date_basis: exif_datetime_original
+    description: Jiný záběr stejné trojice kamenných mlecích prvků jako urbanek-mlyny-031, pořízený o deset sekund dříve.
+    subject_tags: [millstones, outdoor_storage, carved_stone]
+    visual_sequence_group: outdoor-millstones-2011-08-23
+    identification:
+      status: partially_verified
+      note: Funkce mlecích kamenů je pravděpodobná, původ a stáří nejsou doloženy.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-036
+    source_path: Rychvaldské větrné mlýny/Mlýn u domku č. pop. 339/img605.jpg
+    visual_type: handwritten_technical_sketch
+    dimensions: [1751, 1217]
+    captured_at: null
+    date_basis: not_available
+    description: Ruční náčrt nízkého objektu s věží a větrným kolem doplněný rozměry a poznámkou o mlýnku za domem č. 339.
+    document_group: house-339-windmill
+    identification:
+      status: verified_document_group
+      verified_name: mlýnek za domem č. 339
+      basis: [handwritten_note_in_document, user_confirmation, visual_comparison]
+      related_ids: [urbanek-mlyny-037, urbanek-mlyny-038]
+      verification: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      linked_open_item: URB-U-0038
+      current_address_candidate:
+        address: "Bohumínská 339, 735 32 Rychvald"
+        parcel: "st. 548"
+        coordinates: [49.8707364, 18.3753053]
+        status: unverified_historical_continuity
+      note: Dokumentační celek je ověřen, přesná historická poloha zůstává otevřená.
+    ocr:
+      document_text: machine_unverified
+      transcript_path: research/urbanek-archive/ocr/urbanek-mlyny-036-document-text.md
+      scene_text: not_applicable
+
+  - id: urbanek-mlyny-037
+    source_path: Rychvaldské větrné mlýny/Mlýn u domku č. pop. 339/img603.jpg
+    visual_type: historical_black_and_white_photograph
+    dimensions: [642, 996]
+    captured_at: null
+    date_basis: not_available
+    description: Vysoká příhradová kovová věž s vícelopatkovým větrným kolem za dřevěnou hospodářskou stavbou; část kola je mimo horní okraj snímku.
+    subject_tags: [historical_wind_wheel, metal_tower, wooden_outbuilding]
+    document_group: house-339-windmill
+    identification:
+      status: verified_document_group
+      verified_name: mlýnek za domem č. 339
+      basis: [user_confirmation, visual_comparison, related_handwritten_sketch]
+      related_ids: [urbanek-mlyny-036, urbanek-mlyny-038]
+      verification: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      linked_open_item: URB-U-0038
+      note: Fotografie patří k témuž zařízení jako náčrt; přesná historická poloha zůstává otevřená.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-038
+    source_path: Rychvaldské větrné mlýny/Mlýn u domku č. pop. 339/img604.jpg
+    visual_type: historical_black_and_white_photograph
+    dimensions: [666, 971]
+    captured_at: null
+    date_basis: not_available
+    description: Druhý záběr vícelopatkového větrného kola na příhradové kovové věži, částečně zakrytého stromem a střechou.
+    subject_tags: [historical_wind_wheel, metal_tower, trees, roof]
+    document_group: house-339-windmill
+    identification:
+      status: verified_document_group
+      verified_name: mlýnek za domem č. 339
+      basis: [user_confirmation, visual_comparison, related_handwritten_sketch]
+      related_ids: [urbanek-mlyny-036, urbanek-mlyny-037]
+      verification: research/urbanek-archive/verifications/urb-u-0010-house-339-device-group.md
+      linked_open_item: URB-U-0038
+      note: Fotografie patří k témuž zařízení jako náčrt; přesná historická poloha zůstává otevřená.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+  - id: urbanek-mlyny-039
+    source_path: Rychvaldské větrné mlýny/Mlýn u domku č. pop. 339/Kakalův mlýn.jpg
+    visual_type: cropped_historical_photograph_reproduction
+    description_source: exact_duplicate
+    exact_duplicate_of: urbanek-mlyny-012
+    other_exact_duplicate_ids: [urbanek-mlyny-022]
+    git_blob_sha: 7a746e9bcf23a8e2a5fc49eafa2dc58658be9d7a
+    description: Přesná binární kopie výřezu historického obrazu klasifikovaného u urbanek-mlyny-012.
+    collection_relevance:
+      status: probable_misfiled_or_reference_copy
+      note: Soubor označený Kakalův mlýn je ve složce domu č. 339 bez vysvětlení vztahu.
+    identification:
+      status: verified_by_archive_owner_confirmation
+      verified_name: Kakalův mlýn
+      basis: [original_filename, user_archive_knowledge]
+      verification: research/urbanek-archive/verifications/urb-u-0007-kakaluv-mlyn.md
+      note: Identita obrazu je potvrzena; důvod uložení kopie ve složce domu č. 339 zůstává neověřený.
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+
+findings:
+  - Položky 023 a 024 zachycují tentýž informační list; 024 je úplný záběr, 023 detail spodní části.
+  - Položky 025–030 a pravděpodobně také informační list pocházejí z jedné muzejní expozice fotografované 15. listopadu 2011.
+  - U položky 028 je bezpečně čitelný pouze nadpis panelu „Výroba mouky z obilí“.
+  - Položky 031 a 032 jsou časová a obrazová série stejné trojice kamenů.
+  - Uživatel potvrdil, že náčrt 036 a fotografie 037–038 zachycují stejné zařízení označené v náčrtu jako mlýnek za domem č. 339; přesná historická poloha je vedena v URB-U-0038.
+  - Položka 039 je přesná kopie obrázku Kakalova mlýna a její vztah ke složce domu č. 339 není vysvětlen.

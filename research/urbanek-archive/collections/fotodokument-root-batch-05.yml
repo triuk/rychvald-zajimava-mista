@@ -1,0 +1,206 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+collection_title: fotodokument – soubory v kořeni
+batch_number: 5
+batch_id: rural-buildings-and-settlement-landscapes-05
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/fotodokument
+  scope: direct files excluding completed den po dešti subfolder
+  drive_folder_id: 1ticuUCf9X7zLOOAcUgv5ACLCnb_0bGJn
+  items:
+  - img060.jpg
+  - img061.jpg
+  - img062.jpg
+  - img063.jpg
+  - img064.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical fotodokument folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- SHA-256, image dimensions, color mode and EXIF inspection.
+- First visual classification without inferring exact locality, historical date, building function, ownership or infrastructure
+  type from appearance alone.
+- Exact binary duplicate check among the five selected paths.
+batch_findings:
+  general: 'Pět černobílých archivních obrazů: venkovský stavební celek ve svahu, nízká utilitárně působící stavba, podlouhlá
+    starší budova a dva širší krajinné pohledy na rozptýlenou zástavbu.'
+  exact_binary_duplicates_within_batch: 0
+  metadata_scope: Žádný z pěti JPEGů neobsahuje použitelná EXIF metadata. Z absence EXIF se neodvozuje historická datace ani
+    způsob vzniku digitalizace.
+  visible_text_scope: Na žádném z pěti snímků není bezpečně čitelný text, který by určoval lokalitu, objekt nebo datum.
+  identity_scope: Architektonické a krajinné znaky jsou pouze popisovány. Přesná funkce staveb, lokalita, vlastnictví, historická
+    datace a druh lineární infrastruktury na img063.jpg nejsou bez dalšího pramene tvrzeny.
+items:
+- id: urbanek-fotodokument-root-021
+  filename: img060.jpg
+  git_blob_sha: 80a3e55cfc570980d176d96a38238280b60e6d48
+  sha256: 06d83296700178e182739ef163ae98137c682241849a349cdd559ccd69368e2e
+  file_size_bytes: 268982
+  drive_id: 1LXduESO17KtCFGuz3ZQuTkmQzQF__JUN
+  dimensions_px:
+  - 1578
+  - 1014
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý pohled přes travnatý svah na starší omítnutý dům se sedlovou střechou, částečně krytý stromy,
+    a několik menších dřevěných hospodářsky působících staveb či přístřešků. Přesná lokalita, funkce jednotlivých staveb,
+    vlastnictví a datace nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - rural_building_cluster
+  - meadow_foreground
+  - trees_and_fence
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - building_functions_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-022
+  filename: img061.jpg
+  git_blob_sha: 3d92b7f85dfb5bfb13a6f154e1a573d43f54ef62
+  sha256: 92a68cc2b0b5e4ba936cfa9fa62c79f08a6ade8108d81404f0c678d72e0abcd1
+  file_size_bytes: 174817
+  drive_id: 1aEwIJ9tt6jPgVZ0DnXeH9-WV3IMAZUhy
+  dimensions_px:
+  - 1578
+  - 1014
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý záběr nízké podlouhlé lehké či dřevěné stavby s komíny, velkým vícetabulkovým oknem a přístřeškem;
+    v popředí je jednoduchá kovová konstrukce a komunikace. Stavba působí utilitárně, její přesná funkce, provozovatel, lokalita
+    a datace však nejsou z obrazu samotného určeny.
+  classification:
+  - monochrome_archival_image
+  - low_utilitarian_building_exterior
+  - chimneys
+  - multi_pane_window
+  - unidentified_function
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - exact_building_function_operator_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-023
+  filename: img062.jpg
+  git_blob_sha: e22fd57a06f63638b7076134078e35e115cc07a3
+  sha256: 525895e92992e545d587bc3d58c7fa497ec9a51416bc34b4b874d33fcddff95b
+  file_size_bytes: 202389
+  drive_id: 1xAQQeAZ7MOAWQJuT1lFySwMX6UAhbUes
+  dimensions_px:
+  - 1578
+  - 1014
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý čelní pohled přes komunikaci na podlouhlou přízemní omítnutou budovu s taškovou střechou,
+    řadou oken a dveří a středovým vikýřovým či štítovým prvkem s dřevěnými okenicemi. Přesná identita, funkce, vlastnictví,
+    lokalita a datace nejsou určeny.
+  classification:
+  - monochrome_archival_image
+  - single_storey_building_exterior
+  - tiled_roof
+  - central_dormer_or_gable
+  - unidentified_building
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - building_functions_and_ownership
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-024
+  filename: img063.jpg
+  git_blob_sha: 2882f65504cd76d9e667410b2e5f274f0d7808a9
+  sha256: 581034cb64298499b45640cc764c9c451133be5d7146c21dd55d5bc19fc2e481
+  file_size_bytes: 519182
+  drive_id: 1r9mSRhJ4u3UCNiityqxMwGRnmFuXfXaZ
+  dimensions_px:
+  - 2003
+  - 1416
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý široký krajinný pohled přes pole a louky na rozptýlenou zástavbu mezi stromy. Středem scény
+    vede výrazná lineární trasa se sloupy; její přesný druh není bez dalšího podkladu určován. Přesná lokalita a datace nejsou
+    z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - rural_landscape
+  - fields_and_meadows
+  - scattered_settlement
+  - linear_infrastructure_with_poles
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - exact_type_and_context_of_linear_infrastructure
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected
+- id: urbanek-fotodokument-root-025
+  filename: img064.jpg
+  git_blob_sha: d2b32824a38fb487708943598b8a197e4064402e
+  sha256: fdbc52dac1a48ac521817ffa754bebffb6cac4b5a4b35983f63b38608384396f
+  file_size_bytes: 355212
+  drive_id: 1TbildlLGOsBSdLv6IDooqTsdeiei-spP
+  dimensions_px:
+  - 2034
+  - 1422
+  mode: L
+  exif:
+    present: false
+  visual_description: Černobílý krajinný pohled na zvlněnou zemědělskou krajinu s rozptýlenými domy, zahradami či sady, poli
+    a zakřivenou cestou. Přesná lokalita, identita jednotlivých staveb a datace nejsou z fotografie samotné určeny.
+  classification:
+  - monochrome_archival_image
+  - rural_landscape
+  - scattered_houses
+  - fields_and_orchards
+  - curving_road
+  - unidentified_location
+  unverified:
+  - exact_location_and_subject_identity
+  - identity_and_function_of_visible_buildings
+  - date_of_original_photograph_and_digitization
+  - photographer_and_source_provenance
+  - copyright_and_reuse_rights
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - SHA-256, visible scene, listed image dimensions and color mode
+  - absence of EXIF entries in the JPEG metadata inspected

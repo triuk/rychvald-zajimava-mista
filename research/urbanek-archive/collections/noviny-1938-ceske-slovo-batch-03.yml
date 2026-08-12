@@ -1,0 +1,245 @@
+schema_version: 1
+collection_id: urbanek-noviny-1938-ceske-slovo
+collection_title: Noviny 1938 České slovo
+batch_number: 3
+batch_id: tesin-refugees-occupied-industry-frystat-occupation-schools-and-european-news-03
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Noviny 1938 České slovo
+  drive_folder_id: 1UMqGJWYoEVI25_1mk2fxXoe_T-T-V7hB
+  items:
+  - P1020284.JPG
+  - P1020285.JPG
+  - P1020286.JPG
+  - P1020287.JPG
+  - P1020288.JPG
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification and transcription of only clearly visible headings and datelines.
+- EXIF inspection; the 2013 camera timestamps are treated as reproduction-capture metadata, not as dates of the printed newspaper
+  content.
+- Exact binary duplicate check within the batch and visual-overlap check against preceding items.
+batch_findings:
+  general: Pět fotografií článkových výřezů o uprchlících z Těšínska, výrobě v obsazeném území, zahájení obsazování Fryštátska,
+    českých školách a souvisejících evropských zprávách.
+  issue_identification: Na žádném z pěti snímků není úplný masthead s datem, ročníkem a číslem vydání. Datace 4. a 6. října
+    jsou součástí jednotlivých zpráv a nejsou automaticky převáděny na datum vydání.
+  capture_session: Všechny soubory mají EXIF DateTime 2013-02-15 mezi 15:52:23 a 15:54:45 a uvádějí Panasonic DMC-TZ3.
+  exact_binary_duplicates_within_batch: 0
+  visual_overlap: P1020286.JPG až P1020288.JPG jsou tři překrývající se fotografie téže novinové strany. P1020287.JPG a P1020288.JPG
+    mají téměř stejný výřez, ale odlišné rámování, velikost a binární hash.
+  filename_sequence_note: Dávka plynule pokračuje od P1020283.JPG; dříve evidovaná absence P1020282.JPG zůstává pouze nejistotou
+    posloupnosti bez důkazu chybějícího archivního originálu.
+items:
+- id: urbanek-noviny-1938-ceske-slovo-011
+  filename: P1020284.JPG
+  git_blob_sha: 3a32f3aa6fefd6b901953b3ce73bf82acb2e3cae
+  sha256: 24d005a4be5d61101517e191c587ba8eb4277d54f4f9a40f1f59baba86cce0e7
+  file_size_bytes: 3438366
+  drive_id: 1bGVZH1WKAEj-tXH_JLPB-xtnZX3DaNwk
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:52:23'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie novinového výřezu s článkem „Uprchlíci z Těšínska do Slezské Ostravy“ a podtitulem „Ubytování
+    hlavně v soukromí“. Text pojednává o ubytování lidí, kteří opustili obsazované části Těšínska; úplné údaje vydání nejsou
+    ve výřezu viditelné.
+  visible_text:
+  - Uprchlíci z Těšínska do Slezské Ostravy
+  - Ubytování hlavně v soukromí
+  classification:
+  - newspaper_page_photograph
+  - tesin_refugees_article
+  - silesian_ostrava_accommodation_article
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-012
+  filename: P1020285.JPG
+  git_blob_sha: 19b743af9e4cecdbca2d07db7936bcc4e9e6d2a8
+  sha256: 017ec960eba1f5d81f206e279604e2361aa411d05fefea76bc23727676b9ca04
+  file_size_bytes: 2744679
+  drive_id: 12SPcofBHeX_xhnUtbLRTg6ocBmmqRL2n
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:53:40'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Fotografie novinového výřezu s článkem „Poláci nepřeruší výrobu v obsazeném území“. Úvod nese dataci
+    „Varšava 4. října. ČTK. (Pat.)“; jde o dataci zprávy, nikoli samostatně ověřené datum vydání.
+  visible_text:
+  - Poláci nepřeruší výrobu v obsazeném území
+  - Varšava 4. října. ČTK. (Pat.)
+  classification:
+  - newspaper_page_photograph
+  - occupied_territory_industry_article
+  - polish_administration_article
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-013
+  filename: P1020286.JPG
+  git_blob_sha: 854c887f3ae9d0438f8c8c9ebbff826785079e60
+  sha256: bf4887de4f9a4751b2eb877ed5909838e914f25cfa6ae9717e89710faddbb230
+  file_size_bytes: 3493828
+  drive_id: 1HkLgP5mRbPdkgfbCOMQgAW-MgoB2KyXS
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:54:32'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Širší fotografie novinové strany s hlavním článkem „V sobotu se zahájí obsazování Fryštátska“, podtitulem
+    „České obyvatelstvo zůstává na svých místech“ a navazujícím článkem „Zůstanou na Těšínsku české školy?“.
+  visible_text:
+  - V sobotu se zahájí obsazování Fryštátska
+  - České obyvatelstvo zůstává na svých místech
+  - Zůstanou na Těšínsku české školy?
+  classification:
+  - newspaper_page_photograph
+  - frystat_occupation_article
+  - czech_population_article
+  - czech_schools_article
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-014
+  filename: P1020287.JPG
+  git_blob_sha: 7295e137c50e80b25fd318627e15103411b313a8
+  sha256: 4056d461d10171a10d1d4b1bfdacd12da7381bf683d28e54f38a6f1f54472c58
+  file_size_bytes: 3461488
+  drive_id: 1ohOClkFThtbwTHxEXKdaaLdt0lXSUWb6
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:54:37'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Těsnější fotografie spodní části stejné novinové strany jako P1020286.JPG. Viditelné jsou články „Zůstanou
+    na Těšínsku české školy?“, „Demobilisace ve Francii“ a „Bombardování Valencie“; poslední dva mají v textu dataci 6. října.
+  visible_text:
+  - Zůstanou na Těšínsku české školy?
+  - Demobilisace ve Francii
+  - Bombardování Valencie
+  - Paříž 6. října. ČTK.
+  - Valencie 6. října.
+  classification:
+  - newspaper_page_photograph
+  - czech_schools_article
+  - france_demobilization_article
+  - valencia_bombing_article
+  - alternate_page_capture
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+- id: urbanek-noviny-1938-ceske-slovo-015
+  filename: P1020288.JPG
+  git_blob_sha: 625fac109f25fce1d61431031cbb840976dc2b3f
+  sha256: dd5f144e3aaf0b1584fab0157865baa68be2074ea0b4ea0103a2185d1ff9d6f4
+  file_size_bytes: 1979729
+  drive_id: 1jmPc191sTTpamfC07IvYOcXXwsl713Mu
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2013-02-15 15:54:45'
+    software: Ver.1.0
+    datetime_original: null
+    datetime_digitized: null
+  visual_description: Druhá, mírně posunutá a těsněji oříznutá fotografie téže spodní části strany jako P1020287.JPG. Zachycuje
+    stejné články o českých školách na Těšínsku, demobilisaci ve Francii a bombardování Valencie; soubory nejsou binárně totožné.
+  visible_text:
+  - Zůstanou na Těšínsku české školy?
+  - Demobilisace ve Francii
+  - Bombardování Valencie
+  classification:
+  - newspaper_page_photograph
+  - czech_schools_article
+  - france_demobilization_article
+  - valencia_bombing_article
+  - alternate_page_capture
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene, listed image dimensions and transcribed headings
+  - embedded EXIF fields as file metadata
+  unverified:
+  - complete_issue_date_number_and_page
+  - physical_newspaper_source_and_archive_provenance
+  - historical_claims_within_printed_articles
+  - photographer_digitization_context_and_rights
+related_uncertainties:
+- URB-U-0081
+next_batch:
+  number: 4
+  filenames:
+  - P1020289.JPG
+  - P1020290.JPG
+  - P1020291.JPG
+  - P1020292.JPG
+  - P1020293.JPG

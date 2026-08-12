@@ -1,0 +1,82 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-05
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-021
+    title: Svatba před rekonstrukcí – obřad u oltáře
+    document_type: historical_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/23  svatba v r. 1948 před rekonstrukcí.jpg"
+    file_size_bytes: 155960
+    git_blob_sha: 7200c095240a1c4078602f1179ece041bd841727
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: poor_to_moderate_due_to_grain_and_damage, note: "Hlavní výjev je rozpoznatelný, jemné detaily obličejů a zařízení nejsou spolehlivé."}
+    visual_content: {photographs: single_historical_wedding_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Archivní název uvádí rok 1948 a stav před rekonstrukcí; tyto údaje nejsou samotným obrazem nezávisle potvrzeny.
+      - Souvisí s URB-U-0048.
+
+  - source_id: urbanek-ccs-022
+    title: Svatba před rekonstrukcí – skupina v interiéru
+    document_type: historical_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/24  Svatba v r. 1948 ještě v kostele před rekonstrukcí.jpg"
+    file_size_bytes: 166720
+    git_blob_sha: 21e839ca02db118b5a4cea7548121ba80db2fddc
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: moderate_with_grain, note: "Skupina a prostor jsou čitelné, jemné detaily jsou omezené."}
+    visual_content: {photographs: single_historical_wedding_group, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Vizuální návaznost na urbanek-ccs-021 je pravděpodobná, nikoli jmenně nebo datově doložená.
+      - Souvisí s URB-U-0048.
+
+  - source_id: urbanek-ccs-023
+    title: Svatba roku 1948 – detail obřadu podle archivního názvu
+    document_type: historical_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/25  Svatba v r. 1948.jpg"
+    file_size_bytes: 286252
+    git_blob_sha: d3f9c6c6851fa688652bd7ff4c7544d78db5de73
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Účastníci a obřadní gesto jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_wedding_rite_detail, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Rok 1948 a vztah k předchozím dvěma snímkům zůstávají archivními tvrzeními a pracovní hypotézou.
+      - Souvisí s URB-U-0048.
+
+  - source_id: urbanek-ccs-024
+    title: Interiér před rekonstrukcí s varhanními píšťalami na kůru
+    document_type: historical_architectural_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/26  1948, před rekonstrukcí.Na kůru jsou již nové varhany, a.jpg"
+    file_size_bytes: 575911
+    git_blob_sha: bf55b42c7bf706ba56ad705bffb16970622a69c2
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Architektura, balkony, kůr a varhanní píšťaly jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_interior_architectural_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Obraz potvrzuje přítomnost varhanních píšťal při starším uspořádání interiéru, nikoli sám o sobě rok 1948 ani novost varhan.
+      - Rozšiřuje URB-U-0046 a zakládá URB-U-0049.
+
+  - source_id: urbanek-ccs-025
+    title: Skupinová fotografie při návštěvě biskupa Ferdinanda Stibora – archivní označení
+    document_type: historical_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/27  V r. 1948 navštívil Rychvald biskup Ferdinand Stibor.jpg"
+    file_size_bytes: 306922
+    git_blob_sha: d9817668338315574212297883e233efa75fc3b8
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Skupina, oděvy a venkovní prostředí jsou dobře čitelné."}
+    visual_content: {photographs: single_large_historical_group_scene, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno Ferdinanda Stibora, rok 1948 a označení návštěvy pocházejí z archivního názvu.
+      - Osoby nejsou identifikovány pouze podle obličejů.
+      - Souvisí s URB-U-0050.

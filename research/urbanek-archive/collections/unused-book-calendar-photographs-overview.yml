@@ -1,0 +1,44 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+collection_title: fotografie, které nebyl použité pro knihu ani kalendář
+source_root: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář
+drive_folder_id: 17EbJ7_kXjp1NJA4FOZYKQUYbwBdd2s2g
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: completed
+totals: {content_files: 28, technical_files: 1, total_items: 29}
+progress:
+  processed_content_files: 28
+  processed_technical_files: 1
+  processed_items: 29
+  repo_verified_items: 29
+  visually_classified_items: 28
+  source_indexed_items: 29
+  remaining_content_files: 0
+  remaining_technical_files: 0
+  remaining_items: 0
+completed_batches:
+- {number: 1, items: 001-005, filenames: [045.jpg, 093.JPG, 134.jpg, 164.jpg, 2011cIsenburgové z Birsteinu.jpg], id: map-church-cemetery-gathering-and-heraldic-image-01, inventory: research/urbanek-archive/collections/unused-book-calendar-photographs-inventory-01.csv, classification: research/urbanek-archive/collections/unused-book-calendar-photographs-batch-01.yml, source_index: sources/index.d/urbanek-unused-book-calendar-photographs-01.yml}
+- {number: 2, items: 006-010, filenames: [2061.JPG, 2063.JPG, 2069.jpg, 209.jpg, 327a.jpg], id: cellar-stairs-painted-fragments-water-supply-plan-ground-work-and-duplicate-building-02, inventory: research/urbanek-archive/collections/unused-book-calendar-photographs-inventory-02.csv, classification: research/urbanek-archive/collections/unused-book-calendar-photographs-batch-02.yml, source_index: sources/index.d/urbanek-unused-book-calendar-photographs-02.yml}
+- {number: 3, items: 011-015, filenames: [333.jpg, 367.jpg, 369.jpg, 5005a.jpg, 5011b.jpg], id: rural-buildings-landscaped-area-school-group-and-1928-29-group-03, inventory: research/urbanek-archive/collections/unused-book-calendar-photographs-inventory-03.csv, classification: research/urbanek-archive/collections/unused-book-calendar-photographs-batch-03.yml, source_index: sources/index.d/urbanek-unused-book-calendar-photographs-03.yml}
+- {number: 4, items: 016-020, filenames: [5048.jpg, 7147.jpg, 7185.JPG, 73.jpg, 74.tif], id: earthwork-building-stone-elements-and-wall-painting-fragments-04, inventory: research/urbanek-archive/collections/unused-book-calendar-photographs-inventory-04.csv, classification: research/urbanek-archive/collections/unused-book-calendar-photographs-batch-04.yml, source_index: sources/index.d/urbanek-unused-book-calendar-photographs-04.yml}
+- {number: 5, items: 021-025, filenames: [75.tif, 8205.jpg, 8206.jpg, P1020271aaaaddd.jpg, ggg.tif], id: wall-painting-groups-architectural-detail-and-large-building-05, inventory: research/urbanek-archive/collections/unused-book-calendar-photographs-inventory-05.csv, classification: research/urbanek-archive/collections/unused-book-calendar-photographs-batch-05.yml, source_index: sources/index.d/urbanek-unused-book-calendar-photographs-05.yml}
+- {number: 6, items: 026-029, filenames: [img010aa.jpg, img037.jpg, img724.jpg, Thumbs.db], id: commemorative-collage-wayside-shrine-procession-and-thumbnail-cache-06, inventory: research/urbanek-archive/collections/unused-book-calendar-photographs-inventory-06.csv, classification: research/urbanek-archive/collections/unused-book-calendar-photographs-batch-06.yml, source_index: sources/index.d/urbanek-unused-book-calendar-photographs-06.yml}
+interpretation_rules:
+- The folder title and filenames are archival metadata; they may preserve an archival attribution but are not independent proof of subject identity, date, place, authorship or prior publication history.
+- EXIF DateTimeOriginal is recorded as technical image metadata. For reproductions of older material it describes the digital image workflow rather than the historical date of the depicted source unless independently corroborated.
+- A generic EXIF DateTime without DateTimeOriginal is recorded only as file metadata and is not treated as a verified capture date.
+- A visible date printed or written on a reproduced historical source is source content and is recorded separately from EXIF metadata of the digital file.
+- EXIF camera make/model and timestamp do not establish the identity or location of the photographed subject.
+- Absence of GPS metadata means no geographic location is inferred from EXIF.
+- Persons are not identified from appearance alone.
+- Architectural appearance, earthworks, artifact form, attire and painted imagery support descriptive classification only; exact identity, function, affiliation, location, date and history require corroboration.
+- Similar wall-painting motifs, organizational wording or neighboring filenames do not establish that separate files depict the same physical object, group, event or site.
+- Partially legible inscriptions are not reconstructed or expanded beyond safely readable wording.
+- Readable map, plan, board, banner, motto or handwritten wording verifies visible source text only. Wider historical claims, exact institution identity, project realization and georeferencing require corroboration.
+- Technical thumbnail/cache files are derivative technical records and are not counted as independent historical image evidence.
+- Exact binary duplicates under different archive paths remain separate inventory items but constitute one independent image where duplication is demonstrated.
+open_uncertainties: [URB-U-0084]
+technical_files:
+- {path: Thumbs.db, status: audited_technical_cache, source_id: urbanek-unused-book-calendar-photographs-029}
+next_batch: null

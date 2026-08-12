@@ -1,0 +1,101 @@
+schema_version: 1
+collection_id: urbanek-popopo
+collection_title: popopo
+batch_number: 5
+batch_id: persecution-memorial-bandstand-manuscript-page-and-building-05
+status: completed_first_visual_pass
+git_attachment: committed
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/popopo
+  drive_folder_id: 1VPkXS5bIfelSjVOKfbxAurfcrigB7QLR
+  items: [P1010764.JPG, P1010765a.jpg, P1010791.JPG, P1010791a.jpg, img129.jpg]
+  content_files: 5
+  technical_files: 0
+method:
+- Raw Drive files were downloaded and compared by byte size and Git blob SHA with repository files.
+- SHA-256, dimensions, color mode, EXIF and GPS fields were inspected.
+- First visual/text classification records direct inscriptions and manuscript wording without promoting those statements to independently verified historical facts.
+- The relationship between P1010791.JPG and P1010791a.jpg is based on direct geometry/pixel-structure comparison: same page geometry with near-perfect structural correlation, but different pixel values/compression; they are not binary duplicates and are not counted as independent manuscript content.
+- Generic EXIF DateTime without DateTimeOriginal is recorded as file metadata only.
+- Exact binary duplicate check within the batch and repository search for matching Git blob SHA in indexed source records.
+batch_findings:
+  exact_binary_duplicates_within_batch: 0
+  matching_prior_index_blob_sha_found: 0
+  exif_scope: P1010764.JPG, P1010765a.jpg, P1010791.JPG and P1010791a.jpg contain Panasonic DMC-TZ3 and generic EXIF DateTime only: `2012:04:22 16:10:59`, `2012:04:22 16:22:42`, `2012:04:23 12:06:25`, `2012:04:23 12:06:25`. DateTimeOriginal is absent. img129.jpg has no EXIF. No item contains GPS.
+  relationship_scope: P1010791.JPG and P1010791a.jpg are two differently processed/compressed representations of the same photographed manuscript page 272. They are separate archive files but one underlying manuscript-page image evidence.
+  visible_text_scope: P1010764.JPG includes `PAMÁTCE OBĚTEM NĚMECKÉ PERSEKUCE 1939–1945`, `PADLÝM BRATŘÍM 1914–1918`, `VAŠÍ PAMÁTCE VĚRNI ZŮSTANEME!` and visible `1948` on the upper sculptural base. P1010791/P1010791a show manuscript page `-272-`, including visible date `1. IX. 1912`, references to opening a school, `170 dětí`, four classes and `40.000 K`; these are manuscript content, not independently verified facts.
+items:
+- id: urbanek-popopo-021
+  filename: P1010764.JPG
+  git_blob_sha: 9ab5d2af955606b2734fd21836f540d465b11e54
+  sha256: 8cc13a6971e7a1910fd50f13492dbd84c5a63a6743cba5a1a67c2a1660c44460
+  file_size_bytes: 3478486
+  drive_id: 1JjRIB-7GNzbWo5pbaeYeyvxJPMogrpQ0
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:22 16:10:59', datetime_original: null, gps_present: false}
+  visual_description: Barevná fotografie kamenného památníku se sochařským prvkem a tmavou nápisovou deskou. Deska připomíná oběti německé persekuce 1939–1945 a padlé 1914–1918; obsahuje jména a další údaje, které nejsou v této první fázi jednotlivě historicky ověřovány.
+  classification: [color_photograph, memorial, persecution_victims_inscription, fallen_1914_1918_inscription, visible_1948, exact_location_unverified]
+  visible_text: {safe_transcription: ['PAMÁTCE OBĚTEM NĚMECKÉ PERSEKUCE 1939–1945', 'PADLÝM BRATŘÍM 1914–1918', 'VAŠÍ PAMÁTCE VĚRNI ZŮSTANEME!', '1948'], scope_note: 'Nápis je přímý obsah objektu; jeho biografická a historická tvrzení vyžadují nezávislé ověření.'}
+  unverified: [exact_location_and_memorial_identity, biographical_and_historical_claims_on_plaque, monument_authorship_installation_and_alteration_history, photographer_and_source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-022
+  filename: P1010765a.jpg
+  git_blob_sha: be3c21b4c34d4a56163978f69e69a2ab2f7c4d5b
+  sha256: ed34f13f4527e8d6efe1185836d36a7728e3cbbbbda6472f390510ac677ee2cb
+  file_size_bytes: 179006
+  drive_id: 197zMxEs52tdfNNftaNJ0X71gOFjqJVFZ
+  dimensions_px: [1004, 722]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:22 16:22:42', datetime_original: null, gps_present: false}
+  visual_description: Digitální reprodukce černobílé historické fotografie otevřeného dřevěného hudebního či parkového altánu s vysokou střechou v travnatém prostoru. Přesná lokalita, funkce, datum a historie stavby nejsou určeny.
+  classification: [photograph_of_archival_photograph, wooden_bandstand_or_gazebo, park_like_setting, unidentified_location_and_date]
+  unverified: [exact_object_function_location_and_historical_date, construction_and_demolition_history, original_photograph_provenance, photographer_or_digitizer, copyright_and_reuse_rights]
+- id: urbanek-popopo-023
+  filename: P1010791.JPG
+  git_blob_sha: 114e7faca6c7d8b6804c3e2d5f82eb26cf14a75b
+  sha256: 9d81c64beef180be3ed978ad614cea7d049ba8398cfd0e1333c7eee9b5bd2a8d
+  file_size_bytes: 3452898
+  drive_id: 1kKuKtmDVETM2aIwisRNobI25HpD2cEU2
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:23 12:06:25', datetime_original: null, gps_present: false}
+  visual_description: Fotografie rukopisné stránky označené `-272-`. Text pojednává o školní stavbě a otevření školy; bezpečně jsou viditelné mimo jiné `1. IX. 1912`, `170 dětí` a `40.000 K`. Přesný rukopisný svazek, autorství a vztah k dalším stranám nejsou v této fázi určeny.
+  classification: [photographed_manuscript_page, page_272, school_history_text, visible_1912, duplicate_underlying_page_with_P1010791a]
+  relationship: {same_underlying_manuscript_page_as: urbanek-popopo-024}
+  unverified: [exact_manuscript_volume_title_authorship_and_page_context, transcription_of_full_page, historical_claims_in_manuscript, source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-024
+  filename: P1010791a.jpg
+  git_blob_sha: f4f24cdad9a2c7ee735c7f85170b37449c91d1ac
+  sha256: ba04f06b7b8cdf2bb9eedddb8b351e3deb83d9ae99af9f0a187349468b88f671
+  file_size_bytes: 1740928
+  drive_id: 1kTGqCY9kLi8jpS0mKq13vrHH5mZIs4ch
+  dimensions_px: [2304, 3072]
+  mode: RGB
+  exif: {present: true, make: Panasonic, model: DMC-TZ3, software: 'Ver.1.0', datetime: '2012:04:23 12:06:25', datetime_original: null, gps_present: false}
+  visual_description: Druhá obrazově upravená či komprimovaná reprezentace stejné rukopisné stránky `-272-` jako P1010791.JPG. Geometrie stránky a textu se přímo shoduje; soubory však nejsou binárně totožné.
+  classification: [photographed_manuscript_page, page_272, processed_variant, same_underlying_page_as_P1010791]
+  relationship: {same_underlying_manuscript_page_as: urbanek-popopo-023}
+  unverified: [processing_history, exact_manuscript_volume_title_authorship_and_page_context, historical_claims_in_manuscript, source_provenance, copyright_and_reuse_rights]
+- id: urbanek-popopo-025
+  filename: img129.jpg
+  git_blob_sha: 28236e45374d991555a29b148916be903c322962
+  sha256: 8fcb06f3f52d475021f523d16bd97052973c1b1a86f796a9a41098b2a6e58b1e
+  file_size_bytes: 144638
+  drive_id: 1hXkfe2ZTXWcZ9x0aHqPNPL1-LxbnWRo9
+  dimensions_px: [1211, 827]
+  mode: RGB
+  exif: {present: false, gps_present: false}
+  visual_description: Černobílá historická fotografie větší přízemní či nízké budovy se strmou střechou a dvěma komíny, obklopené zelení a další zástavbou. Přesná identita, funkce, lokalita a datum nejsou určeny.
+  classification: [monochrome_archival_image, low_building, steep_roof, two_chimneys, unidentified_location_and_function]
+  unverified: [exact_building_identity_function_location_and_date, ownership_and_history, photographer_and_source_provenance, copyright_and_reuse_rights]
+verified_common:
+- file is present in canonical Drive folder and Git path
+- downloaded raw file byte size equals repository file size
+- downloaded raw file Git blob SHA equals repository blob SHA
+- SHA-256, dimensions, color mode and stated metadata fields
+related_uncertainties: [URB-U-0087]
+next_batch:
+  number: 6
+  filenames: [img178a.jpg, img267.jpg, img678.jpg, img691.jpg, img698a.jpg]

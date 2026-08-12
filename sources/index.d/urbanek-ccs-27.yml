@@ -1,0 +1,125 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-27
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou
+  ověřeni.
+sources:
+- source_id: urbanek-ccs-131
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/20.jpg
+  file_size_bytes: 200150
+  git_blob_sha: 15e205a8fd381280a1c570c4febd5be3512c6128
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Uvítání duchovního ženou ve zdobeném oděvu s kyticí
+  document_type: historical_welcome_by_decorated_dress_woman_photograph
+  readability:
+    status: good
+    note: Osoby, oděv a kytice jsou dobře čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Zdobený oděv je obrazově doložen, přesná krojová nebo organizační příslušnost nikoli.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-132
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/21.jpg
+  file_size_bytes: 183991
+  git_blob_sha: c86b0726240dca50798c8a821a42c18cb5cc28c6
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Užší reprodukce duchovního držícího zavinuté dítě
+  document_type: historical_cropped_infant_clergy_reproduction
+  readability:
+    status: good
+    note: Ústřední osoby, dítě a květiny jsou dobře čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Jde o užší reprodukci téhož podkladového záběru jako urbanek-ccs-133.
+  - Dva soubory představují pouze jeden nezávislý obrazový doklad.
+  - Souvisí s URB-U-0070.
+  reproduction_relation:
+    same_underlying_photograph_as: urbanek-ccs-133
+    evidence_independence: one_independent_image_record
+- source_id: urbanek-ccs-133
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/22.jpg
+  file_size_bytes: 389735
+  git_blob_sha: 0d9a7abec844aed70d133bb0a8a8f5c3f798e535
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Širší reprodukce stejného záběru s dítětem
+  document_type: historical_wider_infant_clergy_reproduction
+  readability:
+    status: good
+    note: Ústřední osoby, dítě, květiny i širší okolí jsou dobře čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Jde o širší reprodukci téhož podkladového záběru jako urbanek-ccs-132.
+  - Dva soubory představují pouze jeden nezávislý obrazový doklad.
+  - Souvisí s URB-U-0070.
+  reproduction_relation:
+    same_underlying_photograph_as: urbanek-ccs-132
+    evidence_independence: one_independent_image_record
+- source_id: urbanek-ccs-134
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/23.jpg
+  file_size_bytes: 221482
+  git_blob_sha: 27a4ed35d54353c7ed462c6683190e0876042d39
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Projev nebo čtení duchovního s listem papíru
+  document_type: historical_clergy_address_with_paper_photograph
+  readability:
+    status: good
+    note: Postava, papír a základní prostorové uspořádání jsou dobře čitelné.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: not_detected
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Obsah listu ani přesný význam projevu nejsou určeny.
+  - Souvisí s URB-U-0070.
+- source_id: urbanek-ccs-135
+  file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/5 Kaple CČS
+    na Ostravici/24.jpg
+  file_size_bytes: 198818
+  git_blob_sha: bb4079a09e5dd1a5395caac9adf901c6fddb7411
+  digital_format: JPEG
+  text_layer: absent
+  rights:
+    status: unknown
+    note: Z osobního archivu p. Jaromíra Urbánka; neznámá práva.
+  title: Zaplněný interiér s účastníky v dřevěných lavicích
+  document_type: historical_full_congregation_in_pews_photograph
+  readability:
+    status: good
+    note: Lavice a shromáždění jsou čitelné; drobný text nikoli.
+  visual_content:
+    photographs: single_historical_photograph_reproduction
+    scene_text: visually_checked_not_readable
+    method: Vizuální kontrola celého obrazu.
+  notes:
+  - Případné označení zadního praporu nebo standardy není čitelné.
+  - Souvisí s URB-U-0070.

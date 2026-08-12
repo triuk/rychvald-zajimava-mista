@@ -1,0 +1,248 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: calendar-2015-cover-history-january-february-march-38
+status: completed_first_visual_pass
+git_attachment: finalized
+item_count: 5
+source_scope: 10 Kalendář 2015 / archivní soubory 1 až 5
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: 'Položky 186 až 190 tvoří začátek výročního kalendáře pro rok 2015: titulní stranu, textový historický souhrn
+    1920–2015 a měsíční strany leden až březen. Měsíční strany znovu používají dříve samostatně evidované fotografie stavby,
+    původního interiéru a skupin rady starších. Kalendář je proto sekundární kompilace, nikoli další nezávislý obrazový doklad
+    zachycených událostí. Čitelné titulky a historická tvrzení dokládají znění kalendáře, nikoli automaticky jejich historickou
+    správnost.'
+  basis:
+  - full_page_visual_review
+  - scene_and_document_text_review
+  - cross_collection_image_comparison
+  - embedded_metadata_inspection
+  - exact_git_blob_verification
+  - binary_duplicate_screening
+  related_open_items:
+  - URB-U-0073
+items:
+- id: urbanek-ccs-186
+  archival_filename: 1.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_cover_with_church_exterior_and_anniversary_text
+  description: Titulní strana kalendáře 2015 se současným barevným exteriérem Husova sboru, znakem kalicha s křížem a vloženým
+    detailem datovaného kamene. Nad fotografií je výroční titul vztahující se k 90 letům Husova sboru a 95 letům Církve československé
+    v Rychvaldu.
+  verified_from_image:
+  - printed_year_2015
+  - title_90_let_Husova_sboru_a_95_let_Cirkve_ceskoslovenske_v_Rychvaldu
+  - modern_color_church_exterior
+  - chalice_and_cross_emblem
+  - facade_text_PRAVDA_VITEZI
+  - bottom_phrase_Dum_muj_bude_domem_modlitby
+  - inset_stone_with_visible_digits_19_19_10_24
+  text_review:
+    status: visually_checked_readable
+    key_text:
+    - '2015'
+    - 90 let Husova sboru a 95 let Církve československé v Rychvaldu
+    - PRAVDA VÍTĚZÍ
+    - Dům můj, bude domem modlitby...
+    stone_note: Na vloženém detailu jsou čitelné skupiny číslic 19, 19.10. a 24; přesný význam a původ kamene nejsou z grafiky
+      samy jisté.
+  unverified:
+  - independent_confirmation_of_anniversary_counts
+  - exact_date_and_source_of_exterior_photograph
+  - identity_and_provenance_of_dated_stone
+  - meaning_of_stone_digits
+  - calendar_author_designer_and_publisher
+  - rights_of_design_and_embedded_photographs
+  metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+    interpretation: Jméno Marta je pouze vložený metadatový řetězec, nikoli nezávislé potvrzení autorství.
+  uncertainty_ids:
+  - URB-U-0073
+- id: urbanek-ccs-187
+  archival_filename: 2.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: modern_commemorative_calendar_historical_narrative_page
+  description: Textová strana s nadpisem 1920–2015. Souvislý historický přehled popisuje založení náboženské obce, výstavbu
+    a výzdobu sboru, období polské a německé okupace, poválečné úpravy, zvony, faráře a novodobé kulturní aktivity.
+  verified_from_image:
+  - heading_1920_2015
+  - dense_czech_historical_narrative
+  - claims_about_foundation_construction_occupation_postwar_changes_bells_clergy_and_cultural_activities
+  - chalice_and_cross_emblem
+  text_review:
+    status: visually_checked_good_readability
+    transcription_scope: Hlavní tvrzení byla vytěžena; úplný doslovný přepis dekorativního písma zůstává součástí pozdějšího
+      OCR review.
+    selected_claims:
+    - Založení Církve československé v Rychvaldu dne 11. 4. 1920 na schůzi v hostinci Na Fojtství za účasti Ferdinanda Stibora.
+    - Rozhodnutí o stavbě roku 1923, položení základního kamene 29. září 1924 a slavnostní předání stavby 6. července 1925.
+    - Plány připisované Ferdinandu Střelci a stavba firmě Otmara Pazourka z Moravské Ostravy.
+    - Instalace varhan roku 1927, obrazy nad balkony roku 1932 a poválečné úpravy v letech 1945 až 1957.
+    - Tvrzení o uzavření a změnách využití sboru během polské a německé okupace.
+    - Tvrzení o dvou původních ocelových zvonech odlitých roku 1920.
+    - Personální posloupnost Karla Vodičky, Gabriela Chrobáčka, Leonarda Bogumského a Jany Šilerové.
+    - Tvrzení o urně Karla Vodičky za pamětní deskou, volbě Jany Šilerové biskupkou roku 1999 a ocenění roku 2014.
+    historical_authority: not_established
+  unverified:
+  - source_and_author_of_historical_narrative
+  - independent_confirmation_of_all_dates_names_counts_and_roles
+  - publisher_editor_and_fact_checking_process
+  - complete_exact_transcription
+  - relationship_to_chronicles_and_other_primary_sources
+  - rights_of_calendar_text_and_design
+  metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+    interpretation: Jméno Marta je pouze vložený metadatový řetězec, nikoli nezávislé potvrzení autorství.
+  uncertainty_ids:
+  - URB-U-0073
+- id: urbanek-ccs-188
+  archival_filename: 3.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: january_2015_calendar_page_with_construction_and_opening_photographs
+  description: 'Lednová strana kalendáře 2015 se třemi historickými fotografiemi: velkým shromážděním před stavbou, rozestavěným
+    sborem a dokončenou budovou při slavnostním shromáždění.'
+  verified_from_image:
+  - month_Leden
+  - year_2015
+  - three_historical_photographs
+  - calendar_grid
+  - caption_pred_polozenim_zakladniho_kamene_se_konaly_polni_bohosluzby
+  - caption_Husuv_sbor_rychle_rostl
+  - caption_slavnostni_otevreni_sboru_6_cervence_1925
+  reused_image_assessment:
+    visual_matches:
+    - calendar_position: top
+      source_item: urbanek-ccs-001
+    - calendar_position: middle_left
+      source_item: urbanek-ccs-003
+    - calendar_position: bottom_right
+      source_item: urbanek-ccs-006
+    status: same_underlying_photographs_visually_identified
+    evidentiary_note: Kalendářové reprodukce jsou další sazební použití dříve evidovaných obrazů, nikoli nezávislé doklady
+      událostí.
+  unverified:
+  - historical_accuracy_of_all_captions
+  - independent_confirmation_of_6_July_1925
+  - source_and_editing_of_reused_photographs
+  - calendar_grid_accuracy
+  - calendar_author_designer_and_publisher
+  metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0073
+- id: urbanek-ccs-189
+  archival_filename: 4.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: february_2015_calendar_page_with_early_interior_service_painting_and_council_group
+  description: Únorová strana kalendáře 2015 se čtyřmi historickými fotografiemi původního interiéru, zaplněné bohoslužby,
+    detailu obrazu za oltářem a skupiny označené jako rada starších roku 1930.
+  verified_from_image:
+  - month_Unor
+  - year_2015
+  - four_historical_photographs
+  - calendar_grid
+  - caption_puvodni_vyzdoba_sboru
+  - caption_bohosluzby_k_10_vyroci_zalozeni_CCS_1930
+  - caption_detail_obrazu_za_oltarem
+  - caption_rada_starsich_v_roce_1930
+  reused_image_assessment:
+    visual_matches:
+    - calendar_position: upper_right
+      source_item: urbanek-ccs-007
+    - calendar_position: middle_left
+      source_item: urbanek-ccs-009
+    - calendar_position: middle_right
+      source_item: urbanek-ccs-008
+    - calendar_position: bottom
+      source_item: urbanek-ccs-013
+    status: same_underlying_photographs_visually_identified
+    evidentiary_note: Kalendářové reprodukce potvrzují znění popisků v kalendáři, ne jména, rok nebo funkce osob.
+  unverified:
+  - historical_accuracy_of_all_captions
+  - independent_confirmation_of_1930_and_tenth_anniversary
+  - identity_and_roles_of_council_group
+  - source_and_editing_of_reused_photographs
+  - calendar_grid_accuracy
+  metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0073
+  - URB-U-0040
+- id: urbanek-ccs-190
+  archival_filename: 5.jpg
+  dimensions_px:
+  - 2385
+  - 3354
+  color_mode: CMYK
+  visual_type: march_2015_calendar_page_with_three_council_and_anniversary_groups
+  description: Březnová strana kalendáře 2015 se třemi skupinovými fotografiemi, popsanými jako rada starších roku 1945, rada
+    starších a členové pěveckého sboru při 50. výročí založení CČS a rada starších s farářkou Mgr. Janou Šilerovou.
+  verified_from_image:
+  - month_Brezen
+  - year_2015
+  - three_historical_group_photographs
+  - calendar_grid
+  - caption_rada_starsich_v_roce_1945
+  - caption_rada_starsich_a_clenove_peveckeho_sboru_u_prilezitosti_50_vyroci_zalozeni_CCS
+  - caption_rada_starsich_s_fararkou_Mgr_Janou_Silerovou
+  - vertical_question_about_recognizing_relatives_neighbors_and_acquaintances
+  reused_image_assessment:
+    visual_matches:
+    - calendar_position: top
+      source_item: urbanek-ccs-037
+    - calendar_position: middle
+      source_item: urbanek-ccs-038
+    - calendar_position: bottom
+      source_item: urbanek-ccs-039
+    status: same_underlying_photographs_visually_identified
+    evidentiary_note: Kalendářové popisky jsou sekundární anotace; osoby nejsou určovány podle tváře.
+  unverified:
+  - independent_confirmation_of_1945_caption
+  - exact_date_and_context_of_fiftieth_anniversary_group
+  - Jana_Silerova_identity_and_date_of_bottom_group
+  - all_person_identities_and_council_membership
+  - source_and_editing_of_reused_photographs
+  - calendar_grid_accuracy
+  metadata:
+    artist: Marta
+    xp_author: Marta
+    embedded_date: absent
+  uncertainty_ids:
+  - URB-U-0073
+  - URB-U-0058
+  - URB-U-0059
+duplicate_assessment:
+  exact_binary_duplicates_within_batch: none
+  note: Všech pět kalendářových JPEGů má odlišné Git blob SHA. Strany 188 až 190 však obsahují sazebně znovu použité historické
+    fotografie, které jsou už evidovány jako samostatné zdrojové položky.
+subfolder_progress:
+  subfolder: 10 Kalendář 2015
+  content_files: 15
+  processed_content_files: 5
+  remaining_content_files: 10
+  technical_files: 1
+  technical_audit_status: pending
+next_action: Zpracovat urbanek-ccs-191 až 195, tedy 6.jpg až 10.jpg v podsložce 10 Kalendář 2015. Později samostatně auditovat
+  Thumbs.db.

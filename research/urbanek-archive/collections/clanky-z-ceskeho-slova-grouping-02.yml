@@ -1,0 +1,232 @@
+collection_id: urbanek-ceske-slovo
+batch_id: grouping-02
+status: completed
+scope: urbanek-ceske-slovo-012..urbanek-ceske-slovo-021
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+machine_assessment_status: machine_unverified
+
+batch_summary:
+  image_items: 10
+  single_article_clippings: 5
+  roundup_articles_with_internal_briefs: 2
+  composite_clippings: 3
+  complete_or_near_complete_primary_articles: 10
+  secondary_articles_or_fragments: 5
+  chronology_warning: >-
+    Číselné názvy nejsou bezpečnou chronologií. Položka 021 obsahuje zprávy z
+    2. října, zatímco položka 016 obsahuje vedle hlavního textu krátkou zprávu
+    datovanou 14. října.
+
+items:
+  - id: urbanek-ceske-slovo-012
+    source_path: Články z Českého slova/11.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Fryštát už má polského starostu"
+      completeness: complete
+      topic_tags: [frystat, polska_sprava, starosta, polske_vlajky]
+      signature: "-bi-"
+    grouping:
+      group_id: polska_sprava-a-obsazovani-frystatska
+      role: complete_article
+    ocr_plan: {document_text: full_transcription, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-013
+    source_path: Články z Českého slova/12.jpg
+    item_type: single_article_clipping
+    primary_content:
+      page_header: "Strana 2. — České slovo"
+      headline: "První část fryštátského okresu obsazena"
+      subheadline: "Poláci včera zabrali Fryštát a sedm dalších obcí"
+      completeness: complete_or_near_complete
+      topic_tags: [frystatsky_okres, obsazovani, frystat, darkov, raj, petrovce, zavadа, dolni_marklovice, prstna]
+      signature: "-vb-"
+    grouping:
+      group_id: polska_sprava-a-obsazovani-frystatska
+      role: complete_article
+    ocr_plan: {document_text: full_transcription, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-014
+    source_path: Články z Českého slova/13.jpg
+    item_type: single_article_clipping_with_internal_subheads
+    primary_content:
+      kicker: "Včera v 10 hodin dopoledne"
+      headline: "Fryštát s okolím zabrán"
+      completeness: complete_or_near_complete
+      internal_subheads:
+        - "Lidé touží po spravedlnosti"
+        - "Vojsko ustupuje z Fryštátu"
+      topic_tags: [frystat, vyklizeni_ceskoslovenskym_vojskem, polske_obsazovani, obyvatelstvo]
+    grouping:
+      group_id: polska_sprava-a-obsazovani-frystatska
+      role: complete_article
+    ocr_plan: {document_text: full_transcription_preserve_subheads, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-015
+    source_path: Články z Českého slova/14.jpg
+    item_type: roundup_article_with_internal_subheads
+    primary_content:
+      headline: "Poslední den polského záboru na Těšínsku"
+      subheadline: "Do včerejšího poledne obsazen zbytek fryštátského a českotěšínského okresu"
+      completeness: complete_or_near_complete
+      internal_subheads:
+        - "Jak se rozloučil Rychvald"
+        - "Český Petřvald zabrán"
+        - "Poláci se usazují na dobrých místech"
+        - "Finanční stráž již funguje"
+      topic_tags: [rychvald, petrvald, frystatsky_okres, ceskotesinsky_okres, polska_sprava, hranice]
+    grouping:
+      group_id: polska_sprava-a-obsazovani-frystatska
+      role: complete_roundup_article
+    ocr_plan: {document_text: full_transcription_preserve_subheads, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-016
+    source_path: Články z Českého slova/15.jpg
+    item_type: composite_newspaper_clipping
+    primary_content:
+      headline: "Sta lidí vypovídáno z Těšínska"
+      subheadline: "Polské úřady postupují dále proti českým lidem"
+      completeness: complete
+      topic_tags: [vyhostovani, ceske_obyvatelstvo, tesinsko, polske_urady]
+      signature: "-vb-"
+    secondary_content:
+      - sub_id: urbanek-ceske-slovo-016-b
+        headline: "Konsulární atašé v Ostravě"
+        dateline: "Praha 14. října"
+        agency: ČTK
+        completeness: complete_short_article
+        topic_tags: [polsky_konsulat, moravska_ostrava, rudolf_kobiela]
+    grouping:
+      group_id: vyhostovani-uprchlici-a-pracovni-pomery
+      role: complete_primary_article_plus_separate_short_article
+    ocr_plan:
+      document_text: transcribe_as_two_separate_items
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-017
+    source_path: Články z Českého slova/16.jpg
+    item_type: primary_article_with_multiple_secondary_fragments
+    primary_content:
+      headline: "Přeplněné přívozské nádraží"
+      subheadline: "Čeká se na uvolnění trati"
+      completeness: complete
+      topic_tags: [privozske_nadrazi, uprchlici, zeleznice, moravska_ostrava]
+      signature: "-vb-"
+    secondary_content:
+      - sub_id: urbanek-ceske-slovo-017-b
+        headline: "Poslanec Sliwka v Katovicích"
+        completeness: beginning_only
+        note: Text pokračuje mimo dolní okraj snímku.
+      - sub_id: urbanek-ceske-slovo-017-c
+        item_type: advertisement_fragment
+        visible_text: "Různé nečistoty pleti"
+        completeness: partial
+      - sub_id: urbanek-ceske-slovo-017-d
+        visible_headline: "Sebevražda 24letého"
+        completeness: headline_only
+    grouping:
+      group_id: vyhostovani-uprchlici-a-pracovni-pomery
+      role: complete_primary_article_with_unrelated_fragments
+    ocr_plan:
+      document_text: full_primary_transcription_and_visible_fragments_only
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-018
+    source_path: Články z Českého slova/17.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Péče o uprchlíky z obsazeného území"
+      subheadline: "Kde se mají uprchlíci hlásit v Mor. Ostravě"
+      completeness: complete
+      topic_tags: [uprchlici, moravska_ostrava, cerveny_kriz, ubytovani, evidence]
+      signature: "(Úř.)"
+    grouping:
+      group_id: vyhostovani-uprchlici-a-pracovni-pomery
+      role: complete_article
+    ocr_plan: {document_text: full_transcription, scene_text: not_applicable}
+
+  - id: urbanek-ceske-slovo-019
+    source_path: Články z Českého slova/18.jpg
+    item_type: single_article_clipping_with_top_fragment
+    primary_content:
+      headline: "Vojenský dozor na šachtách na Těšínsku"
+      completeness: complete
+      topic_tags: [sachty, doly, vojensky_dozor, polske_vojsko, delnici]
+      signature: "-bi-"
+    secondary_content:
+      location: top_edge
+      completeness: ending_fragment_only
+      note: Nad hlavním nadpisem je zachycen konec jiného textu se signaturou; nelze jej bezpečně přiřadit.
+    grouping:
+      group_id: vyhostovani-uprchlici-a-pracovni-pomery
+      role: complete_primary_article_with_unrelated_fragment
+    ocr_plan:
+      document_text: full_primary_transcription_and_mark_top_fragment
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-020
+    source_path: Články z Českého slova/19.jpg
+    item_type: news_roundup_clipping
+    primary_content:
+      headline: "Zprávy z Těšínska"
+      completeness: complete_or_near_complete
+      structure: series_of_brief_items_separated_by_dashes
+      topic_tags: [orlova, doly, hornici, nemocnice, petrvald, hudebni_skoly, vyhostovani, propousteni]
+    grouping:
+      group_id: vyhostovani-uprchlici-a-pracovni-pomery
+      role: complete_news_roundup
+    ocr_plan:
+      document_text: full_transcription_preserve_brief_separators
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-021
+    source_path: Články z Českého slova/20.jpg
+    item_type: composite_newspaper_clipping
+    primary_content:
+      - sub_id: urbanek-ceske-slovo-021-a
+        headline: "Situační zpráva z pohraničí"
+        subheadline: "Celkem klid – Střelba v Podmoklích a na Těšínsku"
+        dateline: "Praha 2. října"
+        agency: ČTK
+        completeness: complete_or_near_complete
+        topic_tags: [pohranici, podmokly, tesinsko, strelba, bezpecnost]
+      - sub_id: urbanek-ceske-slovo-021-b
+        headline: "Rekvisice radiových aparátů neprospěla"
+        dateline: "Most 2. října"
+        signature_or_agency: "-kda-"
+        completeness: complete
+        topic_tags: [radiove_prijimace, nemecke_obyvatelstvo, pohranici, informace]
+    grouping:
+      group_id: hranicni-a-bezpecnostni-zpravy
+      role: two_separate_complete_articles_on_one_clipping
+    ocr_plan:
+      document_text: transcribe_as_two_separate_items
+      scene_text: not_applicable
+
+groups:
+  - group_id: polska_sprava-a-obsazovani-frystatska
+    type: thematic_group_of_separate_articles
+    members:
+      - urbanek-ceske-slovo-012
+      - urbanek-ceske-slovo-013
+      - urbanek-ceske-slovo-014
+      - urbanek-ceske-slovo-015
+  - group_id: vyhostovani-uprchlici-a-pracovni-pomery
+    type: thematic_group_of_separate_articles
+    members:
+      - urbanek-ceske-slovo-016
+      - urbanek-ceske-slovo-017
+      - urbanek-ceske-slovo-018
+      - urbanek-ceske-slovo-019
+      - urbanek-ceske-slovo-020
+  - group_id: hranicni-a-bezpecnostni-zpravy
+    type: physical_composite_and_thematic_group
+    members: [urbanek-ceske-slovo-021]
+
+next_action:
+  type: group_document_images
+  batch_ids: urbanek-ceske-slovo-022..urbanek-ceske-slovo-031
+  instruction: >-
+    Visually inspect images 21.jpg through 30.jpg and identify physical article
+    boundaries, composite clippings, continuations, dates and completeness before OCR.

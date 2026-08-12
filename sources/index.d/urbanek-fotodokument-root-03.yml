@@ -1,0 +1,156 @@
+schema_version: 1
+collection_id: urbanek-fotodokument-root
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-fotodokument-root-011
+  title: img047.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img047.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img047.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 922388
+  git_blob_sha: 71d2d34ee9cf7b89ff656990ec924dbd557c772d
+  sha256: d73fb68c3bf42363ab252dfad2010a416d4bc7e5e19120e99a9082b5565fd8cc
+  drive_id: 19kKBNXTlElE3lUjW3PVo-Qm3lk4RxVf5
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2454
+    height_px: 1974
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - commercial_building_exterior
+  - bilingual_czech_polish_signage
+  - building_number_70
+  - unidentified_location
+  summary: Černobílý exteriér obchodní budovy s výlohami a bezpečně čitelnými dvojjazyčnými nápisy „OVOCE-ZELENINA / OWOCE-JARZYNY“ a „MLÉKÁRNA / MLECZARNIA“, českým nápisem „POTRAVINY-LAHŮDKY“ a číslem 70.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-012
+  title: img048.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img048.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img048.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 705061
+  git_blob_sha: d60410216a641c4ddc0cae69b5f9d82569ce7959
+  sha256: 3a067183c6071af15441eda48fd60a1a11c6ec9dbffb10afd4ed5b6a438e86a5
+  drive_id: 1RyWtHMbiCmqLiTJDl6SGISRSyPHl-g5D
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2478
+    height_px: 1674
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - single_storey_building_exterior
+  - multiple_chimneys
+  - unreadable_facade_notice
+  - unidentified_building
+  summary: Černobílý exteriér dlouhé přízemní omítnuté budovy s valbovou střechou, mnoha komíny a vysokými okny; fasádní tabulka není bezpečně čitelná.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-013
+  title: img049.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img049.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img049.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 1000857
+  git_blob_sha: 7c9723e6bc16327b5e23eedef8c63483be3c6b07
+  sha256: b3445655434b10d6d3ee5145fe286b09c33f2be613e63abfe5b76d7139fdca00
+  drive_id: 1Vj1zcLacC-SRyyuVTSkFwmgkIMDyJLZ3
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2454
+    height_px: 2232
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - large_building_exterior
+  - people_near_entrance
+  - unidentified_building
+  - unidentified_people
+  summary: Černobílý exteriér větší zděné stavby s plechovou střechou; u vstupu je několik neidentifikovaných osob a podél stěny dřevěné konstrukce nebo lavice.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-014
+  title: img050.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img050.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img050.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 819126
+  git_blob_sha: 5c00b3007eb9468cf597e06abd74c0a981ebb57d
+  sha256: fec9975d840df91bfcf975a2fc7a441d07361bb39fc0025e031ffc8c9f6ee891
+  drive_id: 1WLXkZ4lSBnPdVJpqFfr5vrFnXEyS1W-w
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 2448
+    height_px: 1980
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - cultural_house_exterior
+  - visible_kulturni_dum_sign
+  - visible_roh_letters
+  - roof_loudspeakers_and_antennas
+  - unverified_location
+  summary: Černobílý exteriér budovy s bezpečně čitelným nápisem „KULTURNÍ DŮM“, viditelnými písmeny „ROH“ na jednom emblému a reproduktory a anténami na střeše.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083
+- source_id: urbanek-fotodokument-root-015
+  title: img052.jpg
+  collection_id: urbanek-fotodokument-root
+  source_path: fotodokument/img052.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotodokument/img052.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 390222
+  git_blob_sha: 37f2fce3c3197f5c1e57a68b4c1b477e57340fb3
+  sha256: c163b79392fbbbb8c72f1bf5470d4d3035680cfdf542def95f7e026a70896808
+  drive_id: 1cWhdPcS64ggLMmZ2-Evrq6a7B9e73RUP
+  repo_status: verified
+  attribution: Z osobního archivu p. Jaromíra Urbánka.
+  rights: unknown
+  image:
+    width_px: 990
+    height_px: 1482
+    color_mode: RGB
+  classification:
+  - monochrome_archival_image
+  - ornate_arched_gateway
+  - architectural_detail
+  - relief_ornament
+  - unidentified_location
+  summary: Černobílý detail bohatě zdobeného půlkruhového průjezdního portálu s reliéfní ornamentikou a figurální hlavou v horním poli; přesná lokalita a datace nejsou ověřeny.
+  capture_metadata:
+    exif_present: false
+    use: no_capture_date_inferred
+  uncertainty_ids:
+  - URB-U-0083

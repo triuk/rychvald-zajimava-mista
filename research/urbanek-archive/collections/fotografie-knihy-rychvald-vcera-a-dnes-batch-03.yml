@@ -1,0 +1,223 @@
+schema_version: 1
+collection_id: urbanek-fotografie-knihy-rychvald-vcera-a-dnes
+collection_title: Fotografie knihy Rychvald včera a dnes
+batch_number: 3
+batch_id: aerial-views-basins-courtyard-complex-ponds-and-service-halls-03
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Fotografie knihy Rychvald včera a dnes
+  items:
+  - 10.jpg
+  - 11.jpg
+  - 12.jpg
+  - 13.jpg
+  - 14.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without external historical verification.
+- EXIF inspection; embedded dates are preserved as file metadata, not treated as independent proof of publication use or authorship.
+- Exact binary duplicate check within the batch and against previously indexed files in the collection.
+batch_findings:
+  general: Pět samostatných šikmých leteckých pohledů na vodní plochy a železniční pás, rozsáhlý dvůrový areál, provozní haly,
+    nádrže, komunikace a okolní obytnou krajinu.
+  folder_title_interpretation: Název složky zůstává archivním údajem. Ani tato dávka neobsahuje viditelné okraje knižních
+    stran nebo bibliografický text.
+  metadata_sessions:
+  - 13.jpg a 12.jpg mají EXIF časy 2013-08-07 18:04:21 a 18:04:26; záběry se prostorově překrývají a tvoří pracovní sekvenci
+    v odstupu pěti sekund.
+  - 11.jpg má EXIF čas 2013-08-07 18:55:40.
+  - 14.jpg má EXIF čas 2013-08-30 16:51:52.
+  - 10.jpg má EXIF čas 2013-09-28 11:09:09.
+  - Soubory 10.jpg, 11.jpg a 13.jpg uvádějí software Picasa; 12.jpg a 14.jpg tento tag nemají.
+  exact_binary_duplicates_within_batch: 0
+  exact_binary_duplicates_against_batches_01_02: 0
+  visual_overlap: Snímky 12.jpg a 13.jpg zachycují překrývající se prostor vodních ploch a železničního pásu, ale mají odlišné
+    soubory, rozměry i kompozici.
+  text_content: V obrazech není čitelný souvislý knižní text ani bibliografický údaj.
+items:
+- id: urbanek-rychvald-vcera-dnes-011
+  filename: 10.jpg
+  git_blob_sha: 981340cfd4e368ea14d0664892dd0ce59082edc9
+  sha256: 2735f3d5e1025a9f8abe09ffe4e69d99800df42bb2c11e6156f82a2582b69f65
+  dimensions_px:
+  - 3348
+  - 1710
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-09-28 11:09:09'
+    software: Picasa
+  visual_description: šikmý letecký pohled na smíšený provozní areál u silniční křižovatky; viditelné jsou menší obdélné nádrže,
+    větší vodní plocha, několik provozních budov, komunikace, železniční trať a okolní pole.
+  classification:
+  - aerial_photograph
+  - rectangular_basins
+  - water_body
+  - industrial_or_service_buildings
+  - road_junction
+  - railway
+  - agricultural_land
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_function_of_basins_and_buildings
+  - exact_road_and_railway_identity
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-012
+  filename: 11.jpg
+  git_blob_sha: 5df99817adb0d9ade23875fdbbaf1267341db86b
+  sha256: 468c44947739aa8ec5da26e857995dbed97ab0fab3b70bdfd963082df16ceeba
+  dimensions_px:
+  - 3386
+  - 1963
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-07 18:55:40'
+    software: Picasa
+  visual_description: Šikmý letecký pohled na rozsáhlý uzavřený areál s oranžovými střechami a vnitřním dvorem, navazující
+    řady menších jednotných staveb, hlavní komunikaci, samostatné domy a podlouhlý bytový dům.
+  classification:
+  - aerial_photograph
+  - courtyard_complex
+  - uniform_small_buildings
+  - main_road
+  - apartment_block
+  - detached_housing
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_function_and_name_of_complex
+  - exact_road_identity
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-013
+  filename: 12.jpg
+  git_blob_sha: de13fd9fffd8a28cb5ba069cbffe88786e35eee3
+  sha256: 37b00dd789f3cd1c2dc000db34f7f78f508453a6cef1f5c4b0ff55988bf05fba
+  dimensions_px:
+  - 4577
+  - 2535
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-07 18:04:26'
+    software: null
+  visual_description: široký šikmý letecký pohled na velkou vodní plochu s vegetovanými břehy a ostrůvky; po úzkém pásu mezi
+    vodními plochami vede železniční trať, za ní je rozptýlená zástavba, zeleň, pole a v dálce výrazná věžová stavba.
+  classification:
+  - aerial_photograph
+  - large_water_body
+  - vegetated_islands
+  - railway_embankment
+  - settlement_overview
+  - agricultural_land
+  - towered_building_visible
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_water_body_identity
+  - exact_railway_section
+  - exact_identity_of_towered_building
+  - exact_viewpoint
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-014
+  filename: 13.jpg
+  git_blob_sha: a34574729f2ce79c5e31c00a5d57bf7ae495c17c
+  sha256: b1ba6af95d039d126ca01891be894759d2c2fca00b2ab1c6b66636359ae1c96d
+  dimensions_px:
+  - 3557
+  - 2166
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-07 18:04:21'
+    software: Picasa
+  visual_description: Šikmý letecký pohled na dvě vodní plochy oddělené pásem se železniční tratí; nalevo vede zakřivená silnice
+    kolem rozptýlené zástavby, v pozadí je širší sídelní krajina a vzdálené městské panorama.
+  classification:
+  - aerial_photograph
+  - multiple_water_bodies
+  - railway_embankment
+  - curved_road
+  - dispersed_housing
+  - settlement_overview
+  - distant_urban_skyline
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_water_body_identity
+  - exact_railway_and_road_identity
+  - exact_viewpoint
+  - distant_skyline_identity
+  - photographer_and_rights
+- id: urbanek-rychvald-vcera-dnes-015
+  filename: 14.jpg
+  git_blob_sha: 0e11c191068c850e58cfe8b2571f24e5165ce1ef
+  sha256: fd62ca46d8681f41f54fc1db73c3bce94647a873243f02217a255ae2697740de
+  dimensions_px:
+  - 3928
+  - 2042
+  mode: RGB
+  exif:
+    make: SONY
+    model: DSC-WX7
+    datetime: '2013-08-30 16:51:52'
+    software: null
+  visual_description: Šikmý letecký pohled na několik podlouhlých provozních hal a zpevněné plochy, přilehlé komunikace, zahrádkářskou
+    nebo rodinnou zástavbu, hustou zeleň a velkou vodní plochu v pozadí.
+  classification:
+  - aerial_photograph
+  - industrial_or_service_halls
+  - paved_yards
+  - detached_or_garden_housing
+  - woodland
+  - water_body
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location
+  - exact_function_and_name_of_halls
+  - exact_identity_of_water_body
+  - photographer_and_rights
+related_uncertainties:
+- URB-U-0076
+next_batch:
+  number: 4
+  filenames:
+  - 15.jpg
+  - 16.jpg
+  - 17.jpg
+  - 18.jpg
+  - 19.jpg

@@ -1,0 +1,144 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: ostravice-service-crowd-procession-costumes-banners-and-clergy-25
+status: completed_first_visual_pass
+item_count: 5
+source_scope: 5 Kaple CČS na Ostravici / archivní soubory 10 až 14
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka dokumentuje závěr venkovní bohoslužby, rozsáhlé shromáždění a navazující
+    průvod na venkovské komunikaci. Položky 123 až 125 spojují stejné typy vysokých
+    praporů, krojované účastnice, děti, civilní účastníky a početnou skupinu duchovních.
+    Položky 121 a 122 obsahují čitelné vložené popisky „Závěr bohoslužeb.“ a
+    „Záběr z bohoslužeb.“ Archivní název položky 122 uvádí pouze useknutou formulaci
+    „asi v r. 1945 nebo…“; druhý rok ani pokračování nejsou rekonstruovány. Série může
+    souviset s portrétem archivně označeným jako biskup dr. Horský, ale osoby nelze
+    ztotožnit pouze podle vzhledu, oděvu nebo insignie.
+  basis:
+    - full_image_visual_review
+    - manual_scene_text_transcription
+    - procession_and_setting_cross_image_comparison
+    - archival_sequence
+    - verified_repo_files
+  related_open_items: [URB-U-0059]
+items:
+  - id: urbanek-ccs-121
+    archival_filename: 10.jpg
+    dimensions_px: [990, 1596]
+    visual_type: historical_black_and_white_captioned_clergy_service_conclusion
+    description: >-
+      Tři muži v tmavém duchovním oděvu stojí u vstupu se zděným ostěním. Muž vlevo
+      má brýle a otevřená ústa, prostřední muž s brýlemi drží otevřenou knihu a muž
+      vpravo má výrazný řetěz nebo insignii s motivem kalicha. Ve spodní části je
+      vložený popisek.
+    subject_tags: [three_clergy, open_book, chain_or_insignia, chalice_motif, service_conclusion_claim, embedded_caption]
+    identification:
+      status: partially_verified
+      embedded_caption_claim: Závěr bohoslužeb.
+      verified_from_image: [three_adult_men_in_clergy_like_dark_robes, open_book, glasses, chain_or_insignia_with_chalice_motif, brick_or_masonry_entrance, caption_strip]
+      unverified: [all_person_identities, bishop_or_officiant_roles, exact_liturgy, event, date, location, relationship_to_item_120_and_items_122_to_125]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: transcribed
+        text: Závěr bohoslužeb.
+        note: Ruční přepis čitelného vloženého popisku; osoby, událost a datum z něj nejsou určeny.
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0070]
+  - id: urbanek-ccs-122
+    archival_filename: 11 Celkový pohled na účastníky slavnosti asi v r. 1945 nebo .jpg
+    dimensions_px: [1626, 1002]
+    visual_type: historical_black_and_white_captioned_large_outdoor_congregation
+    description: >-
+      Velmi početné venkovní shromáždění dospělých a dětí. Mnoho účastníků drží
+      otevřené knihy nebo zpěvníky; řada žen má šátky na hlavě. Ve spodní části je
+      vložený popisek, jehož levý okraj je částečně překrytý nebo poškozený.
+    subject_tags: [large_congregation, adults, children, headscarves, open_books_or_hymnals, outdoor_service_claim, embedded_caption, truncated_filename_date]
+    identification:
+      status: partially_verified
+      archival_filename_claim: celkový pohled na účastníky slavnosti asi v roce 1945 nebo…
+      embedded_caption_claim: Záběr z bohoslužeb.
+      verified_from_image: [very_large_outdoor_crowd, many_headscarves, multiple_open_books_or_hymnals, caption_strip]
+      unverified: [exact_event, exact_date, missing_second_date_or_filename_continuation, location, officiants, congregation_identity, relationship_to_items_121_and_123_to_125]
+    filename_note: Název končí po řetězci „asi v r. 1945 nebo .“; chybějící pokračování nebylo doplněno.
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: transcribed
+        text: Záběr z bohoslužeb.
+        note: Ruční přepis čitelné části popisku; přesná bohoslužba a datum zůstávají neověřené.
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0070]
+  - id: urbanek-ccs-123
+    archival_filename: 12  Průvod účastníků.jpg
+    dimensions_px: [1512, 1008]
+    visual_type: historical_black_and_white_rural_procession_with_banners
+    description: >-
+      Průvod postupuje po venkovské silnici kolem domů a zahrad. V čele jsou ženy
+      nebo dívky ve světlém oděvu a šátcích, část účastnic nese květiny. Za nimi
+      následují nosiči několika vysokých praporů, muži, ženy a děti.
+    subject_tags: [procession, rural_road, banners, women_and_girls, headscarves, flowers, adults, children, houses]
+    identification:
+      status: partially_verified
+      archival_claim: průvod účastníků
+      verified_from_image: [moving_group_on_rural_road, several_tall_banners, women_or_girls_in_light_clothing, flowers, men, women, children, houses_and_fences]
+      unverified: [exact_event, date, route, banner_organizations_and_text, participant_identities, exact_costume_traditions, relationship_to_items_121_122_124_and_125]
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0070]
+  - id: urbanek-ccs-124
+    archival_filename: 13  Krojovaní, prapory sborů a děti v průvodu.jpg
+    dimensions_px: [1542, 1014]
+    visual_type: historical_black_and_white_procession_with_folk_dress_children_and_banners
+    description: >-
+      Široký záběr průvodu na silnici. V popředí jdou ženy nebo dívky v nápadně
+      zdobeném oděvu se šátky a květinami; za nimi jsou děti, dospělí a řada nosičů
+      vysokých textilních praporů s ozdobnými hlavicemi, z nichž některé mají podobu
+      kříže nebo koule. Texty a znaky na praporech nejsou bezpečně čitelné.
+    subject_tags: [procession, folk_dress_claim, decorated_clothing, headscarves, flowers, children, adults, multiple_banners, cross_finials, orb_finials]
+    identification:
+      status: partially_verified
+      archival_claim: krojovaní, prapory sborů a děti v průvodu
+      verified_from_image: [women_or_girls_in_decorated_clothing, headscarves, flowers, children, adult_procession, multiple_textile_banners, decorative_finials]
+      unverified: [exact_folk_costume_regions_or_groups, banner_owners_and_congregations, banner_text_and_symbols, exact_event, date, route, participant_identities]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_not_readable
+        note: Případné nápisy a znaky na praporech nejsou v dostupném obraze bezpečně čitelné.
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0070]
+  - id: urbanek-ccs-125
+    archival_filename: 14  Účast duchovních.jpg
+    dimensions_px: [1565, 1025]
+    visual_type: historical_black_and_white_procession_with_clergy_and_banners
+    description: >-
+      Průvod na venkovské silnici vedou civilní nosiči několika vysokých praporů.
+      Za nimi kráčí početná skupina mužů v tmavém duchovním oděvu; někteří mají
+      světlé límce, kříže nebo závěsné insignie. Následují další účastníci.
+    subject_tags: [procession, banner_bearers, multiple_banners, numerous_clergy, dark_robes, crosses_or_insignia, rural_road, roadside_posts]
+    identification:
+      status: partially_verified
+      archival_claim: účast duchovních
+      verified_from_image: [several_banner_bearers, numerous_men_in_clergy_like_dark_robes, some_visible_crosses_or_insignia, other_participants, rural_road, white_roadside_posts]
+      unverified: [all_clergy_identities_and_offices, Horsky_presence, banner_organizations, exact_event, date, route, relationship_to_items_120_to_124]
+    comparison_relation:
+      related_items: [urbanek-ccs-120, urbanek-ccs-121, urbanek-ccs-122, urbanek-ccs-123, urbanek-ccs-124]
+      assessment: >-
+        Sdílené prapory, venkovské prostředí a návaznost archivu podporují společný
+        slavnostní okruh. Přítomnost konkrétního biskupa nebo osoby Horského nelze
+        určit pouze obrazovým porovnáním.
+    ocr: {document_text: not_applicable, scene_text: not_detected}
+    metadata: {embedded_date: absent}
+    uncertainty_ids: [URB-U-0070]
+open_research_candidates:
+  - {id: URB-U-0070, subject: Ostravice_historical_service_procession_date_Horsky_clergy_banners_costumes_children_and_participants}
+  - {id: URB-U-0059, subject: possible_Horsky_context_without_facial_identification}
+next_action: >-
+  Pokračovat položkami urbanek-ccs-126 až urbanek-ccs-130 v podsložce Kaple CČS na Ostravici:
+  soubory 15.jpg, 16 Před kapličkou.jpg, 17 Vlevo Leonard Bugumský.jpg, 18.jpg a 19.jpg.
+  Porovnat navazující skupiny před kaplí a popsanou osobu Leonarda Bugumského s průvodem,
+  ale osoby neidentifikovat pouze podle obličeje.

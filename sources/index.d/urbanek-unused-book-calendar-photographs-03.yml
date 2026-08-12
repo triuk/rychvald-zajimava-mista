@@ -1,0 +1,87 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-unused-book-calendar-photographs-011
+  title: 333.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/333.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/333.jpg
+  document_type: monochrome_archival_image
+  mime_type: image/jpeg
+  file_size_bytes: 421619
+  git_blob_sha: 8567c49cc53d76ced8ec94ae656be8518f65d0a5
+  sha256: 86a729b1907431b76cb5fd531122ab8978b8dd9043e077d951210d3793e1dea9
+  drive_id: 1e-YStBlQtTkB3-wLi4Tk9uoqQUTNwWd4
+  repo_status: verified
+  image: {width_px: 1590, height_px: 1008, color_mode: L}
+  classification: [monochrome_archival_image, rural_or_farm_building_exterior, gable_roof, yard_and_fence, unidentified_building, unidentified_location]
+  summary: Starší přízemní budova se strmou sedlovou střechou, omítanými a dřevěnými částmi, plotem a stromy; přesná identita, funkce, lokalita a datace nejsou určeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-012
+  title: 367.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/367.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/367.jpg
+  document_type: monochrome_archival_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 127673
+  git_blob_sha: 4d5a15a599ce68b468e662ebef5cb893957a3a02
+  sha256: 8a550e508011c0b5a121501ce3712bc824c4b3f38c742d85911c11b1c0f74faa
+  drive_id: 1R3UOUo5SbjtgUQdT_-DUyL-_IygDmRYL
+  repo_status: verified
+  image: {width_px: 960, height_px: 702, color_mode: RGB}
+  classification: [monochrome_archival_reproduction, landscaped_rectangular_outdoor_area, paths_and_trees, building_in_background, unidentified_facility, unidentified_location]
+  summary: Upravený obdélný venkovní areál s nízkými konstrukcemi či lemováním, cestami, stromy a větší budovou v pozadí; přesný druh areálu, účel a lokalita nejsou určeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-013
+  title: 369.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/369.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/369.jpg
+  document_type: toned_archival_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 598195
+  git_blob_sha: eeb8a4c7515edc41ae0f92c416f3073feb512639
+  sha256: 5e2ff43d1fc3106f777af0601a51787838ab899fd097104972ec93d6d11e0057
+  drive_id: 1oD0kr1h5FrnRnoPpPz6_qgDlZHhk12N3
+  repo_status: verified
+  image: {width_px: 1811, height_px: 602, color_mode: RGB}
+  classification: [toned_archival_reproduction, wooden_house_exterior, group_portrait, rural_yard, small_wind_wheel, water_or_flooded_depression, unidentified_people, unidentified_location]
+  summary: Široká tónovaná archivní reprodukce dřevěného domu se skupinou osob, zahradními či hospodářskými konstrukcemi, vodní plochou nebo zaplavenou prohlubní a malým větrným kolem; přesná lokalita a kontext nejsou určeny.
+  capture_metadata: {exif_present: true, datetime: '2012:05:30 10:40:00', datetime_original: null, software: 'Adobe Photoshop 7.0 CE', gps_present: false, use: general_file_metadata_not_historical_scene_date}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-014
+  title: 5005a.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/5005a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/5005a.jpg
+  document_type: archival_school_group_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 800814
+  git_blob_sha: 483e27f622a037fd16add54e363f9953346b7301
+  sha256: 317ea8e9ab3912224d276f1c30d44092d9e61f1efd154101c4cb676acd97f6ce
+  drive_id: 1p1Q-2pJBNCI11tOW1AFnnSHXRDgucIb_
+  repo_status: verified
+  image: {width_px: 1812, height_px: 1274, color_mode: RGB}
+  classification: [toned_archival_group_photograph, school_group, children_and_adult, banner, readable_text_petitridni_skola_v_rychvalde, unidentified_people]
+  summary: Skupinový portrét dětí a jednoho dospělého před budovou; na tabuli je bezpečně čitelné `Pětitřídní škola v Rychvaldě`. Osoby, přesná budova, okolnosti a historická datace nejsou určeny.
+  capture_metadata: {exif_present: true, make: Canon, model: null, datetime_original: '2012:03:15 16:52:47', gps_present: false, use: digital_image_timestamp_not_historical_scene_date}
+  visible_text: {safe_transcription: 'Pětitřídní škola v Rychvaldě', scope_note: 'Text viditelný na tabuli v prameni; sám neurčuje přesnou budovu, osoby, ročník ani datum fotografie.'}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-015
+  title: 5011b.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/5011b.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/5011b.jpg
+  document_type: archival_adult_group_photograph
+  mime_type: image/jpeg
+  file_size_bytes: 448015
+  git_blob_sha: af8b53fb54f076198b2d65c982e786a57f232ec1
+  sha256: 102d15918309990bb052f7c919c50469e40b841fed5f18e2b42fedff198b3506
+  drive_id: 1oZHgVtz58-_L2817r5sYrjHfsY7eVN7N
+  repo_status: verified
+  image: {width_px: 1625, height_px: 1008, color_mode: L}
+  classification: [monochrome_archival_group_photograph, adult_group_portrait, visible_year_notation_1928_29, unidentified_people, unidentified_building]
+  summary: Skupinový portrét devíti dospělých před budovou s viditelným zápisem `1928/29`; identity osob, jejich role, budova a význam zápisu nejsou bez dalšího pramene určeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  visible_text: {safe_transcription: '1928/29', scope_note: 'Viditelný zápis na prameni; bez dalšího podkladu není automaticky považován za technicky ověřené datum expozice.'}
+  uncertainty_ids: [URB-U-0084]

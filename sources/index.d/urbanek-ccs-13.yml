@@ -1,0 +1,87 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-13
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-061
+    title: Portrét duchovního archivně označeného jako biskup Gabriel Chrobáček
+    document_type: historical_black_and_white_senior_clergy_ceremony_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/61  Biskup Gabriel Chrobáček.jpg"
+    file_size_bytes: 431788
+    git_blob_sha: 549b52de29b6bc3741724e62ee82061e4c20d880
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Duchovní oděv, řetěz, kalich, knihy a osoby v pozadí jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_senior_clergy_at_communion_table, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno a biskupský titul pocházejí z archivního názvu.
+      - Řetěz nebo insignie ani vztah k inaugurační sérii nejsou obrazem vysvětleny.
+      - Souvisí s URB-U-0062.
+
+  - source_id: urbanek-ccs-062
+    title: Duchovní archivně označený jako farář Leonard Bogumski
+    document_type: historical_black_and_white_clergy_at_chancel_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/62  Farář Leonard Bogumski.jpg"
+    file_size_bytes: 303546
+    git_blob_sha: 2f65140d859e5054f2bcdfd370def6a3e7e5e2fd
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Duchovní, štóla, otevřená kniha, znak kalicha a část interiéru jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_clergy_reading_at_chancel, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno a funkce pocházejí z archivního názvu.
+      - Archiv používá varianty Bogumski a Bogumský; správná úřední podoba jména musí být ověřena.
+      - Souvisí s URB-U-0068.
+
+  - source_id: urbanek-ccs-063
+    title: Portrét duchovní archivně označené jako biskupka Mgr. Jana Šilerová
+    document_type: modern_color_female_senior_clergy_portrait
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/63  Biskupka Mgr Jana Šilerová.jpg"
+    file_size_bytes: 90354
+    git_blob_sha: 107571bf29012097611db6b84cb1b8789de61a58
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Osoba, štóla s kalichem a řetěz nebo insignie jsou dobře čitelné."}
+    visual_content: {photographs: single_modern_female_senior_clergy_portrait, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jméno, akademický titul a biskupská funkce pocházejí z archivního názvu.
+      - Osobu nelze určit pouze podle obličeje.
+      - Souvisí s URB-U-0058.
+
+  - source_id: urbanek-ccs-064
+    title: Skupina archivně označená jako faráři Vodička a Bogumský s manželkami
+    document_type: historical_black_and_white_clergy_families_group_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50/1  Faráři Vodička a Bogumský s manželkami.jpg"
+    file_size_bytes: 224962
+    git_blob_sha: e5f7100538ee9dfbc5fb1eb705e1b761bed00c38
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Čtyři sedící osoby a širší stojící skupina jsou čitelné, bez identifikačního textu."}
+    visual_content: {photographs: single_historical_large_adult_group, scene_text: not_detected, method: "Vizuální kontrola a porovnání s urbanek-ccs-065."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Jména farářů a tvrzení o manželkách pocházejí z archivního názvu.
+      - Jednotlivé osoby nejsou přiřazeny podle vzhledu.
+      - Přední čtveřice se opakuje na urbanek-ccs-065.
+      - Souvisí s URB-U-0067 a URB-U-0068.
+
+  - source_id: urbanek-ccs-065
+    title: Zahradní skupina archivně lokalizovaná k faráři Bogumskému
+    document_type: historical_black_and_white_four_person_garden_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/2 Návštěva faráře Vodičky v r. 1965 a v r. 1970 u příležitosti 50/2  U faráře Bogumského v zahradě.jpg"
+    file_size_bytes: 189308
+    git_blob_sha: 5f2d0243603dcf24b2850747da39e4418599ae3f
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Dvě ženy, dva muži a zahradní plot jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_four_person_garden_group, scene_text: not_detected, method: "Vizuální kontrola a porovnání s urbanek-ccs-064."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Stejné čtyři osoby jsou zachyceny také v přední řadě urbanek-ccs-064.
+      - Hostitel, zahrada, osoby a přesný rok nejsou obrazem identifikovány.
+      - Souvisí s URB-U-0067 a URB-U-0068.

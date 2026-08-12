@@ -1,0 +1,122 @@
+schema_version: 1
+collection_id: urbanek-ccs-history
+batch_id: first-communion-council-and-bells-03
+status: completed_first_visual_pass
+item_count: 5
+source_scope: "1 Od položení základního kamene. Histotie rychvaldského kostela / položky 11–15"
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+
+batch_assessment:
+  status: partially_verified
+  conclusion: >-
+    Dávka obsahuje dvě skupinové fotografie dětí s duchovním před týmž vstupem,
+    skupinový portrét dospělých s popiskem vztahujícím se k desetiletí CČS v
+    Rychvaldě a roku 1930 a dva novodobé technické snímky zvonů. Obrazově je
+    ověřitelný charakter skupin, společná architektura, letopočet 1920 na jednom
+    zvonu a existence nejméně tří zvonů. Jména osob, přesné datace obou skupin
+    dětí, význam letopočtu a historie zvonění nejsou samotnými snímky doloženy.
+  basis:
+    - direct_visual_review
+    - repeated_architectural_features
+    - scene_text_review
+
+items:
+  - id: urbanek-ccs-011
+    visual_type: historical_black_and_white_group_photograph_reproduction
+    description: >-
+      Skupina přibližně tří desítek chlapců ve slavnostním oděvu s květinami,
+      uspořádaná ve třech řadách před obloukovým vstupem budovy. Uprostřed sedí
+      duchovní v tmavém oděvu. Jednotlivé osoby nejsou z obrazu identifikovány.
+    subject_tags: [children, boys, clergy, ceremonial_group, flowers, church_entrance]
+    identification:
+      status: partially_verified
+      archival_claim: "první svaté přijímání – chlapci a farář Vodička"
+      verified_from_image: [boys_group, clergy_present, ceremonial_attire, same_entrance_as_urbanek-ccs-012]
+      unverified: [exact_event, exact_date, clergy_identity, participant_identities]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_refs: [URB-U-0039]
+
+  - id: urbanek-ccs-012
+    visual_type: historical_black_and_white_group_photograph_reproduction
+    description: >-
+      Skupina přibližně tří desítek dívek v bílých šatech s květinami a věnečky,
+      uspořádaná před stejným obloukovým vstupem jako předchozí snímek. Uprostřed
+      sedí duchovní v tmavém oděvu. Jednotlivé osoby nejsou z obrazu identifikovány.
+    subject_tags: [children, girls, clergy, ceremonial_group, white_dresses, flowers, church_entrance]
+    identification:
+      status: partially_verified
+      archival_claim: "první svaté přijímání – dívky a farář Vodička"
+      verified_from_image: [girls_group, clergy_present, ceremonial_attire, same_entrance_as_urbanek-ccs-011]
+      unverified: [exact_event, exact_date, clergy_identity, participant_identities, same_year_as_urbanek-ccs-011]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_refs: [URB-U-0039]
+
+  - id: urbanek-ccs-013
+    visual_type: historical_black_and_white_adult_group_photograph_reproduction
+    description: >-
+      Čtrnáct dospělých osob, převážně mužů ve společenských oblecích, ve dvou
+      řadách před vstupem sboru. Uprostřed přední řady sedí muž v tmavém obleku.
+      Na spodním okraji fotografie je světlý, částečně setřený popisek.
+    subject_tags: [adult_group, church_entrance, formal_portrait, council_candidate, archival_caption]
+    identification:
+      status: partially_verified
+      archival_claim: "10 let CČS – rada starších – 1930"
+      verified_from_image: [fourteen_adults, formal_group_portrait, same_church_entrance, lower_caption_present]
+      unverified: [individual_identities, exact_event_date, role_of_each_person]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_checked_partial
+        location: lower margin of photograph
+        tentative_transcription: "10 LET CČS V RYCHVALDĚ RADA ST. 1930"
+        note: >-
+          Začátek, název Rychvaldu a rok 1930 jsou dobře rozpoznatelné; zkratka
+          nebo slovo před rokem je setřené a doslovný přepis není zcela jistý.
+    uncertainty_refs: [URB-U-0040]
+
+  - id: urbanek-ccs-014
+    visual_type: modern_color_detail_photograph
+    description: >-
+      Detail povrchu zvonu s plasticky vystupujícím letopočtem 1920 na pásu pod
+      horní částí zvonového těla. Okolní nápisy nebo značka výrobce nejsou v záběru.
+    subject_tags: [bell, inscription, year_1920, technical_detail]
+    identification:
+      status: partially_verified
+      archival_claim: "na zvonech je letopočet 1920"
+      verified_from_image: [embossed_year_1920_on_one_bell]
+      unverified: [meaning_of_year, whether_all_bells_share_year, bell_maker, installation_date]
+    ocr:
+      document_text: not_applicable
+      scene_text:
+        status: visually_verified
+        location: bell body
+        transcription: "1920"
+    uncertainty_refs: [URB-U-0041]
+
+  - id: urbanek-ccs-015
+    visual_type: modern_color_technical_interior_photograph
+    description: >-
+      Pohled do zvonové stolice se třemi viditelnými zvony různých velikostí,
+      kovovou nosnou konstrukcí, závěsy, srdci zvonů a několika svislými lany nebo
+      vodiči. Z fotografie nelze spolehlivě určit historické pořadí mechanismů ani
+      datum případné elektrifikace.
+    subject_tags: [bell_chamber, three_bells, bell_frame, ringing_mechanism, technical_interior]
+    identification:
+      status: partially_verified
+      archival_claim: "zvony byly původně na ruční zvonění"
+      verified_from_image: [at_least_three_bells, bell_frame, visible_cords_or_wires]
+      unverified: [original_manual_operation, later_modifications, electrification_date, identity_and_date_of_each_bell]
+    ocr:
+      document_text: not_applicable
+      scene_text: not_detected
+    uncertainty_refs: [URB-U-0041, URB-U-0042]
+
+next_action: >-
+  Pokračovat položkami 16–20. Současně hledat paralelní popisky, kronikářské
+  zápisy, církevní matriky, výroční materiály a detailní fotografie zvonů, které
+  mohou vyřešit URB-U-0039 až URB-U-0042.

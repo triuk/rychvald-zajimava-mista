@@ -1,0 +1,268 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+batch_number: 4
+batch_id: handwritten-chronology-vocational-school-page-and-cemetery-monument-04
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Rychvald
+  drive_folder_id: 1F5-qLV2yqg2i3RZkjHdDyN7Sg5ZHZREI
+  items:
+  - P1010115.JPG
+  - P1010116.JPG
+  - P1010117.JPG
+  - Rychvald2009 003.jpg
+  - Rychvald2009 004.jpg
+  content_files: 5
+  technical_files: 0
+method:
+- Drive metadata verification against the canonical collection folder.
+- Raw-file download and Git blob SHA comparison.
+- First visual classification without identifying people, events, monuments or dates beyond explicit visible text and embedded metadata.
+- EXIF inspection; timestamps are treated as modern capture metadata, not dates of the historical subjects or manuscript events.
+- Exact binary duplicate check among the five selected paths and transcription of only clearly readable wording.
+batch_findings:
+  general: Tři moderní fotografické reprodukce rukopisných místněhistorických stran a dva bezprostředně po sobě pořízené barevné snímky téhož
+    kamenného hřbitovního kříže či pomníku.
+  exact_binary_duplicates_within_batch: 0
+  same_subject_sequence: '`Rychvald2009 003.jpg` a `Rychvald2009 004.jpg` zobrazují tentýž kamenný hřbitovní kříž z mírně odlišného záběru; EXIF
+    časy se liší o 13 sekund a soubory nejsou binárně totožné.'
+  capture_sessions: P1010115.JPG až P1010117.JPG uvádějí Panasonic DMC-TZ3 a časy 2010-09-01 15:18:04 až 15:27:38. Rychvald2009 003.jpg a Rychvald2009
+    004.jpg uvádějí Panasonic DMC-FZ7 a časy 2009-09-01 09:15:37 a 09:15:50.
+  visible_text_scope: Čísla stran, nadpis „Škola živnostenská pokračovací.“ a bezpečně čitelné letopočty či datované položky jsou evidovány jako
+    text fotografovaných rukopisných předloh. Bez dalšího neprokazují historickou správnost, autorství ani původ dokumentu.
+  monument_scope: U dvojice hřbitovních snímků je bezpečně rozpoznán kamenný kříž s figurální výzdobou. Slabý nápis či datace na podstavci nejsou
+    přepisovány, protože nejsou dostatečně čitelné; přesný hřbitov, identita a datace pomníku zůstávají neověřeny.
+items:
+- id: urbanek-rychvald-016
+  filename: P1010115.JPG
+  git_blob_sha: 3c39ba48f14fae8f4e82b5393fc1f36996307799
+  sha256: a5fd4d82b82c65601d6b99af05276cc945e95c67656b8666774130a6d7c96571
+  file_size_bytes: 1930960
+  drive_id: 1210cjkHudL9NMCKo9BgZRnUcXL6Ir17M
+  dimensions_px:
+  - 2304
+  - 3072
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-09-01 15:18:04'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Fotografovaná stránka rukopisného historického textu s číslem „- 26 -“ a časovými rozsahy v levém okraji. Stránka pokračuje
+    v chronologickém přehledu držitelů či vlastníků; úplný kurzivní přepis, identita všech osob a historická přesnost údajů nejsou v této fázi
+    ověřeny.
+  classification:
+  - modern_reproduction_photograph
+  - photographed_handwritten_document_page
+  - local_history_manuscript
+  - chronological_ownership_notes
+  - visible_page_number
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - historical_claims_and_dates_in_reproduced_documents
+  - authorship_and_document_provenance
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - '- 26 -'
+  - 1715-1719
+  - 1719-1746
+  - 1746-1749
+  - 1749-1787
+  - 1787-1828
+  - 1828-1859
+  - 1859-1894
+  - 1894-1903
+- id: urbanek-rychvald-017
+  filename: P1010116.JPG
+  git_blob_sha: 60e86c74d2ffa0e2533783117bfa85ee2c81b2cc
+  sha256: 2a274f3e9de5b47b7767c56b9a8e3aa200e4e4d614c95cb11921298548d9bf85
+  file_size_bytes: 3359097
+  drive_id: 17ax1ll6CS8sGbkX9YIyS8GuoHR1vmrdZ
+  dimensions_px:
+  - 3072
+  - 2304
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-09-01 15:19:53'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Fotografovaná rukopisná stránka s chronologicky řazenými místními událostmi. V levém sloupci jsou bezpečně čitelné datované
+    položky z let 1920 až 1923; text jednotlivých záznamů se eviduje jako obsah rukopisné předlohy, nikoli jako nezávisle ověřený historický fakt.
+  classification:
+  - modern_reproduction_photograph
+  - photographed_handwritten_document_page
+  - chronological_local_history_notes
+  - dated_entries_1920_to_1923
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - historical_claims_and_dates_in_reproduced_documents
+  - authorship_and_document_provenance
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - 2. V. 20
+  - 16. V. 20
+  - 28. VII. 20
+  - 29. V. 21
+  - 26. III. 22
+  - 23. VIII. 22
+  - 9. I. 23
+  - 18. II. 23
+  - 14. V. 23
+  - 9. VI. 23
+  - 10. VII. 23
+  - 20. VII. 23
+  - 16. IX. 23
+- id: urbanek-rychvald-018
+  filename: P1010117.JPG
+  git_blob_sha: ffadd8bfb4f779fab15c0a65d69dc8dfe04abca2
+  sha256: 4c801f3473297aeb8e50d6c4f0a0a7eb682a3199dddf97a1705f5a7bcbb21e5d
+  file_size_bytes: 3428153
+  drive_id: 1twS8ncEh8DTIxSGYvC63tdWiAujFZP3K
+  dimensions_px:
+  - 2304
+  - 3072
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-TZ3
+    datetime: '2010-09-01 15:27:38'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Fotografovaná rukopisná stránka místněhistorického textu s číslem „- 197 -“ a nadpisem „Škola živnostenská pokračovací.“.
+    Text zmiňuje mimo jiné roky 1912 a 1920; nadpis, letopočty a další rukopisný obsah jsou evidovány jako znění předlohy a nejsou samy o sobě
+    historickým ověřením.
+  classification:
+  - modern_reproduction_photograph
+  - photographed_handwritten_document_page
+  - local_history_manuscript
+  - vocational_continuation_school_section
+  - visible_heading_and_page_number
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_location_unless_explicitly_visible
+  - historical_claims_and_dates_in_reproduced_documents
+  - authorship_and_document_provenance
+  - physical_source_provenance_and_reproduction_context
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  visible_text:
+  - '- 197 -'
+  - Škola živnostenská pokračovací.
+  - '1912'
+  - '1920'
+- id: urbanek-rychvald-019
+  filename: Rychvald2009 003.jpg
+  git_blob_sha: 3ed24f792c1baac666491d0d2595c1667417467e
+  sha256: e09e3cfba5e270234e47a67afb0d79199233c5e306067cc3ab5072c2c6c9910d
+  file_size_bytes: 619909
+  drive_id: 1EqYOQcdNBy22GSuI-aQFJ8aXID8dLaKt
+  dimensions_px:
+  - 1360
+  - 2048
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-01 09:15:37'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Barevná fotografie kamenného hřbitovního kříže s figurou ukřižovaného Krista a menší figurou v nice pod křížem. V okolí
+    jsou hroby, náhrobky a květinová výzdoba. Slabý nápis či datace na podstavci nejsou bezpečně čitelné; přesný hřbitov, identita pomníku a jeho
+    datace proto nejsou z obrazu samostatně určeny.
+  classification:
+  - modern_color_photograph
+  - cemetery_scene
+  - stone_crucifix_monument
+  - same_subject_sequence
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_cemetery_and_monument_identity
+  - monument_inscription_and_historical_date
+  - exact_location_unless_explicitly_visible
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+- id: urbanek-rychvald-020
+  filename: Rychvald2009 004.jpg
+  git_blob_sha: c1d5198de659f125fea4747fd6c09f0ac8b71afb
+  sha256: 21a97fee5214ec63c775eb1c98dc99ae76d9bef6a5d4cc440717cf26fff1a3e5
+  file_size_bytes: 621708
+  drive_id: 1WY2DNPj-z5Uh635N2X6oTzjoDnToqKCv
+  dimensions_px:
+  - 1360
+  - 2048
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-09-01 09:15:50'
+    datetime_original: null
+    datetime_digitized: null
+    software: Ver.1.0
+  visual_description: Druhý barevný snímek téhož kamenného hřbitovního kříže jako položka 019, pořízený o 13 sekund později z mírně odlišného
+    záběru. Jde o samostatný obrazový soubor, nikoli binární kopii. Slabý nápis či datace na podstavci zůstávají bezpečně nečitelné.
+  classification:
+  - modern_color_photograph
+  - cemetery_scene
+  - stone_crucifix_monument
+  - near_consecutive_capture_of_same_monument
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - Drive byte size equals downloaded file size
+  - downloaded file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+  unverified:
+  - exact_cemetery_and_monument_identity
+  - monument_inscription_and_historical_date
+  - exact_location_unless_explicitly_visible
+  - photographer_and_original_collection_purpose
+  - copyright_and_reuse_rights
+  same_subject_as: urbanek-rychvald-019
+  relation: near_consecutive_distinct_capture
+related_uncertainties:
+- URB-U-0082
+next_batch:
+  number: 5
+  filenames:
+  - Rychvald2009 005.jpg
+  - Rychvald2009 008.jpg
+  - Zp0707 090.jpg
+  - Zp1109 005.jpg
+  - Zp1109 082.jpg

@@ -1,0 +1,260 @@
+collection_id: urbanek-ceske-slovo
+batch_id: grouping-01
+status: completed
+scope: urbanek-ceske-slovo-001..urbanek-ceske-slovo-011
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+machine_assessment_status: machine_unverified
+
+batch_summary:
+  image_items: 11
+  masthead_items: 1
+  single_primary_article_clippings: 9
+  composite_clippings: 1
+  complete_primary_articles: 9
+  secondary_partial_fragments: 3
+  thematic_context: >-
+    Mnichovská dohoda, polský územní požadavek a obsazování československého
+    Těšínska na počátku října 1938. Jednotlivé výstřižky nejsou stránkami jednoho
+    souvislého článku.
+
+items:
+  - id: urbanek-ceske-slovo-001
+    source_path: "Články z Českého slova/1  Články jsou z období od 1. 10. 1938 do 31. 10. 1938.jpg"
+    item_type: newspaper_masthead_crop
+    primary_content:
+      newspaper: České slovo
+      printed_date: 1938-10-01
+      printed_date_text: "Sobota 1. října 1938"
+      volume: X
+      issue: "271"
+      price: "20 h"
+      completeness: complete_masthead_crop
+    grouping:
+      group_id: ceske-slovo-1938-10-01-masthead
+      role: bibliographic_context
+    ocr_plan:
+      document_text: full_short_transcription
+      scene_text: not_applicable
+    notes:
+      - Původní název souboru uvádí období celé kolekce, zatímco samotný obraz dokládá konkrétní vydání z 1. října 1938.
+
+  - id: urbanek-ceske-slovo-002
+    source_path: "Články z Českého slova/2   Obsah Mnichovské dohody, otázka požadavků Polska měla být řešena později, viz Dodatková prohlášení.jpg"
+    item_type: single_article_clipping
+    primary_content:
+      kicker: "Obsah mnichovské dohody čtyř"
+      headline: "Zněmčilá území máme odevzdat do 10. října"
+      subheadline: "Dohoda spojených velmocí o naší zemi a našem osudu"
+      dateline: "Berlín 30. září"
+      agency: ČTK
+      completeness: complete_or_near_complete
+      topic_tags: [mnichovska_dohoda, odstoupeni_uzemi_nemecku, dodatková_prohlaseni, polska_a_madarska_otazka]
+    grouping:
+      group_id: mnichovska-dohoda-a-uzemni-pozadavky
+      role: complete_article
+    ocr_plan:
+      document_text: full_transcription
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-003
+    source_path: "Články z Českého slova/2a  K dohodě s polskem mělo dojít do tří měsíců ( v  rámci vídeňské arbitráže).jpg"
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Československo odstoupí Polsku část Těšínska"
+      subheadline: "Jiné rozhodnutí vlády by vedlo k těžkým komplikacím"
+      dateline: "Praha 1. října"
+      agency: ČTK
+      completeness: complete_or_near_complete
+      topic_tags: [polske_ultimatum, odstoupeni_tesinska, mnichovska_dohoda, ceskoslovenska_vlada]
+    grouping:
+      group_id: mnichovska-dohoda-a-uzemni-pozadavky
+      role: separate_complete_article
+      not_continuation_of: urbanek-ceske-slovo-002
+    ocr_plan:
+      document_text: full_transcription
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-004
+    source_path: "Články z Českého slova/3  další  texty bez komentáře.jpg"
+    item_type: composite_newspaper_clipping
+    primary_content:
+      completeness: composite_multiple_items
+    grouping:
+      group_id: composite-1938-10-03-politics-and-tesinsko
+      role: composite_container
+    subitems:
+      - sub_id: urbanek-ceske-slovo-004-a
+        headline: "Má Polsko nároky na české obce?"
+        subheadline: "Mnichovská konference a chybný polský postup na českém Těšínsku"
+        dateline: "Praha 3. října"
+        completeness: complete_or_near_complete
+        topic_tags: [polske_naroky, ceske_obce, frystatsko, bohuminsko, tesinsko]
+        ocr_plan: full_transcription
+      - sub_id: urbanek-ceske-slovo-004-b
+        headline: "Slovenský ministr Černák hrozí demisí"
+        dateline: "Bratislava 3. října"
+        completeness: complete_or_near_complete
+        topic_tags: [slovensko, ministr_cernak, autonomie, demise]
+        ocr_plan: full_transcription
+      - sub_id: urbanek-ceske-slovo-004-c
+        headline: "Mnoho otázek před berlínskou komisí"
+        completeness: headline_and_beginning_only
+        topic_tags: [berlinska_komise]
+        ocr_plan: transcribe_visible_fragment_only
+    notes:
+      - Tři texty jsou samostatné a nesmějí být sloučeny do jednoho přepisu.
+      - Třetí text pokračuje mimo dolní okraj snímku.
+
+  - id: urbanek-ceske-slovo-005
+    source_path: Články z Českého slova/4.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "České Fryštátsko protestuje proti připojení k Polsku"
+      subheadline: "Obrovská manifestace za účasti 20.000 občanů v Orlové"
+      completeness: complete_or_near_complete
+      topic_tags: [frystatsko, orlova, protest, polske_pozadavky, manifestace]
+    grouping:
+      group_id: obsazovani-a-dusledky-na-tesinsku
+      role: complete_article
+    ocr_plan:
+      document_text: full_transcription
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-006
+    source_path: Články z Českého slova/5.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Situace na polsko-čs. hranici na Těšínsku"
+      subheadline: "Jak velké území dosud obsadilo polské vojsko"
+      completeness: complete
+      topic_tags: [polsko_ceskoslovenska_hranice, obsazene_uzemi, tesinsko]
+      signature: "-vb-"
+    grouping:
+      group_id: obsazovani-a-dusledky-na-tesinsku
+      role: complete_article
+    ocr_plan:
+      document_text: full_transcription
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-007
+    source_path: Články z Českého slova/6.jpg
+    item_type: primary_article_with_secondary_fragment
+    primary_content:
+      headline: "Poláci pokračují v obsazování těšínského území"
+      subheadline: "Včera jsme odevzdali Polákům Třinecko a Jablunkovsko"
+      completeness: complete_or_near_complete
+      topic_tags: [polske_obsazovani, trinecko, jablunkovsko, tesinsko]
+      signature: "-vb-"
+    secondary_content:
+      location: bottom_edge
+      visible_headline: uncertain
+      visible_text_candidate: "Malhomme se vrátil"
+      completeness: headline_fragment_only
+      confidence: low
+      note: Přesné znění nelze z tohoto snímku bezpečně potvrdit; není součástí hlavního článku.
+    grouping:
+      group_id: obsazovani-a-dusledky-na-tesinsku
+      role: complete_primary_article_with_unrelated_fragment
+    ocr_plan:
+      document_text: full_primary_transcription_and_mark_secondary_fragment
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-008
+    source_path: Články z Českého slova/7.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Uprchlíci z Těšínska do Slezské Ostravy"
+      subheadline: "Ubytováni hlavně v soukromí"
+      completeness: complete
+      topic_tags: [uprchlici, tesinsko, slezska_ostrava, ubytovani]
+      signature: "(vk)"
+    grouping:
+      group_id: obsazovani-a-dusledky-na-tesinsku
+      role: complete_article
+    ocr_plan:
+      document_text: full_transcription
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-009
+    source_path: Články z Českého slova/8.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Poláci nepřeruší výrobu v obsazeném území"
+      dateline: "Varšava 4. října"
+      agency: "ČTK (Pat)"
+      completeness: complete
+      topic_tags: [prumysl, vyroba, obsazene_uzemi, polska_sprava]
+    grouping:
+      group_id: obsazovani-a-dusledky-na-tesinsku
+      role: complete_article
+    ocr_plan:
+      document_text: full_transcription
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-010
+    source_path: Články z Českého slova/9.jpg
+    item_type: primary_article_with_secondary_fragment
+    primary_content:
+      headline: "V sobotu se zahájí obsazování Fryštátska"
+      subheadline: "České obyvatelstvo zůstává na svých místech"
+      completeness: complete
+      topic_tags: [frystatsko, polske_obsazovani, ceske_obyvatelstvo]
+      signature: "-vb-"
+    secondary_content:
+      location: top_edge
+      completeness: ending_fragment_only
+      note: Nad hlavním nadpisem je zachycen konec jiného článku; bez nadpisu jej nelze bezpečně přiřadit.
+    grouping:
+      group_id: obsazovani-a-dusledky-na-tesinsku
+      role: complete_primary_article_with_unrelated_fragment
+    ocr_plan:
+      document_text: full_primary_transcription_and_mark_secondary_fragment
+      scene_text: not_applicable
+
+  - id: urbanek-ceske-slovo-011
+    source_path: Články z Českého slova/10.jpg
+    item_type: single_article_clipping
+    primary_content:
+      headline: "Zůstanou na Těšínsku české školy?"
+      completeness: complete
+      topic_tags: [ceske_skoly, tesinsko, polska_sprava, narodnostni_mensina]
+      signature: "-bi-"
+    grouping:
+      group_id: obsazovani-a-dusledky-na-tesinsku
+      role: complete_article
+    ocr_plan:
+      document_text: full_transcription
+      scene_text: not_applicable
+
+groups:
+  - group_id: ceske-slovo-1938-10-01-masthead
+    type: bibliographic_context
+    members: [urbanek-ceske-slovo-001]
+  - group_id: mnichovska-dohoda-a-uzemni-pozadavky
+    type: thematic_group_of_separate_articles
+    members: [urbanek-ceske-slovo-002, urbanek-ceske-slovo-003]
+  - group_id: composite-1938-10-03-politics-and-tesinsko
+    type: physical_composite_clipping
+    members: [urbanek-ceske-slovo-004]
+    internal_subitems:
+      - urbanek-ceske-slovo-004-a
+      - urbanek-ceske-slovo-004-b
+      - urbanek-ceske-slovo-004-c
+  - group_id: obsazovani-a-dusledky-na-tesinsku
+    type: thematic_group_of_separate_articles
+    members:
+      - urbanek-ceske-slovo-005
+      - urbanek-ceske-slovo-006
+      - urbanek-ceske-slovo-007
+      - urbanek-ceske-slovo-008
+      - urbanek-ceske-slovo-009
+      - urbanek-ceske-slovo-010
+      - urbanek-ceske-slovo-011
+
+next_action:
+  type: group_document_images
+  batch_ids: urbanek-ceske-slovo-012..urbanek-ceske-slovo-021
+  instruction: >-
+    Visually inspect the next ten image items and identify article boundaries,
+    continuations, composite clippings, dates and completeness before OCR.

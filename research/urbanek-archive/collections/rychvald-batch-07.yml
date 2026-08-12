@@ -1,0 +1,72 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+batch_number: 7
+batch_id: cemetery-graves-context-07
+status: completed_first_visual_pass
+git_attachment: pending_final_commit
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+source_scope:
+  source_root: sources/osobni-archiv-jaromira-urbanka/Rychvald
+  drive_folder_id: 1F5-qLV2yqg2i3RZkjHdDyN7Sg5ZHZREI
+  items:
+  - zzz-satiny 258.jpg
+  content_files: 1
+  technical_files: 0
+method:
+- Drive metadata verification and raw-file download from the canonical collection folder.
+- Downloaded raw-file byte size and Git blob SHA comparison against the repository.
+- First visual classification without identifying persons from grave inscriptions or inferring exact cemetery identity from appearance alone.
+- EXIF inspection; timestamps are treated as modern capture metadata, not historical-event dates.
+batch_findings:
+  general: Barevný hřbitovní pohled s řadami hrobů, náhrobků, květinovou výzdobou a vzrostlou zelení.
+  exact_binary_duplicates_within_batch: 0
+  capture_session: Snímek uvádí Panasonic DMC-FZ7 a EXIF čas 2009-11-02 14:17:12. Časově a tematicky navazuje na položku 030 pořízenou téhož dne v 14:10:36, ale přesná identita hřbitova se z obrazu samotného neurčuje.
+  inscription_scope: Nápisy na náhrobcích nejsou používány k identifikaci osob ani k odvozování dalších osobních údajů.
+items:
+- id: urbanek-rychvald-031
+  filename: zzz-satiny 258.jpg
+  git_blob_sha: eda2f4c11852f5e88f753a4174ffa4952fb14005
+  sha256: 384521f1a47c5bf14e47445feb8950594d8735c58e8b48d43d0252f11abe50e2
+  file_size_bytes: 688289
+  drive_id: 1YnZlzk34N0wLNLMjBLeHEENItO--6LsV
+  dimensions_px:
+  - 2048
+  - 1360
+  mode: RGB
+  exif:
+    make: Panasonic
+    model: DMC-FZ7
+    datetime: '2009-11-02 14:17:12'
+    datetime_original: '2009-11-02 14:17:12'
+    datetime_digitized: '2009-11-02 14:17:12'
+    software: Ver.1.0
+  visual_description: Barevná fotografie hřbitova s několika řadami kamenných hrobů a náhrobků, výraznou květinovou výzdobou a vzrostlými stromy v pozadí. Na náhrobcích jsou nápisy, ale nejsou používány k identifikaci osob. Přesný hřbitov ani historický kontext snímku nejsou určeny pouze podle vzhledu.
+  classification:
+  - modern_color_photograph
+  - cemetery_scene
+  - graves_and_headstones
+  - floral_decoration
+  - inscriptions_present_not_used_for_person_identification
+  unverified:
+  - exact_cemetery_location
+  - historical_context_and_original_collection_purpose
+  - photographer
+  - copyright_and_reuse_rights
+  related_capture:
+  - urbanek-rychvald-030
+  relation: same_day_cemetery_photo_sequence
+  verified:
+  - file is present in canonical Drive folder and Git path
+  - downloaded raw file byte size equals repository file size
+  - downloaded raw file Git blob SHA equals repository blob SHA
+  - visible scene and listed image dimensions
+  - embedded EXIF fields as file metadata
+related_uncertainties:
+- URB-U-0082
+next_step:
+  type: audit_technical_files
+  filenames:
+  - Thumbs.db
+  - ZbThumbnail.info

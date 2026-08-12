@@ -1,0 +1,61 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-33
+collection_source_id: urbanek-ccs-history
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights_note: Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni.
+sources:
+  - source_id: urbanek-ccs-161
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956/6.jpg
+    file_size_bytes: 207762
+    git_blob_sha: 3022d99928faefc8022912a560107665eecccebc
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka.; neznámá práva."}
+    title: Osoby v dlouhých tmavých oděvech sestupující ze schodiště
+    document_type: historical_funeral_clergy_exit_steps_photograph
+    visual_content: {photographs: single_historical_photograph_reproduction, scene_text: not_detected, method: Vizuální kontrola celého obrazu.}
+    notes: [Archivní kontext připisuje snímek pohřbu Ferdinanda Stibora v říjnu 1956, Osoby a organizace nebyly určeny pouze podle vzhledu, Souvisí s URB-U-0071]
+  - source_id: urbanek-ccs-162
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956/7.jpg
+    file_size_bytes: 176246
+    git_blob_sha: 61235ccd4651a002906ddaa46d6eccfdd13f1332
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka.; neznámá práva."}
+    title: Dva muži s řetězy a medailony sestupující ze schodiště
+    document_type: historical_funeral_chain_bearing_clergy_steps_photograph
+    visual_content: {photographs: single_historical_photograph_reproduction, scene_text: not_detected, method: Vizuální kontrola celého obrazu.}
+    notes: [Řetězy ani medailony samy neurčují úřad nebo identitu, Souvisí s URB-U-0071]
+  - source_id: urbanek-ccs-163
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956/8.jpg
+    file_size_bytes: 192404
+    git_blob_sha: 37254357ca35867a84987c9ae9eb83196d3a5074
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka.; neznámá práva."}
+    title: Zaplněné schodiště s účastníky po obou stranách
+    document_type: historical_funeral_crowd_lining_steps_photograph
+    visual_content: {photographs: single_historical_photograph_reproduction, scene_text: not_detected, method: Vizuální kontrola celého obrazu.}
+    notes: [Formální účel volného středního průchodu není potvrzen, Souvisí s URB-U-0071]
+  - source_id: urbanek-ccs-164
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956/9.jpg
+    file_size_bytes: 189971
+    git_blob_sha: 83f42c4fa5878fa7334723a090703d72ae2f67ca
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka.; neznámá práva."}
+    title: Dva muži s řetězy kráčející mezi shromážděním
+    document_type: historical_funeral_outdoor_procession_chain_bearers_photograph
+    visual_content: {photographs: single_historical_photograph_reproduction, scene_text: not_detected, method: Vizuální kontrola celého obrazu.}
+    notes: [Obsah a funkce držené knihy nebo složky nejsou určeny, Souvisí s URB-U-0071]
+  - source_id: urbanek-ccs-165
+    file: sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/7 Pohřeb biskupa br. Ferdinanda Stibora v říjnu 1956/10.jpg
+    file_size_bytes: 221741
+    git_blob_sha: fce3b7fc1bc8c466f22a15e83a94df5b44ee39e2
+    digital_format: JPEG
+    text_layer: absent
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka.; neznámá práva."}
+    title: Dva muži se světlými znaky kalicha ve venkovním průvodu
+    document_type: historical_funeral_outdoor_chalice_emblem_procession_photograph
+    visual_content: {photographs: single_historical_photograph_reproduction, scene_text: not_detected, method: Vizuální kontrola celého obrazu.}
+    notes: [Znaky ani pokrývka hlavy samy neurčují úřad nebo organizaci, Souvisí s URB-U-0071]

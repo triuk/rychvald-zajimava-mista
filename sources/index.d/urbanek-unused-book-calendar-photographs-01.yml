@@ -1,0 +1,86 @@
+schema_version: 1
+collection_id: urbanek-unused-book-calendar-photographs
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-unused-book-calendar-photographs-001
+  title: 045.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/045.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/045.jpg
+  document_type: historical_map_reproduction
+  mime_type: image/jpeg
+  file_size_bytes: 2117096
+  git_blob_sha: b04b3c7b0999ee4e5fdc2f2775474737f36a8985
+  sha256: 2084aef9c913c3faeba446df3384957670717b906265e482ebf5026349fbc617
+  drive_id: 1j9_Xj2vR-zWi2i97slEk89Tnw0p1qcVJ
+  repo_status: verified
+  image: {width_px: 1912, height_px: 1420, color_mode: RGB}
+  classification: [historical_map_reproduction, hand_drawn_map, german_and_latin_labels, settlement_symbols, river_labels]
+  summary: Barevná digitální reprodukce starší kreslené mapy s řekami, sídly a německými či latinskými popisky; bezpečně čitelné jsou mimo jiné „Mähren“ a „Oder Fluvius“. Přesná identita, autor a historická datace mapy nejsou určeny.
+  capture_metadata: {exif_present: true, datetime_original: '2010:12:13 05:58:19', gps_present: false, use: technical_reproduction_timestamp_not_historical_map_date}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-002
+  title: 093.JPG
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/093.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/093.JPG
+  document_type: sacral_architecture_exterior
+  mime_type: image/jpeg
+  file_size_bytes: 3624326
+  git_blob_sha: 9889ee4b8d86010bf8ed738ca6fc199b110ff97d
+  sha256: fafd49581d15ed5cc7a3e90ba73dc66e87a083e069170c36e5c7311f41ba9a59
+  drive_id: 1HBi6WJ0Og8BZmLi7Tu9KnPYK2vqedfOU
+  repo_status: verified
+  image: {width_px: 2304, height_px: 3072, color_mode: RGB}
+  classification: [color_photograph, sacral_architecture_exterior, clock_tower, spire_with_cross, unidentified_building, unidentified_location]
+  summary: Vysoká světlá věž sakrálně působící stavby s ciferníky hodin, štíhlou červenou střechou a křížem; přesná stavba, denominace a lokalita nejsou určeny.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:10:27 15:22:13', gps_present: false}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-003
+  title: 134.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/134.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/134.jpg
+  document_type: cemetery_scene
+  mime_type: image/jpeg
+  file_size_bytes: 692462
+  git_blob_sha: d776b18236089f7c78ae7769782fae6a7a6e3c26
+  sha256: c45164b7bc9b8afab5bb11aa2374f6d79f8856db1ad04cd3d3b8942d8927ebc6
+  drive_id: 1oNYpnySIGUFuNiUlIPeroNdCd2ysSJzo
+  repo_status: verified
+  image: {width_px: 2048, height_px: 1360, color_mode: RGB}
+  classification: [color_photograph, cemetery, central_crucifix_monument, graves_and_memorials, people_present, unidentified_location]
+  summary: Hřbitovní scéna s řadami hrobů, centrálním kamenným křížem a několika návštěvníky; přesný hřbitov, identita monumentu a osoby nejsou určeny.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-FZ7, datetime_original: '2009:11:02 14:10:36', gps_present: false}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-004
+  title: 164.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/164.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/164.jpg
+  document_type: outdoor_public_gathering
+  mime_type: image/jpeg
+  file_size_bytes: 539210
+  git_blob_sha: cff852acba76e004cacda2597a23c377d8ef352e
+  sha256: 5c7550f7bae5d48da18dabc50e7bdbc718a74fba26fee2e389778b1da881de1a
+  drive_id: 1myAJgheO0Ml4XfXdOBDgEbFOKLAevpOP
+  repo_status: verified
+  image: {width_px: 1452, height_px: 906, color_mode: RGB}
+  classification: [color_photograph, outdoor_public_gathering, burning_log_pile, crowd, adults_and_children, unidentified_event, unidentified_location]
+  summary: Početné venkovní shromáždění kolem hořící hranice z polen; přesný název a účel události, místo a identity osob nejsou určeny.
+  capture_metadata: {exif_present: true, make: Canon, model: null, datetime_original: '2012:03:15 09:39:23', gps_present: false}
+  uncertainty_ids: [URB-U-0084]
+- source_id: urbanek-unused-book-calendar-photographs-005
+  title: 2011cIsenburgové z Birsteinu.jpg
+  source_path: fotografie, které nebyl použité pro knihu ani kalendář/2011cIsenburgové z Birsteinu.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/fotografie, které nebyl použité pro knihu ani kalendář/2011cIsenburgové z Birsteinu.jpg
+  document_type: heraldic_image
+  mime_type: image/jpeg
+  file_size_bytes: 726700
+  git_blob_sha: 52df355711855e5c92fd2be2cd45607a007cde59
+  sha256: 2b80462743b9bd6b44d8cb42873e627a8474ca99990689c06704fb6a7337febf
+  drive_id: 1lNIjFG4tsgPwrZNY-4WQJVWwsiTO8Djy
+  repo_status: verified
+  image: {width_px: 1170, height_px: 1602, color_mode: RGB}
+  classification: [heraldic_image, crowned_shield, lion_motif, striped_fields, archival_filename_attribution_unverified]
+  summary: Heraldické vyobrazení korunovaného štítu s modrým středovým polem a žlutým lvem. Archivní název souboru obsahuje „Isenburgové z Birsteinu“, ale tato atribuce není z obrazu samotného nezávisle potvrzena.
+  capture_metadata: {exif_present: false, gps_present: false}
+  archival_filename_claim: Isenburgové z Birsteinu
+  uncertainty_ids: [URB-U-0084]

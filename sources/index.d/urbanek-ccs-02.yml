@@ -1,0 +1,126 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-02
+collection_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_default: unknown
+processing_status: completed_first_visual_pass
+
+sources:
+  - source_id: urbanek-ccs-006
+    title: Den otevření 6. 7. 1925 – archivní označení
+    document_type: historical_architectural_event_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/6  Den  otevření 6. 7. 1925.jpg"
+    file_size_bytes: 301968
+    git_blob_sha: d2cf995ec9a962f39dbc1ad9de739382db0e0991
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: good_with_surface_wear
+      note: Budova i shromáždění jsou dobře čitelné; fotografie má skvrny a stopy stáří.
+    visual_content:
+      photographs: single_historical_architectural_event_scene
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Vizuálně je doložena dokončená budova a početné venkovní shromáždění.
+      - Datum a označení dne otevření pocházejí z archivního názvu a čekají na nezávislé ověření.
+
+  - source_id: urbanek-ccs-007
+    title: Původní interiér Husova sboru – archivní označení
+    document_type: historical_interior_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/7  původní interiér Husova sboru.jpg"
+    file_size_bytes: 500078
+    git_blob_sha: 1e3e2a07b63e3fd12f3d5684f60c00f340ce9cbf
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: good_except_scene_text
+      note: Dispozice a vybavení jsou čitelné; nápis nad oltářem je stranově převrácený a nedostatečně čitelný.
+    visual_content:
+      photographs: single_historical_interior_scene
+      scene_text: present_unreadable
+      method: Vizuální kontrola celého obrazu a zvětšení nápisu.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Text na dekorativní stuze se nesmí rekonstruovat odhadem.
+      - Uspořádání interiéru se shoduje s urbanek-ccs-009.
+
+  - source_id: urbanek-ccs-008
+    title: Obraz za oltářem – archivní označení
+    document_type: historical_clerical_portrait_and_interior_detail_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/8  obraz za oltářem.jpg"
+    file_size_bytes: 247206
+    git_blob_sha: 2b7739fac7b951a164a49addb0f43eef135c1cf4
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: variable_due_to_grain
+      note: Duchovní, oltářní výzdoba a hlavní malovaný výjev jsou rozeznatelné; jemné detaily jsou zrnité.
+    visual_content:
+      photographs: single_historical_interior_detail
+      scene_text: not_detected
+      method: Vizuální kontrola celého obrazu.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Totožnost duchovního, autor obrazu a přesné ikonografické určení nejsou ověřeny.
+
+  - source_id: urbanek-ccs-009
+    title: Slavnostní bohoslužby k deseti letům CČS – archivní označení
+    document_type: historical_crowded_service_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/9  10 let CČS slavnostni bohoslužby.jpg"
+    file_size_bytes: 351442
+    git_blob_sha: 9c7e1275fc9dc9bc978558e824ab14ab5b3e9d22
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: good_with_surface_damage
+      note: Zaplněný interiér a kněžiště jsou čitelné; fotografie má lokální oděrky a světelné odlesky.
+    visual_content:
+      photographs: single_historical_ceremonial_scene
+      scene_text: not_safely_readable
+      method: Vizuální kontrola celého obrazu.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Charakter velké slavnostní bohoslužby je obrazově doložen.
+      - Přesný důvod a datum události pocházejí z archivního názvu.
+
+  - source_id: urbanek-ccs-010
+    title: Tryzna za T. G. Masaryka roku 1937 a farář Vodička – archivní označení
+    document_type: historical_memorial_group_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/10  1937 Tryzna za TGM Farář Vodička.jpg"
+    file_size_bytes: 348531
+    git_blob_sha: b48a6a15a2917fa6ddb0dbe4e0f05567a94e2c6e
+    page_count: 1
+    digital_format: JPEG
+    text_layer: absent
+    readability:
+      status: good_with_cropped_imprint
+      note: Ceremoniální skupina a výzdoba jsou dobře čitelné; fotografický otisk je na pravé straně oříznutý.
+    visual_content:
+      photographs: single_historical_memorial_scene
+      scene_text: present_partial
+      method: Vizuální kontrola celého obrazu a spodního fotografického otisku.
+    rights:
+      status: unknown
+      note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."
+    notes:
+      - Bezpečně čitelná část otisku zní „FOTO KŘÍŽKOVSKÝ – RYCHVALD – …“.
+      - Identita připomínané osoby, rok a jméno duchovního čekají na nezávislé ověření.
+
+indexing_note: >-
+  Shard navazuje na sources/index.d/urbanek-ccs.yml a pokrývá druhou dávku
+  položek 6–10. Archivní názvy jsou zachovány jako metadata, nikoli jako
+  automaticky ověřené historické skutečnosti.

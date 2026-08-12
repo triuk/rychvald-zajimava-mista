@@ -1,0 +1,56 @@
+schema_version: 1
+collection_id: urbanek-rychvald
+collection_title: Rychvald
+source_root: sources/osobni-archiv-jaromira-urbanka/Rychvald
+drive_folder_id: 1F5-qLV2yqg2i3RZkjHdDyN7Sg5ZHZREI
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+status: completed
+totals:
+  content_files: 31
+  technical_files: 2
+  total_items: 33
+progress:
+  processed_content_files: 31
+  processed_technical_files: 2
+  processed_items: 33
+  repo_verified_items: 33
+  visually_classified_items: 31
+  source_indexed_items: 33
+  remaining_content_files: 0
+  remaining_technical_files: 0
+  remaining_items: 0
+completed_batches:
+- {number: 1, items: 001-005, id: municipal-office-and-central-public-space-01, inventory: research/urbanek-archive/collections/rychvald-inventory-01.csv, classification: research/urbanek-archive/collections/rychvald-batch-01.yml, source_index: sources/index.d/urbanek-rychvald-01.yml}
+- {number: 2, items: 006-010, id: sacral-interior-duplicate-office-and-historical-public-school-images-02, inventory: research/urbanek-archive/collections/rychvald-inventory-02.csv, classification: research/urbanek-archive/collections/rychvald-batch-02.yml, source_index: sources/index.d/urbanek-rychvald-02.yml}
+- {number: 3, items: 011-015, id: historical-postcard-sacral-building-local-history-maps-and-manuscript-page-03, inventory: research/urbanek-archive/collections/rychvald-inventory-03.csv, classification: research/urbanek-archive/collections/rychvald-batch-03.yml, source_index: sources/index.d/urbanek-rychvald-03.yml}
+- {number: 4, items: 016-020, id: handwritten-chronology-vocational-school-page-and-cemetery-monument-04, inventory: research/urbanek-archive/collections/rychvald-inventory-04.csv, classification: research/urbanek-archive/collections/rychvald-batch-04.yml, source_index: sources/index.d/urbanek-rychvald-04.yml}
+- {number: 5, items: 021-025, id: modern-buildings-small-sacral-structure-sports-and-playground-05, inventory: research/urbanek-archive/collections/rychvald-inventory-05.csv, classification: research/urbanek-archive/collections/rychvald-batch-05.yml, source_index: sources/index.d/urbanek-rychvald-05.yml}
+- {number: 6, items: 026-030, id: railway-nature-reserve-waterbody-equipment-and-cemetery-context-06, inventory: research/urbanek-archive/collections/rychvald-inventory-06.csv, classification: research/urbanek-archive/collections/rychvald-batch-06.yml, source_index: sources/index.d/urbanek-rychvald-06.yml}
+- {number: 7, items: 031, id: cemetery-graves-context-07, inventory: research/urbanek-archive/collections/rychvald-inventory-07.csv, classification: research/urbanek-archive/collections/rychvald-batch-07.yml, source_index: sources/index.d/urbanek-rychvald-07.yml}
+technical_inventory: research/urbanek-archive/collections/rychvald-technical-inventory.csv
+technical_source_index: sources/index.d/urbanek-rychvald-technical.yml
+technical_audit: research/urbanek-archive/reports/rychvald-technical-audit.md
+interpretation_rules:
+- Folder and filename wording is archival metadata, not independent proof of location, authorship or historical date.
+- EXIF timestamps are capture metadata, not dates of depicted historical events or objects.
+- Exact binary duplicates under different filenames remain separate inventory items but count as one independent image.
+- Items 002 and 007 are bitwise identical; the duplicate is also reflected in both thumbnail caches.
+- People are not identified solely from appearance; grave inscriptions are not used to identify persons.
+- Technical caches are not independent image sources and do not evidence any missing full original in the current snapshot.
+open_uncertainties:
+- URB-U-0082
+technical_files:
+- path: Thumbs.db
+  status: audited
+- path: ZbThumbnail.info
+  status: audited
+next_group:
+  id: urbanek-fotodokument-root
+  source_path: fotodokument
+  filenames:
+  - img036.jpg
+  - img037.jpg
+  - img038.jpg
+  - img039.jpg
+  - img040.jpg

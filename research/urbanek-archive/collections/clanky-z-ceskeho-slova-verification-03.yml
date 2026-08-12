@@ -1,0 +1,35 @@
+collection_id: urbanek-ceske-slovo
+batch_id: verification-03
+status: completed
+scope: urbanek-ceske-slovo-022 až urbanek-ceske-slovo-039
+verified_count: 18
+missing_count: 0
+items:
+  - {id: urbanek-ceske-slovo-022, repo_status: repo_verified, git_blob_sha: c98d00ac0a1888be3ba740c77c7693785c34df0d}
+  - {id: urbanek-ceske-slovo-023, repo_status: repo_verified, git_blob_sha: c2114b457c648cb6d3814ce7a82ce6ef6be7cb0b}
+  - {id: urbanek-ceske-slovo-024, repo_status: repo_verified, git_blob_sha: 5b915fe9e2f35100ae7553d74045411dc1aa0b7b}
+  - {id: urbanek-ceske-slovo-025, repo_status: repo_verified, git_blob_sha: 25b163b46a630d31c262a59836a5f4dbbd2beedc}
+  - {id: urbanek-ceske-slovo-026, repo_status: repo_verified, git_blob_sha: d86a12a652d4c03954dca03c2e470fa63600aaf2}
+  - {id: urbanek-ceske-slovo-027, repo_status: repo_verified, git_blob_sha: 9f408e58f2466e4fca777a061ae745025b0ee54b}
+  - {id: urbanek-ceske-slovo-028, repo_status: repo_verified, git_blob_sha: 5f6783e2e40c25da61680690c41dc21f3be730e5}
+  - {id: urbanek-ceske-slovo-029, repo_status: repo_verified, git_blob_sha: 127b085bbc692d00b2ba338da6a656339bbdb114}
+  - {id: urbanek-ceske-slovo-030, repo_status: repo_verified, git_blob_sha: bd0fbee31d287aee2b5b980d8a80eb646d8bbb02}
+  - {id: urbanek-ceske-slovo-031, repo_status: repo_verified, git_blob_sha: e7d1ad1081b1c5993d002e732c81d14fb975e6d8}
+  - {id: urbanek-ceske-slovo-032, repo_status: repo_verified, git_blob_sha: 3b1061b14258d5f941abdc9dc55522e897ec770d}
+  - {id: urbanek-ceske-slovo-033, repo_status: repo_verified, git_blob_sha: bf8e126d400b416ab5e653b0de904903107ca4d7}
+  - {id: urbanek-ceske-slovo-034, repo_status: repo_verified, git_blob_sha: 52e3fc4d6f29afdb3d1bdbd845c510f535cea73e}
+  - {id: urbanek-ceske-slovo-035, repo_status: repo_verified, git_blob_sha: 307df2f9353afca93b049e25845156fd5469d390}
+  - {id: urbanek-ceske-slovo-036, repo_status: repo_verified, git_blob_sha: 54f34ab7b91faa63f3b022930482f021830b51a4}
+  - {id: urbanek-ceske-slovo-037, repo_status: repo_verified, git_blob_sha: 4e2b788540a273029f7cec79c46b3e138681eb0d}
+  - {id: urbanek-ceske-slovo-038, repo_status: repo_verified, git_blob_sha: f087d7ecec991aaa5d3327f4e7a9cf4130e44c3c, filename: Thumbs.db}
+  - {id: urbanek-ceske-slovo-039, repo_status: repo_verified, git_blob_sha: 76ed4babab864fa3e4db96a6736d0dde71d92400}
+summary:
+  total_files: 39
+  image_files: 37
+  image_files_repo_verified: 37
+  technical_thumbnail_caches: 2
+  technical_thumbnail_caches_repo_verified: 2
+  repo_missing_items: 0
+notes:
+  - Všechny soubory mají přesnou původní cestu ve větvi.
+  - Obsahová klasifikace, seskupování článků a OCR jsou vedeny v navazujících souborech kolekce.

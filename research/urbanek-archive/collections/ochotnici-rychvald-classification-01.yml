@@ -1,0 +1,219 @@
+collection_id: urbanek-ochotnici
+batch_id: classification-01
+status: completed
+scope: urbanek-ochotnici-001..urbanek-ochotnici-010
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights: unknown
+image_items: 10
+document_text_candidates: 9
+scene_text_candidates: 1
+
+items:
+  - id: urbanek-ochotnici-001
+    source_path: Ochotníci rychvald/Článek.jpg
+    visual_type: scanned_magazine_page
+    dimensions: [1584, 2186]
+    captured_at: "2014-03-14T16:24:44"
+    primary_title: "Vesničtí ochotníci ve finále"
+    author: Petr Grimm
+    printed_page: 147
+    description: >-
+      Celá časopisecká strana se třísloupcovým článkem o celostátní přehlídce
+      vesnických divadelních souborů v Kroměříži. Text výslovně zmiňuje soubor z
+      Rychvaldu a hru Večer tříkrálový. Ve spodní části je fotografie z Kroměříže.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: complete_article
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-002
+    source_path: Ochotníci rychvald/Z výstavky v kulturáku 1.jpg
+    visual_type: contemporary_photograph_of_exhibition_panel
+    dimensions: [2999, 1565]
+    captured_at: "2014-04-17T12:34:43"
+    description: >-
+      Celkový pohled na výstavní panel věnovaný rychvaldskému ochotnickému divadlu.
+      Panel je rozdělen obdobími 1902–1938 a 1945–1961 a obsahuje fotografie,
+      programy, seznamy, čestná uznání a popisky osob či rolí.
+    grouping:
+      group_id: exhibition-overview-1902-1961
+      role: overview_reference
+    ocr:
+      document_text: not_applicable
+      scene_text: candidate_selective
+      note: >-
+        Čitelné nadpisy a popisky pomáhají seskupovat jednotlivé soubory, ale většina
+        vložených dokumentů má v archivu samostatné kvalitnější reprodukce. Neprovádět
+        duplicitní plný OCR z tohoto celkového záběru.
+
+  - id: urbanek-ochotnici-003
+    source_path: Ochotníci rychvald/Seznam her v nichž hrál M. Neborák.jpg
+    visual_type: handwritten_activity_table
+    dimensions: [1700, 2338]
+    captured_at: "2014-03-14T11:28:53"
+    primary_title: "Miroslav Neborák – výčet činností v rychvaldském ochotnickém divadelnictví 1947–1961"
+    description: >-
+      Ručně psaná tabulka inscenací, autorů, rolí, počtu představení a dalších funkcí
+      Miroslava Neboráka. Spodní část obsahuje další seznam her a souhrnný údaj o
+      počtu her a představení.
+    grouping:
+      group_id: miroslav-neborak-activity-record
+      role: complete_document
+    ocr:
+      document_text: candidate_full_structured
+      scene_text: not_applicable
+      note: Přepis musí zachovat tabulkovou strukturu a nejisté rukopisné znaky označit.
+
+  - id: urbanek-ochotnici-004
+    source_path: Ochotníci rychvald/Svět v obrazech.jpg
+    visual_type: scanned_magazine_page
+    dimensions: [2262, 3396]
+    primary_title: "Thálie držela palce"
+    author: M. Veselý
+    photographer: Karel Minc
+    description: >-
+      Obrazově bohatá časopisecká stránka o celostátní přehlídce vesnických
+      divadelních souborů v Kroměříži. Titulní fotografie zachycuje scénu z Večera
+      tříkrálového a popisek uvádí ocenění souboru OB Rychvald.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: complete_article_with_photographs
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-005
+    source_path: Ochotníci rychvald/P1020772.JPG
+    visual_type: photographed_handwritten_chronicle_page
+    dimensions: [2304, 3072]
+    captured_at: "2014-04-02T16:55:33"
+    printed_or_written_page: 262
+    description: >-
+      Bližší záběr rukopisné kronikové strany 262 o divadelní činnosti, spolupráci
+      spolků, kulturní komisi, soukromém kinu a hostování v letech 1926–1928.
+    grouping:
+      group_id: rychvald-divadelni-kronika-pages-260-262
+      role: supplementary_detail_of_page_262
+      primary_ocr_source: urbanek-ochotnici-006
+    visual_equivalence:
+      status: same_document_page_alternate_capture
+      related_id: urbanek-ochotnici-006
+    ocr:
+      document_text: supplementary_for_verification
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-006
+    source_path: Ochotníci rychvald/P1020771.JPG
+    visual_type: photographed_handwritten_chronicle_page
+    dimensions: [2304, 3072]
+    captured_at: "2014-04-02T16:54:55"
+    printed_or_written_page: 262
+    description: >-
+      Úplnější záběr stejné rukopisné kronikové strany 262 jako položka 005.
+    grouping:
+      group_id: rychvald-divadelni-kronika-pages-260-262
+      role: primary_page_262
+      alternate_capture: urbanek-ochotnici-005
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-007
+    source_path: Ochotníci rychvald/P1020770.JPG
+    visual_type: photographed_handwritten_chronicle_page_with_embedded_photo
+    dimensions: [2304, 3072]
+    captured_at: "2014-04-02T16:54:44"
+    printed_or_written_page: 261
+    description: >-
+      Rukopisná kroniková strana 261 s historickou portrétní fotografií muže v
+      kostýmu. Text se věnuje prvnímu režisérovi a herci, jeho životopisu a dalším
+      spolupracovníkům rychvaldského divadla.
+    identification:
+      candidate_name: Bohuš Koci
+      status: handwritten_name_requires_ocr_verification
+    grouping:
+      group_id: rychvald-divadelni-kronika-pages-260-262
+      role: primary_page_261
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-008
+    source_path: Ochotníci rychvald/P1020769.JPG
+    visual_type: photographed_handwritten_chronicle_page
+    dimensions: [2304, 3072]
+    captured_at: "2014-04-02T16:54:06"
+    printed_or_written_page: 260
+    primary_heading: "XVII. Divadlo"
+    description: >-
+      Úvodní rukopisná strana kapitoly o rychvaldském divadle. Popisuje počátky
+      ochotnické činnosti, první a další jeviště a způsob režie.
+    grouping:
+      group_id: rychvald-divadelni-kronika-pages-260-262
+      role: primary_page_260_and_group_start
+    ocr:
+      document_text: candidate_full
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-009
+    source_path: Ochotníci rychvald/P1020600.JPG
+    visual_type: photographed_magazine_page_detail
+    dimensions: [2304, 3072]
+    captured_at: "2014-02-28T10:44:06"
+    primary_title: "Katka, Angelika a Viola v Kroměříži"
+    description: >-
+      Bližší záběr spodní části časopiseckého článku s textem o Sylvě Kravalové,
+      dalších oceněných herečkách a organizaci přehlídky. Obsahuje portrétní
+      fotografii Sylvy Kravalové v roli Violy a popisek.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: supplementary_detail_of_article
+      primary_ocr_source: urbanek-ochotnici-010
+    visual_equivalence:
+      status: same_document_page_alternate_capture
+      related_id: urbanek-ochotnici-010
+    ocr:
+      document_text: supplementary_for_verification
+      scene_text: not_applicable
+
+  - id: urbanek-ochotnici-010
+    source_path: Ochotníci rychvald/P1020599.JPG
+    visual_type: photographed_magazine_page
+    dimensions: [2304, 3072]
+    captured_at: "2014-02-28T10:43:40"
+    primary_title: "Katka, Angelika a Viola v Kroměříži"
+    author: M. Sehnalová
+    description: >-
+      Úplný záběr časopisecké stránky s článkem o celostátní přehlídce, souboru
+      Osvětové besedy v Rychvaldě a hereckém výkonu Sylvy Kravalové. Pravá část
+      stránky patří jinému pokračujícímu textu a nesmí být sloučena s hlavním článkem.
+    grouping:
+      group_id: kromeriz-celostatni-prehlidka
+      role: primary_complete_article
+      alternate_capture: urbanek-ochotnici-009
+    ocr:
+      document_text: candidate_full_primary_article_only
+      scene_text: not_applicable
+      note: Při OCR oddělit hlavní levý článek od nesouvisející pravé stránky.
+
+groups:
+  - group_id: kromeriz-celostatni-prehlidka
+    members: [urbanek-ochotnici-001, urbanek-ochotnici-004, urbanek-ochotnici-009, urbanek-ochotnici-010]
+    note: Pravděpodobně souvisí také s dosud neklasifikovanými položkami Kroměříž 1 a Kroměříž 2.
+  - group_id: rychvald-divadelni-kronika-pages-260-262
+    ordered_members: [urbanek-ochotnici-008, urbanek-ochotnici-007, urbanek-ochotnici-006]
+    supplementary_captures: [urbanek-ochotnici-005]
+  - group_id: exhibition-overview-1902-1961
+    members: [urbanek-ochotnici-002]
+  - group_id: miroslav-neborak-activity-record
+    members: [urbanek-ochotnici-003]
+
+next_action:
+  type: visually_classify_collection_batch
+  batch_ids: urbanek-ochotnici-011..urbanek-ochotnici-020
+  instruction: >-
+    Visually inspect items 011 through 020. Determine whether Kroměříž 1 and 2 extend
+    the existing Kroměříž group, classify img203–216, the theatre-group image, the
+    Těšínsko article and the first Zabloudil photograph. Do not start OCR yet.

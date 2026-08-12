@@ -1,0 +1,70 @@
+schema_version: 1
+collection_id: urbanek-popopo
+attribution: Z osobního archivu p. Jaromíra Urbánka.
+rights: unknown
+sources:
+- source_id: urbanek-popopo-001
+  title: 916.jpg
+  source_path: popopo/916.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/916.jpg
+  document_type: archival_event_photograph_reproduction
+  file_size_bytes: 2425465
+  git_blob_sha: fa178d27c765a17fe39ab97ddfcb35b48f88ef4c
+  sha256: 9c90b80e43b5c6164cc476a81aa10f3fe4f919a8689153093c8843ac7a2158d8
+  drive_id: 1jP9Xhp4uOX9XGbGUEJGKFouxOxNjYpiC
+  image: {width_px: 2639, height_px: 1985, color_mode: RGB}
+  summary: Historická scéna s otevřeným automobilem, velkým davem a výzdobou; viditelný nápis `PEKÁRNA`; přesná událost, místo a osoby nejsou určeny.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-002
+  title: Josef Gemrot.jpg
+  source_path: popopo/Josef Gemrot.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/Josef Gemrot.jpg
+  document_type: portrait_reproduction
+  file_size_bytes: 487982
+  git_blob_sha: d351b308ff9c2098be25c7caf30bd28371714429
+  sha256: 7355c4341f28a188e380e0bcb148cb859eea146a0aab2c595834d3f7c4fb0cdd
+  drive_id: 1UP5QImagSVsF5kwk9nujDJoxYNiYoY-8
+  image: {width_px: 1494, height_px: 1104, color_mode: RGB}
+  summary: Portrét muže v uniformně působícím oděvu; filename `Josef Gemrot.jpg` je archivní atribuce a není sám o sobě potvrzením identity.
+  capture_metadata: {exif_present: false, gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-003
+  title: P1010066a.jpg
+  source_path: popopo/P1010066a.jpg
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010066a.jpg
+  document_type: photograph_of_archival_photograph
+  file_size_bytes: 1704517
+  git_blob_sha: 57d4d088d5e9f683db88e1cac23560b512102e2b
+  sha256: 54d817eb800c44f301608a28e304d44df96fa6d32aa6f49725ece2f2b4d55b97
+  drive_id: 1eOeSxvWL_erjXrlqOqumZox6DSi27eON
+  image: {width_px: 2304, height_px: 3072, color_mode: RGB}
+  summary: Reprodukce slavnostně působící městské scény s velkým davem, prapory a sakrálně působící stavbou; přesný kontext není určen.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:02:28 12:34:50', gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-004
+  title: P1010067.JPG
+  source_path: popopo/P1010067.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010067.JPG
+  document_type: photograph_of_archival_photograph
+  file_size_bytes: 3487696
+  git_blob_sha: b134ef2c4a98c93e771ee7b600dcae2a4dc8a05a
+  sha256: 65520d5c54a3cec89ff5ede4139622ef6f3991067f2efe5236274877c9c776ca
+  drive_id: 1vNjeq90Z5fK8zwRPKhM8afmuB1Tn9K1i
+  image: {width_px: 3072, height_px: 2304, color_mode: RGB}
+  summary: Historická uliční scéna s davem před provozovnami; čitelné jsou `Baťa`, `MODNÍ ZÁVOD KREJČOVSKÝ`, `RESTAURACE` a `TEPLÁ A STUDENÁ JÍDLA`.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:02:28 12:36:29', gps_present: false}
+  uncertainty_ids: [URB-U-0087]
+- source_id: urbanek-popopo-005
+  title: P1010068.JPG
+  source_path: popopo/P1010068.JPG
+  repo_path: sources/osobni-archiv-jaromira-urbanka/popopo/P1010068.JPG
+  document_type: photograph_of_historical_school_collage
+  file_size_bytes: 3332457
+  git_blob_sha: 66e5f99d53a7994d7c9c75e9b5a2973ff82fccc8
+  sha256: 7199828ce721671118674faaea1eaf8402ff9212cdd37fcf3d18003c5a630729
+  drive_id: 1gmCX8bRRvBS8tPlTVTv-Nv_J-M38WPif
+  image: {width_px: 3072, height_px: 2304, color_mode: RGB}
+  summary: Koláž dvou školních budov s hlavním nápisem `ŠKOLY U.M.Š. V RYCHVALDĚ.`, nápisem `ŠKOLA` a viditelným údajem `1909`; přesná institucionální identita a význam data nejsou určeny.
+  capture_metadata: {exif_present: true, make: Panasonic, model: DMC-TZ3, datetime_original: '2010:02:28 12:37:29', gps_present: false}
+  uncertainty_ids: [URB-U-0087]

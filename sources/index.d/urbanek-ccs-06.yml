@@ -1,0 +1,96 @@
+schema_version: 1
+scope: urbanek-ccs-history-batch-06
+collection_source_id: urbanek-ccs-history
+attribution: "Z osobního archivu p. Jaromíra Urbánka."
+rights_note: "Oprávnění k použití pro projekt bylo potvrzeno; konkrétní autoři a držitelé práv jednotlivých fotografií nejsou ověřeni."
+
+sources:
+  - source_id: urbanek-ccs-026
+    title: Rekonstruované kněžiště roku 1949 – archivní označení
+    document_type: historical_architectural_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/28  1949 , rekonstruované kněžiště.jpg"
+    file_size_bytes: 223046
+    git_blob_sha: 6323b101e05bd0cde3f1c40e1d29ed368796c98c
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Architektura kněžiště, kříž a oltář jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_chancel_state, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Obraz potvrzuje zjednodušený stav kněžiště bez pozdějších bočních maleb.
+      - Rok 1949 a označení rekonstrukce pocházejí z archivního názvu.
+      - Souvisí s URB-U-0049.
+
+  - source_id: urbanek-ccs-027
+    title: Slavnostní bohoslužba po rekonstrukci roku 1949 – archivní označení
+    document_type: historical_service_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/29  1949 Slavnostní bohoslužby po rekonstrukci  bohoslužby s.jpg"
+    file_size_bytes: 217592
+    git_blob_sha: b930244ed48fb0e2c49629756130fce8e77e32cc
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good_with_lower_edge_damage, note: "Kněžiště, duchovní a shromáždění jsou čitelné; spodní část obrazu je místy zhoršená."}
+    visual_content: {photographs: single_historical_crowded_service, scene_text: partial, method: "Vizuální kontrola celého obrazu a tabule na dveřích."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Čísla 15 a 8 na tabuli jsou čitelná, slovní popisky nikoli.
+      - Rok, slavnostní charakter ve vztahu k rekonstrukci a identity osob nejsou nezávisle ověřeny.
+      - Souvisí s URB-U-0049 a URB-U-0051.
+
+  - source_id: urbanek-ccs-028
+    title: Kněžiště po doplnění koberců
+    document_type: historical_liturgical_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/30  pozdeji bylo kněžiště opatřeno kobercem.jpg"
+    file_size_bytes: 301472
+    git_blob_sha: 6dcac4138f8c3be9cdf1ee5668326e09178f573f
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Koberce, oltář, kříž a tři obřadní osoby jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_carpeted_chancel_event, scene_text: not_detected, method: "Vizuální kontrola celého obrazu."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Obraz potvrzuje pozdější kobercovou úpravu oproti urbanek-ccs-026 a 027.
+      - Datum, původ koberců a událost nejsou ověřeny.
+      - Souvisí s URB-U-0049 a URB-U-0052.
+
+  - source_id: urbanek-ccs-029
+    title: Figurální výzdoba čelní stěny údajně z roku 1957
+    document_type: historical_interior_photograph_reproduction
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/31  V r. 1957 byly na čelní stěnu nakresleny obrazy ak. malí.jpg"
+    file_size_bytes: 225916
+    git_blob_sha: 32d38291a1ba7315b38dc48ad8fdf1c26923c8fe
+    digital_format: JPEG
+    text_layer: absent
+    readability: {status: good, note: "Trojice nástěnných výjevů a základní uspořádání interiéru jsou dobře čitelné."}
+    visual_content: {photographs: single_historical_decorated_chancel_scene, scene_text: partially_readable, method: "Vizuální kontrola celého obrazu; přesnější text převzat z urbanek-ccs-030."}
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Náměty bočních maleb lze určit jako křest Ježíše a výjev se vzkříšeným Kristem.
+      - Rok 1957 a označení akademického malíře pocházejí z archivního názvu.
+      - Souvisí s URB-U-0053.
+
+  - source_id: urbanek-ccs-030
+    title: Novodobý interiér s kresbami připisovanými Obšilovi
+    document_type: modern_color_documentation_photograph
+    file: "sources/osobni-archiv-jaromira-urbanka/4 Historie  Církve Československé  v Rychvaldě ve fotografiích/1 Od položení základního kamene. Histotie rychvaldského kostela/32  Současný interiér s kresbami Obšila.jpg"
+    file_size_bytes: 602960
+    git_blob_sha: 08e913a7eb0f4163c97a35609c972053648d3413
+    digital_format: JPEG
+    text_layer: absent
+    capture_metadata:
+      exif_datetime_original: "2009-08-28 15:59:46"
+      camera: Panasonic DMC-FZ7
+      interpretation: "Datum dokládá pořízení digitálního snímku, nikoli vznik maleb."
+    readability: {status: good, note: "Interiér, barevnost maleb a biblické nápisy jsou dobře čitelné."}
+    visual_content:
+      photographs: single_modern_color_interior_scene
+      scene_text: readable
+      transcriptions:
+        - "NENARODÍ-LI SE KDO Z VODY A Z DUCHA, NEMŮŽE VEJÍTI DO KRÁLOVSTVÍ BOŽÍHO. JAN 3,5"
+        - "KRISTUS VSTAL Z MRTVÝCH JAKO PRVNÍ Z TĚCH, KDOŽ ZESNULI. I KOR 15,20"
+      method: "Vizuální kontrola celého obrazu a zvětšených oblastí obou nápisů."
+    rights: {status: unknown, note: "Z osobního archivu p. Jaromíra Urbánka; neznámá práva."}
+    notes:
+      - Snímek potvrzuje dochování stejné výzdoby jako na urbanek-ccs-029 nejméně k datu digitálního pořízení.
+      - Příjmení Obšil a jeho role pocházejí z archivního názvu a vyžadují nezávislé ověření.
+      - Souvisí s URB-U-0053.

@@ -76,6 +76,20 @@ Roku 1993 je Jana Šilerová nezávisle doložena jako již osm let působící 
 
 Není doložena nepřerušená kontinuita mezi občanskými oslavami 1969–1970 a moderní církevně-obecní podobou po roce 1989 ani konkrétní rok obnovení. Také není bezpečně určeno, ke kterému ročníku patří archivní barevné snímky 049–054.
 
+### URB-U-0067 — Karel a Libuše Vodičkovi, deska a pohřeb
+
+Ruční přepis fotografie desky uvádí u Karla Vodičky **2. 8. 1890 – 12. 6. 1970**. Starší rychvaldská kronika i odborný životopis Martina Jindry na ÚSTR nezávisle potvrzují narození 2. srpna 1890, jeho ustanovení prvním rychvaldským farářem CČS v květnu 1920 a působení v Rychvaldu do **11. 10. 1938**.
+
+Kronika roku 1970 potvrzuje, že při rychvaldském 50. výročí přijel z Prahy osmdesátiletý první farář Karel Vodička a že v červnu po úraze náhle zemřel. ÚSTR přesně uvádí datum úmrtí **12. 6. 1970** a smuteční rozloučení **18. 6. 1970 v Husově sboru v Praze-Dejvicích**.
+
+Oficiální rychvaldský text CČSH výslovně uvádí, že **za pamětní deskou ve vstupní hale je uložena urna s popelem Karla Vodičky**. Tím je obsahově vyřešen význam useknutých archivních názvů 059/155, nikoli jejich chybějící doslovný text. Z tohoto pramene se neodvozuje uložení Libuše Vodičkové.
+
+Rychvaldský zpravodaj 4/1993 uvádí, že deska je z vračanského mramoru, má rozměr **90 × 50 cm** a byla odhalena **8. 7. 1973**. OCR vrstva tohoto zpravodaje čte Vodičkovo datum narození jako `2.5.1890`; protože fotografie desky, starší kronika i ÚSTR shodně uvádějí 2. srpen, OCR údaj se bez vizuální kontroly tištěné stránky nepoužívá jako skutečný historický konflikt.
+
+Pohřební fotografie 142–152 jsou událostně dobře slučitelné s nezávisle doloženým rozloučením 18. 6. 1970. Na 148 je přímo čitelný nápis `HUSOVA ČESKOSLOVENSKÁ BOHOSLOVECKÁ FAKULTA V PRAZE`, na 149 číslo `5`; oficiální historie CČSH potvrzuje, že fakulta od roku 1950 sídlila ve stejném dejvickém komplexu. Salutující uniformované osoby se však bez dalšího pramene neoznačují za čestnou stráž a jejich organizace ani identity nejsou určeny.
+
+`URB-U-0067` zůstává open: stále chybí nezávislý životopis a role Libuše Vodičkové, přesné mapování osob na návštěvních snímcích 064/065, identifikace uniformovaných a dalších účastníků, historická podoba adresy v roce 1970 a nezávislá datace pietního portrétu 153/154.
+
 ### URB-U-0086 a URB-U-0088 — chybějící plné originály
 
 Exact-name hledání všech cache doložených názvů v připojeném Google Drive skončilo bez shody. Další směr je obrazová shoda pod jinými názvy nebo jiné úložiště/záloha.
@@ -89,6 +103,6 @@ Exact-name hledání všech cache doložených názvů v připojeném Google Dri
 
 ## Další aktivní cíl
 
-`URB-U-0067`: **Karel a Libuše Vodičkovi — pamětní deska, návštěvní fotografie, pohřeb roku 1970 a pietní uspořádání**.
+`URB-U-0075`: **přesný rukopisný svazek a úplnost oddílu `Náboženský převrat v Rychvaldě`**.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.

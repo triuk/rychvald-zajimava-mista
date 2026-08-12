@@ -66,6 +66,16 @@ Useknutý filename `přijel farář Kare…` se textově nedoplňuje. Nadřazen�
 
 Inventář fondu Diecézní rady CČS(H) Olomouc navíc ukazuje konkrétní primární cíle v Národním archivu: korespondenci s NO Rychvald 1962–1980 (inv. 1448, karton 167), Marceluchovu korespondenci a fotografický soubor `Rychvald, 7 kusů`, 1970–1987 (karton 272).
 
+### URB-U-0065 — Husova hranice a průvod
+
+Dobové rychvaldské kroniky nově dokládají, že Husova oslava s průvodem a hranicí nebyla až novodobým jevem. Roku **1969** se po dechovém koncertu před MNV seřadil průvod na sokolské cvičiště, kde byla za setmění zapálena hranice; pořadatelem byla Národní fronta a projev pronesl Svatoslav Čechovský. Dne **4. 7. 1970** je znovu doložena Husova oslava s pálením hranice na Sokolovně a projev předsedy NF Vítězslava Gruščíka.
+
+Pro moderní podobu je přesněji doložen **5. 7. 1993**: tradiční symbolické pálení hranice, průvod v **17.00 od Husova sboru na hřiště Sokola Rychvald** a následující den tradiční pouť. Stejný výchozí bod, čas a cíl uvádí také Rychvaldský zpravodaj 4/1998 formulací `jako každý rok`; v roce 1998 průvod doprovázeli historicky odění trubači z Dessau. Kroniky dokládají další ročníky 1997 a pokračování tradice nejméně do **2007**.
+
+Roku 1993 je Jana Šilerová nezávisle doložena jako již osm let působící rychvaldská farářka, jejíž působení místní CČSH podle kroniky viditelně aktivizovalo. To z ní činí silnou kontextovou kandidátku pro archivní useknuté `Tradici ... obnovila far..`, ale žádný nalezený pramen zatím výslovně nepotvrzuje, že právě ona tradici obnovila. Filename se proto nedoplňuje a `URB-U-0065` zůstává open.
+
+Není doložena nepřerušená kontinuita mezi občanskými oslavami 1969–1970 a moderní církevně-obecní podobou po roce 1989 ani konkrétní rok obnovení. Také není bezpečně určeno, ke kterému ročníku patří archivní barevné snímky 049–054.
+
 ### URB-U-0086 a URB-U-0088 — chybějící plné originály
 
 Exact-name hledání všech cache doložených názvů v připojeném Google Drive skončilo bez shody. Další směr je obrazová shoda pod jinými názvy nebo jiné úložiště/záloha.
@@ -79,6 +89,6 @@ Exact-name hledání všech cache doložených názvů v připojeném Google Dri
 
 ## Další aktivní cíl
 
-`URB-U-0065`: **obnovená tradice husovské hranice — kdo ji obnovil, kdy, jak souvisí průvod a hranice a jak dlouho tradice pokračovala**.
+`URB-U-0067`: **Karel a Libuše Vodičkovi — pamětní deska, návštěvní fotografie, pohřeb roku 1970 a pietní uspořádání**.
 
 PR zůstává draft a nesmí být označen jako připravený ke sloučení bez výslovného rozhodnutí.
